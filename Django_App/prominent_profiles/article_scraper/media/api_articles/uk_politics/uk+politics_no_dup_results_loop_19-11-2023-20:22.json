@@ -1,0 +1,2871 @@
+[
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics",
+        "queryContext": {
+            "originalQuery": "uk politics",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 19,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Reason Meghan Markle and Prince Harry unlikely to spend Christmas in the <b>UK</b> explained",
+                "url": "https://www.mirror.co.uk/3am/us-celebrity-news/reason-meghan-markle-prince-harry-31477669",
+                "description": "There&#39;s ongoing speculation over whether Prince Harry and Meghan Markle will reunite with the Royal Family, including his father, King Charles III, over the Christmas period",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4c7a065a-515a-6362-135e-6793095cd8e0",
+                        "name": "Reason"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "Reason"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T20:07:00.0000000Z",
+                "video": {
+                    "name": "Prince Harry and Meghan attend opening of veterans training facility",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/91ec49d3-5ce8-4d89-8f54-b35d0dfde6e1/a195142a-6101-4ea7-9819-fcd5d9bc_650.mp4",
+                    "thumbnail": {
+                        "width": 640,
+                        "height": 360
+                    }
+                },
+                "category": "World"
+            },
+            {
+                "name": "Israel says tunnel found under Gaza hospital as hostage deal hopes grow",
+                "url": "https://www.bbc.com/news/live/world-middle-east-67466779?pinned_post_locator=urn:asset:fe33b6bb-3d4e-4637-b47a-8c9fad074234&pinned_post_asset_id=655a5ca72ea49e2bc009b995&pinned_post_type=share",
+                "description": "The latest IDF footage from al-Shifa comes as Hamas officials say 13,000 people have now been killed in the Palestinian enclave.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1ffafed3-2b37-b871-c271-aa855d98449a",
+                        "name": "Israel"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90eb9ff6-60ad-da43-d3fe-1ee3e3cb775a",
+                        "name": "Gaza Strip"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k3N4DqozNjgK376rAnFmsA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T19:45:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "ITV I&#39;m A Celebrity&#39;s Nigel Farage&#39;s huge net worth as bosses infuriate fans with fee payout",
+                "url": "https://www.mirror.co.uk/tv/tv-news/itv-im-celebritys-nigel-farages-31478407",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.bdky1KWkzwpLF3obO_rkMy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Former politician Nigel Farage, 59, is reportedly being paid a record-breaking fee of over \u00a31.5million for his stint on ITV&#39;s I&#39;m A Celebrity",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4e19a7ad-e1b4-0f74-86c3-ba3be21089da",
+                        "name": "Nigel Farage"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a55980ba-0515-d5b3-19d8-ebe9a6098e65",
+                        "name": "ITV"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Nigel Farage"
+                    },
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "ITV"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T19:44:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "How The Crown handles the conspiracies around Diana\u2019s death",
+                "url": "https://www.telegraph.co.uk/royal-family/2023/11/19/how-the-crown-handles-the-biggest-diana-death-conspiracies/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.CLG3uN-R5-0FfCczUfbyOC&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "The latest season has been heavily criticised for misframing Diana&#39;s death \u2013 but what is truth and what is fiction?",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f4bf63ea-0b6c-58e0-4587-64927290483f",
+                        "name": "Diana, Princess of Wales"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/76c21f12-fa00-1dcb-e164-64ea2379f563",
+                        "name": "The Crown"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Diana, Princess of Wales"
+                    },
+                    {
+                        "name": "The Crown"
+                    },
+                    {
+                        "name": "Death of Diana, Princess of Wales"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T18:08:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "The road to independence is even harder than in 2014",
+                "url": "https://www.thetimes.co.uk/article/the-road-to-independence-is-even-harder-than-2014-36jqq00bq",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.6HTenc1wmATWNV5-lmAibi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Scotland would also have retained the pound, as per the 2013 independence white paper. We would not have had to set up a central bank and an independent currency, still less adopt the much-maligned euro,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c4b23aa3-e427-a2e7-63f4-a5a9c86b5674",
+                        "name": "Independence"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T18:00:00.0000000Z"
+            },
+            {
+                "name": "A return to the scene of a big <b>political</b> stink",
+                "url": "https://www.theguardian.com/politics/2023/nov/19/a-return-to-the-scene-of-a-big-political-stink",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.t4_dKxmVr5eBbMszAlNI6y&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Ministerial changes | Global hunger | Great Snoring",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T16:48:00.0000000Z"
+            },
+            {
+                "name": "New Rwanda treaty seems unlikely to be ratified before new year",
+                "url": "https://www.independent.co.uk/news/uk/jeremy-hunt-rishi-sunak-suella-braverman-prime-minister-rwanda-b2450062.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.KxHMaKOJ06fvHmEkuvXX6y&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Rishi Sunak\u2019s new deal aimed at getting his asylum policy off the ground is not believed to be coming before Wednesday\u2019s autumn statement.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Rwanda"
+                    },
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "News UK"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T16:45:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "My brother the <b>political</b> prisoner, by Sanaa Seif",
+                "url": "https://www.theguardian.com/world/2023/nov/19/my-brother-the-democracy-campaigner-and-political-prisoner-by-sanaa-seif",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.naZU2oDwFPhSXhkY7lzzKS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "I was just his little sister, now I\u2019m trying to free him from an Egyptian prison. By Sanaa Seif",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7af820a7-1c8d-f12a-0ca9-87e192e82cee",
+                        "name": "Egypt"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/56f46305-0da3-cf73-a8cb-9985e8dca0be",
+                        "name": "Sana&#39;a"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3baa20e4-93c7-13f4-8bea-279d307c55a4",
+                        "name": "Seif"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T13:00:00.0000000Z"
+            },
+            {
+                "name": "EXCLUSIVE: Nigel Farage&#39;s secret French politician girlfriend Laure Ferrari WON&#39;T travel to Australia to meet him when he leaves the Jungle",
+                "url": "https://www.dailymail.co.uk/tvshowbiz/article-12767579/Nigel-Farages-secret-French-politician-girlfriend-Laure-Ferrari-WONT-travel-Australia-meet-leaves-Jungle.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.RU5P83AaO2dwE-VMARfqEC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Nigel Farage has a secret girlfriend but she will not be waiting to embrace him as he walks off the infamous I&#39;m A Celebrity bridge, the Daily Mail can reveal.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4e19a7ad-e1b4-0f74-86c3-ba3be21089da",
+                        "name": "Nigel Farage"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c7bfe2de-4f82-e23c-ae42-8544b5b5c0ea",
+                        "name": "France"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/557cb276-61b3-8a0b-ac35-3e0454034184",
+                        "name": "Secret"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Nigel Farage"
+                    },
+                    {
+                        "name": "France"
+                    },
+                    {
+                        "name": "Secret"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T12:29:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Autumn Statement: Hunt does not rule out income tax cuts",
+                "url": "https://www.bbc.co.uk/news/uk-politics-67467116",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.hjlVqdGlRXYyk5zMxzdxCi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Chancellor Jeremy Hunt has not ruled out cutting income tax in Wednesday&#39;s Autumn Statement, as he insisted economic growth was his priority. Mr Hunt is finalising the government&#39;s spending plans and he seeks to revive a stagnant British economy.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2bd73848-4b61-3c98-ba3e-c458fe954d74",
+                        "name": "Jeremy Hunt"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/53898896-4b9d-3bca-ee9d-9f90446e18df",
+                        "name": "Autumn Statement"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/33a4a47a-e243-7172-8a4a-462af7fce62f",
+                        "name": "Tax cut"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T12:07:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Britain\u2019s autumn statement is no time for short-termism",
+                "url": "https://www.ft.com/content/844fa0e3-9702-4a06-8445-2fa5259d2313",
+                "description": "The UK needs a disciplined statement that sets out a plan to lift its long-term growth potential. Yet with an election looming, the government also faces short-term political pressures. How Hunt balances these conflicting priorities will determine whether the chancellor\u2019s midweek speech is a boost or a restraint for the British economy.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d1d85ec7-1cbb-6ee9-88a8-8af94518438a",
+                        "name": "Time"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/621cfc3b-090f-7525-464a-a364919586a5",
+                        "name": "Statement"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Financial Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CdBlognZ1u9nda-gVEOS_w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T12:05:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Hunt backs Sunak to solve \u2018fearsomely complex\u2019 challenges on Rwanda asylum plan",
+                "url": "https://www.independent.co.uk/news/uk/jeremy-hunt-european-convention-on-human-rights-rwanda-prime-minister-rishi-sunak-b2449970.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.pvLQtM20QdqeyOMxpFlPey&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Jeremy Hunt has backed Rishi Sunak to solve the \u201cfearsomely complex\u201d challenge of getting the Rwanda asylum policy to work after it was deemed unlawful by the Supreme Court. The Chancellor said the Government does not want to leave the European Convention on Human Rights (ECHR) despite calls from the right of the Tory Party.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2bd73848-4b61-3c98-ba3e-c458fe954d74",
+                        "name": "Jeremy Hunt"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Jeremy Hunt"
+                    },
+                    {
+                        "name": "Rwanda"
+                    },
+                    {
+                        "name": "The Independent"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T10:38:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Hunt does not rule out tax cuts in Autumn Statement",
+                "url": "https://www.bbc.co.uk/news/uk-politics-67467116?at_medium=RSS&at_campaign=KARANGA",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.hjlVqdGlRXYyk5zMxzdxCi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "This breaking news story is being updated and more details will be published shortly. Please refresh the page for the fullest version.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2bd73848-4b61-3c98-ba3e-c458fe954d74",
+                        "name": "Jeremy Hunt"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/33a4a47a-e243-7172-8a4a-462af7fce62f",
+                        "name": "Tax cut"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/53898896-4b9d-3bca-ee9d-9f90446e18df",
+                        "name": "Autumn Statement"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T10:31:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Brits in line for \u2018important\u2019 tax cut as Jeremy Hunt finally takes axe to sky-high levies",
+                "url": "https://www.thesun.co.uk/news/24781797/jeremy-hunt-considers-nics-tax-cut-white-van-men/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.RXi9AC6hRV_s9tBx74BIly&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "JEREMY Hunt is considering handing white van men a tax cut next week \u2013 as he finally takes the axe to our sky-high levies. The Chancellor is poised to declare that now inflation is falling",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2bd73848-4b61-3c98-ba3e-c458fe954d74",
+                        "name": "Jeremy Hunt"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/69b02699-c106-0268-6075-3fdce49e1122",
+                        "name": "Line"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/33a4a47a-e243-7172-8a4a-462af7fce62f",
+                        "name": "Tax cut"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mZZguWnkRkVFPCoaQUmKEg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T08:52:00.0000000Z"
+            },
+            {
+                "name": "Gym owner Andreas Michli stands as London mayoral candidate",
+                "url": "https://www.bbc.com/news/uk-england-london-67443915",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.nUyZFS4AgtEk14kl-owYnC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Health and fitness entrepreneur Andreas Michli has announced his candidacy for the 2024 London mayoral elections. The independent candidate says he was driven to run in the election after he was &quot;radicalised by lockdown&quot;. Mr Michli was fined for attempting to keep his north London gym open during lockdown, but this was overturned in court.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8e0ba7b6-4225-fa8a-6369-1b5294e602a5",
+                        "name": "London"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k3N4DqozNjgK376rAnFmsA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T08:03:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Inside I\u2019m A Celeb star Nigel Farage\u2019s rollercoaster life as he survives PLANE crash, \u2018extreme\u2019 death threats and cancer",
+                "url": "https://www.thesun.co.uk/tv/24746738/im-a-celeb-nigel-farage-life-plane-crash-cancer/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.UYFBY1V0mz0wz3SD__bDrC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "NIGEL Farage has had a colourful life in and out of politics \u2013 and that\u2019s set to continue with his spot on I\u2019m A Celebrity. The former UKIP leader, 59, has been confirmed as part",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4e19a7ad-e1b4-0f74-86c3-ba3be21089da",
+                        "name": "Nigel Farage"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mZZguWnkRkVFPCoaQUmKEg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T06:05:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Iain Dale: \u2018I sold Princess Di\u2019s Audi for \u00a323k. The next owner sold it for \u00a31m\u2019",
+                "url": "https://www.telegraph.co.uk/money/consumer-affairs/iain-dale-princess-diana-audi-lbc-david-cameron/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.G7IiPJt_h1Gvc7Ld_va6AC&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "In late 1989, I was offered a job as PR manager with the Port of Tilbury. If I had accepted, I would have been one of the key people in the privatisation process and presumably made a seven-figure sum in a management buyout, as the other investors did.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2a96b908-f95e-16e4-f34d-eae925f144a6",
+                        "name": "Iain Dale"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f4bf63ea-0b6c-58e0-4587-64927290483f",
+                        "name": "Diana, Princess of Wales"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/730a7f52-1008-b42b-2fb3-7658cbaa449b",
+                        "name": "Audi"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T05:00:00.0000000Z"
+            },
+            {
+                "name": "MAIL ON SUNDAY COMMENT: A farce that proves our broken asylum system is in dire need of reform",
+                "url": "https://www.dailymail.co.uk/news/article-12766777/MAIL-SUNDAY-COMMENT-farce-proves-broken-asylum-dire-need-reform.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.yqYK4kQA1FpuxHx6nWO2SS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "COMMENT: Any fair-minded, decent person will be enraged by the insulting, grotesque parody of justice which allowed a convicted rapist to remain in this country.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/50300d8a-2cf2-4968-4c3b-754e0e17484a",
+                        "name": "Asylum"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/93a3e0e2-aecf-e53b-8432-c15f400cfb4e",
+                        "name": "Daily Mail"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e2dff0b6-ba26-51a0-e53d-49ae737e99a3",
+                        "name": "Mail"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T01:35:00.0000000Z"
+            },
+            {
+                "name": "7 politicians who appeared on reality TV \u2014 and our expert\u2019s verdict",
+                "url": "https://www.thetimes.co.uk/article/politicians-reality-tv-verdict-nigel-farage-im-celebrity-2023-xkjzkfvgk",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.WgLRji0Mvjq8aaj6mk2h9i&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "As Nigel Farage heads to the jungle as part of I\u2019m A Celebrity\u2026 Get Me Out of Here! we look at other politicians who have taken the reality TV leap",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/485b2a51-d95c-6470-9357-463834668752",
+                        "name": "Verdict"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T00:01:00.0000000Z",
+                "category": "Entertainment"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics",
+        "queryContext": {
+            "originalQuery": "uk politics",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 127,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "ITV I&#39;m A Celebrity&#39;s Nigel Farage&#39;s huge net worth as bosses infuriate fans with fee payout",
+                "url": "https://www.mirror.co.uk/tv/tv-news/itv-im-celebritys-nigel-farages-31478407",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.bdky1KWkzwpLF3obO_rkMy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Former politician Nigel Farage, 59, is reportedly being paid a record-breaking fee of over \u00a31.5million for his stint on ITV&#39;s I&#39;m A Celebrity",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4e19a7ad-e1b4-0f74-86c3-ba3be21089da",
+                        "name": "Nigel Farage"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a55980ba-0515-d5b3-19d8-ebe9a6098e65",
+                        "name": "ITV"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Nigel Farage"
+                    },
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "ITV"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T19:44:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "\u2018Ill-timed tax breaks would benefit wealthy Scots and harm public services,\u2019 Chancellor told",
+                "url": "https://www.yahoo.com/news/ill-timed-tax-breaks-benefit-185832467.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.gAiQ51E_SqmyCDUbdfmh8y&pid=News",
+                        "width": 700,
+                        "height": 437
+                    }
+                },
+                "description": "Scotland\u2019s Finance Secretary has urged the Chancellor to avoid \u201cill-timed tax breaks\u201d in Wednesday\u2019s Autumn Statement that she said would benefit the wealthy but exert more pressure on public services.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae997c08-75ff-9e61-aa23-7d79694aa474",
+                        "name": "Chancellor"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9f9e67e3-3490-cd52-6654-42813c9855c9",
+                        "name": "Tax break"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3bd5f7db-c521-3212-3e05-326798479c94",
+                        "name": "Benefit"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.UM0amhg3WAObCEGqc4w_Cw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T18:59:00.0000000Z"
+            },
+            {
+                "name": "First British person to walk on the moon by 2025, Nasa predicts",
+                "url": "https://www.telegraph.co.uk/us/news/2023/11/19/first-british-person-to-walk-on-the-moon-by-2025-nasa/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.mxXGHIybv1uWixtilXzRwS&pid=News",
+                        "width": 700,
+                        "height": 437
+                    }
+                },
+                "description": "A British astronaut could walk on the Moon for the first time by 2025, Nasa officials have told the UK Government. The space agency told Michelle Donelan, the Science Secretary, it was \u201cincredibly possible\u201d that a British person could be on the Artemis III mission \u2013 the first time that humans will walk on the Moon\u2019s surface in more than 50 years.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8e453c18-9276-b0be-46ec-9b8ec4d56c44",
+                        "name": "Walk-on"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0928d9a7-3f45-46ad-e862-bf8405ea54b0",
+                        "name": "Moon"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Walk-on"
+                    },
+                    {
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "name": "Moon"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T18:30:00.0000000Z",
+                "category": "ScienceAndTechnology"
+            },
+            {
+                "name": "The road to independence is even harder than in 2014",
+                "url": "https://www.thetimes.co.uk/article/the-road-to-independence-is-even-harder-than-2014-36jqq00bq",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.6HTenc1wmATWNV5-lmAibi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Scotland would also have retained the pound, as per the 2013 independence white paper. We would not have had to set up a central bank and an independent currency, still less adopt the much-maligned euro,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c4b23aa3-e427-a2e7-63f4-a5a9c86b5674",
+                        "name": "Independence"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T18:00:00.0000000Z"
+            },
+            {
+                "name": "US ambassador Jane Hartley: \u2018Sunak\u2019s government is like ours \u2013 honest and direct\u2019",
+                "url": "https://www.msn.com/en-us/news/world/us-ambassador-jane-hartley-sunak-s-government-is-like-ours-honest-and-direct/ar-AA1kbHTx",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.x3ppSfsAjA8PPMxQJBl_dS&pid=News",
+                        "width": 700,
+                        "height": 437
+                    }
+                },
+                "description": "Key points that distinguish Winfield House from its neighbours: it is the sole Neo-Georgian villa along the Outer Crescent of Regent\u2019s Park with its own US Secret Service detail. Its 12.5-acre grounds constitute the second-largest private garden in London,",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Telegraph on MSN.com",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T18:00:00.0000000Z"
+            },
+            {
+                "name": "Met Office verdict on exact date snow to hit <b>UK</b> before end of November in cold snap",
+                "url": "https://www.mirror.co.uk/news/uk-news/met-office-verdict-exact-date-31477195",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.EQSyd-42IltrRAXdAXWt2y&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Weather maps from WXCharts predict that a snow front is due to arrive in the UK on Sunday November 26 which will stretch down from Scotland to the borders and northern parts of England",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/485b2a51-d95c-6470-9357-463834668752",
+                        "name": "Verdict"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0b7fb26c-623f-50d1-9454-0d5a0866e68e",
+                        "name": "Met Office"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "Verdict"
+                    },
+                    {
+                        "name": "Met Office"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T17:11:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "A return to the scene of a big <b>political</b> stink",
+                "url": "https://www.theguardian.com/politics/2023/nov/19/a-return-to-the-scene-of-a-big-political-stink",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.t4_dKxmVr5eBbMszAlNI6y&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Ministerial changes | Global hunger | Great Snoring",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T16:48:00.0000000Z"
+            },
+            {
+                "name": "Is Rishi Sunak\u2019s Rwanda plan finally dead, or merely resting?",
+                "url": "https://www.independent.co.uk/news/uk/politics/rishi-sunak-rwanda-asylum-braverman-b2450019.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.pvLQtM20QdqeyOMxpFlPey&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The PM is desperately trying to save his deportation policy after this week\u2019s devasting Supreme Court decision. Adam Forrest asks whether there is a clever way around the judges\u2019 ruling",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T15:55:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Joe Manchin inches even closer to third-party presidential run as he blasts Donald Trump and Joe Biden for &#39;visceral hatred&#39;",
+                "url": "https://www.dailymail.co.uk/news/article-12767711/Joe-Manchin-inches-closer-party-presidential-run-blasts-Donald-Trump-Joe-Biden-Ive-decided-mobilize-radical-middle.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.kZY7MwZZ7czCdysgpsSsci&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Sen. Joe Manchin (D-W.V.) made one of his biggest signs that he will make a third-party presidential bid on Sunday when claiming he&#39;s seeking to &#39;mobilize the radical middle.&#39;",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cad484f9-be75-7a78-12dd-16233f823cd7",
+                        "name": "Joe Biden"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1a466af2-ed23-25bd-794d-1ca925e4681b",
+                        "name": "Donald Trump"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/dcc67b00-e9f2-5990-dce1-38502ad362c0",
+                        "name": "Joe Manchin"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Joe Biden"
+                    },
+                    {
+                        "name": "Donald Trump"
+                    },
+                    {
+                        "name": "Joe Manchin"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T15:46:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Jailed Russian nationalist Girkin warns of &#39;sham&#39; presidential election",
+                "url": "https://news.yahoo.com/jailed-russian-nationalist-nominates-himself-180726026.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.HzVdHhgLbWmkF26KpVk6Iy&pid=News",
+                        "width": 700,
+                        "height": 503
+                    }
+                },
+                "description": "MOSCOW (Reuters) -Pro-war Russian nationalist Igor Girkin, who is in custody awaiting trial for inciting extremism, said on Sunday he wanted to run for president even though he understood the March election would be &quot;sham&quot; with the winner already clear.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ec1b43de-cb21-3a5d-6735-066fe4ba4f1b",
+                        "name": "Igor Girkin"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ed4fce79-8ad4-352b-205b-e4db36c49bbe",
+                        "name": "Russia"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fc6220b0-8174-248c-e3c1-e9ee4efc5b25",
+                        "name": "Presidential election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "YAHOO!News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.nYADEgS75l8rdCg9D-p_OQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T15:37:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Winter pressure may hit NHS Wales wait targets - minister",
+                "url": "https://www.bbc.com/news/uk-wales-67464131",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.XHviQZ_ss-gSId3sbLRCKC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Wales&#39; health minister says she is hopeful winter pressures will not hit targets to bring down waiting lists. However, Eluned Morgan said she would not guarantee that this year&#39;s winter pressures would not further jeopardise the targets. The minister conceded that it would be &quot;it will be really tough and it does depend on what happens this winter&quot;.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k3N4DqozNjgK376rAnFmsA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T15:18:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "My brother the <b>political</b> prisoner, by Sanaa Seif",
+                "url": "https://www.theguardian.com/world/2023/nov/19/my-brother-the-democracy-campaigner-and-political-prisoner-by-sanaa-seif",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.naZU2oDwFPhSXhkY7lzzKS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "I was just his little sister, now I\u2019m trying to free him from an Egyptian prison. By Sanaa Seif",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7af820a7-1c8d-f12a-0ca9-87e192e82cee",
+                        "name": "Egypt"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/56f46305-0da3-cf73-a8cb-9985e8dca0be",
+                        "name": "Sana&#39;a"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3baa20e4-93c7-13f4-8bea-279d307c55a4",
+                        "name": "Seif"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T13:00:00.0000000Z"
+            },
+            {
+                "name": "EXCLUSIVE: Nigel Farage&#39;s secret French politician girlfriend Laure Ferrari WON&#39;T travel to Australia to meet him when he leaves the Jungle",
+                "url": "https://www.dailymail.co.uk/tvshowbiz/article-12767579/Nigel-Farages-secret-French-politician-girlfriend-Laure-Ferrari-WONT-travel-Australia-meet-leaves-Jungle.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.RU5P83AaO2dwE-VMARfqEC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Nigel Farage has a secret girlfriend but she will not be waiting to embrace him as he walks off the infamous I&#39;m A Celebrity bridge, the Daily Mail can reveal.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4e19a7ad-e1b4-0f74-86c3-ba3be21089da",
+                        "name": "Nigel Farage"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c7bfe2de-4f82-e23c-ae42-8544b5b5c0ea",
+                        "name": "France"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/557cb276-61b3-8a0b-ac35-3e0454034184",
+                        "name": "Secret"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Nigel Farage"
+                    },
+                    {
+                        "name": "France"
+                    },
+                    {
+                        "name": "Secret"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T12:29:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Israel-Gaza: Protests against MPs cross a line, says Rachel Reeves",
+                "url": "https://www.bbc.co.uk/news/uk-politics-67466826.amp",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.-jocPwODQMGAjvJar1gpEC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Some of the protests targeting MPs over the Israel-Gaza war are &quot;crossing the line&quot; into intimidation, the shadow chancellor Rachel Reeves has said. She made the comments after a demonstration was held in north London on Saturday close to Labour leader Sir Keir Starmer&#39;s constituency office.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/44912ba0-6f05-8470-af62-7b2639fa6d05",
+                        "name": "Rachel Reeves"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/774efdce-dd4e-bef1-5473-cc2abd9ff2cb",
+                        "name": "Gaza City"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T12:22:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Autumn Statement: Hunt does not rule out income tax cuts",
+                "url": "https://www.bbc.co.uk/news/uk-politics-67467116",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.hjlVqdGlRXYyk5zMxzdxCi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Chancellor Jeremy Hunt has not ruled out cutting income tax in Wednesday&#39;s Autumn Statement, as he insisted economic growth was his priority. Mr Hunt is finalising the government&#39;s spending plans and he seeks to revive a stagnant British economy.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2bd73848-4b61-3c98-ba3e-c458fe954d74",
+                        "name": "Jeremy Hunt"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/53898896-4b9d-3bca-ee9d-9f90446e18df",
+                        "name": "Autumn Statement"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/33a4a47a-e243-7172-8a4a-462af7fce62f",
+                        "name": "Tax cut"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T12:07:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Britain\u2019s autumn statement is no time for short-termism",
+                "url": "https://www.ft.com/content/844fa0e3-9702-4a06-8445-2fa5259d2313",
+                "description": "The UK needs a disciplined statement that sets out a plan to lift its long-term growth potential. Yet with an election looming, the government also faces short-term political pressures. How Hunt balances these conflicting priorities will determine whether the chancellor\u2019s midweek speech is a boost or a restraint for the British economy.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d1d85ec7-1cbb-6ee9-88a8-8af94518438a",
+                        "name": "Time"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/621cfc3b-090f-7525-464a-a364919586a5",
+                        "name": "Statement"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Financial Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CdBlognZ1u9nda-gVEOS_w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T12:05:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Hunt refuses to rule out shock income tax cut amid warnings of revolt if budget favours rich",
+                "url": "https://www.independent.co.uk/news/uk/politics/sunak-hunt-income-tax-cuts-tories-b2449910.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.CkBy3Wlcs3E2iOy9JlhSfS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Jeremy Hunt has warned of backlash from Tory MPs and voters in the \u201cred wall\u201d north and Midlands if he used the autumn statement to offer tax cuts for the rich.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2bd73848-4b61-3c98-ba3e-c458fe954d74",
+                        "name": "Jeremy Hunt"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Jeremy Hunt"
+                    },
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "Tax cut"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T10:36:00.0000000Z",
+                "video": {
+                    "name": "Hunt says government \u2018made it easier\u2019 for BoE to bring down inflation",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/09b19c06-c3e5-4e8c-a8d6-6ac203c4b4c7/8099ca6b-8462-4044-b94f-03417de0_650.mp4",
+                    "thumbnail": {
+                        "width": 640,
+                        "height": 360
+                    }
+                },
+                "category": "Politics"
+            },
+            {
+                "name": "Brits in line for \u2018important\u2019 tax cut as Jeremy Hunt finally takes axe to sky-high levies",
+                "url": "https://www.thesun.co.uk/news/24781797/jeremy-hunt-considers-nics-tax-cut-white-van-men/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.RXi9AC6hRV_s9tBx74BIly&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "JEREMY Hunt is considering handing white van men a tax cut next week \u2013 as he finally takes the axe to our sky-high levies. The Chancellor is poised to declare that now inflation is falling",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2bd73848-4b61-3c98-ba3e-c458fe954d74",
+                        "name": "Jeremy Hunt"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/69b02699-c106-0268-6075-3fdce49e1122",
+                        "name": "Line"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/33a4a47a-e243-7172-8a4a-462af7fce62f",
+                        "name": "Tax cut"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mZZguWnkRkVFPCoaQUmKEg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T08:52:00.0000000Z"
+            },
+            {
+                "name": "Gym owner stands as London mayoral candidate",
+                "url": "https://www.msn.com/en-us/news/world/gym-owner-stands-as-london-mayoral-candidate/ar-AA1kaK6f",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.CGKPheJBNAtccpV0_7GwES&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Health and fitness entrepreneur Andreas Michli has announced his candidacy for the 2024 London mayoral elections. The independent candidate says he was driven to run in the election after he was &quot;radicalised by lockdown&quot;. Mr Michli was fined for attempting to keep his north London gym open during lockdown, but this was overturned in court.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8e0ba7b6-4225-fa8a-6369-1b5294e602a5",
+                        "name": "London"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "London"
+                    },
+                    {
+                        "name": "BBC"
+                    },
+                    {
+                        "name": "United States"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC on MSN.com",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k3N4DqozNjgK376rAnFmsA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T08:03:32.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Autumn Statement: Homes close to new pylons to get \u00a31,000 off bills",
+                "url": "https://www.bbc.com/news/uk-politics-67465841.amp",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Nq6vIe0alR_n7ae8AxfoKi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Households living close to new pylons and electricity substations could receive up to \u00a31,000 a year off energy bills for a decade under new plans. It is hoped the plan would convince people to support upgrades in their area, which are needed in part for new electric vehicle charging points.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4c5e293-eca8-a3fc-0f12-ee5ca320c42e",
+                        "name": "Pylon"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/53898896-4b9d-3bca-ee9d-9f90446e18df",
+                        "name": "Autumn Statement"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k3N4DqozNjgK376rAnFmsA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T07:41:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>UK</b>&#39;s Hunt says won&#39;t implement tax cuts that fuel inflation",
+                "url": "https://www.cnbc.com/2023/11/19/uks-hunt-says-wont-implement-tax-cuts-that-fuel-inflation.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.cugvb5XS6RmjTKMd7HMtAi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "British Finance Minister Jeremy Hunt said on Sunday that he would not implement tax cuts that would push up inflation.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2bd73848-4b61-3c98-ba3e-c458fe954d74",
+                        "name": "Jeremy Hunt"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "CNBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k-6pjyk-qP1jNZnkgM3f3A&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T07:09:00.0000000Z"
+            },
+            {
+                "name": "Chancellor plans to take \u00a31k off annual energy bills for those near new pylons",
+                "url": "https://www.telegraph.co.uk/politics/2023/11/19/chancellor-plans-to-take-1k-off-energy-bills/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.SEW_rLHws2GK6L7Yjdv-pC&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "Jeremy Hunt will unveil plan in his Autumn Statement, as part of drive to slash time taken to deliver infrastructure",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae997c08-75ff-9e61-aa23-7d79694aa474",
+                        "name": "Chancellor"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4c5e293-eca8-a3fc-0f12-ee5ca320c42e",
+                        "name": "Pylon"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Chancellor"
+                    },
+                    {
+                        "name": "Pylon"
+                    },
+                    {
+                        "name": "1000"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T07:00:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Inside I\u2019m A Celeb star Nigel Farage\u2019s rollercoaster life as he survives PLANE crash, \u2018extreme\u2019 death threats and cancer",
+                "url": "https://www.thesun.co.uk/tv/24746738/im-a-celeb-nigel-farage-life-plane-crash-cancer/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.UYFBY1V0mz0wz3SD__bDrC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "NIGEL Farage has had a colourful life in and out of politics \u2013 and that\u2019s set to continue with his spot on I\u2019m A Celebrity. The former UKIP leader, 59, has been confirmed as part",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4e19a7ad-e1b4-0f74-86c3-ba3be21089da",
+                        "name": "Nigel Farage"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mZZguWnkRkVFPCoaQUmKEg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T06:05:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "The tax move that could spare the Tories a crushing defeat",
+                "url": "https://www.yahoo.com/news/tax-move-could-spare-tories-060000536.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.UxQYmOdGMqTOgiWiBX5xay&pid=News",
+                        "width": 700,
+                        "height": 438
+                    }
+                },
+                "description": "The UK hasn\u2019t yet licked inflation. Yes, the headline annual figure, as measured by the consumer prices index, dropped to 4.6pc in October, sharply down from 6.7pc the previous month.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.UM0amhg3WAObCEGqc4w_Cw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T06:00:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Argentines vote in election that could lead Trump-admiring populist to the presidency",
+                "url": "https://news.yahoo.com/argentines-vote-election-could-lead-051156928.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.xyDj76R2xzKYSxddN0UbNC&pid=News",
+                        "width": 700,
+                        "height": 479
+                    }
+                },
+                "description": "Voters in Argentina head to the polls Sunday in a presidential runoff election that will determine whether South America\u2019s second-largest economy will take a rightward shift. Populist Javier Milei, an upstart candidate who got his start as a television talking head,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1a466af2-ed23-25bd-794d-1ca925e4681b",
+                        "name": "Donald Trump"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d682cd1a-ae7c-c184-0ad6-43ba9a265873",
+                        "name": "United States presidential election"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c19ae404-c9ab-0875-bf22-1f8ac1d7967b",
+                        "name": "Argentinian people"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "YAHOO!News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.nYADEgS75l8rdCg9D-p_OQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T05:11:00.0000000Z"
+            },
+            {
+                "name": "Cricket World Cup 2023 Final Livestream: How to Watch India vs. Australia From Anywhere",
+                "url": "https://www.cnet.com/tech/services-and-software/cricket-world-cup-2023-final-livestream-how-to-watch-india-vs-australia-from-anywhere/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.cSM6TYc8tykHE-Fh22Zkhi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "India take on Australia in the 2023 Cricket World Cup final at the Narendra Modi Stadium in Ahmedabad, India, on Sunday, Nov. 19. Play is set to start at 2 p.m. IST local time in India. (That&#39;s 8:30 a.m. GMT in the UK, 7:30 p.m. AEDT in Australia, and 3:30 a.m. ET or 12:30 a.m. PT in the US.)",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/06de2191-243d-a83f-6990-2eb1c7f3382a",
+                        "name": "Australia"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "CNET",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.vS3pKUrPWgIKkQBHtUkEPQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T04:31:00.0000000Z",
+                "category": "ScienceAndTechnology"
+            },
+            {
+                "name": "Michael Matheson must go \u2014 keeping him will harm <b>politics</b>",
+                "url": "https://www.thetimes.co.uk/article/yy-bowditch-19-sgtnmmhbm",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ftZSWvcPyj6NDewKWq4h4i&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "A s Scottish government ministers go, Michael Matheson has a reputation as one of the more able. He\u2019s certainly among the most experienced in Humza Yousaf\u2019s novice cabinet. An",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b5f5689a-dfe1-5e46-2024-6e85278ac08b",
+                        "name": "Michael Matheson"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T00:01:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics",
+        "queryContext": {
+            "originalQuery": "uk politics",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 227,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "ITV I&#39;m A Celebrity&#39;s Nigel Farage&#39;s huge net worth as bosses infuriate fans with fee payout",
+                "url": "https://www.mirror.co.uk/tv/tv-news/itv-im-celebritys-nigel-farages-31478407",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.bdky1KWkzwpLF3obO_rkMy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Former politician Nigel Farage, 59, is reportedly being paid a record-breaking fee of over \u00a31.5million for his stint on ITV&#39;s I&#39;m A Celebrity",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4e19a7ad-e1b4-0f74-86c3-ba3be21089da",
+                        "name": "Nigel Farage"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a55980ba-0515-d5b3-19d8-ebe9a6098e65",
+                        "name": "ITV"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Nigel Farage"
+                    },
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "ITV"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T19:44:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "\u2018Ill-timed tax breaks would benefit wealthy Scots and harm public services,\u2019 Chancellor told",
+                "url": "https://www.yahoo.com/news/ill-timed-tax-breaks-benefit-185832467.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.gAiQ51E_SqmyCDUbdfmh8y&pid=News",
+                        "width": 700,
+                        "height": 437
+                    }
+                },
+                "description": "Scotland\u2019s Finance Secretary has urged the Chancellor to avoid \u201cill-timed tax breaks\u201d in Wednesday\u2019s Autumn Statement that she said would benefit the wealthy but exert more pressure on public services.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae997c08-75ff-9e61-aa23-7d79694aa474",
+                        "name": "Chancellor"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9f9e67e3-3490-cd52-6654-42813c9855c9",
+                        "name": "Tax break"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3bd5f7db-c521-3212-3e05-326798479c94",
+                        "name": "Benefit"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.UM0amhg3WAObCEGqc4w_Cw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T18:59:00.0000000Z"
+            },
+            {
+                "name": "First British person to walk on the moon by 2025, Nasa predicts",
+                "url": "https://www.telegraph.co.uk/us/news/2023/11/19/first-british-person-to-walk-on-the-moon-by-2025-nasa/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.mxXGHIybv1uWixtilXzRwS&pid=News",
+                        "width": 700,
+                        "height": 437
+                    }
+                },
+                "description": "A British astronaut could walk on the Moon for the first time by 2025, Nasa officials have told the UK Government. The space agency told Michelle Donelan, the Science Secretary, it was \u201cincredibly possible\u201d that a British person could be on the Artemis III mission \u2013 the first time that humans will walk on the Moon\u2019s surface in more than 50 years.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8e453c18-9276-b0be-46ec-9b8ec4d56c44",
+                        "name": "Walk-on"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0928d9a7-3f45-46ad-e862-bf8405ea54b0",
+                        "name": "Moon"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Walk-on"
+                    },
+                    {
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "name": "Moon"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T18:30:00.0000000Z",
+                "category": "ScienceAndTechnology"
+            },
+            {
+                "name": "The road to independence is even harder than in 2014",
+                "url": "https://www.thetimes.co.uk/article/the-road-to-independence-is-even-harder-than-2014-36jqq00bq",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.6HTenc1wmATWNV5-lmAibi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Scotland would also have retained the pound, as per the 2013 independence white paper. We would not have had to set up a central bank and an independent currency, still less adopt the much-maligned euro,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c4b23aa3-e427-a2e7-63f4-a5a9c86b5674",
+                        "name": "Independence"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T18:00:00.0000000Z"
+            },
+            {
+                "name": "US ambassador Jane Hartley: \u2018Sunak\u2019s government is like ours \u2013 honest and direct\u2019",
+                "url": "https://www.msn.com/en-us/news/world/us-ambassador-jane-hartley-sunak-s-government-is-like-ours-honest-and-direct/ar-AA1kbHTx",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.x3ppSfsAjA8PPMxQJBl_dS&pid=News",
+                        "width": 700,
+                        "height": 437
+                    }
+                },
+                "description": "Key points that distinguish Winfield House from its neighbours: it is the sole Neo-Georgian villa along the Outer Crescent of Regent\u2019s Park with its own US Secret Service detail. Its 12.5-acre grounds constitute the second-largest private garden in London,",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Telegraph on MSN.com",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T18:00:00.0000000Z"
+            },
+            {
+                "name": "Met Office verdict on exact date snow to hit <b>UK</b> before end of November in cold snap",
+                "url": "https://www.mirror.co.uk/news/uk-news/met-office-verdict-exact-date-31477195",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.EQSyd-42IltrRAXdAXWt2y&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Weather maps from WXCharts predict that a snow front is due to arrive in the UK on Sunday November 26 which will stretch down from Scotland to the borders and northern parts of England",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/485b2a51-d95c-6470-9357-463834668752",
+                        "name": "Verdict"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0b7fb26c-623f-50d1-9454-0d5a0866e68e",
+                        "name": "Met Office"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "Verdict"
+                    },
+                    {
+                        "name": "Met Office"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T17:11:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "A return to the scene of a big <b>political</b> stink",
+                "url": "https://www.theguardian.com/politics/2023/nov/19/a-return-to-the-scene-of-a-big-political-stink",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.t4_dKxmVr5eBbMszAlNI6y&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Ministerial changes | Global hunger | Great Snoring",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T16:48:00.0000000Z"
+            },
+            {
+                "name": "Is Rishi Sunak\u2019s Rwanda plan finally dead, or merely resting?",
+                "url": "https://www.independent.co.uk/news/uk/politics/rishi-sunak-rwanda-asylum-braverman-b2450019.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.pvLQtM20QdqeyOMxpFlPey&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The PM is desperately trying to save his deportation policy after this week\u2019s devasting Supreme Court decision. Adam Forrest asks whether there is a clever way around the judges\u2019 ruling",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T15:55:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Joe Manchin inches even closer to third-party presidential run as he blasts Donald Trump and Joe Biden for &#39;visceral hatred&#39;",
+                "url": "https://www.dailymail.co.uk/news/article-12767711/Joe-Manchin-inches-closer-party-presidential-run-blasts-Donald-Trump-Joe-Biden-Ive-decided-mobilize-radical-middle.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.kZY7MwZZ7czCdysgpsSsci&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Sen. Joe Manchin (D-W.V.) made one of his biggest signs that he will make a third-party presidential bid on Sunday when claiming he&#39;s seeking to &#39;mobilize the radical middle.&#39;",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cad484f9-be75-7a78-12dd-16233f823cd7",
+                        "name": "Joe Biden"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1a466af2-ed23-25bd-794d-1ca925e4681b",
+                        "name": "Donald Trump"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/dcc67b00-e9f2-5990-dce1-38502ad362c0",
+                        "name": "Joe Manchin"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Joe Biden"
+                    },
+                    {
+                        "name": "Donald Trump"
+                    },
+                    {
+                        "name": "Joe Manchin"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T15:46:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Jailed Russian nationalist Girkin warns of &#39;sham&#39; presidential election",
+                "url": "https://news.yahoo.com/jailed-russian-nationalist-nominates-himself-180726026.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.HzVdHhgLbWmkF26KpVk6Iy&pid=News",
+                        "width": 700,
+                        "height": 503
+                    }
+                },
+                "description": "MOSCOW (Reuters) -Pro-war Russian nationalist Igor Girkin, who is in custody awaiting trial for inciting extremism, said on Sunday he wanted to run for president even though he understood the March election would be &quot;sham&quot; with the winner already clear.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ec1b43de-cb21-3a5d-6735-066fe4ba4f1b",
+                        "name": "Igor Girkin"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ed4fce79-8ad4-352b-205b-e4db36c49bbe",
+                        "name": "Russia"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fc6220b0-8174-248c-e3c1-e9ee4efc5b25",
+                        "name": "Presidential election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "YAHOO!News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.nYADEgS75l8rdCg9D-p_OQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T15:37:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Winter pressure may hit NHS Wales wait targets - minister",
+                "url": "https://www.bbc.com/news/uk-wales-67464131",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.XHviQZ_ss-gSId3sbLRCKC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Wales&#39; health minister says she is hopeful winter pressures will not hit targets to bring down waiting lists. However, Eluned Morgan said she would not guarantee that this year&#39;s winter pressures would not further jeopardise the targets. The minister conceded that it would be &quot;it will be really tough and it does depend on what happens this winter&quot;.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k3N4DqozNjgK376rAnFmsA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T15:18:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "My brother the <b>political</b> prisoner, by Sanaa Seif",
+                "url": "https://www.theguardian.com/world/2023/nov/19/my-brother-the-democracy-campaigner-and-political-prisoner-by-sanaa-seif",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.naZU2oDwFPhSXhkY7lzzKS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "I was just his little sister, now I\u2019m trying to free him from an Egyptian prison. By Sanaa Seif",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7af820a7-1c8d-f12a-0ca9-87e192e82cee",
+                        "name": "Egypt"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/56f46305-0da3-cf73-a8cb-9985e8dca0be",
+                        "name": "Sana&#39;a"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3baa20e4-93c7-13f4-8bea-279d307c55a4",
+                        "name": "Seif"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T13:00:00.0000000Z"
+            },
+            {
+                "name": "EXCLUSIVE: Nigel Farage&#39;s secret French politician girlfriend Laure Ferrari WON&#39;T travel to Australia to meet him when he leaves the Jungle",
+                "url": "https://www.dailymail.co.uk/tvshowbiz/article-12767579/Nigel-Farages-secret-French-politician-girlfriend-Laure-Ferrari-WONT-travel-Australia-meet-leaves-Jungle.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.RU5P83AaO2dwE-VMARfqEC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Nigel Farage has a secret girlfriend but she will not be waiting to embrace him as he walks off the infamous I&#39;m A Celebrity bridge, the Daily Mail can reveal.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4e19a7ad-e1b4-0f74-86c3-ba3be21089da",
+                        "name": "Nigel Farage"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c7bfe2de-4f82-e23c-ae42-8544b5b5c0ea",
+                        "name": "France"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/557cb276-61b3-8a0b-ac35-3e0454034184",
+                        "name": "Secret"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Nigel Farage"
+                    },
+                    {
+                        "name": "France"
+                    },
+                    {
+                        "name": "Secret"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T12:29:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Israel-Gaza: Protests against MPs cross a line, says Rachel Reeves",
+                "url": "https://www.bbc.co.uk/news/uk-politics-67466826.amp",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.-jocPwODQMGAjvJar1gpEC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Some of the protests targeting MPs over the Israel-Gaza war are &quot;crossing the line&quot; into intimidation, the shadow chancellor Rachel Reeves has said. She made the comments after a demonstration was held in north London on Saturday close to Labour leader Sir Keir Starmer&#39;s constituency office.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/44912ba0-6f05-8470-af62-7b2639fa6d05",
+                        "name": "Rachel Reeves"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/774efdce-dd4e-bef1-5473-cc2abd9ff2cb",
+                        "name": "Gaza City"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T12:22:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Autumn Statement: Hunt does not rule out income tax cuts",
+                "url": "https://www.bbc.co.uk/news/uk-politics-67467116",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.hjlVqdGlRXYyk5zMxzdxCi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Chancellor Jeremy Hunt has not ruled out cutting income tax in Wednesday&#39;s Autumn Statement, as he insisted economic growth was his priority. Mr Hunt is finalising the government&#39;s spending plans and he seeks to revive a stagnant British economy.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2bd73848-4b61-3c98-ba3e-c458fe954d74",
+                        "name": "Jeremy Hunt"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/53898896-4b9d-3bca-ee9d-9f90446e18df",
+                        "name": "Autumn Statement"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/33a4a47a-e243-7172-8a4a-462af7fce62f",
+                        "name": "Tax cut"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T12:07:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Britain\u2019s autumn statement is no time for short-termism",
+                "url": "https://www.ft.com/content/844fa0e3-9702-4a06-8445-2fa5259d2313",
+                "description": "The UK needs a disciplined statement that sets out a plan to lift its long-term growth potential. Yet with an election looming, the government also faces short-term political pressures. How Hunt balances these conflicting priorities will determine whether the chancellor\u2019s midweek speech is a boost or a restraint for the British economy.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d1d85ec7-1cbb-6ee9-88a8-8af94518438a",
+                        "name": "Time"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/621cfc3b-090f-7525-464a-a364919586a5",
+                        "name": "Statement"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Financial Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CdBlognZ1u9nda-gVEOS_w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T12:05:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Hunt refuses to rule out shock income tax cut amid warnings of revolt if budget favours rich",
+                "url": "https://www.independent.co.uk/news/uk/politics/sunak-hunt-income-tax-cuts-tories-b2449910.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.CkBy3Wlcs3E2iOy9JlhSfS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Jeremy Hunt has warned of backlash from Tory MPs and voters in the \u201cred wall\u201d north and Midlands if he used the autumn statement to offer tax cuts for the rich.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2bd73848-4b61-3c98-ba3e-c458fe954d74",
+                        "name": "Jeremy Hunt"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Jeremy Hunt"
+                    },
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "Tax cut"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T10:36:00.0000000Z",
+                "video": {
+                    "name": "Hunt says government \u2018made it easier\u2019 for BoE to bring down inflation",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/09b19c06-c3e5-4e8c-a8d6-6ac203c4b4c7/8099ca6b-8462-4044-b94f-03417de0_650.mp4",
+                    "thumbnail": {
+                        "width": 640,
+                        "height": 360
+                    }
+                },
+                "category": "Politics"
+            },
+            {
+                "name": "Brits in line for \u2018important\u2019 tax cut as Jeremy Hunt finally takes axe to sky-high levies",
+                "url": "https://www.thesun.co.uk/news/24781797/jeremy-hunt-considers-nics-tax-cut-white-van-men/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.RXi9AC6hRV_s9tBx74BIly&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "JEREMY Hunt is considering handing white van men a tax cut next week \u2013 as he finally takes the axe to our sky-high levies. The Chancellor is poised to declare that now inflation is falling",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2bd73848-4b61-3c98-ba3e-c458fe954d74",
+                        "name": "Jeremy Hunt"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/69b02699-c106-0268-6075-3fdce49e1122",
+                        "name": "Line"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/33a4a47a-e243-7172-8a4a-462af7fce62f",
+                        "name": "Tax cut"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mZZguWnkRkVFPCoaQUmKEg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T08:52:00.0000000Z"
+            },
+            {
+                "name": "Gym owner stands as London mayoral candidate",
+                "url": "https://www.msn.com/en-us/news/world/gym-owner-stands-as-london-mayoral-candidate/ar-AA1kaK6f",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.CGKPheJBNAtccpV0_7GwES&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Health and fitness entrepreneur Andreas Michli has announced his candidacy for the 2024 London mayoral elections. The independent candidate says he was driven to run in the election after he was &quot;radicalised by lockdown&quot;. Mr Michli was fined for attempting to keep his north London gym open during lockdown, but this was overturned in court.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8e0ba7b6-4225-fa8a-6369-1b5294e602a5",
+                        "name": "London"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "London"
+                    },
+                    {
+                        "name": "BBC"
+                    },
+                    {
+                        "name": "United States"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC on MSN.com",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k3N4DqozNjgK376rAnFmsA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T08:03:32.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Autumn Statement: Homes close to new pylons to get \u00a31,000 off bills",
+                "url": "https://www.bbc.com/news/uk-politics-67465841.amp",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Nq6vIe0alR_n7ae8AxfoKi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Households living close to new pylons and electricity substations could receive up to \u00a31,000 a year off energy bills for a decade under new plans. It is hoped the plan would convince people to support upgrades in their area, which are needed in part for new electric vehicle charging points.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4c5e293-eca8-a3fc-0f12-ee5ca320c42e",
+                        "name": "Pylon"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/53898896-4b9d-3bca-ee9d-9f90446e18df",
+                        "name": "Autumn Statement"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k3N4DqozNjgK376rAnFmsA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T07:41:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>UK</b>&#39;s Hunt says won&#39;t implement tax cuts that fuel inflation",
+                "url": "https://www.cnbc.com/2023/11/19/uks-hunt-says-wont-implement-tax-cuts-that-fuel-inflation.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.cugvb5XS6RmjTKMd7HMtAi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "British Finance Minister Jeremy Hunt said on Sunday that he would not implement tax cuts that would push up inflation.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2bd73848-4b61-3c98-ba3e-c458fe954d74",
+                        "name": "Jeremy Hunt"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "CNBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k-6pjyk-qP1jNZnkgM3f3A&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T07:09:00.0000000Z"
+            },
+            {
+                "name": "Chancellor plans to take \u00a31k off annual energy bills for those near new pylons",
+                "url": "https://www.telegraph.co.uk/politics/2023/11/19/chancellor-plans-to-take-1k-off-energy-bills/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.SEW_rLHws2GK6L7Yjdv-pC&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "Jeremy Hunt will unveil plan in his Autumn Statement, as part of drive to slash time taken to deliver infrastructure",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae997c08-75ff-9e61-aa23-7d79694aa474",
+                        "name": "Chancellor"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4c5e293-eca8-a3fc-0f12-ee5ca320c42e",
+                        "name": "Pylon"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Chancellor"
+                    },
+                    {
+                        "name": "Pylon"
+                    },
+                    {
+                        "name": "1000"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T07:00:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Inside I\u2019m A Celeb star Nigel Farage\u2019s rollercoaster life as he survives PLANE crash, \u2018extreme\u2019 death threats and cancer",
+                "url": "https://www.thesun.co.uk/tv/24746738/im-a-celeb-nigel-farage-life-plane-crash-cancer/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.UYFBY1V0mz0wz3SD__bDrC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "NIGEL Farage has had a colourful life in and out of politics \u2013 and that\u2019s set to continue with his spot on I\u2019m A Celebrity. The former UKIP leader, 59, has been confirmed as part",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4e19a7ad-e1b4-0f74-86c3-ba3be21089da",
+                        "name": "Nigel Farage"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mZZguWnkRkVFPCoaQUmKEg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T06:05:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "The tax move that could spare the Tories a crushing defeat",
+                "url": "https://www.yahoo.com/news/tax-move-could-spare-tories-060000536.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.UxQYmOdGMqTOgiWiBX5xay&pid=News",
+                        "width": 700,
+                        "height": 438
+                    }
+                },
+                "description": "The UK hasn\u2019t yet licked inflation. Yes, the headline annual figure, as measured by the consumer prices index, dropped to 4.6pc in October, sharply down from 6.7pc the previous month.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.UM0amhg3WAObCEGqc4w_Cw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T06:00:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Argentines vote in election that could lead Trump-admiring populist to the presidency",
+                "url": "https://news.yahoo.com/argentines-vote-election-could-lead-051156928.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.xyDj76R2xzKYSxddN0UbNC&pid=News",
+                        "width": 700,
+                        "height": 479
+                    }
+                },
+                "description": "Voters in Argentina head to the polls Sunday in a presidential runoff election that will determine whether South America\u2019s second-largest economy will take a rightward shift. Populist Javier Milei, an upstart candidate who got his start as a television talking head,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1a466af2-ed23-25bd-794d-1ca925e4681b",
+                        "name": "Donald Trump"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d682cd1a-ae7c-c184-0ad6-43ba9a265873",
+                        "name": "United States presidential election"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c19ae404-c9ab-0875-bf22-1f8ac1d7967b",
+                        "name": "Argentinian people"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "YAHOO!News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.nYADEgS75l8rdCg9D-p_OQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T05:11:00.0000000Z"
+            },
+            {
+                "name": "Cricket World Cup 2023 Final Livestream: How to Watch India vs. Australia From Anywhere",
+                "url": "https://www.cnet.com/tech/services-and-software/cricket-world-cup-2023-final-livestream-how-to-watch-india-vs-australia-from-anywhere/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.cSM6TYc8tykHE-Fh22Zkhi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "India take on Australia in the 2023 Cricket World Cup final at the Narendra Modi Stadium in Ahmedabad, India, on Sunday, Nov. 19. Play is set to start at 2 p.m. IST local time in India. (That&#39;s 8:30 a.m. GMT in the UK, 7:30 p.m. AEDT in Australia, and 3:30 a.m. ET or 12:30 a.m. PT in the US.)",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/06de2191-243d-a83f-6990-2eb1c7f3382a",
+                        "name": "Australia"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "CNET",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.vS3pKUrPWgIKkQBHtUkEPQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T04:31:00.0000000Z",
+                "category": "ScienceAndTechnology"
+            },
+            {
+                "name": "Michael Matheson must go \u2014 keeping him will harm <b>politics</b>",
+                "url": "https://www.thetimes.co.uk/article/yy-bowditch-19-sgtnmmhbm",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ftZSWvcPyj6NDewKWq4h4i&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "A s Scottish government ministers go, Michael Matheson has a reputation as one of the more able. He\u2019s certainly among the most experienced in Humza Yousaf\u2019s novice cabinet. An",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b5f5689a-dfe1-5e46-2024-6e85278ac08b",
+                        "name": "Michael Matheson"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-19T00:01:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    }
+]

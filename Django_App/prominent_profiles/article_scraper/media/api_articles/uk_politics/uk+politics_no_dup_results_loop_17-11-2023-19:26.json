@@ -1,0 +1,3314 @@
+[
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics",
+        "queryContext": {
+            "originalQuery": "uk politics",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 17,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "\u2018What we\u2019re being told about Lockerbie is absolute nonsense from beginning to end\u2019",
+                "url": "https://www.telegraph.co.uk/news/2023/11/15/lockerbie-bombing-1988-jim-swire-search-truth-libya-iran/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.pY74rY-59j8DERbRVKbd2S&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "Ever since Flora was killed on Pan Am Flight 103, Dr Jim Swire has been searching for answers \u2013 and says the FBI has the wrong man",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/31c179f9-1d66-47b8-88bb-5c8ddc757bdc",
+                        "name": "Jim Swire"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Jim Swire"
+                    },
+                    {
+                        "name": "Pan Am Flight 103"
+                    },
+                    {
+                        "name": "United States"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T19:21:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Jeremy Hunt considering squeezing benefits while cutting inheritance tax",
+                "url": "https://www.dailyecho.co.uk/news/national/23932196.jeremy-hunt-considering-squeezing-benefits-cutting-inheritance-tax/",
+                "description": "Ministers have already announced a fresh welfare crackdown amid efforts to get people back into work under a toughened sanctions scheme.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2bd73848-4b61-3c98-ba3e-c458fe954d74",
+                        "name": "Jeremy Hunt"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Southern Daily Echo",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.bbEnczrIhyW_4l1n_CB0Zw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T19:11:00.0000000Z"
+            },
+            {
+                "name": "Transcript: Rebellions, reshuffles and Cameron\u2019s return",
+                "url": "https://www.ft.com/content/ae71a336-9e0f-4031-9735-7ed37852f9bf",
+                "description": "Lucy Fisher So a week full of twists and turns got off to a pretty surprising start. The return of former Prime Minister David Cameron to cabinet, despite not currently having a seat in the House of Commons. Here\u2019s how David, now Lord Cameron, described what he will bring to Rishi Sunak\u2019s government.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/05973aa9-1608-8d06-96d6-e4ce0311b75a",
+                        "name": "David Cameron"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Financial Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CdBlognZ1u9nda-gVEOS_w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T18:31:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Question Time Audience Member Suggests Puncturing Migrant Boats Using Drones",
+                "url": "https://uk.style.yahoo.com/time-audience-member-suggests-puncturing-183155336.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.6cM3M28m5dPX--WpAPOE-S&pid=News",
+                        "width": 700,
+                        "height": 350
+                    }
+                },
+                "description": "When presenter Fiona Bruce pointed out that it might be difficult to puncture the boats because it\u2019s \u201ca long coastline\u201d, the audience member replied: \u201cYou see them on television, where there\u2019s a drone and they\u2019re watching everybody coming out\u2026\u201d",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Style UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.R1Y_kEYTGAFzjK1_2NaYlQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T18:31:00.0000000Z"
+            },
+            {
+                "name": "Gaza: Gillian Keegan says school protests &#39;unacceptable&#39;",
+                "url": "https://www.bbc.co.uk/news/uk-67454274?at_medium=RSS&at_campaign=KARANGA",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.9FAbsByHQnvryDXKasmR4S&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Hamas gunmen launched an unprecedented assault on Israel from the Gaza Strip on 7 October, killing about 1,200 people and taking more than 200 hostages. Israel responded with air strikes on Gaza and has launched a ground offensive. More than 12,000 people have been killed, according to the Hamas-run health ministry.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90eb9ff6-60ad-da43-d3fe-1ee3e3cb775a",
+                        "name": "Gaza Strip"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ebdc7900-1d5e-453b-96c0-dda63e245652",
+                        "name": "Timeline of the Syrian Civil War"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T18:30:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Yousaf should be focusing on Scotland, not Gaza - Letters",
+                "url": "https://www.heraldscotland.com/opinion/23931032.yousaf-focusing-scotland-not-gaza---letters/",
+                "description": "While the domestic news has been dominated by Michael Matheson&#39;s iPad, a Herald reader says Humza Yousaf should be focusing less on Gaza",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6d99b564-d527-5061-2ebd-f97730898d38",
+                        "name": "Humza Yousaf"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6d48f4b4-0f2e-cab1-e5cf-fca26901ba11",
+                        "name": "Focusing"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "heraldscotland",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PjDUWS-WIq7w595SCRQefg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T18:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Northern Ireland Protocol: DUP waiting for government action on trading arrangement talks \u2013 Sir Jeffrey Donaldson",
+                "url": "https://www.newsletter.co.uk/news/politics/northern-ireland-protocol-dup-waiting-for-government-action-on-trading-arrangement-talks-sir-jeffrey-donaldson-4414645",
+                "description": "The DUP is awaiting action from the Government over long-running talks to address unionist concerns on post-Brexit trading arrangements.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/689dc179-9174-cb76-53c7-7a6d087c0148",
+                        "name": "Jeffrey Donaldson"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4b8bc44-385c-e87b-bb7d-b32328f53502",
+                        "name": "Northern Ireland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/49971634-1aff-2295-c8f2-3d85e8f8270c",
+                        "name": "Arrangement"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Jeffrey Donaldson"
+                    },
+                    {
+                        "name": "Northern Ireland"
+                    },
+                    {
+                        "name": "Arrangement"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The News Letter",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.ss7xVoJtNCz0ucC1juxNqA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T18:15:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Starmer suggests Gaza position is about readying Labour for government",
+                "url": "https://www.basingstokegazette.co.uk/news/national/23931051.starmer-suggests-gaza-position-readying-labour-government/",
+                "description": "He said Labour\u2019s work with allies on the Israel-Hamas war was \u2018what you would expect from someone who wants to\u2019 be prime minister.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90eb9ff6-60ad-da43-d3fe-1ee3e3cb775a",
+                        "name": "Gaza Strip"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Gazette",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PGe-aLvoklijfev_SotkNQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T18:12:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "JANET STREET-PORTER: Watch out jungle, here comes Nasty Nigel! Ignore the whiners, Farage&#39;s rows with his Z-list campmates will be pure telly gold (and might just be bad news ...",
+                "url": "https://www.dailymail.co.uk/columnists/article-12763197/JANET-STREET-PORTER-Watch-jungle-comes-Nasty-Nigel-Ignore-whiners-Farages-rows-Z-list-campmates-pure-telly-gold-just-bad-news-Tories-too.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.tSq2IHrFTw96111EmlgA4i&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "What fun we&#39;ll have watching Nigel Farage explain the shortcomings of the single market and the EU to Danielle from East Enders or Nick from Hollyoaks.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ec6b2075-eba8-a515-7041-b2638b20aada",
+                        "name": "Nigel Lythgoe"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4e19a7ad-e1b4-0f74-86c3-ba3be21089da",
+                        "name": "Nigel Farage"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T18:11:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Gaza: should global brands join the protests?",
+                "url": "https://uk.news.yahoo.com/gaza-global-brands-join-protests-171822298.html",
+                "description": "US doughnut chain Krispy Kreme has been involved in a humanitarian fundraiser for Palestinians in Gaza, putting itself on the same side as millions of protesters around the world. This might sound unsurprising in an era when global brands regularly align with popular causes, but virtually none has wanted to touch Gaza.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ebdc7900-1d5e-453b-96c0-dda63e245652",
+                        "name": "Timeline of the Syrian Civil War"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90eb9ff6-60ad-da43-d3fe-1ee3e3cb775a",
+                        "name": "Gaza Strip"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T17:18:00.0000000Z",
+                "video": {
+                    "name": "Gaza: should global brands join the protests?",
+                    "thumbnailUrl": "https://www.bing.com/th?id=OVF.2%2B56w%2FgV9jpLGcHXmQn66A&pid=News",
+                    "thumbnail": {
+                        "width": 496,
+                        "height": 331
+                    }
+                },
+                "category": "World"
+            },
+            {
+                "name": "Unions present Tata with alternative plan aimed at saving jobs at steel plant",
+                "url": "https://www.edp24.co.uk/news/national/23931804.unions-present-tata-alternative-plan-aimed-saving-jobs-steel-plant/",
+                "description": "Unions have given steel giant Tata an alternative plan aimed at saving jobs at the biggest steel plant in the country. Tata Steel wants to decarbonise its site at Port Talbot in South Wales under moves to safeguard its future. Unions fear the plan would lead to around 3,000 job losses.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/df28e286-b566-e49e-a091-c86ee2015ae8",
+                        "name": "Tata Group"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6a85778d-13e9-6848-38e9-d4c9653e2ec9",
+                        "name": "Copyright aspects of downloading and streaming"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "EDP 24",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.jwNaXSYAQbMSCRbjWcrBZA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T17:13:00.0000000Z"
+            },
+            {
+                "name": "It\u2019s the Year of the Pothole and Britain is crazy",
+                "url": "https://uk.style.yahoo.com/pothole-britain-crazy-171115025.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Ek__D5jstlG165BEqo-Dzi&pid=News",
+                        "width": 360,
+                        "height": 160
+                    }
+                },
+                "description": "Britain\u2019s automotive association has appointed itself responsible for assigning the symbol of the year. And they\u2019ve chosen potholes.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Style UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.R1Y_kEYTGAFzjK1_2NaYlQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T17:11:00.0000000Z"
+            },
+            {
+                "name": "Blair is a divisive figure but his help on Middle East shows Starmer is serious",
+                "url": "https://inews.co.uk/news/politics/blair-divisive-figure-middle-east-starmer-serious-2763145?ico=related_stories",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.HHfpQA6jK4cJx6oehKKXMS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Hamas conflict may still be raging by the time of the next UK election, leaving Sir Keir with an inexperienced new cabinet, especially on foreign policy",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d1d91533-17bc-52e6-3bac-07168bf2f8b2",
+                        "name": "Tony Blair"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ba4dcd59-7aaf-ab51-0b2c-3186cc75acdc",
+                        "name": "Middle East"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Tony Blair"
+                    },
+                    {
+                        "name": "Middle East"
+                    },
+                    {
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T17:07:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "A law saying Rwanda is safe doesn\u2019t make it so",
+                "url": "https://www.theguardian.com/uk-news/2023/nov/17/a-law-saying-rwanda-is-safe-doesnt-make-it-so",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.fMXZLYZ559uA_ttGwDHIcC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Letters: Readers take issue with Rishi Sunak\u2019s plan for emergency legislation to allow asylum seekers to be sent to the African country after the supreme court ruled that it was unlawful",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T17:04:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Tony Blair is acting as Keir Starmer\u2019s Middle East broker",
+                "url": "https://inews.co.uk/news/politics/tony-blair-keir-starmer-middle-east-2761900",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Qag5AzMklR8F3qjzhP_yaC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "A TBI source stressed the organisation was non-<b>political</b> and would not formally second staff to ... The conflict is widely viewed as a foreign policy disaster for both the <b>UK</b> and US, lasting more than a decade and incurring massive humanitarian and ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d1d91533-17bc-52e6-3bac-07168bf2f8b2",
+                        "name": "Tony Blair"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ba4dcd59-7aaf-ab51-0b2c-3186cc75acdc",
+                        "name": "Middle East"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Tony Blair"
+                    },
+                    {
+                        "name": "Middle East"
+                    },
+                    {
+                        "name": "Broker"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i"
+                    }
+                ],
+                "datePublished": "2023-11-17T16:49:00.0000000Z"
+            },
+            {
+                "name": "DUP waiting for action on trading arrangement talks \u2013 Sir Jeffrey Donaldson",
+                "url": "https://www.salisburyjournal.co.uk/news/national/23931803.dup-waiting-action-trading-arrangement-talks---sir-jeffrey-donaldson/",
+                "description": "The DUP is awaiting action from the Government over long-running talks to address unionist concerns on post-Brexit trading arrangements. Devolved government in Northern Ireland has been on hold for more than a year-and-a-half amid the DUP\u2019s stand-off with ministers over new rules around the movement of goods to and from Great Britain.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/689dc179-9174-cb76-53c7-7a6d087c0148",
+                        "name": "Jeffrey Donaldson"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5c96a459-aa73-7940-85b5-2835ccf05d31",
+                        "name": "Action"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/49971634-1aff-2295-c8f2-3d85e8f8270c",
+                        "name": "Arrangement"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Salisbury Journal",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Lm7VoAawXSyBOtfD27ffPQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T16:36:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Iceland is cancelling our Christmas ad for a very good reason",
+                "url": "https://metro.co.uk/2023/11/17/iceland-cancelling-christmas-a-good-reason-19839791/?ico=trending-post-strip_item_3",
+                "description": "Back in 2018, our Rang-Tan advert, highlighting the dangers of palm oil and its impact on orangutans, fell foul of the <b>UK</b>\u2019s rules on <b>political</b> advertising, and we were banned from airing it. So, we put it up online instead for the world to see and made ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e1ba31bc-7b8e-2e19-cd94-e86fc0852594",
+                        "name": "Iceland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2872a54f-b045-8fe3-d356-1aa538e14812",
+                        "name": "Metro International"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a8f670e6-8bdb-6010-20e2-c2fff9a3affa",
+                        "name": "Christmas"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Metro"
+                    }
+                ],
+                "datePublished": "2023-11-17T15:53:00.0000000Z",
+                "category": "Business"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics",
+        "queryContext": {
+            "originalQuery": "uk politics",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 135,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Humza Yousaf\u2019s integrity on the line after SNP minister\u2019s iPad \u2018lie\u2019, say Scottish Tories",
+                "url": "https://www.telegraph.co.uk/politics/2023/11/17/humza-yousaf-integrity-on-line-michael-matheson-ipad/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.nd-RLlr_o6lAOsrcmNdmdy&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "Douglas Ross says First Minister &#39;has questions to answer&#39; about Michael Matheson\u2019s \u00a311,000 roaming bill for parliamentary device",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6d99b564-d527-5061-2ebd-f97730898d38",
+                        "name": "Humza Yousaf"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9f5500d5-a48c-dc47-2c90-f8cc8558d9d2",
+                        "name": "iPad"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/96e0cfa3-7f18-21f4-01ef-bc289d5d08a1",
+                        "name": "Scottish Conservative Party"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Humza Yousaf"
+                    },
+                    {
+                        "name": "iPad"
+                    },
+                    {
+                        "name": "Scottish Conservative Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T19:05:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Liberia election results: Joseph Boakai on track to defeat George Weah",
+                "url": "https://www.bbc.com/news/world-africa-67456078.amp",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.fb6rUKMyahLiqiiLsbuqtC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Opposition candidate Joseph Boakai has maintained a slim lead in the Liberian presidential election after the latest tranche of results were announced by the electoral commission. The 78-year-old political veteran has 50.89% of the votes, while incumbent President George Weah has 49.11%.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cb5600da-99f5-7134-4d7c-7c619601e95b",
+                        "name": "George Weah"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/41852ea0-d977-c68e-2a17-e7de4012a02c",
+                        "name": "Joseph Boakai"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/95192591-973c-cf6a-417a-9b3fa9907caa",
+                        "name": "Liberia"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k3N4DqozNjgK376rAnFmsA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T18:53:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Northern Ireland Protocol: DUP waiting for government action on trading arrangement talks \u2013 Sir Jeffrey Donaldson",
+                "url": "https://www.newsletter.co.uk/news/politics/northern-ireland-protocol-dup-waiting-for-government-action-on-trading-arrangement-talks-sir-jeffrey-donaldson-4414645",
+                "description": "The DUP is awaiting action from the Government over long-running talks to address unionist concerns on post-Brexit trading arrangements.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/689dc179-9174-cb76-53c7-7a6d087c0148",
+                        "name": "Jeffrey Donaldson"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4b8bc44-385c-e87b-bb7d-b32328f53502",
+                        "name": "Northern Ireland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/49971634-1aff-2295-c8f2-3d85e8f8270c",
+                        "name": "Arrangement"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Jeffrey Donaldson"
+                    },
+                    {
+                        "name": "Northern Ireland"
+                    },
+                    {
+                        "name": "Arrangement"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The News Letter",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.ss7xVoJtNCz0ucC1juxNqA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T18:15:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "JANET STREET-PORTER: Watch out jungle, here comes Nasty Nigel! Ignore the whiners, Farage&#39;s rows with his Z-list campmates will be pure telly gold (and might just be bad news ...",
+                "url": "https://www.dailymail.co.uk/columnists/article-12763197/JANET-STREET-PORTER-Watch-jungle-comes-Nasty-Nigel-Ignore-whiners-Farages-rows-Z-list-campmates-pure-telly-gold-just-bad-news-Tories-too.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.tSq2IHrFTw96111EmlgA4i&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "What fun we&#39;ll have watching Nigel Farage explain the shortcomings of the single market and the EU to Danielle from East Enders or Nick from Hollyoaks.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ec6b2075-eba8-a515-7041-b2638b20aada",
+                        "name": "Nigel Lythgoe"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4e19a7ad-e1b4-0f74-86c3-ba3be21089da",
+                        "name": "Nigel Farage"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T18:11:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Labour MP Jo Stevens &#39;frightened&#39; after graffiti sprayed on office following Gaza ceasefire vote",
+                "url": "https://news.sky.com/story/labour-mp-jo-stevens-frightened-after-graffiti-sprayed-on-office-following-gaza-ceasefire-vote-13010336",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.xHt-LGFS3fYSRrhuW1QfHS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Shadow Welsh secretary Jo Stevens was among Labour MPs who abstained on a vote calling for an immediate ceasefire in Gaza.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/774efdce-dd4e-bef1-5473-cc2abd9ff2cb",
+                        "name": "Gaza City"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/406a6e94-cde9-447e-98a2-0761777154f2",
+                        "name": "Stevens County"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6805ed02-7b78-8eff-ba28-4f2b8cd0f21a",
+                        "name": "Graffiti"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Gaza City"
+                    },
+                    {
+                        "name": "Stevens County"
+                    },
+                    {
+                        "name": "Graffiti"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Eg62H9DIbo-JYPI6GpAgGA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T17:42:00.0000000Z"
+            },
+            {
+                "name": "Why Scotland needs a legal framework to protect its cultural heritage",
+                "url": "https://theconversation.com/why-scotland-needs-a-legal-framework-to-protect-its-cultural-heritage-217233",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.WqrQaSojoTIHUnwPK93RsC&pid=News",
+                        "width": 700,
+                        "height": 344
+                    }
+                },
+                "description": "From the island of St Kilda 40 miles west of the Hebrides, to Edinburgh\u2019s splendid Georgian New Town, Scotland is a nation rich in cultural heritage, some of which is Unesco-protected. As well as the country\u2019s globally renowned castles and monuments, Scotland has an enormous resource of intangible cultural heritage (ICH).",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a2b030d2-464f-3b00-fb83-0860d3629196",
+                        "name": "Cultural heritage"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/64a90b21-fbb3-da46-e868-b369ebac6b94",
+                        "name": "Legal doctrine"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Conversation",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.U3BpQBsz93lMjCGp7gCbJA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T17:18:00.0000000Z"
+            },
+            {
+                "name": "Why Scotland needs a legal framework to protect its living cultural heritage",
+                "url": "https://theconversation.com/why-scotland-needs-a-legal-framework-to-protect-its-living-cultural-heritage-217233",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.WqrQaSojoTIHUnwPK93RsC&pid=News",
+                        "width": 700,
+                        "height": 344
+                    }
+                },
+                "description": "From the island of St Kilda 40 miles west of the Hebrides, to Edinburgh\u2019s splendid Georgian New Town, Scotland is a nation rich in cultural heritage, some of which is Unesco-protected. As well as the country\u2019s globally renowned castles and monuments, Scotland has an enormous resource of intangible cultural heritage (ICH).",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a2b030d2-464f-3b00-fb83-0860d3629196",
+                        "name": "Cultural heritage"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/64a90b21-fbb3-da46-e868-b369ebac6b94",
+                        "name": "Legal doctrine"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Conversation",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.U3BpQBsz93lMjCGp7gCbJA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T17:18:00.0000000Z"
+            },
+            {
+                "name": "Gaza: should global brands join the protests?",
+                "url": "https://uk.news.yahoo.com/gaza-global-brands-join-protests-171822298.html",
+                "description": "US doughnut chain Krispy Kreme has been involved in a humanitarian fundraiser for Palestinians in Gaza, putting itself on the same side as millions of protesters around the world. This might sound unsurprising in an era when global brands regularly align with popular causes, but virtually none has wanted to touch Gaza.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ebdc7900-1d5e-453b-96c0-dda63e245652",
+                        "name": "Timeline of the Syrian Civil War"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90eb9ff6-60ad-da43-d3fe-1ee3e3cb775a",
+                        "name": "Gaza Strip"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T17:18:00.0000000Z",
+                "video": {
+                    "name": "Gaza: should global brands join the protests?",
+                    "thumbnailUrl": "https://www.bing.com/th?id=OVF.2%2B56w%2FgV9jpLGcHXmQn66A&pid=News",
+                    "thumbnail": {
+                        "width": 496,
+                        "height": 331
+                    }
+                },
+                "category": "World"
+            },
+            {
+                "name": "FTSE 100 rebounds despite weak <b>UK</b> retail data",
+                "url": "https://www.msn.com/en-gb/money/other/ftse-100-rebounds-despite-weak-uk-retail-data/ar-AA1k6hMs",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.g06qonvaZj6Y_tWnNL0m3i&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "FTSE 100 rebounds despite weak UK retail data - London\u2019s top index moved 1.26%, or 93.28 points, higher to finish at 7,504.25.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent on MSN.com",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T17:15:31.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Gillian Keegan criticises &#39;unacceptable&#39; pro-Palestinian school strikes by pupils",
+                "url": "https://www.itv.com/news/2023-11-17/keegan-criticises-unacceptable-pro-palestinian-school-strikes-by-pupils",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.-76eOtUjr6z44PQ7lrAENS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "School Strike for Palestine rallies have taken place across the UK, with images on social media showing events in cities including London, Bristol and Glasgow. | ITV National News",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "ITV",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.HlKTyCgM99pRvmITMdZC2w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T17:14:00.0000000Z"
+            },
+            {
+                "name": "David Cameron to take title of Lord Cameron of Chipping Norton",
+                "url": "https://www.thetimes.co.uk/article/david-cameron-to-take-title-of-lord-cameron-of-chipping-norton-sbzjhwn76",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.OTiODI0W4QSgSvn9mpwELC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The Chipping Norton set have acquired their own baron with the announcement that David Cameron will be styling himself Lord Cameron of Chipping Norton.The for",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/05973aa9-1608-8d06-96d6-e4ce0311b75a",
+                        "name": "David Cameron"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0d837e19-2588-7b13-a4fb-29ce5cdb2d85",
+                        "name": "Chipping Norton"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/09ef332f-85f1-d0f7-3a16-90c76bc06a0f",
+                        "name": "Lord"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T17:10:00.0000000Z"
+            },
+            {
+                "name": "Blair is a divisive figure but his help on Middle East shows Starmer is serious",
+                "url": "https://inews.co.uk/news/politics/blair-divisive-figure-middle-east-starmer-serious-2763145",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.HHfpQA6jK4cJx6oehKKXMS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Hamas conflict may still be raging by the time of the next UK election, leaving Sir Keir with an inexperienced new cabinet, especially on foreign policy",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d1d91533-17bc-52e6-3bac-07168bf2f8b2",
+                        "name": "Tony Blair"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ba4dcd59-7aaf-ab51-0b2c-3186cc75acdc",
+                        "name": "Middle East"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Tony Blair"
+                    },
+                    {
+                        "name": "Middle East"
+                    },
+                    {
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T16:53:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Tony Blair is acting as Keir Starmer\u2019s Middle East broker",
+                "url": "https://inews.co.uk/news/politics/tony-blair-keir-starmer-middle-east-2761900",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Qag5AzMklR8F3qjzhP_yaC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "A TBI source stressed the organisation was non-<b>political</b> and would not formally second staff to ... The conflict is widely viewed as a foreign policy disaster for both the <b>UK</b> and US, lasting more than a decade and incurring massive humanitarian and ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d1d91533-17bc-52e6-3bac-07168bf2f8b2",
+                        "name": "Tony Blair"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ba4dcd59-7aaf-ab51-0b2c-3186cc75acdc",
+                        "name": "Middle East"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Tony Blair"
+                    },
+                    {
+                        "name": "Middle East"
+                    },
+                    {
+                        "name": "Broker"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i"
+                    }
+                ],
+                "datePublished": "2023-11-17T16:49:00.0000000Z"
+            },
+            {
+                "name": "Schools and hospitals to be &#39;starved of cash&#39; if Tories cut taxes for richest",
+                "url": "https://www.mirror.co.uk/news/politics/schools-hospitals-starved-cash-tories-31466050",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.OIxhd2paiW_7_iyEH61pmi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The TUC and Tax Justice UK have issued a last minute plea urging the Chancellor, Jeremy Hunt, not to slash inheritance tax in the Autumn Statement on Wednesday",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "name": "School"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T16:45:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Bristol&#39;s Big Fat Quiz of the Week - from storms (again) to I&#39;m A Celeb",
+                "url": "https://www.bristolpost.co.uk/news/bristol-news/bristols-big-fat-quiz-week-8916092",
+                "description": "It feels as though every single week some part of the UK is being battered by storms and Bristol suffers a deluge of rain, and multiple parts of the South West flooded. In fact there hasn&#39;t been a single week since we launched this quiz where we haven&#39;t featured a weather-related question.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3a2b5f36-3aab-be4b-07ef-da515a676e60",
+                        "name": "Bristol"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ed938af5-38cb-289f-d6ab-48b0960d0282",
+                        "name": "The Big Fat Quiz of the Year"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Bristol"
+                    },
+                    {
+                        "name": "The Big Fat Quiz of the Year"
+                    },
+                    {
+                        "name": "Local World"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Bristol Post",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Qcp_v1E0ZjlhF2TektrQhg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T16:42:00.0000000Z"
+            },
+            {
+                "name": "Starmer insists Labour united on alleviating Gaza suffering",
+                "url": "https://www.bbc.co.uk/news/av/uk-politics-67454090",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.xExRVfOAi8PmU8zi6T9wWC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Sir Keir Starmer said everyone in his party wanted to alleviate the suffering in Gaza, get the hostages released and stop civilians being caught in the conflict. Labour, he added, backed getting humanitarian aid into Gaza, and a way forward to a two-state solution.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/73799dc2-9580-ded9-365b-f4c1befc9eab",
+                        "name": "Labour"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90eb9ff6-60ad-da43-d3fe-1ee3e3cb775a",
+                        "name": "Gaza Strip"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T16:35:00.0000000Z",
+                "video": {
+                    "name": "Starmer insists Labour united on alleviating Gaza suffering",
+                    "thumbnailUrl": "https://www.bing.com/th?id=OVF.KxUbNXavsXB%2FMrIsLPuYdw&pid=News",
+                    "embedHtml": "&lt;iframe width=&quot;400&quot; height=&quot;500&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://www.bbc.com/news/av-embeds/67454090/vpid/p0gtbgjh&quot;&gt;&lt;/iframe&gt;",
+                    "allowHttpsEmbed": true,
+                    "thumbnail": {
+                        "width": 520,
+                        "height": 292
+                    }
+                },
+                "category": "Politics"
+            },
+            {
+                "name": "Keegan criticises \u2018unacceptable\u2019 pro-Palestinian school strikes by pupils",
+                "url": "https://www.theboltonnews.co.uk/news/national/23931630.keegan-criticises-unacceptable-pro-palestinian-school-strikes-pupils/",
+                "description": "School Strike for Palestine rallies have take place across the <b>UK</b>, with images on social media showing events ... Ms Keegan said: \u201cI\u2019m deeply concerned that some children are attending <b>political</b> protests during the school day \u2013 even more so if ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Bolton News"
+                    }
+                ],
+                "datePublished": "2023-11-17T16:06:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Iceland is cancelling Christmas for a very good reason",
+                "url": "https://metro.co.uk/2023/11/17/iceland-cancelling-christmas-a-good-reason-19839791/?ico=metro-posts_article_whats-trending-now",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.AHD4e_bT8kDcUZiLKyymAC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Back in 2018, our Rang-Tan advert, highlighting the dangers of palm oil and its impact on orangutans, fell foul of the <b>UK</b>\u2019s rules on <b>political</b> advertising, and we were banned from airing it. So, we put it up online instead for the world to see and made ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e1ba31bc-7b8e-2e19-cd94-e86fc0852594",
+                        "name": "Iceland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2872a54f-b045-8fe3-d356-1aa538e14812",
+                        "name": "Metro International"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a8f670e6-8bdb-6010-20e2-c2fff9a3affa",
+                        "name": "Christmas"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Iceland"
+                    },
+                    {
+                        "name": "Metro International"
+                    },
+                    {
+                        "name": "Christmas"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Metro"
+                    }
+                ],
+                "datePublished": "2023-11-17T15:53:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Beauty influencer mum-of-two Jeane Passos dos Santos, 34, suddenly dies after suffering rare blood disorder",
+                "url": "https://www.thesun.co.uk/news/24774515/influencer-jeane-passos-dos-santos-34-suddenly/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.EPedZ7ELI4Z0z49Czlbxiy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "A SOCIAL media influencer and mum of two has died after being hospitalised for complications from a blood disorder. Jeane Passos dos Santos, 34, was suffering from sickle-cell anaemia. The beauty",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5452cee2-12a5-11b9-40a4-4a08900c0b19",
+                        "name": "Tap and die"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mZZguWnkRkVFPCoaQUmKEg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T15:39:00.0000000Z"
+            },
+            {
+                "name": "Is Michael Matheson&#39;s job safe after iPad admission?",
+                "url": "https://www.bbc.co.uk/news/uk-scotland-scotland-politics-67417013?at_campaign=KARANGA&at_medium=RSS",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.-9nURlxiry7AmRw3_g3o5y&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The health secretary has apologised after admitting his sons racked up an \u00a311,000 bill on his parliamentary iPad.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b5f5689a-dfe1-5e46-2024-6e85278ac08b",
+                        "name": "Michael Matheson"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9f5500d5-a48c-dc47-2c90-f8cc8558d9d2",
+                        "name": "iPad"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T15:33:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Analysis: David Cameron&#39;s legacy in spotlight as Britons tell of dire state of public services",
+                "url": "https://news.yahoo.com/analysis-david-camerons-legacy-spotlight-153317027.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.fajlJDWeR03MZmsw7qslKC&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Bringing David Cameron back to the heart of government will make it more difficult for Rishi Sunak to distance himself from what has gone before",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/05973aa9-1608-8d06-96d6-e4ce0311b75a",
+                        "name": "David Cameron"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9ecdd5be-baeb-d001-2fa9-4362ed99bc58",
+                        "name": "Spotlight"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6cc7730b-9a63-fbaa-b2fc-581811b5c740",
+                        "name": "Analysis"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "YAHOO!News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.nYADEgS75l8rdCg9D-p_OQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T15:33:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Rishi Sunak: big spending technocrat or tax-cutting culture warrior?",
+                "url": "https://www.theguardian.com/politics/2023/nov/17/rishi-sunak-big-spending-technocrat-or-tax-cutting-culture-warrior",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.dFqvmDUPCYMGiDf37icWpy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "More than a year after he became PM voters are still unsure about what kind of leader he is. Will the real Sunak stand up?",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a4e8db7e-0d8a-17de-a7e6-4ac49431e6aa",
+                        "name": "Warrior"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Warrior"
+                    },
+                    {
+                        "name": "The Guardian"
+                    },
+                    {
+                        "name": "Culture"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T15:31:00.0000000Z"
+            },
+            {
+                "name": "Sunak rejects Braverman\u2019s claim he does not have proper plan for making Rwanda deportations happen \u2013 <b>UK politics</b> live",
+                "url": "https://www.theguardian.com/politics/live/2023/nov/17/suella-braverman-rishi-sunak-damian-green-rwanda-policy-uk-politics-live?page=with:block-655791ab8f08ee81dbe5a1e7",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.BJtuB3hnFlkByQQ_Y5s0US&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Prime minister says he \u2018will do whatever it takes\u2019 as senior Tory criticises former home secretary\u2019s hardline proposals",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T15:22:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Jeremy Hunt says businesses take \u2018priority\u2019 for tax cuts ahead of autumn statement",
+                "url": "https://www.independent.co.uk/news/uk/politics/jeremy-hunt-autumn-statement-tax-cuts-b2449347.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.t1oTAJIT8f3f_66edv3i8i&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Jeremy Hunt has given his strongest indication yet that he is poised to cut taxes in next week\u2019s mini-budget. The chancellor hinted that business levies would be slashed to boost the economy- and help fund the NHS - when he sets out his autumn statement on Wednesday.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2bd73848-4b61-3c98-ba3e-c458fe954d74",
+                        "name": "Jeremy Hunt"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/621cfc3b-090f-7525-464a-a364919586a5",
+                        "name": "Statement"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Jeremy Hunt"
+                    },
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "Statement"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T15:14:00.0000000Z",
+                "video": {
+                    "name": "Hunt says government \u2018made it easier\u2019 for BoE to bring down inflation",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/09b19c06-c3e5-4e8c-a8d6-6ac203c4b4c7/8099ca6b-8462-4044-b94f-03417de0_650.mp4",
+                    "thumbnail": {
+                        "width": 640,
+                        "height": 360
+                    }
+                },
+                "category": "Business"
+            },
+            {
+                "name": "<b>Politics</b> latest news: No 10 won&#39;t rule out MPs working over Christmas on Sunak&#39;s Rwanda laws",
+                "url": "https://www.telegraph.co.uk/politics/2023/11/17/rishi-sunak-latest-news-mark-harper-braverman-keir-starmer/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.pNQ0mNsMQ3bHIPdwYR09Ny&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "Mark Harper insisted the Government is \u201cconfident\u201d Rishi Sunak\u2019s plan to save the Rwanda migrant policy will work despite Suella Braverman warning it will fail unless the Prime Minister is more radical .",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cb6fa245-e991-f152-c535-412fdfd8ceb3",
+                        "name": "10 Downing Street"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "10 Downing Street"
+                    },
+                    {
+                        "name": "Rwanda"
+                    },
+                    {
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T15:00:00.0000000Z"
+            },
+            {
+                "name": "Two boys, 12, in court charged with murder of teenager in Wolverhampton",
+                "url": "https://www.msn.com/en-gb/news/uknews/two-boys-12-in-court-charged-with-murder-of-teenager-in-wolverhampton/ar-AA1k5J7J",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.hf3Gnm2QFSbg_sLb_bD4Mi&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Two boys, 12, in court charged with murder of teenager in Wolverhampton - Schoolboys were remanded into youth detention",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent on MSN.com",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T14:22:03.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "U.S., <b>UK</b>, Norway Condemn Escalating Violence in Sudan&#39;s Darfur -Statement",
+                "url": "https://www.usnews.com/news/world/articles/2023-11-17/u-s-uk-norway-condemn-escalating-violence-in-sudans-darfur-statement",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.nEBl4hQLTd7uCkWodX_cXy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "WASHINGTON (Reuters) - The United States, United Kingdom and Norway on Friday condemned escalating violence and human rights abuses in Sudan, especially in the Darfur region, the three countries said in a statement.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "U.S. News &amp; World Report",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.ZUvKX7lBhXaLGhOrD6YbBg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T13:48:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Rishi Sunak denies &#39;tinkering&#39; to save Rwanda plan",
+                "url": "https://www.bbc.com/news/uk-politics-67450870?at_link_id=B9D55892-8560-11EE-AA75-2B23AAF30DC0&at_campaign_type=owned&at_link_origin=BBC_Politics&at_ptr_name=facebook_page&at_link_type=web_link&at_format=link&at_bbc_team=editorial",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.luuScLHnJShQvzGSq2Dgni&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Rishi Sunak has denied &quot;tinkering&quot; with the government&#39;s Rwanda plan after his sacked former home secretary accused him of failing to take the radical action needed to implement the policy. The PM defended his plan to introduce emergency laws and a new treaty with Rwanda to save the plan after the Supreme Court ruled it was unlawful.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k3N4DqozNjgK376rAnFmsA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T13:46:00.0000000Z"
+            },
+            {
+                "name": "David Cameron to become Lord of Chipping Norton with new peerage",
+                "url": "https://www.independent.co.uk/news/uk/politics/david-cameron-lord-chipping-norton-set-baron-b2449215.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.0gKzDJb2-uAK1HCV2PSqmi&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Chipping Norton - known as Chippy by locals - was the centre of British and political media power in the 2010s",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0d837e19-2588-7b13-a4fb-29ce5cdb2d85",
+                        "name": "Chipping Norton"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/05973aa9-1608-8d06-96d6-e4ce0311b75a",
+                        "name": "David Cameron"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Chipping Norton"
+                    },
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "David Cameron"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T13:44:00.0000000Z",
+                "video": {
+                    "name": "Iain Duncan Smith questions foreign secretary David Cameron&#39;s links to China",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/4d253aef-70bb-4085-b2e1-39aef809b9e5/0a31d413-c79f-4270-a65d-a95d8d5a_650.mp4",
+                    "thumbnail": {
+                        "width": 640,
+                        "height": 360
+                    }
+                }
+            },
+            {
+                "name": "<b>UK</b>\u2019s \u2018Pablo Escobar\u2019 Curtis Warren facing new charges after being caught at home of prison warden he had affair with",
+                "url": "https://www.thesun.co.uk/news/24772442/curtis-warren-charged-prison-warden-arrest/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.1AeORU98jWdNmSA-Pw7MnS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "A NOTORIOUS gangster dubbed the UK\u2019s Pablo Escobar has been charged just months after he was released from prison. Curtis Warren, 59, walked free in November last year after serving 12 years",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6dca018c-79ab-11e4-794e-040692b3876b",
+                        "name": "Curtis Warren"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ccedab6a-f619-cdd8-0ec8-bb0873fcc863",
+                        "name": "Prison warden"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mZZguWnkRkVFPCoaQUmKEg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T13:35:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "<b>UK</b> regulator finds NMC Health committed market abuse over $4bn debt misstatement",
+                "url": "https://www.ft.com/content/89a9991e-7ad5-4a64-9738-361a878224a3",
+                "description": "UK regulator finds NMC Health committed market abuse over $4bn debt misstatement on linkedin (opens in a new window)",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9b5f00eb-dc50-de5c-0361-c6f4af4631e2",
+                        "name": "Market abuse"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/db293ee3-c5eb-c051-2d2e-1a585af1c3d2",
+                        "name": "Stratocladistics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c04d2e38-3020-116d-9891-42d37223fe1c",
+                        "name": "NMC Health"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Financial Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CdBlognZ1u9nda-gVEOS_w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T13:05:00.0000000Z"
+            },
+            {
+                "name": "Getting tips for a <b>political</b> career Carol? Ex-Countdown star Vorderman cosies up with Bill and Hillary Clinton after she vowed to keep campaigning despite BBC axe",
+                "url": "https://www.dailymail.co.uk/news/article-12761305/carol-vorderman-meets-clinton-bill-hillary-swansea-university-event.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.l55B4X_IdaPmDbi8aVsgDy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The ex-Countdown star posted a series of images on X, formerly Twitter, of her smiling and laughing with the pair and enjoying a sit-down meal.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/82b92f37-7844-b683-443c-71f0cdf6dcb4",
+                        "name": "Hillary Rodham Clinton"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/56cd9dc4-3f3b-da2b-a165-78a579d79f5b",
+                        "name": "BBC"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/25c2eede-0479-26b9-b564-99d25a7d04c3",
+                        "name": "Carol Vorderman"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Hillary Rodham Clinton"
+                    },
+                    {
+                        "name": "BBC"
+                    },
+                    {
+                        "name": "Carol Vorderman"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T12:31:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Tory MP Brandon Lewis gets \u00a3250,000 moonlighting at firm part-owned by sanctioned Russians",
+                "url": "https://www.mirror.co.uk/news/politics/tory-mp-brandon-lewis-gets-31461874",
+                "description": "Former Conservative Party Chairman Brandon Lewis has started working as a senior adviser for LetterOne. He now has five paid roles on top of his job as the MP for Great Yarmouth",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/60f5d72d-ef6f-1dcd-c201-8824c2ab875b",
+                        "name": "Brandon Lewis"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Brandon Lewis"
+                    },
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "Tory"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T10:10:00.0000000Z"
+            },
+            {
+                "name": "How David Cameron tried to make his fortune with cash from China",
+                "url": "https://www.ft.com/content/c1adc439-1847-4229-8e7c-486dccf6f5b9?shareType=nongift",
+                "description": "Former prime minister, now the UK\u2019s top diplomat, sought hundreds of millions of dollars from CIC for his UK-China fund",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/05973aa9-1608-8d06-96d6-e4ce0311b75a",
+                        "name": "David Cameron"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5fcc3d97-0cf2-94e5-6dad-cd70e387bd69",
+                        "name": "China"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c0deef24-bf2f-56c9-4503-5f590a8057bd",
+                        "name": "Wealth"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Financial Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CdBlognZ1u9nda-gVEOS_w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T07:47:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Expect naked <b>politics</b> but no surprises from Hunt\u2019s autumn statement",
+                "url": "https://www.thetimes.co.uk/article/expect-naked-politics-but-no-surprises-from-hunts-autumn-statement-fwtczx8zm",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT._LZdXpfNHmseNVkkriZyVC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "We face an autumn statement that is more difficult than usual to predict but one that will certainly not be a non-event.We know roughly how much fiscal headroom the chancellor, Jeremy Hunt, has to pla",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/86a73c3d-d728-ddbd-3c64-9ddcc8b7d36a",
+                        "name": "Expect"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/621cfc3b-090f-7525-464a-a364919586a5",
+                        "name": "Statement"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T00:01:00.0000000Z"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics",
+        "queryContext": {
+            "originalQuery": "uk politics",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 235,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Humza Yousaf\u2019s integrity on the line after SNP minister\u2019s iPad \u2018lie\u2019, say Scottish Tories",
+                "url": "https://www.telegraph.co.uk/politics/2023/11/17/humza-yousaf-integrity-on-line-michael-matheson-ipad/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.nd-RLlr_o6lAOsrcmNdmdy&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "Douglas Ross says First Minister &#39;has questions to answer&#39; about Michael Matheson\u2019s \u00a311,000 roaming bill for parliamentary device",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6d99b564-d527-5061-2ebd-f97730898d38",
+                        "name": "Humza Yousaf"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9f5500d5-a48c-dc47-2c90-f8cc8558d9d2",
+                        "name": "iPad"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/96e0cfa3-7f18-21f4-01ef-bc289d5d08a1",
+                        "name": "Scottish Conservative Party"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Humza Yousaf"
+                    },
+                    {
+                        "name": "iPad"
+                    },
+                    {
+                        "name": "Scottish Conservative Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T19:05:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Liberia election results: Joseph Boakai on track to defeat George Weah",
+                "url": "https://www.bbc.com/news/world-africa-67456078.amp",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.fb6rUKMyahLiqiiLsbuqtC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Opposition candidate Joseph Boakai has maintained a slim lead in the Liberian presidential election after the latest tranche of results were announced by the electoral commission. The 78-year-old political veteran has 50.89% of the votes, while incumbent President George Weah has 49.11%.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cb5600da-99f5-7134-4d7c-7c619601e95b",
+                        "name": "George Weah"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/41852ea0-d977-c68e-2a17-e7de4012a02c",
+                        "name": "Joseph Boakai"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/95192591-973c-cf6a-417a-9b3fa9907caa",
+                        "name": "Liberia"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k3N4DqozNjgK376rAnFmsA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T18:53:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Northern Ireland Protocol: DUP waiting for government action on trading arrangement talks \u2013 Sir Jeffrey Donaldson",
+                "url": "https://www.newsletter.co.uk/news/politics/northern-ireland-protocol-dup-waiting-for-government-action-on-trading-arrangement-talks-sir-jeffrey-donaldson-4414645",
+                "description": "The DUP is awaiting action from the Government over long-running talks to address unionist concerns on post-Brexit trading arrangements.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/689dc179-9174-cb76-53c7-7a6d087c0148",
+                        "name": "Jeffrey Donaldson"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4b8bc44-385c-e87b-bb7d-b32328f53502",
+                        "name": "Northern Ireland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/49971634-1aff-2295-c8f2-3d85e8f8270c",
+                        "name": "Arrangement"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Jeffrey Donaldson"
+                    },
+                    {
+                        "name": "Northern Ireland"
+                    },
+                    {
+                        "name": "Arrangement"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The News Letter",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.ss7xVoJtNCz0ucC1juxNqA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T18:15:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "JANET STREET-PORTER: Watch out jungle, here comes Nasty Nigel! Ignore the whiners, Farage&#39;s rows with his Z-list campmates will be pure telly gold (and might just be bad news ...",
+                "url": "https://www.dailymail.co.uk/columnists/article-12763197/JANET-STREET-PORTER-Watch-jungle-comes-Nasty-Nigel-Ignore-whiners-Farages-rows-Z-list-campmates-pure-telly-gold-just-bad-news-Tories-too.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.tSq2IHrFTw96111EmlgA4i&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "What fun we&#39;ll have watching Nigel Farage explain the shortcomings of the single market and the EU to Danielle from East Enders or Nick from Hollyoaks.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ec6b2075-eba8-a515-7041-b2638b20aada",
+                        "name": "Nigel Lythgoe"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4e19a7ad-e1b4-0f74-86c3-ba3be21089da",
+                        "name": "Nigel Farage"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T18:11:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Labour MP Jo Stevens &#39;frightened&#39; after graffiti sprayed on office following Gaza ceasefire vote",
+                "url": "https://news.sky.com/story/labour-mp-jo-stevens-frightened-after-graffiti-sprayed-on-office-following-gaza-ceasefire-vote-13010336",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.xHt-LGFS3fYSRrhuW1QfHS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Shadow Welsh secretary Jo Stevens was among Labour MPs who abstained on a vote calling for an immediate ceasefire in Gaza.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/774efdce-dd4e-bef1-5473-cc2abd9ff2cb",
+                        "name": "Gaza City"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/406a6e94-cde9-447e-98a2-0761777154f2",
+                        "name": "Stevens County"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6805ed02-7b78-8eff-ba28-4f2b8cd0f21a",
+                        "name": "Graffiti"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Gaza City"
+                    },
+                    {
+                        "name": "Stevens County"
+                    },
+                    {
+                        "name": "Graffiti"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Eg62H9DIbo-JYPI6GpAgGA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T17:42:00.0000000Z"
+            },
+            {
+                "name": "Why Scotland needs a legal framework to protect its cultural heritage",
+                "url": "https://theconversation.com/why-scotland-needs-a-legal-framework-to-protect-its-cultural-heritage-217233",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.WqrQaSojoTIHUnwPK93RsC&pid=News",
+                        "width": 700,
+                        "height": 344
+                    }
+                },
+                "description": "From the island of St Kilda 40 miles west of the Hebrides, to Edinburgh\u2019s splendid Georgian New Town, Scotland is a nation rich in cultural heritage, some of which is Unesco-protected. As well as the country\u2019s globally renowned castles and monuments, Scotland has an enormous resource of intangible cultural heritage (ICH).",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a2b030d2-464f-3b00-fb83-0860d3629196",
+                        "name": "Cultural heritage"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/64a90b21-fbb3-da46-e868-b369ebac6b94",
+                        "name": "Legal doctrine"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Conversation",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.U3BpQBsz93lMjCGp7gCbJA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T17:18:00.0000000Z"
+            },
+            {
+                "name": "Why Scotland needs a legal framework to protect its living cultural heritage",
+                "url": "https://theconversation.com/why-scotland-needs-a-legal-framework-to-protect-its-living-cultural-heritage-217233",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.WqrQaSojoTIHUnwPK93RsC&pid=News",
+                        "width": 700,
+                        "height": 344
+                    }
+                },
+                "description": "From the island of St Kilda 40 miles west of the Hebrides, to Edinburgh\u2019s splendid Georgian New Town, Scotland is a nation rich in cultural heritage, some of which is Unesco-protected. As well as the country\u2019s globally renowned castles and monuments, Scotland has an enormous resource of intangible cultural heritage (ICH).",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a2b030d2-464f-3b00-fb83-0860d3629196",
+                        "name": "Cultural heritage"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/64a90b21-fbb3-da46-e868-b369ebac6b94",
+                        "name": "Legal doctrine"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Conversation",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.U3BpQBsz93lMjCGp7gCbJA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T17:18:00.0000000Z"
+            },
+            {
+                "name": "Gaza: should global brands join the protests?",
+                "url": "https://uk.news.yahoo.com/gaza-global-brands-join-protests-171822298.html",
+                "description": "US doughnut chain Krispy Kreme has been involved in a humanitarian fundraiser for Palestinians in Gaza, putting itself on the same side as millions of protesters around the world. This might sound unsurprising in an era when global brands regularly align with popular causes, but virtually none has wanted to touch Gaza.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ebdc7900-1d5e-453b-96c0-dda63e245652",
+                        "name": "Timeline of the Syrian Civil War"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90eb9ff6-60ad-da43-d3fe-1ee3e3cb775a",
+                        "name": "Gaza Strip"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T17:18:00.0000000Z",
+                "video": {
+                    "name": "Gaza: should global brands join the protests?",
+                    "thumbnailUrl": "https://www.bing.com/th?id=OVF.2%2B56w%2FgV9jpLGcHXmQn66A&pid=News",
+                    "thumbnail": {
+                        "width": 496,
+                        "height": 331
+                    }
+                },
+                "category": "World"
+            },
+            {
+                "name": "FTSE 100 rebounds despite weak <b>UK</b> retail data",
+                "url": "https://www.msn.com/en-gb/money/other/ftse-100-rebounds-despite-weak-uk-retail-data/ar-AA1k6hMs",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.g06qonvaZj6Y_tWnNL0m3i&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "FTSE 100 rebounds despite weak UK retail data - London\u2019s top index moved 1.26%, or 93.28 points, higher to finish at 7,504.25.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent on MSN.com",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T17:15:31.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Gillian Keegan criticises &#39;unacceptable&#39; pro-Palestinian school strikes by pupils",
+                "url": "https://www.itv.com/news/2023-11-17/keegan-criticises-unacceptable-pro-palestinian-school-strikes-by-pupils",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.-76eOtUjr6z44PQ7lrAENS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "School Strike for Palestine rallies have taken place across the UK, with images on social media showing events in cities including London, Bristol and Glasgow. | ITV National News",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "ITV",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.HlKTyCgM99pRvmITMdZC2w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T17:14:00.0000000Z"
+            },
+            {
+                "name": "David Cameron to take title of Lord Cameron of Chipping Norton",
+                "url": "https://www.thetimes.co.uk/article/david-cameron-to-take-title-of-lord-cameron-of-chipping-norton-sbzjhwn76",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.OTiODI0W4QSgSvn9mpwELC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The Chipping Norton set have acquired their own baron with the announcement that David Cameron will be styling himself Lord Cameron of Chipping Norton.The for",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/05973aa9-1608-8d06-96d6-e4ce0311b75a",
+                        "name": "David Cameron"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0d837e19-2588-7b13-a4fb-29ce5cdb2d85",
+                        "name": "Chipping Norton"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/09ef332f-85f1-d0f7-3a16-90c76bc06a0f",
+                        "name": "Lord"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T17:10:00.0000000Z"
+            },
+            {
+                "name": "Blair is a divisive figure but his help on Middle East shows Starmer is serious",
+                "url": "https://inews.co.uk/news/politics/blair-divisive-figure-middle-east-starmer-serious-2763145",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.HHfpQA6jK4cJx6oehKKXMS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Hamas conflict may still be raging by the time of the next UK election, leaving Sir Keir with an inexperienced new cabinet, especially on foreign policy",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d1d91533-17bc-52e6-3bac-07168bf2f8b2",
+                        "name": "Tony Blair"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ba4dcd59-7aaf-ab51-0b2c-3186cc75acdc",
+                        "name": "Middle East"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Tony Blair"
+                    },
+                    {
+                        "name": "Middle East"
+                    },
+                    {
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T16:53:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Tony Blair is acting as Keir Starmer\u2019s Middle East broker",
+                "url": "https://inews.co.uk/news/politics/tony-blair-keir-starmer-middle-east-2761900",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Qag5AzMklR8F3qjzhP_yaC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "A TBI source stressed the organisation was non-<b>political</b> and would not formally second staff to ... The conflict is widely viewed as a foreign policy disaster for both the <b>UK</b> and US, lasting more than a decade and incurring massive humanitarian and ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d1d91533-17bc-52e6-3bac-07168bf2f8b2",
+                        "name": "Tony Blair"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ba4dcd59-7aaf-ab51-0b2c-3186cc75acdc",
+                        "name": "Middle East"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Tony Blair"
+                    },
+                    {
+                        "name": "Middle East"
+                    },
+                    {
+                        "name": "Broker"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i"
+                    }
+                ],
+                "datePublished": "2023-11-17T16:49:00.0000000Z"
+            },
+            {
+                "name": "Schools and hospitals to be &#39;starved of cash&#39; if Tories cut taxes for richest",
+                "url": "https://www.mirror.co.uk/news/politics/schools-hospitals-starved-cash-tories-31466050",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.OIxhd2paiW_7_iyEH61pmi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The TUC and Tax Justice UK have issued a last minute plea urging the Chancellor, Jeremy Hunt, not to slash inheritance tax in the Autumn Statement on Wednesday",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "name": "School"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T16:45:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Bristol&#39;s Big Fat Quiz of the Week - from storms (again) to I&#39;m A Celeb",
+                "url": "https://www.bristolpost.co.uk/news/bristol-news/bristols-big-fat-quiz-week-8916092",
+                "description": "It feels as though every single week some part of the UK is being battered by storms and Bristol suffers a deluge of rain, and multiple parts of the South West flooded. In fact there hasn&#39;t been a single week since we launched this quiz where we haven&#39;t featured a weather-related question.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3a2b5f36-3aab-be4b-07ef-da515a676e60",
+                        "name": "Bristol"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ed938af5-38cb-289f-d6ab-48b0960d0282",
+                        "name": "The Big Fat Quiz of the Year"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Bristol"
+                    },
+                    {
+                        "name": "The Big Fat Quiz of the Year"
+                    },
+                    {
+                        "name": "Local World"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Bristol Post",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Qcp_v1E0ZjlhF2TektrQhg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T16:42:00.0000000Z"
+            },
+            {
+                "name": "Starmer insists Labour united on alleviating Gaza suffering",
+                "url": "https://www.bbc.co.uk/news/av/uk-politics-67454090",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.xExRVfOAi8PmU8zi6T9wWC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Sir Keir Starmer said everyone in his party wanted to alleviate the suffering in Gaza, get the hostages released and stop civilians being caught in the conflict. Labour, he added, backed getting humanitarian aid into Gaza, and a way forward to a two-state solution.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/73799dc2-9580-ded9-365b-f4c1befc9eab",
+                        "name": "Labour"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90eb9ff6-60ad-da43-d3fe-1ee3e3cb775a",
+                        "name": "Gaza Strip"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T16:35:00.0000000Z",
+                "video": {
+                    "name": "Starmer insists Labour united on alleviating Gaza suffering",
+                    "thumbnailUrl": "https://www.bing.com/th?id=OVF.KxUbNXavsXB%2FMrIsLPuYdw&pid=News",
+                    "embedHtml": "&lt;iframe width=&quot;400&quot; height=&quot;500&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://www.bbc.com/news/av-embeds/67454090/vpid/p0gtbgjh&quot;&gt;&lt;/iframe&gt;",
+                    "allowHttpsEmbed": true,
+                    "thumbnail": {
+                        "width": 520,
+                        "height": 292
+                    }
+                },
+                "category": "Politics"
+            },
+            {
+                "name": "Keegan criticises \u2018unacceptable\u2019 pro-Palestinian school strikes by pupils",
+                "url": "https://www.theboltonnews.co.uk/news/national/23931630.keegan-criticises-unacceptable-pro-palestinian-school-strikes-pupils/",
+                "description": "School Strike for Palestine rallies have take place across the <b>UK</b>, with images on social media showing events ... Ms Keegan said: \u201cI\u2019m deeply concerned that some children are attending <b>political</b> protests during the school day \u2013 even more so if ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Bolton News"
+                    }
+                ],
+                "datePublished": "2023-11-17T16:06:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Iceland is cancelling Christmas for a very good reason",
+                "url": "https://metro.co.uk/2023/11/17/iceland-cancelling-christmas-a-good-reason-19839791/?ico=metro-posts_article_whats-trending-now",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.AHD4e_bT8kDcUZiLKyymAC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Back in 2018, our Rang-Tan advert, highlighting the dangers of palm oil and its impact on orangutans, fell foul of the <b>UK</b>\u2019s rules on <b>political</b> advertising, and we were banned from airing it. So, we put it up online instead for the world to see and made ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e1ba31bc-7b8e-2e19-cd94-e86fc0852594",
+                        "name": "Iceland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2872a54f-b045-8fe3-d356-1aa538e14812",
+                        "name": "Metro International"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a8f670e6-8bdb-6010-20e2-c2fff9a3affa",
+                        "name": "Christmas"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Iceland"
+                    },
+                    {
+                        "name": "Metro International"
+                    },
+                    {
+                        "name": "Christmas"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Metro"
+                    }
+                ],
+                "datePublished": "2023-11-17T15:53:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Beauty influencer mum-of-two Jeane Passos dos Santos, 34, suddenly dies after suffering rare blood disorder",
+                "url": "https://www.thesun.co.uk/news/24774515/influencer-jeane-passos-dos-santos-34-suddenly/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.EPedZ7ELI4Z0z49Czlbxiy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "A SOCIAL media influencer and mum of two has died after being hospitalised for complications from a blood disorder. Jeane Passos dos Santos, 34, was suffering from sickle-cell anaemia. The beauty",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5452cee2-12a5-11b9-40a4-4a08900c0b19",
+                        "name": "Tap and die"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mZZguWnkRkVFPCoaQUmKEg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T15:39:00.0000000Z"
+            },
+            {
+                "name": "Is Michael Matheson&#39;s job safe after iPad admission?",
+                "url": "https://www.bbc.co.uk/news/uk-scotland-scotland-politics-67417013?at_campaign=KARANGA&at_medium=RSS",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.-9nURlxiry7AmRw3_g3o5y&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The health secretary has apologised after admitting his sons racked up an \u00a311,000 bill on his parliamentary iPad.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b5f5689a-dfe1-5e46-2024-6e85278ac08b",
+                        "name": "Michael Matheson"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9f5500d5-a48c-dc47-2c90-f8cc8558d9d2",
+                        "name": "iPad"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T15:33:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Analysis: David Cameron&#39;s legacy in spotlight as Britons tell of dire state of public services",
+                "url": "https://news.yahoo.com/analysis-david-camerons-legacy-spotlight-153317027.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.fajlJDWeR03MZmsw7qslKC&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Bringing David Cameron back to the heart of government will make it more difficult for Rishi Sunak to distance himself from what has gone before",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/05973aa9-1608-8d06-96d6-e4ce0311b75a",
+                        "name": "David Cameron"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9ecdd5be-baeb-d001-2fa9-4362ed99bc58",
+                        "name": "Spotlight"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6cc7730b-9a63-fbaa-b2fc-581811b5c740",
+                        "name": "Analysis"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "YAHOO!News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.nYADEgS75l8rdCg9D-p_OQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T15:33:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Rishi Sunak: big spending technocrat or tax-cutting culture warrior?",
+                "url": "https://www.theguardian.com/politics/2023/nov/17/rishi-sunak-big-spending-technocrat-or-tax-cutting-culture-warrior",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.dFqvmDUPCYMGiDf37icWpy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "More than a year after he became PM voters are still unsure about what kind of leader he is. Will the real Sunak stand up?",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a4e8db7e-0d8a-17de-a7e6-4ac49431e6aa",
+                        "name": "Warrior"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Warrior"
+                    },
+                    {
+                        "name": "The Guardian"
+                    },
+                    {
+                        "name": "Culture"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T15:31:00.0000000Z"
+            },
+            {
+                "name": "Sunak rejects Braverman\u2019s claim he does not have proper plan for making Rwanda deportations happen \u2013 <b>UK politics</b> live",
+                "url": "https://www.theguardian.com/politics/live/2023/nov/17/suella-braverman-rishi-sunak-damian-green-rwanda-policy-uk-politics-live?page=with:block-655791ab8f08ee81dbe5a1e7",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.BJtuB3hnFlkByQQ_Y5s0US&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Prime minister says he \u2018will do whatever it takes\u2019 as senior Tory criticises former home secretary\u2019s hardline proposals",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T15:22:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Jeremy Hunt says businesses take \u2018priority\u2019 for tax cuts ahead of autumn statement",
+                "url": "https://www.independent.co.uk/news/uk/politics/jeremy-hunt-autumn-statement-tax-cuts-b2449347.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.t1oTAJIT8f3f_66edv3i8i&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Jeremy Hunt has given his strongest indication yet that he is poised to cut taxes in next week\u2019s mini-budget. The chancellor hinted that business levies would be slashed to boost the economy- and help fund the NHS - when he sets out his autumn statement on Wednesday.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2bd73848-4b61-3c98-ba3e-c458fe954d74",
+                        "name": "Jeremy Hunt"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/621cfc3b-090f-7525-464a-a364919586a5",
+                        "name": "Statement"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Jeremy Hunt"
+                    },
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "Statement"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T15:14:00.0000000Z",
+                "video": {
+                    "name": "Hunt says government \u2018made it easier\u2019 for BoE to bring down inflation",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/09b19c06-c3e5-4e8c-a8d6-6ac203c4b4c7/8099ca6b-8462-4044-b94f-03417de0_650.mp4",
+                    "thumbnail": {
+                        "width": 640,
+                        "height": 360
+                    }
+                },
+                "category": "Business"
+            },
+            {
+                "name": "<b>Politics</b> latest news: No 10 won&#39;t rule out MPs working over Christmas on Sunak&#39;s Rwanda laws",
+                "url": "https://www.telegraph.co.uk/politics/2023/11/17/rishi-sunak-latest-news-mark-harper-braverman-keir-starmer/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.pNQ0mNsMQ3bHIPdwYR09Ny&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "Mark Harper insisted the Government is \u201cconfident\u201d Rishi Sunak\u2019s plan to save the Rwanda migrant policy will work despite Suella Braverman warning it will fail unless the Prime Minister is more radical .",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cb6fa245-e991-f152-c535-412fdfd8ceb3",
+                        "name": "10 Downing Street"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "10 Downing Street"
+                    },
+                    {
+                        "name": "Rwanda"
+                    },
+                    {
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T15:00:00.0000000Z"
+            },
+            {
+                "name": "Two boys, 12, in court charged with murder of teenager in Wolverhampton",
+                "url": "https://www.msn.com/en-gb/news/uknews/two-boys-12-in-court-charged-with-murder-of-teenager-in-wolverhampton/ar-AA1k5J7J",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.hf3Gnm2QFSbg_sLb_bD4Mi&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Two boys, 12, in court charged with murder of teenager in Wolverhampton - Schoolboys were remanded into youth detention",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent on MSN.com",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T14:22:03.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "U.S., <b>UK</b>, Norway Condemn Escalating Violence in Sudan&#39;s Darfur -Statement",
+                "url": "https://www.usnews.com/news/world/articles/2023-11-17/u-s-uk-norway-condemn-escalating-violence-in-sudans-darfur-statement",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.nEBl4hQLTd7uCkWodX_cXy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "WASHINGTON (Reuters) - The United States, United Kingdom and Norway on Friday condemned escalating violence and human rights abuses in Sudan, especially in the Darfur region, the three countries said in a statement.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "U.S. News &amp; World Report",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.ZUvKX7lBhXaLGhOrD6YbBg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T13:48:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Rishi Sunak denies &#39;tinkering&#39; to save Rwanda plan",
+                "url": "https://www.bbc.com/news/uk-politics-67450870?at_link_id=B9D55892-8560-11EE-AA75-2B23AAF30DC0&at_campaign_type=owned&at_link_origin=BBC_Politics&at_ptr_name=facebook_page&at_link_type=web_link&at_format=link&at_bbc_team=editorial",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.luuScLHnJShQvzGSq2Dgni&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Rishi Sunak has denied &quot;tinkering&quot; with the government&#39;s Rwanda plan after his sacked former home secretary accused him of failing to take the radical action needed to implement the policy. The PM defended his plan to introduce emergency laws and a new treaty with Rwanda to save the plan after the Supreme Court ruled it was unlawful.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k3N4DqozNjgK376rAnFmsA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T13:46:00.0000000Z"
+            },
+            {
+                "name": "David Cameron to become Lord of Chipping Norton with new peerage",
+                "url": "https://www.independent.co.uk/news/uk/politics/david-cameron-lord-chipping-norton-set-baron-b2449215.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.0gKzDJb2-uAK1HCV2PSqmi&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Chipping Norton - known as Chippy by locals - was the centre of British and political media power in the 2010s",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0d837e19-2588-7b13-a4fb-29ce5cdb2d85",
+                        "name": "Chipping Norton"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/05973aa9-1608-8d06-96d6-e4ce0311b75a",
+                        "name": "David Cameron"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Chipping Norton"
+                    },
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "David Cameron"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T13:44:00.0000000Z",
+                "video": {
+                    "name": "Iain Duncan Smith questions foreign secretary David Cameron&#39;s links to China",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/4d253aef-70bb-4085-b2e1-39aef809b9e5/0a31d413-c79f-4270-a65d-a95d8d5a_650.mp4",
+                    "thumbnail": {
+                        "width": 640,
+                        "height": 360
+                    }
+                }
+            },
+            {
+                "name": "<b>UK</b>\u2019s \u2018Pablo Escobar\u2019 Curtis Warren facing new charges after being caught at home of prison warden he had affair with",
+                "url": "https://www.thesun.co.uk/news/24772442/curtis-warren-charged-prison-warden-arrest/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.1AeORU98jWdNmSA-Pw7MnS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "A NOTORIOUS gangster dubbed the UK\u2019s Pablo Escobar has been charged just months after he was released from prison. Curtis Warren, 59, walked free in November last year after serving 12 years",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6dca018c-79ab-11e4-794e-040692b3876b",
+                        "name": "Curtis Warren"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ccedab6a-f619-cdd8-0ec8-bb0873fcc863",
+                        "name": "Prison warden"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mZZguWnkRkVFPCoaQUmKEg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T13:35:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "<b>UK</b> regulator finds NMC Health committed market abuse over $4bn debt misstatement",
+                "url": "https://www.ft.com/content/89a9991e-7ad5-4a64-9738-361a878224a3",
+                "description": "UK regulator finds NMC Health committed market abuse over $4bn debt misstatement on linkedin (opens in a new window)",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9b5f00eb-dc50-de5c-0361-c6f4af4631e2",
+                        "name": "Market abuse"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/db293ee3-c5eb-c051-2d2e-1a585af1c3d2",
+                        "name": "Stratocladistics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c04d2e38-3020-116d-9891-42d37223fe1c",
+                        "name": "NMC Health"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Financial Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CdBlognZ1u9nda-gVEOS_w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T13:05:00.0000000Z"
+            },
+            {
+                "name": "Getting tips for a <b>political</b> career Carol? Ex-Countdown star Vorderman cosies up with Bill and Hillary Clinton after she vowed to keep campaigning despite BBC axe",
+                "url": "https://www.dailymail.co.uk/news/article-12761305/carol-vorderman-meets-clinton-bill-hillary-swansea-university-event.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.l55B4X_IdaPmDbi8aVsgDy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The ex-Countdown star posted a series of images on X, formerly Twitter, of her smiling and laughing with the pair and enjoying a sit-down meal.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/82b92f37-7844-b683-443c-71f0cdf6dcb4",
+                        "name": "Hillary Rodham Clinton"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/56cd9dc4-3f3b-da2b-a165-78a579d79f5b",
+                        "name": "BBC"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/25c2eede-0479-26b9-b564-99d25a7d04c3",
+                        "name": "Carol Vorderman"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Hillary Rodham Clinton"
+                    },
+                    {
+                        "name": "BBC"
+                    },
+                    {
+                        "name": "Carol Vorderman"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T12:31:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Tory MP Brandon Lewis gets \u00a3250,000 moonlighting at firm part-owned by sanctioned Russians",
+                "url": "https://www.mirror.co.uk/news/politics/tory-mp-brandon-lewis-gets-31461874",
+                "description": "Former Conservative Party Chairman Brandon Lewis has started working as a senior adviser for LetterOne. He now has five paid roles on top of his job as the MP for Great Yarmouth",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/60f5d72d-ef6f-1dcd-c201-8824c2ab875b",
+                        "name": "Brandon Lewis"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Brandon Lewis"
+                    },
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "Tory"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T10:10:00.0000000Z"
+            },
+            {
+                "name": "How David Cameron tried to make his fortune with cash from China",
+                "url": "https://www.ft.com/content/c1adc439-1847-4229-8e7c-486dccf6f5b9?shareType=nongift",
+                "description": "Former prime minister, now the UK\u2019s top diplomat, sought hundreds of millions of dollars from CIC for his UK-China fund",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/05973aa9-1608-8d06-96d6-e4ce0311b75a",
+                        "name": "David Cameron"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5fcc3d97-0cf2-94e5-6dad-cd70e387bd69",
+                        "name": "China"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c0deef24-bf2f-56c9-4503-5f590a8057bd",
+                        "name": "Wealth"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Financial Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CdBlognZ1u9nda-gVEOS_w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T07:47:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Expect naked <b>politics</b> but no surprises from Hunt\u2019s autumn statement",
+                "url": "https://www.thetimes.co.uk/article/expect-naked-politics-but-no-surprises-from-hunts-autumn-statement-fwtczx8zm",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT._LZdXpfNHmseNVkkriZyVC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "We face an autumn statement that is more difficult than usual to predict but one that will certainly not be a non-event.We know roughly how much fiscal headroom the chancellor, Jeremy Hunt, has to pla",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/86a73c3d-d728-ddbd-3c64-9ddcc8b7d36a",
+                        "name": "Expect"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/621cfc3b-090f-7525-464a-a364919586a5",
+                        "name": "Statement"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-11-17T00:01:00.0000000Z"
+            }
+        ]
+    }
+]
