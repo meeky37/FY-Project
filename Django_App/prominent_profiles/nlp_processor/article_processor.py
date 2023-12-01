@@ -1,7 +1,12 @@
 # nlp_processor/article_processor.py
 from profiles_app.models import Article as ArticleModel
 from .constants import MENTION_REQ_PER
-from .utils import TextProcessingUtils
+import spacy
+import math
+import re
+from functools import reduce
+from textblob import TextBlob
+from collections import defaultdict
 
 
 class Article:

@@ -38,8 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'profiles_app',
-    'nlp_processor',
-    'article_scraper'
+    'nlp_processor'
 ]
 
 MIDDLEWARE = [
@@ -127,4 +126,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 DEFAULT_FILE_STORAGE = 'django.core.files.storage.FileSystemStorage'
 
-ARTICLE_SCRAPER_MEDIA_ROOT = os.path.join(BASE_DIR, 'article_scraper', 'media')
+ARTICLE_SCRAPER_MEDIA_ROOT = os.path.join(BASE_DIR, 'nlp_processor', 'media')
