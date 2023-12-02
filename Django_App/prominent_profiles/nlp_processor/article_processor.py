@@ -2,6 +2,7 @@
 import requests
 from bs4 import BeautifulSoup
 from profiles_app.models import Article as ArticleModel
+from nlp_processor.sentiment_resolver import SentimentAnalyser
 import math
 import re
 from functools import reduce
@@ -231,13 +232,14 @@ class Article:
         self.sentiment_analyser = None
 
     def set_sentiment_analyser(self):
-        self.sentiment_analyser = SentimentAnalyser
+        self.sentiment_analyser = SentimentAnalyser()
 
     def get_bounds_sentiment(self):
         try:
             self.bounds_sentiment = self.sentiment_analyser.process_clustered_entities(
-                self.clustered_entities, self.sentence_bounds, self.text_body, debug=False
-            )
+                clustered_entities=self.clustered_entities, sentence_bounds=self.sentence_bounds,
+                article_text=self.text_body,
+                debug=False)
         except Exception as e:
             print(f"Error processing bounds data for article {self.headline}. Error: {e}")
             self.bounds_sentiment = None
@@ -412,7 +414,7 @@ class Article:
 
     def determine_sentences(self):
 
-        '''
+        """
         Process the article text, tokenize by sentence and add custom adjustments to the
         tokenization using insert intervals below.
         spaCy was not satisfactory for accurately tokenizing for sentence start / end
@@ -421,8 +423,8 @@ class Article:
 
         TextBlob can provide me with the start and end of sentences by using the sentences
         attribute of a TextBlob object. This attribute returns a list of Sentence objects, each
-        of which has a start and end property that indicate the index of the first and last
-        character of the sentence within the original text.'''
+        of which has a start and end property that indicates the index of the first and last
+        character of the sentence within the original text."""
 
         # Process the article text and adjust tokenization
         article_text = self.text_body
@@ -645,6 +647,11 @@ class Article:
         #     print("Original Headline: " + self.headline)
         #     self.headline = headline_request
         self.image_url = get_preview_image_url(self.url)
+
+    def get_average_sentiment_results(self):
+        self.sentiment_analyser.average_sentiment_results(self.database_id, self.bounds_sentiment,
+                                                          self
+                                                          .text_body)
 
     def save_to_database(self):
         # Save necessary data to the Article model in profiles_app

@@ -74,7 +74,6 @@ class Command(BaseCommand):
                 skips += 1
                 continue
 
-
             try:
                 if can_fetch_url(url):
                     fetches += 1
@@ -144,8 +143,6 @@ class Command(BaseCommand):
 
         print(len(article_objects))
 
-
-
         article_texts = [article.text_body for article in article_objects]
         article_text_clusters = perform_coreference_resolution(article_texts)
 
@@ -186,3 +183,10 @@ class Command(BaseCommand):
                 print("Article already exists in the database")
 
         article_objects = new_article_objects
+
+        for article in article_objects[1:30]:
+            article.set_sentiment_analyser()
+            article.get_bounds_sentiment()
+
+        for article in article_objects[1:30]:
+            article.get_average_sentiment_results()

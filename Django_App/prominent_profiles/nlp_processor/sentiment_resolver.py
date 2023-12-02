@@ -1,7 +1,9 @@
 from decimal import Decimal, ROUND_HALF_UP
-from constants import EXPONENTIAL_K_VALUE
+from .constants import EXPONENTIAL_K_VALUE
 from intervaltree import Interval, IntervalTree
 from NewsSentiment import TargetSentimentClassifier
+from .utils import DatabaseUtils
+from profiles_app.models import Entity, Article
 
 
 def scaling(avg_array_list, k=3, linear=False):
@@ -64,89 +66,6 @@ def percentage_contribution(elements):
     total = sum(elements)
     percentage_contributions = [(element / total) * 100 for element in elements]
     return round_array_to_1dp(percentage_contributions)
-
-
-def average_sentiment_results(source_article_id, bounds_sentiment, article_text):
-    entity_averages = {}
-
-    for bounds_key, entity_results in bounds_sentiment.items():
-        for entity_name, entity_db_ids in entity_results.items():
-            for entity_db_id, results in entity_db_ids.items():
-                if not results:  # Empty results for an entity? Skip...
-                    continue
-                print(results)
-                avg = ArrayUtility.average_array(results)
-
-                # Store entity - bound mention - bound text - average result in database
-
-                if entity_name not in entity_averages:
-                    entity_averages[entity_name] = {
-                        "entity_db_ids": [entity_db_id],
-                        "bounds_keys": [bounds_key],
-                        "sentiment_scores": [avg],
-                        "text": [article_text[bounds_key[0]:bounds_key[1]]],
-                    }
-                else:
-                    entity_averages[entity_name]["entity_db_ids"].append(entity_db_id)
-                    entity_averages[entity_name]["bounds_keys"].append(bounds_key)
-                    entity_averages[entity_name]["sentiment_scores"].append(avg)
-                    entity_averages[entity_name]["text"].append(
-                        article_text[bounds_key[0]:bounds_key[1]])
-
-    print('Sentiment Scores Format: [Neutral, Positive, Negative]')
-    for entity_name, averages in entity_averages.items():
-        entity_db_id = averages['entity_db_ids'][0]
-        print(f"Averages for {entity_name} (Entity DB ID: {entity_db_id}):")
-        sentiment_scores = averages['sentiment_scores']
-        text = averages['text']
-        bounds_keys = averages['bounds_keys']
-
-        for i, scores in enumerate(sentiment_scores):
-            # print("Sentiment Scores:", scores)
-            # print("Text:", text[i])
-            # print("Bounds Keys:", bounds_keys[i])
-            # print()
-            db_manager.insert_bound_mention_data(entity_name, source_article_id, entity_db_id,
-                                                 scores, text[i],
-                                                 bounds_keys[i])
-
-        print('BOUND NUMBER')
-        num_bound = len(averages['sentiment_scores'])
-        print(num_bound)
-
-        scaled_classification = ArrayUtility.scaling(averages['sentiment_scores'],
-                                                     k=EXPONENTIAL_K_VALUE)
-        exp_percent = ArrayUtility.percentage_contribution(scaled_classification)
-
-        linear_scaled_classification = ArrayUtility.scaling(averages['sentiment_scores'],
-                                                            linear=True)
-        linear_percent = ArrayUtility.percentage_contribution(
-            linear_scaled_classification)
-
-        '''Creating a list of tuples, 'systems,' containing names and classifications of two 
-        points allocation approaches. Iterating over the list to print array values rounded 
-        to 1 decimal place, percentage contributions, and the majority class for each system.'''
-
-        systems = [("Exponential", scaled_classification),
-                   ("Linear", linear_scaled_classification)]
-
-        for system_name, system_classification in systems:
-            print(f"Under {system_name} points system:")
-            print(ArrayUtility.round_array_to_1dp(system_classification))
-            print(ArrayUtility.percentage_contribution(system_classification))
-
-            majority_class = max(
-                zip(["Neutral", "Positive", "Negative"], system_classification),
-                key=lambda x: x[1])
-            print(f"{system_name} {majority_class[0]} Majority")
-
-        print("------------------------------------------------")
-
-        db_manager.insert_overall_sentiment(source_article_id, entity_db_id, num_bound,
-                                            linear_percent[0],
-                                            linear_percent[1],
-                                            linear_percent[2],
-                                            exp_percent[0], exp_percent[1], exp_percent[2])
 
 
 class SentimentAnalyser:
@@ -258,4 +177,95 @@ class SentimentAnalyser:
 
         return bounds_sentiment
 
+    @staticmethod
+    def average_sentiment_results(source_article_id, bounds_sentiment, article_text):
+        if bounds_sentiment is None:
+            print("Error: bounds_sentiment is None")
+            return
+        entity_averages = {}
 
+        for bounds_key, entity_results in bounds_sentiment.items():
+            for entity_name, entity_db_ids in entity_results.items():
+                for entity_db_id, results in entity_db_ids.items():
+                    if not results:  # Empty results for an entity? Skip...
+                        continue
+                    print(results)
+                    avg = average_array(results)
+
+                    # Store entity - bound mention - bound text - average result in database
+
+                    if entity_name not in entity_averages:
+                        entity_averages[entity_name] = {
+                            "entity_db_ids": [entity_db_id],
+                            "bounds_keys": [bounds_key],
+                            "sentiment_scores": [avg],
+                            "text": [article_text[bounds_key[0]:bounds_key[1]]],
+                        }
+                    else:
+                        entity_averages[entity_name]["entity_db_ids"].append(entity_db_id)
+                        entity_averages[entity_name]["bounds_keys"].append(bounds_key)
+                        entity_averages[entity_name]["sentiment_scores"].append(avg)
+                        entity_averages[entity_name]["text"].append(
+                            article_text[bounds_key[0]:bounds_key[1]])
+
+        print('Sentiment Scores Format: [Neutral, Positive, Negative]')
+        for entity_name, averages in entity_averages.items():
+            entity_db_id = averages['entity_db_ids'][0]
+            print(f"Averages for {entity_name} (Entity DB ID: {entity_db_id}):")
+            sentiment_scores = averages['sentiment_scores']
+            text = averages['text']
+            bounds_keys = averages['bounds_keys']
+
+            for i, scores in enumerate(sentiment_scores):
+                # print("Sentiment Scores:", scores)
+                # print("Text:", text[i])
+                # print("Bounds Keys:", bounds_keys[i])
+                # print()
+
+                article_instance, created = Article.objects.get_or_create(id=source_article_id)
+
+                # Example: Get or create an Entity instance
+                entity_instance, created = Entity.objects.get_or_create(id=entity_db_id)
+
+                DatabaseUtils.insert_bound_mention_data(entity_name, source_article_id,
+                                                        entity_db_id,
+                                                        scores, text[i],
+                                                        bounds_keys[i])
+
+            print('BOUND NUMBER')
+            num_bound = len(averages['sentiment_scores'])
+            print(num_bound)
+
+            scaled_classification = scaling(averages['sentiment_scores'],
+                                            k=EXPONENTIAL_K_VALUE)
+            exp_percent = percentage_contribution(scaled_classification)
+
+            linear_scaled_classification = scaling(averages['sentiment_scores'],
+                                                   linear=True)
+            linear_percent = percentage_contribution(
+                linear_scaled_classification)
+
+            '''Creating a list of tuples, 'systems,' containing names and classifications of two 
+            points allocation approaches. Iterating over the list to print array values rounded 
+            to 1 decimal place, percentage contributions, and the majority class for each system.'''
+
+            systems = [("Exponential", scaled_classification),
+                       ("Linear", linear_scaled_classification)]
+
+            for system_name, system_classification in systems:
+                print(f"Under {system_name} points system:")
+                print(round_array_to_1dp(system_classification))
+                print(percentage_contribution(system_classification))
+
+                majority_class = max(
+                    zip(["Neutral", "Positive", "Negative"], system_classification),
+                    key=lambda x: x[1])
+                print(f"{system_name} {majority_class[0]} Majority")
+
+            print("------------------------------------------------")
+
+            DatabaseUtils.insert_overall_sentiment(source_article_id, entity_db_id, num_bound,
+                                                   linear_percent[0],
+                                                   linear_percent[1],
+                                                   linear_percent[2],
+                                                   exp_percent[0], exp_percent[1], exp_percent[2])
