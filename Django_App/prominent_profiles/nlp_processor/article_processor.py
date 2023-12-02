@@ -1,15 +1,215 @@
 # nlp_processor/article_processor.py
+import requests
+from bs4 import BeautifulSoup
 from profiles_app.models import Article as ArticleModel
-from .constants import MENTION_REQ_PER
-import spacy
 import math
 import re
 from functools import reduce
 from textblob import TextBlob
 from collections import defaultdict
+from .constants import (ENTITY_THRESHOLD_PERCENT,
+                        MENTION_REQ_PER,
+                        MERGE_REMOVAL_INDICATOR,
+                        COMBINED_REMOVAL_INDICATOR,
+                        COMBINED_CLUSTER_ID_SEPARATOR)
+from urllib.parse import urlparse
+import urllib.robotparser
+
+
+def can_fetch_url(url_to_check):
+    """Determine if the URL can be fetched by all crawlers - adding politeness / adherence to robot
+    policy."""
+    parsed_url = urlparse(url_to_check)
+    base_url = parsed_url.scheme + "://" + parsed_url.netloc
+    # print(base_url)
+    rules = urllib.robotparser.RobotFileParser()
+    rules.set_url(base_url + "/robots.txt")
+    rules.read()
+    return rules.can_fetch("*", url_to_check)
+
+
+def get_preview_image_url(url, timeout=1):
+    try:
+        response = requests.get(url, timeout=timeout)
+        if response.status_code == 200:
+            soup = BeautifulSoup(response.text, 'html.parser')
+
+            # Open Graph image tag attempt
+            og_image = soup.find('meta', property='og:image')
+            if og_image:
+                return og_image['content']
+
+            # Otherwise, look for Twitter Card image tag
+            twitter_image = soup.find('meta', name='twitter:image')
+            if twitter_image:
+                return twitter_image['content']
+
+        else:
+            return None
+    except (requests.exceptions.RequestException, TimeoutError) as e:
+        print("Error:", e)
+        return None
+
+
+def merge_positions(entities, word):
+    """Merge all instances of the same entity into a single entry with multiple
+    positions. Where same means a lowercase word match. Place them into an
+    'entities' dictionary."""
+    entity_key = (word.text + word.label_).lower()
+    if entity_key in entities:
+        entities[entity_key][1].append([word.start_char, word.end_char])
+    else:
+        entities[entity_key] = [word.text, [[word.start_char, word
+        .end_char]], word.label_]
+    return entities
+
+
+def cleanse_cluster_text(cluster_text):
+    return [word.strip() for word in cluster_text if word.lower().strip() not
+            in undesired_words]
+
+
+undesired_words = ["i", "he", "his", "she", "they", "it", "this", "that",
+                   "these", "those", "the", "a", "an", "of"]
+
+
+def remove_titles(text):
+    title_pattern = r"^(Mr|Mrs|Ms|Miss|Dr|Prof|Rev|Capt|Sir|Madam|Mx|Esq|Hon|Gen|Col|Sgt|Fr|Sr|Jr|Lord|Lady)\s"
+    text = re.sub(title_pattern, "", text)
+
+    '''10th Nov adding as:
+        {'Entity Name': 'Keith', 'Positions': [[11664, 11669], [12301, 12306], [14453, 14458], 
+        [15005, 15010], [15286, 15291]], 'Label': 'PERSON', 'Num Positions': 5, 'Cluster Info': 
+        {'Cluster ID': 12, 'Cluster Text': ['Keith', 'Keith', 'Keith', 'Keith', 'Hugo Keith KC',
+        'Keith', 'Keith', 'Keith'], 'Cluster Positions': [(11664, 11669), (12301, 12306), 
+        (12312, 12314), (13026, 13031), (13464, 13469), (14374, 14387), (14453, 14458),
+        (15005, 15010), (15286, 15291)]}}
+        would have been updated to Hugo Keith had it not been for KC which made it 3 words'''
+
+    # Pattern for titles at the end
+    title_pattern_end = r"\s*(KC|QC)\s*$"
+    text = re.sub(title_pattern_end, "", text)
+    return text
+
+
+def insert_intervals(initial_list, new_values):
+    """The insert_intervals function enables the segmentation of sentences provided by
+    TextBlob (as shown in the cell below) to be further divided into smaller boundaries. This
+     division is based on the identification of specific points where it is deemed necessary
+     to split sentences, particularly within the context of news articles."""
+
+    def insert_recursive(intervals, values):
+        if not values:
+            return intervals  # Base case: Return the intervals when there are no more values to insert.
+
+        value = values[0]
+        result = []
+        for interval in intervals:
+            if interval[0] <= value <= interval[1]:
+                # If the value falls within an existing interval, split the interval into two parts.
+                # The first part goes from the interval's start to the value (inclusive), and
+                # the second part goes from the value+1 to the interval's end.
+                if interval[0] < value:
+                    # To mess around with intervals change value + - offset here.
+                    result.append((interval[0], value))
+                if value < interval[1]:
+                    # To mess around with intervals change value + - offset here.
+                    result.append((value + 1, interval[1]))
+            else:
+                # If the value doesn't fall within the interval, keep the interval as is.
+                result.append(interval)
+        # Recursively process other values.
+        return insert_recursive(result, values[1:])
+
+        # Recursive function call
+
+    updated_list = insert_recursive(initial_list, new_values)
+    return updated_list
+
+
+def is_substring(entity1, entity2):
+    return entity1.lower() in entity2.lower() or entity2.lower() in entity1.lower()
+
+
+def combine_entities(entities, cluster_text):
+    combined_entity = None
+
+    for entity1 in entities:
+        for entity2 in entities:
+            if entity1 != entity2:
+                combined1 = entity1 + ' ' + entity2
+                combined2 = entity2 + ' ' + entity1
+
+                if combined1 in cluster_text or combined2 in cluster_text:
+                    combined_entity = combined1 if combined1 in cluster_text \
+                        else combined2
+                    break
+
+    return combined_entity
+
+
+def update_entity_name(entry):
+    """Calls remove titles and removes possessives before checking if an entity name is a
+     substring of a 2 word entry in the coref cluster e.g. Johnson should become Boris Johnson"""
+
+    entity_name = entry['Entity Name']
+    cluster_text = entry['Cluster Info']['Cluster Text']
+
+    for text in cluster_text:
+        # Remove titles as not relevant
+        text = remove_titles(text)
+        # Remove possessive markers for comparison
+        text = text.replace("’s", "")
+        # Check if the current entity name is a substring of a 2-word cluster text entry
+        if len(text.split()) == 2 and entity_name in text:
+            entry['Entity Name'] = text
+            break
+    return entry
+
+
+def clean_up_substrings(clustered_entities):
+    longest_names = {}
+    entities_to_keep = []
+
+    # Identify longest names in cluster ID and remove shorter ones
+    for entity in clustered_entities:
+        cluster_id = entity['Cluster Info']['Cluster ID']
+        entity_name = entity['Entity Name']
+        current_longest = longest_names.get(cluster_id, "")
+
+        if len(entity_name) > len(current_longest):
+            # Remove the shorter entity without adding it to the list of entities to keep
+            if current_longest:
+                entities_to_keep = [e for e in clustered_entities if
+                                    e['Cluster Info']['Cluster ID'] != cluster_id]
+            longest_names[cluster_id] = entity_name
+
+            # Add the entity to the list of entities to keep
+            entities_to_keep.append(entity)
+
+    # Set merge indicator for entities with more than one associated name in the original list
+    for entity in clustered_entities:
+        cluster_id = entity['Cluster Info']['Cluster ID']
+        if len([e for e in entities_to_keep if
+                e['Cluster Info']['Cluster ID'] == cluster_id]) > 1:
+            entity['Num Positions'] = int(MERGE_REMOVAL_INDICATOR)
+            entity['Positions'] = int(MERGE_REMOVAL_INDICATOR)
+    return entities_to_keep
+
+
+def create_entity_entry(entity_name, positions, label, num_positions):
+    return {
+        'Entity Name': entity_name,
+        'Positions': positions,
+        'Label': label,
+        'Num Positions': num_positions,
+        'Cluster Info': []
+    }
 
 
 class Article:
+    # MENTION_REQ_PER = 0.20 - Moved to constants.py
+    # ENTITY_THRESHOLD_PERCENT = 0.30 - Moved to constants.py
 
     def __init__(self, url, headline, text_body, NER):
         self.url = url
@@ -30,8 +230,8 @@ class Article:
         self.bounds_sentiment = None
         self.sentiment_analyser = None
 
-    def set_sentiment_analyser(self, db_manager):
-        self.sentiment_analyser = SentimentAnalyser(db_manager)
+    def set_sentiment_analyser(self):
+        self.sentiment_analyser = SentimentAnalyser
 
     def get_bounds_sentiment(self):
         try:
@@ -42,62 +242,6 @@ class Article:
             print(f"Error processing bounds data for article {self.headline}. Error: {e}")
             self.bounds_sentiment = None
 
-    @staticmethod
-    def insert_intervals(initial_list, new_values):
-        '''The insert_intervals function enables the segmentation of sentences provided by
-        TextBlob (as shown in the cell below) to be further divided into smaller boundaries. This
-         division is based on the identification of specific points where it is deemed necessary
-         to split sentences, particularly within the context of news articles.'''
-
-        def insert_recursive(intervals, values):
-            if not values:
-                return intervals  # Base case: Return the intervals when there are no more values to insert.
-
-            value = values[0]
-            result = []
-            for interval in intervals:
-                if interval[0] <= value <= interval[1]:
-                    # If the value falls within an existing interval, split the interval into two parts.
-                    # The first part goes from the interval's start to the value (inclusive), and
-                    # the second part goes from the value+1 to the interval's end.
-                    if interval[0] < value:
-                        # To mess around with intervals change value + - offset here.
-                        result.append((interval[0], value))
-                    if value < interval[1]:
-                        # To mess around with intervals change value + - offset here.
-                        result.append((value + 1, interval[1]))
-                else:
-                    # If the value doesn't fall within the interval, keep the interval as is.
-                    result.append(interval)
-            # Recursively process other values.
-            return insert_recursive(result, values[1:])
-
-            # Recursive function call
-
-        updated_list = insert_recursive(initial_list, new_values)
-        return updated_list
-
-    @staticmethod
-    def is_substring(entity1, entity2):
-        return entity1.lower() in entity2.lower() or entity2.lower() in entity1.lower()
-
-    @staticmethod
-    def combine_entities(entities, cluster_text):
-        combined_entity = None
-
-        for entity1 in entities:
-            for entity2 in entities:
-                if entity1 != entity2:
-                    combined1 = entity1 + ' ' + entity2
-                    combined2 = entity2 + ' ' + entity1
-
-                    if combined1 in cluster_text or combined2 in cluster_text:
-                        combined_entity = combined1 if combined1 in cluster_text \
-                            else combined2
-                        break
-
-        return combined_entity
-
     def print_clustered_entities(self):
         for entry in self.clustered_entities:
             print(entry)
@@ -107,15 +251,6 @@ class Article:
         for entry in self.entity_to_cluster_mapping:
             print(entry)
             print()
-
-    def create_entity_entry(self, entity_name, positions, label, num_positions):
-        return {
-            'Entity Name': entity_name,
-            'Positions': positions,
-            'Label': label,
-            'Num Positions': num_positions,
-            'Cluster Info': []
-        }
 
     def determine_entity_to_cluster_mapping(self):
 
@@ -132,8 +267,8 @@ class Article:
         for entity_type, entities in self.people_entities.items():
             for entity in entities:
                 entity_name, positions, label, num_positions = entity
-                entity_entry = self.create_entity_entry(entity_name, positions, label,
-                                                        num_positions)
+                entity_entry = create_entity_entry(entity_name, positions, label,
+                                                   num_positions)
                 self.process_clusters_for_entity(entity_entry, entity_name)
 
     def process_clusters_for_entity(self, entity_entry, entity_name):
@@ -208,7 +343,7 @@ class Article:
         # Add an ID to each cluster
         self.coref_clusters = list(enumerate(sorted_combined_clusters))
 
-    def source_NER_people(self):
+    def source_ner_people(self):
 
         '''SpaCy is a popular NLP library that offers pre-trained models for various languages, and
             its NER component is capable of recognising and categorising named entities within text.
@@ -306,14 +441,14 @@ class Article:
                            in sentences]
 
         # Insert custom intervals
-        updated_list = Article.insert_intervals(sentence_bounds, extra_split)
+        updated_list = insert_intervals(sentence_bounds, extra_split)
 
         self.sentence_bounds = updated_list
         self.num_sentences = len(list(sentence_bounds))
         self.mention_threshold = math.floor(self.num_sentences * MENTION_REQ_PER)
 
     def entity_cluster_map_consolidation(self):
-        '''
+        """
         Purposes of below code:
 
         1. Substring Matching: If one entity is a substring of another entity, they
@@ -330,7 +465,7 @@ class Article:
 
         4. 16th November - resolve instances of 'King\n11:43' which should be King.
 
-        '''
+        """
 
         cluster_dict = defaultdict(list)
         debug = False
@@ -348,19 +483,19 @@ class Article:
                     combined_entry = None
                     for i, entry1 in enumerate(entries):
                         for j, entry2 in enumerate(entries):
-                            entry1 = Article.update_entity_name(entry1)
-                            entry2 = Article.update_entity_name(entry2)
+                            entry1 = update_entity_name(entry1)
+                            entry2 = update_entity_name(entry2)
 
                             if i < j:
                                 entity_1_name = entry1['Entity Name']
                                 entity_2_name = entry2['Entity Name']
 
                                 cluster_text = entries[0]['Cluster Info']['Cluster Text']
-                                combined_entity = Article.combine_entities([entity_1_name,
-                                                                            entity_2_name],
-                                                                           cluster_text)
+                                combined_entity = combine_entities([entity_1_name,
+                                                                    entity_2_name],
+                                                                   cluster_text)
 
-                                if Article.is_substring(entity_1_name, entity_2_name):
+                                if is_substring(entity_1_name, entity_2_name):
                                     if len(entity_1_name) > len(entity_2_name):
                                         if entry2 in entries:
                                             entries.remove(entry2)
@@ -402,11 +537,12 @@ class Article:
             '''
             for cluster_id1, entries1 in cluster_dict.items():
                 for cluster_id2, entries2 in cluster_dict.items():
-                    if cluster_id1 != cluster_id2:  # Prevents comparing entries within the same cluster
+                    if cluster_id1 != cluster_id2:  # Prevents comparing entries within the same
+                        # cluster
                         for entry1 in entries1:
                             for entry2 in entries2:
-                                entry1 = Article.update_entity_name(entry1)
-                                entry2 = Article.update_entity_name(entry2)
+                                entry1 = update_entity_name(entry1)
+                                entry2 = update_entity_name(entry2)
 
                                 entity_1_name = entry1['Entity Name']
                                 entity_2_name = entry2['Entity Name']
@@ -415,7 +551,8 @@ class Article:
                                     print('cross cluster merge triggered!')
                                     print(entity_1_name)
                                     print(entity_2_name)
-                                    # Combine cluster IDs with '0000' in between as a strong indicator.
+                                    # Combine cluster IDs with '0000' in between as a strong
+                                    # indicator.
                                     combined_cluster_id = f"{entry1['Cluster Info']['Cluster ID']}{COMBINED_CLUSTER_ID_SEPARATOR}{entry2['Cluster Info']['Cluster ID']}"
 
                                     # Set the new cluster ID
@@ -491,7 +628,7 @@ class Article:
         print(f"number of entities before mention threshold: {before_len}")
         print(f"number of entities after mention thresold: {new_length}")
 
-        clustered_entities = self.clean_up_substrings(clustered_entities)
+        clustered_entities = clean_up_substrings(clustered_entities)
 
         self.clustered_entities = clustered_entities
 
@@ -507,56 +644,7 @@ class Article:
         #     print("Headline Found: " + headline_request)
         #     print("Original Headline: " + self.headline)
         #     self.headline = headline_request
-        self.image_url = BeautifulRequests.get_preview_image_url(self.url)
-
-    def clean_up_substrings(self, clustered_entities):
-
-        longest_names = {}
-        entities_to_keep = []
-
-        # Identify longest names in cluster ID and remove shorter ones
-        for entity in clustered_entities:
-            cluster_id = entity['Cluster Info']['Cluster ID']
-            entity_name = entity['Entity Name']
-            current_longest = longest_names.get(cluster_id, "")
-
-            if len(entity_name) > len(current_longest):
-                # Remove the shorter entity without adding it to the list of entities to keep
-                if current_longest:
-                    entities_to_keep = [e for e in clustered_entities if
-                                        e['Cluster Info']['Cluster ID'] != cluster_id]
-                longest_names[cluster_id] = entity_name
-
-                # Add the entity to the list of entities to keep
-                entities_to_keep.append(entity)
-
-        # Set merge indicator for entities with more than one associated name in the original list
-        for entity in clustered_entities:
-            cluster_id = entity['Cluster Info']['Cluster ID']
-            if len([e for e in entities_to_keep if
-                    e['Cluster Info']['Cluster ID'] == cluster_id]) > 1:
-                entity['Num Positions'] = int(MERGE_REMOVAL_INDICATOR)
-                entity['Positions'] = int(MERGE_REMOVAL_INDICATOR)
-        return entities_to_keep
-
-    @staticmethod
-    def update_entity_name(entry):
-        '''Calls remove titles and removes possessives before checking if an entity name is a
-         substring of a 2 word entry in the coref cluster e.g. Johnson should become Boris Johnson'''
-
-        entity_name = entry['Entity Name']
-        cluster_text = entry['Cluster Info']['Cluster Text']
-
-        for text in cluster_text:
-            # Remove titles as not relevant
-            text = remove_titles(text)
-            # Remove possessive markers for comparison
-            text = text.replace("’s", "")
-            # Check if the current entity name is a substring of a 2-word cluster text entry
-            if len(text.split()) == 2 and entity_name in text:
-                entry['Entity Name'] = text
-                break
-        return entry
+        self.image_url = get_preview_image_url(self.url)
 
     def save_to_database(self):
         # Save necessary data to the Article model in profiles_app

@@ -5,8 +5,8 @@ import trafilatura
 import spacy
 
 from django.core.management.base import BaseCommand
-# from profiles_app.models import Article as ArticleModel
-
+from profiles_app.models import Article as ArticleModel
+from nlp_processor.utils import DatabaseUtils
 from django.apps import apps
 from fastcoref import FCoref
 
@@ -67,6 +67,13 @@ class Command(BaseCommand):
             if url in processed_urls:
                 skips += 1
                 continue  # Skip this article
+
+            # Check if the URL already exists in the database
+            if ArticleModel.objects.filter(url=url).exists():
+                print('Article URL already exists in db')
+                skips += 1
+                continue
+
 
             try:
                 if can_fetch_url(url):
@@ -137,12 +144,45 @@ class Command(BaseCommand):
 
         print(len(article_objects))
 
+
+
         article_texts = [article.text_body for article in article_objects]
         article_text_clusters = perform_coreference_resolution(article_texts)
 
         for article, clusters in zip(article_objects, article_text_clusters):
             article.set_coref_clusters(clusters)
-            article.source_NER_people()
+
+        new_article_objects = []
+
+        for article in article_objects:
+            article.source_ner_people()
             article.determine_sentences()
             article.determine_entity_to_cluster_mapping()
             article.entity_cluster_map_consolidation()
+
+            if article.database_candidate:
+                article.save_to_database()
+
+                if article.database_id != -1:
+                    for entity_data in article.clustered_entities:
+                        entity_name = entity_data['Entity Name']
+                        entity_db_id = DatabaseUtils.insert_entity(entity_name, article.database_id)
+                        print(entity_db_id)
+
+                        # if not db_manager.entity_db_id_exists_in_bing(entity_db_id):
+                        #     bing_entity_info = get_bing_entity_info(entity_name)
+                        #     if bing_entity_info:
+                        #         # Insert into the bing_entity_info table
+                        #         db_manager.insert_into_bing_entity_table(entity_db_id,
+                        #                                                  bing_entity_info)
+
+                    entity_data['entity_db_id'] = entity_db_id
+
+                new_article_objects.append(article)
+
+            elif not article.database_candidate:
+                print("Not enough mentions to add")
+            else:
+                print("Article already exists in the database")
+
+        article_objects = new_article_objects
