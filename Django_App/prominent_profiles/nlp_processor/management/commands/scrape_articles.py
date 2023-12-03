@@ -7,6 +7,7 @@ import spacy
 from django.core.management.base import BaseCommand
 from profiles_app.models import Article as ArticleModel
 from nlp_processor.utils import DatabaseUtils
+from nlp_processor.bing_api import *
 from django.apps import apps
 from fastcoref import FCoref
 
@@ -166,12 +167,11 @@ class Command(BaseCommand):
                         entity_db_id = DatabaseUtils.insert_entity(entity_name, article.database_id)
                         print(entity_db_id)
 
-                        # if not db_manager.entity_db_id_exists_in_bing(entity_db_id):
-                        #     bing_entity_info = get_bing_entity_info(entity_name)
-                        #     if bing_entity_info:
-                        #         # Insert into the bing_entity_info table
-                        #         db_manager.insert_into_bing_entity_table(entity_db_id,
-                        #                                                  bing_entity_info)
+                        if not entity_db_id_exists_in_bing(entity_db_id):
+                            bing_entity_info = get_bing_entity_info(entity_name)
+                            if bing_entity_info:
+                                # Insert into the bing_entity_info table
+                                insert_into_bing_entity_table(entity_db_id, bing_entity_info)
 
                     entity_data['entity_db_id'] = entity_db_id
 

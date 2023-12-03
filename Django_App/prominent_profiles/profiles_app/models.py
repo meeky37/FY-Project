@@ -17,6 +17,18 @@ class Entity(models.Model):
     type = models.CharField(max_length=50, null=True)
 
 
+class BingEntity(models.Model):
+    entity_id = models.ForeignKey('Entity', on_delete=models.CASCADE)
+    name = models.CharField(max_length=255)
+    description = models.TextField()
+    image_url = models.CharField(max_length=255)
+    web_search_url = models.CharField(max_length=255)
+    bing_id = models.CharField(max_length=255)
+    contractual_rules = models.JSONField()
+    entity_type_display_hint = models.CharField(max_length=255)
+    entity_type_hints = models.JSONField()
+
+
 class BoundMention(models.Model):
     article = models.ForeignKey(Article, on_delete=models.CASCADE)
     entity = models.ForeignKey(Entity, on_delete=models.CASCADE)
