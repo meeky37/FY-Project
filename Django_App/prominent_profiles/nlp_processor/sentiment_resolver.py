@@ -113,7 +113,10 @@ class SentimentAnalyser:
 
         for entity in clustered_entities:
             entity_name = entity['Entity Name']
-            entity_db_id = entity['entity_db_id']
+            if 'entity_db_id' in entity:
+                entity_db_id = entity['entity_db_id']
+            else:
+                continue
             cluster_positions = entity['Cluster Info']['Cluster Positions']
             cluster_id = entity['Cluster Info']['Cluster ID']
 
@@ -183,10 +186,12 @@ class SentimentAnalyser:
             print("Error: bounds_sentiment is None")
             return
         entity_averages = {}
-
         for bounds_key, entity_results in bounds_sentiment.items():
             for entity_name, entity_db_ids in entity_results.items():
+                print("Entity DB IDs: ")
+                print(entity_db_ids)
                 for entity_db_id, results in entity_db_ids.items():
+
                     if not results:  # Empty results for an entity? Skip...
                         continue
                     print(results)

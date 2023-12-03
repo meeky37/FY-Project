@@ -240,8 +240,14 @@ class Article:
                 clustered_entities=self.clustered_entities, sentence_bounds=self.sentence_bounds,
                 article_text=self.text_body,
                 debug=False)
+        # except Exception as e:
+        #     print(f"Error processing bounds data for article {self.headline}. Error: {e}")
+        #     self.bounds_sentiment = None
         except Exception as e:
-            print(f"Error processing bounds data for article {self.headline}. Error: {e}")
+            import traceback
+            print(
+                f"Error processing bounds data for article {self.headline}. Exception Type: {type(e)}, Error: {e}")
+            traceback.print_exc()
             self.bounds_sentiment = None
 
     def print_clustered_entities(self):

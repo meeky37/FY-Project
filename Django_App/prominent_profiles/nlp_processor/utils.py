@@ -7,20 +7,21 @@ class DatabaseUtils:
         try:
             existing_entity = Entity.objects.filter(name=entity_name).first()
 
+            article_instance = Article.objects.get(id=source_article_id)
+
             if existing_entity is not None:
                 # Return to prevent duplicate entity creation later
                 return existing_entity.id
             else:
                 # Insert if entity does not exist (name match)
-                new_entity = Entity(name=entity_name, type=None,
-                                    source_article_id=source_article_id)
+                new_entity = Entity(source_article=article_instance, name=entity_name, type=None)
                 new_entity.save()
                 return new_entity.id
         except Exception as e:
             print("Error:", e)
 
     @staticmethod
-    def insert_bound_mention_data(self, entity_name, article_id, entity_db_id, scores, text,
+    def insert_bound_mention_data(entity_name, article_id, entity_db_id, scores, text,
                                   bounds_keys):
         try:
             # Retrieve or create Article and Entity instances
@@ -51,7 +52,7 @@ class DatabaseUtils:
             print(f"Error inserting data for entity {entity_name}:", e)
 
     @staticmethod
-    def insert_overall_sentiment(self, article_id, entity_id, num_bound, linear_neutral,
+    def insert_overall_sentiment(article_id, entity_id, num_bound, linear_neutral,
                                  linear_positive, linear_negative, exp_neutral, exp_positive,
                                  exp_negative):
         try:
