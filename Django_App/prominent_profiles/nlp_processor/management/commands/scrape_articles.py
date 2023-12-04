@@ -6,6 +6,7 @@ import spacy
 
 from django.core.management.base import BaseCommand
 from profiles_app.models import Article as ArticleModel
+from nlp_processor.models import ProcessedFile
 from nlp_processor.utils import DatabaseUtils
 from nlp_processor.bing_api import *
 from django.apps import apps
@@ -113,12 +114,37 @@ class Command(BaseCommand):
 
     def process_file(self, file_name, article_objects, processed_urls):
         directory_path = "Daily_Results"
-        file_path = os.path.join(directory_path, file_name)
+        file_path = os.path.join(file_name)
 
         with open(file_path, "r") as articles_file:
             articles = json.load(articles_file)
 
         return Command.process_articles(articles, article_objects, processed_urls)
+
+    def process_unapplied_files(self):
+        # Get a list of ProcessedFile objects with nlp_applied=False
+        unapplied_files = ProcessedFile.objects.filter(nlp_applied=False)
+
+        # Initialize article_objects as an empty list
+        article_objects = []
+        processed_urls = set()
+
+        for file in unapplied_files:
+            full_path = file.full_path()
+
+            # Check if the file has already been processed
+            if full_path not in processed_urls:
+                # Retrieve articles from the current file
+                articles_from_file = self.process_file(full_path, [], processed_urls)
+
+                # Extend article_objects with articles from the current file
+                article_objects.extend(articles_from_file)
+
+                # Update the ProcessedFile object to mark it as processed
+                file.nlp_applied = True
+                file.save()
+
+        return article_objects
 
     def handle(self, *args, **options):
 
@@ -127,20 +153,22 @@ class Command(BaseCommand):
 
         media_path = os.path.join(settings.ARTICLE_SCRAPER_MEDIA_ROOT, 'api_articles')
 
-        file_name_1 = "keir+starmer_no_dup_articles_loop_17-11-2023-18:44.json"
-        media_path_1 = os.path.join(media_path, 'keir_starmer', file_name_1)
-        full_path_1 = os.path.join(settings.BASE_DIR, 'nlp_processor', media_path_1)
-        article_objects = self.process_file(full_path_1, article_objects, processed_urls)
+        # file_name_1 = "keir+starmer_no_dup_articles_loop_17-11-2023-18:44.json"
+        # media_path_1 = os.path.join(media_path, 'keir+starmer', file_name_1)
+        # full_path_1 = os.path.join(settings.BASE_DIR, 'nlp_processor', media_path_1)
+        # article_objects = self.process_file(full_path_1, article_objects, processed_urls)
+        #
+        # file_name_2 = "rishi+sunak_no_dup_articles_loop_17-11-2023-18:46.json"
+        # media_path_2 = os.path.join(media_path, 'rishi+sunak', file_name_2)
+        # full_path_2 = os.path.join(settings.BASE_DIR, 'nlp_processor', media_path_2)
+        # # article_objects.extend(self.process_file(full_path_2, article_objects, processed_urls))
+        #
+        # file_name_3 = "uk+politics_no_dup_articles_loop_17-11-2023-19:26.json"
+        # media_path_3 = os.path.join(media_path, 'uk+politics', file_name_3)
+        # full_path_3 = os.path.join(settings.BASE_DIR, 'nlp_processor', media_path_3)
+        # # article_objects.extend(self.process_file(full_path_3, article_objects, processed_urls))
 
-        file_name_2 = "rishi+sunak_no_dup_articles_loop_17-11-2023-18:46.json"
-        media_path_2 = os.path.join(media_path, 'rishi_sunak', file_name_2)
-        full_path_2 = os.path.join(settings.BASE_DIR, 'nlp_processor', media_path_2)
-        # article_objects.extend(self.process_file(full_path_2, article_objects, processed_urls))
-
-        file_name_3 = "uk+politics_no_dup_articles_loop_17-11-2023-19:26.json"
-        media_path_3 = os.path.join(media_path, 'uk_politics', file_name_3)
-        full_path_3 = os.path.join(settings.BASE_DIR, 'nlp_processor', media_path_3)
-        # article_objects.extend(self.process_file(full_path_3, article_objects, processed_urls))
+        article_objects = self.process_unapplied_files()
 
         print(len(article_objects))
 

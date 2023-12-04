@@ -14,7 +14,13 @@ class Article(models.Model):
 class Entity(models.Model):
     source_article = models.ForeignKey(Article, on_delete=models.PROTECT)
     name = models.CharField(max_length=50)
-    type = models.CharField(max_length=50, null=True)
+    type = models.CharField(max_length=50, null=True, blank=True)
+    app_visible = models.BooleanField(
+        default=False)  # So web admins can filter live entities on app.
+
+    @property
+    def article_count(self):
+        return OverallSentiment.objects.filter(entity=self).count()
 
 
 class BingEntity(models.Model):
