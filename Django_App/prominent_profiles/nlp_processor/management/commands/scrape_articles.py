@@ -195,26 +195,28 @@ class Command(BaseCommand):
                         entity_db_id = DatabaseUtils.insert_entity(entity_name, article.database_id)
                         print(entity_db_id)
 
-                        if not entity_db_id_exists_in_bing(entity_db_id):
-                            bing_entity_info = get_bing_entity_info(entity_name)
-                            if bing_entity_info:
-                                # Insert into the bing_entity_info table
-                                insert_into_bing_entity_table(entity_db_id, bing_entity_info)
+                        # if not entity_db_id_exists_in_bing(entity_db_id):
+                        #     bing_entity_info = get_bing_entity_info(entity_name)
+                        #     if bing_entity_info:
+                        #         # Insert into the bing_entity_info table
+                        #         insert_into_bing_entity_table(entity_db_id, bing_entity_info)
+                            # else:
+                            #     bing_entity_pending = BingEntityPending.objects.filter(entity_id=entity_db_id).first()
+                            #
+                            #     if not bing_entity_pending:
+                            #         # If not, add to the BingEntityPending table
+                            #         BingEntityPending.objects.create(entity_id=entity_db_id, entity_name=entity_name)
 
                     entity_data['entity_db_id'] = entity_db_id
 
-                new_article_objects.append(article)
+                    article.set_sentiment_analyser()
+                    article.get_bounds_sentiment()
+                    article.get_average_sentiment_results()
 
             elif not article.database_candidate:
                 print("Not enough mentions to add")
             else:
                 print("Article already exists in the database")
+            article_objects.remove(article)
 
-        article_objects = new_article_objects
 
-        for article in article_objects[1:30]:
-            article.set_sentiment_analyser()
-            article.get_bounds_sentiment()
-
-        for article in article_objects[1:30]:
-            article.get_average_sentiment_results()
