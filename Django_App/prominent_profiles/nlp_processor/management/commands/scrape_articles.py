@@ -207,7 +207,7 @@ class Command(BaseCommand):
                             #         # If not, add to the BingEntityPending table
                             #         BingEntityPending.objects.create(entity_id=entity_db_id, entity_name=entity_name)
 
-                    entity_data['entity_db_id'] = entity_db_id
+                        entity_data['entity_db_id'] = entity_db_id
 
                     article.set_sentiment_analyser()
                     article.get_bounds_sentiment()

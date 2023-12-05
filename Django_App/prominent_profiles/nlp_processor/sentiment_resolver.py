@@ -81,7 +81,7 @@ class SentimentAnalyser:
             right_segment = article_text[mention_end:sentence_end]
 
             sentiment = self.tsc.infer_from_text(left_segment, mention_segment, right_segment)
-            print(sentiment[0])
+            # print(sentiment[0])
 
             return sentiment[0]
 
@@ -116,6 +116,8 @@ class SentimentAnalyser:
             if 'entity_db_id' in entity:
                 entity_db_id = entity['entity_db_id']
             else:
+                print("Process clustered entities would skip...")
+                print(entity_name)
                 continue
             cluster_positions = entity['Cluster Info']['Cluster Positions']
             cluster_id = entity['Cluster Info']['Cluster ID']
@@ -123,11 +125,13 @@ class SentimentAnalyser:
             # Check if the cluster_id has been seen before
             if cluster_id in cluster_id_mapping:
                 print('Using cached bounds sentiment')
-                # If so use the cached bounds_sentiment
-                bounds_sentiment = cluster_id_mapping[cluster_id]
+                # If so, use the cached bounds_sentiment
+                for entry in cluster_id_mapping[cluster_id]:
+                    bounds_key = entry['bounds_key']
+                    bounds_sentiment[bounds_key][entity_name][entity_db_id] = entry
+
             else:
-                bounds_sentiment = {}
-                results_cache = {}  # Cache results for each cluster ID
+                cluster_id_mapping[cluster_id] = []
 
                 for mention_start, mention_end in cluster_positions:
                     overlap = bounds_tree.overlap(mention_start, mention_end)
@@ -156,18 +160,28 @@ class SentimentAnalyser:
                                                            sentence_start, sentence_end,
                                                            article_text)
 
-                            if cluster_id not in results_cache:
-                                result = self.bounds_sentiment(
-                                    mention_start, mention_end, sentence_start, sentence_end,
-                                    article_text
-                                )
-                                results_cache.setdefault(cluster_id, []).append(result)
-                            else:
-                                # print("Results Cache")
-                                # print(results_cache)
-                                results_cache[cluster_id].append(result)
+                            bounds_sentiment[bounds_key][entity_name][entity_db_id].append(
+                                result)
 
-                            bounds_sentiment[bounds_key][entity_name][entity_db_id].append(result)
+                            cluster_id_mapping[cluster_id].append({
+                                'bounds_key': bounds_key,
+                                'entity_name': entity_name,
+                                'entity_db_id': entity_db_id,
+                                'result': result
+                            })
+
+                            # if cluster_id not in results_cache:
+                            #     result = self.bounds_sentiment(
+                            #         mention_start, mention_end, sentence_start, sentence_end,
+                            #         article_text
+                            #     )
+                            #     results_cache.setdefault(cluster_id, []).append(result)
+                            #     bounds_sentiment[bounds_key][entity_name][entity_db_id].append(
+                            #         result)
+                            # else:
+                            #     # print("Results Cache")
+                            #     # print(results_cache)
+                            #     results_cache[cluster_id].append(result)
 
                             if debug:
                                 print(
@@ -175,8 +189,6 @@ class SentimentAnalyser:
                                 print(highlighted_text)
                                 print(
                                     GREEN + f"NewsSentiment Candidateappearance{len(bounds_sentiment[bounds_key][entity_name][entity_db_id])}" + END_COLOR)
-
-                cluster_id_mapping[cluster_id] = bounds_sentiment
 
         return bounds_sentiment
 
