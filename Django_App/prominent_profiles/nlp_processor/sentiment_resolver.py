@@ -128,7 +128,14 @@ class SentimentAnalyser:
                 # If so, use the cached bounds_sentiment
                 for entry in cluster_id_mapping[cluster_id]:
                     bounds_key = entry['bounds_key']
-                    bounds_sentiment[bounds_key][entity_name][entity_db_id] = entry
+
+                    if entity_name not in bounds_sentiment[bounds_key]:
+                        bounds_sentiment[bounds_key][entity_name] = {}
+
+                    if entity_db_id not in bounds_sentiment[bounds_key][entity_name]:
+                        bounds_sentiment[bounds_key][entity_name][entity_db_id] = []
+
+                    bounds_sentiment[bounds_key][entity_name][entity_db_id].append(entry['result'])
 
             else:
                 cluster_id_mapping[cluster_id] = []
@@ -137,7 +144,6 @@ class SentimentAnalyser:
                     overlap = bounds_tree.overlap(mention_start, mention_end)
                     if overlap:
                         for interval in overlap:
-                            print(" ")
                             sentence_start, sentence_end = interval.begin, interval.end
                             bounds_key = (sentence_start, sentence_end)
 
@@ -165,8 +171,6 @@ class SentimentAnalyser:
 
                             cluster_id_mapping[cluster_id].append({
                                 'bounds_key': bounds_key,
-                                'entity_name': entity_name,
-                                'entity_db_id': entity_db_id,
                                 'result': result
                             })
 
@@ -255,6 +259,12 @@ class SentimentAnalyser:
 
             scaled_classification = scaling(averages['sentiment_scores'],
                                             k=EXPONENTIAL_K_VALUE)
+
+            # Can't scale an array of [0, 0, 0] -> Divide by zero error.
+            if sum(scaled_classification) == 0:
+                print(scaled_classification)
+                continue
+
             exp_percent = percentage_contribution(scaled_classification)
 
             linear_scaled_classification = scaling(averages['sentiment_scores'],
