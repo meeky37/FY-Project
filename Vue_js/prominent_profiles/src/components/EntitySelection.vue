@@ -18,6 +18,7 @@
 </template>
 
 <script>
+import { API_BASE_URL } from '@/config.js'
 export default {
   name: 'EntitySelection',
 
@@ -35,7 +36,7 @@ export default {
 
   methods: {
     fetchVisibleEntities () {
-      const apiUrl = 'http://localhost:8008/profiles_app/entities/'
+      const apiUrl = `${API_BASE_URL}/profiles_app/entities/`
 
       fetch(apiUrl)
         .then(response => response.json())

@@ -1,5 +1,6 @@
 # profiles_app/models.py
 from django.db import models
+from django.utils import timezone
 
 
 class Article(models.Model):
@@ -31,7 +32,7 @@ class BingEntity(models.Model):
     contractual_rules = models.JSONField()
     entity_type_display_hint = models.CharField(max_length=255)
     entity_type_hints = models.JSONField()
-
+    date_added = models.DateTimeField(auto_now_add=True)
 
 class BoundMention(models.Model):
     article = models.ForeignKey(Article, on_delete=models.CASCADE)

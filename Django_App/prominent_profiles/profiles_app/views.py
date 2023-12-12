@@ -27,6 +27,7 @@ class BingEntityDetailView(View):
             'contractual_rules': bing_entity.contractual_rules,
             'entity_type_display_hint': bing_entity.entity_type_display_hint,
             'entity_type_hints': bing_entity.entity_type_hints,
+            'date_added': bing_entity.date_added
         }
 
         # serialized_entity = {

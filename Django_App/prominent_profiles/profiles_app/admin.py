@@ -42,7 +42,16 @@ class EntityAdmin(admin.ModelAdmin):
     actions = [merge_entities]
 
 
+class BingEntityAdmin(admin.ModelAdmin):
+    list_display = ('id', 'entity', 'name', 'description', 'image_url', 'web_search_url', 'bing_id', 'contractual_rules', 'entity_type_display_hint', 'entity_type_hints', 'date_added')
+
+
+admin.site.register(BingEntity, BingEntityAdmin)
+
+
+
+
 admin.site.register(Entity, EntityAdmin)
 admin.site.register(BoundMention)
 admin.site.register(OverallSentiment)
-admin.site.register(BingEntity)
+
