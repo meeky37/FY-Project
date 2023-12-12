@@ -65,7 +65,7 @@ def insert_into_bing_entity_table(entity_id, bing_entity_info):
 
     try:
         bing_entity = BingEntity.objects.create(
-            entity_id=entity_instance,
+            entity=entity_instance,
             name=bing_entity_info['name'],
             description=bing_entity_info['description'],
             image_url=bing_entity_info['image_url'],
