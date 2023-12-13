@@ -31,14 +31,23 @@
       </p>
       <button @click="closeSourcePopup">Close</button>
     </div>
+    <br>
+
+    <!-- Use ArticleEntriesContainer to display entries -->
+    <ArticleEntriesContainer
+    />
   </div>
 </template>
 
 <script>
-
+import ArticleEntriesContainer from '../components/ArticleEntriesContainer.vue'
 import { API_BASE_URL } from '@/config.js'
 export default {
   name: 'EntityPage',
+
+  components: {
+    ArticleEntriesContainer
+  },
 
   data () {
     return {
@@ -47,9 +56,14 @@ export default {
       showSourcePopup: false
     }
   },
-
   watch: {
-    '$route.params.id': 'fetchBingEntity'
+    '$route.params.id': function (newId, oldId) {
+      console.log('Route parameter changed:', newId)
+      // Check if newId is defined before triggering bing entity
+      if (newId !== undefined) {
+        this.fetchBingEntity()
+      }
+    }
   },
 
   created () {
