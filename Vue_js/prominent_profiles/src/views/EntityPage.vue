@@ -31,22 +31,22 @@
       </p>
       <button @click="closeSourcePopup">Close</button>
     </div>
-    <br>
-
     <!-- Use ArticleEntriesContainer to display entries -->
-    <ArticleEntriesContainer
-    />
+    <ArticleEntriesContainer/>
+    <PageFooter/>
   </div>
 </template>
 
 <script>
 import ArticleEntriesContainer from '../components/ArticleEntriesContainer.vue'
+import PageFooter from '../components/PageFooter.vue'
 import { API_BASE_URL } from '@/config.js'
 export default {
   name: 'EntityPage',
 
   components: {
-    ArticleEntriesContainer
+    ArticleEntriesContainer,
+    PageFooter
   },
 
   data () {
@@ -166,12 +166,13 @@ export default {
 }
 
 .description-box p {
-  font-size: 16px;
+  font-size: x-large;
   line-height: 1.6;
   color: #333;
 }
 
 .source-date {
+  font-size: xx-small;
   text-align: right;
   margin: 1px;
 }

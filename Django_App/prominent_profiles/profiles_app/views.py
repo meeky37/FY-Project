@@ -3,6 +3,8 @@ from django.http import JsonResponse
 from django.views import View
 from .models import Entity, BingEntity, OverallSentiment, Article
 
+# TODO: Remove unneeded attributes from JSON views.
+
 class VisibleEntitiesView(View):
     def get(self, request, *args, **kwargs):
         visible_entities = Entity.objects.filter(app_visible=True)

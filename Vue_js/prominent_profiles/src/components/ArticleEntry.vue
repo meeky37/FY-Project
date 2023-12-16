@@ -1,7 +1,20 @@
 <template>
   <div class="article-entry">
-    <h2 v-html="entry.headline"></h2>
-     <div class="sentiment-bar">
+    <div class="entry-content">
+      <img v-if="entry.image_url" :src="entry.image_url" alt="Article Image" class="article-image" />
+      <div>
+        <h3 v-html="entry.headline"></h3>
+       <div v-if="entry.url" class="url-container">
+          <div class="url-subsection">
+            {{ getSubsection(entry.url) }}
+          </div>
+          <a :href="entry.url" target="_blank" rel="noopener noreferrer" class="external-link">
+            <font-awesome-icon :icon="['fas', 'external-link-alt']" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="sentiment-bar">
       <div class="positive" :style="{ width: positiveWidth }">{{ positiveWidth }}</div>
       <div class="neutral" :style="{ width: neutralWidth }">{{ neutralWidth }}</div>
       <div class="negative" :style="{ width: negativeWidth }">{{ negativeWidth }}</div>
@@ -18,6 +31,13 @@ export default {
     }
   },
 
+  methods: {
+    getSubsection (url) {
+      // Extract the subsection before the top-level domain
+      const match = url.match(/^(https?:\/\/)?(?:www\.)?([^/]+)/)
+      return match ? match[2] : ''
+    }
+  },
   computed: {
     positiveWidth () {
       const positive = parseFloat(this.entry.positive)
@@ -44,6 +64,21 @@ export default {
   border-radius: 5px;
 }
 
+.entry-content {
+  display: flex;
+  align-items: center;
+}
+
+.article-image {
+  max-width: 48%;
+  margin-right: 10px;
+}
+
+.external-link {
+  margin-top: 0px;
+  color: #007bff;
+}
+
 .sentiment-bar {
   display: flex;
   height: 20px;
@@ -66,6 +101,19 @@ export default {
   background-color: indianred;
   color: white;
   text-align: center;
+}
+
+.url-container {
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.url-subsection {
+  font-size: small;
+  color: #777;
+  margin-right: 5px;
+  display: inline-block;
 }
 
 </style>

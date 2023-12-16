@@ -1,0 +1,3417 @@
+[
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics",
+        "queryContext": {
+            "originalQuery": "uk politics",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 37,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Laura Kuenssberg: end of year",
+                "url": "https://www.bbc.co.uk/news/uk-politics-67737116",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.mozzowMFLBszi0B1ju6WHi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Rishi Sunak&#39;s hoped for turnaround didn&#39;t happen. Despite several restarts, refreshes, reboots, promises of the &#39;real Rishi&#39; coming out, the prime minister has not been able to shake his party out of the doldrums in the polls.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d699b48a-84a0-9aa0-2544-da75b2a11d77",
+                        "name": "Laura Kuenssberg"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T11:36:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "British warship shoots down suspected attack drone in Red Sea",
+                "url": "https://www.standard.co.uk/news/politics/grant-shapps-red-sea-british-royal-navy-iranian-b1127405.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.w4AViz7QJ7SBuwPNfBCRFC&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "A Royal Navy warship has shot down a suspected attack drone in the Red Sea, the Defence Secretary has said. Grant Shapps said it was believed merchant shipping in the Red Sea was the intended target, in the latest such incident in the key global shipping route.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/47116f57-2cb0-bd80-4390-f7564b266027",
+                        "name": "Red Sea"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T11:34:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "&#39;I almost died after having plastic surgery in Turkey - and needed nine NHS ops&#39;",
+                "url": "https://www.mirror.co.uk/news/world-news/i-almost-died-after-having-31606200",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.jeWZKXoB8qEpP9mHQ7r_YS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Sara Platt is suing the firm Magic Touch and surgeon Dr Hakan Olmezturk, alleging medical malpractice, after she claims she was \u201cbutchered\u201d having plastic surgery in Antalya, Turkey",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f0c2125f-1931-43e4-f82b-11e642145403",
+                        "name": "Northeastern High"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "Northeastern High"
+                    },
+                    {
+                        "name": "Turkey"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T11:34:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "Indian navy monitors bulk carrier believed to have hijacked by pirates",
+                "url": "https://www.theboltonnews.co.uk/news/national/23994290.indian-navy-monitors-bulk-carrier-believed-hijacked-pirates/",
+                "description": "The Maltese-flagged MV Ruen, with a crew of 18, sent a Mayday message on Thursday indicating it had been boarded by unknown people.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4a203660-5ad3-50a1-2e6c-69756b6506f1",
+                        "name": "Indian Navy"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Bolton News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.pPRPamFGczny0UqE9iwoiQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T11:20:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Mark Drakeford is still barred from dozens of North Wales pubs after Covid rule row",
+                "url": "https://www.dailypost.co.uk/news/north-wales-news/mark-drakeford-still-barred-dozens-28299016",
+                "description": "Mark Drakeford is still barred from dozens of pubs in Conwy with the chairman of a pub watch scheme saying he will never be welcome. Mr Drakeford announced he would be stepping down as First Minister this week after five years at the helm of Welsh Government.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ed3aac0d-95fd-4694-a452-ba2a737fd65c",
+                        "name": "Mark Drakeford"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/85249bf7-5ca1-cbe1-aba3-f88690cec70f",
+                        "name": "North Wales"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fc5fa31e-fdd9-e04e-01c9-133804e634ee",
+                        "name": "Wales Live"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Mark Drakeford"
+                    },
+                    {
+                        "name": "North Wales"
+                    },
+                    {
+                        "name": "Wales Live"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Post Wales",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8sLxEYfaRxm1xE0eCQo42w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T11:08:00.0000000Z"
+            },
+            {
+                "name": "Warning issued to anybody who drives on smart motorways and it could be fatal",
+                "url": "https://www.birminghammail.co.uk/news/midlands-news/warning-issued-anybody-who-drives-28301802",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.CrsEy7VQ85N6cdShhq5iby&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Drivers and motorists have been warned they are THREE TIMES more likely to die or have an injury on smart motorways, which include the likes of the M6 and M1.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/aaac0a14-911d-49c8-ac97-51d9f9100ad7",
+                        "name": "Birmingham"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e88a173e-30a7-ec38-cac8-53a5e5fcda18",
+                        "name": "Warning"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Birmingham"
+                    },
+                    {
+                        "name": "Warning"
+                    },
+                    {
+                        "name": "Controlled-access highway"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Birmingham Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.jPou0vlDKt0Px6h21V_3rw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T09:58:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Gary Lineker is &#39;the Tucker Carlson of the <b>UK</b>&#39; who is &#39;making money out of the gullible&#39;, furious BBC colleagues say after Match of the Day host taunted Grant Shapps and ...",
+                "url": "https://www.dailymail.co.uk/news/article-12871139/Gary-Lineker-Tucker-Carlson-BBC.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.wzFkUfkOWfjdlcomPvQPBi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The controversial pundit, 63, has drawn fire from insiders as they claim the broadcaster&#39;s editorial guidelines are fit for purpose.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1edd6839-78eb-7408-355a-ecc89ef39be7",
+                        "name": "Grant Shapps"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c94f2fa6-9853-e53f-af90-7aec244e4382",
+                        "name": "Lee Anderson"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/aca0df01-6e44-d104-a7e3-24ad2a18811e",
+                        "name": "Gary Lineker"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T09:53:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Michelle Mone to appear on Laura Kuenssberg&#39;s BBC <b>politics</b> show",
+                "url": "https://www.thenational.scot/news/23994197.michelle-mone-appear-laura-kuenssbergs-bbc-politics-show/",
+                "description": "MICHELLE Mone is to make an exclusive appearance with her husband on the BBC&#39;s\u00a0flagship politics show, Sunday with Laura Kuenssberg, this weekend.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d699b48a-84a0-9aa0-2544-da75b2a11d77",
+                        "name": "Laura Kuenssberg"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/20f5d02f-7b33-0d30-b90d-2c0c7bf5858e",
+                        "name": "Michelle Mone"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T09:53:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Laura Kuenssberg: Michelle Mone to appear on BBC <b>politics</b> show",
+                "url": "https://www.thenational.scot/news/23994197.laura-kuenssberg-michelle-mone-appear-bbc-politics-show/",
+                "description": "MICHELLE Mone is to make an exclusive appearance with her husband on the BBC&#39;s\u00a0flagship politics show, Sunday with Laura Kuenssberg, this weekend.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d699b48a-84a0-9aa0-2544-da75b2a11d77",
+                        "name": "Laura Kuenssberg"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/20f5d02f-7b33-0d30-b90d-2c0c7bf5858e",
+                        "name": "Michelle Mone"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T09:47:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Hyde Park terror plotter Edward Little jailed for at least 16 years",
+                "url": "https://www.northwalespioneer.co.uk/news/national/23993292.hyde-park-terror-plotter-edward-little-jailed-least-16-years/",
+                "description": "In a televised hearing, Mrs Justice McGowan jailed Little for life with a minimum term of 16 years. She said an attack at Speaker\u2019s Corner would have risked the lives of many people had Little not been stopped. She said: \u201cThat part of the park is famous for its tradition of free speech.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e0591012-ef75-32f2-62cd-a205ddadfdee",
+                        "name": "Hyde Park"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/48cb0bec-c3a8-7dd9-cf05-4a9299a6bbd7",
+                        "name": "Terror"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "North Wales Pioneer",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.xFkpb-I575SL4hEHRyQuwA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T09:42:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Head of Russian church put on Ukraine\u2019s \u2018most wanted\u2019 list",
+                "url": "https://metro.co.uk/2023/12/16/head-russian-church-ukraines-most-wanted-list-19983838/?ico=metro-posts_working-metro_whats-trending-now",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.IkbiRWb57iziM3ciB9aMyy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Ukraine has put the head of Russia \u2019s Orthodox Church on its \u2018most wanted\u2019 listed for his support of the war. Patriarch Kirill is currently in Russia so is under no threat of immediate arrest from Ukraine.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ad599477-9e6d-4a0e-bab5-0edf9db7115a",
+                        "name": "Ukraine"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2872a54f-b045-8fe3-d356-1aa538e14812",
+                        "name": "Metro International"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a4378627-5d6d-7472-2244-810cf04a389c",
+                        "name": "Most wanted list"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Ukraine"
+                    },
+                    {
+                        "name": "Metro International"
+                    },
+                    {
+                        "name": "Most wanted list"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Metro",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8olLCBBg15Ilf5cNVQh2IA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T09:02:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Transport strikes \u2018severely damaging\u2019 hospitality and retail, says sector chief",
+                "url": "https://www.independent.co.uk/business/transport-strikes-severely-damaging-hospitality-and-retail-says-sector-chief-b2465205.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.YVx5AVrRZWzcUfGOiwjykS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Glyn Roberts, of Retail NI, said the timing of the strike action \u201cleaves a lot to be desired\u201d for the retail and hospitality sectors in run-up to Christmas. The only way they&#39;re going to get the pay increase which they deserve is a successful agreement at Hillsborough.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0940a514-275e-ee82-84c1-7a2a5ff6965f",
+                        "name": "Transport"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/881ededd-922a-477c-cdbc-71ed191b054c",
+                        "name": "Sector"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "Transport"
+                    },
+                    {
+                        "name": "Sector"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T08:48:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Roy Keane says he&#39;d keep just seven Manchester United players if given the choice",
+                "url": "https://www.mirror.co.uk/sport/football/news/man-utd-transfers-roy-keane-31667886",
+                "description": "Former United captain Roy Keane has been discussing who he would keep if he was in charge of the club, but surprisingly only kept seven players from the current squad",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68eb99ac-2e81-dd38-8290-e9256558621f",
+                        "name": "Roy Keane"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Roy Keane"
+                    },
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "Manchester United F.C."
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T08:45:00.0000000Z",
+                "category": "Sports"
+            },
+            {
+                "name": "Coral islands in Australia at risk of disappearing",
+                "url": "https://www.bbc.co.uk/news/world-australia-67735681.amp",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.OHEO2m-Fb3AOwxbzY2-Nii&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "More than a dozen of the coral islands that mark Australia&#39;s maritime boundaries are at risk of disappearing, a study has found. Multiple stresses including rising sea levels threaten their existence. Their disappearance could have implications for the country&#39;s maritime borders, the study said.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/06de2191-243d-a83f-6990-2eb1c7f3382a",
+                        "name": "Australia"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6009df76-36db-83b9-803f-e8919efb414a",
+                        "name": "Coral island"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T08:40:00.0000000Z",
+                "category": "ScienceAndTechnology"
+            },
+            {
+                "name": "Remembering Sir Bernard Crick",
+                "url": "https://theedinburghreporter.co.uk/2023/12/remembering-sir-bernard-crick/",
+                "description": "It\u2019s now 15 years since the death of the renowned academic and author Professor Sir Bernard Crick, who had a long association with the Scottish capital. Born in 1929, he died on 19 December 2008,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/286af946-edea-5f33-df53-4164821c69da",
+                        "name": "Edinburgh"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9fad42e6-c543-2b19-d151-d5ea8262fd40",
+                        "name": "Bernard Crick"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b19905a0-4fe6-92a8-195d-861abbc94939",
+                        "name": "Sir"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "the Edinburgh Reporter",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.tbjctWJ8Y7a07KiPCpS-Cw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T08:23:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Warning to every diesel or petrol car owner over electric vehicle switch",
+                "url": "https://www.birminghammail.co.uk/news/cost-of-living/warning-every-diesel-petrol-car-28301315",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT._Nzqzp1To_0xvVBpoTpIxS&pid=News",
+                        "width": 615,
+                        "height": 409
+                    }
+                },
+                "description": "The Guardian newspaper has busted the myths around EVs amid a surge in popularity, and claims motorists and drivers of electric vehicles are finding them cheaper.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/aaac0a14-911d-49c8-ac97-51d9f9100ad7",
+                        "name": "Birmingham"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e88a173e-30a7-ec38-cac8-53a5e5fcda18",
+                        "name": "Warning"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Birmingham"
+                    },
+                    {
+                        "name": "Warning"
+                    },
+                    {
+                        "name": "Department for Work and Pensions"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Birmingham Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.jPou0vlDKt0Px6h21V_3rw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T08:11:00.0000000Z"
+            },
+            {
+                "name": "JGA Pocock: an ancient among the moderns",
+                "url": "https://www.newstatesman.com/the-weekend-essay/2023/12/capitalism-death-climate-change",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT._nQ-Z-w-zAHnW-m_61hzBC&pid=News",
+                        "width": 700,
+                        "height": 365
+                    }
+                },
+                "description": "Theirs is necessarily a future in which the transition to a decarbonised and ecologically sustainable economy implies no trade-off with continued growth, profit maximisation, private ownership or accumulation: in short,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f25bdf7e-af79-3312-568e-4439c6d221a4",
+                        "name": "Capitalism"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "New Statesman",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.83Sdvx0ijgf5jpBYrSS3Lg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T08:00:00.0000000Z"
+            },
+            {
+                "name": "Up 25% in a month and still cheap! An under-the-radar value stock to buy right now",
+                "url": "https://www.fool.co.uk/2023/12/16/up-25-in-a-month-and-still-cheap-an-under-the-radar-value-stock-to-buy-right-now-2/",
+                "description": "His <b>political</b> programme contrasts starkly with that of his predecessor ... Financiera Y Agropecuaria. The Motley Fool <b>UK</b> has no position in any of the shares mentioned. Views expressed on the companies mentioned in this article are those of the writer ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b09a01ed-cc2b-fdee-1e94-5f5a5d1c0a3c",
+                        "name": "The Motley Fool"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Motley Fool"
+                    },
+                    {
+                        "name": "Stock"
+                    },
+                    {
+                        "name": "Financial Conduct Authority"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Motley Fool UK"
+                    }
+                ],
+                "datePublished": "2023-12-16T07:38:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Sadiq Khan rejects call to send scrapped Ulez cars to Ukraine",
+                "url": "https://www.independent.co.uk/news/uk/politics/sadiq-khan-scrap-ulez-car-ukraine-b2465184.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.N7eZM52EZmpN8OwKstqBIC&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Sadiq Khan has rejected a call to send cars that will be scrapped under his controversial Ulez scheme to Ukraine, according to reports. The mayor of Kyiv had urged the vehicles be transported to his war-torn country,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ad599477-9e6d-4a0e-bab5-0edf9db7115a",
+                        "name": "Ukraine"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "Ukraine"
+                    },
+                    {
+                        "name": "News UK"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T07:33:00.0000000Z",
+                "video": {
+                    "name": "\u2018World\u2019s watching\u2019: Joe Biden shames Republicans opposing aid to Ukraine",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/c8a3774d-8b73-45ae-aa54-e8fe5ac29cee/f1b40d57-4303-4ca4-a724-ac37cf0d_650.mp4",
+                    "thumbnail": {
+                        "width": 640,
+                        "height": 360
+                    }
+                }
+            },
+            {
+                "name": "Editorial: This latest in a wave of strikes causes festive misery to traders and people without cars",
+                "url": "https://www.newsletter.co.uk/news/opinion/editorial-this-latest-in-a-wave-of-strikes-causes-festive-misery-to-traders-and-people-without-cars-4448293",
+                "description": "Plausible arguments have been made for strikes in a cost of living crisis. Translink staff do a vital job, for which society is grateful. But there are equally plausible arguments against the waves of strikes, which are just not being made by local politicians, who would grant all pay rises because that is what they do \u2013 take easy decisions.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/faccc023-05aa-d546-bbc6-dba5be9c413f",
+                        "name": "Wave"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Wave"
+                    },
+                    {
+                        "name": "Opinion"
+                    },
+                    {
+                        "name": "Bareilly"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The News Letter",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.ss7xVoJtNCz0ucC1juxNqA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T07:15:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Baroness Meyer interview: \u2018The Tube attack on Christopher played a part in his death\u2019",
+                "url": "https://www.telegraph.co.uk/news/2023/12/16/lady-catherine-meyer-interview-tube-attack-on-christopher/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.xAWG1_hx4HNCQ1qZ5VE_2y&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "The widow of Sir Christopher Meyer spent 25 years as one half of a diplomatic power couple \u2013 she shares a final tribute to her late husband",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/726cd925-71dd-19a5-603d-cd41716f6e08",
+                        "name": "Catherine Meyer"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/294d68a9-2507-fbb6-2153-dcdb7d4a1d47",
+                        "name": "Job interview"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3e124a0b-4939-2980-a197-df0ca258bb0d",
+                        "name": "Baron"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Catherine Meyer"
+                    },
+                    {
+                        "name": "Job interview"
+                    },
+                    {
+                        "name": "Baron"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T07:09:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "POLL: Who is the best Tory Prime Minister? Vote here",
+                "url": "https://www.express.co.uk/news/politics/1845992/poll-best-tory-prime-minister",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.NZlwRsDc2j9pxyBfrjWh3C&pid=News",
+                        "width": 700,
+                        "height": 415
+                    }
+                },
+                "description": "Sir Anthony Eden (1955-1957) - Credited as being a great Foreign Secretary and Churchill&#39;s right-hand man, he is best remembered for the Suez crisis which saw Britain&#39;s influence drop in the world and led to him being replaced as Tory leader and PM while away recovering from health issues.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2570ebea-8c42-048a-3350-57c9e4169167",
+                        "name": "Prime Minister of the United Kingdom"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Tory"
+                    },
+                    {
+                        "name": "Prime Minister of the United Kingdom"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T07:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Culture club\u2026 NI\u2019s biggest cultural highlights of 2023",
+                "url": "https://www.belfasttelegraph.co.uk/entertainment/film-tv/culture-club-nis-biggest-cultural-highlights-of-2023/a975858574.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.6qew4fv9B5395iK4Ra9AnS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Filling one of the exhibition spaces in the Ulster Museum, the 2023 exhibition, commissioned by Belfast Photo Festival, was a timely reminder of those pivotal to peace-building and community activism.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e242d51e-692b-42ca-a5a2-f9bc6d64a82c",
+                        "name": "Culture Club"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ec10885d-cbd2-5ece-8d5b-7f5e05a240e9",
+                        "name": "uk"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Belfast Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.KbCSMEkTE1gbQLCbNWqCnw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T07:00:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Jimmy&#39;s Farm: Call to vaccinate poultry after 2022 bird losses",
+                "url": "https://www.bbc.com/news/uk-england-suffolk-67704753",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.IMTiitGKt-34DnYxiAFOuS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "TV presenter and farmer Jimmy Doherty has called for a vaccination programme against bird flu for British poultry or a proper compensation scheme. Mr Doherty made the call at a recording of BBC Politics East at Jimmy&#39;s Farm and Wildlife Park, near Ipswich.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4df95dba-cec3-b4ad-9fba-09522e2eed2d",
+                        "name": "Jimmy&#39;s Farm"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2f681199-7f68-3286-53b4-7d9d2ee45cc8",
+                        "name": "Poultry"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k3N4DqozNjgK376rAnFmsA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T06:36:00.0000000Z"
+            },
+            {
+                "name": "Independence, devolution \u2013 and the tensions within this United Kingdom",
+                "url": "https://www.heraldscotland.com/politics/viewpoint/23992659.independence-devolution---tensions-within-united-kingdom/",
+                "description": "That still seems somewhat distant \u2013 although by no means absent from <b>political</b> discourse. Rather, I am considering the present structure of the <b>UK</b>. A monarchy with a new King. A United Kingdom parliament with varying degrees of power devolved by statute ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/58a9a23b-cd49-0526-ea41-148030856f8b",
+                        "name": "Independence"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "heraldscotland"
+                    }
+                ],
+                "datePublished": "2023-12-16T06:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "David Frost: Under the Windsor Framework, the <b>UK</b> can&#39;t stop the inevitable divergence between Great Britain and Northern Ireland",
+                "url": "https://www.newsletter.co.uk/news/opinion/columnists/david-frost-under-the-windsor-framework-the-uk-cant-stop-the-inevitable-divergence-between-great-britain-and-northern-ireland-4448286",
+                "description": "In arguing yesterday that unionism should not fear the impact of the Windsor Framework, Roderick Crawford presents not just a single straw man, but a whole field of scarecrows.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d14be7c1-c601-6b89-a0ee-a4d8fc09d201",
+                        "name": "David Frost"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/bdc19477-a82a-850d-e19e-5e4879554435",
+                        "name": "Windsor"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/543388d6-333a-7ebd-a071-b2e725715543",
+                        "name": "Framework"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "David Frost"
+                    },
+                    {
+                        "name": "Windsor"
+                    },
+                    {
+                        "name": "Framework"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The News Letter",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.ss7xVoJtNCz0ucC1juxNqA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T06:21:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Sadiq Khan &#39;blocks plan to send non-Ulez compliant cars to Ukraine&#39;, in &#39;gobsmacking&#39; move",
+                "url": "https://www.lbc.co.uk/news/sadiq-khan-blocks-plan-to-send-non-ulez-compliant-cars-to-ukraine/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.-1DlGTi6SdyhkvUfO_hwSS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Sadiq Khan has said it is not possible to send cars that do not meet Ulez standards to Ukraine to help with the war effort against Russia.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ad599477-9e6d-4a0e-bab5-0edf9db7115a",
+                        "name": "Ukraine"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d7862dc2-4c03-1dc8-3412-7fe03041fdcb",
+                        "name": "Sadiq Khan"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "LBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.iWFEm2xSUKuVEhtVsjP6gQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T06:14:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "David Cameron &#39;absolutely cannot be trusted&#39; with Brexit and wants to &#39;drag <b>UK</b> back to EU&#39;",
+                "url": "https://www.express.co.uk/news/politics/1846039/David-Cameron-Brexit-EU",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.NJmeax-rdMO8-lxfnLlimi&pid=News",
+                        "width": 700,
+                        "height": 415
+                    }
+                },
+                "description": "EXCLUSIVE: Lord David Cameron was accused of giving himself a &quot;Brexiteer veneer as thin as varnish&quot; after lavishing praise on the UK&#39;s post-EU trade successes.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/05973aa9-1608-8d06-96d6-e4ce0311b75a",
+                        "name": "David Cameron"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Daily Express"
+                    },
+                    {
+                        "name": "David Cameron"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T06:00:00.0000000Z"
+            },
+            {
+                "name": "\u2018A love-burst\u2019: how Sunak and Meloni\u2019s rapport is boosting hard-right agenda",
+                "url": "https://www.theguardian.com/politics/2023/dec/16/how-rish-sunak-giorgia-meloni-rapport-boost-hard-right-agenda-rome-trip",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.pfBX-ej8_LfpH6aR_hDtMy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Rome trip likely to strengthen mutually beneficial relationship forged over views on immigration, defence and Ukraine",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5c9bb82e-e08f-f5eb-9f29-f20e75e8eb8f",
+                        "name": "Giorgia Meloni"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cab03561-5259-48e4-933c-66c712d688e3",
+                        "name": "Agenda"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Giorgia Meloni"
+                    },
+                    {
+                        "name": "Agenda"
+                    },
+                    {
+                        "name": "Far-right politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T06:00:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Cambridgeshire warns of crisis in adult care with calls made for national social care service",
+                "url": "https://www.cambridge-news.co.uk/news/health/cambridgeshire-warns-crisis-adult-care-28282861",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.aDidpwyAj_pQt6AVCCzLbi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Cambridgeshire County Council has backed a motion stating underfunding was causing a \u201ccrisis in adult social care\u201d",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/bc02c14b-0035-fc4c-411f-168edbf62536",
+                        "name": "Cambridgeshire"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6f139537-5bc1-e0b8-7097-f07441113e28",
+                        "name": "Crisis"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Cambridgeshire"
+                    },
+                    {
+                        "name": "Crisis"
+                    },
+                    {
+                        "name": "Cambridge News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Cambridge News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.B7fTJDAD46dVej3b4j8Cuw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T06:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "DUP\u2019s officer board meets but hopes of a Christmas deal fading",
+                "url": "https://www.belfasttelegraph.co.uk/news/northern-ireland/dups-officer-board-meets-but-hopes-of-a-christmas-deal-fading/a1823330291.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.as1NO4t2XYCgE29JldopHS&pid=News",
+                        "width": 700,
+                        "height": 467
+                    }
+                },
+                "description": "The DUP held a secretive crunch meeting of party officers yesterday as hopes of a deal to restore Stormont before Christmas fade.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a8f670e6-8bdb-6010-20e2-c2fff9a3affa",
+                        "name": "Christmas"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6001da45-5d62-b455-1edd-65ea7d245da9",
+                        "name": "Northern Ireland Office"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Belfast Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.KbCSMEkTE1gbQLCbNWqCnw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T06:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "&#39;BBC licence fee: we should get refund because of repeats&#39;",
+                "url": "https://www.yorkpress.co.uk/news/23991296.bbc-licence-fee-get-refund-repeats/",
+                "description": "IT is ridiculous that the BBC is to be allowed to increase the licence fee: we should get a refund because of all the repeats - says our",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/56cd9dc4-3f3b-da2b-a165-78a579d79f5b",
+                        "name": "BBC"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Press",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6jQbP8CoKeIBudzFJ2C9mg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T05:08:00.0000000Z"
+            },
+            {
+                "name": "Presteigne farmer and podcaster takes on new NFU role",
+                "url": "https://www.countytimes.co.uk/news/23982219.presteigne-farmer-podcaster-takes-new-nfu-role/",
+                "description": "Ben Chilman and Naomi Williams-Roberts fought off a number of quality candidates to gain a position on the NFU&#39;s coveted programme.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7ba55e0f-4cfb-6f1c-c80b-5362fb7c338a",
+                        "name": "U.S. County"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6170d11a-a07c-3578-970f-be04f197abb3",
+                        "name": "Presteigne"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/675fdcb5-0077-b818-0d2a-4509a71669bf",
+                        "name": "Role"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "countytimes.co.uk",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.QuCrvjwzbhwSOWUVWHCOqw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T05:00:00.0000000Z"
+            },
+            {
+                "name": "Demands for Michael Gove to end controversial \u00a32.5bn London Resort project on Swanscombe Peninsula",
+                "url": "https://www.kentonline.co.uk/dartford/news/it-s-not-an-investment-plaything-could-vote-finally-spell-298636/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.2_xFKf3ug8bAzU4rW51TFi&pid=News",
+                        "width": 700,
+                        "height": 481
+                    }
+                },
+                "description": "Cllr Edie said she was \u201coverjoyed\u201d the council had put <b>political</b> differences aside to back the demand ... London Resort was put on the NSIP list \u2013 which includes around 200 projects the <b>UK</b>, among them the likes of Manston Airport and the Lower ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8e0ba7b6-4225-fa8a-6369-1b5294e602a5",
+                        "name": "London"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Kent Online"
+                    }
+                ],
+                "datePublished": "2023-12-16T05:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "UUP (Ulster Unionist Party)",
+                "url": "https://www.bbc.com/news/topics/c50znx8v18xt?page=20",
+                "description": "Ulster Unionist leader Doug Beattie says it is embarrassing that a major US trade delegation is taking place while Northern Ireland has no government. The DUP, the UUP and TUV request Stormont funds after previously pledging to cover the full cost.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k3N4DqozNjgK376rAnFmsA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T00:31:00.0000000Z"
+            },
+            {
+                "name": "Readers&#39; Letters: Maybe it&#39;s time to bring back the cottage hospital",
+                "url": "https://www.scotsman.com/news/opinion/letters/readers-letters-maybe-its-time-to-bring-back-the-cottage-hospital-4446439",
+                "description": "I have grave doubts about the usefulness of this report and the pathetic point scoring from all sides of the <b>political</b> spectrum rather makes ... have declined since the last survey in 2018. The <b>UK</b>\u2019s results in mathematics and science are the poorest ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/412167ad-854b-edd0-1510-b751d06eb2ee",
+                        "name": "Cottage hospital"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d1d85ec7-1cbb-6ee9-88a8-8af94518438a",
+                        "name": "Time"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Scotsman"
+                    }
+                ],
+                "datePublished": "2023-12-15T10:20:00.0000000Z"
+            },
+            {
+                "name": "Sunak\u2019s ethics adviser creates \u2018Cameron clause\u2019 after lobbying claims",
+                "url": "https://inews.co.uk/news/politics/sunaks-ethics-adviser-creates-cameron-clause-after-lobbying-claims-2810014?ico=more_from_this_author",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.eL3OtB7OEll7aM_0dvnKdi&pid=News",
+                        "width": 640,
+                        "height": 360
+                    }
+                },
+                "description": "However, campaigners have called on the Foreign Secretary to be transparent about his investments to avoid potential conflicts of interest with his role overseeing <b>UK</b> foreign policy. Steve Goodrich, the head of research and investigations at Transparency ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i"
+                    }
+                ],
+                "datePublished": "2023-12-15T06:01:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics",
+        "queryContext": {
+            "originalQuery": "uk politics",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 156,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Laura Kuenssberg: end of year",
+                "url": "https://www.bbc.co.uk/news/uk-politics-67737116",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.mozzowMFLBszi0B1ju6WHi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Rishi Sunak&#39;s hoped for turnaround didn&#39;t happen. Despite several restarts, refreshes, reboots, promises of the &#39;real Rishi&#39; coming out, the prime minister has not been able to shake his party out of the doldrums in the polls.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d699b48a-84a0-9aa0-2544-da75b2a11d77",
+                        "name": "Laura Kuenssberg"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T11:36:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "British warship shoots down suspected attack drone in Red Sea",
+                "url": "https://www.standard.co.uk/news/politics/grant-shapps-red-sea-british-royal-navy-iranian-b1127405.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.w4AViz7QJ7SBuwPNfBCRFC&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "A Royal Navy warship has shot down a suspected attack drone in the Red Sea, the Defence Secretary has said. Grant Shapps said it was believed merchant shipping in the Red Sea was the intended target, in the latest such incident in the key global shipping route.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/47116f57-2cb0-bd80-4390-f7564b266027",
+                        "name": "Red Sea"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T11:34:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "&#39;I almost died after having plastic surgery in Turkey - and needed nine NHS ops&#39;",
+                "url": "https://www.mirror.co.uk/news/world-news/i-almost-died-after-having-31606200",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.jeWZKXoB8qEpP9mHQ7r_YS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Sara Platt is suing the firm Magic Touch and surgeon Dr Hakan Olmezturk, alleging medical malpractice, after she claims she was \u201cbutchered\u201d having plastic surgery in Antalya, Turkey",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f0c2125f-1931-43e4-f82b-11e642145403",
+                        "name": "Northeastern High"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "Northeastern High"
+                    },
+                    {
+                        "name": "Turkey"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T11:34:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "Wonky Christmas tree dubbed &#39;worst in <b>UK</b>&#39; is slammed as &#39;pathetic&#39; by fuming locals",
+                "url": "https://www.mirror.co.uk/news/uk-news/wonky-christmas-tree-dubbed-worst-31665574",
+                "description": "A Christmas tree installed on a roundabout in Stockport, Greater Manchester, has been described as a &quot;disgrace&quot; as it has almost no extended branches and has led to criticism",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T11:29:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Indian navy monitors bulk carrier believed to have hijacked by pirates",
+                "url": "https://www.eadt.co.uk/news/national/23994290.indian-navy-monitors-bulk-carrier-believed-hijacked-pirates/",
+                "description": "The Maltese-flagged MV Ruen, with a crew of 18, sent a Mayday message on Thursday indicating it had been boarded by unknown people.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4a203660-5ad3-50a1-2e6c-69756b6506f1",
+                        "name": "Indian Navy"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "East Anglian Daily Times 24",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CXPjikUm43cC0YgIcs5aaQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T11:20:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Stormont: DUP won&#39;t be distracted by hype, Donaldson tells party",
+                "url": "https://www.bbc.com/news/uk-northern-ireland-67736210.amp",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.MD1oNXNGjyfZwvf6_tYUhS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "But Mr Donaldson said in the email that work was ongoing. He said the party would not be &quot;distracted by hype, spin and sometimes ill-founded claims&quot;. The DUP collapsed the executive 22 months ago in protest against post-Brexit trade arrangements.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k3N4DqozNjgK376rAnFmsA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T11:14:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Mark Drakeford is still barred from dozens of North Wales pubs after Covid rule row",
+                "url": "https://www.dailypost.co.uk/news/north-wales-news/mark-drakeford-still-barred-dozens-28299016",
+                "description": "Mark Drakeford is still barred from dozens of pubs in Conwy with the chairman of a pub watch scheme saying he will never be welcome. Mr Drakeford announced he would be stepping down as First Minister this week after five years at the helm of Welsh Government.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ed3aac0d-95fd-4694-a452-ba2a737fd65c",
+                        "name": "Mark Drakeford"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/85249bf7-5ca1-cbe1-aba3-f88690cec70f",
+                        "name": "North Wales"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fc5fa31e-fdd9-e04e-01c9-133804e634ee",
+                        "name": "Wales Live"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Mark Drakeford"
+                    },
+                    {
+                        "name": "North Wales"
+                    },
+                    {
+                        "name": "Wales Live"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Post Wales",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8sLxEYfaRxm1xE0eCQo42w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T11:08:00.0000000Z"
+            },
+            {
+                "name": "Warning issued to anybody who drives on smart motorways and it could be fatal",
+                "url": "https://www.birminghammail.co.uk/news/midlands-news/warning-issued-anybody-who-drives-28301802",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.CrsEy7VQ85N6cdShhq5iby&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Drivers and motorists have been warned they are THREE TIMES more likely to die or have an injury on smart motorways, which include the likes of the M6 and M1.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/aaac0a14-911d-49c8-ac97-51d9f9100ad7",
+                        "name": "Birmingham"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e88a173e-30a7-ec38-cac8-53a5e5fcda18",
+                        "name": "Warning"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Birmingham"
+                    },
+                    {
+                        "name": "Warning"
+                    },
+                    {
+                        "name": "Controlled-access highway"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Birmingham Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.jPou0vlDKt0Px6h21V_3rw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T09:58:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Gary Lineker is &#39;the Tucker Carlson of the <b>UK</b>&#39; who is &#39;making money out of the gullible&#39;, furious BBC colleagues say after Match of the Day host taunted Grant Shapps and ...",
+                "url": "https://www.dailymail.co.uk/news/article-12871139/Gary-Lineker-Tucker-Carlson-BBC.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.wzFkUfkOWfjdlcomPvQPBi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The controversial pundit, 63, has drawn fire from insiders as they claim the broadcaster&#39;s editorial guidelines are fit for purpose.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1edd6839-78eb-7408-355a-ecc89ef39be7",
+                        "name": "Grant Shapps"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c94f2fa6-9853-e53f-af90-7aec244e4382",
+                        "name": "Lee Anderson"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/aca0df01-6e44-d104-a7e3-24ad2a18811e",
+                        "name": "Gary Lineker"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T09:53:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Michelle Mone to appear on Laura Kuenssberg&#39;s BBC <b>politics</b> show",
+                "url": "https://www.thenational.scot/news/23994197.michelle-mone-appear-laura-kuenssbergs-bbc-politics-show/",
+                "description": "MICHELLE Mone is to make an exclusive appearance with her husband on the BBC&#39;s\u00a0flagship politics show, Sunday with Laura Kuenssberg, this weekend.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d699b48a-84a0-9aa0-2544-da75b2a11d77",
+                        "name": "Laura Kuenssberg"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/20f5d02f-7b33-0d30-b90d-2c0c7bf5858e",
+                        "name": "Michelle Mone"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T09:53:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Laura Kuenssberg: Michelle Mone to appear on BBC <b>politics</b> show",
+                "url": "https://www.thenational.scot/news/23994197.laura-kuenssberg-michelle-mone-appear-bbc-politics-show/",
+                "description": "MICHELLE Mone is to make an exclusive appearance with her husband on the BBC&#39;s\u00a0flagship politics show, Sunday with Laura Kuenssberg, this weekend.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d699b48a-84a0-9aa0-2544-da75b2a11d77",
+                        "name": "Laura Kuenssberg"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/20f5d02f-7b33-0d30-b90d-2c0c7bf5858e",
+                        "name": "Michelle Mone"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T09:47:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Hyde Park terror plotter Edward Little jailed for at least 16 years",
+                "url": "https://www.northwalespioneer.co.uk/news/national/23993292.hyde-park-terror-plotter-edward-little-jailed-least-16-years/",
+                "description": "In a televised hearing, Mrs Justice McGowan jailed Little for life with a minimum term of 16 years. She said an attack at Speaker\u2019s Corner would have risked the lives of many people had Little not been stopped. She said: \u201cThat part of the park is famous for its tradition of free speech.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e0591012-ef75-32f2-62cd-a205ddadfdee",
+                        "name": "Hyde Park"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/48cb0bec-c3a8-7dd9-cf05-4a9299a6bbd7",
+                        "name": "Terror"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "North Wales Pioneer",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.xFkpb-I575SL4hEHRyQuwA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T09:42:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Head of Russian church put on Ukraine\u2019s \u2018most wanted\u2019 list",
+                "url": "https://metro.co.uk/2023/12/16/head-russian-church-ukraines-most-wanted-list-19983838/?ico=metro-posts_working-metro_whats-trending-now",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.IkbiRWb57iziM3ciB9aMyy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Ukraine has put the head of Russia \u2019s Orthodox Church on its \u2018most wanted\u2019 listed for his support of the war. Patriarch Kirill is currently in Russia so is under no threat of immediate arrest from Ukraine.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ad599477-9e6d-4a0e-bab5-0edf9db7115a",
+                        "name": "Ukraine"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2872a54f-b045-8fe3-d356-1aa538e14812",
+                        "name": "Metro International"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a4378627-5d6d-7472-2244-810cf04a389c",
+                        "name": "Most wanted list"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Ukraine"
+                    },
+                    {
+                        "name": "Metro International"
+                    },
+                    {
+                        "name": "Most wanted list"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Metro",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8olLCBBg15Ilf5cNVQh2IA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T09:02:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Transport strikes \u2018severely damaging\u2019 hospitality and retail, says sector chief",
+                "url": "https://www.independent.co.uk/business/transport-strikes-severely-damaging-hospitality-and-retail-says-sector-chief-b2465205.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.YVx5AVrRZWzcUfGOiwjykS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Glyn Roberts, of Retail NI, said the timing of the strike action \u201cleaves a lot to be desired\u201d for the retail and hospitality sectors in run-up to Christmas. The only way they&#39;re going to get the pay increase which they deserve is a successful agreement at Hillsborough.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0940a514-275e-ee82-84c1-7a2a5ff6965f",
+                        "name": "Transport"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/881ededd-922a-477c-cdbc-71ed191b054c",
+                        "name": "Sector"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "Transport"
+                    },
+                    {
+                        "name": "Sector"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T08:48:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Remembering Sir Bernard Crick",
+                "url": "https://theedinburghreporter.co.uk/2023/12/remembering-sir-bernard-crick/",
+                "description": "It\u2019s now 15 years since the death of the renowned academic and author Professor Sir Bernard Crick, who had a long association with the Scottish capital. Born in 1929, he died on 19 December 2008,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/286af946-edea-5f33-df53-4164821c69da",
+                        "name": "Edinburgh"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9fad42e6-c543-2b19-d151-d5ea8262fd40",
+                        "name": "Bernard Crick"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b19905a0-4fe6-92a8-195d-861abbc94939",
+                        "name": "Sir"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "the Edinburgh Reporter",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.tbjctWJ8Y7a07KiPCpS-Cw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T08:23:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Warning to every diesel or petrol car owner over electric vehicle switch",
+                "url": "https://www.birminghammail.co.uk/news/cost-of-living/warning-every-diesel-petrol-car-28301315",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT._Nzqzp1To_0xvVBpoTpIxS&pid=News",
+                        "width": 615,
+                        "height": 409
+                    }
+                },
+                "description": "The Guardian newspaper has busted the myths around EVs amid a surge in popularity, and claims motorists and drivers of electric vehicles are finding them cheaper.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/aaac0a14-911d-49c8-ac97-51d9f9100ad7",
+                        "name": "Birmingham"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e88a173e-30a7-ec38-cac8-53a5e5fcda18",
+                        "name": "Warning"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Birmingham"
+                    },
+                    {
+                        "name": "Warning"
+                    },
+                    {
+                        "name": "Department for Work and Pensions"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Birmingham Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.jPou0vlDKt0Px6h21V_3rw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T08:11:00.0000000Z"
+            },
+            {
+                "name": "JGA Pocock: an ancient among the moderns",
+                "url": "https://www.newstatesman.com/the-weekend-essay/2023/12/capitalism-death-climate-change",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT._nQ-Z-w-zAHnW-m_61hzBC&pid=News",
+                        "width": 700,
+                        "height": 365
+                    }
+                },
+                "description": "Theirs is necessarily a future in which the transition to a decarbonised and ecologically sustainable economy implies no trade-off with continued growth, profit maximisation, private ownership or accumulation: in short,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f25bdf7e-af79-3312-568e-4439c6d221a4",
+                        "name": "Capitalism"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "New Statesman",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.83Sdvx0ijgf5jpBYrSS3Lg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T08:00:00.0000000Z"
+            },
+            {
+                "name": "Sadiq Khan rejects call to send scrapped Ulez cars to Ukraine",
+                "url": "https://www.independent.co.uk/news/uk/politics/sadiq-khan-scrap-ulez-car-ukraine-b2465184.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.N7eZM52EZmpN8OwKstqBIC&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Sadiq Khan has rejected a call to send cars that will be scrapped under his controversial Ulez scheme to Ukraine, according to reports. The mayor of Kyiv had urged the vehicles be transported to his war-torn country,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ad599477-9e6d-4a0e-bab5-0edf9db7115a",
+                        "name": "Ukraine"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "Ukraine"
+                    },
+                    {
+                        "name": "News UK"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T07:33:00.0000000Z",
+                "video": {
+                    "name": "\u2018World\u2019s watching\u2019: Joe Biden shames Republicans opposing aid to Ukraine",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/c8a3774d-8b73-45ae-aa54-e8fe5ac29cee/f1b40d57-4303-4ca4-a724-ac37cf0d_650.mp4",
+                    "thumbnail": {
+                        "width": 640,
+                        "height": 360
+                    }
+                }
+            },
+            {
+                "name": "Editorial: This latest in a wave of strikes causes festive misery to traders and people without cars",
+                "url": "https://www.newsletter.co.uk/news/opinion/editorial-this-latest-in-a-wave-of-strikes-causes-festive-misery-to-traders-and-people-without-cars-4448293",
+                "description": "Plausible arguments have been made for strikes in a cost of living crisis. Translink staff do a vital job, for which society is grateful. But there are equally plausible arguments against the waves of strikes, which are just not being made by local politicians, who would grant all pay rises because that is what they do \u2013 take easy decisions.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/faccc023-05aa-d546-bbc6-dba5be9c413f",
+                        "name": "Wave"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Wave"
+                    },
+                    {
+                        "name": "Opinion"
+                    },
+                    {
+                        "name": "Bareilly"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The News Letter",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.ss7xVoJtNCz0ucC1juxNqA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T07:15:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Baroness Meyer interview: \u2018The Tube attack on Christopher played a part in his death\u2019",
+                "url": "https://www.telegraph.co.uk/news/2023/12/16/lady-catherine-meyer-interview-tube-attack-on-christopher/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.xAWG1_hx4HNCQ1qZ5VE_2y&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "The widow of Sir Christopher Meyer spent 25 years as one half of a diplomatic power couple \u2013 she shares a final tribute to her late husband",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/726cd925-71dd-19a5-603d-cd41716f6e08",
+                        "name": "Catherine Meyer"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/294d68a9-2507-fbb6-2153-dcdb7d4a1d47",
+                        "name": "Job interview"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3e124a0b-4939-2980-a197-df0ca258bb0d",
+                        "name": "Baron"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Catherine Meyer"
+                    },
+                    {
+                        "name": "Job interview"
+                    },
+                    {
+                        "name": "Baron"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T07:09:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "POLL: Who is the best Tory Prime Minister? Vote here",
+                "url": "https://www.express.co.uk/news/politics/1845992/poll-best-tory-prime-minister",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.NZlwRsDc2j9pxyBfrjWh3C&pid=News",
+                        "width": 700,
+                        "height": 415
+                    }
+                },
+                "description": "Sir Anthony Eden (1955-1957) - Credited as being a great Foreign Secretary and Churchill&#39;s right-hand man, he is best remembered for the Suez crisis which saw Britain&#39;s influence drop in the world and led to him being replaced as Tory leader and PM while away recovering from health issues.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2570ebea-8c42-048a-3350-57c9e4169167",
+                        "name": "Prime Minister of the United Kingdom"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Tory"
+                    },
+                    {
+                        "name": "Prime Minister of the United Kingdom"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T07:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Culture club\u2026 NI\u2019s biggest cultural highlights of 2023",
+                "url": "https://www.belfasttelegraph.co.uk/entertainment/film-tv/culture-club-nis-biggest-cultural-highlights-of-2023/a975858574.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.6qew4fv9B5395iK4Ra9AnS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Filling one of the exhibition spaces in the Ulster Museum, the 2023 exhibition, commissioned by Belfast Photo Festival, was a timely reminder of those pivotal to peace-building and community activism.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e242d51e-692b-42ca-a5a2-f9bc6d64a82c",
+                        "name": "Culture Club"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ec10885d-cbd2-5ece-8d5b-7f5e05a240e9",
+                        "name": "uk"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Belfast Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.KbCSMEkTE1gbQLCbNWqCnw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T07:00:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Jimmy&#39;s Farm: Call to vaccinate poultry after 2022 bird losses",
+                "url": "https://www.bbc.com/news/uk-england-suffolk-67704753",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.IMTiitGKt-34DnYxiAFOuS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "TV presenter and farmer Jimmy Doherty has called for a vaccination programme against bird flu for British poultry or a proper compensation scheme. Mr Doherty made the call at a recording of BBC Politics East at Jimmy&#39;s Farm and Wildlife Park, near Ipswich.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4df95dba-cec3-b4ad-9fba-09522e2eed2d",
+                        "name": "Jimmy&#39;s Farm"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2f681199-7f68-3286-53b4-7d9d2ee45cc8",
+                        "name": "Poultry"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k3N4DqozNjgK376rAnFmsA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T06:36:00.0000000Z"
+            },
+            {
+                "name": "Independence, devolution \u2013 and the tensions within this United Kingdom",
+                "url": "https://www.heraldscotland.com/politics/viewpoint/23992659.independence-devolution---tensions-within-united-kingdom/",
+                "description": "That still seems somewhat distant \u2013 although by no means absent from <b>political</b> discourse. Rather, I am considering the present structure of the <b>UK</b>. A monarchy with a new King. A United Kingdom parliament with varying degrees of power devolved by statute ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/58a9a23b-cd49-0526-ea41-148030856f8b",
+                        "name": "Independence"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "heraldscotland"
+                    }
+                ],
+                "datePublished": "2023-12-16T06:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "David Frost: Under the Windsor Framework, the <b>UK</b> can&#39;t stop the inevitable divergence between Great Britain and Northern Ireland",
+                "url": "https://www.newsletter.co.uk/news/opinion/columnists/david-frost-under-the-windsor-framework-the-uk-cant-stop-the-inevitable-divergence-between-great-britain-and-northern-ireland-4448286",
+                "description": "In arguing yesterday that unionism should not fear the impact of the Windsor Framework, Roderick Crawford presents not just a single straw man, but a whole field of scarecrows.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d14be7c1-c601-6b89-a0ee-a4d8fc09d201",
+                        "name": "David Frost"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/bdc19477-a82a-850d-e19e-5e4879554435",
+                        "name": "Windsor"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/543388d6-333a-7ebd-a071-b2e725715543",
+                        "name": "Framework"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "David Frost"
+                    },
+                    {
+                        "name": "Windsor"
+                    },
+                    {
+                        "name": "Framework"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The News Letter",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.ss7xVoJtNCz0ucC1juxNqA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T06:21:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Sadiq Khan &#39;blocks plan to send non-Ulez compliant cars to Ukraine&#39;, in &#39;gobsmacking&#39; move",
+                "url": "https://www.lbc.co.uk/news/sadiq-khan-blocks-plan-to-send-non-ulez-compliant-cars-to-ukraine/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.-1DlGTi6SdyhkvUfO_hwSS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Sadiq Khan has said it is not possible to send cars that do not meet Ulez standards to Ukraine to help with the war effort against Russia.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ad599477-9e6d-4a0e-bab5-0edf9db7115a",
+                        "name": "Ukraine"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d7862dc2-4c03-1dc8-3412-7fe03041fdcb",
+                        "name": "Sadiq Khan"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "LBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.iWFEm2xSUKuVEhtVsjP6gQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T06:14:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "David Cameron &#39;absolutely cannot be trusted&#39; with Brexit and wants to &#39;drag <b>UK</b> back to EU&#39;",
+                "url": "https://www.express.co.uk/news/politics/1846039/David-Cameron-Brexit-EU",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.NJmeax-rdMO8-lxfnLlimi&pid=News",
+                        "width": 700,
+                        "height": 415
+                    }
+                },
+                "description": "EXCLUSIVE: Lord David Cameron was accused of giving himself a &quot;Brexiteer veneer as thin as varnish&quot; after lavishing praise on the UK&#39;s post-EU trade successes.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/05973aa9-1608-8d06-96d6-e4ce0311b75a",
+                        "name": "David Cameron"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Daily Express"
+                    },
+                    {
+                        "name": "David Cameron"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T06:00:00.0000000Z"
+            },
+            {
+                "name": "\u2018A love-burst\u2019: how Sunak and Meloni\u2019s rapport is boosting hard-right agenda",
+                "url": "https://www.theguardian.com/politics/2023/dec/16/how-rish-sunak-giorgia-meloni-rapport-boost-hard-right-agenda-rome-trip",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.pfBX-ej8_LfpH6aR_hDtMy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Rome trip likely to strengthen mutually beneficial relationship forged over views on immigration, defence and Ukraine",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5c9bb82e-e08f-f5eb-9f29-f20e75e8eb8f",
+                        "name": "Giorgia Meloni"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cab03561-5259-48e4-933c-66c712d688e3",
+                        "name": "Agenda"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Giorgia Meloni"
+                    },
+                    {
+                        "name": "Agenda"
+                    },
+                    {
+                        "name": "Far-right politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T06:00:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Cambridgeshire warns of crisis in adult care with calls made for national social care service",
+                "url": "https://www.cambridge-news.co.uk/news/health/cambridgeshire-warns-crisis-adult-care-28282861",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.aDidpwyAj_pQt6AVCCzLbi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Cambridgeshire County Council has backed a motion stating underfunding was causing a \u201ccrisis in adult social care\u201d",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/bc02c14b-0035-fc4c-411f-168edbf62536",
+                        "name": "Cambridgeshire"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6f139537-5bc1-e0b8-7097-f07441113e28",
+                        "name": "Crisis"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Cambridgeshire"
+                    },
+                    {
+                        "name": "Crisis"
+                    },
+                    {
+                        "name": "Cambridge News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Cambridge News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.B7fTJDAD46dVej3b4j8Cuw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T06:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "DUP\u2019s officer board meets but hopes of a Christmas deal fading",
+                "url": "https://www.belfasttelegraph.co.uk/news/northern-ireland/dups-officer-board-meets-but-hopes-of-a-christmas-deal-fading/a1823330291.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.as1NO4t2XYCgE29JldopHS&pid=News",
+                        "width": 700,
+                        "height": 467
+                    }
+                },
+                "description": "The DUP held a secretive crunch meeting of party officers yesterday as hopes of a deal to restore Stormont before Christmas fade.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a8f670e6-8bdb-6010-20e2-c2fff9a3affa",
+                        "name": "Christmas"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6001da45-5d62-b455-1edd-65ea7d245da9",
+                        "name": "Northern Ireland Office"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Belfast Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.KbCSMEkTE1gbQLCbNWqCnw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T06:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "&#39;BBC licence fee: we should get refund because of repeats&#39;",
+                "url": "https://www.yorkpress.co.uk/news/23991296.bbc-licence-fee-get-refund-repeats/",
+                "description": "IT is ridiculous that the BBC is to be allowed to increase the licence fee: we should get a refund because of all the repeats - says our",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/56cd9dc4-3f3b-da2b-a165-78a579d79f5b",
+                        "name": "BBC"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Press",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6jQbP8CoKeIBudzFJ2C9mg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T05:08:00.0000000Z"
+            },
+            {
+                "name": "Presteigne farmer and podcaster takes on new NFU role",
+                "url": "https://www.countytimes.co.uk/news/23982219.presteigne-farmer-podcaster-takes-new-nfu-role/",
+                "description": "Ben Chilman and Naomi Williams-Roberts fought off a number of quality candidates to gain a position on the NFU&#39;s coveted programme.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7ba55e0f-4cfb-6f1c-c80b-5362fb7c338a",
+                        "name": "U.S. County"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6170d11a-a07c-3578-970f-be04f197abb3",
+                        "name": "Presteigne"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/675fdcb5-0077-b818-0d2a-4509a71669bf",
+                        "name": "Role"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "countytimes.co.uk",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.QuCrvjwzbhwSOWUVWHCOqw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T05:00:00.0000000Z"
+            },
+            {
+                "name": "Where can you see the Northern Lights in the <b>UK</b> and Ireland?",
+                "url": "https://www.countytimes.co.uk/news/national/uk-today/23992401.can-see-northern-lights-uk-ireland/",
+                "description": "Edinburgh&#39;s Arthur&#39;s Seat and the Isle of Anglesey in Wales have been named among the seven top locations to travel to in order to catch",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/77f28672-5669-4775-a58a-b62b17779010",
+                        "name": "Ireland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7ba55e0f-4cfb-6f1c-c80b-5362fb7c338a",
+                        "name": "U.S. County"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "countytimes.co.uk",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.QuCrvjwzbhwSOWUVWHCOqw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T05:00:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Demands for Michael Gove to end controversial \u00a32.5bn London Resort project on Swanscombe Peninsula",
+                "url": "https://www.kentonline.co.uk/dartford/news/it-s-not-an-investment-plaything-could-vote-finally-spell-298636/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.2_xFKf3ug8bAzU4rW51TFi&pid=News",
+                        "width": 700,
+                        "height": 481
+                    }
+                },
+                "description": "Cllr Edie said she was \u201coverjoyed\u201d the council had put <b>political</b> differences aside to back the demand ... London Resort was put on the NSIP list \u2013 which includes around 200 projects the <b>UK</b>, among them the likes of Manston Airport and the Lower ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8e0ba7b6-4225-fa8a-6369-1b5294e602a5",
+                        "name": "London"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Kent Online"
+                    }
+                ],
+                "datePublished": "2023-12-16T05:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Official stance suggests keeping options wide open",
+                "url": "https://www.thescottishfarmer.co.uk/arable/23988652.official-stance-suggests-keeping-options-wide-open/",
+                "description": "The European Commission&#39;s recent re-licensing of glyphosate until 2033 receives cautious acknowledgment amid emotive debates.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e825ec94-f963-e384-5be6-d3089d17cdd6",
+                        "name": "Official"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Scottish Farmer",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.tI3apICuA4mh7uAdIgXuXA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T05:00:00.0000000Z"
+            },
+            {
+                "name": "Will Rishi Sunak Survive His Nightmare After Christmas?",
+                "url": "https://www.huffingtonpost.co.uk/entry/will-rishi-sunak-survive-his-nightmare-after-christmas_uk_657afe9de4b00e36d2d667ef?d_id=7083891&ncid_tag=fcbklnkukhpmg00000001",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.XoBOS7FZaiW2pV3n6fYIOC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Rishi Sunak could finally allow himself a smile. After days of yet more Tory infighting, and amid mounting speculation about his own future, the government\u2019s flagship Rwanda bill was comfortably passed by the House of Commons.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Huffington Post UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0y8ov4dkxpxjENNw_hd4jw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T03:59:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Former SNP business minister calls for council tax to be replaced with new property charge",
+                "url": "https://www.dailyrecord.co.uk/news/politics/former-snp-business-minister-calls-31681586",
+                "description": "Ivan McKee, who left the Government earlier this year, also warned Humza Yousaf of the dangers of raising income tax again.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9e1bb9d1-f3cd-202f-5786-9573f548893b",
+                        "name": "Signed measure"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fb6f4f93-ce23-76a6-98b5-3ab6b5286762",
+                        "name": "Daily Record"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Signed measure"
+                    },
+                    {
+                        "name": "Daily Record"
+                    },
+                    {
+                        "name": "Scottish National Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Record",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.B6nvPq26UTBuCaXH6tX71w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T03:30:00.0000000Z"
+            },
+            {
+                "name": "If Humza Yousaf increases tax, the extra cash must go to public services",
+                "url": "https://www.dailyrecord.co.uk/news/scottish-news/humza-yousaf-increases-tax-extra-31685300",
+                "description": "Record View says in so many key areas \u2013 like housing, health and education \u2013 Scotland seems to be going backwards instead of making any great strides forward.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6d99b564-d527-5061-2ebd-f97730898d38",
+                        "name": "Humza Yousaf"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fb6f4f93-ce23-76a6-98b5-3ab6b5286762",
+                        "name": "Daily Record"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Humza Yousaf"
+                    },
+                    {
+                        "name": "Daily Record"
+                    },
+                    {
+                        "name": "Public service"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Record",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.B6nvPq26UTBuCaXH6tX71w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T03:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Israel&#39;s objective is not limited to &#39;solving the Hamas problem&#39; - putting the <b>UK</b> and US in a difficult position",
+                "url": "https://news.sky.com/story/israels-objective-is-not-limited-to-solving-the-hamas-problem-putting-the-uk-and-us-in-a-difficult-position-13030982",
+                "description": "If Israel&#39;s strategy post-7 October was to subsume Gaza into an expanded Israeli state, that will have significant international repercussions.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1ffafed3-2b37-b871-c271-aa855d98449a",
+                        "name": "Israel"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fd56a0c1-5b09-6e40-09dc-a8abf5069c30",
+                        "name": "Hamas"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Israel"
+                    },
+                    {
+                        "name": "Hamas"
+                    },
+                    {
+                        "name": "Sky News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Eg62H9DIbo-JYPI6GpAgGA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T03:22:00.0000000Z",
+                "video": {
+                    "name": "Israel rejects two-state solution",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/22b14949-bf7a-4f0a-bbda-e4ccc57a3da4/254b7e3d-3fb6-4b63-88ea-fda67d32_650.mp4",
+                    "thumbnail": {
+                        "width": 640,
+                        "height": 360
+                    }
+                },
+                "category": "World"
+            },
+            {
+                "name": "Jesse Rodriguez vs Sunny Edwards live stream: how to watch boxing online \u2013 prices, fight time, full card",
+                "url": "https://www.techradar.com/streaming/entertainment/jesse-rodriguez-vs-sunny-edwards-live-stream-how-to-watch-boxing-online-prices-fight-time-full-card",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.7wnRyku_6_WCqI7MBuuGZi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "In the UK, DAZN costs \u00a39.99 a month if you sign up for a year. Alternatively, an Annual Super Saver is priced at \u00a399.99 as a one-off payment. A Flexible pass costs \u00a319.99 per month and can be cancelled at any time.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a67556ae-af01-2d6a-4a24-bce2f04ff790",
+                        "name": "Jess Rodriguez"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b426ab05-d0a8-feac-e4ce-1ea9eed7a06b",
+                        "name": "Edwards, Ontario"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d1d85ec7-1cbb-6ee9-88a8-8af94518438a",
+                        "name": "Time"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Jess Rodriguez"
+                    },
+                    {
+                        "name": "Edwards, Ontario"
+                    },
+                    {
+                        "name": "Time"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "TechRadar",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.HUwxplx_rx0g5pzCy5_Wwg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T03:00:00.0000000Z",
+                "category": "ScienceAndTechnology"
+            },
+            {
+                "name": "Pictures show the Glasgow schemes built by thousands of city men",
+                "url": "https://uk.news.yahoo.com/pictures-show-glasgow-schemes-built-060000351.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.3ZjRq_ZnwMQ4DLT3NJVETS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "BEFORE World War One, local authorities were empowered but not required \u2013 or funded - to demolish slums and build houses.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/da2548ee-1b26-f939-06b4-2fae57e075e7",
+                        "name": "Glasgow"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/72172fd3-07c4-f09a-3eb9-fa558814f618",
+                        "name": "Scheme"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T01:00:00.0000000Z"
+            },
+            {
+                "name": "Lucy Williamson: Hamas support soars in West Bank - but full uprising can still be avoided",
+                "url": "https://www.bbc.co.uk/news/world-middle-east-67708116.amp",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.xlQfbOdWPcdxtMkCbRVS0y&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The current leader of Fatah, Palestinian President Mahmoud Abbas, is widely seen as trying to avoid an escalation in violence against Israel - a major shift in position from his predecessor, Yasser Arafat. His security services co-operate with Israel to arrest members of armed groups - something that is widely criticised by Palestinians.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/77516f05-2f03-7036-db9c-af326d479364",
+                        "name": "Lucy"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3cd35bc6-4bad-e4bd-95c2-70965d7b2124",
+                        "name": "West Bank"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T00:21:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Doncaster&#39;s Tory MP Nick Fletcher was vilified by the Left for saying the city was &#39;full&#39; during Commons migration debate this week... So, were locals equally outraged? Take a ...",
+                "url": "https://www.dailymail.co.uk/news/article-12870585/Doncasters-Tory-MP-Nick-Fletcher-vilified-Left-saying-city-Commons-migration-debate-week-locals-equally-outraged-wild-guess.html",
+                "description": "Nick Fletcher has been branded a racist and a Nazi, not to mention a threat to society of such depravity that the accusations cannot be printed in a newspaper.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c0baca15-2d44-42ee-1e02-34efdcdfdf4e",
+                        "name": "Doncaster"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f21755d0-b800-114b-0ce9-aaccaf4f3cd5",
+                        "name": "Nick Fletcher"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6a7eb1b5-1a05-aa38-8651-7e40bbceefd1",
+                        "name": "Tory"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T00:11:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Vigil, series 2, part 2 review: without the submarine this thriller is merely subpar",
+                "url": "https://www.telegraph.co.uk/tv/2023/12/16/vigil-bbc-one-series-2-part-2-review-suranne-jones/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.HTc4p8Yfn9T3utU88qioYC&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "The first season of Suranne Jones&#39;s heady crime drama was a ratings hit because of its innovative location \u2013 it should have ended there",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/88820bcc-19a3-60c8-99d8-7032b20da5d1",
+                        "name": "BBC One"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7cd889ea-fa9a-0242-cd07-9667e773461f",
+                        "name": "Vigil"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "BBC One"
+                    },
+                    {
+                        "name": "Vigil"
+                    },
+                    {
+                        "name": "Suranne Jones"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T00:01:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "The Times Scotland view on the budget: Stop Digging",
+                "url": "https://www.thetimes.co.uk/article/the-times-scotland-view-on-the-budget-stop-digging-ndvcg3qxp",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.9xIVOx5LW84nuiGifq1R8i&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The \u00a31.5 billion hole in the public finances reflects choices the Scottish government, not Westminster, has made",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/caf348ce-fc6a-301a-2e2b-d6c052f12898",
+                        "name": "The Times"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-16T00:01:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Yousaf rebuked over COP28 meeting",
+                "url": "https://theedinburghreporter.co.uk/2023/12/yousaf-rebuked-over-cop28-meeting/",
+                "description": "Humza Yousaf: how to understand the first minister\u2019s spat with David Cameron over his COP28 meeting with the Turkish\u00a0president Carolyn Rowe, Aston University; Elin Royles, Aberystwyth University,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6d99b564-d527-5061-2ebd-f97730898d38",
+                        "name": "Humza Yousaf"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/286af946-edea-5f33-df53-4164821c69da",
+                        "name": "Edinburgh"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "the Edinburgh Reporter",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.tbjctWJ8Y7a07KiPCpS-Cw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-15T23:48:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Up 25% in a month and still cheap! An under-the-radar value stock to buy right now",
+                "url": "https://uk.finance.yahoo.com/news/25-month-still-cheap-under-073800388.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.LafFriK0psE6MTsSxg-E9i&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "After a free-market economist won Argentina&#39;s presidential election this month, I&#39;ve bought a value stock that I think could benefit big time. The post Up 25% in a month and still cheap! An under-the-radar value stock to buy right now appeared first on The Motley Fool UK.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/458fb3ec-80f7-2a40-2f5e-ea0bf47fe7f6",
+                        "name": "Stock"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Finance",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.LBn5t3rqxzpf5jMTBU81BA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-15T23:38:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "<b>UK</b> terror threat level under close review after foiled alleged attack plot in Europe",
+                "url": "https://www.theguardian.com/politics/2023/dec/15/uk-terror-threat-level-under-close-review-after-foiled-alleged-attack-plot-in-europe",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.7msfaVkPnQiSqQZvJas2nS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Arrests in Germany and the Netherlands increase fears that Jewish institutions in the UK could be targeted by Hamas",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/501457aa-5b70-cfba-cfd8-be882b4bac1e",
+                        "name": "Europe"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Europe"
+                    },
+                    {
+                        "name": "Homeland Security Advisory System"
+                    },
+                    {
+                        "name": "Terror"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-15T22:15:00.0000000Z"
+            },
+            {
+                "name": "ALEX BRUMMER: Savings need a tax break",
+                "url": "https://www.thisismoney.co.uk/money/comment/article-12869649/ALEX-BRUMMER-Savings-need-tax-break.html",
+                "description": "The latest sanctions include an assets freeze preventing any <b>UK</b> citizens or firms from doing business with ... was deemed &#39;inconsistent&#39;, though decisions taken were said to be not <b>political</b> but clashed with Coutts&#39; &#39;corporate purpose&#39;.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/44c3d8ea-5fbe-69e7-dc5b-d4109b17b8eb",
+                        "name": "This is..."
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9f9e67e3-3490-cd52-6654-42813c9855c9",
+                        "name": "Tax break"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "This is Money"
+                    }
+                ],
+                "datePublished": "2023-12-15T21:54:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Tributes paid to \u2018whirlwind of a woman\u2019 who died in blast at industrial estate",
+                "url": "https://www.northwalespioneer.co.uk/news/national/23993639.tributes-paid-whirlwind-woman-died-blast-industrial-estate/",
+                "description": "Danielle Evans, 40, ran a business based at Treforest Industrial Estate, Rhondda Cynon Taf, where an explosion occurred on Wednesday evening.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/47c49855-f59e-1593-1dd0-d96ff509cfe5",
+                        "name": "Tribute"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "North Wales Pioneer",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.xFkpb-I575SL4hEHRyQuwA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-15T21:32:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Landlords exiting rental market due to \u2018hostile <b>political</b> environment\u2019 in Scotland",
+                "url": "https://www.scotsman.com/news/politics/landlords-exiting-rental-market-due-to-hostile-political-environment-in-scotland-4448162",
+                "description": "Increasing numbers of housing landlords are selling up because the Scottish Government has created a \u201chostile political environment\u201d, a leading property expert has said.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Scotland"
+                    },
+                    {
+                        "name": "Landlord"
+                    },
+                    {
+                        "name": "Mature market"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Scotsman",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.QlHkHD_RALY4hnQHpw7jBw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-15T21:23:00.0000000Z"
+            },
+            {
+                "name": "G7 moves closer to seizing Russian assets for Ukraine",
+                "url": "https://www.ft.com/content/918645f8-e0b6-4cab-92fa-4f965569c2a6",
+                "description": "\u201cG7 members and other specially affected states could seize Russian sovereign assets as a countermeasure to induce Russia to end its aggression,\u201d said a US government discussion paper, seen by the Financial Times, which was circulated in G7 committees. The US Treasury declined to comment.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ed4fce79-8ad4-352b-205b-e4db36c49bbe",
+                        "name": "Russia"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ad599477-9e6d-4a0e-bab5-0edf9db7115a",
+                        "name": "Ukraine"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/87b07b70-c7ad-04f7-e3b8-b106508c0627",
+                        "name": "G7"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Russia"
+                    },
+                    {
+                        "name": "Ukraine"
+                    },
+                    {
+                        "name": "G7"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Financial Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CdBlognZ1u9nda-gVEOS_w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-15T21:00:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Making up is hard to do for me and John Lewis",
+                "url": "https://www.thetimes.co.uk/article/making-up-is-hard-to-do-for-me-and-john-lewis-wh2ngqfhz",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.KRdDxo4YhUqMkDBPMeR2BS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Here is a tale of modern life at its most irritating. I know I am supposed to be boycotting John Lewis after it abandoned Sheffield in 2021 but, call me a hypocrite (because I am), I couldn\u2019t help",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9317eb89-65bb-a608-9190-9762a206ea79",
+                        "name": "John Lewis"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-15T21:00:00.0000000Z"
+            },
+            {
+                "name": "Top investor tells Pearson to ditch London for New York",
+                "url": "https://www.thisismoney.co.uk/money/markets/article-12869493/Top-investor-tells-Pearson-ditch-London-New-York.html?mrn_rm=rta",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.EMlqydKY-d854D5plerl9i&pid=News",
+                        "width": 634,
+                        "height": 306
+                    }
+                },
+                "description": "Cevian Capital has singled out the FTSE 100 educational publisher as the next company in its portfolio that should make a move to New York.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8e0ba7b6-4225-fa8a-6369-1b5294e602a5",
+                        "name": "London"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/44c3d8ea-5fbe-69e7-dc5b-d4109b17b8eb",
+                        "name": "This is..."
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f241aad5-8839-7c62-21a4-2292b3e2e1b8",
+                        "name": "Ditch"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "This is Money",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.vNEz1z7JQU4tCQZX-QvQhw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-15T20:50:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Readers&#39; Letters: Maybe it&#39;s time to bring back the cottage hospital",
+                "url": "https://www.scotsman.com/news/opinion/letters/readers-letters-maybe-its-time-to-bring-back-the-cottage-hospital-4446439",
+                "description": "I have grave doubts about the usefulness of this report and the pathetic point scoring from all sides of the <b>political</b> spectrum rather makes ... have declined since the last survey in 2018. The <b>UK</b>\u2019s results in mathematics and science are the poorest ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/412167ad-854b-edd0-1510-b751d06eb2ee",
+                        "name": "Cottage hospital"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d1d85ec7-1cbb-6ee9-88a8-8af94518438a",
+                        "name": "Time"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Scotsman"
+                    }
+                ],
+                "datePublished": "2023-12-15T10:20:00.0000000Z"
+            },
+            {
+                "name": "Sunak\u2019s ethics adviser creates \u2018Cameron clause\u2019 after lobbying claims",
+                "url": "https://inews.co.uk/news/politics/sunaks-ethics-adviser-creates-cameron-clause-after-lobbying-claims-2810014?ico=more_from_this_author",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.eL3OtB7OEll7aM_0dvnKdi&pid=News",
+                        "width": 640,
+                        "height": 360
+                    }
+                },
+                "description": "However, campaigners have called on the Foreign Secretary to be transparent about his investments to avoid potential conflicts of interest with his role overseeing <b>UK</b> foreign policy. Steve Goodrich, the head of research and investigations at Transparency ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i"
+                    }
+                ],
+                "datePublished": "2023-12-15T06:01:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    }
+]

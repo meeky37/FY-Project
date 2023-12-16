@@ -1,0 +1,2002 @@
+[
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak",
+        "queryContext": {
+            "originalQuery": "rishi sunak",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 8,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Godfather Christmas",
+                "url": "https://www.bbc.co.uk/programmes/p0gzlwm6",
+                "description": "The team talk difficult decisions facing Holyrood, and the &quot;Five Families&quot; in the Tories.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-14T18:56:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Grant Shapps suggests Saudi Arabia could join fighter jets partnership",
+                "url": "https://www.telegraph.co.uk/news/2023/12/14/grant-shapps-suggests-fighter-jets-partnership-saudi-arabia/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.wXXKdDUH4SqvRiEustL-wC&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "The UK has been expecting a visit from Crown Prince Mohammed Bin Salman after he and <b>Rishi Sunak</b> pledged to boost anglo-Saudi defence ties earlier this year. The visit had been arranged for the autumn, but was delayed indefinitely. He has not visited ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/672bc136-22f9-3750-0459-2fbd2340f892",
+                        "name": "Saudi Arabia"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1edd6839-78eb-7408-355a-ecc89ef39be7",
+                        "name": "Grant Shapps"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Saudi Arabia"
+                    },
+                    {
+                        "name": "Grant Shapps"
+                    },
+                    {
+                        "name": "Partnership"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph"
+                    }
+                ],
+                "datePublished": "2023-12-14T18:53:00.0000000Z"
+            },
+            {
+                "name": "Government accused of \u2018cover-up\u2019 over Cameron\u2019s financial interests declaration",
+                "url": "https://www.kentonline.co.uk/news/national/government-accused-of-cover-up-over-cameron-s-financial-interests-declaration-106039/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.IV5TR8qNuydFOqH1L3SWHy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The Liberal Democrats said the Foreign Secretary should reveal a \u2018full list\u2019 of his financial interests \u2018if he has nothing to hide\u2019.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5634d914-4190-dd0b-fa80-715c2ac46335",
+                        "name": "Government"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/05973aa9-1608-8d06-96d6-e4ce0311b75a",
+                        "name": "David Cameron"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/617d7d09-2297-af3b-aab7-4224300e08d8",
+                        "name": "Declaration"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Kent Online",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.hWRC_m6PUwfTBWwiGneX8Q&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-14T18:22:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Rishi Sunak</b> rejects Israeli ambassador and confirms UK backs two-state solution in Gaza",
+                "url": "https://www.express.co.uk/news/politics/1845621/Rishi-Sunak-Israel-Gaza-two-state-solution",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.5HhEW9zzxAfQPylIjiUDji&pid=News",
+                        "width": 700,
+                        "height": 415
+                    }
+                },
+                "description": "Rishi Sunak has insisted Britain still backs a two-state solution in the Middle East after the Israeli ambassador dismissed the idea.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Daily Express"
+                    },
+                    {
+                        "name": "Israel"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-14T13:54:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "<b>Rishi Sunak</b> criticised for not appointing dedicated minister for disabled people \u2013 UK politics live",
+                "url": "https://www.theguardian.com/politics/live/2023/dec/14/rishi-sunak-tetchy-tories-tax-conservatives-scott-benton-uk-politics-live?page=with:block-657aedae8f08d04fc520452a&filterKeyEvents=false",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.sG9ScAdemIzcysxqzGiW6C&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "By submitting your message, you are agreeing to share your details with us, which we may use in this blog. <b>Rishi Sunak</b> talks with pupils on a visit to a school in north London. Photograph: Richard Pohle/AFP/Getty Images You must be 18 or over to fill in ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian"
+                    }
+                ],
+                "datePublished": "2023-12-14T09:20:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "David Cameron defends UK\u2019s decision not to vote for UN resolution demanding ceasefire in Gaza \u2013 as it happened",
+                "url": "https://www.theguardian.com/politics/live/2023/dec/14/rishi-sunak-tetchy-tories-tax-conservatives-scott-benton-uk-politics-live?filterKeyEvents=true&page=with:block-657b195e8f0822ad14b8f2af",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Ooilq33g3uwj3du5cjlyKC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Scott Benton MP is facing a 35-day suspension from parliament, leaving <b>Rishi Sunak</b> open to yet another difficult byelection. <b>Rishi Sunak</b> has said \u201cthere\u2019s nothing tetchy\u201d about him and dismissed dissent among his MPs to the Rwanda bill as \u201cdebating ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian"
+                    }
+                ],
+                "datePublished": "2023-12-14T09:20:00.0000000Z"
+            },
+            {
+                "name": "<b>Rishi Sunak</b> to speak at Giorgia Meloni event in Italy",
+                "url": "https://www.thetimes.co.uk/article/rishi-sunak-italy-rome-elon-musk-giorgia-meloni-5k37cs3lc",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT._ABYBFCXQEMYgGob1IimVy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Rishi Sunak will fly to Rome this weekend to address a political gathering hosted by the Italian prime minister Giorgia Meloni, joining a line-up of speakers who include Elon Musk and Santiago Abascal,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5c9bb82e-e08f-f5eb-9f29-f20e75e8eb8f",
+                        "name": "Giorgia Meloni"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/09e8f885-427b-8850-947d-202e0287b9e8",
+                        "name": "Italy"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-14T00:01:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Bring back dedicated disabled minister role, say charities",
+                "url": "https://www.nwemail.co.uk/news/national/23990904.bring-back-dedicated-disabled-minister-role-say-charities/",
+                "description": "Following Robert Jenrick\u2019s resignation as immigration minister over the Government\u2019s Rwanda plan, Prime Minister <b>Rishi Sunak</b> split ministerial responsibility for legal and illegal migration. Alongside Mr Pursglove as minister of state for legal ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/675fdcb5-0077-b818-0d2a-4509a71669bf",
+                        "name": "Role"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mail"
+                    }
+                ],
+                "datePublished": "2023-12-14T00:01:00.0000000Z"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak",
+        "queryContext": {
+            "originalQuery": "rishi sunak",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 117,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Godfather Christmas",
+                "url": "https://www.bbc.co.uk/programmes/p0gzlwm6",
+                "description": "The team talk difficult decisions facing Holyrood, and the &quot;Five Families&quot; in the Tories.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-14T18:56:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Grant Shapps suggests Saudi Arabia could join fighter jets partnership",
+                "url": "https://www.telegraph.co.uk/news/2023/12/14/grant-shapps-suggests-fighter-jets-partnership-saudi-arabia/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.wXXKdDUH4SqvRiEustL-wC&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "The UK has been expecting a visit from Crown Prince Mohammed Bin Salman after he and <b>Rishi Sunak</b> pledged to boost anglo-Saudi defence ties earlier this year. The visit had been arranged for the autumn, but was delayed indefinitely. He has not visited ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/672bc136-22f9-3750-0459-2fbd2340f892",
+                        "name": "Saudi Arabia"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1edd6839-78eb-7408-355a-ecc89ef39be7",
+                        "name": "Grant Shapps"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Saudi Arabia"
+                    },
+                    {
+                        "name": "Grant Shapps"
+                    },
+                    {
+                        "name": "Partnership"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph"
+                    }
+                ],
+                "datePublished": "2023-12-14T18:53:00.0000000Z"
+            },
+            {
+                "name": "Ministers square up over plight of Afghan special forces abandoned by Britain",
+                "url": "https://uk.news.yahoo.com/ministers-square-over-plight-afghan-181903995.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.uvTRkv5R-ufHr6nDZLzXIy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Members of two elite units \u2013 championed by The Independent \u2013 have been denied sanctuary they were promised here after fighting with UK forces",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c650f0dc-d7a9-6c0b-6125-b52ae4cd36b5",
+                        "name": "Afghanistan"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0fa54bd9-f08b-6bdb-a9aa-d2a60d7c8418",
+                        "name": "Square-up"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-14T18:19:00.0000000Z"
+            },
+            {
+                "name": "Government accused of \u2018cover-up\u2019 over Cameron\u2019s financial interests declaration",
+                "url": "https://www.standard.co.uk/news/politics/cameron-conservative-foreign-secretary-government-liberal-democrats-b1127096.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.afsPOhOxtA8V_SDZpHFBUi&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The Liberal Democrats said the Foreign Secretary should reveal a \u2018full list\u2019 of his financial interests \u2018if he has nothing to hide\u2019.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/05973aa9-1608-8d06-96d6-e4ce0311b75a",
+                        "name": "David Cameron"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5634d914-4190-dd0b-fa80-715c2ac46335",
+                        "name": "Government"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "David Cameron"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Government"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-14T18:17:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Interest rates may rise again next year, Bank of England warns",
+                "url": "https://inews.co.uk/inews-lifestyle/money/interest-rates-rise-again-next-year-bank-england-warns-2809715",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.34Urd9HklruTzMILE7_r6i&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The Bank of England warned that &#39;further tightening&#39; in monetary policy would be required if there were evidence of more persistent inflationary pressures",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fe593106-a52e-eede-658f-ed5a53705959",
+                        "name": "Interest rate"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-14T18:14:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Kemi Badenoch can be the next Tory leader \u2013 but she is her own worst enemy",
+                "url": "https://inews.co.uk/opinion/rottweiler-kemi-badenoch-can-be-the-next-tory-leader-if-she-doesnt-bite-her-own-2809951",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.GfNF5RACHGOjiakFb8-tBi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The Business and Trade Secretary\u2019s ruthless attack on a Labour MP endears her to some colleagues, but worries others",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6c4c9e4f-3d65-c03f-10a5-df5e362c123e",
+                        "name": "Kemi"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0f3fb0f7-7f4f-1e57-f53d-53ae93bdcbcd",
+                        "name": "Badenoch"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-14T18:13:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "The events and cars that shaped 2023",
+                "url": "https://www.telegraph.co.uk/cars/features/the-events-and-cars-that-shaped-2023/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.l6svUpwU_vZVYbtuqBg8wS&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "Well, what a year that was. <b>Rishi Sunak</b> deferring the ban on combustion-engined cars to 2035 to match the EU\u2019s timetable was probably a sensible change, but came far too late for car makers\u2019 new-model schedules. Privately, car makers think it made UK ...",
+                "mentions": [
+                    {
+                        "name": "Mercedes-Benz"
+                    },
+                    {
+                        "name": "Saab Automobile AB"
+                    },
+                    {
+                        "name": "ASOS.com"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph"
+                    }
+                ],
+                "datePublished": "2023-12-14T18:00:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Festive surprise for Cluny Primary&#39;s Chloe as she triumphs in MP&#39;s Christmas card contest",
+                "url": "https://www.grampianonline.co.uk/buckie/festive-surprise-for-cluny-primarys-chloe-as-she-triumphs-i-335698/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.x6ZOkLEuIBuBzjvtEFtRdC&pid=News",
+                        "width": 700,
+                        "height": 482
+                    }
+                },
+                "description": "THIS festive season will be extra special Cluny Primary School pupil Chloe Smith after she won Moray MP Douglas Ross&#39;s Christmas card competition.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a627efd7-d895-3357-3a13-8c1baabf1817",
+                        "name": "Buckie"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/85921665-b8e4-f660-2a8a-6805b88ef95b",
+                        "name": "Anglo-Chinese School (Primary)"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "grampianonline",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.TRteebnD1FT5BpcrlQL8ww&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-14T18:00:00.0000000Z"
+            },
+            {
+                "name": "Festive surprise for Cluny Primary&#39;s Chloe as she triumphs in MP&#39;s Christmas card competition",
+                "url": "https://www.northern-scot.co.uk/news/festive-surprise-for-cluny-primarys-chloe-as-she-triumphs-i-335699/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.x6ZOkLEuIBuBzjvtEFtRdC&pid=News",
+                        "width": 700,
+                        "height": 482
+                    }
+                },
+                "description": "THIS festive season will be extra special Cluny Primary School pupil Chloe Smith after she won Moray MP Douglas Ross&#39;s Christmas card competition.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/85921665-b8e4-f660-2a8a-6805b88ef95b",
+                        "name": "Anglo-Chinese School (Primary)"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "northern-scot.co.uk",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.vvfO2OnlLP2gcDJ2zfr4wQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-14T18:00:00.0000000Z"
+            },
+            {
+                "name": "Festive joy for Cluny Primary&#39;s Chloe as she triumphs in MP&#39;s Christmas card competition",
+                "url": "https://www.forres-gazette.co.uk/news/festive-surprise-for-cluny-primarys-chloe-as-she-triumphs-i-335702/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.x6ZOkLEuIBuBzjvtEFtRdC&pid=News",
+                        "width": 700,
+                        "height": 482
+                    }
+                },
+                "description": "THIS festive season will be extra special Cluny Primary School pupil Chloe Smith after she won Moray MP Douglas Ross&#39;s Christmas card competition.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/85921665-b8e4-f660-2a8a-6805b88ef95b",
+                        "name": "Anglo-Chinese School (Primary)"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "forres-gazette.co.uk",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0GdVUa3qErbE5N-tBLUG-A&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-14T18:00:00.0000000Z"
+            },
+            {
+                "name": "Bring back dedicated disabled minister role, say charities",
+                "url": "https://www.somersetcountygazette.co.uk/news/national/23990904.bring-back-dedicated-disabled-minister-role-say-charities/",
+                "description": "The new minister said she will have a \u2018continued focus on social mobility\u2019 while taking on her new disabled people, health and work role.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/675fdcb5-0077-b818-0d2a-4509a71669bf",
+                        "name": "Role"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Somerset County Gazette",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.waWzSPbN9UCKE_lQi3V8Cg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-14T17:58:00.0000000Z"
+            },
+            {
+                "name": "Ant and Dec accused of \u2018faking\u2019 major I\u2019m A Celebrity moment",
+                "url": "https://metro.co.uk/2023/12/14/ant-dec-accused-faking-major-im-a-celebrity-moment-19971867/?ico=read_full_story_videopage",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.s6dDx2SYxdVefKb-ATCImS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "They later changed their minds though, as, when asked about <b>Rishi Sunak</b> following in Matt Hancock and Nigel Farage\u2019s footsteps in the future, Dec said: \u2018I think we do a year without any politicians.\u2019 \u2018Agreed, agreed, agreed,\u2019 replied Ant.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d72e8f50-a890-6a17-39be-87dfbc30007c",
+                        "name": "Ant &amp; Dec"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2872a54f-b045-8fe3-d356-1aa538e14812",
+                        "name": "Metro International"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a6fa4b33-1e42-7d44-8ca7-17d7fc43c873",
+                        "name": "Celebrity"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Ant &amp; Dec"
+                    },
+                    {
+                        "name": "Metro International"
+                    },
+                    {
+                        "name": "Celebrity"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Metro"
+                    }
+                ],
+                "datePublished": "2023-12-14T15:16:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Rishi Sunak</b> rejects Israeli ambassador and confirms UK backs two-state solution in Gaza",
+                "url": "https://www.express.co.uk/news/politics/1845621/Rishi-Sunak-Israel-Gaza-two-state-solution",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.5HhEW9zzxAfQPylIjiUDji&pid=News",
+                        "width": 700,
+                        "height": 415
+                    }
+                },
+                "description": "Rishi Sunak has insisted Britain still backs a two-state solution in the Middle East after the Israeli ambassador dismissed the idea.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Daily Express"
+                    },
+                    {
+                        "name": "Israel"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-14T13:54:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "<b>Rishi Sunak</b> criticised for not appointing dedicated minister for disabled people \u2013 UK politics live",
+                "url": "https://www.theguardian.com/politics/live/2023/dec/14/rishi-sunak-tetchy-tories-tax-conservatives-scott-benton-uk-politics-live?page=with:block-657aedae8f08d04fc520452a&filterKeyEvents=false",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.sG9ScAdemIzcysxqzGiW6C&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "By submitting your message, you are agreeing to share your details with us, which we may use in this blog. <b>Rishi Sunak</b> talks with pupils on a visit to a school in north London. Photograph: Richard Pohle/AFP/Getty Images You must be 18 or over to fill in ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian"
+                    }
+                ],
+                "datePublished": "2023-12-14T09:20:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "David Cameron defends UK\u2019s decision not to vote for UN resolution demanding ceasefire in Gaza \u2013 as it happened",
+                "url": "https://www.theguardian.com/politics/live/2023/dec/14/rishi-sunak-tetchy-tories-tax-conservatives-scott-benton-uk-politics-live?filterKeyEvents=true&page=with:block-657b195e8f0822ad14b8f2af",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Ooilq33g3uwj3du5cjlyKC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Scott Benton MP is facing a 35-day suspension from parliament, leaving <b>Rishi Sunak</b> open to yet another difficult byelection. <b>Rishi Sunak</b> has said \u201cthere\u2019s nothing tetchy\u201d about him and dismissed dissent among his MPs to the Rwanda bill as \u201cdebating ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian"
+                    }
+                ],
+                "datePublished": "2023-12-14T09:20:00.0000000Z"
+            },
+            {
+                "name": "<b>Rishi Sunak</b> to speak at Giorgia Meloni event in Italy",
+                "url": "https://www.thetimes.co.uk/article/rishi-sunak-italy-rome-elon-musk-giorgia-meloni-5k37cs3lc",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT._ABYBFCXQEMYgGob1IimVy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Rishi Sunak will fly to Rome this weekend to address a political gathering hosted by the Italian prime minister Giorgia Meloni, joining a line-up of speakers who include Elon Musk and Santiago Abascal,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5c9bb82e-e08f-f5eb-9f29-f20e75e8eb8f",
+                        "name": "Giorgia Meloni"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/09e8f885-427b-8850-947d-202e0287b9e8",
+                        "name": "Italy"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-14T00:01:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Israeli ambassador\u2019s rejection of two-state solution disappointing, says Cameron",
+                "url": "https://www.huntspost.co.uk/news/national/23990705.israeli-ambassadors-rejection-two-state-solution-disappointing-says-cameron/",
+                "description": "We have to get on and think about how to help make this happen.\u201d <b>Rishi Sunak</b> has stressed the UK remains committed to a two-state solution in the Middle East, which it considers the \u201cright outcome\u201d to the war. He repeated his call for a ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/05973aa9-1608-8d06-96d6-e4ce0311b75a",
+                        "name": "David Cameron"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1ffafed3-2b37-b871-c271-aa855d98449a",
+                        "name": "Israel"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6f6e958c-0450-bd33-a8f7-65e832e71572",
+                        "name": "The Hunts"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Hunts Post"
+                    }
+                ],
+                "datePublished": "2023-12-14T00:01:00.0000000Z"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak",
+        "queryContext": {
+            "originalQuery": "rishi sunak",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 217,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Godfather Christmas",
+                "url": "https://www.bbc.co.uk/programmes/p0gzlwm6",
+                "description": "The team talk difficult decisions facing Holyrood, and the &quot;Five Families&quot; in the Tories.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-14T18:56:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Grant Shapps suggests Saudi Arabia could join fighter jets partnership",
+                "url": "https://www.telegraph.co.uk/news/2023/12/14/grant-shapps-suggests-fighter-jets-partnership-saudi-arabia/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.wXXKdDUH4SqvRiEustL-wC&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "The UK has been expecting a visit from Crown Prince Mohammed Bin Salman after he and <b>Rishi Sunak</b> pledged to boost anglo-Saudi defence ties earlier this year. The visit had been arranged for the autumn, but was delayed indefinitely. He has not visited ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/672bc136-22f9-3750-0459-2fbd2340f892",
+                        "name": "Saudi Arabia"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1edd6839-78eb-7408-355a-ecc89ef39be7",
+                        "name": "Grant Shapps"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Saudi Arabia"
+                    },
+                    {
+                        "name": "Grant Shapps"
+                    },
+                    {
+                        "name": "Partnership"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph"
+                    }
+                ],
+                "datePublished": "2023-12-14T18:53:00.0000000Z"
+            },
+            {
+                "name": "Ministers square up over plight of Afghan special forces abandoned by Britain",
+                "url": "https://uk.news.yahoo.com/ministers-square-over-plight-afghan-181903995.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.uvTRkv5R-ufHr6nDZLzXIy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Members of two elite units \u2013 championed by The Independent \u2013 have been denied sanctuary they were promised here after fighting with UK forces",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c650f0dc-d7a9-6c0b-6125-b52ae4cd36b5",
+                        "name": "Afghanistan"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0fa54bd9-f08b-6bdb-a9aa-d2a60d7c8418",
+                        "name": "Square-up"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-14T18:19:00.0000000Z"
+            },
+            {
+                "name": "Government accused of \u2018cover-up\u2019 over Cameron\u2019s financial interests declaration",
+                "url": "https://www.standard.co.uk/news/politics/cameron-conservative-foreign-secretary-government-liberal-democrats-b1127096.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.afsPOhOxtA8V_SDZpHFBUi&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The Liberal Democrats said the Foreign Secretary should reveal a \u2018full list\u2019 of his financial interests \u2018if he has nothing to hide\u2019.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/05973aa9-1608-8d06-96d6-e4ce0311b75a",
+                        "name": "David Cameron"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5634d914-4190-dd0b-fa80-715c2ac46335",
+                        "name": "Government"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "David Cameron"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Government"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-14T18:17:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Interest rates may rise again next year, Bank of England warns",
+                "url": "https://inews.co.uk/inews-lifestyle/money/interest-rates-rise-again-next-year-bank-england-warns-2809715",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.34Urd9HklruTzMILE7_r6i&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The Bank of England warned that &#39;further tightening&#39; in monetary policy would be required if there were evidence of more persistent inflationary pressures",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fe593106-a52e-eede-658f-ed5a53705959",
+                        "name": "Interest rate"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-14T18:14:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Kemi Badenoch can be the next Tory leader \u2013 but she is her own worst enemy",
+                "url": "https://inews.co.uk/opinion/rottweiler-kemi-badenoch-can-be-the-next-tory-leader-if-she-doesnt-bite-her-own-2809951",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.GfNF5RACHGOjiakFb8-tBi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The Business and Trade Secretary\u2019s ruthless attack on a Labour MP endears her to some colleagues, but worries others",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6c4c9e4f-3d65-c03f-10a5-df5e362c123e",
+                        "name": "Kemi"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0f3fb0f7-7f4f-1e57-f53d-53ae93bdcbcd",
+                        "name": "Badenoch"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-14T18:13:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "The events and cars that shaped 2023",
+                "url": "https://www.telegraph.co.uk/cars/features/the-events-and-cars-that-shaped-2023/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.l6svUpwU_vZVYbtuqBg8wS&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "Well, what a year that was. <b>Rishi Sunak</b> deferring the ban on combustion-engined cars to 2035 to match the EU\u2019s timetable was probably a sensible change, but came far too late for car makers\u2019 new-model schedules. Privately, car makers think it made UK ...",
+                "mentions": [
+                    {
+                        "name": "Mercedes-Benz"
+                    },
+                    {
+                        "name": "Saab Automobile AB"
+                    },
+                    {
+                        "name": "ASOS.com"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph"
+                    }
+                ],
+                "datePublished": "2023-12-14T18:00:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Festive surprise for Cluny Primary&#39;s Chloe as she triumphs in MP&#39;s Christmas card contest",
+                "url": "https://www.grampianonline.co.uk/buckie/festive-surprise-for-cluny-primarys-chloe-as-she-triumphs-i-335698/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.x6ZOkLEuIBuBzjvtEFtRdC&pid=News",
+                        "width": 700,
+                        "height": 482
+                    }
+                },
+                "description": "THIS festive season will be extra special Cluny Primary School pupil Chloe Smith after she won Moray MP Douglas Ross&#39;s Christmas card competition.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a627efd7-d895-3357-3a13-8c1baabf1817",
+                        "name": "Buckie"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/85921665-b8e4-f660-2a8a-6805b88ef95b",
+                        "name": "Anglo-Chinese School (Primary)"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "grampianonline",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.TRteebnD1FT5BpcrlQL8ww&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-14T18:00:00.0000000Z"
+            },
+            {
+                "name": "Festive surprise for Cluny Primary&#39;s Chloe as she triumphs in MP&#39;s Christmas card competition",
+                "url": "https://www.northern-scot.co.uk/news/festive-surprise-for-cluny-primarys-chloe-as-she-triumphs-i-335699/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.x6ZOkLEuIBuBzjvtEFtRdC&pid=News",
+                        "width": 700,
+                        "height": 482
+                    }
+                },
+                "description": "THIS festive season will be extra special Cluny Primary School pupil Chloe Smith after she won Moray MP Douglas Ross&#39;s Christmas card competition.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/85921665-b8e4-f660-2a8a-6805b88ef95b",
+                        "name": "Anglo-Chinese School (Primary)"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "northern-scot.co.uk",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.vvfO2OnlLP2gcDJ2zfr4wQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-14T18:00:00.0000000Z"
+            },
+            {
+                "name": "Festive joy for Cluny Primary&#39;s Chloe as she triumphs in MP&#39;s Christmas card competition",
+                "url": "https://www.forres-gazette.co.uk/news/festive-surprise-for-cluny-primarys-chloe-as-she-triumphs-i-335702/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.x6ZOkLEuIBuBzjvtEFtRdC&pid=News",
+                        "width": 700,
+                        "height": 482
+                    }
+                },
+                "description": "THIS festive season will be extra special Cluny Primary School pupil Chloe Smith after she won Moray MP Douglas Ross&#39;s Christmas card competition.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/85921665-b8e4-f660-2a8a-6805b88ef95b",
+                        "name": "Anglo-Chinese School (Primary)"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "forres-gazette.co.uk",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0GdVUa3qErbE5N-tBLUG-A&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-14T18:00:00.0000000Z"
+            },
+            {
+                "name": "Bring back dedicated disabled minister role, say charities",
+                "url": "https://www.somersetcountygazette.co.uk/news/national/23990904.bring-back-dedicated-disabled-minister-role-say-charities/",
+                "description": "The new minister said she will have a \u2018continued focus on social mobility\u2019 while taking on her new disabled people, health and work role.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/675fdcb5-0077-b818-0d2a-4509a71669bf",
+                        "name": "Role"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Somerset County Gazette",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.waWzSPbN9UCKE_lQi3V8Cg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-14T17:58:00.0000000Z"
+            },
+            {
+                "name": "Ant and Dec accused of \u2018faking\u2019 major I\u2019m A Celebrity moment",
+                "url": "https://metro.co.uk/2023/12/14/ant-dec-accused-faking-major-im-a-celebrity-moment-19971867/?ico=read_full_story_videopage",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.s6dDx2SYxdVefKb-ATCImS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "They later changed their minds though, as, when asked about <b>Rishi Sunak</b> following in Matt Hancock and Nigel Farage\u2019s footsteps in the future, Dec said: \u2018I think we do a year without any politicians.\u2019 \u2018Agreed, agreed, agreed,\u2019 replied Ant.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d72e8f50-a890-6a17-39be-87dfbc30007c",
+                        "name": "Ant &amp; Dec"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2872a54f-b045-8fe3-d356-1aa538e14812",
+                        "name": "Metro International"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a6fa4b33-1e42-7d44-8ca7-17d7fc43c873",
+                        "name": "Celebrity"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Ant &amp; Dec"
+                    },
+                    {
+                        "name": "Metro International"
+                    },
+                    {
+                        "name": "Celebrity"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Metro"
+                    }
+                ],
+                "datePublished": "2023-12-14T15:16:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Rishi Sunak</b> rejects Israeli ambassador and confirms UK backs two-state solution in Gaza",
+                "url": "https://www.express.co.uk/news/politics/1845621/Rishi-Sunak-Israel-Gaza-two-state-solution",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.5HhEW9zzxAfQPylIjiUDji&pid=News",
+                        "width": 700,
+                        "height": 415
+                    }
+                },
+                "description": "Rishi Sunak has insisted Britain still backs a two-state solution in the Middle East after the Israeli ambassador dismissed the idea.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Daily Express"
+                    },
+                    {
+                        "name": "Israel"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-14T13:54:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "<b>Rishi Sunak</b> criticised for not appointing dedicated minister for disabled people \u2013 UK politics live",
+                "url": "https://www.theguardian.com/politics/live/2023/dec/14/rishi-sunak-tetchy-tories-tax-conservatives-scott-benton-uk-politics-live?page=with:block-657aedae8f08d04fc520452a&filterKeyEvents=false",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.sG9ScAdemIzcysxqzGiW6C&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "By submitting your message, you are agreeing to share your details with us, which we may use in this blog. <b>Rishi Sunak</b> talks with pupils on a visit to a school in north London. Photograph: Richard Pohle/AFP/Getty Images You must be 18 or over to fill in ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian"
+                    }
+                ],
+                "datePublished": "2023-12-14T09:20:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "David Cameron defends UK\u2019s decision not to vote for UN resolution demanding ceasefire in Gaza \u2013 as it happened",
+                "url": "https://www.theguardian.com/politics/live/2023/dec/14/rishi-sunak-tetchy-tories-tax-conservatives-scott-benton-uk-politics-live?filterKeyEvents=true&page=with:block-657b195e8f0822ad14b8f2af",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Ooilq33g3uwj3du5cjlyKC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Scott Benton MP is facing a 35-day suspension from parliament, leaving <b>Rishi Sunak</b> open to yet another difficult byelection. <b>Rishi Sunak</b> has said \u201cthere\u2019s nothing tetchy\u201d about him and dismissed dissent among his MPs to the Rwanda bill as \u201cdebating ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian"
+                    }
+                ],
+                "datePublished": "2023-12-14T09:20:00.0000000Z"
+            },
+            {
+                "name": "<b>Rishi Sunak</b> to speak at Giorgia Meloni event in Italy",
+                "url": "https://www.thetimes.co.uk/article/rishi-sunak-italy-rome-elon-musk-giorgia-meloni-5k37cs3lc",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT._ABYBFCXQEMYgGob1IimVy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Rishi Sunak will fly to Rome this weekend to address a political gathering hosted by the Italian prime minister Giorgia Meloni, joining a line-up of speakers who include Elon Musk and Santiago Abascal,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5c9bb82e-e08f-f5eb-9f29-f20e75e8eb8f",
+                        "name": "Giorgia Meloni"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/09e8f885-427b-8850-947d-202e0287b9e8",
+                        "name": "Italy"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-14T00:01:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Israeli ambassador\u2019s rejection of two-state solution disappointing, says Cameron",
+                "url": "https://www.huntspost.co.uk/news/national/23990705.israeli-ambassadors-rejection-two-state-solution-disappointing-says-cameron/",
+                "description": "We have to get on and think about how to help make this happen.\u201d <b>Rishi Sunak</b> has stressed the UK remains committed to a two-state solution in the Middle East, which it considers the \u201cright outcome\u201d to the war. He repeated his call for a ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/05973aa9-1608-8d06-96d6-e4ce0311b75a",
+                        "name": "David Cameron"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1ffafed3-2b37-b871-c271-aa855d98449a",
+                        "name": "Israel"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6f6e958c-0450-bd33-a8f7-65e832e71572",
+                        "name": "The Hunts"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Hunts Post"
+                    }
+                ],
+                "datePublished": "2023-12-14T00:01:00.0000000Z"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak",
+        "queryContext": {
+            "originalQuery": "rishi sunak",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 317,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Godfather Christmas",
+                "url": "https://www.bbc.co.uk/programmes/p0gzlwm6",
+                "description": "The team talk difficult decisions facing Holyrood, and the &quot;Five Families&quot; in the Tories.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-14T18:56:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Grant Shapps suggests Saudi Arabia could join fighter jets partnership",
+                "url": "https://www.telegraph.co.uk/news/2023/12/14/grant-shapps-suggests-fighter-jets-partnership-saudi-arabia/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.wXXKdDUH4SqvRiEustL-wC&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "The UK has been expecting a visit from Crown Prince Mohammed Bin Salman after he and <b>Rishi Sunak</b> pledged to boost anglo-Saudi defence ties earlier this year. The visit had been arranged for the autumn, but was delayed indefinitely. He has not visited ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/672bc136-22f9-3750-0459-2fbd2340f892",
+                        "name": "Saudi Arabia"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1edd6839-78eb-7408-355a-ecc89ef39be7",
+                        "name": "Grant Shapps"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Saudi Arabia"
+                    },
+                    {
+                        "name": "Grant Shapps"
+                    },
+                    {
+                        "name": "Partnership"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph"
+                    }
+                ],
+                "datePublished": "2023-12-14T18:53:00.0000000Z"
+            },
+            {
+                "name": "Ministers square up over plight of Afghan special forces abandoned by Britain",
+                "url": "https://uk.news.yahoo.com/ministers-square-over-plight-afghan-181903995.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.uvTRkv5R-ufHr6nDZLzXIy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Members of two elite units \u2013 championed by The Independent \u2013 have been denied sanctuary they were promised here after fighting with UK forces",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c650f0dc-d7a9-6c0b-6125-b52ae4cd36b5",
+                        "name": "Afghanistan"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0fa54bd9-f08b-6bdb-a9aa-d2a60d7c8418",
+                        "name": "Square-up"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-14T18:19:00.0000000Z"
+            },
+            {
+                "name": "Government accused of \u2018cover-up\u2019 over Cameron\u2019s financial interests declaration",
+                "url": "https://www.standard.co.uk/news/politics/cameron-conservative-foreign-secretary-government-liberal-democrats-b1127096.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.afsPOhOxtA8V_SDZpHFBUi&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The Liberal Democrats said the Foreign Secretary should reveal a \u2018full list\u2019 of his financial interests \u2018if he has nothing to hide\u2019.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/05973aa9-1608-8d06-96d6-e4ce0311b75a",
+                        "name": "David Cameron"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5634d914-4190-dd0b-fa80-715c2ac46335",
+                        "name": "Government"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "David Cameron"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Government"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-14T18:17:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Interest rates may rise again next year, Bank of England warns",
+                "url": "https://inews.co.uk/inews-lifestyle/money/interest-rates-rise-again-next-year-bank-england-warns-2809715",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.34Urd9HklruTzMILE7_r6i&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The Bank of England warned that &#39;further tightening&#39; in monetary policy would be required if there were evidence of more persistent inflationary pressures",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fe593106-a52e-eede-658f-ed5a53705959",
+                        "name": "Interest rate"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-14T18:14:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Kemi Badenoch can be the next Tory leader \u2013 but she is her own worst enemy",
+                "url": "https://inews.co.uk/opinion/rottweiler-kemi-badenoch-can-be-the-next-tory-leader-if-she-doesnt-bite-her-own-2809951",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.GfNF5RACHGOjiakFb8-tBi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The Business and Trade Secretary\u2019s ruthless attack on a Labour MP endears her to some colleagues, but worries others",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6c4c9e4f-3d65-c03f-10a5-df5e362c123e",
+                        "name": "Kemi"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0f3fb0f7-7f4f-1e57-f53d-53ae93bdcbcd",
+                        "name": "Badenoch"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-14T18:13:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "The events and cars that shaped 2023",
+                "url": "https://www.telegraph.co.uk/cars/features/the-events-and-cars-that-shaped-2023/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.l6svUpwU_vZVYbtuqBg8wS&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "Well, what a year that was. <b>Rishi Sunak</b> deferring the ban on combustion-engined cars to 2035 to match the EU\u2019s timetable was probably a sensible change, but came far too late for car makers\u2019 new-model schedules. Privately, car makers think it made UK ...",
+                "mentions": [
+                    {
+                        "name": "Mercedes-Benz"
+                    },
+                    {
+                        "name": "Saab Automobile AB"
+                    },
+                    {
+                        "name": "ASOS.com"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph"
+                    }
+                ],
+                "datePublished": "2023-12-14T18:00:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Festive surprise for Cluny Primary&#39;s Chloe as she triumphs in MP&#39;s Christmas card contest",
+                "url": "https://www.grampianonline.co.uk/buckie/festive-surprise-for-cluny-primarys-chloe-as-she-triumphs-i-335698/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.x6ZOkLEuIBuBzjvtEFtRdC&pid=News",
+                        "width": 700,
+                        "height": 482
+                    }
+                },
+                "description": "THIS festive season will be extra special Cluny Primary School pupil Chloe Smith after she won Moray MP Douglas Ross&#39;s Christmas card competition.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a627efd7-d895-3357-3a13-8c1baabf1817",
+                        "name": "Buckie"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/85921665-b8e4-f660-2a8a-6805b88ef95b",
+                        "name": "Anglo-Chinese School (Primary)"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "grampianonline",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.TRteebnD1FT5BpcrlQL8ww&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-14T18:00:00.0000000Z"
+            },
+            {
+                "name": "Festive surprise for Cluny Primary&#39;s Chloe as she triumphs in MP&#39;s Christmas card competition",
+                "url": "https://www.northern-scot.co.uk/news/festive-surprise-for-cluny-primarys-chloe-as-she-triumphs-i-335699/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.x6ZOkLEuIBuBzjvtEFtRdC&pid=News",
+                        "width": 700,
+                        "height": 482
+                    }
+                },
+                "description": "THIS festive season will be extra special Cluny Primary School pupil Chloe Smith after she won Moray MP Douglas Ross&#39;s Christmas card competition.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/85921665-b8e4-f660-2a8a-6805b88ef95b",
+                        "name": "Anglo-Chinese School (Primary)"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "northern-scot.co.uk",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.vvfO2OnlLP2gcDJ2zfr4wQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-14T18:00:00.0000000Z"
+            },
+            {
+                "name": "Festive joy for Cluny Primary&#39;s Chloe as she triumphs in MP&#39;s Christmas card competition",
+                "url": "https://www.forres-gazette.co.uk/news/festive-surprise-for-cluny-primarys-chloe-as-she-triumphs-i-335702/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.x6ZOkLEuIBuBzjvtEFtRdC&pid=News",
+                        "width": 700,
+                        "height": 482
+                    }
+                },
+                "description": "THIS festive season will be extra special Cluny Primary School pupil Chloe Smith after she won Moray MP Douglas Ross&#39;s Christmas card competition.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/85921665-b8e4-f660-2a8a-6805b88ef95b",
+                        "name": "Anglo-Chinese School (Primary)"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "forres-gazette.co.uk",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0GdVUa3qErbE5N-tBLUG-A&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-14T18:00:00.0000000Z"
+            },
+            {
+                "name": "Bring back dedicated disabled minister role, say charities",
+                "url": "https://www.somersetcountygazette.co.uk/news/national/23990904.bring-back-dedicated-disabled-minister-role-say-charities/",
+                "description": "The new minister said she will have a \u2018continued focus on social mobility\u2019 while taking on her new disabled people, health and work role.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/675fdcb5-0077-b818-0d2a-4509a71669bf",
+                        "name": "Role"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Somerset County Gazette",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.waWzSPbN9UCKE_lQi3V8Cg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-14T17:58:00.0000000Z"
+            },
+            {
+                "name": "Ant and Dec accused of \u2018faking\u2019 major I\u2019m A Celebrity moment",
+                "url": "https://metro.co.uk/2023/12/14/ant-dec-accused-faking-major-im-a-celebrity-moment-19971867/?ico=read_full_story_videopage",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.s6dDx2SYxdVefKb-ATCImS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "They later changed their minds though, as, when asked about <b>Rishi Sunak</b> following in Matt Hancock and Nigel Farage\u2019s footsteps in the future, Dec said: \u2018I think we do a year without any politicians.\u2019 \u2018Agreed, agreed, agreed,\u2019 replied Ant.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d72e8f50-a890-6a17-39be-87dfbc30007c",
+                        "name": "Ant &amp; Dec"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2872a54f-b045-8fe3-d356-1aa538e14812",
+                        "name": "Metro International"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a6fa4b33-1e42-7d44-8ca7-17d7fc43c873",
+                        "name": "Celebrity"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Ant &amp; Dec"
+                    },
+                    {
+                        "name": "Metro International"
+                    },
+                    {
+                        "name": "Celebrity"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Metro"
+                    }
+                ],
+                "datePublished": "2023-12-14T15:16:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Rishi Sunak</b> rejects Israeli ambassador and confirms UK backs two-state solution in Gaza",
+                "url": "https://www.express.co.uk/news/politics/1845621/Rishi-Sunak-Israel-Gaza-two-state-solution",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.5HhEW9zzxAfQPylIjiUDji&pid=News",
+                        "width": 700,
+                        "height": 415
+                    }
+                },
+                "description": "Rishi Sunak has insisted Britain still backs a two-state solution in the Middle East after the Israeli ambassador dismissed the idea.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Daily Express"
+                    },
+                    {
+                        "name": "Israel"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-14T13:54:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "<b>Rishi Sunak</b> criticised for not appointing dedicated minister for disabled people \u2013 UK politics live",
+                "url": "https://www.theguardian.com/politics/live/2023/dec/14/rishi-sunak-tetchy-tories-tax-conservatives-scott-benton-uk-politics-live?page=with:block-657aedae8f08d04fc520452a&filterKeyEvents=false",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.sG9ScAdemIzcysxqzGiW6C&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "By submitting your message, you are agreeing to share your details with us, which we may use in this blog. <b>Rishi Sunak</b> talks with pupils on a visit to a school in north London. Photograph: Richard Pohle/AFP/Getty Images You must be 18 or over to fill in ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian"
+                    }
+                ],
+                "datePublished": "2023-12-14T09:20:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "David Cameron defends UK\u2019s decision not to vote for UN resolution demanding ceasefire in Gaza \u2013 as it happened",
+                "url": "https://www.theguardian.com/politics/live/2023/dec/14/rishi-sunak-tetchy-tories-tax-conservatives-scott-benton-uk-politics-live?filterKeyEvents=true&page=with:block-657b195e8f0822ad14b8f2af",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Ooilq33g3uwj3du5cjlyKC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Scott Benton MP is facing a 35-day suspension from parliament, leaving <b>Rishi Sunak</b> open to yet another difficult byelection. <b>Rishi Sunak</b> has said \u201cthere\u2019s nothing tetchy\u201d about him and dismissed dissent among his MPs to the Rwanda bill as \u201cdebating ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian"
+                    }
+                ],
+                "datePublished": "2023-12-14T09:20:00.0000000Z"
+            },
+            {
+                "name": "<b>Rishi Sunak</b> to speak at Giorgia Meloni event in Italy",
+                "url": "https://www.thetimes.co.uk/article/rishi-sunak-italy-rome-elon-musk-giorgia-meloni-5k37cs3lc",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT._ABYBFCXQEMYgGob1IimVy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Rishi Sunak will fly to Rome this weekend to address a political gathering hosted by the Italian prime minister Giorgia Meloni, joining a line-up of speakers who include Elon Musk and Santiago Abascal,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5c9bb82e-e08f-f5eb-9f29-f20e75e8eb8f",
+                        "name": "Giorgia Meloni"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/09e8f885-427b-8850-947d-202e0287b9e8",
+                        "name": "Italy"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-14T00:01:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Israeli ambassador\u2019s rejection of two-state solution disappointing, says Cameron",
+                "url": "https://www.huntspost.co.uk/news/national/23990705.israeli-ambassadors-rejection-two-state-solution-disappointing-says-cameron/",
+                "description": "We have to get on and think about how to help make this happen.\u201d <b>Rishi Sunak</b> has stressed the UK remains committed to a two-state solution in the Middle East, which it considers the \u201cright outcome\u201d to the war. He repeated his call for a ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/05973aa9-1608-8d06-96d6-e4ce0311b75a",
+                        "name": "David Cameron"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1ffafed3-2b37-b871-c271-aa855d98449a",
+                        "name": "Israel"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6f6e958c-0450-bd33-a8f7-65e832e71572",
+                        "name": "The Hunts"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Hunts Post"
+                    }
+                ],
+                "datePublished": "2023-12-14T00:01:00.0000000Z"
+            }
+        ]
+    }
+]

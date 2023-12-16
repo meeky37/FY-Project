@@ -34,7 +34,7 @@ def save_articles_to_files(self, search_results_list, search_term):
 
     processed_file.save()
 
-    print("Articles and search results saved to files in the media/api_articles folder.")
+    print("Articles and search results saved to files in the media/api_articles prince+harry.")
 
 
 class Command(BaseCommand):
@@ -50,5 +50,13 @@ class Command(BaseCommand):
         save_articles_to_files(articles, search_results_list, search_term)
 
         search_term = "uk politics"
+        articles, search_results_list = fetch_articles(search_term)
+        save_articles_to_files(articles, search_results_list, search_term)
+
+        search_term = "prince harry"
+        articles, search_results_list = fetch_articles(search_term)
+        save_articles_to_files(articles, search_results_list, search_term)
+
+        search_term = "meghan markle"
         articles, search_results_list = fetch_articles(search_term)
         save_articles_to_files(articles, search_results_list, search_term)
