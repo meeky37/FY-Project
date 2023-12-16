@@ -15,9 +15,15 @@
       </div>
     </div>
     <div class="sentiment-bar">
-      <div class="positive" :style="{ width: positiveWidth }">{{ positiveWidth }}</div>
-      <div class="neutral" :style="{ width: neutralWidth }">{{ neutralWidth }}</div>
-      <div class="negative" :style="{ width: negativeWidth }">{{ negativeWidth }}</div>
+        <div class="positive" :style="{ width: positiveWidth }">
+      <template v-if="isWidthSufficient(positiveWidth)">{{ positiveWidth }}</template>
+    </div>
+    <div class="neutral" :style="{ width: neutralWidth }">
+      <template v-if="isWidthSufficient(neutralWidth)">{{ neutralWidth }}</template>
+    </div>
+    <div class="negative" :style="{ width: negativeWidth }">
+      <template v-if="isWidthSufficient(negativeWidth)">{{ negativeWidth }}</template>
+    </div>
     </div>
   </div>
 </template>
@@ -32,6 +38,12 @@ export default {
   },
 
   methods: {
+    isWidthSufficient (width) {
+      const minWidthToShowText = 5
+      const numericWidth = parseFloat(width)
+      return !isNaN(numericWidth) && numericWidth >= minWidthToShowText
+    },
+
     getSubsection (url) {
       // Extract the subsection before the top-level domain
       const match = url.match(/^(https?:\/\/)?(?:www\.)?([^/]+)/)
