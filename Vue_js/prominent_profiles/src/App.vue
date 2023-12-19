@@ -2,8 +2,10 @@
   <div id="app">
     <header>
       <div class="logo-container">
+      <a href="/">
         <img src="@/assets/profiles rework left align.png" alt="Logo" class="logo" />
-      </div>
+      </a>
+    </div>
         <div class="centered-content">
         <EntitySelection/>
         </div>
@@ -30,7 +32,7 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  background-color: #f2f2f2;
+  background-color: white;
   min-height: 100vh;
 }
 
@@ -38,7 +40,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px;
+  padding: 5px;
   background:  #30d5c8;
 }
 

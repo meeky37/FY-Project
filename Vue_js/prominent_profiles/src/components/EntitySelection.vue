@@ -79,7 +79,14 @@ export default {
       }
     },
     selectRandomEntity () {
-      console.log('Write Random Logic')
+      if (this.entities.length > 0) {
+        // Generate a random index to pick entity
+        const randomIndex = Math.floor(Math.random() * this.entities.length)
+        this.selectedEntity = this.entities[randomIndex].id
+        this.redirectToEntityPage()
+      } else {
+        console.log('No entities available for random selection.')
+      }
     }
   }
 }
