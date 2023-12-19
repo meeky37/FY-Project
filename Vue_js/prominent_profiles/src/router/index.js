@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 /* import EntitySelection from '../components/EntitySelection.vue' */
 import EntityPage from '../views/EntityPage.vue'
+import HomePage from '../views/HomePage.vue'
 
 const routes = [
   {
@@ -11,7 +12,8 @@ const routes = [
   },
   {
     path: '/',
-    name: 'home'
+    name: 'home',
+    component: HomePage
   },
   {
     path: '/about',
