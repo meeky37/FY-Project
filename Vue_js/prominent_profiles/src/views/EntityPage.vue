@@ -148,7 +148,7 @@ export default {
 
 .content-container {
   display: flex;
-  align-items: center; /* Vertical centering */
+  align-items: center;
 }
 
 .entity-photo {
@@ -162,9 +162,9 @@ export default {
   border-radius: 8px;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin: 5px 30px 30px 30px;
+  margin: 5px 30px 0px 30px;
+  position: relative;
 }
-
 .description-box p {
   font-size: x-large;
   line-height: 1.6;
@@ -175,6 +175,9 @@ export default {
   font-size: xx-small;
   text-align: right;
   margin: 1px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 .source-popup {
@@ -208,5 +211,4 @@ export default {
 .attribution-link:hover {
   color: purple;
 }
-
 </style>

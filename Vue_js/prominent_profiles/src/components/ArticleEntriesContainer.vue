@@ -1,37 +1,43 @@
 <template>
   <div class="main-container">
     <div class="sentiment-columns-container">
-      <div class="entry-column">
+      <div class="entry-column-icon">
         <p class="column-heading">
   <font-awesome-icon :icon="['fas', 'circle-chevron-up']" class="positive" />
 </p>
       </div>
-      <div class="entry-column">
+      <div class="entry-column-icon">
        <p class="column-heading">
          <font-awesome-icon :icon="['fas', 'circle-minus']" class="neutral" />
 </p>
       </div>
-      <div class="entry-column">
+      <div class="entry-column-icon">
           <p class="column-heading">
   <font-awesome-icon :icon="['fas', 'circle-chevron-down']" class="negative" />
 </p>
       </div>
     </div>
- </div>
-  <div :key="$route.params.id" class="entries-container">
-    <div class="entry-column">
-<!--      <p class="column-heading">Positive</p>-->
-      <ArticleEntry v-for="entry in positiveEntries" :key="entry.id"  :entry="entry" />
+  </div>
+    <div :key="$route.params.id" class="entries-container">
+    <div class="entry-column-wrapper">
+      <div class="entry-column">
+        <!-- Positive Entries -->
+        <ArticleEntry v-for="entry in positiveEntries" :key="entry.id" :entry="entry" />
+      </div>
     </div>
 
-    <div class="entry-column">
-<!--      <p class="column-heading">Neutral</p>-->
-      <ArticleEntry v-for="entry in neutralEntries" :key="entry.id" :entry="entry" />
+    <div class="entry-column-wrapper">
+      <div class="entry-column">
+        <!-- Neutral Entries -->
+        <ArticleEntry v-for="entry in neutralEntries" :key="entry.id" :entry="entry" />
+      </div>
     </div>
 
-    <div class="entry-column">
-<!--      <p class="column-heading">Negative</p>-->
-      <ArticleEntry v-for="entry in negativeEntries" :key="entry.id" :entry="entry" />
+    <div class="entry-column-wrapper">
+      <div class="entry-column">
+        <!-- Negative Entries -->
+        <ArticleEntry v-for="entry in negativeEntries" :key="entry.id" :entry="entry" />
+      </div>
     </div>
   </div>
 </template>
@@ -119,12 +125,31 @@ export default {
 <style scoped>
 .entries-container {
   display: flex;
+  justify-content: center;
+}
+
+.entry-column-wrapper {
+  flex: 1;
+  max-width: calc(33.333% - 25px);
+  margin-right: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  background-color: white;
+    border-radius: 25px;
 }
 
 .entry-column {
+  height: 50vh;
+  overflow-y: scroll;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 25px;
+  margin-bottom: 1px;
+}
+
+.entry-column-icon {
   flex: 1;
   max-width: calc(33.333% - 25px);
-  max-height: 500px;
+  max-height: 50vh;
   overflow-y: auto;
   margin-right: 10px;
 }

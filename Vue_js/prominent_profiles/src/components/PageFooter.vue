@@ -19,7 +19,7 @@ footer {
   text-align: center;
   padding: 5px;
   background-color: #f1f1f1;
-  position: relative;
+  position: fixed;
   bottom: 0;
   width: 100%;
   margin-top:10px;

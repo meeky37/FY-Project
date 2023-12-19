@@ -72,7 +72,12 @@ export default {
 .article-entry {
   border: 1px solid #ccc;
   padding: 10px;
-  margin-bottom: 10px;
+  margin-top: 0px;
+  margin-left: 15px;
+  margin-right: 5px;
+  border-radius: 25px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* margin-bottom: 10px;*/
   border-radius: 5px;
 }
 

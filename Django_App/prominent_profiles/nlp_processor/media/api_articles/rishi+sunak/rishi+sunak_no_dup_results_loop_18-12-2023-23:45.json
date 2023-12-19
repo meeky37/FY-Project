@@ -1,0 +1,1555 @@
+[
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak",
+        "queryContext": {
+            "originalQuery": "rishi sunak",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 5,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "UK to be part of international coalition to protect Red Sea ships from attack",
+                "url": "https://www.kentonline.co.uk/news/national/uk-to-be-part-of-international-coalition-to-protect-red-sea-ships-from-attack-106284/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.pT9A9YMibWg0w54FovqpSS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "It comes after oil giant BP paused tanker journeys over safety concerns after Iranian-backed Houthi militants in Yemen stepped up attacks on vessels.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/47116f57-2cb0-bd80-4390-f7564b266027",
+                        "name": "Red Sea"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Kent Online",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.hWRC_m6PUwfTBWwiGneX8Q&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-18T23:22:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Man charged with murder after woman&#39;s body found in home as police link Middlesbrough incidents",
+                "url": "https://www.gazettelive.co.uk/news/teesside-news/man-charged-murder-after-womans-28314033",
+                "description": "Detectives investigating an alleged attempted murder of a man in Laycock Street, Middlesbrough, on Friday are now linking the incident with the tragic discovery of a woman&#39;s body at an address in Grimwood Avenue, Brambles Farm, Middlesbrough. The lady has now been formally identified as 50-year-old Glenna Siviter.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/42049c6a-4431-788c-9dfe-02c553c6c825",
+                        "name": "University of Teesside"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e5d96f7a-2cc9-a1ef-aa82-d30f94ff6898",
+                        "name": "Murder"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "University of Teesside"
+                    },
+                    {
+                        "name": "Murder"
+                    },
+                    {
+                        "name": "Middlesbrough"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Teesside Gazette",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.idVXuSxYqWlCfll3AXTbFg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-18T23:19:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Middlesbrough mayor hits back at <b>Rishi Sunak</b>&#39;s &#39;mismanagement&#39; claim",
+                "url": "https://www.bbc.co.uk/news/uk-england-tees-67752463?at_medium=RSS&at_campaign=KARANGA",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.s0EHx6PvroplfwxrjPygGy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Middlesbrough&#39;s mayor has hit back at comments by the prime minister accusing the council of mismanaging finances. Discussing difficulties faced by various councils, Rishi Sunak said blame for Middlesbrough&#39;s monetary woes rested with its Labour-run council.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8b36aad5-43a9-73f0-207c-ad3765927011",
+                        "name": "Middlesbrough"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-18T18:26:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Rishi Sunak</b> visits Scotland as UK Government faces Michelle Mone scandal",
+                "url": "https://uk.news.yahoo.com/rishi-sunak-visits-scotland-uk-094033128.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.g9z3DgUM04CNmdhFl3zsSi&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "RISHI Sunak is visiting Scotland amid an ongoing scandal over Covid contracts awarded to a firm recommended by Michelle Mone",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/20f5d02f-7b33-0d30-b90d-2c0c7bf5858e",
+                        "name": "Michelle Mone"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-18T04:41:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Rishi Sunak</b> to thank military personnel for service over the festive season",
+                "url": "https://www.echo-news.co.uk/news/national/23995855.rishi-sunak-thank-military-personnel-service-festive-season/",
+                "description": "Mr Sunak will also host a video call with members of the armed forces who are abroad over Christmas. He is expected to wish them a happy Christmas and tell them their commitment will be at the front and centre of his mind during the festive season.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5f92803f-2f31-dc34-879b-a64ed9e930cc",
+                        "name": "Military personnel"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Echo news",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.MGAy9cJrHvkmXQ8XeI0Cbg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-18T00:08:00.0000000Z",
+                "category": "UK"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak",
+        "queryContext": {
+            "originalQuery": "rishi sunak",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 109,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Man charged with murder after woman&#39;s body found in home as police link Middlesbrough incidents",
+                "url": "https://www.gazettelive.co.uk/news/teesside-news/man-charged-murder-after-womans-28314033",
+                "description": "Detectives investigating an alleged attempted murder of a man in Laycock Street, Middlesbrough, on Friday are now linking the incident with the tragic discovery of a woman&#39;s body at an address in Grimwood Avenue, Brambles Farm, Middlesbrough. The lady has now been formally identified as 50-year-old Glenna Siviter.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/42049c6a-4431-788c-9dfe-02c553c6c825",
+                        "name": "University of Teesside"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e5d96f7a-2cc9-a1ef-aa82-d30f94ff6898",
+                        "name": "Murder"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "University of Teesside"
+                    },
+                    {
+                        "name": "Murder"
+                    },
+                    {
+                        "name": "Middlesbrough"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Teesside Gazette",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.idVXuSxYqWlCfll3AXTbFg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-18T23:19:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "UK to be part of international coalition to protect Red Sea ships from attack",
+                "url": "https://www.standard.co.uk/news/politics/red-sea-middle-east-hamas-iranian-yemen-b1127804.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.fYjf_KFDVj7_cnV4wT_iGC&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "It comes after oil giant BP paused tanker journeys over safety concerns after Iranian-backed Houthi militants in Yemen stepped up attacks on vessels.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/47116f57-2cb0-bd80-4390-f7564b266027",
+                        "name": "Red Sea"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Red Sea"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Coalition"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-18T23:11:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "How will Scotland plug its \u00a31.5bn budget shortfall?",
+                "url": "https://www.bbc.com/news/uk-scotland-scotland-politics-67750367",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.opaNNANb5LgrjuiDptVqvS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Finance secretary Shona Robison must explain how she will fill an estimated \u00a31.5bn hole in Scotland&#39;s books when she delivers her \u00a360bn budget later. Options on the table include tax rises for higher earners, spending cuts for government departments, and public sector job losses.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Scotland"
+                    },
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Audit Scotland"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k3N4DqozNjgK376rAnFmsA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-18T22:56:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Volcano erupts in Iceland after thousands evacuated from village",
+                "url": "https://www.iwradio.co.uk/news/sky-news/volcano-erupts-in-iceland-after-thousands-evacuated-from-village/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.2bQbSNhiViDJjJx9anMNPS&pid=News",
+                        "width": 640,
+                        "height": 380
+                    }
+                },
+                "description": "A volcano has erupted in Iceland after weeks of intense earthquake activity. An evacuation had already taken place in recent days, moving nearly 4,000 people out of the fishing town of Grindavik in the country&#39;s southwest. The nearby Blue Lagoon geothermal spa had also been closed as a precaution.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e1ba31bc-7b8e-2e19-cd94-e86fc0852594",
+                        "name": "Iceland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d4a11c8a-0084-4c16-a3ba-1d02787f01ea",
+                        "name": "Volcano"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Isle Of Wight Radio",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.a7uxf82O3Umn0q30N0l0jQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-18T22:52:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "<b>Sunak</b> calls on Scottish Government to explain \u2018different approach\u2019 to tax",
+                "url": "https://www.kentonline.co.uk/news/national/sunak-calls-on-scottish-government-to-explain-different-approach-to-tax-106281/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.7Eytca-t0GnshFaUF3gnrS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The Prime Minister challenged the Scottish Government ahead of Tuesday\u2019s budget, which is expected to include tax rises for higher earners.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Kent Online",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.hWRC_m6PUwfTBWwiGneX8Q&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-18T22:32:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Middlesbrough mayor hits back at <b>Rishi Sunak</b>&#39;s &#39;mismanagement&#39; claim",
+                "url": "https://www.bbc.co.uk/news/uk-england-tees-67752463?at_medium=RSS&at_campaign=KARANGA",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.s0EHx6PvroplfwxrjPygGy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Middlesbrough&#39;s mayor has hit back at comments by the prime minister accusing the council of mismanaging finances. Discussing difficulties faced by various councils, Rishi Sunak said blame for Middlesbrough&#39;s monetary woes rested with its Labour-run council.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8b36aad5-43a9-73f0-207c-ad3765927011",
+                        "name": "Middlesbrough"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-18T18:26:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Rishi Sunak</b> visits Scotland as UK Government faces Michelle Mone scandal",
+                "url": "https://uk.news.yahoo.com/rishi-sunak-visits-scotland-uk-094033128.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.g9z3DgUM04CNmdhFl3zsSi&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "RISHI Sunak is visiting Scotland amid an ongoing scandal over Covid contracts awarded to a firm recommended by Michelle Mone",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/20f5d02f-7b33-0d30-b90d-2c0c7bf5858e",
+                        "name": "Michelle Mone"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-18T04:41:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Rishi Sunak</b> to thank military personnel for service over the festive season",
+                "url": "https://www.expressandstar.com/news/uk-news/2023/12/18/rishi-sunak-to-thank-military-personnel-for-service-over-the-festive-season/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.hIwxZWYTlAKrrm7OMzqVMS&pid=News",
+                        "width": 700,
+                        "height": 525
+                    }
+                },
+                "description": "Mr Sunak will also host a video call with members of the armed forces who are abroad over Christmas. He is expected to wish them a happy Christmas and tell them their commitment will be at the front and centre of his mind during the festive season.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5f92803f-2f31-dc34-879b-a64ed9e930cc",
+                        "name": "Military personnel"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Express &amp; Star",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mlsgqRbVCSL6esnw8ifS8A&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-18T00:06:00.0000000Z"
+            },
+            {
+                "name": "Tories will not be wiped out in Scotland, says <b>Sunak</b>",
+                "url": "https://www.independent.co.uk/news/uk/rishi-sunak-scotland-scottish-tories-scottish-labour-douglas-ross-b2466247.html",
+                "description": "We remain very confident about both what we&#39;re accomplishing and delivering in Scotland and the response that we&#39;re getting from people on the ground Prime Minister <b>Rishi Sunak</b> Speaking to journalists during a visit to RAF Lossiemouth in Moray, the Prime ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "Scotland"
+                    },
+                    {
+                        "name": "Labour"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent"
+                    }
+                ],
+                "datePublished": "2023-12-18T00:00:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak",
+        "queryContext": {
+            "originalQuery": "rishi sunak",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 209,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Man charged with murder after woman&#39;s body found in home as police link Middlesbrough incidents",
+                "url": "https://www.gazettelive.co.uk/news/teesside-news/man-charged-murder-after-womans-28314033",
+                "description": "Detectives investigating an alleged attempted murder of a man in Laycock Street, Middlesbrough, on Friday are now linking the incident with the tragic discovery of a woman&#39;s body at an address in Grimwood Avenue, Brambles Farm, Middlesbrough. The lady has now been formally identified as 50-year-old Glenna Siviter.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/42049c6a-4431-788c-9dfe-02c553c6c825",
+                        "name": "University of Teesside"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e5d96f7a-2cc9-a1ef-aa82-d30f94ff6898",
+                        "name": "Murder"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "University of Teesside"
+                    },
+                    {
+                        "name": "Murder"
+                    },
+                    {
+                        "name": "Middlesbrough"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Teesside Gazette",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.idVXuSxYqWlCfll3AXTbFg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-18T23:19:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "UK to be part of international coalition to protect Red Sea ships from attack",
+                "url": "https://www.standard.co.uk/news/politics/red-sea-middle-east-hamas-iranian-yemen-b1127804.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.fYjf_KFDVj7_cnV4wT_iGC&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "It comes after oil giant BP paused tanker journeys over safety concerns after Iranian-backed Houthi militants in Yemen stepped up attacks on vessels.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/47116f57-2cb0-bd80-4390-f7564b266027",
+                        "name": "Red Sea"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Red Sea"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Coalition"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-18T23:11:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "How will Scotland plug its \u00a31.5bn budget shortfall?",
+                "url": "https://www.bbc.com/news/uk-scotland-scotland-politics-67750367",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.opaNNANb5LgrjuiDptVqvS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Finance secretary Shona Robison must explain how she will fill an estimated \u00a31.5bn hole in Scotland&#39;s books when she delivers her \u00a360bn budget later. Options on the table include tax rises for higher earners, spending cuts for government departments, and public sector job losses.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Scotland"
+                    },
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Audit Scotland"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k3N4DqozNjgK376rAnFmsA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-18T22:56:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Volcano erupts in Iceland after thousands evacuated from village",
+                "url": "https://www.iwradio.co.uk/news/sky-news/volcano-erupts-in-iceland-after-thousands-evacuated-from-village/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.2bQbSNhiViDJjJx9anMNPS&pid=News",
+                        "width": 640,
+                        "height": 380
+                    }
+                },
+                "description": "A volcano has erupted in Iceland after weeks of intense earthquake activity. An evacuation had already taken place in recent days, moving nearly 4,000 people out of the fishing town of Grindavik in the country&#39;s southwest. The nearby Blue Lagoon geothermal spa had also been closed as a precaution.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e1ba31bc-7b8e-2e19-cd94-e86fc0852594",
+                        "name": "Iceland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d4a11c8a-0084-4c16-a3ba-1d02787f01ea",
+                        "name": "Volcano"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Isle Of Wight Radio",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.a7uxf82O3Umn0q30N0l0jQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-18T22:52:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "<b>Sunak</b> calls on Scottish Government to explain \u2018different approach\u2019 to tax",
+                "url": "https://www.kentonline.co.uk/news/national/sunak-calls-on-scottish-government-to-explain-different-approach-to-tax-106281/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.7Eytca-t0GnshFaUF3gnrS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The Prime Minister challenged the Scottish Government ahead of Tuesday\u2019s budget, which is expected to include tax rises for higher earners.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Kent Online",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.hWRC_m6PUwfTBWwiGneX8Q&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-18T22:32:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Middlesbrough mayor hits back at <b>Rishi Sunak</b>&#39;s &#39;mismanagement&#39; claim",
+                "url": "https://www.bbc.co.uk/news/uk-england-tees-67752463?at_medium=RSS&at_campaign=KARANGA",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.s0EHx6PvroplfwxrjPygGy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Middlesbrough&#39;s mayor has hit back at comments by the prime minister accusing the council of mismanaging finances. Discussing difficulties faced by various councils, Rishi Sunak said blame for Middlesbrough&#39;s monetary woes rested with its Labour-run council.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8b36aad5-43a9-73f0-207c-ad3765927011",
+                        "name": "Middlesbrough"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-18T18:26:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Rishi Sunak</b> visits Scotland as UK Government faces Michelle Mone scandal",
+                "url": "https://uk.news.yahoo.com/rishi-sunak-visits-scotland-uk-094033128.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.g9z3DgUM04CNmdhFl3zsSi&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "RISHI Sunak is visiting Scotland amid an ongoing scandal over Covid contracts awarded to a firm recommended by Michelle Mone",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/20f5d02f-7b33-0d30-b90d-2c0c7bf5858e",
+                        "name": "Michelle Mone"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-18T04:41:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Rishi Sunak</b> to thank military personnel for service over the festive season",
+                "url": "https://www.expressandstar.com/news/uk-news/2023/12/18/rishi-sunak-to-thank-military-personnel-for-service-over-the-festive-season/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.hIwxZWYTlAKrrm7OMzqVMS&pid=News",
+                        "width": 700,
+                        "height": 525
+                    }
+                },
+                "description": "Mr Sunak will also host a video call with members of the armed forces who are abroad over Christmas. He is expected to wish them a happy Christmas and tell them their commitment will be at the front and centre of his mind during the festive season.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5f92803f-2f31-dc34-879b-a64ed9e930cc",
+                        "name": "Military personnel"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Express &amp; Star",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mlsgqRbVCSL6esnw8ifS8A&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-18T00:06:00.0000000Z"
+            },
+            {
+                "name": "Tories will not be wiped out in Scotland, says <b>Sunak</b>",
+                "url": "https://www.independent.co.uk/news/uk/rishi-sunak-scotland-scottish-tories-scottish-labour-douglas-ross-b2466247.html",
+                "description": "We remain very confident about both what we&#39;re accomplishing and delivering in Scotland and the response that we&#39;re getting from people on the ground Prime Minister <b>Rishi Sunak</b> Speaking to journalists during a visit to RAF Lossiemouth in Moray, the Prime ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "Scotland"
+                    },
+                    {
+                        "name": "Labour"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent"
+                    }
+                ],
+                "datePublished": "2023-12-18T00:00:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak",
+        "queryContext": {
+            "originalQuery": "rishi sunak",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 309,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Man charged with murder after woman&#39;s body found in home as police link Middlesbrough incidents",
+                "url": "https://www.gazettelive.co.uk/news/teesside-news/man-charged-murder-after-womans-28314033",
+                "description": "Detectives investigating an alleged attempted murder of a man in Laycock Street, Middlesbrough, on Friday are now linking the incident with the tragic discovery of a woman&#39;s body at an address in Grimwood Avenue, Brambles Farm, Middlesbrough. The lady has now been formally identified as 50-year-old Glenna Siviter.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/42049c6a-4431-788c-9dfe-02c553c6c825",
+                        "name": "University of Teesside"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e5d96f7a-2cc9-a1ef-aa82-d30f94ff6898",
+                        "name": "Murder"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "University of Teesside"
+                    },
+                    {
+                        "name": "Murder"
+                    },
+                    {
+                        "name": "Middlesbrough"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Teesside Gazette",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.idVXuSxYqWlCfll3AXTbFg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-18T23:19:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "UK to be part of international coalition to protect Red Sea ships from attack",
+                "url": "https://www.standard.co.uk/news/politics/red-sea-middle-east-hamas-iranian-yemen-b1127804.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.fYjf_KFDVj7_cnV4wT_iGC&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "It comes after oil giant BP paused tanker journeys over safety concerns after Iranian-backed Houthi militants in Yemen stepped up attacks on vessels.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/47116f57-2cb0-bd80-4390-f7564b266027",
+                        "name": "Red Sea"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Red Sea"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Coalition"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-18T23:11:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "How will Scotland plug its \u00a31.5bn budget shortfall?",
+                "url": "https://www.bbc.com/news/uk-scotland-scotland-politics-67750367",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.opaNNANb5LgrjuiDptVqvS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Finance secretary Shona Robison must explain how she will fill an estimated \u00a31.5bn hole in Scotland&#39;s books when she delivers her \u00a360bn budget later. Options on the table include tax rises for higher earners, spending cuts for government departments, and public sector job losses.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Scotland"
+                    },
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Audit Scotland"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k3N4DqozNjgK376rAnFmsA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-18T22:56:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Volcano erupts in Iceland after thousands evacuated from village",
+                "url": "https://www.iwradio.co.uk/news/sky-news/volcano-erupts-in-iceland-after-thousands-evacuated-from-village/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.2bQbSNhiViDJjJx9anMNPS&pid=News",
+                        "width": 640,
+                        "height": 380
+                    }
+                },
+                "description": "A volcano has erupted in Iceland after weeks of intense earthquake activity. An evacuation had already taken place in recent days, moving nearly 4,000 people out of the fishing town of Grindavik in the country&#39;s southwest. The nearby Blue Lagoon geothermal spa had also been closed as a precaution.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e1ba31bc-7b8e-2e19-cd94-e86fc0852594",
+                        "name": "Iceland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d4a11c8a-0084-4c16-a3ba-1d02787f01ea",
+                        "name": "Volcano"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Isle Of Wight Radio",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.a7uxf82O3Umn0q30N0l0jQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-18T22:52:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "<b>Sunak</b> calls on Scottish Government to explain \u2018different approach\u2019 to tax",
+                "url": "https://www.kentonline.co.uk/news/national/sunak-calls-on-scottish-government-to-explain-different-approach-to-tax-106281/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.7Eytca-t0GnshFaUF3gnrS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The Prime Minister challenged the Scottish Government ahead of Tuesday\u2019s budget, which is expected to include tax rises for higher earners.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Kent Online",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.hWRC_m6PUwfTBWwiGneX8Q&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-18T22:32:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Middlesbrough mayor hits back at <b>Rishi Sunak</b>&#39;s &#39;mismanagement&#39; claim",
+                "url": "https://www.bbc.co.uk/news/uk-england-tees-67752463?at_medium=RSS&at_campaign=KARANGA",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.s0EHx6PvroplfwxrjPygGy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Middlesbrough&#39;s mayor has hit back at comments by the prime minister accusing the council of mismanaging finances. Discussing difficulties faced by various councils, Rishi Sunak said blame for Middlesbrough&#39;s monetary woes rested with its Labour-run council.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8b36aad5-43a9-73f0-207c-ad3765927011",
+                        "name": "Middlesbrough"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-18T18:26:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Rishi Sunak</b> visits Scotland as UK Government faces Michelle Mone scandal",
+                "url": "https://uk.news.yahoo.com/rishi-sunak-visits-scotland-uk-094033128.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.g9z3DgUM04CNmdhFl3zsSi&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "RISHI Sunak is visiting Scotland amid an ongoing scandal over Covid contracts awarded to a firm recommended by Michelle Mone",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/20f5d02f-7b33-0d30-b90d-2c0c7bf5858e",
+                        "name": "Michelle Mone"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-18T04:41:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Rishi Sunak</b> to thank military personnel for service over the festive season",
+                "url": "https://www.expressandstar.com/news/uk-news/2023/12/18/rishi-sunak-to-thank-military-personnel-for-service-over-the-festive-season/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.hIwxZWYTlAKrrm7OMzqVMS&pid=News",
+                        "width": 700,
+                        "height": 525
+                    }
+                },
+                "description": "Mr Sunak will also host a video call with members of the armed forces who are abroad over Christmas. He is expected to wish them a happy Christmas and tell them their commitment will be at the front and centre of his mind during the festive season.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5f92803f-2f31-dc34-879b-a64ed9e930cc",
+                        "name": "Military personnel"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Express &amp; Star",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mlsgqRbVCSL6esnw8ifS8A&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-18T00:06:00.0000000Z"
+            },
+            {
+                "name": "Tories will not be wiped out in Scotland, says <b>Sunak</b>",
+                "url": "https://www.independent.co.uk/news/uk/rishi-sunak-scotland-scottish-tories-scottish-labour-douglas-ross-b2466247.html",
+                "description": "We remain very confident about both what we&#39;re accomplishing and delivering in Scotland and the response that we&#39;re getting from people on the ground Prime Minister <b>Rishi Sunak</b> Speaking to journalists during a visit to RAF Lossiemouth in Moray, the Prime ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "Scotland"
+                    },
+                    {
+                        "name": "Labour"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent"
+                    }
+                ],
+                "datePublished": "2023-12-18T00:00:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak",
+        "queryContext": {
+            "originalQuery": "rishi sunak",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 409,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Man charged with murder after woman&#39;s body found in home as police link Middlesbrough incidents",
+                "url": "https://www.gazettelive.co.uk/news/teesside-news/man-charged-murder-after-womans-28314033",
+                "description": "Detectives investigating an alleged attempted murder of a man in Laycock Street, Middlesbrough, on Friday are now linking the incident with the tragic discovery of a woman&#39;s body at an address in Grimwood Avenue, Brambles Farm, Middlesbrough. The lady has now been formally identified as 50-year-old Glenna Siviter.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/42049c6a-4431-788c-9dfe-02c553c6c825",
+                        "name": "University of Teesside"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e5d96f7a-2cc9-a1ef-aa82-d30f94ff6898",
+                        "name": "Murder"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "University of Teesside"
+                    },
+                    {
+                        "name": "Murder"
+                    },
+                    {
+                        "name": "Middlesbrough"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Teesside Gazette",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.idVXuSxYqWlCfll3AXTbFg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-18T23:19:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "UK to be part of international coalition to protect Red Sea ships from attack",
+                "url": "https://www.standard.co.uk/news/politics/red-sea-middle-east-hamas-iranian-yemen-b1127804.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.fYjf_KFDVj7_cnV4wT_iGC&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "It comes after oil giant BP paused tanker journeys over safety concerns after Iranian-backed Houthi militants in Yemen stepped up attacks on vessels.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/47116f57-2cb0-bd80-4390-f7564b266027",
+                        "name": "Red Sea"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Red Sea"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Coalition"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-18T23:11:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "How will Scotland plug its \u00a31.5bn budget shortfall?",
+                "url": "https://www.bbc.com/news/uk-scotland-scotland-politics-67750367",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.opaNNANb5LgrjuiDptVqvS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Finance secretary Shona Robison must explain how she will fill an estimated \u00a31.5bn hole in Scotland&#39;s books when she delivers her \u00a360bn budget later. Options on the table include tax rises for higher earners, spending cuts for government departments, and public sector job losses.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Scotland"
+                    },
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Audit Scotland"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k3N4DqozNjgK376rAnFmsA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-18T22:56:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Volcano erupts in Iceland after thousands evacuated from village",
+                "url": "https://www.iwradio.co.uk/news/sky-news/volcano-erupts-in-iceland-after-thousands-evacuated-from-village/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.2bQbSNhiViDJjJx9anMNPS&pid=News",
+                        "width": 640,
+                        "height": 380
+                    }
+                },
+                "description": "A volcano has erupted in Iceland after weeks of intense earthquake activity. An evacuation had already taken place in recent days, moving nearly 4,000 people out of the fishing town of Grindavik in the country&#39;s southwest. The nearby Blue Lagoon geothermal spa had also been closed as a precaution.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e1ba31bc-7b8e-2e19-cd94-e86fc0852594",
+                        "name": "Iceland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d4a11c8a-0084-4c16-a3ba-1d02787f01ea",
+                        "name": "Volcano"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Isle Of Wight Radio",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.a7uxf82O3Umn0q30N0l0jQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-18T22:52:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "<b>Sunak</b> calls on Scottish Government to explain \u2018different approach\u2019 to tax",
+                "url": "https://www.kentonline.co.uk/news/national/sunak-calls-on-scottish-government-to-explain-different-approach-to-tax-106281/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.7Eytca-t0GnshFaUF3gnrS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The Prime Minister challenged the Scottish Government ahead of Tuesday\u2019s budget, which is expected to include tax rises for higher earners.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Kent Online",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.hWRC_m6PUwfTBWwiGneX8Q&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-18T22:32:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Middlesbrough mayor hits back at <b>Rishi Sunak</b>&#39;s &#39;mismanagement&#39; claim",
+                "url": "https://www.bbc.co.uk/news/uk-england-tees-67752463?at_medium=RSS&at_campaign=KARANGA",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.s0EHx6PvroplfwxrjPygGy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Middlesbrough&#39;s mayor has hit back at comments by the prime minister accusing the council of mismanaging finances. Discussing difficulties faced by various councils, Rishi Sunak said blame for Middlesbrough&#39;s monetary woes rested with its Labour-run council.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8b36aad5-43a9-73f0-207c-ad3765927011",
+                        "name": "Middlesbrough"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-18T18:26:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Rishi Sunak</b> visits Scotland as UK Government faces Michelle Mone scandal",
+                "url": "https://uk.news.yahoo.com/rishi-sunak-visits-scotland-uk-094033128.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.g9z3DgUM04CNmdhFl3zsSi&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "RISHI Sunak is visiting Scotland amid an ongoing scandal over Covid contracts awarded to a firm recommended by Michelle Mone",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/20f5d02f-7b33-0d30-b90d-2c0c7bf5858e",
+                        "name": "Michelle Mone"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-18T04:41:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Rishi Sunak</b> to thank military personnel for service over the festive season",
+                "url": "https://www.expressandstar.com/news/uk-news/2023/12/18/rishi-sunak-to-thank-military-personnel-for-service-over-the-festive-season/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.hIwxZWYTlAKrrm7OMzqVMS&pid=News",
+                        "width": 700,
+                        "height": 525
+                    }
+                },
+                "description": "Mr Sunak will also host a video call with members of the armed forces who are abroad over Christmas. He is expected to wish them a happy Christmas and tell them their commitment will be at the front and centre of his mind during the festive season.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5f92803f-2f31-dc34-879b-a64ed9e930cc",
+                        "name": "Military personnel"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Express &amp; Star",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mlsgqRbVCSL6esnw8ifS8A&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-18T00:06:00.0000000Z"
+            },
+            {
+                "name": "Tories will not be wiped out in Scotland, says <b>Sunak</b>",
+                "url": "https://www.independent.co.uk/news/uk/rishi-sunak-scotland-scottish-tories-scottish-labour-douglas-ross-b2466247.html",
+                "description": "We remain very confident about both what we&#39;re accomplishing and delivering in Scotland and the response that we&#39;re getting from people on the ground Prime Minister <b>Rishi Sunak</b> Speaking to journalists during a visit to RAF Lossiemouth in Moray, the Prime ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "Scotland"
+                    },
+                    {
+                        "name": "Labour"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent"
+                    }
+                ],
+                "datePublished": "2023-12-18T00:00:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    }
+]
