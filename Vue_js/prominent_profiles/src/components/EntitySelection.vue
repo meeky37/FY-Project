@@ -32,7 +32,7 @@ export default {
   data () {
     return {
       entities: [],
-      selectedEntity: null
+      selectedEntity: ''
     }
   },
 
@@ -115,7 +115,10 @@ export default {
   font-size: large;
   height: 40px;
   margin-right: 10px;
+  margin-left: 30px;
   text-align: left;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .button-container {
@@ -134,6 +137,6 @@ export default {
 
 .button-container:hover {
    outline: 2px solid #fff;
-    outline-offset: 15px;
+    outline-offset: 10px;
 }
 </style>

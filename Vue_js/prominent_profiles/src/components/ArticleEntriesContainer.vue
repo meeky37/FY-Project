@@ -1,42 +1,46 @@
 <template>
   <div class="main-container">
     <div class="sentiment-columns-container">
-      <div class="entry-column-icon">
-        <p class="column-heading">
-  <font-awesome-icon :icon="['fas', 'circle-chevron-up']" class="positive" />
-</p>
-      </div>
-      <div class="entry-column-icon">
-       <p class="column-heading">
-         <font-awesome-icon :icon="['fas', 'circle-minus']" class="neutral" />
-</p>
-      </div>
-      <div class="entry-column-icon">
+      <div class="column-container">
+        <div class="entry-column-icon">
           <p class="column-heading">
-  <font-awesome-icon :icon="['fas', 'circle-chevron-down']" class="negative" />
-</p>
+            <font-awesome-icon :icon="['fas', 'circle-chevron-up']" class="positive" />
+          </p>
+        </div>
+        <div class="entry-column-wrapper">
+          <div class="entry-column">
+            <!-- Positive Entries -->
+            <ArticleEntry v-for="entry in positiveEntries" :key="entry.id" :entry="entry" />
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-    <div :key="$route.params.id" class="entries-container">
-    <div class="entry-column-wrapper">
-      <div class="entry-column">
-        <!-- Positive Entries -->
-        <ArticleEntry v-for="entry in positiveEntries" :key="entry.id" :entry="entry" />
-      </div>
-    </div>
 
-    <div class="entry-column-wrapper">
-      <div class="entry-column">
-        <!-- Neutral Entries -->
-        <ArticleEntry v-for="entry in neutralEntries" :key="entry.id" :entry="entry" />
+      <div class="column-container">
+        <div class="entry-column-icon">
+          <p class="column-heading">
+            <font-awesome-icon :icon="['fas', 'circle-minus']" class="neutral" />
+          </p>
+        </div>
+        <div class="entry-column-wrapper">
+          <div class="entry-column">
+            <!-- Neutral Entries -->
+            <ArticleEntry v-for="entry in neutralEntries" :key="entry.id" :entry="entry" />
+          </div>
+        </div>
       </div>
-    </div>
 
-    <div class="entry-column-wrapper">
-      <div class="entry-column">
-        <!-- Negative Entries -->
-        <ArticleEntry v-for="entry in negativeEntries" :key="entry.id" :entry="entry" />
+      <div class="column-container">
+        <div class="entry-column-icon">
+          <p class="column-heading">
+            <font-awesome-icon :icon="['fas', 'circle-chevron-down']" class="negative" />
+          </p>
+        </div>
+        <div class="entry-column-wrapper">
+          <div class="entry-column">
+            <!-- Negative Entries -->
+            <ArticleEntry v-for="entry in negativeEntries" :key="entry.id" :entry="entry" />
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -121,48 +125,64 @@ export default {
 }
 
 </script>
-
 <style scoped>
 .entries-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
 .entry-column-wrapper {
-  flex: 1;
-  max-width: calc(33.333% - 25px);
+  flex: 1 0 calc(33.333% - 25px);
+  min-width: 200px;
   margin-right: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   background-color: white;
-    border-radius: 25px;
+  border-radius: 25px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
 }
 
 .entry-column {
   height: 45vh;
   overflow-y: scroll;
+  overflow-x: hidden;
   margin-left: 10px;
   margin-top: 10px;
   margin-right: 25px;
   margin-bottom: 1px;
+  flex-wrap: wrap;
 }
 
 .entry-column-icon {
-  flex: 1;
-  max-width: calc(33.333% - 25px);
+  flex: 1 0 calc(33.333% - 25px);
   max-height: 50vh;
   overflow-y: auto;
   margin-left: 10px;
   margin-right: 25px;
   margin-bottom: 1px;
+  flex-wrap: wrap;
 }
 
 .main-container {
   display: flex;
-  flex-direction: column; /* Align columns vertically */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .sentiment-columns-container {
   display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.column-container{
+  width: calc(33.333% - 25px);
+  flex-wrap: wrap;
+  max-width: 750px;
 }
 
 .column-heading {
@@ -171,6 +191,7 @@ export default {
   position: sticky;
   margin-top: 10px;
   margin-bottom: 10px;
+  flex-wrap: wrap;
 }
 
 .positive {
@@ -179,13 +200,22 @@ export default {
 }
 
 .neutral {
-  color:  deepskyblue;
+  color: deepskyblue;
   font-size: 2em;
 }
 
 .negative {
-  color:  indianred;
+  color: indianred;
   font-size: 2em;
 }
 
+@media screen and (max-width: 1500px) {
+  .sentiment-columns-container {
+    display: block; /* Changing to a different layout for small screens/mobile? */
+  }
+
+  .column-container {
+    width: 100%; /* Occupying full width on smaller screens */
+  }
+}
 </style>

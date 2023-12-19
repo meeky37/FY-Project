@@ -3,7 +3,7 @@
     <div class="entry-content">
       <img v-if="entry.image_url" :src="entry.image_url" alt="Article Image" class="article-image" />
       <div>
-        <h3 v-html="entry.headline"></h3>
+        <h3 v-html="entry.headline" class="headline"></h3>
        <div v-if="entry.url" class="url-container">
           <div class="url-subsection">
             {{ getSubsection(entry.url) }}
@@ -11,6 +11,9 @@
           <a :href="entry.url" target="_blank" rel="noopener noreferrer" class="external-link">
             <font-awesome-icon :icon="['fas', 'external-link-alt']" />
           </a>
+          <div class="button-container" @click="viewArticleDetail">
+          <font-awesome-icon :icon="['fas', 'magnifying-glass-chart']"/>
+          </div>
         </div>
       </div>
     </div>
@@ -39,7 +42,7 @@ export default {
 
   methods: {
     isWidthSufficient (width) {
-      const minWidthToShowText = 5
+      const minWidthToShowText = 15
       const numericWidth = parseFloat(width)
       return !isNaN(numericWidth) && numericWidth >= minWidthToShowText
     },
@@ -47,8 +50,18 @@ export default {
     getSubsection (url) {
       // Extract the subsection before the top-level domain
       const match = url.match(/^(https?:\/\/)?(?:www\.)?([^/]+)/)
-      return match ? match[2] : ''
+      const subsection = match ? match[2] : ''
+      const maxChars = 15
+      return subsection.length > maxChars ? subsection.substring(0, maxChars) + '...' : subsection
+    },
+
+    viewArticleDetail () {
+      const articleId = this.entry.id
+      console.log(this.entry)
+      const entityId = this.$route.params.id
+      this.$router.push({ name: 'entryId', params: { entityId, articleId } })
     }
+
   },
   computed: {
     positiveWidth () {
@@ -82,20 +95,43 @@ export default {
 }
 
 .entry-content {
+  margin: 0;
   display: flex;
   align-items: center;
   font-size: small;
+  flex-wrap: nowrap;
+
+}
+
+.headline {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  justify-content: right;
+  flex: 1;
+  font-size: small;
+
 }
 
 .article-image {
   max-width: 48%;
   margin-right: 10px;
-  max-height: 200px;
+  justify-content: left;
+  flex: 1;
 }
 
 .external-link {
   margin-top: 0px;
   color: #007bff;
+  font-size: large;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 5ch;
+}
+
+.button-container{
+  margin-left: 15px;
+  font-size: x-large;
 }
 
 .sentiment-bar {

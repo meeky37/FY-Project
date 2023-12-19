@@ -67,6 +67,7 @@ class OverallSentimentExp(View):
             article = get_object_or_404(Article, id=overall_sentiment.article.id)
 
             serialized_entity = {
+                'id': article.id,
                 'headline': article.headline,
                 'url': article.url,
                 'image_url': article.image_url,
@@ -101,12 +102,13 @@ class OverallSentimentLinear(View):
 
 
             serialized_entity = {
+                'id': article.id,
                 'headline': article.headline,
                 'url': article.url,
                 'image_url': article.image_url,
-                'neutral': overall_sentiment.linear_neutral,
-                'positive': overall_sentiment.linear_positive,
-                'negative': overall_sentiment.linear_negative
+                'neutral': overall_sentiment.exp_neutral,
+                'positive': overall_sentiment.exp_positive,
+                'negative': overall_sentiment.exp_negative
             }
 
             serialized_entities.append(serialized_entity)

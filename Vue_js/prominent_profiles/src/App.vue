@@ -79,7 +79,7 @@ nav {
 
 .nav-link:hover {
   outline: 2px solid #fff;
-  outline-offset: 20px;
+  outline-offset: 15px;
 }
 </style>
 <script setup>

@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 /* import EntitySelection from '../components/EntitySelection.vue' */
 import EntityPage from '../views/EntityPage.vue'
 import HomePage from '../views/HomePage.vue'
+import ArticlePage from '../views/ArticlePage.vue'
 
 const routes = [
   {
@@ -25,6 +26,15 @@ const routes = [
     path: '/entity/:id',
     name: 'entity',
     component: EntityPage
+  },
+  {
+    path: '/article/:entityId/:articleId',
+    name: 'entryId',
+    component: ArticlePage,
+    props: route => ({
+      entityId: route.params.entityId,
+      articleId: route.params.articleId
+    })
   }
 ]
 

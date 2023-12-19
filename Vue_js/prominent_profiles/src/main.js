@@ -3,7 +3,7 @@ import App from './App.vue'
 import router from './router'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faExternalLinkAlt, faCircleChevronUp, faCircleChevronDown, faCircleMinus, faShuffle } from '@fortawesome/free-solid-svg-icons'
+import { faExternalLinkAlt, faCircleChevronUp, faCircleChevronDown, faCircleMinus, faShuffle, faMagnifyingGlassChart } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 library.add(faExternalLinkAlt)
@@ -11,6 +11,7 @@ library.add(faCircleChevronUp)
 library.add(faCircleChevronDown)
 library.add(faCircleMinus)
 library.add(faShuffle)
+library.add(faMagnifyingGlassChart)
 
 const app = createApp(App).use(router)
 
