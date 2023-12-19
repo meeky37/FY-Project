@@ -162,11 +162,12 @@ export default {
   border-radius: 8px;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin: 5px 30px 0px 30px;
+  margin: 0px 30px 0px 30px;
   position: relative;
+  min-width: 75vw;
 }
 .description-box p {
-  font-size: x-large;
+  font-size: medium;
   line-height: 1.6;
   color: #333;
 }
@@ -174,7 +175,8 @@ export default {
 .source-date {
   font-size: xx-small;
   text-align: right;
-  margin: 1px;
+  margin-right: 5px;
+  margin-bottom: 0px;
   position: absolute;
   bottom: 0;
   right: 0;

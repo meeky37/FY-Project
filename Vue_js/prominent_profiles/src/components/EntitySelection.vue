@@ -1,24 +1,31 @@
 <template>
   <div>
-    <div style="display: flex; align-items: center;">
-      <label for="entityDropdown" style="margin-right: 10px; font-size: 16px;"></label>
-      <select id="entityDropdown" v-model="selectedEntity" style="width: 200px; font-size: 14px; height: 30px;">
-        <option value="" disabled selected>Select an entity</option>
-        <option v-for="entity in entities" :key="entity.id" :value="entity.id">
-          {{ entity.name }}
-        </option>
-      </select>
-
-      <!-- Button for redirection -->
-      <button @click="redirectToEntityPage" style="margin-left: 10px; font-size: 16px; height: 30px;">
-        <span>&#9654;</span> <!-- Unicode character for the right arrow symbol -->
-      </button>
+    <div class="entity-selection-container">
+      <label for="entityDropdown" class="label"></label>
+      <div class="dropdown-container">
+        <select id="entityDropdown" v-model="selectedEntity" class="dropdown">
+          <option value="" selected>Select An Entity</option>
+          <option v-for="entity in entities" :key="entity.id" :value="entity.id">
+            {{ entity.name }}
+          </option>
+        </select>
+        <div class="action-container">
+      <div class="button-container" @click="selectRandomEntity">
+        <font-awesome-icon :icon="['fas', 'shuffle']" style="color: #ffffff;" />
+      </div>
+      </div>
+        </div>
     </div>
   </div>
 </template>
 
+<script setup>
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+</script>
+
 <script>
 import { API_BASE_URL } from '@/config.js'
+
 export default {
   name: 'EntitySelection',
 
@@ -32,6 +39,17 @@ export default {
   created () {
     // Fetch the list of entities with app_visible=true
     this.fetchVisibleEntities()
+  },
+
+  watch: {
+    // Replacement for button use - ugly.
+    selectedEntity (newVal, oldVal) {
+      if (newVal !== oldVal) {
+        console.log('yooooo!')
+        this.redirectToEntityPage()
+        this.selectedEntity = ''
+      }
+    }
   },
 
   methods: {
@@ -59,10 +77,56 @@ export default {
       if (this.selectedEntity) {
         this.$router.push('/entity/' + this.selectedEntity)
       }
+    },
+    selectRandomEntity () {
+      console.log('Write Random Logic')
     }
   }
 }
 </script>
 
 <style scoped>
+.entity-selection-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0px;
+}
+
+.label {
+  margin-right: 10px;
+  font-size: large;
+}
+
+.dropdown-container {
+  display: flex;
+  align-items: center;
+}
+
+.dropdown {
+  width: 20vw;
+  font-size: large;
+  height: 40px;
+  margin-right: 10px;
+  text-align: left;
+}
+
+.button-container {
+  cursor: pointer;
+  font-size: 16px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #755BB4;
+  border-radius: 5px;
+  margin-left: 20px; /* Space between dropdown and button */
+  margin-right: 60px;
+}
+
+.button-container:hover {
+   outline: 2px solid #fff;
+    outline-offset: 15px;
+}
 </style>

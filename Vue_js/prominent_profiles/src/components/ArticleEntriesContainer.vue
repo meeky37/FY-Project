@@ -138,7 +138,7 @@ export default {
 }
 
 .entry-column {
-  height: 50vh;
+  height: 45vh;
   overflow-y: scroll;
   margin-left: 10px;
   margin-top: 10px;
@@ -151,7 +151,9 @@ export default {
   max-width: calc(33.333% - 25px);
   max-height: 50vh;
   overflow-y: auto;
-  margin-right: 10px;
+  margin-left: 10px;
+  margin-right: 25px;
+  margin-bottom: 1px;
 }
 
 .main-container {
@@ -167,6 +169,8 @@ export default {
   font-weight: bold;
   font-size: xx-large;
   position: sticky;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .positive {
