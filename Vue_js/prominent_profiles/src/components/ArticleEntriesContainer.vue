@@ -144,7 +144,7 @@ export default {
 }
 
 .entry-column {
-  height: 45vh;
+  height: 70vh;
   overflow-y: scroll;
   overflow-x: hidden;
   margin-left: 10px;
@@ -152,6 +152,7 @@ export default {
   margin-right: 25px;
   margin-bottom: 1px;
   flex-wrap: wrap;
+  min-height: 70vh;
 }
 
 .entry-column-icon {
@@ -162,6 +163,7 @@ export default {
   margin-right: 25px;
   margin-bottom: 1px;
   flex-wrap: wrap;
+
 }
 
 .main-container {
