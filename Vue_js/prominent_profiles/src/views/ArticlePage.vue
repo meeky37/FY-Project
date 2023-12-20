@@ -1,58 +1,86 @@
 <template>
- <div>
-   <h1>Article Profile</h1>
-  <h2 v-if="isLoading">
-    Loading...
-  </h2>
-  <h2 v-else-if="Article && Article.length > 0">
-    Headline: <span v-html="Article[0].headline"></span>
-  </h2>
-  <h2 v-else>
-    Article Not Found
-  </h2>
+  <div>
+    <h1>Article Profile</h1>
+    <h2 v-if="isLoading">
+      Loading...
+    </h2>
+    <h2 v-else-if="Article && Article.length > 0">
+      Headline: <span v-html="Article[0].headline"></span>
+    </h2>
+    <h2 v-else>
+      Article Not Found
+    </h2>
+
     <!-- Display the image and description (centered) -->
     <div v-if="Article && Article.length > 0 && Article[0] && Article[0].image_url" class="content-container">
-  <div class="article-photo">
-    <img
-      :src="Article[0].image_url"
-      alt="Article Photo"
-      style="width: auto; min-height: 200px;"
-    />
-  </div>
-  <div>
-    <p v-if="bingEntity && bingEntity.name">{{ bingEntity.name }}</p>
-     <div v-if="bingEntity.image_url" class="entity-photo">
-    <img
-      :src="bingEntity.image_url"
-      alt="Entity Photo"
-      style="width: auto; min-height: 200px;"
-    />
-       </div>
-  </div>
-</div>
-  <div>
-  </div>
-</div>
+      <!-- Box for Article Photo -->
+      <div class="article-box">
+        <h2>Article Photo</h2>
+        <div class="article-photo">
+          <img
+            :src="Article[0].image_url"
+            alt="Article Photo"
+          />
+        </div>
+      </div>
+
+      <!-- Box for Entity Spotlight -->
+      <div class="entity-box">
+        <h2>Entity Spotlight</h2>
+        <div>
+          <p v-if="bingEntity[0] && bingEntity[0].name">Name: {{ bingEntity[0].name }}</p>
+          <div v-if="bingEntity[0].image_url" class="entity-photo">
+            <img
+              :src="bingEntity[0].image_url"
+              alt="Entity Photo"
+            />
+            <p v-if="bingEntity[0] && bingEntity[0].display_hint">{{bingEntity[0].display_hint
+              }}</p>
+              <div class="chart-container">
+              <Doughnut :data="chartdata" :options="options" />
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
 
     <PageFooter/>
+  </div>
 </template>
 
 <script>
 import PageFooter from '../components/PageFooter.vue'
 import { API_BASE_URL } from '@/config.js'
+import 'chart.js/auto'
+import { Doughnut } from 'vue-chartjs'
+
 export default {
   name: 'ArticlePage',
 
   components: {
-    PageFooter
+    PageFooter,
+    Doughnut
   },
-
   data () {
     return {
       Article: [],
-      bingEntity: null,
-      OtherEntities: [],
-      isLoading: false
+      bingEntity: [],
+      isLoading: false,
+      chartdata: {
+        labels: ['Positive', 'Neutral', 'Negative'],
+        datasets: [
+          {
+            label: 'Sentiment Analysis',
+            backgroundColor: ['mediumseagreen', 'deepskyblue', 'indianred'],
+            data: [10, 60, 30]
+          }
+        ]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        cutout: '50%'
+      }
     }
   },
 
@@ -71,7 +99,7 @@ export default {
 
   computed: {
     watchParam () {
-      // Dynamically select the parameter to watch based on your logic
+      // Dynamically select the parameter to watch.
       return this.$route.params.articleId || this.$route.params.entityId
     }
   },
@@ -85,6 +113,7 @@ export default {
   },
 
   methods: {
+
     fetchArticleSentiments () {
       // Use the entity ID from the route parameters
       const ArticleId = this.$route.params.articleId
@@ -104,7 +133,7 @@ export default {
     },
 
     fetchMiniBingEntity (entityId) {
-      // Use the entity ID from the route parameters if not provided
+    // Use the entity ID from the route parameters if not provided
       const id = entityId || this.$route.params.entityId
 
       // Fetch compact BingEntity JSON from Django backend
@@ -113,7 +142,15 @@ export default {
       fetch(apiUrl)
         .then((response) => response.json())
         .then((data) => {
-          this.bingEntity = data
+          // const index = this.bingEntity.findIndex((item) => item.id === data.id)
+
+          if (id !== this.$route.params.entityId) {
+            // If ID doesn't match route parameter, then I append the new data.
+            this.bingEntity.push(data)
+          } else {
+            // Otherwise, I replace the first element with the new data
+            this.bingEntity.unshift(data)
+          }
         })
         .catch((error) => {
           console.error('Error fetching BingEntity:', error)
@@ -166,31 +203,31 @@ export default {
 </script>
 
 <style scoped>
+  .content-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
 
-.content-container {
-  display: flex;
-  align-items: center;
-}
+  .article-box,
+  .entity-box {
+    border: 1px solid #ccc;
+    min-width: 20vw;
+    max-width: 50vw;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
 
-.article-photo {
-  margin-left: 30px;
-  max-width: 300px;
-  max-height: 300px;
-}
+  .article-photo img{
+    max-width: 100%;
+    height: 30vh;
+    border-radius: 8px;
+  }
 
-.description-box {
-  background-color: #f4f4f4;
-  border-radius: 8px;
-  padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin: 0px 30px 0px 30px;
-  position: relative;
-  min-width: 75vw;
+.entity-photo img{
+  max-width: 100%;
+    height: 15vh;
+    border-radius: 8px;
 }
-.description-box p {
-  font-size: medium;
-  line-height: 1.6;
-  color: #333;
-}
-
 </style>
