@@ -4,6 +4,7 @@
     <div>
        <ProfileEntry v-for="entry in Article" :key="entry.id" :entry="entry" />
       </div>
+    <p class="bottom-paragraph">*Must be present in at least 20% of the article's sentences</p>
     </div>
 </template>
 
@@ -38,5 +39,9 @@ export default {
   max-width: 100%;
   height: 10vh;
   border-radius: 8px;
+}
+
+.bottom-paragraph {
+  margin-top: flex-end;
 }
 </style>
