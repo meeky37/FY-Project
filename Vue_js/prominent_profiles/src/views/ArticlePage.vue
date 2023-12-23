@@ -1,15 +1,11 @@
 <template>
   <div>
-    <h1>Article Profile</h1>
-    <h2 v-if="isLoading">
-      Loading...
-    </h2>
+    <h1>Article Analysis</h1>
+    <h2 v-if="isLoading">Loading...</h2>
     <h2 v-else-if="Article && Article.length > 0">
       Headline: <span v-html="Article[0].headline"></span>
     </h2>
-    <h2 v-else>
-      Article Not Found
-    </h2>
+    <h2 v-else>Article Not Found</h2>
 
     <!-- Display the image and description (centered) -->
     <div v-if="Article && Article.length > 0 && Article[0] && Article[0].image_url" class="content-container">
@@ -17,32 +13,33 @@
       <div class="article-box">
         <h2>Article Photo</h2>
         <div class="article-photo">
-          <img
-            :src="Article[0].image_url"
-            alt="Article Photo"
-          />
+          <img :src="Article[0].image_url" alt="Article Photo" />
         </div>
+        <h2>Published Date</h2>
+        <p>Date Here Once In Backend</p>
+        <h2>Author</h2>
+        <p>Author Here Once In Backend</p>
+        <h2>{{getSubsection ( Article[0].url)}}
+        <a :href="Article[0].url" target="_blank" rel="noopener noreferrer" class="external-link">
+            <font-awesome-icon :icon="['fas', 'external-link-alt']" />
+          </a>
+
+        </h2>
+
       </div>
 
       <!-- Box for Entity Spotlight -->
-      <div class="entity-box">
-        <h2>Entity Spotlight</h2>
-        <div>
-          <p v-if="bingEntity[0] && bingEntity[0].name">Name: {{ bingEntity[0].name }}</p>
-          <div v-if="bingEntity[0].image_url" class="entity-photo">
-            <img
-              :src="bingEntity[0].image_url"
-              alt="Entity Photo"
-            />
-            <p v-if="bingEntity[0] && bingEntity[0].display_hint">{{bingEntity[0].display_hint
-              }}</p>
-              <div class="chart-container">
-              <Doughnut :data="chartdata" :options="options" />
-            </div>
-          </div>
-        </div>
-      </div>
-      </div>
+      <EntitySpotlight
+        :bingEntity="bingEntity"
+        :chartdata="chartdata"
+        :options="options"
+        :re_render="re_render"
+        @updateReRender="updateReRender"
+      />
+      <ArticleOtherEntities
+        :Article="otherArticles"
+      />
+    </div>
 
     <PageFooter/>
   </div>
@@ -50,29 +47,31 @@
 
 <script>
 import PageFooter from '../components/PageFooter.vue'
+import EntitySpotlight from '@/components/EntitySpotlight.vue'
 import { API_BASE_URL } from '@/config.js'
-import 'chart.js/auto'
-import { Doughnut } from 'vue-chartjs'
+import ArticleOtherEntities from '@/components/ArticleOtherEntities.vue'
 
 export default {
   name: 'ArticlePage',
 
   components: {
+    ArticleOtherEntities,
     PageFooter,
-    Doughnut
+    EntitySpotlight
   },
   data () {
     return {
       Article: [],
       bingEntity: [],
       isLoading: false,
+      re_render: Boolean,
       chartdata: {
         labels: ['Positive', 'Neutral', 'Negative'],
         datasets: [
           {
             label: 'Sentiment Analysis',
             backgroundColor: ['mediumseagreen', 'deepskyblue', 'indianred'],
-            data: [10, 60, 30]
+            data: [0, 0, 0]
           }
         ]
       },
@@ -98,6 +97,10 @@ export default {
   },
 
   computed: {
+    otherArticles () {
+      // ArticleOtherEntities.vue doesn't need the first entity as it is in EntitySpotlight.vue...
+      return this.Article.slice(1)
+    },
     watchParam () {
       // Dynamically select the parameter to watch.
       return this.$route.params.articleId || this.$route.params.entityId
@@ -108,11 +111,26 @@ export default {
     // Fetch BingEntity JSON based on the entity ID from Django backend
     this.isLoading = true
     Promise.all([this.fetchArticleSentiments(), this.fetchMiniBingEntity()]).finally(() => {
+      const entityIds = this.Article.map(entry => entry.entity_id)
+      console.log(entityIds)
+      entityIds.map(entityId => this.fetchMiniBingEntity(entityId))
       this.isLoading = false
     })
   },
 
   methods: {
+
+    updateReRender (value) {
+      this.re_render = value
+    },
+
+    getSubsection (url) {
+      // Extract the subsection before the top-level domain
+      const match = url.match(/^(https?:\/\/)?(?:www\.)?([^/]+)/)
+      const subsection = match ? match[2] : ''
+      const maxChars = 15
+      return subsection.length > maxChars ? subsection.substring(0, maxChars) + '...' : subsection
+    },
 
     fetchArticleSentiments () {
       // Use the entity ID from the route parameters
@@ -126,6 +144,11 @@ export default {
         .then((response) => response.json())
         .then((data) => {
           this.Article = data
+          console.log(this.Article)
+
+          // 0th entry is always the primary entity in the URL so it matches click through.
+          console.log('updated chart data')
+          this.chartdata.datasets[0].data = [data[0].positive, data[0].neutral, data[0].negative]
         })
         .catch((error) => {
           console.error('Error fetching Article info:', error)
@@ -133,7 +156,8 @@ export default {
     },
 
     fetchMiniBingEntity (entityId) {
-    // Use the entity ID from the route parameters if not provided
+      console.log(entityId)
+      // Use the entity ID from the route parameters if not provided
       const id = entityId || this.$route.params.entityId
 
       // Fetch compact BingEntity JSON from Django backend
@@ -146,9 +170,11 @@ export default {
 
           if (id !== this.$route.params.entityId) {
             // If ID doesn't match route parameter, then I append the new data.
+            console.log(data)
             this.bingEntity.push(data)
           } else {
             // Otherwise, I replace the first element with the new data
+            console.log(data)
             this.bingEntity.unshift(data)
           }
         })

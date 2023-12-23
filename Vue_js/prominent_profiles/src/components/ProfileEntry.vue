@@ -1,19 +1,16 @@
 <template>
-  <div class="article-entry">
+<!--  Other profiles may be present but have since been deleted or merged from db so v-if check -->
+  <div v-if="bingEntity" class="article-entry">
     <div class="entry-content">
-      <img v-if="entry.image_url" :src="entry.image_url" alt="Article Image" class="article-image" />
+      <img v-if="bingEntity.image_url" :src="bingEntity.image_url" alt="Article Image"
+           class="entity-image" />
       <div>
-        <h3 v-html="entry.headline" class="headline"></h3>
-       <div v-if="entry.url" class="url-container">
-          <div class="url-subsection">
-            {{ getSubsection(entry.url) }}
-          </div>
-          <a :href="entry.url" target="_blank" rel="noopener noreferrer" class="external-link">
-            <font-awesome-icon :icon="['fas', 'external-link-alt']" />
-          </a>
-          <div class="button-container" @click="viewArticleDetail">
-          <font-awesome-icon :icon="['fas', 'magnifying-glass-chart']"/>
-          </div>
+        <h2 v-if="bingEntity.name" class="name">{{ bingEntity.name }}</h2>
+       <div v-if="entry.entity_id" class="url-container">
+          <router-link :to="{ name: 'entity', params: { id: entry.entity_id } }"
+                       class="external-link">
+            <font-awesome-icon :icon="['fas','magnifying-glass-chart']" />
+          </router-link>
         </div>
       </div>
     </div>
@@ -32,6 +29,7 @@
 </template>
 
 <script>
+import { API_BASE_URL } from '@/config.js'
 export default {
   props: {
     entry: {
@@ -40,29 +38,79 @@ export default {
     }
   },
 
+  data () {
+    return {
+      bingEntity: null
+    }
+  },
+
+  created () {
+    this.fetchMiniBingEntity()
+  },
+
   methods: {
+    async fetchMiniBingEntity () {
+      const id = this.entry.entity_id
+      const apiUrl = `${API_BASE_URL}/profiles_app/bing_entities/mini/${id}/`
+
+      try {
+        const response = await fetch(apiUrl)
+        const data = await response.json()
+
+        if (data && Object.keys(data).length > 0) {
+          this.bingEntity = data
+        } else {
+          await this.fetchEntityName(id)
+        }
+      } catch (error) {
+        console.error('Error fetching BingEntity:', error)
+        // Bing data may not be available e.g. app_visible is false in db or bing api job not ran yet.
+        await this.fetchEntityName(id)
+      }
+    },
+
+    async fetchEntityName (entityId) {
+      const nameApiUrl = `${API_BASE_URL}/profiles_app/entity_name/${entityId}/`
+
+      try {
+        const nameResponse = await fetch(nameApiUrl)
+        const nameData = await nameResponse.json()
+
+        if (nameData && 'name' in nameData) {
+          console.log(nameData.name)
+          this.bingEntity = {
+            id: entityId,
+            name: nameData.name,
+            description: null,
+            image_url: null,
+            web_search_url: null,
+            bing_id: null,
+            contractual_rules: null,
+            entity_type_display_hint: null,
+            entity_type_hints: null,
+            date_added: null
+          }
+        } else {
+          console.error('Entity name not found for ID:', entityId)
+        }
+      } catch (error) {
+        console.error('Error fetching entity name:', error)
+      }
+    },
+
     isWidthSufficient (width) {
       const minWidthToShowText = 15
       const numericWidth = parseFloat(width)
       return !isNaN(numericWidth) && numericWidth >= minWidthToShowText
     },
 
-    getSubsection (url) {
-      // Extract the subsection before the top-level domain
-      const match = url.match(/^(https?:\/\/)?(?:www\.)?([^/]+)/)
-      const subsection = match ? match[2] : ''
-      const maxChars = 15
-      return subsection.length > maxChars ? subsection.substring(0, maxChars) + '...' : subsection
-    },
-
     viewArticleDetail () {
       const articleId = this.entry.id
-      console.log(this.entry)
       const entityId = this.$route.params.id
       this.$router.push({ name: 'entryId', params: { entityId, articleId } })
     }
-
   },
+
   computed: {
     positiveWidth () {
       const positive = parseFloat(this.entry.positive)
@@ -79,7 +127,6 @@ export default {
   }
 }
 </script>
-}
 
 <style scoped>
 .article-entry {
@@ -103,16 +150,16 @@ export default {
 
 }
 
-.headline {
+.name {
   overflow: hidden;
   text-overflow: ellipsis;
   justify-content: right;
   flex: 1;
-  font-size: small;
+  //font-size: small;
 
 }
 
-.article-image {
+.entity-image {
   max-width: 48%;
   margin-right: 10px;
   justify-content: left;

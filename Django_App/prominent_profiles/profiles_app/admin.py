@@ -39,6 +39,7 @@ class EntityAdmin(admin.ModelAdmin):
     list_display = ('name', 'type', 'app_visible', 'article_count')
     list_filter = ('app_visible',)
     ordering = ('name',)
+    list_per_page = 1000
     actions = [merge_entities]
 
 

@@ -4,7 +4,7 @@
       <label for="entityDropdown" class="label"></label>
       <div class="dropdown-container">
         <select id="entityDropdown" v-model="selectedEntity" class="dropdown">
-          <option value="" selected>Select An Entity</option>
+          <option value="" selected>Select A Profile</option>
           <option v-for="entity in entities" :key="entity.id" :value="entity.id">
             {{ entity.name }}
           </option>
@@ -61,7 +61,7 @@ export default {
         .then(data => {
           this.entities = data
 
-          // Check if a default entity is pre-selected (for example, from the URL)
+          // Check if a default entity is pre-selected (from the URL)
           // and redirect immediately
           if (this.selectedEntity) {
             this.$router.push('/entity/' + this.selectedEntity)

@@ -1,0 +1,2341 @@
+[
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics",
+        "queryContext": {
+            "originalQuery": "uk politics",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 14,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "New EU anti-migrant deal will help Rishi Sunak \u2018stop the boats\u2019, claims French politician",
+                "url": "https://uk.news.yahoo.com/eu-anti-migrant-deal-help-205542033.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.k4iTXgUodT-yDxFwSeXh8i&pid=News",
+                        "width": 700,
+                        "height": 525
+                    }
+                },
+                "description": "French MEP Fabienne Keller, of the Renew Europe group, who led the negotiations, insisted the Geneva Convention will be \u201cfully applied\u201d in the so-called waiting zones, adding: \u201cIf I may make a comparison, instead of sending people to Rwanda, we are doing it on European soil.\u201d",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3b8ddb1a-cf19-ee77-560d-9dfa00ddf070",
+                        "name": "European Union"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c7bfe2de-4f82-e23c-ae42-8544b5b5c0ea",
+                        "name": "France"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-20T20:56:00.0000000Z",
+                "video": {
+                    "name": "New EU anti-migrant deal will help Rishi Sunak \u2018stop the boats\u2019, claims French politician",
+                    "thumbnailUrl": "https://www.bing.com/th?id=OVF.2PMO9eK6PtqpGabpN%2FMoDg&pid=News",
+                    "thumbnail": {
+                        "width": 520,
+                        "height": 390
+                    }
+                },
+                "category": "Politics"
+            },
+            {
+                "name": "Troubles legacy act: Ireland takes human rights case against <b>UK</b>",
+                "url": "https://www.bbc.co.uk/news/uk-northern-ireland-67769920",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.7J5g6UBEa-aSj1nY4_B4KC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The UK&#39;s controversial Troubles legacy act became law in September, despite opposition from Dublin and all Northern Ireland&#39;s main political parties. Critics argued the law gave an amnesty and removed access to justice. Northern Ireland Secretary Chris Heaton-Harris said he &quot;profoundly regrets&quot; the Irish decision.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/77f28672-5669-4775-a58a-b62b17779010",
+                        "name": "Ireland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-20T20:42:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Theatre Royal panto has so much power in the community",
+                "url": "https://www.edp24.co.uk/news/24002359.theatre-royal-panto-much-power-community/",
+                "description": "Panto is many people&#39;s first introduction to the theatre, hopefully igniting a lifelong love of live performance. We cannot know the true effects into the future of this creative experience at this moment, but we are committed to everyone having that opportunity. The theatre industry relies upon it.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "EDP 24",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.jwNaXSYAQbMSCRbjWcrBZA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-20T20:30:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Rishi Sunak takes brutal swipe at Ireland after it makes &#39;misguided&#39; decision",
+                "url": "https://www.express.co.uk/news/politics/1847753/rishi-sunak-ireland-court-Leo-Varadkar",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.y6FlnPjpNrmxRBA7F2D2tC&pid=News",
+                        "width": 700,
+                        "height": 415
+                    }
+                },
+                "description": "The British Government have called Ireland&#39;s attempt to drag the <b>UK</b> before European courts as \u201cunnecessary ... The Legacy Act received royal assent in September despite widespread opposition from <b>political</b> parties, victims&#39; organisations in Northern ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/77f28672-5669-4775-a58a-b62b17779010",
+                        "name": "Ireland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6d381967-27a2-c10c-0b47-bfe5c33d1e77",
+                        "name": "Leo Varadkar"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Ireland"
+                    },
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Leo Varadkar"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express"
+                    }
+                ],
+                "datePublished": "2023-12-20T20:10:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Esther Rantzen&#39;s desperate appeal to MPs as she joins Dignitas after stage four cancer diagnosis",
+                "url": "https://www.mirror.co.uk/3am/celebrity-news/esther-rantzens-desperate-appeal-mps-31720838",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.CRqBmBokXHr64g1NZdkLai&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Veteran journalist and presenter Dame Esther Rantzen, 83, urged parliamentarians to think of the elderly people in their lives and whether they&#39;d want them to spend their final days in agony or to offer them a &quot;gentle,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4def31cb-0189-8c92-3ab4-affcaaf48492",
+                        "name": "Esther Rantzen"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "Esther Rantzen"
+                    },
+                    {
+                        "name": "Race stage"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-20T19:48:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Dublin says it has &#39;no choice&#39; but to take legal action over <b>UK</b>&#39;s Northern Ireland amnesty law - as British government slams the move as &#39;unnecessary&#39;",
+                "url": "https://www.dailymail.co.uk/news/article-12887083/uk-northern-ireland-amnesty-law-legal-challenge.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.SpUrFKO2l1GRydZcHcJCWS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The new Troubles legacy act became law in September and gives conditional amnesties to former soldiers and militants involved in decades of violence.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7e7d2832-97c8-afa4-d282-865c20a549c9",
+                        "name": "Dublin"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4b8bc44-385c-e87b-bb7d-b32328f53502",
+                        "name": "Northern Ireland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/93a3e0e2-aecf-e53b-8432-c15f400cfb4e",
+                        "name": "Daily Mail"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-20T19:37:00.0000000Z"
+            },
+            {
+                "name": "Green ministers condemned after just transition and transport budgets cut",
+                "url": "https://www.edp24.co.uk/news/national/24002911.green-ministers-condemned-just-transition-transport-budgets-cut/",
+                "description": "The Lib Dems said Scottish Government funding decisions will mean more use of petrol cars, and oil and gas, and \u2018more sewage in our rivers\u2019.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a6047d42-a4c7-61a9-0a4e-1350aab69d7f",
+                        "name": "Green"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "EDP 24",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.jwNaXSYAQbMSCRbjWcrBZA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-20T19:31:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Most dangerous holiday destinations in 2024 mapped as tourists warned of &#39;risk&#39;",
+                "url": "https://www.birminghammail.co.uk/news/world-news/most-dangerous-holiday-destinations-2024-28326898",
+                "description": "Tourists have been warned against going to a number of holiday destinations in 2024 amid political unrest and climate change. International SOS has revealed the places most likely to result in issues for travellers due to factors including violence and crime.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/aaac0a14-911d-49c8-ac97-51d9f9100ad7",
+                        "name": "Birmingham"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Birmingham"
+                    },
+                    {
+                        "name": "Incidence"
+                    },
+                    {
+                        "name": "World"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Birmingham Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.jPou0vlDKt0Px6h21V_3rw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-20T19:25:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Losing Andrew Bridgen may herald the dying days of the Reclaim Party",
+                "url": "https://www.thenational.scot/politics/24004145.losing-andrew-bridgen-may-herald-dying-days-reclaim-party/",
+                "description": "FAR-right conspiracy theorist nutjob MP Andrew Bridgen was thrown out of the Tory party for comparing the vaccine rollout to the Holocaust.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e27ea7ba-40dc-2d8d-17d4-36129fd4a837",
+                        "name": "Andrew Bridgen"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-20T19:22:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>UK</b> Government \u2018profoundly regrets\u2019 legal action by Irish against Legacy Act",
+                "url": "https://www.northern-scot.co.uk/news/national/article/uk-government-profoundly-regrets-legal-action-by-irish-against-legacy-act-95999/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.4J352val5Z5R9aN6jgo41C&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Irish premier Leo Varadkar said the \u2018strong\u2019 legal advice was that the legislation breached the UN Convention on Human Rights.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/77f28672-5669-4775-a58a-b62b17779010",
+                        "name": "Ireland"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "northern-scot.co.uk",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.vvfO2OnlLP2gcDJ2zfr4wQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-20T19:11:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "It\u2019s the end of the Tory party as we know it",
+                "url": "https://inews.co.uk/opinion/end-tory-party-know-it-2817552?ico=related_stories",
+                "description": "Whether they&#39;ll toe the party line is another story Katy Balls: \u2018Several MPs are considering quitting the Commons \u2013 including serving ministers\u2019 (Photo: Jessica Taylor/<b>UK</b> Parliament/AFP ... the past decade of British <b>politics</b>. Whether it was jokes ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i"
+                    }
+                ],
+                "datePublished": "2023-12-20T18:12:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Most complained about TV moment of the year revealed",
+                "url": "https://metro.co.uk/2023/12/20/laurence-foxs-gb-news-rant-complained-tv-moment-2023-20003170/?ico=trending-module_author_pierra-willix_item-2",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.OnLvtiLG_tOFblidvxou3C&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Back in September the former actor was appearing on Dan Wootton Tonight when he made a string of misogynistic remarks about <b>political</b> correspondent Ava Evans. In his tirade, he made comments that included \u2018no self-respecting man would want to climb into ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/bf9f1a5b-7c13-4703-9ff6-ffb3ccac862c",
+                        "name": "Laurence Fox"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8f1e4d84-dcaf-482c-a9f7-9e076f491082",
+                        "name": "News 23"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2872a54f-b045-8fe3-d356-1aa538e14812",
+                        "name": "Metro International"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Laurence Fox"
+                    },
+                    {
+                        "name": "News 23"
+                    },
+                    {
+                        "name": "Metro International"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Metro"
+                    }
+                ],
+                "datePublished": "2023-12-20T14:01:00.0000000Z"
+            },
+            {
+                "name": "Most Brits think 2023 was a memorable year for news, study finds",
+                "url": "https://www.mirror.co.uk/news/uk-news/top-30-news-stories-2023-31711252.amp",
+                "description": "The survey of 2,000 adults revealed that exactly two-thirds would claim they are \u201cup to date\u201d with current affairs \u2013 and have most enjoyed following sports (32%) and <b>politics</b> (25%) this year. Meanwhile, for the 24% who have kept a close eye on ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "British people"
+                    },
+                    {
+                        "name": "News UK"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror"
+                    }
+                ],
+                "datePublished": "2023-12-19T09:17:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Statistics watchdog rebukes Rishi Sunak over claim debt falling",
+                "url": "https://www.bbc.co.uk/news/uk-politics-67759768?at_medium=RSS",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.vDS747Q2sMhPwH9iSrpSuS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Liberal Democrat Treasury spokeswoman Sarah Olney wrote to Sir Robert Chote, chairman of the <b>UK</b> Statistics Authority ... for the Boris Johnson playbook and is undermining trust in <b>politics</b>.&quot;",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC"
+                    }
+                ],
+                "datePublished": "2023-12-19T00:00:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics",
+        "queryContext": {
+            "originalQuery": "uk politics",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 125,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Troubles legacy act: Ireland takes human rights case against <b>UK</b>",
+                "url": "https://www.bbc.co.uk/news/uk-northern-ireland-67769920",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.7J5g6UBEa-aSj1nY4_B4KC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The UK&#39;s controversial Troubles legacy act became law in September, despite opposition from Dublin and all Northern Ireland&#39;s main political parties. Critics argued the law gave an amnesty and removed access to justice. Northern Ireland Secretary Chris Heaton-Harris said he &quot;profoundly regrets&quot; the Irish decision.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/77f28672-5669-4775-a58a-b62b17779010",
+                        "name": "Ireland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-20T20:42:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Theatre Royal panto has so much power in the community",
+                "url": "https://www.edp24.co.uk/news/24002359.theatre-royal-panto-much-power-community/",
+                "description": "Panto is many people&#39;s first introduction to the theatre, hopefully igniting a lifelong love of live performance. We cannot know the true effects into the future of this creative experience at this moment, but we are committed to everyone having that opportunity. The theatre industry relies upon it.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "EDP 24",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.jwNaXSYAQbMSCRbjWcrBZA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-20T20:30:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Rishi Sunak takes brutal swipe at Ireland after it makes &#39;misguided&#39; decision",
+                "url": "https://www.express.co.uk/news/politics/1847753/rishi-sunak-ireland-court-Leo-Varadkar",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.y6FlnPjpNrmxRBA7F2D2tC&pid=News",
+                        "width": 700,
+                        "height": 415
+                    }
+                },
+                "description": "The British Government have called Ireland&#39;s attempt to drag the <b>UK</b> before European courts as \u201cunnecessary ... The Legacy Act received royal assent in September despite widespread opposition from <b>political</b> parties, victims&#39; organisations in Northern ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/77f28672-5669-4775-a58a-b62b17779010",
+                        "name": "Ireland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6d381967-27a2-c10c-0b47-bfe5c33d1e77",
+                        "name": "Leo Varadkar"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Ireland"
+                    },
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Leo Varadkar"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express"
+                    }
+                ],
+                "datePublished": "2023-12-20T20:10:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Esther Rantzen&#39;s desperate appeal to MPs as she joins Dignitas after stage four cancer diagnosis",
+                "url": "https://www.mirror.co.uk/3am/celebrity-news/esther-rantzens-desperate-appeal-mps-31720838",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.CRqBmBokXHr64g1NZdkLai&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Veteran journalist and presenter Dame Esther Rantzen, 83, urged parliamentarians to think of the elderly people in their lives and whether they&#39;d want them to spend their final days in agony or to offer them a &quot;gentle,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4def31cb-0189-8c92-3ab4-affcaaf48492",
+                        "name": "Esther Rantzen"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "Esther Rantzen"
+                    },
+                    {
+                        "name": "Race stage"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-20T19:48:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Dublin says it has &#39;no choice&#39; but to take legal action over <b>UK</b>&#39;s Northern Ireland amnesty law - as British government slams the move as &#39;unnecessary&#39;",
+                "url": "https://www.dailymail.co.uk/news/article-12887083/uk-northern-ireland-amnesty-law-legal-challenge.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.SpUrFKO2l1GRydZcHcJCWS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The new Troubles legacy act became law in September and gives conditional amnesties to former soldiers and militants involved in decades of violence.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7e7d2832-97c8-afa4-d282-865c20a549c9",
+                        "name": "Dublin"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4b8bc44-385c-e87b-bb7d-b32328f53502",
+                        "name": "Northern Ireland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/93a3e0e2-aecf-e53b-8432-c15f400cfb4e",
+                        "name": "Daily Mail"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-20T19:37:00.0000000Z"
+            },
+            {
+                "name": "Green ministers condemned after just transition and transport budgets cut",
+                "url": "https://www.edp24.co.uk/news/national/24002911.green-ministers-condemned-just-transition-transport-budgets-cut/",
+                "description": "The Lib Dems said Scottish Government funding decisions will mean more use of petrol cars, and oil and gas, and \u2018more sewage in our rivers\u2019.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a6047d42-a4c7-61a9-0a4e-1350aab69d7f",
+                        "name": "Green"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "EDP 24",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.jwNaXSYAQbMSCRbjWcrBZA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-20T19:31:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Most dangerous holiday destinations in 2024 mapped as tourists warned of &#39;risk&#39;",
+                "url": "https://www.birminghammail.co.uk/news/world-news/most-dangerous-holiday-destinations-2024-28326898",
+                "description": "Tourists have been warned against going to a number of holiday destinations in 2024 amid political unrest and climate change. International SOS has revealed the places most likely to result in issues for travellers due to factors including violence and crime.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/aaac0a14-911d-49c8-ac97-51d9f9100ad7",
+                        "name": "Birmingham"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Birmingham"
+                    },
+                    {
+                        "name": "Incidence"
+                    },
+                    {
+                        "name": "World"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Birmingham Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.jPou0vlDKt0Px6h21V_3rw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-20T19:25:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Losing Andrew Bridgen may herald the dying days of the Reclaim Party",
+                "url": "https://www.thenational.scot/politics/24004145.losing-andrew-bridgen-may-herald-dying-days-reclaim-party/",
+                "description": "FAR-right conspiracy theorist nutjob MP Andrew Bridgen was thrown out of the Tory party for comparing the vaccine rollout to the Holocaust.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e27ea7ba-40dc-2d8d-17d4-36129fd4a837",
+                        "name": "Andrew Bridgen"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-20T19:22:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "New EU anti-migrant deal will help Rishi Sunak \u2018stop the boats\u2019, claims French politician",
+                "url": "https://www.independent.co.uk/news/uk/politics/sunak-small-boats-eu-deal-latest-b2467498.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.7OuRGcWFgtbKZgnCDfrY2S&pid=News",
+                        "width": 700,
+                        "height": 525
+                    }
+                },
+                "description": "French MEP Fabienne Keller, of the Renew Europe group, who led the negotiations, insisted the Geneva Convention will be \u201cfully applied\u201d in the so-called waiting zones, adding: \u201cIf I may make a comparison, instead of sending people to Rwanda, we are doing it on European soil.\u201d",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3b8ddb1a-cf19-ee77-560d-9dfa00ddf070",
+                        "name": "European Union"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c7bfe2de-4f82-e23c-ae42-8544b5b5c0ea",
+                        "name": "France"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "European Union"
+                    },
+                    {
+                        "name": "France"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-20T18:55:00.0000000Z",
+                "video": {
+                    "name": "New EU anti-migrant deal will help Rishi Sunak \u2018stop the boats\u2019, claims French politician",
+                    "thumbnailUrl": "https://www.bing.com/th?id=OVF.pyw9ZYbd2ox0LzWiqRXZPA&pid=News",
+                    "embedHtml": "&lt;iframe src=&quot;https://cdn.jwplayer.com/players/SUXDHcQU-XLzx33eA.html&quot; width=&quot;480&quot; height=&quot;270&quot; frameborder=&quot;0&quot; scrolling=&quot;auto&quot;&gt;&lt;/iframe&gt;",
+                    "allowHttpsEmbed": true,
+                    "thumbnail": {
+                        "width": 520,
+                        "height": 292
+                    }
+                },
+                "category": "Politics"
+            },
+            {
+                "name": "Wellingborough byelection gives Labour another chance to humiliate Rishi Sunak",
+                "url": "https://www.theguardian.com/politics/2023/dec/20/wellingborough-byelection-gives-labour-another-chance-to-humiliate-rishi-sunak",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.UBGvZ6oM9D5x39SUpfId9S&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Recall of MP Peter Bone opens up Brexit-leaning former safe seat where defections from Tories in any direction could help Labour win",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/73388964-99e9-bfa8-c8a4-0331f036fdb6",
+                        "name": "Wellingborough"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-20T18:40:00.0000000Z"
+            },
+            {
+                "name": "Terror scout caught spying on broadcaster\u2019s London base",
+                "url": "https://uk.news.yahoo.com/convicted-spy-told-police-filmed-181145827.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.3aWVeKNuDYdiIc__Te_1ay&pid=News",
+                        "width": 700,
+                        "height": 437
+                    }
+                },
+                "description": "A terror scout spied on a dissident Iranian television channel in the UK, a court heard, as counter-terror police revealed they had foiled 15 plots linked to Iran.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8e0ba7b6-4225-fa8a-6369-1b5294e602a5",
+                        "name": "London"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a75a9ed2-34de-445d-2407-c52d8773c743",
+                        "name": "Terror"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-20T18:40:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Gavin Williamson criticises Boris Johnson\u2019s \u2018panic\u2019 pandemic school closures",
+                "url": "https://www.standard.co.uk/news/politics/gavin-williamson-boris-johnson-alevels-england-gcses-b1128363.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.wvmHYHn8YGVRZkHZIYZS8i&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The ex-education secretary said Mr Johnson\u2019s decision to shut schools in January 2021 did not \u2018sufficiently take children\u2019s interests into account\u2019.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fe217755-2d46-1c61-dded-740ff4500899",
+                        "name": "Boris Johnson"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Boris Johnson"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Panic"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-20T18:38:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "DUP questions if Rebublic&#39;s Legacy Act legal action will strain <b>UK</b> relations",
+                "url": "https://www.itv.com/news/utv/2023-12-20/donaldson-asks-what-will-republic-do-after-legacy-bid-launched",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.nFWGwBLlHTpZRxGLU8_0Xy&pid=News",
+                        "width": 700,
+                        "height": 467
+                    }
+                },
+                "description": "Politicians welcome the interstate case challenging Troubles Legacy bill as Sir Jeffrey Donaldson questions it | UTV News",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "ITV",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.HlKTyCgM99pRvmITMdZC2w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-20T18:32:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "2024 will be the year the housing crisis dwarfs the cost of living",
+                "url": "https://inews.co.uk/opinion/2024-housing-crisis-dwarfs-cost-of-living-2818780?ico=related_stories",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.RBghig7RSMUyUrqjN35Yny&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The real story of 2024 may well be that the cost of living crisis will be replaced by a cost of housing crisis. Even if wages finally outpace inflation, and even if some food and energy prices ease, the sheer difficulty in paying a rent or mortgage may further undermine any sense of security.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/da86e673-e3af-0ed9-da20-e8e53cf1917c",
+                        "name": "Cost of living"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f115d623-6266-4ee2-9fa0-d1806d861f3a",
+                        "name": "United States housing bubble"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-20T18:25:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Jeffrey Donaldson slams Dublin over attack on <b>UK</b> amnesty law: &#39;Ireland has had an amnesty for terrorists for years&#39;",
+                "url": "https://www.newsletter.co.uk/news/politics/jeffrey-donaldson-slams-dublin-over-attack-on-uk-amnesty-law-ireland-has-had-an-amnesty-for-terrorists-for-years-4453670",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.YpdeokFH4yjfd_TNivaVQC&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The Irish Government has been challenged to say what it is doing to deal with Troubles&#39; legacy cases in its jurisdiction by DUP leader Sir Jeffrey Donaldson.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/689dc179-9174-cb76-53c7-7a6d087c0148",
+                        "name": "Jeffrey Donaldson"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/77f28672-5669-4775-a58a-b62b17779010",
+                        "name": "Ireland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2bafa879-2f0e-dd4e-9d5f-299531ceb490",
+                        "name": "Amnesty"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Jeffrey Donaldson"
+                    },
+                    {
+                        "name": "Ireland"
+                    },
+                    {
+                        "name": "Amnesty"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The News Letter",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.ss7xVoJtNCz0ucC1juxNqA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-20T18:21:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "&#39;<b>Political</b> pantomime&#39; must end now that talks have concluded: Robbie Butler",
+                "url": "https://www.newsletter.co.uk/news/politics/political-pantomime-must-end-now-that-talks-have-concluded-robbie-butler-4453671",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.LguMbMCtwyzXuJVL8upoby&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The \u201cpolitical pantomime\u201d in Northern Ireland must end as the legislation governing the post-Brexit trading arrangements is not going to change, Robbie Butler has said.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/bd2854ec-8a81-ece8-7d9f-19846ecd0a9c",
+                        "name": "Butler"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Butler"
+                    },
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Robbie"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The News Letter",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.ss7xVoJtNCz0ucC1juxNqA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-20T18:21:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "The Human League announce North East date with tickets on sale Friday",
+                "url": "https://www.chroniclelive.co.uk/whats-on/music-nightlife-news/human-league-announce-north-east-28326892",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.gFlpYl9c_WVIUNzOfYUK0i&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The experimental electronic band, who formed in 1977 and are going strong more than 45 years later, are the latest addition to the summer line-up at Herrington Country Park where they will take to the stage in July. Tickets to the show will go on sale this Friday, December 22.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d234b2e9-3914-64bb-99dc-064fd28535d1",
+                        "name": "The Human League"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a55d629b-42b2-9dcf-dbd7-860a94010ae2",
+                        "name": "Chronicle Live"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0098e261-8c5d-77bf-bde9-bdc8bfa0c9d8",
+                        "name": "North East England"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "North East England"
+                    },
+                    {
+                        "name": "Chronicle Live"
+                    },
+                    {
+                        "name": "The Human League"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Evening Chronicle",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.G4kbGBXl4xfkaxnbAFtYzw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-20T18:21:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "It\u2019s the end of the Tory party as we know it",
+                "url": "https://inews.co.uk/opinion/end-tory-party-know-it-2817552?ico=related_stories",
+                "description": "Whether they&#39;ll toe the party line is another story Katy Balls: \u2018Several MPs are considering quitting the Commons \u2013 including serving ministers\u2019 (Photo: Jessica Taylor/<b>UK</b> Parliament/AFP ... the past decade of British <b>politics</b>. Whether it was jokes ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i"
+                    }
+                ],
+                "datePublished": "2023-12-20T18:12:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Putin\u2019s chilling promise to the West will send shivers down your spine",
+                "url": "https://metro.co.uk/2023/12/20/putin-vows-defend-russia-confront-west-dies-20001486/?ico=read_full_story_videopage",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.I8DKH1wtDE8yosx3Sn1aUi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "He told his security agencies: \u2018Of course, we must thwart any attempts by foreign intelligence services to destabilise the social and <b>political</b> situation in Russia ... the world\u2019s top stories? Metro.co.<b>uk</b> is now on WhatsApp sending vital updates ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/60d41b9e-06ae-967b-bcc5-97ad4a13d29c",
+                        "name": "Vladimir Putin"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a25a0bf0-f32b-af88-53bc-79585ef34e0e",
+                        "name": "Western United States"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ec43fc9e-a824-b891-33e5-832834cbb9bd",
+                        "name": "Westworld"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Metro"
+                    }
+                ],
+                "datePublished": "2023-12-20T17:29:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Most complained about TV moment of the year revealed",
+                "url": "https://metro.co.uk/2023/12/20/laurence-foxs-gb-news-rant-complained-tv-moment-2023-20003170/?ico=trending-module_author_pierra-willix_item-2",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.OnLvtiLG_tOFblidvxou3C&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Back in September the former actor was appearing on Dan Wootton Tonight when he made a string of misogynistic remarks about <b>political</b> correspondent Ava Evans. In his tirade, he made comments that included \u2018no self-respecting man would want to climb into ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/bf9f1a5b-7c13-4703-9ff6-ffb3ccac862c",
+                        "name": "Laurence Fox"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8f1e4d84-dcaf-482c-a9f7-9e076f491082",
+                        "name": "News 23"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2872a54f-b045-8fe3-d356-1aa538e14812",
+                        "name": "Metro International"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Laurence Fox"
+                    },
+                    {
+                        "name": "News 23"
+                    },
+                    {
+                        "name": "Metro International"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Metro"
+                    }
+                ],
+                "datePublished": "2023-12-20T14:01:00.0000000Z"
+            },
+            {
+                "name": "<b>UK</b> Government \u2018profoundly regrets\u2019 legal action by Irish against Legacy Act",
+                "url": "https://www.standard.co.uk/news/politics/leo-varadkar-uk-government-micheal-martin-chris-heatonharris-government-b1128365.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.dbRArReeu_aSQqZHze_qpi&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The Taoiseach said the \u201cstrong\u201d legal advice was that the <b>UK</b> Legacy Act breached the UN Convention on Human Rights. The Act received royal assent in September despite widespread opposition from <b>political</b> parties, victims\u2019 organisations in Northern ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/77f28672-5669-4775-a58a-b62b17779010",
+                        "name": "Ireland"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Ireland"
+                    },
+                    {
+                        "name": "Leo Varadkar"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "datePublished": "2023-12-19T23:59:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Jeffrey Donaldson accuses Irish Government of \u2018double standards\u2019 over Troubles bill legal case against <b>UK</b>",
+                "url": "https://www.belfasttelegraph.co.uk/news/politics/jeffrey-donaldson-and-ni-secretary-hit-out-at-inconsistent-irish-government-over-troubles-bill-legal-case-against-uk/a1842118595.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.m4EZ0aps4L05avaERozvIi&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The legislation has been opposed by the five main <b>political</b> parties in Northern Ireland, the Irish Government and victims\u2019 rights groups. The <b>UK</b> government argues the legislation aims to deliver on its pledge to deliver better outcomes for those most ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/689dc179-9174-cb76-53c7-7a6d087c0148",
+                        "name": "Jeffrey Donaldson"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ec10885d-cbd2-5ece-8d5b-7f5e05a240e9",
+                        "name": "uk"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c3da23d5-eb42-317f-bf8a-cf33b4408fbe",
+                        "name": "Government of the Republic of Ireland"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Belfast Telegraph"
+                    }
+                ],
+                "datePublished": "2023-12-19T23:59:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Donaldson accuses Irish Government of double standards over legacy challenge",
+                "url": "https://www.dorsetecho.co.uk/news/national/24004054.donaldson-accuses-irish-government-double-standards-legacy-challenge/",
+                "description": "\u201cI think the <b>UK</b> Government would take a similar view to many who would ... despite the clear opposition and concerns raised by victims and families, all <b>political</b> parties, the Irish Government, the US, UN, the Council of Europe and human rights experts.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/689dc179-9174-cb76-53c7-7a6d087c0148",
+                        "name": "Jeffrey Donaldson"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c3da23d5-eb42-317f-bf8a-cf33b4408fbe",
+                        "name": "Government of the Republic of Ireland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cbac8df7-3b5c-6632-8267-1a2127b8a31f",
+                        "name": "Challenge"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Dorset Echo"
+                    }
+                ],
+                "datePublished": "2023-12-19T23:59:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Most Brits think 2023 was a memorable year for news, study finds",
+                "url": "https://www.mirror.co.uk/news/uk-news/top-30-news-stories-2023-31711252.amp",
+                "description": "The survey of 2,000 adults revealed that exactly two-thirds would claim they are \u201cup to date\u201d with current affairs \u2013 and have most enjoyed following sports (32%) and <b>politics</b> (25%) this year. Meanwhile, for the 24% who have kept a close eye on ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "British people"
+                    },
+                    {
+                        "name": "News UK"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror"
+                    }
+                ],
+                "datePublished": "2023-12-19T09:17:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Statistics watchdog rebukes Rishi Sunak over claim debt falling",
+                "url": "https://www.bbc.co.uk/news/uk-politics-67759768?at_medium=RSS",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.vDS747Q2sMhPwH9iSrpSuS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Liberal Democrat Treasury spokeswoman Sarah Olney wrote to Sir Robert Chote, chairman of the <b>UK</b> Statistics Authority ... for the Boris Johnson playbook and is undermining trust in <b>politics</b>.&quot;",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC"
+                    }
+                ],
+                "datePublished": "2023-12-19T00:00:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics",
+        "queryContext": {
+            "originalQuery": "uk politics",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 225,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Troubles legacy act: Ireland takes human rights case against <b>UK</b>",
+                "url": "https://www.bbc.co.uk/news/uk-northern-ireland-67769920",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.7J5g6UBEa-aSj1nY4_B4KC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The UK&#39;s controversial Troubles legacy act became law in September, despite opposition from Dublin and all Northern Ireland&#39;s main political parties. Critics argued the law gave an amnesty and removed access to justice. Northern Ireland Secretary Chris Heaton-Harris said he &quot;profoundly regrets&quot; the Irish decision.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/77f28672-5669-4775-a58a-b62b17779010",
+                        "name": "Ireland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-20T20:42:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Theatre Royal panto has so much power in the community",
+                "url": "https://www.edp24.co.uk/news/24002359.theatre-royal-panto-much-power-community/",
+                "description": "Panto is many people&#39;s first introduction to the theatre, hopefully igniting a lifelong love of live performance. We cannot know the true effects into the future of this creative experience at this moment, but we are committed to everyone having that opportunity. The theatre industry relies upon it.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "EDP 24",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.jwNaXSYAQbMSCRbjWcrBZA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-20T20:30:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Rishi Sunak takes brutal swipe at Ireland after it makes &#39;misguided&#39; decision",
+                "url": "https://www.express.co.uk/news/politics/1847753/rishi-sunak-ireland-court-Leo-Varadkar",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.y6FlnPjpNrmxRBA7F2D2tC&pid=News",
+                        "width": 700,
+                        "height": 415
+                    }
+                },
+                "description": "The British Government have called Ireland&#39;s attempt to drag the <b>UK</b> before European courts as \u201cunnecessary ... The Legacy Act received royal assent in September despite widespread opposition from <b>political</b> parties, victims&#39; organisations in Northern ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/77f28672-5669-4775-a58a-b62b17779010",
+                        "name": "Ireland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6d381967-27a2-c10c-0b47-bfe5c33d1e77",
+                        "name": "Leo Varadkar"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Ireland"
+                    },
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Leo Varadkar"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express"
+                    }
+                ],
+                "datePublished": "2023-12-20T20:10:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Esther Rantzen&#39;s desperate appeal to MPs as she joins Dignitas after stage four cancer diagnosis",
+                "url": "https://www.mirror.co.uk/3am/celebrity-news/esther-rantzens-desperate-appeal-mps-31720838",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.CRqBmBokXHr64g1NZdkLai&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Veteran journalist and presenter Dame Esther Rantzen, 83, urged parliamentarians to think of the elderly people in their lives and whether they&#39;d want them to spend their final days in agony or to offer them a &quot;gentle,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4def31cb-0189-8c92-3ab4-affcaaf48492",
+                        "name": "Esther Rantzen"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "Esther Rantzen"
+                    },
+                    {
+                        "name": "Race stage"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-20T19:48:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Dublin says it has &#39;no choice&#39; but to take legal action over <b>UK</b>&#39;s Northern Ireland amnesty law - as British government slams the move as &#39;unnecessary&#39;",
+                "url": "https://www.dailymail.co.uk/news/article-12887083/uk-northern-ireland-amnesty-law-legal-challenge.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.SpUrFKO2l1GRydZcHcJCWS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The new Troubles legacy act became law in September and gives conditional amnesties to former soldiers and militants involved in decades of violence.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7e7d2832-97c8-afa4-d282-865c20a549c9",
+                        "name": "Dublin"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4b8bc44-385c-e87b-bb7d-b32328f53502",
+                        "name": "Northern Ireland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/93a3e0e2-aecf-e53b-8432-c15f400cfb4e",
+                        "name": "Daily Mail"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-20T19:37:00.0000000Z"
+            },
+            {
+                "name": "Green ministers condemned after just transition and transport budgets cut",
+                "url": "https://www.edp24.co.uk/news/national/24002911.green-ministers-condemned-just-transition-transport-budgets-cut/",
+                "description": "The Lib Dems said Scottish Government funding decisions will mean more use of petrol cars, and oil and gas, and \u2018more sewage in our rivers\u2019.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a6047d42-a4c7-61a9-0a4e-1350aab69d7f",
+                        "name": "Green"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "EDP 24",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.jwNaXSYAQbMSCRbjWcrBZA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-20T19:31:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Most dangerous holiday destinations in 2024 mapped as tourists warned of &#39;risk&#39;",
+                "url": "https://www.birminghammail.co.uk/news/world-news/most-dangerous-holiday-destinations-2024-28326898",
+                "description": "Tourists have been warned against going to a number of holiday destinations in 2024 amid political unrest and climate change. International SOS has revealed the places most likely to result in issues for travellers due to factors including violence and crime.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/aaac0a14-911d-49c8-ac97-51d9f9100ad7",
+                        "name": "Birmingham"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Birmingham"
+                    },
+                    {
+                        "name": "Incidence"
+                    },
+                    {
+                        "name": "World"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Birmingham Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.jPou0vlDKt0Px6h21V_3rw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-20T19:25:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Losing Andrew Bridgen may herald the dying days of the Reclaim Party",
+                "url": "https://www.thenational.scot/politics/24004145.losing-andrew-bridgen-may-herald-dying-days-reclaim-party/",
+                "description": "FAR-right conspiracy theorist nutjob MP Andrew Bridgen was thrown out of the Tory party for comparing the vaccine rollout to the Holocaust.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e27ea7ba-40dc-2d8d-17d4-36129fd4a837",
+                        "name": "Andrew Bridgen"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-20T19:22:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "New EU anti-migrant deal will help Rishi Sunak \u2018stop the boats\u2019, claims French politician",
+                "url": "https://www.independent.co.uk/news/uk/politics/sunak-small-boats-eu-deal-latest-b2467498.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.7OuRGcWFgtbKZgnCDfrY2S&pid=News",
+                        "width": 700,
+                        "height": 525
+                    }
+                },
+                "description": "French MEP Fabienne Keller, of the Renew Europe group, who led the negotiations, insisted the Geneva Convention will be \u201cfully applied\u201d in the so-called waiting zones, adding: \u201cIf I may make a comparison, instead of sending people to Rwanda, we are doing it on European soil.\u201d",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3b8ddb1a-cf19-ee77-560d-9dfa00ddf070",
+                        "name": "European Union"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c7bfe2de-4f82-e23c-ae42-8544b5b5c0ea",
+                        "name": "France"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "European Union"
+                    },
+                    {
+                        "name": "France"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-20T18:55:00.0000000Z",
+                "video": {
+                    "name": "New EU anti-migrant deal will help Rishi Sunak \u2018stop the boats\u2019, claims French politician",
+                    "thumbnailUrl": "https://www.bing.com/th?id=OVF.pyw9ZYbd2ox0LzWiqRXZPA&pid=News",
+                    "embedHtml": "&lt;iframe src=&quot;https://cdn.jwplayer.com/players/SUXDHcQU-XLzx33eA.html&quot; width=&quot;480&quot; height=&quot;270&quot; frameborder=&quot;0&quot; scrolling=&quot;auto&quot;&gt;&lt;/iframe&gt;",
+                    "allowHttpsEmbed": true,
+                    "thumbnail": {
+                        "width": 520,
+                        "height": 292
+                    }
+                },
+                "category": "Politics"
+            },
+            {
+                "name": "Wellingborough byelection gives Labour another chance to humiliate Rishi Sunak",
+                "url": "https://www.theguardian.com/politics/2023/dec/20/wellingborough-byelection-gives-labour-another-chance-to-humiliate-rishi-sunak",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.UBGvZ6oM9D5x39SUpfId9S&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Recall of MP Peter Bone opens up Brexit-leaning former safe seat where defections from Tories in any direction could help Labour win",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/73388964-99e9-bfa8-c8a4-0331f036fdb6",
+                        "name": "Wellingborough"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-20T18:40:00.0000000Z"
+            },
+            {
+                "name": "Terror scout caught spying on broadcaster\u2019s London base",
+                "url": "https://uk.news.yahoo.com/convicted-spy-told-police-filmed-181145827.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.3aWVeKNuDYdiIc__Te_1ay&pid=News",
+                        "width": 700,
+                        "height": 437
+                    }
+                },
+                "description": "A terror scout spied on a dissident Iranian television channel in the UK, a court heard, as counter-terror police revealed they had foiled 15 plots linked to Iran.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8e0ba7b6-4225-fa8a-6369-1b5294e602a5",
+                        "name": "London"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a75a9ed2-34de-445d-2407-c52d8773c743",
+                        "name": "Terror"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-20T18:40:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Gavin Williamson criticises Boris Johnson\u2019s \u2018panic\u2019 pandemic school closures",
+                "url": "https://www.standard.co.uk/news/politics/gavin-williamson-boris-johnson-alevels-england-gcses-b1128363.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.wvmHYHn8YGVRZkHZIYZS8i&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The ex-education secretary said Mr Johnson\u2019s decision to shut schools in January 2021 did not \u2018sufficiently take children\u2019s interests into account\u2019.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fe217755-2d46-1c61-dded-740ff4500899",
+                        "name": "Boris Johnson"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Boris Johnson"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Panic"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-20T18:38:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "DUP questions if Rebublic&#39;s Legacy Act legal action will strain <b>UK</b> relations",
+                "url": "https://www.itv.com/news/utv/2023-12-20/donaldson-asks-what-will-republic-do-after-legacy-bid-launched",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.nFWGwBLlHTpZRxGLU8_0Xy&pid=News",
+                        "width": 700,
+                        "height": 467
+                    }
+                },
+                "description": "Politicians welcome the interstate case challenging Troubles Legacy bill as Sir Jeffrey Donaldson questions it | UTV News",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "ITV",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.HlKTyCgM99pRvmITMdZC2w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-20T18:32:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "2024 will be the year the housing crisis dwarfs the cost of living",
+                "url": "https://inews.co.uk/opinion/2024-housing-crisis-dwarfs-cost-of-living-2818780?ico=related_stories",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.RBghig7RSMUyUrqjN35Yny&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The real story of 2024 may well be that the cost of living crisis will be replaced by a cost of housing crisis. Even if wages finally outpace inflation, and even if some food and energy prices ease, the sheer difficulty in paying a rent or mortgage may further undermine any sense of security.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/da86e673-e3af-0ed9-da20-e8e53cf1917c",
+                        "name": "Cost of living"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f115d623-6266-4ee2-9fa0-d1806d861f3a",
+                        "name": "United States housing bubble"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-20T18:25:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Jeffrey Donaldson slams Dublin over attack on <b>UK</b> amnesty law: &#39;Ireland has had an amnesty for terrorists for years&#39;",
+                "url": "https://www.newsletter.co.uk/news/politics/jeffrey-donaldson-slams-dublin-over-attack-on-uk-amnesty-law-ireland-has-had-an-amnesty-for-terrorists-for-years-4453670",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.YpdeokFH4yjfd_TNivaVQC&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The Irish Government has been challenged to say what it is doing to deal with Troubles&#39; legacy cases in its jurisdiction by DUP leader Sir Jeffrey Donaldson.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/689dc179-9174-cb76-53c7-7a6d087c0148",
+                        "name": "Jeffrey Donaldson"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/77f28672-5669-4775-a58a-b62b17779010",
+                        "name": "Ireland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2bafa879-2f0e-dd4e-9d5f-299531ceb490",
+                        "name": "Amnesty"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Jeffrey Donaldson"
+                    },
+                    {
+                        "name": "Ireland"
+                    },
+                    {
+                        "name": "Amnesty"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The News Letter",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.ss7xVoJtNCz0ucC1juxNqA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-20T18:21:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "&#39;<b>Political</b> pantomime&#39; must end now that talks have concluded: Robbie Butler",
+                "url": "https://www.newsletter.co.uk/news/politics/political-pantomime-must-end-now-that-talks-have-concluded-robbie-butler-4453671",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.LguMbMCtwyzXuJVL8upoby&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The \u201cpolitical pantomime\u201d in Northern Ireland must end as the legislation governing the post-Brexit trading arrangements is not going to change, Robbie Butler has said.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/bd2854ec-8a81-ece8-7d9f-19846ecd0a9c",
+                        "name": "Butler"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Butler"
+                    },
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Robbie"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The News Letter",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.ss7xVoJtNCz0ucC1juxNqA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-20T18:21:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "The Human League announce North East date with tickets on sale Friday",
+                "url": "https://www.chroniclelive.co.uk/whats-on/music-nightlife-news/human-league-announce-north-east-28326892",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.gFlpYl9c_WVIUNzOfYUK0i&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The experimental electronic band, who formed in 1977 and are going strong more than 45 years later, are the latest addition to the summer line-up at Herrington Country Park where they will take to the stage in July. Tickets to the show will go on sale this Friday, December 22.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d234b2e9-3914-64bb-99dc-064fd28535d1",
+                        "name": "The Human League"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a55d629b-42b2-9dcf-dbd7-860a94010ae2",
+                        "name": "Chronicle Live"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0098e261-8c5d-77bf-bde9-bdc8bfa0c9d8",
+                        "name": "North East England"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "North East England"
+                    },
+                    {
+                        "name": "Chronicle Live"
+                    },
+                    {
+                        "name": "The Human League"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Evening Chronicle",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.G4kbGBXl4xfkaxnbAFtYzw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-20T18:21:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "It\u2019s the end of the Tory party as we know it",
+                "url": "https://inews.co.uk/opinion/end-tory-party-know-it-2817552?ico=related_stories",
+                "description": "Whether they&#39;ll toe the party line is another story Katy Balls: \u2018Several MPs are considering quitting the Commons \u2013 including serving ministers\u2019 (Photo: Jessica Taylor/<b>UK</b> Parliament/AFP ... the past decade of British <b>politics</b>. Whether it was jokes ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i"
+                    }
+                ],
+                "datePublished": "2023-12-20T18:12:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Putin\u2019s chilling promise to the West will send shivers down your spine",
+                "url": "https://metro.co.uk/2023/12/20/putin-vows-defend-russia-confront-west-dies-20001486/?ico=read_full_story_videopage",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.I8DKH1wtDE8yosx3Sn1aUi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "He told his security agencies: \u2018Of course, we must thwart any attempts by foreign intelligence services to destabilise the social and <b>political</b> situation in Russia ... the world\u2019s top stories? Metro.co.<b>uk</b> is now on WhatsApp sending vital updates ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/60d41b9e-06ae-967b-bcc5-97ad4a13d29c",
+                        "name": "Vladimir Putin"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a25a0bf0-f32b-af88-53bc-79585ef34e0e",
+                        "name": "Western United States"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ec43fc9e-a824-b891-33e5-832834cbb9bd",
+                        "name": "Westworld"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Metro"
+                    }
+                ],
+                "datePublished": "2023-12-20T17:29:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Most complained about TV moment of the year revealed",
+                "url": "https://metro.co.uk/2023/12/20/laurence-foxs-gb-news-rant-complained-tv-moment-2023-20003170/?ico=trending-module_author_pierra-willix_item-2",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.OnLvtiLG_tOFblidvxou3C&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Back in September the former actor was appearing on Dan Wootton Tonight when he made a string of misogynistic remarks about <b>political</b> correspondent Ava Evans. In his tirade, he made comments that included \u2018no self-respecting man would want to climb into ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/bf9f1a5b-7c13-4703-9ff6-ffb3ccac862c",
+                        "name": "Laurence Fox"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8f1e4d84-dcaf-482c-a9f7-9e076f491082",
+                        "name": "News 23"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2872a54f-b045-8fe3-d356-1aa538e14812",
+                        "name": "Metro International"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Laurence Fox"
+                    },
+                    {
+                        "name": "News 23"
+                    },
+                    {
+                        "name": "Metro International"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Metro"
+                    }
+                ],
+                "datePublished": "2023-12-20T14:01:00.0000000Z"
+            },
+            {
+                "name": "<b>UK</b> Government \u2018profoundly regrets\u2019 legal action by Irish against Legacy Act",
+                "url": "https://www.standard.co.uk/news/politics/leo-varadkar-uk-government-micheal-martin-chris-heatonharris-government-b1128365.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.dbRArReeu_aSQqZHze_qpi&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The Taoiseach said the \u201cstrong\u201d legal advice was that the <b>UK</b> Legacy Act breached the UN Convention on Human Rights. The Act received royal assent in September despite widespread opposition from <b>political</b> parties, victims\u2019 organisations in Northern ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/77f28672-5669-4775-a58a-b62b17779010",
+                        "name": "Ireland"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Ireland"
+                    },
+                    {
+                        "name": "Leo Varadkar"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "datePublished": "2023-12-19T23:59:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Jeffrey Donaldson accuses Irish Government of \u2018double standards\u2019 over Troubles bill legal case against <b>UK</b>",
+                "url": "https://www.belfasttelegraph.co.uk/news/politics/jeffrey-donaldson-and-ni-secretary-hit-out-at-inconsistent-irish-government-over-troubles-bill-legal-case-against-uk/a1842118595.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.m4EZ0aps4L05avaERozvIi&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The legislation has been opposed by the five main <b>political</b> parties in Northern Ireland, the Irish Government and victims\u2019 rights groups. The <b>UK</b> government argues the legislation aims to deliver on its pledge to deliver better outcomes for those most ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/689dc179-9174-cb76-53c7-7a6d087c0148",
+                        "name": "Jeffrey Donaldson"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ec10885d-cbd2-5ece-8d5b-7f5e05a240e9",
+                        "name": "uk"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c3da23d5-eb42-317f-bf8a-cf33b4408fbe",
+                        "name": "Government of the Republic of Ireland"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Belfast Telegraph"
+                    }
+                ],
+                "datePublished": "2023-12-19T23:59:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Donaldson accuses Irish Government of double standards over legacy challenge",
+                "url": "https://www.dorsetecho.co.uk/news/national/24004054.donaldson-accuses-irish-government-double-standards-legacy-challenge/",
+                "description": "\u201cI think the <b>UK</b> Government would take a similar view to many who would ... despite the clear opposition and concerns raised by victims and families, all <b>political</b> parties, the Irish Government, the US, UN, the Council of Europe and human rights experts.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/689dc179-9174-cb76-53c7-7a6d087c0148",
+                        "name": "Jeffrey Donaldson"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c3da23d5-eb42-317f-bf8a-cf33b4408fbe",
+                        "name": "Government of the Republic of Ireland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cbac8df7-3b5c-6632-8267-1a2127b8a31f",
+                        "name": "Challenge"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Dorset Echo"
+                    }
+                ],
+                "datePublished": "2023-12-19T23:59:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Most Brits think 2023 was a memorable year for news, study finds",
+                "url": "https://www.mirror.co.uk/news/uk-news/top-30-news-stories-2023-31711252.amp",
+                "description": "The survey of 2,000 adults revealed that exactly two-thirds would claim they are \u201cup to date\u201d with current affairs \u2013 and have most enjoyed following sports (32%) and <b>politics</b> (25%) this year. Meanwhile, for the 24% who have kept a close eye on ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "British people"
+                    },
+                    {
+                        "name": "News UK"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror"
+                    }
+                ],
+                "datePublished": "2023-12-19T09:17:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Statistics watchdog rebukes Rishi Sunak over claim debt falling",
+                "url": "https://www.bbc.co.uk/news/uk-politics-67759768?at_medium=RSS",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.vDS747Q2sMhPwH9iSrpSuS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Liberal Democrat Treasury spokeswoman Sarah Olney wrote to Sir Robert Chote, chairman of the <b>UK</b> Statistics Authority ... for the Boris Johnson playbook and is undermining trust in <b>politics</b>.&quot;",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC"
+                    }
+                ],
+                "datePublished": "2023-12-19T00:00:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    }
+]

@@ -3,6 +3,7 @@ from django.http import JsonResponse
 from django.views import View
 from .models import Entity, BingEntity, OverallSentiment, Article
 
+
 # TODO: Remove unneeded attributes from JSON views.
 
 class VisibleEntitiesView(View):
@@ -13,6 +14,7 @@ class VisibleEntitiesView(View):
             for entity in visible_entities
         ]
         return JsonResponse(serialized_entities, safe=False)
+
 
 class BingEntityDetailView(View):
     def get(self, request, *args, **kwargs):
@@ -37,6 +39,7 @@ class BingEntityDetailView(View):
         #     'image_url': bing_entity.image_url,
         # }
         return JsonResponse(serialized_entity, safe=False)
+
 
 class BingEntityMiniView(View):
     def get(self, request, *args, **kwargs):
@@ -119,7 +122,6 @@ class OverallSentimentLinear(View):
             # Assuming 'article' is the ForeignKey field in OverallSentiment
             article = get_object_or_404(Article, id=overall_sentiment.article.id)
 
-
             serialized_entity = {
                 'id': article.id,
                 'headline': article.headline,
@@ -171,5 +173,14 @@ class ArticleOverallSentimentExp(View):
 
             serialized_entities.append(serialized_entity)
 
-
         return JsonResponse(serialized_entities, safe=False)
+
+
+# Simple entity request (fall back for bing)
+def entity_name(request, entity_id):
+    try:
+        entity = Entity.objects.get(pk=entity_id)
+        name = entity.name
+        return JsonResponse({'name': name})
+    except Entity.DoesNotExist:
+        return JsonResponse({'error': 'Entity not found'}, status=404)
