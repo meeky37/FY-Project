@@ -99,7 +99,7 @@ export default {
     },
 
     isWidthSufficient (width) {
-      const minWidthToShowText = 15
+      const minWidthToShowText = 25
       const numericWidth = parseFloat(width)
       return !isNaN(numericWidth) && numericWidth >= minWidthToShowText
     },

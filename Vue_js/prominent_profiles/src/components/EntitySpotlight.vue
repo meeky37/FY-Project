@@ -33,12 +33,10 @@ export default {
   },
 
   methods: {
-
     async forcedReRender () {
       this.$emit('updateReRender', false)
-    },
-
-
+    }
+  },
   watch: {
     // Watching for changes in chartdata
     chartdata: {
