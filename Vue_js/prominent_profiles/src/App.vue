@@ -2,17 +2,19 @@
   <div id="app">
     <header>
       <div class="logo-container">
-      <a href="/">
-        <img src="@/assets/profiles rework left align.png" alt="Logo" class="logo" />
-      </a>
-    </div>
-        <div class="centered-content">
-        <EntitySelection/>
-        </div>
+        <a href="/">
+          <img src="@/assets/profiles rework left align.png" alt="Logo" class="logo" />
+        </a>
+      </div>
+      <div class="centered-content">
+        <EntitySelection />
+      </div>
       <nav>
         <router-link to="/" class="nav-link">Home</router-link>
         <router-link to="/vue" class="nav-link">Vue</router-link>
         <router-link to="/about" class="nav-link">About</router-link>
+        <router-link v-if="!authenticated" to="/login" class="nav-link">Login</router-link>
+        <router-link v-if="authenticated" to="/dashboard" class="nav-link">Dashboard</router-link>
       </nav>
     </header>
 
@@ -24,6 +26,31 @@
     </router-view>
   </div>
 </template>
+
+<script setup>
+import EntitySelection from '@/components/EntitySelection.vue'
+</script>
+
+<script>
+
+export default {
+  data () {
+    return {
+      authenticated: null
+    }
+  },
+  created () {
+    // Authentication status checked upon creation
+    this.checkAuthentication()
+  },
+  methods: {
+    checkAuthentication () {
+      // TODO: API request or check a cookie/local storage here. VUEX worthwhile?
+      this.authenticated = false
+    }
+  }
+}
+</script>
 
 <style>
 #app {
@@ -66,7 +93,7 @@ nav {
   font-size: 1.2rem;
   color: ghostwhite;
   text-decoration: none;
-    transition: color 0.3s ease; /* Smooth transition effect */
+  transition: color 0.3s ease; /* Smooth transition effect */
   border-radius: 5px;
 }
 
@@ -82,6 +109,3 @@ nav {
   outline-offset: 15px;
 }
 </style>
-<script setup>
-import EntitySelection from '@/components/EntitySelection.vue'
-</script>
