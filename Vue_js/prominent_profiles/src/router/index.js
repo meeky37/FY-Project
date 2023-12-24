@@ -1,9 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-/* import EntitySelection from '../components/EntitySelection.vue' */
 import EntityPage from '../views/EntityPage.vue'
 import HomePage from '../views/HomePage.vue'
 import ArticlePage from '../views/ArticlePage.vue'
+import LoginPage from '../views/LoginPage.vue'
 
 const routes = [
   {
@@ -21,6 +21,12 @@ const routes = [
     name: 'about',
     component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
   },
+  {
+    path: '/login',
+    name: 'login',
+    component: LoginPage
+  },
+
   // Dynamic routing for entity pages
   {
     path: '/entity/:id',
