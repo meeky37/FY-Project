@@ -46,7 +46,7 @@ class DatabaseUtils:
                 bound_text=bound_text
             )
 
-            print("Data inserted successfully for entity:", entity_name)
+            # print("Data inserted successfully for entity:", entity_name)
 
         except Exception as e:
             print(f"Error inserting data for entity {entity_name}:", e)
@@ -73,7 +73,7 @@ class DatabaseUtils:
                 exp_negative=exp_negative
             )
 
-            print("Data inserted successfully into 'OverallSentiment' table.")
+            # print("Data inserted successfully into 'OverallSentiment' table.")
 
         except Exception as e:
             print("Error inserting data into 'OverallSentiment' table:", e)
