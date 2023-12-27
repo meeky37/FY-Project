@@ -3,6 +3,8 @@ import os
 import urllib.robotparser
 import trafilatura
 import spacy
+from django.utils import timezone
+from tqdm import tqdm
 
 from django.core.management.base import BaseCommand
 from profiles_app.models import Article as ArticleModel
@@ -13,20 +15,34 @@ from django.apps import apps
 from fastcoref import FCoref
 
 from ...article_processor import Article
-from urllib.parse import urlparse
 from django.conf import settings
 
+from urllib.parse import urlparse
+from urllib.robotparser import RobotFileParser
+import urllib.request
+import socket
 
+import time
 def can_fetch_url(url_to_check):
     """Determine if the URL can be fetched by all crawlers - adding politeness / adherence to
         robot policy."""
+    # print("robo check started")
     parsed_url = urlparse(url_to_check)
     base_url = parsed_url.scheme + "://" + parsed_url.netloc
-    # print(base_url)
-    rules = urllib.robotparser.RobotFileParser()
-    rules.set_url(base_url + "/robots.txt")
-    rules.read()
-    return rules.can_fetch("*", url_to_check)
+
+    rules = RobotFileParser()
+    try:
+        with urllib.request.urlopen(base_url + "/robots.txt", timeout=5) as response:
+            rules.parse(response.read().decode('utf-8').splitlines())
+        # print("robo check done")
+        return rules.can_fetch("*", url_to_check)
+    except urllib.error.URLError as e:
+        print(f"Error accessing robots.txt: {e}")
+    except socket.timeout as e:
+        print(f"Timeout occurred: {e}")
+
+    # Default to False as if Robot can't be checked then not compliant + the site may timeout.
+    return False
 
 
 def perform_coreference_resolution(article_texts, batch_size=100):
@@ -67,6 +83,7 @@ class Command(BaseCommand):
 
             # Check if the URL has been seen before
             if url in processed_urls:
+                print('url seen before')
                 skips += 1
                 continue  # Skip this article
 
@@ -80,12 +97,28 @@ class Command(BaseCommand):
                 if can_fetch_url(url):
                     fetches += 1
                     downloaded = trafilatura.fetch_url(url)
+                    # Extract metadata
+                    metadata = trafilatura.extract_metadata(downloaded)
+                    # print(metadata.date)
+
+                    # Extract publication date
+
+                    date_str = metadata.date
+                    naive_datetime = datetime.strptime(date_str, '%Y-%m-%d')
+
+                    publication_date = timezone.make_aware(naive_datetime) # datetime aware to a
+                    # satisfy model
+
+                    # Extract some useful trafilatura metadata.
+                    author = metadata.author
+                    site_name = metadata.sitename
                     article_text = trafilatura.extract(downloaded, favour_recall=True,
                                                        include_comments=False, include_images=False,
                                                        include_tables=False)
-                    article_text = trafilatura.extract(downloaded, favour_recall=True)
+                    # article_text = trafilatura.extract(downloaded, favour_recall=True)
                     if article_text and len(article_text) > 249:
-                        article_obj = Article(url, article["title"], article_text, ner)
+                        article_obj = Article(url, article["title"], article_text, ner,
+                                              publication_date, author, site_name)
                         article_objects.append(article_obj)
                         # Mark the URL as processed
                         processed_urls.add(url)
@@ -121,31 +154,6 @@ class Command(BaseCommand):
 
         return Command.process_articles(articles, article_objects, processed_urls)
 
-    def process_unapplied_files(self):
-        # Get a list of ProcessedFile objects with nlp_applied=False
-        unapplied_files = ProcessedFile.objects.filter(nlp_applied=False)
-
-        # Initialize article_objects as an empty list
-        article_objects = []
-        processed_urls = set()
-
-        for file in unapplied_files:
-            full_path = file.full_path()
-
-            # Check if the file has already been processed
-            if full_path not in processed_urls:
-                # Retrieve articles from the current file
-                articles_from_file = self.process_file(full_path, [], processed_urls)
-
-                # Extend article_objects with articles from the current file
-                article_objects.extend(articles_from_file)
-
-                # Update the ProcessedFile object to mark it as processed
-                file.nlp_applied = True
-                file.save()
-
-        return article_objects
-
     def handle(self, *args, **options):
 
         processed_urls = set()
@@ -168,55 +176,107 @@ class Command(BaseCommand):
         # full_path_3 = os.path.join(settings.BASE_DIR, 'nlp_processor', media_path_3)
         # # article_objects.extend(self.process_file(full_path_3, article_objects, processed_urls))
 
-        article_objects = self.process_unapplied_files()
+        # Get a list of ProcessedFile objects with nlp_applied=False
+        unapplied_files = ProcessedFile.objects.filter(nlp_applied=False)
 
-        print(len(article_objects))
+        processed_urls = set()
 
-        article_texts = [article.text_body for article in article_objects]
-        article_text_clusters = perform_coreference_resolution(article_texts)
+        for file in unapplied_files:
 
-        for article, clusters in zip(article_objects, article_text_clusters):
-            article.set_coref_clusters(clusters)
+            article_objects = []
 
-        new_article_objects = []
+            full_path = file.full_path()
 
-        for article in article_objects:
-            article.source_ner_people()
-            article.determine_sentences()
-            article.determine_entity_to_cluster_mapping()
-            article.entity_cluster_map_consolidation()
+            print(full_path)
 
-            if article.database_candidate:
-                article.save_to_database()
+            # Check if the file has already been processed
+            if full_path not in processed_urls:
+                # Retrieve articles from the current file
+                articles_from_file = self.process_file(full_path, [], processed_urls)
+                # Extend article_objects with articles from the current file
+                article_objects = articles_from_file
 
-                if article.database_id != -1:
-                    for entity_data in article.clustered_entities:
-                        entity_name = entity_data['Entity Name']
-                        entity_db_id = DatabaseUtils.insert_entity(entity_name, article.database_id)
-                        print(entity_db_id)
+                article_texts = [article.text_body for article in article_objects]
+                article_text_clusters = perform_coreference_resolution(article_texts)
 
-                        # if not entity_db_id_exists_in_bing(entity_db_id):
-                        #     bing_entity_info = get_bing_entity_info(entity_name)
-                        #     if bing_entity_info:
-                        #         # Insert into the bing_entity_info table
-                        #         insert_into_bing_entity_table(entity_db_id, bing_entity_info)
-                            # else:
-                            #     bing_entity_pending = BingEntityPending.objects.filter(entity_id=entity_db_id).first()
-                            #
-                            #     if not bing_entity_pending:
-                            #         # If not, add to the BingEntityPending table
-                            #         BingEntityPending.objects.create(entity_id=entity_db_id, entity_name=entity_name)
+                for article, clusters in zip(article_objects, article_text_clusters):
+                    article.set_coref_clusters(clusters)
 
-                        entity_data['entity_db_id'] = entity_db_id
+                print("Length Article Objects: ")
 
-                    article.set_sentiment_analyser()
-                    article.get_bounds_sentiment()
-                    article.get_average_sentiment_results()
+                total_objects = len(article_objects)
+                print(f"Total objects: {total_objects}")
 
-            elif not article.database_candidate:
-                print("Not enough mentions to add")
-            else:
-                print("Article already exists in the database")
-            article_objects.remove(article)
+                i = 1
+
+                for article in article_objects:
+                    print(f"Current Progress: {i} of {total_objects}")
+                    i += 1
+
+                    start_time = time.time()
+                    article.source_ner_people()
+                    print(f"NER People Time: {time.time() - start_time} seconds")
+
+                    start_time = time.time()
+                    article.determine_sentences()
+                    print(f"Sentence determined Time: {time.time() - start_time} seconds")
+
+                    start_time = time.time()
+                    article.determine_entity_to_cluster_mapping()
+                    print(f"Entity to cluster map time: {time.time() - start_time} seconds")
+
+                    start_time = time.time()
+                    article.entity_cluster_map_consolidation()
+                    print(f"Entity cluster map consolidation Time: {time.time() - start_time} seconds")
+                    start_time = time.time()
 
 
+                    if article.database_candidate:
+                        article.save_to_database()
+
+                        if article.database_id != -1:
+                            for entity_data in article.clustered_entities:
+                                entity_name = entity_data['Entity Name']
+                                entity_db_id = DatabaseUtils.insert_entity(entity_name,
+                                                                           article.database_id)
+                                # print(entity_db_id)
+
+                                # if not entity_db_id_exists_in_bing(entity_db_id):
+                                #     bing_entity_info = get_bing_entity_info(entity_name)
+                                #     if bing_entity_info:
+                                #         # Insert into the bing_entity_info table
+                                #         insert_into_bing_entity_table(entity_db_id, bing_entity_info)
+                                # else:
+                                #     bing_entity_pending = BingEntityPending.objects.filter(entity_id=entity_db_id).first()
+                                #
+                                #     if not bing_entity_pending:
+                                #         # If not, add to the BingEntityPending table
+                                #         BingEntityPending.objects.create(entity_id=entity_db_id, entity_name=entity_name)
+
+                                entity_data['entity_db_id'] = entity_db_id
+
+                            start_time = time.time()
+                            print(f"Entity insert time: {time.time() - start_time} seconds")
+
+                            start_time = time.time()
+                            article.set_sentiment_analyser()
+                            print(
+                                f"Sentiment analyser setup time: {time.time() - start_time} seconds")
+
+                            start_time = time.time()
+                            article.get_bounds_sentiment()
+                            print(f"Bounds sentiment time: {time.time() - start_time} seconds")
+
+                            start_time = time.time()
+                            article.get_average_sentiment_results()
+                            print(f"Average results time: {time.time() - start_time} seconds")
+
+                    elif not article.database_candidate:
+                        print("Not enough mentions to add")
+                    else:
+                        print("Article already exists in the database")
+                    article.reset_attributes()
+
+                    # Update the ProcessedFile object to mark it as processed
+                file.nlp_applied = True
+                file.save()

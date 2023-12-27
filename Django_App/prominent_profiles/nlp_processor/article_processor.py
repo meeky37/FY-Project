@@ -35,21 +35,18 @@ def get_preview_image_url(url, timeout=1):
         if response.status_code == 200:
             soup = BeautifulSoup(response.text, 'html.parser')
 
-            # Open Graph image tag attempt
+
             og_image = soup.find('meta', property='og:image')
             if og_image:
                 return og_image['content']
 
-            # Otherwise, look for Twitter Card image tag
-            twitter_image = soup.find('meta', name='twitter:image')
+            # Twitter Card image tag
+            twitter_image = soup.find(name='twitter:image')
             if twitter_image:
                 return twitter_image['content']
 
-        else:
-            return None
-    except (requests.exceptions.RequestException, TimeoutError) as e:
-        print("Error:", e)
-        return None
+    except Exception as e:
+        print(f"Error fetching preview image URL: {e}")
 
 
 def merge_positions(entities, word):
@@ -212,7 +209,7 @@ class Article:
     # MENTION_REQ_PER = 0.20 - Moved to constants.py
     # ENTITY_THRESHOLD_PERCENT = 0.30 - Moved to constants.py
 
-    def __init__(self, url, headline, text_body, NER):
+    def __init__(self, url, headline, text_body, NER, date, author, site_name):
         self.url = url
         self.NER = NER
         self.headline = headline
@@ -230,7 +227,31 @@ class Article:
         self.database_id = None
         self.bounds_sentiment = None
         self.sentiment_analyser = None
+        self.publication_date = date
+        self.author = author
+        self.site_name = site_name
 
+    def reset_attributes(self):
+        """
+        Reset all attributes to their default values or set them to None.
+        """
+        self.url = None
+        self.NER = None
+        self.headline = None
+        self.image_url = None
+        self.description = None
+        self.text_body = None
+        self.coref_clusters = None
+        self.people_entities = None
+        self.sentence_bounds = None
+        self.num_sentences = None
+        self.mention_threshold = None
+        self.entity_to_cluster_mapping = []
+        self.clustered_entities = None
+        self.database_candidate = False
+        self.database_id = None
+        self.bounds_sentiment = None
+        self.sentiment_analyser = None
     def set_sentiment_analyser(self):
         self.sentiment_analyser = SentimentAnalyser()
 
@@ -306,33 +327,35 @@ class Article:
                 if percentage > max_percentage:
                     max_percentage = percentage
 
-                if percentage > 0.00:
-                    print("Entity Part: " + entity_part)
-                    print(cleaned_cluster_text)
-                    print(percentage)
-                    print('------------------------------------------')
+                # if percentage > 0.00:
+                #     print()
+                #     print("Entity Part: " + entity_part)
+                #     print(cleaned_cluster_text)
+                #     print(percentage)
+                #     print('------------------------------------------')
 
-            if max_percentage > 0.00:
-                print("Entity Name: " + entity_name)
-                print(cleaned_cluster_text)
-                print("Max % Match: " + str(max_percentage))
-                if max_percentage > ENTITY_THRESHOLD_PERCENT:
-                    print("PREDICTION:  MATCH")
-                    winning_entity_part = entity_part
-                else:
-                    print("PREDICTION: INVALID")
-                print('------------------------------------------')
+            # if max_percentage > 0.00:
+            #     print()
+            #     # print("Entity Name: " + entity_name)
+            #     # print(cleaned_cluster_text)
+            #     # print("Max % Match: " + str(max_percentage))
+            #     if max_percentage > ENTITY_THRESHOLD_PERCENT:
+            #         # print("PREDICTION:  MATCH")
+            #         winning_entity_part = entity_part
+            #     # else:
+            #         # print("PREDICTION: INVALID")
+            #     print('------------------------------------------')
 
             # cleaned_cluster_text = cleanse_cluster_text(cluster_text) believed redundant
             # total_coref_words = " ".join(cleaned_cluster_text)
             # entity_count = total_coref_words.count(entity_name)
             # percentage = entity_count / len(cleaned_cluster_text)
 
-            if max_percentage > 0.00:
-                print('Entity_name: ' + entity_name)
-                if winning_entity_part:
-                    print('Winning Entity Part: ' + winning_entity_part)
-                print('Percentage: {:.2%}'.format(max_percentage))
+            # if max_percentage > 0.00:
+            #     # print('Entity_name: ' + entity_name)
+            #     if winning_entity_part:
+            #         # print('Winning Entity Part: ' + winning_entity_part)
+            #     # print('Percentage: {:.2%}'.format(max_percentage))
 
             if max_percentage >= ENTITY_THRESHOLD_PERCENT:
                 cluster_entry = {
@@ -623,7 +646,7 @@ class Article:
                       f"threshold of {self.mention_threshold}.")
                 print(f"Removing entity {entity['Entity Name']} with Cluster ID {cluster_id} due "
                       f"to low mention count:")
-                print(entity['Cluster Info'])
+                # print(entity['Cluster Info'])
                 clustered_entities.remove(entity)
                 continue
 
@@ -666,6 +689,9 @@ class Article:
                 headline=self.headline,
                 url=self.url,
                 image_url=self.image_url,
+                publication_date=self.publication_date,
+                author=self.author,
+                site_name=self.site_name
             )
             # Add any other fields you want to save to the model
             article_model.save()
