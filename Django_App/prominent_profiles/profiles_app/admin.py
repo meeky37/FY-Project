@@ -1,8 +1,11 @@
 # profiles_app/admin.py
 from django.contrib import admin
+from django.db.models import Count
+
 from .models import Entity, Article, BoundMention, OverallSentiment, BingEntity
 
 def merge_entities(modeladmin, request, queryset):
+    queryset = queryset.annotate(article_count_numeric=Count('overallsentiment'))
     if queryset.count() == 2:
         master_entity = queryset.first()
         secondary_entity = queryset.last()
@@ -30,17 +33,36 @@ def merge_entities(modeladmin, request, queryset):
 
 merge_entities.short_description = "Merge SELECT Primary (keeping) FIRST then Secondary (deleting)"
 
+
+def make_app_visible(modeladmin, request, queryset):
+    queryset = queryset.annotate(article_count_numeric=Count('overallsentiment'))
+    queryset.update(app_visible=True)
+
+make_app_visible.short_description = "Mark selected entities as app visible"
+
 @admin.register(Article)
 class ArticleAdmin(admin.ModelAdmin):
-    list_display = ('headline', 'url', 'image_url', 'date_added')
+    list_display = ('headline', 'url', 'image_url', 'date_added', 'publication_date',
+                    'site_name', 'author')
 
 
 class EntityAdmin(admin.ModelAdmin):
-    list_display = ('name', 'type', 'app_visible', 'article_count')
+    list_display = ('name', 'type', 'app_visible', 'article_count_numeric')
     list_filter = ('app_visible',)
-    ordering = ('name',)
+    ordering = ('name',)  # Sort in descending order based on custom numeric value
     list_per_page = 1000
-    actions = [merge_entities]
+    actions = [merge_entities, make_app_visible]
+
+    def get_queryset(self, request):
+        queryset = super().get_queryset(request)
+        queryset = queryset.annotate(article_count_numeric=Count('overallsentiment'))
+        return queryset
+
+    def article_count_numeric(self, obj):
+        return obj.article_count_numeric
+
+    article_count_numeric.admin_order_field = 'article_count_numeric'
+    article_count_numeric.short_description = 'Article Count (Numeric)'
 
 
 class BingEntityAdmin(admin.ModelAdmin):
