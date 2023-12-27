@@ -6,7 +6,10 @@ from django.utils import timezone
 class Article(models.Model):
     headline = models.CharField(max_length=255, null=True)
     url = models.CharField(max_length=255, unique=True)
-    image_url = models.CharField(max_length=255, null=True)
+    image_url = models.CharField(max_length=255, null=True, blank=True)
+    publication_date = models.DateTimeField(null=True, blank=True)
+    author = models.CharField(max_length=255, null=True, blank=True)
+    site_name = models.CharField(max_length=255, null=True, blank=True)
     date_added = models.DateTimeField(auto_now_add=True)
 
 
@@ -20,6 +23,12 @@ class Entity(models.Model):
     @property
     def article_count(self):
         return OverallSentiment.objects.filter(entity=self).count()
+
+
+    # def get_article_count(self):
+    #     # Making sortable in admin portal
+    #     return self.article_count
+    # get_article_count.admin_order_field = 'article_count'
 
 
 class BingEntity(models.Model):
