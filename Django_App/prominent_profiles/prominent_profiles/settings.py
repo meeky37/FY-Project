@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     'accounts',
     'corsheaders',
     'rest_framework',
-    'rest_framework_simplejwt'
+    'rest_framework_simplejwt',
+    'django_extensions',
 ]
 
 REST_FRAMEWORK = {
@@ -52,6 +53,12 @@ REST_FRAMEWORK = {
 }
 
 AUTH_USER_MODEL = 'accounts.CustomUser'
+
+SIMPLE_JWT = {
+    'AUTH_HEADER_TYPES': ('Bearer',),
+    'TOKEN_COOKIE_SECURE': False,  # True for production will need HTTPS setup.
+    'TOKEN_COOKIE_HTTPONLY': True,
+}
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
