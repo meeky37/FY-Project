@@ -80,6 +80,8 @@ class Command(BaseCommand):
 
         for article in articles[start:end]:
             url = article["url"]
+            headline = article["title"]
+            author = article["author"]
 
             # Check if the URL has been seen before
             if url in processed_urls:
@@ -106,18 +108,24 @@ class Command(BaseCommand):
                     date_str = metadata.date
                     naive_datetime = datetime.strptime(date_str, '%Y-%m-%d')
 
-                    publication_date = timezone.make_aware(naive_datetime) # datetime aware to a
+                    publication_date = timezone.make_aware(naive_datetime)  # datetime aware to a
                     # satisfy model
 
                     # Extract some useful trafilatura metadata.
                     author = metadata.author
+
+                    if ArticleModel.objects.filter(headline=headline, author=author).exists():
+                        print('Exact headline and author already exists in db')
+                        skips += 1
+                        continue
+
                     site_name = metadata.sitename
                     article_text = trafilatura.extract(downloaded, favour_recall=True,
                                                        include_comments=False, include_images=False,
                                                        include_tables=False)
                     # article_text = trafilatura.extract(downloaded, favour_recall=True)
                     if article_text and len(article_text) > 249:
-                        article_obj = Article(url, article["title"], article_text, ner,
+                        article_obj = Article(url, headline, article_text, ner,
                                               publication_date, author, site_name)
                         article_objects.append(article_obj)
                         # Mark the URL as processed
