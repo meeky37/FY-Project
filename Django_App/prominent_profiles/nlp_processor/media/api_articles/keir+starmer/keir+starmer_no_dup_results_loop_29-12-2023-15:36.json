@@ -1,0 +1,1635 @@
+[
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=keir+starmer",
+        "queryContext": {
+            "originalQuery": "keir starmer",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 5,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=keir+starmer"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=keir+starmer&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Scotland \u2018moving politically backwards\u2019 under the SNP, says Alex Salmond",
+                "url": "https://www.telegraph.co.uk/politics/2023/12/29/alex-salmond-scotland-moving-politically-backwards-snp/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.FH9__AQewkd2O3CIl9vQRS&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "Alba Party leader country had endured a \u2018decade of drift\u2019 under the party that has \u2018dithered and delayed forging ahead to independence\u2019",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c38f323-ef02-fdd5-9d2c-4ee11468b8a3",
+                        "name": "Alex Salmond"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Scotland"
+                    },
+                    {
+                        "name": "Alex Salmond"
+                    },
+                    {
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T14:46:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Humza Yousaf says <b>Keir Starmer</b> may &#39;tweak&#39; Scottish island asylum plan",
+                "url": "https://www.thenational.scot/news/24017795.humza-yousaf-says-keir-starmer-may-tweak-scottish-island-asylum-plan/",
+                "description": "FIRST Minister Humza Yousaf has condemned plans considered by Tony Blair\u2019s former\u00a0Labour government to hold refugees on a Scottish island",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6d99b564-d527-5061-2ebd-f97730898d38",
+                        "name": "Humza Yousaf"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/50300d8a-2cf2-4968-4c3b-754e0e17484a",
+                        "name": "Asylum"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T14:39:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Yousaf: Isle of Mull migrants plan was \u2018divisive\u2019 and \u2018disparaging\u2019 to Scotland",
+                "url": "https://www.romfordrecorder.co.uk/news/national/24017757.yousaf-isle-mull-migrants-plan-divisive-disparaging-scotland/",
+                "description": "The First Minister has responded to records revealing plans mooted by aides to former prime minister Tony Blair in 2002.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6d99b564-d527-5061-2ebd-f97730898d38",
+                        "name": "Humza Yousaf"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4e47a984-d558-515c-d0dd-ddf4875cd8be",
+                        "name": "Isle of Mull"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Romford Recorder",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._Dibg0XJG95XVf71v4s4hA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T14:31:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Starmer</b> wants to tackle civil service \u2018churn\u2019 \u2013 report",
+                "url": "https://www.standard.co.uk/news/politics/keir-starmer-labour-financial-times-sue-gray-civil-service-b1129451.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.a5oMsvs1vN7CRuQuE2YghC&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Sir Keir Starmer will seek to bring stability among senior civil servants if Labour wins the next general election, according to reports.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/63a6ef59-71fd-db08-08c6-d47d973d47fb",
+                        "name": "Keir Starmer"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f8f841de-7f40-9f0c-c8ad-d32613878dc6",
+                        "name": "Civil service"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Keir Starmer"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Civil service"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T10:50:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Keir Starmer</b> told to &#39;disown&#39; Blair government&#39;s Mull asylum plans",
+                "url": "https://www.thenational.scot/news/24016870.keir-starmer-told-disown-blair-governments-mull-asylum-plans/",
+                "description": "AN SNP MP has asked if Keir Starmer will\u00a0\u201cdisown\u201d plans drafted up by Tony Blair\u2019s Labour government to set up an asylum holding camp in Mull.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d1d91533-17bc-52e6-3bac-07168bf2f8b2",
+                        "name": "Tony Blair"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/50300d8a-2cf2-4968-4c3b-754e0e17484a",
+                        "name": "Asylum"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T10:45:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=keir+starmer",
+        "queryContext": {
+            "originalQuery": "keir starmer",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 108,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=keir+starmer"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=keir+starmer&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Scotland \u2018moving politically backwards\u2019 under the SNP, says Alex Salmond",
+                "url": "https://www.telegraph.co.uk/politics/2023/12/29/alex-salmond-scotland-moving-politically-backwards-snp/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.FH9__AQewkd2O3CIl9vQRS&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "Alba Party leader country had endured a \u2018decade of drift\u2019 under the party that has \u2018dithered and delayed forging ahead to independence\u2019",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c38f323-ef02-fdd5-9d2c-4ee11468b8a3",
+                        "name": "Alex Salmond"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Scotland"
+                    },
+                    {
+                        "name": "Alex Salmond"
+                    },
+                    {
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T14:46:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Humza Yousaf says <b>Keir Starmer</b> may &#39;tweak&#39; Scottish island asylum plan",
+                "url": "https://www.thenational.scot/news/24017795.humza-yousaf-says-keir-starmer-may-tweak-scottish-island-asylum-plan/",
+                "description": "FIRST Minister Humza Yousaf has condemned plans considered by Tony Blair\u2019s former\u00a0Labour government to hold refugees on a Scottish island",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6d99b564-d527-5061-2ebd-f97730898d38",
+                        "name": "Humza Yousaf"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/50300d8a-2cf2-4968-4c3b-754e0e17484a",
+                        "name": "Asylum"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T14:39:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Boris Johnson is beaten by two huge names in poll on your favourite Tory Prime Minister",
+                "url": "https://www.express.co.uk/news/politics/1850106/best-tory-prime-minister-boris-johnson-margaret-thatcher",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.16R9dtY8nSLAEdKSVci32y&pid=News",
+                        "width": 700,
+                        "height": 415
+                    }
+                },
+                "description": "Her legacy continues today with Labour leader Sir <b>Keir Starmer</b> recently heaping praise on her. Sir Winston was in second place with 12 per cent of votes in the poll by this website. Sir Winston, who rallied Britain to victory during World War Two ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fe217755-2d46-1c61-dded-740ff4500899",
+                        "name": "Boris Johnson"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Boris Johnson"
+                    },
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Daily Express"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express"
+                    }
+                ],
+                "datePublished": "2023-12-29T14:26:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Yousaf confident of SNP general election win in Scotland",
+                "url": "https://www.heraldscotland.com/news/24017733.yousaf-confident-snp-general-election-win-scotland/",
+                "description": "First Minister Humza Yousaf said he is confident the SNP can &quot;come out on top&quot; in the forthcoming Westminster general election - despite",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6d99b564-d527-5061-2ebd-f97730898d38",
+                        "name": "Humza Yousaf"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/746fde72-9ab7-cb2c-f98e-7799f758fbba",
+                        "name": "Solomon Islands general election, 2010"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "heraldscotland",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PjDUWS-WIq7w595SCRQefg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T14:26:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Yousaf: Isle of Mull migrants plan was \u2018divisive\u2019 and \u2018disparaging\u2019 to Scotland",
+                "url": "https://www.standard.co.uk/news/politics/humza-yousaf-tony-blair-scotland-labour-first-minister-b1129500.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.9h0layadznlPRX8ZXZP_bS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The First Minister has responded to records revealing plans mooted by aides to former prime minister Tony Blair in 2002.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6d99b564-d527-5061-2ebd-f97730898d38",
+                        "name": "Humza Yousaf"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Humza Yousaf"
+                    },
+                    {
+                        "name": "Scotland"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T14:23:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "\u2018We will lose a third of parents\u2019: The private schools facing closure under Labour\u2019s tax plans",
+                "url": "https://www.telegraph.co.uk/education-and-careers/2023/12/29/labour-tax-private-schools-closure-prep-education/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Fh09LBSre7B3NCYlOMkgqi&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "Labour\u2019s proposed 20 per cent VAT tax on private school fee would have dire consequences, and wouldn\u2019t even things up anyway",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4c6b7152-7dbc-057b-36b4-d7e1855405bc",
+                        "name": "Private school"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Private school"
+                    },
+                    {
+                        "name": "Closure"
+                    },
+                    {
+                        "name": "Australian Labor Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T14:14:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Starmer</b> wants to tackle civil service \u2018churn\u2019 \u2013 report",
+                "url": "https://www.standard.co.uk/news/politics/keir-starmer-labour-financial-times-sue-gray-civil-service-b1129451.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.a5oMsvs1vN7CRuQuE2YghC&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Sir Keir Starmer will seek to bring stability among senior civil servants if Labour wins the next general election, according to reports.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/63a6ef59-71fd-db08-08c6-d47d973d47fb",
+                        "name": "Keir Starmer"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f8f841de-7f40-9f0c-c8ad-d32613878dc6",
+                        "name": "Civil service"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Keir Starmer"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Civil service"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T10:50:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Keir Starmer</b> told to &#39;disown&#39; Blair government&#39;s Mull asylum plans",
+                "url": "https://www.thenational.scot/news/24016870.keir-starmer-told-disown-blair-governments-mull-asylum-plans/",
+                "description": "AN SNP MP has asked if Keir Starmer will\u00a0\u201cdisown\u201d plans drafted up by Tony Blair\u2019s Labour government to set up an asylum holding camp in Mull.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d1d91533-17bc-52e6-3bac-07168bf2f8b2",
+                        "name": "Tony Blair"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/50300d8a-2cf2-4968-4c3b-754e0e17484a",
+                        "name": "Asylum"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T10:45:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=keir+starmer",
+        "queryContext": {
+            "originalQuery": "keir starmer",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 208,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=keir+starmer"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=keir+starmer&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Scotland \u2018moving politically backwards\u2019 under the SNP, says Alex Salmond",
+                "url": "https://www.telegraph.co.uk/politics/2023/12/29/alex-salmond-scotland-moving-politically-backwards-snp/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.FH9__AQewkd2O3CIl9vQRS&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "Alba Party leader country had endured a \u2018decade of drift\u2019 under the party that has \u2018dithered and delayed forging ahead to independence\u2019",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c38f323-ef02-fdd5-9d2c-4ee11468b8a3",
+                        "name": "Alex Salmond"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Scotland"
+                    },
+                    {
+                        "name": "Alex Salmond"
+                    },
+                    {
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T14:46:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Humza Yousaf says <b>Keir Starmer</b> may &#39;tweak&#39; Scottish island asylum plan",
+                "url": "https://www.thenational.scot/news/24017795.humza-yousaf-says-keir-starmer-may-tweak-scottish-island-asylum-plan/",
+                "description": "FIRST Minister Humza Yousaf has condemned plans considered by Tony Blair\u2019s former\u00a0Labour government to hold refugees on a Scottish island",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6d99b564-d527-5061-2ebd-f97730898d38",
+                        "name": "Humza Yousaf"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/50300d8a-2cf2-4968-4c3b-754e0e17484a",
+                        "name": "Asylum"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T14:39:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Boris Johnson is beaten by two huge names in poll on your favourite Tory Prime Minister",
+                "url": "https://www.express.co.uk/news/politics/1850106/best-tory-prime-minister-boris-johnson-margaret-thatcher",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.16R9dtY8nSLAEdKSVci32y&pid=News",
+                        "width": 700,
+                        "height": 415
+                    }
+                },
+                "description": "Her legacy continues today with Labour leader Sir <b>Keir Starmer</b> recently heaping praise on her. Sir Winston was in second place with 12 per cent of votes in the poll by this website. Sir Winston, who rallied Britain to victory during World War Two ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fe217755-2d46-1c61-dded-740ff4500899",
+                        "name": "Boris Johnson"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Boris Johnson"
+                    },
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Daily Express"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express"
+                    }
+                ],
+                "datePublished": "2023-12-29T14:26:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Yousaf confident of SNP general election win in Scotland",
+                "url": "https://www.heraldscotland.com/news/24017733.yousaf-confident-snp-general-election-win-scotland/",
+                "description": "First Minister Humza Yousaf said he is confident the SNP can &quot;come out on top&quot; in the forthcoming Westminster general election - despite",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6d99b564-d527-5061-2ebd-f97730898d38",
+                        "name": "Humza Yousaf"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/746fde72-9ab7-cb2c-f98e-7799f758fbba",
+                        "name": "Solomon Islands general election, 2010"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "heraldscotland",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PjDUWS-WIq7w595SCRQefg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T14:26:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Yousaf: Isle of Mull migrants plan was \u2018divisive\u2019 and \u2018disparaging\u2019 to Scotland",
+                "url": "https://www.standard.co.uk/news/politics/humza-yousaf-tony-blair-scotland-labour-first-minister-b1129500.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.9h0layadznlPRX8ZXZP_bS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The First Minister has responded to records revealing plans mooted by aides to former prime minister Tony Blair in 2002.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6d99b564-d527-5061-2ebd-f97730898d38",
+                        "name": "Humza Yousaf"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Humza Yousaf"
+                    },
+                    {
+                        "name": "Scotland"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T14:23:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "\u2018We will lose a third of parents\u2019: The private schools facing closure under Labour\u2019s tax plans",
+                "url": "https://www.telegraph.co.uk/education-and-careers/2023/12/29/labour-tax-private-schools-closure-prep-education/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Fh09LBSre7B3NCYlOMkgqi&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "Labour\u2019s proposed 20 per cent VAT tax on private school fee would have dire consequences, and wouldn\u2019t even things up anyway",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4c6b7152-7dbc-057b-36b4-d7e1855405bc",
+                        "name": "Private school"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Private school"
+                    },
+                    {
+                        "name": "Closure"
+                    },
+                    {
+                        "name": "Australian Labor Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T14:14:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Starmer</b> wants to tackle civil service \u2018churn\u2019 \u2013 report",
+                "url": "https://www.standard.co.uk/news/politics/keir-starmer-labour-financial-times-sue-gray-civil-service-b1129451.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.a5oMsvs1vN7CRuQuE2YghC&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Sir Keir Starmer will seek to bring stability among senior civil servants if Labour wins the next general election, according to reports.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/63a6ef59-71fd-db08-08c6-d47d973d47fb",
+                        "name": "Keir Starmer"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f8f841de-7f40-9f0c-c8ad-d32613878dc6",
+                        "name": "Civil service"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Keir Starmer"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Civil service"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T10:50:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Keir Starmer</b> told to &#39;disown&#39; Blair government&#39;s Mull asylum plans",
+                "url": "https://www.thenational.scot/news/24016870.keir-starmer-told-disown-blair-governments-mull-asylum-plans/",
+                "description": "AN SNP MP has asked if Keir Starmer will\u00a0\u201cdisown\u201d plans drafted up by Tony Blair\u2019s Labour government to set up an asylum holding camp in Mull.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d1d91533-17bc-52e6-3bac-07168bf2f8b2",
+                        "name": "Tony Blair"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/50300d8a-2cf2-4968-4c3b-754e0e17484a",
+                        "name": "Asylum"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T10:45:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=keir+starmer",
+        "queryContext": {
+            "originalQuery": "keir starmer",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 308,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=keir+starmer"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=keir+starmer&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Scotland \u2018moving politically backwards\u2019 under the SNP, says Alex Salmond",
+                "url": "https://www.telegraph.co.uk/politics/2023/12/29/alex-salmond-scotland-moving-politically-backwards-snp/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.FH9__AQewkd2O3CIl9vQRS&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "Alba Party leader country had endured a \u2018decade of drift\u2019 under the party that has \u2018dithered and delayed forging ahead to independence\u2019",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c38f323-ef02-fdd5-9d2c-4ee11468b8a3",
+                        "name": "Alex Salmond"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Scotland"
+                    },
+                    {
+                        "name": "Alex Salmond"
+                    },
+                    {
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T14:46:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Humza Yousaf says <b>Keir Starmer</b> may &#39;tweak&#39; Scottish island asylum plan",
+                "url": "https://www.thenational.scot/news/24017795.humza-yousaf-says-keir-starmer-may-tweak-scottish-island-asylum-plan/",
+                "description": "FIRST Minister Humza Yousaf has condemned plans considered by Tony Blair\u2019s former\u00a0Labour government to hold refugees on a Scottish island",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6d99b564-d527-5061-2ebd-f97730898d38",
+                        "name": "Humza Yousaf"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/50300d8a-2cf2-4968-4c3b-754e0e17484a",
+                        "name": "Asylum"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T14:39:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Boris Johnson is beaten by two huge names in poll on your favourite Tory Prime Minister",
+                "url": "https://www.express.co.uk/news/politics/1850106/best-tory-prime-minister-boris-johnson-margaret-thatcher",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.16R9dtY8nSLAEdKSVci32y&pid=News",
+                        "width": 700,
+                        "height": 415
+                    }
+                },
+                "description": "Her legacy continues today with Labour leader Sir <b>Keir Starmer</b> recently heaping praise on her. Sir Winston was in second place with 12 per cent of votes in the poll by this website. Sir Winston, who rallied Britain to victory during World War Two ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fe217755-2d46-1c61-dded-740ff4500899",
+                        "name": "Boris Johnson"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Boris Johnson"
+                    },
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Daily Express"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express"
+                    }
+                ],
+                "datePublished": "2023-12-29T14:26:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Yousaf confident of SNP general election win in Scotland",
+                "url": "https://www.heraldscotland.com/news/24017733.yousaf-confident-snp-general-election-win-scotland/",
+                "description": "First Minister Humza Yousaf said he is confident the SNP can &quot;come out on top&quot; in the forthcoming Westminster general election - despite",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6d99b564-d527-5061-2ebd-f97730898d38",
+                        "name": "Humza Yousaf"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/746fde72-9ab7-cb2c-f98e-7799f758fbba",
+                        "name": "Solomon Islands general election, 2010"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "heraldscotland",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PjDUWS-WIq7w595SCRQefg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T14:26:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Yousaf: Isle of Mull migrants plan was \u2018divisive\u2019 and \u2018disparaging\u2019 to Scotland",
+                "url": "https://www.standard.co.uk/news/politics/humza-yousaf-tony-blair-scotland-labour-first-minister-b1129500.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.9h0layadznlPRX8ZXZP_bS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The First Minister has responded to records revealing plans mooted by aides to former prime minister Tony Blair in 2002.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6d99b564-d527-5061-2ebd-f97730898d38",
+                        "name": "Humza Yousaf"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Humza Yousaf"
+                    },
+                    {
+                        "name": "Scotland"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T14:23:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "\u2018We will lose a third of parents\u2019: The private schools facing closure under Labour\u2019s tax plans",
+                "url": "https://www.telegraph.co.uk/education-and-careers/2023/12/29/labour-tax-private-schools-closure-prep-education/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Fh09LBSre7B3NCYlOMkgqi&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "Labour\u2019s proposed 20 per cent VAT tax on private school fee would have dire consequences, and wouldn\u2019t even things up anyway",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4c6b7152-7dbc-057b-36b4-d7e1855405bc",
+                        "name": "Private school"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Private school"
+                    },
+                    {
+                        "name": "Closure"
+                    },
+                    {
+                        "name": "Australian Labor Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T14:14:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Starmer</b> wants to tackle civil service \u2018churn\u2019 \u2013 report",
+                "url": "https://www.standard.co.uk/news/politics/keir-starmer-labour-financial-times-sue-gray-civil-service-b1129451.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.a5oMsvs1vN7CRuQuE2YghC&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Sir Keir Starmer will seek to bring stability among senior civil servants if Labour wins the next general election, according to reports.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/63a6ef59-71fd-db08-08c6-d47d973d47fb",
+                        "name": "Keir Starmer"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f8f841de-7f40-9f0c-c8ad-d32613878dc6",
+                        "name": "Civil service"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Keir Starmer"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Civil service"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T10:50:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Keir Starmer</b> told to &#39;disown&#39; Blair government&#39;s Mull asylum plans",
+                "url": "https://www.thenational.scot/news/24016870.keir-starmer-told-disown-blair-governments-mull-asylum-plans/",
+                "description": "AN SNP MP has asked if Keir Starmer will\u00a0\u201cdisown\u201d plans drafted up by Tony Blair\u2019s Labour government to set up an asylum holding camp in Mull.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d1d91533-17bc-52e6-3bac-07168bf2f8b2",
+                        "name": "Tony Blair"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/50300d8a-2cf2-4968-4c3b-754e0e17484a",
+                        "name": "Asylum"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T10:45:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=keir+starmer",
+        "queryContext": {
+            "originalQuery": "keir starmer",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 408,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=keir+starmer"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=keir+starmer&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Scotland \u2018moving politically backwards\u2019 under the SNP, says Alex Salmond",
+                "url": "https://www.telegraph.co.uk/politics/2023/12/29/alex-salmond-scotland-moving-politically-backwards-snp/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.FH9__AQewkd2O3CIl9vQRS&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "Alba Party leader country had endured a \u2018decade of drift\u2019 under the party that has \u2018dithered and delayed forging ahead to independence\u2019",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c38f323-ef02-fdd5-9d2c-4ee11468b8a3",
+                        "name": "Alex Salmond"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Scotland"
+                    },
+                    {
+                        "name": "Alex Salmond"
+                    },
+                    {
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T14:46:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Humza Yousaf says <b>Keir Starmer</b> may &#39;tweak&#39; Scottish island asylum plan",
+                "url": "https://www.thenational.scot/news/24017795.humza-yousaf-says-keir-starmer-may-tweak-scottish-island-asylum-plan/",
+                "description": "FIRST Minister Humza Yousaf has condemned plans considered by Tony Blair\u2019s former\u00a0Labour government to hold refugees on a Scottish island",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6d99b564-d527-5061-2ebd-f97730898d38",
+                        "name": "Humza Yousaf"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/50300d8a-2cf2-4968-4c3b-754e0e17484a",
+                        "name": "Asylum"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T14:39:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Boris Johnson is beaten by two huge names in poll on your favourite Tory Prime Minister",
+                "url": "https://www.express.co.uk/news/politics/1850106/best-tory-prime-minister-boris-johnson-margaret-thatcher",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.16R9dtY8nSLAEdKSVci32y&pid=News",
+                        "width": 700,
+                        "height": 415
+                    }
+                },
+                "description": "Her legacy continues today with Labour leader Sir <b>Keir Starmer</b> recently heaping praise on her. Sir Winston was in second place with 12 per cent of votes in the poll by this website. Sir Winston, who rallied Britain to victory during World War Two ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fe217755-2d46-1c61-dded-740ff4500899",
+                        "name": "Boris Johnson"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Boris Johnson"
+                    },
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Daily Express"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express"
+                    }
+                ],
+                "datePublished": "2023-12-29T14:26:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Yousaf confident of SNP general election win in Scotland",
+                "url": "https://www.heraldscotland.com/news/24017733.yousaf-confident-snp-general-election-win-scotland/",
+                "description": "First Minister Humza Yousaf said he is confident the SNP can &quot;come out on top&quot; in the forthcoming Westminster general election - despite",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6d99b564-d527-5061-2ebd-f97730898d38",
+                        "name": "Humza Yousaf"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/746fde72-9ab7-cb2c-f98e-7799f758fbba",
+                        "name": "Solomon Islands general election, 2010"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "heraldscotland",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PjDUWS-WIq7w595SCRQefg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T14:26:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Yousaf: Isle of Mull migrants plan was \u2018divisive\u2019 and \u2018disparaging\u2019 to Scotland",
+                "url": "https://www.standard.co.uk/news/politics/humza-yousaf-tony-blair-scotland-labour-first-minister-b1129500.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.9h0layadznlPRX8ZXZP_bS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The First Minister has responded to records revealing plans mooted by aides to former prime minister Tony Blair in 2002.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6d99b564-d527-5061-2ebd-f97730898d38",
+                        "name": "Humza Yousaf"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Humza Yousaf"
+                    },
+                    {
+                        "name": "Scotland"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T14:23:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "\u2018We will lose a third of parents\u2019: The private schools facing closure under Labour\u2019s tax plans",
+                "url": "https://www.telegraph.co.uk/education-and-careers/2023/12/29/labour-tax-private-schools-closure-prep-education/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Fh09LBSre7B3NCYlOMkgqi&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "Labour\u2019s proposed 20 per cent VAT tax on private school fee would have dire consequences, and wouldn\u2019t even things up anyway",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4c6b7152-7dbc-057b-36b4-d7e1855405bc",
+                        "name": "Private school"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Private school"
+                    },
+                    {
+                        "name": "Closure"
+                    },
+                    {
+                        "name": "Australian Labor Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T14:14:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Starmer</b> wants to tackle civil service \u2018churn\u2019 \u2013 report",
+                "url": "https://www.standard.co.uk/news/politics/keir-starmer-labour-financial-times-sue-gray-civil-service-b1129451.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.a5oMsvs1vN7CRuQuE2YghC&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Sir Keir Starmer will seek to bring stability among senior civil servants if Labour wins the next general election, according to reports.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/63a6ef59-71fd-db08-08c6-d47d973d47fb",
+                        "name": "Keir Starmer"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f8f841de-7f40-9f0c-c8ad-d32613878dc6",
+                        "name": "Civil service"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Keir Starmer"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Civil service"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T10:50:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Keir Starmer</b> told to &#39;disown&#39; Blair government&#39;s Mull asylum plans",
+                "url": "https://www.thenational.scot/news/24016870.keir-starmer-told-disown-blair-governments-mull-asylum-plans/",
+                "description": "AN SNP MP has asked if Keir Starmer will\u00a0\u201cdisown\u201d plans drafted up by Tony Blair\u2019s Labour government to set up an asylum holding camp in Mull.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d1d91533-17bc-52e6-3bac-07168bf2f8b2",
+                        "name": "Tony Blair"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/50300d8a-2cf2-4968-4c3b-754e0e17484a",
+                        "name": "Asylum"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T10:45:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    }
+]

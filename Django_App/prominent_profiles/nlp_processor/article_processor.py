@@ -17,6 +17,7 @@ from urllib.parse import urlparse
 import urllib.robotparser
 
 
+
 def can_fetch_url(url_to_check):
     """Determine if the URL can be fetched by all crawlers - adding politeness / adherence to robot
     policy."""
@@ -252,6 +253,17 @@ class Article:
         self.database_id = None
         self.bounds_sentiment = None
         self.sentiment_analyser = None
+
+
+    # def calculate_minhash(self):
+    #     """
+    #     Calculating MinHash signature of article text.
+    #     """
+    #     minhash = MinHash()
+    #     for word in self.text_body.split():
+    #         minhash.update(word.encode('utf-8'))
+    #     self.minhash_signature = str(minhash)
+
     def set_sentiment_analyser(self):
         self.sentiment_analyser = SentimentAnalyser()
 

@@ -12,9 +12,8 @@ class Article(models.Model):
     site_name = models.CharField(max_length=255, null=True, blank=True)
     date_added = models.DateTimeField(auto_now_add=True)
 
-
 class Entity(models.Model):
-    source_article = models.ForeignKey(Article, on_delete=models.PROTECT)
+    source_article = models.ForeignKey(Article, on_delete=models.CASCADE)
     name = models.CharField(max_length=50)
     type = models.CharField(max_length=50, null=True, blank=True)
     app_visible = models.BooleanField(

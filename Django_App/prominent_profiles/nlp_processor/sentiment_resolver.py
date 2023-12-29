@@ -33,7 +33,7 @@ def average_array(probabilities):
     for prob_data in probabilities:
         if not prob_data:
             continue
-        print("prob_data:", prob_data)
+        # print("prob_data:", prob_data)
         class_prob = prob_data['class_prob']
         class_label = prob_data['class_label']
 
@@ -124,7 +124,7 @@ class SentimentAnalyser:
 
             # Check if the cluster_id has been seen before
             if cluster_id in cluster_id_mapping:
-                print('Using cached bounds sentiment')
+                # print('Using cached bounds sentiment')
                 # If so, use the cached bounds_sentiment
                 for entry in cluster_id_mapping[cluster_id]:
                     bounds_key = entry['bounds_key']
@@ -204,13 +204,13 @@ class SentimentAnalyser:
         entity_averages = {}
         for bounds_key, entity_results in bounds_sentiment.items():
             for entity_name, entity_db_ids in entity_results.items():
-                print("Entity DB IDs: ")
-                print(entity_db_ids)
+                # print("Entity DB IDs: ")
+                # print(entity_db_ids)
                 for entity_db_id, results in entity_db_ids.items():
 
                     if not results:  # Empty results for an entity? Skip...
                         continue
-                    print(results)
+                    # print(results)
                     avg = average_array(results)
 
                     # Store entity - bound mention - bound text - average result in database
@@ -229,10 +229,10 @@ class SentimentAnalyser:
                         entity_averages[entity_name]["text"].append(
                             article_text[bounds_key[0]:bounds_key[1]])
 
-        print('Sentiment Scores Format: [Neutral, Positive, Negative]')
+        # print('Sentiment Scores Format: [Neutral, Positive, Negative]')
         for entity_name, averages in entity_averages.items():
             entity_db_id = averages['entity_db_ids'][0]
-            print(f"Averages for {entity_name} (Entity DB ID: {entity_db_id}):")
+            # print(f"Averages for {entity_name} (Entity DB ID: {entity_db_id}):")
             sentiment_scores = averages['sentiment_scores']
             text = averages['text']
             bounds_keys = averages['bounds_keys']
@@ -253,16 +253,16 @@ class SentimentAnalyser:
                                                         scores, text[i],
                                                         bounds_keys[i])
 
-            print('BOUND NUMBER')
+            # print('BOUND NUMBER')
             num_bound = len(averages['sentiment_scores'])
-            print(num_bound)
+            # print(num_bound)
 
             scaled_classification = scaling(averages['sentiment_scores'],
                                             k=EXPONENTIAL_K_VALUE)
 
             # Can't scale an array of [0, 0, 0] -> Divide by zero error.
             if sum(scaled_classification) == 0:
-                print(scaled_classification)
+                # print(scaled_classification)
                 continue
 
             exp_percent = percentage_contribution(scaled_classification)
@@ -280,14 +280,14 @@ class SentimentAnalyser:
                        ("Linear", linear_scaled_classification)]
 
             for system_name, system_classification in systems:
-                print(f"Under {system_name} points system:")
-                print(round_array_to_1dp(system_classification))
-                print(percentage_contribution(system_classification))
+                # print(f"Under {system_name} points system:")
+                # print(round_array_to_1dp(system_classification))
+                # print(percentage_contribution(system_classification))
 
                 majority_class = max(
                     zip(["Neutral", "Positive", "Negative"], system_classification),
                     key=lambda x: x[1])
-                print(f"{system_name} {majority_class[0]} Majority")
+                # print(f"{system_name} {majority_class[0]} Majority")
 
             print("------------------------------------------------")
 
