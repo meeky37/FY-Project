@@ -1,7 +1,8 @@
 from django.urls import path
 from .views import (VisibleEntitiesView, BingEntityDetailView,
                     BingEntityMiniView, OverallSentimentExp,
-                    OverallSentimentLinear, ArticleOverallSentimentExp, entity_name)
+                    OverallSentimentLinear, ArticleOverallSentimentExp, entity_name,
+                    increment_view_count)
 
 urlpatterns = [
     path('entities/', VisibleEntitiesView.as_view(), name='visible_entities'),
@@ -13,5 +14,7 @@ urlpatterns = [
     path('overall_sentiments/exp/article/<int:entity_id>/<int:article_id>/',
          ArticleOverallSentimentExp.as_view(),
          name='exp_article_overall'),
-    path('entity_name/<int:entity_id>/', entity_name, name='entity_name')
+    path('entity_name/<int:entity_id>/', entity_name, name='entity_name'),
+    path('increment_view_count/<int:entity_id>/', increment_view_count,
+         name='increment_view_count'),
 ]

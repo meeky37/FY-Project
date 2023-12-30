@@ -127,6 +127,8 @@ class OverallSentimentLinear(View):
                 'headline': article.headline,
                 'url': article.url,
                 'image_url': article.image_url,
+                'publication_date': article.publication_date,
+                'author': article.author,
                 'neutral': overall_sentiment.exp_neutral,
                 'positive': overall_sentiment.exp_positive,
                 'negative': overall_sentiment.exp_negative
@@ -161,11 +163,12 @@ class ArticleOverallSentimentExp(View):
         serialized_entities = []
         for overall_sentiment in overall_sentiments:
             serialized_entity = {
-                'entity_id': overall_sentiment.entity.id,
                 'id': overall_sentiment.article.id,
                 'headline': overall_sentiment.article.headline,
                 'url': overall_sentiment.article.url,
                 'image_url': overall_sentiment.article.image_url,
+                'publication_date': overall_sentiment.article.publication_date,
+                'author': overall_sentiment.article.author,
                 'neutral': overall_sentiment.exp_neutral,
                 'positive': overall_sentiment.exp_positive,
                 'negative': overall_sentiment.exp_negative
@@ -184,3 +187,10 @@ def entity_name(request, entity_id):
         return JsonResponse({'name': name})
     except Entity.DoesNotExist:
         return JsonResponse({'error': 'Entity not found'}, status=404)
+
+# Using for trending profiles front page
+def increment_view_count(request, entity_id):
+    entity = get_object_or_404(Entity, id=entity_id)
+    entity.view_count += 1
+    entity.save()
+    return JsonResponse({'message': 'View count incremented successfully'})

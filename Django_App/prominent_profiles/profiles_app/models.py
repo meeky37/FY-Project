@@ -18,6 +18,7 @@ class Entity(models.Model):
     type = models.CharField(max_length=50, null=True, blank=True)
     app_visible = models.BooleanField(
         default=False)  # So web admins can filter live entities on app.
+    view_count = models.IntegerField(default=0)
 
     @property
     def article_count(self):
