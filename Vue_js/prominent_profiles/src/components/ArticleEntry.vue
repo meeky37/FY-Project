@@ -12,7 +12,7 @@
             <font-awesome-icon :icon="['fas', 'external-link-alt']" />
           </a>
           <div class="button-container" @click="viewArticleDetail">
-          <font-awesome-icon :icon="['fas', 'magnifying-glass-chart']"/>
+          <font-awesome-icon :icon="['fas', 'magnifying-glass-chart']" style="color: #755BB4;"/>
           </div>
         </div>
       </div>

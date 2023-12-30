@@ -16,9 +16,9 @@
           <img :src="Article[0].image_url" alt="Article Photo" />
         </div>
         <h2>Published Date</h2>
-        <p>Date Here Once In Backend</p>
+         <p>{{ formatPublicationDate(Article[0].publication_date) }}</p>
         <h2>Author</h2>
-        <p>Author Here Once In Backend</p>
+        <p>{{ Article[0].author }}</p>
         <h2>{{getSubsection ( Article[0].url)}}
         <a :href="Article[0].url" target="_blank" rel="noopener noreferrer" class="external-link">
             <font-awesome-icon :icon="['fas', 'external-link-alt']" />
@@ -50,7 +50,7 @@ import PageFooter from '../components/PageFooter.vue'
 import EntitySpotlight from '@/components/EntitySpotlight.vue'
 import { API_BASE_URL } from '@/config.js'
 import ArticleOtherEntities from '@/components/ArticleOtherEntities.vue'
-
+import { format } from 'date-fns'
 export default {
   name: 'ArticlePage',
 
@@ -119,6 +119,12 @@ export default {
   },
 
   methods: {
+
+    formatPublicationDate (dateString) {
+      const date = new Date(dateString)
+      const formattedDate = format(date, 'eeee do MMMM y')
+      return formattedDate
+    },
 
     updateReRender (value) {
       this.re_render = value

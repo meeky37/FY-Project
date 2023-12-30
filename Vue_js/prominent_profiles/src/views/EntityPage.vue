@@ -41,6 +41,7 @@
 import ArticleEntriesContainer from '../components/ArticleEntriesContainer.vue'
 import PageFooter from '../components/PageFooter.vue'
 import { API_BASE_URL } from '@/config.js'
+import VueCookie from 'vue-cookie'
 export default {
   name: 'EntityPage',
 
@@ -68,7 +69,9 @@ export default {
 
   created () {
     // Fetch BingEntity JSON based on the entity ID from Django backend
+
     this.fetchBingEntity()
+    VueCookie.set('viewedProfiles', [])
   },
 
   methods: {
