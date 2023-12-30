@@ -81,7 +81,6 @@ class Command(BaseCommand):
         for article in articles[start:end]:
             url = article["url"]
             headline = article["title"]
-            author = article["author"]
 
             # Check if the URL has been seen before
             if url in processed_urls:
