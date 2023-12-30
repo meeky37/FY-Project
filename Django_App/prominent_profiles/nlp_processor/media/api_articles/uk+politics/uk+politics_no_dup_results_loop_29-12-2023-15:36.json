@@ -1,0 +1,3440 @@
+[
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics",
+        "queryContext": {
+            "originalQuery": "uk politics",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 18,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Black Panthers and an affair with a soldier: what Maestro doesn\u2019t tell you about Bernstein",
+                "url": "https://www.telegraph.co.uk/films/2023/12/29/maestro-leonard-bernstein-bradley-cooper-truth-facts/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.WGwFDmWUqgcjqj74pK4Fqi&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "Bradley Cooper\u2019s biopic is magnificent, but the life of Leonard Bernstein was far too colourful \u2013 and complicated \u2013 for one movie",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/416a33c3-2ecb-57b2-2440-bfe0a69d6860",
+                        "name": "Leonard Bernstein"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d47ac069-46c4-ac20-b5d3-156bfd272097",
+                        "name": "Maestro"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Leonard Bernstein"
+                    },
+                    {
+                        "name": "Maestro"
+                    },
+                    {
+                        "name": "Bradley Cooper"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T15:14:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Cheltenham Festival 2024: Bookmaker becomes first to offer \u2018non-runner no bet\u2019 on all races",
+                "url": "https://www.mirror.co.uk/sport/horse-racing/william-hill-cheltenham-festival-non-31769046",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.SkbJUrXCTVKKHsAfyJxX8C&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "William Hill will refund stakes on any Cheltenham Fesitval selection which does not run at the meeting in March on bets placed from New Year\u2019s Day",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "Runner"
+                    },
+                    {
+                        "name": "Cheltenham Festival"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T15:07:00.0000000Z",
+                "category": "Sports"
+            },
+            {
+                "name": "Scotland \u2018moving politically backwards\u2019 under the SNP, says Alex Salmond",
+                "url": "https://www.telegraph.co.uk/politics/2023/12/29/alex-salmond-scotland-moving-politically-backwards-snp/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.FH9__AQewkd2O3CIl9vQRS&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "Alba Party leader country had endured a \u2018decade of drift\u2019 under the party that has \u2018dithered and delayed forging ahead to independence\u2019",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c38f323-ef02-fdd5-9d2c-4ee11468b8a3",
+                        "name": "Alex Salmond"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Scotland"
+                    },
+                    {
+                        "name": "Alex Salmond"
+                    },
+                    {
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T14:46:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Government will not allow public services to deteriorate further says Chris Heaton-Harris",
+                "url": "https://www.newsletter.co.uk/news/politics/government-will-not-allow-public-services-to-deteriorate-further-says-chris-heaton-harris-4461119",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.0y7ulHbv6YI5AJhzznMYDi&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The UK Government will not stand by and allow public services to deteriorate in Northern Ireland while Stormont remains suspended, Chris Heaton-Harris has said",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e50a7993-c496-1cc9-2b5a-6d176a7d73f5",
+                        "name": "Public service"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5634d914-4190-dd0b-fa80-715c2ac46335",
+                        "name": "Government"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Public service"
+                    },
+                    {
+                        "name": "Government"
+                    },
+                    {
+                        "name": "Advertising"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The News Letter",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.ss7xVoJtNCz0ucC1juxNqA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T14:46:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Allister invokes Ulster Covenant as his New Year message calls for equal <b>UK</b> citizenship to be the core aim of unionism",
+                "url": "https://www.newsletter.co.uk/news/politics/allister-invokes-ulster-covenant-as-his-new-year-message-calls-for-equal-uk-citizenship-to-be-the-core-aim-of-unionism-4461110",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.emNI4VzoEnOCUdIyrQMoui&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The TUV leader says unionists should be guided by their founding fathers who rallied around a demand for equal citizenship during the Home Rule crisis \u2013 and says they must take the political long view and not rush back to Stormont next year.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b87af861-2161-9cc0-deee-a6c5a1aca517",
+                        "name": "Jim Allister"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Jim Allister"
+                    },
+                    {
+                        "name": "Ulster Covenant"
+                    },
+                    {
+                        "name": "British nationality law"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The News Letter",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.ss7xVoJtNCz0ucC1juxNqA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T14:40:00.0000000Z"
+            },
+            {
+                "name": "Scotland is \u2018moving politically backwards\u2019, says Alex Salmond",
+                "url": "https://www.scotsman.com/news/politics/scotland-is-moving-politically-backwards-says-alex-salmond-4461100",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Ps7C_dj0BOerbLEws8A2mi&pid=News",
+                        "width": 640,
+                        "height": 427
+                    }
+                },
+                "description": "Former first minister Alex Salmond has claimed that Scotland is \u201cmoving politically backwards\u201d as he hit out at both the Scottish Government and the SNP.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c38f323-ef02-fdd5-9d2c-4ee11468b8a3",
+                        "name": "Alex Salmond"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Alex Salmond"
+                    },
+                    {
+                        "name": "Scotland"
+                    },
+                    {
+                        "name": "Scottish National Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Scotsman",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.QlHkHD_RALY4hnQHpw7jBw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T14:31:00.0000000Z"
+            },
+            {
+                "name": "Humza Yousaf says SNP can \u2018come out on top\u2019 in general election",
+                "url": "https://www.andoveradvertiser.co.uk/news/national/24017643.humza-yousaf-says-snp-can-come-top-general-election/",
+                "description": "However, elections expert Professor Sir John Curtice said the SNP leader is \u2018nothing like as popular\u2019 as his predecessor, Nicola Sturgeon.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6d99b564-d527-5061-2ebd-f97730898d38",
+                        "name": "Humza Yousaf"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1a4e0af9-6c54-738a-bc2b-24faf29f4acd",
+                        "name": "Andover"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8d8aa22b-becb-80d8-677c-a3161e16cbf5",
+                        "name": "General election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Andover Advertiser",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.9HBvLtaNrUh8B9TIacJccw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T14:03:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "It&#39;s time our politicians stopped treating islanders with contempt",
+                "url": "https://www.heraldscotland.com/politics/viewpoint/24016220.time-politicians-stopped-treating-islanders-contempt/",
+                "description": "Over the centuries, some have been depopulated out of necessity, such as St Kilda, some by choice as the islanders moved elsewhere while many, of course, were brutally cleared by landowners and replaced with sheep.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d1d85ec7-1cbb-6ee9-88a8-8af94518438a",
+                        "name": "Time"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "heraldscotland",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PjDUWS-WIq7w595SCRQefg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T14:00:00.0000000Z"
+            },
+            {
+                "name": "Humza Yousaf \u2018nothing like as popular\u2019 as Nicola Sturgeon, says poll expert",
+                "url": "https://www.thetimes.co.uk/article/humza-yousaf-nothing-like-as-popular-as-nicola-sturgeon-says-poll-expert-rn8sbrmgh",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.rEA5XOCqyr4JYzarujIeJy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "John Curtice said the former first minister\u2019s decision to step down had \u2018quite substantial political consequences\u2019 for the SNP",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6d99b564-d527-5061-2ebd-f97730898d38",
+                        "name": "Humza Yousaf"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40ff83fa-c18c-9216-49aa-77a9d6a5cc28",
+                        "name": "Nicola Sturgeon"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e320dd44-b39b-fd9b-7883-0fe89bb44ace",
+                        "name": "Poll"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T14:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>UK</b> Government \u2018will not allow public services to deteriorate further while Stormont suspended\u2019",
+                "url": "https://www.irishnews.com/news/northern-ireland/uk-government-will-not-allow-public-services-to-deteriorate-further-while-stormont-suspended-2KETNTHFD5OJTFKRKGYHE65PQA/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.1F-YHDGU_XvrfXARMRPcPy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The UK Government will not stand by and allow public services to deteriorate in Northern Ireland while Stormont remains suspended, Chris Heaton-Harris has said.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e50a7993-c496-1cc9-2b5a-6d176a7d73f5",
+                        "name": "Public service"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a90b5298-84f6-98a8-19eb-b42f3c47432b",
+                        "name": "Government of the United Kingdom"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Public service"
+                    },
+                    {
+                        "name": "Government of the United Kingdom"
+                    },
+                    {
+                        "name": "The Irish News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Irish News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.__x40GFqMbYWdAqfe63VNg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T13:53:00.0000000Z"
+            },
+            {
+                "name": "One death linked to E.coli outbreak",
+                "url": "https://www.edp24.co.uk/news/national/24017613.one-death-linked-e-coli-outbreak/",
+                "description": "One person has died following an outbreak of E.coli, health officials have said. The UK Health Security Agency (UKHSA) said 30 confirmed cases of Shiga toxin-producing E.coli (Stec) have been recorded across England and Scotland since late July in people aged seven to 81.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5d86306f-67d9-f27b-ef17-1a1ef0e1c79c",
+                        "name": "Victory or death"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6930f53b-f054-4777-8575-751f382e6137",
+                        "name": "Outbreak"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "EDP 24",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.jwNaXSYAQbMSCRbjWcrBZA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T13:52:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "FTSE 100 ends year up 3.8% but trails rival markets in Europe and US",
+                "url": "https://www.theguardian.com/business/2023/dec/29/ftse-100-up-but-europe-us-uk-wall-street-sp-500",
+                "description": "Lack of tech companies leaves UK floundering against Wall Street, where S&amp;P 500 has jumped 25%",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/501457aa-5b70-cfba-cfd8-be882b4bac1e",
+                        "name": "Europe"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Europe"
+                    },
+                    {
+                        "name": "The Guardian"
+                    },
+                    {
+                        "name": "FTSE 100 Index"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T13:47:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Heaton-Harris: Government will not allow public services to deteriorate further",
+                "url": "https://www.inverness-courier.co.uk/news/national/heaton-harris-government-will-not-allow-public-services-to-deteriorate-further-96481/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.4J352val5Z5R9aN6jgo41C&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The UK Government will not stand by and allow public services to deteriorate in Northern Ireland while Stormont remains suspended, Chris Heaton-Harris has said.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d161f15f-ff75-140a-17ba-9a1468b0c0a9",
+                        "name": "Harris, Scotland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e50a7993-c496-1cc9-2b5a-6d176a7d73f5",
+                        "name": "Public service"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5634d914-4190-dd0b-fa80-715c2ac46335",
+                        "name": "Government"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Inverness Courier",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.XhhVRILA3jWO7XL7zsgWPA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T13:31:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "British <b>politics</b> is rotting from the bottom up: pity our crisis-hit local councils",
+                "url": "https://www.theguardian.com/commentisfree/2023/dec/29/british-politics-local-councils-ministers-town-hall-democracy",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.gTSmbydPw4Yb6GhyTTbp2i&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The collapse of town hall democracy is a scandal unfolding in real time, says Guardian columnist Simon Jenkins",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d7c5d11c-8bbb-f65c-2798-0d4de284390d",
+                        "name": "Simon Jenkins"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Simon Jenkins"
+                    },
+                    {
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "name": "Crisis"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T10:19:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Best of opinion 2023: From <b>politics</b> to Barbie, City A.M.\u2019s top comment pieces of the year",
+                "url": "https://uk.finance.yahoo.com/news/best-opinion-2023-politics-barbie-060000870.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.dlD7GwPT1DZEl4qatn8mmS&pid=News",
+                        "width": 360,
+                        "height": 160
+                    }
+                },
+                "description": "As 2023 comes to a close, we take a look back at the best of opinion from City A.M.&#39;s columnists, from office politics to Barbiemania.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Finance",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.LBn5t3rqxzpf5jMTBU81BA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T01:00:00.0000000Z"
+            },
+            {
+                "name": "National Archive secrets: whatever happened to the 30-year rule?",
+                "url": "https://www.independent.co.uk/news/uk/politics/politics-explained/national-archive-secret-papers-30-year-rule-blair-thatcher-b2470893.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.dGEYUyidddTx6otc8u45Vi&pid=News",
+                        "width": 700,
+                        "height": 525
+                    }
+                },
+                "description": "There is nothing new in <b>politics</b>. Twenty years ago ... The other is that the Rwanda plan is not for offshore processing of claims for asylum in the <b>UK</b>, but for processing by Rwanda of claims for asylum in Rwanda. There are other controversies that still ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent"
+                    }
+                ],
+                "datePublished": "2023-12-29T00:00:00.0000000Z"
+            },
+            {
+                "name": "Birmingham Airport storm protocol after pilots battle crosswinds and Emirates A380 circles city",
+                "url": "https://www.birminghammail.co.uk/news/midlands-news/birmingham-airport-storm-protocol-after-28363215",
+                "description": "Storm Gerrit has seen gusts of up to 70mph hit the <b>UK</b>, causing disruption to airports ... For more stories from across Solihull including BHX, breaking news, <b>politics</b> and what&#39;s on, sign up to our MySolihull newsletter here",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/65c06c9f-1d61-6dd5-f24a-38c3b3ad392c",
+                        "name": "Birmingham Airport"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/aaac0a14-911d-49c8-ac97-51d9f9100ad7",
+                        "name": "Birmingham"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/254a2621-4625-0f85-0b9d-13e4e75e5c9b",
+                        "name": "United Arab Emirates"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Birmingham Airport"
+                    },
+                    {
+                        "name": "Birmingham"
+                    },
+                    {
+                        "name": "United Arab Emirates"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Birmingham Mail"
+                    }
+                ],
+                "datePublished": "2023-12-29T00:00:00.0000000Z"
+            },
+            {
+                "name": "In 2024, the &#39;year of elections&#39;, persuading young voters to have faith in democracy will be a vital task \u2013 Joyce McMillan",
+                "url": "https://www.scotsman.com/news/opinion/columnists/in-2024-the-year-of-elections-persuading-young-voters-to-have-faith-in-democracy-will-be-a-vital-task-joyce-mcmillan-4460189",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.W3_z6W4W7tJNDSeLR9kBBC&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Young people\u2019s cynicism about party politics must be music to the ears of the wealthy and powerful who oppose interference by democratically elected politicians",
+                "mentions": [
+                    {
+                        "name": "Democracy"
+                    },
+                    {
+                        "name": "Opinion"
+                    },
+                    {
+                        "name": "Columnist"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Scotsman",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.QlHkHD_RALY4hnQHpw7jBw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-28T16:02:00.0000000Z",
+                "category": "World"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics",
+        "queryContext": {
+            "originalQuery": "uk politics",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 139,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Families could use EV batteries to power their homes and save on bills as government backs new charging technologies",
+                "url": "https://www.yourthurrock.com/2023/12/29/families-could-use-ev-batteries-to-power-their-homes-and-save-on-bills-as-government-backs-new-charging-technologies/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.tXiVqRPxsEonB-p3nwDisi&pid=News",
+                        "width": 700,
+                        "height": 379
+                    }
+                },
+                "description": "FAMILIES could soon save hundreds of pounds on energy bills by using electricity stored in their electric vehicles (EVs) to power home appliances such as fridges and washing machines \u2013 thanks to new two-way charging technologies being supported with government funding.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/bedf34f2-21ac-0112-5533-ce266f13a89a",
+                        "name": "Thurrock"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f5b3a740-bed2-59d0-cc50-9901a36f231d",
+                        "name": "Charging"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Your Thurrock"
+                    }
+                ],
+                "datePublished": "2023-12-29T15:32:00.0000000Z",
+                "category": "ScienceAndTechnology"
+            },
+            {
+                "name": "Beautiful &#39;mould-loving&#39; plants that banish condensation and mildew in your home",
+                "url": "https://www.mirror.co.uk/news/beautiful-mould-loving-plants-banish-31769209",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.bT6FKw_fh4pmFE57OYA97i&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Condensation and mould can be a nuisance in your home, particularly in the winter months, but these &#39;mould-loving&#39; plants can help banish the issue for good, whilst being a beautiful addition to any r",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "Condensation"
+                    },
+                    {
+                        "name": "United States"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T15:30:00.0000000Z"
+            },
+            {
+                "name": "Black Panthers and an affair with a soldier: what Maestro doesn\u2019t tell you about Bernstein",
+                "url": "https://www.telegraph.co.uk/films/2023/12/29/maestro-leonard-bernstein-bradley-cooper-truth-facts/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.WGwFDmWUqgcjqj74pK4Fqi&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "Bradley Cooper\u2019s biopic is magnificent, but the life of Leonard Bernstein was far too colourful \u2013 and complicated \u2013 for one movie",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/416a33c3-2ecb-57b2-2440-bfe0a69d6860",
+                        "name": "Leonard Bernstein"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d47ac069-46c4-ac20-b5d3-156bfd272097",
+                        "name": "Maestro"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Leonard Bernstein"
+                    },
+                    {
+                        "name": "Maestro"
+                    },
+                    {
+                        "name": "Bradley Cooper"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T15:14:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Cheltenham Festival 2024: Bookmaker becomes first to offer \u2018non-runner no bet\u2019 on all races",
+                "url": "https://www.mirror.co.uk/sport/horse-racing/william-hill-cheltenham-festival-non-31769046",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.SkbJUrXCTVKKHsAfyJxX8C&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "William Hill will refund stakes on any Cheltenham Fesitval selection which does not run at the meeting in March on bets placed from New Year\u2019s Day",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "Runner"
+                    },
+                    {
+                        "name": "Cheltenham Festival"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T15:07:00.0000000Z",
+                "category": "Sports"
+            },
+            {
+                "name": "Scotland \u2018moving politically backwards\u2019 under the SNP, says Alex Salmond",
+                "url": "https://www.telegraph.co.uk/politics/2023/12/29/alex-salmond-scotland-moving-politically-backwards-snp/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.FH9__AQewkd2O3CIl9vQRS&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "Alba Party leader country had endured a \u2018decade of drift\u2019 under the party that has \u2018dithered and delayed forging ahead to independence\u2019",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c38f323-ef02-fdd5-9d2c-4ee11468b8a3",
+                        "name": "Alex Salmond"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Scotland"
+                    },
+                    {
+                        "name": "Alex Salmond"
+                    },
+                    {
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T14:46:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Government will not allow public services to deteriorate further says Chris Heaton-Harris",
+                "url": "https://www.newsletter.co.uk/news/politics/government-will-not-allow-public-services-to-deteriorate-further-says-chris-heaton-harris-4461119",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.0y7ulHbv6YI5AJhzznMYDi&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The UK Government will not stand by and allow public services to deteriorate in Northern Ireland while Stormont remains suspended, Chris Heaton-Harris has said",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e50a7993-c496-1cc9-2b5a-6d176a7d73f5",
+                        "name": "Public service"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5634d914-4190-dd0b-fa80-715c2ac46335",
+                        "name": "Government"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Public service"
+                    },
+                    {
+                        "name": "Government"
+                    },
+                    {
+                        "name": "Advertising"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The News Letter",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.ss7xVoJtNCz0ucC1juxNqA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T14:46:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Allister invokes Ulster Covenant as his New Year message calls for equal <b>UK</b> citizenship to be the core aim of unionism",
+                "url": "https://www.newsletter.co.uk/news/politics/allister-invokes-ulster-covenant-as-his-new-year-message-calls-for-equal-uk-citizenship-to-be-the-core-aim-of-unionism-4461110",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.emNI4VzoEnOCUdIyrQMoui&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The TUV leader says unionists should be guided by their founding fathers who rallied around a demand for equal citizenship during the Home Rule crisis \u2013 and says they must take the political long view and not rush back to Stormont next year.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b87af861-2161-9cc0-deee-a6c5a1aca517",
+                        "name": "Jim Allister"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Jim Allister"
+                    },
+                    {
+                        "name": "Ulster Covenant"
+                    },
+                    {
+                        "name": "British nationality law"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The News Letter",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.ss7xVoJtNCz0ucC1juxNqA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T14:40:00.0000000Z"
+            },
+            {
+                "name": "Scotland is \u2018moving politically backwards\u2019, says Alex Salmond",
+                "url": "https://www.scotsman.com/news/politics/scotland-is-moving-politically-backwards-says-alex-salmond-4461100",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Ps7C_dj0BOerbLEws8A2mi&pid=News",
+                        "width": 640,
+                        "height": 427
+                    }
+                },
+                "description": "Former first minister Alex Salmond has claimed that Scotland is \u201cmoving politically backwards\u201d as he hit out at both the Scottish Government and the SNP.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c38f323-ef02-fdd5-9d2c-4ee11468b8a3",
+                        "name": "Alex Salmond"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Alex Salmond"
+                    },
+                    {
+                        "name": "Scotland"
+                    },
+                    {
+                        "name": "Scottish National Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Scotsman",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.QlHkHD_RALY4hnQHpw7jBw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T14:31:00.0000000Z"
+            },
+            {
+                "name": "Humza Yousaf says SNP can \u2018come out on top\u2019 in general election",
+                "url": "https://www.andoveradvertiser.co.uk/news/national/24017643.humza-yousaf-says-snp-can-come-top-general-election/",
+                "description": "However, elections expert Professor Sir John Curtice said the SNP leader is \u2018nothing like as popular\u2019 as his predecessor, Nicola Sturgeon.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6d99b564-d527-5061-2ebd-f97730898d38",
+                        "name": "Humza Yousaf"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1a4e0af9-6c54-738a-bc2b-24faf29f4acd",
+                        "name": "Andover"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8d8aa22b-becb-80d8-677c-a3161e16cbf5",
+                        "name": "General election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Andover Advertiser",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.9HBvLtaNrUh8B9TIacJccw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T14:03:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "It&#39;s time our politicians stopped treating islanders with contempt",
+                "url": "https://www.heraldscotland.com/politics/viewpoint/24016220.time-politicians-stopped-treating-islanders-contempt/",
+                "description": "Over the centuries, some have been depopulated out of necessity, such as St Kilda, some by choice as the islanders moved elsewhere while many, of course, were brutally cleared by landowners and replaced with sheep.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d1d85ec7-1cbb-6ee9-88a8-8af94518438a",
+                        "name": "Time"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "heraldscotland",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PjDUWS-WIq7w595SCRQefg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T14:00:00.0000000Z"
+            },
+            {
+                "name": "Humza Yousaf \u2018nothing like as popular\u2019 as Nicola Sturgeon, says poll expert",
+                "url": "https://www.thetimes.co.uk/article/humza-yousaf-nothing-like-as-popular-as-nicola-sturgeon-says-poll-expert-rn8sbrmgh",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.rEA5XOCqyr4JYzarujIeJy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "John Curtice said the former first minister\u2019s decision to step down had \u2018quite substantial political consequences\u2019 for the SNP",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6d99b564-d527-5061-2ebd-f97730898d38",
+                        "name": "Humza Yousaf"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40ff83fa-c18c-9216-49aa-77a9d6a5cc28",
+                        "name": "Nicola Sturgeon"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e320dd44-b39b-fd9b-7883-0fe89bb44ace",
+                        "name": "Poll"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T14:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>UK</b> Government \u2018will not allow public services to deteriorate further while Stormont suspended\u2019",
+                "url": "https://www.irishnews.com/news/northern-ireland/uk-government-will-not-allow-public-services-to-deteriorate-further-while-stormont-suspended-2KETNTHFD5OJTFKRKGYHE65PQA/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.1F-YHDGU_XvrfXARMRPcPy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The UK Government will not stand by and allow public services to deteriorate in Northern Ireland while Stormont remains suspended, Chris Heaton-Harris has said.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e50a7993-c496-1cc9-2b5a-6d176a7d73f5",
+                        "name": "Public service"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a90b5298-84f6-98a8-19eb-b42f3c47432b",
+                        "name": "Government of the United Kingdom"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Public service"
+                    },
+                    {
+                        "name": "Government of the United Kingdom"
+                    },
+                    {
+                        "name": "The Irish News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Irish News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.__x40GFqMbYWdAqfe63VNg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T13:53:00.0000000Z"
+            },
+            {
+                "name": "One death linked to E.coli outbreak",
+                "url": "https://www.edp24.co.uk/news/national/24017613.one-death-linked-e-coli-outbreak/",
+                "description": "One person has died following an outbreak of E.coli, health officials have said. The UK Health Security Agency (UKHSA) said 30 confirmed cases of Shiga toxin-producing E.coli (Stec) have been recorded across England and Scotland since late July in people aged seven to 81.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5d86306f-67d9-f27b-ef17-1a1ef0e1c79c",
+                        "name": "Victory or death"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6930f53b-f054-4777-8575-751f382e6137",
+                        "name": "Outbreak"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "EDP 24",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.jwNaXSYAQbMSCRbjWcrBZA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T13:52:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "FTSE 100 ends year up 3.8% but trails rival markets in Europe and US",
+                "url": "https://www.theguardian.com/business/2023/dec/29/ftse-100-up-but-europe-us-uk-wall-street-sp-500",
+                "description": "Lack of tech companies leaves UK floundering against Wall Street, where S&amp;P 500 has jumped 25%",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/501457aa-5b70-cfba-cfd8-be882b4bac1e",
+                        "name": "Europe"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Europe"
+                    },
+                    {
+                        "name": "The Guardian"
+                    },
+                    {
+                        "name": "FTSE 100 Index"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T13:47:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Heaton-Harris: Government will not allow public services to deteriorate further",
+                "url": "https://www.standard.co.uk/news/politics/chris-heatonharris-uk-government-government-stormont-northern-ireland-b1129489.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.dbRArReeu_aSQqZHze_qpi&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The UK Government will not stand by and allow public services to deteriorate in Northern Ireland while Stormont remains suspended, Chris Heaton-Harris has said.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5634d914-4190-dd0b-fa80-715c2ac46335",
+                        "name": "Government"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Government"
+                    },
+                    {
+                        "name": "Public service"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T13:29:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Could Beast from the East be returning to Suffolk in 2024?",
+                "url": "https://www.eadt.co.uk/news/24017500.beast-east-returning-suffolk-2024/",
+                "description": "The Met Office has said there is an &quot;increased chance&quot; of the weather phenomenon that brought the Beast from the East returning",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b891db46-5bbb-53eb-6a27-28ae58d995e9",
+                        "name": "Suffolk"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b6840aea-778b-5580-2bd3-303741412704",
+                        "name": "Beast From the East"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/33d35ab6-7676-5c03-5906-e26a50c76ef6",
+                        "name": "Returning"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "East Anglian Daily Times 24",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CXPjikUm43cC0YgIcs5aaQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T13:27:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Could Beast from the East be returning to Norfolk in 2024?",
+                "url": "https://www.edp24.co.uk/news/24017030.beast-east-returning-norfolk-2024/",
+                "description": "The Met Office has said there is an &quot;increased chance&quot; of the weather phenomenon that brought the Beast from the East returning",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1f7d5120-8b19-7582-e7d0-2351c715f854",
+                        "name": "Norfolk"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b6840aea-778b-5580-2bd3-303741412704",
+                        "name": "Beast From the East"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/33d35ab6-7676-5c03-5906-e26a50c76ef6",
+                        "name": "Returning"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "EDP 24",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.jwNaXSYAQbMSCRbjWcrBZA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T13:09:00.0000000Z"
+            },
+            {
+                "name": "Northern Ireland\u2019s top 100 newsmakers of 2023, No 75-51",
+                "url": "https://www.belfasttelegraph.co.uk/life/weekend/northern-irelands-top-100-newsmakers-of-2023-no-75-51/a537504302.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.YoL0hfDsloyQpb79Et5fBy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "A mix of the good, the bad and the bizarre who made the news in Northern Ireland this year, ranked from 75 to 51.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4b8bc44-385c-e87b-bb7d-b32328f53502",
+                        "name": "Northern Ireland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ec10885d-cbd2-5ece-8d5b-7f5e05a240e9",
+                        "name": "uk"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Belfast Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.KbCSMEkTE1gbQLCbNWqCnw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T13:00:00.0000000Z",
+                "category": "Sports"
+            },
+            {
+                "name": "Nicola Sturgeon\u2019s arrest, the iPad scandal &amp; failed gender bill \u2013 A look back at a shock year in Scottish <b>Politics</b>",
+                "url": "https://www.thescottishsun.co.uk/news/11719925/nicola-sturgeon-snp-year-scottish-politics/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.V-NTPHikjBJ_rIDcmg6hPC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "AS 2023 began, Nicola Sturgeon was still First Minister and while the SNP were sliding in the polls, they were still on top. The 12 months that have followed saw the resignation of the dominant",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40ff83fa-c18c-9216-49aa-77a9d6a5cc28",
+                        "name": "Nicola Sturgeon"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9f5500d5-a48c-dc47-2c90-f8cc8558d9d2",
+                        "name": "iPad"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Scottish Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.pEepZhHtUOU2Dr7E3jedjg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T12:52:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "BBC gets over 150 complaints about &#39;bias in favour of Michelle Mone&#39;",
+                "url": "https://www.thenational.scot/news/24017436.bbc-gets-150-complaints-bias-favour-michelle-mone/",
+                "description": "THE\u00a0BBC\u00a0received more than 150 complaints about \u201cbias\u201d in favour of Michelle Mone and her husband Douglas Barrowman after the",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/20f5d02f-7b33-0d30-b90d-2c0c7bf5858e",
+                        "name": "Michelle Mone"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/56cd9dc4-3f3b-da2b-a165-78a579d79f5b",
+                        "name": "BBC"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T12:52:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Labour\u2019s childcare plans would cost billions and take 20 years, experts say",
+                "url": "https://inews.co.uk/news/politics/labour-childcare-plans-cost-billions-20-years-2828174?ico=more_from_this_author",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.uaX_0cW3Nm0rqeQQuiPWBS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Neil Leitch of the Early Years Alliance tells i that Labour\u2019s proposals for an overhaul are &#39;disappointing&#39; and &#39;misguided&#39;",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T12:32:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Great Yarmouth MP Brandon Lewis forced to deny he&#39;s been paying for Facebook &#39;likes&#39;",
+                "url": "https://www.itv.com/news/anglia/2023-12-29/tory-mp-forced-to-deny-hes-been-paying-for-facebook-likes",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.UhSVGOsPlZB_YuKopaSbFy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The accusation was made by the <b>Politics</b> <b>UK</b> account on X, formerly known as Twitter, who claimed that Great Yarmouth MP Brandon Lewis had suddenly started receiving an unusual number of likes on his recent videos. \u201cTory MP Brandon Lewis appears to be ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "ITV"
+                    }
+                ],
+                "datePublished": "2023-12-29T12:19:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Prince William reportedly once left Kate Middleton &quot;tearful&quot; at Christmas",
+                "url": "https://www.marieclaire.co.uk/news/royal-news/prince-william-kate-middleton-tearful-christmas",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.2VYx5nGBUref00PblWbfoS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "According to a biography by royal expert Katie Nicholl, Prince William once left Kate, his girlfriend at the time, &quot;tearful&quot; back in 2006 when he cancelled his plans to visit her family for Christmas.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/026387b6-916a-4fd2-91c9-c67298468905",
+                        "name": "Prince William, Duke of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a8f670e6-8bdb-6010-20e2-c2fff9a3affa",
+                        "name": "Christmas"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Marie Claire",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.82c212oM1CfIt-ioeU4J-Q&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T12:10:00.0000000Z"
+            },
+            {
+                "name": "Let\u2019s see more fire and guts and less of the \u2018Weary Wullie\u2019 <b>politics</b>",
+                "url": "https://www.thenational.scot/politics/24016225.see-fire-guts-less-weary-wullie-politics/",
+                "description": "As I read The National\u2019s letters pages, its independence content reads more and more like the ending of a Q8 sketch with Spike Milligan",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T12:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Community news in Alresford and surrounding villages",
+                "url": "https://www.hampshirechronicle.co.uk/news/24008469.community-news-alresford-surrounding-villages/",
+                "description": "A NEW Gospel Choir will launch at St. John&#39;s Church in Alresford next month. The Gospel Collective, led by Tim Uffindell, will meet on",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/66c390d1-ebc5-54b0-ad7d-add6d469f124",
+                        "name": "New Alresford"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/08395004-52c8-7e92-072d-e7eb99cbb793",
+                        "name": "Community"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Hampshire Chronicle",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.YBoERqiH2tSa6eVQXRhnVw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T12:00:00.0000000Z"
+            },
+            {
+                "name": "What COVID diaries have in common with Samuel Pepys&#39; 17th-century plague diaries",
+                "url": "https://uk.news.yahoo.com/covid-diaries-common-samuel-pepys-114250677.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.fmT0tOaQn4YAwnLEZYZ04i&pid=News",
+                        "width": 496,
+                        "height": 304
+                    }
+                },
+                "description": "Diaries written during the Great Plague are not so numerous. Of the few available, the most valuable is that of naval administrator Samuel Pepys (1633-1703), whose exceptionally detailed and candid journals form by far the most comprehensive firsthand account of plague-stricken London.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/830933bd-ca73-75b7-215a-41be8f687738",
+                        "name": "Samuel Pepys"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T11:42:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "First Israeli teenager to be jailed for refusing to fight in Gaza",
+                "url": "https://metro.co.uk/2023/12/29/first-israeli-teenager-jailed-refusing-fight-gaza-20038103/?ico=trending-post-strip_item_4",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ua4tGtRLRQWGpBGWs9teKC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Israel has jailed an 18-year-old teenager for refusing to enlist in the military during its ongoing war against Hamas. Tal Mitnick is the latest Israeli citizen to object against the killing of thousands of people across Gaza, and he is willing to pay a price for it.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90eb9ff6-60ad-da43-d3fe-1ee3e3cb775a",
+                        "name": "Gaza Strip"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2872a54f-b045-8fe3-d356-1aa538e14812",
+                        "name": "Metro International"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Gaza Strip"
+                    },
+                    {
+                        "name": "Metro International"
+                    },
+                    {
+                        "name": "Israel"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Metro",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8olLCBBg15Ilf5cNVQh2IA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T11:33:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "\u2018Crap parents\u2019 are why children struggle, claims Conservative MP James Daly",
+                "url": "https://inews.co.uk/news/politics/crap-parents-why-children-struggle-tories-most-endangered-mp-2817474?ico=related_stories",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.bPWwVCat6bQGnYqg79d4Ty&pid=News",
+                        "width": 640,
+                        "height": 360
+                    }
+                },
+                "description": "James Daly would lose Bury North if just 53 Tory voters switched to Labour. But the MP has criticised some of his own constituents in an interview with i",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3720d876-7210-91e2-3fd4-9188f3c2e78d",
+                        "name": "James Daly"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T11:29:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Treatment of Northern Ireland crime victims falling behind rest of <b>UK</b>, commissioner warns",
+                "url": "https://www.irishnews.com/news/northern-ireland/treatment-of-northern-ireland-crime-victims-falling-behind-rest-of-uk-commissioner-warns-TP4GWBVY7VP6XD2VIELHFT3OZA/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.HEaHfmIuhC7Hbo1gkbb2Ky&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Geraldine Hanna said Stormont needs to return to argue for funding and to provide oversight for criminal justice agencies.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4b8bc44-385c-e87b-bb7d-b32328f53502",
+                        "name": "Northern Ireland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a94ea592-d4ba-e2c9-c5a1-a4c5d8342d0e",
+                        "name": "Crime"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Northern Ireland"
+                    },
+                    {
+                        "name": "Crime"
+                    },
+                    {
+                        "name": "The Irish News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Irish News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.__x40GFqMbYWdAqfe63VNg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T11:14:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "The famous faces we said goodbye to in Northern Ireland in 2023",
+                "url": "https://www.belfastlive.co.uk/news/northern-ireland/famous-faces-said-goodbye-northern-28356891",
+                "description": "As another year draws to a close, it&#39;s time to commemorate those we have waved goodbye to over the last 12 months",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/066bd7c2-af77-6ff0-3347-a0c3ed0a34f4",
+                        "name": "Belfast"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4b8bc44-385c-e87b-bb7d-b32328f53502",
+                        "name": "Northern Ireland"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Belfast"
+                    },
+                    {
+                        "name": "Northern Ireland"
+                    },
+                    {
+                        "name": "Democratic Republic of the Congo"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Belfast Live",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.UUySU8_7OvoyufDFDJH2qg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T11:07:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "2023 quiz: 23 questions on the year from Barbie to Prince Harry",
+                "url": "https://www.yorkpress.co.uk/news/24009801.2023-quiz-23-questions-year-barbie-prince-harry/",
+                "description": "Big Brother returned, Eurovision came to the <b>UK</b>, the Beatles released a new song and a new King was crowned. Did Billy Joel write 2023? This year deserves its own &#39;We Didn&#39;t Start The Fire&#39; - from Blockbuster hits to <b>political</b> fallouts, it&#39;s been packed ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Press"
+                    }
+                ],
+                "datePublished": "2023-12-29T11:00:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Tony Blair aides wanted asylum holding camp on Scottish island",
+                "url": "https://www.iwradio.co.uk/news/video/tony-blair-aides-wanted-asylum-holding-camp-on-scottish-island/",
+                "description": "Tony Blair&#39;s government considered setting up a holding camp on the Isle of Mull to drive down the number of asylum seekers entering the UK, according to newly released official papers.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/50300d8a-2cf2-4968-4c3b-754e0e17484a",
+                        "name": "Asylum"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d1d91533-17bc-52e6-3bac-07168bf2f8b2",
+                        "name": "Tony Blair"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Isle Of Wight Radio",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.a7uxf82O3Umn0q30N0l0jQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T10:59:00.0000000Z"
+            },
+            {
+                "name": "New Year\u2019s Eve revellers urged to wrap up warm as temperatures plummet",
+                "url": "https://www.eadt.co.uk/news/national/24016879.new-years-eve-revellers-urged-wrap-warm-temperatures-plummet/",
+                "description": "The weather is expected to remain unsettled with strong winds, heavy rain and \u2018close to freezing\u2019 conditions throughout the last weekend of 2023.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "East Anglian Daily Times 24",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CXPjikUm43cC0YgIcs5aaQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T10:48:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "POLITICO London Playbook awards 2023: all the winners from a wild year in <b>UK politics</b>",
+                "url": "https://www.politico.eu/article/politico-london-playbook-awards-2023-all-winners-wild-year-uk-politics/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.2gRCGZw0VxcV8k8bMDNkPi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "From minister of the year to the wildest social media storms, POLITICO\u2019s essential Westminster newsletter picks the big hitters.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8e0ba7b6-4225-fa8a-6369-1b5294e602a5",
+                        "name": "London"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Politico Europe",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.3CNAC5ADv8S6W-YvRcGzxw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T10:44:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "British <b>politics</b> is rotting from the bottom up: pity our crisis-hit local councils",
+                "url": "https://www.theguardian.com/commentisfree/2023/dec/29/british-politics-local-councils-ministers-town-hall-democracy",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.gTSmbydPw4Yb6GhyTTbp2i&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The collapse of town hall democracy is a scandal unfolding in real time, says Guardian columnist Simon Jenkins",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d7c5d11c-8bbb-f65c-2798-0d4de284390d",
+                        "name": "Simon Jenkins"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Simon Jenkins"
+                    },
+                    {
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "name": "Crisis"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T10:19:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Best of opinion 2023: From <b>politics</b> to Barbie, City A.M.\u2019s top comment pieces of the year",
+                "url": "https://uk.finance.yahoo.com/news/best-opinion-2023-politics-barbie-060000870.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.dlD7GwPT1DZEl4qatn8mmS&pid=News",
+                        "width": 360,
+                        "height": 160
+                    }
+                },
+                "description": "As 2023 comes to a close, we take a look back at the best of opinion from City A.M.&#39;s columnists, from office politics to Barbiemania.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Finance",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.LBn5t3rqxzpf5jMTBU81BA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T01:00:00.0000000Z"
+            },
+            {
+                "name": "National Archive secrets: whatever happened to the 30-year rule?",
+                "url": "https://www.independent.co.uk/news/uk/politics/politics-explained/national-archive-secret-papers-30-year-rule-blair-thatcher-b2470893.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.dGEYUyidddTx6otc8u45Vi&pid=News",
+                        "width": 700,
+                        "height": 525
+                    }
+                },
+                "description": "There is nothing new in <b>politics</b>. Twenty years ago ... The other is that the Rwanda plan is not for offshore processing of claims for asylum in the <b>UK</b>, but for processing by Rwanda of claims for asylum in Rwanda. There are other controversies that still ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent"
+                    }
+                ],
+                "datePublished": "2023-12-29T00:00:00.0000000Z"
+            },
+            {
+                "name": "Birmingham Airport storm protocol after pilots battle crosswinds and Emirates A380 circles city",
+                "url": "https://www.birminghammail.co.uk/news/midlands-news/birmingham-airport-storm-protocol-after-28363215",
+                "description": "Storm Gerrit has seen gusts of up to 70mph hit the <b>UK</b>, causing disruption to airports ... For more stories from across Solihull including BHX, breaking news, <b>politics</b> and what&#39;s on, sign up to our MySolihull newsletter here",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/65c06c9f-1d61-6dd5-f24a-38c3b3ad392c",
+                        "name": "Birmingham Airport"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/aaac0a14-911d-49c8-ac97-51d9f9100ad7",
+                        "name": "Birmingham"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/254a2621-4625-0f85-0b9d-13e4e75e5c9b",
+                        "name": "United Arab Emirates"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Birmingham Airport"
+                    },
+                    {
+                        "name": "Birmingham"
+                    },
+                    {
+                        "name": "United Arab Emirates"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Birmingham Mail"
+                    }
+                ],
+                "datePublished": "2023-12-29T00:00:00.0000000Z"
+            },
+            {
+                "name": "In 2024, the &#39;year of elections&#39;, persuading young voters to have faith in democracy will be a vital task \u2013 Joyce McMillan",
+                "url": "https://www.scotsman.com/news/opinion/columnists/in-2024-the-year-of-elections-persuading-young-voters-to-have-faith-in-democracy-will-be-a-vital-task-joyce-mcmillan-4460189",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.W3_z6W4W7tJNDSeLR9kBBC&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Young people\u2019s cynicism about party politics must be music to the ears of the wealthy and powerful who oppose interference by democratically elected politicians",
+                "mentions": [
+                    {
+                        "name": "Democracy"
+                    },
+                    {
+                        "name": "Opinion"
+                    },
+                    {
+                        "name": "Columnist"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Scotsman",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.QlHkHD_RALY4hnQHpw7jBw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-28T16:02:00.0000000Z",
+                "category": "World"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics",
+        "queryContext": {
+            "originalQuery": "uk politics",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 239,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Families could use EV batteries to power their homes and save on bills as government backs new charging technologies",
+                "url": "https://www.yourthurrock.com/2023/12/29/families-could-use-ev-batteries-to-power-their-homes-and-save-on-bills-as-government-backs-new-charging-technologies/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.tXiVqRPxsEonB-p3nwDisi&pid=News",
+                        "width": 700,
+                        "height": 379
+                    }
+                },
+                "description": "FAMILIES could soon save hundreds of pounds on energy bills by using electricity stored in their electric vehicles (EVs) to power home appliances such as fridges and washing machines \u2013 thanks to new two-way charging technologies being supported with government funding.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/bedf34f2-21ac-0112-5533-ce266f13a89a",
+                        "name": "Thurrock"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f5b3a740-bed2-59d0-cc50-9901a36f231d",
+                        "name": "Charging"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Your Thurrock"
+                    }
+                ],
+                "datePublished": "2023-12-29T15:32:00.0000000Z",
+                "category": "ScienceAndTechnology"
+            },
+            {
+                "name": "Beautiful &#39;mould-loving&#39; plants that banish condensation and mildew in your home",
+                "url": "https://www.mirror.co.uk/news/beautiful-mould-loving-plants-banish-31769209",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.bT6FKw_fh4pmFE57OYA97i&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Condensation and mould can be a nuisance in your home, particularly in the winter months, but these &#39;mould-loving&#39; plants can help banish the issue for good, whilst being a beautiful addition to any r",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "Condensation"
+                    },
+                    {
+                        "name": "United States"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T15:30:00.0000000Z"
+            },
+            {
+                "name": "Black Panthers and an affair with a soldier: what Maestro doesn\u2019t tell you about Bernstein",
+                "url": "https://www.telegraph.co.uk/films/2023/12/29/maestro-leonard-bernstein-bradley-cooper-truth-facts/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.WGwFDmWUqgcjqj74pK4Fqi&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "Bradley Cooper\u2019s biopic is magnificent, but the life of Leonard Bernstein was far too colourful \u2013 and complicated \u2013 for one movie",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/416a33c3-2ecb-57b2-2440-bfe0a69d6860",
+                        "name": "Leonard Bernstein"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d47ac069-46c4-ac20-b5d3-156bfd272097",
+                        "name": "Maestro"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Leonard Bernstein"
+                    },
+                    {
+                        "name": "Maestro"
+                    },
+                    {
+                        "name": "Bradley Cooper"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T15:14:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Cheltenham Festival 2024: Bookmaker becomes first to offer \u2018non-runner no bet\u2019 on all races",
+                "url": "https://www.mirror.co.uk/sport/horse-racing/william-hill-cheltenham-festival-non-31769046",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.SkbJUrXCTVKKHsAfyJxX8C&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "William Hill will refund stakes on any Cheltenham Fesitval selection which does not run at the meeting in March on bets placed from New Year\u2019s Day",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "Runner"
+                    },
+                    {
+                        "name": "Cheltenham Festival"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T15:07:00.0000000Z",
+                "category": "Sports"
+            },
+            {
+                "name": "Scotland \u2018moving politically backwards\u2019 under the SNP, says Alex Salmond",
+                "url": "https://www.telegraph.co.uk/politics/2023/12/29/alex-salmond-scotland-moving-politically-backwards-snp/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.FH9__AQewkd2O3CIl9vQRS&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "Alba Party leader country had endured a \u2018decade of drift\u2019 under the party that has \u2018dithered and delayed forging ahead to independence\u2019",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c38f323-ef02-fdd5-9d2c-4ee11468b8a3",
+                        "name": "Alex Salmond"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Scotland"
+                    },
+                    {
+                        "name": "Alex Salmond"
+                    },
+                    {
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T14:46:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Government will not allow public services to deteriorate further says Chris Heaton-Harris",
+                "url": "https://www.newsletter.co.uk/news/politics/government-will-not-allow-public-services-to-deteriorate-further-says-chris-heaton-harris-4461119",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.0y7ulHbv6YI5AJhzznMYDi&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The UK Government will not stand by and allow public services to deteriorate in Northern Ireland while Stormont remains suspended, Chris Heaton-Harris has said",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e50a7993-c496-1cc9-2b5a-6d176a7d73f5",
+                        "name": "Public service"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5634d914-4190-dd0b-fa80-715c2ac46335",
+                        "name": "Government"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Public service"
+                    },
+                    {
+                        "name": "Government"
+                    },
+                    {
+                        "name": "Advertising"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The News Letter",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.ss7xVoJtNCz0ucC1juxNqA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T14:46:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Allister invokes Ulster Covenant as his New Year message calls for equal <b>UK</b> citizenship to be the core aim of unionism",
+                "url": "https://www.newsletter.co.uk/news/politics/allister-invokes-ulster-covenant-as-his-new-year-message-calls-for-equal-uk-citizenship-to-be-the-core-aim-of-unionism-4461110",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.emNI4VzoEnOCUdIyrQMoui&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The TUV leader says unionists should be guided by their founding fathers who rallied around a demand for equal citizenship during the Home Rule crisis \u2013 and says they must take the political long view and not rush back to Stormont next year.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b87af861-2161-9cc0-deee-a6c5a1aca517",
+                        "name": "Jim Allister"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Jim Allister"
+                    },
+                    {
+                        "name": "Ulster Covenant"
+                    },
+                    {
+                        "name": "British nationality law"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The News Letter",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.ss7xVoJtNCz0ucC1juxNqA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T14:40:00.0000000Z"
+            },
+            {
+                "name": "Scotland is \u2018moving politically backwards\u2019, says Alex Salmond",
+                "url": "https://www.scotsman.com/news/politics/scotland-is-moving-politically-backwards-says-alex-salmond-4461100",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Ps7C_dj0BOerbLEws8A2mi&pid=News",
+                        "width": 640,
+                        "height": 427
+                    }
+                },
+                "description": "Former first minister Alex Salmond has claimed that Scotland is \u201cmoving politically backwards\u201d as he hit out at both the Scottish Government and the SNP.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c38f323-ef02-fdd5-9d2c-4ee11468b8a3",
+                        "name": "Alex Salmond"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Alex Salmond"
+                    },
+                    {
+                        "name": "Scotland"
+                    },
+                    {
+                        "name": "Scottish National Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Scotsman",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.QlHkHD_RALY4hnQHpw7jBw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T14:31:00.0000000Z"
+            },
+            {
+                "name": "Humza Yousaf says SNP can \u2018come out on top\u2019 in general election",
+                "url": "https://www.andoveradvertiser.co.uk/news/national/24017643.humza-yousaf-says-snp-can-come-top-general-election/",
+                "description": "However, elections expert Professor Sir John Curtice said the SNP leader is \u2018nothing like as popular\u2019 as his predecessor, Nicola Sturgeon.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6d99b564-d527-5061-2ebd-f97730898d38",
+                        "name": "Humza Yousaf"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1a4e0af9-6c54-738a-bc2b-24faf29f4acd",
+                        "name": "Andover"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8d8aa22b-becb-80d8-677c-a3161e16cbf5",
+                        "name": "General election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Andover Advertiser",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.9HBvLtaNrUh8B9TIacJccw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T14:03:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "It&#39;s time our politicians stopped treating islanders with contempt",
+                "url": "https://www.heraldscotland.com/politics/viewpoint/24016220.time-politicians-stopped-treating-islanders-contempt/",
+                "description": "Over the centuries, some have been depopulated out of necessity, such as St Kilda, some by choice as the islanders moved elsewhere while many, of course, were brutally cleared by landowners and replaced with sheep.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d1d85ec7-1cbb-6ee9-88a8-8af94518438a",
+                        "name": "Time"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "heraldscotland",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PjDUWS-WIq7w595SCRQefg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T14:00:00.0000000Z"
+            },
+            {
+                "name": "Humza Yousaf \u2018nothing like as popular\u2019 as Nicola Sturgeon, says poll expert",
+                "url": "https://www.thetimes.co.uk/article/humza-yousaf-nothing-like-as-popular-as-nicola-sturgeon-says-poll-expert-rn8sbrmgh",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.rEA5XOCqyr4JYzarujIeJy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "John Curtice said the former first minister\u2019s decision to step down had \u2018quite substantial political consequences\u2019 for the SNP",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6d99b564-d527-5061-2ebd-f97730898d38",
+                        "name": "Humza Yousaf"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40ff83fa-c18c-9216-49aa-77a9d6a5cc28",
+                        "name": "Nicola Sturgeon"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e320dd44-b39b-fd9b-7883-0fe89bb44ace",
+                        "name": "Poll"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T14:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>UK</b> Government \u2018will not allow public services to deteriorate further while Stormont suspended\u2019",
+                "url": "https://www.irishnews.com/news/northern-ireland/uk-government-will-not-allow-public-services-to-deteriorate-further-while-stormont-suspended-2KETNTHFD5OJTFKRKGYHE65PQA/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.1F-YHDGU_XvrfXARMRPcPy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The UK Government will not stand by and allow public services to deteriorate in Northern Ireland while Stormont remains suspended, Chris Heaton-Harris has said.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e50a7993-c496-1cc9-2b5a-6d176a7d73f5",
+                        "name": "Public service"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a90b5298-84f6-98a8-19eb-b42f3c47432b",
+                        "name": "Government of the United Kingdom"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Public service"
+                    },
+                    {
+                        "name": "Government of the United Kingdom"
+                    },
+                    {
+                        "name": "The Irish News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Irish News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.__x40GFqMbYWdAqfe63VNg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T13:53:00.0000000Z"
+            },
+            {
+                "name": "One death linked to E.coli outbreak",
+                "url": "https://www.edp24.co.uk/news/national/24017613.one-death-linked-e-coli-outbreak/",
+                "description": "One person has died following an outbreak of E.coli, health officials have said. The UK Health Security Agency (UKHSA) said 30 confirmed cases of Shiga toxin-producing E.coli (Stec) have been recorded across England and Scotland since late July in people aged seven to 81.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5d86306f-67d9-f27b-ef17-1a1ef0e1c79c",
+                        "name": "Victory or death"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6930f53b-f054-4777-8575-751f382e6137",
+                        "name": "Outbreak"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "EDP 24",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.jwNaXSYAQbMSCRbjWcrBZA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T13:52:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "FTSE 100 ends year up 3.8% but trails rival markets in Europe and US",
+                "url": "https://www.theguardian.com/business/2023/dec/29/ftse-100-up-but-europe-us-uk-wall-street-sp-500",
+                "description": "Lack of tech companies leaves UK floundering against Wall Street, where S&amp;P 500 has jumped 25%",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/501457aa-5b70-cfba-cfd8-be882b4bac1e",
+                        "name": "Europe"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Europe"
+                    },
+                    {
+                        "name": "The Guardian"
+                    },
+                    {
+                        "name": "FTSE 100 Index"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T13:47:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Heaton-Harris: Government will not allow public services to deteriorate further",
+                "url": "https://www.standard.co.uk/news/politics/chris-heatonharris-uk-government-government-stormont-northern-ireland-b1129489.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.dbRArReeu_aSQqZHze_qpi&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The UK Government will not stand by and allow public services to deteriorate in Northern Ireland while Stormont remains suspended, Chris Heaton-Harris has said.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5634d914-4190-dd0b-fa80-715c2ac46335",
+                        "name": "Government"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Government"
+                    },
+                    {
+                        "name": "Public service"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T13:29:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Could Beast from the East be returning to Suffolk in 2024?",
+                "url": "https://www.eadt.co.uk/news/24017500.beast-east-returning-suffolk-2024/",
+                "description": "The Met Office has said there is an &quot;increased chance&quot; of the weather phenomenon that brought the Beast from the East returning",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b891db46-5bbb-53eb-6a27-28ae58d995e9",
+                        "name": "Suffolk"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b6840aea-778b-5580-2bd3-303741412704",
+                        "name": "Beast From the East"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/33d35ab6-7676-5c03-5906-e26a50c76ef6",
+                        "name": "Returning"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "East Anglian Daily Times 24",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CXPjikUm43cC0YgIcs5aaQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T13:27:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Could Beast from the East be returning to Norfolk in 2024?",
+                "url": "https://www.edp24.co.uk/news/24017030.beast-east-returning-norfolk-2024/",
+                "description": "The Met Office has said there is an &quot;increased chance&quot; of the weather phenomenon that brought the Beast from the East returning",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1f7d5120-8b19-7582-e7d0-2351c715f854",
+                        "name": "Norfolk"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b6840aea-778b-5580-2bd3-303741412704",
+                        "name": "Beast From the East"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/33d35ab6-7676-5c03-5906-e26a50c76ef6",
+                        "name": "Returning"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "EDP 24",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.jwNaXSYAQbMSCRbjWcrBZA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T13:09:00.0000000Z"
+            },
+            {
+                "name": "Northern Ireland\u2019s top 100 newsmakers of 2023, No 75-51",
+                "url": "https://www.belfasttelegraph.co.uk/life/weekend/northern-irelands-top-100-newsmakers-of-2023-no-75-51/a537504302.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.YoL0hfDsloyQpb79Et5fBy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "A mix of the good, the bad and the bizarre who made the news in Northern Ireland this year, ranked from 75 to 51.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4b8bc44-385c-e87b-bb7d-b32328f53502",
+                        "name": "Northern Ireland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ec10885d-cbd2-5ece-8d5b-7f5e05a240e9",
+                        "name": "uk"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Belfast Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.KbCSMEkTE1gbQLCbNWqCnw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T13:00:00.0000000Z",
+                "category": "Sports"
+            },
+            {
+                "name": "Nicola Sturgeon\u2019s arrest, the iPad scandal &amp; failed gender bill \u2013 A look back at a shock year in Scottish <b>Politics</b>",
+                "url": "https://www.thescottishsun.co.uk/news/11719925/nicola-sturgeon-snp-year-scottish-politics/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.V-NTPHikjBJ_rIDcmg6hPC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "AS 2023 began, Nicola Sturgeon was still First Minister and while the SNP were sliding in the polls, they were still on top. The 12 months that have followed saw the resignation of the dominant",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40ff83fa-c18c-9216-49aa-77a9d6a5cc28",
+                        "name": "Nicola Sturgeon"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9f5500d5-a48c-dc47-2c90-f8cc8558d9d2",
+                        "name": "iPad"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Scottish Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.pEepZhHtUOU2Dr7E3jedjg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T12:52:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "BBC gets over 150 complaints about &#39;bias in favour of Michelle Mone&#39;",
+                "url": "https://www.thenational.scot/news/24017436.bbc-gets-150-complaints-bias-favour-michelle-mone/",
+                "description": "THE\u00a0BBC\u00a0received more than 150 complaints about \u201cbias\u201d in favour of Michelle Mone and her husband Douglas Barrowman after the",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/20f5d02f-7b33-0d30-b90d-2c0c7bf5858e",
+                        "name": "Michelle Mone"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/56cd9dc4-3f3b-da2b-a165-78a579d79f5b",
+                        "name": "BBC"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T12:52:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Labour\u2019s childcare plans would cost billions and take 20 years, experts say",
+                "url": "https://inews.co.uk/news/politics/labour-childcare-plans-cost-billions-20-years-2828174?ico=more_from_this_author",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.uaX_0cW3Nm0rqeQQuiPWBS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Neil Leitch of the Early Years Alliance tells i that Labour\u2019s proposals for an overhaul are &#39;disappointing&#39; and &#39;misguided&#39;",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T12:32:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Great Yarmouth MP Brandon Lewis forced to deny he&#39;s been paying for Facebook &#39;likes&#39;",
+                "url": "https://www.itv.com/news/anglia/2023-12-29/tory-mp-forced-to-deny-hes-been-paying-for-facebook-likes",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.UhSVGOsPlZB_YuKopaSbFy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The accusation was made by the <b>Politics</b> <b>UK</b> account on X, formerly known as Twitter, who claimed that Great Yarmouth MP Brandon Lewis had suddenly started receiving an unusual number of likes on his recent videos. \u201cTory MP Brandon Lewis appears to be ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "ITV"
+                    }
+                ],
+                "datePublished": "2023-12-29T12:19:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Prince William reportedly once left Kate Middleton &quot;tearful&quot; at Christmas",
+                "url": "https://www.marieclaire.co.uk/news/royal-news/prince-william-kate-middleton-tearful-christmas",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.2VYx5nGBUref00PblWbfoS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "According to a biography by royal expert Katie Nicholl, Prince William once left Kate, his girlfriend at the time, &quot;tearful&quot; back in 2006 when he cancelled his plans to visit her family for Christmas.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/026387b6-916a-4fd2-91c9-c67298468905",
+                        "name": "Prince William, Duke of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a8f670e6-8bdb-6010-20e2-c2fff9a3affa",
+                        "name": "Christmas"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Marie Claire",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.82c212oM1CfIt-ioeU4J-Q&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T12:10:00.0000000Z"
+            },
+            {
+                "name": "Let\u2019s see more fire and guts and less of the \u2018Weary Wullie\u2019 <b>politics</b>",
+                "url": "https://www.thenational.scot/politics/24016225.see-fire-guts-less-weary-wullie-politics/",
+                "description": "As I read The National\u2019s letters pages, its independence content reads more and more like the ending of a Q8 sketch with Spike Milligan",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T12:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Community news in Alresford and surrounding villages",
+                "url": "https://www.hampshirechronicle.co.uk/news/24008469.community-news-alresford-surrounding-villages/",
+                "description": "A NEW Gospel Choir will launch at St. John&#39;s Church in Alresford next month. The Gospel Collective, led by Tim Uffindell, will meet on",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/66c390d1-ebc5-54b0-ad7d-add6d469f124",
+                        "name": "New Alresford"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/08395004-52c8-7e92-072d-e7eb99cbb793",
+                        "name": "Community"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Hampshire Chronicle",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.YBoERqiH2tSa6eVQXRhnVw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T12:00:00.0000000Z"
+            },
+            {
+                "name": "What COVID diaries have in common with Samuel Pepys&#39; 17th-century plague diaries",
+                "url": "https://uk.news.yahoo.com/covid-diaries-common-samuel-pepys-114250677.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.fmT0tOaQn4YAwnLEZYZ04i&pid=News",
+                        "width": 496,
+                        "height": 304
+                    }
+                },
+                "description": "Diaries written during the Great Plague are not so numerous. Of the few available, the most valuable is that of naval administrator Samuel Pepys (1633-1703), whose exceptionally detailed and candid journals form by far the most comprehensive firsthand account of plague-stricken London.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/830933bd-ca73-75b7-215a-41be8f687738",
+                        "name": "Samuel Pepys"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T11:42:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "First Israeli teenager to be jailed for refusing to fight in Gaza",
+                "url": "https://metro.co.uk/2023/12/29/first-israeli-teenager-jailed-refusing-fight-gaza-20038103/?ico=trending-post-strip_item_4",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ua4tGtRLRQWGpBGWs9teKC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Israel has jailed an 18-year-old teenager for refusing to enlist in the military during its ongoing war against Hamas. Tal Mitnick is the latest Israeli citizen to object against the killing of thousands of people across Gaza, and he is willing to pay a price for it.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90eb9ff6-60ad-da43-d3fe-1ee3e3cb775a",
+                        "name": "Gaza Strip"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2872a54f-b045-8fe3-d356-1aa538e14812",
+                        "name": "Metro International"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Gaza Strip"
+                    },
+                    {
+                        "name": "Metro International"
+                    },
+                    {
+                        "name": "Israel"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Metro",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8olLCBBg15Ilf5cNVQh2IA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T11:33:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "\u2018Crap parents\u2019 are why children struggle, claims Conservative MP James Daly",
+                "url": "https://inews.co.uk/news/politics/crap-parents-why-children-struggle-tories-most-endangered-mp-2817474?ico=related_stories",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.bPWwVCat6bQGnYqg79d4Ty&pid=News",
+                        "width": 640,
+                        "height": 360
+                    }
+                },
+                "description": "James Daly would lose Bury North if just 53 Tory voters switched to Labour. But the MP has criticised some of his own constituents in an interview with i",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3720d876-7210-91e2-3fd4-9188f3c2e78d",
+                        "name": "James Daly"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T11:29:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Treatment of Northern Ireland crime victims falling behind rest of <b>UK</b>, commissioner warns",
+                "url": "https://www.irishnews.com/news/northern-ireland/treatment-of-northern-ireland-crime-victims-falling-behind-rest-of-uk-commissioner-warns-TP4GWBVY7VP6XD2VIELHFT3OZA/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.HEaHfmIuhC7Hbo1gkbb2Ky&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Geraldine Hanna said Stormont needs to return to argue for funding and to provide oversight for criminal justice agencies.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4b8bc44-385c-e87b-bb7d-b32328f53502",
+                        "name": "Northern Ireland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a94ea592-d4ba-e2c9-c5a1-a4c5d8342d0e",
+                        "name": "Crime"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Northern Ireland"
+                    },
+                    {
+                        "name": "Crime"
+                    },
+                    {
+                        "name": "The Irish News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Irish News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.__x40GFqMbYWdAqfe63VNg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T11:14:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "The famous faces we said goodbye to in Northern Ireland in 2023",
+                "url": "https://www.belfastlive.co.uk/news/northern-ireland/famous-faces-said-goodbye-northern-28356891",
+                "description": "As another year draws to a close, it&#39;s time to commemorate those we have waved goodbye to over the last 12 months",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/066bd7c2-af77-6ff0-3347-a0c3ed0a34f4",
+                        "name": "Belfast"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4b8bc44-385c-e87b-bb7d-b32328f53502",
+                        "name": "Northern Ireland"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Belfast"
+                    },
+                    {
+                        "name": "Northern Ireland"
+                    },
+                    {
+                        "name": "Democratic Republic of the Congo"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Belfast Live",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.UUySU8_7OvoyufDFDJH2qg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T11:07:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "2023 quiz: 23 questions on the year from Barbie to Prince Harry",
+                "url": "https://www.yorkpress.co.uk/news/24009801.2023-quiz-23-questions-year-barbie-prince-harry/",
+                "description": "Big Brother returned, Eurovision came to the <b>UK</b>, the Beatles released a new song and a new King was crowned. Did Billy Joel write 2023? This year deserves its own &#39;We Didn&#39;t Start The Fire&#39; - from Blockbuster hits to <b>political</b> fallouts, it&#39;s been packed ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Press"
+                    }
+                ],
+                "datePublished": "2023-12-29T11:00:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Tony Blair aides wanted asylum holding camp on Scottish island",
+                "url": "https://www.iwradio.co.uk/news/video/tony-blair-aides-wanted-asylum-holding-camp-on-scottish-island/",
+                "description": "Tony Blair&#39;s government considered setting up a holding camp on the Isle of Mull to drive down the number of asylum seekers entering the UK, according to newly released official papers.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/50300d8a-2cf2-4968-4c3b-754e0e17484a",
+                        "name": "Asylum"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d1d91533-17bc-52e6-3bac-07168bf2f8b2",
+                        "name": "Tony Blair"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Isle Of Wight Radio",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.a7uxf82O3Umn0q30N0l0jQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T10:59:00.0000000Z"
+            },
+            {
+                "name": "New Year\u2019s Eve revellers urged to wrap up warm as temperatures plummet",
+                "url": "https://www.eadt.co.uk/news/national/24016879.new-years-eve-revellers-urged-wrap-warm-temperatures-plummet/",
+                "description": "The weather is expected to remain unsettled with strong winds, heavy rain and \u2018close to freezing\u2019 conditions throughout the last weekend of 2023.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "East Anglian Daily Times 24",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CXPjikUm43cC0YgIcs5aaQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T10:48:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "POLITICO London Playbook awards 2023: all the winners from a wild year in <b>UK politics</b>",
+                "url": "https://www.politico.eu/article/politico-london-playbook-awards-2023-all-winners-wild-year-uk-politics/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.2gRCGZw0VxcV8k8bMDNkPi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "From minister of the year to the wildest social media storms, POLITICO\u2019s essential Westminster newsletter picks the big hitters.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8e0ba7b6-4225-fa8a-6369-1b5294e602a5",
+                        "name": "London"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Politico Europe",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.3CNAC5ADv8S6W-YvRcGzxw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T10:44:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "British <b>politics</b> is rotting from the bottom up: pity our crisis-hit local councils",
+                "url": "https://www.theguardian.com/commentisfree/2023/dec/29/british-politics-local-councils-ministers-town-hall-democracy",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.gTSmbydPw4Yb6GhyTTbp2i&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The collapse of town hall democracy is a scandal unfolding in real time, says Guardian columnist Simon Jenkins",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d7c5d11c-8bbb-f65c-2798-0d4de284390d",
+                        "name": "Simon Jenkins"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Simon Jenkins"
+                    },
+                    {
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "name": "Crisis"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T10:19:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Best of opinion 2023: From <b>politics</b> to Barbie, City A.M.\u2019s top comment pieces of the year",
+                "url": "https://uk.finance.yahoo.com/news/best-opinion-2023-politics-barbie-060000870.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.dlD7GwPT1DZEl4qatn8mmS&pid=News",
+                        "width": 360,
+                        "height": 160
+                    }
+                },
+                "description": "As 2023 comes to a close, we take a look back at the best of opinion from City A.M.&#39;s columnists, from office politics to Barbiemania.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Finance",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.LBn5t3rqxzpf5jMTBU81BA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-29T01:00:00.0000000Z"
+            },
+            {
+                "name": "National Archive secrets: whatever happened to the 30-year rule?",
+                "url": "https://www.independent.co.uk/news/uk/politics/politics-explained/national-archive-secret-papers-30-year-rule-blair-thatcher-b2470893.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.dGEYUyidddTx6otc8u45Vi&pid=News",
+                        "width": 700,
+                        "height": 525
+                    }
+                },
+                "description": "There is nothing new in <b>politics</b>. Twenty years ago ... The other is that the Rwanda plan is not for offshore processing of claims for asylum in the <b>UK</b>, but for processing by Rwanda of claims for asylum in Rwanda. There are other controversies that still ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent"
+                    }
+                ],
+                "datePublished": "2023-12-29T00:00:00.0000000Z"
+            },
+            {
+                "name": "Birmingham Airport storm protocol after pilots battle crosswinds and Emirates A380 circles city",
+                "url": "https://www.birminghammail.co.uk/news/midlands-news/birmingham-airport-storm-protocol-after-28363215",
+                "description": "Storm Gerrit has seen gusts of up to 70mph hit the <b>UK</b>, causing disruption to airports ... For more stories from across Solihull including BHX, breaking news, <b>politics</b> and what&#39;s on, sign up to our MySolihull newsletter here",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/65c06c9f-1d61-6dd5-f24a-38c3b3ad392c",
+                        "name": "Birmingham Airport"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/aaac0a14-911d-49c8-ac97-51d9f9100ad7",
+                        "name": "Birmingham"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/254a2621-4625-0f85-0b9d-13e4e75e5c9b",
+                        "name": "United Arab Emirates"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Birmingham Airport"
+                    },
+                    {
+                        "name": "Birmingham"
+                    },
+                    {
+                        "name": "United Arab Emirates"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Birmingham Mail"
+                    }
+                ],
+                "datePublished": "2023-12-29T00:00:00.0000000Z"
+            },
+            {
+                "name": "In 2024, the &#39;year of elections&#39;, persuading young voters to have faith in democracy will be a vital task \u2013 Joyce McMillan",
+                "url": "https://www.scotsman.com/news/opinion/columnists/in-2024-the-year-of-elections-persuading-young-voters-to-have-faith-in-democracy-will-be-a-vital-task-joyce-mcmillan-4460189",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.W3_z6W4W7tJNDSeLR9kBBC&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Young people\u2019s cynicism about party politics must be music to the ears of the wealthy and powerful who oppose interference by democratically elected politicians",
+                "mentions": [
+                    {
+                        "name": "Democracy"
+                    },
+                    {
+                        "name": "Opinion"
+                    },
+                    {
+                        "name": "Columnist"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Scotsman",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.QlHkHD_RALY4hnQHpw7jBw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2023-12-28T16:02:00.0000000Z",
+                "category": "World"
+            }
+        ]
+    }
+]
