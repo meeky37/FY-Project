@@ -15,7 +15,6 @@ from pathlib import Path
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
@@ -25,8 +24,7 @@ SECRET_KEY = 'django-insecure-15i*(zucahz)+@8ikq9!%4dibe3#bjubrl4xmh17yjcbmabt9i
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ["localhost"]
 
 # Application definition
 
@@ -37,6 +35,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'adminsortable2',
     'profiles_app',
     'nlp_processor',
     'accounts',
@@ -61,6 +60,7 @@ SIMPLE_JWT = {
 }
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -68,21 +68,66 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'corsheaders.middleware.CorsMiddleware',
 ]
 
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:8084",  # Obviously, do not use in production.
-    "http://localhost:8088",
-    "http://localhost:8080",
-    "http://localhost:8081",
-    "http://localhost:8082",
-    "http://localhost:8083",
-    "http://localhost:8085",
-    "http://localhost:8086",
-    "http://localhost:8087",
-    "http://localhost:8089",
+
+
+# CORS_TRUSTED_ORIGINS = ["http://localhost:8080",
+#                         "http://localhost:8084",  # Obviously, do not use in production.
+#                         "http://localhost:8081",
+#                         "http://localhost:8082",
+#                         "http://localhost:8083",
+#                         "http://localhost:8085",
+#                         "http://localhost:8086",
+#                         "http://localhost:8087",
+#                         "http://localhost:8088",
+#                         "http://localhost:8089",
+#                         ]
+
+CORS_ALLOWED_ORIGINS = ["http://localhost:8080"]
+
+
+CORS_ALLOW_HEADERS = [
+    'accept',
+    'accept-encoding',
+    'authorization',
+    'content-type',
+    'dnt',
+    'origin',
+    'user-agent',
+    'x-csrftoken',
+    'x-requested-with',
 ]
+
+CORS_ALLOW_METHODS = [
+    'DELETE',
+    'GET',
+    'OPTIONS',
+    'PATCH',
+    'POST',
+    'PUT',
+]
+
+CORS_ALLOW_CREDENTIALS = True
+
+CSRF_COOKIE_SECURE = False
+CSRF_COOKIE_NAME = "csrftoken"
+CSRF_HEADER_NAME = "HTTP_X_CSRFTOKEN"
+CSRF_TRUSTED_ORIGINS = ['http://localhost:8080']
+
+#
+# CORS_ALLOWED_ORIGINS = [
+#     "http://localhost:8084",  # Obviously, do not use in production.
+#     "http://localhost:8088",
+#     "http://localhost:8080",
+#     "http://localhost:8081",
+#     "http://localhost:8082",
+#     "http://localhost:8083",
+#     "http://localhost:8085",
+#     "http://localhost:8086",
+#     "http://localhost:8087",
+#     "http://localhost:8089",
+# ]
 
 ROOT_URLCONF = 'prominent_profiles.urls'
 
@@ -104,7 +149,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'prominent_profiles.wsgi.application'
 
-
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
@@ -114,7 +158,6 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
@@ -134,7 +177,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
 # Internationalization
 # https://docs.djangoproject.com/en/4.1/topics/i18n/
 
@@ -145,7 +187,6 @@ TIME_ZONE = 'UTC'
 USE_I18N = True
 
 USE_TZ = True
-
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
