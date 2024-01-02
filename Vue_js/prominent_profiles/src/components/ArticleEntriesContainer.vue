@@ -108,7 +108,6 @@ export default {
         })
     },
     sortEntries () {
-      console.log('hi ya')
       // Sort positiveEntries, neutralEntries, and negativeEntries
       this.positiveEntries.sort(
 
