@@ -69,9 +69,13 @@ export default {
 
   created () {
     // Fetch BingEntity JSON based on the entity ID from Django backend
-
     this.fetchBingEntity()
-    VueCookie.set('viewedProfiles', [])
+    const viewedProfilesCookie = VueCookie.get('viewedProfiles')
+
+    if (viewedProfilesCookie === null) {
+      // Set the cookie to an empty array if it doesn't exist
+      VueCookie.set('viewedProfiles', [])
+    }
   },
 
   methods: {
@@ -80,6 +84,41 @@ export default {
     },
     closeSourcePopup () {
       this.showSourcePopup = false
+    },
+
+    async incrementViewCount (entityId) {
+      try {
+        // Check if the user has already viewed the profile in the current session
+        const viewedProfiles = VueCookie.get('viewedProfiles') || []
+        if (viewedProfiles.includes(entityId)) {
+          console.log(`Already viewed in this session: ${entityId}`)
+          return
+        }
+
+        const csrfToken = VueCookie.get('csrftoken')
+        // console.log('token...')
+        // console.log(csrfToken)
+        const response = await fetch(`${API_BASE_URL}/profiles_app/increment_view_count/${entityId}/`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'X-CSRFToken': csrfToken
+          },
+          credentials: 'include'
+        })
+
+        if (response.ok) {
+          console.log(`View count incremented for entity ${entityId}`)
+          // Cookie here to track viewed profiles in the current session
+          VueCookie.set('viewedProfiles', [...viewedProfiles, entityId], { expires: 1 })
+          console.log(VueCookie.get('viewedProfiles'))
+          // expire in 1 day ppl don't close browsers much these days.
+        } else {
+          console.log('Error incrementing view count:', response.statusText)
+        }
+      } catch (error) {
+        console.error('Error incrementing view count:', error)
+      }
     },
 
     fetchBingEntity () {
@@ -94,6 +133,7 @@ export default {
         .then((response) => response.json())
         .then((data) => {
           this.bingEntity = data
+          this.incrementViewCount(entityId) // for trending entities feature
         })
         .catch((error) => {
           console.error('Error fetching BingEntity:', error)
