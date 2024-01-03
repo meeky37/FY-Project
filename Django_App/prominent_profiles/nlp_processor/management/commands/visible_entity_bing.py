@@ -15,7 +15,9 @@ class Command(BaseCommand):
             print(entity_id)
 
             # Checking if BingEntity with same name already exists
-            existing_bing_entity = BingEntity.objects.filter(name=entity_name).first()
+            # existing_bing_entity = BingEntity.objects.filter(name=entity_name).first()
+
+            existing_bing_entity = BingEntity.objects.filter(entity=entity).first()
 
             if existing_bing_entity:
                 print(f"Bing entity info for '{entity_name}' already exists.")
