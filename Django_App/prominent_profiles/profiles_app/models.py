@@ -31,6 +31,13 @@ class Entity(models.Model):
     # get_article_count.admin_order_field = 'article_count'
 
 
+#
+class EntityView(models.Model):
+    entity = models.ForeignKey(Entity, on_delete=models.CASCADE)
+    view_dt = models.DateField(auto_now_add=True)
+    view_time = models.TimeField(auto_now_add=True)
+
+
 class BingEntity(models.Model):
     entity = models.ForeignKey(Entity, on_delete=models.CASCADE)
     name = models.CharField(max_length=255)
