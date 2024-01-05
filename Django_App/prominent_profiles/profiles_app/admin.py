@@ -2,7 +2,7 @@
 from django.contrib import admin
 from django.db.models import Count
 
-from .models import Entity, Article, BoundMention, OverallSentiment, BingEntity
+from .models import Entity, Article, BoundMention, OverallSentiment, BingEntity, EntityView
 
 
 @admin.register(Article)
@@ -13,14 +13,11 @@ class ArticleAdmin(admin.ModelAdmin):
 
 class EntityAdmin(admin.ModelAdmin):
     list_display = ('name', 'type', 'app_visible', 'view_count', 'display_article_count_numeric')
-    list_filter = ('app_visible', )
-    ordering = ('-overallsentiment__count',)  # '-' for high to low on mention count
+    list_filter = ('app_visible',)
     list_per_page = 1000
 
-
     def get_queryset(self, request):
-        queryset = super().get_queryset(request)
-        queryset = queryset.annotate(overallsentiment__count=Count('overallsentiment__id'))
+        queryset = Entity.objects.annotate(overallsentiment__count=Count('overallsentiment__id'))
         return queryset
 
     def display_article_count_numeric(self, obj):
@@ -54,8 +51,7 @@ class EntityAdmin(admin.ModelAdmin):
 
         else:
             self.message_user(request, "Please select exactly two entities for merging.",
-                                    level='ERROR')
-
+                              level='ERROR')
 
     def reset_view_count(self, request, queryset):
         queryset = queryset.order_by('id')
@@ -67,21 +63,30 @@ class EntityAdmin(admin.ModelAdmin):
 
     make_app_visible.short_description = "Mark selected entities as app visible"
 
-
     merge_entities.short_description = "Merge SELECT Primary (keeping) FIRST then Secondary (deleting)"
     make_app_visible.short_description = 'Make App Visible'
     reset_view_count.short_description = 'Reset View Count'
+    display_article_count_numeric.admin_order_field = 'overallsentiment__count'
 
-    actions = [merge_entities, make_app_visible,  reset_view_count]
+    actions = [merge_entities, make_app_visible, reset_view_count]
+
 
 admin.site.register(Entity, EntityAdmin)
 
+
 class BingEntityAdmin(admin.ModelAdmin):
     list_display = ('id', 'entity', 'name', 'description', 'image_url', 'web_search_url', 'bing_id',
-                    'contractual_rules', 'entity_type_display_hint', 'entity_type_hints', 'date_added')
+                    'contractual_rules', 'entity_type_display_hint', 'entity_type_hints',
+                    'date_added')
 
 
+class EntityViewAdmin(admin.ModelAdmin):
+    list_display = ('entity', 'view_dt', 'view_time')
+    list_filter = ('entity', 'view_dt', 'view_time')
+    search_fields = ('entity__name',)
+
+
+admin.site.register(EntityView, EntityViewAdmin)
 admin.site.register(BingEntity, BingEntityAdmin)
 admin.site.register(BoundMention)
 admin.site.register(OverallSentiment)
-
