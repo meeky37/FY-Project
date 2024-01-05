@@ -1,0 +1,953 @@
+[
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak",
+        "queryContext": {
+            "originalQuery": "rishi sunak",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 6,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "<b>Sunak</b> faces calls to act on pledge to cut waiting lists as strike action continues",
+                "url": "https://www.lancashiretelegraph.co.uk/news/national/24026490.sunak-faces-calls-act-pledge-cut-waiting-lists-strike-action-continues/",
+                "description": "Millions of people stuck on the waiting lists are \u201cgetting sicker while waiting\u201d and the situation is causing them \u201canxiety and uncertainty, according to presenter Stephen Fry, comedian Jo Brand, former NHS doctor and comedian Adam Kay and poet Michael Rosen.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/acbd69b0-6c4c-c2cb-a3fe-debf50e3feb9",
+                        "name": "Strike action"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/de02adea-5fe2-517a-e485-a94a99bd572d",
+                        "name": "Pledge"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Lancashire Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.OHKmA_C5jC1M86gacxhD1Q&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-04T00:12:00.0000000Z"
+            },
+            {
+                "name": "Electric vehicles to hit one million mark this month",
+                "url": "https://www.theargus.co.uk/news/national/24026488.electric-vehicles-hit-one-million-mark-month/",
+                "description": "The number of pure battery electric vehicles (EVs) on UK roads is expected to hit one million this month, according to new analysis. More than 967,000 of the vehicles were licensed at the end of November, the RAC Foundation said. That is up from 674,000 at the end of 2022.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/650dbf81-adaf-26a3-e109-3cfa19d80bf4",
+                        "name": "Electric vehicle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a33386b1-1803-1c9b-9700-b1c93e824769",
+                        "name": "Mark"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Argus",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.QOpcpeD2NEW-5ezLj52dtg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-04T00:12:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "<b>Rishi Sunak</b> to launch full-throated defence of his five pledges and beg voters to keep the faith",
+                "url": "https://www.thesun.co.uk/news/25241463/rishi-sunak-launch-defence-five-pledges-voters-keep-faith/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.4waN6Fcz36kRIFHyFrfvly&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "RISHI Sunak will today launch a full-throated defence of his five pledges and beg voters to keep the faith. The PM will claim \u201cgreat progress\u201d has been made on the one-year anniversary of his",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mZZguWnkRkVFPCoaQUmKEg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-03T21:30:00.0000000Z"
+            },
+            {
+                "name": "Report reveals if <b>Rishi Sunak</b>\u2019s five key pledges have been met",
+                "url": "https://www.thenational.scot/news/24025308.report-reveals-rishi-sunaks-five-key-pledges-met/",
+                "description": "RISHI Sunak is failing to deliver on most of the five key pledges he made a year ago which he said his government should be judged on, a report says.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-03T14:20:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "All the times tetchy <b>Rishi Sunak</b> lost his cool when forced to defend his record",
+                "url": "https://www.mirror.co.uk/news/politics/times-tetchy-rishi-sunak-lost-31719623",
+                "description": "Despite his best efforts, Rishi Sunak has started to develop an unfortunate reputation for being thin-skinned and tetchy when grilled over Government failings",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9585b0e9-1240-d064-5ce2-94b34b344160",
+                        "name": "Rishi"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Tesco Clubcard"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-03T10:24:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Statistics watchdog to examine government asylum backlog claims",
+                "url": "https://www.bbc.com/news/uk-politics-67876860.amp",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.l2NByRnUajVL5sy5ykaU-S&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "<b>Rishi Sunak</b> has claimed in a tweet to have cleared &quot;the backlog of asylum decisions&quot; The UK&#39;s statistics watchdog is looking into the government&#39;s claims to have cleared the asylum backlog. On Tuesday, the Home Office said it had fulfilled a pledge to ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC"
+                    }
+                ],
+                "datePublished": "2024-01-02T23:59:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak",
+        "queryContext": {
+            "originalQuery": "rishi sunak",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 106,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "<b>Sunak</b> faces calls to act on pledge to cut waiting lists as strike action continues",
+                "url": "https://www.bracknellnews.co.uk/news/national/24026490.sunak-faces-calls-act-pledge-cut-waiting-lists-strike-action-continues/",
+                "description": "Millions of people stuck on the waiting lists are \u201cgetting sicker while waiting\u201d and the situation is causing them \u201canxiety and uncertainty, according to presenter Stephen Fry, comedian Jo Brand, former NHS doctor and comedian Adam Kay and poet Michael Rosen.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8bc96d84-1f97-01cf-cf5b-c28e5fd58e0c",
+                        "name": "Bracknell"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/acbd69b0-6c4c-c2cb-a3fe-debf50e3feb9",
+                        "name": "Strike action"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/de02adea-5fe2-517a-e485-a94a99bd572d",
+                        "name": "Pledge"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Bracknell News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.3mkW1ADAoxQm3ivh5B6Xpg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-04T00:12:00.0000000Z"
+            },
+            {
+                "name": "Electric vehicles to hit one million mark this month",
+                "url": "https://www.theargus.co.uk/news/national/24026488.electric-vehicles-hit-one-million-mark-month/",
+                "description": "The number of pure battery electric vehicles (EVs) on UK roads is expected to hit one million this month, according to new analysis. More than 967,000 of the vehicles were licensed at the end of November, the RAC Foundation said. That is up from 674,000 at the end of 2022.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/650dbf81-adaf-26a3-e109-3cfa19d80bf4",
+                        "name": "Electric vehicle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a33386b1-1803-1c9b-9700-b1c93e824769",
+                        "name": "Mark"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Argus",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.QOpcpeD2NEW-5ezLj52dtg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-04T00:12:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "<b>Rishi Sunak</b> to launch full-throated defence of his five pledges and beg voters to keep the faith",
+                "url": "https://www.thesun.co.uk/news/25241463/rishi-sunak-launch-defence-five-pledges-voters-keep-faith/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.4waN6Fcz36kRIFHyFrfvly&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "RISHI Sunak will today launch a full-throated defence of his five pledges and beg voters to keep the faith. The PM will claim \u201cgreat progress\u201d has been made on the one-year anniversary of his",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mZZguWnkRkVFPCoaQUmKEg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-03T21:30:00.0000000Z"
+            },
+            {
+                "name": "Report reveals if <b>Rishi Sunak</b>\u2019s five key pledges have been met",
+                "url": "https://www.thenational.scot/news/24025308.report-reveals-rishi-sunaks-five-key-pledges-met/",
+                "description": "RISHI Sunak is failing to deliver on most of the five key pledges he made a year ago which he said his government should be judged on, a report says.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-03T14:20:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "All the times tetchy <b>Rishi Sunak</b> lost his cool when forced to defend his record",
+                "url": "https://www.mirror.co.uk/news/politics/times-tetchy-rishi-sunak-lost-31719623",
+                "description": "Despite his best efforts, Rishi Sunak has started to develop an unfortunate reputation for being thin-skinned and tetchy when grilled over Government failings",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9585b0e9-1240-d064-5ce2-94b34b344160",
+                        "name": "Rishi"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Tesco Clubcard"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-03T10:24:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Statistics watchdog to examine government asylum backlog claims",
+                "url": "https://www.bbc.com/news/uk-politics-67876860.amp",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.l2NByRnUajVL5sy5ykaU-S&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "<b>Rishi Sunak</b> has claimed in a tweet to have cleared &quot;the backlog of asylum decisions&quot; The UK&#39;s statistics watchdog is looking into the government&#39;s claims to have cleared the asylum backlog. On Tuesday, the Home Office said it had fulfilled a pledge to ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC"
+                    }
+                ],
+                "datePublished": "2024-01-02T23:59:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak",
+        "queryContext": {
+            "originalQuery": "rishi sunak",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 206,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "<b>Sunak</b> faces calls to act on pledge to cut waiting lists as strike action continues",
+                "url": "https://www.bracknellnews.co.uk/news/national/24026490.sunak-faces-calls-act-pledge-cut-waiting-lists-strike-action-continues/",
+                "description": "Millions of people stuck on the waiting lists are \u201cgetting sicker while waiting\u201d and the situation is causing them \u201canxiety and uncertainty, according to presenter Stephen Fry, comedian Jo Brand, former NHS doctor and comedian Adam Kay and poet Michael Rosen.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8bc96d84-1f97-01cf-cf5b-c28e5fd58e0c",
+                        "name": "Bracknell"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/acbd69b0-6c4c-c2cb-a3fe-debf50e3feb9",
+                        "name": "Strike action"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/de02adea-5fe2-517a-e485-a94a99bd572d",
+                        "name": "Pledge"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Bracknell News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.3mkW1ADAoxQm3ivh5B6Xpg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-04T00:12:00.0000000Z"
+            },
+            {
+                "name": "Electric vehicles to hit one million mark this month",
+                "url": "https://www.theargus.co.uk/news/national/24026488.electric-vehicles-hit-one-million-mark-month/",
+                "description": "The number of pure battery electric vehicles (EVs) on UK roads is expected to hit one million this month, according to new analysis. More than 967,000 of the vehicles were licensed at the end of November, the RAC Foundation said. That is up from 674,000 at the end of 2022.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/650dbf81-adaf-26a3-e109-3cfa19d80bf4",
+                        "name": "Electric vehicle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a33386b1-1803-1c9b-9700-b1c93e824769",
+                        "name": "Mark"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Argus",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.QOpcpeD2NEW-5ezLj52dtg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-04T00:12:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "<b>Rishi Sunak</b> to launch full-throated defence of his five pledges and beg voters to keep the faith",
+                "url": "https://www.thesun.co.uk/news/25241463/rishi-sunak-launch-defence-five-pledges-voters-keep-faith/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.4waN6Fcz36kRIFHyFrfvly&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "RISHI Sunak will today launch a full-throated defence of his five pledges and beg voters to keep the faith. The PM will claim \u201cgreat progress\u201d has been made on the one-year anniversary of his",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mZZguWnkRkVFPCoaQUmKEg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-03T21:30:00.0000000Z"
+            },
+            {
+                "name": "Report reveals if <b>Rishi Sunak</b>\u2019s five key pledges have been met",
+                "url": "https://www.thenational.scot/news/24025308.report-reveals-rishi-sunaks-five-key-pledges-met/",
+                "description": "RISHI Sunak is failing to deliver on most of the five key pledges he made a year ago which he said his government should be judged on, a report says.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-03T14:20:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "All the times tetchy <b>Rishi Sunak</b> lost his cool when forced to defend his record",
+                "url": "https://www.mirror.co.uk/news/politics/times-tetchy-rishi-sunak-lost-31719623",
+                "description": "Despite his best efforts, Rishi Sunak has started to develop an unfortunate reputation for being thin-skinned and tetchy when grilled over Government failings",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9585b0e9-1240-d064-5ce2-94b34b344160",
+                        "name": "Rishi"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Tesco Clubcard"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-03T10:24:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Statistics watchdog to examine government asylum backlog claims",
+                "url": "https://www.bbc.com/news/uk-politics-67876860.amp",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.l2NByRnUajVL5sy5ykaU-S&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "<b>Rishi Sunak</b> has claimed in a tweet to have cleared &quot;the backlog of asylum decisions&quot; The UK&#39;s statistics watchdog is looking into the government&#39;s claims to have cleared the asylum backlog. On Tuesday, the Home Office said it had fulfilled a pledge to ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC"
+                    }
+                ],
+                "datePublished": "2024-01-02T23:59:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak",
+        "queryContext": {
+            "originalQuery": "rishi sunak",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 306,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "<b>Sunak</b> faces calls to act on pledge to cut waiting lists as strike action continues",
+                "url": "https://www.bracknellnews.co.uk/news/national/24026490.sunak-faces-calls-act-pledge-cut-waiting-lists-strike-action-continues/",
+                "description": "Millions of people stuck on the waiting lists are \u201cgetting sicker while waiting\u201d and the situation is causing them \u201canxiety and uncertainty, according to presenter Stephen Fry, comedian Jo Brand, former NHS doctor and comedian Adam Kay and poet Michael Rosen.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8bc96d84-1f97-01cf-cf5b-c28e5fd58e0c",
+                        "name": "Bracknell"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/acbd69b0-6c4c-c2cb-a3fe-debf50e3feb9",
+                        "name": "Strike action"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/de02adea-5fe2-517a-e485-a94a99bd572d",
+                        "name": "Pledge"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Bracknell News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.3mkW1ADAoxQm3ivh5B6Xpg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-04T00:12:00.0000000Z"
+            },
+            {
+                "name": "Electric vehicles to hit one million mark this month",
+                "url": "https://www.theargus.co.uk/news/national/24026488.electric-vehicles-hit-one-million-mark-month/",
+                "description": "The number of pure battery electric vehicles (EVs) on UK roads is expected to hit one million this month, according to new analysis. More than 967,000 of the vehicles were licensed at the end of November, the RAC Foundation said. That is up from 674,000 at the end of 2022.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/650dbf81-adaf-26a3-e109-3cfa19d80bf4",
+                        "name": "Electric vehicle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a33386b1-1803-1c9b-9700-b1c93e824769",
+                        "name": "Mark"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Argus",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.QOpcpeD2NEW-5ezLj52dtg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-04T00:12:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "<b>Rishi Sunak</b> to launch full-throated defence of his five pledges and beg voters to keep the faith",
+                "url": "https://www.thesun.co.uk/news/25241463/rishi-sunak-launch-defence-five-pledges-voters-keep-faith/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.4waN6Fcz36kRIFHyFrfvly&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "RISHI Sunak will today launch a full-throated defence of his five pledges and beg voters to keep the faith. The PM will claim \u201cgreat progress\u201d has been made on the one-year anniversary of his",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mZZguWnkRkVFPCoaQUmKEg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-03T21:30:00.0000000Z"
+            },
+            {
+                "name": "Report reveals if <b>Rishi Sunak</b>\u2019s five key pledges have been met",
+                "url": "https://www.thenational.scot/news/24025308.report-reveals-rishi-sunaks-five-key-pledges-met/",
+                "description": "RISHI Sunak is failing to deliver on most of the five key pledges he made a year ago which he said his government should be judged on, a report says.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-03T14:20:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "All the times tetchy <b>Rishi Sunak</b> lost his cool when forced to defend his record",
+                "url": "https://www.mirror.co.uk/news/politics/times-tetchy-rishi-sunak-lost-31719623",
+                "description": "Despite his best efforts, Rishi Sunak has started to develop an unfortunate reputation for being thin-skinned and tetchy when grilled over Government failings",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9585b0e9-1240-d064-5ce2-94b34b344160",
+                        "name": "Rishi"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Tesco Clubcard"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-03T10:24:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Statistics watchdog to examine government asylum backlog claims",
+                "url": "https://www.bbc.com/news/uk-politics-67876860.amp",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.l2NByRnUajVL5sy5ykaU-S&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "<b>Rishi Sunak</b> has claimed in a tweet to have cleared &quot;the backlog of asylum decisions&quot; The UK&#39;s statistics watchdog is looking into the government&#39;s claims to have cleared the asylum backlog. On Tuesday, the Home Office said it had fulfilled a pledge to ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC"
+                    }
+                ],
+                "datePublished": "2024-01-02T23:59:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak",
+        "queryContext": {
+            "originalQuery": "rishi sunak",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 406,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "<b>Sunak</b> faces calls to act on pledge to cut waiting lists as strike action continues",
+                "url": "https://www.bracknellnews.co.uk/news/national/24026490.sunak-faces-calls-act-pledge-cut-waiting-lists-strike-action-continues/",
+                "description": "Millions of people stuck on the waiting lists are \u201cgetting sicker while waiting\u201d and the situation is causing them \u201canxiety and uncertainty, according to presenter Stephen Fry, comedian Jo Brand, former NHS doctor and comedian Adam Kay and poet Michael Rosen.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8bc96d84-1f97-01cf-cf5b-c28e5fd58e0c",
+                        "name": "Bracknell"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/acbd69b0-6c4c-c2cb-a3fe-debf50e3feb9",
+                        "name": "Strike action"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/de02adea-5fe2-517a-e485-a94a99bd572d",
+                        "name": "Pledge"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Bracknell News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.3mkW1ADAoxQm3ivh5B6Xpg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-04T00:12:00.0000000Z"
+            },
+            {
+                "name": "Electric vehicles to hit one million mark this month",
+                "url": "https://www.theargus.co.uk/news/national/24026488.electric-vehicles-hit-one-million-mark-month/",
+                "description": "The number of pure battery electric vehicles (EVs) on UK roads is expected to hit one million this month, according to new analysis. More than 967,000 of the vehicles were licensed at the end of November, the RAC Foundation said. That is up from 674,000 at the end of 2022.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/650dbf81-adaf-26a3-e109-3cfa19d80bf4",
+                        "name": "Electric vehicle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a33386b1-1803-1c9b-9700-b1c93e824769",
+                        "name": "Mark"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Argus",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.QOpcpeD2NEW-5ezLj52dtg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-04T00:12:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "<b>Rishi Sunak</b> to launch full-throated defence of his five pledges and beg voters to keep the faith",
+                "url": "https://www.thesun.co.uk/news/25241463/rishi-sunak-launch-defence-five-pledges-voters-keep-faith/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.4waN6Fcz36kRIFHyFrfvly&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "RISHI Sunak will today launch a full-throated defence of his five pledges and beg voters to keep the faith. The PM will claim \u201cgreat progress\u201d has been made on the one-year anniversary of his",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mZZguWnkRkVFPCoaQUmKEg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-03T21:30:00.0000000Z"
+            },
+            {
+                "name": "Report reveals if <b>Rishi Sunak</b>\u2019s five key pledges have been met",
+                "url": "https://www.thenational.scot/news/24025308.report-reveals-rishi-sunaks-five-key-pledges-met/",
+                "description": "RISHI Sunak is failing to deliver on most of the five key pledges he made a year ago which he said his government should be judged on, a report says.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-03T14:20:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "All the times tetchy <b>Rishi Sunak</b> lost his cool when forced to defend his record",
+                "url": "https://www.mirror.co.uk/news/politics/times-tetchy-rishi-sunak-lost-31719623",
+                "description": "Despite his best efforts, Rishi Sunak has started to develop an unfortunate reputation for being thin-skinned and tetchy when grilled over Government failings",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9585b0e9-1240-d064-5ce2-94b34b344160",
+                        "name": "Rishi"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Tesco Clubcard"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-03T10:24:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Statistics watchdog to examine government asylum backlog claims",
+                "url": "https://www.bbc.com/news/uk-politics-67876860.amp",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.l2NByRnUajVL5sy5ykaU-S&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "<b>Rishi Sunak</b> has claimed in a tweet to have cleared &quot;the backlog of asylum decisions&quot; The UK&#39;s statistics watchdog is looking into the government&#39;s claims to have cleared the asylum backlog. On Tuesday, the Home Office said it had fulfilled a pledge to ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC"
+                    }
+                ],
+                "datePublished": "2024-01-02T23:59:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    }
+]
