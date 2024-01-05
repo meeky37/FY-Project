@@ -89,8 +89,10 @@ export default {
     async incrementViewCount (entityId) {
       try {
         // Check if the user has already viewed the profile in the current session
-        const viewedProfiles = VueCookie.get('viewedProfiles') || []
-        if (viewedProfiles.includes(entityId)) {
+        // JSON.parse converts the string to an array
+        const viewedProfiles = JSON.parse(VueCookie.get('viewedProfiles') || '[]')
+
+        if (viewedProfiles.includes(entityId.toString())) {
           console.log(`Already viewed in this session: ${entityId}`)
           return
         }
@@ -98,7 +100,9 @@ export default {
         const csrfToken = VueCookie.get('csrftoken')
         // console.log('token...')
         // console.log(csrfToken)
-        const response = await fetch(`${API_BASE_URL}/profiles_app/increment_view_count/${entityId}/`, {
+        // const response = await fetch(`${API_BASE_URL}/profiles_app/increment_view_count/${entityId}/`, {
+        const response = await
+        fetch(`${API_BASE_URL}/profiles_app/create_entity_view/${entityId}/`, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -110,8 +114,9 @@ export default {
         if (response.ok) {
           console.log(`View count incremented for entity ${entityId}`)
           // Cookie here to track viewed profiles in the current session
-          VueCookie.set('viewedProfiles', [...viewedProfiles, entityId], { expires: 1 })
-          console.log(VueCookie.get('viewedProfiles'))
+          // Use JSON.stringify to convert the array to a string
+          VueCookie.set('viewedProfiles', JSON.stringify([...viewedProfiles, entityId]), { expires: 1 })
+          console.log(JSON.stringify(VueCookie.get('viewedProfiles')))
           // expire in 1 day ppl don't close browsers much these days.
         } else {
           console.log('Error incrementing view count:', response.statusText)
