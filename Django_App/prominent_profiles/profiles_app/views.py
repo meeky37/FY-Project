@@ -1,7 +1,8 @@
 from django.shortcuts import render, get_object_or_404
 from django.http import JsonResponse
+from django.utils import timezone
 from django.views import View
-from .models import Entity, BingEntity, OverallSentiment, Article
+from .models import Entity, BingEntity, OverallSentiment, Article, EntityView
 
 
 # TODO: Remove unneeded attributes from JSON views.
@@ -61,11 +62,6 @@ class BingEntityMiniView(View):
         return JsonResponse(serialized_entity, safe=False)
 
 
-from django.http import JsonResponse
-from django.shortcuts import get_object_or_404
-from .models import OverallSentiment, Article
-
-from django.http import JsonResponse
 from django.shortcuts import get_object_or_404
 from .models import OverallSentiment, Article
 
@@ -123,12 +119,13 @@ class OverallSentimentLinear(View):
             article = get_object_or_404(Article, id=overall_sentiment.article.id)
 
             serialized_entity = {
-                'id': article.id,
-                'headline': article.headline,
-                'url': article.url,
-                'image_url': article.image_url,
-                'publication_date': article.publication_date,
-                'author': article.author,
+                'id': overall_sentiment.article.id,
+                'entity_id': overall_sentiment.entity.id,
+                'headline': overall_sentiment.article.headline,
+                'url': overall_sentiment.article.url,
+                'image_url': overall_sentiment.article.image_url,
+                'publication_date': overall_sentiment.article.publication_date,
+                'author': overall_sentiment.article.author,
                 'neutral': overall_sentiment.exp_neutral,
                 'positive': overall_sentiment.exp_positive,
                 'negative': overall_sentiment.exp_negative
@@ -164,6 +161,7 @@ class ArticleOverallSentimentExp(View):
         for overall_sentiment in overall_sentiments:
             serialized_entity = {
                 'id': overall_sentiment.article.id,
+                'entity_id': overall_sentiment.entity.id,
                 'headline': overall_sentiment.article.headline,
                 'url': overall_sentiment.article.url,
                 'image_url': overall_sentiment.article.image_url,
@@ -188,9 +186,52 @@ def entity_name(request, entity_id):
     except Entity.DoesNotExist:
         return JsonResponse({'error': 'Entity not found'}, status=404)
 
+
 # Using for trending profiles front page
 def increment_view_count(request, entity_id):
     entity = get_object_or_404(Entity, id=entity_id)
     entity.view_count += 1
     entity.save()
     return JsonResponse({'message': 'View count incremented successfully'})
+
+
+def create_entity_view(request, entity_id):
+    entity = get_object_or_404(Entity, pk=entity_id)
+
+    EntityView.objects.create(
+        entity=entity,
+        view_dt=timezone.now().date(),
+        view_time=timezone.now().time()
+    )
+
+    return JsonResponse({'status': 'success', 'message': 'EntityView record created successfully'})
+
+from django.utils import timezone
+from django.http import JsonResponse
+from django.db.models import Sum
+from .models import EntityView
+
+def get_top_entities(request):
+    # Time ranges 1, 3 and 5 days for trending entities homepage
+    time_ranges = [24, 72, 120]
+
+    for hours in time_ranges:
+        end_time = timezone.now()
+        start_time = end_time - timezone.timedelta(hours=hours)
+
+        # Top 4 entities within the time range
+        top_entities = EntityView.objects.filter(view_dt__range=(start_time, end_time)) \
+                                         .values('entity__id', 'entity__name') \
+                                         .annotate(total_views=Sum('entity__view_count')) \
+                                         .order_by('-total_views')[:4]
+
+        # Check if there are clear top 3 entities
+        if top_entities[3]['total_views'] > top_entities[4]['total_views']:
+            break  # Found clear top 3 entities
+
+    # If no clear top 3, just return those 3 entities (we tried 3 time periods so this shouldn't
+    # occur much)
+
+    data = [{'entity_id': entity['entity__id'], 'entity_name': entity['entity__name'], 'total_views': entity['total_views']} for entity in top_entities]
+
+    return JsonResponse({'top_entities': data})
