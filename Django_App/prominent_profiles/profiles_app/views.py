@@ -85,10 +85,13 @@ class OverallSentimentExp(View):
             article = get_object_or_404(Article, id=overall_sentiment.article.id)
 
             serialized_entity = {
-                'id': article.id,
-                'headline': article.headline,
-                'url': article.url,
-                'image_url': article.image_url,
+                'id': overall_sentiment.article.id,
+                'entity_id': overall_sentiment.entity.id,
+                'headline': overall_sentiment.article.headline,
+                'url': overall_sentiment.article.url,
+                'image_url': overall_sentiment.article.image_url,
+                'publication_date': overall_sentiment.article.publication_date,
+                'author': overall_sentiment.article.author,
                 'neutral': overall_sentiment.exp_neutral,
                 'positive': overall_sentiment.exp_positive,
                 'negative': overall_sentiment.exp_negative
@@ -206,12 +209,14 @@ def create_entity_view(request, entity_id):
 
     return JsonResponse({'status': 'success', 'message': 'EntityView record created successfully'})
 
+
 from django.utils import timezone
 from django.http import JsonResponse
-from django.db.models import Sum
+from django.db.models import Sum, Count
 from .models import EntityView
 
-def get_top_entities(request):
+
+def get_trending_entities(request):
     # Time ranges 1, 3 and 5 days for trending entities homepage
     time_ranges = [24, 72, 120]
 
@@ -221,17 +226,19 @@ def get_top_entities(request):
 
         # Top 4 entities within the time range
         top_entities = EntityView.objects.filter(view_dt__range=(start_time, end_time)) \
-                                         .values('entity__id', 'entity__name') \
-                                         .annotate(total_views=Sum('entity__view_count')) \
-                                         .order_by('-total_views')[:4]
+                           .values('entity__id', 'entity__name') \
+                           .annotate(total_views=Count('entity__id')) \
+                           .order_by('-total_views')[:3]
 
         # Check if there are clear top 3 entities
-        if top_entities[3]['total_views'] > top_entities[4]['total_views']:
-            break  # Found clear top 3 entities
+        if len(top_entities) > 3:
+            if top_entities[2]['total_views'] > top_entities[3]['total_views']:
+                break  # Found clear top 3 entities
 
     # If no clear top 3, just return those 3 entities (we tried 3 time periods so this shouldn't
     # occur much)
 
-    data = [{'entity_id': entity['entity__id'], 'entity_name': entity['entity__name'], 'total_views': entity['total_views']} for entity in top_entities]
+    data = [{'entity_id': entity['entity__id'], 'entity_name': entity['entity__name'],
+             'total_views': entity['total_views']} for entity in top_entities[:3]]
 
-    return JsonResponse({'top_entities': data})
+    return JsonResponse({'trending_entities': data})
