@@ -45,7 +45,6 @@ export default {
     // Replacement for button use - ugly.
     selectedEntity (newVal, oldVal) {
       if (newVal !== oldVal) {
-        console.log('yooooo!')
         this.redirectToEntityPage()
         this.selectedEntity = ''
       }
