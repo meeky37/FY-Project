@@ -89,9 +89,8 @@ export default {
   margin-bottom: 10px;
   margin-left: 15px;
   margin-right: 5px;
-  border-radius: 25px;
+  border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  border-radius: 5px;
 }
 
 .entry-content {
@@ -138,6 +137,8 @@ export default {
   display: flex;
   height: 20px;
   margin-top: 10px;
+  border-radius: 6px;
+  overflow: hidden;
 }
 
 .positive {

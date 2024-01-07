@@ -192,10 +192,13 @@ export default {
 
 }
 
+/* TODO: Try non scoped implementation? */
 .sentiment-bar {
   display: flex;
   height: 20px;
   margin-top: 10px;
+  border-radius: 6px;
+  overflow: hidden;
 }
 
 .positive {

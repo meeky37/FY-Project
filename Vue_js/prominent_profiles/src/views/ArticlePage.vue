@@ -152,8 +152,7 @@ export default {
           this.Article = data
           console.log(this.Article)
 
-          // 0th entry is always the primary entity in the URL so it matches click through.
-          console.log('updated chart data')
+          // 0th entry is always the primary entity in the URL so it matches click throughs
           this.chartdata.datasets[0].data = [data[0].positive, data[0].neutral, data[0].negative]
         })
         .catch((error) => {
