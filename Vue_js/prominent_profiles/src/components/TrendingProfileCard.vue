@@ -1,14 +1,16 @@
 <template>
   <div>
     <div class="card">
-      <h2 class="entity-name">{{ entry.entity_name }}</h2>
+      <h2 class="entity-name" @click="redirectToEntityPage">{{ entry.entity_name }}</h2>
     <div class="animated-positive left-box">
       <p class="box-icon">
             <font-awesome-icon :icon="['fas', 'circle-chevron-up']" class="positive" />
           </p>
       <transition-group name="reel" tag="div">
         <p v-if="positiveArticle.length > 0" :key="currentPositiveIndex"
-           v-html="removeBoldTags(positiveArticle[currentPositiveIndex].headline)">
+           v-html="removeBoldTags(positiveArticle[currentPositiveIndex].headline)"
+           @click="viewArticleDetail(positiveArticle[currentPositiveIndex].id)"
+           class="headline">
         </p>
       </transition-group>
     </div>
@@ -17,6 +19,7 @@
         <div class="entity-photo">
           <img
             v-if="bingEntity && bingEntity.image_url"
+            @click="redirectToEntityPage"
             :src="bingEntity.image_url"
             alt="Entity Photo"
             style="width: auto; min-height: 150px;"
@@ -32,7 +35,9 @@
     </p>
       <transition-group name="reel" tag="div">
         <p v-if="negativeArticle.length > 0" :key="currentNegativeIndex"
-           v-html="removeBoldTags(negativeArticle[currentNegativeIndex].headline)">
+           v-html="removeBoldTags(negativeArticle[currentNegativeIndex].headline)"
+           @click="viewArticleDetail(negativeArticle[currentNegativeIndex].id)"
+           class="headline">
         </p>
       </transition-group>
     </div>
@@ -197,6 +202,19 @@ export default {
       } else {
         return 'Attribution: Not available'
       }
+    },
+
+    redirectToEntityPage () {
+      // Redirect to the URL related to the selected entity
+      if (this.entry.entity_id) {
+        this.$router.push('/entity/' + this.entry.entity_id)
+      }
+    },
+
+    viewArticleDetail (articleID) {
+      const articleId = articleID
+      const entityId = this.entry.entity_id
+      this.$router.push({ name: 'entryId', params: { entityId, articleId } })
     }
 
   }
@@ -254,6 +272,7 @@ export default {
 
   .entity-photo {
   position: relative;
+  cursor: pointer;
 }
 
   .entity-photo img {
@@ -265,5 +284,10 @@ export default {
 
   .entity-name {
     margin-bottom: 0px;
+    cursor: pointer;
+  }
+
+  .headline {
+    cursor: pointer;
   }
 </style>

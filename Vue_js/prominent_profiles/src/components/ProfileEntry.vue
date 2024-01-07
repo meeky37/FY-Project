@@ -184,11 +184,12 @@ export default {
   margin-top: 5px;
   text-align: center;
   color: #007bff;
-  font-size: large;
+  font-size: x-large;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   max-width: 5ch;
+
 }
 
 .sentiment-bar {
