@@ -57,6 +57,10 @@ export default {
     sortType: {
       type: String,
       default: 'sentiment'
+    },
+    isAscending: {
+      type: Boolean,
+      default: true
     }
   },
 
@@ -80,6 +84,9 @@ export default {
       }
     },
     sortType (newSortType, oldSortType) {
+      this.sortEntries()
+    },
+    isAscending (newIsAscending, oldIsAscending) {
       this.sortEntries()
     }
   },
@@ -137,6 +144,11 @@ export default {
           (a, b) => parseFloat(b.negative) - parseFloat(a.negative)
         )
       }
+      if (!this.isAscending) {
+        this.positiveEntries.reverse()
+        this.neutralEntries.reverse()
+        this.negativeEntries.reverse()
+      }
     }
   }
 }
@@ -177,7 +189,7 @@ export default {
   max-height: 50vh;
   overflow-y: auto;
   margin-left: 10px;
-  margin-right: 25px;
+  margin-right: 10px;
   margin-bottom: 1px;
   flex-wrap: wrap;
 

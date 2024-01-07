@@ -34,7 +34,7 @@
 
     <SortToggle @updateSortType="updateSortType"/>
     <!-- Use ArticleEntriesContainer to display entries -->
-    <ArticleEntriesContainer :sortType ="sortType"/>
+    <ArticleEntriesContainer :sortType ="sortType" :isAscending="isAscending"/>
     <PageFooter/>
   </div>
 </template>
@@ -59,7 +59,8 @@ export default {
       bingEntity: null,
       isLoading: false,
       showSourcePopup: false,
-      sortType: 'sentiment'
+      sortType: 'sentiment',
+      isAscending: true
     }
   },
   watch: {
@@ -194,9 +195,9 @@ export default {
       return date.toLocaleDateString(undefined, options)
     },
 
-    updateSortType (newSortType) {
+    updateSortType (newSortType, newIsAscending) {
       this.sortType = newSortType
-      console.log(this.sortType)
+      this.isAscending = newIsAscending
     }
   }
 }
