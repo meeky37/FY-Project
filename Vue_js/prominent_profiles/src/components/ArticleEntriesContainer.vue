@@ -53,6 +53,13 @@ import { API_BASE_URL } from '@/config.js'
 
 export default {
 
+  props: {
+    sortType: {
+      type: String,
+      default: 'sentiment'
+    }
+  },
+
   data () {
     return {
       positiveEntries: [],
@@ -71,6 +78,9 @@ export default {
       if (newId !== undefined) {
         this.fetchData()
       }
+    },
+    sortType (newSortType, oldSortType) {
+      this.sortEntries()
     }
   },
   components: {
@@ -107,18 +117,26 @@ export default {
           console.error('Error fetching data:', error)
         })
     },
+
     sortEntries () {
       // Sort positiveEntries, neutralEntries, and negativeEntries
-      this.positiveEntries.sort(
 
-        (a, b) => parseFloat(b.positive) - parseFloat(a.positive)
-      )
-      this.neutralEntries.sort(
-        (a, b) => parseFloat(b.neutral) - parseFloat(a.neutral)
-      )
-      this.negativeEntries.sort(
-        (a, b) => parseFloat(b.negative) - parseFloat(a.negative)
-      )
+      if (this.sortType === 'date') {
+        const sortByDate = (a, b) => new Date(b.publication_date) - new Date(a.publication_date)
+        this.positiveEntries.sort(sortByDate)
+        this.neutralEntries.sort(sortByDate)
+        this.negativeEntries.sort(sortByDate)
+      } else {
+        this.positiveEntries.sort(
+          (a, b) => parseFloat(b.positive) - parseFloat(a.positive)
+        )
+        this.neutralEntries.sort(
+          (a, b) => parseFloat(b.neutral) - parseFloat(a.neutral)
+        )
+        this.negativeEntries.sort(
+          (a, b) => parseFloat(b.negative) - parseFloat(a.negative)
+        )
+      }
     }
   }
 }

@@ -31,8 +31,10 @@
       </p>
       <button @click="closeSourcePopup">Close</button>
     </div>
+
+    <SortToggle @updateSortType="updateSortType"/>
     <!-- Use ArticleEntriesContainer to display entries -->
-    <ArticleEntriesContainer/>
+    <ArticleEntriesContainer :sortType ="sortType"/>
     <PageFooter/>
   </div>
 </template>
@@ -40,6 +42,7 @@
 <script>
 import ArticleEntriesContainer from '../components/ArticleEntriesContainer.vue'
 import PageFooter from '../components/PageFooter.vue'
+import SortToggle from '@/components/SortToggle.vue'
 import { API_BASE_URL } from '@/config.js'
 import VueCookie from 'vue-cookie'
 export default {
@@ -47,14 +50,16 @@ export default {
 
   components: {
     ArticleEntriesContainer,
-    PageFooter
+    PageFooter,
+    SortToggle
   },
 
   data () {
     return {
       bingEntity: null,
       isLoading: false,
-      showSourcePopup: false
+      showSourcePopup: false,
+      sortType: 'sentiment'
     }
   },
   watch: {
@@ -187,6 +192,11 @@ export default {
       const options = { year: 'numeric', month: 'long', day: 'numeric' }
       const date = new Date(dateString)
       return date.toLocaleDateString(undefined, options)
+    },
+
+    updateSortType (newSortType) {
+      this.sortType = newSortType
+      console.log(this.sortType)
     }
   }
 }
