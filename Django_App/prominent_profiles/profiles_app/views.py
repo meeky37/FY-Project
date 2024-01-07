@@ -224,21 +224,23 @@ def get_trending_entities(request):
         end_time = timezone.now()
         start_time = end_time - timezone.timedelta(hours=hours)
 
-        # Top 4 entities within the time range
+        # Top 7 entities within the time range
         top_entities = EntityView.objects.filter(view_dt__range=(start_time, end_time)) \
                            .values('entity__id', 'entity__name') \
                            .annotate(total_views=Count('entity__id')) \
-                           .order_by('-total_views')[:3]
+                           .order_by('-total_views')[:6]
 
-        # Check if there are clear top 3 entities
-        if len(top_entities) > 3:
-            if top_entities[2]['total_views'] > top_entities[3]['total_views']:
+        # Check if there are clear top 6 entities
+        if len(top_entities) > 6:
+            if top_entities[5]['total_views'] > top_entities[6]['total_views']:
                 break  # Found clear top 3 entities
 
-    # If no clear top 3, just return those 3 entities (we tried 3 time periods so this shouldn't
+    # If no clear top 6, just return those 6 entities (we tried 3 time periods so this shouldn't
     # occur much)
 
     data = [{'entity_id': entity['entity__id'], 'entity_name': entity['entity__name'],
-             'total_views': entity['total_views']} for entity in top_entities[:3]]
+             'total_views': entity['total_views']} for entity in top_entities[:6]]
+
+
 
     return JsonResponse({'trending_entities': data})
