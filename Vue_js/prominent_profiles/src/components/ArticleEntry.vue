@@ -14,6 +14,7 @@
           <div class="button-container" @click="viewArticleDetail">
           <font-awesome-icon :icon="['fas', 'magnifying-glass-chart']" style="color: #755BB4;"/>
           </div>
+          <p class="date">{{ formatPublicationDate(entry.publication_date) }}</p>
         </div>
       </div>
     </div>
@@ -32,6 +33,8 @@
 </template>
 
 <script>
+import { format } from 'date-fns'
+
 export default {
   props: {
     entry: {
@@ -41,6 +44,12 @@ export default {
   },
 
   methods: {
+    formatPublicationDate (dateString) {
+      const date = new Date(dateString)
+      const formattedDate = format(date, 'do MMM')
+      return formattedDate
+    },
+
     isWidthSufficient (width) {
       const minWidthToShowText = 15
       const numericWidth = parseFloat(width)
@@ -170,6 +179,10 @@ export default {
   color: #777;
   margin-right: 5px;
   display: inline-block;
+}
+
+.date{
+  margin-left: 10px;
 }
 
 </style>
