@@ -265,7 +265,7 @@ export default {
 }
 
   .entity-photo-frame {
-  border: 3px solid #755BB4;
+  border: 4px solid #755BB4;
   border-radius: 8px;
   overflow: visible;
 }
@@ -280,6 +280,7 @@ export default {
   width: auto;
   height: 100%;
   vertical-align: bottom;
+  border-radius: 4px;
 }
 
   .entity-name {
