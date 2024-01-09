@@ -1,10 +1,17 @@
 <template>
   <div v-if="bingEntity" class="article-entry">
     <div class="entry-content">
-      <img v-if="bingEntity.image_url" :src="bingEntity.image_url" alt="Article Image" class="entity-image" />
+      <img v-if="bingEntity.image_url"
+           :src="bingEntity.image_url"
+           alt="Article Image"
+           @click="redirectToEntityPage"
+           class="entity-image" />
 
       <div class="name-container">
-        <h2 v-if="bingEntity.name" class="name">{{ bingEntity.name }}</h2>
+        <h2 v-if="bingEntity.name"
+            class="name"
+            @click="redirectToEntityPage"
+        >{{ bingEntity.name }}</h2>
 
         <div class="url-container">
           <template v-if="bingEntity.web_search_url">
@@ -121,6 +128,13 @@ export default {
       const articleId = this.entry.id
       const entityId = this.$route.params.id
       this.$router.push({ name: 'entryId', params: { entityId, articleId } })
+    },
+
+    redirectToEntityPage () {
+      // Redirect to the URL related to the selected entity
+      if (this.entry.entity_id && this.bingEntity.bing_id !== null) {
+        this.$router.push('/entity/' + this.entry.entity_id)
+      }
     }
   },
 
@@ -172,11 +186,15 @@ export default {
   overflow: hidden;
   text-overflow: ellipsis;
   text-align: center;
+  cursor: pointer;
 }
 
 .entity-image {
   max-width: 48%;
   margin-right: 10px;
+  border: 2px solid #755BB4;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .internal-link,
