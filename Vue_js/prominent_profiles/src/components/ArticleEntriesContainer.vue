@@ -61,16 +61,22 @@ export default {
     isAscending: {
       type: Boolean,
       default: true
-    }
+    },
+    oldestArticleDate: Date,
+    dateRange: Object
   },
 
   data () {
     return {
       positiveEntries: [],
       neutralEntries: [],
-      negativeEntries: []
+      negativeEntries: [],
+      originalPositiveEntries: [],
+      originalNeutralEntries: [],
+      originalNegativeEntries: []
     }
   },
+
   mounted () {
     this.fetchData()
   },
@@ -80,6 +86,7 @@ export default {
       console.log('Route parameter changed:', newId)
       // newId not defined? e.g. homepage don't attempt new API call.
       if (newId !== undefined) {
+        // Changed entity path get new data (contains sort + date filter)
         this.fetchData()
       }
     },
@@ -88,6 +95,9 @@ export default {
     },
     isAscending (newIsAscending, oldIsAscending) {
       this.sortEntries()
+    },
+    dateRange (newDateRange, oldDateRange) {
+      this.filterEntries()
     }
   },
   components: {
@@ -116,9 +126,13 @@ export default {
               this.negativeEntries.push(article)
             }
           })
-
           // Call sortEntries ONLY after data has been processed
           this.sortEntries()
+          this.setOldestArticleDate()
+          this.originalPositiveEntries = this.positiveEntries
+          this.originalNeutralEntries = this.neutralEntries
+          this.originalNegativeEntries = this.negativeEntries
+          this.filterEntries()
         })
         .catch(error => {
           console.error('Error fetching data:', error)
@@ -148,6 +162,46 @@ export default {
         this.positiveEntries.reverse()
         this.neutralEntries.reverse()
         this.negativeEntries.reverse()
+      }
+    },
+
+    getOldestArticle () {
+      const sortByDate = (a, b) => new Date(a.publication_date) - new Date(b.publication_date)
+      const allEntries = [...this.positiveEntries, ...this.neutralEntries, ...this.negativeEntries]
+      allEntries.sort(sortByDate)
+      return allEntries[0]
+    },
+
+    setOldestArticleDate () {
+      const oldestArticle = this.getOldestArticle()
+      const dateObject = new Date(oldestArticle.publication_date)
+      this.$emit('oldestArticleDate', dateObject)
+    },
+
+    filterEntries () {
+      // Are both start and end dates are defined in the dateRange?
+      if (this.dateRange && this.dateRange.start && this.dateRange.end) {
+        // Filter positiveEntries based on the date range
+        this.positiveEntries = this.originalPositiveEntries.filter(entry =>
+          new Date(entry.publication_date) >= this.dateRange.start &&
+          new Date(entry.publication_date) <= this.dateRange.end
+        )
+
+        // As above for neutral
+        this.neutralEntries = this.originalNeutralEntries.filter(entry =>
+          new Date(entry.publication_date) >= this.dateRange.start &&
+          new Date(entry.publication_date) <= this.dateRange.end
+        )
+
+        // As above for negative
+        this.negativeEntries = this.originalNegativeEntries.filter(entry =>
+          new Date(entry.publication_date) >= this.dateRange.start &&
+          new Date(entry.publication_date) <= this.dateRange.end
+        )
+      } else {
+        this.positiveEntries = this.originalPositiveEntries
+        this.neutralEntries = this.originalNeutralEntries
+        this.negativeEntries = this.originalNegativeEntries
       }
     }
   }
@@ -240,7 +294,7 @@ export default {
   font-size: 2em;
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1450px) {
   .sentiment-columns-container {
     display: block; /* Changing to a different layout for small screens/mobile? */
   }
