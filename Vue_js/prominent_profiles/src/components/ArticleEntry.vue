@@ -14,8 +14,8 @@
           <div class="button-container" @click="viewArticleDetail">
           <font-awesome-icon :icon="['fas', 'magnifying-glass-chart']" style="color: #755BB4;"/>
           </div>
-          <p class="date">{{ formatPublicationDate(entry.publication_date) }}</p>
         </div>
+        <p class="date">{{ formatPublicationDate(entry.publication_date) }}</p>
       </div>
     </div>
     <div class="sentiment-bar">
