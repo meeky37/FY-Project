@@ -61,28 +61,9 @@ const fetchData = async () => {
   }
 }
 
-const cardRefs = [ref('card1'), ref('card2'), ref('card3')]
-
 onMounted(() => {
   console.log('Component is mounted')
-
   fetchData()
-
-  const tl = gsap.timeline()
-
-  cardRefs.forEach((cardRef, index) => {
-    console.log(`Adding animation for card${index + 1}`)
-    tl.to(cardRef.value, {
-      height: index === 0 ? '50%' : (index === 1 ? '80%' : '100%'),
-      ease: 'power3.inOut',
-      scrollTrigger: {
-        trigger: cardRef.value,
-        start: 'top 60%',
-        end: 'bottom 20%',
-        scrub: true
-      }
-    })
-  })
 })
 
 </script>
