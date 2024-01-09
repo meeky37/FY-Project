@@ -236,6 +236,7 @@ export default {
   margin-bottom: 1px;
   flex-wrap: wrap;
   min-height: 70vh;
+  min-width: 20vw;
 }
 
 .entry-column-icon {
