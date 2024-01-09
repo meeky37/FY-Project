@@ -8,11 +8,11 @@
     <h2 v-else>Article Not Found</h2>
 
     <!-- Display the image and description (centered) -->
-    <div v-if="Article && Article.length > 0 && Article[0] && Article[0].image_url" class="content-container">
+    <div v-if="Article && Article.length > 0 && Article[0]" class="content-container">
       <!-- Box for Article Photo -->
       <div class="article-box">
-        <h2>Article Photo</h2>
-        <div class="article-photo">
+        <h2> Article Photo</h2>
+        <div v-if="Article[0].image_url" class="article-photo">
           <img :src="Article[0].image_url" alt="Article Photo" />
         </div>
         <h2>Published Date</h2>
