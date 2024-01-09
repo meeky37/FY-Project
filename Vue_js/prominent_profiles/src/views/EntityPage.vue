@@ -8,7 +8,7 @@
         <img
           :src="bingEntity.image_url"
           alt="Entity Photo"
-          style="width: auto; min-height: 150px;"
+          style="width: auto; min-height: 150px; border-radius: 8px; border: 4px solid #755BB4;"
           :title="getAttributionMessage(bingEntity)"
         />
          <a class="attribution-link" @click="openSourcePopup">CREDIT</a>
@@ -32,9 +32,17 @@
       <button @click="closeSourcePopup">Close</button>
     </div>
 
-    <SortToggle @updateSortType="updateSortType"/>
+    <div class="sort-toggle">
+    <SortToggle @updateSortType="updateSortType"
+                @updateDateFilter="updateDateFilter"
+                :oldestArticleDate="oldestArticleDate" />
+    </div>
     <!-- Use ArticleEntriesContainer to display entries -->
-    <ArticleEntriesContainer :sortType ="sortType" :isAscending="isAscending"/>
+    <ArticleEntriesContainer
+      :sortType ="sortType"
+      :isAscending="isAscending"
+      :dateRange="dateRange"
+      @oldestArticleDate="setOldestArticleDate"/>
     <PageFooter/>
   </div>
 </template>
@@ -60,7 +68,9 @@ export default {
       isLoading: false,
       showSourcePopup: false,
       sortType: 'sentiment',
-      isAscending: true
+      isAscending: true,
+      oldestArticleDate: null,
+      dateRange: null
     }
   },
   watch: {
@@ -196,8 +206,19 @@ export default {
     },
 
     updateSortType (newSortType, newIsAscending) {
+      // console.log('updateSortType emit triggered in Entity Page!')
       this.sortType = newSortType
       this.isAscending = newIsAscending
+    },
+
+    updateDateFilter (newDateRange) {
+      // console.log('updateDateFilter emit triggered in Entity Page!')
+      this.dateRange = newDateRange
+    },
+
+    setOldestArticleDate (newArticleDate, oldArticleDate) {
+      console.log(newArticleDate)
+      this.oldestArticleDate = newArticleDate
     }
   }
 }
@@ -250,12 +271,14 @@ export default {
   background-color: white;
   border: 1px solid #ccc;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 9999;
 }
 
 .source-popup a {
   color: blue;
   text-decoration: underline;
   margin-left: 5px;
+  z-index: 9999;
 }
 
 .source-popup button {
@@ -271,5 +294,11 @@ export default {
 
 .attribution-link:hover {
   color: purple;
+}
+
+.sort-toggle{
+  position: relative;
+  z-index: 9998;
+  overflow: visible;
 }
 </style>
