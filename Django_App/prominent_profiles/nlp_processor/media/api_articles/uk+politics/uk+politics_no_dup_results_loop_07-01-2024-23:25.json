@@ -1,0 +1,1524 @@
+[
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics",
+        "queryContext": {
+            "originalQuery": "uk politics",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 4,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Sunak vows to \u2018continue to confront difficult challenges\u2019 as Parliament returns",
+                "url": "https://www.warringtonguardian.co.uk/news/national/24033308.sunak-vows-continue-confront-difficult-challenges-parliament-returns/",
+                "description": "A Downing Street source said the Prime Minister was determined to \u2018not take the easy way out\u2019 in a year that is likely to see a general election.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Warrington Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.2IDTg9whrbRDyzPbotqK2g&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-07T22:41:00.0000000Z"
+            },
+            {
+                "name": "Education has become \u2018peripheral issue\u2019 under Conservatives, says Phillipson",
+                "url": "https://www.standard.co.uk/news/politics/centre-for-social-justice-conservatives-government-conservative-labour-b1130761.html",
+                "description": "A poll conducted for the Centre for Social Justice found almost a third of parents believe it is not essential for children to attend school daily.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Education"
+                    },
+                    {
+                        "name": "Conservative Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-07T11:55:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Harvard o\ufb00ers a liberal hypocrisy masterclass",
+                "url": "https://www.thetimes.co.uk/article/harvard-liberal-hypocrisy-masterclass-comment-claudine-gay-kg3mpcfwp",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.eBErHyI3lwEa7GTppzDy5S&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The saga of Claudine Gay \u2014 the outgoing president of Harvard, who lasted a record-breakingly brief six months \u2014 has become a news story hall of mirrors, in which everyone sees in it exactly what they want. According to the BBC, \u201cDr Gay \u2014 who is ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ca075eb3-d706-a9da-a322-243551d5317b",
+                        "name": "Harvard University"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/72e08365-4ec2-91ab-df71-758d779e33f3",
+                        "name": "Master class"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times"
+                    }
+                ],
+                "datePublished": "2024-01-07T00:07:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "The general election will be swayed by foreign policy \u2013 good news for Sunak",
+                "url": "https://inews.co.uk/opinion/general-election-decided-foreign-policy-good-sunak-2839042?ico=in-line_link",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT._Blw5ot0G1Zr06PIbFGpay&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The <b>UK</b> has been at the forefront of providing sanctuary and military ... For as long as Trump is a contender he will be a major divisive force in British <b>politics</b>. It is simply inconceivable that a Labour prime minister could reach an accommodation with ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i"
+                    }
+                ],
+                "datePublished": "2024-01-05T13:31:00.0000000Z"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics",
+        "queryContext": {
+            "originalQuery": "uk politics",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 111,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "EXCLUSIVE: Prince Andrew &#39;locks himself away with no idea how to respond&#39; after new Epstein claims",
+                "url": "https://www.mirror.co.uk/news/us-news/prince-andrew-locks-himself-away-31827795.amp",
+                "description": "For all the latest news, <b>politics</b>, sports, and showbiz from the USA ... It would be up to the judge in the <b>UK</b> to decide if the hearing was in open court. The Home Office has refused to comment on the status of the MLA or if it exists.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b4e6fbb2-d9e1-2197-173f-629549b62c99",
+                        "name": "Jeffrey Epstein"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b84dbc56-5694-49b0-779d-86f4c2228acb",
+                        "name": "Prince Andrew, Duke of York"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror"
+                    }
+                ],
+                "datePublished": "2024-01-07T21:59:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Conservatives face \u2018obliteration\u2019 as <b>UK</b> in worse state than 2010, Tory MP says",
+                "url": "https://www.theguardian.com/politics/2024/jan/07/conservatives-face-obliteration-as-uk-in-worse-state-than-2010-tory-mp-says",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.xidJkGqDWiuxLeI4YVjtXy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Danny Kruger said his party would leave the country \u2018sadder, less united and less conservative\u2019 than they had found it",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "name": "Tory"
+                    },
+                    {
+                        "name": "The Guardian"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-07T21:30:00.0000000Z"
+            },
+            {
+                "name": "Kate Garraway confided in Piers Morgan on Christmas Day amid Derek\u2019s \u2018bleak\u2019 prognosis",
+                "url": "https://www.express.co.uk/celebrity-news/1853044/kate-garraway-piers-morgan-derek-draper",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.rT9TweAENTGdKOiAEj6Bgi&pid=News",
+                        "width": 700,
+                        "height": 415
+                    }
+                },
+                "description": "Kate Garraway confided in Piers Morgan on Christmas Day about her husband\u2019s \u201cbleak\u201d prognosis. Derek Draper, a political advisor and psychotherapist, contracted Covid in March 2020 and became seriously ill with long Covid.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/52b1e825-7130-ecdd-c4b5-ac01d4bc4438",
+                        "name": "Kate Garraway"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/31fd28b7-2b70-aa68-2cd6-04ee239fedeb",
+                        "name": "Derek Draper"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a6fa4b33-1e42-7d44-8ca7-17d7fc43c873",
+                        "name": "Celebrity"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Kate Garraway"
+                    },
+                    {
+                        "name": "Derek Draper"
+                    },
+                    {
+                        "name": "Celebrity"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-07T21:28:00.0000000Z"
+            },
+            {
+                "name": "<b>Politics</b> class: Rishi Sunak seeks to harvest <b>political</b> advantage with autumn poll strategy",
+                "url": "https://www.ft.com/content/204be24d-c66b-435f-85e6-2cd1e826cb3a",
+                "description": "Read our full range of politics picks here. AQA Component 1, Section 3.1.2.3: Political parties: factors affecting electoral outcomes Edexcel Component 1, Section 2.4: UK political parties in context: various factors that affect party success Rishi Sunak has given a strong indication that the general election will be in the second half of 2024.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ebe2b449-3e4c-cf0c-d0f7-92d547b1ec69",
+                        "name": "Advantage"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e320dd44-b39b-fd9b-7883-0fe89bb44ace",
+                        "name": "Poll"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Financial Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CdBlognZ1u9nda-gVEOS_w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-07T20:51:00.0000000Z",
+                "category": "ScienceAndTechnology"
+            },
+            {
+                "name": "Labour writes to Treasury over \u2018misleading\u2019 social media posts on tax changes",
+                "url": "https://www.inverness-courier.co.uk/news/national/labour-writes-to-treasury-over-misleading-social-media-posts-on-tax-changes-96986/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.LpI1PNAfbrKySMhWOgKMIS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Labour\u2019s James Murray, the shadow financial secretary, queried whether posts on social media about the reduction to national insurance complied with civil service and legal guidelines around Government messaging.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6da24df8-226b-8a1e-8f4e-142e15ddbaf6",
+                        "name": "Labour"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/706c7817-1749-4bd0-a513-a9259b59df62",
+                        "name": "Treasury"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4ce177ea-a99f-5e40-7159-82f7b5581be3",
+                        "name": "Social media"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Inverness Courier",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.XhhVRILA3jWO7XL7zsgWPA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-07T20:41:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Fleecing the NHS, turning off VR and why rations won\u2019t work today",
+                "url": "https://metro.co.uk/2024/01/07/fleecing-nhs-turning-off-vr-rations-wont-work-today-20072279/?ico=metro-posts_article_whats-trending-now",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.CcE8uxYsBH2-8jCzyWpSwi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Metro.co.<b>uk</b> is a member of the Independent Press Standards Organisation ... to move to the right to appease the public just to get elected. It\u2019s a sad time for <b>politics</b> in this country Alan Noon, Banstead Do you think an investigation into VR rape ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Metro"
+                    }
+                ],
+                "datePublished": "2024-01-07T19:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Education has become \u2018peripheral issue\u2019 under Conservatives, says Phillipson",
+                "url": "https://www.standard.co.uk/news/politics/centre-for-social-justice-conservatives-government-conservative-labour-b1130761.html",
+                "description": "A poll conducted for the Centre for Social Justice found almost a third of parents believe it is not essential for children to attend school daily.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Education"
+                    },
+                    {
+                        "name": "Conservative Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-07T11:55:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "The crank theories that erupted into cults \u2013 and now threaten to take over the world",
+                "url": "https://www.telegraph.co.uk/business/2024/01/07/degrowthers-accelerationists-ai-world-economy/?trk=public_post_comment-text",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.t3NRLJFSEuM-GU7IsLLPOy&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "The <b>UK</b> and the eurozone will likely both struggle to get above ... They claim the corporate and <b>political</b> imperative to continually expand the economy is pushing mankind to the brink of Armageddon. On the other is a small but influential group of ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph"
+                    }
+                ],
+                "datePublished": "2024-01-07T06:00:00.0000000Z",
+                "category": "ScienceAndTechnology"
+            },
+            {
+                "name": "Harvard o\ufb00ers a liberal hypocrisy masterclass",
+                "url": "https://www.thetimes.co.uk/article/harvard-liberal-hypocrisy-masterclass-comment-claudine-gay-kg3mpcfwp",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.eBErHyI3lwEa7GTppzDy5S&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The saga of Claudine Gay \u2014 the outgoing president of Harvard, who lasted a record-breakingly brief six months \u2014 has become a news story hall of mirrors, in which everyone sees in it exactly what they want. According to the BBC, \u201cDr Gay \u2014 who is ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ca075eb3-d706-a9da-a322-243551d5317b",
+                        "name": "Harvard University"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/72e08365-4ec2-91ab-df71-758d779e33f3",
+                        "name": "Master class"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times"
+                    }
+                ],
+                "datePublished": "2024-01-07T00:07:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Sunak vows to \u2018continue to confront difficult challenges\u2019 as Parliament returns",
+                "url": "https://www.thenorthernecho.co.uk/news/national/24033308.sunak-vows-continue-confront-difficult-challenges-parliament-returns/",
+                "description": "<b>Politics</b> is about choices. While Rishi Sunak prioritises his ... is the approach that will bring about a brighter future for the country.\u201d The Conservative <b>UK</b> Government will be hoping that 2024 will provide the opportunity for Mr Sunak to deliver ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Northern Echo"
+                    }
+                ],
+                "datePublished": "2024-01-07T00:00:00.0000000Z"
+            },
+            {
+                "name": "The general election will be swayed by foreign policy \u2013 good news for Sunak",
+                "url": "https://inews.co.uk/opinion/general-election-decided-foreign-policy-good-sunak-2839042?ico=in-line_link",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT._Blw5ot0G1Zr06PIbFGpay&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The <b>UK</b> has been at the forefront of providing sanctuary and military ... For as long as Trump is a contender he will be a major divisive force in British <b>politics</b>. It is simply inconceivable that a Labour prime minister could reach an accommodation with ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i"
+                    }
+                ],
+                "datePublished": "2024-01-05T13:31:00.0000000Z"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics",
+        "queryContext": {
+            "originalQuery": "uk politics",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 211,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "EXCLUSIVE: Prince Andrew &#39;locks himself away with no idea how to respond&#39; after new Epstein claims",
+                "url": "https://www.mirror.co.uk/news/us-news/prince-andrew-locks-himself-away-31827795.amp",
+                "description": "For all the latest news, <b>politics</b>, sports, and showbiz from the USA ... It would be up to the judge in the <b>UK</b> to decide if the hearing was in open court. The Home Office has refused to comment on the status of the MLA or if it exists.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b4e6fbb2-d9e1-2197-173f-629549b62c99",
+                        "name": "Jeffrey Epstein"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b84dbc56-5694-49b0-779d-86f4c2228acb",
+                        "name": "Prince Andrew, Duke of York"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror"
+                    }
+                ],
+                "datePublished": "2024-01-07T21:59:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Conservatives face \u2018obliteration\u2019 as <b>UK</b> in worse state than 2010, Tory MP says",
+                "url": "https://www.theguardian.com/politics/2024/jan/07/conservatives-face-obliteration-as-uk-in-worse-state-than-2010-tory-mp-says",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.xidJkGqDWiuxLeI4YVjtXy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Danny Kruger said his party would leave the country \u2018sadder, less united and less conservative\u2019 than they had found it",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "name": "Tory"
+                    },
+                    {
+                        "name": "The Guardian"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-07T21:30:00.0000000Z"
+            },
+            {
+                "name": "Kate Garraway confided in Piers Morgan on Christmas Day amid Derek\u2019s \u2018bleak\u2019 prognosis",
+                "url": "https://www.express.co.uk/celebrity-news/1853044/kate-garraway-piers-morgan-derek-draper",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.rT9TweAENTGdKOiAEj6Bgi&pid=News",
+                        "width": 700,
+                        "height": 415
+                    }
+                },
+                "description": "Kate Garraway confided in Piers Morgan on Christmas Day about her husband\u2019s \u201cbleak\u201d prognosis. Derek Draper, a political advisor and psychotherapist, contracted Covid in March 2020 and became seriously ill with long Covid.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/52b1e825-7130-ecdd-c4b5-ac01d4bc4438",
+                        "name": "Kate Garraway"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/31fd28b7-2b70-aa68-2cd6-04ee239fedeb",
+                        "name": "Derek Draper"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a6fa4b33-1e42-7d44-8ca7-17d7fc43c873",
+                        "name": "Celebrity"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Kate Garraway"
+                    },
+                    {
+                        "name": "Derek Draper"
+                    },
+                    {
+                        "name": "Celebrity"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-07T21:28:00.0000000Z"
+            },
+            {
+                "name": "<b>Politics</b> class: Rishi Sunak seeks to harvest <b>political</b> advantage with autumn poll strategy",
+                "url": "https://www.ft.com/content/204be24d-c66b-435f-85e6-2cd1e826cb3a",
+                "description": "Read our full range of politics picks here. AQA Component 1, Section 3.1.2.3: Political parties: factors affecting electoral outcomes Edexcel Component 1, Section 2.4: UK political parties in context: various factors that affect party success Rishi Sunak has given a strong indication that the general election will be in the second half of 2024.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ebe2b449-3e4c-cf0c-d0f7-92d547b1ec69",
+                        "name": "Advantage"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e320dd44-b39b-fd9b-7883-0fe89bb44ace",
+                        "name": "Poll"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Financial Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CdBlognZ1u9nda-gVEOS_w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-07T20:51:00.0000000Z",
+                "category": "ScienceAndTechnology"
+            },
+            {
+                "name": "Labour writes to Treasury over \u2018misleading\u2019 social media posts on tax changes",
+                "url": "https://www.inverness-courier.co.uk/news/national/labour-writes-to-treasury-over-misleading-social-media-posts-on-tax-changes-96986/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.LpI1PNAfbrKySMhWOgKMIS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Labour\u2019s James Murray, the shadow financial secretary, queried whether posts on social media about the reduction to national insurance complied with civil service and legal guidelines around Government messaging.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6da24df8-226b-8a1e-8f4e-142e15ddbaf6",
+                        "name": "Labour"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/706c7817-1749-4bd0-a513-a9259b59df62",
+                        "name": "Treasury"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4ce177ea-a99f-5e40-7159-82f7b5581be3",
+                        "name": "Social media"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Inverness Courier",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.XhhVRILA3jWO7XL7zsgWPA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-07T20:41:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Fleecing the NHS, turning off VR and why rations won\u2019t work today",
+                "url": "https://metro.co.uk/2024/01/07/fleecing-nhs-turning-off-vr-rations-wont-work-today-20072279/?ico=metro-posts_article_whats-trending-now",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.CcE8uxYsBH2-8jCzyWpSwi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Metro.co.<b>uk</b> is a member of the Independent Press Standards Organisation ... to move to the right to appease the public just to get elected. It\u2019s a sad time for <b>politics</b> in this country Alan Noon, Banstead Do you think an investigation into VR rape ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Metro"
+                    }
+                ],
+                "datePublished": "2024-01-07T19:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Education has become \u2018peripheral issue\u2019 under Conservatives, says Phillipson",
+                "url": "https://www.standard.co.uk/news/politics/centre-for-social-justice-conservatives-government-conservative-labour-b1130761.html",
+                "description": "A poll conducted for the Centre for Social Justice found almost a third of parents believe it is not essential for children to attend school daily.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Education"
+                    },
+                    {
+                        "name": "Conservative Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-07T11:55:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "The crank theories that erupted into cults \u2013 and now threaten to take over the world",
+                "url": "https://www.telegraph.co.uk/business/2024/01/07/degrowthers-accelerationists-ai-world-economy/?trk=public_post_comment-text",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.t3NRLJFSEuM-GU7IsLLPOy&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "The <b>UK</b> and the eurozone will likely both struggle to get above ... They claim the corporate and <b>political</b> imperative to continually expand the economy is pushing mankind to the brink of Armageddon. On the other is a small but influential group of ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph"
+                    }
+                ],
+                "datePublished": "2024-01-07T06:00:00.0000000Z",
+                "category": "ScienceAndTechnology"
+            },
+            {
+                "name": "Harvard o\ufb00ers a liberal hypocrisy masterclass",
+                "url": "https://www.thetimes.co.uk/article/harvard-liberal-hypocrisy-masterclass-comment-claudine-gay-kg3mpcfwp",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.eBErHyI3lwEa7GTppzDy5S&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The saga of Claudine Gay \u2014 the outgoing president of Harvard, who lasted a record-breakingly brief six months \u2014 has become a news story hall of mirrors, in which everyone sees in it exactly what they want. According to the BBC, \u201cDr Gay \u2014 who is ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ca075eb3-d706-a9da-a322-243551d5317b",
+                        "name": "Harvard University"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/72e08365-4ec2-91ab-df71-758d779e33f3",
+                        "name": "Master class"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times"
+                    }
+                ],
+                "datePublished": "2024-01-07T00:07:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Sunak vows to \u2018continue to confront difficult challenges\u2019 as Parliament returns",
+                "url": "https://www.thenorthernecho.co.uk/news/national/24033308.sunak-vows-continue-confront-difficult-challenges-parliament-returns/",
+                "description": "<b>Politics</b> is about choices. While Rishi Sunak prioritises his ... is the approach that will bring about a brighter future for the country.\u201d The Conservative <b>UK</b> Government will be hoping that 2024 will provide the opportunity for Mr Sunak to deliver ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Northern Echo"
+                    }
+                ],
+                "datePublished": "2024-01-07T00:00:00.0000000Z"
+            },
+            {
+                "name": "The general election will be swayed by foreign policy \u2013 good news for Sunak",
+                "url": "https://inews.co.uk/opinion/general-election-decided-foreign-policy-good-sunak-2839042?ico=in-line_link",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT._Blw5ot0G1Zr06PIbFGpay&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The <b>UK</b> has been at the forefront of providing sanctuary and military ... For as long as Trump is a contender he will be a major divisive force in British <b>politics</b>. It is simply inconceivable that a Labour prime minister could reach an accommodation with ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i"
+                    }
+                ],
+                "datePublished": "2024-01-05T13:31:00.0000000Z"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics",
+        "queryContext": {
+            "originalQuery": "uk politics",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 311,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "EXCLUSIVE: Prince Andrew &#39;locks himself away with no idea how to respond&#39; after new Epstein claims",
+                "url": "https://www.mirror.co.uk/news/us-news/prince-andrew-locks-himself-away-31827795.amp",
+                "description": "For all the latest news, <b>politics</b>, sports, and showbiz from the USA ... It would be up to the judge in the <b>UK</b> to decide if the hearing was in open court. The Home Office has refused to comment on the status of the MLA or if it exists.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b4e6fbb2-d9e1-2197-173f-629549b62c99",
+                        "name": "Jeffrey Epstein"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b84dbc56-5694-49b0-779d-86f4c2228acb",
+                        "name": "Prince Andrew, Duke of York"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror"
+                    }
+                ],
+                "datePublished": "2024-01-07T21:59:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Conservatives face \u2018obliteration\u2019 as <b>UK</b> in worse state than 2010, Tory MP says",
+                "url": "https://www.theguardian.com/politics/2024/jan/07/conservatives-face-obliteration-as-uk-in-worse-state-than-2010-tory-mp-says",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.xidJkGqDWiuxLeI4YVjtXy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Danny Kruger said his party would leave the country \u2018sadder, less united and less conservative\u2019 than they had found it",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "name": "Tory"
+                    },
+                    {
+                        "name": "The Guardian"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-07T21:30:00.0000000Z"
+            },
+            {
+                "name": "Kate Garraway confided in Piers Morgan on Christmas Day amid Derek\u2019s \u2018bleak\u2019 prognosis",
+                "url": "https://www.express.co.uk/celebrity-news/1853044/kate-garraway-piers-morgan-derek-draper",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.rT9TweAENTGdKOiAEj6Bgi&pid=News",
+                        "width": 700,
+                        "height": 415
+                    }
+                },
+                "description": "Kate Garraway confided in Piers Morgan on Christmas Day about her husband\u2019s \u201cbleak\u201d prognosis. Derek Draper, a political advisor and psychotherapist, contracted Covid in March 2020 and became seriously ill with long Covid.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/52b1e825-7130-ecdd-c4b5-ac01d4bc4438",
+                        "name": "Kate Garraway"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/31fd28b7-2b70-aa68-2cd6-04ee239fedeb",
+                        "name": "Derek Draper"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a6fa4b33-1e42-7d44-8ca7-17d7fc43c873",
+                        "name": "Celebrity"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Kate Garraway"
+                    },
+                    {
+                        "name": "Derek Draper"
+                    },
+                    {
+                        "name": "Celebrity"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-07T21:28:00.0000000Z"
+            },
+            {
+                "name": "<b>Politics</b> class: Rishi Sunak seeks to harvest <b>political</b> advantage with autumn poll strategy",
+                "url": "https://www.ft.com/content/204be24d-c66b-435f-85e6-2cd1e826cb3a",
+                "description": "Read our full range of politics picks here. AQA Component 1, Section 3.1.2.3: Political parties: factors affecting electoral outcomes Edexcel Component 1, Section 2.4: UK political parties in context: various factors that affect party success Rishi Sunak has given a strong indication that the general election will be in the second half of 2024.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ebe2b449-3e4c-cf0c-d0f7-92d547b1ec69",
+                        "name": "Advantage"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e320dd44-b39b-fd9b-7883-0fe89bb44ace",
+                        "name": "Poll"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Financial Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CdBlognZ1u9nda-gVEOS_w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-07T20:51:00.0000000Z",
+                "category": "ScienceAndTechnology"
+            },
+            {
+                "name": "Labour writes to Treasury over \u2018misleading\u2019 social media posts on tax changes",
+                "url": "https://www.inverness-courier.co.uk/news/national/labour-writes-to-treasury-over-misleading-social-media-posts-on-tax-changes-96986/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.LpI1PNAfbrKySMhWOgKMIS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Labour\u2019s James Murray, the shadow financial secretary, queried whether posts on social media about the reduction to national insurance complied with civil service and legal guidelines around Government messaging.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6da24df8-226b-8a1e-8f4e-142e15ddbaf6",
+                        "name": "Labour"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/706c7817-1749-4bd0-a513-a9259b59df62",
+                        "name": "Treasury"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4ce177ea-a99f-5e40-7159-82f7b5581be3",
+                        "name": "Social media"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Inverness Courier",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.XhhVRILA3jWO7XL7zsgWPA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-07T20:41:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Fleecing the NHS, turning off VR and why rations won\u2019t work today",
+                "url": "https://metro.co.uk/2024/01/07/fleecing-nhs-turning-off-vr-rations-wont-work-today-20072279/?ico=metro-posts_article_whats-trending-now",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.CcE8uxYsBH2-8jCzyWpSwi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Metro.co.<b>uk</b> is a member of the Independent Press Standards Organisation ... to move to the right to appease the public just to get elected. It\u2019s a sad time for <b>politics</b> in this country Alan Noon, Banstead Do you think an investigation into VR rape ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Metro"
+                    }
+                ],
+                "datePublished": "2024-01-07T19:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Education has become \u2018peripheral issue\u2019 under Conservatives, says Phillipson",
+                "url": "https://www.standard.co.uk/news/politics/centre-for-social-justice-conservatives-government-conservative-labour-b1130761.html",
+                "description": "A poll conducted for the Centre for Social Justice found almost a third of parents believe it is not essential for children to attend school daily.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Education"
+                    },
+                    {
+                        "name": "Conservative Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-07T11:55:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "The crank theories that erupted into cults \u2013 and now threaten to take over the world",
+                "url": "https://www.telegraph.co.uk/business/2024/01/07/degrowthers-accelerationists-ai-world-economy/?trk=public_post_comment-text",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.t3NRLJFSEuM-GU7IsLLPOy&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "The <b>UK</b> and the eurozone will likely both struggle to get above ... They claim the corporate and <b>political</b> imperative to continually expand the economy is pushing mankind to the brink of Armageddon. On the other is a small but influential group of ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph"
+                    }
+                ],
+                "datePublished": "2024-01-07T06:00:00.0000000Z",
+                "category": "ScienceAndTechnology"
+            },
+            {
+                "name": "Harvard o\ufb00ers a liberal hypocrisy masterclass",
+                "url": "https://www.thetimes.co.uk/article/harvard-liberal-hypocrisy-masterclass-comment-claudine-gay-kg3mpcfwp",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.eBErHyI3lwEa7GTppzDy5S&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The saga of Claudine Gay \u2014 the outgoing president of Harvard, who lasted a record-breakingly brief six months \u2014 has become a news story hall of mirrors, in which everyone sees in it exactly what they want. According to the BBC, \u201cDr Gay \u2014 who is ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ca075eb3-d706-a9da-a322-243551d5317b",
+                        "name": "Harvard University"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/72e08365-4ec2-91ab-df71-758d779e33f3",
+                        "name": "Master class"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times"
+                    }
+                ],
+                "datePublished": "2024-01-07T00:07:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Sunak vows to \u2018continue to confront difficult challenges\u2019 as Parliament returns",
+                "url": "https://www.thenorthernecho.co.uk/news/national/24033308.sunak-vows-continue-confront-difficult-challenges-parliament-returns/",
+                "description": "<b>Politics</b> is about choices. While Rishi Sunak prioritises his ... is the approach that will bring about a brighter future for the country.\u201d The Conservative <b>UK</b> Government will be hoping that 2024 will provide the opportunity for Mr Sunak to deliver ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Northern Echo"
+                    }
+                ],
+                "datePublished": "2024-01-07T00:00:00.0000000Z"
+            },
+            {
+                "name": "The general election will be swayed by foreign policy \u2013 good news for Sunak",
+                "url": "https://inews.co.uk/opinion/general-election-decided-foreign-policy-good-sunak-2839042?ico=in-line_link",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT._Blw5ot0G1Zr06PIbFGpay&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The <b>UK</b> has been at the forefront of providing sanctuary and military ... For as long as Trump is a contender he will be a major divisive force in British <b>politics</b>. It is simply inconceivable that a Labour prime minister could reach an accommodation with ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i"
+                    }
+                ],
+                "datePublished": "2024-01-05T13:31:00.0000000Z"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics",
+        "queryContext": {
+            "originalQuery": "uk politics",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 411,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "EXCLUSIVE: Prince Andrew &#39;locks himself away with no idea how to respond&#39; after new Epstein claims",
+                "url": "https://www.mirror.co.uk/news/us-news/prince-andrew-locks-himself-away-31827795.amp",
+                "description": "For all the latest news, <b>politics</b>, sports, and showbiz from the USA ... It would be up to the judge in the <b>UK</b> to decide if the hearing was in open court. The Home Office has refused to comment on the status of the MLA or if it exists.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b4e6fbb2-d9e1-2197-173f-629549b62c99",
+                        "name": "Jeffrey Epstein"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b84dbc56-5694-49b0-779d-86f4c2228acb",
+                        "name": "Prince Andrew, Duke of York"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror"
+                    }
+                ],
+                "datePublished": "2024-01-07T21:59:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Conservatives face \u2018obliteration\u2019 as <b>UK</b> in worse state than 2010, Tory MP says",
+                "url": "https://www.theguardian.com/politics/2024/jan/07/conservatives-face-obliteration-as-uk-in-worse-state-than-2010-tory-mp-says",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.xidJkGqDWiuxLeI4YVjtXy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Danny Kruger said his party would leave the country \u2018sadder, less united and less conservative\u2019 than they had found it",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "name": "Tory"
+                    },
+                    {
+                        "name": "The Guardian"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-07T21:30:00.0000000Z"
+            },
+            {
+                "name": "Kate Garraway confided in Piers Morgan on Christmas Day amid Derek\u2019s \u2018bleak\u2019 prognosis",
+                "url": "https://www.express.co.uk/celebrity-news/1853044/kate-garraway-piers-morgan-derek-draper",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.rT9TweAENTGdKOiAEj6Bgi&pid=News",
+                        "width": 700,
+                        "height": 415
+                    }
+                },
+                "description": "Kate Garraway confided in Piers Morgan on Christmas Day about her husband\u2019s \u201cbleak\u201d prognosis. Derek Draper, a political advisor and psychotherapist, contracted Covid in March 2020 and became seriously ill with long Covid.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/52b1e825-7130-ecdd-c4b5-ac01d4bc4438",
+                        "name": "Kate Garraway"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/31fd28b7-2b70-aa68-2cd6-04ee239fedeb",
+                        "name": "Derek Draper"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a6fa4b33-1e42-7d44-8ca7-17d7fc43c873",
+                        "name": "Celebrity"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Kate Garraway"
+                    },
+                    {
+                        "name": "Derek Draper"
+                    },
+                    {
+                        "name": "Celebrity"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-07T21:28:00.0000000Z"
+            },
+            {
+                "name": "<b>Politics</b> class: Rishi Sunak seeks to harvest <b>political</b> advantage with autumn poll strategy",
+                "url": "https://www.ft.com/content/204be24d-c66b-435f-85e6-2cd1e826cb3a",
+                "description": "Read our full range of politics picks here. AQA Component 1, Section 3.1.2.3: Political parties: factors affecting electoral outcomes Edexcel Component 1, Section 2.4: UK political parties in context: various factors that affect party success Rishi Sunak has given a strong indication that the general election will be in the second half of 2024.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ebe2b449-3e4c-cf0c-d0f7-92d547b1ec69",
+                        "name": "Advantage"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e320dd44-b39b-fd9b-7883-0fe89bb44ace",
+                        "name": "Poll"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Financial Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CdBlognZ1u9nda-gVEOS_w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-07T20:51:00.0000000Z",
+                "category": "ScienceAndTechnology"
+            },
+            {
+                "name": "Labour writes to Treasury over \u2018misleading\u2019 social media posts on tax changes",
+                "url": "https://www.inverness-courier.co.uk/news/national/labour-writes-to-treasury-over-misleading-social-media-posts-on-tax-changes-96986/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.LpI1PNAfbrKySMhWOgKMIS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Labour\u2019s James Murray, the shadow financial secretary, queried whether posts on social media about the reduction to national insurance complied with civil service and legal guidelines around Government messaging.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6da24df8-226b-8a1e-8f4e-142e15ddbaf6",
+                        "name": "Labour"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/706c7817-1749-4bd0-a513-a9259b59df62",
+                        "name": "Treasury"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4ce177ea-a99f-5e40-7159-82f7b5581be3",
+                        "name": "Social media"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Inverness Courier",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.XhhVRILA3jWO7XL7zsgWPA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-07T20:41:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Fleecing the NHS, turning off VR and why rations won\u2019t work today",
+                "url": "https://metro.co.uk/2024/01/07/fleecing-nhs-turning-off-vr-rations-wont-work-today-20072279/?ico=metro-posts_article_whats-trending-now",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.CcE8uxYsBH2-8jCzyWpSwi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Metro.co.<b>uk</b> is a member of the Independent Press Standards Organisation ... to move to the right to appease the public just to get elected. It\u2019s a sad time for <b>politics</b> in this country Alan Noon, Banstead Do you think an investigation into VR rape ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Metro"
+                    }
+                ],
+                "datePublished": "2024-01-07T19:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Education has become \u2018peripheral issue\u2019 under Conservatives, says Phillipson",
+                "url": "https://www.standard.co.uk/news/politics/centre-for-social-justice-conservatives-government-conservative-labour-b1130761.html",
+                "description": "A poll conducted for the Centre for Social Justice found almost a third of parents believe it is not essential for children to attend school daily.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Education"
+                    },
+                    {
+                        "name": "Conservative Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-07T11:55:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "The crank theories that erupted into cults \u2013 and now threaten to take over the world",
+                "url": "https://www.telegraph.co.uk/business/2024/01/07/degrowthers-accelerationists-ai-world-economy/?trk=public_post_comment-text",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.t3NRLJFSEuM-GU7IsLLPOy&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "The <b>UK</b> and the eurozone will likely both struggle to get above ... They claim the corporate and <b>political</b> imperative to continually expand the economy is pushing mankind to the brink of Armageddon. On the other is a small but influential group of ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph"
+                    }
+                ],
+                "datePublished": "2024-01-07T06:00:00.0000000Z",
+                "category": "ScienceAndTechnology"
+            },
+            {
+                "name": "Harvard o\ufb00ers a liberal hypocrisy masterclass",
+                "url": "https://www.thetimes.co.uk/article/harvard-liberal-hypocrisy-masterclass-comment-claudine-gay-kg3mpcfwp",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.eBErHyI3lwEa7GTppzDy5S&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The saga of Claudine Gay \u2014 the outgoing president of Harvard, who lasted a record-breakingly brief six months \u2014 has become a news story hall of mirrors, in which everyone sees in it exactly what they want. According to the BBC, \u201cDr Gay \u2014 who is ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ca075eb3-d706-a9da-a322-243551d5317b",
+                        "name": "Harvard University"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/72e08365-4ec2-91ab-df71-758d779e33f3",
+                        "name": "Master class"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times"
+                    }
+                ],
+                "datePublished": "2024-01-07T00:07:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Sunak vows to \u2018continue to confront difficult challenges\u2019 as Parliament returns",
+                "url": "https://www.thenorthernecho.co.uk/news/national/24033308.sunak-vows-continue-confront-difficult-challenges-parliament-returns/",
+                "description": "<b>Politics</b> is about choices. While Rishi Sunak prioritises his ... is the approach that will bring about a brighter future for the country.\u201d The Conservative <b>UK</b> Government will be hoping that 2024 will provide the opportunity for Mr Sunak to deliver ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Northern Echo"
+                    }
+                ],
+                "datePublished": "2024-01-07T00:00:00.0000000Z"
+            },
+            {
+                "name": "The general election will be swayed by foreign policy \u2013 good news for Sunak",
+                "url": "https://inews.co.uk/opinion/general-election-decided-foreign-policy-good-sunak-2839042?ico=in-line_link",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT._Blw5ot0G1Zr06PIbFGpay&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The <b>UK</b> has been at the forefront of providing sanctuary and military ... For as long as Trump is a contender he will be a major divisive force in British <b>politics</b>. It is simply inconceivable that a Labour prime minister could reach an accommodation with ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i"
+                    }
+                ],
+                "datePublished": "2024-01-05T13:31:00.0000000Z"
+            }
+        ]
+    }
+]
