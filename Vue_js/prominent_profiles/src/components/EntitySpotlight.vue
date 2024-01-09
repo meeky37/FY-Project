@@ -2,9 +2,13 @@
   <div class="entity-box">
     <h2>Profile Spotlight</h2>
     <div>
-      <h3 v-if="bingEntity[0] && bingEntity[0].name">{{ bingEntity[0].name }}</h3>
+      <h3 v-if="bingEntity[0] && bingEntity[0].name"
+          @click="redirectToEntityPage"
+          class="entity-name"
+          >{{ bingEntity[0].name }}</h3>
       <div v-if="bingEntity[0] && bingEntity[0].image_url" class="entity-photo">
         <img
+          @click="redirectToEntityPage"
           :src="bingEntity[0].image_url"
           alt="Entity Photo"
         />
@@ -35,6 +39,13 @@ export default {
   methods: {
     async forcedReRender () {
       this.$emit('updateReRender', false)
+    },
+
+    redirectToEntityPage () {
+      // Redirect to the URL related to the selected entity
+      if (this.$route.params.entityId) {
+        this.$router.push('/entity/' + this.$route.params.entityId)
+      }
     }
   },
   watch: {
@@ -64,7 +75,14 @@ export default {
 .entity-photo img {
   max-width: 100%;
   height: 15vh;
+  border: 4px solid #755BB4;
   border-radius: 8px;
+  cursor: pointer;
   object-fit: contain;
+  margin-bottom: 8%;
+}
+
+.entity-name{
+  cursor: pointer;
 }
 </style>
