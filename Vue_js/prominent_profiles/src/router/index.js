@@ -4,6 +4,7 @@ import EntityPage from '../views/EntityPage.vue'
 import HomePage from '../views/HomePage.vue'
 import ArticlePage from '../views/ArticlePage.vue'
 import LoginPage from '../views/LoginPage.vue'
+import DashboardPage from '../views/DashboardPage.vue'
 
 const routes = [
   {
@@ -25,6 +26,11 @@ const routes = [
     path: '/login',
     name: 'login',
     component: LoginPage
+  },
+  {
+    path: '/dashboard',
+    name: 'dashboard',
+    component: DashboardPage
   },
 
   // Dynamic routing for entity pages
