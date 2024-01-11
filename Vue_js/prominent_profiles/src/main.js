@@ -1,6 +1,7 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
+import './interceptors/axios'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faExternalLinkAlt, faCircleChevronUp, faCircleChevronDown, faCircleMinus, faShuffle, faMagnifyingGlassChart, faPercent, faClock, faArrowUp, faArrowDown, faCalendarDays } from '@fortawesome/free-solid-svg-icons'
