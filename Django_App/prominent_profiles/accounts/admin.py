@@ -3,21 +3,21 @@ from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
 from .models import CustomUser
 
 class UserAdmin(BaseUserAdmin):
-    list_display = ('email', 'phone_number', 'date_of_birth', 'email_verified', 'location', 'is_active', 'is_staff')
-    search_fields = ('email', 'phone_number', 'date_of_birth', 'location')
+    list_display = ('email', 'phone_number', 'date_of_birth', 'email_verified', 'location', 'first_name', 'last_name', 'is_active', 'is_staff')
+    search_fields = ('email', 'phone_number', 'date_of_birth', 'location', 'first_name', 'last_name')
     ordering = ('email',)
 
     fieldsets = (
         (None, {'fields': ('email', 'password')}),
-        ('Personal info', {'fields': ('phone_number', 'date_of_birth', 'email_verified', 'location')}),
+        ('Personal info', {'fields': ('phone_number', 'date_of_birth', 'email_verified', 'location', 'first_name', 'last_name')}),
         ('Permissions', {'fields': ('is_active', 'is_staff', 'is_superuser', 'groups', 'user_permissions')}),
-        ('Important dates', {'fields': ('last_login', 'date_joined')}),
+        # ('Important dates', {'fields': ('last_login', 'date_joined')}),
     )
 
     add_fieldsets = (
         (None, {
             'classes': ('wide',),
-            'fields': ('email', 'password1', 'password2', 'phone_number', 'date_of_birth', 'email_verified', 'location'),
+            'fields': ('email', 'password1', 'password2', 'phone_number', 'date_of_birth', 'email_verified', 'location', 'first_name', 'last_name'),
         }),
     )
 
