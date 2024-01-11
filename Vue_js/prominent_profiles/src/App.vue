@@ -11,10 +11,14 @@
       </div>
       <nav>
         <router-link to="/" class="nav-link">Home</router-link>
-        <router-link to="/vue" class="nav-link">Vue</router-link>
+<!--        <router-link to="/vue" class="nav-link">Vue</router-link>-->
         <router-link to="/about" class="nav-link">About</router-link>
-        <router-link v-if="!authenticated" to="/login" class="nav-link">Login</router-link>
-        <router-link v-if="authenticated" to="/dashboard" class="nav-link">Dashboard</router-link>
+        <router-link v-if="!authenticated" to="null" class="nav-link"
+                     @click="LogonRedirect">Login </router-link>
+        <router-link v-if="authenticated" to="null" class="nav-link"  @click="LogonRedirect"> Your
+          Dashboard</router-link>
+        <router-link v-if="authenticated" to="null" class="nav-link"  @click="Logout"> Logout
+        </router-link>
       </nav>
     </header>
 
@@ -27,26 +31,94 @@
   </div>
 </template>
 
-<script setup>
-import EntitySelection from '@/components/EntitySelection.vue'
-</script>
-
 <script>
+import VueCookies from 'vue-cookie'
+import router from '@/router'
+import EntitySelection from '@/components/EntitySelection.vue'
+import { API_BASE_URL } from '@/config'
+import axios from 'axios'
 
 export default {
+  components: {
+    EntitySelection
+  },
+
   data () {
     return {
       authenticated: null
     }
   },
-  created () {
-    // Authentication status checked upon creation
-    this.checkAuthentication()
+
+  watch: {
+    // LoginPage.vue redirects to dashboard on successful login - this is implemented to
+    // update the header to 'Your Dashboard' immediately
+    $route (to, from) {
+      if (to.path === '/dashboard') {
+        this.checkAuthentication()
+      }
+    }
   },
   methods: {
-    checkAuthentication () {
+    async checkAuthentication () {
       // TODO: API request or check a cookie/local storage here. VUEX worthwhile?
-      this.authenticated = false
+      const accessToken = VueCookies.get('access_token')
+
+      if (!accessToken) {
+        // Attempt to refresh the access token using the refresh token
+        const refreshToken = VueCookies.get('refresh_token')
+        if (refreshToken) {
+          try {
+            const response = await axios.post(`${API_BASE_URL}/accounts/api/token/refresh/`, {
+              refresh: refreshToken
+            })
+            // Update the access token cookie
+            VueCookies.set('access_token', response.data.access)
+            const accessToken = VueCookies.get('access_token')
+            this.authenticated = !!accessToken
+            return
+          } catch (refreshError) {
+            // If refresh fails, redirect to the login page.
+            console.error('Token refresh failed', refreshError)
+            router.push('/login')
+          }
+        }
+      }
+      this.authenticated = !!accessToken
+    },
+
+    // LogonRedirect (logonShown) {
+    //
+    //   if (this.authenticated) {
+    //     this.checkAuthentication()
+    //     if (this.authenticated) {
+    //       this.$router.push('/dashboard/')
+    //     } else {
+    //       this.$router.push('/login/')
+    //     }
+    //   } else {
+    //       this.checkAuthentication()
+    //     if (this.authenticated) {
+    //       this.$router.push('/login/')
+    //     } else {
+    //       this.$router.push('/dashboard/')
+    //     }
+    //   }
+    // }
+    LogonRedirect () {
+      this.checkAuthentication()
+      if (this.authenticated) {
+        this.$router.push('/dashboard/')
+      } else {
+        this.$router.push('/login/')
+      }
+    },
+
+    Logout () {
+      VueCookies.delete('access_token')
+      VueCookies.delete('refresh_token')
+      // Redirect to dashboard which will trigger update of header + redirect to login page
+      router.push('/dashboard/')
+      this.LogonRedirect()
     }
   }
 }
@@ -93,7 +165,7 @@ nav {
   font-size: 1.2rem;
   color: ghostwhite;
   text-decoration: none;
-  transition: color 0.3s ease; /* Smooth transition effect */
+  transition: color 0.3s ease;
   border-radius: 5px;
 }
 
