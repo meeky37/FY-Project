@@ -29,4 +29,9 @@ onMounted(async () => {
   userData.value = await fetchData()
 })
 
+onActivated(async () => {
+  // Fetch user data when the component is activated to prevent old users name sticking around.
+  userData.value = await fetchData()
+})
+
 </script>
