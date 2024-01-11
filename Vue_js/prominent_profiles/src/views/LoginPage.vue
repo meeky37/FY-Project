@@ -21,6 +21,10 @@
 </template>
 
 <script>
+import VueCookies from 'vue-cookie'
+import axios from 'axios'
+import { API_BASE_URL } from '@/config.js'
+
 export default {
   name: 'LoginPage',
 
@@ -37,9 +41,28 @@ export default {
     },
 
     login () {
-      console.log('Login To Come Later')
-      this.$router.push('/dashboard')
+      axios.post(`${API_BASE_URL}/accounts/api/token/`, {
+        email: this.emailPhone,
+        password: this.password
+      })
+        .then(response => {
+        // Store the access token in a cookie
+        //   VueCookies.set('access_token', response.data.access, { expires: '15s' }) for testing refresh quickly!
+          VueCookies.set('access_token', response.data.access, { expires: '15m' })
+          VueCookies.set('refresh_token', response.data.refresh, { expires: '7d' })
+          // Redirect to the dashboard
+          this.$router.push('/dashboard')
+          console.log(VueCookies.get('access_token'))
+          console.log(VueCookies.get('refresh_token'))
+        })
+        .catch(error => {
+          console.error('Login error:', error.response.data)
+        })
+    },
+    signUp () {
+      console.log('Will redirect to a sign up page')
     }
+
   }
 }
 </script>
