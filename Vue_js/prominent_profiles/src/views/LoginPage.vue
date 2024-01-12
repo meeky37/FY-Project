@@ -10,8 +10,8 @@
              ref="emailPhoneInput"
              v-model="emailPhone"
              class="input-field"
-             @keyup.enter="focusPasswordInput"
-              />
+             @keyup.enter="focusPasswordInput"/>
+    <p v-if="validationMessageUser" class="validation-message">{{ validationMessageUser }}</p>
     </div>
 
     <div class="form-group">
@@ -22,7 +22,8 @@
              v-model="password"
              class="input-field"
              @keyup.enter="login"/>
-    </div>
+    <p v-if="validationMessagePassword" class="validation-message">{{ validationMessagePassword }}</p>
+  </div>
 
     <div class="button-group">
       <button class="login-button signup-button"
@@ -32,55 +33,116 @@
     </div>
   </div>
 </template>
-
 <script>
+import { ref, watch } from 'vue'
 import VueCookies from 'vue-cookie'
 import axios from 'axios'
 import { API_BASE_URL } from '@/config.js'
+import { useRouter } from 'vue-router'
 
 export default {
   name: 'LoginPage',
 
-  data () {
+  setup () {
+    const emailPhone = ref('')
+    const password = ref('')
+    const validationMessageUser = ref('')
+    const validationMessagePassword = ref('')
+    const router = useRouter()
+
+    let validationTimerUser = null
+    let validationTimerPassword = null
+
+    const focusPasswordInput = () => {
+      document.getElementById('password').focus()
+    }
+
+    const login = () => {
+      if (validationMessageUser.value === '' && validationMessagePassword.value === '') {
+        axios
+          .post(`${API_BASE_URL}/accounts/api/token/`, {
+            email: emailPhone.value,
+            password: password.value
+          })
+          .then((response) => {
+            VueCookies.set('access_token', response.data.access, { expires: '15m' })
+            VueCookies.set('refresh_token', response.data.refresh, { expires: '7d' })
+            // Redirect to the dashboard
+            router.push('/dashboard')
+            console.log(VueCookies.get('access_token'))
+            console.log(VueCookies.get('refresh_token'))
+          })
+          .catch((error) => {
+            console.error('Login error:', error)
+          })
+      } else {
+        console.log('Login cannot proceed with improper input.')
+      }
+    }
+
+    const signUp = () => {
+      console.log('Will redirect to a sign-up page')
+    }
+
+    const validateUserNameInput = () => {
+      // Clear the previous timer
+      clearTimeout(validationTimerUser)
+
+      // Set a new timer to wait for 500 milliseconds (adjust as needed)
+      validationTimerUser = setTimeout(() => {
+        if (emailPhone.value !== '') {
+          // Validation criteria
+          const isPhoneNumber = /^\d{1,16}$/.test(emailPhone.value)
+          const isEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(emailPhone.value)
+
+          // Validation message updated based on email/phone input
+          if (!(isPhoneNumber || isEmail)) {
+            validationMessageUser.value = 'Invalid email or phone number format'
+          } else {
+            validationMessageUser.value = ''
+          }
+        } else {
+          validationMessageUser.value = ''
+        }
+      }, 1000)
+    }
+
+    const validatePassword = () => {
+      clearTimeout(validationTimerPassword)
+
+      validationTimerPassword = setTimeout(() => {
+        if (password.value !== '') {
+          const isStrongPassword = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/.test(password.value)
+
+          validationMessagePassword.value = ''
+
+          // Validation message updated based on password input
+          if (!isStrongPassword) {
+            validationMessagePassword.value = 'Password must be at least 8 characters long and contain at least one letter and one number.'
+          }
+        } else {
+          validationMessagePassword.value = ''
+        }
+      }, 1000)
+    }
+
+    // Watch for changes in emailPhone and password and trigger validation
+    watch(emailPhone, validateUserNameInput)
+    watch(password, validatePassword)
+
     return {
-      emailPhone: '',
-      password: ''
+      emailPhone,
+      password,
+      validationMessageUser,
+      validationMessagePassword,
+      focusPasswordInput,
+      login,
+      signUp
     }
-  },
-
-  methods: {
-    focusPasswordInput () {
-      // Move focus to password input field
-      this.$refs.passwordInput.focus()
-    },
-
-    login () {
-      axios.post(`${API_BASE_URL}/accounts/api/token/`, {
-        email: this.emailPhone,
-        password: this.password
-      })
-        .then(response => {
-        // Store the access token in a cookie
-        //   VueCookies.set('access_token', response.data.access, { expires: '15s' }) for testing refresh quickly!
-          VueCookies.set('access_token', response.data.access, { expires: '15m' })
-          VueCookies.set('refresh_token', response.data.refresh, { expires: '7d' })
-          // Redirect to the dashboard
-          this.$router.push('/dashboard')
-          console.log(VueCookies.get('access_token'))
-          console.log(VueCookies.get('refresh_token'))
-        })
-        .catch(error => {
-          console.error('Login error:', error.response.data)
-        })
-    },
-    signUp () {
-      console.log('Will redirect to a sign up page')
-    }
-
   }
 }
-</script>
 
+</script>
 <style scoped>
 .login-container {
   display: flex;
