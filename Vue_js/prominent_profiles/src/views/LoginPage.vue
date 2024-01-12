@@ -5,17 +5,30 @@
 
     <div class="form-group">
       <label for="emailPhone" class="label">Email / Phone:</label>
-      <input type="text" id="emailPhone" v-model="emailPhone" class="input-field" />
+      <input type="text"
+             id="emailPhone"
+             ref="emailPhoneInput"
+             v-model="emailPhone"
+             class="input-field"
+             @keyup.enter="focusPasswordInput"
+              />
     </div>
 
     <div class="form-group">
       <label for="password" class="label">Password:</label>
-      <input type="password" id="password" v-model="password" class="input-field" />
+      <input type="password"
+             id="password"
+             ref="passwordInput"
+             v-model="password"
+             class="input-field"
+             @keyup.enter="login"/>
     </div>
 
     <div class="button-group">
-      <button @click="signup" class="login-button signup-button">Sign Up</button>
-      <button @click="login" class="login-button">Login</button>
+      <button class="login-button signup-button"
+              @click="signUp" >Sign Up</button>
+      <button class="login-button"
+              @click="login" >Login</button>
     </div>
   </div>
 </template>
@@ -36,8 +49,9 @@ export default {
   },
 
   methods: {
-    SignUp () {
-      console.log('Sign Up To Come Later')
+    focusPasswordInput () {
+      // Move focus to password input field
+      this.$refs.passwordInput.focus()
     },
 
     login () {
