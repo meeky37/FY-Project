@@ -4,7 +4,7 @@ import router from './router'
 import './interceptors/axios'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faExternalLinkAlt, faCircleChevronUp, faCircleChevronDown, faCircleMinus, faShuffle, faMagnifyingGlassChart, faPercent, faClock, faArrowUp, faArrowDown, faCalendarDays } from '@fortawesome/free-solid-svg-icons'
+import { faExternalLinkAlt, faCircleChevronUp, faCircleChevronDown, faCircleMinus, faShuffle, faMagnifyingGlassChart, faPercent, faClock, faArrowUp, faArrowDown, faCalendarDays, faPlus, faCheck } from '@fortawesome/free-solid-svg-icons'
 import { faGoogle } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { setupCalendar, Calendar, DatePicker } from 'v-calendar'
@@ -22,6 +22,8 @@ library.add(faArrowUp)
 library.add(faArrowDown)
 library.add(faGoogle)
 library.add(faCalendarDays)
+library.add(faPlus)
+library.add(faCheck)
 
 const app = createApp(App).use(router)
 

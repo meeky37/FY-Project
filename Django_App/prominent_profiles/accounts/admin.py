@@ -1,6 +1,7 @@
 from django.contrib import admin
 from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
-from .models import CustomUser
+from .models import CustomUser, Subscription
+
 
 class UserAdmin(BaseUserAdmin):
     list_display = ('email', 'phone_number', 'date_of_birth', 'email_verified', 'location', 'first_name', 'last_name', 'is_active', 'is_staff')
@@ -22,3 +23,5 @@ class UserAdmin(BaseUserAdmin):
     )
 
 admin.site.register(CustomUser, UserAdmin)
+
+admin.site.register(Subscription)
