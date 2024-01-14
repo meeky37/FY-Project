@@ -2,13 +2,13 @@
   <div>
     <h1 v-if="userData">Hi {{ userData.first_name }}!</h1>
     <h2>Welcome to your dashboard</h2>
-    <PageFooter />
+
+    <p>Subscription List Here for User</p>
   </div>
 </template>
 
 <script setup>
 import axios from 'axios'
-import PageFooter from '@/components/PageFooter.vue'
 import { onActivated, onMounted, ref } from 'vue'
 import { API_BASE_URL } from '@/config.js'
 

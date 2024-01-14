@@ -40,13 +40,10 @@
         :Article="otherArticles"
       />
     </div>
-
-    <PageFooter/>
   </div>
 </template>
 
 <script>
-import PageFooter from '../components/PageFooter.vue'
 import EntitySpotlight from '@/components/EntitySpotlight.vue'
 import { API_BASE_URL } from '@/config.js'
 import ArticleOtherEntities from '@/components/ArticleOtherEntities.vue'
@@ -56,7 +53,6 @@ export default {
 
   components: {
     ArticleOtherEntities,
-    PageFooter,
     EntitySpotlight
   },
   data () {
@@ -240,8 +236,7 @@ export default {
     margin-top: 20px;
   }
 
-  .article-box,
-  .entity-box {
+  .article-box {
     border: 1px solid #ccc;
     min-width: 20vw;
     max-width: 50vw;

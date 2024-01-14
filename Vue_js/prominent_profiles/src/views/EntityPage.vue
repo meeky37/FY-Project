@@ -43,13 +43,11 @@
       :isAscending="isAscending"
       :dateRange="dateRange"
       @oldestArticleDate="setOldestArticleDate"/>
-    <PageFooter/>
   </div>
 </template>
 
 <script>
 import ArticleEntriesContainer from '../components/ArticleEntriesContainer.vue'
-import PageFooter from '../components/PageFooter.vue'
 import SortToggle from '@/components/SortToggle.vue'
 import { API_BASE_URL } from '@/config.js'
 import VueCookie from 'vue-cookie'
@@ -58,7 +56,6 @@ export default {
 
   components: {
     ArticleEntriesContainer,
-    PageFooter,
     SortToggle
   },
 

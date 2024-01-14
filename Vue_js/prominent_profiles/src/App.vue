@@ -29,6 +29,7 @@
       </keep-alive>
     </router-view>
   </div>
+       <PageFooter/>
 </template>
 
 <script>
@@ -37,9 +38,11 @@ import router from '@/router'
 import EntitySelection from '@/components/EntitySelection.vue'
 import { API_BASE_URL } from '@/config'
 import axios from 'axios'
+import PageFooter from '@/components/PageFooter.vue'
 
 export default {
   components: {
+    PageFooter,
     EntitySelection
   },
 
