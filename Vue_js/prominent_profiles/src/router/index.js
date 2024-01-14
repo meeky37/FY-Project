@@ -4,6 +4,7 @@ import EntityPage from '../views/EntityPage.vue'
 import HomePage from '../views/HomePage.vue'
 import ArticlePage from '../views/ArticlePage.vue'
 import LoginPage from '../views/LoginPage.vue'
+import SignUpPage from '../views/SignUpPage.vue'
 import DashboardPage from '../views/DashboardPage.vue'
 
 const routes = [
@@ -26,6 +27,11 @@ const routes = [
     path: '/login',
     name: 'login',
     component: LoginPage
+  },
+  {
+    path: '/sign-up',
+    name: 'signUp',
+    component: SignUpPage
   },
   {
     path: '/dashboard',

@@ -81,7 +81,7 @@ export default {
     }
 
     const signUp = () => {
-      console.log('Will redirect to a sign-up page')
+      router.push('/sign-up')
     }
 
     const validateUserNameInput = () => {
@@ -148,7 +148,7 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  margin-top: 12vh;
   height: 60vh;
 }
 
