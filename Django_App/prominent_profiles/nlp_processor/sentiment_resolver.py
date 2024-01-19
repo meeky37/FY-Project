@@ -90,6 +90,17 @@ class SentimentAnalyser:
             print(f"LEFT: {left_segment}")
             print(f"MENTION: {mention_segment}")
             print(f"RIGHT: {right_segment}")
+
+            BoundErrors.objects.create(
+                bound_start=mention_start,
+                bound_end=mention_end,
+                left_segment=left_segment,
+                mention_segment=mention_segment,
+                right_segment=right_segment,
+                error_message=f"Exception during sentiment analysis: {e.with_traceback()}"
+            )
+
+            raise
             return None
 
     def process_clustered_entities(self, clustered_entities, sentence_bounds, article_text,
