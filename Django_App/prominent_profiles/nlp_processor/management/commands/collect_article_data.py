@@ -16,6 +16,11 @@ def save_articles_to_files(self, search_results_list, search_term):
 
     folder_name = formatted_search_term
     folder_path = os.path.join(settings.ARTICLE_SCRAPER_MEDIA_ROOT, 'api_articles', folder_name)
+
+    # Create the folder if it doesn't exist - e.g. added 'general election' on 19th needs folder
+    if not os.path.exists(folder_path):
+        os.makedirs(folder_path)
+
     articles_filepath = os.path.join(folder_path, articles_filename)
     results_filepath = os.path.join(folder_path, results_filename)
 
@@ -34,7 +39,7 @@ def save_articles_to_files(self, search_results_list, search_term):
 
     processed_file.save()
 
-    print("Articles and search results saved to files in the media/api_articles prince+harry.")
+    print(f"Articles and search results saved to files in the media/api_articles/{folder_name}")
 
 
 class Command(BaseCommand):
@@ -58,5 +63,10 @@ class Command(BaseCommand):
         save_articles_to_files(articles, search_results_list, search_term)
 
         search_term = "meghan markle"
+        articles, search_results_list = fetch_articles(search_term)
+        save_articles_to_files(articles, search_results_list, search_term)
+
+        #  19th Jan Add
+        search_term = "general election"
         articles, search_results_list = fetch_articles(search_term)
         save_articles_to_files(articles, search_results_list, search_term)
