@@ -17,7 +17,6 @@ from urllib.parse import urlparse
 import urllib.robotparser
 
 
-
 def can_fetch_url(url_to_check):
     """Determine if the URL can be fetched by all crawlers - adding politeness / adherence to robot
     policy."""
@@ -30,12 +29,11 @@ def can_fetch_url(url_to_check):
     return rules.can_fetch("*", url_to_check)
 
 
-def get_preview_image_url(url, timeout=1):
+def get_preview_image_url(url, timeout=3):
     try:
         response = requests.get(url, timeout=timeout)
         if response.status_code == 200:
             soup = BeautifulSoup(response.text, 'html.parser')
-
 
             og_image = soup.find('meta', property='og:image')
             if og_image:
@@ -254,18 +252,12 @@ class Article:
         self.bounds_sentiment = None
         self.sentiment_analyser = None
 
+    def set_sentiment_analyser(self, sa):
 
-    # def calculate_minhash(self):
-    #     """
-    #     Calculating MinHash signature of article text.
-    #     """
-    #     minhash = MinHash()
-    #     for word in self.text_body.split():
-    #         minhash.update(word.encode('utf-8'))
-    #     self.minhash_signature = str(minhash)
-
-    def set_sentiment_analyser(self):
-        self.sentiment_analyser = SentimentAnalyser()
+        if sa is None:
+            self.sentiment_analyser = SentimentAnalyser()
+        else:
+            self.sentiment_analyser = sa
 
     def get_bounds_sentiment(self):
         try:
@@ -273,9 +265,6 @@ class Article:
                 clustered_entities=self.clustered_entities, sentence_bounds=self.sentence_bounds,
                 article_text=self.text_body,
                 debug=False)
-        # except Exception as e:
-        #     print(f"Error processing bounds data for article {self.headline}. Error: {e}")
-        #     self.bounds_sentiment = None
         except Exception as e:
             import traceback
             print(
@@ -295,7 +284,7 @@ class Article:
 
     def determine_entity_to_cluster_mapping(self):
 
-        '''
+        """
         Removing pronouns & other 'useless words' (his, her, he, I etc) then doing a % match rate on
         entity text across cluster entries for each entity. If match rate % exceeds threshold
         pair them.
@@ -303,7 +292,7 @@ class Article:
         Improvement: Spliting the entity names into part words e.g. Sadiq Khan will be split into
         Sadiq and Khan for evaluation purposes. This way if they are mostly mentioned by first
         or second name the match still has opportunity to take place.
-        '''
+        """
 
         for entity_type, entities in self.people_entities.items():
             for entity in entities:
@@ -339,36 +328,6 @@ class Article:
                 if percentage > max_percentage:
                     max_percentage = percentage
 
-                # if percentage > 0.00:
-                #     print()
-                #     print("Entity Part: " + entity_part)
-                #     print(cleaned_cluster_text)
-                #     print(percentage)
-                #     print('------------------------------------------')
-
-            # if max_percentage > 0.00:
-            #     print()
-            #     # print("Entity Name: " + entity_name)
-            #     # print(cleaned_cluster_text)
-            #     # print("Max % Match: " + str(max_percentage))
-            #     if max_percentage > ENTITY_THRESHOLD_PERCENT:
-            #         # print("PREDICTION:  MATCH")
-            #         winning_entity_part = entity_part
-            #     # else:
-            #         # print("PREDICTION: INVALID")
-            #     print('------------------------------------------')
-
-            # cleaned_cluster_text = cleanse_cluster_text(cluster_text) believed redundant
-            # total_coref_words = " ".join(cleaned_cluster_text)
-            # entity_count = total_coref_words.count(entity_name)
-            # percentage = entity_count / len(cleaned_cluster_text)
-
-            # if max_percentage > 0.00:
-            #     # print('Entity_name: ' + entity_name)
-            #     if winning_entity_part:
-            #         # print('Winning Entity Part: ' + winning_entity_part)
-            #     # print('Percentage: {:.2%}'.format(max_percentage))
-
             if max_percentage >= ENTITY_THRESHOLD_PERCENT:
                 cluster_entry = {
                     'Cluster ID': cluster_id,
@@ -396,17 +355,9 @@ class Article:
         article_text = self.text_body
         article = NER(article_text)
 
-        # Empty dictionary for
-        # people_entities
-        people_entities = {}
-
         '''# Recommended mention - 'Discard a cluster c in a document d if |Mc| ≤ 0.2|Sd|,  
         where |...| is the number of mentions of a cluster (Mc) and sentences in a document (Sd)
         (NEWS-MTSC approach)'''
-
-        entity_types = ["CARDINAL", "DATE", "EVENT", "FAC", "GPE", "LANGUAGE", "LAW",
-                        "LOC", "MONEY", "NORP", "ORDINAL", "ORG", "PERCENT",
-                        "PERSON", "PRODUCT", "QUANTITY", "TIME", "WORK_OF_ART"]
 
         entity_types = ["CARDINAL", "DATE", "EVENT", "FAC", "GPE", "LANGUAGE", "LAW",
                         "LOC", "MONEY", "NORP", "ORDINAL", "ORG", "PERCENT",
@@ -418,7 +369,7 @@ class Article:
                     entity_text,
                     positions,
                     label,
-                    len(positions)  # Count of positions
+                    len(positions)
                 ] for entity_text, positions, label in reduce(
                     merge_positions,
                     filter(lambda word: word.label_ == entity_type, article.ents),
@@ -456,9 +407,9 @@ class Article:
     def determine_sentences(self):
 
         """
-        Process the article text, tokenize by sentence and add custom adjustments to the
-        tokenization using insert intervals below.
-        spaCy was not satisfactory for accurately tokenizing for sentence start / end
+        Process the article text, tokenise by sentence and add custom adjustments to the
+        tokenisation using insert intervals below.
+        spaCy was not satisfactory for accurately tokenising for sentence start / end
         characters. Trying textblob instead. TextBlob is a Python library for processing textual
         data that is bulit upon NLTK.
 
@@ -511,7 +462,6 @@ class Article:
         """
 
         cluster_dict = defaultdict(list)
-        debug = False
         for entry in self.entity_to_cluster_mapping:
             entity_name = entry['Entity Name']
             cluster_id = entry['Cluster Info']['Cluster ID']
@@ -556,6 +506,8 @@ class Article:
                                         entry2['Positions'] = int(MERGE_REMOVAL_INDICATOR)
 
                                     consolidation_done = True
+                                    # exit inner for loop
+                                    break
                                 elif combined_entity in cluster_text:
                                     combined_entry = {
                                         'Entity Name': combined_entity,
@@ -571,8 +523,13 @@ class Article:
                                     entries.remove(entry1)
                                     entries.remove(entry2)
                                     consolidation_done = True
+                                    # exit inner for loop
+                                    break
                         if combined_entry:
                             entries.append(combined_entry)
+                        if consolidation_done:
+                            # exit outer for loop
+                            break
 
             '''
             Now look across cluster ids (above we stayed within a cluster id) for substrings of
@@ -662,14 +619,14 @@ class Article:
                 clustered_entities.remove(entity)
                 continue
 
-                # If the entity is not removed, add it to the cleaned list
+            # If the entity is not removed, add it to the cleaned list
             cleaned_entities.append(entity)
 
         clustered_entities = cleaned_entities
         new_length = len(clustered_entities)
 
         print(f"number of entities before mention threshold: {before_len}")
-        print(f"number of entities after mention thresold: {new_length}")
+        print(f"number of entities after mention threshold: {new_length}")
 
         clustered_entities = clean_up_substrings(clustered_entities)
 
@@ -682,11 +639,6 @@ class Article:
 
     def set_database_candidate_true(self):
         self.database_candidate = True
-        # headline_request = BeautifulRequests.get_article_title(self.url)
-        # if headline_request is not None:
-        #     print("Headline Found: " + headline_request)
-        #     print("Original Headline: " + self.headline)
-        #     self.headline = headline_request
         self.image_url = get_preview_image_url(self.url)
 
     def get_average_sentiment_results(self):
@@ -695,7 +647,6 @@ class Article:
                                                           .text_body)
 
     def save_to_database(self):
-        # Save necessary data to the Article model in profiles_app
         try:
             article_model = ArticleModel.objects.create(
                 headline=self.headline,
@@ -705,11 +656,18 @@ class Article:
                 author=self.author,
                 site_name=self.site_name
             )
-            # Add any other fields you want to save to the model
             article_model.save()
-
-            # Set the database_id attribute in the Article instance
             self.database_id = article_model.id
         except Exception as e:
-            # Handle exceptions (e.g., duplicate URLs, database errors)
             print(f"Error saving article to the database: {e}")
+
+    def set_db_processed(self, is_processed):
+        if self.database_id is not None:
+            try:
+                ArticleModel.objects.filter(id=self.database_id).update(processed=is_processed)
+                print('Setting processed')
+                print(is_processed)
+            except ArticleModel.DoesNotExist:
+                print(f"Article with id {self.database_id} does not exist.")
+        else:
+            print("Cannot set processed flag as the article obj doesn't have a database ID.")
