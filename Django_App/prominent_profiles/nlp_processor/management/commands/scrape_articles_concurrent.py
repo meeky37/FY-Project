@@ -1,9 +1,11 @@
 import concurrent.futures
 import json
 import os
+import queue
 import urllib.robotparser
 import trafilatura
 import spacy
+from NewsSentiment.customexceptions import TooLongTextException
 from django.utils import timezone
 
 from django.core.management.base import BaseCommand
@@ -22,10 +24,14 @@ import urllib.request
 import socket
 
 import time
+
+from ...sentiment_resolver import SentimentAnalyser
+from memory_profiler import profile
+
+
 def can_fetch_url(url_to_check):
     """Determine if the URL can be fetched by all crawlers - adding politeness / adherence to
         robot policy."""
-    # print("robo check started")
     parsed_url = urlparse(url_to_check)
     base_url = parsed_url.scheme + "://" + parsed_url.netloc
 
@@ -55,8 +61,8 @@ def perform_coreference_resolution(article_texts, batch_size=100):
     for prediction in predictions:
         clusters_text = prediction.get_clusters()
         clusters_positions = prediction.get_clusters(as_strings=False)
-        combined_clusters = [(text, positions, len(text)) for text, positions in zip
-        (clusters_text, clusters_positions)]
+        combined_clusters = [(text, positions, len(text)) for text, positions in
+                             zip(clusters_text, clusters_positions)]
         sorted_combined_clusters = sorted(combined_clusters, key=lambda x: x[2], reverse=True)
 
         article_text_clusters.append(sorted_combined_clusters)
@@ -66,6 +72,18 @@ def perform_coreference_resolution(article_texts, batch_size=100):
 
 class Command(BaseCommand):
     help = 'Scrape articles and trigger NLP flow'
+
+    def __init__(self, *args, **kwargs):
+        super(Command, self).__init__(*args, **kwargs)
+        self.sa_queue = queue.Queue()
+
+        self.max_concurrent_threads = 5
+        # Create 5 SentimentAnalyser objects (these take quite a bit of time to define!)
+        # Previously declared for each article object so quite a wasteful operation
+        # Queue for the 5 threads
+        for _ in range(self.max_concurrent_threads):
+            sa = SentimentAnalyser()
+            self.sa_queue.put(sa)
 
     def process_articles(articles, article_objects, processed_urls, start=0, end=None):
 
@@ -123,8 +141,8 @@ class Command(BaseCommand):
                                                        include_tables=False)
                     # article_text = trafilatura.extract(downloaded, favour_recall=True)
                     if article_text and len(article_text) > 249:
-                        article_obj = Article(url, headline, article_text, ner,
-                                              publication_date, author, site_name)
+                        article_obj = Article(url, headline, article_text, ner, publication_date,
+                                              author, site_name)
                         article_objects.append(article_obj)
                         # Mark the URL as processed
                         processed_urls.add(url)
@@ -160,11 +178,7 @@ class Command(BaseCommand):
 
         return Command.process_articles(articles, article_objects, processed_urls)
 
-    def process_article(self, article):
-
-        start_time = time.time()
-
-        print(f"Hash Check Time: {time.time() - start_time} seconds")
+    def process_article(self, article, sa):
 
         start_time = time.time()
         article.source_ner_people()
@@ -182,7 +196,7 @@ class Command(BaseCommand):
         article.entity_cluster_map_consolidation()
         print(f"Entity cluster map consolidation Time: {time.time() - start_time} seconds")
 
-        start_time = time.time()
+        time.time()
         if article.database_candidate:
             article.save_to_database()
 
@@ -192,32 +206,44 @@ class Command(BaseCommand):
                     entity_db_id = DatabaseUtils.insert_entity(entity_name, article.database_id)
                     entity_data['entity_db_id'] = entity_db_id
 
-                start_time = time.time()
-                print(f"Entity insert time: {time.time() - start_time} seconds")
+                article.set_sentiment_analyser(sa)
 
                 start_time = time.time()
-                article.set_sentiment_analyser()
-                print(f"Sentiment analyser setup time: {time.time() - start_time} seconds")
 
-                start_time = time.time()
-                article.get_bounds_sentiment()
-                print(f"Bounds sentiment time: {time.time() - start_time} seconds")
+                try:
+                    article.get_bounds_sentiment()
+                    print(f"Bounds sentiment time: {time.time() - start_time} seconds")
 
-                start_time = time.time()
-                article.get_average_sentiment_results()
-                print(f"Average results time: {time.time() - start_time} seconds")
+                    start_time = time.time()
+                    article.get_average_sentiment_results()
+                    print(f"Average results time: {time.time() - start_time} seconds")
 
+                    article.set_db_processed(True)
+                except TooLongTextException as e:
+                    article.set_db_processed(False)
+                    print(e)
         elif not article.database_candidate:
             print("Not enough mentions to add")
         else:
             print("Article already exists in the database")
-        article.reset_attributes()
+
+        # Save memory by deleting properly!
+        # article.reset_attributes()
+        del article
 
     def process_article_wrapper(self, args):
         article, i, total_objects = args
         print(f"Current Progress: {i} of {total_objects}")
-        self.process_article(article)
 
+        sa = self.sa_queue.get()
+        try:
+            self.process_article(article, sa)
+
+        finally:
+            # Putting the SentimentAnalyser back in the queue, even if exception takes place
+            self.sa_queue.put(sa)
+
+    @profile
     def handle(self, *args, **options):
 
         processed_urls = set()
@@ -232,16 +258,14 @@ class Command(BaseCommand):
 
         for file in unapplied_files:
 
-            article_objects = []
-
             full_path = file.full_path()
-
             print(full_path)
 
             # Check if the file has already been processed
             if full_path not in processed_urls:
                 # Retrieve articles from the current file
                 articles_from_file = self.process_file(full_path, [], processed_urls)
+
                 # Extend article_objects with articles from the current file
                 article_objects = articles_from_file
 
@@ -256,13 +280,12 @@ class Command(BaseCommand):
                 total_objects = len(article_objects)
                 print(f"Total objects: {total_objects}")
 
-                i = 1
-
-                with concurrent.futures.ThreadPoolExecutor() as executor:
+                with concurrent.futures.ThreadPoolExecutor(
+                        max_workers=self.max_concurrent_threads) as executor:
                     list(executor.map(self.process_article_wrapper,
                                       ((article, i + 1, len(article_objects)) for i, article in
                                        enumerate(article_objects))))
 
-                    # Update the ProcessedFile object to mark it as processed
+                # Update the ProcessedFile object to mark it as processed
                 file.nlp_applied = True
                 file.save()
