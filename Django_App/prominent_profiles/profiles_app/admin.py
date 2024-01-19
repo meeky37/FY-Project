@@ -1,4 +1,3 @@
-# profiles_app/admin.py
 from django.contrib import admin
 from django.db.models import Count
 
@@ -7,7 +6,7 @@ from .models import Entity, Article, BoundMention, OverallSentiment, BingEntity,
 
 @admin.register(Article)
 class ArticleAdmin(admin.ModelAdmin):
-    list_display = ('headline', 'url', 'image_url', 'date_added', 'publication_date',
+    list_display = ('processed', 'headline', 'url', 'image_url', 'date_added', 'publication_date',
                     'site_name', 'author')
 
 
@@ -63,7 +62,8 @@ class EntityAdmin(admin.ModelAdmin):
 
     make_app_visible.short_description = "Mark selected entities as app visible"
 
-    merge_entities.short_description = "Merge SELECT Primary (keeping) FIRST then Secondary (deleting)"
+    merge_entities.short_description = ("Merge SELECT Primary (keeping) FIRST then Secondary ("
+                                        "deleting)")
     make_app_visible.short_description = 'Make App Visible'
     reset_view_count.short_description = 'Reset View Count'
     display_article_count_numeric.admin_order_field = 'overallsentiment__count'

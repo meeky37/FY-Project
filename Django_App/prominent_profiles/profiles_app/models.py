@@ -2,6 +2,9 @@
 from django.db import models
 from django.utils import timezone
 
+from django.db.models.signals import post_migrate
+from django.dispatch import receiver
+
 
 class Article(models.Model):
     headline = models.CharField(max_length=255, null=True)
@@ -11,6 +14,8 @@ class Article(models.Model):
     author = models.CharField(max_length=255, null=True, blank=True)
     site_name = models.CharField(max_length=255, null=True, blank=True)
     date_added = models.DateTimeField(auto_now_add=True)
+    processed = models.BooleanField(default=False)
+
 
 class Entity(models.Model):
     source_article = models.ForeignKey(Article, on_delete=models.CASCADE)
