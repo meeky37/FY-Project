@@ -1,0 +1,1432 @@
+[
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak",
+        "queryContext": {
+            "originalQuery": "rishi sunak",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 6,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Rwanda vote is a win for <b>Sunak</b>, but it has come at a cost",
+                "url": "https://news.sky.com/story/rwanda-vote-is-a-win-for-sunak-but-it-has-come-at-a-cost-13050555",
+                "description": "Even as they prepared to walk through the voting lobbies with <b>Rishi Sunak</b>, there was talk about being angry and disappointed in how the government had handled the rebels, but sources in the room tell me that the majority of potential rebels in the end ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Rwanda"
+                    },
+                    {
+                        "name": "Sky News"
+                    },
+                    {
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky"
+                    }
+                ],
+                "datePublished": "2024-01-18T01:00:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Peers urged to \u2018get on\u2019 and pass Rwanda Bill after Tory rebellion fizzles out",
+                "url": "https://www.irishnews.com/news/uk/peers-urged-to-get-on-and-pass-rwanda-bill-after-tory-rebellion-fizzles-out-HI6SH2ERPBI7LPS6XNGZ676XEU/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.m1tXovtAM4DI_wSMWLrGOS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Peers are being urged to \u201cget on\u201d and pass the Rwanda Bill after <b>Rishi Sunak</b> saw off the prospect of a defeat at the hands of right-wing Conservative MPs. The Safety of Rwanda Bill passed its third reading in the Commons unamended with a majority of 44 ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/bc22c77e-aaea-fc23-b738-0612f5a3e0a1",
+                        "name": "Pass"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Rwanda"
+                    },
+                    {
+                        "name": "Pass"
+                    },
+                    {
+                        "name": "Tory"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Irish News"
+                    }
+                ],
+                "datePublished": "2024-01-18T00:39:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "How <b>Rishi Sunak</b> beat the Tory right with Priti Patel&#39;s deal, Starmer&#39;s PMQs and MP &#39;wimps&#39;",
+                "url": "https://www.express.co.uk/news/politics/1856939/tory-wimps-rishi-sunak-rwanda-comment",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.XfS4qsGL0044R6qxpoE80y&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "ANALYSIS: Rishi Sunak has won a major victory and defeated the right of his party meaning he now will almost certainly lead the Tories into the next election.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ce3c2c35-fd65-6234-76e8-cf9c6ce54f88",
+                        "name": "Priti Patel"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Priti Patel"
+                    },
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Daily Express"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-17T22:29:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Rishi Sunak</b> told off by Speaker after prop stunt at PMQs",
+                "url": "https://www.thenational.scot/news/24055740.rishi-sunak-told-off-speaker-prop-stunt-pmqs/",
+                "description": "RISHI Sunak was admonished by the Speaker at Prime Minister\u2019s Questions after brandishing a book Keir Starmer had written on human rights.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-17T12:43:00.0000000Z"
+            },
+            {
+                "name": "OPINION - <b>Rishi Sunak</b> has little left to offer demoralised Tory MPs",
+                "url": "https://uk.news.yahoo.com/opinion-rishi-sunak-little-left-162041016.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.c6g_DYuLywxpOnew2Z01sS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "But when that power slips away, participants often conclude that unity is no longer worth the hassle. Case in point: earlier week, <b>Rishi Sunak</b>&#39;s campaign director Isaac Levido addressed Conservative MPs, during which he urged them to unify and direct their ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK"
+                    }
+                ],
+                "datePublished": "2024-01-17T11:20:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "&#39;Sit down&#39;: Speaker tells off <b>Rishi Sunak</b> after prop stunt at PMQs",
+                "url": "https://uk.news.yahoo.com/sit-down-speaker-tells-off-124303499.html",
+                "description": "RISHI Sunak was admonished by the Speaker at Prime Minister\u2019s Questions after brandishing a book Keir Starmer had written on human rights.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8ab53222-cbab-27e7-30ff-2cab87f2a014",
+                        "name": "Tell"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3181e0f2-a433-af10-48c8-7d159791d630",
+                        "name": "Speaker of the Legislative Assembly of the Northwest Territories"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ac1c0993-eae1-665a-8b42-882fecb0ba32",
+                        "name": "Stunt"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-17T04:43:00.0000000Z"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak",
+        "queryContext": {
+            "originalQuery": "rishi sunak",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 108,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Rwanda vote is a win for <b>Sunak</b>, but it has come at a cost",
+                "url": "https://news.sky.com/story/rwanda-vote-is-a-win-for-sunak-but-it-has-come-at-a-cost-13050555",
+                "description": "Even as they prepared to walk through the voting lobbies with <b>Rishi Sunak</b>, there was talk about being angry and disappointed in how the government had handled the rebels, but sources in the room tell me that the majority of potential rebels in the end ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Rwanda"
+                    },
+                    {
+                        "name": "Sky News"
+                    },
+                    {
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky"
+                    }
+                ],
+                "datePublished": "2024-01-18T01:00:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Jeremy Hunt will &#39;bang the drum&#39; for investment in the UK at the World Economic Forum in Davos",
+                "url": "https://www.thisismoney.co.uk/money/article-12976535/Jeremy-Hunt-bang-drum-investment-UK-World-Economic-Forum-Davos.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.4tzQiUriGoax0eUHYzmLQy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The Chancellor is arriving at the annual meeting of the World Economic Forum in the wake of his Labour rival Rachel Reeves, who has been on a charm offensive.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5d579a8e-548b-dfb6-3270-b3334b203e81",
+                        "name": "Davos"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/44c3d8ea-5fbe-69e7-dc5b-d4109b17b8eb",
+                        "name": "This is..."
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2bd73848-4b61-3c98-ba3e-c458fe954d74",
+                        "name": "Jeremy Hunt"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "This is Money",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.vNEz1z7JQU4tCQZX-QvQhw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T00:20:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Peers urged to \u2018get on\u2019 and pass Rwanda Bill after Tory rebellion fizzles out",
+                "url": "https://www.standard.co.uk/news/politics/rishi-sunak-downing-street-rwanda-house-of-lords-suella-braverman-b1133116.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Z98mVUp-5whSVxTkMxF-5C&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "No 10 described the passing of <b>Rishi Sunak</b>\u2019s Rwanda Bill as a \u2018major step\u2019 towards stopping the boats (UK Parliament/Jessica Taylor/PA) The Safety of Rwanda Bill passed its third reading in the Commons unamended with a majority of 44 after only 11 ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/216f6f57-c01d-508a-2ca6-e2cdd7f3a5a5",
+                        "name": "Peers, Alberta"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Rwanda"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Peers, Alberta"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "datePublished": "2024-01-18T00:00:00.0000000Z"
+            },
+            {
+                "name": "Lee Anderson Dropped Rwanda Bill Rebellion As Labour MPs Were &#39;Giggling And Taking The Mick&#39;",
+                "url": "https://uk.news.yahoo.com/lee-anderson-dropped-rwanda-bill-003035714.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.FL5wJS7WBS8SHV7_L3268S&pid=News",
+                        "width": 700,
+                        "height": 350
+                    }
+                },
+                "description": "Lee Anderson has revealed he did not follow through with his revolt against <b>Rishi Sunak</b> and his Rwanda asylum plan because Labour MPs were \u201cgiggling and laughing and taking the mick\u201d. Anderson helped undermine the prime minister\u2019s authority on ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c94f2fa6-9853-e53f-af90-7aec244e4382",
+                        "name": "Lee Anderson"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/73799dc2-9580-ded9-365b-f4c1befc9eab",
+                        "name": "Labour"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK"
+                    }
+                ],
+                "datePublished": "2024-01-18T00:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Electric car price war expected this year \u2013 report",
+                "url": "https://www.expressandstar.com/news/uk-news/2024/01/18/electric-car-price-war-expected-this-year--report/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.bJyvdoiS9rzz4judBwtrzi&pid=News",
+                        "width": 700,
+                        "height": 525
+                    }
+                },
+                "description": "In September last year, Prime Minister <b>Rishi Sunak</b> delayed the ban on the sale of new petrol and diesel cars and vans in the UK from 2030 to 2035. Auto Trader commercial director Ian Plummer said: \u201cDrivers considering taking the first step on their ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d7a9175b-5e5d-cdfe-cd94-a2c347a158f2",
+                        "name": "Electric car"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3c282c03-70ce-3dc8-a62b-2b2f6cc0b68d",
+                        "name": "Price war"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Express &amp; Star"
+                    }
+                ],
+                "datePublished": "2024-01-18T00:00:00.0000000Z"
+            },
+            {
+                "name": "How <b>Rishi Sunak</b> beat the Tory right with Priti Patel&#39;s deal, Starmer&#39;s PMQs and MP &#39;wimps&#39;",
+                "url": "https://www.express.co.uk/news/politics/1856939/tory-wimps-rishi-sunak-rwanda-comment",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.XfS4qsGL0044R6qxpoE80y&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "ANALYSIS: Rishi Sunak has won a major victory and defeated the right of his party meaning he now will almost certainly lead the Tories into the next election.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ce3c2c35-fd65-6234-76e8-cf9c6ce54f88",
+                        "name": "Priti Patel"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Priti Patel"
+                    },
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Daily Express"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-17T22:29:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Rishi Sunak</b> told off by Speaker after prop stunt at PMQs",
+                "url": "https://www.thenational.scot/news/24055740.rishi-sunak-told-off-speaker-prop-stunt-pmqs/",
+                "description": "RISHI Sunak was admonished by the Speaker at Prime Minister\u2019s Questions after brandishing a book Keir Starmer had written on human rights.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-17T12:43:00.0000000Z"
+            },
+            {
+                "name": "OPINION - <b>Rishi Sunak</b> has little left to offer demoralised Tory MPs",
+                "url": "https://uk.news.yahoo.com/opinion-rishi-sunak-little-left-162041016.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.c6g_DYuLywxpOnew2Z01sS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "But when that power slips away, participants often conclude that unity is no longer worth the hassle. Case in point: earlier week, <b>Rishi Sunak</b>&#39;s campaign director Isaac Levido addressed Conservative MPs, during which he urged them to unify and direct their ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK"
+                    }
+                ],
+                "datePublished": "2024-01-17T11:20:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak",
+        "queryContext": {
+            "originalQuery": "rishi sunak",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 208,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Rwanda vote is a win for <b>Sunak</b>, but it has come at a cost",
+                "url": "https://news.sky.com/story/rwanda-vote-is-a-win-for-sunak-but-it-has-come-at-a-cost-13050555",
+                "description": "Even as they prepared to walk through the voting lobbies with <b>Rishi Sunak</b>, there was talk about being angry and disappointed in how the government had handled the rebels, but sources in the room tell me that the majority of potential rebels in the end ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Rwanda"
+                    },
+                    {
+                        "name": "Sky News"
+                    },
+                    {
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky"
+                    }
+                ],
+                "datePublished": "2024-01-18T01:00:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Jeremy Hunt will &#39;bang the drum&#39; for investment in the UK at the World Economic Forum in Davos",
+                "url": "https://www.thisismoney.co.uk/money/article-12976535/Jeremy-Hunt-bang-drum-investment-UK-World-Economic-Forum-Davos.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.4tzQiUriGoax0eUHYzmLQy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The Chancellor is arriving at the annual meeting of the World Economic Forum in the wake of his Labour rival Rachel Reeves, who has been on a charm offensive.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5d579a8e-548b-dfb6-3270-b3334b203e81",
+                        "name": "Davos"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/44c3d8ea-5fbe-69e7-dc5b-d4109b17b8eb",
+                        "name": "This is..."
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2bd73848-4b61-3c98-ba3e-c458fe954d74",
+                        "name": "Jeremy Hunt"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "This is Money",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.vNEz1z7JQU4tCQZX-QvQhw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T00:20:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Peers urged to \u2018get on\u2019 and pass Rwanda Bill after Tory rebellion fizzles out",
+                "url": "https://www.standard.co.uk/news/politics/rishi-sunak-downing-street-rwanda-house-of-lords-suella-braverman-b1133116.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Z98mVUp-5whSVxTkMxF-5C&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "No 10 described the passing of <b>Rishi Sunak</b>\u2019s Rwanda Bill as a \u2018major step\u2019 towards stopping the boats (UK Parliament/Jessica Taylor/PA) The Safety of Rwanda Bill passed its third reading in the Commons unamended with a majority of 44 after only 11 ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/216f6f57-c01d-508a-2ca6-e2cdd7f3a5a5",
+                        "name": "Peers, Alberta"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Rwanda"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Peers, Alberta"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "datePublished": "2024-01-18T00:00:00.0000000Z"
+            },
+            {
+                "name": "Lee Anderson Dropped Rwanda Bill Rebellion As Labour MPs Were &#39;Giggling And Taking The Mick&#39;",
+                "url": "https://uk.news.yahoo.com/lee-anderson-dropped-rwanda-bill-003035714.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.FL5wJS7WBS8SHV7_L3268S&pid=News",
+                        "width": 700,
+                        "height": 350
+                    }
+                },
+                "description": "Lee Anderson has revealed he did not follow through with his revolt against <b>Rishi Sunak</b> and his Rwanda asylum plan because Labour MPs were \u201cgiggling and laughing and taking the mick\u201d. Anderson helped undermine the prime minister\u2019s authority on ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c94f2fa6-9853-e53f-af90-7aec244e4382",
+                        "name": "Lee Anderson"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/73799dc2-9580-ded9-365b-f4c1befc9eab",
+                        "name": "Labour"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK"
+                    }
+                ],
+                "datePublished": "2024-01-18T00:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Electric car price war expected this year \u2013 report",
+                "url": "https://www.expressandstar.com/news/uk-news/2024/01/18/electric-car-price-war-expected-this-year--report/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.bJyvdoiS9rzz4judBwtrzi&pid=News",
+                        "width": 700,
+                        "height": 525
+                    }
+                },
+                "description": "In September last year, Prime Minister <b>Rishi Sunak</b> delayed the ban on the sale of new petrol and diesel cars and vans in the UK from 2030 to 2035. Auto Trader commercial director Ian Plummer said: \u201cDrivers considering taking the first step on their ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d7a9175b-5e5d-cdfe-cd94-a2c347a158f2",
+                        "name": "Electric car"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3c282c03-70ce-3dc8-a62b-2b2f6cc0b68d",
+                        "name": "Price war"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Express &amp; Star"
+                    }
+                ],
+                "datePublished": "2024-01-18T00:00:00.0000000Z"
+            },
+            {
+                "name": "How <b>Rishi Sunak</b> beat the Tory right with Priti Patel&#39;s deal, Starmer&#39;s PMQs and MP &#39;wimps&#39;",
+                "url": "https://www.express.co.uk/news/politics/1856939/tory-wimps-rishi-sunak-rwanda-comment",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.XfS4qsGL0044R6qxpoE80y&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "ANALYSIS: Rishi Sunak has won a major victory and defeated the right of his party meaning he now will almost certainly lead the Tories into the next election.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ce3c2c35-fd65-6234-76e8-cf9c6ce54f88",
+                        "name": "Priti Patel"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Priti Patel"
+                    },
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Daily Express"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-17T22:29:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Rishi Sunak</b> told off by Speaker after prop stunt at PMQs",
+                "url": "https://www.thenational.scot/news/24055740.rishi-sunak-told-off-speaker-prop-stunt-pmqs/",
+                "description": "RISHI Sunak was admonished by the Speaker at Prime Minister\u2019s Questions after brandishing a book Keir Starmer had written on human rights.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-17T12:43:00.0000000Z"
+            },
+            {
+                "name": "OPINION - <b>Rishi Sunak</b> has little left to offer demoralised Tory MPs",
+                "url": "https://uk.news.yahoo.com/opinion-rishi-sunak-little-left-162041016.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.c6g_DYuLywxpOnew2Z01sS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "But when that power slips away, participants often conclude that unity is no longer worth the hassle. Case in point: earlier week, <b>Rishi Sunak</b>&#39;s campaign director Isaac Levido addressed Conservative MPs, during which he urged them to unify and direct their ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK"
+                    }
+                ],
+                "datePublished": "2024-01-17T11:20:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak",
+        "queryContext": {
+            "originalQuery": "rishi sunak",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 308,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Rwanda vote is a win for <b>Sunak</b>, but it has come at a cost",
+                "url": "https://news.sky.com/story/rwanda-vote-is-a-win-for-sunak-but-it-has-come-at-a-cost-13050555",
+                "description": "Even as they prepared to walk through the voting lobbies with <b>Rishi Sunak</b>, there was talk about being angry and disappointed in how the government had handled the rebels, but sources in the room tell me that the majority of potential rebels in the end ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Rwanda"
+                    },
+                    {
+                        "name": "Sky News"
+                    },
+                    {
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky"
+                    }
+                ],
+                "datePublished": "2024-01-18T01:00:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Jeremy Hunt will &#39;bang the drum&#39; for investment in the UK at the World Economic Forum in Davos",
+                "url": "https://www.thisismoney.co.uk/money/article-12976535/Jeremy-Hunt-bang-drum-investment-UK-World-Economic-Forum-Davos.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.4tzQiUriGoax0eUHYzmLQy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The Chancellor is arriving at the annual meeting of the World Economic Forum in the wake of his Labour rival Rachel Reeves, who has been on a charm offensive.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5d579a8e-548b-dfb6-3270-b3334b203e81",
+                        "name": "Davos"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/44c3d8ea-5fbe-69e7-dc5b-d4109b17b8eb",
+                        "name": "This is..."
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2bd73848-4b61-3c98-ba3e-c458fe954d74",
+                        "name": "Jeremy Hunt"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "This is Money",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.vNEz1z7JQU4tCQZX-QvQhw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T00:20:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Peers urged to \u2018get on\u2019 and pass Rwanda Bill after Tory rebellion fizzles out",
+                "url": "https://www.standard.co.uk/news/politics/rishi-sunak-downing-street-rwanda-house-of-lords-suella-braverman-b1133116.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Z98mVUp-5whSVxTkMxF-5C&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "No 10 described the passing of <b>Rishi Sunak</b>\u2019s Rwanda Bill as a \u2018major step\u2019 towards stopping the boats (UK Parliament/Jessica Taylor/PA) The Safety of Rwanda Bill passed its third reading in the Commons unamended with a majority of 44 after only 11 ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/216f6f57-c01d-508a-2ca6-e2cdd7f3a5a5",
+                        "name": "Peers, Alberta"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Rwanda"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Peers, Alberta"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "datePublished": "2024-01-18T00:00:00.0000000Z"
+            },
+            {
+                "name": "Lee Anderson Dropped Rwanda Bill Rebellion As Labour MPs Were &#39;Giggling And Taking The Mick&#39;",
+                "url": "https://uk.news.yahoo.com/lee-anderson-dropped-rwanda-bill-003035714.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.FL5wJS7WBS8SHV7_L3268S&pid=News",
+                        "width": 700,
+                        "height": 350
+                    }
+                },
+                "description": "Lee Anderson has revealed he did not follow through with his revolt against <b>Rishi Sunak</b> and his Rwanda asylum plan because Labour MPs were \u201cgiggling and laughing and taking the mick\u201d. Anderson helped undermine the prime minister\u2019s authority on ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c94f2fa6-9853-e53f-af90-7aec244e4382",
+                        "name": "Lee Anderson"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/73799dc2-9580-ded9-365b-f4c1befc9eab",
+                        "name": "Labour"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK"
+                    }
+                ],
+                "datePublished": "2024-01-18T00:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Electric car price war expected this year \u2013 report",
+                "url": "https://www.expressandstar.com/news/uk-news/2024/01/18/electric-car-price-war-expected-this-year--report/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.bJyvdoiS9rzz4judBwtrzi&pid=News",
+                        "width": 700,
+                        "height": 525
+                    }
+                },
+                "description": "In September last year, Prime Minister <b>Rishi Sunak</b> delayed the ban on the sale of new petrol and diesel cars and vans in the UK from 2030 to 2035. Auto Trader commercial director Ian Plummer said: \u201cDrivers considering taking the first step on their ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d7a9175b-5e5d-cdfe-cd94-a2c347a158f2",
+                        "name": "Electric car"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3c282c03-70ce-3dc8-a62b-2b2f6cc0b68d",
+                        "name": "Price war"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Express &amp; Star"
+                    }
+                ],
+                "datePublished": "2024-01-18T00:00:00.0000000Z"
+            },
+            {
+                "name": "How <b>Rishi Sunak</b> beat the Tory right with Priti Patel&#39;s deal, Starmer&#39;s PMQs and MP &#39;wimps&#39;",
+                "url": "https://www.express.co.uk/news/politics/1856939/tory-wimps-rishi-sunak-rwanda-comment",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.XfS4qsGL0044R6qxpoE80y&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "ANALYSIS: Rishi Sunak has won a major victory and defeated the right of his party meaning he now will almost certainly lead the Tories into the next election.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ce3c2c35-fd65-6234-76e8-cf9c6ce54f88",
+                        "name": "Priti Patel"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Priti Patel"
+                    },
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Daily Express"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-17T22:29:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Rishi Sunak</b> told off by Speaker after prop stunt at PMQs",
+                "url": "https://www.thenational.scot/news/24055740.rishi-sunak-told-off-speaker-prop-stunt-pmqs/",
+                "description": "RISHI Sunak was admonished by the Speaker at Prime Minister\u2019s Questions after brandishing a book Keir Starmer had written on human rights.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-17T12:43:00.0000000Z"
+            },
+            {
+                "name": "OPINION - <b>Rishi Sunak</b> has little left to offer demoralised Tory MPs",
+                "url": "https://uk.news.yahoo.com/opinion-rishi-sunak-little-left-162041016.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.c6g_DYuLywxpOnew2Z01sS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "But when that power slips away, participants often conclude that unity is no longer worth the hassle. Case in point: earlier week, <b>Rishi Sunak</b>&#39;s campaign director Isaac Levido addressed Conservative MPs, during which he urged them to unify and direct their ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK"
+                    }
+                ],
+                "datePublished": "2024-01-17T11:20:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak",
+        "queryContext": {
+            "originalQuery": "rishi sunak",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 408,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Rwanda vote is a win for <b>Sunak</b>, but it has come at a cost",
+                "url": "https://news.sky.com/story/rwanda-vote-is-a-win-for-sunak-but-it-has-come-at-a-cost-13050555",
+                "description": "Even as they prepared to walk through the voting lobbies with <b>Rishi Sunak</b>, there was talk about being angry and disappointed in how the government had handled the rebels, but sources in the room tell me that the majority of potential rebels in the end ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Rwanda"
+                    },
+                    {
+                        "name": "Sky News"
+                    },
+                    {
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky"
+                    }
+                ],
+                "datePublished": "2024-01-18T01:00:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Jeremy Hunt will &#39;bang the drum&#39; for investment in the UK at the World Economic Forum in Davos",
+                "url": "https://www.thisismoney.co.uk/money/article-12976535/Jeremy-Hunt-bang-drum-investment-UK-World-Economic-Forum-Davos.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.4tzQiUriGoax0eUHYzmLQy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The Chancellor is arriving at the annual meeting of the World Economic Forum in the wake of his Labour rival Rachel Reeves, who has been on a charm offensive.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5d579a8e-548b-dfb6-3270-b3334b203e81",
+                        "name": "Davos"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/44c3d8ea-5fbe-69e7-dc5b-d4109b17b8eb",
+                        "name": "This is..."
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2bd73848-4b61-3c98-ba3e-c458fe954d74",
+                        "name": "Jeremy Hunt"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "This is Money",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.vNEz1z7JQU4tCQZX-QvQhw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T00:20:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Peers urged to \u2018get on\u2019 and pass Rwanda Bill after Tory rebellion fizzles out",
+                "url": "https://www.standard.co.uk/news/politics/rishi-sunak-downing-street-rwanda-house-of-lords-suella-braverman-b1133116.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Z98mVUp-5whSVxTkMxF-5C&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "No 10 described the passing of <b>Rishi Sunak</b>\u2019s Rwanda Bill as a \u2018major step\u2019 towards stopping the boats (UK Parliament/Jessica Taylor/PA) The Safety of Rwanda Bill passed its third reading in the Commons unamended with a majority of 44 after only 11 ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/216f6f57-c01d-508a-2ca6-e2cdd7f3a5a5",
+                        "name": "Peers, Alberta"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Rwanda"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Peers, Alberta"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "datePublished": "2024-01-18T00:00:00.0000000Z"
+            },
+            {
+                "name": "Lee Anderson Dropped Rwanda Bill Rebellion As Labour MPs Were &#39;Giggling And Taking The Mick&#39;",
+                "url": "https://uk.news.yahoo.com/lee-anderson-dropped-rwanda-bill-003035714.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.FL5wJS7WBS8SHV7_L3268S&pid=News",
+                        "width": 700,
+                        "height": 350
+                    }
+                },
+                "description": "Lee Anderson has revealed he did not follow through with his revolt against <b>Rishi Sunak</b> and his Rwanda asylum plan because Labour MPs were \u201cgiggling and laughing and taking the mick\u201d. Anderson helped undermine the prime minister\u2019s authority on ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c94f2fa6-9853-e53f-af90-7aec244e4382",
+                        "name": "Lee Anderson"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/73799dc2-9580-ded9-365b-f4c1befc9eab",
+                        "name": "Labour"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK"
+                    }
+                ],
+                "datePublished": "2024-01-18T00:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Electric car price war expected this year \u2013 report",
+                "url": "https://www.expressandstar.com/news/uk-news/2024/01/18/electric-car-price-war-expected-this-year--report/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.bJyvdoiS9rzz4judBwtrzi&pid=News",
+                        "width": 700,
+                        "height": 525
+                    }
+                },
+                "description": "In September last year, Prime Minister <b>Rishi Sunak</b> delayed the ban on the sale of new petrol and diesel cars and vans in the UK from 2030 to 2035. Auto Trader commercial director Ian Plummer said: \u201cDrivers considering taking the first step on their ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d7a9175b-5e5d-cdfe-cd94-a2c347a158f2",
+                        "name": "Electric car"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3c282c03-70ce-3dc8-a62b-2b2f6cc0b68d",
+                        "name": "Price war"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Express &amp; Star"
+                    }
+                ],
+                "datePublished": "2024-01-18T00:00:00.0000000Z"
+            },
+            {
+                "name": "How <b>Rishi Sunak</b> beat the Tory right with Priti Patel&#39;s deal, Starmer&#39;s PMQs and MP &#39;wimps&#39;",
+                "url": "https://www.express.co.uk/news/politics/1856939/tory-wimps-rishi-sunak-rwanda-comment",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.XfS4qsGL0044R6qxpoE80y&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "ANALYSIS: Rishi Sunak has won a major victory and defeated the right of his party meaning he now will almost certainly lead the Tories into the next election.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ce3c2c35-fd65-6234-76e8-cf9c6ce54f88",
+                        "name": "Priti Patel"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Priti Patel"
+                    },
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Daily Express"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-17T22:29:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Rishi Sunak</b> told off by Speaker after prop stunt at PMQs",
+                "url": "https://www.thenational.scot/news/24055740.rishi-sunak-told-off-speaker-prop-stunt-pmqs/",
+                "description": "RISHI Sunak was admonished by the Speaker at Prime Minister\u2019s Questions after brandishing a book Keir Starmer had written on human rights.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-17T12:43:00.0000000Z"
+            },
+            {
+                "name": "OPINION - <b>Rishi Sunak</b> has little left to offer demoralised Tory MPs",
+                "url": "https://uk.news.yahoo.com/opinion-rishi-sunak-little-left-162041016.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.c6g_DYuLywxpOnew2Z01sS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "But when that power slips away, participants often conclude that unity is no longer worth the hassle. Case in point: earlier week, <b>Rishi Sunak</b>&#39;s campaign director Isaac Levido addressed Conservative MPs, during which he urged them to unify and direct their ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK"
+                    }
+                ],
+                "datePublished": "2024-01-17T11:20:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    }
+]

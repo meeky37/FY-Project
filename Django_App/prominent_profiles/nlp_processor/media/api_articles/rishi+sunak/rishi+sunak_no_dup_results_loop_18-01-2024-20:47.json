@@ -1,0 +1,2383 @@
+[
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak",
+        "queryContext": {
+            "originalQuery": "rishi sunak",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 11,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Tory donor embroiled in Post Office scandal given government role",
+                "url": "https://uk.news.yahoo.com/tory-donor-embroiled-post-office-203036415.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.YigNgs2-5ZApx8YAwW0Owy&pid=News",
+                        "width": 700,
+                        "height": 437
+                    }
+                },
+                "description": "A Tory donor caught up in the Post Office scandal was given a non executive government role on the Board of the UK Health Security Agency (UKHSA).",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2d5d01d6-77c1-612b-3c47-cde08000ccea",
+                        "name": "United States Postal Service"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d08ae13f-24d5-f36f-fd55-93ef3173a488",
+                        "name": "Donor"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T20:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Shipping chiefs told UK \u2018won\u2019t stand by\u2019 while Red Sea attacks continue",
+                "url": "https://www.thewestonmercury.co.uk/news/national/24060182.shipping-chiefs-told-uk-wont-stand-by-red-sea-attacks-continue/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.pzgCf7yN3_A7r9P86PLp1C&pid=News",
+                        "width": 640,
+                        "height": 427
+                    }
+                },
+                "description": "The UK \u201cwon\u2019t stand by\u201d while international shipping is under attack, the Government vowed as Iran-backed Houthi rebels said they would continue targeting vessels \u2013 including those from Britain.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/47116f57-2cb0-bd80-4390-f7564b266027",
+                        "name": "Red Sea"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9eb28ab2-4a37-7053-1f2b-c9342bf87be7",
+                        "name": "The Weston &amp; Somerset Mercury"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Mercury 24",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.F2snMYzluTsdwifrIUWaVQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T20:09:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "<b>Rishi Sunak</b> &#39;excited&#39; about the return of his &#39;favourite&#39; McDonalds menu item",
+                "url": "https://www.express.co.uk/news/politics/1857271/Rishi-Sunak-McDonalds-menu-return",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.mQOD5VMtNw2Rla02M8QB6S&pid=News",
+                        "width": 700,
+                        "height": 415
+                    }
+                },
+                "description": "EXCLUSIVE: The Express understands the Prime Minister has responded enthusiastically to a recent announcement by McDonald&#39;s.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03a08fb0-b340-cd39-d5da-0b5aeda6243f",
+                        "name": "McDonald&#39;s"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "McDonald&#39;s"
+                    },
+                    {
+                        "name": "Daily Express"
+                    },
+                    {
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T17:03:00.0000000Z"
+            },
+            {
+                "name": "<b>Rishi Sunak</b> rapped by watchdog over claim to have \u2018cleared\u2019 asylum backlog",
+                "url": "https://uk.sports.yahoo.com/news/watchdog-slams-rishi-sunak-over-114328284.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.KiBUKThqAorTEKhAg0xnUy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The UK\u2019s statistics watchdog has slammed Rishi Sunak for his repeated claim to have \u201ccleared\u201d the asylum backlog \u2013 and warned that the assertion could erode trust in the government. Sir Robert Chote, the chair of the UK Statistics Authority, also said voters may have felt \u201cmisled\u201d.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9585b0e9-1240-d064-5ce2-94b34b344160",
+                        "name": "Rishi"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/50300d8a-2cf2-4968-4c3b-754e0e17484a",
+                        "name": "Asylum"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo UK &amp; Ireland",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.bCGmgnmaXy3w_W9nI060kA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T16:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Rishi Sunak</b> Has Been Slammed Over His &#39;Misleading&#39; Claim To Have Cleared The Asylum Backlog",
+                "url": "https://uk.news.yahoo.com/rishi-sunak-slammed-over-misleading-123549088.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.GAFKj2OhaTgIjBJ1lcnvNC&pid=News",
+                        "width": 700,
+                        "height": 350
+                    }
+                },
+                "description": "Rishi Sunak has been criticised by a top watchdog after wrongly claiming to have cleared the asylum backlog. The UK Statistics Authority said \u201cpeople may feel misled\u201d by the claim, which the prime minister made on X (formerly Twitter) earlier this month. They also said the controversy \u201cmay affect public trust\u201d in claims made by the government.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T12:35:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Rishi Sunak</b> LIVE: PM to address nation at Downing Street press conference",
+                "url": "https://www.mirror.co.uk/news/politics/rishi-sunak-live-pm-address-31909158",
+                "description": "<b>Rishi Sunak</b> will address the nation from Downing Street shortly after he survived another day of Tory chaos over his Rwanda policy. The PM is expected to speak just after 10am before taking questions at a press conference - just hours after rebels warned ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror"
+                    }
+                ],
+                "datePublished": "2024-01-18T10:04:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Rishi Sunak</b> \u201call mouth and no trousers\u201d when it comes to nature protection",
+                "url": "https://www.politics.co.uk/opinion-former/press-release/2024/01/18/rishi-sunak-all-mouth-and-no-trousers-when-it-comes-to-nature-protection/",
+                "description": "In response to the Office for Environmental Protection\u2019s second annual report, published today, Doug Parr, Chief Scientist at Greenpeace UK, said:\u00a0 \u201cWhen it comes to protecting nature, this report proves beyond doubt that Rishi Sunak is all mouth and no trousers.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9585b0e9-1240-d064-5ce2-94b34b344160",
+                        "name": "Rishi"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ec10885d-cbd2-5ece-8d5b-7f5e05a240e9",
+                        "name": "uk"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Politics",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.oxw5qkgyGzwyQwIRdRsjzw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T08:29:00.0000000Z"
+            },
+            {
+                "name": "How <b>Rishi Sunak</b> beat Tory right with Priti Patel deal, Keir Starmer&#39;s PMQs and &#39;wimp&#39; MPs",
+                "url": "https://www.express.co.uk/news/politics/1856939/tory-wimps-rishi-sunak-rwanda-comment",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.XfS4qsGL0044R6qxpoE80y&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "ANALYSIS: Rishi Sunak has won a major victory and defeated the Right of his party meaning he now will almost certainly lead the Tories into the next election.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ce3c2c35-fd65-6234-76e8-cf9c6ce54f88",
+                        "name": "Priti Patel"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Priti Patel"
+                    },
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Daily Express"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T05:39:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Rishi Sunak</b> set for titanic battle with Lords over Rwanda bill",
+                "url": "https://www.independent.co.uk/news/uk/politics/rishi-sunak-house-lords-rwanda-bill-b2481090.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.mHchqhIFVtzsyoraBa2fFy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Defiant peers have rejected <b>Rishi Sunak</b>\u2019s warning not to frustrate \u201cthe will of the people\u201d by opposing his flagship Rwanda legislation, as the prime minister heads for a showdown with the House of Lords. The PM described his controversial ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/dc2ee5d2-6e16-3080-e8f0-7bac5c557f73",
+                        "name": "Lord&#39;s Cricket Ground"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent"
+                    }
+                ],
+                "datePublished": "2024-01-18T00:00:00.0000000Z"
+            },
+            {
+                "name": "Smart motorway death widow hits out at Government over \u2018stalling tactics\u2019",
+                "url": "https://www.standard.co.uk/news/uk/government-dft-irwin-mitchell-prime-minister-department-for-transport-b1133257.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.t4IiY1UvU0yYtWEnA1KBWy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "\u201cOtherwise, if it means legal action, then that\u2019s something I\u2019m prepared to do.\u201d In April last year, Prime Minister <b>Rishi Sunak</b> announced the cancellation of planned projects to build ALR smart motorways. He said this was due to cost pressures and ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5634d914-4190-dd0b-fa80-715c2ac46335",
+                        "name": "Government"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Government"
+                    },
+                    {
+                        "name": "Smart Axiata"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "datePublished": "2024-01-18T00:00:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Four Post Office victims who took their own lives and will never get justice",
+                "url": "https://www.mirror.co.uk/news/uk-news/four-post-office-victims-who-31849165?int_source=nba",
+                "description": "Hundreds of ordinary families were torn apart after postmasters were wrongly accused of swindling money - with some so damaged by the ordeal that they decided to end it all. The Post Office scandal, dubbed the UK&#39;s biggest miscarriage of justice, saw more ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6e018547-cfd3-9836-13fc-1f7ab6d0aa31",
+                        "name": "Post Office"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror"
+                    }
+                ],
+                "datePublished": "2024-01-10T14:57:00.0000000Z",
+                "category": "UK"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak",
+        "queryContext": {
+            "originalQuery": "rishi sunak",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 126,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "<b>Rishi Sunak</b> hikes tax on domestic flights - but not private jets or helicopters",
+                "url": "https://www.mirror.co.uk/news/politics/rishi-sunak-hikes-tax-domestic-31910697",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.HYZPPaxEgsbjhd4xeZmVYC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Details buried in the Finance Bill show that luxury flight-loving Prime Minister will raise Air Passenger Duty (APD) on flights within the UK - except private jets and helicopters",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T20:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "I don\u2019t mind playing second fiddle to <b>Sunak</b>, says ex-PM Cameron",
+                "url": "https://www.telegraph.co.uk/politics/2024/01/18/playing-second-fiddle-rishi-sunak-david-cameron/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.SdFZjyimLdXQ9xr-zza_LC&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "Lord Cameron describes Mr Sunak as \u2018easy to work for\u2019, adding that his respect for him was part of why he had chosen to return",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/05973aa9-1608-8d06-96d6-e4ce0311b75a",
+                        "name": "David Cameron"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "David Cameron"
+                    },
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Prime Minister of the United Kingdom"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T20:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Tories stuck in political &#39;tailspin&#39; amid failed Rwanda rebellion with insiders fearing a Labour wipe out at the next general election - as Conservatives say there&#39;s a lot of ...",
+                "url": "https://www.dailymail.co.uk/news/article-12980391/Tories-Rwanda-Labour-general-election-Conservatives-Boris-Johnson.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.OH_M4pCI2m22N0_Xm5feiS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Prime Minister Rishi Sunak is under pressure from MPs on the right of the party who have been left infuriated by the Government&#39;s handling of the Rwanda Bill.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fe217755-2d46-1c61-dded-740ff4500899",
+                        "name": "Boris Johnson"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T19:32:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Tory donor embroiled in Post Office scandal given government role",
+                "url": "https://www.telegraph.co.uk/news/2024/01/18/tory-donor-post-office-scandal-government-role-pamdemic/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.jk_i2HlgUw0X3BLcvmujwi&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "A Tory donor caught up in the Post Office scandal was given a non executive government role on the Board of the UK Health Security Agency (UKHSA).",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/675fdcb5-0077-b818-0d2a-4509a71669bf",
+                        "name": "Role"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/74ad2f03-773a-b13f-3c31-cacca69e4375",
+                        "name": "Post Office"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Role"
+                    },
+                    {
+                        "name": "Post Office"
+                    },
+                    {
+                        "name": "Tory"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T19:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "BBC Question Time fury as audience lashes out at Rwanda plan: &#39;Cheated as a Brexit voter&#39;",
+                "url": "https://www.express.co.uk/news/politics/1857323/bbc-question-time-emily-thornberry-rwanda-plan",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.EU0pIQURSXDE9IkihZ3crS&pid=News",
+                        "width": 700,
+                        "height": 415
+                    }
+                },
+                "description": "Emily Thornberry was also challenged to spell out Labour&#39;s alternative when it came to stopping migrant boats crossing the English Channel.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/56cd9dc4-3f3b-da2b-a165-78a579d79f5b",
+                        "name": "BBC"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T19:28:00.0000000Z"
+            },
+            {
+                "name": "Jeremy Hunt hints at voter-friendly tax giveaway in March budget",
+                "url": "https://www.theguardian.com/politics/2024/jan/18/jeremy-hunt-hints-at-voter-friendly-tax-giveaway-in-march-budget",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.edtSXrLUIZp0Vv95pwG_Zi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "With polls predicting electoral disaster for Tories, chancellor says \u2018economy would be more successful if we had more competitive taxes\u2019",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2bd73848-4b61-3c98-ba3e-c458fe954d74",
+                        "name": "Jeremy Hunt"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Jeremy Hunt"
+                    },
+                    {
+                        "name": "The Guardian"
+                    },
+                    {
+                        "name": "Budget"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T19:27:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Shipping chiefs told UK \u2018won\u2019t stand by\u2019 while Red Sea attacks continue",
+                "url": "https://www.standard.co.uk/business/business-news/shipping-chiefs-told-uk-won-t-stand-by-while-red-sea-attacks-continue-b1133351.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.JM-2NeSLuGrH0JvTanE9Bi&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The UK \u201cwon\u2019t stand by\u201d while international shipping is under attack, the Government vowed as Iran-backed Houthi rebels said they would continue targeting vessels \u2013 including those from Britain.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/47116f57-2cb0-bd80-4390-f7564b266027",
+                        "name": "Red Sea"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Red Sea"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Freight transport"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T19:24:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "&#39;Hypocrite&#39; <b>Rishi Sunak</b> Called Out Over Warning To &#39;Unelected&#39; House Of Lords Over Rwanda Bill",
+                "url": "https://uk.news.yahoo.com/hypocrite-rishi-sunak-called-over-190649390.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.kfr79RRDVXbTXbtZsvnOTi&pid=News",
+                        "width": 700,
+                        "height": 350
+                    }
+                },
+                "description": "Rishi Sunak hosts a press conference at Downing Street the morning after he saw off a Tory rebellion to win the Commons\u2019 backing for his flagship Safety of Rwanda Bill. Rishi Sunak has faced a backlash after urging the unelected House of Lords not to block his Rwanda plan.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ed828f8b-c592-c43c-ec6a-55117a6c8a6a",
+                        "name": "Warning"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T19:06:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Government will be presented with West Yorkshire mass transit plans after promising \u00a32.5bn",
+                "url": "https://www.yorkshirepost.co.uk/news/politics/government-will-be-presented-with-west-yorkshire-mass-transit-plans-after-promising-ps25bn-4484303",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.jUDbG7uOeR-I1x19c5iEzy&pid=News",
+                        "width": 640,
+                        "height": 426
+                    }
+                },
+                "description": "The Government will be presented with preliminary plans for a long-awaited mass-transit system in West Yorkshire in the spring, after it promised \u00a32.5bn for the project.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/50d735db-627f-b923-b98b-bd7deb2bee8a",
+                        "name": "West Yorkshire"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5634d914-4190-dd0b-fa80-715c2ac46335",
+                        "name": "Government"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "West Yorkshire"
+                    },
+                    {
+                        "name": "Government"
+                    },
+                    {
+                        "name": "Public transport"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Yorkshire Post",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.09iNt-iyhN1syfVBdWc2jA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T19:05:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Rishi Sunak</b> stuck to his new slogan relentlessly - but some MPs believe it backfired spectacularly",
+                "url": "https://news.sky.com/story/rishi-sunak-stuck-to-his-new-slogan-relentlessly-but-some-mps-believe-it-backfired-spectacularly-13051068",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.yF0tBEJTxdpKYG_0OmzxTS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The prime minister said the word &quot;plan&quot; a remarkable 41 times in his news conference, which worked out at a mention every 40 seconds during his opening remarks and responses to 11 questions from journalists.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3623bb38-70d0-e19e-02a0-30bcea8b3a30",
+                        "name": "Slogan"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Slogan"
+                    },
+                    {
+                        "name": "Sky News"
+                    },
+                    {
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Eg62H9DIbo-JYPI6GpAgGA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T18:59:00.0000000Z",
+                "video": {
+                    "name": "Rishi Sunak stuck to his new slogan relentlessly - but some MPs believe it backfired spectacularly",
+                    "thumbnailUrl": "https://www.bing.com/th?id=OVF.v62ZO5i4f85a6UW16zMinw&pid=News",
+                    "thumbnail": {
+                        "width": 520,
+                        "height": 292
+                    }
+                }
+            },
+            {
+                "name": "Politics live: Former Tory deputy chair giving first interview since quitting over Rwanda bill",
+                "url": "https://news.sky.com/story/politics-live-former-tory-deputy-chair-giving-first-interview-since-quitting-over-rwanda-bill-12593360",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.GVwfr4mcZI4XXvQbe8ZPJi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "<b>Rishi Sunak</b> has insisted he will &quot;ignore&quot; international law in order to ensure asylum seekers get deported to Rwanda. The prime minister managed to get his controversial policy through its latest parliamentary stage last night after days of rebellions from ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky"
+                    }
+                ],
+                "datePublished": "2024-01-18T18:53:00.0000000Z",
+                "video": {
+                    "name": "Politics live: Former Tory deputy chair giving first interview since quitting over Rwanda bill",
+                    "thumbnailUrl": "https://www.bing.com/th?id=OVF.ftQjF1FbWPkyKFxJzE58Kw&pid=News",
+                    "thumbnail": {
+                        "width": 520,
+                        "height": 292
+                    }
+                },
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Rishi Sunak</b> targets May for first Rwanda flight",
+                "url": "https://inews.co.uk/news/politics/rishi-sunak-first-rwanda-flight-may-2862597?ico=related_stories",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.gBG-5fe29qHECCQMBHnzMC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Government privately presents Lords timeline which would see PM&#39;s &#39;emergency&#39; laws to save the policy enacted by Easter",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9c11d3a6-cafd-f388-8883-ef5a007d6983",
+                        "name": "Flight"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Rwanda"
+                    },
+                    {
+                        "name": "Flight"
+                    },
+                    {
+                        "name": "Molton Brown"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T18:49:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Nearly 6,000 migrants missing after asylum applications failed, Home Office admits",
+                "url": "https://www.lbc.co.uk/news/nearly-6000-migrants-missing-failed-asylum-applications/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Zk6S9YIwlxI36bHPyz7wlC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Close to 6,000 migrants have disappeared after their asylum applications were withdrawn, the Home Office has said.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/50300d8a-2cf2-4968-4c3b-754e0e17484a",
+                        "name": "Asylum"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "LBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.iWFEm2xSUKuVEhtVsjP6gQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T18:48:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "UK PM says controversial Rwanda plan is &#39;will of the people&#39;",
+                "url": "https://www.modernghana.com/news/1286490/uk-pm-says-controversial-rwanda-plan-is-will-of.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.0fFr47K3bkw6jpcPz3aOZi&pid=News",
+                        "width": 512,
+                        "height": 341
+                    }
+                },
+                "description": "Rishi Sunak on Thursday urged members of the UK&#39;s unelected upper chamber of parliament to pass his contentious plan to send migrants to Rwanda, insisting it was the will of the people .",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "modernghana.com",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.p40vDtNhPTt418u-SkWL7g&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T18:45:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "<b>Sunak</b> \u2018facing leadership threat\u2019 as Jenrick prepares to turn screw on migration",
+                "url": "https://inews.co.uk/news/politics/rishi-sunak-leadership-threat-robert-jenrick-migration-2861660",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.rhZ0R2ItmniDoRxvK-pPwi&pid=News",
+                        "width": 700,
+                        "height": 392
+                    }
+                },
+                "description": "It comes after the ex-minister led a failed rebellion to toughen up Mr Sunak\u2019s Rwanda laws this week. MPs voted to pass Mr Sunak\u2019s Rwanda Safety Bill, which paves the way for flights to the country, on Wednesday. It must now clear th Lords.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7ca73a2b-c167-b7fc-c8c5-02d1d7e1c97d",
+                        "name": "Robert Jenrick"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Robert Jenrick"
+                    },
+                    {
+                        "name": "Molton Brown"
+                    },
+                    {
+                        "name": "Michael Owen"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T18:43:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Fury as Home Office loses track of almost 6,000 asylum seekers who are now roaming Britain in immigration farce branded &#39;shocking&#39; by Labour",
+                "url": "https://www.dailymail.co.uk/news/article-12980181/Fury-Home-Office-loses-track-6-000-asylum-seekers-roaming-Britain-immigration-farce-branded-shocking-Labour.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.iLqxxIZCoGKQa4VFQ2Kzfi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The migrants &#39;remain in the UK and the Home Office is taking steps to urgently re-establish contact with them&#39;, the disclosure to MPs revealed.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/73799dc2-9580-ded9-365b-f4c1befc9eab",
+                        "name": "Labour"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ebe73b69-1e03-8643-19aa-b5c88d5c244b",
+                        "name": "Home Office"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T18:39:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Sir Keir Starmer has \u2018no skeletons\u2019 waiting to come out this general election",
+                "url": "https://www.thisislocallondon.co.uk/news/national/24057459.sir-keir-starmer-no-skeletons-waiting-come-general-election/",
+                "description": "Labour leader Sir Keir Starmer has said he has \u201cno skeletons in the closet\u201d from his time in charge of the Crown Prosecution Service (CPS) ahead of the general election.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/63a6ef59-71fd-db08-08c6-d47d973d47fb",
+                        "name": "Keir Starmer"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8e0ba7b6-4225-fa8a-6369-1b5294e602a5",
+                        "name": "London"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/44c3d8ea-5fbe-69e7-dc5b-d4109b17b8eb",
+                        "name": "This is..."
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "This is Local London",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6O7FaDhOqebEUk84521YJg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T18:39:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Watchdog rebukes Government over claim asylum backlog had been \u2018cleared\u2019",
+                "url": "https://www.westerntelegraph.co.uk/news/national/24058488.watchdog-rebukes-government-claim-asylum-backlog-cleared/",
+                "description": "UK Statistics Authority chairman Sir Robert Chote warned the \u201cepisode may affect public trust\u201d as he outlined the findings of the body\u2019s investigation into complaints received about <b>Rishi Sunak</b>\u2019s claim ministers had \u201ccleared\u201d the outstanding ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/50300d8a-2cf2-4968-4c3b-754e0e17484a",
+                        "name": "Asylum"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5634d914-4190-dd0b-fa80-715c2ac46335",
+                        "name": "Government"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Western Telegraph"
+                    }
+                ],
+                "datePublished": "2024-01-18T18:31:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Rishi Sunak</b> &#39;excited&#39; about the return of his &#39;favourite&#39; McDonalds menu item",
+                "url": "https://www.express.co.uk/news/politics/1857271/Rishi-Sunak-McDonalds-menu-return",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.mQOD5VMtNw2Rla02M8QB6S&pid=News",
+                        "width": 700,
+                        "height": 415
+                    }
+                },
+                "description": "EXCLUSIVE: The Express understands the Prime Minister has responded enthusiastically to a recent announcement by McDonald&#39;s.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03a08fb0-b340-cd39-d5da-0b5aeda6243f",
+                        "name": "McDonald&#39;s"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "McDonald&#39;s"
+                    },
+                    {
+                        "name": "Daily Express"
+                    },
+                    {
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T17:03:00.0000000Z"
+            },
+            {
+                "name": "<b>Rishi Sunak</b> rapped by watchdog over claim to have \u2018cleared\u2019 asylum backlog",
+                "url": "https://uk.sports.yahoo.com/news/watchdog-slams-rishi-sunak-over-114328284.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.KiBUKThqAorTEKhAg0xnUy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The UK\u2019s statistics watchdog has slammed Rishi Sunak for his repeated claim to have \u201ccleared\u201d the asylum backlog \u2013 and warned that the assertion could erode trust in the government. Sir Robert Chote, the chair of the UK Statistics Authority, also said voters may have felt \u201cmisled\u201d.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9585b0e9-1240-d064-5ce2-94b34b344160",
+                        "name": "Rishi"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/50300d8a-2cf2-4968-4c3b-754e0e17484a",
+                        "name": "Asylum"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo UK &amp; Ireland",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.bCGmgnmaXy3w_W9nI060kA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T16:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Rishi Sunak</b> Has Been Slammed Over His &#39;Misleading&#39; Claim To Have Cleared The Asylum Backlog",
+                "url": "https://uk.news.yahoo.com/rishi-sunak-slammed-over-misleading-123549088.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.GAFKj2OhaTgIjBJ1lcnvNC&pid=News",
+                        "width": 700,
+                        "height": 350
+                    }
+                },
+                "description": "Rishi Sunak has been criticised by a top watchdog after wrongly claiming to have cleared the asylum backlog. The UK Statistics Authority said \u201cpeople may feel misled\u201d by the claim, which the prime minister made on X (formerly Twitter) earlier this month. They also said the controversy \u201cmay affect public trust\u201d in claims made by the government.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T12:35:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Rishi Sunak</b> LIVE: PM to address nation at Downing Street press conference",
+                "url": "https://www.mirror.co.uk/news/politics/rishi-sunak-live-pm-address-31909158",
+                "description": "<b>Rishi Sunak</b> will address the nation from Downing Street shortly after he survived another day of Tory chaos over his Rwanda policy. The PM is expected to speak just after 10am before taking questions at a press conference - just hours after rebels warned ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror"
+                    }
+                ],
+                "datePublished": "2024-01-18T10:04:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Rishi Sunak</b> \u201call mouth and no trousers\u201d when it comes to nature protection",
+                "url": "https://www.politics.co.uk/opinion-former/press-release/2024/01/18/rishi-sunak-all-mouth-and-no-trousers-when-it-comes-to-nature-protection/",
+                "description": "In response to the Office for Environmental Protection\u2019s second annual report, published today, Doug Parr, Chief Scientist at Greenpeace UK, said:\u00a0 \u201cWhen it comes to protecting nature, this report proves beyond doubt that Rishi Sunak is all mouth and no trousers.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9585b0e9-1240-d064-5ce2-94b34b344160",
+                        "name": "Rishi"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ec10885d-cbd2-5ece-8d5b-7f5e05a240e9",
+                        "name": "uk"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Politics",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.oxw5qkgyGzwyQwIRdRsjzw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T08:29:00.0000000Z"
+            },
+            {
+                "name": "<b>Rishi Sunak</b> set for titanic battle with Lords over Rwanda bill",
+                "url": "https://www.independent.co.uk/news/uk/politics/rishi-sunak-house-lords-rwanda-bill-b2481090.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.mHchqhIFVtzsyoraBa2fFy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Defiant peers have rejected <b>Rishi Sunak</b>\u2019s warning not to frustrate \u201cthe will of the people\u201d by opposing his flagship Rwanda legislation, as the prime minister heads for a showdown with the House of Lords. The PM described his controversial ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/dc2ee5d2-6e16-3080-e8f0-7bac5c557f73",
+                        "name": "Lord&#39;s Cricket Ground"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent"
+                    }
+                ],
+                "datePublished": "2024-01-18T00:00:00.0000000Z"
+            },
+            {
+                "name": "Rwanda: PM urges House of Lords to pass bill to deport asylum seekers",
+                "url": "https://www.channel4.com/news/rwanda-pm-urges-house-of-lords-to-pass-bill-to-deport-asylum-seekers",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.tWUwEsMXIMyh4yj9qJF6GS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "<b>Rishi Sunak</b> has told the House of Lords that they should not frustrate his plans to deport asylum seekers to Rwanda. He told them that as the Commons passed his Bill with no changes last night, peers would be \u201cfrustrating the will of the people\u201d if ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/accd669f-9053-3a8c-78fc-d4fdeb378ee4",
+                        "name": "House of Lords"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Channel 4 News"
+                    }
+                ],
+                "datePublished": "2024-01-18T00:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Smart motorway death widow hits out at Government over \u2018stalling tactics\u2019",
+                "url": "https://www.standard.co.uk/news/uk/government-dft-irwin-mitchell-prime-minister-department-for-transport-b1133257.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.t4IiY1UvU0yYtWEnA1KBWy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "\u201cOtherwise, if it means legal action, then that\u2019s something I\u2019m prepared to do.\u201d In April last year, Prime Minister <b>Rishi Sunak</b> announced the cancellation of planned projects to build ALR smart motorways. He said this was due to cost pressures and ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5634d914-4190-dd0b-fa80-715c2ac46335",
+                        "name": "Government"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Government"
+                    },
+                    {
+                        "name": "Smart Axiata"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "datePublished": "2024-01-18T00:00:00.0000000Z",
+                "category": "UK"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak",
+        "queryContext": {
+            "originalQuery": "rishi sunak",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 226,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "<b>Rishi Sunak</b> hikes tax on domestic flights - but not private jets or helicopters",
+                "url": "https://www.mirror.co.uk/news/politics/rishi-sunak-hikes-tax-domestic-31910697",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.HYZPPaxEgsbjhd4xeZmVYC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Details buried in the Finance Bill show that luxury flight-loving Prime Minister will raise Air Passenger Duty (APD) on flights within the UK - except private jets and helicopters",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T20:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "I don\u2019t mind playing second fiddle to <b>Sunak</b>, says ex-PM Cameron",
+                "url": "https://www.telegraph.co.uk/politics/2024/01/18/playing-second-fiddle-rishi-sunak-david-cameron/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.SdFZjyimLdXQ9xr-zza_LC&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "Lord Cameron describes Mr Sunak as \u2018easy to work for\u2019, adding that his respect for him was part of why he had chosen to return",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/05973aa9-1608-8d06-96d6-e4ce0311b75a",
+                        "name": "David Cameron"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "David Cameron"
+                    },
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Prime Minister of the United Kingdom"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T20:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Tories stuck in political &#39;tailspin&#39; amid failed Rwanda rebellion with insiders fearing a Labour wipe out at the next general election - as Conservatives say there&#39;s a lot of ...",
+                "url": "https://www.dailymail.co.uk/news/article-12980391/Tories-Rwanda-Labour-general-election-Conservatives-Boris-Johnson.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.OH_M4pCI2m22N0_Xm5feiS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Prime Minister Rishi Sunak is under pressure from MPs on the right of the party who have been left infuriated by the Government&#39;s handling of the Rwanda Bill.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fe217755-2d46-1c61-dded-740ff4500899",
+                        "name": "Boris Johnson"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T19:32:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Tory donor embroiled in Post Office scandal given government role",
+                "url": "https://www.telegraph.co.uk/news/2024/01/18/tory-donor-post-office-scandal-government-role-pamdemic/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.jk_i2HlgUw0X3BLcvmujwi&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "A Tory donor caught up in the Post Office scandal was given a non executive government role on the Board of the UK Health Security Agency (UKHSA).",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/675fdcb5-0077-b818-0d2a-4509a71669bf",
+                        "name": "Role"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/74ad2f03-773a-b13f-3c31-cacca69e4375",
+                        "name": "Post Office"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Role"
+                    },
+                    {
+                        "name": "Post Office"
+                    },
+                    {
+                        "name": "Tory"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T19:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "BBC Question Time fury as audience lashes out at Rwanda plan: &#39;Cheated as a Brexit voter&#39;",
+                "url": "https://www.express.co.uk/news/politics/1857323/bbc-question-time-emily-thornberry-rwanda-plan",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.EU0pIQURSXDE9IkihZ3crS&pid=News",
+                        "width": 700,
+                        "height": 415
+                    }
+                },
+                "description": "Emily Thornberry was also challenged to spell out Labour&#39;s alternative when it came to stopping migrant boats crossing the English Channel.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/56cd9dc4-3f3b-da2b-a165-78a579d79f5b",
+                        "name": "BBC"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T19:28:00.0000000Z"
+            },
+            {
+                "name": "Jeremy Hunt hints at voter-friendly tax giveaway in March budget",
+                "url": "https://www.theguardian.com/politics/2024/jan/18/jeremy-hunt-hints-at-voter-friendly-tax-giveaway-in-march-budget",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.edtSXrLUIZp0Vv95pwG_Zi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "With polls predicting electoral disaster for Tories, chancellor says \u2018economy would be more successful if we had more competitive taxes\u2019",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2bd73848-4b61-3c98-ba3e-c458fe954d74",
+                        "name": "Jeremy Hunt"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Jeremy Hunt"
+                    },
+                    {
+                        "name": "The Guardian"
+                    },
+                    {
+                        "name": "Budget"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T19:27:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Shipping chiefs told UK \u2018won\u2019t stand by\u2019 while Red Sea attacks continue",
+                "url": "https://www.standard.co.uk/business/business-news/shipping-chiefs-told-uk-won-t-stand-by-while-red-sea-attacks-continue-b1133351.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.JM-2NeSLuGrH0JvTanE9Bi&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The UK \u201cwon\u2019t stand by\u201d while international shipping is under attack, the Government vowed as Iran-backed Houthi rebels said they would continue targeting vessels \u2013 including those from Britain.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/47116f57-2cb0-bd80-4390-f7564b266027",
+                        "name": "Red Sea"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Red Sea"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Freight transport"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T19:24:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "&#39;Hypocrite&#39; <b>Rishi Sunak</b> Called Out Over Warning To &#39;Unelected&#39; House Of Lords Over Rwanda Bill",
+                "url": "https://uk.news.yahoo.com/hypocrite-rishi-sunak-called-over-190649390.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.kfr79RRDVXbTXbtZsvnOTi&pid=News",
+                        "width": 700,
+                        "height": 350
+                    }
+                },
+                "description": "Rishi Sunak hosts a press conference at Downing Street the morning after he saw off a Tory rebellion to win the Commons\u2019 backing for his flagship Safety of Rwanda Bill. Rishi Sunak has faced a backlash after urging the unelected House of Lords not to block his Rwanda plan.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ed828f8b-c592-c43c-ec6a-55117a6c8a6a",
+                        "name": "Warning"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T19:06:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Government will be presented with West Yorkshire mass transit plans after promising \u00a32.5bn",
+                "url": "https://www.yorkshirepost.co.uk/news/politics/government-will-be-presented-with-west-yorkshire-mass-transit-plans-after-promising-ps25bn-4484303",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.jUDbG7uOeR-I1x19c5iEzy&pid=News",
+                        "width": 640,
+                        "height": 426
+                    }
+                },
+                "description": "The Government will be presented with preliminary plans for a long-awaited mass-transit system in West Yorkshire in the spring, after it promised \u00a32.5bn for the project.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/50d735db-627f-b923-b98b-bd7deb2bee8a",
+                        "name": "West Yorkshire"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5634d914-4190-dd0b-fa80-715c2ac46335",
+                        "name": "Government"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "West Yorkshire"
+                    },
+                    {
+                        "name": "Government"
+                    },
+                    {
+                        "name": "Public transport"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Yorkshire Post",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.09iNt-iyhN1syfVBdWc2jA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T19:05:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Rishi Sunak</b> stuck to his new slogan relentlessly - but some MPs believe it backfired spectacularly",
+                "url": "https://news.sky.com/story/rishi-sunak-stuck-to-his-new-slogan-relentlessly-but-some-mps-believe-it-backfired-spectacularly-13051068",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.yF0tBEJTxdpKYG_0OmzxTS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The prime minister said the word &quot;plan&quot; a remarkable 41 times in his news conference, which worked out at a mention every 40 seconds during his opening remarks and responses to 11 questions from journalists.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3623bb38-70d0-e19e-02a0-30bcea8b3a30",
+                        "name": "Slogan"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Slogan"
+                    },
+                    {
+                        "name": "Sky News"
+                    },
+                    {
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Eg62H9DIbo-JYPI6GpAgGA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T18:59:00.0000000Z",
+                "video": {
+                    "name": "Rishi Sunak stuck to his new slogan relentlessly - but some MPs believe it backfired spectacularly",
+                    "thumbnailUrl": "https://www.bing.com/th?id=OVF.v62ZO5i4f85a6UW16zMinw&pid=News",
+                    "thumbnail": {
+                        "width": 520,
+                        "height": 292
+                    }
+                }
+            },
+            {
+                "name": "Politics live: Former Tory deputy chair giving first interview since quitting over Rwanda bill",
+                "url": "https://news.sky.com/story/politics-live-former-tory-deputy-chair-giving-first-interview-since-quitting-over-rwanda-bill-12593360",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.GVwfr4mcZI4XXvQbe8ZPJi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "<b>Rishi Sunak</b> has insisted he will &quot;ignore&quot; international law in order to ensure asylum seekers get deported to Rwanda. The prime minister managed to get his controversial policy through its latest parliamentary stage last night after days of rebellions from ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky"
+                    }
+                ],
+                "datePublished": "2024-01-18T18:53:00.0000000Z",
+                "video": {
+                    "name": "Politics live: Former Tory deputy chair giving first interview since quitting over Rwanda bill",
+                    "thumbnailUrl": "https://www.bing.com/th?id=OVF.ftQjF1FbWPkyKFxJzE58Kw&pid=News",
+                    "thumbnail": {
+                        "width": 520,
+                        "height": 292
+                    }
+                },
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Rishi Sunak</b> targets May for first Rwanda flight",
+                "url": "https://inews.co.uk/news/politics/rishi-sunak-first-rwanda-flight-may-2862597?ico=related_stories",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.gBG-5fe29qHECCQMBHnzMC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Government privately presents Lords timeline which would see PM&#39;s &#39;emergency&#39; laws to save the policy enacted by Easter",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9c11d3a6-cafd-f388-8883-ef5a007d6983",
+                        "name": "Flight"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Rwanda"
+                    },
+                    {
+                        "name": "Flight"
+                    },
+                    {
+                        "name": "Molton Brown"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T18:49:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Nearly 6,000 migrants missing after asylum applications failed, Home Office admits",
+                "url": "https://www.lbc.co.uk/news/nearly-6000-migrants-missing-failed-asylum-applications/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Zk6S9YIwlxI36bHPyz7wlC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Close to 6,000 migrants have disappeared after their asylum applications were withdrawn, the Home Office has said.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/50300d8a-2cf2-4968-4c3b-754e0e17484a",
+                        "name": "Asylum"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "LBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.iWFEm2xSUKuVEhtVsjP6gQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T18:48:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "UK PM says controversial Rwanda plan is &#39;will of the people&#39;",
+                "url": "https://www.modernghana.com/news/1286490/uk-pm-says-controversial-rwanda-plan-is-will-of.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.0fFr47K3bkw6jpcPz3aOZi&pid=News",
+                        "width": 512,
+                        "height": 341
+                    }
+                },
+                "description": "Rishi Sunak on Thursday urged members of the UK&#39;s unelected upper chamber of parliament to pass his contentious plan to send migrants to Rwanda, insisting it was the will of the people .",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "modernghana.com",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.p40vDtNhPTt418u-SkWL7g&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T18:45:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "<b>Sunak</b> \u2018facing leadership threat\u2019 as Jenrick prepares to turn screw on migration",
+                "url": "https://inews.co.uk/news/politics/rishi-sunak-leadership-threat-robert-jenrick-migration-2861660",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.rhZ0R2ItmniDoRxvK-pPwi&pid=News",
+                        "width": 700,
+                        "height": 392
+                    }
+                },
+                "description": "It comes after the ex-minister led a failed rebellion to toughen up Mr Sunak\u2019s Rwanda laws this week. MPs voted to pass Mr Sunak\u2019s Rwanda Safety Bill, which paves the way for flights to the country, on Wednesday. It must now clear th Lords.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7ca73a2b-c167-b7fc-c8c5-02d1d7e1c97d",
+                        "name": "Robert Jenrick"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Robert Jenrick"
+                    },
+                    {
+                        "name": "Molton Brown"
+                    },
+                    {
+                        "name": "Michael Owen"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T18:43:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Fury as Home Office loses track of almost 6,000 asylum seekers who are now roaming Britain in immigration farce branded &#39;shocking&#39; by Labour",
+                "url": "https://www.dailymail.co.uk/news/article-12980181/Fury-Home-Office-loses-track-6-000-asylum-seekers-roaming-Britain-immigration-farce-branded-shocking-Labour.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.iLqxxIZCoGKQa4VFQ2Kzfi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The migrants &#39;remain in the UK and the Home Office is taking steps to urgently re-establish contact with them&#39;, the disclosure to MPs revealed.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/73799dc2-9580-ded9-365b-f4c1befc9eab",
+                        "name": "Labour"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ebe73b69-1e03-8643-19aa-b5c88d5c244b",
+                        "name": "Home Office"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T18:39:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Sir Keir Starmer has \u2018no skeletons\u2019 waiting to come out this general election",
+                "url": "https://www.thisislocallondon.co.uk/news/national/24057459.sir-keir-starmer-no-skeletons-waiting-come-general-election/",
+                "description": "Labour leader Sir Keir Starmer has said he has \u201cno skeletons in the closet\u201d from his time in charge of the Crown Prosecution Service (CPS) ahead of the general election.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/63a6ef59-71fd-db08-08c6-d47d973d47fb",
+                        "name": "Keir Starmer"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8e0ba7b6-4225-fa8a-6369-1b5294e602a5",
+                        "name": "London"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/44c3d8ea-5fbe-69e7-dc5b-d4109b17b8eb",
+                        "name": "This is..."
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "This is Local London",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6O7FaDhOqebEUk84521YJg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T18:39:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Watchdog rebukes Government over claim asylum backlog had been \u2018cleared\u2019",
+                "url": "https://www.westerntelegraph.co.uk/news/national/24058488.watchdog-rebukes-government-claim-asylum-backlog-cleared/",
+                "description": "UK Statistics Authority chairman Sir Robert Chote warned the \u201cepisode may affect public trust\u201d as he outlined the findings of the body\u2019s investigation into complaints received about <b>Rishi Sunak</b>\u2019s claim ministers had \u201ccleared\u201d the outstanding ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/50300d8a-2cf2-4968-4c3b-754e0e17484a",
+                        "name": "Asylum"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5634d914-4190-dd0b-fa80-715c2ac46335",
+                        "name": "Government"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Western Telegraph"
+                    }
+                ],
+                "datePublished": "2024-01-18T18:31:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Rishi Sunak</b> &#39;excited&#39; about the return of his &#39;favourite&#39; McDonalds menu item",
+                "url": "https://www.express.co.uk/news/politics/1857271/Rishi-Sunak-McDonalds-menu-return",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.mQOD5VMtNw2Rla02M8QB6S&pid=News",
+                        "width": 700,
+                        "height": 415
+                    }
+                },
+                "description": "EXCLUSIVE: The Express understands the Prime Minister has responded enthusiastically to a recent announcement by McDonald&#39;s.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03a08fb0-b340-cd39-d5da-0b5aeda6243f",
+                        "name": "McDonald&#39;s"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "McDonald&#39;s"
+                    },
+                    {
+                        "name": "Daily Express"
+                    },
+                    {
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T17:03:00.0000000Z"
+            },
+            {
+                "name": "<b>Rishi Sunak</b> rapped by watchdog over claim to have \u2018cleared\u2019 asylum backlog",
+                "url": "https://uk.sports.yahoo.com/news/watchdog-slams-rishi-sunak-over-114328284.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.KiBUKThqAorTEKhAg0xnUy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The UK\u2019s statistics watchdog has slammed Rishi Sunak for his repeated claim to have \u201ccleared\u201d the asylum backlog \u2013 and warned that the assertion could erode trust in the government. Sir Robert Chote, the chair of the UK Statistics Authority, also said voters may have felt \u201cmisled\u201d.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9585b0e9-1240-d064-5ce2-94b34b344160",
+                        "name": "Rishi"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/50300d8a-2cf2-4968-4c3b-754e0e17484a",
+                        "name": "Asylum"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo UK &amp; Ireland",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.bCGmgnmaXy3w_W9nI060kA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T16:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Rishi Sunak</b> Has Been Slammed Over His &#39;Misleading&#39; Claim To Have Cleared The Asylum Backlog",
+                "url": "https://uk.news.yahoo.com/rishi-sunak-slammed-over-misleading-123549088.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.GAFKj2OhaTgIjBJ1lcnvNC&pid=News",
+                        "width": 700,
+                        "height": 350
+                    }
+                },
+                "description": "Rishi Sunak has been criticised by a top watchdog after wrongly claiming to have cleared the asylum backlog. The UK Statistics Authority said \u201cpeople may feel misled\u201d by the claim, which the prime minister made on X (formerly Twitter) earlier this month. They also said the controversy \u201cmay affect public trust\u201d in claims made by the government.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T12:35:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Rishi Sunak</b> LIVE: PM to address nation at Downing Street press conference",
+                "url": "https://www.mirror.co.uk/news/politics/rishi-sunak-live-pm-address-31909158",
+                "description": "<b>Rishi Sunak</b> will address the nation from Downing Street shortly after he survived another day of Tory chaos over his Rwanda policy. The PM is expected to speak just after 10am before taking questions at a press conference - just hours after rebels warned ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror"
+                    }
+                ],
+                "datePublished": "2024-01-18T10:04:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Rishi Sunak</b> \u201call mouth and no trousers\u201d when it comes to nature protection",
+                "url": "https://www.politics.co.uk/opinion-former/press-release/2024/01/18/rishi-sunak-all-mouth-and-no-trousers-when-it-comes-to-nature-protection/",
+                "description": "In response to the Office for Environmental Protection\u2019s second annual report, published today, Doug Parr, Chief Scientist at Greenpeace UK, said:\u00a0 \u201cWhen it comes to protecting nature, this report proves beyond doubt that Rishi Sunak is all mouth and no trousers.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9585b0e9-1240-d064-5ce2-94b34b344160",
+                        "name": "Rishi"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ec10885d-cbd2-5ece-8d5b-7f5e05a240e9",
+                        "name": "uk"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Politics",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.oxw5qkgyGzwyQwIRdRsjzw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T08:29:00.0000000Z"
+            },
+            {
+                "name": "<b>Rishi Sunak</b> set for titanic battle with Lords over Rwanda bill",
+                "url": "https://www.independent.co.uk/news/uk/politics/rishi-sunak-house-lords-rwanda-bill-b2481090.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.mHchqhIFVtzsyoraBa2fFy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Defiant peers have rejected <b>Rishi Sunak</b>\u2019s warning not to frustrate \u201cthe will of the people\u201d by opposing his flagship Rwanda legislation, as the prime minister heads for a showdown with the House of Lords. The PM described his controversial ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/dc2ee5d2-6e16-3080-e8f0-7bac5c557f73",
+                        "name": "Lord&#39;s Cricket Ground"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent"
+                    }
+                ],
+                "datePublished": "2024-01-18T00:00:00.0000000Z"
+            },
+            {
+                "name": "Rwanda: PM urges House of Lords to pass bill to deport asylum seekers",
+                "url": "https://www.channel4.com/news/rwanda-pm-urges-house-of-lords-to-pass-bill-to-deport-asylum-seekers",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.tWUwEsMXIMyh4yj9qJF6GS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "<b>Rishi Sunak</b> has told the House of Lords that they should not frustrate his plans to deport asylum seekers to Rwanda. He told them that as the Commons passed his Bill with no changes last night, peers would be \u201cfrustrating the will of the people\u201d if ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/accd669f-9053-3a8c-78fc-d4fdeb378ee4",
+                        "name": "House of Lords"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Channel 4 News"
+                    }
+                ],
+                "datePublished": "2024-01-18T00:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Smart motorway death widow hits out at Government over \u2018stalling tactics\u2019",
+                "url": "https://www.standard.co.uk/news/uk/government-dft-irwin-mitchell-prime-minister-department-for-transport-b1133257.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.t4IiY1UvU0yYtWEnA1KBWy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "\u201cOtherwise, if it means legal action, then that\u2019s something I\u2019m prepared to do.\u201d In April last year, Prime Minister <b>Rishi Sunak</b> announced the cancellation of planned projects to build ALR smart motorways. He said this was due to cost pressures and ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5634d914-4190-dd0b-fa80-715c2ac46335",
+                        "name": "Government"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Government"
+                    },
+                    {
+                        "name": "Smart Axiata"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "datePublished": "2024-01-18T00:00:00.0000000Z",
+                "category": "UK"
+            }
+        ]
+    }
+]

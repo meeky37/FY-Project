@@ -1,0 +1,1306 @@
+[
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics",
+        "queryContext": {
+            "originalQuery": "uk politics",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 7,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Hunt to tell Davos summit: Britain is on the up and open for business",
+                "url": "https://www.independent.co.uk/business/hunt-to-tell-davos-summit-britain-is-on-the-up-and-open-for-business-b2480543.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.bxIc9wd41X-qcQ_iAAqE_S&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Chancellor Jeremy Hunt will tell <b>political</b> and business leaders at the World Economic Forum that the <b>UK</b> is \u201con the up and open for business\u201d. Mr Hunt\u2019s trip to the exclusive Swiss ski resort of Davos to join the annual gathering of international ...",
+                "mentions": [
+                    {
+                        "name": "Jeremy Hunt"
+                    },
+                    {
+                        "name": "Davos"
+                    },
+                    {
+                        "name": "The Independent"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent"
+                    }
+                ],
+                "datePublished": "2024-01-18T00:00:00.0000000Z"
+            },
+            {
+                "name": "Congress Hunts The Rarest Beast: Bipartisan Election-Year Deals",
+                "url": "https://uk.news.yahoo.com/congress-hunts-rarest-beast-bipartisan-004454483.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.cTOTepkOdcovgWiATzpqMC&pid=News",
+                        "width": 700,
+                        "height": 348
+                    }
+                },
+                "description": "Landing even one deal would be considered a win before lawmakers depart for the campaign trail this summer, when partisan presidential <b>politics</b> kicks into high gear and action on Capitol Hill hits a standstill. House and Senate leaders have made some ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK"
+                    }
+                ],
+                "datePublished": "2024-01-18T00:00:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "<b>Political</b> deepfakes can fool 42% of voters, study finds",
+                "url": "https://inews.co.uk/news/politics/political-deepfakes-fool-voters-2857811?ico=most_popular",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.vnWeaHeSwclv_SAluBRC-S&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Research finds widespread public fears about integrity of UK elections and a vulnerability to false statements on social media",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-17T12:29:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Forget everything you thought you knew about British <b>politics</b>. In 2024, we\u2019re in the age of chaos",
+                "url": "https://www.theguardian.com/commentisfree/2024/jan/17/british-politics-chaos-red-wall-voters-world",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Llu5p3LmngSxifdutKu7Ii&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Essex man\u2019, \u2018Stevenage woman\u2019, \u2018red wall\u2019 \u2013 labelling voters like this is completely misguided, says author Dan Evans",
+                "mentions": [
+                    {
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "name": "The Guardian"
+                    },
+                    {
+                        "name": "National Health Service"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-17T10:52:00.0000000Z"
+            },
+            {
+                "name": "Stephen Colbert Gives Republican Voters The Ugliest Truth About Their Own Party",
+                "url": "https://www.huffingtonpost.co.uk/entry/stephen-colbet-ugly-truth-republicans-party-late-show-monologue_uk_65a7842de4b076abd7a99a7e",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.DWE-jLAG05VdyXZ_9MTA_S&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "US talk show host Stephen Colbert used an awful case in Florida to confront Republican voters about their support for Donald Trump. The Florida Republican Party last week ousted Christian Ziegler as chair when it was revealed he is under a police investigation for alleged sexual assault.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Huffington Post UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0y8ov4dkxpxjENNw_hd4jw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-17T06:42:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Major poll put Conservatives narrowly ahead in Norfolk",
+                "url": "https://www.edp24.co.uk/news/24053230.major-poll-put-conservatives-narrowly-ahead-norfolk/",
+                "description": "A major new poll has suggested that the Conservatives\u2019 grip on Norfolk teeters in the balance, with several seats within grasping distance",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "EDP 24",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.jwNaXSYAQbMSCRbjWcrBZA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-17T05:59:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "What does Labour\u2019s new \u2018campaign guide\u2019 tell us about its policies?",
+                "url": "https://www.independent.co.uk/news/uk/politics/politics-explained/labour-keir-starmer-policy-manifesto-election-b2480356.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Dke2V_q1LQh9jMoM-Qt1JS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "S ome decades ago, the Conservatives and then New Labour used to produce thick compendiums for their candidates and party workers at general election time. The Conservative Campaign Guide was the model \u2013 a volume containing killer stats, quotes, boasts, and attacks on opposition parties and personalities of a kind that would be unlikely to pass a present-day fact check, but proved useful on ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent"
+                    }
+                ],
+                "datePublished": "2024-01-17T00:01:00.0000000Z"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics",
+        "queryContext": {
+            "originalQuery": "uk politics",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 111,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "NI strike: Thousands of public sector workers stage 24-hour stoppage",
+                "url": "https://www.bbc.com/news/uk-northern-ireland-67981000",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.5BIpdo9mQ654wE8dnw_5WC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The strikes are happening due to escalating pay disputes, with many public sector workers in Northern Ireland paid less than counterparts in the rest of the <b>UK</b>. This, combined with the cost-of-living crisis and the ongoing <b>political</b> crisis which has seen ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC"
+                    }
+                ],
+                "datePublished": "2024-01-18T00:24:00.0000000Z"
+            },
+            {
+                "name": "Tiny treasures from Queen Mary\u2019s Dolls\u2019 House go on show at Windsor Castle",
+                "url": "https://www.hampshirechronicle.co.uk/news/national/24057449.tiny-treasures-queen-marys-dolls-house-go-show-windsor-castle/",
+                "description": "King George V and Queen Mary in their coronation robes in 1911 (PA) Tickets and visitor information is available at www.rct.<b>uk</b> or +44 (0)303 123 7304.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/aae9aa16-328c-b908-6264-77d24afb269d",
+                        "name": "Queen Mary&#39;s Dolls&#39; House"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/21f994f9-146d-0f89-8b4f-ae03b0bbff1a",
+                        "name": "Windsor Castle"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Hampshire Chronicle"
+                    }
+                ],
+                "datePublished": "2024-01-18T00:10:00.0000000Z"
+            },
+            {
+                "name": "Government must address \u2018weaknesses\u2019 that led to student loan fraud \u2013 NAO",
+                "url": "https://www.dailyecho.co.uk/news/national/24057443.government-must-address-weaknesses-led-student-loan-fraud---nao/",
+                "description": "A Universities <b>UK</b> (UUK) spokeswoman said: \u201cFranchise provision makes an important contribution to widening participation and promoting access to higher education, and this report highlights the importance of careful management of franchise partnerships ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Southern Daily Echo"
+                    }
+                ],
+                "datePublished": "2024-01-18T00:08:00.0000000Z"
+            },
+            {
+                "name": "Hunt to tell Davos summit: Britain is on the up and open for business",
+                "url": "https://www.independent.co.uk/business/hunt-to-tell-davos-summit-britain-is-on-the-up-and-open-for-business-b2480543.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.bxIc9wd41X-qcQ_iAAqE_S&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Chancellor Jeremy Hunt will tell <b>political</b> and business leaders at the World Economic Forum that the <b>UK</b> is \u201con the up and open for business\u201d. Mr Hunt\u2019s trip to the exclusive Swiss ski resort of Davos to join the annual gathering of international ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2bd73848-4b61-3c98-ba3e-c458fe954d74",
+                        "name": "Jeremy Hunt"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5d579a8e-548b-dfb6-3270-b3334b203e81",
+                        "name": "Davos"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Jeremy Hunt"
+                    },
+                    {
+                        "name": "Davos"
+                    },
+                    {
+                        "name": "The Independent"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent"
+                    }
+                ],
+                "datePublished": "2024-01-18T00:00:00.0000000Z"
+            },
+            {
+                "name": "Congress Hunts The Rarest Beast: Bipartisan Election-Year Deals",
+                "url": "https://uk.news.yahoo.com/congress-hunts-rarest-beast-bipartisan-004454483.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.cTOTepkOdcovgWiATzpqMC&pid=News",
+                        "width": 700,
+                        "height": 348
+                    }
+                },
+                "description": "Landing even one deal would be considered a win before lawmakers depart for the campaign trail this summer, when partisan presidential <b>politics</b> kicks into high gear and action on Capitol Hill hits a standstill. House and Senate leaders have made some ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/67d486c2-0372-2780-f99f-061046daa05a",
+                        "name": "Huntingdonshire"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fd5e4f1d-4def-8262-edaf-90c620cf7a76",
+                        "name": "Beast"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/65d104c5-4e2a-9a9d-0e4a-a934bfd291c3",
+                        "name": "Bipartisanship"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK"
+                    }
+                ],
+                "datePublished": "2024-01-18T00:00:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "NI Secretary voices dismay at Stormont stalemate as public sector workers strike",
+                "url": "https://www.standard.co.uk/business/business-news/ni-secretary-voices-dismay-at-stormont-stalemate-as-public-sector-workers-strike-b1133105.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.lp40UwN3BxNpL2vjf6uW1C&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "\u201cThe people of Northern Ireland deserve local <b>political</b> leadership from representatives they have elected to govern on their behalf. \u201cThe <b>UK</b> Government has made a significant offer that would help address the challenges facing public sector pay and ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c997e859-6221-50d3-6b09-90796adcd1db",
+                        "name": "Public sector"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/dcd8763a-242f-1667-42a8-ab26de79a281",
+                        "name": "Stalemate"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Public sector"
+                    },
+                    {
+                        "name": "Stalemate"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "datePublished": "2024-01-18T00:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Political</b> deepfakes can fool 42% of voters, study finds",
+                "url": "https://inews.co.uk/news/politics/political-deepfakes-fool-voters-2857811?ico=most_popular",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.vnWeaHeSwclv_SAluBRC-S&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Research finds widespread public fears about integrity of UK elections and a vulnerability to false statements on social media",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-17T12:29:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Forget everything you thought you knew about British <b>politics</b>. In 2024, we\u2019re in the age of chaos",
+                "url": "https://www.theguardian.com/commentisfree/2024/jan/17/british-politics-chaos-red-wall-voters-world",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Llu5p3LmngSxifdutKu7Ii&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Essex man\u2019, \u2018Stevenage woman\u2019, \u2018red wall\u2019 \u2013 labelling voters like this is completely misguided, says author Dan Evans",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "name": "The Guardian"
+                    },
+                    {
+                        "name": "National Health Service"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-17T10:52:00.0000000Z"
+            },
+            {
+                "name": "Stephen Colbert Gives Republican Voters The Ugliest Truth About Their Own Party",
+                "url": "https://www.huffingtonpost.co.uk/entry/stephen-colbet-ugly-truth-republicans-party-late-show-monologue_uk_65a7842de4b076abd7a99a7e",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.DWE-jLAG05VdyXZ_9MTA_S&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "US talk show host Stephen Colbert used an awful case in Florida to confront Republican voters about their support for Donald Trump. The Florida Republican Party last week ousted Christian Ziegler as chair when it was revealed he is under a police investigation for alleged sexual assault.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40452965-4e5a-8dfa-7603-dea710dca54f",
+                        "name": "Stephen Colbert"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/53c34e6f-f7f3-a9b0-880a-612e57dd8e9b",
+                        "name": "Republican Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Huffington Post UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0y8ov4dkxpxjENNw_hd4jw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-17T06:42:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Major poll put Conservatives narrowly ahead in Norfolk",
+                "url": "https://www.edp24.co.uk/news/24053230.major-poll-put-conservatives-narrowly-ahead-norfolk/",
+                "description": "A major new poll has suggested that the Conservatives\u2019 grip on Norfolk teeters in the balance, with several seats within grasping distance",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1f7d5120-8b19-7582-e7d0-2351c715f854",
+                        "name": "Norfolk"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/426f4ba4-b09c-a9de-595d-8fee281c342f",
+                        "name": "Major"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e320dd44-b39b-fd9b-7883-0fe89bb44ace",
+                        "name": "Poll"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "EDP 24",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.jwNaXSYAQbMSCRbjWcrBZA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-17T05:59:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "What does Labour\u2019s new \u2018campaign guide\u2019 tell us about its policies?",
+                "url": "https://www.independent.co.uk/news/uk/politics/politics-explained/labour-keir-starmer-policy-manifesto-election-b2480356.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Dke2V_q1LQh9jMoM-Qt1JS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "S ome decades ago, the Conservatives and then New Labour used to produce thick compendiums for their candidates and party workers at general election time. The Conservative Campaign Guide was the model \u2013 a volume containing killer stats, quotes, boasts, and attacks on opposition parties and personalities of a kind that would be unlikely to pass a present-day fact check, but proved useful on ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/63a6ef59-71fd-db08-08c6-d47d973d47fb",
+                        "name": "Keir Starmer"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent"
+                    }
+                ],
+                "datePublished": "2024-01-17T00:01:00.0000000Z"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics",
+        "queryContext": {
+            "originalQuery": "uk politics",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 211,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "NI strike: Thousands of public sector workers stage 24-hour stoppage",
+                "url": "https://www.bbc.com/news/uk-northern-ireland-67981000",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.5BIpdo9mQ654wE8dnw_5WC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The strikes are happening due to escalating pay disputes, with many public sector workers in Northern Ireland paid less than counterparts in the rest of the <b>UK</b>. This, combined with the cost-of-living crisis and the ongoing <b>political</b> crisis which has seen ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC"
+                    }
+                ],
+                "datePublished": "2024-01-18T00:24:00.0000000Z"
+            },
+            {
+                "name": "Tiny treasures from Queen Mary\u2019s Dolls\u2019 House go on show at Windsor Castle",
+                "url": "https://www.hampshirechronicle.co.uk/news/national/24057449.tiny-treasures-queen-marys-dolls-house-go-show-windsor-castle/",
+                "description": "King George V and Queen Mary in their coronation robes in 1911 (PA) Tickets and visitor information is available at www.rct.<b>uk</b> or +44 (0)303 123 7304.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/aae9aa16-328c-b908-6264-77d24afb269d",
+                        "name": "Queen Mary&#39;s Dolls&#39; House"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/21f994f9-146d-0f89-8b4f-ae03b0bbff1a",
+                        "name": "Windsor Castle"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Hampshire Chronicle"
+                    }
+                ],
+                "datePublished": "2024-01-18T00:10:00.0000000Z"
+            },
+            {
+                "name": "Government must address \u2018weaknesses\u2019 that led to student loan fraud \u2013 NAO",
+                "url": "https://www.dailyecho.co.uk/news/national/24057443.government-must-address-weaknesses-led-student-loan-fraud---nao/",
+                "description": "A Universities <b>UK</b> (UUK) spokeswoman said: \u201cFranchise provision makes an important contribution to widening participation and promoting access to higher education, and this report highlights the importance of careful management of franchise partnerships ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Southern Daily Echo"
+                    }
+                ],
+                "datePublished": "2024-01-18T00:08:00.0000000Z"
+            },
+            {
+                "name": "Hunt to tell Davos summit: Britain is on the up and open for business",
+                "url": "https://www.independent.co.uk/business/hunt-to-tell-davos-summit-britain-is-on-the-up-and-open-for-business-b2480543.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.bxIc9wd41X-qcQ_iAAqE_S&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Chancellor Jeremy Hunt will tell <b>political</b> and business leaders at the World Economic Forum that the <b>UK</b> is \u201con the up and open for business\u201d. Mr Hunt\u2019s trip to the exclusive Swiss ski resort of Davos to join the annual gathering of international ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2bd73848-4b61-3c98-ba3e-c458fe954d74",
+                        "name": "Jeremy Hunt"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5d579a8e-548b-dfb6-3270-b3334b203e81",
+                        "name": "Davos"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Jeremy Hunt"
+                    },
+                    {
+                        "name": "Davos"
+                    },
+                    {
+                        "name": "The Independent"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent"
+                    }
+                ],
+                "datePublished": "2024-01-18T00:00:00.0000000Z"
+            },
+            {
+                "name": "Congress Hunts The Rarest Beast: Bipartisan Election-Year Deals",
+                "url": "https://uk.news.yahoo.com/congress-hunts-rarest-beast-bipartisan-004454483.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.cTOTepkOdcovgWiATzpqMC&pid=News",
+                        "width": 700,
+                        "height": 348
+                    }
+                },
+                "description": "Landing even one deal would be considered a win before lawmakers depart for the campaign trail this summer, when partisan presidential <b>politics</b> kicks into high gear and action on Capitol Hill hits a standstill. House and Senate leaders have made some ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/67d486c2-0372-2780-f99f-061046daa05a",
+                        "name": "Huntingdonshire"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fd5e4f1d-4def-8262-edaf-90c620cf7a76",
+                        "name": "Beast"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/65d104c5-4e2a-9a9d-0e4a-a934bfd291c3",
+                        "name": "Bipartisanship"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK"
+                    }
+                ],
+                "datePublished": "2024-01-18T00:00:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "NI Secretary voices dismay at Stormont stalemate as public sector workers strike",
+                "url": "https://www.standard.co.uk/business/business-news/ni-secretary-voices-dismay-at-stormont-stalemate-as-public-sector-workers-strike-b1133105.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.lp40UwN3BxNpL2vjf6uW1C&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "\u201cThe people of Northern Ireland deserve local <b>political</b> leadership from representatives they have elected to govern on their behalf. \u201cThe <b>UK</b> Government has made a significant offer that would help address the challenges facing public sector pay and ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c997e859-6221-50d3-6b09-90796adcd1db",
+                        "name": "Public sector"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/dcd8763a-242f-1667-42a8-ab26de79a281",
+                        "name": "Stalemate"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Public sector"
+                    },
+                    {
+                        "name": "Stalemate"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "datePublished": "2024-01-18T00:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Political</b> deepfakes can fool 42% of voters, study finds",
+                "url": "https://inews.co.uk/news/politics/political-deepfakes-fool-voters-2857811?ico=most_popular",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.vnWeaHeSwclv_SAluBRC-S&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Research finds widespread public fears about integrity of UK elections and a vulnerability to false statements on social media",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-17T12:29:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Forget everything you thought you knew about British <b>politics</b>. In 2024, we\u2019re in the age of chaos",
+                "url": "https://www.theguardian.com/commentisfree/2024/jan/17/british-politics-chaos-red-wall-voters-world",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Llu5p3LmngSxifdutKu7Ii&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Essex man\u2019, \u2018Stevenage woman\u2019, \u2018red wall\u2019 \u2013 labelling voters like this is completely misguided, says author Dan Evans",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "name": "The Guardian"
+                    },
+                    {
+                        "name": "National Health Service"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-17T10:52:00.0000000Z"
+            },
+            {
+                "name": "Stephen Colbert Gives Republican Voters The Ugliest Truth About Their Own Party",
+                "url": "https://www.huffingtonpost.co.uk/entry/stephen-colbet-ugly-truth-republicans-party-late-show-monologue_uk_65a7842de4b076abd7a99a7e",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.DWE-jLAG05VdyXZ_9MTA_S&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "US talk show host Stephen Colbert used an awful case in Florida to confront Republican voters about their support for Donald Trump. The Florida Republican Party last week ousted Christian Ziegler as chair when it was revealed he is under a police investigation for alleged sexual assault.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40452965-4e5a-8dfa-7603-dea710dca54f",
+                        "name": "Stephen Colbert"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/53c34e6f-f7f3-a9b0-880a-612e57dd8e9b",
+                        "name": "Republican Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Huffington Post UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0y8ov4dkxpxjENNw_hd4jw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-17T06:42:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Major poll put Conservatives narrowly ahead in Norfolk",
+                "url": "https://www.edp24.co.uk/news/24053230.major-poll-put-conservatives-narrowly-ahead-norfolk/",
+                "description": "A major new poll has suggested that the Conservatives\u2019 grip on Norfolk teeters in the balance, with several seats within grasping distance",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1f7d5120-8b19-7582-e7d0-2351c715f854",
+                        "name": "Norfolk"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/426f4ba4-b09c-a9de-595d-8fee281c342f",
+                        "name": "Major"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e320dd44-b39b-fd9b-7883-0fe89bb44ace",
+                        "name": "Poll"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "EDP 24",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.jwNaXSYAQbMSCRbjWcrBZA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-17T05:59:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "What does Labour\u2019s new \u2018campaign guide\u2019 tell us about its policies?",
+                "url": "https://www.independent.co.uk/news/uk/politics/politics-explained/labour-keir-starmer-policy-manifesto-election-b2480356.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Dke2V_q1LQh9jMoM-Qt1JS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "S ome decades ago, the Conservatives and then New Labour used to produce thick compendiums for their candidates and party workers at general election time. The Conservative Campaign Guide was the model \u2013 a volume containing killer stats, quotes, boasts, and attacks on opposition parties and personalities of a kind that would be unlikely to pass a present-day fact check, but proved useful on ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/63a6ef59-71fd-db08-08c6-d47d973d47fb",
+                        "name": "Keir Starmer"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent"
+                    }
+                ],
+                "datePublished": "2024-01-17T00:01:00.0000000Z"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics",
+        "queryContext": {
+            "originalQuery": "uk politics",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 311,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "NI strike: Thousands of public sector workers stage 24-hour stoppage",
+                "url": "https://www.bbc.com/news/uk-northern-ireland-67981000",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.5BIpdo9mQ654wE8dnw_5WC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The strikes are happening due to escalating pay disputes, with many public sector workers in Northern Ireland paid less than counterparts in the rest of the <b>UK</b>. This, combined with the cost-of-living crisis and the ongoing <b>political</b> crisis which has seen ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC"
+                    }
+                ],
+                "datePublished": "2024-01-18T00:24:00.0000000Z"
+            },
+            {
+                "name": "Tiny treasures from Queen Mary\u2019s Dolls\u2019 House go on show at Windsor Castle",
+                "url": "https://www.hampshirechronicle.co.uk/news/national/24057449.tiny-treasures-queen-marys-dolls-house-go-show-windsor-castle/",
+                "description": "King George V and Queen Mary in their coronation robes in 1911 (PA) Tickets and visitor information is available at www.rct.<b>uk</b> or +44 (0)303 123 7304.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/aae9aa16-328c-b908-6264-77d24afb269d",
+                        "name": "Queen Mary&#39;s Dolls&#39; House"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/21f994f9-146d-0f89-8b4f-ae03b0bbff1a",
+                        "name": "Windsor Castle"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Hampshire Chronicle"
+                    }
+                ],
+                "datePublished": "2024-01-18T00:10:00.0000000Z"
+            },
+            {
+                "name": "Government must address \u2018weaknesses\u2019 that led to student loan fraud \u2013 NAO",
+                "url": "https://www.dailyecho.co.uk/news/national/24057443.government-must-address-weaknesses-led-student-loan-fraud---nao/",
+                "description": "A Universities <b>UK</b> (UUK) spokeswoman said: \u201cFranchise provision makes an important contribution to widening participation and promoting access to higher education, and this report highlights the importance of careful management of franchise partnerships ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Southern Daily Echo"
+                    }
+                ],
+                "datePublished": "2024-01-18T00:08:00.0000000Z"
+            },
+            {
+                "name": "Hunt to tell Davos summit: Britain is on the up and open for business",
+                "url": "https://www.independent.co.uk/business/hunt-to-tell-davos-summit-britain-is-on-the-up-and-open-for-business-b2480543.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.bxIc9wd41X-qcQ_iAAqE_S&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Chancellor Jeremy Hunt will tell <b>political</b> and business leaders at the World Economic Forum that the <b>UK</b> is \u201con the up and open for business\u201d. Mr Hunt\u2019s trip to the exclusive Swiss ski resort of Davos to join the annual gathering of international ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2bd73848-4b61-3c98-ba3e-c458fe954d74",
+                        "name": "Jeremy Hunt"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5d579a8e-548b-dfb6-3270-b3334b203e81",
+                        "name": "Davos"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Jeremy Hunt"
+                    },
+                    {
+                        "name": "Davos"
+                    },
+                    {
+                        "name": "The Independent"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent"
+                    }
+                ],
+                "datePublished": "2024-01-18T00:00:00.0000000Z"
+            },
+            {
+                "name": "Congress Hunts The Rarest Beast: Bipartisan Election-Year Deals",
+                "url": "https://uk.news.yahoo.com/congress-hunts-rarest-beast-bipartisan-004454483.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.cTOTepkOdcovgWiATzpqMC&pid=News",
+                        "width": 700,
+                        "height": 348
+                    }
+                },
+                "description": "Landing even one deal would be considered a win before lawmakers depart for the campaign trail this summer, when partisan presidential <b>politics</b> kicks into high gear and action on Capitol Hill hits a standstill. House and Senate leaders have made some ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/67d486c2-0372-2780-f99f-061046daa05a",
+                        "name": "Huntingdonshire"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fd5e4f1d-4def-8262-edaf-90c620cf7a76",
+                        "name": "Beast"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/65d104c5-4e2a-9a9d-0e4a-a934bfd291c3",
+                        "name": "Bipartisanship"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK"
+                    }
+                ],
+                "datePublished": "2024-01-18T00:00:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "NI Secretary voices dismay at Stormont stalemate as public sector workers strike",
+                "url": "https://www.standard.co.uk/business/business-news/ni-secretary-voices-dismay-at-stormont-stalemate-as-public-sector-workers-strike-b1133105.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.lp40UwN3BxNpL2vjf6uW1C&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "\u201cThe people of Northern Ireland deserve local <b>political</b> leadership from representatives they have elected to govern on their behalf. \u201cThe <b>UK</b> Government has made a significant offer that would help address the challenges facing public sector pay and ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c997e859-6221-50d3-6b09-90796adcd1db",
+                        "name": "Public sector"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/dcd8763a-242f-1667-42a8-ab26de79a281",
+                        "name": "Stalemate"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Public sector"
+                    },
+                    {
+                        "name": "Stalemate"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "datePublished": "2024-01-18T00:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Political</b> deepfakes can fool 42% of voters, study finds",
+                "url": "https://inews.co.uk/news/politics/political-deepfakes-fool-voters-2857811?ico=most_popular",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.vnWeaHeSwclv_SAluBRC-S&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Research finds widespread public fears about integrity of UK elections and a vulnerability to false statements on social media",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-17T12:29:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Forget everything you thought you knew about British <b>politics</b>. In 2024, we\u2019re in the age of chaos",
+                "url": "https://www.theguardian.com/commentisfree/2024/jan/17/british-politics-chaos-red-wall-voters-world",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Llu5p3LmngSxifdutKu7Ii&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Essex man\u2019, \u2018Stevenage woman\u2019, \u2018red wall\u2019 \u2013 labelling voters like this is completely misguided, says author Dan Evans",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "name": "The Guardian"
+                    },
+                    {
+                        "name": "National Health Service"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-17T10:52:00.0000000Z"
+            },
+            {
+                "name": "Stephen Colbert Gives Republican Voters The Ugliest Truth About Their Own Party",
+                "url": "https://www.huffingtonpost.co.uk/entry/stephen-colbet-ugly-truth-republicans-party-late-show-monologue_uk_65a7842de4b076abd7a99a7e",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.DWE-jLAG05VdyXZ_9MTA_S&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "US talk show host Stephen Colbert used an awful case in Florida to confront Republican voters about their support for Donald Trump. The Florida Republican Party last week ousted Christian Ziegler as chair when it was revealed he is under a police investigation for alleged sexual assault.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40452965-4e5a-8dfa-7603-dea710dca54f",
+                        "name": "Stephen Colbert"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/53c34e6f-f7f3-a9b0-880a-612e57dd8e9b",
+                        "name": "Republican Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Huffington Post UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0y8ov4dkxpxjENNw_hd4jw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-17T06:42:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Major poll put Conservatives narrowly ahead in Norfolk",
+                "url": "https://www.edp24.co.uk/news/24053230.major-poll-put-conservatives-narrowly-ahead-norfolk/",
+                "description": "A major new poll has suggested that the Conservatives\u2019 grip on Norfolk teeters in the balance, with several seats within grasping distance",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1f7d5120-8b19-7582-e7d0-2351c715f854",
+                        "name": "Norfolk"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/426f4ba4-b09c-a9de-595d-8fee281c342f",
+                        "name": "Major"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e320dd44-b39b-fd9b-7883-0fe89bb44ace",
+                        "name": "Poll"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "EDP 24",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.jwNaXSYAQbMSCRbjWcrBZA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-17T05:59:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "What does Labour\u2019s new \u2018campaign guide\u2019 tell us about its policies?",
+                "url": "https://www.independent.co.uk/news/uk/politics/politics-explained/labour-keir-starmer-policy-manifesto-election-b2480356.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Dke2V_q1LQh9jMoM-Qt1JS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "S ome decades ago, the Conservatives and then New Labour used to produce thick compendiums for their candidates and party workers at general election time. The Conservative Campaign Guide was the model \u2013 a volume containing killer stats, quotes, boasts, and attacks on opposition parties and personalities of a kind that would be unlikely to pass a present-day fact check, but proved useful on ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/63a6ef59-71fd-db08-08c6-d47d973d47fb",
+                        "name": "Keir Starmer"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent"
+                    }
+                ],
+                "datePublished": "2024-01-17T00:01:00.0000000Z"
+            }
+        ]
+    }
+]

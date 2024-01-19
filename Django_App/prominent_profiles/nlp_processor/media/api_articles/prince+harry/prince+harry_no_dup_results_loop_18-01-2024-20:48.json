@@ -1,0 +1,2971 @@
+[
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=prince+harry",
+        "queryContext": {
+            "originalQuery": "prince harry",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 17,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=prince+harry"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=prince+harry&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "<b>Prince</b> William Visited Kate Middleton in the Hospital After Her Surprise Surgery",
+                "url": "https://uk.style.yahoo.com/prince-william-visited-kate-middleton-173451359.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.jKimkGUqbfcmVVmoC57OVS&pid=News",
+                        "width": 700,
+                        "height": 536
+                    }
+                },
+                "description": "Prince William is stepping up to the plate as a supportive husband after it was announced that Kate Middleton was hospitalized following an abdominal surgery. The royal was spotted leaving the private hospital on Thursday \u2014 in an Audi e-Tron GT Carbon Vorsprung,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/026387b6-916a-4fd2-91c9-c67298468905",
+                        "name": "Prince William, Duke of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8a182278-ee48-4cc3-8a1f-a70893d74b01",
+                        "name": "Surprise"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Style UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.R1Y_kEYTGAFzjK1_2NaYlQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T17:34:00.0000000Z"
+            },
+            {
+                "name": "<b>Prince Harry</b> urged to call royals as King Charles and Kate Middleton face hospital spells",
+                "url": "https://www.lbc.co.uk/news/prince-harry-kate-king-hospital/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.LsLpnidnlBVJmde4UHP9bC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Prince Harry has been told to call King Charles and Princess Kate as both face spells in hospital. Kate has undergone abdominal surgery and is recovering at the London Clinic, where she is expected to spend up to two weeks. She has cleared her engagements calendar until after Easter.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/607bf330-283c-e25d-6b64-69bbd33d5b72",
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/085da3bd-8560-1638-8402-b77b0bb0e17c",
+                        "name": "Face"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "LBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.iWFEm2xSUKuVEhtVsjP6gQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T17:12:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "<b>Prince Harry</b>&#39;s &#39;unusual gesture&#39; while jogging shows he&#39;s &#39;frustrated&#39;, says expert",
+                "url": "https://www.express.co.uk/news/royal/1857266/Prince-Harry-jogging-Meghan-Markle-Lilibet",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.mxF4C-MVKZHNj4nyCpMwgy&pid=News",
+                        "width": 700,
+                        "height": 415
+                    }
+                },
+                "description": "Prince Harry was snapped breaking cover for the first time since the Lilibet name scandal - and a body language expert spotted a sign he&#39;s &#39;angry&#39;.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4eb0b986-b460-2620-00b5-8ec172abf717",
+                        "name": "Royal News"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Daily Express"
+                    },
+                    {
+                        "name": "Royal News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T16:50:00.0000000Z"
+            },
+            {
+                "name": "<b>Prince Harry</b> and Meghan Markle fans spark outrage over &#39;disgusting&#39; Princess Kate comments",
+                "url": "https://www.express.co.uk/news/royal/1857262/prince-harry-meghan-markle-fans-disgusting-comments",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.MiY30KZ2Zi-s07-03cYnJS&pid=News",
+                        "width": 700,
+                        "height": 415
+                    }
+                },
+                "description": "Fans of the Sussexes appeared to take aim at the Princess of Wales and a royal commentator has hit out at them branding their comments &quot;disgusting&quot;.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "name": "Daily Express"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T16:47:00.0000000Z"
+            },
+            {
+                "name": "Hollywood A-lister with \u2018strong emotional link\u2019 to <b>Prince Harry</b> was behind duke receiving \u2018Legend of Aviation\u2019 award",
+                "url": "https://www.thesun.co.uk/royals/25408525/prince-harry-flying-award-hollywood-john-travolta-royal/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.02mZiGyeKByuK99N3zVMPS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "PULP Fiction actor John Travolta was the driving force behind Prince Harry being inducted into an aviation hall of fame, it\u2019s been claimed. Harry, 39, is set to be inducted tomorrow in",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9984d1da-4a59-c40a-0ea2-6d2c87719a31",
+                        "name": "Hollywood"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1527ae3-d2df-bf9d-5c18-e072d7176621",
+                        "name": "Duke"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mZZguWnkRkVFPCoaQUmKEg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T16:47:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Heartbroken <b>Prince Harry</b> &#39;comforted by Princess Anne&#39; after being told of Queen\u2019s death",
+                "url": "https://www.mirror.co.uk/3am/us-celebrity-news/heartbroken-prince-harry-comforted-princess-31912632",
+                "description": "Queen Elizabeth II passed away in September 2022 at Balmoral Castle in Scotland, and Prince Harry recalled he arrived too late to see his dying grandmother after flying in from the US",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/05e27166-a2c6-7052-8ca0-e399f5114ed8",
+                        "name": "Heartbroken"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Heartbroken"
+                    },
+                    {
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T15:53:00.0000000Z"
+            },
+            {
+                "name": "Princess Lilibet could inherit \u00a3980,000 worth of jewellery from Meghan and Princess Diana",
+                "url": "https://www.ohmymag.co.uk/entertainment/royal-family/princess-lilibet-could-inherit-980000-worth-of-jewellery-from-meghan-and-princess-diana_art20822.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.5W5Dfox5VFPieg23v6JSQC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Princess Lilibet is expected to be the owner of some of history\u2019s most impressive jewellery pieces. From Meghan Markle\u2019s collection to Princess Diana\u2019s, here\u2019s what she could",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/01e347c1-9d99-c7e6-79d1-390a1844d093",
+                        "name": "Elizabeth II"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f4bf63ea-0b6c-58e0-4587-64927290483f",
+                        "name": "Diana, Princess of Wales"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Elizabeth II"
+                    },
+                    {
+                        "name": "Diana, Princess of Wales"
+                    },
+                    {
+                        "name": "Prince William, Duke of Cambridge"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "ohmymag",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.paSXOEqa6avLJqgrjvvuFA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T15:16:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "13 little-known facts about Severus Snape that &#39;<b>Harry</b> Potter&#39; fans probably don&#39;t remember",
+                "url": "https://uk.finance.yahoo.com/news/13-little-known-facts-severus-145124852.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.hnqh4Y8irBuEuWiUgtru-i&pid=News",
+                        "width": 700,
+                        "height": 524
+                    }
+                },
+                "description": "Snape, the Hogwarts Potions professor was a mysterious double agent, so even the biggest &quot;Harry Potter&quot; fans may not have heard all of these secrets.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ac7c3970-2fdc-c3e4-b4dd-f462a975806f",
+                        "name": "Harry Potter fandom"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6f3c6f99-0f95-429b-08d2-9a24193f3d4d",
+                        "name": "Professor Severus Snape"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Finance",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.LBn5t3rqxzpf5jMTBU81BA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T14:51:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "ROBERT JOBSON: <b>Harry</b> must be contemplating how it could have been so different. His family needs him, but he has gone AWOL. And it raises some important &#39;what ifs&#39;...",
+                "url": "https://www.dailymail.co.uk/debate/article-12978251/ROBERT-JOBSON-Harry-contemplating-different-family-needs-gone-AWOL-raises-important-ifs.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Iv5mhpKS1qAogSVh8OLQ8C&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Rather than gazing at his navel or collecting pointless awards - lauded as a &#39;legend&#39; of aviation - the royal formerly known as Prince could have been doing something useful for Crown and country.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/93a3e0e2-aecf-e53b-8432-c15f400cfb4e",
+                        "name": "Daily Mail"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cccc474c-e7b2-4542-6fe4-47cdde771e64",
+                        "name": "Desertion"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T14:22:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "<b>Prince Harry</b> NEEDS to call his dad King Charles and sister-in-law Kate over ops to bridge \u2018very deep rift\u2019, expert says",
+                "url": "https://www.thesun.co.uk/royals/25406689/prince-harry-needs-call-dad-king-charles-kate/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.U_RlPw9eZG3dIV_BWYSrpC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "PRINCE Harry needs to call his dad and sister-in-law over their operations to bridge the \u201cvery deep rift\u201d, a royal expert has said. The 42-year-old Princess of Wales is recovering in a",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/607bf330-283c-e25d-6b64-69bbd33d5b72",
+                        "name": "Charles I of England"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mZZguWnkRkVFPCoaQUmKEg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T13:57:00.0000000Z"
+            },
+            {
+                "name": "Inside the exclusive private London hospitals used by the royals",
+                "url": "https://www.standard.co.uk/lifestyle/royals-hospitals-london-clinic-kate-middleton-king-charles-b1133235.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.O6mbn-uu1XsLox_z0Sov-y&pid=News",
+                        "width": 700,
+                        "height": 480
+                    }
+                },
+                "description": "The Princess of Wales is recovering in the London Clinic in Marylebone, after a successful abdominal surgery, it was revealed yesterday. She\u2019s expected to spend between ten and fourteen days at the private Harley Street clinic, before returning home to Windsor to continue her recovery.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8e0ba7b6-4225-fa8a-6369-1b5294e602a5",
+                        "name": "London"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e708f4ba-ad83-1837-f34a-a69a6dd30b81",
+                        "name": "British Royal Family"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "London"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "British Royal Family"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T13:55:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "Queen Camilla confirms King Charles is &#39;looking forward to getting back to work&#39; after hospital visit",
+                "url": "https://www.dailyrecord.co.uk/entertainment/celebrity/queen-camilla-confirms-king-charles-31911823.amp",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.dUJylMGzWm4hCHw3XfcJTi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The 75-year-old monarch, who acceded to the throne 16 months ago, will be admitted to hospital next week. <b>Prince Harry</b>&#39;s claim about Queen&#39;s death &#39;isn&#39;t exactly true&#39;, says royal author In a statement, Buckingham Palace said: \u201cIn common with thousands ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/607bf330-283c-e25d-6b64-69bbd33d5b72",
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f4af795d-5426-b48f-2621-1f5cfc9344eb",
+                        "name": "Queen Camilla"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Record"
+                    }
+                ],
+                "datePublished": "2024-01-18T13:22:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "RICHARD KAY: The double blow of King Charles and our future Queen Kate&#39;s medical treatment leaves the nation reeling... it sends a shiver down our spines and shows how ...",
+                "url": "https://www.dailymail.co.uk/debate/article-12976113/RICHARD-KAY-double-blow-King-Charles-Princess-Kates-medical-treatment-send-collective-shiver-spines.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.irzlZgb28rfZ3cb8SRYmfi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "After the sadness of the late Queen&#39;s slow decline and death, the bulletin about Catherine has sent a collective shiver down the spine of royal fans. People are reeling.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/607bf330-283c-e25d-6b64-69bbd33d5b72",
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d90ae9bb-1ac8-e5ef-b917-f33d5feee2f1",
+                        "name": "Queen"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "name": "Queen"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T13:03:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "<b>Prince</b> William visits wife Kate in London hospital as she recovers from abdominal surgery",
+                "url": "https://uk.news.yahoo.com/prince-william-visits-wife-kate-125234616.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.xjp8qPRs5cXAmJO87SueNS&pid=News",
+                        "width": 700,
+                        "height": 417
+                    }
+                },
+                "description": "Thursday&#39;s visit came as the Princess of Wales was said to be &#39;doing well&#39; after a comfortable night at the private London Clinic",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/026387b6-916a-4fd2-91c9-c67298468905",
+                        "name": "Prince William, Duke of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8e0ba7b6-4225-fa8a-6369-1b5294e602a5",
+                        "name": "London"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T12:52:00.0000000Z"
+            },
+            {
+                "name": "<b>Prince Harry</b>&#39;s account of the Queen&#39;s death &#39;isn&#39;t exactly true&#39;, royal author claims",
+                "url": "https://www.mirror.co.uk/3am/us-celebrity-news/prince-harrys-account-queens-death-31908122",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.wuNZne9ZRWU285A8kloPpS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Prince Harry has claimed he found out about the death of Queen Elizabeth II from the BBC website, but a new book has now said the Royal Family &#39;urgently&#39; tried to contact him",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fd28d627-e4c9-7606-2c1a-552caeddef9c",
+                        "name": "Queen&#39;s"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "Queen&#39;s"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T08:08:00.0000000Z"
+            },
+            {
+                "name": "<b>Prince Harry</b>&#39;s claim about Queen&#39;s death &#39;isn&#39;t exactly true&#39;, says royal author",
+                "url": "https://www.dailyrecord.co.uk/entertainment/celebrity/prince-harrys-claim-queens-death-31909499",
+                "description": "<b>Prince Harry</b> claims to have not found out about his grandmother Queen Elizabeth&#39;s death from his family but a royal author has now said that is not entirely true. The Duke of Sussex rushed to be by the late monarch&#39;s side when he heard about her fast declining health in the hours before her passing.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fb6f4f93-ce23-76a6-98b5-3ab6b5286762",
+                        "name": "Daily Record"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4eebb1e9-4eba-27e3-3473-6e71fe87243f",
+                        "name": "Royal"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Record"
+                    }
+                ],
+                "datePublished": "2024-01-18T00:00:00.0000000Z"
+            },
+            {
+                "name": "Sarah Ferguson&#39;s hopes of landing full-time This Morning role dashed in blow to <b>Prince</b> Andrew",
+                "url": "https://www.ok.co.uk/royal/sarah-fergusons-hopes-landing-full-31846685",
+                "description": "Despite suggestions from the King for him to shift into <b>Prince Harry</b> and Meghan Markle &#39;s more modest four-bedroom Frogmore Cottage on the Windsor estate, Andrew&#39;s friends affirm that the Royal is not intending to consider alternate accommodation options.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b84dbc56-5694-49b0-779d-86f4c2228acb",
+                        "name": "Prince Andrew, Duke of York"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1957c85d-0313-2385-04c3-286aac8fc810",
+                        "name": "Sarah, Duchess of York"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/796ee494-fcc6-fac8-02c3-3e65fb6254e1",
+                        "name": "This Morning"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "OK! Magazine UK"
+                    }
+                ],
+                "datePublished": "2024-01-10T00:00:00.0000000Z",
+                "category": "Entertainment"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=prince+harry",
+        "queryContext": {
+            "originalQuery": "prince harry",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 127,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=prince+harry"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=prince+harry&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "<b>Prince</b> William Visited Kate Middleton in the Hospital After Her Surprise Surgery",
+                "url": "https://uk.style.yahoo.com/prince-william-visited-kate-middleton-173451359.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.jKimkGUqbfcmVVmoC57OVS&pid=News",
+                        "width": 700,
+                        "height": 536
+                    }
+                },
+                "description": "Prince William is stepping up to the plate as a supportive husband after it was announced that Kate Middleton was hospitalized following an abdominal surgery. The royal was spotted leaving the private hospital on Thursday \u2014 in an Audi e-Tron GT Carbon Vorsprung,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/026387b6-916a-4fd2-91c9-c67298468905",
+                        "name": "Prince William, Duke of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8a182278-ee48-4cc3-8a1f-a70893d74b01",
+                        "name": "Surprise"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Style UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.R1Y_kEYTGAFzjK1_2NaYlQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T17:34:00.0000000Z"
+            },
+            {
+                "name": "<b>Prince Harry</b> urged to call royals as King Charles and Kate Middleton face hospital spells",
+                "url": "https://www.lbc.co.uk/news/prince-harry-kate-king-hospital/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.LsLpnidnlBVJmde4UHP9bC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Prince Harry has been told to call King Charles and Princess Kate as both face spells in hospital. Kate has undergone abdominal surgery and is recovering at the London Clinic, where she is expected to spend up to two weeks. She has cleared her engagements calendar until after Easter.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/607bf330-283c-e25d-6b64-69bbd33d5b72",
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/085da3bd-8560-1638-8402-b77b0bb0e17c",
+                        "name": "Face"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "LBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.iWFEm2xSUKuVEhtVsjP6gQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T17:12:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "<b>Prince Harry</b>&#39;s &#39;unusual gesture&#39; while jogging shows he&#39;s &#39;frustrated&#39;, says expert",
+                "url": "https://www.express.co.uk/news/royal/1857266/Prince-Harry-jogging-Meghan-Markle-Lilibet",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.mxF4C-MVKZHNj4nyCpMwgy&pid=News",
+                        "width": 700,
+                        "height": 415
+                    }
+                },
+                "description": "Prince Harry was snapped breaking cover for the first time since the Lilibet name scandal - and a body language expert spotted a sign he&#39;s &#39;angry&#39;.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4eb0b986-b460-2620-00b5-8ec172abf717",
+                        "name": "Royal News"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Daily Express"
+                    },
+                    {
+                        "name": "Royal News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T16:50:00.0000000Z"
+            },
+            {
+                "name": "<b>Prince Harry</b> and Meghan Markle fans spark outrage over &#39;disgusting&#39; Princess Kate comments",
+                "url": "https://www.express.co.uk/news/royal/1857262/prince-harry-meghan-markle-fans-disgusting-comments",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.MiY30KZ2Zi-s07-03cYnJS&pid=News",
+                        "width": 700,
+                        "height": 415
+                    }
+                },
+                "description": "Fans of the Sussexes appeared to take aim at the Princess of Wales and a royal commentator has hit out at them branding their comments &quot;disgusting&quot;.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "name": "Daily Express"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T16:47:00.0000000Z"
+            },
+            {
+                "name": "Hollywood A-lister with \u2018strong emotional link\u2019 to <b>Prince Harry</b> was behind duke receiving \u2018Legend of Aviation\u2019 award",
+                "url": "https://www.thesun.co.uk/royals/25408525/prince-harry-flying-award-hollywood-john-travolta-royal/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.02mZiGyeKByuK99N3zVMPS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "PULP Fiction actor John Travolta was the driving force behind Prince Harry being inducted into an aviation hall of fame, it\u2019s been claimed. Harry, 39, is set to be inducted tomorrow in",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9984d1da-4a59-c40a-0ea2-6d2c87719a31",
+                        "name": "Hollywood"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1527ae3-d2df-bf9d-5c18-e072d7176621",
+                        "name": "Duke"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mZZguWnkRkVFPCoaQUmKEg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T16:47:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Is it time for Mike and Zara Tindall to replace <b>Prince Harry</b> and Meghan Markle? Popular couple are already comfortable in the limelight - and swapping their money-making deals ...",
+                "url": "https://www.dailymail.co.uk/femail/article-12977963/zara-mike-tindall-royal-family-monarchy-princess-anne.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.yCLlKQfQGFET31edaXqxci&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The couple, who live together on Princess Anne &#39;s Gatecombe Estate in Gloucestershire, already have a closeness with the Wales family, are very popular with the public.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/88396a04-266f-946c-4f6f-4cfd4b30d39d",
+                        "name": "Mike Tindall"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a3a49a10-0c4b-c98d-97b7-f1212e960cc8",
+                        "name": "Zara Phillips"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Mike Tindall"
+                    },
+                    {
+                        "name": "Zara Phillips"
+                    },
+                    {
+                        "name": "Prince Harry"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T16:16:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Heartbroken <b>Prince Harry</b> &#39;comforted by Princess Anne&#39; after being told of Queen\u2019s death",
+                "url": "https://www.mirror.co.uk/3am/us-celebrity-news/heartbroken-prince-harry-comforted-princess-31912632",
+                "description": "Queen Elizabeth II passed away in September 2022 at Balmoral Castle in Scotland, and Prince Harry recalled he arrived too late to see his dying grandmother after flying in from the US",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/05e27166-a2c6-7052-8ca0-e399f5114ed8",
+                        "name": "Heartbroken"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Heartbroken"
+                    },
+                    {
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T15:53:00.0000000Z"
+            },
+            {
+                "name": "Princess Lilibet could inherit \u00a3980,000 worth of jewellery from Meghan and Princess Diana",
+                "url": "https://www.ohmymag.co.uk/entertainment/royal-family/princess-lilibet-could-inherit-980000-worth-of-jewellery-from-meghan-and-princess-diana_art20822.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.5W5Dfox5VFPieg23v6JSQC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Princess Lilibet is expected to be the owner of some of history\u2019s most impressive jewellery pieces. From Meghan Markle\u2019s collection to Princess Diana\u2019s, here\u2019s what she could",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/01e347c1-9d99-c7e6-79d1-390a1844d093",
+                        "name": "Elizabeth II"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f4bf63ea-0b6c-58e0-4587-64927290483f",
+                        "name": "Diana, Princess of Wales"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Elizabeth II"
+                    },
+                    {
+                        "name": "Diana, Princess of Wales"
+                    },
+                    {
+                        "name": "Prince William, Duke of Cambridge"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "ohmymag",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.paSXOEqa6avLJqgrjvvuFA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T15:16:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "13 little-known facts about Severus Snape that &#39;<b>Harry</b> Potter&#39; fans probably don&#39;t remember",
+                "url": "https://uk.finance.yahoo.com/news/13-little-known-facts-severus-145124852.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.hnqh4Y8irBuEuWiUgtru-i&pid=News",
+                        "width": 700,
+                        "height": 524
+                    }
+                },
+                "description": "Snape, the Hogwarts Potions professor was a mysterious double agent, so even the biggest &quot;Harry Potter&quot; fans may not have heard all of these secrets.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ac7c3970-2fdc-c3e4-b4dd-f462a975806f",
+                        "name": "Harry Potter fandom"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6f3c6f99-0f95-429b-08d2-9a24193f3d4d",
+                        "name": "Professor Severus Snape"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Finance",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.LBn5t3rqxzpf5jMTBU81BA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T14:51:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "ROBERT JOBSON: <b>Harry</b> must be contemplating how it could have been so different. His family needs him, but he has gone AWOL. And it raises some important &#39;what ifs&#39;...",
+                "url": "https://www.dailymail.co.uk/debate/article-12978251/ROBERT-JOBSON-Harry-contemplating-different-family-needs-gone-AWOL-raises-important-ifs.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Iv5mhpKS1qAogSVh8OLQ8C&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Rather than gazing at his navel or collecting pointless awards - lauded as a &#39;legend&#39; of aviation - the royal formerly known as Prince could have been doing something useful for Crown and country.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/93a3e0e2-aecf-e53b-8432-c15f400cfb4e",
+                        "name": "Daily Mail"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cccc474c-e7b2-4542-6fe4-47cdde771e64",
+                        "name": "Desertion"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T14:22:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "<b>Prince Harry</b> NEEDS to call his dad King Charles and sister-in-law Kate over ops to bridge \u2018very deep rift\u2019, expert says",
+                "url": "https://www.thesun.co.uk/royals/25406689/prince-harry-needs-call-dad-king-charles-kate/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.U_RlPw9eZG3dIV_BWYSrpC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "PRINCE Harry needs to call his dad and sister-in-law over their operations to bridge the \u201cvery deep rift\u201d, a royal expert has said. The 42-year-old Princess of Wales is recovering in a",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/607bf330-283c-e25d-6b64-69bbd33d5b72",
+                        "name": "Charles I of England"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mZZguWnkRkVFPCoaQUmKEg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T13:57:00.0000000Z"
+            },
+            {
+                "name": "Queen Camilla confirms King Charles is &#39;looking forward to getting back to work&#39; after hospital visit",
+                "url": "https://www.dailyrecord.co.uk/entertainment/celebrity/queen-camilla-confirms-king-charles-31911823.amp",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.dUJylMGzWm4hCHw3XfcJTi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The 75-year-old monarch, who acceded to the throne 16 months ago, will be admitted to hospital next week. <b>Prince Harry</b>&#39;s claim about Queen&#39;s death &#39;isn&#39;t exactly true&#39;, says royal author In a statement, Buckingham Palace said: \u201cIn common with thousands ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/607bf330-283c-e25d-6b64-69bbd33d5b72",
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f4af795d-5426-b48f-2621-1f5cfc9344eb",
+                        "name": "Queen Camilla"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Record"
+                    }
+                ],
+                "datePublished": "2024-01-18T13:22:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "<b>Prince</b> William visits wife Kate in London hospital as she recovers from abdominal surgery",
+                "url": "https://uk.news.yahoo.com/prince-william-visits-wife-kate-125234616.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.xjp8qPRs5cXAmJO87SueNS&pid=News",
+                        "width": 700,
+                        "height": 417
+                    }
+                },
+                "description": "Thursday&#39;s visit came as the Princess of Wales was said to be &#39;doing well&#39; after a comfortable night at the private London Clinic",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/026387b6-916a-4fd2-91c9-c67298468905",
+                        "name": "Prince William, Duke of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8e0ba7b6-4225-fa8a-6369-1b5294e602a5",
+                        "name": "London"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T12:52:00.0000000Z"
+            },
+            {
+                "name": "King Charles and Kate Middleton both in hospital: Who could take over for the monarch if he\u2019s incapacitated?",
+                "url": "https://www.ohmymag.co.uk/entertainment/royal-family/king-charles-and-kate-middleton-both-in-hospital-who-could-take-over-for-the-monarch-if-hes-incapacitated_art20815.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.l1MzMU0b_pJ5L5XAvt_6ui&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "On Wednesday 17 January, it was announced that both the Princess of Wales and King Charles are having health issues requiring surgeries. While the Princess of Wales can be taken",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/607bf330-283c-e25d-6b64-69bbd33d5b72",
+                        "name": "Charles I of England"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "name": "Prince Andrew, Duke of York"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "ohmymag",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.paSXOEqa6avLJqgrjvvuFA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T10:53:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Meghan Markle &#39;copyrighted the name of daughter Lilibet before birth&#39; says royal expert",
+                "url": "https://www.ok.co.uk/royal/meghan-markle-copyright-lilbet-name-31909336",
+                "description": "Meghan Markle allegedly copyrighted the name Lilibet before she and Prince Harry welcomed their daughter in 2021, claims royal expert Angela Levin, who branded it &#39;disrespectful&#39;",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4eebb1e9-4eba-27e3-3473-6e71fe87243f",
+                        "name": "Royal"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Royal"
+                    },
+                    {
+                        "name": "OK!"
+                    },
+                    {
+                        "name": "Elizabeth II"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "OK! Magazine UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.RWPHhKblzyP6_60q3Y3WTw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T10:50:00.0000000Z",
+                "video": {
+                    "name": "Meghan Markle cuddles daughter Princess Lilibet on day out",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/43c62ae5-d114-4a0d-9a06-0b8b08b9d1d5/a963a0ed-1ed4-49aa-9a8f-a58dcfda_650.mp4",
+                    "thumbnail": {
+                        "width": 204,
+                        "height": 360
+                    }
+                }
+            },
+            {
+                "name": "Princess of Wales &#39;doing well&#39; in hospital after abdominal surgery as William postpones duties",
+                "url": "https://www.standard.co.uk/news/uk/kate-princess-of-wales-hospital-abdominal-surgery-william-kensington-palace-b1132967.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.4vOeZt3blVy_tgaR4BIlFy&pid=News",
+                        "width": 700,
+                        "height": 437
+                    }
+                },
+                "description": "The Princess of Wales has undergone planned abdominal surgery, Kensington Palace has said. Kate, 42, was admitted to The London Clinic on Tuesday for the planned procedure.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/75e2062c-b6ee-a947-5a0f-eb58119674fa",
+                        "name": "Abdominal surgery"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Abdominal surgery"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T09:49:00.0000000Z",
+                "video": {
+                    "name": "Kate in hospital after undergoing abdominal surgery",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/c26b5799-82eb-4e9c-8c1a-0251e2d214dc/784b1596-468b-495d-a6fd-51116002_650.mp4",
+                    "thumbnail": {
+                        "width": 640,
+                        "height": 360
+                    }
+                }
+            },
+            {
+                "name": "Princess Lilibet, two, set to inherit \u00a3980,000 gift from Meghan Markle &amp; there\u2019s a nod to Princess Diana",
+                "url": "https://www.thesun.ie/royals/12020158/princess-lilibet-inherit-gift-meghan-markle-princess-diana/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.sdeSBEynx2C98drS060X9C&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "SHE\u2019S only two, but Princess Lilibet is set to receive a staggering \u00a3980,000 worth of jewellery from mum Meghan Markle in years to come. The Duchess of Sussex, 42, has an impressive collection of",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/01e347c1-9d99-c7e6-79d1-390a1844d093",
+                        "name": "Elizabeth II"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f4bf63ea-0b6c-58e0-4587-64927290483f",
+                        "name": "Diana, Princess of Wales"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Irish Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.tjXwvGzOgpcKN_0jNk7glg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T09:43:00.0000000Z"
+            },
+            {
+                "name": "Princess Eugenie&#39;s unearthed comments on &#39;out of fashion&#39; wedding dress",
+                "url": "https://www.hellomagazine.com/brides/511546/princess-eugenie-unearthed-comments-out-of-fashion-wedding-dress/?n=%40",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.QEAPa1--kwBgIoh5oSRsRy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The Princess settled on a gown designed by Peter Pilotto and Christopher De Vos with a V at the front and the back which, combined with her lack of veil, showed off her scoliosis scar. It was a style she had envisioned from the moment she started her wedding dress search following Jack&#39;s proposal on New Year&#39;s Day in 2018.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/33545684-f1e5-b37f-dfce-49adfe3c534d",
+                        "name": "Princess Eugenie of York"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f3f70405-ef17-7f01-3ee0-7b6ff5849a86",
+                        "name": "Wedding dress"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Princess Eugenie of York"
+                    },
+                    {
+                        "name": "Wedding dress"
+                    },
+                    {
+                        "name": "Unearthed"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "HELLO! Magazine",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6bLjCo5bpOYzo-n6kqtwhg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T09:36:00.0000000Z"
+            },
+            {
+                "name": "&#39;Blatant Attack&#39; On Kate Middleton By Royal Left <b>Prince</b> William Furious, Says New Book",
+                "url": "https://www.ibtimes.co.uk/blatant-attack-kate-middleton-royal-left-prince-william-furious-says-new-book-1722830",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.vAQ2bdY4xloHGcdfk09oeC&pid=News",
+                        "width": 560,
+                        "height": 700
+                    }
+                },
+                "description": "Royal author Robert Hardman claimed that the Prince of Wales was furious over an assumption that he did not marry Kate Middleton for love.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/026387b6-916a-4fd2-91c9-c67298468905",
+                        "name": "Prince William, Duke of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4eebb1e9-4eba-27e3-3473-6e71fe87243f",
+                        "name": "Royal"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "IBTimes UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.A4VFXrLFIRNrVa0JPthYgA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T09:03:00.0000000Z"
+            },
+            {
+                "name": "<b>Prince Harry</b>&#39;s account of the Queen&#39;s death &#39;isn&#39;t exactly true&#39;, royal author claims",
+                "url": "https://www.mirror.co.uk/3am/us-celebrity-news/prince-harrys-account-queens-death-31908122",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.wuNZne9ZRWU285A8kloPpS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Prince Harry has claimed he found out about the death of Queen Elizabeth II from the BBC website, but a new book has now said the Royal Family &#39;urgently&#39; tried to contact him",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fd28d627-e4c9-7606-2c1a-552caeddef9c",
+                        "name": "Queen&#39;s"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "Queen&#39;s"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T08:08:00.0000000Z"
+            },
+            {
+                "name": "Inside the exclusive private London hospitals used by the royals",
+                "url": "https://uk.news.yahoo.com/inside-exclusive-private-london-hospitals-135507369.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.oRCRL188vQZCjRL_9EcO6C&pid=News",
+                        "width": 700,
+                        "height": 480
+                    }
+                },
+                "description": "The Princess of Wales is recovering in the London Clinic in Marylebone, after a successful abdominal surgery, it was revealed yesterday. She\u2019s expected to spend between ten and fourteen days at the private Harley Street clinic, before returning home to Windsor to continue her recovery.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8e0ba7b6-4225-fa8a-6369-1b5294e602a5",
+                        "name": "London"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T05:55:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "<b>Prince</b> William and Kate&#39;s unknown kind gesture to <b>Prince Harry</b> and Meghan after Queen&#39;s death revealed",
+                "url": "https://www.hellomagazine.com/royalty/511491/prince-william-and-kates-unknown-kind-gesture-to-prince-harry-and-meghan-markle-after-queens-death-revealed/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Vogqbp-SHBXBqKZalEi9Jy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Over the past couple of years, there has been much attention on Prince William and Prince Harry &#39;s strained relationship. The fractured ties were closely monitored during the period of mourning after Queen Elizabeth&#39;s death in September 2022 when the Waleses and Sussexes came together.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/026387b6-916a-4fd2-91c9-c67298468905",
+                        "name": "Prince William, Duke of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a31741c4-6de1-9333-9430-466e0032ca91",
+                        "name": "Queen&#39;s, Kingston"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince William, Duke of Cambridge"
+                    },
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Queen&#39;s, Kingston"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "HELLO! Magazine",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6bLjCo5bpOYzo-n6kqtwhg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T04:03:00.0000000Z",
+                "video": {
+                    "name": "Prince William and Kate&#39;s unknown kind gesture to Prince Harry and Meghan after Queen&#39;s death revealed",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/c1393a54-ab91-4dae-92f6-eb0776c48f2e/f973ddfa-a021-4e39-814f-0aa40ad9_650.mp4",
+                    "thumbnail": {
+                        "width": 640,
+                        "height": 360
+                    }
+                }
+            },
+            {
+                "name": "Herbs and flowers flourish in my hilltop garden, except where I want them",
+                "url": "https://www.newstatesman.com/culture/books/book-of-the-day/2024/01/charles-iii-biography-king-robert-hardman",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.MQHeGe4ObogKbDYQxlXWSy&pid=News",
+                        "width": 700,
+                        "height": 365
+                    }
+                },
+                "description": "Robert Hardman\u2019s obsequious biography pays court to a monarch who is enjoying his power over a deferential nation.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d4f20400-b37e-d144-144d-ef1f11c94fbf",
+                        "name": "The New Statesman"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9992b7b1-942b-2acc-0714-38afb283dae6",
+                        "name": "King Charles III"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "New Statesman",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.83Sdvx0ijgf5jpBYrSS3Lg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T01:00:00.0000000Z"
+            },
+            {
+                "name": "Double whammy of King and Princess\u2019s health problems hits hopes of royal \u2018annus mirabilis\u2019",
+                "url": "https://www.telegraph.co.uk/royal-family/2024/01/17/double-whammy-health-problems-blow-to-royal-hopes/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.PmL35hS46r980-CiZhZROC&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "Prince of Wales will also be sidelined as he helps his wife convalesce and looks after children, leaving slimmed-down \u2018Firm\u2019 badly stretched",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/607bf330-283c-e25d-6b64-69bbd33d5b72",
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/db354498-461c-7f97-1a96-0b187498d74c",
+                        "name": "Annus mirabilis"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "name": "Annus mirabilis"
+                    },
+                    {
+                        "name": "Royal"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T00:19:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Prince Harry</b>&#39;s claim about Queen&#39;s death &#39;isn&#39;t exactly true&#39;, says royal author",
+                "url": "https://www.dailyrecord.co.uk/entertainment/celebrity/prince-harrys-claim-queens-death-31909499",
+                "description": "<b>Prince Harry</b> claims to have not found out about his grandmother Queen Elizabeth&#39;s death from his family but a royal author has now said that is not entirely true. The Duke of Sussex rushed to be by the late monarch&#39;s side when he heard about her fast declining health in the hours before her passing.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fb6f4f93-ce23-76a6-98b5-3ab6b5286762",
+                        "name": "Daily Record"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4eebb1e9-4eba-27e3-3473-6e71fe87243f",
+                        "name": "Royal"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Record"
+                    }
+                ],
+                "datePublished": "2024-01-18T00:00:00.0000000Z"
+            },
+            {
+                "name": "It will take Kate, Princes of Wales, three months to recover after surgery",
+                "url": "https://www.walesonline.co.uk/news/uk-news/take-kate-princes-wales-three-28466185",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.UKElRDoIc3p3Zxfve_Nubi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The <b>Prince</b> of Wales is to take time off ... The Waleses also faced the ongoing rift between William and his brother the Duke of Sussex, with <b>Harry</b> making controversial claims about Charles, Camilla, William and Kate in his Netflix documentary and memoir ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/507e27aa-24fb-9b98-1e76-45f59043d1e6",
+                        "name": "Romanian months"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Romanian months"
+                    },
+                    {
+                        "name": "Prince of Wales"
+                    },
+                    {
+                        "name": "Surgery"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Wales Online"
+                    }
+                ],
+                "datePublished": "2024-01-18T00:00:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "Sarah Ferguson&#39;s hopes of landing full-time This Morning role dashed in blow to <b>Prince</b> Andrew",
+                "url": "https://www.ok.co.uk/royal/sarah-fergusons-hopes-landing-full-31846685",
+                "description": "Despite suggestions from the King for him to shift into <b>Prince Harry</b> and Meghan Markle &#39;s more modest four-bedroom Frogmore Cottage on the Windsor estate, Andrew&#39;s friends affirm that the Royal is not intending to consider alternate accommodation options.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b84dbc56-5694-49b0-779d-86f4c2228acb",
+                        "name": "Prince Andrew, Duke of York"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1957c85d-0313-2385-04c3-286aac8fc810",
+                        "name": "Sarah, Duchess of York"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/796ee494-fcc6-fac8-02c3-3e65fb6254e1",
+                        "name": "This Morning"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "OK! Magazine UK"
+                    }
+                ],
+                "datePublished": "2024-01-10T00:00:00.0000000Z",
+                "category": "Entertainment"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=prince+harry",
+        "queryContext": {
+            "originalQuery": "prince harry",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 227,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=prince+harry"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=prince+harry&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "<b>Prince</b> William Visited Kate Middleton in the Hospital After Her Surprise Surgery",
+                "url": "https://uk.style.yahoo.com/prince-william-visited-kate-middleton-173451359.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.jKimkGUqbfcmVVmoC57OVS&pid=News",
+                        "width": 700,
+                        "height": 536
+                    }
+                },
+                "description": "Prince William is stepping up to the plate as a supportive husband after it was announced that Kate Middleton was hospitalized following an abdominal surgery. The royal was spotted leaving the private hospital on Thursday \u2014 in an Audi e-Tron GT Carbon Vorsprung,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/026387b6-916a-4fd2-91c9-c67298468905",
+                        "name": "Prince William, Duke of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8a182278-ee48-4cc3-8a1f-a70893d74b01",
+                        "name": "Surprise"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Style UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.R1Y_kEYTGAFzjK1_2NaYlQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T17:34:00.0000000Z"
+            },
+            {
+                "name": "<b>Prince Harry</b> urged to call royals as King Charles and Kate Middleton face hospital spells",
+                "url": "https://www.lbc.co.uk/news/prince-harry-kate-king-hospital/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.LsLpnidnlBVJmde4UHP9bC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Prince Harry has been told to call King Charles and Princess Kate as both face spells in hospital. Kate has undergone abdominal surgery and is recovering at the London Clinic, where she is expected to spend up to two weeks. She has cleared her engagements calendar until after Easter.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/607bf330-283c-e25d-6b64-69bbd33d5b72",
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/085da3bd-8560-1638-8402-b77b0bb0e17c",
+                        "name": "Face"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "LBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.iWFEm2xSUKuVEhtVsjP6gQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T17:12:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "<b>Prince Harry</b>&#39;s &#39;unusual gesture&#39; while jogging shows he&#39;s &#39;frustrated&#39;, says expert",
+                "url": "https://www.express.co.uk/news/royal/1857266/Prince-Harry-jogging-Meghan-Markle-Lilibet",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.mxF4C-MVKZHNj4nyCpMwgy&pid=News",
+                        "width": 700,
+                        "height": 415
+                    }
+                },
+                "description": "Prince Harry was snapped breaking cover for the first time since the Lilibet name scandal - and a body language expert spotted a sign he&#39;s &#39;angry&#39;.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4eb0b986-b460-2620-00b5-8ec172abf717",
+                        "name": "Royal News"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Daily Express"
+                    },
+                    {
+                        "name": "Royal News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T16:50:00.0000000Z"
+            },
+            {
+                "name": "<b>Prince Harry</b> and Meghan Markle fans spark outrage over &#39;disgusting&#39; Princess Kate comments",
+                "url": "https://www.express.co.uk/news/royal/1857262/prince-harry-meghan-markle-fans-disgusting-comments",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.MiY30KZ2Zi-s07-03cYnJS&pid=News",
+                        "width": 700,
+                        "height": 415
+                    }
+                },
+                "description": "Fans of the Sussexes appeared to take aim at the Princess of Wales and a royal commentator has hit out at them branding their comments &quot;disgusting&quot;.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "name": "Daily Express"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T16:47:00.0000000Z"
+            },
+            {
+                "name": "Hollywood A-lister with \u2018strong emotional link\u2019 to <b>Prince Harry</b> was behind duke receiving \u2018Legend of Aviation\u2019 award",
+                "url": "https://www.thesun.co.uk/royals/25408525/prince-harry-flying-award-hollywood-john-travolta-royal/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.02mZiGyeKByuK99N3zVMPS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "PULP Fiction actor John Travolta was the driving force behind Prince Harry being inducted into an aviation hall of fame, it\u2019s been claimed. Harry, 39, is set to be inducted tomorrow in",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9984d1da-4a59-c40a-0ea2-6d2c87719a31",
+                        "name": "Hollywood"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1527ae3-d2df-bf9d-5c18-e072d7176621",
+                        "name": "Duke"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mZZguWnkRkVFPCoaQUmKEg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T16:47:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Is it time for Mike and Zara Tindall to replace <b>Prince Harry</b> and Meghan Markle? Popular couple are already comfortable in the limelight - and swapping their money-making deals ...",
+                "url": "https://www.dailymail.co.uk/femail/article-12977963/zara-mike-tindall-royal-family-monarchy-princess-anne.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.yCLlKQfQGFET31edaXqxci&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The couple, who live together on Princess Anne &#39;s Gatecombe Estate in Gloucestershire, already have a closeness with the Wales family, are very popular with the public.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/88396a04-266f-946c-4f6f-4cfd4b30d39d",
+                        "name": "Mike Tindall"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a3a49a10-0c4b-c98d-97b7-f1212e960cc8",
+                        "name": "Zara Phillips"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Mike Tindall"
+                    },
+                    {
+                        "name": "Zara Phillips"
+                    },
+                    {
+                        "name": "Prince Harry"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T16:16:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Heartbroken <b>Prince Harry</b> &#39;comforted by Princess Anne&#39; after being told of Queen\u2019s death",
+                "url": "https://www.mirror.co.uk/3am/us-celebrity-news/heartbroken-prince-harry-comforted-princess-31912632",
+                "description": "Queen Elizabeth II passed away in September 2022 at Balmoral Castle in Scotland, and Prince Harry recalled he arrived too late to see his dying grandmother after flying in from the US",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/05e27166-a2c6-7052-8ca0-e399f5114ed8",
+                        "name": "Heartbroken"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Heartbroken"
+                    },
+                    {
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T15:53:00.0000000Z"
+            },
+            {
+                "name": "Princess Lilibet could inherit \u00a3980,000 worth of jewellery from Meghan and Princess Diana",
+                "url": "https://www.ohmymag.co.uk/entertainment/royal-family/princess-lilibet-could-inherit-980000-worth-of-jewellery-from-meghan-and-princess-diana_art20822.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.5W5Dfox5VFPieg23v6JSQC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Princess Lilibet is expected to be the owner of some of history\u2019s most impressive jewellery pieces. From Meghan Markle\u2019s collection to Princess Diana\u2019s, here\u2019s what she could",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/01e347c1-9d99-c7e6-79d1-390a1844d093",
+                        "name": "Elizabeth II"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f4bf63ea-0b6c-58e0-4587-64927290483f",
+                        "name": "Diana, Princess of Wales"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Elizabeth II"
+                    },
+                    {
+                        "name": "Diana, Princess of Wales"
+                    },
+                    {
+                        "name": "Prince William, Duke of Cambridge"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "ohmymag",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.paSXOEqa6avLJqgrjvvuFA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T15:16:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "13 little-known facts about Severus Snape that &#39;<b>Harry</b> Potter&#39; fans probably don&#39;t remember",
+                "url": "https://uk.finance.yahoo.com/news/13-little-known-facts-severus-145124852.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.hnqh4Y8irBuEuWiUgtru-i&pid=News",
+                        "width": 700,
+                        "height": 524
+                    }
+                },
+                "description": "Snape, the Hogwarts Potions professor was a mysterious double agent, so even the biggest &quot;Harry Potter&quot; fans may not have heard all of these secrets.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ac7c3970-2fdc-c3e4-b4dd-f462a975806f",
+                        "name": "Harry Potter fandom"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6f3c6f99-0f95-429b-08d2-9a24193f3d4d",
+                        "name": "Professor Severus Snape"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Finance",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.LBn5t3rqxzpf5jMTBU81BA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T14:51:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "ROBERT JOBSON: <b>Harry</b> must be contemplating how it could have been so different. His family needs him, but he has gone AWOL. And it raises some important &#39;what ifs&#39;...",
+                "url": "https://www.dailymail.co.uk/debate/article-12978251/ROBERT-JOBSON-Harry-contemplating-different-family-needs-gone-AWOL-raises-important-ifs.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Iv5mhpKS1qAogSVh8OLQ8C&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Rather than gazing at his navel or collecting pointless awards - lauded as a &#39;legend&#39; of aviation - the royal formerly known as Prince could have been doing something useful for Crown and country.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/93a3e0e2-aecf-e53b-8432-c15f400cfb4e",
+                        "name": "Daily Mail"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cccc474c-e7b2-4542-6fe4-47cdde771e64",
+                        "name": "Desertion"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T14:22:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "<b>Prince Harry</b> NEEDS to call his dad King Charles and sister-in-law Kate over ops to bridge \u2018very deep rift\u2019, expert says",
+                "url": "https://www.thesun.co.uk/royals/25406689/prince-harry-needs-call-dad-king-charles-kate/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.U_RlPw9eZG3dIV_BWYSrpC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "PRINCE Harry needs to call his dad and sister-in-law over their operations to bridge the \u201cvery deep rift\u201d, a royal expert has said. The 42-year-old Princess of Wales is recovering in a",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/607bf330-283c-e25d-6b64-69bbd33d5b72",
+                        "name": "Charles I of England"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mZZguWnkRkVFPCoaQUmKEg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T13:57:00.0000000Z"
+            },
+            {
+                "name": "Queen Camilla confirms King Charles is &#39;looking forward to getting back to work&#39; after hospital visit",
+                "url": "https://www.dailyrecord.co.uk/entertainment/celebrity/queen-camilla-confirms-king-charles-31911823.amp",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.dUJylMGzWm4hCHw3XfcJTi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The 75-year-old monarch, who acceded to the throne 16 months ago, will be admitted to hospital next week. <b>Prince Harry</b>&#39;s claim about Queen&#39;s death &#39;isn&#39;t exactly true&#39;, says royal author In a statement, Buckingham Palace said: \u201cIn common with thousands ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/607bf330-283c-e25d-6b64-69bbd33d5b72",
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f4af795d-5426-b48f-2621-1f5cfc9344eb",
+                        "name": "Queen Camilla"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Record"
+                    }
+                ],
+                "datePublished": "2024-01-18T13:22:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "<b>Prince</b> William visits wife Kate in London hospital as she recovers from abdominal surgery",
+                "url": "https://uk.news.yahoo.com/prince-william-visits-wife-kate-125234616.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.xjp8qPRs5cXAmJO87SueNS&pid=News",
+                        "width": 700,
+                        "height": 417
+                    }
+                },
+                "description": "Thursday&#39;s visit came as the Princess of Wales was said to be &#39;doing well&#39; after a comfortable night at the private London Clinic",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/026387b6-916a-4fd2-91c9-c67298468905",
+                        "name": "Prince William, Duke of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8e0ba7b6-4225-fa8a-6369-1b5294e602a5",
+                        "name": "London"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T12:52:00.0000000Z"
+            },
+            {
+                "name": "King Charles and Kate Middleton both in hospital: Who could take over for the monarch if he\u2019s incapacitated?",
+                "url": "https://www.ohmymag.co.uk/entertainment/royal-family/king-charles-and-kate-middleton-both-in-hospital-who-could-take-over-for-the-monarch-if-hes-incapacitated_art20815.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.l1MzMU0b_pJ5L5XAvt_6ui&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "On Wednesday 17 January, it was announced that both the Princess of Wales and King Charles are having health issues requiring surgeries. While the Princess of Wales can be taken",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/607bf330-283c-e25d-6b64-69bbd33d5b72",
+                        "name": "Charles I of England"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "name": "Prince Andrew, Duke of York"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "ohmymag",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.paSXOEqa6avLJqgrjvvuFA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T10:53:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Meghan Markle &#39;copyrighted the name of daughter Lilibet before birth&#39; says royal expert",
+                "url": "https://www.ok.co.uk/royal/meghan-markle-copyright-lilbet-name-31909336",
+                "description": "Meghan Markle allegedly copyrighted the name Lilibet before she and Prince Harry welcomed their daughter in 2021, claims royal expert Angela Levin, who branded it &#39;disrespectful&#39;",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4eebb1e9-4eba-27e3-3473-6e71fe87243f",
+                        "name": "Royal"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Royal"
+                    },
+                    {
+                        "name": "OK!"
+                    },
+                    {
+                        "name": "Elizabeth II"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "OK! Magazine UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.RWPHhKblzyP6_60q3Y3WTw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T10:50:00.0000000Z",
+                "video": {
+                    "name": "Meghan Markle cuddles daughter Princess Lilibet on day out",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/43c62ae5-d114-4a0d-9a06-0b8b08b9d1d5/a963a0ed-1ed4-49aa-9a8f-a58dcfda_650.mp4",
+                    "thumbnail": {
+                        "width": 204,
+                        "height": 360
+                    }
+                }
+            },
+            {
+                "name": "Princess of Wales &#39;doing well&#39; in hospital after abdominal surgery as William postpones duties",
+                "url": "https://www.standard.co.uk/news/uk/kate-princess-of-wales-hospital-abdominal-surgery-william-kensington-palace-b1132967.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.4vOeZt3blVy_tgaR4BIlFy&pid=News",
+                        "width": 700,
+                        "height": 437
+                    }
+                },
+                "description": "The Princess of Wales has undergone planned abdominal surgery, Kensington Palace has said. Kate, 42, was admitted to The London Clinic on Tuesday for the planned procedure.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/75e2062c-b6ee-a947-5a0f-eb58119674fa",
+                        "name": "Abdominal surgery"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Abdominal surgery"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T09:49:00.0000000Z",
+                "video": {
+                    "name": "Kate in hospital after undergoing abdominal surgery",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/c26b5799-82eb-4e9c-8c1a-0251e2d214dc/784b1596-468b-495d-a6fd-51116002_650.mp4",
+                    "thumbnail": {
+                        "width": 640,
+                        "height": 360
+                    }
+                }
+            },
+            {
+                "name": "Princess Lilibet, two, set to inherit \u00a3980,000 gift from Meghan Markle &amp; there\u2019s a nod to Princess Diana",
+                "url": "https://www.thesun.ie/royals/12020158/princess-lilibet-inherit-gift-meghan-markle-princess-diana/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.sdeSBEynx2C98drS060X9C&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "SHE\u2019S only two, but Princess Lilibet is set to receive a staggering \u00a3980,000 worth of jewellery from mum Meghan Markle in years to come. The Duchess of Sussex, 42, has an impressive collection of",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/01e347c1-9d99-c7e6-79d1-390a1844d093",
+                        "name": "Elizabeth II"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f4bf63ea-0b6c-58e0-4587-64927290483f",
+                        "name": "Diana, Princess of Wales"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Irish Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.tjXwvGzOgpcKN_0jNk7glg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T09:43:00.0000000Z"
+            },
+            {
+                "name": "Princess Eugenie&#39;s unearthed comments on &#39;out of fashion&#39; wedding dress",
+                "url": "https://www.hellomagazine.com/brides/511546/princess-eugenie-unearthed-comments-out-of-fashion-wedding-dress/?n=%40",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.QEAPa1--kwBgIoh5oSRsRy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The Princess settled on a gown designed by Peter Pilotto and Christopher De Vos with a V at the front and the back which, combined with her lack of veil, showed off her scoliosis scar. It was a style she had envisioned from the moment she started her wedding dress search following Jack&#39;s proposal on New Year&#39;s Day in 2018.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/33545684-f1e5-b37f-dfce-49adfe3c534d",
+                        "name": "Princess Eugenie of York"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f3f70405-ef17-7f01-3ee0-7b6ff5849a86",
+                        "name": "Wedding dress"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Princess Eugenie of York"
+                    },
+                    {
+                        "name": "Wedding dress"
+                    },
+                    {
+                        "name": "Unearthed"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "HELLO! Magazine",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6bLjCo5bpOYzo-n6kqtwhg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T09:36:00.0000000Z"
+            },
+            {
+                "name": "&#39;Blatant Attack&#39; On Kate Middleton By Royal Left <b>Prince</b> William Furious, Says New Book",
+                "url": "https://www.ibtimes.co.uk/blatant-attack-kate-middleton-royal-left-prince-william-furious-says-new-book-1722830",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.vAQ2bdY4xloHGcdfk09oeC&pid=News",
+                        "width": 560,
+                        "height": 700
+                    }
+                },
+                "description": "Royal author Robert Hardman claimed that the Prince of Wales was furious over an assumption that he did not marry Kate Middleton for love.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/026387b6-916a-4fd2-91c9-c67298468905",
+                        "name": "Prince William, Duke of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4eebb1e9-4eba-27e3-3473-6e71fe87243f",
+                        "name": "Royal"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "IBTimes UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.A4VFXrLFIRNrVa0JPthYgA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T09:03:00.0000000Z"
+            },
+            {
+                "name": "<b>Prince Harry</b>&#39;s account of the Queen&#39;s death &#39;isn&#39;t exactly true&#39;, royal author claims",
+                "url": "https://www.mirror.co.uk/3am/us-celebrity-news/prince-harrys-account-queens-death-31908122",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.wuNZne9ZRWU285A8kloPpS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Prince Harry has claimed he found out about the death of Queen Elizabeth II from the BBC website, but a new book has now said the Royal Family &#39;urgently&#39; tried to contact him",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fd28d627-e4c9-7606-2c1a-552caeddef9c",
+                        "name": "Queen&#39;s"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "Queen&#39;s"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T08:08:00.0000000Z"
+            },
+            {
+                "name": "Inside the exclusive private London hospitals used by the royals",
+                "url": "https://uk.news.yahoo.com/inside-exclusive-private-london-hospitals-135507369.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.oRCRL188vQZCjRL_9EcO6C&pid=News",
+                        "width": 700,
+                        "height": 480
+                    }
+                },
+                "description": "The Princess of Wales is recovering in the London Clinic in Marylebone, after a successful abdominal surgery, it was revealed yesterday. She\u2019s expected to spend between ten and fourteen days at the private Harley Street clinic, before returning home to Windsor to continue her recovery.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8e0ba7b6-4225-fa8a-6369-1b5294e602a5",
+                        "name": "London"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T05:55:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "<b>Prince</b> William and Kate&#39;s unknown kind gesture to <b>Prince Harry</b> and Meghan after Queen&#39;s death revealed",
+                "url": "https://www.hellomagazine.com/royalty/511491/prince-william-and-kates-unknown-kind-gesture-to-prince-harry-and-meghan-markle-after-queens-death-revealed/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Vogqbp-SHBXBqKZalEi9Jy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Over the past couple of years, there has been much attention on Prince William and Prince Harry &#39;s strained relationship. The fractured ties were closely monitored during the period of mourning after Queen Elizabeth&#39;s death in September 2022 when the Waleses and Sussexes came together.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/026387b6-916a-4fd2-91c9-c67298468905",
+                        "name": "Prince William, Duke of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a31741c4-6de1-9333-9430-466e0032ca91",
+                        "name": "Queen&#39;s, Kingston"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince William, Duke of Cambridge"
+                    },
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Queen&#39;s, Kingston"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "HELLO! Magazine",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6bLjCo5bpOYzo-n6kqtwhg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T04:03:00.0000000Z",
+                "video": {
+                    "name": "Prince William and Kate&#39;s unknown kind gesture to Prince Harry and Meghan after Queen&#39;s death revealed",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/c1393a54-ab91-4dae-92f6-eb0776c48f2e/f973ddfa-a021-4e39-814f-0aa40ad9_650.mp4",
+                    "thumbnail": {
+                        "width": 640,
+                        "height": 360
+                    }
+                }
+            },
+            {
+                "name": "Herbs and flowers flourish in my hilltop garden, except where I want them",
+                "url": "https://www.newstatesman.com/culture/books/book-of-the-day/2024/01/charles-iii-biography-king-robert-hardman",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.MQHeGe4ObogKbDYQxlXWSy&pid=News",
+                        "width": 700,
+                        "height": 365
+                    }
+                },
+                "description": "Robert Hardman\u2019s obsequious biography pays court to a monarch who is enjoying his power over a deferential nation.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d4f20400-b37e-d144-144d-ef1f11c94fbf",
+                        "name": "The New Statesman"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9992b7b1-942b-2acc-0714-38afb283dae6",
+                        "name": "King Charles III"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "New Statesman",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.83Sdvx0ijgf5jpBYrSS3Lg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T01:00:00.0000000Z"
+            },
+            {
+                "name": "Double whammy of King and Princess\u2019s health problems hits hopes of royal \u2018annus mirabilis\u2019",
+                "url": "https://www.telegraph.co.uk/royal-family/2024/01/17/double-whammy-health-problems-blow-to-royal-hopes/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.PmL35hS46r980-CiZhZROC&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "Prince of Wales will also be sidelined as he helps his wife convalesce and looks after children, leaving slimmed-down \u2018Firm\u2019 badly stretched",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/607bf330-283c-e25d-6b64-69bbd33d5b72",
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/db354498-461c-7f97-1a96-0b187498d74c",
+                        "name": "Annus mirabilis"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "name": "Annus mirabilis"
+                    },
+                    {
+                        "name": "Royal"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-18T00:19:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Prince Harry</b>&#39;s claim about Queen&#39;s death &#39;isn&#39;t exactly true&#39;, says royal author",
+                "url": "https://www.dailyrecord.co.uk/entertainment/celebrity/prince-harrys-claim-queens-death-31909499",
+                "description": "<b>Prince Harry</b> claims to have not found out about his grandmother Queen Elizabeth&#39;s death from his family but a royal author has now said that is not entirely true. The Duke of Sussex rushed to be by the late monarch&#39;s side when he heard about her fast declining health in the hours before her passing.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fb6f4f93-ce23-76a6-98b5-3ab6b5286762",
+                        "name": "Daily Record"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4eebb1e9-4eba-27e3-3473-6e71fe87243f",
+                        "name": "Royal"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Record"
+                    }
+                ],
+                "datePublished": "2024-01-18T00:00:00.0000000Z"
+            },
+            {
+                "name": "It will take Kate, Princes of Wales, three months to recover after surgery",
+                "url": "https://www.walesonline.co.uk/news/uk-news/take-kate-princes-wales-three-28466185",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.UKElRDoIc3p3Zxfve_Nubi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The <b>Prince</b> of Wales is to take time off ... The Waleses also faced the ongoing rift between William and his brother the Duke of Sussex, with <b>Harry</b> making controversial claims about Charles, Camilla, William and Kate in his Netflix documentary and memoir ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/507e27aa-24fb-9b98-1e76-45f59043d1e6",
+                        "name": "Romanian months"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Romanian months"
+                    },
+                    {
+                        "name": "Prince of Wales"
+                    },
+                    {
+                        "name": "Surgery"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Wales Online"
+                    }
+                ],
+                "datePublished": "2024-01-18T00:00:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "Sarah Ferguson&#39;s hopes of landing full-time This Morning role dashed in blow to <b>Prince</b> Andrew",
+                "url": "https://www.ok.co.uk/royal/sarah-fergusons-hopes-landing-full-31846685",
+                "description": "Despite suggestions from the King for him to shift into <b>Prince Harry</b> and Meghan Markle &#39;s more modest four-bedroom Frogmore Cottage on the Windsor estate, Andrew&#39;s friends affirm that the Royal is not intending to consider alternate accommodation options.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b84dbc56-5694-49b0-779d-86f4c2228acb",
+                        "name": "Prince Andrew, Duke of York"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1957c85d-0313-2385-04c3-286aac8fc810",
+                        "name": "Sarah, Duchess of York"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/796ee494-fcc6-fac8-02c3-3e65fb6254e1",
+                        "name": "This Morning"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "OK! Magazine UK"
+                    }
+                ],
+                "datePublished": "2024-01-10T00:00:00.0000000Z",
+                "category": "Entertainment"
+            }
+        ]
+    }
+]
