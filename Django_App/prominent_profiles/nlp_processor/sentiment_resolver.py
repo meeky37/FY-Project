@@ -98,7 +98,7 @@ class SentimentAnalyser:
                 left_segment=left_segment,
                 mention_segment=mention_segment,
                 right_segment=right_segment,
-                error_message=f"Exception during sentiment analysis: {e.with_traceback()}"
+                error_message=f"Exception during sentiment analysis"
             )
 
             raise
