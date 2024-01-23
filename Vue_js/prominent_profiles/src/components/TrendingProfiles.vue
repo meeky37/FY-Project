@@ -32,7 +32,7 @@
 <template>
   <div class="card">
         <div class="grid-container">
-    <TrendingProfileCard v-for="(entry, index) in entities" :key="index" :entry="entry" />
+    <TrendingProfileCard v-for="(entry) in entities" :key="entry" :entry="entry" />
   </div>
      </div>
 </template>
@@ -42,10 +42,6 @@ import TrendingProfileCard from './TrendingProfileCard.vue'
 import { API_BASE_URL } from '@/config'
 import axios from 'axios'
 import { ref, onMounted } from 'vue'
-
-import { gsap } from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
-gsap.registerPlugin(ScrollTrigger)
 
 const entities = ref([])
 
