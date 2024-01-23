@@ -22,7 +22,6 @@ def can_fetch_url(url_to_check):
     policy."""
     parsed_url = urlparse(url_to_check)
     base_url = parsed_url.scheme + "://" + parsed_url.netloc
-    # print(base_url)
     rules = urllib.robotparser.RobotFileParser()
     rules.set_url(base_url + "/robots.txt")
     rules.read()
@@ -155,8 +154,12 @@ def update_entity_name(entry):
     for text in cluster_text:
         # Remove titles as not relevant
         text = remove_titles(text)
+        # Replaces left / right quotation mark with standard single quotation mark
+        text = text.replace('’', "'").replace('‘', "'")
         # Remove possessive markers for comparison
         text = text.replace("’s", "")
+        # Remove space and quote
+        text = text.replace(" '", "")
         # Check if the current entity name is a substring of a 2-word cluster text entry
         if len(text.split()) == 2 and entity_name in text:
             entry['Entity Name'] = text
@@ -585,7 +588,11 @@ class Article:
 
             '''Found 'Entity Name': 'Reginald D. Hunter’s' - handle removing 's from last word'''
 
+            # Replaces left / right quotation mark with standard single quotation mark
             entity_name = entity_name.replace('’', "'").replace('‘', "'")
+
+            # Handle the relatively common case of Meghan Markle '  i.e the space then quote mark
+            entity_name = entity_name.rstrip("'")
 
             # Split the entity name into words
             words = entity_name.split()
@@ -599,6 +606,9 @@ class Article:
 
             # Capitalise the first letter of each word and make the rest lowercase
             cleaned_name = ' '.join(word.capitalize() for word in words)
+
+            # Remove spaces @ start and end string
+            cleaned_name = cleaned_name.strip()
 
             # Replace the original entity name with the cleaned name
             entity['Entity Name'] = cleaned_name
@@ -615,6 +625,17 @@ class Article:
                       f"threshold of {self.mention_threshold}.")
                 print(f"Removing entity {entity['Entity Name']} with Cluster ID {cluster_id} due "
                       f"to low mention count:")
+                # print(entity['Cluster Info'])
+                clustered_entities.remove(entity)
+                continue
+
+            # At most, an entity should have the first, middle and last name.
+            if len(cleaned_name.split()) > 3:
+                print(f"Cluster ID {cluster_id} has {num_entries} entries, which is below the "
+                      f"threshold of {self.mention_threshold}.")
+                print(
+                    f"Removing entity {entity['Entity Name']} with Cluster ID {cluster_id} due "
+                    f"to low mention count:")
                 # print(entity['Cluster Info'])
                 clustered_entities.remove(entity)
                 continue
