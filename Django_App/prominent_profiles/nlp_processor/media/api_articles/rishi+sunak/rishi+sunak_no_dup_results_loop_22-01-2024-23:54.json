@@ -1,0 +1,2243 @@
+[
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak",
+        "queryContext": {
+            "originalQuery": "rishi sunak",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 12,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "UK and US forces launch fresh missile strikes on Houthis in Yemen",
+                "url": "https://inews.co.uk/news/world/uk-us-launch-fresh-missile-strikes-houthis-yemen-2868111?ITO=msn",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.SQSyNg-_yrZS2_h8Y6QoLi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The strikes were launched in response to an ongoing campaign of Houthi drone and missile attacks on commercial ships in the Red Sea",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8d8f36f1-f292-3a92-a6b9-2c3b83e3ffba",
+                        "name": "Yemen"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1fac930f-50ce-d8a7-f1f4-040b1e389960",
+                        "name": "Missile"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Yemen"
+                    },
+                    {
+                        "name": "Missile"
+                    },
+                    {
+                        "name": "United States Armed Forces"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T23:09:00.0000000Z"
+            },
+            {
+                "name": "UK launches new round of strikes at Houthis in Yemen alongside US",
+                "url": "https://metro.co.uk/2024/01/22/uk-launches-new-round-strikes-houthis-yemen-alongside-us-20156101/?ico=trending-post-strip_item_1",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.JzkyW2Ygg_Pp9NJIPJUroi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The US and UK have ramped up joint air strikes against Houthi targets in Yemen, American officials have said. It comes a week after the US and UK launched their first airstrikes on military facilities used by Houthi rebels in Yemen after their attacks on ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8d8f36f1-f292-3a92-a6b9-2c3b83e3ffba",
+                        "name": "Yemen"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2872a54f-b045-8fe3-d356-1aa538e14812",
+                        "name": "Metro International"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Metro"
+                    }
+                ],
+                "datePublished": "2024-01-22T23:06:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Storm Isha Ravages UK, Leaving Thousands Without Power And Two Dead",
+                "url": "https://www.ibtimes.co.uk/storm-isha-ravages-uk-leaving-thousands-without-power-two-dead-1722910",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.d2Sbi9bkxdd6SChoQOf3Gi&pid=News",
+                        "width": 700,
+                        "height": 444
+                    }
+                },
+                "description": "Scotland, Northern Ireland, north-west England, and Wales were particularly hard-hit, with remote areas warned of potential power outages until Tuesday.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ff22b9b9-7ffd-eb75-022e-2fb7291b1ebe",
+                        "name": "Storm"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "IBTimes UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.A4VFXrLFIRNrVa0JPthYgA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T22:56:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "NHS could save \u00a310bn by cracking down on waste Labour claim",
+                "url": "https://inews.co.uk/news/politics/nhs-bill-cut-10bn-crack-down-waste-labour-2867919",
+                "description": "Billions of pounds of taxpayers\u2019 money is being wasted or poorly spent by the NHS each year on recruitment agencies, management consultants and archaic pagers, Labour has claimed. Shadow Health Secretary Wes Streeting believes the health service is throwing away around \u00a310bn as a result of poor governance under the Conservatives.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c8a6585b-6ce1-05b9-f97c-85328950d272",
+                        "name": "Waste"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Waste"
+                    },
+                    {
+                        "name": "Australian Labor Party"
+                    },
+                    {
+                        "name": "National Health Service"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T22:52:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "US, UK stage multiple airstrikes against Iran-backed Houthi militants in Yemen",
+                "url": "https://uk.movies.yahoo.com/us-uk-stage-multiple-airstrikes-213400223.html",
+                "description": "The U.S. and U.K. on Monday staged airstrikes against eight targets in Yemen aimed at stopping Iran-backed Houthi militants from attacking ships in the Red Sea. The White House has insisted the retaliatory airstrikes -- seven rounds so far -- have been effective despite repeated Houthi attacks.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8d8f36f1-f292-3a92-a6b9-2c3b83e3ffba",
+                        "name": "Yemen"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/502b5268-992d-26c9-a0d8-6f206338406e",
+                        "name": "Iran"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4d71f786-29e1-cef9-de96-0a192db2e58f",
+                        "name": "Houthis"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Movies UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Mpa2adDaIj4hp3hgCdO2wA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T22:46:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Fresh UK and US airstrikes on Houthi targets to \u2018deal another blow\u2019 to militants",
+                "url": "https://www.kentonline.co.uk/news/national/fresh-uk-and-us-airstrikes-on-houthi-targets-deal-another-blow-to-militants-108681/",
+                "description": "<b>Rishi Sunak</b> and US President Joe Biden spoke on Monday evening, with the two leaders undertaking to \u201ccontinue efforts alongside international partners to deter and disrupt\u201d attacks by Houthis. In recent days, the US launched seven rounds of airstrikes ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Kent Online"
+                    }
+                ],
+                "datePublished": "2024-01-22T22:33:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Middle East crisis live: UK says airstrikes are in \u2018self-defence\u2019 as Pentagon says bombing targeted Houthi underground missile sites",
+                "url": "https://www.theguardian.com/world/live/2024/jan/22/middle-east-crisis-live-updates-news-airstrikes-houthi-missile-yemen-biden-sunak-red-sea?page=with:block-65aeef078f0835e980a41a17",
+                "description": "Mohammed Al-Bukhaiti accused the UK and US of neing \u201cperpetrators\u201d to \u201cgenocide\u201d in Gaza. UK prime minister <b>Rishi Sunak</b> did not brief Labour leader Keir Starmer or House or Commons speaker Sir Lindsay Hoyle ahead of the strikes. <b>Sunak</b> recieved flak ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ba4dcd59-7aaf-ab51-0b2c-3186cc75acdc",
+                        "name": "Middle East"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f8e3b5fa-8d72-5bd7-c9c1-24ef1caf555a",
+                        "name": "The Pentagon"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1fac930f-50ce-d8a7-f1f4-040b1e389960",
+                        "name": "Missile"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Middle East"
+                    },
+                    {
+                        "name": "The Pentagon"
+                    },
+                    {
+                        "name": "Missile"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian"
+                    }
+                ],
+                "datePublished": "2024-01-22T21:51:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Starmer accuses Tories of \u2018waging war on proud spirit of service in country\u2019",
+                "url": "https://www.independent.co.uk/news/uk/people-tories-conservatives-government-rishi-sunak-b2482632.html",
+                "description": "The Labour leader said Rishi Sunak\u2019s Conservatives were \u2018waging a war on the proud spirit of service in this country\u2019.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "name": "News UK"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T14:14:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Rishi Sunak</b>\u2019s former hedge fund sails past peers with \u00a310bn returns",
+                "url": "https://www.cityam.com/rishi-sunaks-former-hedge-fund-sails-past-peers-with-10bn-returns/",
+                "description": "Billionaire Sir Chris Hohn\u2019s hedge fund TCI, which employed <b>Rishi Sunak</b> in the 2000s, made $12.9bn for investors <b>Rishi Sunak</b>\u2019s former employer The Children\u2019s Investment Fund raked in the biggest returns of any hedge fund globally in 2023 with $12.9bn ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e213d94a-8579-278a-a17f-a8ffa1cc900c",
+                        "name": "Hedge fund"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Hedge fund"
+                    },
+                    {
+                        "name": "Windmill sail"
+                    },
+                    {
+                        "name": "French people"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "City A.M."
+                    }
+                ],
+                "datePublished": "2024-01-22T13:55:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Fresh UK and US airstrikes on Houthi targets \u2018deal another blow\u2019 to militants",
+                "url": "https://www.standard.co.uk/news/politics/grant-shapps-houthi-yemen-mod-ministry-of-defence-b1134062.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Nk3oOaB3RLMvE96VGdew3C&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "<b>Rishi Sunak</b> and US President Joe Biden had spoken earlier on Monday evening, with a Number 10 readout stating that the two leaders had agreed \u201ccontinue efforts alongside international partners to deter and disrupt\u201d attacks by the Houthis. A joint ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1edd6839-78eb-7408-355a-ecc89ef39be7",
+                        "name": "Grant Shapps"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Grant Shapps"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "United States"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "datePublished": "2024-01-22T00:00:00.0000000Z"
+            },
+            {
+                "name": "<b>Rishi Sunak</b> facing renewed pressure over plans to \u2018max out\u2019 North Sea oil",
+                "url": "https://www.theguardian.com/environment/2024/jan/21/rishi-sunak-facing-renewed-pressure-over-plans-to-max-out-north-sea-oil?share=facebook",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.6Uis9A2UjI2rbOgsShauki&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Dithering on renewable energy and insulation will leave people in Britain \u2018colder and poorer\u2019, campaigners warn <b>Rishi Sunak</b> is facing further attacks on his plans to expand oil and gas exploration in the North Sea this week. The Offshore Petroleum ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian"
+                    }
+                ],
+                "datePublished": "2024-01-21T10:00:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Middle East latest: &#39;Multiple&#39; Houthi missile sites targeted in new UK-US attacks; Grant Shapps says strikes launched &#39;in self-defence&#39;",
+                "url": "https://news.sky.com/story/middle-east-crisis-us-uk-launch-strikes-houthi-targets-israel-gaza-hamas-12978800?postid=7111582",
+                "description": "It wasn&#39;t to be so. The Houthis have continued targeting shipping, albeit it at a lower rate than before. Joe Biden and <b>Rishi Sunak</b> spoke on the phone on Monday evening, but the readout gave few clues about the imminent action. The risk has always been ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ba4dcd59-7aaf-ab51-0b2c-3186cc75acdc",
+                        "name": "Middle East"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1edd6839-78eb-7408-355a-ecc89ef39be7",
+                        "name": "Grant Shapps"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/dc7704a8-14d7-6c17-185d-01c44a3934c7",
+                        "name": "United Kingdom \u2013 United States relations"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky"
+                    }
+                ],
+                "datePublished": "2023-10-06T23:59:00.0000000Z",
+                "category": "World"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak",
+        "queryContext": {
+            "originalQuery": "rishi sunak",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 119,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "UK and US forces launch fresh missile strikes on Houthis in Yemen",
+                "url": "https://inews.co.uk/news/world/uk-us-launch-fresh-missile-strikes-houthis-yemen-2868111?ITO=msn",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.SQSyNg-_yrZS2_h8Y6QoLi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The strikes were launched in response to an ongoing campaign of Houthi drone and missile attacks on commercial ships in the Red Sea",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8d8f36f1-f292-3a92-a6b9-2c3b83e3ffba",
+                        "name": "Yemen"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1fac930f-50ce-d8a7-f1f4-040b1e389960",
+                        "name": "Missile"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Yemen"
+                    },
+                    {
+                        "name": "Missile"
+                    },
+                    {
+                        "name": "United States Armed Forces"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T23:09:00.0000000Z"
+            },
+            {
+                "name": "UK launches new round of strikes at Houthis in Yemen alongside US",
+                "url": "https://metro.co.uk/2024/01/22/uk-launches-new-round-strikes-houthis-yemen-alongside-us-20156101/?ico=trending-post-strip_item_1",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.JzkyW2Ygg_Pp9NJIPJUroi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The US and UK have ramped up joint air strikes against Houthi targets in Yemen, American officials have said. It comes a week after the US and UK launched their first airstrikes on military facilities used by Houthi rebels in Yemen after their attacks on ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8d8f36f1-f292-3a92-a6b9-2c3b83e3ffba",
+                        "name": "Yemen"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2872a54f-b045-8fe3-d356-1aa538e14812",
+                        "name": "Metro International"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Metro"
+                    }
+                ],
+                "datePublished": "2024-01-22T23:06:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Storm Isha Ravages UK, Leaving Thousands Without Power And Two Dead",
+                "url": "https://www.ibtimes.co.uk/storm-isha-ravages-uk-leaving-thousands-without-power-two-dead-1722910",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.d2Sbi9bkxdd6SChoQOf3Gi&pid=News",
+                        "width": 700,
+                        "height": 444
+                    }
+                },
+                "description": "Scotland, Northern Ireland, north-west England, and Wales were particularly hard-hit, with remote areas warned of potential power outages until Tuesday.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ff22b9b9-7ffd-eb75-022e-2fb7291b1ebe",
+                        "name": "Storm"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "IBTimes UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.A4VFXrLFIRNrVa0JPthYgA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T22:56:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "NHS could save \u00a310bn by cracking down on waste Labour claim",
+                "url": "https://inews.co.uk/news/politics/nhs-bill-cut-10bn-crack-down-waste-labour-2867919",
+                "description": "Billions of pounds of taxpayers\u2019 money is being wasted or poorly spent by the NHS each year on recruitment agencies, management consultants and archaic pagers, Labour has claimed. Shadow Health Secretary Wes Streeting believes the health service is throwing away around \u00a310bn as a result of poor governance under the Conservatives.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c8a6585b-6ce1-05b9-f97c-85328950d272",
+                        "name": "Waste"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Waste"
+                    },
+                    {
+                        "name": "Australian Labor Party"
+                    },
+                    {
+                        "name": "National Health Service"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T22:52:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "US, UK stage multiple airstrikes against Iran-backed Houthi militants in Yemen",
+                "url": "https://uk.movies.yahoo.com/us-uk-stage-multiple-airstrikes-213400223.html",
+                "description": "The U.S. and U.K. on Monday staged airstrikes against eight targets in Yemen aimed at stopping Iran-backed Houthi militants from attacking ships in the Red Sea. The White House has insisted the retaliatory airstrikes -- seven rounds so far -- have been effective despite repeated Houthi attacks.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8d8f36f1-f292-3a92-a6b9-2c3b83e3ffba",
+                        "name": "Yemen"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/502b5268-992d-26c9-a0d8-6f206338406e",
+                        "name": "Iran"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4d71f786-29e1-cef9-de96-0a192db2e58f",
+                        "name": "Houthis"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Movies UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Mpa2adDaIj4hp3hgCdO2wA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T22:46:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Fresh UK and US airstrikes on Houthi targets to \u2018deal another blow\u2019 to militants",
+                "url": "https://www.standard.co.uk/news/politics/houthi-ministry-of-defence-grant-shapps-yemen-joe-biden-b1134062.html",
+                "description": "Fresh UK and US joint airstrikes against Houthi targets in Yemen have been carried out, the Ministry of Defence has said.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1edd6839-78eb-7408-355a-ecc89ef39be7",
+                        "name": "Grant Shapps"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Grant Shapps"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Houthis"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T22:43:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "US and UK launch fresh strikes on Houthis in Yemen",
+                "url": "https://www.bbc.co.uk/news/world-middle-east-68064422",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.8hzk1d08dMptS_BBO84Z4y&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The US and UK have begun joint air strikes against Houthi targets in Yemen, two US defence officials told the BBC&#39;s US partner, CBS News. US fighter jets from the carrier Eisenhower are involved in the strikes, the officials said. US President Joe Biden and UK Prime Minister Rishi Sunak spoke earlier on Monday.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T22:38:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "US and UK launch fresh strikes on Houthis",
+                "url": "https://www.bbc.co.uk/news/world-middle-east-68064422.amp",
+                "description": "The US and UK have conducted a fresh series of joint air strikes against eight Houthi targets in Yemen, the Pentagon said. The strikes targeted an underground storage site and Houthi missile and surveillance capability, it said.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T22:38:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Britain&#39;s Labour aims to save billions of pounds with planned health reforms",
+                "url": "https://uk.news.yahoo.com/britains-labour-aims-save-billions-223604837.html",
+                "description": "Britain&#39;s main opposition Labour Party said it would aim to save 10 billion pounds ($12.71 billion) by cutting waste and reforming the health service if in power, saying this could free up cash to spend on frontline care.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T22:36:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Blow for <b>Rishi Sunak</b> as Rwanda plan suffers first defeat in House of Lords",
+                "url": "https://news.sky.com/story/blow-for-rishi-sunak-as-rwanda-plan-suffers-first-defeat-in-house-of-lords-13054210",
+                "description": "Peers voted by 214 to 171 to not ratify the agreement. It is thought to be the first time the Lords has voted against the ratification of a treaty.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/accd669f-9053-3a8c-78fc-d4fdeb378ee4",
+                        "name": "House of Lords"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Rwanda"
+                    },
+                    {
+                        "name": "House of Lords"
+                    },
+                    {
+                        "name": "Sky News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Eg62H9DIbo-JYPI6GpAgGA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T22:34:00.0000000Z"
+            },
+            {
+                "name": "US-UK airstrikes on Houthi military sites in Yemen \u2013 what we know so far",
+                "url": "https://www.theguardian.com/world/2024/jan/22/us-uk-airstrikes-houthi-yemen-what-we-know-so-far-explainer",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Wp4EyAT2dfjjQV5kDJdLMi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "UK and US military officials say bombing was carried out \u2018in self-defence\u2019 and to &quot;\u2018disrupt and degrade\u2019 group\u2019s capabilities to hit ships in Red Sea",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8d8f36f1-f292-3a92-a6b9-2c3b83e3ffba",
+                        "name": "Yemen"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T22:32:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "British public are \u2018paying more but getting less\u2019 as NHS \u2018wastes \u00a310 billion a year\u2019",
+                "url": "https://www.telegraph.co.uk/news/2024/01/22/british-public-paying-more-but-getting-less-nhs-labour/",
+                "description": "\u201cBy sticking to the plan that <b>Rishi Sunak</b> has set out, we will strengthen the economy, that\u2019s how you pay for a strong NHS.\u201d Describing Labour\u2019s 2030 energy plan as an \u201cunfunded \u00a328 billion spending spree\u201d which would take the country \u201cright ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "name": "National Health Service"
+                    },
+                    {
+                        "name": "ASOS.com"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph"
+                    }
+                ],
+                "datePublished": "2024-01-22T22:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "US And UK Military Launch Fresh Strikes On Houthis In Yemen",
+                "url": "https://www.huffingtonpost.co.uk/entry/united-states-britain-red-sea-houthis_uk_65aef204e4b09e7f5b9cb822",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.5-OU7zHVRAgPvtbQcQooXy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "WASHINGTON (AP) \u2014 The US and British militaries bombed eight locations used by the Iranian-backed Houthis in Yemen on Monday night, the second time the two allies have conducted coordinated retaliatory strikes on an array of the rebels\u2019 missile-launching capabilities.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4d71f786-29e1-cef9-de96-0a192db2e58f",
+                        "name": "Houthis"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8d8f36f1-f292-3a92-a6b9-2c3b83e3ffba",
+                        "name": "Yemen"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Huffington Post UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0y8ov4dkxpxjENNw_hd4jw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T22:25:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Rwanda asylum scheme: Peers vote against approving Rwanda treaty",
+                "url": "https://www.bbc.com/news/uk-politics-68059862?at_bbc_team=editorial&at_campaign_type=owned&at_format=link&at_link_id=E1EBB400-B974-11EE-B1B5-CB8ED0B4AF07&at_link_origin=BBCWorld&at_link_type=web_link&at_ptr_na",
+                "description": "Peers backed a motion calling the government not to ratify the treaty by 214 votes to 171. The motion is not binding on the government. The treaty, signed in December, is central to Rishi Sunak&#39;s scheme to deport asylum seekers to Rwanda but is separate to the Rwanda Safety Bill.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k3N4DqozNjgK376rAnFmsA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T22:21:00.0000000Z"
+            },
+            {
+                "name": "Starmer accuses Tories of \u2018waging war on proud spirit of service in country\u2019",
+                "url": "https://www.independent.co.uk/news/uk/people-tories-conservatives-government-rishi-sunak-b2482632.html",
+                "description": "The Labour leader said Rishi Sunak\u2019s Conservatives were \u2018waging a war on the proud spirit of service in this country\u2019.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "name": "News UK"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T14:14:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Rishi Sunak</b>\u2019s former hedge fund sails past peers with \u00a310bn returns",
+                "url": "https://www.cityam.com/rishi-sunaks-former-hedge-fund-sails-past-peers-with-10bn-returns/",
+                "description": "Billionaire Sir Chris Hohn\u2019s hedge fund TCI, which employed <b>Rishi Sunak</b> in the 2000s, made $12.9bn for investors <b>Rishi Sunak</b>\u2019s former employer The Children\u2019s Investment Fund raked in the biggest returns of any hedge fund globally in 2023 with $12.9bn ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e213d94a-8579-278a-a17f-a8ffa1cc900c",
+                        "name": "Hedge fund"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Hedge fund"
+                    },
+                    {
+                        "name": "Windmill sail"
+                    },
+                    {
+                        "name": "French people"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "City A.M."
+                    }
+                ],
+                "datePublished": "2024-01-22T13:55:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "US and UK carry out fresh strikes on Houthis",
+                "url": "https://www.independent.co.uk/news/uk/yemen-mps-rishi-sunak-houthi-joe-biden-b2482942.html",
+                "description": "<b>Rishi Sunak</b> and US President Joe Biden spoke on Monday evening, with the two leaders undertaking to \u201ccontinue efforts alongside international partners to deter and disrupt\u201d attacks by Houthis. A White House readout of the call said the two leaders ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "News UK"
+                    },
+                    {
+                        "name": "United States"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent"
+                    }
+                ],
+                "datePublished": "2024-01-22T00:00:00.0000000Z"
+            },
+            {
+                "name": "<b>Rishi Sunak</b> facing renewed pressure over plans to \u2018max out\u2019 North Sea oil",
+                "url": "https://www.theguardian.com/environment/2024/jan/21/rishi-sunak-facing-renewed-pressure-over-plans-to-max-out-north-sea-oil?share=facebook",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.6Uis9A2UjI2rbOgsShauki&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Dithering on renewable energy and insulation will leave people in Britain \u2018colder and poorer\u2019, campaigners warn <b>Rishi Sunak</b> is facing further attacks on his plans to expand oil and gas exploration in the North Sea this week. The Offshore Petroleum ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian"
+                    }
+                ],
+                "datePublished": "2024-01-21T10:00:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Middle East latest: &#39;Multiple&#39; Houthi missile sites targeted in new UK-US attacks; Grant Shapps says strikes launched &#39;in self-defence&#39;",
+                "url": "https://news.sky.com/story/middle-east-crisis-us-uk-launch-strikes-houthi-targets-israel-gaza-hamas-12978800?postid=7111582",
+                "description": "It wasn&#39;t to be so. The Houthis have continued targeting shipping, albeit it at a lower rate than before. Joe Biden and <b>Rishi Sunak</b> spoke on the phone on Monday evening, but the readout gave few clues about the imminent action. The risk has always been ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ba4dcd59-7aaf-ab51-0b2c-3186cc75acdc",
+                        "name": "Middle East"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1edd6839-78eb-7408-355a-ecc89ef39be7",
+                        "name": "Grant Shapps"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/dc7704a8-14d7-6c17-185d-01c44a3934c7",
+                        "name": "United Kingdom \u2013 United States relations"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky"
+                    }
+                ],
+                "datePublished": "2023-10-06T23:59:00.0000000Z",
+                "category": "World"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak",
+        "queryContext": {
+            "originalQuery": "rishi sunak",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 219,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "UK and US forces launch fresh missile strikes on Houthis in Yemen",
+                "url": "https://inews.co.uk/news/world/uk-us-launch-fresh-missile-strikes-houthis-yemen-2868111?ITO=msn",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.SQSyNg-_yrZS2_h8Y6QoLi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The strikes were launched in response to an ongoing campaign of Houthi drone and missile attacks on commercial ships in the Red Sea",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8d8f36f1-f292-3a92-a6b9-2c3b83e3ffba",
+                        "name": "Yemen"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1fac930f-50ce-d8a7-f1f4-040b1e389960",
+                        "name": "Missile"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Yemen"
+                    },
+                    {
+                        "name": "Missile"
+                    },
+                    {
+                        "name": "United States Armed Forces"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T23:09:00.0000000Z"
+            },
+            {
+                "name": "UK launches new round of strikes at Houthis in Yemen alongside US",
+                "url": "https://metro.co.uk/2024/01/22/uk-launches-new-round-strikes-houthis-yemen-alongside-us-20156101/?ico=trending-post-strip_item_1",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.JzkyW2Ygg_Pp9NJIPJUroi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The US and UK have ramped up joint air strikes against Houthi targets in Yemen, American officials have said. It comes a week after the US and UK launched their first airstrikes on military facilities used by Houthi rebels in Yemen after their attacks on ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8d8f36f1-f292-3a92-a6b9-2c3b83e3ffba",
+                        "name": "Yemen"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2872a54f-b045-8fe3-d356-1aa538e14812",
+                        "name": "Metro International"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Metro"
+                    }
+                ],
+                "datePublished": "2024-01-22T23:06:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Storm Isha Ravages UK, Leaving Thousands Without Power And Two Dead",
+                "url": "https://www.ibtimes.co.uk/storm-isha-ravages-uk-leaving-thousands-without-power-two-dead-1722910",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.d2Sbi9bkxdd6SChoQOf3Gi&pid=News",
+                        "width": 700,
+                        "height": 444
+                    }
+                },
+                "description": "Scotland, Northern Ireland, north-west England, and Wales were particularly hard-hit, with remote areas warned of potential power outages until Tuesday.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ff22b9b9-7ffd-eb75-022e-2fb7291b1ebe",
+                        "name": "Storm"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "IBTimes UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.A4VFXrLFIRNrVa0JPthYgA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T22:56:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "NHS could save \u00a310bn by cracking down on waste Labour claim",
+                "url": "https://inews.co.uk/news/politics/nhs-bill-cut-10bn-crack-down-waste-labour-2867919",
+                "description": "Billions of pounds of taxpayers\u2019 money is being wasted or poorly spent by the NHS each year on recruitment agencies, management consultants and archaic pagers, Labour has claimed. Shadow Health Secretary Wes Streeting believes the health service is throwing away around \u00a310bn as a result of poor governance under the Conservatives.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c8a6585b-6ce1-05b9-f97c-85328950d272",
+                        "name": "Waste"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Waste"
+                    },
+                    {
+                        "name": "Australian Labor Party"
+                    },
+                    {
+                        "name": "National Health Service"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T22:52:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "US, UK stage multiple airstrikes against Iran-backed Houthi militants in Yemen",
+                "url": "https://uk.movies.yahoo.com/us-uk-stage-multiple-airstrikes-213400223.html",
+                "description": "The U.S. and U.K. on Monday staged airstrikes against eight targets in Yemen aimed at stopping Iran-backed Houthi militants from attacking ships in the Red Sea. The White House has insisted the retaliatory airstrikes -- seven rounds so far -- have been effective despite repeated Houthi attacks.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8d8f36f1-f292-3a92-a6b9-2c3b83e3ffba",
+                        "name": "Yemen"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/502b5268-992d-26c9-a0d8-6f206338406e",
+                        "name": "Iran"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4d71f786-29e1-cef9-de96-0a192db2e58f",
+                        "name": "Houthis"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Movies UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Mpa2adDaIj4hp3hgCdO2wA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T22:46:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Fresh UK and US airstrikes on Houthi targets to \u2018deal another blow\u2019 to militants",
+                "url": "https://www.standard.co.uk/news/politics/houthi-ministry-of-defence-grant-shapps-yemen-joe-biden-b1134062.html",
+                "description": "Fresh UK and US joint airstrikes against Houthi targets in Yemen have been carried out, the Ministry of Defence has said.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1edd6839-78eb-7408-355a-ecc89ef39be7",
+                        "name": "Grant Shapps"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Grant Shapps"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Houthis"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T22:43:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "US and UK launch fresh strikes on Houthis in Yemen",
+                "url": "https://www.bbc.co.uk/news/world-middle-east-68064422",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.8hzk1d08dMptS_BBO84Z4y&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The US and UK have begun joint air strikes against Houthi targets in Yemen, two US defence officials told the BBC&#39;s US partner, CBS News. US fighter jets from the carrier Eisenhower are involved in the strikes, the officials said. US President Joe Biden and UK Prime Minister Rishi Sunak spoke earlier on Monday.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T22:38:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "US and UK launch fresh strikes on Houthis",
+                "url": "https://www.bbc.co.uk/news/world-middle-east-68064422.amp",
+                "description": "The US and UK have conducted a fresh series of joint air strikes against eight Houthi targets in Yemen, the Pentagon said. The strikes targeted an underground storage site and Houthi missile and surveillance capability, it said.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T22:38:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Britain&#39;s Labour aims to save billions of pounds with planned health reforms",
+                "url": "https://uk.news.yahoo.com/britains-labour-aims-save-billions-223604837.html",
+                "description": "Britain&#39;s main opposition Labour Party said it would aim to save 10 billion pounds ($12.71 billion) by cutting waste and reforming the health service if in power, saying this could free up cash to spend on frontline care.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T22:36:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Blow for <b>Rishi Sunak</b> as Rwanda plan suffers first defeat in House of Lords",
+                "url": "https://news.sky.com/story/blow-for-rishi-sunak-as-rwanda-plan-suffers-first-defeat-in-house-of-lords-13054210",
+                "description": "Peers voted by 214 to 171 to not ratify the agreement. It is thought to be the first time the Lords has voted against the ratification of a treaty.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/accd669f-9053-3a8c-78fc-d4fdeb378ee4",
+                        "name": "House of Lords"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Rwanda"
+                    },
+                    {
+                        "name": "House of Lords"
+                    },
+                    {
+                        "name": "Sky News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Eg62H9DIbo-JYPI6GpAgGA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T22:34:00.0000000Z"
+            },
+            {
+                "name": "US-UK airstrikes on Houthi military sites in Yemen \u2013 what we know so far",
+                "url": "https://www.theguardian.com/world/2024/jan/22/us-uk-airstrikes-houthi-yemen-what-we-know-so-far-explainer",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Wp4EyAT2dfjjQV5kDJdLMi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "UK and US military officials say bombing was carried out \u2018in self-defence\u2019 and to &quot;\u2018disrupt and degrade\u2019 group\u2019s capabilities to hit ships in Red Sea",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8d8f36f1-f292-3a92-a6b9-2c3b83e3ffba",
+                        "name": "Yemen"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T22:32:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "British public are \u2018paying more but getting less\u2019 as NHS \u2018wastes \u00a310 billion a year\u2019",
+                "url": "https://www.telegraph.co.uk/news/2024/01/22/british-public-paying-more-but-getting-less-nhs-labour/",
+                "description": "\u201cBy sticking to the plan that <b>Rishi Sunak</b> has set out, we will strengthen the economy, that\u2019s how you pay for a strong NHS.\u201d Describing Labour\u2019s 2030 energy plan as an \u201cunfunded \u00a328 billion spending spree\u201d which would take the country \u201cright ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "name": "National Health Service"
+                    },
+                    {
+                        "name": "ASOS.com"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph"
+                    }
+                ],
+                "datePublished": "2024-01-22T22:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "US And UK Military Launch Fresh Strikes On Houthis In Yemen",
+                "url": "https://www.huffingtonpost.co.uk/entry/united-states-britain-red-sea-houthis_uk_65aef204e4b09e7f5b9cb822",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.5-OU7zHVRAgPvtbQcQooXy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "WASHINGTON (AP) \u2014 The US and British militaries bombed eight locations used by the Iranian-backed Houthis in Yemen on Monday night, the second time the two allies have conducted coordinated retaliatory strikes on an array of the rebels\u2019 missile-launching capabilities.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4d71f786-29e1-cef9-de96-0a192db2e58f",
+                        "name": "Houthis"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8d8f36f1-f292-3a92-a6b9-2c3b83e3ffba",
+                        "name": "Yemen"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Huffington Post UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0y8ov4dkxpxjENNw_hd4jw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T22:25:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Rwanda asylum scheme: Peers vote against approving Rwanda treaty",
+                "url": "https://www.bbc.com/news/uk-politics-68059862?at_bbc_team=editorial&at_campaign_type=owned&at_format=link&at_link_id=E1EBB400-B974-11EE-B1B5-CB8ED0B4AF07&at_link_origin=BBCWorld&at_link_type=web_link&at_ptr_na",
+                "description": "Peers backed a motion calling the government not to ratify the treaty by 214 votes to 171. The motion is not binding on the government. The treaty, signed in December, is central to Rishi Sunak&#39;s scheme to deport asylum seekers to Rwanda but is separate to the Rwanda Safety Bill.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k3N4DqozNjgK376rAnFmsA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T22:21:00.0000000Z"
+            },
+            {
+                "name": "Starmer accuses Tories of \u2018waging war on proud spirit of service in country\u2019",
+                "url": "https://www.independent.co.uk/news/uk/people-tories-conservatives-government-rishi-sunak-b2482632.html",
+                "description": "The Labour leader said Rishi Sunak\u2019s Conservatives were \u2018waging a war on the proud spirit of service in this country\u2019.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "name": "News UK"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T14:14:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Rishi Sunak</b>\u2019s former hedge fund sails past peers with \u00a310bn returns",
+                "url": "https://www.cityam.com/rishi-sunaks-former-hedge-fund-sails-past-peers-with-10bn-returns/",
+                "description": "Billionaire Sir Chris Hohn\u2019s hedge fund TCI, which employed <b>Rishi Sunak</b> in the 2000s, made $12.9bn for investors <b>Rishi Sunak</b>\u2019s former employer The Children\u2019s Investment Fund raked in the biggest returns of any hedge fund globally in 2023 with $12.9bn ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e213d94a-8579-278a-a17f-a8ffa1cc900c",
+                        "name": "Hedge fund"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Hedge fund"
+                    },
+                    {
+                        "name": "Windmill sail"
+                    },
+                    {
+                        "name": "French people"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "City A.M."
+                    }
+                ],
+                "datePublished": "2024-01-22T13:55:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "US and UK carry out fresh strikes on Houthis",
+                "url": "https://www.independent.co.uk/news/uk/yemen-mps-rishi-sunak-houthi-joe-biden-b2482942.html",
+                "description": "<b>Rishi Sunak</b> and US President Joe Biden spoke on Monday evening, with the two leaders undertaking to \u201ccontinue efforts alongside international partners to deter and disrupt\u201d attacks by Houthis. A White House readout of the call said the two leaders ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "News UK"
+                    },
+                    {
+                        "name": "United States"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent"
+                    }
+                ],
+                "datePublished": "2024-01-22T00:00:00.0000000Z"
+            },
+            {
+                "name": "<b>Rishi Sunak</b> facing renewed pressure over plans to \u2018max out\u2019 North Sea oil",
+                "url": "https://www.theguardian.com/environment/2024/jan/21/rishi-sunak-facing-renewed-pressure-over-plans-to-max-out-north-sea-oil?share=facebook",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.6Uis9A2UjI2rbOgsShauki&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Dithering on renewable energy and insulation will leave people in Britain \u2018colder and poorer\u2019, campaigners warn <b>Rishi Sunak</b> is facing further attacks on his plans to expand oil and gas exploration in the North Sea this week. The Offshore Petroleum ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian"
+                    }
+                ],
+                "datePublished": "2024-01-21T10:00:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Middle East latest: &#39;Multiple&#39; Houthi missile sites targeted in new UK-US attacks; Grant Shapps says strikes launched &#39;in self-defence&#39;",
+                "url": "https://news.sky.com/story/middle-east-crisis-us-uk-launch-strikes-houthi-targets-israel-gaza-hamas-12978800?postid=7111582",
+                "description": "It wasn&#39;t to be so. The Houthis have continued targeting shipping, albeit it at a lower rate than before. Joe Biden and <b>Rishi Sunak</b> spoke on the phone on Monday evening, but the readout gave few clues about the imminent action. The risk has always been ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ba4dcd59-7aaf-ab51-0b2c-3186cc75acdc",
+                        "name": "Middle East"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1edd6839-78eb-7408-355a-ecc89ef39be7",
+                        "name": "Grant Shapps"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/dc7704a8-14d7-6c17-185d-01c44a3934c7",
+                        "name": "United Kingdom \u2013 United States relations"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky"
+                    }
+                ],
+                "datePublished": "2023-10-06T23:59:00.0000000Z",
+                "category": "World"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak",
+        "queryContext": {
+            "originalQuery": "rishi sunak",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 319,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=rishi+sunak&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "UK and US forces launch fresh missile strikes on Houthis in Yemen",
+                "url": "https://inews.co.uk/news/world/uk-us-launch-fresh-missile-strikes-houthis-yemen-2868111?ITO=msn",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.SQSyNg-_yrZS2_h8Y6QoLi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The strikes were launched in response to an ongoing campaign of Houthi drone and missile attacks on commercial ships in the Red Sea",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8d8f36f1-f292-3a92-a6b9-2c3b83e3ffba",
+                        "name": "Yemen"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1fac930f-50ce-d8a7-f1f4-040b1e389960",
+                        "name": "Missile"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Yemen"
+                    },
+                    {
+                        "name": "Missile"
+                    },
+                    {
+                        "name": "United States Armed Forces"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T23:09:00.0000000Z"
+            },
+            {
+                "name": "UK launches new round of strikes at Houthis in Yemen alongside US",
+                "url": "https://metro.co.uk/2024/01/22/uk-launches-new-round-strikes-houthis-yemen-alongside-us-20156101/?ico=trending-post-strip_item_1",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.JzkyW2Ygg_Pp9NJIPJUroi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The US and UK have ramped up joint air strikes against Houthi targets in Yemen, American officials have said. It comes a week after the US and UK launched their first airstrikes on military facilities used by Houthi rebels in Yemen after their attacks on ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8d8f36f1-f292-3a92-a6b9-2c3b83e3ffba",
+                        "name": "Yemen"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2872a54f-b045-8fe3-d356-1aa538e14812",
+                        "name": "Metro International"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Metro"
+                    }
+                ],
+                "datePublished": "2024-01-22T23:06:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Storm Isha Ravages UK, Leaving Thousands Without Power And Two Dead",
+                "url": "https://www.ibtimes.co.uk/storm-isha-ravages-uk-leaving-thousands-without-power-two-dead-1722910",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.d2Sbi9bkxdd6SChoQOf3Gi&pid=News",
+                        "width": 700,
+                        "height": 444
+                    }
+                },
+                "description": "Scotland, Northern Ireland, north-west England, and Wales were particularly hard-hit, with remote areas warned of potential power outages until Tuesday.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ff22b9b9-7ffd-eb75-022e-2fb7291b1ebe",
+                        "name": "Storm"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "IBTimes UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.A4VFXrLFIRNrVa0JPthYgA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T22:56:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "NHS could save \u00a310bn by cracking down on waste Labour claim",
+                "url": "https://inews.co.uk/news/politics/nhs-bill-cut-10bn-crack-down-waste-labour-2867919",
+                "description": "Billions of pounds of taxpayers\u2019 money is being wasted or poorly spent by the NHS each year on recruitment agencies, management consultants and archaic pagers, Labour has claimed. Shadow Health Secretary Wes Streeting believes the health service is throwing away around \u00a310bn as a result of poor governance under the Conservatives.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c8a6585b-6ce1-05b9-f97c-85328950d272",
+                        "name": "Waste"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Waste"
+                    },
+                    {
+                        "name": "Australian Labor Party"
+                    },
+                    {
+                        "name": "National Health Service"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T22:52:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "US, UK stage multiple airstrikes against Iran-backed Houthi militants in Yemen",
+                "url": "https://uk.movies.yahoo.com/us-uk-stage-multiple-airstrikes-213400223.html",
+                "description": "The U.S. and U.K. on Monday staged airstrikes against eight targets in Yemen aimed at stopping Iran-backed Houthi militants from attacking ships in the Red Sea. The White House has insisted the retaliatory airstrikes -- seven rounds so far -- have been effective despite repeated Houthi attacks.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8d8f36f1-f292-3a92-a6b9-2c3b83e3ffba",
+                        "name": "Yemen"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/502b5268-992d-26c9-a0d8-6f206338406e",
+                        "name": "Iran"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4d71f786-29e1-cef9-de96-0a192db2e58f",
+                        "name": "Houthis"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Movies UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Mpa2adDaIj4hp3hgCdO2wA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T22:46:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Fresh UK and US airstrikes on Houthi targets to \u2018deal another blow\u2019 to militants",
+                "url": "https://www.standard.co.uk/news/politics/houthi-ministry-of-defence-grant-shapps-yemen-joe-biden-b1134062.html",
+                "description": "Fresh UK and US joint airstrikes against Houthi targets in Yemen have been carried out, the Ministry of Defence has said.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1edd6839-78eb-7408-355a-ecc89ef39be7",
+                        "name": "Grant Shapps"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Grant Shapps"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Houthis"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T22:43:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "US and UK launch fresh strikes on Houthis in Yemen",
+                "url": "https://www.bbc.co.uk/news/world-middle-east-68064422",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.8hzk1d08dMptS_BBO84Z4y&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The US and UK have begun joint air strikes against Houthi targets in Yemen, two US defence officials told the BBC&#39;s US partner, CBS News. US fighter jets from the carrier Eisenhower are involved in the strikes, the officials said. US President Joe Biden and UK Prime Minister Rishi Sunak spoke earlier on Monday.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T22:38:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "US and UK launch fresh strikes on Houthis",
+                "url": "https://www.bbc.co.uk/news/world-middle-east-68064422.amp",
+                "description": "The US and UK have conducted a fresh series of joint air strikes against eight Houthi targets in Yemen, the Pentagon said. The strikes targeted an underground storage site and Houthi missile and surveillance capability, it said.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T22:38:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Britain&#39;s Labour aims to save billions of pounds with planned health reforms",
+                "url": "https://uk.news.yahoo.com/britains-labour-aims-save-billions-223604837.html",
+                "description": "Britain&#39;s main opposition Labour Party said it would aim to save 10 billion pounds ($12.71 billion) by cutting waste and reforming the health service if in power, saying this could free up cash to spend on frontline care.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T22:36:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Blow for <b>Rishi Sunak</b> as Rwanda plan suffers first defeat in House of Lords",
+                "url": "https://news.sky.com/story/blow-for-rishi-sunak-as-rwanda-plan-suffers-first-defeat-in-house-of-lords-13054210",
+                "description": "Peers voted by 214 to 171 to not ratify the agreement. It is thought to be the first time the Lords has voted against the ratification of a treaty.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/accd669f-9053-3a8c-78fc-d4fdeb378ee4",
+                        "name": "House of Lords"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Rwanda"
+                    },
+                    {
+                        "name": "House of Lords"
+                    },
+                    {
+                        "name": "Sky News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Eg62H9DIbo-JYPI6GpAgGA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T22:34:00.0000000Z"
+            },
+            {
+                "name": "US-UK airstrikes on Houthi military sites in Yemen \u2013 what we know so far",
+                "url": "https://www.theguardian.com/world/2024/jan/22/us-uk-airstrikes-houthi-yemen-what-we-know-so-far-explainer",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Wp4EyAT2dfjjQV5kDJdLMi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "UK and US military officials say bombing was carried out \u2018in self-defence\u2019 and to &quot;\u2018disrupt and degrade\u2019 group\u2019s capabilities to hit ships in Red Sea",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8d8f36f1-f292-3a92-a6b9-2c3b83e3ffba",
+                        "name": "Yemen"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T22:32:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "British public are \u2018paying more but getting less\u2019 as NHS \u2018wastes \u00a310 billion a year\u2019",
+                "url": "https://www.telegraph.co.uk/news/2024/01/22/british-public-paying-more-but-getting-less-nhs-labour/",
+                "description": "\u201cBy sticking to the plan that <b>Rishi Sunak</b> has set out, we will strengthen the economy, that\u2019s how you pay for a strong NHS.\u201d Describing Labour\u2019s 2030 energy plan as an \u201cunfunded \u00a328 billion spending spree\u201d which would take the country \u201cright ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "name": "National Health Service"
+                    },
+                    {
+                        "name": "ASOS.com"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph"
+                    }
+                ],
+                "datePublished": "2024-01-22T22:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "US And UK Military Launch Fresh Strikes On Houthis In Yemen",
+                "url": "https://www.huffingtonpost.co.uk/entry/united-states-britain-red-sea-houthis_uk_65aef204e4b09e7f5b9cb822",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.5-OU7zHVRAgPvtbQcQooXy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "WASHINGTON (AP) \u2014 The US and British militaries bombed eight locations used by the Iranian-backed Houthis in Yemen on Monday night, the second time the two allies have conducted coordinated retaliatory strikes on an array of the rebels\u2019 missile-launching capabilities.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4d71f786-29e1-cef9-de96-0a192db2e58f",
+                        "name": "Houthis"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8d8f36f1-f292-3a92-a6b9-2c3b83e3ffba",
+                        "name": "Yemen"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Huffington Post UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0y8ov4dkxpxjENNw_hd4jw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T22:25:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Rwanda asylum scheme: Peers vote against approving Rwanda treaty",
+                "url": "https://www.bbc.com/news/uk-politics-68059862?at_bbc_team=editorial&at_campaign_type=owned&at_format=link&at_link_id=E1EBB400-B974-11EE-B1B5-CB8ED0B4AF07&at_link_origin=BBCWorld&at_link_type=web_link&at_ptr_na",
+                "description": "Peers backed a motion calling the government not to ratify the treaty by 214 votes to 171. The motion is not binding on the government. The treaty, signed in December, is central to Rishi Sunak&#39;s scheme to deport asylum seekers to Rwanda but is separate to the Rwanda Safety Bill.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k3N4DqozNjgK376rAnFmsA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T22:21:00.0000000Z"
+            },
+            {
+                "name": "Starmer accuses Tories of \u2018waging war on proud spirit of service in country\u2019",
+                "url": "https://www.independent.co.uk/news/uk/people-tories-conservatives-government-rishi-sunak-b2482632.html",
+                "description": "The Labour leader said Rishi Sunak\u2019s Conservatives were \u2018waging a war on the proud spirit of service in this country\u2019.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "name": "News UK"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T14:14:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Rishi Sunak</b>\u2019s former hedge fund sails past peers with \u00a310bn returns",
+                "url": "https://www.cityam.com/rishi-sunaks-former-hedge-fund-sails-past-peers-with-10bn-returns/",
+                "description": "Billionaire Sir Chris Hohn\u2019s hedge fund TCI, which employed <b>Rishi Sunak</b> in the 2000s, made $12.9bn for investors <b>Rishi Sunak</b>\u2019s former employer The Children\u2019s Investment Fund raked in the biggest returns of any hedge fund globally in 2023 with $12.9bn ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e213d94a-8579-278a-a17f-a8ffa1cc900c",
+                        "name": "Hedge fund"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Hedge fund"
+                    },
+                    {
+                        "name": "Windmill sail"
+                    },
+                    {
+                        "name": "French people"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "City A.M."
+                    }
+                ],
+                "datePublished": "2024-01-22T13:55:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "US and UK carry out fresh strikes on Houthis",
+                "url": "https://www.independent.co.uk/news/uk/yemen-mps-rishi-sunak-houthi-joe-biden-b2482942.html",
+                "description": "<b>Rishi Sunak</b> and US President Joe Biden spoke on Monday evening, with the two leaders undertaking to \u201ccontinue efforts alongside international partners to deter and disrupt\u201d attacks by Houthis. A White House readout of the call said the two leaders ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "News UK"
+                    },
+                    {
+                        "name": "United States"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent"
+                    }
+                ],
+                "datePublished": "2024-01-22T00:00:00.0000000Z"
+            },
+            {
+                "name": "<b>Rishi Sunak</b> facing renewed pressure over plans to \u2018max out\u2019 North Sea oil",
+                "url": "https://www.theguardian.com/environment/2024/jan/21/rishi-sunak-facing-renewed-pressure-over-plans-to-max-out-north-sea-oil?share=facebook",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.6Uis9A2UjI2rbOgsShauki&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Dithering on renewable energy and insulation will leave people in Britain \u2018colder and poorer\u2019, campaigners warn <b>Rishi Sunak</b> is facing further attacks on his plans to expand oil and gas exploration in the North Sea this week. The Offshore Petroleum ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian"
+                    }
+                ],
+                "datePublished": "2024-01-21T10:00:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Middle East latest: &#39;Multiple&#39; Houthi missile sites targeted in new UK-US attacks; Grant Shapps says strikes launched &#39;in self-defence&#39;",
+                "url": "https://news.sky.com/story/middle-east-crisis-us-uk-launch-strikes-houthi-targets-israel-gaza-hamas-12978800?postid=7111582",
+                "description": "It wasn&#39;t to be so. The Houthis have continued targeting shipping, albeit it at a lower rate than before. Joe Biden and <b>Rishi Sunak</b> spoke on the phone on Monday evening, but the readout gave few clues about the imminent action. The risk has always been ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ba4dcd59-7aaf-ab51-0b2c-3186cc75acdc",
+                        "name": "Middle East"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1edd6839-78eb-7408-355a-ecc89ef39be7",
+                        "name": "Grant Shapps"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/dc7704a8-14d7-6c17-185d-01c44a3934c7",
+                        "name": "United Kingdom \u2013 United States relations"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky"
+                    }
+                ],
+                "datePublished": "2023-10-06T23:59:00.0000000Z",
+                "category": "World"
+            }
+        ]
+    }
+]

@@ -1,0 +1,3759 @@
+[
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=prince+harry",
+        "queryContext": {
+            "originalQuery": "prince harry",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 25,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=prince+harry"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=prince+harry&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "This vainglorious gala felt like the popping of <b>Harry</b>&#39;s bubble... but it was hard not to feel just a smidgen of sympathy for him - Caroline Graham recalls her night at the ...",
+                "url": "https://www.dailymail.co.uk/news/article-12987269/prince-harry-sympathy-caroline-graham.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.trim9crXCFqxJdXerOhq7i&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "But he didn&#39;t say a word about them, which was weird.&#39; Before dinner, <b>Harry</b> posed for a selfie with <b>Prince</b> Mario-Max, whose website boasts connections stretching back to William of Orange, which would make him a very, very distant cousin of the British Royals.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9958ca5c-ea31-4e71-8a17-bd1e7839c723",
+                        "name": "Los Angeles"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/09fc7b84-c8d6-102d-8a00-a3540c229a87",
+                        "name": "Aviation, Space, and Environmental Medicine"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail"
+                    }
+                ],
+                "datePublished": "2024-01-20T22:08:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Prince Harry</b> and Meghan Markle send message of support to Kate Middleton and King Charles amid health battles",
+                "url": "https://www.ok.co.uk/royal/breaking-harry-meghan-support-message-31930105",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.KBpZ-6Oys8FVJhq4qfsAZC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Three days on since the Palace announced that King Charles and Kate Middleton would both experiencing health woes, Prince Harry and his wife Meghan have sent them a message of support",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "name": "Catherine, Duchess of Cambridge"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "OK! Magazine UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.RWPHhKblzyP6_60q3Y3WTw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-20T21:57:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "<b>Prince Harry</b> and Meghan Markle send get well message to Kate Middleton and King Charles",
+                "url": "https://www.mirror.co.uk/news/royals/prince-harry-meghan-markle-send-31928866",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.sUuOBi5gnOjxh5maqGT52y&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "A source said: \u201cThe King and the Princess of Wales have received support from <b>Prince Harry</b> and Meghan regarding their health. The Duke and Duchess contacted both parties in different ways to pass on their concern and best wishes.\u201d It comes after months ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/607bf330-283c-e25d-6b64-69bbd33d5b72",
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Catherine, Duchess of Cambridge"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror"
+                    }
+                ],
+                "datePublished": "2024-01-20T21:33:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "\u2018Horrible &amp; disrespectful\u2019 <b>Prince Harry</b> was \u2018cracking jokes\u2019 instead of wishing King and Kate well in \u2018deliberate snub\u2019",
+                "url": "https://www.thesun.ie/royals/12034009/prince-harry-jokes-wishing-king-kate-well/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Fmola1FTOMfTOP5ON76E9i&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "PRINCE Harry was last night accused of showing disrespect to King Charles and Princess Kate by failing to mention the poorly pair in an awards speech. The Duke of Sussex, 39, spoke for four",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/607bf330-283c-e25d-6b64-69bbd33d5b72",
+                        "name": "Charles I of England"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Irish Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.tjXwvGzOgpcKN_0jNk7glg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-20T20:52:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Lauren Sanchez, 54, shares rare picture with <b>Prince Harry</b>, John Travolta and Jeff Bezos",
+                "url": "https://www.hellomagazine.com/royalty/511739/lauren-sanchez-54-rare-picture-prince-harry-john-travolta-jeff-bezos/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.zm8535381iwcMVkTZklcNi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The 54-year-old took to social media on Saturday morning, and shared a picture taken backstage of Prince Harry, John Travolta \u2013 who hosted the evening \u2013 Lauren, and fiance Jeff Bezos.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/85e05312-8c6f-4e33-4d74-0c57d679ccb5",
+                        "name": "Harry G. John"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d5495717-38c1-693e-0c29-5b0ccb91a376",
+                        "name": "John Travolta"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Harry G. John"
+                    },
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "John Travolta"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "HELLO! Magazine",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6bLjCo5bpOYzo-n6kqtwhg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-20T20:20:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Prince Harry</b>&#39;s bulging awards cabinet explained awards after &#39;Living Legend&#39; nod",
+                "url": "https://www.mirror.co.uk/3am/us-celebrity-news/prince-harrys-bulging-awards-cabinet-31920762",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.9VPRp8MazdAigiOBj4ZetS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "As Prince Harry prepares to receive a Living Legends of Aviation Award tonight, The Mirror takes a look at the awards he has won in the past",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "The Royal Society for the encouragement of Arts, Manufactures and Commerce"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-20T19:21:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "<b>Prince Harry</b> axing from major role &#39;brought upon himself&#39; as Kate and Charles in hospital",
+                "url": "https://www.express.co.uk/news/royal/1857985/prince-harry-news-princess-kate-king-charles-hospital",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.zdSkkTEsYKKSvWzZn-ctoi&pid=News",
+                        "width": 700,
+                        "height": 415
+                    }
+                },
+                "description": "The news comes as Prince Harry keeps calm and carries on in California, after he was named &#39;A Living Legend of Aviation&#39; at a glitzy ceremony. Grease and Pulp Fiction superstar John Travolta presented the royal father-of-two with his medal in Beverly Hills, California, on Friday (January 19).",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "name": "Daily Express"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-20T17:54:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "<b>Prince Harry</b> jokingly accuses John Travolta of &#39;dining out&#39; on star&#39;s dance with Princess Diana and calls him &#39;Captain John&#39; as he receives &#39;Living Legend&#39; award at glitzy ...",
+                "url": "https://www.dailymail.co.uk/news/article-12986865/prince-harry-john-travolta-princess-diana-joke-aviation-awards.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.q0fYVaQf6qkH6jXMK1LMYC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "<b>Prince Harry</b> jokingly accused John Travolta of &#39;dining out&#39; on the story of his dance with Princess Diana as he stepped out in Los Angeles to be honoured as a &#39;Living Legend of Aviation&#39;. The Duke of Sussex was presented with the prestigious award by ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f4bf63ea-0b6c-58e0-4587-64927290483f",
+                        "name": "Diana, Princess of Wales"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d5495717-38c1-693e-0c29-5b0ccb91a376",
+                        "name": "John Travolta"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Diana, Princess of Wales"
+                    },
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "John Travolta"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail"
+                    }
+                ],
+                "datePublished": "2024-01-20T17:45:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Meghan Markle Misses <b>Prince Harry</b>&#39;s Awards Ceremony After One of Their Kids Became Ill",
+                "url": "https://uk.news.yahoo.com/meghan-markle-misses-prince-harrys-214636859.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.6-Jj82KN67MaPMtfNfaP8S&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The Duke of Sussex was seen solo at the Living Legends of Aviation Awards on Friday night Getty <b>Prince Harry</b> and Meghan Markle Meghan Markle did not attend <b>Prince Harry</b>&#39;s induction into the Living Legends of Aviation on Friday after one of their kids ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/bba64fd7-ee13-7ceb-751f-f6082a9b48e7",
+                        "name": "Miss"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK"
+                    }
+                ],
+                "datePublished": "2024-01-20T16:46:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Prince Harry</b> flies solo as he is honoured for work as army co-pilot",
+                "url": "https://www.thetimes.co.uk/article/prince-harry-living-legends-of-aviation-award-john-travolta-6wf693nqj?ilc=timesradio:morefromthetimes",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.tEn5FzC7XJSb1wn7jruT6i&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Organisers praised the duke for making \u201csignificant contributions to aviation/aerospace\u201d though, before the event, some critics had questioned whether the <b>prince</b> deserved the award. <b>Harry</b> arrived at the Beverly Hilton hotel without the Duchess of ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8609f86d-ad71-4c68-d6d3-1dc1d01ab649",
+                        "name": "Solo"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times"
+                    }
+                ],
+                "datePublished": "2024-01-20T16:45:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Prince Harry</b> &#39;worried&#39; about Princess Kate and King Charles but remains silent",
+                "url": "https://www.express.co.uk/news/royal/1857943/prince-harry-princess-kate-king-charles-health",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.knGeebrE4cdRtaoLHAxqUC&pid=News",
+                        "width": 700,
+                        "height": 415
+                    }
+                },
+                "description": "Prince Harry was inducted into the Legends of Aviation Awards last night, with the Duke of Sussex looking &#39;anxious&#39; and &#39;wary&#39; as he arrived at the event without Meghan Markle",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/607bf330-283c-e25d-6b64-69bbd33d5b72",
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "name": "Prince Harry"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-20T13:59:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Queen Camilla Doesn&#39;t Get Into King Charles&#39; &#39;Space with His Grandchildren&#39;: &#39;She Knows the Boundaries&#39;",
+                "url": "https://uk.finance.yahoo.com/news/queen-camilla-doesnt-king-charles-185644662.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.L1DXZkiYVNqilVEf_JYW5C&pid=News",
+                        "width": 700,
+                        "height": 463
+                    }
+                },
+                "description": "Samir Hussein/WireImage The royal family at Trooping the Colour 2023 Related: Queen Camilla Reveals She Loves Reading <b>Harry</b> Potter with Grandchildren \u2014 But Is &#39;Hopeless&#39; at Doing Voices! King Charles&#39; bond with <b>Prince</b> Louis was displayed at the Platinum ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/607bf330-283c-e25d-6b64-69bbd33d5b72",
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f4af795d-5426-b48f-2621-1f5cfc9344eb",
+                        "name": "Queen Camilla"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb730d8d-7c1a-4c67-84cf-c45c739b3e13",
+                        "name": "Boundaries in landscape history"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Finance"
+                    }
+                ],
+                "datePublished": "2024-01-20T13:56:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Prince Harry</b> pays tribute to Princess Diana as duke honoured at Aviation Awards",
+                "url": "https://www.dailyrecord.co.uk/entertainment/prince-harry-pays-tribute-princess-31927138",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.lDzOD-BcM3v50NrkbJbFnC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The prince reportedly spoke of his late mother while being named a Living Legend for his work as a military pilot.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6e96fcb3-f721-b5c4-0e9d-549cb84eaf3e",
+                        "name": "Sasha Stone"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fb6f4f93-ce23-76a6-98b5-3ab6b5286762",
+                        "name": "Daily Record"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Record",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.B6nvPq26UTBuCaXH6tX71w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-20T12:22:00.0000000Z"
+            },
+            {
+                "name": "<b>Prince Harry</b> Jokingly Calls Out John Travolta for \u2018Dining Out\u2019 on 1985 Dance with Princess Diana",
+                "url": "https://uk.movies.yahoo.com/prince-harry-jokingly-calls-john-162820819.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.CHZovarMYJw7uHDqVL7P0C&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Rodriguez/Getty <b>Prince Harry</b>, John Travolta. <b>Prince Harry</b> is poking fun at John Travolta. While giving a speech at the 21st Annual Living Legends of Aviation Awards in Beverly Hills on Friday night, the Duke of Sussex, 39, made light of some of Travolta&#39;s ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d5495717-38c1-693e-0c29-5b0ccb91a376",
+                        "name": "John Travolta"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f4bf63ea-0b6c-58e0-4587-64927290483f",
+                        "name": "Diana, Princess of Wales"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Movies UK"
+                    }
+                ],
+                "datePublished": "2024-01-20T11:28:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Prince Harry</b> pays tribute to Princess Diana as he accepts &#39;Living Legend of Aviation&#39; award",
+                "url": "https://www.standard.co.uk/news/world/living-legends-of-aviation-prince-harry-mother-beverley-hills-b1133641.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.WcBCo7D_nyCVN4ue7B9dVS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Prince Harry paid tribute to Princess Diana at the Living Legends of Aviation awards by shouting out host John Travolta - who danced with the late Royal in 1985. The Duke of Sussex was only one when the actor danced with his late mother in the White House but was keen to share the memory at the event in Beverly Hills on Friday.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f4bf63ea-0b6c-58e0-4587-64927290483f",
+                        "name": "Diana, Princess of Wales"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Diana, Princess of Wales"
+                    },
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-20T09:44:00.0000000Z"
+            },
+            {
+                "name": "<b>Prince Harry</b> recognised as Living Legend of Aviation for services to British Army",
+                "url": "https://news.sky.com/story/prince-harry-to-be-recognised-as-living-legend-of-aviation-for-services-to-british-army-13052045",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.U0PiHlWIConRjm5-Md1dhS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The duke&#39;s appearance at the award ceremony in Beverly Hills comes on the same day he dropped a libel claim against Associated Newspapers Limited.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4b00003b-73bb-e9ae-0755-370655b3e7d0",
+                        "name": "British Army"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2e2ce265-4921-b1c4-3d73-67b71022cf0d",
+                        "name": "Aviation"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "British Army"
+                    },
+                    {
+                        "name": "Aviation"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Eg62H9DIbo-JYPI6GpAgGA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-20T08:56:00.0000000Z"
+            },
+            {
+                "name": "<b>Prince Harry</b> accuses John Travolta of &#39;dining out&#39; on dance with Princess Diana",
+                "url": "https://www.telegraph.co.uk/us/news/2024/01/20/prince-harry-living-legends-aviation-award-john-travolta/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.I6Osyc7fkU1RkDcIaAYNpS&pid=News",
+                        "width": 700,
+                        "height": 436
+                    }
+                },
+                "description": "The Duke of Sussex made his first public appearance since news of King Charles\u2019s upcoming prostate treatment on Friday night, as he was recognised for his contribution to aviation. Prince Harry appeared for an awards ceremony at the Beverly Hilton hotel in Los Angeles, California, to be classified as a \u201cLiving Legend of Aviation\u201d.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f4bf63ea-0b6c-58e0-4587-64927290483f",
+                        "name": "Diana, Princess of Wales"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d5495717-38c1-693e-0c29-5b0ccb91a376",
+                        "name": "John Travolta"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Diana, Princess of Wales"
+                    },
+                    {
+                        "name": "John Travolta"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-20T08:21:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Prince Harry</b> avoids the red carpet at Beverly Hills awards",
+                "url": "https://www.thetimes.co.uk/article/prince-harry-living-legends-of-aviation-award-john-travolta-6wf693nqj",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Zjj0eguhG7B-XvQqeP_pay&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Organisers praised the duke for making \u201csignificant contributions to aviation/aerospace\u201d though, before the event, critics questioned whether the <b>prince</b> deserved the award. <b>Harry</b> arrived at the Beverly Hilton Hotel without the Duchess of Sussex ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/94babd40-8d3d-202a-fa95-9c5f1c8afa2b",
+                        "name": "Beverly Hills"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times"
+                    }
+                ],
+                "datePublished": "2024-01-20T07:22:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Prince Harry</b> Remembers Diana\u2019s White House Dance As He Accepts \u2018Living Legend\u2019 Award From John Travolta",
+                "url": "https://uk.news.yahoo.com/prince-harry-remembers-diana-white-120226372.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Dd6I-N9o2I2ZNEDK7yLYvC&pid=News",
+                        "width": 700,
+                        "height": 503
+                    }
+                },
+                "description": "<b>Prince Harry</b> paid tribute to his mother Princess Diana on Friday night as he collected his \u2018living legend of aviation\u2019 award from John Travolta. The Daily Mail reports that <b>Harry</b>, being recognised for his work as a helicopter pilot and gunner in the ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK"
+                    }
+                ],
+                "datePublished": "2024-01-20T07:02:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Why <b>Prince Harry</b> and Andrew won\u2019t be counsellors of state, explained by experts",
+                "url": "https://inews.co.uk/news/prince-harry-andrew-never-counsellors-state-experts-2864094",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.fBnUycKQcfUFuLCoHz6LqS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "\u201cWhen King Charles ascended to the throne the counsellors of state were Queen Camilla, who may not be able to act because she would be with the King [on a royal trip or in the hospital], Prince William, Princess Beatrice, Prince Harry and Prince Andrew.\u201d",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b84dbc56-5694-49b0-779d-86f4c2228acb",
+                        "name": "Prince Andrew, Duke of York"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Andrew, Duke of York"
+                    },
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Gaming, Austria"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-20T06:02:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "<b>Prince Harry</b> to be recognised as Living Legend of Aviation for services to British Army",
+                "url": "https://www.iwradio.co.uk/news/sky-news/prince-harry-to-be-recognised-as-living-legend-of-aviation-for-services-to-british-army/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.xRFOWW3tCo5PFMzbkNoUCC&pid=News",
+                        "width": 640,
+                        "height": 380
+                    }
+                },
+                "description": "Prince Harry has arrived at an awards ceremony in Los Angeles where he will be recognised as a Living Legend of Aviation.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4b00003b-73bb-e9ae-0755-370655b3e7d0",
+                        "name": "British Army"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Isle Of Wight Radio",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.a7uxf82O3Umn0q30N0l0jQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-20T05:39:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "<b>Prince Harry</b> looks dapper in a tuxedo as he charms audience with &#39;lovely speech&#39; at star-studded awards show",
+                "url": "https://www.hellomagazine.com/royalty/511690/prince-harry-honoured-living-legends-of-aviation-awards/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.M-o-zLElyBk4ZC2VdWQany&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Prince Harry, 39, made a solo appearance - despite rumours his wife Meghan, the Duchess of Sussex would be joining him - as he was inducted into the &quot;Living Legends of Aviation&quot; for his work as a British Army veteran, skipping the red carpet and sneaking in to the Beverly Hilton hotel, in Beverly Hills, California, via the back doors.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Star"
+                    },
+                    {
+                        "name": "Prince William, Duke of Cambridge"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "HELLO! Magazine",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6bLjCo5bpOYzo-n6kqtwhg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-20T03:54:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Prince Harry</b> was &#39;worried about King Charles&#39; health&#39; at Aviation Awards",
+                "url": "https://www.dailyrecord.co.uk/entertainment/celebrity/prince-harry-worried-king-charles-31930026",
+                "description": "<b>Prince Harry</b> attended the Aviation Awards last night alone and was supposedly &quot;worrying&quot; about his father The King who will go into hospital next week for a procedure. One body language expert has commented on the Duke&#39;s &quot;anxiousness&quot; which came shortly ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6e96fcb3-f721-b5c4-0e9d-549cb84eaf3e",
+                        "name": "Sasha Stone"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/607bf330-283c-e25d-6b64-69bbd33d5b72",
+                        "name": "Charles I of England"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Record"
+                    }
+                ],
+                "datePublished": "2024-01-20T00:01:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "It\u2019s a shame <b>Harry</b>\u2019s not a \u2018living legend\u2019 to Royal Family \u2013 Kate &amp; Charles\u2019 woes show how streamlined it\u2019s become",
+                "url": "https://www.thesun.co.uk/news/25432526/prince-harry-not-living-legend-royal-family/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.X2LSAiBa-lzrF1072mNXMi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "AS <b>Prince Harry</b> was picking up the ridiculous bauble of \u201cliving legend of aviation\u201d on Friday night, his father was planning how he could swiftly get back to work after his prostate operation. And one of the reasons the 75-year-old King needs to do ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2f67c0e2-55af-086f-9823-f89d2ab437b5",
+                        "name": "Kate Charles"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun"
+                    }
+                ],
+                "datePublished": "2024-01-20T00:01:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Prince Harry</b> to make two overseas trips",
+                "url": "https://www.heraldscotland.com/news/13154059.prince-harry-make-two-overseas-trips/",
+                "description": "<b>Prince Harry</b> is to undertake two official overseas visits this summer. He will go to Estonia and Italy in May, then Brazil and Chile the following month in a trip likely to coincide with the football World Cup. Both visits are being organised by the ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "heraldscotland"
+                    }
+                ],
+                "datePublished": "2014-04-05T00:00:00.0000000Z",
+                "category": "World"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=prince+harry",
+        "queryContext": {
+            "originalQuery": "prince harry",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 135,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=prince+harry"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=prince+harry&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "<b>Prince Harry</b> and Meghan Reach Out To King Charles and Kate After Health Scares, Report Claims",
+                "url": "https://www.timesnownews.com/world/prince-harry-and-meghan-markle-reach-out-to-king-charles-and-kate-middleton-after-health-scares-report-claims-article-107019005",
+                "description": "<b>Prince Harry</b> and Meghan Markle have offered their support to King Charles and Princess Kate as they navigate respective health challenges, in a move interpreted as a potential olive branch amidst ongoing tensions within the Royal Family. This gesture comes ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb9d24f7-9d35-b512-05d8-f102312f3128",
+                        "name": "Report"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a450cf89-b6d9-7a42-e5f5-96f8d2fd7706",
+                        "name": "Health"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Report"
+                    },
+                    {
+                        "name": "Health"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "timesnownews"
+                    }
+                ],
+                "datePublished": "2024-01-20T22:26:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Prince Harry</b> and Meghan Markle send message of support to Kate Middleton and King Charles amid health battles",
+                "url": "https://www.ok.co.uk/royal/breaking-harry-meghan-support-message-31930105",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.KBpZ-6Oys8FVJhq4qfsAZC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Three days on since the Palace announced that King Charles and Kate Middleton would both experiencing health woes, Prince Harry and his wife Meghan have sent them a message of support",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "name": "Catherine, Duchess of Cambridge"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "OK! Magazine UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.RWPHhKblzyP6_60q3Y3WTw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-20T21:57:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "<b>Prince Harry</b> and Meghan Markle send get well message to Kate Middleton and King Charles",
+                "url": "https://www.mirror.co.uk/news/royals/prince-harry-meghan-markle-send-31928866",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.sUuOBi5gnOjxh5maqGT52y&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "A source said: \u201cThe King and the Princess of Wales have received support from <b>Prince Harry</b> and Meghan regarding their health. The Duke and Duchess contacted both parties in different ways to pass on their concern and best wishes.\u201d It comes after months ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/607bf330-283c-e25d-6b64-69bbd33d5b72",
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Catherine, Duchess of Cambridge"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror"
+                    }
+                ],
+                "datePublished": "2024-01-20T21:33:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "\u2018Horrible &amp; disrespectful\u2019 <b>Prince Harry</b> was \u2018cracking jokes\u2019 instead of wishing King and Kate well in \u2018deliberate snub\u2019",
+                "url": "https://www.thesun.ie/royals/12034009/prince-harry-jokes-wishing-king-kate-well/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Fmola1FTOMfTOP5ON76E9i&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "PRINCE Harry was last night accused of showing disrespect to King Charles and Princess Kate by failing to mention the poorly pair in an awards speech. The Duke of Sussex, 39, spoke for four",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/607bf330-283c-e25d-6b64-69bbd33d5b72",
+                        "name": "Charles I of England"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Irish Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.tjXwvGzOgpcKN_0jNk7glg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-20T20:52:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Lauren Sanchez, 54, shares rare picture with <b>Prince Harry</b>, John Travolta and Jeff Bezos",
+                "url": "https://www.hellomagazine.com/royalty/511739/lauren-sanchez-54-rare-picture-prince-harry-john-travolta-jeff-bezos/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.zm8535381iwcMVkTZklcNi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The 54-year-old took to social media on Saturday morning, and shared a picture taken backstage of Prince Harry, John Travolta \u2013 who hosted the evening \u2013 Lauren, and fiance Jeff Bezos.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/85e05312-8c6f-4e33-4d74-0c57d679ccb5",
+                        "name": "Harry G. John"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d5495717-38c1-693e-0c29-5b0ccb91a376",
+                        "name": "John Travolta"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Harry G. John"
+                    },
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "John Travolta"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "HELLO! Magazine",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6bLjCo5bpOYzo-n6kqtwhg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-20T20:20:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Prince Harry</b> axing from major role &#39;brought upon himself&#39; as Kate and Charles in hospital",
+                "url": "https://www.express.co.uk/news/royal/1857985/prince-harry-news-princess-kate-king-charles-hospital",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.zdSkkTEsYKKSvWzZn-ctoi&pid=News",
+                        "width": 700,
+                        "height": 415
+                    }
+                },
+                "description": "The news comes as Prince Harry keeps calm and carries on in California, after he was named &#39;A Living Legend of Aviation&#39; at a glitzy ceremony. Grease and Pulp Fiction superstar John Travolta presented the royal father-of-two with his medal in Beverly Hills, California, on Friday (January 19).",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "name": "Daily Express"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-20T17:54:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "<b>Prince Harry</b> jokingly accuses John Travolta of &#39;dining out&#39; on star&#39;s dance with Princess Diana and calls him &#39;Captain John&#39; as he receives &#39;Living Legend&#39; award at glitzy ...",
+                "url": "https://www.dailymail.co.uk/news/article-12986865/prince-harry-john-travolta-princess-diana-joke-aviation-awards.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.q0fYVaQf6qkH6jXMK1LMYC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "<b>Prince Harry</b> jokingly accused John Travolta of &#39;dining out&#39; on the story of his dance with Princess Diana as he stepped out in Los Angeles to be honoured as a &#39;Living Legend of Aviation&#39;. The Duke of Sussex was presented with the prestigious award by ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f4bf63ea-0b6c-58e0-4587-64927290483f",
+                        "name": "Diana, Princess of Wales"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d5495717-38c1-693e-0c29-5b0ccb91a376",
+                        "name": "John Travolta"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Diana, Princess of Wales"
+                    },
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "John Travolta"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail"
+                    }
+                ],
+                "datePublished": "2024-01-20T17:45:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Meghan Markle Misses <b>Prince Harry</b>&#39;s Awards Ceremony After One of Their Kids Became Ill",
+                "url": "https://uk.news.yahoo.com/meghan-markle-misses-prince-harrys-214636859.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.6-Jj82KN67MaPMtfNfaP8S&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The Duke of Sussex was seen solo at the Living Legends of Aviation Awards on Friday night Getty <b>Prince Harry</b> and Meghan Markle Meghan Markle did not attend <b>Prince Harry</b>&#39;s induction into the Living Legends of Aviation on Friday after one of their kids ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/bba64fd7-ee13-7ceb-751f-f6082a9b48e7",
+                        "name": "Miss"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK"
+                    }
+                ],
+                "datePublished": "2024-01-20T16:46:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Prince Harry</b> flies solo as he is honoured for work as army co-pilot",
+                "url": "https://www.thetimes.co.uk/article/prince-harry-living-legends-of-aviation-award-john-travolta-6wf693nqj?ilc=timesradio:morefromthetimes",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.tEn5FzC7XJSb1wn7jruT6i&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Organisers praised the duke for making \u201csignificant contributions to aviation/aerospace\u201d though, before the event, some critics had questioned whether the <b>prince</b> deserved the award. <b>Harry</b> arrived at the Beverly Hilton hotel without the Duchess of ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8609f86d-ad71-4c68-d6d3-1dc1d01ab649",
+                        "name": "Solo"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times"
+                    }
+                ],
+                "datePublished": "2024-01-20T16:45:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Prince Harry</b> accuses John Travolta of &#39;dining out&#39; on dance with Princess Diana",
+                "url": "https://www.mirror.co.uk/3am/us-celebrity-news/prince-harry-accuses-john-travolta-31927880?int_source=amp_continue_reading&int_medium=amp&int_campaign=continue_reading_button",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.gtWpAJ-xJXFkYdoljUdmCi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "At the 21st annual Living Legends of Aviation ceremony, Prince Harry joked with John Travolta saying the actor &#39;dines out&#39; on the story that he danced with Princess Diana",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-20T15:09:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Prince Harry</b> and Meghan Markle blasted over Lilibet row despite &#39;good intentions&#39;",
+                "url": "https://www.express.co.uk/news/royal/1857938/prince-harry-meghan-markle-lilibet-row",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.NfG833VpAtAFcbB_3hBulS&pid=News",
+                        "width": 700,
+                        "height": 415
+                    }
+                },
+                "description": "A PR expert criticised how Prince Harry and Meghan Markle handled naming their daughter Lilibet after the late Queen Elizabeth.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/01e347c1-9d99-c7e6-79d1-390a1844d093",
+                        "name": "Elizabeth II"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Elizabeth II"
+                    },
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Daily Express"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-20T14:27:00.0000000Z"
+            },
+            {
+                "name": "<b>Prince Harry</b> makes NO reference to dad King Charles or Kate Middleton\u2019s health shock in aviation hall of fame speech",
+                "url": "https://www.thesun.co.uk/royals/25427499/prince-harry-king-charles-kate-middleton-speech/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.t-0I6JTSKiNzcnR8lrRDby&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "PRINCE Harry made no reference to dad King Charles or Kate Middleton\u2019s health shock in his aviation hall of fame speech. The\u00a0Duke of Sussex\u00a0accepted the \u201cLiving Legend of",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/607bf330-283c-e25d-6b64-69bbd33d5b72",
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mZZguWnkRkVFPCoaQUmKEg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-20T13:46:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Royal news - live: <b>Harry</b> seen without Meghan after Charles prostate news as Kate recovers in hospital",
+                "url": "https://www.independent.co.uk/news/uk/home-news/kate-middleton-king-surgery-princess-of-wales-harry-b2481936.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.8W9UNnoqlVsdSqA77cIfhi&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Prince Harry may not have learned of King Charles\u2019s health condition before it went public as Kate Middleton enters recovery after successful abdominal surgery. Prince Harry may have been informed of the King\u2019s enlarged prostate via a news alert as it was 7.25am in California, the Telegraph understands.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e75061b3-fb0b-1426-4211-39f71cc84b6a",
+                        "name": "Prince Charles"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "The Independent"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-20T13:24:00.0000000Z",
+                "video": {
+                    "name": "Royal news - live: Claims Harry heard about King\u2019s illness from news alert as Kate starts recovery",
+                    "thumbnailUrl": "https://www.bing.com/th?id=OVF.UgGMFToY0x45vzlYxlRcpg&pid=News",
+                    "embedHtml": "&lt;iframe src=&quot;https://cdn.jwplayer.com/players/okcGdETU-XLzx33eA.html&quot; width=&quot;480&quot; height=&quot;270&quot; frameborder=&quot;0&quot; scrolling=&quot;auto&quot;&gt;&lt;/iframe&gt;",
+                    "allowHttpsEmbed": true,
+                    "thumbnail": {
+                        "width": 520,
+                        "height": 292
+                    }
+                },
+                "category": "Health"
+            },
+            {
+                "name": "<b>Prince Harry</b> pays tribute to Princess Diana as duke honoured at Aviation Awards",
+                "url": "https://www.dailyrecord.co.uk/entertainment/prince-harry-pays-tribute-princess-31927138",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.lDzOD-BcM3v50NrkbJbFnC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The prince reportedly spoke of his late mother while being named a Living Legend for his work as a military pilot.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6e96fcb3-f721-b5c4-0e9d-549cb84eaf3e",
+                        "name": "Sasha Stone"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fb6f4f93-ce23-76a6-98b5-3ab6b5286762",
+                        "name": "Daily Record"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Record",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.B6nvPq26UTBuCaXH6tX71w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-20T12:22:00.0000000Z"
+            },
+            {
+                "name": "How the Sussexes\u2019 vanishing act exposed the weakness of the slimmed-down monarchy",
+                "url": "https://www.telegraph.co.uk/royal-family/2024/01/20/monarchy-royal-family-king-charles-kate-middleton-hospital/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.uLbN_E5kwUX6ERTxtq3MhS&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "With Kate and the King in hospital the Royal family could do with a helping hand and some stardust \u2014 but it won&#39;t be coming from California The fragile Firm: With no <b>Prince Harry</b> or Meghan to step in, the Royal family looks thinner than ever On Friday ...",
+                "mentions": [
+                    {
+                        "name": "Prince William, Duke of Cambridge"
+                    },
+                    {
+                        "name": "Anne, Princess Royal"
+                    },
+                    {
+                        "name": "Prince Augustus Frederick, Duke of Sussex"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph"
+                    }
+                ],
+                "datePublished": "2024-01-20T12:15:00.0000000Z"
+            },
+            {
+                "name": "Meghan forced to miss <b>Harry</b> receiving Living Legends of Aviation award after one of their children &#39;became unwell&#39;",
+                "url": "https://www.lbc.co.uk/news/meghan-markle-harry-living-legends-of-aviation-award-children-unwell/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.CeKNt4o5H2HfpbzVwBGHoi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "<b>Prince Harry</b> during a photocall at military helicopter training course base at RAF Shawbury. Picture: Alamy <b>Harry</b> was inducted alongside US navy pilot Fred George and former world speed record holder Steve Hinton, as well as Lauren Sanchez - who is engaged ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "LBC"
+                    }
+                ],
+                "datePublished": "2024-01-20T12:09:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "<b>Prince Harry</b> pays tribute to his mother Diana as he receives &#39;Living Legend&#39; award at glitzy John Travolta-hosted Beverley Hills bash - but makes no mention of Kate or Charles ...",
+                "url": "https://www.dailymail.co.uk/news/article-12985883/prince-harry-living-legends-aviation-gala-lauren-sanchez.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Bcqk7IQXAR8lMGYJXXaFny&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "A beaming Prince Harry was honored on Friday night for his work as a military pilot at a lavish gala in Los Angeles.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f4bf63ea-0b6c-58e0-4587-64927290483f",
+                        "name": "Diana, Princess of Wales"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Beverly Hills"
+                    },
+                    {
+                        "name": "John Travolta"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-20T12:07:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "<b>Prince Harry</b> Remembers Diana\u2019s White House Dance As He Accepts \u2018Living Legend\u2019 Award From John Travolta",
+                "url": "https://uk.movies.yahoo.com/prince-harry-remembers-diana-white-120226372.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Dd6I-N9o2I2ZNEDK7yLYvC&pid=News",
+                        "width": 700,
+                        "height": 503
+                    }
+                },
+                "description": "Prince Harry paid tribute to his mother Princess Diana on Friday night as he collected his \u2018living legend of aviation\u2019 award from John Travolta. The Daily Mail reports that Harry, being recognised for his work as a helicopter pilot and gunner in the British Army,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d5495717-38c1-693e-0c29-5b0ccb91a376",
+                        "name": "John Travolta"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f4bf63ea-0b6c-58e0-4587-64927290483f",
+                        "name": "Diana, Princess of Wales"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Movies UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Mpa2adDaIj4hp3hgCdO2wA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-20T12:02:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Harry</b> and Meghan &#39;could earn a great deal of money&#39; by copying beloved royal couple",
+                "url": "https://www.ok.co.uk/royal/harry-meghan-zara-mike-royal-31885851",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ABmpXFhWoaGy3Y4YCxb0hi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "EXCLUSIVE: A top royal expert tells OK! why Prince Harry and Meghan Markle should look to Zara and Mike Tindall for inspiration as they are branded the &quot;premier royal couple&quot;",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4eebb1e9-4eba-27e3-3473-6e71fe87243f",
+                        "name": "Royal"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "OK! Magazine UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.RWPHhKblzyP6_60q3Y3WTw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-20T12:00:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Prince Harry</b> Jokingly Calls Out John Travolta for \u2018Dining Out\u2019 on 1985 Dance with Princess Diana",
+                "url": "https://uk.movies.yahoo.com/prince-harry-jokingly-calls-john-162820819.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.CHZovarMYJw7uHDqVL7P0C&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Rodriguez/Getty <b>Prince Harry</b>, John Travolta. <b>Prince Harry</b> is poking fun at John Travolta. While giving a speech at the 21st Annual Living Legends of Aviation Awards in Beverly Hills on Friday night, the Duke of Sussex, 39, made light of some of Travolta&#39;s ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d5495717-38c1-693e-0c29-5b0ccb91a376",
+                        "name": "John Travolta"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f4bf63ea-0b6c-58e0-4587-64927290483f",
+                        "name": "Diana, Princess of Wales"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Movies UK"
+                    }
+                ],
+                "datePublished": "2024-01-20T11:28:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Army pilots risk lives on feats <b>Harry</b> didn\u2019t do, naming him \u2018Living Legend\u2019 is snub to heroes, says Colonel Richard Kemp",
+                "url": "https://www.thesun.ie/royals/12031975/prince-harry-living-legend-aviation-award-colonel-richard-kemp/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.up0reueUwhdIzHY94j5lQy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "COLONEL Richard Kemp has said naming Prince Harry a \u201cLiving Legend of Aviation\u201d undermines the whole award. The aviation award sparked fury among military experts who believe Harry",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Irish Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.tjXwvGzOgpcKN_0jNk7glg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-20T11:12:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "<b>Prince Harry</b> is \u2018more relaxed &amp; confident WITHOUT Meghan\u2019 as duke beams at aviation awards, body language expert claims",
+                "url": "https://www.thesun.co.uk/royals/25428944/prince-harry-more-relaxed-confident-without-meghan-body-language/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.vpYwGWfZLemnkqUOawBljS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "PRINCE Harry looked more \u2018relaxed and confident than he tends to be with Meghan\u2019, during his recent Aviation Awards appearance, according to a body language expert. The Prince made no reference to",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1527ae3-d2df-bf9d-5c18-e072d7176621",
+                        "name": "Duke"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mZZguWnkRkVFPCoaQUmKEg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-20T10:59:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Will <b>Prince Harry</b> reach out to King Charles over his upcoming surgery? Royal experts answer",
+                "url": "https://www.ohmymag.co.uk/entertainment/royal-family/will-prince-harry-reach-out-to-king-charles-over-his-upcoming-surgery-royal-experts-answer_art20847.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.25FnheHfrkOXaz9z9Wd9Ay&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "As King Charles preps for surgery and while Princess Kate recovers from her surgery, it is expected that Prince Harry will call them both, will",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1178b974-89b6-e98b-86a5-834c004b135e",
+                        "name": "Harry Royal"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/607bf330-283c-e25d-6b64-69bbd33d5b72",
+                        "name": "Charles I of England"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Harry Royal"
+                    },
+                    {
+                        "name": "Charles I of England"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "ohmymag",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.paSXOEqa6avLJqgrjvvuFA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-20T10:37:00.0000000Z"
+            },
+            {
+                "name": "<b>Harry</b> pays tribute to his mother Diana as he receives aviation award at ceremony",
+                "url": "https://inews.co.uk/news/harry-tribute-diana-aviation-award-2865132?ico=above_article_ticker",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.YC2msuHbelyQB6QRCCy4li&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The Duke of Sussex received his &#39;legends of aviation&#39; award from John Travolta in LA hours after dropping a libel claim over a Mail On Sunday article",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f4bf63ea-0b6c-58e0-4587-64927290483f",
+                        "name": "Diana, Princess of Wales"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/47c49855-f59e-1593-1dd0-d96ff509cfe5",
+                        "name": "Tribute"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Diana, Princess of Wales"
+                    },
+                    {
+                        "name": "Tribute"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-20T10:04:00.0000000Z"
+            },
+            {
+                "name": "<b>Prince Harry</b> pays tribute to Princess Diana as he accepts &#39;Living Legend of Aviation&#39; award",
+                "url": "https://www.standard.co.uk/news/world/living-legends-of-aviation-prince-harry-mother-beverley-hills-b1133641.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.WcBCo7D_nyCVN4ue7B9dVS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Prince Harry paid tribute to Princess Diana at the Living Legends of Aviation awards by shouting out host John Travolta - who danced with the late Royal in 1985. The Duke of Sussex was only one when the actor danced with his late mother in the White House but was keen to share the memory at the event in Beverly Hills on Friday.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f4bf63ea-0b6c-58e0-4587-64927290483f",
+                        "name": "Diana, Princess of Wales"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Diana, Princess of Wales"
+                    },
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-20T09:44:00.0000000Z"
+            },
+            {
+                "name": "<b>Prince Harry</b> recognised as Living Legend of Aviation for services to British Army",
+                "url": "https://news.sky.com/story/prince-harry-to-be-recognised-as-living-legend-of-aviation-for-services-to-british-army-13052045",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.U0PiHlWIConRjm5-Md1dhS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The duke&#39;s appearance at the award ceremony in Beverly Hills comes on the same day he dropped a libel claim against Associated Newspapers Limited.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4b00003b-73bb-e9ae-0755-370655b3e7d0",
+                        "name": "British Army"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2e2ce265-4921-b1c4-3d73-67b71022cf0d",
+                        "name": "Aviation"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "British Army"
+                    },
+                    {
+                        "name": "Aviation"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Eg62H9DIbo-JYPI6GpAgGA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-20T08:56:00.0000000Z"
+            },
+            {
+                "name": "<b>Prince Harry</b> avoids the red carpet at Beverly Hills awards",
+                "url": "https://www.thetimes.co.uk/article/prince-harry-living-legends-of-aviation-award-john-travolta-6wf693nqj",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Zjj0eguhG7B-XvQqeP_pay&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Organisers praised the duke for making \u201csignificant contributions to aviation/aerospace\u201d though, before the event, critics questioned whether the <b>prince</b> deserved the award. <b>Harry</b> arrived at the Beverly Hilton Hotel without the Duchess of Sussex ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/94babd40-8d3d-202a-fa95-9c5f1c8afa2b",
+                        "name": "Beverly Hills"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times"
+                    }
+                ],
+                "datePublished": "2024-01-20T07:22:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Why <b>Prince Harry</b> and Andrew won\u2019t be counsellors of state, explained by experts",
+                "url": "https://inews.co.uk/news/prince-harry-andrew-never-counsellors-state-experts-2864094",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.fBnUycKQcfUFuLCoHz6LqS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "\u201cWhen King Charles ascended to the throne the counsellors of state were Queen Camilla, who may not be able to act because she would be with the King [on a royal trip or in the hospital], Prince William, Princess Beatrice, Prince Harry and Prince Andrew.\u201d",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b84dbc56-5694-49b0-779d-86f4c2228acb",
+                        "name": "Prince Andrew, Duke of York"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Andrew, Duke of York"
+                    },
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Gaming, Austria"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-20T06:02:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "<b>Prince Harry</b> to be recognised as Living Legend of Aviation for services to British Army",
+                "url": "https://www.iwradio.co.uk/news/sky-news/prince-harry-to-be-recognised-as-living-legend-of-aviation-for-services-to-british-army/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.xRFOWW3tCo5PFMzbkNoUCC&pid=News",
+                        "width": 640,
+                        "height": 380
+                    }
+                },
+                "description": "Prince Harry has arrived at an awards ceremony in Los Angeles where he will be recognised as a Living Legend of Aviation.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4b00003b-73bb-e9ae-0755-370655b3e7d0",
+                        "name": "British Army"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Isle Of Wight Radio",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.a7uxf82O3Umn0q30N0l0jQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-20T05:39:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Duke of Sussex arrives at awards ceremony after dropping libel claim",
+                "url": "https://www.itv.com/news/2024-01-20/duke-of-sussex-arrives-at-awards-ceremony-after-dropping-libel-claim",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.pzOz4GQiUkRiOrLN7jE0Ay&pid=News",
+                        "width": 700,
+                        "height": 472
+                    }
+                },
+                "description": "A statement on it\u2019s website said: \u201c<b>Prince Harry</b> is a humanitarian, military veteran, mental wellness advocate and environmentalist. \u201cHe has dedicated his life to advancing causes that he is passionate about and that bring about permanent change for ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "ITV"
+                    }
+                ],
+                "datePublished": "2024-01-20T04:28:00.0000000Z"
+            },
+            {
+                "name": "<b>Prince Harry</b>&#39;s tribute to Princess Diana at awards ceremony",
+                "url": "https://uk.news.yahoo.com/prince-harrys-tribute-princess-diana-090000441.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.zpnn_6UwGtTEi4LIXBrJji&pid=News",
+                        "width": 700,
+                        "height": 455
+                    }
+                },
+                "description": "<b>Prince Harry</b> paid tribute to his mother Princess Diana at a glitzy awards ceremony in Beverly Hills on Friday (19.01.24). The Duke of Sussex was celebrated as a Living Legend of Aviation at the event for his work as a helicopter co-pilot and gunner in the ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f4bf63ea-0b6c-58e0-4587-64927290483f",
+                        "name": "Diana, Princess of Wales"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/47c49855-f59e-1593-1dd0-d96ff509cfe5",
+                        "name": "Tribute"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK"
+                    }
+                ],
+                "datePublished": "2024-01-20T04:00:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Prince Harry</b> looks dapper in a tuxedo as he charms audience with &#39;lovely speech&#39; at star-studded awards show",
+                "url": "https://www.hellomagazine.com/royalty/511690/prince-harry-honoured-living-legends-of-aviation-awards/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.M-o-zLElyBk4ZC2VdWQany&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Prince Harry, 39, made a solo appearance - despite rumours his wife Meghan, the Duchess of Sussex would be joining him - as he was inducted into the &quot;Living Legends of Aviation&quot; for his work as a British Army veteran, skipping the red carpet and sneaking in to the Beverly Hilton hotel, in Beverly Hills, California, via the back doors.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Star"
+                    },
+                    {
+                        "name": "Prince William, Duke of Cambridge"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "HELLO! Magazine",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6bLjCo5bpOYzo-n6kqtwhg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-20T03:54:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Prince Harry</b> was &#39;worried about King Charles&#39; health&#39; at Aviation Awards",
+                "url": "https://www.dailyrecord.co.uk/entertainment/celebrity/prince-harry-worried-king-charles-31930026",
+                "description": "<b>Prince Harry</b> attended the Aviation Awards last night alone and was supposedly &quot;worrying&quot; about his father The King who will go into hospital next week for a procedure. One body language expert has commented on the Duke&#39;s &quot;anxiousness&quot; which came shortly ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6e96fcb3-f721-b5c4-0e9d-549cb84eaf3e",
+                        "name": "Sasha Stone"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/607bf330-283c-e25d-6b64-69bbd33d5b72",
+                        "name": "Charles I of England"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Record"
+                    }
+                ],
+                "datePublished": "2024-01-20T00:01:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Critics Question Meghan Markle&#39;s Commitment During Royal Health Crisis",
+                "url": "https://www.btimesonline.com/articles/163424/20240121/critics-question-meghan-markles-commitment-during-royal-health-crisis.htm",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ed09twzxSSXmh3TWdrJlvC&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The Duchess of Sussex, along with her husband <b>Prince Harry</b>, relocated to the US, stepping back from their roles as senior members of the royal family. This decision has been scrutinized, especially as the royal family faces significant health challenges.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/82c2af6d-6239-9641-74e8-32916cb76517",
+                        "name": "Royal"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/778af3fb-7005-a371-4e23-2e8d3e2a344d",
+                        "name": "Critic"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "btimesonline"
+                    }
+                ],
+                "datePublished": "2024-01-20T00:01:00.0000000Z"
+            },
+            {
+                "name": "<b>Prince Harry</b> to make two overseas trips",
+                "url": "https://www.heraldscotland.com/news/13154059.prince-harry-make-two-overseas-trips/",
+                "description": "<b>Prince Harry</b> is to undertake two official overseas visits this summer. He will go to Estonia and Italy in May, then Brazil and Chile the following month in a trip likely to coincide with the football World Cup. Both visits are being organised by the ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "heraldscotland"
+                    }
+                ],
+                "datePublished": "2014-04-05T00:00:00.0000000Z",
+                "category": "World"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=prince+harry",
+        "queryContext": {
+            "originalQuery": "prince harry",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 235,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=prince+harry"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=prince+harry&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "<b>Prince Harry</b> and Meghan Reach Out To King Charles and Kate After Health Scares, Report Claims",
+                "url": "https://www.timesnownews.com/world/prince-harry-and-meghan-markle-reach-out-to-king-charles-and-kate-middleton-after-health-scares-report-claims-article-107019005",
+                "description": "<b>Prince Harry</b> and Meghan Markle have offered their support to King Charles and Princess Kate as they navigate respective health challenges, in a move interpreted as a potential olive branch amidst ongoing tensions within the Royal Family. This gesture comes ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb9d24f7-9d35-b512-05d8-f102312f3128",
+                        "name": "Report"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a450cf89-b6d9-7a42-e5f5-96f8d2fd7706",
+                        "name": "Health"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Report"
+                    },
+                    {
+                        "name": "Health"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "timesnownews"
+                    }
+                ],
+                "datePublished": "2024-01-20T22:26:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Prince Harry</b> and Meghan Markle send message of support to Kate Middleton and King Charles amid health battles",
+                "url": "https://www.ok.co.uk/royal/breaking-harry-meghan-support-message-31930105",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.KBpZ-6Oys8FVJhq4qfsAZC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Three days on since the Palace announced that King Charles and Kate Middleton would both experiencing health woes, Prince Harry and his wife Meghan have sent them a message of support",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "name": "Catherine, Duchess of Cambridge"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "OK! Magazine UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.RWPHhKblzyP6_60q3Y3WTw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-20T21:57:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "<b>Prince Harry</b> and Meghan Markle send get well message to Kate Middleton and King Charles",
+                "url": "https://www.mirror.co.uk/news/royals/prince-harry-meghan-markle-send-31928866",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.sUuOBi5gnOjxh5maqGT52y&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "A source said: \u201cThe King and the Princess of Wales have received support from <b>Prince Harry</b> and Meghan regarding their health. The Duke and Duchess contacted both parties in different ways to pass on their concern and best wishes.\u201d It comes after months ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/607bf330-283c-e25d-6b64-69bbd33d5b72",
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Catherine, Duchess of Cambridge"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror"
+                    }
+                ],
+                "datePublished": "2024-01-20T21:33:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "\u2018Horrible &amp; disrespectful\u2019 <b>Prince Harry</b> was \u2018cracking jokes\u2019 instead of wishing King and Kate well in \u2018deliberate snub\u2019",
+                "url": "https://www.thesun.ie/royals/12034009/prince-harry-jokes-wishing-king-kate-well/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Fmola1FTOMfTOP5ON76E9i&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "PRINCE Harry was last night accused of showing disrespect to King Charles and Princess Kate by failing to mention the poorly pair in an awards speech. The Duke of Sussex, 39, spoke for four",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/607bf330-283c-e25d-6b64-69bbd33d5b72",
+                        "name": "Charles I of England"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Irish Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.tjXwvGzOgpcKN_0jNk7glg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-20T20:52:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Lauren Sanchez, 54, shares rare picture with <b>Prince Harry</b>, John Travolta and Jeff Bezos",
+                "url": "https://www.hellomagazine.com/royalty/511739/lauren-sanchez-54-rare-picture-prince-harry-john-travolta-jeff-bezos/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.zm8535381iwcMVkTZklcNi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The 54-year-old took to social media on Saturday morning, and shared a picture taken backstage of Prince Harry, John Travolta \u2013 who hosted the evening \u2013 Lauren, and fiance Jeff Bezos.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/85e05312-8c6f-4e33-4d74-0c57d679ccb5",
+                        "name": "Harry G. John"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d5495717-38c1-693e-0c29-5b0ccb91a376",
+                        "name": "John Travolta"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Harry G. John"
+                    },
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "John Travolta"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "HELLO! Magazine",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6bLjCo5bpOYzo-n6kqtwhg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-20T20:20:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Prince Harry</b> axing from major role &#39;brought upon himself&#39; as Kate and Charles in hospital",
+                "url": "https://www.express.co.uk/news/royal/1857985/prince-harry-news-princess-kate-king-charles-hospital",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.zdSkkTEsYKKSvWzZn-ctoi&pid=News",
+                        "width": 700,
+                        "height": 415
+                    }
+                },
+                "description": "The news comes as Prince Harry keeps calm and carries on in California, after he was named &#39;A Living Legend of Aviation&#39; at a glitzy ceremony. Grease and Pulp Fiction superstar John Travolta presented the royal father-of-two with his medal in Beverly Hills, California, on Friday (January 19).",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "name": "Daily Express"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-20T17:54:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "<b>Prince Harry</b> jokingly accuses John Travolta of &#39;dining out&#39; on star&#39;s dance with Princess Diana and calls him &#39;Captain John&#39; as he receives &#39;Living Legend&#39; award at glitzy ...",
+                "url": "https://www.dailymail.co.uk/news/article-12986865/prince-harry-john-travolta-princess-diana-joke-aviation-awards.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.q0fYVaQf6qkH6jXMK1LMYC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "<b>Prince Harry</b> jokingly accused John Travolta of &#39;dining out&#39; on the story of his dance with Princess Diana as he stepped out in Los Angeles to be honoured as a &#39;Living Legend of Aviation&#39;. The Duke of Sussex was presented with the prestigious award by ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f4bf63ea-0b6c-58e0-4587-64927290483f",
+                        "name": "Diana, Princess of Wales"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d5495717-38c1-693e-0c29-5b0ccb91a376",
+                        "name": "John Travolta"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Diana, Princess of Wales"
+                    },
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "John Travolta"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail"
+                    }
+                ],
+                "datePublished": "2024-01-20T17:45:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Meghan Markle Misses <b>Prince Harry</b>&#39;s Awards Ceremony After One of Their Kids Became Ill",
+                "url": "https://uk.news.yahoo.com/meghan-markle-misses-prince-harrys-214636859.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.6-Jj82KN67MaPMtfNfaP8S&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The Duke of Sussex was seen solo at the Living Legends of Aviation Awards on Friday night Getty <b>Prince Harry</b> and Meghan Markle Meghan Markle did not attend <b>Prince Harry</b>&#39;s induction into the Living Legends of Aviation on Friday after one of their kids ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/bba64fd7-ee13-7ceb-751f-f6082a9b48e7",
+                        "name": "Miss"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK"
+                    }
+                ],
+                "datePublished": "2024-01-20T16:46:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Prince Harry</b> flies solo as he is honoured for work as army co-pilot",
+                "url": "https://www.thetimes.co.uk/article/prince-harry-living-legends-of-aviation-award-john-travolta-6wf693nqj?ilc=timesradio:morefromthetimes",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.tEn5FzC7XJSb1wn7jruT6i&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Organisers praised the duke for making \u201csignificant contributions to aviation/aerospace\u201d though, before the event, some critics had questioned whether the <b>prince</b> deserved the award. <b>Harry</b> arrived at the Beverly Hilton hotel without the Duchess of ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8609f86d-ad71-4c68-d6d3-1dc1d01ab649",
+                        "name": "Solo"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times"
+                    }
+                ],
+                "datePublished": "2024-01-20T16:45:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Prince Harry</b> accuses John Travolta of &#39;dining out&#39; on dance with Princess Diana",
+                "url": "https://www.mirror.co.uk/3am/us-celebrity-news/prince-harry-accuses-john-travolta-31927880?int_source=amp_continue_reading&int_medium=amp&int_campaign=continue_reading_button",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.gtWpAJ-xJXFkYdoljUdmCi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "At the 21st annual Living Legends of Aviation ceremony, Prince Harry joked with John Travolta saying the actor &#39;dines out&#39; on the story that he danced with Princess Diana",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-20T15:09:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Prince Harry</b> and Meghan Markle blasted over Lilibet row despite &#39;good intentions&#39;",
+                "url": "https://www.express.co.uk/news/royal/1857938/prince-harry-meghan-markle-lilibet-row",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.NfG833VpAtAFcbB_3hBulS&pid=News",
+                        "width": 700,
+                        "height": 415
+                    }
+                },
+                "description": "A PR expert criticised how Prince Harry and Meghan Markle handled naming their daughter Lilibet after the late Queen Elizabeth.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/01e347c1-9d99-c7e6-79d1-390a1844d093",
+                        "name": "Elizabeth II"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Elizabeth II"
+                    },
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Daily Express"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-20T14:27:00.0000000Z"
+            },
+            {
+                "name": "<b>Prince Harry</b> makes NO reference to dad King Charles or Kate Middleton\u2019s health shock in aviation hall of fame speech",
+                "url": "https://www.thesun.co.uk/royals/25427499/prince-harry-king-charles-kate-middleton-speech/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.t-0I6JTSKiNzcnR8lrRDby&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "PRINCE Harry made no reference to dad King Charles or Kate Middleton\u2019s health shock in his aviation hall of fame speech. The\u00a0Duke of Sussex\u00a0accepted the \u201cLiving Legend of",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/607bf330-283c-e25d-6b64-69bbd33d5b72",
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mZZguWnkRkVFPCoaQUmKEg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-20T13:46:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Royal news - live: <b>Harry</b> seen without Meghan after Charles prostate news as Kate recovers in hospital",
+                "url": "https://www.independent.co.uk/news/uk/home-news/kate-middleton-king-surgery-princess-of-wales-harry-b2481936.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.8W9UNnoqlVsdSqA77cIfhi&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Prince Harry may not have learned of King Charles\u2019s health condition before it went public as Kate Middleton enters recovery after successful abdominal surgery. Prince Harry may have been informed of the King\u2019s enlarged prostate via a news alert as it was 7.25am in California, the Telegraph understands.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e75061b3-fb0b-1426-4211-39f71cc84b6a",
+                        "name": "Prince Charles"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "The Independent"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-20T13:24:00.0000000Z",
+                "video": {
+                    "name": "Royal news - live: Claims Harry heard about King\u2019s illness from news alert as Kate starts recovery",
+                    "thumbnailUrl": "https://www.bing.com/th?id=OVF.UgGMFToY0x45vzlYxlRcpg&pid=News",
+                    "embedHtml": "&lt;iframe src=&quot;https://cdn.jwplayer.com/players/okcGdETU-XLzx33eA.html&quot; width=&quot;480&quot; height=&quot;270&quot; frameborder=&quot;0&quot; scrolling=&quot;auto&quot;&gt;&lt;/iframe&gt;",
+                    "allowHttpsEmbed": true,
+                    "thumbnail": {
+                        "width": 520,
+                        "height": 292
+                    }
+                },
+                "category": "Health"
+            },
+            {
+                "name": "<b>Prince Harry</b> pays tribute to Princess Diana as duke honoured at Aviation Awards",
+                "url": "https://www.dailyrecord.co.uk/entertainment/prince-harry-pays-tribute-princess-31927138",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.lDzOD-BcM3v50NrkbJbFnC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The prince reportedly spoke of his late mother while being named a Living Legend for his work as a military pilot.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6e96fcb3-f721-b5c4-0e9d-549cb84eaf3e",
+                        "name": "Sasha Stone"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fb6f4f93-ce23-76a6-98b5-3ab6b5286762",
+                        "name": "Daily Record"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Record",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.B6nvPq26UTBuCaXH6tX71w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-20T12:22:00.0000000Z"
+            },
+            {
+                "name": "How the Sussexes\u2019 vanishing act exposed the weakness of the slimmed-down monarchy",
+                "url": "https://www.telegraph.co.uk/royal-family/2024/01/20/monarchy-royal-family-king-charles-kate-middleton-hospital/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.uLbN_E5kwUX6ERTxtq3MhS&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "With Kate and the King in hospital the Royal family could do with a helping hand and some stardust \u2014 but it won&#39;t be coming from California The fragile Firm: With no <b>Prince Harry</b> or Meghan to step in, the Royal family looks thinner than ever On Friday ...",
+                "mentions": [
+                    {
+                        "name": "Prince William, Duke of Cambridge"
+                    },
+                    {
+                        "name": "Anne, Princess Royal"
+                    },
+                    {
+                        "name": "Prince Augustus Frederick, Duke of Sussex"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph"
+                    }
+                ],
+                "datePublished": "2024-01-20T12:15:00.0000000Z"
+            },
+            {
+                "name": "Meghan forced to miss <b>Harry</b> receiving Living Legends of Aviation award after one of their children &#39;became unwell&#39;",
+                "url": "https://www.lbc.co.uk/news/meghan-markle-harry-living-legends-of-aviation-award-children-unwell/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.CeKNt4o5H2HfpbzVwBGHoi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "<b>Prince Harry</b> during a photocall at military helicopter training course base at RAF Shawbury. Picture: Alamy <b>Harry</b> was inducted alongside US navy pilot Fred George and former world speed record holder Steve Hinton, as well as Lauren Sanchez - who is engaged ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "LBC"
+                    }
+                ],
+                "datePublished": "2024-01-20T12:09:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "<b>Prince Harry</b> pays tribute to his mother Diana as he receives &#39;Living Legend&#39; award at glitzy John Travolta-hosted Beverley Hills bash - but makes no mention of Kate or Charles ...",
+                "url": "https://www.dailymail.co.uk/news/article-12985883/prince-harry-living-legends-aviation-gala-lauren-sanchez.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Bcqk7IQXAR8lMGYJXXaFny&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "A beaming Prince Harry was honored on Friday night for his work as a military pilot at a lavish gala in Los Angeles.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f4bf63ea-0b6c-58e0-4587-64927290483f",
+                        "name": "Diana, Princess of Wales"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Beverly Hills"
+                    },
+                    {
+                        "name": "John Travolta"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-20T12:07:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "<b>Prince Harry</b> Remembers Diana\u2019s White House Dance As He Accepts \u2018Living Legend\u2019 Award From John Travolta",
+                "url": "https://uk.movies.yahoo.com/prince-harry-remembers-diana-white-120226372.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Dd6I-N9o2I2ZNEDK7yLYvC&pid=News",
+                        "width": 700,
+                        "height": 503
+                    }
+                },
+                "description": "Prince Harry paid tribute to his mother Princess Diana on Friday night as he collected his \u2018living legend of aviation\u2019 award from John Travolta. The Daily Mail reports that Harry, being recognised for his work as a helicopter pilot and gunner in the British Army,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d5495717-38c1-693e-0c29-5b0ccb91a376",
+                        "name": "John Travolta"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f4bf63ea-0b6c-58e0-4587-64927290483f",
+                        "name": "Diana, Princess of Wales"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Movies UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Mpa2adDaIj4hp3hgCdO2wA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-20T12:02:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Harry</b> and Meghan &#39;could earn a great deal of money&#39; by copying beloved royal couple",
+                "url": "https://www.ok.co.uk/royal/harry-meghan-zara-mike-royal-31885851",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ABmpXFhWoaGy3Y4YCxb0hi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "EXCLUSIVE: A top royal expert tells OK! why Prince Harry and Meghan Markle should look to Zara and Mike Tindall for inspiration as they are branded the &quot;premier royal couple&quot;",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4eebb1e9-4eba-27e3-3473-6e71fe87243f",
+                        "name": "Royal"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "OK! Magazine UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.RWPHhKblzyP6_60q3Y3WTw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-20T12:00:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Prince Harry</b> Jokingly Calls Out John Travolta for \u2018Dining Out\u2019 on 1985 Dance with Princess Diana",
+                "url": "https://uk.movies.yahoo.com/prince-harry-jokingly-calls-john-162820819.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.CHZovarMYJw7uHDqVL7P0C&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Rodriguez/Getty <b>Prince Harry</b>, John Travolta. <b>Prince Harry</b> is poking fun at John Travolta. While giving a speech at the 21st Annual Living Legends of Aviation Awards in Beverly Hills on Friday night, the Duke of Sussex, 39, made light of some of Travolta&#39;s ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d5495717-38c1-693e-0c29-5b0ccb91a376",
+                        "name": "John Travolta"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f4bf63ea-0b6c-58e0-4587-64927290483f",
+                        "name": "Diana, Princess of Wales"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Movies UK"
+                    }
+                ],
+                "datePublished": "2024-01-20T11:28:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Army pilots risk lives on feats <b>Harry</b> didn\u2019t do, naming him \u2018Living Legend\u2019 is snub to heroes, says Colonel Richard Kemp",
+                "url": "https://www.thesun.ie/royals/12031975/prince-harry-living-legend-aviation-award-colonel-richard-kemp/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.up0reueUwhdIzHY94j5lQy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "COLONEL Richard Kemp has said naming Prince Harry a \u201cLiving Legend of Aviation\u201d undermines the whole award. The aviation award sparked fury among military experts who believe Harry",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Irish Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.tjXwvGzOgpcKN_0jNk7glg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-20T11:12:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "<b>Prince Harry</b> is \u2018more relaxed &amp; confident WITHOUT Meghan\u2019 as duke beams at aviation awards, body language expert claims",
+                "url": "https://www.thesun.co.uk/royals/25428944/prince-harry-more-relaxed-confident-without-meghan-body-language/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.vpYwGWfZLemnkqUOawBljS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "PRINCE Harry looked more \u2018relaxed and confident than he tends to be with Meghan\u2019, during his recent Aviation Awards appearance, according to a body language expert. The Prince made no reference to",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1527ae3-d2df-bf9d-5c18-e072d7176621",
+                        "name": "Duke"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mZZguWnkRkVFPCoaQUmKEg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-20T10:59:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Will <b>Prince Harry</b> reach out to King Charles over his upcoming surgery? Royal experts answer",
+                "url": "https://www.ohmymag.co.uk/entertainment/royal-family/will-prince-harry-reach-out-to-king-charles-over-his-upcoming-surgery-royal-experts-answer_art20847.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.25FnheHfrkOXaz9z9Wd9Ay&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "As King Charles preps for surgery and while Princess Kate recovers from her surgery, it is expected that Prince Harry will call them both, will",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1178b974-89b6-e98b-86a5-834c004b135e",
+                        "name": "Harry Royal"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/607bf330-283c-e25d-6b64-69bbd33d5b72",
+                        "name": "Charles I of England"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Harry Royal"
+                    },
+                    {
+                        "name": "Charles I of England"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "ohmymag",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.paSXOEqa6avLJqgrjvvuFA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-20T10:37:00.0000000Z"
+            },
+            {
+                "name": "<b>Harry</b> pays tribute to his mother Diana as he receives aviation award at ceremony",
+                "url": "https://inews.co.uk/news/harry-tribute-diana-aviation-award-2865132?ico=above_article_ticker",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.YC2msuHbelyQB6QRCCy4li&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The Duke of Sussex received his &#39;legends of aviation&#39; award from John Travolta in LA hours after dropping a libel claim over a Mail On Sunday article",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f4bf63ea-0b6c-58e0-4587-64927290483f",
+                        "name": "Diana, Princess of Wales"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/47c49855-f59e-1593-1dd0-d96ff509cfe5",
+                        "name": "Tribute"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Diana, Princess of Wales"
+                    },
+                    {
+                        "name": "Tribute"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-20T10:04:00.0000000Z"
+            },
+            {
+                "name": "<b>Prince Harry</b> pays tribute to Princess Diana as he accepts &#39;Living Legend of Aviation&#39; award",
+                "url": "https://www.standard.co.uk/news/world/living-legends-of-aviation-prince-harry-mother-beverley-hills-b1133641.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.WcBCo7D_nyCVN4ue7B9dVS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Prince Harry paid tribute to Princess Diana at the Living Legends of Aviation awards by shouting out host John Travolta - who danced with the late Royal in 1985. The Duke of Sussex was only one when the actor danced with his late mother in the White House but was keen to share the memory at the event in Beverly Hills on Friday.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f4bf63ea-0b6c-58e0-4587-64927290483f",
+                        "name": "Diana, Princess of Wales"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Diana, Princess of Wales"
+                    },
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-20T09:44:00.0000000Z"
+            },
+            {
+                "name": "<b>Prince Harry</b> recognised as Living Legend of Aviation for services to British Army",
+                "url": "https://news.sky.com/story/prince-harry-to-be-recognised-as-living-legend-of-aviation-for-services-to-british-army-13052045",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.U0PiHlWIConRjm5-Md1dhS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The duke&#39;s appearance at the award ceremony in Beverly Hills comes on the same day he dropped a libel claim against Associated Newspapers Limited.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4b00003b-73bb-e9ae-0755-370655b3e7d0",
+                        "name": "British Army"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2e2ce265-4921-b1c4-3d73-67b71022cf0d",
+                        "name": "Aviation"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "British Army"
+                    },
+                    {
+                        "name": "Aviation"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Eg62H9DIbo-JYPI6GpAgGA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-20T08:56:00.0000000Z"
+            },
+            {
+                "name": "<b>Prince Harry</b> avoids the red carpet at Beverly Hills awards",
+                "url": "https://www.thetimes.co.uk/article/prince-harry-living-legends-of-aviation-award-john-travolta-6wf693nqj",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Zjj0eguhG7B-XvQqeP_pay&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Organisers praised the duke for making \u201csignificant contributions to aviation/aerospace\u201d though, before the event, critics questioned whether the <b>prince</b> deserved the award. <b>Harry</b> arrived at the Beverly Hilton Hotel without the Duchess of Sussex ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/94babd40-8d3d-202a-fa95-9c5f1c8afa2b",
+                        "name": "Beverly Hills"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times"
+                    }
+                ],
+                "datePublished": "2024-01-20T07:22:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Why <b>Prince Harry</b> and Andrew won\u2019t be counsellors of state, explained by experts",
+                "url": "https://inews.co.uk/news/prince-harry-andrew-never-counsellors-state-experts-2864094",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.fBnUycKQcfUFuLCoHz6LqS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "\u201cWhen King Charles ascended to the throne the counsellors of state were Queen Camilla, who may not be able to act because she would be with the King [on a royal trip or in the hospital], Prince William, Princess Beatrice, Prince Harry and Prince Andrew.\u201d",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b84dbc56-5694-49b0-779d-86f4c2228acb",
+                        "name": "Prince Andrew, Duke of York"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Andrew, Duke of York"
+                    },
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Gaming, Austria"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-20T06:02:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "<b>Prince Harry</b> to be recognised as Living Legend of Aviation for services to British Army",
+                "url": "https://www.iwradio.co.uk/news/sky-news/prince-harry-to-be-recognised-as-living-legend-of-aviation-for-services-to-british-army/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.xRFOWW3tCo5PFMzbkNoUCC&pid=News",
+                        "width": 640,
+                        "height": 380
+                    }
+                },
+                "description": "Prince Harry has arrived at an awards ceremony in Los Angeles where he will be recognised as a Living Legend of Aviation.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4b00003b-73bb-e9ae-0755-370655b3e7d0",
+                        "name": "British Army"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Isle Of Wight Radio",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.a7uxf82O3Umn0q30N0l0jQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-20T05:39:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Duke of Sussex arrives at awards ceremony after dropping libel claim",
+                "url": "https://www.itv.com/news/2024-01-20/duke-of-sussex-arrives-at-awards-ceremony-after-dropping-libel-claim",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.pzOz4GQiUkRiOrLN7jE0Ay&pid=News",
+                        "width": 700,
+                        "height": 472
+                    }
+                },
+                "description": "A statement on it\u2019s website said: \u201c<b>Prince Harry</b> is a humanitarian, military veteran, mental wellness advocate and environmentalist. \u201cHe has dedicated his life to advancing causes that he is passionate about and that bring about permanent change for ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "ITV"
+                    }
+                ],
+                "datePublished": "2024-01-20T04:28:00.0000000Z"
+            },
+            {
+                "name": "<b>Prince Harry</b>&#39;s tribute to Princess Diana at awards ceremony",
+                "url": "https://uk.news.yahoo.com/prince-harrys-tribute-princess-diana-090000441.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.zpnn_6UwGtTEi4LIXBrJji&pid=News",
+                        "width": 700,
+                        "height": 455
+                    }
+                },
+                "description": "<b>Prince Harry</b> paid tribute to his mother Princess Diana at a glitzy awards ceremony in Beverly Hills on Friday (19.01.24). The Duke of Sussex was celebrated as a Living Legend of Aviation at the event for his work as a helicopter co-pilot and gunner in the ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f4bf63ea-0b6c-58e0-4587-64927290483f",
+                        "name": "Diana, Princess of Wales"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/47c49855-f59e-1593-1dd0-d96ff509cfe5",
+                        "name": "Tribute"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK"
+                    }
+                ],
+                "datePublished": "2024-01-20T04:00:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Prince Harry</b> looks dapper in a tuxedo as he charms audience with &#39;lovely speech&#39; at star-studded awards show",
+                "url": "https://www.hellomagazine.com/royalty/511690/prince-harry-honoured-living-legends-of-aviation-awards/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.M-o-zLElyBk4ZC2VdWQany&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Prince Harry, 39, made a solo appearance - despite rumours his wife Meghan, the Duchess of Sussex would be joining him - as he was inducted into the &quot;Living Legends of Aviation&quot; for his work as a British Army veteran, skipping the red carpet and sneaking in to the Beverly Hilton hotel, in Beverly Hills, California, via the back doors.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Star"
+                    },
+                    {
+                        "name": "Prince William, Duke of Cambridge"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "HELLO! Magazine",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6bLjCo5bpOYzo-n6kqtwhg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-20T03:54:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Prince Harry</b> was &#39;worried about King Charles&#39; health&#39; at Aviation Awards",
+                "url": "https://www.dailyrecord.co.uk/entertainment/celebrity/prince-harry-worried-king-charles-31930026",
+                "description": "<b>Prince Harry</b> attended the Aviation Awards last night alone and was supposedly &quot;worrying&quot; about his father The King who will go into hospital next week for a procedure. One body language expert has commented on the Duke&#39;s &quot;anxiousness&quot; which came shortly ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6e96fcb3-f721-b5c4-0e9d-549cb84eaf3e",
+                        "name": "Sasha Stone"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/607bf330-283c-e25d-6b64-69bbd33d5b72",
+                        "name": "Charles I of England"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Record"
+                    }
+                ],
+                "datePublished": "2024-01-20T00:01:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Critics Question Meghan Markle&#39;s Commitment During Royal Health Crisis",
+                "url": "https://www.btimesonline.com/articles/163424/20240121/critics-question-meghan-markles-commitment-during-royal-health-crisis.htm",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ed09twzxSSXmh3TWdrJlvC&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The Duchess of Sussex, along with her husband <b>Prince Harry</b>, relocated to the US, stepping back from their roles as senior members of the royal family. This decision has been scrutinized, especially as the royal family faces significant health challenges.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/82c2af6d-6239-9641-74e8-32916cb76517",
+                        "name": "Royal"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/778af3fb-7005-a371-4e23-2e8d3e2a344d",
+                        "name": "Critic"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "btimesonline"
+                    }
+                ],
+                "datePublished": "2024-01-20T00:01:00.0000000Z"
+            },
+            {
+                "name": "<b>Prince Harry</b> to make two overseas trips",
+                "url": "https://www.heraldscotland.com/news/13154059.prince-harry-make-two-overseas-trips/",
+                "description": "<b>Prince Harry</b> is to undertake two official overseas visits this summer. He will go to Estonia and Italy in May, then Brazil and Chile the following month in a trip likely to coincide with the football World Cup. Both visits are being organised by the ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "heraldscotland"
+                    }
+                ],
+                "datePublished": "2014-04-05T00:00:00.0000000Z",
+                "category": "World"
+            }
+        ]
+    }
+]

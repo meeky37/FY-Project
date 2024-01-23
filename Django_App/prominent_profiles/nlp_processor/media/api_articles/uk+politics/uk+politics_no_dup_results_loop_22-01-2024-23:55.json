@@ -1,0 +1,2880 @@
+[
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics",
+        "queryContext": {
+            "originalQuery": "uk politics",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 10,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "German far-right leader hails Brexit as \u2018model for Germany\u2019",
+                "url": "https://www.ft.com/content/5050571e-79f9-4cb7-991c-093702ec8833?shareType=nongift",
+                "description": "Simply sign up to the German <b>politics</b> myFT Digest -- delivered directly to your inbox. The far-right Alternative for Germany will push for a Brexit-style referendum on membership of the EU if it comes to power, its leader Alice Weidel said, hailing the <b>UK</b> ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/75c62d8e-1449-4e4d-b188-d9e88f878dd9",
+                        "name": "Germany"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5124cfb1-fa03-b51f-fcc7-6bc935d74ae3",
+                        "name": "Kurgan hypothesis"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8d6eec24-dea6-51b2-028d-e10a94c9988f",
+                        "name": "Parliamentary group leader"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Financial Times"
+                    }
+                ],
+                "datePublished": "2024-01-22T23:33:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Who are the Houthi rebels behind attacks on ships in Red Sea?",
+                "url": "https://www.swindonadvertiser.co.uk/news/national/24067568.houthi-rebels-behind-attacks-ships-red-sea/",
+                "description": "The rebels have attacked Saudi Arabia, the UAE and most recently Israel with missiles before the clashes in the Red Sea erupted. The joint operation on Monday comes after US and UK warships and jets hit more than 60 targets in 28 locations on January 11.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/47116f57-2cb0-bd80-4390-f7564b266027",
+                        "name": "Red Sea"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Swindon Advertiser",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.cn6A2bNZFtiSrprjEILJ1g&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T22:32:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "NHS bill could be cut by \u00a310bn by cracking down on waste Labour claim",
+                "url": "https://inews.co.uk/news/politics/nhs-bill-cut-10bn-crack-down-waste-labour-2867919?ico=above_article_ticker",
+                "description": "Labour also claimed \u00a31.7bn was being wasted due to beds being blocked by people who are well enough to leave hospital but cannot because of a lack of community care. However, the party does not spell out how it would deal with chronic social care failures in the UK.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c8a6585b-6ce1-05b9-f97c-85328950d272",
+                        "name": "Waste"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T22:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Labour&#39;s David Lammy says he would work with Donald Trump - despite calling him a &#39;neo-Nazi-sympathising sociopath&#39;",
+                "url": "https://news.sky.com/story/labours-david-lammy-says-he-would-work-with-donald-trump-despite-calling-him-a-neo-nazi-sympathising-sociopath-13054268",
+                "description": "Mr Lammy, Labour&#39;s shadow foreign secretary, repeatedly criticised Mr Trump during his first presidency but said he would work with him if the pair ended up at either end of the so-called special relationship.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1a466af2-ed23-25bd-794d-1ca925e4681b",
+                        "name": "Donald Trump"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/73799dc2-9580-ded9-365b-f4c1befc9eab",
+                        "name": "Labour"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Donald Trump"
+                    },
+                    {
+                        "name": "Labour"
+                    },
+                    {
+                        "name": "Religious calling"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Eg62H9DIbo-JYPI6GpAgGA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T22:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Middle East crisis live: <b>UK</b> says airstrikes are in \u2018self-defence\u2019 as Pentagon says bombing targeted Houthi underground missile sites",
+                "url": "https://www.theguardian.com/world/live/2024/jan/22/middle-east-crisis-live-updates-news-airstrikes-houthi-missile-yemen-biden-sunak-red-sea?page=with:block-65aef2cf8f0805c892754795",
+                "description": "Pentagon details eight new strikes in joint statement with UK, Australia, Bahrain, Canada and the Netherlands, which supported latest bombing",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ba4dcd59-7aaf-ab51-0b2c-3186cc75acdc",
+                        "name": "Middle East"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f8e3b5fa-8d72-5bd7-c9c1-24ef1caf555a",
+                        "name": "The Pentagon"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1fac930f-50ce-d8a7-f1f4-040b1e389960",
+                        "name": "Missile"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Middle East"
+                    },
+                    {
+                        "name": "The Pentagon"
+                    },
+                    {
+                        "name": "Missile"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T22:14:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Concerns raised as North Sea oil proposals clear first Commons hurdle",
+                "url": "https://uk.finance.yahoo.com/news/concerns-raised-north-sea-oil-220556499.html",
+                "description": "\u201cScotland has the energy, we just need the power.\u201d Greenpeace <b>UK</b>\u2019s <b>political</b> campaigner Ami McCarth also said: \u201cThe Government may have won this vote but the planet and everyone on it has lost as a result. \u201cLiterally no-one benefits from this ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c081c595-9ad6-c9ea-1f20-ef43f6457104",
+                        "name": "North Sea oil"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Finance"
+                    }
+                ],
+                "datePublished": "2024-01-22T17:04:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Putin election campaign presents boxes filled with petitions backing his run",
+                "url": "https://www.ilkleygazette.co.uk/news/national/24065364.putin-election-campaign-presents-boxes-filled-petitions-backing-run/",
+                "description": "Russian President Vladimir Putin\u2019s campaign staff have unveiled scores of boxes filled with signed petitions supporting his run in the March presidential election \u2013 a vote he is almost certain to win. Mr Putin, although closely tied to the dominant ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/60d41b9e-06ae-967b-bcc5-97ad4a13d29c",
+                        "name": "Vladimir Putin"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/30ee79a3-cb9e-0cb1-be63-987858d594de",
+                        "name": "Petition"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Ilkley Gazette"
+                    }
+                ],
+                "datePublished": "2024-01-22T10:50:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "The BBC faces an uphill battle for public\u2019s trust in a monumental year",
+                "url": "https://inews.co.uk/inews-lifestyle/money/bbc-uphill-battle-publics-trust-monumental-year-2866031?ico=more_from_this_author",
+                "description": "\u201cThe BBC must be destroyed in order to be saved,\u201d writes the iconoclastic former BBC royal correspondent Michael Cole. He suggests a subscription service for BBC News, including documentaries and Radio 4, with a separate sub charged for the BBC\u2019s music and culture output.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T06:00:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Fresh <b>UK</b> and US airstrikes on Houthi targets to \u2018deal another blow\u2019 to militants",
+                "url": "https://www.leaderlive.co.uk/news/national/24067571.fresh-uk-us-airstrikes-houthi-targets-deal-another-blow-militants/",
+                "description": "Fresh <b>UK</b> and US joint airstrikes against Houthi targets in Yemen have been carried out, the Ministry of Defence has said. Defence Secretary Grant Shapps said the latest round of strikes were in \u201cself-defence\u201d as attacks on ships continue in the Red Sea ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e637cc46-4f84-41b7-a9fd-b056757c76c4",
+                        "name": "The Leader"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Leader"
+                    }
+                ],
+                "datePublished": "2024-01-22T00:00:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Culture Secretary Javid is under fire from SNP",
+                "url": "https://www.heraldscotland.com/news/13154884.culture-secretary-javid-fire-snp/",
+                "description": "He becomes the first Asian man to be a member of the <b>UK</b> Cabinet. Prior to becoming an MP ... and is said to have amassed \u00a320m during his banking career, but turned to <b>politics</b> to &quot;give something back&quot;.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "heraldscotland"
+                    }
+                ],
+                "datePublished": "2014-04-10T00:00:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics",
+        "queryContext": {
+            "originalQuery": "uk politics",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 145,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "<b>UK</b> and US launch fresh airstrikes against Houthi targets in Yemen",
+                "url": "https://www.msn.com/en-us/news/world/uk-and-us-launch-fresh-airstrikes-against-houthi-targets-in-yemen/ar-BB1h5TpR",
+                "description": "The UK and the US have launched fresh airstrikes against Houthi targets in Yemen.Officials say the joint operation by British and American warplanes took out Houthi missile storage sites and launchers,",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent on MSN.com",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T23:45:05.0000000Z",
+                "video": {
+                    "name": "Strikes on Houthi targets in Yemen were a &#39;last resort&#39;, Sunak insists",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/308fa181-1b15-483d-916d-f65634d42b5a/6b4c5851-64f2-4bc4-ba17-14eb4a6c_650.mp4",
+                    "thumbnail": {
+                        "width": 640,
+                        "height": 360
+                    }
+                },
+                "category": "Politics"
+            },
+            {
+                "name": "German far-right leader hails Brexit as \u2018model for Germany\u2019",
+                "url": "https://www.ft.com/content/5050571e-79f9-4cb7-991c-093702ec8833?shareType=nongift",
+                "description": "Simply sign up to the German <b>politics</b> myFT Digest -- delivered directly to your inbox. The far-right Alternative for Germany will push for a Brexit-style referendum on membership of the EU if it comes to power, its leader Alice Weidel said, hailing the <b>UK</b> ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/75c62d8e-1449-4e4d-b188-d9e88f878dd9",
+                        "name": "Germany"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5124cfb1-fa03-b51f-fcc7-6bc935d74ae3",
+                        "name": "Kurgan hypothesis"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8d6eec24-dea6-51b2-028d-e10a94c9988f",
+                        "name": "Parliamentary group leader"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Financial Times"
+                    }
+                ],
+                "datePublished": "2024-01-22T23:33:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Who are the Houthi rebels behind attacks on ships in Red Sea?",
+                "url": "https://www.swindonadvertiser.co.uk/news/national/24067568.houthi-rebels-behind-attacks-ships-red-sea/",
+                "description": "The rebels have attacked Saudi Arabia, the UAE and most recently Israel with missiles before the clashes in the Red Sea erupted. The joint operation on Monday comes after US and UK warships and jets hit more than 60 targets in 28 locations on January 11.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/47116f57-2cb0-bd80-4390-f7564b266027",
+                        "name": "Red Sea"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Swindon Advertiser",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.cn6A2bNZFtiSrprjEILJ1g&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T22:32:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "NHS bill could be cut by \u00a310bn by cracking down on waste Labour claim",
+                "url": "https://inews.co.uk/news/politics/nhs-bill-cut-10bn-crack-down-waste-labour-2867919?ico=above_article_ticker",
+                "description": "Labour also claimed \u00a31.7bn was being wasted due to beds being blocked by people who are well enough to leave hospital but cannot because of a lack of community care. However, the party does not spell out how it would deal with chronic social care failures in the UK.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c8a6585b-6ce1-05b9-f97c-85328950d272",
+                        "name": "Waste"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T22:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Labour&#39;s David Lammy says he would work with Donald Trump - despite calling him a &#39;neo-Nazi-sympathising sociopath&#39;",
+                "url": "https://news.sky.com/story/labours-david-lammy-says-he-would-work-with-donald-trump-despite-calling-him-a-neo-nazi-sympathising-sociopath-13054268",
+                "description": "Mr Lammy, Labour&#39;s shadow foreign secretary, repeatedly criticised Mr Trump during his first presidency but said he would work with him if the pair ended up at either end of the so-called special relationship.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1a466af2-ed23-25bd-794d-1ca925e4681b",
+                        "name": "Donald Trump"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/73799dc2-9580-ded9-365b-f4c1befc9eab",
+                        "name": "Labour"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Donald Trump"
+                    },
+                    {
+                        "name": "Labour"
+                    },
+                    {
+                        "name": "Religious calling"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Eg62H9DIbo-JYPI6GpAgGA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T22:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Ex-climate chief tears into Government\u2019s oil and gas plans as MPs back bill",
+                "url": "https://inews.co.uk/news/politics/alok-sharma-government-oil-gas-mps-back-bill-2868081",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.mlDg0u72DPktlUjaDKZHqy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Sir Alok Sharma, the COP26 president, says bill will signal to world that UK is turning away from tackling climate change",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5634d914-4190-dd0b-fa80-715c2ac46335",
+                        "name": "Government"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Government"
+                    },
+                    {
+                        "name": "Bill"
+                    },
+                    {
+                        "name": "Fossil fuel"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T22:10:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Norman Jewison, Fiddler On The Roof and Moonstruck director, dies aged 97",
+                "url": "https://www.leighjournal.co.uk/news/national/24067535.norman-jewison-fiddler-roof-moonstruck-director-dies-aged-97/",
+                "description": "Norman Jewison, the Canadian-born director whose Hollywood films ranged from Doris Day comedies and Moonstruck to social dramas such as the Oscar-winning In The Heat Of The Night, has died aged 97.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fea5e9c6-a557-893e-6b48-aa78df4d5070",
+                        "name": "Norman Jewison"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fc014cd7-6dcf-53c0-5844-9ad30266907e",
+                        "name": "Fiddler on the Roof"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/feb963bd-1960-11d5-c657-7ae60b28fd7b",
+                        "name": "Director"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Leigh Journal",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.DnVq_qgdOCXR_h4mIInTdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T22:01:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "US and <b>UK</b> carry out fresh strikes on Houthis",
+                "url": "https://www.edp24.co.uk/news/national/24067546.us-uk-carry-fresh-strikes-houthis/",
+                "description": "The UK and the US have once again carried out joint airstrikes against Houthi targets in Yemen. Officials say the US and UK took out Houthi missile storage sites and launchers, in the second set of co-ordinated strikes against the Iran-backed militants.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "EDP 24",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.jwNaXSYAQbMSCRbjWcrBZA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T21:52:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Chief Whip To Warn Tory MPs Who Rebelled On Rwanda",
+                "url": "https://www.ibtimes.co.uk/chief-whip-warn-tory-mps-who-rebelled-rwanda-1722903",
+                "description": "The Conservative Party witnessed its biggest rebellion in years after 60 MPs called on Rishi Sunak to tighten his grip on the Rwanda legislation.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1d999f5c-16b0-a8e8-9e2e-016ddaf714de",
+                        "name": "Chief Whip"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "IBTimes UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.A4VFXrLFIRNrVa0JPthYgA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T21:45:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "LAWRENCE BOOTH: India&#39;s petty muscle-flexing to block young England&#39;s young Muslim spinner Shoaib Bashir from entering the country just makes them look SMALL\u2026 who gains from ...",
+                "url": "https://www.dailymail.co.uk/sport/cricket/article-12993793/LAWRENCE-BOOTH-Indias-petty-muscle-flexing-block-young-Englands-young-Muslim-spinner-Shoaib-Bashir-entering-country-just-makes-look-SMALL-gains-this.html",
+                "description": "Elevated to the Test squad one minute - a call-up that sparked tears of joy - he has been slapped down the next.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/280d39e8-7217-6863-6980-a8c20c211c89",
+                        "name": "England"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f9de5a7e-0496-ce3d-9038-5eff15c77304",
+                        "name": "Shoaib"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/93a3e0e2-aecf-e53b-8432-c15f400cfb4e",
+                        "name": "Daily Mail"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T21:26:00.0000000Z"
+            },
+            {
+                "name": "Alok Sharma condemns government\u2019s oil and gas bill as vote passes first hurdle",
+                "url": "https://www.theguardian.com/environment/2024/jan/22/oil-and-gas-bill-breaks-uk-promise-phase-out-fossil-fuels-alok-sharma-says?ref=biztoc.com",
+                "description": "Former Cop26 president abstains from vote saying bill breaks UK\u2019s promise to phase out fossil fuels",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/341b0862-1694-3d44-7647-c923be2f46e4",
+                        "name": "Alok Sharma"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b3fadce6-ff3f-a81e-0c89-bdb409be5593",
+                        "name": "Fossil fuel"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Alok Sharma"
+                    },
+                    {
+                        "name": "Fossil fuel"
+                    },
+                    {
+                        "name": "The Guardian"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T21:16:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "The latest on Israel&#39;s war in Gaza",
+                "url": "https://edition.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-22-24/h_bcea34adfb7d01899d1d59278a3a9bfe",
+                "description": "Israeli Prime Minister Netanyahu rejected Hamas&#39; conditions for an end to the war in exchange for the release of hostages held in Gaza as he faces increasing public pressure to bring the captives home.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8d8f36f1-f292-3a92-a6b9-2c3b83e3ffba",
+                        "name": "Yemen"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c85c9e61-12fd-e283-2ef1-3fe6cf1d7f9b",
+                        "name": "Archer"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "CNN",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.L448Bu0prHuvdWqWB4wMng&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T21:09:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Voter ID rules could be seen to benefit Conservatives, warns elections watchdog",
+                "url": "https://www.ft.com/content/7db6f3f7-d1e7-4c2d-871b-b93e14abf0dd",
+                "description": "John Pullinger says forcing voters to carry identification could disenfranchise certain groups at the general election",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/627423d2-7695-6088-24b5-530850dfe0b8",
+                        "name": "Voter ID laws"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3bd5f7db-c521-3212-3e05-326798479c94",
+                        "name": "Benefit"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Financial Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CdBlognZ1u9nda-gVEOS_w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T21:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Calls for <b>political</b> action to address staggering increase in porn addiction among young people",
+                "url": "https://www.christiantoday.com/article/calls.for.political.action.to.address.staggering.increase.in.porn.addiction.among.young.people/141298.htm",
+                "description": "Mental health and addiction clinic, Paracelsus Recovery, has reported a 150 per cent increase in people being treated for porn addiction between 2019 and 2023.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Christian Today",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AgSI4Ok1CenMElCZvc8twQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T20:55:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "Measles cases on the rise + Trump&#39;s big week",
+                "url": "https://www.bbc.co.uk/programmes/p0h6j1yk",
+                "description": "And in the US, Florida Governor Ron DeSantis has dropped out the race to become the Republican presidential nominee, endorsing Mr Trump. Is the race to challenge Joe Biden effectively over? BBC US Special Correspondent, Katty Kay, brings us the latest from the campaign trail.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1a466af2-ed23-25bd-794d-1ca925e4681b",
+                        "name": "Donald Trump"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b5f3a420-7af7-799e-e024-8059da67165b",
+                        "name": "Measles"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T20:54:00.0000000Z"
+            },
+            {
+                "name": "Concerns raised as North Sea oil proposals clear first Commons hurdle",
+                "url": "https://www.independent.co.uk/business/concerns-raised-as-north-sea-oil-proposals-clear-first-commons-hurdle-b2482946.html",
+                "description": "A Government bid to maximise North Sea oil and gas production has cleared its first Commons test, amid Tory criticism and warnings of \u201csleepless nights\u201d over the proposals.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c081c595-9ad6-c9ea-1f20-ef43f6457104",
+                        "name": "North Sea oil"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/dcb107c6-21c6-1d78-c7b5-d0b23743c56f",
+                        "name": "Hurdle"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "North Sea oil"
+                    },
+                    {
+                        "name": "Hurdle"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T20:05:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "ACROSS THE POND: Trump-related uneasiness returns as United States election year hype gathers pace",
+                "url": "https://www.ross-shirejournal.co.uk/news/across-the-pond-unease-grows-as-us-election-year-hype-build-339705/",
+                "description": "She won&#39;t stay up &#39;but no doubt I\u2019ll be in my bed fretting and wondering if I\u2019ll be able to sleep easy for the next four years&#39;.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1a466af2-ed23-25bd-794d-1ca925e4681b",
+                        "name": "Donald Trump"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/599e96eb-d236-4624-b29d-70f60edfb4a4",
+                        "name": "Election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Ross-shire Journal",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.tUFlOIktmQxOCvT_I8yHsQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T20:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Blow for Rishi Sunak as Rwanda plan suffers first defeat in House of Lords",
+                "url": "https://news.sky.com/story/blow-for-rishi-sunak-as-rwanda-bill-suffers-first-defeat-in-house-of-lords-13054210",
+                "description": "The House of Lords has defied Rishi Sunak to vote against the ratification of the UK&#39;s new treaty with Rwanda - in what could prove a damaging development for the Safety of Rwanda Bill. The upper house was voting following a report last week that recommended the treaty not be ratified.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/accd669f-9053-3a8c-78fc-d4fdeb378ee4",
+                        "name": "House of Lords"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Rwanda"
+                    },
+                    {
+                        "name": "House of Lords"
+                    },
+                    {
+                        "name": "Sky News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Eg62H9DIbo-JYPI6GpAgGA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T19:50:00.0000000Z"
+            },
+            {
+                "name": "Ex-Man City star Aymeric Laporte slams Saudi Pro League - &#39;many players are dissatisfied&#39;",
+                "url": "https://www.mirror.co.uk/sport/football/aymeric-laporte-saudi-pro-mls-31942378",
+                "description": "Former Premier League star Aymeric Laporte has become the latest high-profile player to speak out about his experiences in the Saudi Pro League in recent times, and his words could help MLS recruitmen",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fe63bdcd-9390-4e7b-a52e-bf3a7a48578a",
+                        "name": "Aymeric Laporte"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/672bc136-22f9-3750-0459-2fbd2340f892",
+                        "name": "Saudi Arabia"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Aymeric Laporte"
+                    },
+                    {
+                        "name": "Saudi Arabia"
+                    },
+                    {
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T19:30:00.0000000Z",
+                "category": "Sports"
+            },
+            {
+                "name": "Jason Kelce lets young fan meet Taylor Swift after he goes topless at Chiefs game",
+                "url": "https://www.mirror.co.uk/sport/other-sports/jason-kelce-topless-nfl-swift-31941926",
+                "description": "For all the latest on news, <b>politics</b>, sports, and showbiz from the USA ... You can report any errors to webhomepage@mirror.co.<b>uk</b>",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/665dc168-baf0-55f2-9a38-72b4e6575123",
+                        "name": "Jason Kelce"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror"
+                    }
+                ],
+                "datePublished": "2024-01-22T19:10:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Meghan Markle would &#39;guarantee headlines&#39; with Suits spin-off role amid speculation",
+                "url": "https://www.express.co.uk/news/royal/1858639/meghan-markle-suits-spin-off-hollywood-career",
+                "description": "Meghan Markle left the show in season seven when her character Rachel Zane married Mike Ross and moved to Seattle.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4b7bf858-8431-bb89-467f-468220bc686e",
+                        "name": "Spin-off"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Daily Express"
+                    },
+                    {
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "name": "Spin-off"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T19:08:00.0000000Z"
+            },
+            {
+                "name": "Humza Yousaf warns of more disruption from Storm Jocelyn",
+                "url": "https://www.theboltonnews.co.uk/news/national/24067434.humza-yousaf-warns-disruption-storm-jocelyn/",
+                "description": "First Minister Humza Yousaf paid tribute to the first victim of Storm Isha as he warned of more disruption due to the amber weather warning for Storm Jocelyn.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6d99b564-d527-5061-2ebd-f97730898d38",
+                        "name": "Humza Yousaf"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb389a38-0c3d-2886-4f7b-0f090ae2321a",
+                        "name": "Storm"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Bolton News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.pPRPamFGczny0UqE9iwoiQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T19:02:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "&#39;Disgusting&#39; behaviour is having drunken parties in Downing Street",
+                "url": "https://www.thenational.scot/politics/24066363.disgusting-behaviour-drunken-parties-downing-street/",
+                "description": "Television presenter and political campaigner Carol Vorderman has issued a retraction of a tweet she had previously put out criticising former",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b327a4f2-7f7a-a27c-60e2-d0d254922e0c",
+                        "name": "Downing Street"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T19:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "General Election: Should SNP be talking up Labour&#39;s chances?",
+                "url": "https://www.heraldscotland.com/news/24067405.general-election-snp-talking-labours-chances/",
+                "description": "The SNP has decided who will win the next general election and, for once, a political party is not boasting about its own chances.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8d8aa22b-becb-80d8-677c-a3161e16cbf5",
+                        "name": "General election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "heraldscotland",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PjDUWS-WIq7w595SCRQefg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T18:32:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Measles vaccine rates are higher in Scotland than in England",
+                "url": "https://www.heraldscotland.com/politics/viewpoint/24067379.measles-vaccine-rates-higher-scotland-england/",
+                "description": "Some good news for once. Public Health Scotland says no cervical cancer cases have been detected in women who received the human",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/280d39e8-7217-6863-6980-a8c20c211c89",
+                        "name": "England"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/52b11378-d75c-46c3-0f68-ccad1013e75f",
+                        "name": "Rates"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "heraldscotland",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PjDUWS-WIq7w595SCRQefg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T18:30:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "Nearly 50,000 companies face collapse as \u2018debt storm\u2019 hits",
+                "url": "https://www.telegraph.co.uk/business/2024/01/22/ftse-100-markets-latest-news-boeing-jets-airline-inspection/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.878nAK3vCT5irIdOdlV22i&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "Airlines have been told by regulators to inspect the door plugs on another class of Boeing jet following the mid-air blowout on an Alaska Airlines flight earlier this month. The US Federal Aviation Administration (FAA) late Sunday said companies operating Boeing 737-900ER jets should make sure equipment was properly secured.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/db293ee3-c5eb-c051-2d2e-1a585af1c3d2",
+                        "name": "Stratocladistics"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Stratocladistics"
+                    },
+                    {
+                        "name": "Collapse"
+                    },
+                    {
+                        "name": "United States"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T18:16:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Misinformation: A Looming Threat to Our Sustainable Future",
+                "url": "https://www.charitytoday.co.uk/misinformation-a-looming-threat-to-our-sustainable-future/",
+                "description": "In our quest to achieve the Paris Climate Agreement and Sustainable Development Goals (SDGs), we face a perilous adversary that has grown exponentially in",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0cda4c14-dc45-ffcd-58b5-97ef884b77d2",
+                        "name": "The Today Show"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d901041e-e691-3789-bb79-aa4dac9df755",
+                        "name": "Future"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b26d450c-f351-f6e0-3a2e-467a18f95290",
+                        "name": "Threat"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "charitytoday.co.uk"
+                    }
+                ],
+                "datePublished": "2024-01-22T18:05:00.0000000Z"
+            },
+            {
+                "name": "Analysis: <b>UK</b> Covid Inquiry exposes the difficulties thrown up by WhatsApp",
+                "url": "https://www.scotsman.com/news/politics/analysis-uk-covid-inquiry-exposes-the-difficulties-thrown-up-by-whatsapp-4488504",
+                "description": "The UK Covid Inquiry is exposing some of the difficulties thrown up by mobile messaging services such as WhatsApp. Professor Sir Gregor Smith, Scotland\u2019s chief medical officer, told a hearing in Edinburgh that he deleted messages \u201con a frequent basis\u201d.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Scotsman",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.QlHkHD_RALY4hnQHpw7jBw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T18:03:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "&quot;There is no more powerful degree than a medical degree&quot;",
+                "url": "https://www.sussex.ac.uk/broadcast/read/63202",
+                "description": "TV medical doctor and health campaigner Dr Chris van Tulleken is receiving an honorary doctorate at Winter Graduation.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c88c7f38-c699-2b59-e8cc-1bc1de787ad9",
+                        "name": "University of Sussex"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "University of Sussex",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.IidseyrtPetfztzw4dR4pQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T18:03:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "House of Lords debates Rishi Sunak\u2019s Rwanda treaty \u2013 <b>UK politics</b> live",
+                "url": "https://www.theguardian.com/politics/live/2024/jan/22/rishi-sunak-rwanda-bbc-conservatives-uk-politics-live?page=with:block-65aeb32d8f081fd80444f550",
+                "description": "Lords to debate whether it should delay ratification of UK-Rwanda treaty",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T17:50:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Royal Mail should not ditch Saturday postal service, Downing Street says",
+                "url": "https://www.itv.com/news/2024-01-22/royal-mail-should-not-ditch-saturday-postal-service-downing-street-says",
+                "description": "Regulator Ofcom is due to report back this week on its review of the universal postal service provided by. | ITV National News",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "ITV",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.HlKTyCgM99pRvmITMdZC2w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T17:48:00.0000000Z"
+            },
+            {
+                "name": "Catalan independence politician Clara Ponsati to meet MPs in Westminster",
+                "url": "https://uk.news.yahoo.com/catalan-independence-politician-clara-ponsati-174215182.html",
+                "description": "A KEY figurehead in Catalonia\u2019s struggle for independence will meet MPs in Westminster after a turbulent year in Spanish politics, which saw her pro-independence party thrust back into the spotlight.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4e4cc685-f79b-40c7-bfa5-48c88cfa235c",
+                        "name": "Westminster"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1939bc62-0e57-b37e-692b-17abaa592965",
+                        "name": "Catalan independence"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3fe6f62c-da6c-f5c7-c3dd-b31720c7525b",
+                        "name": "Clara"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T17:42:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Catalan independence politician Clara Ponsati to meet MPs",
+                "url": "https://www.thenational.scot/news/24067294.catalan-independence-politician-clara-ponsati-meet-mps/",
+                "description": "A KEY figurehead in Catalonia\u2019s struggle for independence will meet MPs in Westminster after a turbulent year in Spanish politics, which saw",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1939bc62-0e57-b37e-692b-17abaa592965",
+                        "name": "Catalan independence"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/016c7db4-b410-3617-0a92-658480aaae80",
+                        "name": "Clara"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T17:42:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Residents face &#39;double whammy&#39; of council tax hikes and service cuts, PM warned",
+                "url": "https://www.itv.com/news/2024-01-22/residents-face-double-whammy-of-council-tax-hikes-and-service-cuts-pm-warned",
+                "description": "More than 40 Tory MPs are threatening Rishi Sunak with rebellion if he does not announce emergency funding for local councils in the UK. | ITV National News",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "ITV",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.HlKTyCgM99pRvmITMdZC2w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T17:34:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "US and <b>UK</b> carry out additional strikes against Houthi targets in Yemen",
+                "url": "https://edition.cnn.com/2024/01/22/politics/us-uk-strikes-yemen-iraq/index.html",
+                "description": "The US\u00a0and UK\u00a0carried out additional strikes against Houthi targets in Yemen on Monday, marking the eighth round of attacks by the US military on the rebels\u2019 infrastructure in just over 10 days,\u00a0two defense officials told CNN.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8d8f36f1-f292-3a92-a6b9-2c3b83e3ffba",
+                        "name": "Yemen"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c4c637e5-f9cc-a3ed-3380-7152515e062e",
+                        "name": "CNN"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Yemen"
+                    },
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "CNN"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "CNN",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.L448Bu0prHuvdWqWB4wMng&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T17:15:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Two-state solution can be drawn up without Israel at the table, says EU diplomat",
+                "url": "https://www.telegraph.co.uk/world-news/2024/01/22/two-state-solution-peace-talks-israel-gaza-european-union/",
+                "description": "A plan prepared by Brussels&#39; foreign affairs arm states it is the responsibility of \u2018outside actors\u2019 to press ahead with peace talks",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3b8ddb1a-cf19-ee77-560d-9dfa00ddf070",
+                        "name": "European Union"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "European Union"
+                    },
+                    {
+                        "name": "Israel"
+                    },
+                    {
+                        "name": "Two-state solution"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T17:09:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "United Kingdom Solar Panel Recycling Market: In-Depth Analysis and Future Prospects Through 2030",
+                "url": "https://uk.finance.yahoo.com/news/united-kingdom-solar-panel-recycling-183300951.html",
+                "description": "Key Report Insights Unveiling the market size and growth factors in the <b>UK</b> solar panel recycling market. Analyzing the competitive landscape and top market players. Understanding the prevalent market trends and future projection. Evaluating opportunities ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Finance"
+                    }
+                ],
+                "datePublished": "2024-01-22T13:33:00.0000000Z"
+            },
+            {
+                "name": "Lord Frost pinpoints \u00a3300bn Brexit win you probably never noticed as &#39;absurd&#39; EU rule axed",
+                "url": "https://www.express.co.uk/news/politics/1858428/lord-frost-brexit-win-eu-rule-axed?ruid=4012be5c-f7b2-4f4c-ac58-d543cf421a85",
+                "description": "He said: \u201cOne of the little commented-upon aspects of the 2020 TCA [The EU\u2013<b>UK</b> Trade and Cooperation Agreement] negotiations ... He added: \u201cIt is a post-Brexit reform that has slipped under the <b>political</b> radar because of its rather technical nature ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express"
+                    }
+                ],
+                "datePublished": "2024-01-22T11:59:00.0000000Z",
+                "category": "ScienceAndTechnology"
+            },
+            {
+                "name": "Fake Biden robocall tells voters to skip New Hampshire primary election",
+                "url": "https://www.bbc.co.uk/news/world-us-canada-68064247",
+                "description": "To recipients, the robocalls falsely appeared to be coming from the personal mobile phone number of a former state Democratic chairwoman, Kathy Sullivan, who helps run a pro-Biden <b>political</b> group in New Hampshire. &quot;This call links back to my personal cell ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/49eefe47-bac4-a67c-cf1b-2f5749f9a6d0",
+                        "name": "Fake?"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cad484f9-be75-7a78-12dd-16233f823cd7",
+                        "name": "Joe Biden"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/01c02617-b2db-f37c-8398-275eeca5a6e7",
+                        "name": "Robocall"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC"
+                    }
+                ],
+                "datePublished": "2024-01-22T11:38:00.0000000Z"
+            },
+            {
+                "name": "Putin election campaign presents boxes filled with petitions backing his run",
+                "url": "https://www.keighleynews.co.uk/news/national/24065364.putin-election-campaign-presents-boxes-filled-petitions-backing-run/",
+                "description": "Russian President Vladimir Putin\u2019s campaign staff have unveiled scores of boxes filled with signed petitions supporting his run in the March presidential election \u2013 a vote he is almost certain to win.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/60d41b9e-06ae-967b-bcc5-97ad4a13d29c",
+                        "name": "Vladimir Putin"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/30ee79a3-cb9e-0cb1-be63-987858d594de",
+                        "name": "Petition"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Keighley News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.G125wIFiekq6_qMmOmCTQg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T10:50:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Ex government advisor Tim Leunig",
+                "url": "https://schoolsweek.co.uk/ex-government-advisor-tim-leunig/",
+                "description": "He is adamant that <b>UK</b> unemployment would have hit four million without it ... Leunig devised the national funding formula in 2014 (although it took another four years to get \u201c<b>political</b> buy-in\u201d). His belief in fair funding stems from his own schooling.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Schools Week"
+                    }
+                ],
+                "datePublished": "2024-01-22T05:44:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Fresh <b>UK</b> and US airstrikes on Houthi targets \u2018deal another blow\u2019 to militants",
+                "url": "https://www.standard.co.uk/news/politics/grant-shapps-houthi-yemen-mod-ministry-of-defence-b1134062.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Nk3oOaB3RLMvE96VGdew3C&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Fresh <b>UK</b> and US joint airstrikes against Houthi targets in Yemen have been carried out, the Ministry of Defence has said. The <b>UK</b> and the US have carried out a fresh set of joint airstrikes in Yemen, in the latest bid to stop Houthi attacks. Defence ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1edd6839-78eb-7408-355a-ecc89ef39be7",
+                        "name": "Grant Shapps"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Grant Shapps"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "United States"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "datePublished": "2024-01-22T00:00:00.0000000Z"
+            },
+            {
+                "name": "Birmingham council leader says child poverty levels show \u2018shocking reality&#39;",
+                "url": "https://www.birminghammail.co.uk/news/midlands-news/birmingham-council-leader-says-child-28493735",
+                "description": "\u201cAnd yet, the <b>UK</b> has grown faster than Germany, Italy, France, Spain and Japan,\u201d the government spokesperson continued. Keep up to date with all the latest <b>politics</b> news with our <b>politics</b> newsletter. You can sign up for free here to get stories ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/aaac0a14-911d-49c8-ac97-51d9f9100ad7",
+                        "name": "Birmingham"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Birmingham"
+                    },
+                    {
+                        "name": "Birmingham City Council"
+                    },
+                    {
+                        "name": "Parliamentary group leader"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Birmingham Mail"
+                    }
+                ],
+                "datePublished": "2024-01-22T00:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Fresh <b>UK</b> and US airstrikes on Houthi targets to \u2018deal another blow\u2019 to militants",
+                "url": "https://www.leaderlive.co.uk/news/national/24067571.fresh-uk-us-airstrikes-houthi-targets-deal-another-blow-militants/",
+                "description": "Fresh <b>UK</b> and US joint airstrikes against Houthi targets in Yemen have been carried out, the Ministry of Defence has said. Defence Secretary Grant Shapps said the latest round of strikes were in \u201cself-defence\u201d as attacks on ships continue in the Red Sea ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e637cc46-4f84-41b7-a9fd-b056757c76c4",
+                        "name": "The Leader"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Leader"
+                    }
+                ],
+                "datePublished": "2024-01-22T00:00:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "The BBC has been biased \u2018on occasion\u2019, says Culture Secretary",
+                "url": "https://www.wiltshiretimes.co.uk/news/national/24065084.bbc-biased-on-occasion-says-culture-secretary/",
+                "description": "Culture Secretary Lucy Frazer said she believes the BBC has been biased \u201con occasion\u201d as she discussed new measures aimed at boosting confidence in the corporation\u2019s impartiality. The reforms, announced as part of the BBC mid-term review, would give ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/56cd9dc4-3f3b-da2b-a165-78a579d79f5b",
+                        "name": "BBC"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b634ca3f-2b50-47da-b415-56b0f7ad210f",
+                        "name": "Bias"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Wiltshire Times"
+                    }
+                ],
+                "datePublished": "2024-01-22T00:00:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics",
+        "queryContext": {
+            "originalQuery": "uk politics",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 245,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "<b>UK</b> and US launch fresh airstrikes against Houthi targets in Yemen",
+                "url": "https://www.msn.com/en-us/news/world/uk-and-us-launch-fresh-airstrikes-against-houthi-targets-in-yemen/ar-BB1h5TpR",
+                "description": "The UK and the US have launched fresh airstrikes against Houthi targets in Yemen.Officials say the joint operation by British and American warplanes took out Houthi missile storage sites and launchers,",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent on MSN.com",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T23:45:05.0000000Z",
+                "video": {
+                    "name": "Strikes on Houthi targets in Yemen were a &#39;last resort&#39;, Sunak insists",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/308fa181-1b15-483d-916d-f65634d42b5a/6b4c5851-64f2-4bc4-ba17-14eb4a6c_650.mp4",
+                    "thumbnail": {
+                        "width": 640,
+                        "height": 360
+                    }
+                },
+                "category": "Politics"
+            },
+            {
+                "name": "German far-right leader hails Brexit as \u2018model for Germany\u2019",
+                "url": "https://www.ft.com/content/5050571e-79f9-4cb7-991c-093702ec8833?shareType=nongift",
+                "description": "Simply sign up to the German <b>politics</b> myFT Digest -- delivered directly to your inbox. The far-right Alternative for Germany will push for a Brexit-style referendum on membership of the EU if it comes to power, its leader Alice Weidel said, hailing the <b>UK</b> ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/75c62d8e-1449-4e4d-b188-d9e88f878dd9",
+                        "name": "Germany"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5124cfb1-fa03-b51f-fcc7-6bc935d74ae3",
+                        "name": "Kurgan hypothesis"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8d6eec24-dea6-51b2-028d-e10a94c9988f",
+                        "name": "Parliamentary group leader"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Financial Times"
+                    }
+                ],
+                "datePublished": "2024-01-22T23:33:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Who are the Houthi rebels behind attacks on ships in Red Sea?",
+                "url": "https://www.swindonadvertiser.co.uk/news/national/24067568.houthi-rebels-behind-attacks-ships-red-sea/",
+                "description": "The rebels have attacked Saudi Arabia, the UAE and most recently Israel with missiles before the clashes in the Red Sea erupted. The joint operation on Monday comes after US and UK warships and jets hit more than 60 targets in 28 locations on January 11.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/47116f57-2cb0-bd80-4390-f7564b266027",
+                        "name": "Red Sea"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Swindon Advertiser",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.cn6A2bNZFtiSrprjEILJ1g&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T22:32:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "NHS bill could be cut by \u00a310bn by cracking down on waste Labour claim",
+                "url": "https://inews.co.uk/news/politics/nhs-bill-cut-10bn-crack-down-waste-labour-2867919?ico=above_article_ticker",
+                "description": "Labour also claimed \u00a31.7bn was being wasted due to beds being blocked by people who are well enough to leave hospital but cannot because of a lack of community care. However, the party does not spell out how it would deal with chronic social care failures in the UK.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c8a6585b-6ce1-05b9-f97c-85328950d272",
+                        "name": "Waste"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T22:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Labour&#39;s David Lammy says he would work with Donald Trump - despite calling him a &#39;neo-Nazi-sympathising sociopath&#39;",
+                "url": "https://news.sky.com/story/labours-david-lammy-says-he-would-work-with-donald-trump-despite-calling-him-a-neo-nazi-sympathising-sociopath-13054268",
+                "description": "Mr Lammy, Labour&#39;s shadow foreign secretary, repeatedly criticised Mr Trump during his first presidency but said he would work with him if the pair ended up at either end of the so-called special relationship.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1a466af2-ed23-25bd-794d-1ca925e4681b",
+                        "name": "Donald Trump"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/73799dc2-9580-ded9-365b-f4c1befc9eab",
+                        "name": "Labour"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Donald Trump"
+                    },
+                    {
+                        "name": "Labour"
+                    },
+                    {
+                        "name": "Religious calling"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Eg62H9DIbo-JYPI6GpAgGA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T22:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Ex-climate chief tears into Government\u2019s oil and gas plans as MPs back bill",
+                "url": "https://inews.co.uk/news/politics/alok-sharma-government-oil-gas-mps-back-bill-2868081",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.mlDg0u72DPktlUjaDKZHqy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Sir Alok Sharma, the COP26 president, says bill will signal to world that UK is turning away from tackling climate change",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5634d914-4190-dd0b-fa80-715c2ac46335",
+                        "name": "Government"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Government"
+                    },
+                    {
+                        "name": "Bill"
+                    },
+                    {
+                        "name": "Fossil fuel"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T22:10:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Norman Jewison, Fiddler On The Roof and Moonstruck director, dies aged 97",
+                "url": "https://www.leighjournal.co.uk/news/national/24067535.norman-jewison-fiddler-roof-moonstruck-director-dies-aged-97/",
+                "description": "Norman Jewison, the Canadian-born director whose Hollywood films ranged from Doris Day comedies and Moonstruck to social dramas such as the Oscar-winning In The Heat Of The Night, has died aged 97.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fea5e9c6-a557-893e-6b48-aa78df4d5070",
+                        "name": "Norman Jewison"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fc014cd7-6dcf-53c0-5844-9ad30266907e",
+                        "name": "Fiddler on the Roof"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/feb963bd-1960-11d5-c657-7ae60b28fd7b",
+                        "name": "Director"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Leigh Journal",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.DnVq_qgdOCXR_h4mIInTdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T22:01:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "US and <b>UK</b> carry out fresh strikes on Houthis",
+                "url": "https://www.edp24.co.uk/news/national/24067546.us-uk-carry-fresh-strikes-houthis/",
+                "description": "The UK and the US have once again carried out joint airstrikes against Houthi targets in Yemen. Officials say the US and UK took out Houthi missile storage sites and launchers, in the second set of co-ordinated strikes against the Iran-backed militants.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "EDP 24",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.jwNaXSYAQbMSCRbjWcrBZA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T21:52:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Chief Whip To Warn Tory MPs Who Rebelled On Rwanda",
+                "url": "https://www.ibtimes.co.uk/chief-whip-warn-tory-mps-who-rebelled-rwanda-1722903",
+                "description": "The Conservative Party witnessed its biggest rebellion in years after 60 MPs called on Rishi Sunak to tighten his grip on the Rwanda legislation.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1d999f5c-16b0-a8e8-9e2e-016ddaf714de",
+                        "name": "Chief Whip"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "IBTimes UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.A4VFXrLFIRNrVa0JPthYgA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T21:45:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "LAWRENCE BOOTH: India&#39;s petty muscle-flexing to block young England&#39;s young Muslim spinner Shoaib Bashir from entering the country just makes them look SMALL\u2026 who gains from ...",
+                "url": "https://www.dailymail.co.uk/sport/cricket/article-12993793/LAWRENCE-BOOTH-Indias-petty-muscle-flexing-block-young-Englands-young-Muslim-spinner-Shoaib-Bashir-entering-country-just-makes-look-SMALL-gains-this.html",
+                "description": "Elevated to the Test squad one minute - a call-up that sparked tears of joy - he has been slapped down the next.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/280d39e8-7217-6863-6980-a8c20c211c89",
+                        "name": "England"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f9de5a7e-0496-ce3d-9038-5eff15c77304",
+                        "name": "Shoaib"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/93a3e0e2-aecf-e53b-8432-c15f400cfb4e",
+                        "name": "Daily Mail"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T21:26:00.0000000Z"
+            },
+            {
+                "name": "Alok Sharma condemns government\u2019s oil and gas bill as vote passes first hurdle",
+                "url": "https://www.theguardian.com/environment/2024/jan/22/oil-and-gas-bill-breaks-uk-promise-phase-out-fossil-fuels-alok-sharma-says?ref=biztoc.com",
+                "description": "Former Cop26 president abstains from vote saying bill breaks UK\u2019s promise to phase out fossil fuels",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/341b0862-1694-3d44-7647-c923be2f46e4",
+                        "name": "Alok Sharma"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b3fadce6-ff3f-a81e-0c89-bdb409be5593",
+                        "name": "Fossil fuel"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Alok Sharma"
+                    },
+                    {
+                        "name": "Fossil fuel"
+                    },
+                    {
+                        "name": "The Guardian"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T21:16:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "The latest on Israel&#39;s war in Gaza",
+                "url": "https://edition.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-22-24/h_bcea34adfb7d01899d1d59278a3a9bfe",
+                "description": "Israeli Prime Minister Netanyahu rejected Hamas&#39; conditions for an end to the war in exchange for the release of hostages held in Gaza as he faces increasing public pressure to bring the captives home.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8d8f36f1-f292-3a92-a6b9-2c3b83e3ffba",
+                        "name": "Yemen"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c85c9e61-12fd-e283-2ef1-3fe6cf1d7f9b",
+                        "name": "Archer"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "CNN",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.L448Bu0prHuvdWqWB4wMng&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T21:09:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Voter ID rules could be seen to benefit Conservatives, warns elections watchdog",
+                "url": "https://www.ft.com/content/7db6f3f7-d1e7-4c2d-871b-b93e14abf0dd",
+                "description": "John Pullinger says forcing voters to carry identification could disenfranchise certain groups at the general election",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/627423d2-7695-6088-24b5-530850dfe0b8",
+                        "name": "Voter ID laws"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3bd5f7db-c521-3212-3e05-326798479c94",
+                        "name": "Benefit"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Financial Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CdBlognZ1u9nda-gVEOS_w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T21:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Calls for <b>political</b> action to address staggering increase in porn addiction among young people",
+                "url": "https://www.christiantoday.com/article/calls.for.political.action.to.address.staggering.increase.in.porn.addiction.among.young.people/141298.htm",
+                "description": "Mental health and addiction clinic, Paracelsus Recovery, has reported a 150 per cent increase in people being treated for porn addiction between 2019 and 2023.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Christian Today",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AgSI4Ok1CenMElCZvc8twQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T20:55:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "Measles cases on the rise + Trump&#39;s big week",
+                "url": "https://www.bbc.co.uk/programmes/p0h6j1yk",
+                "description": "And in the US, Florida Governor Ron DeSantis has dropped out the race to become the Republican presidential nominee, endorsing Mr Trump. Is the race to challenge Joe Biden effectively over? BBC US Special Correspondent, Katty Kay, brings us the latest from the campaign trail.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1a466af2-ed23-25bd-794d-1ca925e4681b",
+                        "name": "Donald Trump"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b5f3a420-7af7-799e-e024-8059da67165b",
+                        "name": "Measles"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T20:54:00.0000000Z"
+            },
+            {
+                "name": "Concerns raised as North Sea oil proposals clear first Commons hurdle",
+                "url": "https://www.independent.co.uk/business/concerns-raised-as-north-sea-oil-proposals-clear-first-commons-hurdle-b2482946.html",
+                "description": "A Government bid to maximise North Sea oil and gas production has cleared its first Commons test, amid Tory criticism and warnings of \u201csleepless nights\u201d over the proposals.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c081c595-9ad6-c9ea-1f20-ef43f6457104",
+                        "name": "North Sea oil"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/dcb107c6-21c6-1d78-c7b5-d0b23743c56f",
+                        "name": "Hurdle"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "North Sea oil"
+                    },
+                    {
+                        "name": "Hurdle"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T20:05:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "ACROSS THE POND: Trump-related uneasiness returns as United States election year hype gathers pace",
+                "url": "https://www.ross-shirejournal.co.uk/news/across-the-pond-unease-grows-as-us-election-year-hype-build-339705/",
+                "description": "She won&#39;t stay up &#39;but no doubt I\u2019ll be in my bed fretting and wondering if I\u2019ll be able to sleep easy for the next four years&#39;.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1a466af2-ed23-25bd-794d-1ca925e4681b",
+                        "name": "Donald Trump"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/599e96eb-d236-4624-b29d-70f60edfb4a4",
+                        "name": "Election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Ross-shire Journal",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.tUFlOIktmQxOCvT_I8yHsQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T20:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Blow for Rishi Sunak as Rwanda plan suffers first defeat in House of Lords",
+                "url": "https://news.sky.com/story/blow-for-rishi-sunak-as-rwanda-bill-suffers-first-defeat-in-house-of-lords-13054210",
+                "description": "The House of Lords has defied Rishi Sunak to vote against the ratification of the UK&#39;s new treaty with Rwanda - in what could prove a damaging development for the Safety of Rwanda Bill. The upper house was voting following a report last week that recommended the treaty not be ratified.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/accd669f-9053-3a8c-78fc-d4fdeb378ee4",
+                        "name": "House of Lords"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Rwanda"
+                    },
+                    {
+                        "name": "House of Lords"
+                    },
+                    {
+                        "name": "Sky News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Eg62H9DIbo-JYPI6GpAgGA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T19:50:00.0000000Z"
+            },
+            {
+                "name": "Ex-Man City star Aymeric Laporte slams Saudi Pro League - &#39;many players are dissatisfied&#39;",
+                "url": "https://www.mirror.co.uk/sport/football/aymeric-laporte-saudi-pro-mls-31942378",
+                "description": "Former Premier League star Aymeric Laporte has become the latest high-profile player to speak out about his experiences in the Saudi Pro League in recent times, and his words could help MLS recruitmen",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fe63bdcd-9390-4e7b-a52e-bf3a7a48578a",
+                        "name": "Aymeric Laporte"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/672bc136-22f9-3750-0459-2fbd2340f892",
+                        "name": "Saudi Arabia"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Aymeric Laporte"
+                    },
+                    {
+                        "name": "Saudi Arabia"
+                    },
+                    {
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T19:30:00.0000000Z",
+                "category": "Sports"
+            },
+            {
+                "name": "Jason Kelce lets young fan meet Taylor Swift after he goes topless at Chiefs game",
+                "url": "https://www.mirror.co.uk/sport/other-sports/jason-kelce-topless-nfl-swift-31941926",
+                "description": "For all the latest on news, <b>politics</b>, sports, and showbiz from the USA ... You can report any errors to webhomepage@mirror.co.<b>uk</b>",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/665dc168-baf0-55f2-9a38-72b4e6575123",
+                        "name": "Jason Kelce"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror"
+                    }
+                ],
+                "datePublished": "2024-01-22T19:10:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Meghan Markle would &#39;guarantee headlines&#39; with Suits spin-off role amid speculation",
+                "url": "https://www.express.co.uk/news/royal/1858639/meghan-markle-suits-spin-off-hollywood-career",
+                "description": "Meghan Markle left the show in season seven when her character Rachel Zane married Mike Ross and moved to Seattle.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4b7bf858-8431-bb89-467f-468220bc686e",
+                        "name": "Spin-off"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Daily Express"
+                    },
+                    {
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "name": "Spin-off"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T19:08:00.0000000Z"
+            },
+            {
+                "name": "Humza Yousaf warns of more disruption from Storm Jocelyn",
+                "url": "https://www.theboltonnews.co.uk/news/national/24067434.humza-yousaf-warns-disruption-storm-jocelyn/",
+                "description": "First Minister Humza Yousaf paid tribute to the first victim of Storm Isha as he warned of more disruption due to the amber weather warning for Storm Jocelyn.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6d99b564-d527-5061-2ebd-f97730898d38",
+                        "name": "Humza Yousaf"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb389a38-0c3d-2886-4f7b-0f090ae2321a",
+                        "name": "Storm"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Bolton News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.pPRPamFGczny0UqE9iwoiQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T19:02:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "&#39;Disgusting&#39; behaviour is having drunken parties in Downing Street",
+                "url": "https://www.thenational.scot/politics/24066363.disgusting-behaviour-drunken-parties-downing-street/",
+                "description": "Television presenter and political campaigner Carol Vorderman has issued a retraction of a tweet she had previously put out criticising former",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b327a4f2-7f7a-a27c-60e2-d0d254922e0c",
+                        "name": "Downing Street"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T19:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "General Election: Should SNP be talking up Labour&#39;s chances?",
+                "url": "https://www.heraldscotland.com/news/24067405.general-election-snp-talking-labours-chances/",
+                "description": "The SNP has decided who will win the next general election and, for once, a political party is not boasting about its own chances.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8d8aa22b-becb-80d8-677c-a3161e16cbf5",
+                        "name": "General election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "heraldscotland",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PjDUWS-WIq7w595SCRQefg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T18:32:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Measles vaccine rates are higher in Scotland than in England",
+                "url": "https://www.heraldscotland.com/politics/viewpoint/24067379.measles-vaccine-rates-higher-scotland-england/",
+                "description": "Some good news for once. Public Health Scotland says no cervical cancer cases have been detected in women who received the human",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/280d39e8-7217-6863-6980-a8c20c211c89",
+                        "name": "England"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/52b11378-d75c-46c3-0f68-ccad1013e75f",
+                        "name": "Rates"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "heraldscotland",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PjDUWS-WIq7w595SCRQefg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T18:30:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "Nearly 50,000 companies face collapse as \u2018debt storm\u2019 hits",
+                "url": "https://www.telegraph.co.uk/business/2024/01/22/ftse-100-markets-latest-news-boeing-jets-airline-inspection/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.878nAK3vCT5irIdOdlV22i&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "Airlines have been told by regulators to inspect the door plugs on another class of Boeing jet following the mid-air blowout on an Alaska Airlines flight earlier this month. The US Federal Aviation Administration (FAA) late Sunday said companies operating Boeing 737-900ER jets should make sure equipment was properly secured.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/db293ee3-c5eb-c051-2d2e-1a585af1c3d2",
+                        "name": "Stratocladistics"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Stratocladistics"
+                    },
+                    {
+                        "name": "Collapse"
+                    },
+                    {
+                        "name": "United States"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T18:16:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Misinformation: A Looming Threat to Our Sustainable Future",
+                "url": "https://www.charitytoday.co.uk/misinformation-a-looming-threat-to-our-sustainable-future/",
+                "description": "In our quest to achieve the Paris Climate Agreement and Sustainable Development Goals (SDGs), we face a perilous adversary that has grown exponentially in",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0cda4c14-dc45-ffcd-58b5-97ef884b77d2",
+                        "name": "The Today Show"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d901041e-e691-3789-bb79-aa4dac9df755",
+                        "name": "Future"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b26d450c-f351-f6e0-3a2e-467a18f95290",
+                        "name": "Threat"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "charitytoday.co.uk"
+                    }
+                ],
+                "datePublished": "2024-01-22T18:05:00.0000000Z"
+            },
+            {
+                "name": "Analysis: <b>UK</b> Covid Inquiry exposes the difficulties thrown up by WhatsApp",
+                "url": "https://www.scotsman.com/news/politics/analysis-uk-covid-inquiry-exposes-the-difficulties-thrown-up-by-whatsapp-4488504",
+                "description": "The UK Covid Inquiry is exposing some of the difficulties thrown up by mobile messaging services such as WhatsApp. Professor Sir Gregor Smith, Scotland\u2019s chief medical officer, told a hearing in Edinburgh that he deleted messages \u201con a frequent basis\u201d.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Scotsman",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.QlHkHD_RALY4hnQHpw7jBw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T18:03:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "&quot;There is no more powerful degree than a medical degree&quot;",
+                "url": "https://www.sussex.ac.uk/broadcast/read/63202",
+                "description": "TV medical doctor and health campaigner Dr Chris van Tulleken is receiving an honorary doctorate at Winter Graduation.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c88c7f38-c699-2b59-e8cc-1bc1de787ad9",
+                        "name": "University of Sussex"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "University of Sussex",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.IidseyrtPetfztzw4dR4pQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T18:03:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "House of Lords debates Rishi Sunak\u2019s Rwanda treaty \u2013 <b>UK politics</b> live",
+                "url": "https://www.theguardian.com/politics/live/2024/jan/22/rishi-sunak-rwanda-bbc-conservatives-uk-politics-live?page=with:block-65aeb32d8f081fd80444f550",
+                "description": "Lords to debate whether it should delay ratification of UK-Rwanda treaty",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T17:50:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Royal Mail should not ditch Saturday postal service, Downing Street says",
+                "url": "https://www.itv.com/news/2024-01-22/royal-mail-should-not-ditch-saturday-postal-service-downing-street-says",
+                "description": "Regulator Ofcom is due to report back this week on its review of the universal postal service provided by. | ITV National News",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "ITV",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.HlKTyCgM99pRvmITMdZC2w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T17:48:00.0000000Z"
+            },
+            {
+                "name": "Catalan independence politician Clara Ponsati to meet MPs in Westminster",
+                "url": "https://uk.news.yahoo.com/catalan-independence-politician-clara-ponsati-174215182.html",
+                "description": "A KEY figurehead in Catalonia\u2019s struggle for independence will meet MPs in Westminster after a turbulent year in Spanish politics, which saw her pro-independence party thrust back into the spotlight.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4e4cc685-f79b-40c7-bfa5-48c88cfa235c",
+                        "name": "Westminster"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1939bc62-0e57-b37e-692b-17abaa592965",
+                        "name": "Catalan independence"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3fe6f62c-da6c-f5c7-c3dd-b31720c7525b",
+                        "name": "Clara"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T17:42:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Catalan independence politician Clara Ponsati to meet MPs",
+                "url": "https://www.thenational.scot/news/24067294.catalan-independence-politician-clara-ponsati-meet-mps/",
+                "description": "A KEY figurehead in Catalonia\u2019s struggle for independence will meet MPs in Westminster after a turbulent year in Spanish politics, which saw",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1939bc62-0e57-b37e-692b-17abaa592965",
+                        "name": "Catalan independence"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/016c7db4-b410-3617-0a92-658480aaae80",
+                        "name": "Clara"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T17:42:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Residents face &#39;double whammy&#39; of council tax hikes and service cuts, PM warned",
+                "url": "https://www.itv.com/news/2024-01-22/residents-face-double-whammy-of-council-tax-hikes-and-service-cuts-pm-warned",
+                "description": "More than 40 Tory MPs are threatening Rishi Sunak with rebellion if he does not announce emergency funding for local councils in the UK. | ITV National News",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "ITV",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.HlKTyCgM99pRvmITMdZC2w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T17:34:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "US and <b>UK</b> carry out additional strikes against Houthi targets in Yemen",
+                "url": "https://edition.cnn.com/2024/01/22/politics/us-uk-strikes-yemen-iraq/index.html",
+                "description": "The US\u00a0and UK\u00a0carried out additional strikes against Houthi targets in Yemen on Monday, marking the eighth round of attacks by the US military on the rebels\u2019 infrastructure in just over 10 days,\u00a0two defense officials told CNN.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8d8f36f1-f292-3a92-a6b9-2c3b83e3ffba",
+                        "name": "Yemen"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c4c637e5-f9cc-a3ed-3380-7152515e062e",
+                        "name": "CNN"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Yemen"
+                    },
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "CNN"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "CNN",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.L448Bu0prHuvdWqWB4wMng&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T17:15:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Two-state solution can be drawn up without Israel at the table, says EU diplomat",
+                "url": "https://www.telegraph.co.uk/world-news/2024/01/22/two-state-solution-peace-talks-israel-gaza-european-union/",
+                "description": "A plan prepared by Brussels&#39; foreign affairs arm states it is the responsibility of \u2018outside actors\u2019 to press ahead with peace talks",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3b8ddb1a-cf19-ee77-560d-9dfa00ddf070",
+                        "name": "European Union"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "European Union"
+                    },
+                    {
+                        "name": "Israel"
+                    },
+                    {
+                        "name": "Two-state solution"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T17:09:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "United Kingdom Solar Panel Recycling Market: In-Depth Analysis and Future Prospects Through 2030",
+                "url": "https://uk.finance.yahoo.com/news/united-kingdom-solar-panel-recycling-183300951.html",
+                "description": "Key Report Insights Unveiling the market size and growth factors in the <b>UK</b> solar panel recycling market. Analyzing the competitive landscape and top market players. Understanding the prevalent market trends and future projection. Evaluating opportunities ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Finance"
+                    }
+                ],
+                "datePublished": "2024-01-22T13:33:00.0000000Z"
+            },
+            {
+                "name": "Lord Frost pinpoints \u00a3300bn Brexit win you probably never noticed as &#39;absurd&#39; EU rule axed",
+                "url": "https://www.express.co.uk/news/politics/1858428/lord-frost-brexit-win-eu-rule-axed?ruid=4012be5c-f7b2-4f4c-ac58-d543cf421a85",
+                "description": "He said: \u201cOne of the little commented-upon aspects of the 2020 TCA [The EU\u2013<b>UK</b> Trade and Cooperation Agreement] negotiations ... He added: \u201cIt is a post-Brexit reform that has slipped under the <b>political</b> radar because of its rather technical nature ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express"
+                    }
+                ],
+                "datePublished": "2024-01-22T11:59:00.0000000Z",
+                "category": "ScienceAndTechnology"
+            },
+            {
+                "name": "Fake Biden robocall tells voters to skip New Hampshire primary election",
+                "url": "https://www.bbc.co.uk/news/world-us-canada-68064247",
+                "description": "To recipients, the robocalls falsely appeared to be coming from the personal mobile phone number of a former state Democratic chairwoman, Kathy Sullivan, who helps run a pro-Biden <b>political</b> group in New Hampshire. &quot;This call links back to my personal cell ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/49eefe47-bac4-a67c-cf1b-2f5749f9a6d0",
+                        "name": "Fake?"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cad484f9-be75-7a78-12dd-16233f823cd7",
+                        "name": "Joe Biden"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/01c02617-b2db-f37c-8398-275eeca5a6e7",
+                        "name": "Robocall"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC"
+                    }
+                ],
+                "datePublished": "2024-01-22T11:38:00.0000000Z"
+            },
+            {
+                "name": "Putin election campaign presents boxes filled with petitions backing his run",
+                "url": "https://www.keighleynews.co.uk/news/national/24065364.putin-election-campaign-presents-boxes-filled-petitions-backing-run/",
+                "description": "Russian President Vladimir Putin\u2019s campaign staff have unveiled scores of boxes filled with signed petitions supporting his run in the March presidential election \u2013 a vote he is almost certain to win.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/60d41b9e-06ae-967b-bcc5-97ad4a13d29c",
+                        "name": "Vladimir Putin"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/30ee79a3-cb9e-0cb1-be63-987858d594de",
+                        "name": "Petition"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Keighley News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.G125wIFiekq6_qMmOmCTQg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-22T10:50:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Ex government advisor Tim Leunig",
+                "url": "https://schoolsweek.co.uk/ex-government-advisor-tim-leunig/",
+                "description": "He is adamant that <b>UK</b> unemployment would have hit four million without it ... Leunig devised the national funding formula in 2014 (although it took another four years to get \u201c<b>political</b> buy-in\u201d). His belief in fair funding stems from his own schooling.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Schools Week"
+                    }
+                ],
+                "datePublished": "2024-01-22T05:44:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Fresh <b>UK</b> and US airstrikes on Houthi targets \u2018deal another blow\u2019 to militants",
+                "url": "https://www.standard.co.uk/news/politics/grant-shapps-houthi-yemen-mod-ministry-of-defence-b1134062.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Nk3oOaB3RLMvE96VGdew3C&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Fresh <b>UK</b> and US joint airstrikes against Houthi targets in Yemen have been carried out, the Ministry of Defence has said. The <b>UK</b> and the US have carried out a fresh set of joint airstrikes in Yemen, in the latest bid to stop Houthi attacks. Defence ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1edd6839-78eb-7408-355a-ecc89ef39be7",
+                        "name": "Grant Shapps"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Grant Shapps"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "United States"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "datePublished": "2024-01-22T00:00:00.0000000Z"
+            },
+            {
+                "name": "Birmingham council leader says child poverty levels show \u2018shocking reality&#39;",
+                "url": "https://www.birminghammail.co.uk/news/midlands-news/birmingham-council-leader-says-child-28493735",
+                "description": "\u201cAnd yet, the <b>UK</b> has grown faster than Germany, Italy, France, Spain and Japan,\u201d the government spokesperson continued. Keep up to date with all the latest <b>politics</b> news with our <b>politics</b> newsletter. You can sign up for free here to get stories ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/aaac0a14-911d-49c8-ac97-51d9f9100ad7",
+                        "name": "Birmingham"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Birmingham"
+                    },
+                    {
+                        "name": "Birmingham City Council"
+                    },
+                    {
+                        "name": "Parliamentary group leader"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Birmingham Mail"
+                    }
+                ],
+                "datePublished": "2024-01-22T00:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Fresh <b>UK</b> and US airstrikes on Houthi targets to \u2018deal another blow\u2019 to militants",
+                "url": "https://www.leaderlive.co.uk/news/national/24067571.fresh-uk-us-airstrikes-houthi-targets-deal-another-blow-militants/",
+                "description": "Fresh <b>UK</b> and US joint airstrikes against Houthi targets in Yemen have been carried out, the Ministry of Defence has said. Defence Secretary Grant Shapps said the latest round of strikes were in \u201cself-defence\u201d as attacks on ships continue in the Red Sea ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e637cc46-4f84-41b7-a9fd-b056757c76c4",
+                        "name": "The Leader"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Leader"
+                    }
+                ],
+                "datePublished": "2024-01-22T00:00:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "The BBC has been biased \u2018on occasion\u2019, says Culture Secretary",
+                "url": "https://www.wiltshiretimes.co.uk/news/national/24065084.bbc-biased-on-occasion-says-culture-secretary/",
+                "description": "Culture Secretary Lucy Frazer said she believes the BBC has been biased \u201con occasion\u201d as she discussed new measures aimed at boosting confidence in the corporation\u2019s impartiality. The reforms, announced as part of the BBC mid-term review, would give ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/56cd9dc4-3f3b-da2b-a165-78a579d79f5b",
+                        "name": "BBC"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b634ca3f-2b50-47da-b415-56b0f7ad210f",
+                        "name": "Bias"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Wiltshire Times"
+                    }
+                ],
+                "datePublished": "2024-01-22T00:00:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    }
+]
