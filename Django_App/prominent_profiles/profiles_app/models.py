@@ -1,9 +1,5 @@
-# profiles_app/models.py
+from django.conf import settings
 from django.db import models
-from django.utils import timezone
-
-from django.db.models.signals import post_migrate
-from django.dispatch import receiver
 
 
 class Article(models.Model):
@@ -30,13 +26,35 @@ class Entity(models.Model):
         return OverallSentiment.objects.filter(entity=self).count()
 
 
-    # def get_article_count(self):
-    #     # Making sortable in admin portal
-    #     return self.article_count
-    # get_article_count.admin_order_field = 'article_count'
+class IgnoreEntitySimilarity(models.Model):
+    entity_a = models.ForeignKey('Entity', related_name='ignore_relationships_a',
+                                 on_delete=models.CASCADE)
+    entity_b = models.ForeignKey('Entity', related_name='ignore_relationships_b',
+                                 on_delete=models.CASCADE)
+
+    class Meta:
+        unique_together = ('entity_a', 'entity_b')
+
+    def __str__(self):
+        return f"Ignore Relationship: '{self.entity_a.name}' <-> '{self.entity_b.name}'"
 
 
-#
+class EntityHistory(models.Model):
+    name = models.CharField(max_length=255)
+    merged_into = models.ForeignKey('Entity', on_delete=models.SET_NULL, null=True, blank=True)
+    timestamp = models.DateTimeField(auto_now_add=True)
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.SET_NULL, null=True,
+                             blank=True)
+
+    def __str__(self):
+        if self.merged_into is not None:
+            return f'Merge Log: {self.merged_into.name} <- {self.name}'
+        else:
+            # Handle cases where EntityHistory was (by mistake) not included in merge steps
+            return f'Merge Log: No merge information available for {self.name}'
+
+
+
 class EntityView(models.Model):
     entity = models.ForeignKey(Entity, on_delete=models.CASCADE)
     view_dt = models.DateField(auto_now_add=True)
@@ -54,6 +72,7 @@ class BingEntity(models.Model):
     entity_type_display_hint = models.CharField(max_length=255)
     entity_type_hints = models.JSONField()
     date_added = models.DateTimeField(auto_now_add=True)
+
 
 class BoundMention(models.Model):
     article = models.ForeignKey(Article, on_delete=models.CASCADE)

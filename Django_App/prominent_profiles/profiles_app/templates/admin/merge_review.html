@@ -1,0 +1,157 @@
+{% extends "admin/base_site.html" %}
+
+{% block content %}
+    <div class="module">
+        <h2>Fuzzy Merge Entity Admin</h2>
+        <p>Merge: Selected fuzzy match candidates will ALWAYS be merged into the entity name above
+            their table</p>
+        <p>Ignore: Selected fuzzy match candidates will ALWAYS have a fuzzy match exception created
+            between them and the entity name above their table - thus excluded from this interface
+            going forward</p>
+
+        {% for entity, similar_entities in merge_pairs %}
+            <div>
+                <form method="post" action="#" class="mergeForm">
+                    {% csrf_token %}
+                    <input type="hidden" name="primary_entity_id" value="{{ entity.id }}" class="primary-entity-id">
+                    <input type="hidden" name="primary_entity_name" value="{{ entity.name }}" class="primary-entity-name">
+                    <h3><a href="{% url 'admin:profiles_app_entity_change' entity.id %}" target="_blank">{{ entity.name }}</a></h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Fuzzy Merge Candidates</th>
+                                <th>View</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for similar_entity in similar_entities %}
+                                <tr>
+                                    <td>
+                                        <label>
+                                            <input type="checkbox" name="secondary_entities" value="{{ similar_entity.id }}">
+                                            {{ similar_entity.name }}
+                                        </label>
+                                    </td>
+                                    <td>
+                                         <a href="{% url 'admin:profiles_app_entity_change' similar_entity.id %}" target="_blank">View</a>
+                                    </td>
+                                </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                    <input type="hidden" name="merge" value="yes">
+                    <button type="button" class="mergeButton">Merge</button>
+                    <input type="hidden" name="ignore" value="yes">
+                    <button type="button" class="ignoreButton">Ignore</button>
+                </form>
+            </div>
+            <br>
+        {% endfor %}
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(function () {
+            /*
+            Click event listener for Merge button using the nearest form to fashion an AJAX POST
+            request and handle the success / fail outcomes.
+             */
+
+            $('.mergeButton').on('click', function () {
+                const form = $(this).closest('form');
+                const formData = new FormData(form[0]);
+                $.ajax({
+                    url: '{% url "admin:merge_entities_admin" %}',
+                    type: 'POST',
+                    data: formData,
+                    processData: false,  // Prevent jQuery from processing the data
+                    contentType: false,  // Prevents jQuery from setting the content type
+                    headers: {
+                        'X-CSRFToken': '{{ csrf_token }}'
+                    },
+                    success: function (data) {
+                        console.log(data);
+
+                        // Reloading the page as in theory less entities to resolve now
+                         setTimeout(function () {
+                        location.reload();
+                        }, 100);
+                    },
+                    error: function (error) {
+                        console.error('Error:', error);
+                        alert('Error: Please select at least one fuzzy merge candidate to delete' +
+                            ' and rewrite references to the primary entity above the table!')
+                    }
+                });
+            });
+        });
+
+            $('.ignoreButton').on('click', function () {
+                /*
+            Click event listener for Ignore button using the nearest form to fashion an AJAX POST
+            request and handle the success / fail outcomes.
+             */
+                const form = $(this).closest('form');
+
+                const formData = new FormData(form[0]);
+                $.ajax({
+                    url: '{% url "admin:ignore_entities_admin" %}',
+                    type: 'POST',
+                    data: formData,
+                    processData: false,
+                    contentType: false,
+                    headers: {
+                        'X-CSRFToken': '{{ csrf_token }}'
+                    },
+                    success: function (data) {
+                        console.log(data);
+
+                         // Reloading the page as in theory less entities to resolve now
+                        setTimeout(function () {
+                            location.reload();
+                        }, 100);
+                    },
+                    error: function (error) {
+                        console.error('Error:', error);
+                        alert('Error: Please select at least one fuzzy merge candidate to create ' +
+                            'an exception for future matching with the primary ' +
+                            'entity above the table!')
+                    }
+                });
+            });
+
+    </script>
+
+
+<style>
+    .mergeButton {
+        background-color: mediumseagreen;
+        color: white;
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        margin: 10px;
+    }
+
+    .mergeButton:hover {
+        background-color: #45A052;
+    }
+
+    .ignoreButton {
+        background-color: #FF7F7F;
+        color: white;
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        margin: 10px;
+    }
+
+    .ignoreButton:hover {
+        background-color: red;
+    }
+</style>
+{% endblock %}
