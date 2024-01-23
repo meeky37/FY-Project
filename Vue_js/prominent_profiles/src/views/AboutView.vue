@@ -9,8 +9,7 @@
     <a href="https://www.nltk.org/">NLTK</a><br>
     <a href="https://pypi.org/project/NewsSentiment/">News Sentiment</a><br>
     <a href="https://textblob.readthedocs.io/en/dev/">TextBlob</a><br>
+    <a href="https://pypi.org/project/django-admin-shortcuts/">Django Admin Shortcuts</a><br>
     <p>Add other modules/packages here - review properly</p>
   </div>
 </template>
-<script setup>
-</script>

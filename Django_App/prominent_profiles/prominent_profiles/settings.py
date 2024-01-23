@@ -29,6 +29,7 @@ ALLOWED_HOSTS = ["localhost"]
 # Application definition
 
 INSTALLED_APPS = [
+    'admin_shortcuts',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -63,9 +64,9 @@ MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
-    'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
@@ -201,3 +202,21 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 DEFAULT_FILE_STORAGE = 'django.core.files.storage.FileSystemStorage'
 
 ARTICLE_SCRAPER_MEDIA_ROOT = os.path.join(BASE_DIR, 'nlp_processor', 'media')
+
+ADMIN_SHORTCUTS = [
+    {
+        'shortcuts': [
+            {
+                'url': '/admin/profiles_app/entity/merge_review/',
+                'title': 'Merge Review',
+                'open_new_window': True,
+            },
+            {
+                'url': '/admin/profiles_app/entity/merge_review/app_visible/',
+                'title': 'Merge Review (App Visible)',
+                'open_new_window': True,
+            },
+        ],
+        'title': 'Fuzzy Matching',
+    },
+]
