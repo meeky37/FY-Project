@@ -10,14 +10,14 @@
         <EntitySelection />
       </div>
       <nav>
-        <router-link to="/" class="nav-link">Home</router-link>
+<!--        <router-link to="/" class="nav-link">Home</router-link>-->
 <!--        <router-link to="/vue" class="nav-link">Vue</router-link>-->
         <router-link to="/about" class="nav-link">About</router-link>
-        <router-link v-if="!authenticated" to="null" class="nav-link"
+        <router-link v-if="!authenticated" :to="''" class="nav-link"
                      @click="LogonRedirect">Login </router-link>
-        <router-link v-if="authenticated" to="null" class="nav-link"  @click="LogonRedirect"> Your
+        <router-link v-if="authenticated" :to="''" class="nav-link"  @click="LogonRedirect"> Your
           Dashboard</router-link>
-        <router-link v-if="authenticated" to="null" class="nav-link"  @click="Logout"> Logout
+        <router-link v-if="authenticated" :to="''" class="nav-link"  @click="Logout"> Logout
         </router-link>
       </nav>
     </header>
@@ -39,6 +39,7 @@ import EntitySelection from '@/components/EntitySelection.vue'
 import { API_BASE_URL } from '@/config'
 import axios from 'axios'
 import PageFooter from '@/components/PageFooter.vue'
+import { checkAuthenticationCommon } from '@/auth.js'
 
 export default {
   components: {
@@ -52,6 +53,10 @@ export default {
     }
   },
 
+  beforeMount () {
+    this.checkAuthentication()
+  },
+
   watch: {
     // LoginPage.vue redirects to dashboard on successful login - this is implemented to
     // update the header to 'Your Dashboard' immediately
@@ -62,53 +67,46 @@ export default {
     }
   },
   methods: {
-    async checkAuthentication () {
-      // TODO: API request or check a cookie/local storage here. VUEX worthwhile?
-      const accessToken = VueCookies.get('access_token')
-
-      if (!accessToken) {
-        // Attempt to refresh the access token using the refresh token
-        const refreshToken = VueCookies.get('refresh_token')
-        if (refreshToken) {
-          try {
-            const response = await axios.post(`${API_BASE_URL}/accounts/api/token/refresh/`, {
-              refresh: refreshToken
-            })
-            // Update the access token cookie
-            VueCookies.set('access_token', response.data.access)
-            const accessToken = VueCookies.get('access_token')
-            this.authenticated = !!accessToken
-            return
-          } catch (refreshError) {
-            // If refresh fails, redirect to the login page.
-            console.error('Token refresh failed', refreshError)
-            router.push('/login')
-          }
-        }
-      }
-      this.authenticated = !!accessToken
-    },
-
-    // LogonRedirect (logonShown) {
+    // async checkAuthentication () {
+    //   // TODO: API request or check a cookie/local storage here. VUEX worthwhile?
+    //   const accessToken = VueCookies.get('access_token')
     //
-    //   if (this.authenticated) {
-    //     this.checkAuthentication()
-    //     if (this.authenticated) {
-    //       this.$router.push('/dashboard/')
-    //     } else {
-    //       this.$router.push('/login/')
-    //     }
-    //   } else {
-    //       this.checkAuthentication()
-    //     if (this.authenticated) {
-    //       this.$router.push('/login/')
-    //     } else {
-    //       this.$router.push('/dashboard/')
+    //   if (!accessToken) {
+    //     // Attempt to refresh the access token using the refresh token
+    //     const refreshToken = VueCookies.get('refresh_token')
+    //     if (refreshToken) {
+    //       try {
+    //         const response = await axios.post(`${API_BASE_URL}/accounts/api/token/refresh/`, {
+    //           refresh: refreshToken
+    //         })
+    //         // Update the access token cookie
+    //         VueCookies.set('access_token', response.data.access)
+    //         const accessToken = VueCookies.get('access_token')
+    //         this.authenticated = !!accessToken
+    //         return
+    //       } catch (refreshError) {
+    //         // If refresh fails, redirect to the login page.
+    //         console.error('Token refresh failed', refreshError)
+    //         router.push('/login')
+    //       }
     //     }
     //   }
-    // }
-    LogonRedirect () {
-      this.checkAuthentication()
+    //   this.authenticated = !!accessToken
+    // },
+
+    async checkAuthentication () {
+      try {
+        const isAuthenticated = await checkAuthenticationCommon()
+        this.authenticated = isAuthenticated
+      } catch (error) {
+        console.error('Error checking authentication:', error)
+        // If refresh has failed in checkAuthenticationCommon, redirect to the login page.
+        router.push('/login')
+      }
+    },
+
+    async LogonRedirect () {
+      await this.checkAuthentication()
       if (this.authenticated) {
         this.$router.push('/dashboard/')
       } else {
@@ -119,12 +117,29 @@ export default {
     Logout () {
       VueCookies.delete('access_token')
       VueCookies.delete('refresh_token')
+
+      const csrfToken = VueCookies.get('csrftoken')
+
       // Redirect to dashboard which will trigger update of header + redirect to login page
-      router.push('/dashboard/')
-      this.LogonRedirect()
+      axios.post(`${API_BASE_URL}/accounts/logout/`, null, {
+        withCredentials: true,
+        headers: {
+          'X-CSRFToken': csrfToken
+        }
+      })
+        .then(() => {
+          // Redirect to the desired page after successful logout
+          this.authenticated = false
+          // router.push('/dashboard/')
+          this.LogonRedirect()
+        })
+        .catch(error => {
+          console.error('Error during logout:', error)
+        })
     }
   }
 }
+
 </script>
 
 <style>
@@ -181,6 +196,6 @@ nav {
 
 .nav-link:hover {
   outline: 2px solid #fff;
-  outline-offset: 15px;
+  outline-offset:2px;
 }
 </style>

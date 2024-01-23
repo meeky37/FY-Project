@@ -136,6 +136,6 @@ export default {
 
 .button-container:hover {
    outline: 2px solid #fff;
-    outline-offset: 10px;
+   outline-offset: 3px;
 }
 </style>
