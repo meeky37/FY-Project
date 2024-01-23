@@ -5,7 +5,7 @@ from rest_framework_simplejwt.views import (
     TokenRefreshView,
     TokenVerifyView,
 )
-from .views import get_user_data, register_user
+from .views import get_user_data, register_user, toggle_sub, get_sub_status, get_sub_list
 
 
 
@@ -17,5 +17,8 @@ urlpatterns = [
     path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
     path('api/token/verify/', TokenVerifyView.as_view(), name='token_verify'),
     path('api/get_user_data/', get_user_data, name='get_user_data'),
+    path('api/toggle_sub/<int:entity_id>/', toggle_sub, name='toggle_sub'),
+    path('api/get_sub_status/<int:entity_id>/', get_sub_status, name='get_sub_status'),
+    path('api/get_sub_list/', get_sub_list, name='get_sub_list'),
 ]
-    # Need to add forgot password still.
+    # TODO: Need to add forgot password still!

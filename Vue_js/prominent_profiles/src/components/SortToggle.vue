@@ -34,11 +34,6 @@
   <div>
     <button @click="resetToggles" class="reset-button">Reset</button>
   </div>
-<!--  <div v-if="dateRange">-->
-<!--      <p>Selected Date Range:</p>-->
-<!--      <p>Start Date: {{ dateRange.start }}</p>-->
-<!--      <p>End Date: {{ dateRange.end }}</p>-->
-<!--    </div>-->
 </template>
 
 <script setup>
@@ -179,6 +174,7 @@ export default {
   cursor: pointer;
   display: inline-block;
   font-size: xx-large;
+  margin-top: 10px;
 }
 
 .date-picker {

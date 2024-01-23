@@ -1,20 +1,6 @@
 <template>
   <div>
     <div class="card">
-      <h2 class="entity-name" @click="redirectToEntityPage">{{ entry.entity_name }}</h2>
-    <div class="animated-positive left-box">
-      <p class="box-icon">
-            <font-awesome-icon :icon="['fas', 'circle-chevron-up']" class="positive" />
-          </p>
-      <transition-group name="reel" tag="div">
-        <p v-if="positiveArticle.length > 0" :key="currentPositiveIndex"
-           v-html="removeBoldTags(positiveArticle[currentPositiveIndex].headline)"
-           @click="viewArticleDetail(positiveArticle[currentPositiveIndex].id)"
-           class="headline">
-        </p>
-      </transition-group>
-    </div>
-
       <div class="entity-photo-frame">
         <div class="entity-photo">
           <img
@@ -22,25 +8,26 @@
             @click="redirectToEntityPage"
             :src="bingEntity.image_url"
             alt="Entity Photo"
-            style="width: auto; min-height: 150px;"
+            style="width: 100px; height: auto; border-radius: 4px;"
             :title="getAttributionMessage(bingEntity)"
           />
           <a v-if="getAttributionMessage(bingEntity)" class="attribution-link" @mouseover="showAttribution" @mouseleave="hideAttribution"></a>
         </div>
       </div>
 
-    <div class="animated-negative right-box">
-      <p class="box-icon">
-      <font-awesome-icon :icon="['fas', 'circle-chevron-down']" class="negative" />
-    </p>
-      <transition-group name="reel" tag="div">
-        <p v-if="negativeArticle.length > 0" :key="currentNegativeIndex"
-           v-html="removeBoldTags(negativeArticle[currentNegativeIndex].headline)"
-           @click="viewArticleDetail(negativeArticle[currentNegativeIndex].id)"
-           class="headline">
+      <div class="animated-positive">
+        <p class="box-icon">
+          <font-awesome-icon :icon="['fas', 'circle-chevron-up']" class="positive" />
         </p>
-      </transition-group>
-    </div>
+        <p class="sentiment-count">{{ positiveArticle.length }}</p>
+      </div>
+
+      <div class="animated-negative">
+        <p class="box-icon">
+          <font-awesome-icon :icon="['fas', 'circle-chevron-down']" class="negative" />
+        </p>
+        <p class="sentiment-count">{{ negativeArticle.length }}</p>
+      </div>
     </div>
   </div>
 </template>
@@ -97,43 +84,43 @@ export default {
             if (parseFloat(article.positive) > parseFloat(article.neutral) && parseFloat(article.positive) > parseFloat(article.negative)) {
               this.positiveArticle.push(article)
             } else if (parseFloat(article.neutral) > parseFloat(article.positive) && parseFloat(article.neutral) > parseFloat(article.negative)) {
-              // this.neutralEntries.push(article) for trending do nothing
+              this.neutralEntries.push(article)
             } else {
               this.negativeArticle.push(article)
             }
           })
 
-          // Call sortEntries ONLY after data has been processed
-          this.sortEntries()
+          // // Call sortEntries ONLY after data has been processed
+          // this.sortEntries()
         })
         .catch(error => {
           console.error('Error fetching data:', error)
         })
     },
-    sortEntries () {
-      // Sort positiveArticle and negativeArticle by publication date as this is a trending view
-      // focusing on recent / fresh.
-      const sortByDate = (a, b) => new Date(b.publication_date) - new Date(a.publication_date)
-      this.positiveArticle.sort(sortByDate)
-      this.negativeArticle.sort(sortByDate)
-    },
+    // sortEntries () {
+    //   // Sort positiveArticle and negativeArticle by publication date as this is a trending view
+    //   // focusing on recent / fresh.
+    //   const sortByDate = (a, b) => new Date(b.publication_date) - new Date(a.publication_date)
+    //   this.positiveArticle.sort(sortByDate)
+    //   this.negativeArticle.sort(sortByDate)
+    // },
 
-    animateBoxes () {
-      setInterval(() => {
-        if (this.currentPositiveIndex === 5) {
-          this.currentPositiveIndex = 0
-        } else if (this.positiveArticle.length > 0) {
-          this.currentPositiveIndex =
-            (this.currentPositiveIndex + 1) % this.positiveArticle.length
-        }
-        if (this.currentNegativeIndex === 5) {
-          this.currentNegativeIndex = 0
-        } else if (this.negativeArticle.length > 0) {
-          this.currentNegativeIndex =
-            (this.currentNegativeIndex + 1) % this.negativeArticle.length
-        }
-      }, 5000)
-    },
+    // animateBoxes () {
+    //   setInterval(() => {
+    //     if (this.currentPositiveIndex === 5) {
+    //       this.currentPositiveIndex = 0
+    //     } else if (this.positiveArticle.length > 0) {
+    //       this.currentPositiveIndex =
+    //         (this.currentPositiveIndex + 1) % this.positiveArticle.length
+    //     }
+    //     if (this.currentNegativeIndex === 5) {
+    //       this.currentNegativeIndex = 0
+    //     } else if (this.negativeArticle.length > 0) {
+    //       this.currentNegativeIndex =
+    //         (this.currentNegativeIndex + 1) % this.negativeArticle.length
+    //     }
+    //   }, 5000)
+    // },
 
     removeBoldTags (htmlString) {
       return htmlString.replace(/<b>/g, '').replace(/<\/b>/g, '')
@@ -239,69 +226,62 @@ export default {
     position: relative;
     overflow: hidden;
     padding: 15px;
-    margin: 15px ;
+    margin: 15px;
     border: 1px solid #ddd;
     border-radius: 8px;
-    height: 520px;
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     min-width: 300px;
+    height: 520px;
+    flex-direction: row
+  }
+
+  .entity-photo-frame {
+    border: 3px solid #755BB4;
+    border-radius: 8px;
+    overflow: visible;
+  }
+
+  .entity-photo {
+    position: relative;
+    cursor: pointer;
+  }
+
+  .entity-photo img {
+    margin: 0;
+    width: auto;
+    height: 100%;
+    vertical-align: bottom;
+    border-radius: 4px;
   }
 
   .animated-positive, .animated-negative {
-    width: 90%;
-    height: 150px;
-    padding: 0px;
-    //border: 1px solid #ddd;
-    //border-radius: 8px;
+    width: 20%;
+    height: 100%;
+    padding: 15px;
     text-align: center;
-    margin-top: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
-  .reel-enter-active {
-    transition-delay: 0.5s;
+  .sentiment-count {
+    font-size: 2em;
   }
 
-    .positive {
-  color: mediumseagreen;
-  font-size: 2em;
+  .positive {
+    color: mediumseagreen;
+    font-size: 2em;
   }
+
   .negative {
-  color: indianred;
-  font-size: 2em;
+    color: indianred;
+    font-size: 2em;
   }
+
   .neutral {
-  color: deepskyblue;
-  font-size: 2em;
-}
-
-  .entity-photo-frame {
-  border: 4px solid #755BB4;
-  border-radius: 8px;
-  overflow: visible;
-}
-
-  .entity-photo {
-  position: relative;
-  cursor: pointer;
-}
-
-  .entity-photo img {
-  margin: 0;
-  width: auto;
-  height: 100%;
-  vertical-align: bottom;
-  border-radius: 4px;
-}
-
-  .entity-name {
-    margin-bottom: 0px;
-    cursor: pointer;
-  }
-
-  .headline {
-    cursor: pointer;
+    color: deepskyblue;
+    font-size: 2em;
   }
 </style>
