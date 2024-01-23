@@ -1,6 +1,9 @@
 <template>
   <div>
-    <h1>{{ isLoading ? 'Loading...' : (bingEntity ? bingEntity.name : 'Entity Not Found') }}</h1>
+     <div class="header-container">
+      <h1 :class="{ 'loading': isLoading }">{{ isLoading ? 'Loading...' : (bingEntity ? bingEntity.name : 'Entity Not Found') }}</h1>
+      <SubscriptionButton :entityId="$route.params.id"/>
+    </div>
 
     <!-- Display the image and description (centered) -->
     <div v-if="bingEntity && !isLoading" class="content-container">
@@ -51,10 +54,12 @@ import ArticleEntriesContainer from '../components/ArticleEntriesContainer.vue'
 import SortToggle from '@/components/SortToggle.vue'
 import { API_BASE_URL } from '@/config.js'
 import VueCookie from 'vue-cookie'
+import SubscriptionButton from '@/components/SubscriptionButton.vue'
 export default {
   name: 'EntityPage',
 
   components: {
+    SubscriptionButton,
     ArticleEntriesContainer,
     SortToggle
   },
@@ -298,4 +303,15 @@ export default {
   z-index: 9998;
   overflow: visible;
 }
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  margin-right: 10px;
+}
+
 </style>

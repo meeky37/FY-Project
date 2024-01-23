@@ -22,6 +22,8 @@
         <p class="sentiment-count">{{ positiveArticle.length }}</p>
       </div>
 
+<!--      Neutral ??? -->
+
       <div class="animated-negative">
         <p class="box-icon">
           <font-awesome-icon :icon="['fas', 'circle-chevron-down']" class="negative" />
@@ -66,7 +68,6 @@ export default {
   mounted () {
     this.fetchMiniBingEntity()
     this.fetchData()
-    this.animateBoxes()
   },
 
   methods: {
@@ -75,6 +76,7 @@ export default {
       const apiUrl = `${API_BASE_URL}/profiles_app/overall_sentiments/exp/${entityId}/`
 
       this.positiveArticle = []
+      this.neutralArticle = []
       this.negativeArticle = []
 
       axios.get(apiUrl)
@@ -84,26 +86,26 @@ export default {
             if (parseFloat(article.positive) > parseFloat(article.neutral) && parseFloat(article.positive) > parseFloat(article.negative)) {
               this.positiveArticle.push(article)
             } else if (parseFloat(article.neutral) > parseFloat(article.positive) && parseFloat(article.neutral) > parseFloat(article.negative)) {
-              this.neutralEntries.push(article)
+              this.neutralArticle.push(article)
             } else {
               this.negativeArticle.push(article)
             }
           })
 
           // // Call sortEntries ONLY after data has been processed
-          // this.sortEntries()
+          this.sortEntries()
         })
         .catch(error => {
           console.error('Error fetching data:', error)
         })
     },
-    // sortEntries () {
-    //   // Sort positiveArticle and negativeArticle by publication date as this is a trending view
-    //   // focusing on recent / fresh.
-    //   const sortByDate = (a, b) => new Date(b.publication_date) - new Date(a.publication_date)
-    //   this.positiveArticle.sort(sortByDate)
-    //   this.negativeArticle.sort(sortByDate)
-    // },
+    sortEntries () {
+      // Sort positiveArticle and negativeArticle by publication date as this is a trending view
+      // focusing on recent / fresh.
+      const sortByDate = (a, b) => new Date(b.publication_date) - new Date(a.publication_date)
+      this.positiveArticle.sort(sortByDate)
+      this.negativeArticle.sort(sortByDate)
+    },
 
     // animateBoxes () {
     //   setInterval(() => {
