@@ -66,7 +66,32 @@ class Command(BaseCommand):
         articles, search_results_list = fetch_articles(search_term)
         save_articles_to_files(articles, search_results_list, search_term)
 
-        #  19th Jan Add
+        #  19th Jan add general election
         search_term = "general election"
+        articles, search_results_list = fetch_articles(search_term)
+        save_articles_to_files(articles, search_results_list, search_term)
+
+        #  23th Jan add individual political parties...
+        search_term = "SNP"
+        articles, search_results_list = fetch_articles(search_term)
+        save_articles_to_files(articles, search_results_list, search_term)
+
+        search_term = "Labour"
+        articles, search_results_list = fetch_articles(search_term)
+        save_articles_to_files(articles, search_results_list, search_term)
+
+        search_term = "Conservatives"
+        articles, search_results_list = fetch_articles(search_term)
+        save_articles_to_files(articles, search_results_list, search_term)
+
+        search_term = "Liberal Democrats"
+        articles, search_results_list = fetch_articles(search_term)
+        save_articles_to_files(articles, search_results_list, search_term)
+
+        search_term = "Green Party"
+        articles, search_results_list = fetch_articles(search_term)
+        save_articles_to_files(articles, search_results_list, search_term)
+
+        search_term = "Reform"
         articles, search_results_list = fetch_articles(search_term)
         save_articles_to_files(articles, search_results_list, search_term)

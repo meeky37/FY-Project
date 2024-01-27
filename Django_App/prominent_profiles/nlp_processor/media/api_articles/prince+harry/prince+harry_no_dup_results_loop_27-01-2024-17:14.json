@@ -1,0 +1,3212 @@
+[
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=prince+harry",
+        "queryContext": {
+            "originalQuery": "prince harry",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 19,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=prince+harry"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=prince+harry&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Real reason <b>Prince Harry</b> and Meghan Markle flew to Jamaica for Bob Marley film premiere",
+                "url": "https://www.mirror.co.uk/3am/us-celebrity-news/real-reason-prince-harry-meghan-31982469",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.OWtTfcoBLKKaneIrODzwzi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Prince Harry and Meghan Markle came in for criticism for their decision to head to Jamaica for the premiere of the Bob Marley: One Love film, but are said to have had a good reason",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f739f50b-2905-3f90-a224-ea9aff296207",
+                        "name": "Bob Marley"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/72421add-9f97-e89d-5f92-0ca53e25741d",
+                        "name": "Marley"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Bob Marley"
+                    },
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Marley"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-27T16:51:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Kate Middleton\u2019s outspoken uncle could \u2019embarrass\u2019 her on Celeb Big Brother and is \u2018last thing she needs\u2019, experts warn",
+                "url": "https://www.thesun.co.uk/royals/25545576/kate-middletons-uncle-gary-embarrass-celeb-big-brother/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.z5vzzuf1iRFGcOJttHJ4Zy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Gary previously scorned <b>Harry</b> and Meghan after the release of Spare and is known ... She is said to have plans to work from bed once she arrives home from her surgery. Kate&#39;s husband <b>Prince</b> William, 41, has visited her every day at the clinic in ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun"
+                    }
+                ],
+                "datePublished": "2024-01-27T16:08:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Prince Harry</b> and Meghan Markle still plugging Spotify deal despite being axed",
+                "url": "https://www.express.co.uk/news/royal/1860436/prince-harry-meghan-markle-spotify-deal",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.wVR8yxREOZg3pc31uHVOlC&pid=News",
+                        "width": 700,
+                        "height": 415
+                    }
+                },
+                "description": "<b>Prince Harry</b> and Meghan Markle&#39;s Archewell website still lists their partnership with Spotify, even though the couple&#39;s deal with the streaming giant fell through last summer. Upon leaving the Royal Family in 2020 and moving to California the Duke and ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4eb0b986-b460-2620-00b5-8ec172abf717",
+                        "name": "Royal News"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Daily Express"
+                    },
+                    {
+                        "name": "Royal News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express"
+                    }
+                ],
+                "datePublished": "2024-01-27T15:04:00.0000000Z",
+                "category": "ScienceAndTechnology"
+            },
+            {
+                "name": "Could the Tories still win?",
+                "url": "https://leftfootforward.org/2024/01/could-the-tories-still-win/",
+                "description": "Could 2024 become remembered for the British people \u2018hurling the findings of the opinion polls back into the faces of the pollsters,\u2019 as\u00a0Times\u2019\u00a0journalist George Clarke wrote following the Tories\u2019 shock win in 1970?",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Left Foot Forward",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.VsI1T7P7rubo9_lpHEuFew&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-27T14:18:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Will fears Meghan and <b>Harry</b> could become &#39;Royals for hire&#39; prompt King Charles to help fund their lives to avoid them looking elsewhere?",
+                "url": "https://www.dailymail.co.uk/news/article-13013289/Meghan-Harry-Royals-hire-King-Charles-help-fund-lives.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.HIJ0ewpxATye_jXl75GhOC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "<b>Prince Harry</b> remains employed as Chief Impact Officer at BetterUp, the mental health coaching start-up company, but has reportedly been criticised by its staff - with one claiming <b>Harry</b> contributed &#39;zero things&#39;. The firm is believed to have laid off 16 ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/607bf330-283c-e25d-6b64-69bbd33d5b72",
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/93a3e0e2-aecf-e53b-8432-c15f400cfb4e",
+                        "name": "Daily Mail"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Daily Mail"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail"
+                    }
+                ],
+                "datePublished": "2024-01-27T13:32:00.0000000Z"
+            },
+            {
+                "name": "Inside <b>Prince Harry</b>&#39;s brutal jibes at &#39;lying&#39; King Charles after prostate treatment",
+                "url": "https://www.express.co.uk/news/royal/1860248/Prince-Harry-King-Charles-relationship-jibes-lies-prostate-hospital",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.aUh7adpIkwmp3P0QffSUIC&pid=News",
+                        "width": 700,
+                        "height": 415
+                    }
+                },
+                "description": "King Charles spent much of this week in a private London hospital to treat his enlarged prostate and his youngest son, <b>Prince Harry</b>, and wife Meghan Markle were not there in person. The Duke of Sussex and his father have had a strained relationship over ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/607bf330-283c-e25d-6b64-69bbd33d5b72",
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1178b974-89b6-e98b-86a5-834c004b135e",
+                        "name": "Harry Royal"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "name": "Harry Royal"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express"
+                    }
+                ],
+                "datePublished": "2024-01-27T13:01:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Harry</b> and Meghan&#39;s Jamaica trip was &#39;not especially welcome back in London&#39; as jaunt is criticised as being &#39;misguided&#39; due its political connotations",
+                "url": "https://www.dailymail.co.uk/news/article-13013171/Harry-Meghans-Jamaica-trip-not-welcome-London-jaunt-criticised-misguided-political-connotations.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.RxgtswmLTlNd75cBcVuJhi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The Duke and Duchess of Sussex made a surprise visit to the Caribbean country this week to attend the premiere of Bob Marley: One Love and support the Marley family.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2562ea55-e766-cb17-7e1f-a957c9f8b966",
+                        "name": "Jamaica"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/93a3e0e2-aecf-e53b-8432-c15f400cfb4e",
+                        "name": "Daily Mail"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Jamaica"
+                    },
+                    {
+                        "name": "Daily Mail"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-27T12:06:00.0000000Z"
+            },
+            {
+                "name": "Kate, Princess of Wales\u2019s uncle Gary Goldsmith \u2018signed up for Celebrity Big Brother\u2019",
+                "url": "https://metro.co.uk/2024/01/27/celebrity-big-brother-signs-kate-middletons-uncle-2024-series-20181836/?ico=trending-post-strip_item_3",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.vCE3EmolCMKX4_-jCBDM2y&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Gary has reportedly \u2018made it clear he will talk about everything and anything\u2019 and is \u2018pretty outspoken\u2019 when it comes to <b>Prince Harry</b> and Meghan Markle. The source said: \u2018Gary also holds a deep affection for Kate and Wills and will be able to ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/819a3272-9d12-8abc-7250-e37990150af7",
+                        "name": "Celebrity Big Brother"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2872a54f-b045-8fe3-d356-1aa538e14812",
+                        "name": "Metro International"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Metro"
+                    }
+                ],
+                "datePublished": "2024-01-27T11:56:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Harry</b> and Meghan suffer awkward moment at film premiere as they&#39;re visibly confused by &#39;bad seats&#39;",
+                "url": "https://www.irishmirror.ie/showbiz/us-gossip/harry-meghan-suffer-awkward-moment-31980573",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.yLRVysrq01NtXqCl8FiTUC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The Duke and Duchess of Sussex, Prince Harry and Meghan Markle, seemingly suffered a very awkward moment at a glitzy film premiere when they were given &#39;bad seats&#39;",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/77f28672-5669-4775-a58a-b62b17779010",
+                        "name": "Ireland"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Ireland"
+                    },
+                    {
+                        "name": "Premiere"
+                    },
+                    {
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Irish Daily Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.2BcD1ARbWJ-h3eIGF0o4xA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-27T10:26:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Prince</b> Archie&#39;s ex-nanny stunned by how <b>Prince Harry</b> and Meghan Markle first greeted her",
+                "url": "https://www.irishmirror.ie/showbiz/us-gossip/prince-archies-ex-nanny-stunned-31973165",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.cgQWkjVKL697MLR-uuuICi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Prince Harry and Meghan Markle have very busy schedules and so hired Lorren Khumalo to help look after their son Prince Archie when he was just a few months old",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/77f28672-5669-4775-a58a-b62b17779010",
+                        "name": "Ireland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Irish Daily Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.2BcD1ARbWJ-h3eIGF0o4xA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-27T10:22:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Palace \u2018surprised\u2019 by <b>Harry</b> and Meghan\u2019s \u2018misguided\u2019 photo shoot with Jamaican PM as Kate &amp; Charles recover from surgery",
+                "url": "https://www.thesun.co.uk/royals/25540604/palace-surprised-harry-meghan-jamaica-kate-charles-surgery/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.4WHiT1jMZPkBKurUXa75Li&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Princess Charlotte and <b>Prince</b> Louis after Kate went in for surgery. While William stays by his wife&#39;s side, <b>Harry</b> and Meghan are understood to have flown to the island by private jet, and spent a night at the &quot;luxurious&quot; and &quot;very fancy&quot; Terra Nova Hotel.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2f67c0e2-55af-086f-9823-f89d2ab437b5",
+                        "name": "Kate Charles"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun"
+                    }
+                ],
+                "datePublished": "2024-01-27T09:57:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Princess of Wales&#39; uncle Gary Goldsmith &#39;signs up for Celebrity Big Brother 2024&#39;",
+                "url": "https://uk.news.yahoo.com/princess-wales-uncle-gary-goldsmith-083054967.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.xXMVBVEuFInIv6h0fhPSdi&pid=News",
+                        "width": 700,
+                        "height": 509
+                    }
+                },
+                "description": "Gary Goldsmith, the uncle of the Princess of Wales, has signed up to take part in the next series of ITV\u2019s Celebrity Big Brother, according to reports. The 58-year-old businessman, who is the brother of Kate\u2019s mother Carole, reportedly agreed terms on Friday having previously auditioned for I\u2019m a Celebrity.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/819a3272-9d12-8abc-7250-e37990150af7",
+                        "name": "Celebrity Big Brother"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-27T08:30:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Kate Middleton\u2019s outspoken uncle Gary Goldsmith \u2018signs up\u2019 for Celebrity Big Brother",
+                "url": "https://metro.co.uk/2024/01/27/celebrity-big-brother-signs-kate-middletons-uncle-2024-series-20181836/?ico=trending-post-strip_item_1",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.qIpU2P0Od2LsebS0uy5gri&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Kate Middleton \u2019s uncle is said to be entering the Celebrity Big Brother house when the show returns to ITV in March. Gary Goldsmith reportedly signed a big money deal with CBB bosses on Saturday (January 27) in a controversial casting. It\u2019s believed the outspoken businessman was locked in talks for a while.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/819a3272-9d12-8abc-7250-e37990150af7",
+                        "name": "Celebrity Big Brother"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2872a54f-b045-8fe3-d356-1aa538e14812",
+                        "name": "Metro International"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "name": "Celebrity Big Brother"
+                    },
+                    {
+                        "name": "Metro International"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Metro",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8olLCBBg15Ilf5cNVQh2IA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-27T08:30:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Inside <b>Prince Harry</b>&#39;s close bond and sweet relationship with Princess Kate before Meghan",
+                "url": "https://www.mirror.co.uk/3am/us-celebrity-news/inside-prince-harrys-close-bond-31959726.amp",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.7Fl2XaBo7BABH4A9tq8hly&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "<b>Prince Harry</b> and Princess Kate once had a very strong bond and close relationship, with the Duke of Sussex even saying that Catherine was the sister he had always wanted. <b>Harry</b>, Catherine, and William were quickly dubbed the Fab Three when the <b>Prince</b> and ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror"
+                    }
+                ],
+                "datePublished": "2024-01-27T07:08:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Kate Middleton\u2019s Uncle Gary Signs Up For British Reality TV Show",
+                "url": "https://uk.style.yahoo.com/kate-middleton-uncle-gary-signs-100227244.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ET839kF_OYeJ1qmP95Exxy&pid=News",
+                        "width": 700,
+                        "height": 490
+                    }
+                },
+                "description": "More from Deadline <b>Prince Harry</b> Remembers Diana&#39;s White House Dance As He Accepts &#39;Living Legend&#39; Award From John Travolta Jonathan Ross To Host ITV UK Oscars Coverage; Spun Gold Relocates; &#39;Jan Ullrich - The Hunted&#39; Rights; &#39;Domino Day&#39; Trailer - Global ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Style UK"
+                    }
+                ],
+                "datePublished": "2024-01-27T05:01:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Harry</b> and Meghan&#39;s awkward reaction at film premiere as they&#39;re given &#39;bad seats&#39;",
+                "url": "https://www.dailyrecord.co.uk/news/uk-world-news/harry-meghans-awkward-reaction-film-31981123",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.P1uUrI_fsGepvHbDAKkmzi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "<b>Prince Harry</b> and Meghan Markle appeared to have suffered an awkward blunder as they attended a glamourous film premiere earlier this week, with royal fans on social media commenting &#39;karma is real&#39;. The Duke and Duchess of Sussex were in Jamaica this week ...",
+                "mentions": [
+                    {
+                        "name": "Daily Record"
+                    },
+                    {
+                        "name": "Premiere"
+                    },
+                    {
+                        "name": "Prince Harry"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Record"
+                    }
+                ],
+                "datePublished": "2024-01-27T00:00:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Princess Kate&#39;s uncle to appear on Celebrity Big Brother",
+                "url": "https://www.bristolpost.co.uk/news/celebs-tv/princess-kates-uncle-appear-celebrity-9061742",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.7CAnPv0s26l69Icqf_RPai&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "He is said to be ready to share his views on <b>Harry</b> and Meghan as well as life alongside the Royal ... Gary has been pictured at a number of royal events including the marriages of Kate to <b>Prince</b> William and the wedding of her sister, Pippa Middleton.",
+                "mentions": [
+                    {
+                        "name": "Celebrity Big Brother - Season 4"
+                    },
+                    {
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "name": "Bristol City F.C."
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Bristol Post"
+                    }
+                ],
+                "datePublished": "2024-01-27T00:00:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Royal news - live: King Charles \u2018doing well\u2019 after prostate surgery as Kate continues hospital recovery",
+                "url": "https://www.independent.co.uk/news/uk/home-news/king-charles-kate-middleton-health-royal-family-b2485849.html?page=5",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.zWaiTwEh9Qo4ZetTlrnhuS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "But she opens up to Guy Walters about happiness, helping people and the things that have helped her through the toughest of times <b>Prince Harry</b> has proven once again he\u2019s Meghan Markle\u2019s biggest fan. The Duke of Sussex, 39, attended the Living Legends ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/607bf330-283c-e25d-6b64-69bbd33d5b72",
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent"
+                    }
+                ],
+                "datePublished": "2024-01-27T00:00:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "ITV Celebrity Big Brother &#39;sign up Kate Middleton\u2019s uncle&#39; Gary Goldsmith for 2024 series",
+                "url": "https://www.ok.co.uk/tv/gary-goldsmith-celebrity-big-brother-31980814",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.2h2YHuOsc8ZHhtbhJVZGSy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "He served as an usher at Carole&#39;s wedding to husband Michael, 74, in 1980 and he also attended Kate&#39;s wedding to <b>Prince</b> William ... and he\u2019s pretty outspoken when it comes to <b>Harry</b> and Meghan.&quot; It&#39;s hoped that Gary will provide an &quot;insight&quot; into the ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/819a3272-9d12-8abc-7250-e37990150af7",
+                        "name": "Celebrity Big Brother"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d15676f1-d9df-4329-b394-192ad8702565",
+                        "name": "Gary"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Celebrity Big Brother"
+                    },
+                    {
+                        "name": "Gary"
+                    },
+                    {
+                        "name": "Catherine, Duchess of Cambridge"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "OK! Magazine UK"
+                    }
+                ],
+                "datePublished": "2024-01-27T00:00:00.0000000Z",
+                "category": "Entertainment"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=prince+harry",
+        "queryContext": {
+            "originalQuery": "prince harry",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 121,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=prince+harry"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=prince+harry&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Real reason <b>Prince Harry</b> and Meghan Markle flew to Jamaica for Bob Marley film premiere",
+                "url": "https://www.mirror.co.uk/3am/us-celebrity-news/real-reason-prince-harry-meghan-31982469",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.OWtTfcoBLKKaneIrODzwzi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Prince Harry and Meghan Markle came in for criticism for their decision to head to Jamaica for the premiere of the Bob Marley: One Love film, but are said to have had a good reason",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f739f50b-2905-3f90-a224-ea9aff296207",
+                        "name": "Bob Marley"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/72421add-9f97-e89d-5f92-0ca53e25741d",
+                        "name": "Marley"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Bob Marley"
+                    },
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Marley"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-27T16:51:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Prince Harry</b> and Meghan Markle still plugging Spotify deal despite being axed",
+                "url": "https://www.express.co.uk/news/royal/1860436/prince-harry-meghan-markle-spotify-deal",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.wVR8yxREOZg3pc31uHVOlC&pid=News",
+                        "width": 700,
+                        "height": 415
+                    }
+                },
+                "description": "<b>Prince Harry</b> and Meghan Markle&#39;s Archewell website still lists their partnership with Spotify, even though the couple&#39;s deal with the streaming giant fell through last summer. Upon leaving the Royal Family in 2020 and moving to California the Duke and ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4eb0b986-b460-2620-00b5-8ec172abf717",
+                        "name": "Royal News"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Daily Express"
+                    },
+                    {
+                        "name": "Royal News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express"
+                    }
+                ],
+                "datePublished": "2024-01-27T15:04:00.0000000Z",
+                "category": "ScienceAndTechnology"
+            },
+            {
+                "name": "Could the Tories still win?",
+                "url": "https://leftfootforward.org/2024/01/could-the-tories-still-win/",
+                "description": "Could 2024 become remembered for the British people \u2018hurling the findings of the opinion polls back into the faces of the pollsters,\u2019 as\u00a0Times\u2019\u00a0journalist George Clarke wrote following the Tories\u2019 shock win in 1970?",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Left Foot Forward",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.VsI1T7P7rubo9_lpHEuFew&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-27T14:18:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Will fears Meghan and <b>Harry</b> could become &#39;Royals for hire&#39; prompt King Charles to help fund their lives to avoid them looking elsewhere?",
+                "url": "https://www.dailymail.co.uk/news/article-13013289/Meghan-Harry-Royals-hire-King-Charles-help-fund-lives.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.HIJ0ewpxATye_jXl75GhOC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "<b>Prince Harry</b> remains employed as Chief Impact Officer at BetterUp, the mental health coaching start-up company, but has reportedly been criticised by its staff - with one claiming <b>Harry</b> contributed &#39;zero things&#39;. The firm is believed to have laid off 16 ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/607bf330-283c-e25d-6b64-69bbd33d5b72",
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/93a3e0e2-aecf-e53b-8432-c15f400cfb4e",
+                        "name": "Daily Mail"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Daily Mail"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail"
+                    }
+                ],
+                "datePublished": "2024-01-27T13:32:00.0000000Z"
+            },
+            {
+                "name": "<b>Harry</b> and Meghan&#39;s Jamaica trip was &#39;not especially welcome back in London&#39; as jaunt is criticised as being &#39;misguided&#39; due its political connotations",
+                "url": "https://www.dailymail.co.uk/news/article-13013171/Harry-Meghans-Jamaica-trip-not-welcome-London-jaunt-criticised-misguided-political-connotations.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.RxgtswmLTlNd75cBcVuJhi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The Duke and Duchess of Sussex made a surprise visit to the Caribbean country this week to attend the premiere of Bob Marley: One Love and support the Marley family.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2562ea55-e766-cb17-7e1f-a957c9f8b966",
+                        "name": "Jamaica"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/93a3e0e2-aecf-e53b-8432-c15f400cfb4e",
+                        "name": "Daily Mail"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Jamaica"
+                    },
+                    {
+                        "name": "Daily Mail"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-27T12:06:00.0000000Z"
+            },
+            {
+                "name": "Kate, Princess of Wales\u2019s uncle Gary Goldsmith \u2018signed up for Celebrity Big Brother\u2019",
+                "url": "https://metro.co.uk/2024/01/27/celebrity-big-brother-signs-kate-middletons-uncle-2024-series-20181836/?ico=trending-post-strip_item_3",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.vCE3EmolCMKX4_-jCBDM2y&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Gary has reportedly \u2018made it clear he will talk about everything and anything\u2019 and is \u2018pretty outspoken\u2019 when it comes to <b>Prince Harry</b> and Meghan Markle. The source said: \u2018Gary also holds a deep affection for Kate and Wills and will be able to ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/819a3272-9d12-8abc-7250-e37990150af7",
+                        "name": "Celebrity Big Brother"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2872a54f-b045-8fe3-d356-1aa538e14812",
+                        "name": "Metro International"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Metro"
+                    }
+                ],
+                "datePublished": "2024-01-27T11:56:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Harry</b> and Meghan suffer awkward moment at film premiere as they&#39;re visibly confused by &#39;bad seats&#39;",
+                "url": "https://www.irishmirror.ie/showbiz/us-gossip/harry-meghan-suffer-awkward-moment-31980573",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.yLRVysrq01NtXqCl8FiTUC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The Duke and Duchess of Sussex, Prince Harry and Meghan Markle, seemingly suffered a very awkward moment at a glitzy film premiere when they were given &#39;bad seats&#39;",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/77f28672-5669-4775-a58a-b62b17779010",
+                        "name": "Ireland"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Ireland"
+                    },
+                    {
+                        "name": "Premiere"
+                    },
+                    {
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Irish Daily Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.2BcD1ARbWJ-h3eIGF0o4xA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-27T10:26:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Prince</b> Archie&#39;s ex-nanny stunned by how <b>Prince Harry</b> and Meghan Markle first greeted her",
+                "url": "https://www.irishmirror.ie/showbiz/us-gossip/prince-archies-ex-nanny-stunned-31973165",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.cgQWkjVKL697MLR-uuuICi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Prince Harry and Meghan Markle have very busy schedules and so hired Lorren Khumalo to help look after their son Prince Archie when he was just a few months old",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/77f28672-5669-4775-a58a-b62b17779010",
+                        "name": "Ireland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Irish Daily Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.2BcD1ARbWJ-h3eIGF0o4xA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-27T10:22:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Palace \u2018surprised\u2019 by <b>Harry</b> and Meghan\u2019s \u2018misguided\u2019 photo shoot with Jamaican PM as Kate &amp; Charles recover from surgery",
+                "url": "https://www.thesun.co.uk/royals/25540604/palace-surprised-harry-meghan-jamaica-kate-charles-surgery/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.4WHiT1jMZPkBKurUXa75Li&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Princess Charlotte and <b>Prince</b> Louis after Kate went in for surgery. While William stays by his wife&#39;s side, <b>Harry</b> and Meghan are understood to have flown to the island by private jet, and spent a night at the &quot;luxurious&quot; and &quot;very fancy&quot; Terra Nova Hotel.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2f67c0e2-55af-086f-9823-f89d2ab437b5",
+                        "name": "Kate Charles"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun"
+                    }
+                ],
+                "datePublished": "2024-01-27T09:57:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Princess of Wales&#39; uncle Gary Goldsmith &#39;signs up for Celebrity Big Brother 2024&#39;",
+                "url": "https://uk.news.yahoo.com/princess-wales-uncle-gary-goldsmith-083054967.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.xXMVBVEuFInIv6h0fhPSdi&pid=News",
+                        "width": 700,
+                        "height": 509
+                    }
+                },
+                "description": "Gary Goldsmith, the uncle of the Princess of Wales, has signed up to take part in the next series of ITV\u2019s Celebrity Big Brother, according to reports. The 58-year-old businessman, who is the brother of Kate\u2019s mother Carole, reportedly agreed terms on Friday having previously auditioned for I\u2019m a Celebrity.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/819a3272-9d12-8abc-7250-e37990150af7",
+                        "name": "Celebrity Big Brother"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-27T08:30:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Kate Middleton\u2019s outspoken uncle Gary Goldsmith \u2018signs up\u2019 for Celebrity Big Brother",
+                "url": "https://metro.co.uk/2024/01/27/celebrity-big-brother-signs-kate-middletons-uncle-2024-series-20181836/?ico=trending-post-strip_item_1",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.qIpU2P0Od2LsebS0uy5gri&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Kate Middleton \u2019s uncle is said to be entering the Celebrity Big Brother house when the show returns to ITV in March. Gary Goldsmith reportedly signed a big money deal with CBB bosses on Saturday (January 27) in a controversial casting. It\u2019s believed the outspoken businessman was locked in talks for a while.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/819a3272-9d12-8abc-7250-e37990150af7",
+                        "name": "Celebrity Big Brother"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2872a54f-b045-8fe3-d356-1aa538e14812",
+                        "name": "Metro International"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "name": "Celebrity Big Brother"
+                    },
+                    {
+                        "name": "Metro International"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Metro",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8olLCBBg15Ilf5cNVQh2IA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-27T08:30:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Inside <b>Prince Harry</b>&#39;s close bond and sweet relationship with Princess Kate before Meghan",
+                "url": "https://www.mirror.co.uk/3am/us-celebrity-news/inside-prince-harrys-close-bond-31959726.amp",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.7Fl2XaBo7BABH4A9tq8hly&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "<b>Prince Harry</b> and Princess Kate once had a very strong bond and close relationship, with the Duke of Sussex even saying that Catherine was the sister he had always wanted. <b>Harry</b>, Catherine, and William were quickly dubbed the Fab Three when the <b>Prince</b> and ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror"
+                    }
+                ],
+                "datePublished": "2024-01-27T07:08:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "10 Actors Who HATED Their Performances In Awesome Movies",
+                "url": "https://whatculture.com/film/10-actors-who-hated-their-performances-in-awesome-movies-2",
+                "description": "Cast as the lead in what would become one of the biggest franchises in movie history at a seriously young age, Daniel Radcliffe not only grew up in front of fans&#39; eyes, but he also noticeably evolved as a thespian throughout the Harry Potter series, too.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/78aed243-43e3-a8d6-bf5a-9cddb00e9843",
+                        "name": "Performance"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "What Culture",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.pHYd7WbJaExJyvQvyUzRlw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-27T06:02:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Kate Middleton\u2019s Uncle Gary Signs Up For British Reality TV Show",
+                "url": "https://uk.style.yahoo.com/kate-middleton-uncle-gary-signs-100227244.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ET839kF_OYeJ1qmP95Exxy&pid=News",
+                        "width": 700,
+                        "height": 490
+                    }
+                },
+                "description": "More from Deadline <b>Prince Harry</b> Remembers Diana&#39;s White House Dance As He Accepts &#39;Living Legend&#39; Award From John Travolta Jonathan Ross To Host ITV UK Oscars Coverage; Spun Gold Relocates; &#39;Jan Ullrich - The Hunted&#39; Rights; &#39;Domino Day&#39; Trailer - Global ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Style UK"
+                    }
+                ],
+                "datePublished": "2024-01-27T05:01:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Meghan Markle Plays Tennis In Gorgeous AI Photos",
+                "url": "https://britpopnews.com/meghan-markle-plays-tennis-in-gorgeous-ai-photos/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.mIWhW4_KdS8U-aZz0fxqIi&pid=News",
+                        "width": 700,
+                        "height": 416
+                    }
+                },
+                "description": "Meghan Markle, the Duchess of Sussex, has been a notable public figure since her marriage to Prince Harry in 2018.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4ad9317c-3b36-bb25-2657-2dafc696a039",
+                        "name": "Markle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40dacb9f-44dd-4d30-b8fd-bdfd69ac38f7",
+                        "name": "Tennis"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "britpopnews.com"
+                    }
+                ],
+                "datePublished": "2024-01-27T04:11:00.0000000Z"
+            },
+            {
+                "name": "<b>Harry</b> &amp; Meghan will become \u2018royals for hire\u2019 after disastrous Netflix &amp; Spotify deals &amp; being saddled with HUGE expenses",
+                "url": "https://www.thesun.co.uk/royals/25535398/harry-and-meghan-royals-for-hire/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.v3pw6lElMJkCPpLvLd1Zxi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "IT was billed as a rare \u201cdate night\u201d for the supposedly privacy-loving couple. But as Harry and Meghan glad-handed Hollywood executives on the red carpet this week, some royal aides are concerned",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6ddd2790-ec93-4707-36c5-63804d27da03",
+                        "name": "Spotify"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/424cb54b-41a3-c86b-d8e0-3ecef5609ce8",
+                        "name": "Netflix"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mZZguWnkRkVFPCoaQUmKEg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-27T01:06:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Harry</b> and Meghan&#39;s awkward reaction at film premiere as they&#39;re given &#39;bad seats&#39;",
+                "url": "https://www.dailyrecord.co.uk/news/uk-world-news/harry-meghans-awkward-reaction-film-31981123",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.P1uUrI_fsGepvHbDAKkmzi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "<b>Prince Harry</b> and Meghan Markle appeared to have suffered an awkward blunder as they attended a glamourous film premiere earlier this week, with royal fans on social media commenting &#39;karma is real&#39;. The Duke and Duchess of Sussex were in Jamaica this week ...",
+                "mentions": [
+                    {
+                        "name": "Daily Record"
+                    },
+                    {
+                        "name": "Premiere"
+                    },
+                    {
+                        "name": "Prince Harry"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Record"
+                    }
+                ],
+                "datePublished": "2024-01-27T00:00:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Princess Kate&#39;s uncle to appear on Celebrity Big Brother",
+                "url": "https://www.bristolpost.co.uk/news/celebs-tv/princess-kates-uncle-appear-celebrity-9061742",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.7CAnPv0s26l69Icqf_RPai&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "He is said to be ready to share his views on <b>Harry</b> and Meghan as well as life alongside the Royal ... Gary has been pictured at a number of royal events including the marriages of Kate to <b>Prince</b> William and the wedding of her sister, Pippa Middleton.",
+                "mentions": [
+                    {
+                        "name": "Celebrity Big Brother - Season 4"
+                    },
+                    {
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "name": "Bristol City F.C."
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Bristol Post"
+                    }
+                ],
+                "datePublished": "2024-01-27T00:00:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Royal news - live: King Charles \u2018doing well\u2019 after prostate surgery as Kate continues hospital recovery",
+                "url": "https://www.independent.co.uk/news/uk/home-news/king-charles-kate-middleton-health-royal-family-b2485849.html?page=5",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.zWaiTwEh9Qo4ZetTlrnhuS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "But she opens up to Guy Walters about happiness, helping people and the things that have helped her through the toughest of times <b>Prince Harry</b> has proven once again he\u2019s Meghan Markle\u2019s biggest fan. The Duke of Sussex, 39, attended the Living Legends ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/607bf330-283c-e25d-6b64-69bbd33d5b72",
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent"
+                    }
+                ],
+                "datePublished": "2024-01-27T00:00:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "ITV Celebrity Big Brother &#39;sign up Kate Middleton\u2019s uncle&#39; Gary Goldsmith for 2024 series",
+                "url": "https://www.ok.co.uk/tv/gary-goldsmith-celebrity-big-brother-31980814",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.2h2YHuOsc8ZHhtbhJVZGSy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "He served as an usher at Carole&#39;s wedding to husband Michael, 74, in 1980 and he also attended Kate&#39;s wedding to <b>Prince</b> William ... and he\u2019s pretty outspoken when it comes to <b>Harry</b> and Meghan.&quot; It&#39;s hoped that Gary will provide an &quot;insight&quot; into the ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/819a3272-9d12-8abc-7250-e37990150af7",
+                        "name": "Celebrity Big Brother"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d15676f1-d9df-4329-b394-192ad8702565",
+                        "name": "Gary"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Celebrity Big Brother"
+                    },
+                    {
+                        "name": "Gary"
+                    },
+                    {
+                        "name": "Catherine, Duchess of Cambridge"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "OK! Magazine UK"
+                    }
+                ],
+                "datePublished": "2024-01-27T00:00:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Meghan Markle&#39;s telling gesture on red carpet that exposes true state of marriage to <b>Prince Harry</b>",
+                "url": "https://www.dailyrecord.co.uk/entertainment/celebrity/meghan-markles-telling-gesture-red-31973810",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.F-FdYoS8s70aNLx1wER1NS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Meghan Markle and <b>Prince Harry</b> were showcasing their &quot;unity&quot; as a strong couple during their surprise appearance at the premiere of the new Bob Marley film in Jamaica this week, according to a body language expert. The Duke and Duchess of Sussex made an unexpected visit to Kingston and were snapped with Jamaican prime minister Andrew Holness at the screening of the film which celebrates the ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fb6f4f93-ce23-76a6-98b5-3ab6b5286762",
+                        "name": "Daily Record"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Record"
+                    }
+                ],
+                "datePublished": "2024-01-26T00:00:00.0000000Z",
+                "category": "Entertainment"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=prince+harry",
+        "queryContext": {
+            "originalQuery": "prince harry",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 221,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=prince+harry"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=prince+harry&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Real reason <b>Prince Harry</b> and Meghan Markle flew to Jamaica for Bob Marley film premiere",
+                "url": "https://www.mirror.co.uk/3am/us-celebrity-news/real-reason-prince-harry-meghan-31982469",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.OWtTfcoBLKKaneIrODzwzi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Prince Harry and Meghan Markle came in for criticism for their decision to head to Jamaica for the premiere of the Bob Marley: One Love film, but are said to have had a good reason",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f739f50b-2905-3f90-a224-ea9aff296207",
+                        "name": "Bob Marley"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/72421add-9f97-e89d-5f92-0ca53e25741d",
+                        "name": "Marley"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Bob Marley"
+                    },
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Marley"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-27T16:51:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Prince Harry</b> and Meghan Markle still plugging Spotify deal despite being axed",
+                "url": "https://www.express.co.uk/news/royal/1860436/prince-harry-meghan-markle-spotify-deal",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.wVR8yxREOZg3pc31uHVOlC&pid=News",
+                        "width": 700,
+                        "height": 415
+                    }
+                },
+                "description": "<b>Prince Harry</b> and Meghan Markle&#39;s Archewell website still lists their partnership with Spotify, even though the couple&#39;s deal with the streaming giant fell through last summer. Upon leaving the Royal Family in 2020 and moving to California the Duke and ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4eb0b986-b460-2620-00b5-8ec172abf717",
+                        "name": "Royal News"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Daily Express"
+                    },
+                    {
+                        "name": "Royal News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express"
+                    }
+                ],
+                "datePublished": "2024-01-27T15:04:00.0000000Z",
+                "category": "ScienceAndTechnology"
+            },
+            {
+                "name": "Could the Tories still win?",
+                "url": "https://leftfootforward.org/2024/01/could-the-tories-still-win/",
+                "description": "Could 2024 become remembered for the British people \u2018hurling the findings of the opinion polls back into the faces of the pollsters,\u2019 as\u00a0Times\u2019\u00a0journalist George Clarke wrote following the Tories\u2019 shock win in 1970?",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Left Foot Forward",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.VsI1T7P7rubo9_lpHEuFew&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-27T14:18:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Will fears Meghan and <b>Harry</b> could become &#39;Royals for hire&#39; prompt King Charles to help fund their lives to avoid them looking elsewhere?",
+                "url": "https://www.dailymail.co.uk/news/article-13013289/Meghan-Harry-Royals-hire-King-Charles-help-fund-lives.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.HIJ0ewpxATye_jXl75GhOC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "<b>Prince Harry</b> remains employed as Chief Impact Officer at BetterUp, the mental health coaching start-up company, but has reportedly been criticised by its staff - with one claiming <b>Harry</b> contributed &#39;zero things&#39;. The firm is believed to have laid off 16 ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/607bf330-283c-e25d-6b64-69bbd33d5b72",
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/93a3e0e2-aecf-e53b-8432-c15f400cfb4e",
+                        "name": "Daily Mail"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Daily Mail"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail"
+                    }
+                ],
+                "datePublished": "2024-01-27T13:32:00.0000000Z"
+            },
+            {
+                "name": "<b>Harry</b> and Meghan&#39;s Jamaica trip was &#39;not especially welcome back in London&#39; as jaunt is criticised as being &#39;misguided&#39; due its political connotations",
+                "url": "https://www.dailymail.co.uk/news/article-13013171/Harry-Meghans-Jamaica-trip-not-welcome-London-jaunt-criticised-misguided-political-connotations.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.RxgtswmLTlNd75cBcVuJhi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The Duke and Duchess of Sussex made a surprise visit to the Caribbean country this week to attend the premiere of Bob Marley: One Love and support the Marley family.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2562ea55-e766-cb17-7e1f-a957c9f8b966",
+                        "name": "Jamaica"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/93a3e0e2-aecf-e53b-8432-c15f400cfb4e",
+                        "name": "Daily Mail"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Jamaica"
+                    },
+                    {
+                        "name": "Daily Mail"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-27T12:06:00.0000000Z"
+            },
+            {
+                "name": "Kate, Princess of Wales\u2019s uncle Gary Goldsmith \u2018signed up for Celebrity Big Brother\u2019",
+                "url": "https://metro.co.uk/2024/01/27/celebrity-big-brother-signs-kate-middletons-uncle-2024-series-20181836/?ico=trending-post-strip_item_3",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.vCE3EmolCMKX4_-jCBDM2y&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Gary has reportedly \u2018made it clear he will talk about everything and anything\u2019 and is \u2018pretty outspoken\u2019 when it comes to <b>Prince Harry</b> and Meghan Markle. The source said: \u2018Gary also holds a deep affection for Kate and Wills and will be able to ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/819a3272-9d12-8abc-7250-e37990150af7",
+                        "name": "Celebrity Big Brother"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2872a54f-b045-8fe3-d356-1aa538e14812",
+                        "name": "Metro International"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Metro"
+                    }
+                ],
+                "datePublished": "2024-01-27T11:56:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Harry</b> and Meghan suffer awkward moment at film premiere as they&#39;re visibly confused by &#39;bad seats&#39;",
+                "url": "https://www.irishmirror.ie/showbiz/us-gossip/harry-meghan-suffer-awkward-moment-31980573",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.yLRVysrq01NtXqCl8FiTUC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The Duke and Duchess of Sussex, Prince Harry and Meghan Markle, seemingly suffered a very awkward moment at a glitzy film premiere when they were given &#39;bad seats&#39;",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/77f28672-5669-4775-a58a-b62b17779010",
+                        "name": "Ireland"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Ireland"
+                    },
+                    {
+                        "name": "Premiere"
+                    },
+                    {
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Irish Daily Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.2BcD1ARbWJ-h3eIGF0o4xA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-27T10:26:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Prince</b> Archie&#39;s ex-nanny stunned by how <b>Prince Harry</b> and Meghan Markle first greeted her",
+                "url": "https://www.irishmirror.ie/showbiz/us-gossip/prince-archies-ex-nanny-stunned-31973165",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.cgQWkjVKL697MLR-uuuICi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Prince Harry and Meghan Markle have very busy schedules and so hired Lorren Khumalo to help look after their son Prince Archie when he was just a few months old",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/77f28672-5669-4775-a58a-b62b17779010",
+                        "name": "Ireland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Irish Daily Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.2BcD1ARbWJ-h3eIGF0o4xA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-27T10:22:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Palace \u2018surprised\u2019 by <b>Harry</b> and Meghan\u2019s \u2018misguided\u2019 photo shoot with Jamaican PM as Kate &amp; Charles recover from surgery",
+                "url": "https://www.thesun.co.uk/royals/25540604/palace-surprised-harry-meghan-jamaica-kate-charles-surgery/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.4WHiT1jMZPkBKurUXa75Li&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Princess Charlotte and <b>Prince</b> Louis after Kate went in for surgery. While William stays by his wife&#39;s side, <b>Harry</b> and Meghan are understood to have flown to the island by private jet, and spent a night at the &quot;luxurious&quot; and &quot;very fancy&quot; Terra Nova Hotel.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2f67c0e2-55af-086f-9823-f89d2ab437b5",
+                        "name": "Kate Charles"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun"
+                    }
+                ],
+                "datePublished": "2024-01-27T09:57:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Princess of Wales&#39; uncle Gary Goldsmith &#39;signs up for Celebrity Big Brother 2024&#39;",
+                "url": "https://uk.news.yahoo.com/princess-wales-uncle-gary-goldsmith-083054967.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.xXMVBVEuFInIv6h0fhPSdi&pid=News",
+                        "width": 700,
+                        "height": 509
+                    }
+                },
+                "description": "Gary Goldsmith, the uncle of the Princess of Wales, has signed up to take part in the next series of ITV\u2019s Celebrity Big Brother, according to reports. The 58-year-old businessman, who is the brother of Kate\u2019s mother Carole, reportedly agreed terms on Friday having previously auditioned for I\u2019m a Celebrity.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/819a3272-9d12-8abc-7250-e37990150af7",
+                        "name": "Celebrity Big Brother"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-27T08:30:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Kate Middleton\u2019s outspoken uncle Gary Goldsmith \u2018signs up\u2019 for Celebrity Big Brother",
+                "url": "https://metro.co.uk/2024/01/27/celebrity-big-brother-signs-kate-middletons-uncle-2024-series-20181836/?ico=trending-post-strip_item_1",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.qIpU2P0Od2LsebS0uy5gri&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Kate Middleton \u2019s uncle is said to be entering the Celebrity Big Brother house when the show returns to ITV in March. Gary Goldsmith reportedly signed a big money deal with CBB bosses on Saturday (January 27) in a controversial casting. It\u2019s believed the outspoken businessman was locked in talks for a while.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/819a3272-9d12-8abc-7250-e37990150af7",
+                        "name": "Celebrity Big Brother"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2872a54f-b045-8fe3-d356-1aa538e14812",
+                        "name": "Metro International"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "name": "Celebrity Big Brother"
+                    },
+                    {
+                        "name": "Metro International"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Metro",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8olLCBBg15Ilf5cNVQh2IA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-27T08:30:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Inside <b>Prince Harry</b>&#39;s close bond and sweet relationship with Princess Kate before Meghan",
+                "url": "https://www.mirror.co.uk/3am/us-celebrity-news/inside-prince-harrys-close-bond-31959726.amp",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.7Fl2XaBo7BABH4A9tq8hly&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "<b>Prince Harry</b> and Princess Kate once had a very strong bond and close relationship, with the Duke of Sussex even saying that Catherine was the sister he had always wanted. <b>Harry</b>, Catherine, and William were quickly dubbed the Fab Three when the <b>Prince</b> and ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror"
+                    }
+                ],
+                "datePublished": "2024-01-27T07:08:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "10 Actors Who HATED Their Performances In Awesome Movies",
+                "url": "https://whatculture.com/film/10-actors-who-hated-their-performances-in-awesome-movies-2",
+                "description": "Cast as the lead in what would become one of the biggest franchises in movie history at a seriously young age, Daniel Radcliffe not only grew up in front of fans&#39; eyes, but he also noticeably evolved as a thespian throughout the Harry Potter series, too.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/78aed243-43e3-a8d6-bf5a-9cddb00e9843",
+                        "name": "Performance"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "What Culture",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.pHYd7WbJaExJyvQvyUzRlw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-27T06:02:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Kate Middleton\u2019s Uncle Gary Signs Up For British Reality TV Show",
+                "url": "https://uk.style.yahoo.com/kate-middleton-uncle-gary-signs-100227244.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ET839kF_OYeJ1qmP95Exxy&pid=News",
+                        "width": 700,
+                        "height": 490
+                    }
+                },
+                "description": "More from Deadline <b>Prince Harry</b> Remembers Diana&#39;s White House Dance As He Accepts &#39;Living Legend&#39; Award From John Travolta Jonathan Ross To Host ITV UK Oscars Coverage; Spun Gold Relocates; &#39;Jan Ullrich - The Hunted&#39; Rights; &#39;Domino Day&#39; Trailer - Global ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Style UK"
+                    }
+                ],
+                "datePublished": "2024-01-27T05:01:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Meghan Markle Plays Tennis In Gorgeous AI Photos",
+                "url": "https://britpopnews.com/meghan-markle-plays-tennis-in-gorgeous-ai-photos/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.mIWhW4_KdS8U-aZz0fxqIi&pid=News",
+                        "width": 700,
+                        "height": 416
+                    }
+                },
+                "description": "Meghan Markle, the Duchess of Sussex, has been a notable public figure since her marriage to Prince Harry in 2018.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4ad9317c-3b36-bb25-2657-2dafc696a039",
+                        "name": "Markle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40dacb9f-44dd-4d30-b8fd-bdfd69ac38f7",
+                        "name": "Tennis"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "britpopnews.com"
+                    }
+                ],
+                "datePublished": "2024-01-27T04:11:00.0000000Z"
+            },
+            {
+                "name": "<b>Harry</b> &amp; Meghan will become \u2018royals for hire\u2019 after disastrous Netflix &amp; Spotify deals &amp; being saddled with HUGE expenses",
+                "url": "https://www.thesun.co.uk/royals/25535398/harry-and-meghan-royals-for-hire/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.v3pw6lElMJkCPpLvLd1Zxi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "IT was billed as a rare \u201cdate night\u201d for the supposedly privacy-loving couple. But as Harry and Meghan glad-handed Hollywood executives on the red carpet this week, some royal aides are concerned",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6ddd2790-ec93-4707-36c5-63804d27da03",
+                        "name": "Spotify"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/424cb54b-41a3-c86b-d8e0-3ecef5609ce8",
+                        "name": "Netflix"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mZZguWnkRkVFPCoaQUmKEg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-27T01:06:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Harry</b> and Meghan&#39;s awkward reaction at film premiere as they&#39;re given &#39;bad seats&#39;",
+                "url": "https://www.dailyrecord.co.uk/news/uk-world-news/harry-meghans-awkward-reaction-film-31981123",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.P1uUrI_fsGepvHbDAKkmzi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "<b>Prince Harry</b> and Meghan Markle appeared to have suffered an awkward blunder as they attended a glamourous film premiere earlier this week, with royal fans on social media commenting &#39;karma is real&#39;. The Duke and Duchess of Sussex were in Jamaica this week ...",
+                "mentions": [
+                    {
+                        "name": "Daily Record"
+                    },
+                    {
+                        "name": "Premiere"
+                    },
+                    {
+                        "name": "Prince Harry"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Record"
+                    }
+                ],
+                "datePublished": "2024-01-27T00:00:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Princess Kate&#39;s uncle to appear on Celebrity Big Brother",
+                "url": "https://www.bristolpost.co.uk/news/celebs-tv/princess-kates-uncle-appear-celebrity-9061742",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.7CAnPv0s26l69Icqf_RPai&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "He is said to be ready to share his views on <b>Harry</b> and Meghan as well as life alongside the Royal ... Gary has been pictured at a number of royal events including the marriages of Kate to <b>Prince</b> William and the wedding of her sister, Pippa Middleton.",
+                "mentions": [
+                    {
+                        "name": "Celebrity Big Brother - Season 4"
+                    },
+                    {
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "name": "Bristol City F.C."
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Bristol Post"
+                    }
+                ],
+                "datePublished": "2024-01-27T00:00:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Royal news - live: King Charles \u2018doing well\u2019 after prostate surgery as Kate continues hospital recovery",
+                "url": "https://www.independent.co.uk/news/uk/home-news/king-charles-kate-middleton-health-royal-family-b2485849.html?page=5",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.zWaiTwEh9Qo4ZetTlrnhuS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "But she opens up to Guy Walters about happiness, helping people and the things that have helped her through the toughest of times <b>Prince Harry</b> has proven once again he\u2019s Meghan Markle\u2019s biggest fan. The Duke of Sussex, 39, attended the Living Legends ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/607bf330-283c-e25d-6b64-69bbd33d5b72",
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent"
+                    }
+                ],
+                "datePublished": "2024-01-27T00:00:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "ITV Celebrity Big Brother &#39;sign up Kate Middleton\u2019s uncle&#39; Gary Goldsmith for 2024 series",
+                "url": "https://www.ok.co.uk/tv/gary-goldsmith-celebrity-big-brother-31980814",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.2h2YHuOsc8ZHhtbhJVZGSy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "He served as an usher at Carole&#39;s wedding to husband Michael, 74, in 1980 and he also attended Kate&#39;s wedding to <b>Prince</b> William ... and he\u2019s pretty outspoken when it comes to <b>Harry</b> and Meghan.&quot; It&#39;s hoped that Gary will provide an &quot;insight&quot; into the ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/819a3272-9d12-8abc-7250-e37990150af7",
+                        "name": "Celebrity Big Brother"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d15676f1-d9df-4329-b394-192ad8702565",
+                        "name": "Gary"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Celebrity Big Brother"
+                    },
+                    {
+                        "name": "Gary"
+                    },
+                    {
+                        "name": "Catherine, Duchess of Cambridge"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "OK! Magazine UK"
+                    }
+                ],
+                "datePublished": "2024-01-27T00:00:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Meghan Markle&#39;s telling gesture on red carpet that exposes true state of marriage to <b>Prince Harry</b>",
+                "url": "https://www.dailyrecord.co.uk/entertainment/celebrity/meghan-markles-telling-gesture-red-31973810",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.F-FdYoS8s70aNLx1wER1NS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Meghan Markle and <b>Prince Harry</b> were showcasing their &quot;unity&quot; as a strong couple during their surprise appearance at the premiere of the new Bob Marley film in Jamaica this week, according to a body language expert. The Duke and Duchess of Sussex made an unexpected visit to Kingston and were snapped with Jamaican prime minister Andrew Holness at the screening of the film which celebrates the ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fb6f4f93-ce23-76a6-98b5-3ab6b5286762",
+                        "name": "Daily Record"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Record"
+                    }
+                ],
+                "datePublished": "2024-01-26T00:00:00.0000000Z",
+                "category": "Entertainment"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=prince+harry",
+        "queryContext": {
+            "originalQuery": "prince harry",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 322,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=prince+harry"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=prince+harry&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Real reason <b>Prince Harry</b> and Meghan Markle flew to Jamaica for Bob Marley film premiere",
+                "url": "https://www.mirror.co.uk/3am/us-celebrity-news/real-reason-prince-harry-meghan-31982469",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.OWtTfcoBLKKaneIrODzwzi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Prince Harry and Meghan Markle came in for criticism for their decision to head to Jamaica for the premiere of the Bob Marley: One Love film, but are said to have had a good reason",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f739f50b-2905-3f90-a224-ea9aff296207",
+                        "name": "Bob Marley"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/72421add-9f97-e89d-5f92-0ca53e25741d",
+                        "name": "Marley"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Bob Marley"
+                    },
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Marley"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-27T16:51:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Prince Harry</b> and Meghan Markle still plugging Spotify deal despite being axed",
+                "url": "https://www.express.co.uk/news/royal/1860436/prince-harry-meghan-markle-spotify-deal",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.wVR8yxREOZg3pc31uHVOlC&pid=News",
+                        "width": 700,
+                        "height": 415
+                    }
+                },
+                "description": "<b>Prince Harry</b> and Meghan Markle&#39;s Archewell website still lists their partnership with Spotify, even though the couple&#39;s deal with the streaming giant fell through last summer. Upon leaving the Royal Family in 2020 and moving to California the Duke and ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4eb0b986-b460-2620-00b5-8ec172abf717",
+                        "name": "Royal News"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Daily Express"
+                    },
+                    {
+                        "name": "Royal News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express"
+                    }
+                ],
+                "datePublished": "2024-01-27T15:04:00.0000000Z",
+                "category": "ScienceAndTechnology"
+            },
+            {
+                "name": "Could the Tories still win?",
+                "url": "https://leftfootforward.org/2024/01/could-the-tories-still-win/",
+                "description": "Could 2024 become remembered for the British people \u2018hurling the findings of the opinion polls back into the faces of the pollsters,\u2019 as\u00a0Times\u2019\u00a0journalist George Clarke wrote following the Tories\u2019 shock win in 1970?",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Left Foot Forward",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.VsI1T7P7rubo9_lpHEuFew&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-27T14:18:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Will fears Meghan and <b>Harry</b> could become &#39;Royals for hire&#39; prompt King Charles to help fund their lives to avoid them looking elsewhere?",
+                "url": "https://www.dailymail.co.uk/news/article-13013289/Meghan-Harry-Royals-hire-King-Charles-help-fund-lives.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.HIJ0ewpxATye_jXl75GhOC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "<b>Prince Harry</b> remains employed as Chief Impact Officer at BetterUp, the mental health coaching start-up company, but has reportedly been criticised by its staff - with one claiming <b>Harry</b> contributed &#39;zero things&#39;. The firm is believed to have laid off 16 ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/607bf330-283c-e25d-6b64-69bbd33d5b72",
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/93a3e0e2-aecf-e53b-8432-c15f400cfb4e",
+                        "name": "Daily Mail"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Daily Mail"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail"
+                    }
+                ],
+                "datePublished": "2024-01-27T13:32:00.0000000Z"
+            },
+            {
+                "name": "Inside <b>Prince Harry</b>&#39;s brutal jibes at &#39;lying&#39; King Charles after prostate treatment",
+                "url": "https://www.express.co.uk/news/royal/1860248/Prince-Harry-King-Charles-relationship-jibes-lies-prostate-hospital",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.aUh7adpIkwmp3P0QffSUIC&pid=News",
+                        "width": 700,
+                        "height": 415
+                    }
+                },
+                "description": "King Charles spent much of this week in a private London hospital to treat his enlarged prostate and his youngest son, <b>Prince Harry</b>, and wife Meghan Markle were not there in person. The Duke of Sussex and his father have had a strained relationship over ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/607bf330-283c-e25d-6b64-69bbd33d5b72",
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1178b974-89b6-e98b-86a5-834c004b135e",
+                        "name": "Harry Royal"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "name": "Harry Royal"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express"
+                    }
+                ],
+                "datePublished": "2024-01-27T13:01:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Harry</b> and Meghan&#39;s Jamaica trip was &#39;not especially welcome back in London&#39; as jaunt is criticised as being &#39;misguided&#39; due its political connotations",
+                "url": "https://www.dailymail.co.uk/news/article-13013171/Harry-Meghans-Jamaica-trip-not-welcome-London-jaunt-criticised-misguided-political-connotations.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.RxgtswmLTlNd75cBcVuJhi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The Duke and Duchess of Sussex made a surprise visit to the Caribbean country this week to attend the premiere of Bob Marley: One Love and support the Marley family.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2562ea55-e766-cb17-7e1f-a957c9f8b966",
+                        "name": "Jamaica"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/93a3e0e2-aecf-e53b-8432-c15f400cfb4e",
+                        "name": "Daily Mail"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Jamaica"
+                    },
+                    {
+                        "name": "Daily Mail"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-27T12:06:00.0000000Z"
+            },
+            {
+                "name": "Kate, Princess of Wales\u2019s uncle Gary Goldsmith \u2018signed up for Celebrity Big Brother\u2019",
+                "url": "https://metro.co.uk/2024/01/27/celebrity-big-brother-signs-kate-middletons-uncle-2024-series-20181836/?ico=trending-post-strip_item_3",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.vCE3EmolCMKX4_-jCBDM2y&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Gary has reportedly \u2018made it clear he will talk about everything and anything\u2019 and is \u2018pretty outspoken\u2019 when it comes to <b>Prince Harry</b> and Meghan Markle. The source said: \u2018Gary also holds a deep affection for Kate and Wills and will be able to ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/819a3272-9d12-8abc-7250-e37990150af7",
+                        "name": "Celebrity Big Brother"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2872a54f-b045-8fe3-d356-1aa538e14812",
+                        "name": "Metro International"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Metro"
+                    }
+                ],
+                "datePublished": "2024-01-27T11:56:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Harry</b> and Meghan suffer awkward moment at film premiere as they&#39;re visibly confused by &#39;bad seats&#39;",
+                "url": "https://www.irishmirror.ie/showbiz/us-gossip/harry-meghan-suffer-awkward-moment-31980573",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.yLRVysrq01NtXqCl8FiTUC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The Duke and Duchess of Sussex, Prince Harry and Meghan Markle, seemingly suffered a very awkward moment at a glitzy film premiere when they were given &#39;bad seats&#39;",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/77f28672-5669-4775-a58a-b62b17779010",
+                        "name": "Ireland"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Ireland"
+                    },
+                    {
+                        "name": "Premiere"
+                    },
+                    {
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Irish Daily Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.2BcD1ARbWJ-h3eIGF0o4xA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-27T10:26:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Prince</b> Archie&#39;s ex-nanny stunned by how <b>Prince Harry</b> and Meghan Markle first greeted her",
+                "url": "https://www.irishmirror.ie/showbiz/us-gossip/prince-archies-ex-nanny-stunned-31973165",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.cgQWkjVKL697MLR-uuuICi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Prince Harry and Meghan Markle have very busy schedules and so hired Lorren Khumalo to help look after their son Prince Archie when he was just a few months old",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/77f28672-5669-4775-a58a-b62b17779010",
+                        "name": "Ireland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Irish Daily Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.2BcD1ARbWJ-h3eIGF0o4xA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-27T10:22:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Palace \u2018surprised\u2019 by <b>Harry</b> and Meghan\u2019s \u2018misguided\u2019 photo shoot with Jamaican PM as Kate &amp; Charles recover from surgery",
+                "url": "https://www.thesun.co.uk/royals/25540604/palace-surprised-harry-meghan-jamaica-kate-charles-surgery/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.4WHiT1jMZPkBKurUXa75Li&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Princess Charlotte and <b>Prince</b> Louis after Kate went in for surgery. While William stays by his wife&#39;s side, <b>Harry</b> and Meghan are understood to have flown to the island by private jet, and spent a night at the &quot;luxurious&quot; and &quot;very fancy&quot; Terra Nova Hotel.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2f67c0e2-55af-086f-9823-f89d2ab437b5",
+                        "name": "Kate Charles"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun"
+                    }
+                ],
+                "datePublished": "2024-01-27T09:57:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Princess of Wales&#39; uncle Gary Goldsmith &#39;signs up for Celebrity Big Brother 2024&#39;",
+                "url": "https://uk.news.yahoo.com/princess-wales-uncle-gary-goldsmith-083054967.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.xXMVBVEuFInIv6h0fhPSdi&pid=News",
+                        "width": 700,
+                        "height": 509
+                    }
+                },
+                "description": "Gary Goldsmith, the uncle of the Princess of Wales, has signed up to take part in the next series of ITV\u2019s Celebrity Big Brother, according to reports. The 58-year-old businessman, who is the brother of Kate\u2019s mother Carole, reportedly agreed terms on Friday having previously auditioned for I\u2019m a Celebrity.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/819a3272-9d12-8abc-7250-e37990150af7",
+                        "name": "Celebrity Big Brother"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-27T08:30:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Kate Middleton\u2019s outspoken uncle Gary Goldsmith \u2018signs up\u2019 for Celebrity Big Brother",
+                "url": "https://metro.co.uk/2024/01/27/celebrity-big-brother-signs-kate-middletons-uncle-2024-series-20181836/?ico=trending-post-strip_item_1",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.qIpU2P0Od2LsebS0uy5gri&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Kate Middleton \u2019s uncle is said to be entering the Celebrity Big Brother house when the show returns to ITV in March. Gary Goldsmith reportedly signed a big money deal with CBB bosses on Saturday (January 27) in a controversial casting. It\u2019s believed the outspoken businessman was locked in talks for a while.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/819a3272-9d12-8abc-7250-e37990150af7",
+                        "name": "Celebrity Big Brother"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2872a54f-b045-8fe3-d356-1aa538e14812",
+                        "name": "Metro International"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "name": "Celebrity Big Brother"
+                    },
+                    {
+                        "name": "Metro International"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Metro",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8olLCBBg15Ilf5cNVQh2IA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-27T08:30:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Inside <b>Prince Harry</b>&#39;s close bond and sweet relationship with Princess Kate before Meghan",
+                "url": "https://www.mirror.co.uk/3am/us-celebrity-news/inside-prince-harrys-close-bond-31959726.amp",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.7Fl2XaBo7BABH4A9tq8hly&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "<b>Prince Harry</b> and Princess Kate once had a very strong bond and close relationship, with the Duke of Sussex even saying that Catherine was the sister he had always wanted. <b>Harry</b>, Catherine, and William were quickly dubbed the Fab Three when the <b>Prince</b> and ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror"
+                    }
+                ],
+                "datePublished": "2024-01-27T07:08:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "10 Actors Who HATED Their Performances In Awesome Movies",
+                "url": "https://whatculture.com/film/10-actors-who-hated-their-performances-in-awesome-movies-2",
+                "description": "Cast as the lead in what would become one of the biggest franchises in movie history at a seriously young age, Daniel Radcliffe not only grew up in front of fans&#39; eyes, but he also noticeably evolved as a thespian throughout the Harry Potter series, too.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/78aed243-43e3-a8d6-bf5a-9cddb00e9843",
+                        "name": "Performance"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "What Culture",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.pHYd7WbJaExJyvQvyUzRlw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-27T06:02:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Kate Middleton\u2019s Uncle Gary Signs Up For British Reality TV Show",
+                "url": "https://uk.style.yahoo.com/kate-middleton-uncle-gary-signs-100227244.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ET839kF_OYeJ1qmP95Exxy&pid=News",
+                        "width": 700,
+                        "height": 490
+                    }
+                },
+                "description": "More from Deadline <b>Prince Harry</b> Remembers Diana&#39;s White House Dance As He Accepts &#39;Living Legend&#39; Award From John Travolta Jonathan Ross To Host ITV UK Oscars Coverage; Spun Gold Relocates; &#39;Jan Ullrich - The Hunted&#39; Rights; &#39;Domino Day&#39; Trailer - Global ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Style UK"
+                    }
+                ],
+                "datePublished": "2024-01-27T05:01:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Meghan Markle Plays Tennis In Gorgeous AI Photos",
+                "url": "https://britpopnews.com/meghan-markle-plays-tennis-in-gorgeous-ai-photos/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.mIWhW4_KdS8U-aZz0fxqIi&pid=News",
+                        "width": 700,
+                        "height": 416
+                    }
+                },
+                "description": "Meghan Markle, the Duchess of Sussex, has been a notable public figure since her marriage to Prince Harry in 2018.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4ad9317c-3b36-bb25-2657-2dafc696a039",
+                        "name": "Markle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40dacb9f-44dd-4d30-b8fd-bdfd69ac38f7",
+                        "name": "Tennis"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "britpopnews.com"
+                    }
+                ],
+                "datePublished": "2024-01-27T04:11:00.0000000Z"
+            },
+            {
+                "name": "<b>Harry</b> &amp; Meghan will become \u2018royals for hire\u2019 after disastrous Netflix &amp; Spotify deals &amp; being saddled with HUGE expenses",
+                "url": "https://www.thesun.co.uk/royals/25535398/harry-and-meghan-royals-for-hire/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.v3pw6lElMJkCPpLvLd1Zxi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "IT was billed as a rare \u201cdate night\u201d for the supposedly privacy-loving couple. But as Harry and Meghan glad-handed Hollywood executives on the red carpet this week, some royal aides are concerned",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6ddd2790-ec93-4707-36c5-63804d27da03",
+                        "name": "Spotify"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/424cb54b-41a3-c86b-d8e0-3ecef5609ce8",
+                        "name": "Netflix"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mZZguWnkRkVFPCoaQUmKEg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-27T01:06:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Harry</b> and Meghan&#39;s awkward reaction at film premiere as they&#39;re given &#39;bad seats&#39;",
+                "url": "https://www.dailyrecord.co.uk/news/uk-world-news/harry-meghans-awkward-reaction-film-31981123",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.P1uUrI_fsGepvHbDAKkmzi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "<b>Prince Harry</b> and Meghan Markle appeared to have suffered an awkward blunder as they attended a glamourous film premiere earlier this week, with royal fans on social media commenting &#39;karma is real&#39;. The Duke and Duchess of Sussex were in Jamaica this week ...",
+                "mentions": [
+                    {
+                        "name": "Daily Record"
+                    },
+                    {
+                        "name": "Premiere"
+                    },
+                    {
+                        "name": "Prince Harry"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Record"
+                    }
+                ],
+                "datePublished": "2024-01-27T00:00:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Princess Kate&#39;s uncle to appear on Celebrity Big Brother",
+                "url": "https://www.bristolpost.co.uk/news/celebs-tv/princess-kates-uncle-appear-celebrity-9061742",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.7CAnPv0s26l69Icqf_RPai&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "He is said to be ready to share his views on <b>Harry</b> and Meghan as well as life alongside the Royal ... Gary has been pictured at a number of royal events including the marriages of Kate to <b>Prince</b> William and the wedding of her sister, Pippa Middleton.",
+                "mentions": [
+                    {
+                        "name": "Celebrity Big Brother - Season 4"
+                    },
+                    {
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "name": "Bristol City F.C."
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Bristol Post"
+                    }
+                ],
+                "datePublished": "2024-01-27T00:00:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Royal news - live: King Charles \u2018doing well\u2019 after prostate surgery as Kate continues hospital recovery",
+                "url": "https://www.independent.co.uk/news/uk/home-news/king-charles-kate-middleton-health-royal-family-b2485849.html?page=5",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.zWaiTwEh9Qo4ZetTlrnhuS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "But she opens up to Guy Walters about happiness, helping people and the things that have helped her through the toughest of times <b>Prince Harry</b> has proven once again he\u2019s Meghan Markle\u2019s biggest fan. The Duke of Sussex, 39, attended the Living Legends ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/607bf330-283c-e25d-6b64-69bbd33d5b72",
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent"
+                    }
+                ],
+                "datePublished": "2024-01-27T00:00:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "ITV Celebrity Big Brother &#39;sign up Kate Middleton\u2019s uncle&#39; Gary Goldsmith for 2024 series",
+                "url": "https://www.ok.co.uk/tv/gary-goldsmith-celebrity-big-brother-31980814",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.2h2YHuOsc8ZHhtbhJVZGSy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "He served as an usher at Carole&#39;s wedding to husband Michael, 74, in 1980 and he also attended Kate&#39;s wedding to <b>Prince</b> William ... and he\u2019s pretty outspoken when it comes to <b>Harry</b> and Meghan.&quot; It&#39;s hoped that Gary will provide an &quot;insight&quot; into the ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/819a3272-9d12-8abc-7250-e37990150af7",
+                        "name": "Celebrity Big Brother"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d15676f1-d9df-4329-b394-192ad8702565",
+                        "name": "Gary"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Celebrity Big Brother"
+                    },
+                    {
+                        "name": "Gary"
+                    },
+                    {
+                        "name": "Catherine, Duchess of Cambridge"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "OK! Magazine UK"
+                    }
+                ],
+                "datePublished": "2024-01-27T00:00:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Meghan Markle&#39;s telling gesture on red carpet that exposes true state of marriage to <b>Prince Harry</b>",
+                "url": "https://www.dailyrecord.co.uk/entertainment/celebrity/meghan-markles-telling-gesture-red-31973810",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.F-FdYoS8s70aNLx1wER1NS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Meghan Markle and <b>Prince Harry</b> were showcasing their &quot;unity&quot; as a strong couple during their surprise appearance at the premiere of the new Bob Marley film in Jamaica this week, according to a body language expert. The Duke and Duchess of Sussex made an unexpected visit to Kingston and were snapped with Jamaican prime minister Andrew Holness at the screening of the film which celebrates the ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fb6f4f93-ce23-76a6-98b5-3ab6b5286762",
+                        "name": "Daily Record"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Record"
+                    }
+                ],
+                "datePublished": "2024-01-26T00:00:00.0000000Z",
+                "category": "Entertainment"
+            }
+        ]
+    }
+]
