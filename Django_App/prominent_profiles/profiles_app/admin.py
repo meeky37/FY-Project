@@ -13,8 +13,8 @@ from .models import Article, BoundMention, OverallSentiment, BingEntity, EntityV
 
 @admin.register(Article)
 class ArticleAdmin(admin.ModelAdmin):
-    list_display = ('processed', 'headline', 'url', 'image_url', 'date_added', 'publication_date',
-                    'site_name', 'author')
+    list_display = ('id', 'processed', 'similar_rejection', 'headline', 'url', 'image_url',
+    'date_added','publication_date', 'site_name', 'author')
 
 
 def get_similar_entities(entities, ignored_entity_pairs, app_visible_entities, threshold):
