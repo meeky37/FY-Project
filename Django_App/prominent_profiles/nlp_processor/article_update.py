@@ -1,8 +1,102 @@
 import nltk
 import ppdeep
 from lexicalrichness import LexicalRichness
-
 from .models import ArticleStatistics
+
+
+def calculate_statistics(text_body):
+    lex = LexicalRichness(text_body)
+    common_stop_words = ["the", "and", "is", "of", "in", "it", "that", "to", "with"]
+    tokens = nltk.word_tokenize(text_body)
+    stop_word_counts = {word: tokens.count(word) for word in common_stop_words}
+
+    try:
+        vocd_int = lex.vocd()
+    except ValueError:
+        vocd_int = None
+
+    linguistic_stats = {
+        "fuzzy_hash": ppdeep.hash(text_body),
+        "word_count": len(tokens),
+        "terms_count": lex.terms,
+        "vocd": vocd_int,
+        "yulek": lex.yulek,
+        "simpsond": lex.simpsond,
+        "the_count": stop_word_counts["the"],
+        "and_count": stop_word_counts["and"],
+        "is_count": stop_word_counts["is"],
+        "of_count": stop_word_counts["of"],
+        "in_count": stop_word_counts["in"],
+        "it_count": stop_word_counts["it"],
+        "that_count": stop_word_counts["that"],
+        "to_count": stop_word_counts["to"],
+        "with_count": stop_word_counts["with"],
+    }
+
+    return linguistic_stats
+
+
+def create_update_stats(article_model, linguistic_stats):
+    try:
+        stats_model, created = ArticleStatistics.objects.update_or_create(
+            article=article_model,
+            defaults={
+                "fuzzy_hash": linguistic_stats["fuzzy_hash"],
+                "word_count": linguistic_stats["word_count"],
+                "terms_count": linguistic_stats["terms_count"],
+                "vocd": linguistic_stats["vocd"],
+                "yulek": linguistic_stats["yulek"],
+                "simpsond": linguistic_stats["simpsond"],
+                "the_count": linguistic_stats["the_count"],
+                "and_count": linguistic_stats["and_count"],
+                "is_count": linguistic_stats["is_count"],
+                "of_count": linguistic_stats["of_count"],
+                "in_count": linguistic_stats["in_count"],
+                "to_count": linguistic_stats["to_count"],
+                "it_count": linguistic_stats["it_count"],
+                "that_count": linguistic_stats["that_count"],
+                "with_count": linguistic_stats["with_count"],
+            }
+        )
+
+        if not created:
+            print(f"ArticleStatistics updated for article {article_model.id}")
+        else:
+            print(f"ArticleStatistics created for article {article_model.id}")
+
+    except Exception as e:
+        print(f"Error updating ArticleStatistics: {e}")
+
+
+def calculate_percentage_difference(value1, value2):
+    if value1 is not None and value2 is not None and max(value1, value2) != 0:
+        return abs((value1 - value2) / max(value1, value2)) * 100
+    elif value1 is not None or value2 is not None:
+        return 100
+    else:
+        return None
+
+
+def calculate_all_percentage_differences(pair):
+    stat1 = pair.article1
+    stat2 = pair.article2
+    pair.words_diff = calculate_percentage_difference(stat1.word_count, stat2.word_count)
+    pair.terms_diff = calculate_percentage_difference(stat1.terms_count, stat2.terms_count)
+    pair.vocd_diff = calculate_percentage_difference(stat1.vocd, stat2.vocd)
+    pair.yulek_diff = calculate_percentage_difference(stat1.yulek, stat2.yulek)
+    pair.simpsond_diff = calculate_percentage_difference(stat1.simpsond, stat2.simpsond)
+    pair.the_diff = calculate_percentage_difference(stat1.the_count, stat2.the_count)
+    pair.and_diff = calculate_percentage_difference(stat1.and_count, stat2.and_count)
+    pair.is_diff = calculate_percentage_difference(stat1.is_count, stat2.is_count)
+    pair.of_diff = calculate_percentage_difference(stat1.of_count, stat2.of_count)
+    pair.in_diff = calculate_percentage_difference(stat1.in_count, stat2.in_count)
+    pair.to_diff = calculate_percentage_difference(stat1.to_count, stat2.to_count)
+    pair.it_diff = calculate_percentage_difference(stat1.it_count, stat2.it_count)
+    pair.that_diff = calculate_percentage_difference(stat1.that_count, stat2.that_count)
+    pair.with_diff = calculate_percentage_difference(stat1.with_count, stat2.with_count)
+
+    pair.avg_count_diff = pair.calculate_average_diff()
+    pair.save()
 
 
 class ArticleUpdate:
@@ -11,57 +105,8 @@ class ArticleUpdate:
         self.linguistic_stats = None
         self.article_model = article_model
 
-    def calculate_statistics(self):
-        lex = LexicalRichness(self.text_body)
-        common_stop_words = ["the", "and", "is", "of", "in", "it", "that", "to", "with"]
-        tokens = nltk.word_tokenize(self.text_body)
-        stop_word_counts = {word: tokens.count(word) for word in common_stop_words}
-
-        self.linguistic_stats = {
-            "fuzzy_hash": ppdeep.hash(self.text_body),
-            "word_count": len(tokens),
-            "terms_count": lex.terms,
-            "vocd": lex.vocd,
-            "yulek": lex.yulek,
-            "simpsond": lex.simpsond,
-            "the_count": stop_word_counts["the"],
-            "and_count": stop_word_counts["and"],
-            "is_count": stop_word_counts["is"],
-            "of_count": stop_word_counts["of"],
-            "in_count": stop_word_counts["in"],
-            "it_count": stop_word_counts["it"],
-            "that_count": stop_word_counts["that"],
-            "to_count": stop_word_counts["to"],
-            "with_count": stop_word_counts["with"],
-        }
+    def get_statistics(self):
+        self.linguistic_stats = calculate_statistics(self.text_body)
 
     def update_stats(self):
-        try:
-            stats_model, created = ArticleStatistics.objects.update_or_create(
-                article=self.article_model,
-                defaults={
-                    "fuzzy_hash": self.linguistic_stats["fuzzy_hash"],
-                    "word_count": self.linguistic_stats["word_count"],
-                    "terms_count": self.linguistic_stats["terms_count"],
-                    "vocd": self.linguistic_stats["vocd"],
-                    "yulek": self.linguistic_stats["yulek"],
-                    "simpsond": self.linguistic_stats["simpsond"],
-                    "the_count": self.linguistic_stats["the_count"],
-                    "and_count": self.linguistic_stats["and_count"],
-                    "is_count": self.linguistic_stats["is_count"],
-                    "of_count": self.linguistic_stats["of_count"],
-                    "in_count": self.linguistic_stats["in_count"],
-                    "to_count": self.linguistic_stats["to_count"],
-                    "it_count": self.linguistic_stats["it_count"],
-                    "that_count": self.linguistic_stats["that_count"],
-                    "with_count": self.linguistic_stats["with_count"],
-                }
-            )
-
-            if not created:
-                print(f"ArticleStatistics updated for article {self.article_model.id}")
-            else:
-                print(f"ArticleStatistics created for article {self.article_model.id}")
-
-        except Exception as e:
-            print(f"Error updating ArticleStatistics: {e}")
+        create_update_stats(self.article_model, self.linguistic_stats)
