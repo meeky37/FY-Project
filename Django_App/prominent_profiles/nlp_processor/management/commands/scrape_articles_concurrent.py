@@ -5,26 +5,23 @@ import queue
 import urllib.robotparser
 import trafilatura
 import spacy
-from NewsSentiment.customexceptions import TooLongTextException
-from django.utils import timezone
+import time
+import logging
+import urllib.request
+import socket
 
+from datetime import datetime
+from django.utils import timezone
 from django.core.management.base import BaseCommand
 from profiles_app.models import Article as ArticleModel
 from nlp_processor.models import ProcessedFile
 from nlp_processor.utils import DatabaseUtils
 from nlp_processor.bing_api import *
 from fastcoref import FCoref
-
 from ...article_processor import Article
 from django.conf import settings
-
 from urllib.parse import urlparse
 from urllib.robotparser import RobotFileParser
-import urllib.request
-import socket
-
-import time
-
 from ...sentiment_resolver import SentimentAnalyser
 from memory_profiler import profile
 
@@ -52,7 +49,6 @@ def can_fetch_url(url_to_check):
 
 def perform_coreference_resolution(article_texts, batch_size=100):
     model = FCoref(device='mps')
-
     predictions = model.predict(texts=article_texts, max_tokens_in_batch=batch_size)
 
     # Empty list to store clusters for each article
@@ -99,7 +95,7 @@ class Command(BaseCommand):
             url = article["url"]
             headline = article["title"]
 
-            # Check if the URL has been seen before
+            # Check if the URL has been seen before in this job
             if url in processed_urls:
                 print('url seen before')
                 skips += 1
@@ -124,12 +120,14 @@ class Command(BaseCommand):
                     date_str = metadata.date
                     naive_datetime = datetime.strptime(date_str, '%Y-%m-%d')
 
-                    publication_date = timezone.make_aware(naive_datetime)  # datetime aware to a
-                    # satisfy model
+                    # datetime aware to a satisfy model
+                    publication_date = timezone.make_aware(naive_datetime)
 
                     # Extract some useful trafilatura metadata.
                     author = metadata.author
 
+                    # 29th Jan Note - this was added over Christmas as an initial "solution" before
+                    # a direction to use similarity hashing and statistic linguistics.
                     if ArticleModel.objects.filter(headline=headline, author=author).exists():
                         print('Exact headline and author already exists in db')
                         skips += 1
@@ -139,11 +137,29 @@ class Command(BaseCommand):
                     article_text = trafilatura.extract(downloaded, favour_recall=True,
                                                        include_comments=False, include_images=False,
                                                        include_tables=False)
-                    # article_text = trafilatura.extract(downloaded, favour_recall=True)
+
                     if article_text and len(article_text) > 249:
                         article_obj = Article(url, headline, article_text, ner, publication_date,
                                               author, site_name)
-                        article_objects.append(article_obj)
+
+
+                        start_time = time.time()
+                        article_obj.get_statistics()
+                        # print(f"Statistics Calculation: {time.time() - start_time} seconds")
+                        # About 2 seconds
+
+                        article_obj.save_to_database()
+
+                        start_time = time.time()
+                        too_similar = article_obj.check_similarity()
+                        print(f"Check Similarity Time: {time.time() - start_time} seconds")
+
+                        if too_similar:
+                            article_obj.set_db_processed(is_processed=False, similar_rejection=True)
+                            print(f"{article_obj.headline} removed on similarity grounds!")
+                        else:
+                            article_objects.append(article_obj)
+
                         # Mark the URL as processed
                         processed_urls.add(url)
                     elif article_text is None:
@@ -155,6 +171,7 @@ class Command(BaseCommand):
             except Exception as e:
                 print(f"Error processing article: {url}")
                 print(f"Error message: {str(e)}")
+                # traceback.print_exc()
 
         print("Fetches:")
         print(fetches)
@@ -180,25 +197,27 @@ class Command(BaseCommand):
 
     def process_article(self, article, sa):
 
+
+
         start_time = time.time()
         article.source_ner_people()
-        print(f"NER People Time: {time.time() - start_time} seconds")
+        # print(f"NER People Time: {time.time() - start_time} seconds")
 
         start_time = time.time()
         article.determine_sentences()
-        print(f"Sentence determined Time: {time.time() - start_time} seconds")
+        # print(f"Sentence determined Time: {time.time() - start_time} seconds")
 
         start_time = time.time()
         article.determine_entity_to_cluster_mapping()
-        print(f"Entity to cluster map time: {time.time() - start_time} seconds")
+        # print(f"Entity to cluster map time: {time.time() - start_time} seconds")
 
         start_time = time.time()
         article.entity_cluster_map_consolidation()
-        print(f"Entity cluster map consolidation Time: {time.time() - start_time} seconds")
+        # print(f"Entity cluster map consolidation Time: {time.time() - start_time} seconds")
 
         time.time()
         if article.database_candidate:
-            article.save_to_database()
+            # article.save_to_database() already done earlier in similar check now
 
             if article.database_id != -1:
                 for entity_data in article.clustered_entities:
@@ -209,21 +228,19 @@ class Command(BaseCommand):
                 article.set_sentiment_analyser(sa)
 
                 start_time = time.time()
+                article.get_bounds_sentiment()
+                print(f"Bounds sentiment time: {time.time() - start_time} seconds")
 
-                try:
-                    article.get_bounds_sentiment()
-                    print(f"Bounds sentiment time: {time.time() - start_time} seconds")
+                start_time = time.time()
+                article.get_average_sentiment_results()
+                # print(f"Average results time: {time.time() - start_time} seconds")
+                # < 0.5 seconds
 
-                    start_time = time.time()
-                    article.get_average_sentiment_results()
-                    print(f"Average results time: {time.time() - start_time} seconds")
+                article.set_db_processed(True, similar_rejection=False)
 
-                    article.set_db_processed(True)
-                except TooLongTextException as e:
-                    article.set_db_processed(False)
-                    print(e)
         elif not article.database_candidate:
-            print("Not enough mentions to add")
+            # print("Not enough mentions to add")
+            article.set_db_processed(True, similar_rejection=False)
         else:
             print("Article already exists in the database")
 
@@ -246,8 +263,8 @@ class Command(BaseCommand):
     @profile
     def handle(self, *args, **options):
 
-        processed_urls = set()
-        article_objects = []
+        logger = logging.getLogger('scrape_articles_logger')
+        logger.info(f"Scrape and analyse articles job started at {datetime.now()}")
 
         media_path = os.path.join(settings.ARTICLE_SCRAPER_MEDIA_ROOT, 'api_articles')
 
@@ -261,10 +278,17 @@ class Command(BaseCommand):
             full_path = file.full_path()
             print(full_path)
 
+            # user_input = input("Continue? (y/n): ").lower()
+            # if user_input.lower() != 'y':
+            #     print("Terminating...")
+            #     sys.exit()
+
             # Check if the file has already been processed
             if full_path not in processed_urls:
                 # Retrieve articles from the current file
                 articles_from_file = self.process_file(full_path, [], processed_urls)
+
+                print()
 
                 # Extend article_objects with articles from the current file
                 article_objects = articles_from_file
@@ -279,6 +303,7 @@ class Command(BaseCommand):
 
                 total_objects = len(article_objects)
                 print(f"Total objects: {total_objects}")
+                logging.info(f"Processing {total_objects} article objects")
 
                 with concurrent.futures.ThreadPoolExecutor(
                         max_workers=self.max_concurrent_threads) as executor:
@@ -289,3 +314,5 @@ class Command(BaseCommand):
                 # Update the ProcessedFile object to mark it as processed
                 file.nlp_applied = True
                 file.save()
+
+        logger.info(f"Scrape and analyse articles job finished at {datetime.now()}")
