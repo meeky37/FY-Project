@@ -73,7 +73,7 @@ class SentimentAnalyser:
         self.tsc = TargetSentimentClassifier()
 
     def bounds_sentiment(self, mention_start, mention_end, sentence_start, sentence_end,
-                         article_text):
+                         article_text, database_id):
         try:
             left_segment = article_text[sentence_start:mention_start]
             mention_segment = article_text[mention_start:mention_end]
@@ -93,6 +93,7 @@ class SentimentAnalyser:
             print(f"RIGHT: {right_segment}")
 
             BoundError.objects.create(
+                article_id=database_id,
                 bound_start=mention_start,
                 bound_end=mention_end,
                 left_segment=left_segment,
@@ -101,10 +102,10 @@ class SentimentAnalyser:
                 error_message=f"Exception during sentiment analysis"
             )
 
-            raise
             return None
 
     def process_clustered_entities(self, clustered_entities, sentence_bounds, article_text,
+                                   database_id,
                                    debug):
         START_HIGHLIGHT = '\033[0m'
         END_HIGHLIGHT = '\033[94m'
@@ -176,7 +177,7 @@ class SentimentAnalyser:
 
                             result = self.bounds_sentiment(mention_start, mention_end,
                                                            sentence_start, sentence_end,
-                                                           article_text)
+                                                           article_text, database_id)
 
                             bounds_sentiment[bounds_key][entity_name][entity_db_id].append(
                                 result)
