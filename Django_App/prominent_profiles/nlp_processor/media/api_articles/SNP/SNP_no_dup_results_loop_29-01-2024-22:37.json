@@ -1,0 +1,3083 @@
+[
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=SNP",
+        "queryContext": {
+            "originalQuery": "SNP",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 13800,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=SNP"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=SNP&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Sturgeon government less \u2018mobilised\u2019 for pandemic than Boris Johnson\u2019s",
+                "url": "https://www.telegraph.co.uk/politics/2024/01/29/sturgeon-government-less-prepared-than-johnsons-for-covid/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.aabZRIPYR7Wb_7WQn9ePdy&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "Jeane Freeman said she would regret Covid deaths in Scotland\u2019s care homes \u2018for the rest of my life\u2019 Credit: Jane Barlow/PA The notes were made public as Jeane Freeman, the former <b>SNP</b> health secretary, told the inquiry that she would regret Covid ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fe217755-2d46-1c61-dded-740ff4500899",
+                        "name": "Boris Johnson"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40ff83fa-c18c-9216-49aa-77a9d6a5cc28",
+                        "name": "Nicola Sturgeon"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/164c5e83-4ae4-0b84-0583-4a6253384d84",
+                        "name": "Engag\u00e9"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Boris Johnson"
+                    },
+                    {
+                        "name": "Nicola Sturgeon"
+                    },
+                    {
+                        "name": "Engag\u00e9"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph"
+                    }
+                ],
+                "datePublished": "2024-01-29T20:53:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Moray bypasses at risk of \u2018more A96 backtracking\u2019? Elgin councillors worry about outcome of A96 Corridor Review",
+                "url": "https://www.grampianonline.co.uk/news/could-cast-iron-keith-bypass-pledge-be-scrapped-due-to-mo-340621/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT._zdOwkmTeFv5uLYDPZAe_i&pid=News",
+                        "width": 700,
+                        "height": 480
+                    }
+                },
+                "description": "MORAY councillors have raised concerns that &quot;cast iron&quot; pledge Elgin and Keith bypasses could be felled by &quot;more backtracking&quot;.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/96560530-b8f0-8ada-e205-3b1daa175e4b",
+                        "name": "Elgin"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/94d9f298-0577-350c-910d-b5b106decef2",
+                        "name": "A96 road"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c0fc345-a834-c89a-4f3a-0cf8b94634ac",
+                        "name": "Backtracking"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "grampianonline",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.TRteebnD1FT5BpcrlQL8ww&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-29T19:45:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Elgin and Keith bypasses at risk of \u2018more A96 backtracking\u2019? Moray councillors worry about outcome of A96 Corridor Review",
+                "url": "https://www.northern-scot.co.uk/news/elgin-and-keith-bypasses-at-risk-of-more-a96-backtracking-340615/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.i15BpHjA1GwdI-nuz0Ed4C&pid=News",
+                        "width": 700,
+                        "height": 481
+                    }
+                },
+                "description": "MORAY councillors have raised concerns that &quot;cast iron&quot; pledge Elgin and Keith bypasses could be felled by &quot;more backtracking&quot;.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e600d2ae-9242-34ac-477d-105473c4a9f8",
+                        "name": "Moray"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c17a6a1-558f-00bf-9be3-c29bae86b284",
+                        "name": "Keith"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/96560530-b8f0-8ada-e205-3b1daa175e4b",
+                        "name": "Elgin"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "northern-scot.co.uk",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.vvfO2OnlLP2gcDJ2zfr4wQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-29T19:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "UK Covid Inquiry: <b>SNP</b> ministers and Nicola Sturgeon motivated by constitutional politics at times during Covid, suggests Michael Gove",
+                "url": "https://www.scotsman.com/news/politics/uk-covid-inquiry-snp-ministers-and-nicola-sturgeon-motivated-by-constitutional-politics-at-times-during-covid-suggests-michael-gove-4496821",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.OHUnTOAOsHDQiRJCEfEDLi&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Nicola Sturgeon sought to diverge from the UK Government at certain points during the coronavirus pandemic in order to advance the SNP\u2019s \u201cpolitical agenda\u201d, Michael Gove has suggested to the UK Covid Inquiry.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c12951d9-25c7-062e-3e0c-288ac8a6d91e",
+                        "name": "Michael Gove"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40ff83fa-c18c-9216-49aa-77a9d6a5cc28",
+                        "name": "Nicola Sturgeon"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Michael Gove"
+                    },
+                    {
+                        "name": "Nicola Sturgeon"
+                    },
+                    {
+                        "name": "Inquiry"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Scotsman",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.QlHkHD_RALY4hnQHpw7jBw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-29T18:58:00.0000000Z",
+                "video": {
+                    "name": "UK Covid Inquiry: SNP ministers and Nicola Sturgeon motivated by constitutional politics at times during Covid, suggests Michael Gove",
+                    "thumbnailUrl": "https://www.bing.com/th?id=OVF.MRxywy%2BKl5QM2v6ntU9ndg&pid=News",
+                    "thumbnail": {
+                        "width": 600,
+                        "height": 337
+                    }
+                },
+                "category": "Politics"
+            },
+            {
+                "name": "Neoliberal approach makes us customers as opposed to citizens",
+                "url": "https://www.thenational.scot/politics/24082906.neoliberal-approach-makes-us-customers-opposed-citizens/",
+                "description": "Even policing and the courts should be run by the corporations whose first duty is to make profits. READ MORE: Michael Gove: &#39;Union stronger and <b>SNP</b> retreating thanks to Tories&#39; These libertarian ideas have many wealthy and influential supporters ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National"
+                    }
+                ],
+                "datePublished": "2024-01-29T18:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "BUILD THE BYPASS: Calls for Nairn bypass as survey reveals &#39;status quo is absurd&#39;",
+                "url": "https://www.inverness-courier.co.uk/news/build-the-bypass-calls-for-nairn-bypass-as-a96-nightmare-340525/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.zpXlbGh6ozCjMujYfO_JoS&pid=News",
+                        "width": 700,
+                        "height": 480
+                    }
+                },
+                "description": "Picture: Callum Mackay.. He said that although the meeting was positive, it is vital that the Scottish Government delivers a clear timetable for completion of the project, which he dubbed &quot;the pensioner of <b>SNP</b> pledges&quot;. He said: &quot;I had the absolutely clear ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/dca0a143-6042-ac2b-059d-38db4e782a02",
+                        "name": "Bypass"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fd31547a-9016-4940-b644-78988670c18a",
+                        "name": "Build"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9a84145d-0024-aba2-8dd8-4d1b5f932924",
+                        "name": "Nairn"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Inverness Courier"
+                    }
+                ],
+                "datePublished": "2024-01-29T18:00:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Covid Inquiry: Michael Gove denies playing politics during pandemic",
+                "url": "https://www.bbc.co.uk/news/uk-scotland-68127028?at_campaign=KARANGA&at_medium=RSS",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.gWwWx1MyBhC8MZbofGGbqC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Mr Gove praised Ms Sturgeon&#39;s &quot;energy and hard work&quot; during the pandemic, but said &quot;the <b>SNP</b> is a political movement with a clear goal.&quot; He added: &quot;Its members and leadership have seldom missed an opportunity in other times to seek differentiation to ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c12951d9-25c7-062e-3e0c-288ac8a6d91e",
+                        "name": "Michael Gove"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC"
+                    }
+                ],
+                "datePublished": "2024-01-29T17:48:00.0000000Z",
+                "video": {
+                    "name": "Covid Inquiry: Michael Gove denies playing politics during pandemic",
+                    "thumbnailUrl": "https://www.bing.com/th?id=OVF.7dkD44xxlkUCWwYorzjnig&pid=News",
+                    "embedHtml": "&lt;iframe width=&quot;400&quot; height=&quot;500&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://www.bbc.com/news/av-embeds/68127028/vpid/p0h7r8gt&quot;&gt;&lt;/iframe&gt;",
+                    "allowHttpsEmbed": true,
+                    "thumbnail": {
+                        "width": 600,
+                        "height": 337
+                    }
+                },
+                "category": "Politics"
+            },
+            {
+                "name": "Calls for \u2018massive cultural change\u2019 at Post Office after chairman\u2019s exit",
+                "url": "https://www.standard.co.uk/business/business-news/calls-for-massive-cultural-change-at-post-office-after-chairman-s-exit-b1135599.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.zy_5AJ0pCcorFKec2xws9S&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "A minister has denied a \u201cfalling out\u201d caused the exit of the Post Office\u2019s chairman, amid calls for a \u201cmassive cultural change\u201d in the company\u2019s management. Business minister Kevin Hollinrake said \u201cvery serious governance issues\u201d led to the departure of Henry Staunton, adding he did not receive a severance payment.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6e018547-cfd3-9836-13fc-1f7ab6d0aa31",
+                        "name": "Post Office"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Post Office"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Parliamentary group leader"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-29T17:31:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Holyrood is broken. Here\u2019s how it can be fixed",
+                "url": "https://www.thetimes.co.uk/article/holyrood-is-broken-heres-how-it-can-be-fixed-pzt3lgw9t",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.qD5IhgGmKTAoHFn-RM7i2S&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "A second chamber could provide the scrutiny that is lacking under the current system of tame, compliant committees",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-29T16:50:00.0000000Z"
+            },
+            {
+                "name": "Michael Gove at Covid inquiry: Sturgeon played politics in pandemic",
+                "url": "https://www.thetimes.co.uk/article/michael-gove-covid-inquiry-news-pandemic-politics-latest-nicola-sturgeon-7hkz9f9qc?ilc=timesradio:morefromthetimes",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.RNUWlEabxl_Mdx6hsP9ZzS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Michael Gove has accused Nicola Sturgeon of using Covid to advance the <b>SNP</b>\u2019s \u201cpolitical agenda\u201d rather than always working collaboratively with Westminster in responding to the pandemic. Giving evidence to Covid inquiry, Gove said that some of the ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c12951d9-25c7-062e-3e0c-288ac8a6d91e",
+                        "name": "Michael Gove"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40ff83fa-c18c-9216-49aa-77a9d6a5cc28",
+                        "name": "Nicola Sturgeon"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5b586384-c3eb-8768-9a0a-b4d6e660ddc5",
+                        "name": "Newton hearing"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times"
+                    }
+                ],
+                "datePublished": "2024-01-29T16:41:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "&#39;QMU option&#39; to East Lothian included as possible future tram route",
+                "url": "https://www.eastlothiancourier.com/news/24082420.edinburgh-council-ask-snp-ministers-2bn-build-new-tram-line/",
+                "description": "A &#39;QMU option&#39; has been revealed as a potential future tram route, as the possibility of extending Edinburgh&#39;s trams into East Lothian is considered.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0fbdbf9c-787c-9fa5-4e8a-acfd4aaff046",
+                        "name": "East Lothian"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5bda46f3-7659-0ef3-106d-09283294c832",
+                        "name": "Option contract"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "East Lothian Courier",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.emXS125VsmrWt00NcAjGFA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-29T16:27:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "UK Covid Inquiry: Nicola Sturgeon&#39;s cross-examination could be the day her independence dream dies \u2013 John McLellan",
+                "url": "https://www.scotsman.com/news/opinion/columnists/uk-covid-inquiry-nicola-sturgeons-cross-examination-could-be-the-day-her-independence-dream-dies-john-mclellan-4497258",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.cRSxPUNUrPBuYm-A45_P1y&pid=News",
+                        "width": 640,
+                        "height": 427
+                    }
+                },
+                "description": "Back then, the once-fabled <b>SNP</b> discipline was uncracked, and there were no hints of dissent, but when I helped negotiate a Scottish Government advertising investment package for Scottish news publishers as the pandemic crushed commercial markets in May ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e63b7fdf-5853-4277-bc59-bdd84c3ee6fd",
+                        "name": "John McLellan"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5452cee2-12a5-11b9-40a4-4a08900c0b19",
+                        "name": "Tap and die"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40ff83fa-c18c-9216-49aa-77a9d6a5cc28",
+                        "name": "Nicola Sturgeon"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Scotsman"
+                    }
+                ],
+                "datePublished": "2024-01-29T16:20:00.0000000Z"
+            },
+            {
+                "name": "MSP: \u2018Increasing numbers of Scots will die if Holyrood backs assisted suicide\u2019",
+                "url": "https://www.christian.org.uk/news/msp-increasing-numbers-of-scots-will-die-if-holyrood-backs-assisted-suicide/",
+                "description": "A majority of MSPs in both the Scottish Conservatives and Scottish Labour voted against the Bill, with MSPs from the Scottish Liberal Democrats and the <b>SNP</b> also rejecting the legislation. Earlier this month, Scotland\u2019s Equalities Minister Emma Roddick ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/007ba571-a670-1db7-a934-e872b5998687",
+                        "name": "Christian Institute"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Christian Institute"
+                    }
+                ],
+                "datePublished": "2024-01-29T16:06:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Dumbarton MSP Jackie Baillie slams <b>SNP</b> over Bellsmrye",
+                "url": "https://www.dumbartonreporter.co.uk/news/24082315.dumbarton-msp-jackie-baillie-slams-snp-bellsmrye/",
+                "description": "Jackie Baillie blasted the <b>SNP</b> administration for \u201cmoving the goalposts\u201d over promised funding, resulting in delays to the delivery of new-build housing on the estate. The deputy Scottish Labour leader claims the <b>SNP</b> Government encouraged Caledonia ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3caace6a-b44d-cc19-ce25-6eba39b8f5a3",
+                        "name": "Jackie Baillie"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f61acfc6-1d31-2a20-4a01-f1c14ea66d46",
+                        "name": "Vale of Leven"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4c5d23e6-9a24-f00f-e0ac-96be2e478d88",
+                        "name": "Dumbarton"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "dumbartonreporter"
+                    }
+                ],
+                "datePublished": "2024-01-29T15:58:00.0000000Z"
+            },
+            {
+                "name": "Five things we learned from Michael Gove\u2019s evidence to Scottish Covid inquiry",
+                "url": "https://inews.co.uk/news/politics/michael-gove-covid-inquiry-scotland-2879023?ITO=msn",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.aaZtJ5yLf4rXrRCKFS-hlS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Michael Gove suggested the Scottish government was &#39;thinking politically&#39; in its response to the coronavirus pandemic",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c12951d9-25c7-062e-3e0c-288ac8a6d91e",
+                        "name": "Michael Gove"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Michael Gove"
+                    },
+                    {
+                        "name": "Scotland"
+                    },
+                    {
+                        "name": "Newton hearing"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-29T15:57:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Politics latest: Tory MP quit six-figure minister role because he &#39;couldn&#39;t afford mortgage&#39;",
+                "url": "https://news.sky.com/story/politics-latest-rishi-sunak-general-election-keir-starmer-12593360?postid=7148299",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.SvbX90AgnQODYnlPCaeJxS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "&quot;People with divisive politics should not be using Tony&#39;s death to serve their personal interests,&quot; they added. Over to the Commons, and <b>SNP</b> member Marion Fellows is asking an Urgent Question related to the removal of Henry Staunton as Post Office chair.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky"
+                    }
+                ],
+                "datePublished": "2024-01-29T15:46:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>SNP</b> Facebook group with thousands of members defects to Alba",
+                "url": "https://www.thenational.scot/news/24082202.snp-facebook-group-thousands-members-defects-alba/",
+                "description": "THE administrators of a regional <b>SNP</b> Facebook page have issued a statement after defecting to Alba, taking the group page with them. Some users of the social media site reacted with anger after the South Ayrshire <b>SNP</b> page was changed to a South Ayrshire ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2201b266-6ab6-74eb-9f49-7d4d5dff67a0",
+                        "name": "Alba"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National"
+                    }
+                ],
+                "datePublished": "2024-01-29T15:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Sturgeon wanted &#39;political conflict&#39; during Covid pandemic, Gove claims",
+                "url": "https://news.stv.tv/politics/nicola-sturgeon-and-snp-wanted-political-conflict-during-covid-pandemic-michael-gove-claims",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.WGVxTrAP84UjdutjfhEVYS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Michael Gove claimed messages published revealed Nicola Sturgeon had pursued different Covid policies to &#39;advance a particular political agenda&#39;.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40ff83fa-c18c-9216-49aa-77a9d6a5cc28",
+                        "name": "Nicola Sturgeon"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c12951d9-25c7-062e-3e0c-288ac8a6d91e",
+                        "name": "Michael Gove"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/92d09a68-306e-0774-fa19-09c35bb93b91",
+                        "name": "STV News at Six"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "news.stv",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CZWPk4et8WgNjtL6sI0C_g&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-29T15:02:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Politics latest: Iranian officials behind &#39;threats to kill on UK soil&#39; sanctioned - as Sunak and Truss clash over tobacco",
+                "url": "https://news.sky.com/story/politics-latest-iranian-officials-behind-threats-to-kill-on-uk-soil-sanctioned-as-sunak-and-truss-clash-over-tobacco-12593360",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.JAIqkD8-02lScgvm0nEbli&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Urgent Question on ousting of Post Office chair Over to the Commons, and <b>SNP</b> member Marion Fellows is asking an Urgent Question related to the removal of Henry Staunton as Post Office chair. He was forced out of the role on Saturday, as frustration grew in ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/824918be-e692-f95d-fc04-03003dd58c5c",
+                        "name": "Elizabeth Truss"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/502b5268-992d-26c9-a0d8-6f206338406e",
+                        "name": "Iran"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky"
+                    }
+                ],
+                "datePublished": "2024-01-29T15:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>SNP</b>&#39;s aim to &#39;destroy the UK&#39; drove their Covid response, says Gove",
+                "url": "https://www.telegraph.co.uk/news/2024/01/29/michael-gove-snp-plan-to-destroy-the-uk-covid-pandemic/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.X4BwH33XOjJhZLYk1cRoLi&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "Mr Gove said the <b>SNP</b>&#39;s main motivation was protecting the public, but suggested this did not mean political opportunities were ignored Credit: Jeff J Mitchell/Getty Images The <b>SNP</b> response to the pandemic was partly driven by its aim to \u201cdestroy the UK ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c12951d9-25c7-062e-3e0c-288ac8a6d91e",
+                        "name": "Michael Gove"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Michael Gove"
+                    },
+                    {
+                        "name": "Inspiration of Ellen G. White"
+                    },
+                    {
+                        "name": "Scottish National Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph"
+                    }
+                ],
+                "datePublished": "2024-01-29T14:41:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "UK Government did not use pandemic to strengthen union, Gove tells inquiry",
+                "url": "https://www.dorsetecho.co.uk/news/national/24081926.uk-government-not-use-pandemic-strengthen-union-gove-tells-inquiry/",
+                "description": "it is the case the <b>SNP</b> has a political mission to achieve Scotland\u2019s independence, i.e. destroy the United Kingdom and it would be naive not to be aware that highly skilled politicians, including those at the top of the Scottish Government, might well ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c12951d9-25c7-062e-3e0c-288ac8a6d91e",
+                        "name": "Michael Gove"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8ab53222-cbab-27e7-30ff-2cab87f2a014",
+                        "name": "Tell"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Dorset Echo"
+                    }
+                ],
+                "datePublished": "2024-01-29T14:32:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Row as <b>SNP</b> Facebook group with thousands of members defects to Alba",
+                "url": "https://uk.news.yahoo.com/row-snp-facebook-page-thousands-153029591.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Z_wgzGFx334M2PW6lRTOcy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "THE administrators of a regional <b>SNP</b> Facebook page have issued a statement after defecting to Alba, taking the group page with them. Some users of the social media site reacted with anger after the South Ayrshire <b>SNP</b> page was changed to a South Ayrshire ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK"
+                    }
+                ],
+                "datePublished": "2024-01-29T10:29:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Tory former minister says he resigned from government because he could not afford mortgage hike on \u00a3120,000 salary \u2013 live",
+                "url": "https://www.theguardian.com/politics/live/2024/jan/29/liz-truss-rishi-sunak-ban-cigarettes-vaping-keir-starmer-michael-gove-uk-politics-latest?topics=PERSON%3ABoris+Johnson",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.fYaWN4Zig3X6LDfFCHA8yC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Here are some of the excerpts from his evidence about the tensions. Gove said the <b>SNP</b> did not want inter-governmental relations to work. Mark Drakeford, the Welsh first minister, did, he said. But he went on: \u201cWith the best will in the world the <b>SNP</b> don ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c12951d9-25c7-062e-3e0c-288ac8a6d91e",
+                        "name": "Michael Gove"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian"
+                    }
+                ],
+                "datePublished": "2024-01-29T09:27:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>SNP</b> Government official said few of his colleagues believed covid pandemic would be &#39;serious&#39;",
+                "url": "https://www.dailyrecord.co.uk/news/politics/snp-government-official-said-few-31990661",
+                "description": "A senior <b>SNP</b> Government health official complained that \u201cfew\u201d of his colleagues believed covid would be serious in the early days of the pandemic. Derek Grieve also claimed the UK Government had been more \u201cengaged and mobilised\u201d than Nicola ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/17d29690-e063-1d05-d9ff-fac9b501d7e3",
+                        "name": "Official"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Official"
+                    },
+                    {
+                        "name": "Daily Record"
+                    },
+                    {
+                        "name": "Collegiality"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Record"
+                    }
+                ],
+                "datePublished": "2024-01-29T00:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Jeane Freeman &#39;regrets&#39; any care home death caused by Scottish Government &#39;inaction&#39; during pandemic",
+                "url": "https://www.dailyrecord.co.uk/news/politics/jeane-freeman-regrets-any-care-31995037",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.333U954LcmooEcL30hukOS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "A former <b>SNP</b> health secretary has said she will &quot;regret for the rest of my life&quot; any deaths in care homes caused by Scottish Government inaction in the early weeks of the coronavirus pandemic. Jeane Freeman gave evidence at the UK Covid Inquiry today where ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c78f2b59-342b-45b3-ab8c-89b0261276a2",
+                        "name": "Jeane Freeman"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fb6f4f93-ce23-76a6-98b5-3ab6b5286762",
+                        "name": "Daily Record"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Jeane Freeman"
+                    },
+                    {
+                        "name": "Daily Record"
+                    },
+                    {
+                        "name": "Scottish National Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Record"
+                    }
+                ],
+                "datePublished": "2024-01-29T00:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Glasgow Labour reveals candidate for Hillhead by-election",
+                "url": "https://www.glasgowlive.co.uk/news/glasgow-news/glasgow-labour-candidate-hillhead-byelection-28532170",
+                "description": "She added: \u201cThe choice will be clear \u2014 more division and decline with the <b>SNP</b> or a fresh start with Glasgow Labour. I will work hand in hand with residents to shape a brighter future for Hillhead.\u201d Cllr Malik, who passed away last month at the age of ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/da2548ee-1b26-f939-06b4-2fae57e075e7",
+                        "name": "Glasgow"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8038cd34-db32-ccf3-1e41-94a60a8c462e",
+                        "name": "Hillhead"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Glasgow"
+                    },
+                    {
+                        "name": "Hillhead"
+                    },
+                    {
+                        "name": "By-election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "glasgowlive.co.uk"
+                    }
+                ],
+                "datePublished": "2024-01-29T00:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>SNP</b> ministers accused of &#39;scandalous&#39; failure at \u00a32billion state bank",
+                "url": "https://www.heraldscotland.com/news/24078472.snp-ministers-accused-scandalous-failure-2billion-state-bank/?ref=fbshr",
+                "description": "<b>SNP</b> ministers have been accused of a \u201cscandalous dereliction of duty\u201d over the operation of Scotland\u2019s state-owned \u00a32billion investment bank. Under the Holyrood law which created the bank, ministers \u201cmust establish and maintain\u201d a group to ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "heraldscotland"
+                    }
+                ],
+                "datePublished": "2024-01-28T05:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>SNP</b> finds another \u00a37 million to support those hit by welfare reforms",
+                "url": "https://www.heraldscotland.com/news/13145037.snp-finds-another-7-million-support-hit-welfare-reforms/",
+                "description": "Services that support people affected by welfare reform are to benefit from \u00a37 million in funding, the Scottish Government has announced. The funding includes \u00a33.5 million for advice services, \u00a31 million to help local authorities and other organisations ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/120d4238-df93-4584-9fac-30072ef9ad9d",
+                        "name": "Reform"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "heraldscotland"
+                    }
+                ],
+                "datePublished": "2014-02-10T15:36:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=SNP",
+        "queryContext": {
+            "originalQuery": "SNP",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 13700,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=SNP"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=SNP&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Moray bypasses at risk of \u2018more A96 backtracking\u2019? Elgin councillors worry about outcome of A96 Corridor Review",
+                "url": "https://www.grampianonline.co.uk/news/could-cast-iron-keith-bypass-pledge-be-scrapped-due-to-mo-340621/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT._zdOwkmTeFv5uLYDPZAe_i&pid=News",
+                        "width": 700,
+                        "height": 480
+                    }
+                },
+                "description": "MORAY councillors have raised concerns that &quot;cast iron&quot; pledge Elgin and Keith bypasses could be felled by &quot;more backtracking&quot;.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/96560530-b8f0-8ada-e205-3b1daa175e4b",
+                        "name": "Elgin"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/94d9f298-0577-350c-910d-b5b106decef2",
+                        "name": "A96 road"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c0fc345-a834-c89a-4f3a-0cf8b94634ac",
+                        "name": "Backtracking"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "grampianonline",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.TRteebnD1FT5BpcrlQL8ww&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-29T19:45:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Elgin and Keith bypasses at risk of \u2018more A96 backtracking\u2019? Moray councillors worry about outcome of A96 Corridor Review",
+                "url": "https://www.northern-scot.co.uk/news/elgin-and-keith-bypasses-at-risk-of-more-a96-backtracking-340615/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.i15BpHjA1GwdI-nuz0Ed4C&pid=News",
+                        "width": 700,
+                        "height": 481
+                    }
+                },
+                "description": "MORAY councillors have raised concerns that &quot;cast iron&quot; pledge Elgin and Keith bypasses could be felled by &quot;more backtracking&quot;.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e600d2ae-9242-34ac-477d-105473c4a9f8",
+                        "name": "Moray"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c17a6a1-558f-00bf-9be3-c29bae86b284",
+                        "name": "Keith"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/96560530-b8f0-8ada-e205-3b1daa175e4b",
+                        "name": "Elgin"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "northern-scot.co.uk",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.vvfO2OnlLP2gcDJ2zfr4wQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-29T19:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "UK Covid Inquiry: <b>SNP</b> ministers and Nicola Sturgeon motivated by constitutional politics at times during Covid, suggests Michael Gove",
+                "url": "https://www.scotsman.com/news/politics/uk-covid-inquiry-snp-ministers-and-nicola-sturgeon-motivated-by-constitutional-politics-at-times-during-covid-suggests-michael-gove-4496821",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.OHUnTOAOsHDQiRJCEfEDLi&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Nicola Sturgeon sought to diverge from the UK Government at certain points during the coronavirus pandemic in order to advance the SNP\u2019s \u201cpolitical agenda\u201d, Michael Gove has suggested to the UK Covid Inquiry.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c12951d9-25c7-062e-3e0c-288ac8a6d91e",
+                        "name": "Michael Gove"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40ff83fa-c18c-9216-49aa-77a9d6a5cc28",
+                        "name": "Nicola Sturgeon"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Michael Gove"
+                    },
+                    {
+                        "name": "Nicola Sturgeon"
+                    },
+                    {
+                        "name": "Inquiry"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Scotsman",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.QlHkHD_RALY4hnQHpw7jBw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-29T18:58:00.0000000Z",
+                "video": {
+                    "name": "UK Covid Inquiry: SNP ministers and Nicola Sturgeon motivated by constitutional politics at times during Covid, suggests Michael Gove",
+                    "thumbnailUrl": "https://www.bing.com/th?id=OVF.MRxywy%2BKl5QM2v6ntU9ndg&pid=News",
+                    "thumbnail": {
+                        "width": 600,
+                        "height": 337
+                    }
+                },
+                "category": "Politics"
+            },
+            {
+                "name": "BUILD THE BYPASS: Calls for Nairn bypass as survey reveals &#39;status quo is absurd&#39;",
+                "url": "https://www.inverness-courier.co.uk/news/build-the-bypass-calls-for-nairn-bypass-as-a96-nightmare-340525/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.zpXlbGh6ozCjMujYfO_JoS&pid=News",
+                        "width": 700,
+                        "height": 480
+                    }
+                },
+                "description": "Picture: Callum Mackay.. He said that although the meeting was positive, it is vital that the Scottish Government delivers a clear timetable for completion of the project, which he dubbed &quot;the pensioner of <b>SNP</b> pledges&quot;. He said: &quot;I had the absolutely clear ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/dca0a143-6042-ac2b-059d-38db4e782a02",
+                        "name": "Bypass"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fd31547a-9016-4940-b644-78988670c18a",
+                        "name": "Build"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9a84145d-0024-aba2-8dd8-4d1b5f932924",
+                        "name": "Nairn"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Inverness Courier"
+                    }
+                ],
+                "datePublished": "2024-01-29T18:00:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Calls for \u2018massive cultural change\u2019 at Post Office after chairman\u2019s exit",
+                "url": "https://www.standard.co.uk/business/business-news/calls-for-massive-cultural-change-at-post-office-after-chairman-s-exit-b1135599.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.zy_5AJ0pCcorFKec2xws9S&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "A minister has denied a \u201cfalling out\u201d caused the exit of the Post Office\u2019s chairman, amid calls for a \u201cmassive cultural change\u201d in the company\u2019s management. Business minister Kevin Hollinrake said \u201cvery serious governance issues\u201d led to the departure of Henry Staunton, adding he did not receive a severance payment.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6e018547-cfd3-9836-13fc-1f7ab6d0aa31",
+                        "name": "Post Office"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Post Office"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Parliamentary group leader"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-29T17:31:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>SNP</b>\u2019s aim to \u2018destroy the UK\u2019 drove their Covid response, says Gove",
+                "url": "https://www.telegraph.co.uk/news/2024/01/29/michael-gove-snp-plan-to-destroy-the-uk-covid-pandemic/?utmsource=email",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.X4BwH33XOjJhZLYk1cRoLi&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "Levelling Up Secretary tells inquiry it would be naive not to see a political agenda in how Nicola Sturgeon managed the pandemic",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c12951d9-25c7-062e-3e0c-288ac8a6d91e",
+                        "name": "Michael Gove"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Michael Gove"
+                    },
+                    {
+                        "name": "Inspiration of Ellen G. White"
+                    },
+                    {
+                        "name": "Scottish National Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-29T17:03:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Michael Gove at Covid inquiry: Sturgeon played politics in pandemic",
+                "url": "https://www.thetimes.co.uk/article/michael-gove-covid-inquiry-news-pandemic-politics-latest-nicola-sturgeon-7hkz9f9qc?ilc=timesradio:morefromthetimes",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.RNUWlEabxl_Mdx6hsP9ZzS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Michael Gove has accused Nicola Sturgeon of using Covid to advance the <b>SNP</b>\u2019s \u201cpolitical agenda\u201d rather than always working collaboratively with Westminster in responding to the pandemic. Giving evidence to Covid inquiry, Gove said that some of the ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c12951d9-25c7-062e-3e0c-288ac8a6d91e",
+                        "name": "Michael Gove"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40ff83fa-c18c-9216-49aa-77a9d6a5cc28",
+                        "name": "Nicola Sturgeon"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5b586384-c3eb-8768-9a0a-b4d6e660ddc5",
+                        "name": "Newton hearing"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times"
+                    }
+                ],
+                "datePublished": "2024-01-29T16:41:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "&#39;QMU option&#39; to East Lothian included as possible future tram route",
+                "url": "https://www.eastlothiancourier.com/news/24082420.edinburgh-council-ask-snp-ministers-2bn-build-new-tram-line/",
+                "description": "A &#39;QMU option&#39; has been revealed as a potential future tram route, as the possibility of extending Edinburgh&#39;s trams into East Lothian is considered.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0fbdbf9c-787c-9fa5-4e8a-acfd4aaff046",
+                        "name": "East Lothian"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5bda46f3-7659-0ef3-106d-09283294c832",
+                        "name": "Option contract"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "East Lothian Courier",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.emXS125VsmrWt00NcAjGFA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-29T16:27:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "MSP: \u2018Increasing numbers of Scots will die if Holyrood backs assisted suicide\u2019",
+                "url": "https://www.christian.org.uk/news/msp-increasing-numbers-of-scots-will-die-if-holyrood-backs-assisted-suicide/",
+                "description": "A majority of MSPs in both the Scottish Conservatives and Scottish Labour voted against the Bill, with MSPs from the Scottish Liberal Democrats and the <b>SNP</b> also rejecting the legislation. Earlier this month, Scotland\u2019s Equalities Minister Emma Roddick ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/007ba571-a670-1db7-a934-e872b5998687",
+                        "name": "Christian Institute"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Christian Institute"
+                    }
+                ],
+                "datePublished": "2024-01-29T16:06:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Dumbarton MSP Jackie Baillie slams <b>SNP</b> over Bellsmrye",
+                "url": "https://www.dumbartonreporter.co.uk/news/24082315.dumbarton-msp-jackie-baillie-slams-snp-bellsmrye/",
+                "description": "Jackie Baillie blasted the <b>SNP</b> administration for \u201cmoving the goalposts\u201d over promised funding, resulting in delays to the delivery of new-build housing on the estate. The deputy Scottish Labour leader claims the <b>SNP</b> Government encouraged Caledonia ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3caace6a-b44d-cc19-ce25-6eba39b8f5a3",
+                        "name": "Jackie Baillie"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f61acfc6-1d31-2a20-4a01-f1c14ea66d46",
+                        "name": "Vale of Leven"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4c5d23e6-9a24-f00f-e0ac-96be2e478d88",
+                        "name": "Dumbarton"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "dumbartonreporter"
+                    }
+                ],
+                "datePublished": "2024-01-29T15:58:00.0000000Z"
+            },
+            {
+                "name": "Five things we learned from Michael Gove\u2019s evidence to Scottish Covid inquiry",
+                "url": "https://inews.co.uk/news/politics/michael-gove-covid-inquiry-scotland-2879023?ITO=msn",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.aaZtJ5yLf4rXrRCKFS-hlS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Michael Gove suggested the Scottish government was &#39;thinking politically&#39; in its response to the coronavirus pandemic",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c12951d9-25c7-062e-3e0c-288ac8a6d91e",
+                        "name": "Michael Gove"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Michael Gove"
+                    },
+                    {
+                        "name": "Scotland"
+                    },
+                    {
+                        "name": "Newton hearing"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-29T15:57:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Politics latest: Tory MP quit six-figure minister role because he &#39;couldn&#39;t afford mortgage&#39;",
+                "url": "https://news.sky.com/story/politics-latest-rishi-sunak-general-election-keir-starmer-12593360?postid=7148299",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.SvbX90AgnQODYnlPCaeJxS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "&quot;People with divisive politics should not be using Tony&#39;s death to serve their personal interests,&quot; they added. Over to the Commons, and <b>SNP</b> member Marion Fellows is asking an Urgent Question related to the removal of Henry Staunton as Post Office chair.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky"
+                    }
+                ],
+                "datePublished": "2024-01-29T15:46:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>SNP</b> Facebook group with thousands of members defects to Alba",
+                "url": "https://www.thenational.scot/news/24082202.snp-facebook-group-thousands-members-defects-alba/",
+                "description": "THE administrators of a regional <b>SNP</b> Facebook page have issued a statement after defecting to Alba, taking the group page with them. Some users of the social media site reacted with anger after the South Ayrshire <b>SNP</b> page was changed to a South Ayrshire ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2201b266-6ab6-74eb-9f49-7d4d5dff67a0",
+                        "name": "Alba"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National"
+                    }
+                ],
+                "datePublished": "2024-01-29T15:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Sturgeon wanted &#39;political conflict&#39; during Covid pandemic, Gove claims",
+                "url": "https://news.stv.tv/politics/nicola-sturgeon-and-snp-wanted-political-conflict-during-covid-pandemic-michael-gove-claims",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.WGVxTrAP84UjdutjfhEVYS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Michael Gove claimed messages published revealed Nicola Sturgeon had pursued different Covid policies to &#39;advance a particular political agenda&#39;.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40ff83fa-c18c-9216-49aa-77a9d6a5cc28",
+                        "name": "Nicola Sturgeon"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c12951d9-25c7-062e-3e0c-288ac8a6d91e",
+                        "name": "Michael Gove"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/92d09a68-306e-0774-fa19-09c35bb93b91",
+                        "name": "STV News at Six"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "news.stv",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CZWPk4et8WgNjtL6sI0C_g&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-29T15:02:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Politics latest: Iranian officials behind &#39;threats to kill on UK soil&#39; sanctioned - as Sunak and Truss clash over tobacco",
+                "url": "https://news.sky.com/story/politics-latest-iranian-officials-behind-threats-to-kill-on-uk-soil-sanctioned-as-sunak-and-truss-clash-over-tobacco-12593360",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.JAIqkD8-02lScgvm0nEbli&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Urgent Question on ousting of Post Office chair Over to the Commons, and <b>SNP</b> member Marion Fellows is asking an Urgent Question related to the removal of Henry Staunton as Post Office chair. He was forced out of the role on Saturday, as frustration grew in ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/824918be-e692-f95d-fc04-03003dd58c5c",
+                        "name": "Elizabeth Truss"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/502b5268-992d-26c9-a0d8-6f206338406e",
+                        "name": "Iran"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky"
+                    }
+                ],
+                "datePublished": "2024-01-29T15:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Covid Inquiry: Michael Gove denies playing politics during pandemic",
+                "url": "https://www.bbc.co.uk/news/uk-scotland-68127028",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.gWwWx1MyBhC8MZbofGGbqC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Michael Gove has rejected suggestions the UK government was &quot;playing politics&quot; during the pandemic. He also denied attempting to promote the union in the course of his evidence to the UK Covid Inquiry.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c12951d9-25c7-062e-3e0c-288ac8a6d91e",
+                        "name": "Michael Gove"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-29T14:38:00.0000000Z",
+                "video": {
+                    "name": "Covid Inquiry: Michael Gove denies playing politics during pandemic",
+                    "thumbnailUrl": "https://www.bing.com/th?id=OVF.mFbs41PvtojnSJRnFw66oA&pid=News",
+                    "embedHtml": "&lt;iframe width=&quot;400&quot; height=&quot;500&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://www.bbc.com/news/av-embeds/68127028/vpid/p0h7r8gt&quot;&gt;&lt;/iframe&gt;",
+                    "allowHttpsEmbed": true,
+                    "thumbnail": {
+                        "width": 600,
+                        "height": 337
+                    }
+                },
+                "category": "Politics"
+            },
+            {
+                "name": "Police investigating \u2018forged signatures\u2019 in <b>SNP</b> finances inquiry",
+                "url": "https://www.thetimes.co.uk/article/6067bf68-a523-4a9b-99ea-b5bbe62c1291?shareToken=7c5690b82dd834a2bf0dbb4606813322",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.5k--Dr5pfN_f3dVQaWa7vS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Detectives investigating the <b>SNP</b>\u2019s finances are examining claims that signatures on financial documents have been forged. In the latest revelation from Operation Branchform, officers are understood to have paperwork in the name of a person who denies ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times"
+                    }
+                ],
+                "datePublished": "2024-01-29T13:37:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Labour on track to gain 30 seats in Scotland",
+                "url": "https://www.thelondoneconomic.com/politics/labour-on-track-to-gain-30-seats-in-scotland-367734/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.SgyEH9KVEqi32HMeDmLndi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Labour is on track to make some significant gains in Scotland if the latest polling results are to be believed. The <b>SNP</b> is slumping in the polls, with deputy Scottish Labour leader Jackie Baillie saying voters crying for change on both sides of the border ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6da24df8-226b-8a1e-8f4e-142e15ddbaf6",
+                        "name": "Labour"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d9d288e2-3d1d-90ac-c6a8-a986f13f212e",
+                        "name": "Seat"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "thelondoneconomic.com"
+                    }
+                ],
+                "datePublished": "2024-01-29T13:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>SNP</b>: Keir Starmer&#39;s support for Tony Blair should be a warning sign for Scotland",
+                "url": "https://www.thenational.scot/news/24081552.snp-keir-starmers-support-tony-blair-warning-sign-scotland/",
+                "description": "KEIR Starmer\u2019s pledge to follow in the footsteps of Tony Blair alongside his praise of Margaret Thatcher should serve as a &quot;warning sign&quot; to Scotland, the <b>SNP</b> have said. The party has insisted Scotland will continue to suffer under what looks likely to ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d1d91533-17bc-52e6-3bac-07168bf2f8b2",
+                        "name": "Tony Blair"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National"
+                    }
+                ],
+                "datePublished": "2024-01-29T12:54:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Covid inquiry: There was political desire for differentiation in Scotland \u2013 Gove",
+                "url": "https://www.kentonline.co.uk/news/national/covid-inquiry-there-was-political-desire-for-differentiation-in-scotland-gove-109206/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.iScbyhD8j1I3PqwUTgCRki&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "\u201cHowever, there are and were occasions when the Scottish Government was thinking politically, as we can see, and, of course, it is the case the <b>SNP</b> has a political mission to achieve Scotland\u2019s independence, i.e. destroy the United Kingdom and it would ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c12951d9-25c7-062e-3e0c-288ac8a6d91e",
+                        "name": "Michael Gove"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Kent Online"
+                    }
+                ],
+                "datePublished": "2024-01-29T12:36:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Politics latest news: <b>SNP</b>&#39;s aim to &#39;destroy UK&#39; drove their Covid response, says Gove",
+                "url": "https://www.telegraph.co.uk/politics/2024/01/29/rishi-sunak-latest-news-atkins-labour-starmer-rwanda/?utmsource=email",
+                "description": "The <b>SNP</b> response to the pandemic was partly driven by its aim to \u201cdestroy the UK\u201d and for political advantage, Michael Gove has told the Covid Inquiry. Jump to content UK News Website of the Year News Sport Health Money Business ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph"
+                    }
+                ],
+                "datePublished": "2024-01-29T11:40:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Michael Gove accuses Nicola Sturgeon and <b>SNP</b> chiefs of using Covid as a &#39;political&#39; way to achieve their &#39;mission&#39; of &#39;destroying the UK&#39;",
+                "url": "https://www.dailymail.co.uk/news/article-13018711/Michael-Gove-Nicola-Sturgeon-SNP-Covid-pandemic-independence.html",
+                "description": "Appearing before the official inquiry, the Levelling Up Secretary said the <b>SNP</b> had a clear &#39;mission&#39; to &#39;destroy the UK&#39;. He pointed to &#39;direct evidence&#39; that had been presented about the Scottish Cabinet discussing how the pandemic could enhance the push ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c12951d9-25c7-062e-3e0c-288ac8a6d91e",
+                        "name": "Michael Gove"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40ff83fa-c18c-9216-49aa-77a9d6a5cc28",
+                        "name": "Nicola Sturgeon"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Michael Gove"
+                    },
+                    {
+                        "name": "Nicola Sturgeon"
+                    },
+                    {
+                        "name": "Daily Mail"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail"
+                    }
+                ],
+                "datePublished": "2024-01-29T11:37:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Row as <b>SNP</b> Facebook group with thousands of members defects to Alba",
+                "url": "https://uk.news.yahoo.com/row-snp-facebook-page-thousands-153029591.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Z_wgzGFx334M2PW6lRTOcy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "THE administrators of a regional <b>SNP</b> Facebook page have issued a statement after defecting to Alba, taking the group page with them. Some users of the social media site reacted with anger after the South Ayrshire <b>SNP</b> page was changed to a South Ayrshire ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK"
+                    }
+                ],
+                "datePublished": "2024-01-29T10:29:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Tory former minister says he resigned from government because he could not afford mortgage hike on \u00a3120,000 salary \u2013 live",
+                "url": "https://www.theguardian.com/politics/live/2024/jan/29/liz-truss-rishi-sunak-ban-cigarettes-vaping-keir-starmer-michael-gove-uk-politics-latest?topics=PERSON%3ABoris+Johnson",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.fYaWN4Zig3X6LDfFCHA8yC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Here are some of the excerpts from his evidence about the tensions. Gove said the <b>SNP</b> did not want inter-governmental relations to work. Mark Drakeford, the Welsh first minister, did, he said. But he went on: \u201cWith the best will in the world the <b>SNP</b> don ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c12951d9-25c7-062e-3e0c-288ac8a6d91e",
+                        "name": "Michael Gove"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian"
+                    }
+                ],
+                "datePublished": "2024-01-29T09:27:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Fixing of Coupon Rates - Nykredit Realkredit A/S",
+                "url": "https://uk.finance.yahoo.com/news/fixing-coupon-rates-nykredit-realkredit-125800995.html",
+                "description": "Bonds with quarterly interest rate fixing The new coupon rates will apply from 31 January 2024 to 30 April 2024: DK0030504915, (<b>SNP</b>), maturity in 2024, new rate as at 31 January 2024: 4.9120% pa",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/22caa030-79b6-763e-978b-ef663e72286a",
+                        "name": "Nykredit"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/52b11378-d75c-46c3-0f68-ccad1013e75f",
+                        "name": "Rates"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Finance"
+                    }
+                ],
+                "datePublished": "2024-01-29T07:58:00.0000000Z"
+            },
+            {
+                "name": "Who is Jeane Freeman as she appears at Covid Inquiry",
+                "url": "https://uk.news.yahoo.com/jeane-freeman-she-appears-covid-115442837.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT._L42az_K1sWdQQD82nBOAS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Jeane Freeman was the MSP for Carrick, Cumnock and Doon Valley from 2016 to 2021. The <b>SNP</b> politician served as Cabinet Secretary for Health and Sport from June 2018 to May 2021 when she left Holyrood. Read more: Jeane Freeman named Herald Scottish ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c78f2b59-342b-45b3-ab8c-89b0261276a2",
+                        "name": "Jeane Freeman"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK"
+                    }
+                ],
+                "datePublished": "2024-01-29T06:53:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>SNP</b> Government official said few of his colleagues believed covid pandemic would be &#39;serious&#39;",
+                "url": "https://www.dailyrecord.co.uk/news/politics/snp-government-official-said-few-31990661",
+                "description": "A senior <b>SNP</b> Government health official complained that \u201cfew\u201d of his colleagues believed covid would be serious in the early days of the pandemic. Derek Grieve also claimed the UK Government had been more \u201cengaged and mobilised\u201d than Nicola ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/17d29690-e063-1d05-d9ff-fac9b501d7e3",
+                        "name": "Official"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Official"
+                    },
+                    {
+                        "name": "Daily Record"
+                    },
+                    {
+                        "name": "Collegiality"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Record"
+                    }
+                ],
+                "datePublished": "2024-01-29T00:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Michael Gove accuses Nicola Sturgeon of wanting \u2018political conflict\u2019 during Covid crisis",
+                "url": "https://www.independent.co.uk/news/uk/politics/michael-gove-nicola-sturgeon-snp-covid-inquiry-b2486642.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.T8yM8dzPUW5ymr9q1HHDvS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The levelling up secretary accused the <b>SNP</b> of searching for \u201cpolitical conflict\u201d during the pandemic in order to make the case for an independent Scotland. While Mr Gove said the Scottish government\u2019s decision making was \u201coverwhelmingly driven by a ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40ff83fa-c18c-9216-49aa-77a9d6a5cc28",
+                        "name": "Nicola Sturgeon"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c12951d9-25c7-062e-3e0c-288ac8a6d91e",
+                        "name": "Michael Gove"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent"
+                    }
+                ],
+                "datePublished": "2024-01-29T00:00:00.0000000Z",
+                "video": {
+                    "name": "Michael Gove accuses Nicola Sturgeon of wanting \u2018political conflict\u2019 during Covid crisis",
+                    "thumbnailUrl": "https://www.bing.com/th?id=OVF.KfISUhrMDc375pSRthU4Hw&pid=News",
+                    "embedHtml": "&lt;iframe src=&quot;https://cdn.jwplayer.com/players/Pd44wJGv-XLzx33eA.html&quot; width=&quot;480&quot; height=&quot;270&quot; frameborder=&quot;0&quot; scrolling=&quot;auto&quot;&gt;&lt;/iframe&gt;",
+                    "allowHttpsEmbed": true,
+                    "thumbnail": {
+                        "width": 600,
+                        "height": 337
+                    }
+                },
+                "category": "Politics"
+            },
+            {
+                "name": "Jeane Freeman &#39;regrets&#39; any care home death caused by Scottish Government &#39;inaction&#39; during pandemic",
+                "url": "https://www.dailyrecord.co.uk/news/politics/jeane-freeman-regrets-any-care-31995037",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.333U954LcmooEcL30hukOS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "A former <b>SNP</b> health secretary has said she will &quot;regret for the rest of my life&quot; any deaths in care homes caused by Scottish Government inaction in the early weeks of the coronavirus pandemic. Jeane Freeman gave evidence at the UK Covid Inquiry today where ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c78f2b59-342b-45b3-ab8c-89b0261276a2",
+                        "name": "Jeane Freeman"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fb6f4f93-ce23-76a6-98b5-3ab6b5286762",
+                        "name": "Daily Record"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Jeane Freeman"
+                    },
+                    {
+                        "name": "Daily Record"
+                    },
+                    {
+                        "name": "Scottish National Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Record"
+                    }
+                ],
+                "datePublished": "2024-01-29T00:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "UK Government did not use pandemic to strengthen union, Gove tells inquiry",
+                "url": "https://www.standard.co.uk/news/politics/michael-gove-scottish-government-nicola-sturgeon-scottish-kate-forbes-b1135544.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.CJ__bZWP70Am1Zudeb2B4C&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "He added: \u201cThere are, and were, occasions when the Scottish Government was thinking politically, as we can see, and, of course, it is the case the <b>SNP</b> has a political mission to achieve Scotland\u2019s independence, i.e. destroy the United Kingdom and it ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c12951d9-25c7-062e-3e0c-288ac8a6d91e",
+                        "name": "Michael Gove"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40ff83fa-c18c-9216-49aa-77a9d6a5cc28",
+                        "name": "Nicola Sturgeon"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Michael Gove"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Nicola Sturgeon"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "datePublished": "2024-01-29T00:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Glasgow Labour reveals candidate for Hillhead by-election",
+                "url": "https://www.glasgowlive.co.uk/news/glasgow-news/glasgow-labour-candidate-hillhead-byelection-28532170",
+                "description": "She added: \u201cThe choice will be clear \u2014 more division and decline with the <b>SNP</b> or a fresh start with Glasgow Labour. I will work hand in hand with residents to shape a brighter future for Hillhead.\u201d Cllr Malik, who passed away last month at the age of ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/da2548ee-1b26-f939-06b4-2fae57e075e7",
+                        "name": "Glasgow"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8038cd34-db32-ccf3-1e41-94a60a8c462e",
+                        "name": "Hillhead"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Glasgow"
+                    },
+                    {
+                        "name": "Hillhead"
+                    },
+                    {
+                        "name": "By-election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "glasgowlive.co.uk"
+                    }
+                ],
+                "datePublished": "2024-01-29T00:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>SNP</b> ministers accused of &#39;scandalous&#39; failure at \u00a32billion state bank",
+                "url": "https://www.heraldscotland.com/news/24078472.snp-ministers-accused-scandalous-failure-2billion-state-bank/?ref=fbshr",
+                "description": "<b>SNP</b> ministers have been accused of a \u201cscandalous dereliction of duty\u201d over the operation of Scotland\u2019s state-owned \u00a32billion investment bank. Under the Holyrood law which created the bank, ministers \u201cmust establish and maintain\u201d a group to ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "heraldscotland"
+                    }
+                ],
+                "datePublished": "2024-01-28T05:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>SNP</b> finds another \u00a37 million to support those hit by welfare reforms",
+                "url": "https://www.heraldscotland.com/news/13145037.snp-finds-another-7-million-support-hit-welfare-reforms/",
+                "description": "Services that support people affected by welfare reform are to benefit from \u00a37 million in funding, the Scottish Government has announced. The funding includes \u00a33.5 million for advice services, \u00a31 million to help local authorities and other organisations ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/120d4238-df93-4584-9fac-30072ef9ad9d",
+                        "name": "Reform"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "heraldscotland"
+                    }
+                ],
+                "datePublished": "2014-02-10T15:36:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=SNP",
+        "queryContext": {
+            "originalQuery": "SNP",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 13700,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=SNP"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=SNP&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Moray bypasses at risk of \u2018more A96 backtracking\u2019? Elgin councillors worry about outcome of A96 Corridor Review",
+                "url": "https://www.grampianonline.co.uk/news/could-cast-iron-keith-bypass-pledge-be-scrapped-due-to-mo-340621/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT._zdOwkmTeFv5uLYDPZAe_i&pid=News",
+                        "width": 700,
+                        "height": 480
+                    }
+                },
+                "description": "MORAY councillors have raised concerns that &quot;cast iron&quot; pledge Elgin and Keith bypasses could be felled by &quot;more backtracking&quot;.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/96560530-b8f0-8ada-e205-3b1daa175e4b",
+                        "name": "Elgin"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/94d9f298-0577-350c-910d-b5b106decef2",
+                        "name": "A96 road"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c0fc345-a834-c89a-4f3a-0cf8b94634ac",
+                        "name": "Backtracking"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "grampianonline",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.TRteebnD1FT5BpcrlQL8ww&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-29T19:45:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Elgin and Keith bypasses at risk of \u2018more A96 backtracking\u2019? Moray councillors worry about outcome of A96 Corridor Review",
+                "url": "https://www.northern-scot.co.uk/news/elgin-and-keith-bypasses-at-risk-of-more-a96-backtracking-340615/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.i15BpHjA1GwdI-nuz0Ed4C&pid=News",
+                        "width": 700,
+                        "height": 481
+                    }
+                },
+                "description": "MORAY councillors have raised concerns that &quot;cast iron&quot; pledge Elgin and Keith bypasses could be felled by &quot;more backtracking&quot;.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e600d2ae-9242-34ac-477d-105473c4a9f8",
+                        "name": "Moray"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c17a6a1-558f-00bf-9be3-c29bae86b284",
+                        "name": "Keith"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/96560530-b8f0-8ada-e205-3b1daa175e4b",
+                        "name": "Elgin"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "northern-scot.co.uk",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.vvfO2OnlLP2gcDJ2zfr4wQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-29T19:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "UK Covid Inquiry: <b>SNP</b> ministers and Nicola Sturgeon motivated by constitutional politics at times during Covid, suggests Michael Gove",
+                "url": "https://www.scotsman.com/news/politics/uk-covid-inquiry-snp-ministers-and-nicola-sturgeon-motivated-by-constitutional-politics-at-times-during-covid-suggests-michael-gove-4496821",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.OHUnTOAOsHDQiRJCEfEDLi&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Nicola Sturgeon sought to diverge from the UK Government at certain points during the coronavirus pandemic in order to advance the SNP\u2019s \u201cpolitical agenda\u201d, Michael Gove has suggested to the UK Covid Inquiry.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c12951d9-25c7-062e-3e0c-288ac8a6d91e",
+                        "name": "Michael Gove"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40ff83fa-c18c-9216-49aa-77a9d6a5cc28",
+                        "name": "Nicola Sturgeon"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Michael Gove"
+                    },
+                    {
+                        "name": "Nicola Sturgeon"
+                    },
+                    {
+                        "name": "Inquiry"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Scotsman",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.QlHkHD_RALY4hnQHpw7jBw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-29T18:58:00.0000000Z",
+                "video": {
+                    "name": "UK Covid Inquiry: SNP ministers and Nicola Sturgeon motivated by constitutional politics at times during Covid, suggests Michael Gove",
+                    "thumbnailUrl": "https://www.bing.com/th?id=OVF.MRxywy%2BKl5QM2v6ntU9ndg&pid=News",
+                    "thumbnail": {
+                        "width": 600,
+                        "height": 337
+                    }
+                },
+                "category": "Politics"
+            },
+            {
+                "name": "BUILD THE BYPASS: Calls for Nairn bypass as survey reveals &#39;status quo is absurd&#39;",
+                "url": "https://www.inverness-courier.co.uk/news/build-the-bypass-calls-for-nairn-bypass-as-a96-nightmare-340525/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.zpXlbGh6ozCjMujYfO_JoS&pid=News",
+                        "width": 700,
+                        "height": 480
+                    }
+                },
+                "description": "Picture: Callum Mackay.. He said that although the meeting was positive, it is vital that the Scottish Government delivers a clear timetable for completion of the project, which he dubbed &quot;the pensioner of <b>SNP</b> pledges&quot;. He said: &quot;I had the absolutely clear ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/dca0a143-6042-ac2b-059d-38db4e782a02",
+                        "name": "Bypass"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fd31547a-9016-4940-b644-78988670c18a",
+                        "name": "Build"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9a84145d-0024-aba2-8dd8-4d1b5f932924",
+                        "name": "Nairn"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Inverness Courier"
+                    }
+                ],
+                "datePublished": "2024-01-29T18:00:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Calls for \u2018massive cultural change\u2019 at Post Office after chairman\u2019s exit",
+                "url": "https://www.standard.co.uk/business/business-news/calls-for-massive-cultural-change-at-post-office-after-chairman-s-exit-b1135599.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.zy_5AJ0pCcorFKec2xws9S&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "A minister has denied a \u201cfalling out\u201d caused the exit of the Post Office\u2019s chairman, amid calls for a \u201cmassive cultural change\u201d in the company\u2019s management. Business minister Kevin Hollinrake said \u201cvery serious governance issues\u201d led to the departure of Henry Staunton, adding he did not receive a severance payment.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6e018547-cfd3-9836-13fc-1f7ab6d0aa31",
+                        "name": "Post Office"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Post Office"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Parliamentary group leader"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-29T17:31:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Michael Gove at Covid inquiry: Sturgeon played politics in pandemic",
+                "url": "https://www.thetimes.co.uk/article/michael-gove-covid-inquiry-news-pandemic-politics-latest-nicola-sturgeon-7hkz9f9qc?ilc=timesradio:morefromthetimes",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.RNUWlEabxl_Mdx6hsP9ZzS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Michael Gove has accused Nicola Sturgeon of using Covid to advance the <b>SNP</b>\u2019s \u201cpolitical agenda\u201d rather than always working collaboratively with Westminster in responding to the pandemic. Giving evidence to Covid inquiry, Gove said that some of the ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c12951d9-25c7-062e-3e0c-288ac8a6d91e",
+                        "name": "Michael Gove"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40ff83fa-c18c-9216-49aa-77a9d6a5cc28",
+                        "name": "Nicola Sturgeon"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5b586384-c3eb-8768-9a0a-b4d6e660ddc5",
+                        "name": "Newton hearing"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times"
+                    }
+                ],
+                "datePublished": "2024-01-29T16:41:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "&#39;QMU option&#39; to East Lothian included as possible future tram route",
+                "url": "https://www.eastlothiancourier.com/news/24082420.edinburgh-council-ask-snp-ministers-2bn-build-new-tram-line/",
+                "description": "A &#39;QMU option&#39; has been revealed as a potential future tram route, as the possibility of extending Edinburgh&#39;s trams into East Lothian is considered.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0fbdbf9c-787c-9fa5-4e8a-acfd4aaff046",
+                        "name": "East Lothian"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5bda46f3-7659-0ef3-106d-09283294c832",
+                        "name": "Option contract"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "East Lothian Courier",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.emXS125VsmrWt00NcAjGFA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-29T16:27:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "MSP: \u2018Increasing numbers of Scots will die if Holyrood backs assisted suicide\u2019",
+                "url": "https://www.christian.org.uk/news/msp-increasing-numbers-of-scots-will-die-if-holyrood-backs-assisted-suicide/",
+                "description": "A majority of MSPs in both the Scottish Conservatives and Scottish Labour voted against the Bill, with MSPs from the Scottish Liberal Democrats and the <b>SNP</b> also rejecting the legislation. Earlier this month, Scotland\u2019s Equalities Minister Emma Roddick ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/007ba571-a670-1db7-a934-e872b5998687",
+                        "name": "Christian Institute"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Christian Institute"
+                    }
+                ],
+                "datePublished": "2024-01-29T16:06:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Dumbarton MSP Jackie Baillie slams <b>SNP</b> over Bellsmrye",
+                "url": "https://www.dumbartonreporter.co.uk/news/24082315.dumbarton-msp-jackie-baillie-slams-snp-bellsmrye/",
+                "description": "Jackie Baillie blasted the <b>SNP</b> administration for \u201cmoving the goalposts\u201d over promised funding, resulting in delays to the delivery of new-build housing on the estate. The deputy Scottish Labour leader claims the <b>SNP</b> Government encouraged Caledonia ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3caace6a-b44d-cc19-ce25-6eba39b8f5a3",
+                        "name": "Jackie Baillie"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f61acfc6-1d31-2a20-4a01-f1c14ea66d46",
+                        "name": "Vale of Leven"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4c5d23e6-9a24-f00f-e0ac-96be2e478d88",
+                        "name": "Dumbarton"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "dumbartonreporter"
+                    }
+                ],
+                "datePublished": "2024-01-29T15:58:00.0000000Z"
+            },
+            {
+                "name": "Five things we learned from Michael Gove\u2019s evidence to Scottish Covid inquiry",
+                "url": "https://inews.co.uk/news/politics/michael-gove-covid-inquiry-scotland-2879023?ITO=msn",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.aaZtJ5yLf4rXrRCKFS-hlS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Michael Gove suggested the Scottish government was &#39;thinking politically&#39; in its response to the coronavirus pandemic",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c12951d9-25c7-062e-3e0c-288ac8a6d91e",
+                        "name": "Michael Gove"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Michael Gove"
+                    },
+                    {
+                        "name": "Scotland"
+                    },
+                    {
+                        "name": "Newton hearing"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-29T15:57:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Politics latest: Tory MP quit six-figure minister role because he &#39;couldn&#39;t afford mortgage&#39;",
+                "url": "https://news.sky.com/story/politics-latest-rishi-sunak-general-election-keir-starmer-12593360?postid=7148299",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.SvbX90AgnQODYnlPCaeJxS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "&quot;People with divisive politics should not be using Tony&#39;s death to serve their personal interests,&quot; they added. Over to the Commons, and <b>SNP</b> member Marion Fellows is asking an Urgent Question related to the removal of Henry Staunton as Post Office chair.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky"
+                    }
+                ],
+                "datePublished": "2024-01-29T15:46:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>SNP</b> Facebook group with thousands of members defects to Alba",
+                "url": "https://www.thenational.scot/news/24082202.snp-facebook-group-thousands-members-defects-alba/",
+                "description": "THE administrators of a regional <b>SNP</b> Facebook page have issued a statement after defecting to Alba, taking the group page with them. Some users of the social media site reacted with anger after the South Ayrshire <b>SNP</b> page was changed to a South Ayrshire ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2201b266-6ab6-74eb-9f49-7d4d5dff67a0",
+                        "name": "Alba"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National"
+                    }
+                ],
+                "datePublished": "2024-01-29T15:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Sturgeon wanted &#39;political conflict&#39; during Covid pandemic, Gove claims",
+                "url": "https://news.stv.tv/politics/nicola-sturgeon-and-snp-wanted-political-conflict-during-covid-pandemic-michael-gove-claims",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.WGVxTrAP84UjdutjfhEVYS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Michael Gove claimed messages published revealed Nicola Sturgeon had pursued different Covid policies to &#39;advance a particular political agenda&#39;.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40ff83fa-c18c-9216-49aa-77a9d6a5cc28",
+                        "name": "Nicola Sturgeon"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c12951d9-25c7-062e-3e0c-288ac8a6d91e",
+                        "name": "Michael Gove"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/92d09a68-306e-0774-fa19-09c35bb93b91",
+                        "name": "STV News at Six"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "news.stv",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CZWPk4et8WgNjtL6sI0C_g&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-29T15:02:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Politics latest: Iranian officials behind &#39;threats to kill on UK soil&#39; sanctioned - as Sunak and Truss clash over tobacco",
+                "url": "https://news.sky.com/story/politics-latest-iranian-officials-behind-threats-to-kill-on-uk-soil-sanctioned-as-sunak-and-truss-clash-over-tobacco-12593360",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.JAIqkD8-02lScgvm0nEbli&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Urgent Question on ousting of Post Office chair Over to the Commons, and <b>SNP</b> member Marion Fellows is asking an Urgent Question related to the removal of Henry Staunton as Post Office chair. He was forced out of the role on Saturday, as frustration grew in ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/824918be-e692-f95d-fc04-03003dd58c5c",
+                        "name": "Elizabeth Truss"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/502b5268-992d-26c9-a0d8-6f206338406e",
+                        "name": "Iran"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky"
+                    }
+                ],
+                "datePublished": "2024-01-29T15:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>SNP</b>&#39;s aim to &#39;destroy the UK&#39; drove their Covid response, says Gove",
+                "url": "https://www.telegraph.co.uk/news/2024/01/29/michael-gove-snp-plan-to-destroy-the-uk-covid-pandemic/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.X4BwH33XOjJhZLYk1cRoLi&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "Mr Gove said the <b>SNP</b>&#39;s main motivation was protecting the public, but suggested this did not mean political opportunities were ignored Credit: Jeff J Mitchell/Getty Images The <b>SNP</b> response to the pandemic was partly driven by its aim to \u201cdestroy the UK ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c12951d9-25c7-062e-3e0c-288ac8a6d91e",
+                        "name": "Michael Gove"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Michael Gove"
+                    },
+                    {
+                        "name": "Inspiration of Ellen G. White"
+                    },
+                    {
+                        "name": "Scottish National Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph"
+                    }
+                ],
+                "datePublished": "2024-01-29T14:41:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Covid Inquiry: Michael Gove denies playing politics during pandemic",
+                "url": "https://www.bbc.co.uk/news/uk-scotland-68127028",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.gWwWx1MyBhC8MZbofGGbqC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Michael Gove has rejected suggestions the UK government was &quot;playing politics&quot; during the pandemic. He also denied attempting to promote the union in the course of his evidence to the UK Covid Inquiry.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c12951d9-25c7-062e-3e0c-288ac8a6d91e",
+                        "name": "Michael Gove"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-29T14:38:00.0000000Z",
+                "video": {
+                    "name": "Covid Inquiry: Michael Gove denies playing politics during pandemic",
+                    "thumbnailUrl": "https://www.bing.com/th?id=OVF.mFbs41PvtojnSJRnFw66oA&pid=News",
+                    "embedHtml": "&lt;iframe width=&quot;400&quot; height=&quot;500&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://www.bbc.com/news/av-embeds/68127028/vpid/p0h7r8gt&quot;&gt;&lt;/iframe&gt;",
+                    "allowHttpsEmbed": true,
+                    "thumbnail": {
+                        "width": 600,
+                        "height": 337
+                    }
+                },
+                "category": "Politics"
+            },
+            {
+                "name": "Police investigating \u2018forged signatures\u2019 in <b>SNP</b> finances inquiry",
+                "url": "https://www.thetimes.co.uk/article/6067bf68-a523-4a9b-99ea-b5bbe62c1291?shareToken=7c5690b82dd834a2bf0dbb4606813322",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.5k--Dr5pfN_f3dVQaWa7vS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Detectives investigating the <b>SNP</b>\u2019s finances are examining claims that signatures on financial documents have been forged. In the latest revelation from Operation Branchform, officers are understood to have paperwork in the name of a person who denies ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times"
+                    }
+                ],
+                "datePublished": "2024-01-29T13:37:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Labour on track to gain 30 seats in Scotland",
+                "url": "https://www.thelondoneconomic.com/politics/labour-on-track-to-gain-30-seats-in-scotland-367734/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.SgyEH9KVEqi32HMeDmLndi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Labour is on track to make some significant gains in Scotland if the latest polling results are to be believed. The <b>SNP</b> is slumping in the polls, with deputy Scottish Labour leader Jackie Baillie saying voters crying for change on both sides of the border ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6da24df8-226b-8a1e-8f4e-142e15ddbaf6",
+                        "name": "Labour"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d9d288e2-3d1d-90ac-c6a8-a986f13f212e",
+                        "name": "Seat"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "thelondoneconomic.com"
+                    }
+                ],
+                "datePublished": "2024-01-29T13:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>SNP</b>: Keir Starmer&#39;s support for Tony Blair should be a warning sign for Scotland",
+                "url": "https://www.thenational.scot/news/24081552.snp-keir-starmers-support-tony-blair-warning-sign-scotland/",
+                "description": "KEIR Starmer\u2019s pledge to follow in the footsteps of Tony Blair alongside his praise of Margaret Thatcher should serve as a &quot;warning sign&quot; to Scotland, the <b>SNP</b> have said. The party has insisted Scotland will continue to suffer under what looks likely to ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d1d91533-17bc-52e6-3bac-07168bf2f8b2",
+                        "name": "Tony Blair"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National"
+                    }
+                ],
+                "datePublished": "2024-01-29T12:54:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Covid inquiry: There was political desire for differentiation in Scotland \u2013 Gove",
+                "url": "https://www.kentonline.co.uk/news/national/covid-inquiry-there-was-political-desire-for-differentiation-in-scotland-gove-109206/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.iScbyhD8j1I3PqwUTgCRki&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "\u201cHowever, there are and were occasions when the Scottish Government was thinking politically, as we can see, and, of course, it is the case the <b>SNP</b> has a political mission to achieve Scotland\u2019s independence, i.e. destroy the United Kingdom and it would ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c12951d9-25c7-062e-3e0c-288ac8a6d91e",
+                        "name": "Michael Gove"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Kent Online"
+                    }
+                ],
+                "datePublished": "2024-01-29T12:36:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Politics latest news: <b>SNP</b>&#39;s aim to &#39;destroy UK&#39; drove their Covid response, says Gove",
+                "url": "https://www.telegraph.co.uk/politics/2024/01/29/rishi-sunak-latest-news-atkins-labour-starmer-rwanda/?utmsource=email",
+                "description": "The <b>SNP</b> response to the pandemic was partly driven by its aim to \u201cdestroy the UK\u201d and for political advantage, Michael Gove has told the Covid Inquiry. Jump to content UK News Website of the Year News Sport Health Money Business ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph"
+                    }
+                ],
+                "datePublished": "2024-01-29T11:40:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Michael Gove accuses Nicola Sturgeon and <b>SNP</b> chiefs of using Covid as a &#39;political&#39; way to achieve their &#39;mission&#39; of &#39;destroying the UK&#39;",
+                "url": "https://www.dailymail.co.uk/news/article-13018711/Michael-Gove-Nicola-Sturgeon-SNP-Covid-pandemic-independence.html",
+                "description": "Appearing before the official inquiry, the Levelling Up Secretary said the <b>SNP</b> had a clear &#39;mission&#39; to &#39;destroy the UK&#39;. He pointed to &#39;direct evidence&#39; that had been presented about the Scottish Cabinet discussing how the pandemic could enhance the push ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c12951d9-25c7-062e-3e0c-288ac8a6d91e",
+                        "name": "Michael Gove"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40ff83fa-c18c-9216-49aa-77a9d6a5cc28",
+                        "name": "Nicola Sturgeon"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Michael Gove"
+                    },
+                    {
+                        "name": "Nicola Sturgeon"
+                    },
+                    {
+                        "name": "Daily Mail"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail"
+                    }
+                ],
+                "datePublished": "2024-01-29T11:37:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Row as <b>SNP</b> Facebook group with thousands of members defects to Alba",
+                "url": "https://uk.news.yahoo.com/row-snp-facebook-page-thousands-153029591.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Z_wgzGFx334M2PW6lRTOcy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "THE administrators of a regional <b>SNP</b> Facebook page have issued a statement after defecting to Alba, taking the group page with them. Some users of the social media site reacted with anger after the South Ayrshire <b>SNP</b> page was changed to a South Ayrshire ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK"
+                    }
+                ],
+                "datePublished": "2024-01-29T10:29:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Tory former minister says he resigned from government because he could not afford mortgage hike on \u00a3120,000 salary \u2013 live",
+                "url": "https://www.theguardian.com/politics/live/2024/jan/29/liz-truss-rishi-sunak-ban-cigarettes-vaping-keir-starmer-michael-gove-uk-politics-latest?topics=PERSON%3ABoris+Johnson",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.fYaWN4Zig3X6LDfFCHA8yC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Here are some of the excerpts from his evidence about the tensions. Gove said the <b>SNP</b> did not want inter-governmental relations to work. Mark Drakeford, the Welsh first minister, did, he said. But he went on: \u201cWith the best will in the world the <b>SNP</b> don ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c12951d9-25c7-062e-3e0c-288ac8a6d91e",
+                        "name": "Michael Gove"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian"
+                    }
+                ],
+                "datePublished": "2024-01-29T09:27:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Fixing of Coupon Rates - Nykredit Realkredit A/S",
+                "url": "https://uk.finance.yahoo.com/news/fixing-coupon-rates-nykredit-realkredit-125800995.html",
+                "description": "Bonds with quarterly interest rate fixing The new coupon rates will apply from 31 January 2024 to 30 April 2024: DK0030504915, (<b>SNP</b>), maturity in 2024, new rate as at 31 January 2024: 4.9120% pa",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/22caa030-79b6-763e-978b-ef663e72286a",
+                        "name": "Nykredit"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/52b11378-d75c-46c3-0f68-ccad1013e75f",
+                        "name": "Rates"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Finance"
+                    }
+                ],
+                "datePublished": "2024-01-29T07:58:00.0000000Z"
+            },
+            {
+                "name": "Who is Jeane Freeman as she appears at Covid Inquiry",
+                "url": "https://uk.news.yahoo.com/jeane-freeman-she-appears-covid-115442837.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT._L42az_K1sWdQQD82nBOAS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Jeane Freeman was the MSP for Carrick, Cumnock and Doon Valley from 2016 to 2021. The <b>SNP</b> politician served as Cabinet Secretary for Health and Sport from June 2018 to May 2021 when she left Holyrood. Read more: Jeane Freeman named Herald Scottish ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c78f2b59-342b-45b3-ab8c-89b0261276a2",
+                        "name": "Jeane Freeman"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK"
+                    }
+                ],
+                "datePublished": "2024-01-29T06:53:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>SNP</b> Government official said few of his colleagues believed covid pandemic would be &#39;serious&#39;",
+                "url": "https://www.dailyrecord.co.uk/news/politics/snp-government-official-said-few-31990661",
+                "description": "A senior <b>SNP</b> Government health official complained that \u201cfew\u201d of his colleagues believed covid would be serious in the early days of the pandemic. Derek Grieve also claimed the UK Government had been more \u201cengaged and mobilised\u201d than Nicola ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/17d29690-e063-1d05-d9ff-fac9b501d7e3",
+                        "name": "Official"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Official"
+                    },
+                    {
+                        "name": "Daily Record"
+                    },
+                    {
+                        "name": "Collegiality"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Record"
+                    }
+                ],
+                "datePublished": "2024-01-29T00:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Michael Gove accuses Nicola Sturgeon of wanting \u2018political conflict\u2019 during Covid crisis",
+                "url": "https://www.independent.co.uk/news/uk/politics/michael-gove-nicola-sturgeon-snp-covid-inquiry-b2486642.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.T8yM8dzPUW5ymr9q1HHDvS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The levelling up secretary accused the <b>SNP</b> of searching for \u201cpolitical conflict\u201d during the pandemic in order to make the case for an independent Scotland. While Mr Gove said the Scottish government\u2019s decision making was \u201coverwhelmingly driven by a ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40ff83fa-c18c-9216-49aa-77a9d6a5cc28",
+                        "name": "Nicola Sturgeon"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c12951d9-25c7-062e-3e0c-288ac8a6d91e",
+                        "name": "Michael Gove"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent"
+                    }
+                ],
+                "datePublished": "2024-01-29T00:00:00.0000000Z",
+                "video": {
+                    "name": "Michael Gove accuses Nicola Sturgeon of wanting \u2018political conflict\u2019 during Covid crisis",
+                    "thumbnailUrl": "https://www.bing.com/th?id=OVF.KfISUhrMDc375pSRthU4Hw&pid=News",
+                    "embedHtml": "&lt;iframe src=&quot;https://cdn.jwplayer.com/players/Pd44wJGv-XLzx33eA.html&quot; width=&quot;480&quot; height=&quot;270&quot; frameborder=&quot;0&quot; scrolling=&quot;auto&quot;&gt;&lt;/iframe&gt;",
+                    "allowHttpsEmbed": true,
+                    "thumbnail": {
+                        "width": 600,
+                        "height": 337
+                    }
+                },
+                "category": "Politics"
+            },
+            {
+                "name": "Jeane Freeman &#39;regrets&#39; any care home death caused by Scottish Government &#39;inaction&#39; during pandemic",
+                "url": "https://www.dailyrecord.co.uk/news/politics/jeane-freeman-regrets-any-care-31995037",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.333U954LcmooEcL30hukOS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "A former <b>SNP</b> health secretary has said she will &quot;regret for the rest of my life&quot; any deaths in care homes caused by Scottish Government inaction in the early weeks of the coronavirus pandemic. Jeane Freeman gave evidence at the UK Covid Inquiry today where ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c78f2b59-342b-45b3-ab8c-89b0261276a2",
+                        "name": "Jeane Freeman"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fb6f4f93-ce23-76a6-98b5-3ab6b5286762",
+                        "name": "Daily Record"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Jeane Freeman"
+                    },
+                    {
+                        "name": "Daily Record"
+                    },
+                    {
+                        "name": "Scottish National Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Record"
+                    }
+                ],
+                "datePublished": "2024-01-29T00:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "UK Government did not use pandemic to strengthen union, Gove tells inquiry",
+                "url": "https://www.standard.co.uk/news/politics/michael-gove-scottish-government-nicola-sturgeon-scottish-kate-forbes-b1135544.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.CJ__bZWP70Am1Zudeb2B4C&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "He added: \u201cThere are, and were, occasions when the Scottish Government was thinking politically, as we can see, and, of course, it is the case the <b>SNP</b> has a political mission to achieve Scotland\u2019s independence, i.e. destroy the United Kingdom and it ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c12951d9-25c7-062e-3e0c-288ac8a6d91e",
+                        "name": "Michael Gove"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40ff83fa-c18c-9216-49aa-77a9d6a5cc28",
+                        "name": "Nicola Sturgeon"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Michael Gove"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Nicola Sturgeon"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "datePublished": "2024-01-29T00:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Glasgow Labour reveals candidate for Hillhead by-election",
+                "url": "https://www.glasgowlive.co.uk/news/glasgow-news/glasgow-labour-candidate-hillhead-byelection-28532170",
+                "description": "She added: \u201cThe choice will be clear \u2014 more division and decline with the <b>SNP</b> or a fresh start with Glasgow Labour. I will work hand in hand with residents to shape a brighter future for Hillhead.\u201d Cllr Malik, who passed away last month at the age of ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/da2548ee-1b26-f939-06b4-2fae57e075e7",
+                        "name": "Glasgow"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8038cd34-db32-ccf3-1e41-94a60a8c462e",
+                        "name": "Hillhead"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Glasgow"
+                    },
+                    {
+                        "name": "Hillhead"
+                    },
+                    {
+                        "name": "By-election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "glasgowlive.co.uk"
+                    }
+                ],
+                "datePublished": "2024-01-29T00:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>SNP</b> ministers accused of &#39;scandalous&#39; failure at \u00a32billion state bank",
+                "url": "https://www.heraldscotland.com/news/24078472.snp-ministers-accused-scandalous-failure-2billion-state-bank/?ref=fbshr",
+                "description": "<b>SNP</b> ministers have been accused of a \u201cscandalous dereliction of duty\u201d over the operation of Scotland\u2019s state-owned \u00a32billion investment bank. Under the Holyrood law which created the bank, ministers \u201cmust establish and maintain\u201d a group to ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "heraldscotland"
+                    }
+                ],
+                "datePublished": "2024-01-28T05:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>SNP</b> finds another \u00a37 million to support those hit by welfare reforms",
+                "url": "https://www.heraldscotland.com/news/13145037.snp-finds-another-7-million-support-hit-welfare-reforms/",
+                "description": "Services that support people affected by welfare reform are to benefit from \u00a37 million in funding, the Scottish Government has announced. The funding includes \u00a33.5 million for advice services, \u00a31 million to help local authorities and other organisations ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/120d4238-df93-4584-9fac-30072ef9ad9d",
+                        "name": "Reform"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "heraldscotland"
+                    }
+                ],
+                "datePublished": "2014-02-10T15:36:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    }
+]

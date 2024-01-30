@@ -1,0 +1,1054 @@
+[
+    {
+        "_type": "News",
+        "queryContext": {
+            "originalQuery": "Conservatives",
+            "adultIntent": false
+        },
+        "value": []
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=Conservatives",
+        "queryContext": {
+            "originalQuery": "Conservatives",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 68300,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Conservatives"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Conservatives&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Fighting talk from Reading Tories after Labour leader visit",
+                "url": "https://www.readingchronicle.co.uk/news/24082724.fighting-talk-reading-tories-labour-leader-visit/",
+                "description": "The local Conservative leader has accused Labour party leader Sir Keir Starmer of\u00a0painting Reading \u2018in the worst possible light\u2019 in a",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/281a95af-ccff-e632-516d-0f60d9882cfd",
+                        "name": "Reading"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/196c96ed-f44c-7cba-a66c-e7afe3472563",
+                        "name": "Labour Leader"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/82196725-366d-74e6-b721-ef7d025e86c6",
+                        "name": "Reading Chronicle"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Reading Chronicle",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yr3d0mRYWE8O9cWm1q8dXQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T08:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Councillors lose bid to stop plans for three-weekly bin collections in Cardiff",
+                "url": "https://www.walesonline.co.uk/news/wales-news/councillors-lose-bid-stop-plans-28533644",
+                "description": "Councillors&#39; attempts to overturn controversial plans for one black bin bag collection every three weeks failed. Conservative councillors at Cardiff Council, led by Cllr John Lancaster, put forward a motion calling for a re-think on waste collection proposals at a full council meeting on Thursday, January 25.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cdfaa940-1a8c-2522-2bf5-e09831059c8c",
+                        "name": "Cardiff"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Cardiff"
+                    },
+                    {
+                        "name": "Councillor"
+                    },
+                    {
+                        "name": "Western Mail"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Wales Online",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.lVPjCN3LmTro40TL-cwcLg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T07:04:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Britain&#39;s &#39;most capable PM&#39;? Starmer opens up record 13-point lead over Sunak in new Ipsos poll",
+                "url": "https://www.standard.co.uk/news/politics/keir-starmer-rishi-sunak-ipsos-poll-general-election-labour-tories-b1135566.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.fWRj5kdpxH02mmfD5tkQqy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Sir Keir Starmer has opened up a record 13-point lead over Rishi Sunak in terms of who Britons think is the \u201cmost capable Prime Minister \u201d, according to a new poll.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/63a6ef59-71fd-db08-08c6-d47d973d47fb",
+                        "name": "Keir Starmer"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Keir Starmer"
+                    },
+                    {
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T07:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Ross attacks SNP over \u2018orchestrated and concerted\u2019 deletion of Covid WhatsApps",
+                "url": "https://news.stv.tv/politics/douglas-ross-attacks-snp-over-orchestrated-and-concerted-deletion-of-covid-whatsapps",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.e072ZEOYndA1MPltTes7xy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Douglas Ross, the leader of the Scottish Conservatives, said those who lost loved ones to coronavirus had been \u201cbetrayed\u201d, as he accused the Scottish Government of taking \u201csecrecy and cover-up to a new low\u201d. Ross challenged the SNP over the issue following evidence to the UK Covid-19 Inquiry from some of the key figures during the pandemic.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5095bf32-804d-bc88-b718-728535fc82da",
+                        "name": "Douglas Ross"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/92d09a68-306e-0774-fa19-09c35bb93b91",
+                        "name": "STV News at Six"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/15872099-9523-c3a2-7f12-04cc0084b0c1",
+                        "name": "Deletion"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "news.stv",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CZWPk4et8WgNjtL6sI0C_g&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T06:54:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Rishi Sunak has much to be proud of. He might yet sneak a win",
+                "url": "https://www.heraldscotland.com/opinion/24082837.rishi-sunak-much-proud-might-yet-sneak-win/",
+                "description": "WHEREVER Rishi Sunak looks, the received wisdom is that he, the Conservatives and their General Election campaign are all doomed. But in years",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "heraldscotland",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PjDUWS-WIq7w595SCRQefg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T06:29:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "SNP and Tories accuse each other of politicising pandemic",
+                "url": "https://www.heraldscotland.com/news/24082861.snp-tories-accuse-politicising-pandemic/",
+                "description": "The SNP and Scottish Conservatives have accused each other of politicising the pandemic after evidence at the UK Covid inquiry showed ministers",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "heraldscotland",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PjDUWS-WIq7w595SCRQefg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T06:29:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "70% of housebuilders want Labour to win General Election, says Knight Frank",
+                "url": "https://thenegotiator.co.uk/70-of-housebuilders-want-labour-to-win-general-election-says-knight-frank",
+                "description": "The Knight Frank Land Index &amp; Housebuilder Survey of English housebuilders shows 70% favour Labour government plans for reform.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/599e96eb-d236-4624-b29d-70f60edfb4a4",
+                        "name": "Election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "thenegotiator",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.dXsmCg2OV8NrzlVxF2Zk3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T05:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Frontrunner to replace Mark Drakeford sparks fury over EU single market demand",
+                "url": "https://www.express.co.uk/news/politics/1860950/mark-drakeford-eu-single-market-Jeremy-Miles?ruid=6c003d44-692d-4da4-9bd9-3c12f3fba60c",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Vz1VOfHDAXnC_TdOyQMdHi&pid=News",
+                        "width": 700,
+                        "height": 415
+                    }
+                },
+                "description": "But Welsh <b>Conservatives</b> leader Andrew RT Davies said: \u201cMiles\u2019s comments are indicative of a man who thinks he knows better than the people of Wales. \u201cThe people of Wales voted to leave the EU, while Labour, Plaid Cymru and the Lib Dems did all they ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express"
+                    }
+                ],
+                "datePublished": "2024-01-29T15:35:00.0000000Z",
+                "category": "UK"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=Conservatives",
+        "queryContext": {
+            "originalQuery": "Conservatives",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 68300,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Conservatives"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Conservatives&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Fighting talk from Reading Tories after Labour leader visit",
+                "url": "https://www.readingchronicle.co.uk/news/24082724.fighting-talk-reading-tories-labour-leader-visit/",
+                "description": "The local Conservative leader has accused Labour party leader Sir Keir Starmer of\u00a0painting Reading \u2018in the worst possible light\u2019 in a",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/281a95af-ccff-e632-516d-0f60d9882cfd",
+                        "name": "Reading"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/196c96ed-f44c-7cba-a66c-e7afe3472563",
+                        "name": "Labour Leader"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/82196725-366d-74e6-b721-ef7d025e86c6",
+                        "name": "Reading Chronicle"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Reading Chronicle",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yr3d0mRYWE8O9cWm1q8dXQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T08:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Councillors lose bid to stop plans for three-weekly bin collections in Cardiff",
+                "url": "https://www.walesonline.co.uk/news/wales-news/councillors-lose-bid-stop-plans-28533644",
+                "description": "Councillors&#39; attempts to overturn controversial plans for one black bin bag collection every three weeks failed. Conservative councillors at Cardiff Council, led by Cllr John Lancaster, put forward a motion calling for a re-think on waste collection proposals at a full council meeting on Thursday, January 25.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cdfaa940-1a8c-2522-2bf5-e09831059c8c",
+                        "name": "Cardiff"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Cardiff"
+                    },
+                    {
+                        "name": "Councillor"
+                    },
+                    {
+                        "name": "Western Mail"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Wales Online",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.lVPjCN3LmTro40TL-cwcLg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T07:04:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Britain&#39;s &#39;most capable PM&#39;? Starmer opens up record 13-point lead over Sunak in new Ipsos poll",
+                "url": "https://www.standard.co.uk/news/politics/keir-starmer-rishi-sunak-ipsos-poll-general-election-labour-tories-b1135566.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.fWRj5kdpxH02mmfD5tkQqy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Sir Keir Starmer has opened up a record 13-point lead over Rishi Sunak in terms of who Britons think is the \u201cmost capable Prime Minister \u201d, according to a new poll.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/63a6ef59-71fd-db08-08c6-d47d973d47fb",
+                        "name": "Keir Starmer"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Keir Starmer"
+                    },
+                    {
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T07:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Ross attacks SNP over \u2018orchestrated and concerted\u2019 deletion of Covid WhatsApps",
+                "url": "https://news.stv.tv/politics/douglas-ross-attacks-snp-over-orchestrated-and-concerted-deletion-of-covid-whatsapps",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.e072ZEOYndA1MPltTes7xy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Douglas Ross, the leader of the Scottish Conservatives, said those who lost loved ones to coronavirus had been \u201cbetrayed\u201d, as he accused the Scottish Government of taking \u201csecrecy and cover-up to a new low\u201d. Ross challenged the SNP over the issue following evidence to the UK Covid-19 Inquiry from some of the key figures during the pandemic.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5095bf32-804d-bc88-b718-728535fc82da",
+                        "name": "Douglas Ross"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/92d09a68-306e-0774-fa19-09c35bb93b91",
+                        "name": "STV News at Six"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/15872099-9523-c3a2-7f12-04cc0084b0c1",
+                        "name": "Deletion"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "news.stv",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CZWPk4et8WgNjtL6sI0C_g&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T06:54:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Rishi Sunak has much to be proud of. He might yet sneak a win",
+                "url": "https://www.heraldscotland.com/opinion/24082837.rishi-sunak-much-proud-might-yet-sneak-win/",
+                "description": "WHEREVER Rishi Sunak looks, the received wisdom is that he, the Conservatives and their General Election campaign are all doomed. But in years",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "heraldscotland",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PjDUWS-WIq7w595SCRQefg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T06:29:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "SNP and Tories accuse each other of politicising pandemic",
+                "url": "https://www.heraldscotland.com/news/24082861.snp-tories-accuse-politicising-pandemic/",
+                "description": "The SNP and Scottish Conservatives have accused each other of politicising the pandemic after evidence at the UK Covid inquiry showed ministers",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "heraldscotland",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PjDUWS-WIq7w595SCRQefg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T06:29:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "70% of housebuilders want Labour to win General Election, says Knight Frank",
+                "url": "https://thenegotiator.co.uk/70-of-housebuilders-want-labour-to-win-general-election-says-knight-frank",
+                "description": "The Knight Frank Land Index &amp; Housebuilder Survey of English housebuilders shows 70% favour Labour government plans for reform.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/599e96eb-d236-4624-b29d-70f60edfb4a4",
+                        "name": "Election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "thenegotiator",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.dXsmCg2OV8NrzlVxF2Zk3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T05:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Frontrunner to replace Mark Drakeford sparks fury over EU single market demand",
+                "url": "https://www.express.co.uk/news/politics/1860950/mark-drakeford-eu-single-market-Jeremy-Miles?ruid=6c003d44-692d-4da4-9bd9-3c12f3fba60c",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Vz1VOfHDAXnC_TdOyQMdHi&pid=News",
+                        "width": 700,
+                        "height": 415
+                    }
+                },
+                "description": "But Welsh <b>Conservatives</b> leader Andrew RT Davies said: \u201cMiles\u2019s comments are indicative of a man who thinks he knows better than the people of Wales. \u201cThe people of Wales voted to leave the EU, while Labour, Plaid Cymru and the Lib Dems did all they ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express"
+                    }
+                ],
+                "datePublished": "2024-01-29T15:35:00.0000000Z",
+                "category": "UK"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=Conservatives",
+        "queryContext": {
+            "originalQuery": "Conservatives",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 68300,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Conservatives"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Conservatives&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Fighting talk from Reading Tories after Labour leader visit",
+                "url": "https://www.readingchronicle.co.uk/news/24082724.fighting-talk-reading-tories-labour-leader-visit/",
+                "description": "The local Conservative leader has accused Labour party leader Sir Keir Starmer of\u00a0painting Reading \u2018in the worst possible light\u2019 in a",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/281a95af-ccff-e632-516d-0f60d9882cfd",
+                        "name": "Reading"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/196c96ed-f44c-7cba-a66c-e7afe3472563",
+                        "name": "Labour Leader"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/82196725-366d-74e6-b721-ef7d025e86c6",
+                        "name": "Reading Chronicle"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Reading Chronicle",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yr3d0mRYWE8O9cWm1q8dXQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T08:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Councillors lose bid to stop plans for three-weekly bin collections in Cardiff",
+                "url": "https://www.walesonline.co.uk/news/wales-news/councillors-lose-bid-stop-plans-28533644",
+                "description": "Councillors&#39; attempts to overturn controversial plans for one black bin bag collection every three weeks failed. Conservative councillors at Cardiff Council, led by Cllr John Lancaster, put forward a motion calling for a re-think on waste collection proposals at a full council meeting on Thursday, January 25.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cdfaa940-1a8c-2522-2bf5-e09831059c8c",
+                        "name": "Cardiff"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Cardiff"
+                    },
+                    {
+                        "name": "Councillor"
+                    },
+                    {
+                        "name": "Western Mail"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Wales Online",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.lVPjCN3LmTro40TL-cwcLg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T07:04:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Britain&#39;s &#39;most capable PM&#39;? Starmer opens up record 13-point lead over Sunak in new Ipsos poll",
+                "url": "https://www.standard.co.uk/news/politics/keir-starmer-rishi-sunak-ipsos-poll-general-election-labour-tories-b1135566.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.fWRj5kdpxH02mmfD5tkQqy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Sir Keir Starmer has opened up a record 13-point lead over Rishi Sunak in terms of who Britons think is the \u201cmost capable Prime Minister \u201d, according to a new poll.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/63a6ef59-71fd-db08-08c6-d47d973d47fb",
+                        "name": "Keir Starmer"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Keir Starmer"
+                    },
+                    {
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T07:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Ross attacks SNP over \u2018orchestrated and concerted\u2019 deletion of Covid WhatsApps",
+                "url": "https://news.stv.tv/politics/douglas-ross-attacks-snp-over-orchestrated-and-concerted-deletion-of-covid-whatsapps",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.e072ZEOYndA1MPltTes7xy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Douglas Ross, the leader of the Scottish Conservatives, said those who lost loved ones to coronavirus had been \u201cbetrayed\u201d, as he accused the Scottish Government of taking \u201csecrecy and cover-up to a new low\u201d. Ross challenged the SNP over the issue following evidence to the UK Covid-19 Inquiry from some of the key figures during the pandemic.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5095bf32-804d-bc88-b718-728535fc82da",
+                        "name": "Douglas Ross"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/92d09a68-306e-0774-fa19-09c35bb93b91",
+                        "name": "STV News at Six"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/15872099-9523-c3a2-7f12-04cc0084b0c1",
+                        "name": "Deletion"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "news.stv",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CZWPk4et8WgNjtL6sI0C_g&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T06:54:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Rishi Sunak has much to be proud of. He might yet sneak a win",
+                "url": "https://www.heraldscotland.com/opinion/24082837.rishi-sunak-much-proud-might-yet-sneak-win/",
+                "description": "WHEREVER Rishi Sunak looks, the received wisdom is that he, the Conservatives and their General Election campaign are all doomed. But in years",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "heraldscotland",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PjDUWS-WIq7w595SCRQefg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T06:29:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "SNP and Tories accuse each other of politicising pandemic",
+                "url": "https://www.heraldscotland.com/news/24082861.snp-tories-accuse-politicising-pandemic/",
+                "description": "The SNP and Scottish Conservatives have accused each other of politicising the pandemic after evidence at the UK Covid inquiry showed ministers",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "heraldscotland",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PjDUWS-WIq7w595SCRQefg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T06:29:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "70% of housebuilders want Labour to win General Election, says Knight Frank",
+                "url": "https://thenegotiator.co.uk/70-of-housebuilders-want-labour-to-win-general-election-says-knight-frank",
+                "description": "The Knight Frank Land Index &amp; Housebuilder Survey of English housebuilders shows 70% favour Labour government plans for reform.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/599e96eb-d236-4624-b29d-70f60edfb4a4",
+                        "name": "Election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "thenegotiator",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.dXsmCg2OV8NrzlVxF2Zk3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T05:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Frontrunner to replace Mark Drakeford sparks fury over EU single market demand",
+                "url": "https://www.express.co.uk/news/politics/1860950/mark-drakeford-eu-single-market-Jeremy-Miles?ruid=6c003d44-692d-4da4-9bd9-3c12f3fba60c",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Vz1VOfHDAXnC_TdOyQMdHi&pid=News",
+                        "width": 700,
+                        "height": 415
+                    }
+                },
+                "description": "But Welsh <b>Conservatives</b> leader Andrew RT Davies said: \u201cMiles\u2019s comments are indicative of a man who thinks he knows better than the people of Wales. \u201cThe people of Wales voted to leave the EU, while Labour, Plaid Cymru and the Lib Dems did all they ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express"
+                    }
+                ],
+                "datePublished": "2024-01-29T15:35:00.0000000Z",
+                "category": "UK"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=Conservatives",
+        "queryContext": {
+            "originalQuery": "Conservatives",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 68300,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Conservatives"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Conservatives&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Fighting talk from Reading Tories after Labour leader visit",
+                "url": "https://www.readingchronicle.co.uk/news/24082724.fighting-talk-reading-tories-labour-leader-visit/",
+                "description": "The local Conservative leader has accused Labour party leader Sir Keir Starmer of\u00a0painting Reading \u2018in the worst possible light\u2019 in a",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/281a95af-ccff-e632-516d-0f60d9882cfd",
+                        "name": "Reading"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/196c96ed-f44c-7cba-a66c-e7afe3472563",
+                        "name": "Labour Leader"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/82196725-366d-74e6-b721-ef7d025e86c6",
+                        "name": "Reading Chronicle"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Reading Chronicle",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yr3d0mRYWE8O9cWm1q8dXQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T08:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Councillors lose bid to stop plans for three-weekly bin collections in Cardiff",
+                "url": "https://www.walesonline.co.uk/news/wales-news/councillors-lose-bid-stop-plans-28533644",
+                "description": "Councillors&#39; attempts to overturn controversial plans for one black bin bag collection every three weeks failed. Conservative councillors at Cardiff Council, led by Cllr John Lancaster, put forward a motion calling for a re-think on waste collection proposals at a full council meeting on Thursday, January 25.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cdfaa940-1a8c-2522-2bf5-e09831059c8c",
+                        "name": "Cardiff"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Cardiff"
+                    },
+                    {
+                        "name": "Councillor"
+                    },
+                    {
+                        "name": "Western Mail"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Wales Online",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.lVPjCN3LmTro40TL-cwcLg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T07:04:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Britain&#39;s &#39;most capable PM&#39;? Starmer opens up record 13-point lead over Sunak in new Ipsos poll",
+                "url": "https://www.standard.co.uk/news/politics/keir-starmer-rishi-sunak-ipsos-poll-general-election-labour-tories-b1135566.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.fWRj5kdpxH02mmfD5tkQqy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Sir Keir Starmer has opened up a record 13-point lead over Rishi Sunak in terms of who Britons think is the \u201cmost capable Prime Minister \u201d, according to a new poll.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/63a6ef59-71fd-db08-08c6-d47d973d47fb",
+                        "name": "Keir Starmer"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Keir Starmer"
+                    },
+                    {
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T07:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Ross attacks SNP over \u2018orchestrated and concerted\u2019 deletion of Covid WhatsApps",
+                "url": "https://news.stv.tv/politics/douglas-ross-attacks-snp-over-orchestrated-and-concerted-deletion-of-covid-whatsapps",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.e072ZEOYndA1MPltTes7xy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Douglas Ross, the leader of the Scottish Conservatives, said those who lost loved ones to coronavirus had been \u201cbetrayed\u201d, as he accused the Scottish Government of taking \u201csecrecy and cover-up to a new low\u201d. Ross challenged the SNP over the issue following evidence to the UK Covid-19 Inquiry from some of the key figures during the pandemic.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5095bf32-804d-bc88-b718-728535fc82da",
+                        "name": "Douglas Ross"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/92d09a68-306e-0774-fa19-09c35bb93b91",
+                        "name": "STV News at Six"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/15872099-9523-c3a2-7f12-04cc0084b0c1",
+                        "name": "Deletion"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "news.stv",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CZWPk4et8WgNjtL6sI0C_g&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T06:54:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Rishi Sunak has much to be proud of. He might yet sneak a win",
+                "url": "https://www.heraldscotland.com/opinion/24082837.rishi-sunak-much-proud-might-yet-sneak-win/",
+                "description": "WHEREVER Rishi Sunak looks, the received wisdom is that he, the Conservatives and their General Election campaign are all doomed. But in years",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "heraldscotland",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PjDUWS-WIq7w595SCRQefg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T06:29:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "SNP and Tories accuse each other of politicising pandemic",
+                "url": "https://www.heraldscotland.com/news/24082861.snp-tories-accuse-politicising-pandemic/",
+                "description": "The SNP and Scottish Conservatives have accused each other of politicising the pandemic after evidence at the UK Covid inquiry showed ministers",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "heraldscotland",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PjDUWS-WIq7w595SCRQefg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T06:29:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "70% of housebuilders want Labour to win General Election, says Knight Frank",
+                "url": "https://thenegotiator.co.uk/70-of-housebuilders-want-labour-to-win-general-election-says-knight-frank",
+                "description": "The Knight Frank Land Index &amp; Housebuilder Survey of English housebuilders shows 70% favour Labour government plans for reform.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/599e96eb-d236-4624-b29d-70f60edfb4a4",
+                        "name": "Election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "thenegotiator",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.dXsmCg2OV8NrzlVxF2Zk3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T05:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Frontrunner to replace Mark Drakeford sparks fury over EU single market demand",
+                "url": "https://www.express.co.uk/news/politics/1860950/mark-drakeford-eu-single-market-Jeremy-Miles?ruid=6c003d44-692d-4da4-9bd9-3c12f3fba60c",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Vz1VOfHDAXnC_TdOyQMdHi&pid=News",
+                        "width": 700,
+                        "height": 415
+                    }
+                },
+                "description": "But Welsh <b>Conservatives</b> leader Andrew RT Davies said: \u201cMiles\u2019s comments are indicative of a man who thinks he knows better than the people of Wales. \u201cThe people of Wales voted to leave the EU, while Labour, Plaid Cymru and the Lib Dems did all they ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express"
+                    }
+                ],
+                "datePublished": "2024-01-29T15:35:00.0000000Z",
+                "category": "UK"
+            }
+        ]
+    }
+]
