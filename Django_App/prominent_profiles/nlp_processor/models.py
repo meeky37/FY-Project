@@ -72,6 +72,8 @@ class ProcessedFile(models.Model):
 
 
 class BoundError(models.Model):
+    article = models.ForeignKey(Article, on_delete=models.CASCADE, null=True, blank=True,
+                                default=None)
     bound_start = models.IntegerField()
     bound_end = models.IntegerField()
     left_segment = models.TextField()
