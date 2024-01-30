@@ -11,6 +11,7 @@ class Article(models.Model):
     site_name = models.CharField(max_length=255, null=True, blank=True)
     date_added = models.DateTimeField(auto_now_add=True)
     processed = models.BooleanField(default=False)
+    similar_rejection = models.BooleanField(default=False)
 
 
 class Entity(models.Model):
