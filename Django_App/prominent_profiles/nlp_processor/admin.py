@@ -9,15 +9,14 @@ from .models import ProcessedFile, BoundError, ArticleStatistics, SimilarArticle
 from django.utils.translation import gettext as _
 
 
-def set_nlp_applied_false(queryset):
-    queryset.update(nlp_applied=False)
-
-
-set_nlp_applied_false.short_description = "Set NLP Applied to False for selected items"
-
-
 class ProcessedFileAdmin(admin.ModelAdmin):
     list_display = ['search_term', 'file_name', 'media_path', 'nlp_applied']
+
+    def set_nlp_applied_false(self, request, queryset):
+        queryset.update(nlp_applied=False)
+
+    set_nlp_applied_false.short_description = "Set NLP Applied to False for selected items"
+
     actions = [set_nlp_applied_false]
 
 
@@ -57,14 +56,21 @@ class DuplicatePrediction(admin.SimpleListFilter):
 
 
 class SimilarArticlePairAdmin(admin.ModelAdmin):
-    list_display = ['article1', 'article2', 'hash_similarity_score', 'words_diff', 'terms_diff',
+    list_display = ['id', 'article1', 'article2', 'hash_similarity_score', 'words_diff',
+                    'terms_diff',
                     'yulek_diff', 'avg_count_diff', 'simpsond_diff', 'the_diff', 'and_diff',
-                    'is_diff', 'of_diff', 'in_diff', 'to_diff', 'it_diff', 'that_diff', 'with_diff']
+                    'is_diff', 'of_diff', 'in_diff', 'to_diff', 'it_diff', 'that_diff',
+                    'with_diff']
     list_filter = [DuplicatePrediction]
     search_fields = ['article1__article__id', 'article2__article__id']
 
 
+class BoundErrorAdmin(admin.ModelAdmin):
+    list_display = ('article', 'bound_start', 'bound_end', 'left_segment', 'mention_segment',
+                    'right_segment', 'error_message', 'timestamp')
+
+
 admin.site.register(ProcessedFile, ProcessedFileAdmin)
-admin.site.register(BoundError)
+admin.site.register(BoundError, BoundErrorAdmin)
 admin.site.register(ArticleStatistics)
 admin.site.register(SimilarArticlePair, SimilarArticlePairAdmin)
