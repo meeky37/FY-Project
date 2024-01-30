@@ -1,6 +1,12 @@
 # nlp_processor/article_processor.py
+from datetime import timezone, timedelta, datetime
+
 import requests
 from bs4 import BeautifulSoup
+from django.db.models import Q, F
+
+from .article_update import calculate_statistics, calculate_all_percentage_differences
+from .models import ArticleStatistics, SimilarArticlePair
 from profiles_app.models import Article as ArticleModel
 from nlp_processor.sentiment_resolver import SentimentAnalyser
 import math
@@ -12,9 +18,13 @@ from .constants import (ENTITY_THRESHOLD_PERCENT,
                         MENTION_REQ_PER,
                         MERGE_REMOVAL_INDICATOR,
                         COMBINED_REMOVAL_INDICATOR,
-                        COMBINED_CLUSTER_ID_SEPARATOR)
+                        COMBINED_CLUSTER_ID_SEPARATOR,
+                        SIMILAR_SEARCH_DAYS,
+                        PREVIEW_IMG_TIMEOUT)
 from urllib.parse import urlparse
 import urllib.robotparser
+import ppdeep
+from itertools import product
 
 
 def can_fetch_url(url_to_check):
@@ -28,7 +38,7 @@ def can_fetch_url(url_to_check):
     return rules.can_fetch("*", url_to_check)
 
 
-def get_preview_image_url(url, timeout=3):
+def get_preview_image_url(url, timeout=PREVIEW_IMG_TIMEOUT):
     try:
         response = requests.get(url, timeout=timeout)
         if response.status_code == 200:
@@ -232,28 +242,7 @@ class Article:
         self.publication_date = date
         self.author = author
         self.site_name = site_name
-
-    def reset_attributes(self):
-        """
-        Reset all attributes to their default values or set them to None.
-        """
-        self.url = None
-        self.NER = None
-        self.headline = None
-        self.image_url = None
-        self.description = None
-        self.text_body = None
-        self.coref_clusters = None
-        self.people_entities = None
-        self.sentence_bounds = None
-        self.num_sentences = None
-        self.mention_threshold = None
-        self.entity_to_cluster_mapping = []
-        self.clustered_entities = None
-        self.database_candidate = False
-        self.database_id = None
-        self.bounds_sentiment = None
-        self.sentiment_analyser = None
+        self.linguistic_stats = None
 
     def set_sentiment_analyser(self, sa):
 
@@ -263,17 +252,10 @@ class Article:
             self.sentiment_analyser = sa
 
     def get_bounds_sentiment(self):
-        try:
             self.bounds_sentiment = self.sentiment_analyser.process_clustered_entities(
                 clustered_entities=self.clustered_entities, sentence_bounds=self.sentence_bounds,
-                article_text=self.text_body,
+                article_text=self.text_body, database_id=self.database_id,
                 debug=False)
-        except Exception as e:
-            import traceback
-            print(
-                f"Error processing bounds data for article {self.headline}. Exception Type: {type(e)}, Error: {e}")
-            traceback.print_exc()
-            self.bounds_sentiment = None
 
     def print_clustered_entities(self):
         for entry in self.clustered_entities:
@@ -294,7 +276,7 @@ class Article:
 
         Improvement: Spliting the entity names into part words e.g. Sadiq Khan will be split into
         Sadiq and Khan for evaluation purposes. This way if they are mostly mentioned by first
-        or second name the match still has opportunity to take place.
+        or second name the match still has an opportunity to take place.
         """
 
         for entity_type, entities in self.people_entities.items():
@@ -342,17 +324,15 @@ class Article:
                 self.entity_to_cluster_mapping.append(entity_entry)
                 break
 
-    # At this stage do we delete/empty some fields as they won't be used further?
-
     def set_coref_clusters(self, sorted_combined_clusters):
         # Add an ID to each cluster
         self.coref_clusters = list(enumerate(sorted_combined_clusters))
 
     def source_ner_people(self):
 
-        '''SpaCy is a popular NLP library that offers pre-trained models for various languages, and
+        """SpaCy is a popular NLP library that offers pre-trained models for various languages, and
             its NER component is capable of recognising and categorising named entities within text.
-            It is utilised here to identify PERSON entities'''
+            It is utilised here to identify PERSON entities"""
 
         NER = self.NER
         article_text = self.text_body
@@ -623,8 +603,8 @@ class Article:
             if num_entries < self.mention_threshold:
                 print(f"Cluster ID {cluster_id} has {num_entries} entries, which is below the "
                       f"threshold of {self.mention_threshold}.")
-                print(f"Removing entity {entity['Entity Name']} with Cluster ID {cluster_id} due "
-                      f"to low mention count:")
+                # print(f"Removing entity {entity['Entity Name']} with Cluster ID {cluster_id} due "
+                #       f"to low mention count:")
                 # print(entity['Cluster Info'])
                 clustered_entities.remove(entity)
                 continue
@@ -646,8 +626,8 @@ class Article:
         clustered_entities = cleaned_entities
         new_length = len(clustered_entities)
 
-        print(f"number of entities before mention threshold: {before_len}")
-        print(f"number of entities after mention threshold: {new_length}")
+        # print(f"number of entities before mention threshold: {before_len}")
+        # print(f"number of entities after mention threshold: {new_length}")
 
         clustered_entities = clean_up_substrings(clustered_entities)
 
@@ -679,16 +659,128 @@ class Article:
             )
             article_model.save()
             self.database_id = article_model.id
+
+            stats_model = ArticleStatistics.objects.create(
+                article=article_model,
+                fuzzy_hash=self.linguistic_stats["fuzzy_hash"],
+                word_count=self.linguistic_stats["word_count"],
+                terms_count=self.linguistic_stats["terms_count"],
+                vocd=self.linguistic_stats["vocd"],
+                yulek=self.linguistic_stats["yulek"],
+                simpsond=self.linguistic_stats["simpsond"],
+                the_count=self.linguistic_stats["the_count"],
+                and_count=self.linguistic_stats["and_count"],
+                is_count=self.linguistic_stats["is_count"],
+                of_count=self.linguistic_stats["of_count"],
+                in_count=self.linguistic_stats["in_count"],
+                to_count=self.linguistic_stats["to_count"],
+                it_count=self.linguistic_stats["it_count"],
+                that_count=self.linguistic_stats["that_count"],
+                with_count=self.linguistic_stats["with_count"],
+            )
+            stats_model.save()
+
         except Exception as e:
             print(f"Error saving article to the database: {e}")
 
-    def set_db_processed(self, is_processed):
+    def set_db_processed(self, is_processed, similar_rejection):
         if self.database_id is not None:
             try:
-                ArticleModel.objects.filter(id=self.database_id).update(processed=is_processed)
-                print('Setting processed')
-                print(is_processed)
+                ArticleModel.objects.filter(id=self.database_id).update(processed=is_processed,
+                                                                        similar_rejection=
+                                                                        similar_rejection)
             except ArticleModel.DoesNotExist:
                 print(f"Article with id {self.database_id} does not exist.")
         else:
-            print("Cannot set processed flag as the article obj doesn't have a database ID.")
+            print(
+                "Cannot set processed and similar_rejection flags as the article obj doesn't have "
+                "a database ID.")
+
+    def get_statistics(self):
+        self.linguistic_stats = calculate_statistics(self.text_body)
+
+    def check_similarity(self):
+
+        similar = False
+        """3 days seems the appropriate trade-off given overhead of combinations vs our existing
+        #  SimilarArticlePairs in publication dates."""
+        # search_window = datetime.now(timezone.utc) - timedelta(days=SIMILAR_SEARCH_DAYS) SILLY SILLY SILLY!
+
+        search_window = self.publication_date - timedelta(days=SIMILAR_SEARCH_DAYS)
+
+        # Typically, duplicates are near in publication date!
+        all_stats_window = ArticleStatistics.objects.filter(
+            article__publication_date__gte=search_window
+        )
+
+        article_stats_for_this_article = ArticleStatistics.objects.filter(
+            article_id=self.database_id)
+
+        # Comparing the article_stats_for_this_article with all other stats
+        for stat1, stat2 in product(all_stats_window, article_stats_for_this_article):
+            fuzzy_hash1 = stat1.fuzzy_hash
+            fuzzy_hash2 = stat2.fuzzy_hash
+
+            if stat1.article_id >= stat2.article_id:
+                continue
+
+            similarity_score = ppdeep.compare(fuzzy_hash1, fuzzy_hash2)
+
+            # Check if SimilarArticlePair already exists
+            existing_pair = SimilarArticlePair.objects.filter(
+                Q(Q(article1_id=stat1.article_id) & Q(article2_id=stat2.article_id)) |
+                Q(Q(article1_id=stat2.article_id) & Q(article2_id=stat1.article_id)),
+                Q(hash_similarity_score__gte=90) |
+                (
+                        Q(hash_similarity_score__gte=65, words_diff__lt=10, terms_diff__lt=10,
+                          vocd_diff__lt=5, yulek_diff__lt=10, simpsond_diff__lt=10,
+                          the_diff__lt=20, and_diff__lt=20, is_diff__lt=20,
+                          of_diff__lt=20, in_diff__lt=20, to_diff__lt=20,
+                          it_diff__lt=20, that_diff__lt=20, with_diff__lt=20
+                          )
+                )
+            ).exists()
+
+            if existing_pair:
+                print(
+                    f"Similarity pair exists between Article {stat1.article_id} and Article {stat2.article_id}. Ignoring.")
+                similar = True
+                return similar
+
+            elif similarity_score >= 65:
+                # Need to make a new SimilarArticlePair - this article goes into article 2 as it
+                # won't have any boundSentiment data and article2 similar are skipped in django
+                # views.
+                pair = SimilarArticlePair(article1=stat1, article2=stat2,
+                                          hash_similarity_score=similarity_score)
+                pair.save()
+                print(f"Similarity pair stored: {pair}")
+
+                calculate_all_percentage_differences(pair)
+                saved_pair = SimilarArticlePair.objects.get(pk=pair.id)
+
+                if (
+                        saved_pair.hash_similarity_score >= 90 or
+                        (
+                                saved_pair.hash_similarity_score >= 65 and
+                                saved_pair.words_diff < 10 and
+                                saved_pair.terms_diff < 10 and
+                                saved_pair.vocd_diff < 5 and
+                                saved_pair.yulek_diff < 10 and
+                                saved_pair.simpsond_diff < 10 and
+                                saved_pair.the_diff < 20 and
+                                saved_pair.and_diff < 20 and
+                                saved_pair.is_diff < 20 and
+                                saved_pair.of_diff < 20 and
+                                saved_pair.in_diff < 20 and
+                                saved_pair.to_diff < 20 and
+                                saved_pair.it_diff < 20 and
+                                saved_pair.that_diff < 20 and
+                                saved_pair.with_diff < 20
+                        )
+                ):
+                    print(f"New pair meets similar criteria!")
+                    similar = True
+                    return similar
+
+        return similar
