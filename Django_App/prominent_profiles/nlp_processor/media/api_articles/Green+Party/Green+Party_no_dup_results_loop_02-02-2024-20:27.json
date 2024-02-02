@@ -1,0 +1,3134 @@
+[
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=Green+Party",
+        "queryContext": {
+            "originalQuery": "Green Party",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 27,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Green+Party"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Green+Party&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Events of the Week: \u2018Curb Your Enthusiasm,\u2019 Grammys Parties and More",
+                "url": "https://uk.style.yahoo.com/events-week-curb-enthusiasm-grammys-191750647.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.wWG4GkPVGm_jHXp7V9hujS&pid=News",
+                        "width": 700,
+                        "height": 394
+                    }
+                },
+                "description": "Here\u2019s a look at this week\u2019s biggest premieres, parties and openings in Los Angeles and New York, including events for Curb Your Enthusiasm, Mr. &amp; Mrs. Smith and the Grammys. Curb Your Enthusiasm premiere Larry David,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0c7733a0-96e1-f937-b30a-73efacaf04f5",
+                        "name": "Curb Your Enthusiasm"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/bfae241a-38e8-0e61-11d8-8edad52d3e32",
+                        "name": "Party"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/703b3280-6e1a-d301-6f0b-6a6b5002af60",
+                        "name": "Grammy Awards"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Style UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.R1Y_kEYTGAFzjK1_2NaYlQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T19:17:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Parties united in tackling unfinished business of finance for NI \u2013 Donaldson",
+                "url": "https://www.irishnews.com/news/northern-ireland/parties-united-in-tackling-unfinished-business-of-finance-for-ni-donaldson-BKKI5EPOQ5NODLE5ZHC2NDKRE4/",
+                "description": "Northern Ireland political leaders met at Stormont Castle on Friday ahead of the return of devolved government on Saturday.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/689dc179-9174-cb76-53c7-7a6d087c0148",
+                        "name": "Jeffrey Donaldson"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Jeffrey Donaldson"
+                    },
+                    {
+                        "name": "Unfinished creative work"
+                    },
+                    {
+                        "name": "The Irish News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Irish News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.__x40GFqMbYWdAqfe63VNg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T19:05:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Reform support in Red Wall hits highest level ever",
+                "url": "https://www.telegraph.co.uk/politics/2024/02/02/reform-party-red-wall-highest-support-richard-tice/",
+                "description": "Richard Tice\u2019s party now on 14 per cent across 40 of the traditionally Labour-held seats won by the Tories in 2019, poll shows",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/120d4238-df93-4584-9fac-30072ef9ad9d",
+                        "name": "Reform"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Reform"
+                    },
+                    {
+                        "name": "Red Wall"
+                    },
+                    {
+                        "name": "Poll"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T19:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Sunak vows to tackle intimidation faced by \u2018too many\u2019 MPs",
+                "url": "https://www.telegraph.co.uk/politics/2024/02/02/rishi-sunak-deal-with-intimidation-mps-angela-rayner/",
+                "description": "Rishi Sunak has vowed to \u201cdeal with\u201d the intimidation that many MPs face after Mike Freer, the Tory MP, announced that he was stepping down following death threats.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T18:39:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Liverpool City Council to repay millions after jobs target missed",
+                "url": "https://www.bbc.com/news/uk-england-merseyside-68182057",
+                "description": "A council is to give millions of pounds back to the government after a jobs target for a waterfront regeneration project was not met. Liverpool City Council has blamed a car park fire for the inability to create hundreds of jobs on Kings Dock.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a5642e81-20ab-a561-17cc-52a63926b210",
+                        "name": "Liverpool"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k3N4DqozNjgK376rAnFmsA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T18:38:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Eleven candidates announced for Rochdale by-election",
+                "url": "https://www.bbc.com/news/uk-england-manchester-68181089",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.72Sei-BcdZVZhi2rU2SSJS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Eleven candidates have been announced in a by-election which was called after the death of a veteran Labour MP. The poll in Rochdale was triggered after Sir Tony Lloyd died in January, days after announcing he had an incurable form of leukaemia.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/25a89873-4b9f-b274-250c-365d8aabc7b7",
+                        "name": "Rochdale"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k3N4DqozNjgK376rAnFmsA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T18:13:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Labour&#39;s quaint tradition of scrapping their \u00a328bn <b>green</b> pledge",
+                "url": "https://www.thenational.scot/politics/24094733.labours-quaint-tradition-scrapping-28bn-green-pledge/",
+                "description": "For those mercifully shielded from the tedium of Labour <b>Party</b> policy, a short recap. The policy was first announced by Rachel Reeves in 2021, who boasted of her ambition of being the \u201cfirst <b>green</b> chancellor\u201d. READ MORE: &#39;What&#39;s the point?&#39;:",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/36832ad6-940d-3943-b261-f8ed799d4523",
+                        "name": "Scrap"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/de02adea-5fe2-517a-e485-a94a99bd572d",
+                        "name": "Pledge"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National"
+                    }
+                ],
+                "datePublished": "2024-02-02T18:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Pub relaunch <b>party</b> tonight - and you&#39;ll recognise who&#39;s behind the bar",
+                "url": "https://www.stokesentinel.co.uk/news/stoke-on-trent-news/relaunch-party-celebrates-returning-licensee-9064165",
+                "description": "A Kidsgrove pub is celebrating a change of ownership with a relaunch party. Licensee Ian Cooper has reopened The Clough Hall. The 50-year-old already ran the Clough Hall Road venue for nearly three years.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2efa6384-eb20-dbf0-d19a-2c63f3b239fb",
+                        "name": "Stoke-on-Trent"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "TheSentinel",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.WWQvUIztUri0mAo-Bdp4qg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T18:00:00.0000000Z"
+            },
+            {
+                "name": "Junior Transport Minister &#39;fully supports&#39; raising Dublin Airport cap as coalition divided",
+                "url": "https://www.irishmirror.ie/news/irish-news/politics/junior-minister-dublin-airport-cap-32033902",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ghfQCs9C7xOzAyI62IQuSy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "As a spokeswoman for Transport Minister Eamon Ryan said that he &quot;cannot and would not intervene in that independent process in any way&quot;, Junior Minister Jack Chambers backed the daa&#39;s plan to increase",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/509fc2dd-9366-912f-1c62-33c019683e5b",
+                        "name": "Dublin Airport"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f98c3adb-3692-18e4-36b8-ade1c09ae733",
+                        "name": "Junior"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Dublin Airport"
+                    },
+                    {
+                        "name": "Junior"
+                    },
+                    {
+                        "name": "Minister"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Irish Daily Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.2BcD1ARbWJ-h3eIGF0o4xA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T17:57:00.0000000Z"
+            },
+            {
+                "name": "Labour will look for &#39;radicalism&#39; through reform rather than risk fiscal slip-up",
+                "url": "https://news.sky.com/story/labour-will-look-for-radicalism-through-reform-13062317?dcmp=snt-sf-twitter",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.wiBmWGfgCCNpwGj4uknoZC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "In a week of row backs from her <b>party</b> over reinstating the cap on bankers&#39; bonuses and pouring up to \u00a328bn a year into <b>green</b> energy, Angela Rayner is one Labour politician standing her ground. In Scotland to promote her &quot;new deal for workers&quot;, the deputy ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/120d4238-df93-4584-9fac-30072ef9ad9d",
+                        "name": "Reform"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Reform"
+                    },
+                    {
+                        "name": "Australian Labor Party"
+                    },
+                    {
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky"
+                    }
+                ],
+                "datePublished": "2024-02-02T17:57:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Marjorie Taylor Greene mocked for struggling to pronounce indictable or read a long number",
+                "url": "https://www.independent.co.uk/news/world/americas/us-politics/marjorie-taylor-greene-indictment-pronounciation-b2489646.html",
+                "description": "Ms Greene\u2019s gaffe occurred on Tuesday while the House Homeland Security Committee debated whether or not the homeland security secretary Alejandro Mayorkas should be impeached",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fba9997c-e1d1-f1ed-dcea-788f8813f75b",
+                        "name": "Marjorie"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/71394ed3-db37-d737-580c-b2caafd7b0f5",
+                        "name": "Long number"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "Marjorie"
+                    },
+                    {
+                        "name": "Long number"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T17:45:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Safeguarding the union deal: DUP leader Sir Jeffrey Donaldson says parties united in tackling unfinished finance for Northern Ireland",
+                "url": "https://www.newsletter.co.uk/news/politics/safeguarding-the-union-deal-dup-leader-sir-jeffrey-donaldson-says-parties-united-in-tackling-unfinished-finance-for-northern-ireland-4503772",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.95tx5uiKEN63fW-ngTxvEy&pid=News",
+                        "width": 700,
+                        "height": 465
+                    }
+                },
+                "description": "The new Stormont powersharing executive will be united in dealing with the \u201cunfinished business\u201d of funding for public services in Northern Ireland, DUP leader Sir Jeffrey Donaldson has said.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/689dc179-9174-cb76-53c7-7a6d087c0148",
+                        "name": "Jeffrey Donaldson"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4b8bc44-385c-e87b-bb7d-b32328f53502",
+                        "name": "Northern Ireland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b19905a0-4fe6-92a8-195d-861abbc94939",
+                        "name": "Sir"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Jeffrey Donaldson"
+                    },
+                    {
+                        "name": "Northern Ireland"
+                    },
+                    {
+                        "name": "Sir"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The News Letter",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.ss7xVoJtNCz0ucC1juxNqA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T17:41:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Labour deputy leader doubles down on workers&#39; rights pledges after backtracking reports",
+                "url": "https://news.sky.com/story/labour-deputy-leader-doubles-down-on-workers-rights-pledges-amid-backtracking-reports-13062223?dcmp=snt-sf-twitter",
+                "description": "Angela Rayner reiterated a commitment to introduce draft legislation\u00a0within 100 days of a Labour victory to enshrine its employment promises in law. It comes following claims the party had rowed back on some of its pledges.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c0fc345-a834-c89a-4f3a-0cf8b94634ac",
+                        "name": "Backtracking"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/08d1c2c2-5d96-aec3-38a1-53f7940ba04f",
+                        "name": "Deputy leader"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Eg62H9DIbo-JYPI6GpAgGA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T17:32:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Labour is in the worst of all worlds with confused messaging on its \u00a328bn pledge",
+                "url": "https://www.theguardian.com/politics/2024/feb/02/labour-is-in-the-worst-of-all-worlds-with-confused-messaging-on-its-28bn-pledge",
+                "description": "Tories watch on delighted as Starmer continues to talk about the figure while the shadow Treasury team distances itself from it",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T17:15:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "\u2018Dishing out licences to climate criminals\u2019",
+                "url": "https://morningstaronline.co.uk/article/dishing-out-licences-climate-criminals-tory-donor-fined-illegal-gas-flaring-given",
+                "description": "CAMPAIGNERS attacked the government for \u201cdishing out licences to climate criminals\u201d today after a Tory donor-owned firm, previously fined for illegal flaring, secured a licence to drill for fossil fuels. The government green lit new licences to 17 oil and gas companies in the North Sea in the last week.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Morning Star",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.XYFAfbQ1KrLZXw8Gl4oJeg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T17:10:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "A message to Starmer from the US: ditching your \u00a328bn climate plan isn\u2019t just cowardly \u2013 it\u2019s bad politics",
+                "url": "https://www.theguardian.com/commentisfree/2024/feb/02/keir-starmer-ditching-28bn-climate-plan-cowardly-labour",
+                "description": "However, at the very least, the Biden administration has set a bar for the scale of <b>green</b> investment that centre-left parties should undertake. The same can\u2019t be said of the Labour <b>party</b>, which has reportedly now scrapped its laudable \u00a328bn <b>green</b> ...",
+                "mentions": [
+                    {
+                        "name": "The Guardian"
+                    },
+                    {
+                        "name": "United States"
+                    },
+                    {
+                        "name": "Economy of the United Kingdom"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian"
+                    }
+                ],
+                "datePublished": "2024-02-02T17:09:00.0000000Z"
+            },
+            {
+                "name": "Far-right Homeland <b>Party</b> registers with elections watchdog",
+                "url": "https://www.thenational.scot/news/24094646.far-right-homeland-party-registers-elections-watchdog/",
+                "description": "A FAR-RIGHT group which splintered from the \u201cUK\u2019s most dangerous\u201d nationalist organisation has been registered with the election",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T17:09:00.0000000Z"
+            },
+            {
+                "name": "Everyone who is standing in the Rochdale by-election",
+                "url": "https://www.rochdaleonline.co.uk/news-features/2/news-headlines/155023/everyone-who-is-standing-in-the-rochdale-byelection",
+                "description": "On 29 February, residents of the Rochdale constituency will have their chance to say who they want to represent them",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/25a89873-4b9f-b274-250c-365d8aabc7b7",
+                        "name": "Rochdale"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/421136ff-89cc-4125-ab00-aa753a879db8",
+                        "name": "Standing"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Rochdale Online",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.pqtNrEFI3DJiEsi4r8pk8w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T17:05:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Business bosses fear \u2018sting in the tail\u2019 on taxes from Labour, says insider",
+                "url": "https://inews.co.uk/news/politics/business-fear-tax-rises-labour-2886820",
+                "description": "In front of bosses from companies including Microsoft and Aviva, shadow Chancellor Rachel Reeves pledged that Labour would freeze corporation tax for five years if it wins the next election.",
+                "mentions": [
+                    {
+                        "name": "Insider"
+                    },
+                    {
+                        "name": "Australian Labor Party"
+                    },
+                    {
+                        "name": "dMG Media"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T17:02:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Power sharing in Northern Ireland set to be resurrected two years after collapse",
+                "url": "https://www.mirror.co.uk/news/politics/power-sharing-northern-ireland-set-32033049",
+                "description": "In a historic moment Sinn Fein&#39;s Michelle O&#39;Neill will become the first republican First Minister after the DUP ended a two-year political paralysis at Stormont",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4b8bc44-385c-e87b-bb7d-b32328f53502",
+                        "name": "Northern Ireland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2d4e3828-a289-189d-24d3-12abe248cee7",
+                        "name": "Consociationalism"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Northern Ireland"
+                    },
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "Consociationalism"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T17:02:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Green Party</b> candidate to meet Southam residents",
+                "url": "https://stratfordobserver.co.uk/news/green-party-candidate-to-meet-southam-residents-48144/",
+                "description": "THERE is a chance to meet the Green Party candidate for Kenilworth and Southam. Coun Zoe Leventhal is inviting residents for tea and cakes at the Grange Hall in Southam tomorrow (Saturday). The event runs from 12.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6eada6d5-25fd-9a16-cf01-a9162f287ab2",
+                        "name": "Southam"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Stratford-upon-Avon Observer",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.vNAGcSPKMkM--vM1FAjVrQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T17:01:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Shish, that&#39;s expensive: Spiralling cost of doner kebabs is debated in German parliament as producers warn price of national dish will soon pass ten euros",
+                "url": "https://www.dailymail.co.uk/news/article-13038521/Shish-thats-expensive-Spiralling-cost-doner-kebabs-debated-German-parliament-producers-warn-price-national-dish-soon-pass-ten-euros.html",
+                "description": "Germany &#39;s well-publicised &#39;winter of discontent&#39; has just taken yet another turn for the wurst as the price of a doner kebab continues to climb - with some warning it could soon reach ten euros",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/93a3e0e2-aecf-e53b-8432-c15f400cfb4e",
+                        "name": "Daily Mail"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3d682db9-007d-4ee8-2123-6e8c2b6e3b3b",
+                        "name": "SHISH"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d1631258-80bf-0565-a89b-0d542603079b",
+                        "name": "Bundestag"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Daily Mail"
+                    },
+                    {
+                        "name": "SHISH"
+                    },
+                    {
+                        "name": "Bundestag"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T16:50:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Labour not committed to \u2018arbitrary\u2019 numbers on <b>green</b> investment \u2013 Rayner",
+                "url": "https://www.gazetteandherald.co.uk/news/national/24093919.labour-not-committed-arbitrary-numbers-green-investment---rayner/",
+                "description": "Labour deputy leader Angela Rayner has said the <b>party</b> is not committed to \u201carbitrary\u201d numbers on its pledge to ultimately invest \u00a328 billion a year in the <b>green</b> economy. She said the money will depend on sticking to fiscal rules and Labour will ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4ebe79fa-f77b-5216-7ef9-f8ea04679349",
+                        "name": "Wiltshire"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Gazette and Herald"
+                    }
+                ],
+                "datePublished": "2024-02-02T16:22:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Donaldson \u2018will hold Government\u2019s feet to the fire\u2019 over Stormont deal",
+                "url": "https://www.huntspost.co.uk/news/national/24092880.donaldson-will-hold-governments-feet-fire-stormont-deal/",
+                "description": "<b>Party</b> leaders are meeting at Stormont Castle on Friday afternoon ... The paper commits to replacing the Windsor Framework\u2019s <b>green</b> lane process at Northern Ireland ports, which requires percentages of goods to be checked as they arrive from Great Britain ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/689dc179-9174-cb76-53c7-7a6d087c0148",
+                        "name": "Jeffrey Donaldson"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fc276817-3034-0116-3770-f900f6d99a28",
+                        "name": "Parliament Buildings"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5634d914-4190-dd0b-fa80-715c2ac46335",
+                        "name": "Government"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Hunts Post"
+                    }
+                ],
+                "datePublished": "2024-02-02T14:19:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Transcript: Who still votes Conservative?",
+                "url": "https://www.ft.com/content/5e322c62-42dc-4744-b688-830fd29c0fc9",
+                "description": "Lucy Fisher And in favour of Labour. Miranda <b>Green</b> Very much in favour of Labour. So it\u2019s another part of that puzzle of where does the Tory <b>party</b> think its future voters are coming from. Lucy Fisher I just want to move on to one more group quickly ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Financial Times"
+                    }
+                ],
+                "datePublished": "2024-02-02T10:06:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Leo Varadkar weighs into Ryanair spat and tells Michael O\u2019Leary Minister \u2018not an idiot\u2019 in Dublin Airport passenger row",
+                "url": "https://www.thesun.ie/news/12121612/leo-varadkar-ryanair-michael-oleary-minister-dublin-airport/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.pq6Fq9_yVu-1DmUwqDVNKS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Ryanair are now calling for the Transport Minister to step down over the <b>Green Party</b>\u2019s opposition to the cap on passengers being lifted from 32 million to 40 million over the next two years. Airport operator daa are seeking permission from the local ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/509fc2dd-9366-912f-1c62-33c019683e5b",
+                        "name": "Dublin Airport"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/416c0ed4-d041-d9d6-4ddb-0d5c65f5be34",
+                        "name": "Ryanair"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6d381967-27a2-c10c-0b47-bfe5c33d1e77",
+                        "name": "Leo Varadkar"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Irish Sun"
+                    }
+                ],
+                "datePublished": "2024-02-02T00:00:00.0000000Z"
+            },
+            {
+                "name": "Council row over new \u00a360,000 gates to close south Belfast park at night",
+                "url": "https://www.belfasttelegraph.co.uk/news/northern-ireland/council-row-over-new-60000-gates-to-close-south-belfast-park-at-night/a107557121.html",
+                "description": "Alliance councillor Michael Long asked about the \u201ccompetence\u201d of the <b>Green Party</b> proposal, and said: \u201cWe have absolutely no idea what the details of this would be. I am all for having things like this, I would just need to know a little more about it ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/43f5e852-8abf-1b08-b274-3386c9855f77",
+                        "name": "Council of the European Union"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/796f4595-5402-1ea3-dc22-4e7da0354894",
+                        "name": "South Belfast News"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c907468c-305f-67d6-0da9-2137a3bfae78",
+                        "name": "Belfast South"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Belfast Telegraph"
+                    }
+                ],
+                "datePublished": "2024-02-02T00:00:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=Green+Party",
+        "queryContext": {
+            "originalQuery": "Green Party",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 134,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Green+Party"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Green+Party&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Events of the Week: \u2018Curb Your Enthusiasm,\u2019 Grammys Parties and More",
+                "url": "https://uk.style.yahoo.com/events-week-curb-enthusiasm-grammys-191750647.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.wWG4GkPVGm_jHXp7V9hujS&pid=News",
+                        "width": 700,
+                        "height": 394
+                    }
+                },
+                "description": "Here\u2019s a look at this week\u2019s biggest premieres, parties and openings in Los Angeles and New York, including events for Curb Your Enthusiasm, Mr. &amp; Mrs. Smith and the Grammys. Curb Your Enthusiasm premiere Larry David,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0c7733a0-96e1-f937-b30a-73efacaf04f5",
+                        "name": "Curb Your Enthusiasm"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/bfae241a-38e8-0e61-11d8-8edad52d3e32",
+                        "name": "Party"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/703b3280-6e1a-d301-6f0b-6a6b5002af60",
+                        "name": "Grammy Awards"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Style UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.R1Y_kEYTGAFzjK1_2NaYlQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T19:17:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Reform support in Red Wall hits highest level ever",
+                "url": "https://www.telegraph.co.uk/politics/2024/02/02/reform-party-red-wall-highest-support-richard-tice/",
+                "description": "Richard Tice\u2019s party now on 14 per cent across 40 of the traditionally Labour-held seats won by the Tories in 2019, poll shows",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/120d4238-df93-4584-9fac-30072ef9ad9d",
+                        "name": "Reform"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Reform"
+                    },
+                    {
+                        "name": "Red Wall"
+                    },
+                    {
+                        "name": "Poll"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T19:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Liverpool City Council to repay millions after jobs target missed",
+                "url": "https://www.bbc.com/news/uk-england-merseyside-68182057",
+                "description": "A council is to give millions of pounds back to the government after a jobs target for a waterfront regeneration project was not met. Liverpool City Council has blamed a car park fire for the inability to create hundreds of jobs on Kings Dock.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a5642e81-20ab-a561-17cc-52a63926b210",
+                        "name": "Liverpool"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k3N4DqozNjgK376rAnFmsA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T18:38:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Eleven candidates announced for Rochdale by-election",
+                "url": "https://www.bbc.com/news/uk-england-manchester-68181089",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.72Sei-BcdZVZhi2rU2SSJS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Eleven candidates have been announced in a by-election which was called after the death of a veteran Labour MP. The poll in Rochdale was triggered after Sir Tony Lloyd died in January, days after announcing he had an incurable form of leukaemia.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/25a89873-4b9f-b274-250c-365d8aabc7b7",
+                        "name": "Rochdale"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k3N4DqozNjgK376rAnFmsA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T18:13:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Labour&#39;s quaint tradition of scrapping their \u00a328bn <b>green</b> pledge",
+                "url": "https://www.thenational.scot/politics/24094733.labours-quaint-tradition-scrapping-28bn-green-pledge/",
+                "description": "For those mercifully shielded from the tedium of Labour <b>Party</b> policy, a short recap. The policy was first announced by Rachel Reeves in 2021, who boasted of her ambition of being the \u201cfirst <b>green</b> chancellor\u201d. READ MORE: &#39;What&#39;s the point?&#39;:",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/36832ad6-940d-3943-b261-f8ed799d4523",
+                        "name": "Scrap"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/de02adea-5fe2-517a-e485-a94a99bd572d",
+                        "name": "Pledge"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National"
+                    }
+                ],
+                "datePublished": "2024-02-02T18:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Pub relaunch <b>party</b> tonight - and you&#39;ll recognise who&#39;s behind the bar",
+                "url": "https://www.stokesentinel.co.uk/news/stoke-on-trent-news/relaunch-party-celebrates-returning-licensee-9064165",
+                "description": "A Kidsgrove pub is celebrating a change of ownership with a relaunch party. Licensee Ian Cooper has reopened The Clough Hall. The 50-year-old already ran the Clough Hall Road venue for nearly three years.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2efa6384-eb20-dbf0-d19a-2c63f3b239fb",
+                        "name": "Stoke-on-Trent"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "TheSentinel",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.WWQvUIztUri0mAo-Bdp4qg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T18:00:00.0000000Z"
+            },
+            {
+                "name": "Junior Transport Minister &#39;fully supports&#39; raising Dublin Airport cap as coalition divided",
+                "url": "https://www.irishmirror.ie/news/irish-news/politics/junior-minister-dublin-airport-cap-32033902",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ghfQCs9C7xOzAyI62IQuSy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "As a spokeswoman for Transport Minister Eamon Ryan said that he &quot;cannot and would not intervene in that independent process in any way&quot;, Junior Minister Jack Chambers backed the daa&#39;s plan to increase",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/509fc2dd-9366-912f-1c62-33c019683e5b",
+                        "name": "Dublin Airport"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f98c3adb-3692-18e4-36b8-ade1c09ae733",
+                        "name": "Junior"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Dublin Airport"
+                    },
+                    {
+                        "name": "Junior"
+                    },
+                    {
+                        "name": "Minister"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Irish Daily Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.2BcD1ARbWJ-h3eIGF0o4xA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T17:57:00.0000000Z"
+            },
+            {
+                "name": "Labour will look for &#39;radicalism&#39; through reform rather than risk fiscal slip-up",
+                "url": "https://news.sky.com/story/labour-will-look-for-radicalism-through-reform-13062317?dcmp=snt-sf-twitter",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.wiBmWGfgCCNpwGj4uknoZC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "In a week of row backs from her <b>party</b> over reinstating the cap on bankers&#39; bonuses and pouring up to \u00a328bn a year into <b>green</b> energy, Angela Rayner is one Labour politician standing her ground. In Scotland to promote her &quot;new deal for workers&quot;, the deputy ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/120d4238-df93-4584-9fac-30072ef9ad9d",
+                        "name": "Reform"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Reform"
+                    },
+                    {
+                        "name": "Australian Labor Party"
+                    },
+                    {
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky"
+                    }
+                ],
+                "datePublished": "2024-02-02T17:57:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Marjorie Taylor Greene mocked for struggling to pronounce indictable or read a long number",
+                "url": "https://www.independent.co.uk/news/world/americas/us-politics/marjorie-taylor-greene-indictment-pronounciation-b2489646.html",
+                "description": "Ms Greene\u2019s gaffe occurred on Tuesday while the House Homeland Security Committee debated whether or not the homeland security secretary Alejandro Mayorkas should be impeached",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fba9997c-e1d1-f1ed-dcea-788f8813f75b",
+                        "name": "Marjorie"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/71394ed3-db37-d737-580c-b2caafd7b0f5",
+                        "name": "Long number"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "Marjorie"
+                    },
+                    {
+                        "name": "Long number"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T17:45:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Safeguarding the union deal: DUP leader Sir Jeffrey Donaldson says parties united in tackling unfinished finance for Northern Ireland",
+                "url": "https://www.newsletter.co.uk/news/politics/safeguarding-the-union-deal-dup-leader-sir-jeffrey-donaldson-says-parties-united-in-tackling-unfinished-finance-for-northern-ireland-4503772",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.95tx5uiKEN63fW-ngTxvEy&pid=News",
+                        "width": 700,
+                        "height": 465
+                    }
+                },
+                "description": "The new Stormont powersharing executive will be united in dealing with the \u201cunfinished business\u201d of funding for public services in Northern Ireland, DUP leader Sir Jeffrey Donaldson has said.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/689dc179-9174-cb76-53c7-7a6d087c0148",
+                        "name": "Jeffrey Donaldson"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4b8bc44-385c-e87b-bb7d-b32328f53502",
+                        "name": "Northern Ireland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b19905a0-4fe6-92a8-195d-861abbc94939",
+                        "name": "Sir"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Jeffrey Donaldson"
+                    },
+                    {
+                        "name": "Northern Ireland"
+                    },
+                    {
+                        "name": "Sir"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The News Letter",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.ss7xVoJtNCz0ucC1juxNqA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T17:41:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "DUP leader Sir Jeffrey Donaldson: Parties united in tackling unfinished business of finance for Northern Ireland",
+                "url": "https://www.newsletter.co.uk/news/politics/dup-leader-sir-jeffrey-donaldson-parties-united-in-tackling-unfinished-business-of-finance-for-northern-ireland-4503772",
+                "description": "The new Stormont powersharing executive will be united in dealing with the \u201cunfinished business\u201d of funding for public services in Northern Ireland, DUP leader Sir Jeffrey Donaldson has said.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/689dc179-9174-cb76-53c7-7a6d087c0148",
+                        "name": "Jeffrey Donaldson"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4b8bc44-385c-e87b-bb7d-b32328f53502",
+                        "name": "Northern Ireland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b19905a0-4fe6-92a8-195d-861abbc94939",
+                        "name": "Sir"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The News Letter",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.ss7xVoJtNCz0ucC1juxNqA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T17:34:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "\u2018Dishing out licences to climate criminals\u2019",
+                "url": "https://morningstaronline.co.uk/article/dishing-out-licences-climate-criminals-tory-donor-fined-illegal-gas-flaring-given",
+                "description": "CAMPAIGNERS attacked the government for \u201cdishing out licences to climate criminals\u201d today after a Tory donor-owned firm, previously fined for illegal flaring, secured a licence to drill for fossil fuels. The government green lit new licences to 17 oil and gas companies in the North Sea in the last week.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Morning Star",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.XYFAfbQ1KrLZXw8Gl4oJeg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T17:10:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Far-right Homeland <b>Party</b> registers with elections watchdog",
+                "url": "https://www.thenational.scot/news/24094646.far-right-homeland-party-registers-elections-watchdog/",
+                "description": "A FAR-RIGHT group which splintered from the \u201cUK\u2019s most dangerous\u201d nationalist organisation has been registered with the election",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T17:09:00.0000000Z"
+            },
+            {
+                "name": "Everyone who is standing in the Rochdale by-election",
+                "url": "https://www.rochdaleonline.co.uk/news-features/2/news-headlines/155023/everyone-who-is-standing-in-the-rochdale-byelection",
+                "description": "On 29 February, residents of the Rochdale constituency will have their chance to say who they want to represent them",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/25a89873-4b9f-b274-250c-365d8aabc7b7",
+                        "name": "Rochdale"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/421136ff-89cc-4125-ab00-aa753a879db8",
+                        "name": "Standing"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Rochdale Online",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.pqtNrEFI3DJiEsi4r8pk8w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T17:05:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Business bosses fear \u2018sting in the tail\u2019 on taxes from Labour, says insider",
+                "url": "https://inews.co.uk/news/politics/business-fear-tax-rises-labour-2886820",
+                "description": "In front of bosses from companies including Microsoft and Aviva, shadow Chancellor Rachel Reeves pledged that Labour would freeze corporation tax for five years if it wins the next election.",
+                "mentions": [
+                    {
+                        "name": "Insider"
+                    },
+                    {
+                        "name": "Australian Labor Party"
+                    },
+                    {
+                        "name": "dMG Media"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T17:02:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Power sharing in Northern Ireland set to be resurrected two years after collapse",
+                "url": "https://www.mirror.co.uk/news/politics/power-sharing-northern-ireland-set-32033049",
+                "description": "In a historic moment Sinn Fein&#39;s Michelle O&#39;Neill will become the first republican First Minister after the DUP ended a two-year political paralysis at Stormont",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4b8bc44-385c-e87b-bb7d-b32328f53502",
+                        "name": "Northern Ireland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2d4e3828-a289-189d-24d3-12abe248cee7",
+                        "name": "Consociationalism"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Northern Ireland"
+                    },
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "Consociationalism"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T17:02:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Green Party</b> candidate to meet Southam residents",
+                "url": "https://stratfordobserver.co.uk/news/green-party-candidate-to-meet-southam-residents-48144/",
+                "description": "THERE is a chance to meet the Green Party candidate for Kenilworth and Southam. Coun Zoe Leventhal is inviting residents for tea and cakes at the Grange Hall in Southam tomorrow (Saturday). The event runs from 12.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6eada6d5-25fd-9a16-cf01-a9162f287ab2",
+                        "name": "Southam"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Stratford-upon-Avon Observer",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.vNAGcSPKMkM--vM1FAjVrQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T17:01:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Shish, that&#39;s expensive: Spiralling cost of doner kebabs is debated in German parliament as producers warn price of national dish will soon pass ten euros",
+                "url": "https://www.dailymail.co.uk/news/article-13038521/Shish-thats-expensive-Spiralling-cost-doner-kebabs-debated-German-parliament-producers-warn-price-national-dish-soon-pass-ten-euros.html",
+                "description": "Germany &#39;s well-publicised &#39;winter of discontent&#39; has just taken yet another turn for the wurst as the price of a doner kebab continues to climb - with some warning it could soon reach ten euros",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/93a3e0e2-aecf-e53b-8432-c15f400cfb4e",
+                        "name": "Daily Mail"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3d682db9-007d-4ee8-2123-6e8c2b6e3b3b",
+                        "name": "SHISH"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d1631258-80bf-0565-a89b-0d542603079b",
+                        "name": "Bundestag"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Daily Mail"
+                    },
+                    {
+                        "name": "SHISH"
+                    },
+                    {
+                        "name": "Bundestag"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T16:50:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Angela Rayner casts more doubt on Labour&#39;s \u00a328bn <b>green</b> investment vow",
+                "url": "https://www.heraldscotland.com/news/24094366.angela-rayner-casts-doubt-labours-28bn-green-investment-vow/",
+                "description": "Angela Rayner has cast further doubt on Labour\u2019s plan to invest up to \u00a328billion a year in the green economy if it wins power, calling the",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "heraldscotland",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PjDUWS-WIq7w595SCRQefg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T16:19:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Labour deputy leader doubles down on workers&#39; rights pledges after backtracking reports",
+                "url": "https://news.sky.com/story/labour-deputy-leader-doubles-down-on-workers-rights-pledges-amid-backtracking-reports-13062223",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Oa0b7HnkRXYZIz1qqYNFnC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Angela Rayner reiterated a commitment to introduce draft legislation\u00a0within 100 days of a Labour victory to enshrine its employment promises in law. It comes following claims the party had rowed back on some of its pledges.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c0fc345-a834-c89a-4f3a-0cf8b94634ac",
+                        "name": "Backtracking"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/08d1c2c2-5d96-aec3-38a1-53f7940ba04f",
+                        "name": "Deputy leader"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Backtracking"
+                    },
+                    {
+                        "name": "Deputy leader"
+                    },
+                    {
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Eg62H9DIbo-JYPI6GpAgGA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T16:15:00.0000000Z",
+                "video": {
+                    "name": "&#39;We will end bogus self-employment&#39;",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/8eb255c9-d7c5-4889-855d-1ea449098b80/26fa6598-1df4-4af5-ada9-884429e2_650.mp4",
+                    "thumbnail": {
+                        "width": 360,
+                        "height": 360
+                    }
+                },
+                "category": "Business"
+            },
+            {
+                "name": "Senior MP all but confirms Labour has dropped \u00a328bn <b>green</b> investment target",
+                "url": "https://www.theguardian.com/politics/2024/feb/02/senior-mp-confirms-labour-has-dropped-28bn-target-for-green-investment",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.H_wYH2bhpI00SDQX24182S&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Darren Jones says party will decide budget based on state of economy and individual projects if it wins election",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f84afe8b-a1e9-26e5-eb14-c436a057f0f5",
+                        "name": "Green politics"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Senior"
+                    },
+                    {
+                        "name": "Australian Labor Party"
+                    },
+                    {
+                        "name": "Asia-Pacific Trade Agreements Database"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T16:14:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Rayner says Labour still wants to spend \u00a328bn on <b>green</b> investment but won\u2019t be bound by \u2018arbitrary\u2019 number \u2013 as it happened",
+                "url": "https://www.theguardian.com/politics/live/2024/feb/02/labour-28bn-green-investment-pledge-keir-starmer-rachel-reeves-uk-politics-live",
+                "description": "Labour deputy leader says green spending would depend on state of public finances during visit to Scotland",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/44912ba0-6f05-8470-af62-7b2639fa6d05",
+                        "name": "Rachel Reeves"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Rachel Reeves"
+                    },
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Arbitrariness"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T15:53:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Rachel Reeves: The Labour MP\u2019s whopping five-figure salary revealed",
+                "url": "https://www.ohmymag.co.uk/news/rachel-reeves-the-labour-mps-whopping-five-figure-salary-revealed_art21014.html",
+                "description": "However, there has been a major update today during the course of another Sky News interview: a senior MP has confirmed Labour is dropping the \u00a328bn target for green investment. Darren Jones, the shadow chief secretary to the Treasury, revealed this morning that the party has already ditched the plan.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/44912ba0-6f05-8470-af62-7b2639fa6d05",
+                        "name": "Rachel Reeves"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Rachel Reeves"
+                    },
+                    {
+                        "name": "New Zealand Labour Party"
+                    },
+                    {
+                        "name": "Member of parliament"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "ohmymag",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.paSXOEqa6avLJqgrjvvuFA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T15:49:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Labour\u2019s core supporters have been betrayed. And it will haunt Keir Starmer",
+                "url": "https://inews.co.uk/opinion/labour-core-supporters-betrayed-haunt-keir-starmer-2886058?ico=most_popular",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.2shk98_nG8EjcRqfi7jqHC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "You can see why Labour has decided to keep things as they are in this regard. The party is desperately keen to be seen as supportive of business and financial services, and they do not want to shake up or alienate those sectors in an election year, at an extremely difficult economic juncture.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/63a6ef59-71fd-db08-08c6-d47d973d47fb",
+                        "name": "Keir Starmer"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f2a8089a-425f-31c2-a137-ddcbe6da247c",
+                        "name": "Core"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f46e3c58-115f-189c-c3d0-54aabe6a93b9",
+                        "name": "Supporter"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T15:35:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Politics latest news: Labour starts pre-election talks with civil service",
+                "url": "https://www.telegraph.co.uk/politics/2024/02/02/rishi-sunak-latest-news-red-wall-reform-uk-labour-stormont/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.p5dOSNLRPnxprU0ZREjZWS&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "Reform UK has hit its highest ever level of support in crucial Red Wall seats, according to a new poll. A Redfield &amp; Wilton Strategies survey, conducted between Jan 30-31, put Richard Tice\u2019s party on 14 per cent of the vote. That was up by three points when compared to the company\u2019s previous poll conducted between Dec 17-18.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/45941516-fa67-5c15-3501-fc7e57592ae2",
+                        "name": "Red Wall"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Red Wall"
+                    },
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T15:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Angela Rayner: Labour not committed to \u2018arbitrary\u2019 figures on <b>green</b> investment",
+                "url": "https://www.scotsman.com/news/politics/angela-rayner-labour-not-committed-to-arbitrary-figures-on-green-investment-4503410",
+                "description": "Drew Hendry, the SNP\u2019s economy spokesman, said: &quot;This latest U-turn by Sir Keir Starmer, which mirrors the economic negligence of the Tories, is a deeply damaging move that threatens jobs, investment and economic growth in Scotland \u2013 at a time when it&#39;s needed more than ever.\u201d",
+                "mentions": [
+                    {
+                        "name": "Rayner"
+                    },
+                    {
+                        "name": "Arbitrariness"
+                    },
+                    {
+                        "name": "Asia-Pacific Trade Agreements Database"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Scotsman",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.QlHkHD_RALY4hnQHpw7jBw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T14:49:00.0000000Z"
+            },
+            {
+                "name": "<b>Green Party</b> Welcomes Decision To Save Promote Learning Disability Service",
+                "url": "https://www.4ni.co.uk/northern-ireland-news/304631/green-party-welcomes-decision-to-save-promote-learning-disability-service",
+                "description": "The Green Party has welcomed the decision by charity &amp; social, Orchardville, to run the Promote Learning Disability Service in Bangor after it was under threat of closure. Although delighted by the news,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2c3b8cad-d2d7-e163-b28e-19d4d6d8b0d4",
+                        "name": "Learning disability"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4b8bc44-385c-e87b-bb7d-b32328f53502",
+                        "name": "Northern Ireland"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "4NI"
+                    }
+                ],
+                "datePublished": "2024-02-02T14:43:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Labour not committed to \u2018arbitrary\u2019 numbers on <b>green</b> investment \u2013 Rayner",
+                "url": "https://www.standard.co.uk/news/politics/nicola-sturgeon-snp-jobs-scotland-scottish-government-b1136698.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.y4DMLd-9HmOhtTicCSWD5C&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Labour deputy leader Angela Rayner has said the party is not committed to \u201carbitrary\u201d numbers on its pledge to ultimately invest \u00a328 billion a year in the green economy. She said the money will depend on sticking to fiscal rules and Labour will \u201cramp up\u201d to this figure if in government.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40ff83fa-c18c-9216-49aa-77a9d6a5cc28",
+                        "name": "Nicola Sturgeon"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Nicola Sturgeon"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Scottish Government"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T14:39:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Ryanair&#39;s Michael O&#39;Leary calls Environment Minister Eamon Ryan &#39;useless&#39; over Dublin Airport row",
+                "url": "https://www.irishmirror.ie/news/irish-news/politics/ryanairs-michael-oleary-calls-environment-32031269",
+                "description": "It is reported that there were at least 380 submissions to Fingal County Council about the plan to increase the cap at Dublin Airport, with Green Party Junior Minister Joe O\u2019Brien, Limerick TD Brian L",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/77f28672-5669-4775-a58a-b62b17779010",
+                        "name": "Ireland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/05714ddc-7842-9540-1ffb-73e241085bd2",
+                        "name": "Michael O&#39;Leary"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/859ed183-da43-73fc-a369-2e89d2d7a210",
+                        "name": "Eamon Ryan"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Irish Daily Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.2BcD1ARbWJ-h3eIGF0o4xA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T14:33:00.0000000Z"
+            },
+            {
+                "name": "Donaldson \u2018will hold Government\u2019s feet to the fire\u2019 over Stormont deal",
+                "url": "https://www.northwichguardian.co.uk/news/national/24092880.donaldson-will-hold-governments-feet-fire-stormont-deal/",
+                "description": "The leader of the DUP has warned the Government he will hold its \u201cfeet to the fire\u201d on delivering on the deal to restore Stormont as he admitted he did not fully trust it. Sir Jeffrey Donaldson said independent monitoring mechanisms built into the agreement meant there were means to ensure the Government was doing what it has pledged to do.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/689dc179-9174-cb76-53c7-7a6d087c0148",
+                        "name": "Jeffrey Donaldson"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fc276817-3034-0116-3770-f900f6d99a28",
+                        "name": "Parliament Buildings"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5634d914-4190-dd0b-fa80-715c2ac46335",
+                        "name": "Government"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Northwich Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.NqDOtAgzenX7v33Gdk_Ouw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T14:19:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Transcript: Who still votes Conservative?",
+                "url": "https://www.ft.com/content/5e322c62-42dc-4744-b688-830fd29c0fc9",
+                "description": "Lucy Fisher And in favour of Labour. Miranda <b>Green</b> Very much in favour of Labour. So it\u2019s another part of that puzzle of where does the Tory <b>party</b> think its future voters are coming from. Lucy Fisher I just want to move on to one more group quickly ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Financial Times"
+                    }
+                ],
+                "datePublished": "2024-02-02T10:06:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Leo Varadkar weighs into Ryanair spat and tells Michael O\u2019Leary Minister \u2018not an idiot\u2019 in Dublin Airport passenger row",
+                "url": "https://www.thesun.ie/news/12121612/leo-varadkar-ryanair-michael-oleary-minister-dublin-airport/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.pq6Fq9_yVu-1DmUwqDVNKS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Ryanair are now calling for the Transport Minister to step down over the <b>Green Party</b>\u2019s opposition to the cap on passengers being lifted from 32 million to 40 million over the next two years. Airport operator daa are seeking permission from the local ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/509fc2dd-9366-912f-1c62-33c019683e5b",
+                        "name": "Dublin Airport"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/416c0ed4-d041-d9d6-4ddb-0d5c65f5be34",
+                        "name": "Ryanair"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6d381967-27a2-c10c-0b47-bfe5c33d1e77",
+                        "name": "Leo Varadkar"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Irish Sun"
+                    }
+                ],
+                "datePublished": "2024-02-02T00:00:00.0000000Z"
+            },
+            {
+                "name": "Council row over new \u00a360,000 gates to close south Belfast park at night",
+                "url": "https://www.belfasttelegraph.co.uk/news/northern-ireland/council-row-over-new-60000-gates-to-close-south-belfast-park-at-night/a107557121.html",
+                "description": "Alliance councillor Michael Long asked about the \u201ccompetence\u201d of the <b>Green Party</b> proposal, and said: \u201cWe have absolutely no idea what the details of this would be. I am all for having things like this, I would just need to know a little more about it ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/43f5e852-8abf-1b08-b274-3386c9855f77",
+                        "name": "Council of the European Union"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/796f4595-5402-1ea3-dc22-4e7da0354894",
+                        "name": "South Belfast News"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c907468c-305f-67d6-0da9-2137a3bfae78",
+                        "name": "Belfast South"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Belfast Telegraph"
+                    }
+                ],
+                "datePublished": "2024-02-02T00:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Alliance Calls For Swifter Implementation On Gynaecological Services",
+                "url": "https://www.4ni.co.uk/northern-ireland-news/304632/alliance-calls-for-swifter-implementation-on-gynaecological-services",
+                "description": "The <b>Green Party</b> has welcomed the decision by charity &amp; social, Orchardville, to run the Promote Learning Disability Service in Bangor after it was under threat of closure. Although delighted by the news, Councillor McKee said that it was &quot;disgraceful&quot; that ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4b8bc44-385c-e87b-bb7d-b32328f53502",
+                        "name": "Northern Ireland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2551071c-1ca2-4f1c-a792-ac80f04bfd9b",
+                        "name": "Alliance"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1714f856-5f28-73bb-a7d0-18982c072a3b",
+                        "name": "Implementation"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "4NI"
+                    }
+                ],
+                "datePublished": "2024-02-02T00:00:00.0000000Z",
+                "category": "UK"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=Green+Party",
+        "queryContext": {
+            "originalQuery": "Green Party",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 234,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Green+Party"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Green+Party&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Events of the Week: \u2018Curb Your Enthusiasm,\u2019 Grammys Parties and More",
+                "url": "https://uk.style.yahoo.com/events-week-curb-enthusiasm-grammys-191750647.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.wWG4GkPVGm_jHXp7V9hujS&pid=News",
+                        "width": 700,
+                        "height": 394
+                    }
+                },
+                "description": "Here\u2019s a look at this week\u2019s biggest premieres, parties and openings in Los Angeles and New York, including events for Curb Your Enthusiasm, Mr. &amp; Mrs. Smith and the Grammys. Curb Your Enthusiasm premiere Larry David,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0c7733a0-96e1-f937-b30a-73efacaf04f5",
+                        "name": "Curb Your Enthusiasm"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/bfae241a-38e8-0e61-11d8-8edad52d3e32",
+                        "name": "Party"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/703b3280-6e1a-d301-6f0b-6a6b5002af60",
+                        "name": "Grammy Awards"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Style UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.R1Y_kEYTGAFzjK1_2NaYlQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T19:17:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Reform support in Red Wall hits highest level ever",
+                "url": "https://www.telegraph.co.uk/politics/2024/02/02/reform-party-red-wall-highest-support-richard-tice/",
+                "description": "Richard Tice\u2019s party now on 14 per cent across 40 of the traditionally Labour-held seats won by the Tories in 2019, poll shows",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/120d4238-df93-4584-9fac-30072ef9ad9d",
+                        "name": "Reform"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Reform"
+                    },
+                    {
+                        "name": "Red Wall"
+                    },
+                    {
+                        "name": "Poll"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T19:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Liverpool City Council to repay millions after jobs target missed",
+                "url": "https://www.bbc.com/news/uk-england-merseyside-68182057",
+                "description": "A council is to give millions of pounds back to the government after a jobs target for a waterfront regeneration project was not met. Liverpool City Council has blamed a car park fire for the inability to create hundreds of jobs on Kings Dock.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a5642e81-20ab-a561-17cc-52a63926b210",
+                        "name": "Liverpool"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k3N4DqozNjgK376rAnFmsA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T18:38:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Eleven candidates announced for Rochdale by-election",
+                "url": "https://www.bbc.com/news/uk-england-manchester-68181089",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.72Sei-BcdZVZhi2rU2SSJS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Eleven candidates have been announced in a by-election which was called after the death of a veteran Labour MP. The poll in Rochdale was triggered after Sir Tony Lloyd died in January, days after announcing he had an incurable form of leukaemia.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/25a89873-4b9f-b274-250c-365d8aabc7b7",
+                        "name": "Rochdale"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k3N4DqozNjgK376rAnFmsA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T18:13:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Labour&#39;s quaint tradition of scrapping their \u00a328bn <b>green</b> pledge",
+                "url": "https://www.thenational.scot/politics/24094733.labours-quaint-tradition-scrapping-28bn-green-pledge/",
+                "description": "For those mercifully shielded from the tedium of Labour <b>Party</b> policy, a short recap. The policy was first announced by Rachel Reeves in 2021, who boasted of her ambition of being the \u201cfirst <b>green</b> chancellor\u201d. READ MORE: &#39;What&#39;s the point?&#39;:",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/36832ad6-940d-3943-b261-f8ed799d4523",
+                        "name": "Scrap"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/de02adea-5fe2-517a-e485-a94a99bd572d",
+                        "name": "Pledge"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National"
+                    }
+                ],
+                "datePublished": "2024-02-02T18:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Pub relaunch <b>party</b> tonight - and you&#39;ll recognise who&#39;s behind the bar",
+                "url": "https://www.stokesentinel.co.uk/news/stoke-on-trent-news/relaunch-party-celebrates-returning-licensee-9064165",
+                "description": "A Kidsgrove pub is celebrating a change of ownership with a relaunch party. Licensee Ian Cooper has reopened The Clough Hall. The 50-year-old already ran the Clough Hall Road venue for nearly three years.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2efa6384-eb20-dbf0-d19a-2c63f3b239fb",
+                        "name": "Stoke-on-Trent"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "TheSentinel",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.WWQvUIztUri0mAo-Bdp4qg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T18:00:00.0000000Z"
+            },
+            {
+                "name": "Junior Transport Minister &#39;fully supports&#39; raising Dublin Airport cap as coalition divided",
+                "url": "https://www.irishmirror.ie/news/irish-news/politics/junior-minister-dublin-airport-cap-32033902",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ghfQCs9C7xOzAyI62IQuSy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "As a spokeswoman for Transport Minister Eamon Ryan said that he &quot;cannot and would not intervene in that independent process in any way&quot;, Junior Minister Jack Chambers backed the daa&#39;s plan to increase",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/509fc2dd-9366-912f-1c62-33c019683e5b",
+                        "name": "Dublin Airport"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f98c3adb-3692-18e4-36b8-ade1c09ae733",
+                        "name": "Junior"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Dublin Airport"
+                    },
+                    {
+                        "name": "Junior"
+                    },
+                    {
+                        "name": "Minister"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Irish Daily Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.2BcD1ARbWJ-h3eIGF0o4xA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T17:57:00.0000000Z"
+            },
+            {
+                "name": "Labour will look for &#39;radicalism&#39; through reform rather than risk fiscal slip-up",
+                "url": "https://news.sky.com/story/labour-will-look-for-radicalism-through-reform-13062317?dcmp=snt-sf-twitter",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.wiBmWGfgCCNpwGj4uknoZC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "In a week of row backs from her <b>party</b> over reinstating the cap on bankers&#39; bonuses and pouring up to \u00a328bn a year into <b>green</b> energy, Angela Rayner is one Labour politician standing her ground. In Scotland to promote her &quot;new deal for workers&quot;, the deputy ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/120d4238-df93-4584-9fac-30072ef9ad9d",
+                        "name": "Reform"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Reform"
+                    },
+                    {
+                        "name": "Australian Labor Party"
+                    },
+                    {
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky"
+                    }
+                ],
+                "datePublished": "2024-02-02T17:57:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Marjorie Taylor Greene mocked for struggling to pronounce indictable or read a long number",
+                "url": "https://www.independent.co.uk/news/world/americas/us-politics/marjorie-taylor-greene-indictment-pronounciation-b2489646.html",
+                "description": "Ms Greene\u2019s gaffe occurred on Tuesday while the House Homeland Security Committee debated whether or not the homeland security secretary Alejandro Mayorkas should be impeached",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fba9997c-e1d1-f1ed-dcea-788f8813f75b",
+                        "name": "Marjorie"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/71394ed3-db37-d737-580c-b2caafd7b0f5",
+                        "name": "Long number"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "Marjorie"
+                    },
+                    {
+                        "name": "Long number"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T17:45:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Safeguarding the union deal: DUP leader Sir Jeffrey Donaldson says parties united in tackling unfinished finance for Northern Ireland",
+                "url": "https://www.newsletter.co.uk/news/politics/safeguarding-the-union-deal-dup-leader-sir-jeffrey-donaldson-says-parties-united-in-tackling-unfinished-finance-for-northern-ireland-4503772",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.95tx5uiKEN63fW-ngTxvEy&pid=News",
+                        "width": 700,
+                        "height": 465
+                    }
+                },
+                "description": "The new Stormont powersharing executive will be united in dealing with the \u201cunfinished business\u201d of funding for public services in Northern Ireland, DUP leader Sir Jeffrey Donaldson has said.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/689dc179-9174-cb76-53c7-7a6d087c0148",
+                        "name": "Jeffrey Donaldson"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4b8bc44-385c-e87b-bb7d-b32328f53502",
+                        "name": "Northern Ireland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b19905a0-4fe6-92a8-195d-861abbc94939",
+                        "name": "Sir"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Jeffrey Donaldson"
+                    },
+                    {
+                        "name": "Northern Ireland"
+                    },
+                    {
+                        "name": "Sir"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The News Letter",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.ss7xVoJtNCz0ucC1juxNqA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T17:41:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "DUP leader Sir Jeffrey Donaldson: Parties united in tackling unfinished business of finance for Northern Ireland",
+                "url": "https://www.newsletter.co.uk/news/politics/dup-leader-sir-jeffrey-donaldson-parties-united-in-tackling-unfinished-business-of-finance-for-northern-ireland-4503772",
+                "description": "The new Stormont powersharing executive will be united in dealing with the \u201cunfinished business\u201d of funding for public services in Northern Ireland, DUP leader Sir Jeffrey Donaldson has said.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/689dc179-9174-cb76-53c7-7a6d087c0148",
+                        "name": "Jeffrey Donaldson"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4b8bc44-385c-e87b-bb7d-b32328f53502",
+                        "name": "Northern Ireland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b19905a0-4fe6-92a8-195d-861abbc94939",
+                        "name": "Sir"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The News Letter",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.ss7xVoJtNCz0ucC1juxNqA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T17:34:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "\u2018Dishing out licences to climate criminals\u2019",
+                "url": "https://morningstaronline.co.uk/article/dishing-out-licences-climate-criminals-tory-donor-fined-illegal-gas-flaring-given",
+                "description": "CAMPAIGNERS attacked the government for \u201cdishing out licences to climate criminals\u201d today after a Tory donor-owned firm, previously fined for illegal flaring, secured a licence to drill for fossil fuels. The government green lit new licences to 17 oil and gas companies in the North Sea in the last week.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Morning Star",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.XYFAfbQ1KrLZXw8Gl4oJeg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T17:10:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Far-right Homeland <b>Party</b> registers with elections watchdog",
+                "url": "https://www.thenational.scot/news/24094646.far-right-homeland-party-registers-elections-watchdog/",
+                "description": "A FAR-RIGHT group which splintered from the \u201cUK\u2019s most dangerous\u201d nationalist organisation has been registered with the election",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T17:09:00.0000000Z"
+            },
+            {
+                "name": "Everyone who is standing in the Rochdale by-election",
+                "url": "https://www.rochdaleonline.co.uk/news-features/2/news-headlines/155023/everyone-who-is-standing-in-the-rochdale-byelection",
+                "description": "On 29 February, residents of the Rochdale constituency will have their chance to say who they want to represent them",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/25a89873-4b9f-b274-250c-365d8aabc7b7",
+                        "name": "Rochdale"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/421136ff-89cc-4125-ab00-aa753a879db8",
+                        "name": "Standing"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Rochdale Online",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.pqtNrEFI3DJiEsi4r8pk8w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T17:05:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Business bosses fear \u2018sting in the tail\u2019 on taxes from Labour, says insider",
+                "url": "https://inews.co.uk/news/politics/business-fear-tax-rises-labour-2886820",
+                "description": "In front of bosses from companies including Microsoft and Aviva, shadow Chancellor Rachel Reeves pledged that Labour would freeze corporation tax for five years if it wins the next election.",
+                "mentions": [
+                    {
+                        "name": "Insider"
+                    },
+                    {
+                        "name": "Australian Labor Party"
+                    },
+                    {
+                        "name": "dMG Media"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T17:02:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Power sharing in Northern Ireland set to be resurrected two years after collapse",
+                "url": "https://www.mirror.co.uk/news/politics/power-sharing-northern-ireland-set-32033049",
+                "description": "In a historic moment Sinn Fein&#39;s Michelle O&#39;Neill will become the first republican First Minister after the DUP ended a two-year political paralysis at Stormont",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4b8bc44-385c-e87b-bb7d-b32328f53502",
+                        "name": "Northern Ireland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2d4e3828-a289-189d-24d3-12abe248cee7",
+                        "name": "Consociationalism"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Northern Ireland"
+                    },
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "Consociationalism"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T17:02:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Green Party</b> candidate to meet Southam residents",
+                "url": "https://stratfordobserver.co.uk/news/green-party-candidate-to-meet-southam-residents-48144/",
+                "description": "THERE is a chance to meet the Green Party candidate for Kenilworth and Southam. Coun Zoe Leventhal is inviting residents for tea and cakes at the Grange Hall in Southam tomorrow (Saturday). The event runs from 12.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6eada6d5-25fd-9a16-cf01-a9162f287ab2",
+                        "name": "Southam"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Stratford-upon-Avon Observer",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.vNAGcSPKMkM--vM1FAjVrQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T17:01:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Shish, that&#39;s expensive: Spiralling cost of doner kebabs is debated in German parliament as producers warn price of national dish will soon pass ten euros",
+                "url": "https://www.dailymail.co.uk/news/article-13038521/Shish-thats-expensive-Spiralling-cost-doner-kebabs-debated-German-parliament-producers-warn-price-national-dish-soon-pass-ten-euros.html",
+                "description": "Germany &#39;s well-publicised &#39;winter of discontent&#39; has just taken yet another turn for the wurst as the price of a doner kebab continues to climb - with some warning it could soon reach ten euros",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/93a3e0e2-aecf-e53b-8432-c15f400cfb4e",
+                        "name": "Daily Mail"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3d682db9-007d-4ee8-2123-6e8c2b6e3b3b",
+                        "name": "SHISH"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d1631258-80bf-0565-a89b-0d542603079b",
+                        "name": "Bundestag"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Daily Mail"
+                    },
+                    {
+                        "name": "SHISH"
+                    },
+                    {
+                        "name": "Bundestag"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T16:50:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Angela Rayner casts more doubt on Labour&#39;s \u00a328bn <b>green</b> investment vow",
+                "url": "https://www.heraldscotland.com/news/24094366.angela-rayner-casts-doubt-labours-28bn-green-investment-vow/",
+                "description": "Angela Rayner has cast further doubt on Labour\u2019s plan to invest up to \u00a328billion a year in the green economy if it wins power, calling the",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "heraldscotland",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PjDUWS-WIq7w595SCRQefg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T16:19:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Labour deputy leader doubles down on workers&#39; rights pledges after backtracking reports",
+                "url": "https://news.sky.com/story/labour-deputy-leader-doubles-down-on-workers-rights-pledges-amid-backtracking-reports-13062223",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Oa0b7HnkRXYZIz1qqYNFnC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Angela Rayner reiterated a commitment to introduce draft legislation\u00a0within 100 days of a Labour victory to enshrine its employment promises in law. It comes following claims the party had rowed back on some of its pledges.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c0fc345-a834-c89a-4f3a-0cf8b94634ac",
+                        "name": "Backtracking"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/08d1c2c2-5d96-aec3-38a1-53f7940ba04f",
+                        "name": "Deputy leader"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Backtracking"
+                    },
+                    {
+                        "name": "Deputy leader"
+                    },
+                    {
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Eg62H9DIbo-JYPI6GpAgGA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T16:15:00.0000000Z",
+                "video": {
+                    "name": "&#39;We will end bogus self-employment&#39;",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/8eb255c9-d7c5-4889-855d-1ea449098b80/26fa6598-1df4-4af5-ada9-884429e2_650.mp4",
+                    "thumbnail": {
+                        "width": 360,
+                        "height": 360
+                    }
+                },
+                "category": "Business"
+            },
+            {
+                "name": "Senior MP all but confirms Labour has dropped \u00a328bn <b>green</b> investment target",
+                "url": "https://www.theguardian.com/politics/2024/feb/02/senior-mp-confirms-labour-has-dropped-28bn-target-for-green-investment",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.H_wYH2bhpI00SDQX24182S&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Darren Jones says party will decide budget based on state of economy and individual projects if it wins election",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f84afe8b-a1e9-26e5-eb14-c436a057f0f5",
+                        "name": "Green politics"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Senior"
+                    },
+                    {
+                        "name": "Australian Labor Party"
+                    },
+                    {
+                        "name": "Asia-Pacific Trade Agreements Database"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T16:14:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Rayner says Labour still wants to spend \u00a328bn on <b>green</b> investment but won\u2019t be bound by \u2018arbitrary\u2019 number \u2013 as it happened",
+                "url": "https://www.theguardian.com/politics/live/2024/feb/02/labour-28bn-green-investment-pledge-keir-starmer-rachel-reeves-uk-politics-live",
+                "description": "Labour deputy leader says green spending would depend on state of public finances during visit to Scotland",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/44912ba0-6f05-8470-af62-7b2639fa6d05",
+                        "name": "Rachel Reeves"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Rachel Reeves"
+                    },
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Arbitrariness"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T15:53:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Rachel Reeves: The Labour MP\u2019s whopping five-figure salary revealed",
+                "url": "https://www.ohmymag.co.uk/news/rachel-reeves-the-labour-mps-whopping-five-figure-salary-revealed_art21014.html",
+                "description": "However, there has been a major update today during the course of another Sky News interview: a senior MP has confirmed Labour is dropping the \u00a328bn target for green investment. Darren Jones, the shadow chief secretary to the Treasury, revealed this morning that the party has already ditched the plan.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/44912ba0-6f05-8470-af62-7b2639fa6d05",
+                        "name": "Rachel Reeves"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Rachel Reeves"
+                    },
+                    {
+                        "name": "New Zealand Labour Party"
+                    },
+                    {
+                        "name": "Member of parliament"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "ohmymag",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.paSXOEqa6avLJqgrjvvuFA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T15:49:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Labour\u2019s core supporters have been betrayed. And it will haunt Keir Starmer",
+                "url": "https://inews.co.uk/opinion/labour-core-supporters-betrayed-haunt-keir-starmer-2886058?ico=most_popular",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.2shk98_nG8EjcRqfi7jqHC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "You can see why Labour has decided to keep things as they are in this regard. The party is desperately keen to be seen as supportive of business and financial services, and they do not want to shake up or alienate those sectors in an election year, at an extremely difficult economic juncture.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/63a6ef59-71fd-db08-08c6-d47d973d47fb",
+                        "name": "Keir Starmer"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f2a8089a-425f-31c2-a137-ddcbe6da247c",
+                        "name": "Core"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f46e3c58-115f-189c-c3d0-54aabe6a93b9",
+                        "name": "Supporter"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T15:35:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Politics latest news: Labour starts pre-election talks with civil service",
+                "url": "https://www.telegraph.co.uk/politics/2024/02/02/rishi-sunak-latest-news-red-wall-reform-uk-labour-stormont/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.p5dOSNLRPnxprU0ZREjZWS&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "Reform UK has hit its highest ever level of support in crucial Red Wall seats, according to a new poll. A Redfield &amp; Wilton Strategies survey, conducted between Jan 30-31, put Richard Tice\u2019s party on 14 per cent of the vote. That was up by three points when compared to the company\u2019s previous poll conducted between Dec 17-18.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/45941516-fa67-5c15-3501-fc7e57592ae2",
+                        "name": "Red Wall"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Red Wall"
+                    },
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T15:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Angela Rayner: Labour not committed to \u2018arbitrary\u2019 figures on <b>green</b> investment",
+                "url": "https://www.scotsman.com/news/politics/angela-rayner-labour-not-committed-to-arbitrary-figures-on-green-investment-4503410",
+                "description": "Drew Hendry, the SNP\u2019s economy spokesman, said: &quot;This latest U-turn by Sir Keir Starmer, which mirrors the economic negligence of the Tories, is a deeply damaging move that threatens jobs, investment and economic growth in Scotland \u2013 at a time when it&#39;s needed more than ever.\u201d",
+                "mentions": [
+                    {
+                        "name": "Rayner"
+                    },
+                    {
+                        "name": "Arbitrariness"
+                    },
+                    {
+                        "name": "Asia-Pacific Trade Agreements Database"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Scotsman",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.QlHkHD_RALY4hnQHpw7jBw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T14:49:00.0000000Z"
+            },
+            {
+                "name": "<b>Green Party</b> Welcomes Decision To Save Promote Learning Disability Service",
+                "url": "https://www.4ni.co.uk/northern-ireland-news/304631/green-party-welcomes-decision-to-save-promote-learning-disability-service",
+                "description": "The Green Party has welcomed the decision by charity &amp; social, Orchardville, to run the Promote Learning Disability Service in Bangor after it was under threat of closure. Although delighted by the news,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2c3b8cad-d2d7-e163-b28e-19d4d6d8b0d4",
+                        "name": "Learning disability"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4b8bc44-385c-e87b-bb7d-b32328f53502",
+                        "name": "Northern Ireland"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "4NI"
+                    }
+                ],
+                "datePublished": "2024-02-02T14:43:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Labour not committed to \u2018arbitrary\u2019 numbers on <b>green</b> investment \u2013 Rayner",
+                "url": "https://www.standard.co.uk/news/politics/nicola-sturgeon-snp-jobs-scotland-scottish-government-b1136698.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.y4DMLd-9HmOhtTicCSWD5C&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Labour deputy leader Angela Rayner has said the party is not committed to \u201carbitrary\u201d numbers on its pledge to ultimately invest \u00a328 billion a year in the green economy. She said the money will depend on sticking to fiscal rules and Labour will \u201cramp up\u201d to this figure if in government.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40ff83fa-c18c-9216-49aa-77a9d6a5cc28",
+                        "name": "Nicola Sturgeon"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Nicola Sturgeon"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Scottish Government"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T14:39:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Ryanair&#39;s Michael O&#39;Leary calls Environment Minister Eamon Ryan &#39;useless&#39; over Dublin Airport row",
+                "url": "https://www.irishmirror.ie/news/irish-news/politics/ryanairs-michael-oleary-calls-environment-32031269",
+                "description": "It is reported that there were at least 380 submissions to Fingal County Council about the plan to increase the cap at Dublin Airport, with Green Party Junior Minister Joe O\u2019Brien, Limerick TD Brian L",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/77f28672-5669-4775-a58a-b62b17779010",
+                        "name": "Ireland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/05714ddc-7842-9540-1ffb-73e241085bd2",
+                        "name": "Michael O&#39;Leary"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/859ed183-da43-73fc-a369-2e89d2d7a210",
+                        "name": "Eamon Ryan"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Irish Daily Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.2BcD1ARbWJ-h3eIGF0o4xA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T14:33:00.0000000Z"
+            },
+            {
+                "name": "Donaldson \u2018will hold Government\u2019s feet to the fire\u2019 over Stormont deal",
+                "url": "https://www.northwichguardian.co.uk/news/national/24092880.donaldson-will-hold-governments-feet-fire-stormont-deal/",
+                "description": "The leader of the DUP has warned the Government he will hold its \u201cfeet to the fire\u201d on delivering on the deal to restore Stormont as he admitted he did not fully trust it. Sir Jeffrey Donaldson said independent monitoring mechanisms built into the agreement meant there were means to ensure the Government was doing what it has pledged to do.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/689dc179-9174-cb76-53c7-7a6d087c0148",
+                        "name": "Jeffrey Donaldson"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fc276817-3034-0116-3770-f900f6d99a28",
+                        "name": "Parliament Buildings"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5634d914-4190-dd0b-fa80-715c2ac46335",
+                        "name": "Government"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Northwich Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.NqDOtAgzenX7v33Gdk_Ouw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-02T14:19:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Transcript: Who still votes Conservative?",
+                "url": "https://www.ft.com/content/5e322c62-42dc-4744-b688-830fd29c0fc9",
+                "description": "Lucy Fisher And in favour of Labour. Miranda <b>Green</b> Very much in favour of Labour. So it\u2019s another part of that puzzle of where does the Tory <b>party</b> think its future voters are coming from. Lucy Fisher I just want to move on to one more group quickly ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Financial Times"
+                    }
+                ],
+                "datePublished": "2024-02-02T10:06:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Leo Varadkar weighs into Ryanair spat and tells Michael O\u2019Leary Minister \u2018not an idiot\u2019 in Dublin Airport passenger row",
+                "url": "https://www.thesun.ie/news/12121612/leo-varadkar-ryanair-michael-oleary-minister-dublin-airport/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.pq6Fq9_yVu-1DmUwqDVNKS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Ryanair are now calling for the Transport Minister to step down over the <b>Green Party</b>\u2019s opposition to the cap on passengers being lifted from 32 million to 40 million over the next two years. Airport operator daa are seeking permission from the local ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/509fc2dd-9366-912f-1c62-33c019683e5b",
+                        "name": "Dublin Airport"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/416c0ed4-d041-d9d6-4ddb-0d5c65f5be34",
+                        "name": "Ryanair"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6d381967-27a2-c10c-0b47-bfe5c33d1e77",
+                        "name": "Leo Varadkar"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Irish Sun"
+                    }
+                ],
+                "datePublished": "2024-02-02T00:00:00.0000000Z"
+            },
+            {
+                "name": "Council row over new \u00a360,000 gates to close south Belfast park at night",
+                "url": "https://www.belfasttelegraph.co.uk/news/northern-ireland/council-row-over-new-60000-gates-to-close-south-belfast-park-at-night/a107557121.html",
+                "description": "Alliance councillor Michael Long asked about the \u201ccompetence\u201d of the <b>Green Party</b> proposal, and said: \u201cWe have absolutely no idea what the details of this would be. I am all for having things like this, I would just need to know a little more about it ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/43f5e852-8abf-1b08-b274-3386c9855f77",
+                        "name": "Council of the European Union"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/796f4595-5402-1ea3-dc22-4e7da0354894",
+                        "name": "South Belfast News"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c907468c-305f-67d6-0da9-2137a3bfae78",
+                        "name": "Belfast South"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Belfast Telegraph"
+                    }
+                ],
+                "datePublished": "2024-02-02T00:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Alliance Calls For Swifter Implementation On Gynaecological Services",
+                "url": "https://www.4ni.co.uk/northern-ireland-news/304632/alliance-calls-for-swifter-implementation-on-gynaecological-services",
+                "description": "The <b>Green Party</b> has welcomed the decision by charity &amp; social, Orchardville, to run the Promote Learning Disability Service in Bangor after it was under threat of closure. Although delighted by the news, Councillor McKee said that it was &quot;disgraceful&quot; that ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4b8bc44-385c-e87b-bb7d-b32328f53502",
+                        "name": "Northern Ireland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2551071c-1ca2-4f1c-a792-ac80f04bfd9b",
+                        "name": "Alliance"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1714f856-5f28-73bb-a7d0-18982c072a3b",
+                        "name": "Implementation"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "4NI"
+                    }
+                ],
+                "datePublished": "2024-02-02T00:00:00.0000000Z",
+                "category": "UK"
+            }
+        ]
+    }
+]

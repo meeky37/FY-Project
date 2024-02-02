@@ -1,0 +1,2227 @@
+[
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=SNP",
+        "queryContext": {
+            "originalQuery": "SNP",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 13000,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=SNP"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=SNP&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Grinning Blackford hand in hand with new lover after his marriage broke down",
+                "url": "https://www.dailymail.co.uk/news/article-13035177/Grinning-Blackford-hand-hand-new-lover-marriage-broke-down.html",
+                "description": "Former SNP Westminster leader Ian Blackford has split from his wife and started a new relationship. Mr Blackford was seen hand in hand with his new partner outside a television studio in London at the weekend.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c6e5aa73-f4de-4c5d-d795-26968f7f045d",
+                        "name": "Blackford County"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/93a3e0e2-aecf-e53b-8432-c15f400cfb4e",
+                        "name": "Daily Mail"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/54e3c871-7155-1317-f301-ca1ab914e183",
+                        "name": "Smile"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Blackford County"
+                    },
+                    {
+                        "name": "Daily Mail"
+                    },
+                    {
+                        "name": "Smile"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T22:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "New poll makes grim reading for <b>SNP</b> as huge Labour boost predicted",
+                "url": "https://www.thescottishsun.co.uk/news/11900126/snp-labour-westminster-poll-results/",
+                "description": "LABOUR\u2019S election hopes\u00a0have been boosted by another poll showing them neck and neck with Nats. The bitter rivals would be\u00a0locked on\u00a023 seats each in the Westminster vote expected later this year,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e320dd44-b39b-fd9b-7883-0fe89bb44ace",
+                        "name": "Poll"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Scottish Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.pEepZhHtUOU2Dr7E3jedjg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T21:38:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "UK Covid inquiry in Scotland: Three weeks in 90 seconds",
+                "url": "https://www.bbc.com/news/uk-scotland-scotland-politics-68174557",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ySY_HVZyKSkn7Q9UGKm0dC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The UK Covid 19 inquiry has spent three weeks in Edinburgh looking at the decisions made in Scotland during the pandemic.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k3N4DqozNjgK376rAnFmsA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T19:58:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Nicola Sturgeon torn apart by Question Time audience member in brutal inquiry takedown",
+                "url": "https://www.express.co.uk/news/politics/1862280/Question-Time-Nicola-Sturgeon-Covid-Inquiry",
+                "description": "The former First Minister&#39;s popularity has seemingly taken a big hit during the last week&#39;s Covid inquiry evidence sessions.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40ff83fa-c18c-9216-49aa-77a9d6a5cc28",
+                        "name": "Nicola Sturgeon"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Daily Express"
+                    },
+                    {
+                        "name": "Nicola Sturgeon"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T19:52:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Scotland set for 8.8% increase in water bills",
+                "url": "https://www.bbc.co.uk/news/articles/cjqjw48n79qo?at_medium=RSS",
+                "description": "Water bills in Scotland will increase by 8.8% from April. Scottish Water said the rise was needed to provide &quot;significant investment&quot; in replacing ageing infrastructure and improving services. The publicly-owned company dismissed reports that it was already planning similar-sized increases for a further two years beyond 2024.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T19:34:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Business can\u2019t get enough of Labour \u2013 it\u2019s like Corbyn never existed",
+                "url": "https://inews.co.uk/opinion/business-cant-get-enough-labour-corbyn-2885171?ico=most_popular",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ZZPMgbzPfVZ_PIg3AVe0Si&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Smart business leaders don\u2019t want to micromanage every decision; they want political calm, good ministers in post, and to be left alone to run their businesses \u2013 this is what Labour offers",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T18:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "COLIN CAMPBELL: Covid inquiry has to do more than trash reputations",
+                "url": "https://www.inverness-courier.co.uk/news/colin-campbell-covid-inquiry-has-to-do-more-than-trash-repu-340922/",
+                "description": "&quot;The Covid inquiry has been highly effective in trashing the reputations or at least exposing the human flaws of the key decision-makers.&quot;",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/265a85a7-6896-1def-0c7e-30b74758c7bc",
+                        "name": "Trash"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Inverness Courier",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.XhhVRILA3jWO7XL7zsgWPA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T18:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "What does the restoration of power-sharing mean for Northern Ireland?",
+                "url": "https://www.independent.co.uk/news/uk/politics/politics-explained/northern-ireland-stormont-sinn-fein-b2488977.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.OKB1Q1A6uzH1GHxNtJxiGi&pid=News",
+                        "width": 700,
+                        "height": 494
+                    }
+                },
+                "description": "With Sinn Fein only increasing in popularity and the shuttered Belfast government looking set to reconvene, the politics of Northern Ireland is transforming before our eyes. Though talk of a united Ireland may be a bridge too far,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4b8bc44-385c-e87b-bb7d-b32328f53502",
+                        "name": "Northern Ireland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2d4e3828-a289-189d-24d3-12abe248cee7",
+                        "name": "Consociationalism"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T17:49:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Did Tories &#39;siphon off Covid funds&#39; for Michael Gove&#39;s Union report?",
+                "url": "https://www.thenational.scot/news/24091798.tories-siphon-off-covid-funds-michael-goves-union-report/",
+                "description": "THE UK Government is facing allegations it may have \u201csiphoned off Covid funds for its own political party ends\u201d in order to work on",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c12951d9-25c7-062e-3e0c-288ac8a6d91e",
+                        "name": "Michael Gove"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T17:29:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>SNP</b> criticise Tory/Lib Dem led Aberdeenshire Council for axeing of out-of-school care",
+                "url": "https://www.grampianonline.co.uk/news/snp-criticise-tory-lib-dem-led-aberdeenshire-council-for-axe-340964/",
+                "description": "Aberdeenshire\u2019s primary schools will be affected with the local authority blaming a decrease in demand as well as staffing and budget pressures.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b81a7eb6-c957-282c-9953-e0c1798b2eb6",
+                        "name": "Aberdeenshire"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "grampianonline",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.TRteebnD1FT5BpcrlQL8ww&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T17:11:00.0000000Z"
+            },
+            {
+                "name": "Has the UK Covid Inquiry created winners and losers?",
+                "url": "https://uk.news.yahoo.com/uk-covid-inquiry-created-winners-170346445.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.2qrXrJYzPH1iUN8QirKK_y&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Given the raw emotions around the UK Covid-19 Inquiry, it\u2019s unlikely any of our politicians would talk openly about it creating winners and losers.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e08d085e-c2fa-8ea9-3138-6a543e098f9d",
+                        "name": "Inquiry"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T17:03:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "UK Covid Inquiry: Have winners and losers been created?",
+                "url": "https://www.heraldscotland.com/news/24091815.uk-covid-inquiry-winners-losers-created/",
+                "description": "Likewise Brazil\u2019s President Bolsonaro. Closer to home, the opposition at Holyrood have been drooling at the prospect of <b>SNP</b> ministers being put on the stand and eviscerated by forensic KCs. Rows over who kept their WhatsApps and who hit delete have run ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "heraldscotland"
+                    }
+                ],
+                "datePublished": "2024-02-01T17:03:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Alex Salmond denies ministers were told in 2007 to delete messages",
+                "url": "https://www.thetimes.co.uk/article/alex-salmond-nicola-sturgeon-whatsapp-86hg906d7",
+                "description": "Nicola Sturgeon and John Swinney told the UK Covid inquiry they wiped their phones of potentially relevant evidence because of instructions received when they became ministers",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c38f323-ef02-fdd5-9d2c-4ee11468b8a3",
+                        "name": "Alex Salmond"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T17:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "\u2018We\u2019re no worse than our opponents\u2019 is hardly a robust defence",
+                "url": "https://www.thetimes.co.uk/article/were-no-worse-than-our-opponents-is-hardly-a-robust-defence-dzwtqphg8",
+                "description": "Humza Yousaf treads a fine line between \u2018we could have done better\u2019 and \u2018not to blame\u2019",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T17:00:00.0000000Z"
+            },
+            {
+                "name": "Warning over Glasgow Argyle Street revamp after Sauchiehall Street &#39;debacle&#39;",
+                "url": "https://www.glasgowlive.co.uk/news/glasgow-news/warning-over-glasgow-argyle-street-28553220",
+                "description": "A \u00a35.8m contract has been awarded for the revamp of a section of Argyle Street, but a local councillor has warned communication with residents over planned work must be better.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0262c7bd-2e33-ceb2-1e74-3d17c7dd6534",
+                        "name": "Sauchiehall Street"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/da2548ee-1b26-f939-06b4-2fae57e075e7",
+                        "name": "Glasgow"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e3652b9b-9e92-055f-760c-07991a78ffca",
+                        "name": "Argyle Street, Glasgow"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Sauchiehall Street"
+                    },
+                    {
+                        "name": "Glasgow"
+                    },
+                    {
+                        "name": "Argyle Street, Glasgow"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "glasgowlive.co.uk",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.haisjyZ0cCjPO4PVMByWLw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T16:53:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "\u2018I don\u2019t buy it\u2019: Scottish secretary dismisses Sturgeon\u2019s tears at Covid inquiry",
+                "url": "https://www.independent.co.uk/news/uk/politics/sturgeon-crying-covid-inquiry-alister-jack-b2489044.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.h_wvy0FW-bm8pCGTHAYjKy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Rishi Sunak\u2019s Scottish secretary Alister Jack has rejected Nicola Sturgeon \u2019s claim she did not seek to politicise the Covid crisis \u2013 claiming he \u201cdidn\u2019t believe her for a minute\u201d.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "Scotland"
+                    },
+                    {
+                        "name": "Newton hearing"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T16:46:00.0000000Z",
+                "video": {
+                    "name": "Nicola Sturgeon brought to tears during Covid inquiry questioning",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/0a58b4b9-05ac-4cd6-8ae2-4da35a7b74a3/70e7bd2a-7003-41b1-a5d1-eb791000_650.mp4",
+                    "thumbnail": {
+                        "width": 640,
+                        "height": 360
+                    }
+                },
+                "category": "Politics"
+            },
+            {
+                "name": "Six candidates to contest Jedburgh by-election",
+                "url": "https://www.thesouthernreporter.co.uk/news/politics/six-candidates-to-contest-jedburgh-by-election-4501908",
+                "description": "Six candidates will contest the Jedburgh and District ward by-election, which will take place on Thursday, February 22.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5e83019e-d5ad-de66-bfc7-9f24e0932322",
+                        "name": "By-election"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/652d4bd8-7331-ad45-32c1-46ef02b9eb23",
+                        "name": "Jedburgh"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Southern Reporter",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.oYDQjWnTGvoxP2h00G3wjA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T16:38:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Starmer says Labour would level up workers\u2019 rights in way not attempted for decades \u2013 as it happened",
+                "url": "https://www.theguardian.com/politics/live/2024/feb/01/jeremy-hunt-tax-cuts-conservatives-labour-uk-politics?page=with:block-65bb809a8f08ab88d92b6d7b",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.JM0VwnuBoWnajg0Er_qU5S&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Labour leader tells conference that reforms \u2018may not please everyone in room\u2019",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T16:17:00.0000000Z"
+            },
+            {
+                "name": "Higher charges for Falkirk&#39;s high school swimming pools agreed to keep them open",
+                "url": "https://www.dailyrecord.co.uk/news/scottish-news/higher-charges-falkirks-high-school-32024407",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.7BJXE4VZYJ_Dy_pHk7fSrC&pid=News",
+                        "width": 615,
+                        "height": 409
+                    }
+                },
+                "description": "Charges for swimming clubs are set to increase after councillors agreed plans to make more use of high school swimming pools in Falkirk and help them break even.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fb6f4f93-ce23-76a6-98b5-3ab6b5286762",
+                        "name": "Daily Record"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/67f1ca64-ac77-e7c9-f08e-667d687fe7dc",
+                        "name": "Falkirk"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8b0a91e2-08ea-86f6-e66f-8b949e2e6385",
+                        "name": "High school"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Daily Record"
+                    },
+                    {
+                        "name": "Falkirk"
+                    },
+                    {
+                        "name": "High school"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Record",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.B6nvPq26UTBuCaXH6tX71w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T16:17:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Cole-Hamilton outlines key proposals ahead of party leader climate summit",
+                "url": "https://www.scotlibdems.org.uk/news/article/cole-hamilton-outlines-key-proposals-ahead-of-party-leader-climate-summit",
+                "description": "Speaking ahead of a summit of Scottish party leaders called to address climate action, Scottish Liberal Democrat leader Alex Cole-Hamilton has outlined a package of immediate measures that his party wants to see implemented to bring down emissions,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c8c3a07-0c6a-0cbb-ce69-1e67d001e752",
+                        "name": "Scottish Liberal Democrats"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/95d40c0a-95d4-b366-ae1b-57b2cd6fbf01",
+                        "name": "Party leader"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "scotlibdems"
+                    }
+                ],
+                "datePublished": "2024-02-01T16:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Humza Yousaf ridiculed by Douglas Ross after \u2019embarrassing admission\u2019 unearthed in Covid WhatsApps",
+                "url": "https://www.thescottishsun.co.uk/news/11898113/humza-yousaf-ridiculed-douglas-ross-embarrassing-admission-covid-whatsapps/",
+                "description": "HUMZA Yousaf was wound up by his Tory rival at Holyrood today following the disclosure of his WhatsApps admission that he was \u201cwinging it\u201d when he became Health Secretary. Scottish Conservative",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6d99b564-d527-5061-2ebd-f97730898d38",
+                        "name": "Humza Yousaf"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5c251515-1c3f-5501-3258-a6f359cbd73e",
+                        "name": "Admission"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Scottish Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.pEepZhHtUOU2Dr7E3jedjg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T15:59:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "UK Covid Inquiry shows <b>SNP</b>/Greens have tarnished civil service",
+                "url": "https://www.heraldscotland.com/politics/viewpoint/24088429.uk-covid-inquiry-shows-snp-greens-tarnished-civil-service/",
+                "description": "Fighting back tears at the UK Covid Inquiry today, an emotional Nicola Sturgeon said she had felt \u201coverwhelmed by the scale\u201d of what she had",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f8f841de-7f40-9f0c-c8ad-d32613878dc6",
+                        "name": "Civil service"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "heraldscotland",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PjDUWS-WIq7w595SCRQefg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T15:55:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Scottish government not committed to football regulator - but door remains open",
+                "url": "https://www.bbc.co.uk/sport/football/68170031",
+                "description": "Scottish sport minister Maree Todd will not commit to introducing an independent football regulator but stresses that the door remains open.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2209c459-4e68-c299-5eaa-6ae6b9ffed7e",
+                        "name": "BBC Sport"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T15:40:00.0000000Z",
+                "category": "Sports"
+            },
+            {
+                "name": "Auditor General warns Scottish Government must up the pace on fossil fuel phase out",
+                "url": "https://www.scotlibdems.org.uk/news/article/auditor-general-warns-scottish-government-must-up-the-pace-on-fossil-fuel-phase-out",
+                "description": "Commenting on the embargoed report from the Auditor General which warns that the Scottish Government will not be able to phase out fossil-fuel home heating systems by 2045 unless it significantly increases the scale and pace of activity,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c8c3a07-0c6a-0cbb-ce69-1e67d001e752",
+                        "name": "Scottish Liberal Democrats"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/955e8a7c-d981-037b-3759-28686357dc34",
+                        "name": "Scottish Government"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/62d9f138-4b3e-69ff-b5a6-9068fa7c2a59",
+                        "name": "Fossil-fuel phase-out"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "scotlibdems"
+                    }
+                ],
+                "datePublished": "2024-02-01T15:38:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Be bold now or risk a Tory comeback \u2013 Starmer\u2019s lesson from Australia",
+                "url": "https://inews.co.uk/news/politics/be-bold-now-or-risk-a-tory-comeback-starmers-lesson-from-australia-2883214",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.nYJKmmw0IPMk_N8nedqt9S&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Labour&#39;s decision not to risk upsetting bankers by capping their bonuses is the latest example of a safety first pre-election strategy. But Australian politics reveal how that can backfire",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/06de2191-243d-a83f-6990-2eb1c7f3382a",
+                        "name": "Australia"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Tory"
+                    },
+                    {
+                        "name": "Australia"
+                    },
+                    {
+                        "name": "Lesson"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T15:26:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "UK Government urged to stop arms sales to Israel by <b>SNP</b> MP petition",
+                "url": "https://www.thenational.scot/news/24091228.uk-government-urged-stop-arms-sales-israel-snp-mp-petition/",
+                "description": "THE UK Government has been urged to stop selling weapons to Israel by a\u00a0petition launched by an\u00a0SNP\u00a0MP and backed by his constituents.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/30ee79a3-cb9e-0cb1-be63-987858d594de",
+                        "name": "Petition"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T15:07:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Inverclyde MSP welcomes surge in new green energy",
+                "url": "https://www.greenocktelegraph.co.uk/news/24088238.inverclyde-msp-welcomes-surge-new-green-energy/",
+                "description": "MSP Stuart McMillan says Inverclyde can play a key role in making Scotland a leader in renewable energy. The SNP man has welcomed the news that Scotland\u2019s green energy sector has for the first time delivered more electricity than the country used.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f32e5a70-74af-4321-4f59-d98bdd74b525",
+                        "name": "Greenock Telegraph"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/aa1ed5d6-1d30-f27d-118b-5cba28935ee2",
+                        "name": "Inverclyde"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a3f53cee-1aa8-5a06-c517-c971071fb13c",
+                        "name": "Member of the Scottish Parliament"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Greenock Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.paSsdOmqRx7gpSLRTDxy-Q&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T15:01:00.0000000Z"
+            },
+            {
+                "name": "Ross: Spain email shows <b>SNP</b> was thinking about independence during Covid",
+                "url": "https://news.stv.tv/politics/spain-email-shows-scottish-government-was-thinking-about-independence-during-covid-says-douglas-ross",
+                "description": "The Scottish Tory leader pointed to an email which he said showed the Scottish Government was &#39;thinking about independence instead of focusing purely on public health&#39;.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5095bf32-804d-bc88-b718-728535fc82da",
+                        "name": "Douglas Ross"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/92d09a68-306e-0774-fa19-09c35bb93b91",
+                        "name": "STV News at Six"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1baf9d59-f443-e9f4-6e49-de048a073e3f",
+                        "name": "Spain"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "news.stv",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CZWPk4et8WgNjtL6sI0C_g&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T14:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Yousaf defends Sturgeon\u2019s handling of \u2018darkest days\u2019 of Covid",
+                "url": "https://www.herefordtimes.com/news/national/24090637.yousaf-defends-sturgeons-handling-darkest-days-covid/",
+                "description": "The Scottish First Minister said he is \u2018very pleased\u2019 she was in charge of the Scottish Government \u2018as opposed to Boris Johnson\u2019.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6d99b564-d527-5061-2ebd-f97730898d38",
+                        "name": "Humza Yousaf"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d3e4b2b5-a5c3-9a7e-6dd8-089b9b5bb22b",
+                        "name": "Sturgeon"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Hereford Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.1n7HGw0YAAZejCcCaP3OKA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T13:52:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Nicola Sturgeon gave mobile phone used during covid pandemic to &#39;family member&#39;",
+                "url": "https://www.dailyrecord.co.uk/news/politics/nicola-sturgeon-gave-mobile-phone-32022161",
+                "description": "The former <b>SNP</b> leader has faced a barrage of criticism after she failed to retain texts or WhatsApps sent in 2020 and 2021 to government ministers or civil servants. Sturgeon, her then deputy John Swinney and several public health officials have all ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fb6f4f93-ce23-76a6-98b5-3ab6b5286762",
+                        "name": "Daily Record"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40ff83fa-c18c-9216-49aa-77a9d6a5cc28",
+                        "name": "Nicola Sturgeon"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Daily Record"
+                    },
+                    {
+                        "name": "Nicola Sturgeon"
+                    },
+                    {
+                        "name": "Mobile phone"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Record"
+                    }
+                ],
+                "datePublished": "2024-02-01T00:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Broken Brexit Britain\u2019s new harmful import controls",
+                "url": "https://www.snp.org/broken-brexit-britains-new-harmful-import-controls/",
+                "description": "The <b>SNP</b> holds the key to a different future, offering hope, where Scotland can flourish on the global stage and providing the people of Scotland a pathway back into the EU and the European Single Market. Currently, Scotland\u2019s decision-making ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/73330ccf-2058-8665-ac51-06760ab18194",
+                        "name": "Scottish National Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Scottish National Party"
+                    }
+                ],
+                "datePublished": "2024-02-01T00:00:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=SNP",
+        "queryContext": {
+            "originalQuery": "SNP",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 13000,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=SNP"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=SNP&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Grinning Blackford hand in hand with new lover after his marriage broke down",
+                "url": "https://www.dailymail.co.uk/news/article-13035177/Grinning-Blackford-hand-hand-new-lover-marriage-broke-down.html",
+                "description": "Former SNP Westminster leader Ian Blackford has split from his wife and started a new relationship. Mr Blackford was seen hand in hand with his new partner outside a television studio in London at the weekend.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c6e5aa73-f4de-4c5d-d795-26968f7f045d",
+                        "name": "Blackford County"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/93a3e0e2-aecf-e53b-8432-c15f400cfb4e",
+                        "name": "Daily Mail"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/54e3c871-7155-1317-f301-ca1ab914e183",
+                        "name": "Smile"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Blackford County"
+                    },
+                    {
+                        "name": "Daily Mail"
+                    },
+                    {
+                        "name": "Smile"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T22:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "New poll makes grim reading for <b>SNP</b> as huge Labour boost predicted",
+                "url": "https://www.thescottishsun.co.uk/news/11900126/snp-labour-westminster-poll-results/",
+                "description": "LABOUR\u2019S election hopes\u00a0have been boosted by another poll showing them neck and neck with Nats. The bitter rivals would be\u00a0locked on\u00a023 seats each in the Westminster vote expected later this year,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e320dd44-b39b-fd9b-7883-0fe89bb44ace",
+                        "name": "Poll"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Scottish Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.pEepZhHtUOU2Dr7E3jedjg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T21:38:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "UK Covid inquiry in Scotland: Three weeks in 90 seconds",
+                "url": "https://www.bbc.com/news/uk-scotland-scotland-politics-68174557",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ySY_HVZyKSkn7Q9UGKm0dC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The UK Covid 19 inquiry has spent three weeks in Edinburgh looking at the decisions made in Scotland during the pandemic.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k3N4DqozNjgK376rAnFmsA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T19:58:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Nicola Sturgeon torn apart by Question Time audience member in brutal inquiry takedown",
+                "url": "https://www.express.co.uk/news/politics/1862280/Question-Time-Nicola-Sturgeon-Covid-Inquiry",
+                "description": "The former First Minister&#39;s popularity has seemingly taken a big hit during the last week&#39;s Covid inquiry evidence sessions.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40ff83fa-c18c-9216-49aa-77a9d6a5cc28",
+                        "name": "Nicola Sturgeon"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Daily Express"
+                    },
+                    {
+                        "name": "Nicola Sturgeon"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T19:52:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Scotland set for 8.8% increase in water bills",
+                "url": "https://www.bbc.co.uk/news/articles/cjqjw48n79qo?at_medium=RSS",
+                "description": "Water bills in Scotland will increase by 8.8% from April. Scottish Water said the rise was needed to provide &quot;significant investment&quot; in replacing ageing infrastructure and improving services. The publicly-owned company dismissed reports that it was already planning similar-sized increases for a further two years beyond 2024.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T19:34:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Business can\u2019t get enough of Labour \u2013 it\u2019s like Corbyn never existed",
+                "url": "https://inews.co.uk/opinion/business-cant-get-enough-labour-corbyn-2885171?ico=most_popular",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ZZPMgbzPfVZ_PIg3AVe0Si&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Smart business leaders don\u2019t want to micromanage every decision; they want political calm, good ministers in post, and to be left alone to run their businesses \u2013 this is what Labour offers",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T18:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "COLIN CAMPBELL: Covid inquiry has to do more than trash reputations",
+                "url": "https://www.inverness-courier.co.uk/news/colin-campbell-covid-inquiry-has-to-do-more-than-trash-repu-340922/",
+                "description": "&quot;The Covid inquiry has been highly effective in trashing the reputations or at least exposing the human flaws of the key decision-makers.&quot;",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/265a85a7-6896-1def-0c7e-30b74758c7bc",
+                        "name": "Trash"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Inverness Courier",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.XhhVRILA3jWO7XL7zsgWPA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T18:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "What does the restoration of power-sharing mean for Northern Ireland?",
+                "url": "https://www.independent.co.uk/news/uk/politics/politics-explained/northern-ireland-stormont-sinn-fein-b2488977.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.OKB1Q1A6uzH1GHxNtJxiGi&pid=News",
+                        "width": 700,
+                        "height": 494
+                    }
+                },
+                "description": "With Sinn Fein only increasing in popularity and the shuttered Belfast government looking set to reconvene, the politics of Northern Ireland is transforming before our eyes. Though talk of a united Ireland may be a bridge too far,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4b8bc44-385c-e87b-bb7d-b32328f53502",
+                        "name": "Northern Ireland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2d4e3828-a289-189d-24d3-12abe248cee7",
+                        "name": "Consociationalism"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T17:49:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Did Tories &#39;siphon off Covid funds&#39; for Michael Gove&#39;s Union report?",
+                "url": "https://www.thenational.scot/news/24091798.tories-siphon-off-covid-funds-michael-goves-union-report/",
+                "description": "THE UK Government is facing allegations it may have \u201csiphoned off Covid funds for its own political party ends\u201d in order to work on",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c12951d9-25c7-062e-3e0c-288ac8a6d91e",
+                        "name": "Michael Gove"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T17:29:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>SNP</b> criticise Tory/Lib Dem led Aberdeenshire Council for axeing of out-of-school care",
+                "url": "https://www.grampianonline.co.uk/news/snp-criticise-tory-lib-dem-led-aberdeenshire-council-for-axe-340964/",
+                "description": "Aberdeenshire\u2019s primary schools will be affected with the local authority blaming a decrease in demand as well as staffing and budget pressures.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b81a7eb6-c957-282c-9953-e0c1798b2eb6",
+                        "name": "Aberdeenshire"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "grampianonline",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.TRteebnD1FT5BpcrlQL8ww&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T17:11:00.0000000Z"
+            },
+            {
+                "name": "Has the UK Covid Inquiry created winners and losers?",
+                "url": "https://uk.news.yahoo.com/uk-covid-inquiry-created-winners-170346445.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.2qrXrJYzPH1iUN8QirKK_y&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Given the raw emotions around the UK Covid-19 Inquiry, it\u2019s unlikely any of our politicians would talk openly about it creating winners and losers.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e08d085e-c2fa-8ea9-3138-6a543e098f9d",
+                        "name": "Inquiry"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T17:03:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Alex Salmond denies ministers were told in 2007 to delete messages",
+                "url": "https://www.thetimes.co.uk/article/alex-salmond-nicola-sturgeon-whatsapp-86hg906d7",
+                "description": "Nicola Sturgeon and John Swinney told the UK Covid inquiry they wiped their phones of potentially relevant evidence because of instructions received when they became ministers",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c38f323-ef02-fdd5-9d2c-4ee11468b8a3",
+                        "name": "Alex Salmond"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T17:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "\u2018We\u2019re no worse than our opponents\u2019 is hardly a robust defence",
+                "url": "https://www.thetimes.co.uk/article/were-no-worse-than-our-opponents-is-hardly-a-robust-defence-dzwtqphg8",
+                "description": "Humza Yousaf treads a fine line between \u2018we could have done better\u2019 and \u2018not to blame\u2019",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T17:00:00.0000000Z"
+            },
+            {
+                "name": "Warning over Glasgow Argyle Street revamp after Sauchiehall Street &#39;debacle&#39;",
+                "url": "https://www.glasgowlive.co.uk/news/glasgow-news/warning-over-glasgow-argyle-street-28553220",
+                "description": "A \u00a35.8m contract has been awarded for the revamp of a section of Argyle Street, but a local councillor has warned communication with residents over planned work must be better.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0262c7bd-2e33-ceb2-1e74-3d17c7dd6534",
+                        "name": "Sauchiehall Street"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/da2548ee-1b26-f939-06b4-2fae57e075e7",
+                        "name": "Glasgow"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e3652b9b-9e92-055f-760c-07991a78ffca",
+                        "name": "Argyle Street, Glasgow"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Sauchiehall Street"
+                    },
+                    {
+                        "name": "Glasgow"
+                    },
+                    {
+                        "name": "Argyle Street, Glasgow"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "glasgowlive.co.uk",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.haisjyZ0cCjPO4PVMByWLw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T16:53:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "\u2018I don\u2019t buy it\u2019: Scottish secretary dismisses Sturgeon\u2019s tears at Covid inquiry",
+                "url": "https://www.independent.co.uk/news/uk/politics/sturgeon-crying-covid-inquiry-alister-jack-b2489044.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.h_wvy0FW-bm8pCGTHAYjKy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Rishi Sunak\u2019s Scottish secretary Alister Jack has rejected Nicola Sturgeon \u2019s claim she did not seek to politicise the Covid crisis \u2013 claiming he \u201cdidn\u2019t believe her for a minute\u201d.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "Scotland"
+                    },
+                    {
+                        "name": "Newton hearing"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T16:46:00.0000000Z",
+                "video": {
+                    "name": "Nicola Sturgeon brought to tears during Covid inquiry questioning",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/0a58b4b9-05ac-4cd6-8ae2-4da35a7b74a3/70e7bd2a-7003-41b1-a5d1-eb791000_650.mp4",
+                    "thumbnail": {
+                        "width": 640,
+                        "height": 360
+                    }
+                },
+                "category": "Politics"
+            },
+            {
+                "name": "Six candidates to contest Jedburgh by-election",
+                "url": "https://www.thesouthernreporter.co.uk/news/politics/six-candidates-to-contest-jedburgh-by-election-4501908",
+                "description": "Six candidates will contest the Jedburgh and District ward by-election, which will take place on Thursday, February 22.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5e83019e-d5ad-de66-bfc7-9f24e0932322",
+                        "name": "By-election"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/652d4bd8-7331-ad45-32c1-46ef02b9eb23",
+                        "name": "Jedburgh"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Southern Reporter",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.oYDQjWnTGvoxP2h00G3wjA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T16:38:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Starmer says Labour would level up workers\u2019 rights in way not attempted for decades \u2013 as it happened",
+                "url": "https://www.theguardian.com/politics/live/2024/feb/01/jeremy-hunt-tax-cuts-conservatives-labour-uk-politics?page=with:block-65bb809a8f08ab88d92b6d7b",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.JM0VwnuBoWnajg0Er_qU5S&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Labour leader tells conference that reforms \u2018may not please everyone in room\u2019",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T16:17:00.0000000Z"
+            },
+            {
+                "name": "Higher charges for Falkirk&#39;s high school swimming pools agreed to keep them open",
+                "url": "https://www.dailyrecord.co.uk/news/scottish-news/higher-charges-falkirks-high-school-32024407",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.7BJXE4VZYJ_Dy_pHk7fSrC&pid=News",
+                        "width": 615,
+                        "height": 409
+                    }
+                },
+                "description": "Charges for swimming clubs are set to increase after councillors agreed plans to make more use of high school swimming pools in Falkirk and help them break even.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fb6f4f93-ce23-76a6-98b5-3ab6b5286762",
+                        "name": "Daily Record"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/67f1ca64-ac77-e7c9-f08e-667d687fe7dc",
+                        "name": "Falkirk"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8b0a91e2-08ea-86f6-e66f-8b949e2e6385",
+                        "name": "High school"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Daily Record"
+                    },
+                    {
+                        "name": "Falkirk"
+                    },
+                    {
+                        "name": "High school"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Record",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.B6nvPq26UTBuCaXH6tX71w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T16:17:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Cole-Hamilton outlines key proposals ahead of party leader climate summit",
+                "url": "https://www.scotlibdems.org.uk/news/article/cole-hamilton-outlines-key-proposals-ahead-of-party-leader-climate-summit",
+                "description": "Speaking ahead of a summit of Scottish party leaders called to address climate action, Scottish Liberal Democrat leader Alex Cole-Hamilton has outlined a package of immediate measures that his party wants to see implemented to bring down emissions,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c8c3a07-0c6a-0cbb-ce69-1e67d001e752",
+                        "name": "Scottish Liberal Democrats"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/95d40c0a-95d4-b366-ae1b-57b2cd6fbf01",
+                        "name": "Party leader"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "scotlibdems"
+                    }
+                ],
+                "datePublished": "2024-02-01T16:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Humza Yousaf ridiculed by Douglas Ross after \u2019embarrassing admission\u2019 unearthed in Covid WhatsApps",
+                "url": "https://www.thescottishsun.co.uk/news/11898113/humza-yousaf-ridiculed-douglas-ross-embarrassing-admission-covid-whatsapps/",
+                "description": "HUMZA Yousaf was wound up by his Tory rival at Holyrood today following the disclosure of his WhatsApps admission that he was \u201cwinging it\u201d when he became Health Secretary. Scottish Conservative",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6d99b564-d527-5061-2ebd-f97730898d38",
+                        "name": "Humza Yousaf"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5c251515-1c3f-5501-3258-a6f359cbd73e",
+                        "name": "Admission"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Scottish Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.pEepZhHtUOU2Dr7E3jedjg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T15:59:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "UK Covid Inquiry shows <b>SNP</b>/Greens have tarnished civil service",
+                "url": "https://www.heraldscotland.com/politics/viewpoint/24088429.uk-covid-inquiry-shows-snp-greens-tarnished-civil-service/",
+                "description": "Fighting back tears at the UK Covid Inquiry today, an emotional Nicola Sturgeon said she had felt \u201coverwhelmed by the scale\u201d of what she had",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f8f841de-7f40-9f0c-c8ad-d32613878dc6",
+                        "name": "Civil service"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "heraldscotland",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PjDUWS-WIq7w595SCRQefg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T15:55:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Scottish government not committed to football regulator - but door remains open",
+                "url": "https://www.bbc.co.uk/sport/football/68170031",
+                "description": "Scottish sport minister Maree Todd will not commit to introducing an independent football regulator but stresses that the door remains open.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2209c459-4e68-c299-5eaa-6ae6b9ffed7e",
+                        "name": "BBC Sport"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T15:40:00.0000000Z",
+                "category": "Sports"
+            },
+            {
+                "name": "Auditor General warns Scottish Government must up the pace on fossil fuel phase out",
+                "url": "https://www.scotlibdems.org.uk/news/article/auditor-general-warns-scottish-government-must-up-the-pace-on-fossil-fuel-phase-out",
+                "description": "Commenting on the embargoed report from the Auditor General which warns that the Scottish Government will not be able to phase out fossil-fuel home heating systems by 2045 unless it significantly increases the scale and pace of activity,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c8c3a07-0c6a-0cbb-ce69-1e67d001e752",
+                        "name": "Scottish Liberal Democrats"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/955e8a7c-d981-037b-3759-28686357dc34",
+                        "name": "Scottish Government"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/62d9f138-4b3e-69ff-b5a6-9068fa7c2a59",
+                        "name": "Fossil-fuel phase-out"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "scotlibdems"
+                    }
+                ],
+                "datePublished": "2024-02-01T15:38:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Be bold now or risk a Tory comeback \u2013 Starmer\u2019s lesson from Australia",
+                "url": "https://inews.co.uk/news/politics/be-bold-now-or-risk-a-tory-comeback-starmers-lesson-from-australia-2883214",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.nYJKmmw0IPMk_N8nedqt9S&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Labour&#39;s decision not to risk upsetting bankers by capping their bonuses is the latest example of a safety first pre-election strategy. But Australian politics reveal how that can backfire",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/06de2191-243d-a83f-6990-2eb1c7f3382a",
+                        "name": "Australia"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Tory"
+                    },
+                    {
+                        "name": "Australia"
+                    },
+                    {
+                        "name": "Lesson"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T15:26:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "UK Government urged to stop arms sales to Israel by <b>SNP</b> MP petition",
+                "url": "https://www.thenational.scot/news/24091228.uk-government-urged-stop-arms-sales-israel-snp-mp-petition/",
+                "description": "THE UK Government has been urged to stop selling weapons to Israel by a\u00a0petition launched by an\u00a0SNP\u00a0MP and backed by his constituents.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/30ee79a3-cb9e-0cb1-be63-987858d594de",
+                        "name": "Petition"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T15:07:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Inverclyde MSP welcomes surge in new green energy",
+                "url": "https://www.greenocktelegraph.co.uk/news/24088238.inverclyde-msp-welcomes-surge-new-green-energy/",
+                "description": "MSP Stuart McMillan says Inverclyde can play a key role in making Scotland a leader in renewable energy. The SNP man has welcomed the news that Scotland\u2019s green energy sector has for the first time delivered more electricity than the country used.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f32e5a70-74af-4321-4f59-d98bdd74b525",
+                        "name": "Greenock Telegraph"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/aa1ed5d6-1d30-f27d-118b-5cba28935ee2",
+                        "name": "Inverclyde"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a3f53cee-1aa8-5a06-c517-c971071fb13c",
+                        "name": "Member of the Scottish Parliament"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Greenock Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.paSsdOmqRx7gpSLRTDxy-Q&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T15:01:00.0000000Z"
+            },
+            {
+                "name": "Ross: Spain email shows <b>SNP</b> was thinking about independence during Covid",
+                "url": "https://news.stv.tv/politics/spain-email-shows-scottish-government-was-thinking-about-independence-during-covid-says-douglas-ross",
+                "description": "The Scottish Tory leader pointed to an email which he said showed the Scottish Government was &#39;thinking about independence instead of focusing purely on public health&#39;.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5095bf32-804d-bc88-b718-728535fc82da",
+                        "name": "Douglas Ross"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/92d09a68-306e-0774-fa19-09c35bb93b91",
+                        "name": "STV News at Six"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1baf9d59-f443-e9f4-6e49-de048a073e3f",
+                        "name": "Spain"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "news.stv",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CZWPk4et8WgNjtL6sI0C_g&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T14:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Yousaf defends Sturgeon\u2019s handling of \u2018darkest days\u2019 of Covid",
+                "url": "https://www.northern-scot.co.uk/news/national/article/yousaf-defends-sturgeon-s-handling-of-darkest-days-of-covid-99064/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.o2lVzzfNpdHDUO9tjDDefi&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The Scottish First Minister said he is \u2018very pleased\u2019 she was in charge of the Scottish Government \u2018as opposed to Boris Johnson\u2019.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6d99b564-d527-5061-2ebd-f97730898d38",
+                        "name": "Humza Yousaf"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "northern-scot.co.uk",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.vvfO2OnlLP2gcDJ2zfr4wQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T13:51:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Second home owners in West Lothian could see council tax double",
+                "url": "https://www.edinburghlive.co.uk/news/second-home-owners-west-lothian-28550751",
+                "description": "Second home owners in West Lothian could face paying double their current Council Tax on the properties in the new financial year. The increase - which could affect more than 80 homes - is planned as part of the measures to balance the council\u2019s books in the 2024 budget.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c3c56189-7090-194e-859f-d3fbb1781795",
+                        "name": "West Lothian"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/286af946-edea-5f33-df53-4164821c69da",
+                        "name": "Edinburgh"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "West Lothian"
+                    },
+                    {
+                        "name": "Edinburgh"
+                    },
+                    {
+                        "name": "Council Tax"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "edinburghlive",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.eFop3nExzQ4UDFwku-lkWw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T13:49:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Penny Mordaunt urged to reveal if she is a traitor or faithful amid Tory plots",
+                "url": "https://www.standard.co.uk/news/politics/penny-mordaunt-prime-minister-lucy-powell-labour-traitors-b1136386.html",
+                "description": "Labour shadow Commons leader Lucy Powell raised questions about Ms Mordaunt\u2019s \u2018bizarre\u2019 defence of the Prime Minister.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Tory"
+                    },
+                    {
+                        "name": "Faithful"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T13:36:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Sturgeon could \u2018cry from one eye if she wanted to\u2019, claims Scottish Secretary",
+                "url": "https://www.telegraph.co.uk/news/2024/02/01/nicola-sturgeon-cry-scottish-secretary-covid-inquiry/?utmsource=email",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ANmskVk6hb3On1lM-nUYOi&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "Alister Jack tells Covid Inquiry he \u2018didn\u2019t believe for a minute\u2019 that former first minister set aside independence aims during pandemic",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T13:18:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "&#39;Didn&#39;t believe her for a minute!&#39; Top Tory savages Nicola Sturgeon over Covid tears",
+                "url": "https://www.express.co.uk/news/politics/1862102/nicola-sturgeon-alister-jack-covid-tears",
+                "description": "The former Scottish first minister choked back tears during an appearance before the Covid inquiry yesterday as she denied suggestions the Scottish Government looked to weaponise the crisis for her independence cause. But giving evidence today, Mr Jack claimed Ms Sturgeon &quot;could cry from one eye if she wanted to&quot;.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40ff83fa-c18c-9216-49aa-77a9d6a5cc28",
+                        "name": "Nicola Sturgeon"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/72e089c5-1e56-6218-ead7-6f6ffa7ffe34",
+                        "name": "Secretary"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T13:06:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "\u2018They were dying, and they\u2019d not had their money\u2019: Britain\u2019s multibillion-pound equal pay scandal",
+                "url": "https://www.theguardian.com/society/2024/feb/01/they-were-dying-and-theyd-not-had-their-money-britains-multibillion-pound-equal-pay-scandal",
+                "description": "In 2005, Glasgow council offered to compensate women for historic pay inequality. But it sold them short again \u2013 and soon workers all over the UK started fighting for what they were owed",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/659b1359-fd7b-02f3-ee93-bc311c0d0592",
+                        "name": "Equal pay for equal work"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "name": "Equal pay for equal work"
+                    },
+                    {
+                        "name": "The Guardian"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T12:41:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Bid to raise Scotland&#39;s school start age gains cross-party support",
+                "url": "https://www.heraldscotland.com/news/24090033.bid-raise-scotlands-school-start-age-gains-cross-party-support/?ref=rss",
+                "description": "All but one of Scotland&#39;s main political parties have backed the motion to raise the school starting age and create a national kindergarten system.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "heraldscotland",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PjDUWS-WIq7w595SCRQefg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T12:34:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Jack: I didn\u2019t delete some of my pandemic WhatsApps \u2013 I deleted them all",
+                "url": "https://www.kentonline.co.uk/news/national/jack-i-didn-t-delete-some-of-my-pandemic-whatsapps-i-deleted-them-all-109531/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.2D1S44XBH8xw-_gsjEJQyy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The Scottish Secretary told the Covid inquiry he \u2018regrets\u2019 the move, but he insisted he did not take Government decisions on messages.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f9f1f402-e87e-f800-bf13-a7470853a48f",
+                        "name": "Jack County"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/54e7c17e-cba8-736f-ea5f-5e2c6ae11a26",
+                        "name": "File deletion"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Kent Online",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.hWRC_m6PUwfTBWwiGneX8Q&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T12:22:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Councils facing &#39;impossible&#39; task of finding accommodation for homeless refugees",
+                "url": "https://news.stv.tv/west-central/hundreds-of-refugees-facing-homelessness-over-accommodation-shortage",
+                "description": "Council officials have told MSPs it is &#39;almost impossible&#39; to find accommodation for homeless refugees. Hundreds of asylum seekers are facing homelessness due to a lack of suitable accommodation. Council officials have told MSPs it is \u201calmost impossible\u201d to find accommodation for homeless refugees following positive asylum decisions.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/92d09a68-306e-0774-fa19-09c35bb93b91",
+                        "name": "STV News at Six"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c4e21fb8-c461-94d5-f82b-1090bc528a73",
+                        "name": "Accommodation"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "news.stv",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CZWPk4et8WgNjtL6sI0C_g&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T12:21:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Glasgow taxi boss says only 12 vehicles LEZ ready as trade struggles",
+                "url": "https://www.glasgowlive.co.uk/news/glasgow-news/glasgow-taxi-boss-says-only-28550025",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.-SoY4GEQmXJhjyXb2SGXoS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "A Glasgow taxi boss has admitted tough market conditions and new low emission zone (LEZ) rules are making it a fight to keep his business going. Brian O&#39;Hara said his firm once had 100 taxis but that number is now down to 30. So far he has managed to get only 12 vehicles to comply with LEZ rules.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/da2548ee-1b26-f939-06b4-2fae57e075e7",
+                        "name": "Glasgow"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Glasgow"
+                    },
+                    {
+                        "name": "Taxi"
+                    },
+                    {
+                        "name": "Scottish Government"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "glasgowlive.co.uk",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.haisjyZ0cCjPO4PVMByWLw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T12:18:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Nicola Sturgeon gave mobile phone used during covid pandemic to &#39;family member&#39;",
+                "url": "https://www.dailyrecord.co.uk/news/politics/nicola-sturgeon-gave-mobile-phone-32022161",
+                "description": "The former <b>SNP</b> leader has faced a barrage of criticism after she failed to retain texts or WhatsApps sent in 2020 and 2021 to government ministers or civil servants. Sturgeon, her then deputy John Swinney and several public health officials have all ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fb6f4f93-ce23-76a6-98b5-3ab6b5286762",
+                        "name": "Daily Record"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40ff83fa-c18c-9216-49aa-77a9d6a5cc28",
+                        "name": "Nicola Sturgeon"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Daily Record"
+                    },
+                    {
+                        "name": "Nicola Sturgeon"
+                    },
+                    {
+                        "name": "Mobile phone"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Record"
+                    }
+                ],
+                "datePublished": "2024-02-01T00:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Broken Brexit Britain\u2019s new harmful import controls",
+                "url": "https://www.snp.org/broken-brexit-britains-new-harmful-import-controls/",
+                "description": "The <b>SNP</b> holds the key to a different future, offering hope, where Scotland can flourish on the global stage and providing the people of Scotland a pathway back into the EU and the European Single Market. Currently, Scotland\u2019s decision-making ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/73330ccf-2058-8665-ac51-06760ab18194",
+                        "name": "Scottish National Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Scottish National Party"
+                    }
+                ],
+                "datePublished": "2024-02-01T00:00:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    }
+]

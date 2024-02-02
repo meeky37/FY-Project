@@ -1,0 +1,3785 @@
+[
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=prince+harry",
+        "queryContext": {
+            "originalQuery": "prince harry",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 28,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=prince+harry"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=prince+harry&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Royal Family &#39;shuts the door&#39; on <b>Prince Harry</b> and Meghan Markle with tight-lipped tactic",
+                "url": "https://www.mirror.co.uk/news/royals/royal-family-shuts-door-prince-32026750",
+                "description": "The Royal Family have &#39;no space&#39; for Prince Harry and Meghan Markle anymore, according to Princess Diana&#39;s former butler, who claims the Firm now have a new tactic to deal with them",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "Tactic"
+                    },
+                    {
+                        "name": "British Royal Family"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T23:22:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Meghan Markle and <b>Prince Harry</b> Are Heading to Canada This Month for a Special Celebration",
+                "url": "https://uk.movies.yahoo.com/meghan-markle-prince-harry-heading-201710043.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.7KvEMGyy8JVyBf68Vtq-eC&pid=News",
+                        "width": 700,
+                        "height": 467
+                    }
+                },
+                "description": "Meghan Markle and Prince Harry are heading to Canada for an exciting countdown.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/370ed614-32e1-4326-a356-dc0a7dd56aaa",
+                        "name": "Canada"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Movies UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Mpa2adDaIj4hp3hgCdO2wA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T20:17:00.0000000Z"
+            },
+            {
+                "name": "Meghan Markle and <b>Prince Harry</b> Have So Many New Projects at Netflix",
+                "url": "https://www.instyle.com/meghan-markle-prince-harry-netflix-movies-series-8557600",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.1HP7fzExp01prgR3qfkRmy&pid=News",
+                        "width": 700,
+                        "height": 350
+                    }
+                },
+                "description": "Netflix&#39;s content chief Bela Bajaria shared details about Meghan Markle and Prince Harry&#39;s upcoming projects with the streamer.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/424cb54b-41a3-c86b-d8e0-3ecef5609ce8",
+                        "name": "Netflix"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "name": "Netflix"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "InStyle",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.ryoSCuLkewHRZ4o-VLOZ5w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T19:57:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Prince Harry</b> and Meghan Markle to return to Canada in just a few weeks time",
+                "url": "https://www.express.co.uk/news/royal/1862275/Prince-Harry-Meghan-Markle-canada-invictus-games",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.tNbngcBmXp8-LFZ-V8ZRJC&pid=News",
+                        "width": 700,
+                        "height": 415
+                    }
+                },
+                "description": "Prince Harry and Meghan Markle first spent some month living in Canada when they quit the Royal Family in 2020.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/370ed614-32e1-4326-a356-dc0a7dd56aaa",
+                        "name": "Canada"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Canada"
+                    },
+                    {
+                        "name": "Daily Express"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T19:14:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Netflix Top 10 mainstay cancelled after one season",
+                "url": "https://www.independent.co.uk/arts-entertainment/tv/news/netflix-obliterated-cancelled-february-b2489078.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.poyRkeypfpWMYzYsA_JJuC&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Netflix has cancelled action-comedy series Obliterated after just one season, which came out only a few months ago on 30 November. The series spent six weeks in the Netflix Top 10 for English-language series, peaking at No 1 in Week 2.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/424cb54b-41a3-c86b-d8e0-3ecef5609ce8",
+                        "name": "Netflix"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "Netflix"
+                    },
+                    {
+                        "name": "Art"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T19:14:00.0000000Z",
+                "video": {
+                    "name": "Squid Game season 2 teaser trailer",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/29a35096-5b3b-4ad8-b4e5-de6d0c8ae920/3dbba534-0062-4b1c-bdd4-87c1246f_650.mp4",
+                    "thumbnail": {
+                        "width": 640,
+                        "height": 360
+                    }
+                },
+                "category": "Entertainment"
+            },
+            {
+                "name": "Netflix Chief Teases Meghan Markle and <b>Prince Harry</b>&#39;s Upcoming Projects, from Movie to Unscripted Shows",
+                "url": "https://uk.movies.yahoo.com/netflix-chief-teases-meghan-markle-190919166.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.HsX52gHDWNN0R6zB3BPcly&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Chief Content Officer Bela Bajaria shared what the Duke and Duchess of Sussex are working on at the Next on Netflix event",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3519861a-70ab-46e6-e148-dba0c3ee413f",
+                        "name": "Unscripted"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Movies UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Mpa2adDaIj4hp3hgCdO2wA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T19:10:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Prince Harry</b> and Meghan \u2018set to release new Netflix documentaries\u2019",
+                "url": "https://www.telegraph.co.uk/royal-family/2024/02/01/prince-harry-meghan-new-documentaries-netflix/",
+                "description": "The Duke and Duchess of Sussex are also working on a scripted television series and a film adaptation as part of their $100m deal",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/424cb54b-41a3-c86b-d8e0-3ecef5609ce8",
+                        "name": "Netflix"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Netflix"
+                    },
+                    {
+                        "name": "Documentary film"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T18:41:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "&#39;I didn&#39;t expect to be drawn into UK internal issues!&#39;: Anti-monarchy Jamaican PM Andrew Holness breaks silence on <b>Harry</b> and Meghan after their visit to the Caribbean country ...",
+                "url": "https://www.dailymail.co.uk/news/article-13033967/Anti-monarchy-Jamaican-PM-Andrew-Holness-breaks-silence-Harry-Meghan-visit-Caribbean-country-royal-row.html",
+                "description": "Prince Harry and Meghan met Prime Minister Andrew Holness who has previously said he intends to ditch the monarchy and warned Prince William and Kate they&#39;d never rule the island.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fc7eab19-7d03-0e23-d4ca-3413831f019e",
+                        "name": "Andrew Holness"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7ee7f148-7ed7-b73e-7461-900ee716ef61",
+                        "name": "Caribbean"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T18:00:00.0000000Z"
+            },
+            {
+                "name": "<b>Harry</b> and Meghan, the \u2018soft power\u2019 Sussexes, still divide opinion",
+                "url": "https://www.theguardian.com/uk-news/2024/feb/01/harry-and-meghan-the-soft-power-sussexes-still-divide-opinion",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Oo_QkHuc25OwYU5ynN-D2y&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Letters: Desmond Hewitt thinks Hirschman\u2019s hypothesis has played out perfectly, Anna Yu supports them, Colton Richards just sees two people watching a film, while Rosemary Slawinska says Harry\u2019s treat",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9ae50fbc-11d0-ebb6-c66c-e655e0fa8266",
+                        "name": "Opinion"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T17:59:00.0000000Z"
+            },
+            {
+                "name": "<b>Harry</b> warned to \u2018lay off\u2019 Kate as Meghan mulls \u2018explosive\u2019 career move",
+                "url": "https://www.lbc.co.uk/news/prince-harry-lay-off-kate-middleton-meghan-markle-career-move/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.2GMdqGC6imD157b__sySoy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Paul Burrell worked for Princess Diana for more than a decade until her sudden death in 1997, and claimed Harry &#39;has a nerve&#39; to upset his sister-in-law. \u201cI understand why they are upset, because Kate went to great lengths to find out if a royal life was for her and it caused her issues,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "LBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.iWFEm2xSUKuVEhtVsjP6gQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T17:55:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Prince Harry</b> and Meghan Markle reveal they will spend Valentine&#39;s Day in Canada",
+                "url": "https://www.hellomagazine.com/royalty/512574/prince-harry-meghan-markle-reveal-their-2024-valentine-day-plans-all-the-details/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.h6y05KDFEsdc3KzmcZeTNy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The Duke and Duchess of Sussex will be spending Valentine&#39;s Day 2024 celebrating a cause close to their hearts, as they will attend the Invictus Games&#39; One Year to Go event later this month in Canada.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Valentine&#39;s Day"
+                    },
+                    {
+                        "name": "Victoria, Crown Princess of Sweden"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "HELLO! Magazine",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6bLjCo5bpOYzo-n6kqtwhg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T17:48:00.0000000Z",
+                "video": {
+                    "name": "Prince Harry and Meghan Markle reveal their 2024 Valentine Day plans \u2013 all the details",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/4d32d12a-312e-429c-9e25-48e432cc5b05/3e0c6911-d714-432f-ba8f-a35ca299_650.mp4",
+                    "thumbnail": {
+                        "width": 640,
+                        "height": 360
+                    }
+                }
+            },
+            {
+                "name": "<b>Prince Harry</b>&#39;s heart-warming four-word remark about George and Charlotte",
+                "url": "https://www.dailyrecord.co.uk/entertainment/celebrity/prince-harrys-heart-warming-four-32024401",
+                "description": "The Duke of Sussex was very close with his niece and nephew before he left the Royal Family in 2020 and fell out with his elder brother Prince William.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7423daea-8cab-a160-cbe8-817f94ca9574",
+                        "name": "Prince George, Duke of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1854ace0-70ae-3ef4-449d-7d5de6eb118f",
+                        "name": "Princess Charlotte of Wales"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Prince George, Duke of Cambridge"
+                    },
+                    {
+                        "name": "Princess Charlotte of Wales"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Record",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.B6nvPq26UTBuCaXH6tX71w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T16:39:00.0000000Z"
+            },
+            {
+                "name": "<b>Prince Harry</b> and Meghan Markle&#39;s future at Netflix revealed before contract expires",
+                "url": "https://www.mirror.co.uk/3am/us-celebrity-news/prince-harry-meghan-markles-future-32022959",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.z2ZRgrzM4frDF_XX-FNd5C&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Meghan Markle and Prince Harry are facing the end of their Netflix deal, but it seems all is not lost as the streaming service&#39;s chief content officer has made a big announcement",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/424cb54b-41a3-c86b-d8e0-3ecef5609ce8",
+                        "name": "Netflix"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "Netflix"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T16:20:00.0000000Z"
+            },
+            {
+                "name": "<b>Harry</b> and Meghan call for urgent change to protect children on social media",
+                "url": "https://www.itv.com/news/2024-02-01/harry-and-meghan-call-for-urgent-change-to-protect-children-on-social-media",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ULKKkMryQx1SCpbuZoFTeC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "It comes after a US Congressional hearing on the issue where Meta CEO Mark Zuckerberg apologised to parents of children who killed themselves over online abuse. | ITV National News",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "ITV",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.HlKTyCgM99pRvmITMdZC2w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T15:55:00.0000000Z"
+            },
+            {
+                "name": "Duke and Duchess of Sussex working on a &#39;bunch&#39; of Netflix projects",
+                "url": "https://www.standard.co.uk/showbiz/duke-duchess-sussex-netflix-film-documentary-prince-harry-meghan-markle-b1136425.html",
+                "description": "The Duke and Duchess of Sussex are developing \u201ca bunch\u201d of projects with Netflix including documentaries and a film, according to a senior executive at the streaming giant. The firm\u2019s chief content officer Bela Bajaria told a Hollywood event the couple\u2019s projects include \u201ca couple of unscripted things\u201d and a series.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/424cb54b-41a3-c86b-d8e0-3ecef5609ce8",
+                        "name": "Netflix"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "name": "Netflix"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T15:49:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Harry</b> and Meghan Say No Parent Can Keep Their Child Safe From Social Media",
+                "url": "https://uk.news.yahoo.com/harry-meghan-no-parent-keep-154606030.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.NZhxZf9hWR4kPSeyQbvqfy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Andrew Milligan/Pool/ReutersPrince Harry and Meghan Markle have issued an emotional statement saying that parents are powerless to keep children \u201csafe\u201d from social media platforms.The statement on their Archewell website comes after Mark Zuckerberg and other social media CEOs appeared Wednesday before the U.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T15:46:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "The Crown star Dominic West reveals he &#39;stayed in bed for two days&#39; after reading poor reviews",
+                "url": "https://www.standard.co.uk/showbiz/the-crown-dominic-west-stayed-in-bed-after-reading-reviews-b1136415.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.w3QFdUhbNz1H3dzSo_fVxS&pid=News",
+                        "width": 700,
+                        "height": 462
+                    }
+                },
+                "description": "Dominic West revealed that he spent &quot;two days in bed&quot; after reading the reviews for the final season of The Crown.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fa01d4e7-d03c-e2b5-857e-f12ce576b9b7",
+                        "name": "Dominic West"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/76c21f12-fa00-1dcb-e164-64ea2379f563",
+                        "name": "The Crown"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Dominic West"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "The Crown"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T15:35:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Prince Harry</b> and Meghan Markle branded &#39;power couple&#39; after important new video message",
+                "url": "https://www.express.co.uk/news/royal/1862166/prince-harry-meghan-markle-power-couple",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.uZ-hi2SAgSm2-M94xrEy1i&pid=News",
+                        "width": 700,
+                        "height": 415
+                    }
+                },
+                "description": "Prince Harry and Meghan Markle have spoken out again calling for &quot;urgent change&quot; to keep children safe online.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Daily Express"
+                    },
+                    {
+                        "name": "Meghan Markle"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T14:47:00.0000000Z"
+            },
+            {
+                "name": "<b>Prince Harry</b> will &#39;regret&#39; aimed attack at Kate Middleton that &#39;left William furious&#39;",
+                "url": "https://www.dailyrecord.co.uk/entertainment/celebrity/prince-harry-regret-aimed-attack-32022202",
+                "description": "The Duke of Sussex appeared to make a veiled dig at his sister-in-law the Princess of Wales during his Netflix docuseries with Meghan Markle.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/026387b6-916a-4fd2-91c9-c67298468905",
+                        "name": "Prince William, Duke of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Record",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.B6nvPq26UTBuCaXH6tX71w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T14:36:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Vince McMahon Is \u201cGone\u201d and More Takeaways From Netflix\u2019s Press Day",
+                "url": "https://uk.style.yahoo.com/vince-mcmahon-gone-more-takeaways-140000815.html",
+                "description": "Ahead of next week\u2019s semi-annual Television Critics Association press tour, Netflix staged its own press event Wednesday \u2014 dubbed Next on Netflix \u2014 at its Tudum Theater in Hollywood. Content chief Bela Bajaria and her top lieutenants,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/998a9e11-0566-834d-1242-8de091df1913",
+                        "name": "Vince McMahon"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/424cb54b-41a3-c86b-d8e0-3ecef5609ce8",
+                        "name": "Netflix"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Style UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.R1Y_kEYTGAFzjK1_2NaYlQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T13:59:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Harry</b> and Meghan busy with \u2018a bunch\u2019 of new Netflix projects",
+                "url": "https://www.independent.co.uk/life-style/royal-family/news/harry-meghan-latest-news-netflix-b2488839.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.HxeJEVBbMZFoLBnGhQc46S&pid=News",
+                        "width": 700,
+                        "height": 525
+                    }
+                },
+                "description": "Shedding light on the future of their deal with Netflix, the company\u2019s chief content officer Bela Bajaria said Harry and Meghan\u2019s Archewell Productions is gearing up to deliver at least three new projects, including a film and \u201ca couple of other unscripted things\u201d.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/424cb54b-41a3-c86b-d8e0-3ecef5609ce8",
+                        "name": "Netflix"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "Netflix"
+                    },
+                    {
+                        "name": "Prince Harry"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T13:42:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Harry</b> and Meghan share rare and emotional message as they call for urgent change to child safety online",
+                "url": "https://www.lbc.co.uk/news/harry-meghan-rare-message-child-safety-online/",
+                "description": "Prince Harry and Meghan Markle have issued a rare and emotional message on child safety on social media. Harry and Meghan spoke out after chief executives of Meta, TikTok, X and other social media giants gave evidence before the US Senate Judiciary Committee on Wednesday.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "LBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.iWFEm2xSUKuVEhtVsjP6gQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T13:30:00.0000000Z",
+                "category": "ScienceAndTechnology"
+            },
+            {
+                "name": "<b>Prince Harry</b> warned to \u2018lay off\u2019 Kate Middleton as Meghan Markle prepares for \u2018explosive\u2019 career move, ex butler claims",
+                "url": "https://www.thesun.co.uk/royals/25645073/prince-harry-lay-off-kate-middleton-meghan-markle-career/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ts0CPQwjVHxguwlfwM008i&pid=News",
+                        "width": 300,
+                        "height": 192
+                    }
+                },
+                "description": "PRINCE Harry has been warned to \u201clay off\u201d his sister-in-law Kate Middleton as Meghan Markle gears up to write an \u201cexplosive\u201d memoir, according to a former royal butler.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mZZguWnkRkVFPCoaQUmKEg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T12:13:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Harry</b> and Meghan release video of Duchess telling families of children who have been victims of cyber bullying that &#39;we all just want to feel safe&#39; as couple front campaign ...",
+                "url": "https://www.dailymail.co.uk/news/article-13032173/Prince-Harry-Meghan-Markle-new-video-child-online-safety.html",
+                "description": "The Duke and Duchess of Sussex released the clip last night which was filmed during their appearance at a World Mental Health Day event in New York on October 10 last year.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T12:11:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Prince Harry</b> and Meghan Markle open up on parenting \u2018heartache\u2019 &amp; demand change to \u2018keep our children safe\u2019",
+                "url": "https://www.thesun.co.uk/royals/25647972/prince-harry-meghan-markle-parenting-children/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ElkTS6GwSz3P6HfSmLSZsy&pid=News",
+                        "width": 700,
+                        "height": 465
+                    }
+                },
+                "description": "PRINCE Harry and Meghan Markle have called for an urgent change to \u201ckeep our children safe\u201d on social media. The Duke and Duchess of Sussex said they had heard the",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mZZguWnkRkVFPCoaQUmKEg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T11:56:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Piers Morgan: Calls for the presenter to be re-investigated grow and he has <b>Prince Harry</b> to blame",
+                "url": "https://www.ohmymag.co.uk/entertainment/celebrities/piers-morgan-calls-for-the-presenter-to-be-re-investigated-grow-and-he-has-prince-harry-to-blame_art20988.html",
+                "description": "TV presenter and journalist Piers Morgan is once again in the spotlight because of his potential involvement in phone hacking. And this time, Prince Harry might be at the",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40caaaa3-1d34-aee8-d89f-7be6b283a917",
+                        "name": "Piers Morgan"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Piers Morgan"
+                    },
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Prince Andrew, Duke of York"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "ohmymag",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.paSXOEqa6avLJqgrjvvuFA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T11:35:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "\u2018The best parenting in the world\u2019 cannot keep children safe from social media, say <b>Harry</b> and Meghan",
+                "url": "https://www.telegraph.co.uk/royal-family/2024/02/01/best-parenting-social-media-meta-tiktok-prince-harry-meghan/",
+                "description": "The Sussexes told tech bosses they need to make changes to keep young people safe, rather than passing \u2018the buck of responsibility\u2019",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4ce177ea-a99f-5e40-7159-82f7b5581be3",
+                        "name": "Social media"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b2f69d84-61e8-6486-e21d-571285d3ba2f",
+                        "name": "Safety"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Social media"
+                    },
+                    {
+                        "name": "Safety"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T11:29:00.0000000Z"
+            },
+            {
+                "name": "Where do Kate Middleton and <b>Prince</b> William live? A look at their family home",
+                "url": "https://www.heart.co.uk/showbiz/where-do-kate-middleton-prince-william-family-home/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Ad0ThW3Ums2-TjF8RB8QiC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Where is Kate Middleton&#39;s family home? How many houses do Kate and Prince William have? Here&#39;s a look inside their portfolio of royal houses.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/026387b6-916a-4fd2-91c9-c67298468905",
+                        "name": "Prince William, Duke of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Heart",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.RMvRpK8kU0W6Jtsbk4UBOQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T11:23:00.0000000Z"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=prince+harry",
+        "queryContext": {
+            "originalQuery": "prince harry",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 135,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=prince+harry"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=prince+harry&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Royal Family &#39;shuts the door&#39; on <b>Prince Harry</b> and Meghan Markle with tight-lipped tactic",
+                "url": "https://www.mirror.co.uk/news/royals/royal-family-shuts-door-prince-32026750",
+                "description": "The Royal Family have &#39;no space&#39; for Prince Harry and Meghan Markle anymore, according to Princess Diana&#39;s former butler, who claims the Firm now have a new tactic to deal with them",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "Tactic"
+                    },
+                    {
+                        "name": "British Royal Family"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T23:22:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Netflix teases \u2018great\u2019 Meghan Markle, <b>Prince Harry</b> upcoming projects as part of $100M deal",
+                "url": "https://nypost.com/2024/02/01/entertainment/netflix-teases-great-meghan-markle-prince-harry-upcoming-projects-as-part-of-100m-deal/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.p3NjEmsuZQ9KG3kUM2mcVi&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Bela Bajaria, Netflix\u2019s Chief Content Officer, revealed what types of projects Prince Harry and Meghan Markle are working on for the streamer under their estimated $100 million deal with the platform. \u201cThey have a couple of unscripted things they\u2019re working on with Brandon [Reigg],\u201d Bajaria said, according to People.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/424cb54b-41a3-c86b-d8e0-3ecef5609ce8",
+                        "name": "Netflix"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Netflix"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "New York Post",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.ajvVh9V9VQOkNrdxJ1ZcWw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T22:10:00.0000000Z",
+                "video": {
+                    "name": "Netflix teases \u2018great\u2019 Meghan Markle, Prince Harry upcoming projects as part of $100M deal",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/f1dcb6a9-e9c8-43ac-b647-3fadbde623de/ddd95ee5-fc02-4e19-bef1-4932fba7_650.mp4",
+                    "thumbnail": {
+                        "width": 640,
+                        "height": 360
+                    }
+                },
+                "category": "Entertainment"
+            },
+            {
+                "name": "Nicholas Galitzine is about to own 2024 as a <b>Harry</b> Styles stand-in AND another thirsty royal",
+                "url": "https://www.msn.com/en-us/entertainment/entertainment-celebrity/nicholas-galitzine-is-about-to-own-2024-as-a-harry-styles-stand-in-and-another-thirsty-royal/ar-BB1hDndP",
+                "description": "Cheer up\u2014the spring of Nicholas Galitzine is just around the corner! Galitzine, best known as the charming Prince Henry in last-summer\u2019s LGBTQ+ rom-com smash, Red, White &amp; Royal Blue, is poised to have a massive couple of months ahead,",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Queerty on MSN.com",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.4ad3H4fdsd9ZMOoWTG9z6Q&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T22:00:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Emily In Paris, <b>Harry</b> and Meghan, Michael Shannon as a US President: Netflix Is All Over the Map With Their 2024 Content Strategy",
+                "url": "https://www.tvfanatic.com/2024/02/emily-in-paris-harry-and-meghan-michael-shannon-as-a-us-presiden/",
+                "description": "Netflix announced its slate of new TV series this week. And to say that we&#39;ve got a mixed bag of content ahead would be putting it very, very mildly.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f0880779-58da-8dd1-0c38-eaed883dcdd2",
+                        "name": "Michael Shannon"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/424cb54b-41a3-c86b-d8e0-3ecef5609ce8",
+                        "name": "Netflix"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "TV Fanatic",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.qXxWalbT_UKHOmu5_GXiaA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T21:58:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Prince</b> Edward Meets The Same 192-Year-Old Tortoise That Queen Elizabeth Met In 1947",
+                "url": "https://www.msn.com/en-us/lifestyle/lifestyle-buzz/prince-edward-meets-the-same-192-year-old-tortoise-that-queen-elizabeth-met-in-1947/ar-BB1hD8v9",
+                "description": "Jonathan, a 192-year-old tortoise, has met several members of the royal family in his lifetime. Most recently, he had a chance to meet Prince Edward, Duke of Edinburgh. Jonathan has also met Prince Edward&#39;s late parents,",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "littlethings.com on MSN.com",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.03DpLn92qSnkeFMkXlKWyw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T12:30:00.0000000Z"
+            },
+            {
+                "name": "Meghan Markle and <b>Prince Harry</b> Are Heading to Canada This Month for a Special Celebration",
+                "url": "https://uk.movies.yahoo.com/meghan-markle-prince-harry-heading-201710043.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.7KvEMGyy8JVyBf68Vtq-eC&pid=News",
+                        "width": 700,
+                        "height": 467
+                    }
+                },
+                "description": "Meghan Markle and Prince Harry are heading to Canada for an exciting countdown.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/370ed614-32e1-4326-a356-dc0a7dd56aaa",
+                        "name": "Canada"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Movies UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Mpa2adDaIj4hp3hgCdO2wA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T20:17:00.0000000Z"
+            },
+            {
+                "name": "Meghan Markle and <b>Prince Harry</b> Have So Many New Projects at Netflix",
+                "url": "https://www.instyle.com/meghan-markle-prince-harry-netflix-movies-series-8557600",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.1HP7fzExp01prgR3qfkRmy&pid=News",
+                        "width": 700,
+                        "height": 350
+                    }
+                },
+                "description": "Netflix&#39;s content chief Bela Bajaria shared details about Meghan Markle and Prince Harry&#39;s upcoming projects with the streamer.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/424cb54b-41a3-c86b-d8e0-3ecef5609ce8",
+                        "name": "Netflix"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "name": "Netflix"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "InStyle",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.ryoSCuLkewHRZ4o-VLOZ5w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T19:57:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Prince Harry</b> and Meghan Markle to return to Canada in just a few weeks time",
+                "url": "https://www.express.co.uk/news/royal/1862275/Prince-Harry-Meghan-Markle-canada-invictus-games",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.tNbngcBmXp8-LFZ-V8ZRJC&pid=News",
+                        "width": 700,
+                        "height": 415
+                    }
+                },
+                "description": "Prince Harry and Meghan Markle first spent some month living in Canada when they quit the Royal Family in 2020.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/370ed614-32e1-4326-a356-dc0a7dd56aaa",
+                        "name": "Canada"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Canada"
+                    },
+                    {
+                        "name": "Daily Express"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T19:14:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Netflix Chief Teases Meghan Markle and <b>Prince Harry</b>&#39;s Upcoming Projects, from Movie to Unscripted Shows",
+                "url": "https://uk.movies.yahoo.com/netflix-chief-teases-meghan-markle-190919166.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.HsX52gHDWNN0R6zB3BPcly&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Chief Content Officer Bela Bajaria shared what the Duke and Duchess of Sussex are working on at the Next on Netflix event",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3519861a-70ab-46e6-e148-dba0c3ee413f",
+                        "name": "Unscripted"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Movies UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Mpa2adDaIj4hp3hgCdO2wA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T19:10:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Prince Harry</b> and Meghan \u2018set to release new Netflix documentaries\u2019",
+                "url": "https://www.telegraph.co.uk/royal-family/2024/02/01/prince-harry-meghan-new-documentaries-netflix/",
+                "description": "The Duke and Duchess of Sussex are also working on a scripted television series and a film adaptation as part of their $100m deal",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/424cb54b-41a3-c86b-d8e0-3ecef5609ce8",
+                        "name": "Netflix"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Netflix"
+                    },
+                    {
+                        "name": "Documentary film"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T18:41:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "&#39;I didn&#39;t expect to be drawn into UK internal issues!&#39;: Anti-monarchy Jamaican PM Andrew Holness breaks silence on <b>Harry</b> and Meghan after their visit to the Caribbean country ...",
+                "url": "https://www.dailymail.co.uk/news/article-13033967/Anti-monarchy-Jamaican-PM-Andrew-Holness-breaks-silence-Harry-Meghan-visit-Caribbean-country-royal-row.html",
+                "description": "Prince Harry and Meghan met Prime Minister Andrew Holness who has previously said he intends to ditch the monarchy and warned Prince William and Kate they&#39;d never rule the island.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fc7eab19-7d03-0e23-d4ca-3413831f019e",
+                        "name": "Andrew Holness"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7ee7f148-7ed7-b73e-7461-900ee716ef61",
+                        "name": "Caribbean"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T18:00:00.0000000Z"
+            },
+            {
+                "name": "<b>Harry</b> and Meghan, the \u2018soft power\u2019 Sussexes, still divide opinion",
+                "url": "https://www.theguardian.com/uk-news/2024/feb/01/harry-and-meghan-the-soft-power-sussexes-still-divide-opinion",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Oo_QkHuc25OwYU5ynN-D2y&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Letters: Desmond Hewitt thinks Hirschman\u2019s hypothesis has played out perfectly, Anna Yu supports them, Colton Richards just sees two people watching a film, while Rosemary Slawinska says Harry\u2019s treat",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9ae50fbc-11d0-ebb6-c66c-e655e0fa8266",
+                        "name": "Opinion"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T17:59:00.0000000Z"
+            },
+            {
+                "name": "<b>Harry</b> warned to \u2018lay off\u2019 Kate as Meghan mulls \u2018explosive\u2019 career move",
+                "url": "https://www.lbc.co.uk/news/prince-harry-lay-off-kate-middleton-meghan-markle-career-move/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.2GMdqGC6imD157b__sySoy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Paul Burrell worked for Princess Diana for more than a decade until her sudden death in 1997, and claimed Harry &#39;has a nerve&#39; to upset his sister-in-law. \u201cI understand why they are upset, because Kate went to great lengths to find out if a royal life was for her and it caused her issues,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "LBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.iWFEm2xSUKuVEhtVsjP6gQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T17:55:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Prince Harry</b> and Meghan Markle reveal they will spend Valentine&#39;s Day in Canada",
+                "url": "https://www.hellomagazine.com/royalty/512574/prince-harry-meghan-markle-reveal-their-2024-valentine-day-plans-all-the-details/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.h6y05KDFEsdc3KzmcZeTNy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The Duke and Duchess of Sussex will be spending Valentine&#39;s Day 2024 celebrating a cause close to their hearts, as they will attend the Invictus Games&#39; One Year to Go event later this month in Canada.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Valentine&#39;s Day"
+                    },
+                    {
+                        "name": "Victoria, Crown Princess of Sweden"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "HELLO! Magazine",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6bLjCo5bpOYzo-n6kqtwhg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T17:48:00.0000000Z",
+                "video": {
+                    "name": "Prince Harry and Meghan Markle reveal their 2024 Valentine Day plans \u2013 all the details",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/4d32d12a-312e-429c-9e25-48e432cc5b05/3e0c6911-d714-432f-ba8f-a35ca299_650.mp4",
+                    "thumbnail": {
+                        "width": 640,
+                        "height": 360
+                    }
+                }
+            },
+            {
+                "name": "<b>Harry</b> and Meghan gave Jamaica \u2018more publicity\u2019, says anti-monarchy PM",
+                "url": "https://www.telegraph.co.uk/royal-family/2024/02/01/prince-harry-meghan-publicity-jamaica-anti-monarchy-pm/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.d_OMx08wJwK0iSn51g4Shy&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "Andrew Holness \u2018shrugs off\u2019 controversy over red carpet photo with the Sussexes and says he was \u2018very happy\u2019 to see them",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2562ea55-e766-cb17-7e1f-a957c9f8b966",
+                        "name": "Jamaica"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Jamaica"
+                    },
+                    {
+                        "name": "Prince William, Duke of Cambridge"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T16:55:00.0000000Z"
+            },
+            {
+                "name": "<b>Prince Harry</b>&#39;s heart-warming four-word remark about George and Charlotte",
+                "url": "https://www.dailyrecord.co.uk/entertainment/celebrity/prince-harrys-heart-warming-four-32024401",
+                "description": "The Duke of Sussex was very close with his niece and nephew before he left the Royal Family in 2020 and fell out with his elder brother Prince William.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7423daea-8cab-a160-cbe8-817f94ca9574",
+                        "name": "Prince George, Duke of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1854ace0-70ae-3ef4-449d-7d5de6eb118f",
+                        "name": "Princess Charlotte of Wales"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Prince George, Duke of Cambridge"
+                    },
+                    {
+                        "name": "Princess Charlotte of Wales"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Record",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.B6nvPq26UTBuCaXH6tX71w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T16:39:00.0000000Z"
+            },
+            {
+                "name": "<b>Prince Harry</b> and Meghan Markle&#39;s future at Netflix revealed before contract expires",
+                "url": "https://www.mirror.co.uk/3am/us-celebrity-news/prince-harry-meghan-markles-future-32022959",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.z2ZRgrzM4frDF_XX-FNd5C&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Meghan Markle and Prince Harry are facing the end of their Netflix deal, but it seems all is not lost as the streaming service&#39;s chief content officer has made a big announcement",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/424cb54b-41a3-c86b-d8e0-3ecef5609ce8",
+                        "name": "Netflix"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "Netflix"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T16:20:00.0000000Z"
+            },
+            {
+                "name": "<b>Harry</b> and Meghan call for urgent change to protect children on social media",
+                "url": "https://www.itv.com/news/2024-02-01/harry-and-meghan-call-for-urgent-change-to-protect-children-on-social-media",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ULKKkMryQx1SCpbuZoFTeC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "It comes after a US Congressional hearing on the issue where Meta CEO Mark Zuckerberg apologised to parents of children who killed themselves over online abuse. | ITV National News",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "ITV",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.HlKTyCgM99pRvmITMdZC2w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T15:55:00.0000000Z"
+            },
+            {
+                "name": "Duke and Duchess of Sussex working on a &#39;bunch&#39; of Netflix projects",
+                "url": "https://www.standard.co.uk/showbiz/duke-duchess-sussex-netflix-film-documentary-prince-harry-meghan-markle-b1136425.html",
+                "description": "The Duke and Duchess of Sussex are developing \u201ca bunch\u201d of projects with Netflix including documentaries and a film, according to a senior executive at the streaming giant. The firm\u2019s chief content officer Bela Bajaria told a Hollywood event the couple\u2019s projects include \u201ca couple of unscripted things\u201d and a series.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/424cb54b-41a3-c86b-d8e0-3ecef5609ce8",
+                        "name": "Netflix"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "name": "Netflix"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T15:49:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Harry</b> and Meghan Say No Parent Can Keep Their Child Safe From Social Media",
+                "url": "https://uk.news.yahoo.com/harry-meghan-no-parent-keep-154606030.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.NZhxZf9hWR4kPSeyQbvqfy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Andrew Milligan/Pool/ReutersPrince Harry and Meghan Markle have issued an emotional statement saying that parents are powerless to keep children \u201csafe\u201d from social media platforms.The statement on their Archewell website comes after Mark Zuckerberg and other social media CEOs appeared Wednesday before the U.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T15:46:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "The Crown star Dominic West reveals he &#39;stayed in bed for two days&#39; after reading poor reviews",
+                "url": "https://www.standard.co.uk/showbiz/the-crown-dominic-west-stayed-in-bed-after-reading-reviews-b1136415.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.w3QFdUhbNz1H3dzSo_fVxS&pid=News",
+                        "width": 700,
+                        "height": 462
+                    }
+                },
+                "description": "Dominic West revealed that he spent &quot;two days in bed&quot; after reading the reviews for the final season of The Crown.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fa01d4e7-d03c-e2b5-857e-f12ce576b9b7",
+                        "name": "Dominic West"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/76c21f12-fa00-1dcb-e164-64ea2379f563",
+                        "name": "The Crown"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Dominic West"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "The Crown"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T15:35:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Duchess Meghan and <b>Prince Harry</b> Share Video on Child Online Safety Following Senate Hearing",
+                "url": "https://www.harpersbazaar.com/celebrity/latest/a46611713/meghan-markle-prince-harry-video-child-online-safety-senate-hearing/",
+                "description": "The U.S. Senate Judiciary Committee held a hearing on online child safety in front of an audience of tech giants and parents whose kids have suffered or died due to online abuse",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/349f8350-f53d-05b3-5c64-5a0cfd22b5e8",
+                        "name": "Child"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Child"
+                    },
+                    {
+                        "name": "Hearing"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Harper&#39;s Bazaar",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.gqavbkqbARennh9IAa-itQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T15:20:00.0000000Z"
+            },
+            {
+                "name": "<b>Prince Harry</b> and Meghan Markle branded &#39;power couple&#39; after important new video message",
+                "url": "https://www.express.co.uk/news/royal/1862166/prince-harry-meghan-markle-power-couple",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.uZ-hi2SAgSm2-M94xrEy1i&pid=News",
+                        "width": 700,
+                        "height": 415
+                    }
+                },
+                "description": "Prince Harry and Meghan Markle have spoken out again calling for &quot;urgent change&quot; to keep children safe online.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Daily Express"
+                    },
+                    {
+                        "name": "Meghan Markle"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T14:47:00.0000000Z"
+            },
+            {
+                "name": "<b>Prince Harry</b> will &#39;regret&#39; aimed attack at Kate Middleton that &#39;left William furious&#39;",
+                "url": "https://www.dailyrecord.co.uk/entertainment/celebrity/prince-harry-regret-aimed-attack-32022202",
+                "description": "The Duke of Sussex appeared to make a veiled dig at his sister-in-law the Princess of Wales during his Netflix docuseries with Meghan Markle.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/026387b6-916a-4fd2-91c9-c67298468905",
+                        "name": "Prince William, Duke of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Record",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.B6nvPq26UTBuCaXH6tX71w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T14:36:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Harry</b> and Meghan busy with \u2018a bunch\u2019 of new Netflix projects",
+                "url": "https://www.independent.co.uk/life-style/royal-family/news/harry-meghan-latest-news-netflix-b2488839.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.HxeJEVBbMZFoLBnGhQc46S&pid=News",
+                        "width": 700,
+                        "height": 525
+                    }
+                },
+                "description": "Shedding light on the future of their deal with Netflix, the company\u2019s chief content officer Bela Bajaria said Harry and Meghan\u2019s Archewell Productions is gearing up to deliver at least three new projects, including a film and \u201ca couple of other unscripted things\u201d.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/424cb54b-41a3-c86b-d8e0-3ecef5609ce8",
+                        "name": "Netflix"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "Netflix"
+                    },
+                    {
+                        "name": "Prince Harry"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T13:42:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Harry</b> and Meghan share rare and emotional message as they call for urgent change to child safety online",
+                "url": "https://www.lbc.co.uk/news/harry-meghan-rare-message-child-safety-online/",
+                "description": "Prince Harry and Meghan Markle have issued a rare and emotional message on child safety on social media. Harry and Meghan spoke out after chief executives of Meta, TikTok, X and other social media giants gave evidence before the US Senate Judiciary Committee on Wednesday.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "LBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.iWFEm2xSUKuVEhtVsjP6gQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T13:30:00.0000000Z",
+                "category": "ScienceAndTechnology"
+            },
+            {
+                "name": "<b>Prince Harry</b> warned to \u2018lay off\u2019 Kate Middleton as Meghan Markle prepares for \u2018explosive\u2019 career move, ex butler claims",
+                "url": "https://www.thesun.co.uk/royals/25645073/prince-harry-lay-off-kate-middleton-meghan-markle-career/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ts0CPQwjVHxguwlfwM008i&pid=News",
+                        "width": 300,
+                        "height": 192
+                    }
+                },
+                "description": "PRINCE Harry has been warned to \u201clay off\u201d his sister-in-law Kate Middleton as Meghan Markle gears up to write an \u201cexplosive\u201d memoir, according to a former royal butler.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mZZguWnkRkVFPCoaQUmKEg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T12:13:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Harry</b> and Meghan release video of Duchess telling families of children who have been victims of cyber bullying that &#39;we all just want to feel safe&#39; as couple front campaign ...",
+                "url": "https://www.dailymail.co.uk/news/article-13032173/Prince-Harry-Meghan-Markle-new-video-child-online-safety.html",
+                "description": "The Duke and Duchess of Sussex released the clip last night which was filmed during their appearance at a World Mental Health Day event in New York on October 10 last year.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T12:11:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Prince Harry</b> and Meghan Markle open up on parenting \u2018heartache\u2019 &amp; demand change to \u2018keep our children safe\u2019",
+                "url": "https://www.thesun.co.uk/royals/25647972/prince-harry-meghan-markle-parenting-children/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ElkTS6GwSz3P6HfSmLSZsy&pid=News",
+                        "width": 700,
+                        "height": 465
+                    }
+                },
+                "description": "PRINCE Harry and Meghan Markle have called for an urgent change to \u201ckeep our children safe\u201d on social media. The Duke and Duchess of Sussex said they had heard the",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mZZguWnkRkVFPCoaQUmKEg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T11:56:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Piers Morgan: Calls for the presenter to be re-investigated grow and he has <b>Prince Harry</b> to blame",
+                "url": "https://www.ohmymag.co.uk/entertainment/celebrities/piers-morgan-calls-for-the-presenter-to-be-re-investigated-grow-and-he-has-prince-harry-to-blame_art20988.html",
+                "description": "TV presenter and journalist Piers Morgan is once again in the spotlight because of his potential involvement in phone hacking. And this time, Prince Harry might be at the",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40caaaa3-1d34-aee8-d89f-7be6b283a917",
+                        "name": "Piers Morgan"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Piers Morgan"
+                    },
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Prince Andrew, Duke of York"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "ohmymag",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.paSXOEqa6avLJqgrjvvuFA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T11:35:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Where do Kate Middleton and <b>Prince</b> William live? A look at their family home",
+                "url": "https://www.heart.co.uk/showbiz/where-do-kate-middleton-prince-william-family-home/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Ad0ThW3Ums2-TjF8RB8QiC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Where is Kate Middleton&#39;s family home? How many houses do Kate and Prince William have? Here&#39;s a look inside their portfolio of royal houses.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/026387b6-916a-4fd2-91c9-c67298468905",
+                        "name": "Prince William, Duke of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Heart",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.RMvRpK8kU0W6Jtsbk4UBOQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T11:23:00.0000000Z"
+            },
+            {
+                "name": "<b>Prince Harry</b> and Meghan: Online child safety \u2018transcends division and party lines\u2019",
+                "url": "https://uk.news.yahoo.com/prince-harry-meghan-online-child-161858513.html",
+                "description": "Prince Harry and Meghan, the Duke and Duchess of Sussex, are speaking out following this week\u2019s Senate Judiciary Committee hearing on online child safety, saying the issue \u201ctranscends division and party lines.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T11:18:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Meghan Markle and <b>Prince Harry</b> hug parents as they speak out over tragic children&#39;s deaths",
+                "url": "https://www.ok.co.uk/royal/meghan-markle-prince-harry-hug-32018421",
+                "description": "The Duke and Duchess of Sussex have been seen hugging parents over the loss of children at a mental wellness summit as they called for urgent change to child safety on social media",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/349f8350-f53d-05b3-5c64-5a0cfd22b5e8",
+                        "name": "Child"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Child"
+                    },
+                    {
+                        "name": "OK!"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "OK! Magazine UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.RWPHhKblzyP6_60q3Y3WTw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T11:05:00.0000000Z",
+                "video": {
+                    "name": "Archewell Foundation releases video showing their impact",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/92a1922c-ee1c-47d4-a914-e850c470bcd0/dbc99007-f7aa-46f2-a7ed-81a73227_650.mp4",
+                    "thumbnail": {
+                        "width": 640,
+                        "height": 360
+                    }
+                }
+            },
+            {
+                "name": "Meghan Markle and <b>Prince Harry</b> Share Emotional Message After Senate Child Safety Hearing",
+                "url": "https://uk.sports.yahoo.com/news/meghan-markle-prince-harry-share-032457586.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Ts1Qk1RJjJErKGdihkSCTy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Meghan Markle and Prince Harry are expressing their support following the U.S. Senate Judiciary Committee&#39;s hearing on online safety for children on Wednesday.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c910928b-ccc2-8861-7c95-d68db4338b19",
+                        "name": "Emotion"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo UK &amp; Ireland",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.bCGmgnmaXy3w_W9nI060kA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T03:24:00.0000000Z",
+                "category": "ScienceAndTechnology"
+            },
+            {
+                "name": "Meghan Markle and <b>Prince Harry</b> share important statement on their Archewell website",
+                "url": "https://www.hellomagazine.com/royalty/512485/meghan-markle-and-prince-harry-share-important-message-to-parents-on-keeping-kids-safe/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.MY_Fji9NxFnRIvdQ9btbFy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The Duke and Duchess of Sussex reacted to a pivotal U.S. Senate Judiciary Committee hearing that took place on Wednesday",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Child"
+                    },
+                    {
+                        "name": "Catherine, Duchess of Cambridge"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "HELLO! Magazine",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6bLjCo5bpOYzo-n6kqtwhg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T01:57:00.0000000Z"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=prince+harry",
+        "queryContext": {
+            "originalQuery": "prince harry",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 235,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=prince+harry"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=prince+harry&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Royal Family &#39;shuts the door&#39; on <b>Prince Harry</b> and Meghan Markle with tight-lipped tactic",
+                "url": "https://www.mirror.co.uk/news/royals/royal-family-shuts-door-prince-32026750",
+                "description": "The Royal Family have &#39;no space&#39; for Prince Harry and Meghan Markle anymore, according to Princess Diana&#39;s former butler, who claims the Firm now have a new tactic to deal with them",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "Tactic"
+                    },
+                    {
+                        "name": "British Royal Family"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T23:22:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Emily In Paris, <b>Harry</b> and Meghan, Michael Shannon as a US President: Netflix Is All Over the Map With Their 2024 Content Strategy",
+                "url": "https://www.tvfanatic.com/2024/02/emily-in-paris-harry-and-meghan-michael-shannon-as-a-us-presiden/",
+                "description": "Netflix announced its slate of new TV series this week. And to say that we&#39;ve got a mixed bag of content ahead would be putting it very, very mildly.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f0880779-58da-8dd1-0c38-eaed883dcdd2",
+                        "name": "Michael Shannon"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/424cb54b-41a3-c86b-d8e0-3ecef5609ce8",
+                        "name": "Netflix"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "TV Fanatic",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.qXxWalbT_UKHOmu5_GXiaA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T21:58:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Prince</b> Edward Meets The Same 192-Year-Old Tortoise That Queen Elizabeth Met In 1947",
+                "url": "https://www.msn.com/en-us/lifestyle/lifestyle-buzz/prince-edward-meets-the-same-192-year-old-tortoise-that-queen-elizabeth-met-in-1947/ar-BB1hD8v9",
+                "description": "Jonathan, a 192-year-old tortoise, has met several members of the royal family in his lifetime. Most recently, he had a chance to meet Prince Edward, Duke of Edinburgh. Jonathan has also met Prince Edward&#39;s late parents,",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "littlethings.com on MSN.com",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.03DpLn92qSnkeFMkXlKWyw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T12:30:00.0000000Z"
+            },
+            {
+                "name": "These Secrets About <b>Harry</b> Styles Will Have You Late Night Talking",
+                "url": "https://www.eonline.com/news/1394169/these-secrets-about-harry-styles-will-have-you-late-night-talking",
+                "description": "Let us adore you, Harry Styles. Celebrate the singer turning 30 by looking back at his journey, including his X Factor audition, time in One Direction, Grammy wins and more",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e5073f9c-bc67-9143-3ebb-912e9095cae1",
+                        "name": "Harry Styles"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/716dfa52-9fb7-66e7-2be3-9d428844365a",
+                        "name": "Late Night with Jimmy Fallon"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b7316cc1-be1b-8212-17f2-41d64d3268a3",
+                        "name": "Secrets"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Harry Styles"
+                    },
+                    {
+                        "name": "Late Night with Jimmy Fallon"
+                    },
+                    {
+                        "name": "Secrets"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "E!",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.aDDPL1aRP8PrYBknF4vrRQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T20:59:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Prince</b> George Had to Return a Gifted Charm Bracelet Worth More Than $12,000",
+                "url": "https://www.msn.com/en-us/entertainment/entertainment-celebrity/prince-george-had-to-return-a-gifted-charm-bracelet-worth-more-than-12000/ar-BB1hDjLG",
+                "description": "Prince George is often given lavish presents by his parents and loved ones, but sometimes Prince William and Kate Middleton decide items are too much for their son. It was reported celebrity designer Theo Fennell designed a charm bracelet for the future king that was worth $12,",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "OK! Magazine on MSN.com",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.s6zqZ8JlLEg4YuX0UAZfww&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T20:46:17.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Vince McMahon Is \u201cGone\u201d and More Takeaways From Netflix\u2019s Press Day",
+                "url": "https://www.hollywoodreporter.com/tv/tv-news/vince-mcmahon-netflix-content-chief-1235812247/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.e47lOhBYOD2whuYuOEV9vi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Ahead of next week\u2019s semiannual Critics Association press tour, Netflix staged its own press event Wednesday \u2014 dubbed Next on Netflix \u2014 at its Tudum Theater in Ho",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/998a9e11-0566-834d-1242-8de091df1913",
+                        "name": "Vince McMahon"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/556601ce-5c16-3f6c-306a-6ed4fa1e5354",
+                        "name": "Chief"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/424cb54b-41a3-c86b-d8e0-3ecef5609ce8",
+                        "name": "Netflix"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Vince McMahon"
+                    },
+                    {
+                        "name": "Chief"
+                    },
+                    {
+                        "name": "Netflix"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Hollywood Reporter",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AbC5rVAeDISagi5hJP8Pwg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T20:44:00.0000000Z",
+                "video": {
+                    "name": "Vince McMahon Is \u201cGone\u201d and More Takeaways From Netflix\u2019s Press Day",
+                    "thumbnailUrl": "https://www.bing.com/th?id=OVF.lPsZU0tD666hWuaIc8ViSw&pid=News",
+                    "thumbnail": {
+                        "width": 600,
+                        "height": 337
+                    }
+                },
+                "category": "Entertainment"
+            },
+            {
+                "name": "Meghan Markle and <b>Prince Harry</b> Are Heading to Canada This Month for a Special Celebration",
+                "url": "https://uk.movies.yahoo.com/meghan-markle-prince-harry-heading-201710043.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.7KvEMGyy8JVyBf68Vtq-eC&pid=News",
+                        "width": 700,
+                        "height": 467
+                    }
+                },
+                "description": "Meghan Markle and Prince Harry are heading to Canada for an exciting countdown.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/370ed614-32e1-4326-a356-dc0a7dd56aaa",
+                        "name": "Canada"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Movies UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Mpa2adDaIj4hp3hgCdO2wA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T20:17:00.0000000Z"
+            },
+            {
+                "name": "Meghan Markle and <b>Prince Harry</b> Have So Many New Projects at Netflix",
+                "url": "https://www.instyle.com/meghan-markle-prince-harry-netflix-movies-series-8557600",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.1HP7fzExp01prgR3qfkRmy&pid=News",
+                        "width": 700,
+                        "height": 350
+                    }
+                },
+                "description": "Netflix&#39;s content chief Bela Bajaria shared details about Meghan Markle and Prince Harry&#39;s upcoming projects with the streamer.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/424cb54b-41a3-c86b-d8e0-3ecef5609ce8",
+                        "name": "Netflix"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "name": "Netflix"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "InStyle",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.ryoSCuLkewHRZ4o-VLOZ5w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T19:57:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Prince Harry</b> and Meghan Markle to return to Canada in just a few weeks time",
+                "url": "https://www.express.co.uk/news/royal/1862275/Prince-Harry-Meghan-Markle-canada-invictus-games",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.tNbngcBmXp8-LFZ-V8ZRJC&pid=News",
+                        "width": 700,
+                        "height": 415
+                    }
+                },
+                "description": "Prince Harry and Meghan Markle first spent some month living in Canada when they quit the Royal Family in 2020.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/370ed614-32e1-4326-a356-dc0a7dd56aaa",
+                        "name": "Canada"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Canada"
+                    },
+                    {
+                        "name": "Daily Express"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T19:14:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Netflix Top 10 mainstay cancelled after one season",
+                "url": "https://www.independent.co.uk/arts-entertainment/tv/news/netflix-obliterated-cancelled-february-b2489078.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.poyRkeypfpWMYzYsA_JJuC&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Netflix has cancelled action-comedy series Obliterated after just one season, which came out only a few months ago on 30 November. The series spent six weeks in the Netflix Top 10 for English-language series, peaking at No 1 in Week 2.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/424cb54b-41a3-c86b-d8e0-3ecef5609ce8",
+                        "name": "Netflix"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "Netflix"
+                    },
+                    {
+                        "name": "Art"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T19:14:00.0000000Z",
+                "video": {
+                    "name": "Squid Game season 2 teaser trailer",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/29a35096-5b3b-4ad8-b4e5-de6d0c8ae920/3dbba534-0062-4b1c-bdd4-87c1246f_650.mp4",
+                    "thumbnail": {
+                        "width": 640,
+                        "height": 360
+                    }
+                },
+                "category": "Entertainment"
+            },
+            {
+                "name": "Netflix Chief Teases Meghan Markle and <b>Prince Harry</b>&#39;s Upcoming Projects, from Movie to Unscripted Shows",
+                "url": "https://uk.movies.yahoo.com/netflix-chief-teases-meghan-markle-190919166.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.HsX52gHDWNN0R6zB3BPcly&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Chief Content Officer Bela Bajaria shared what the Duke and Duchess of Sussex are working on at the Next on Netflix event",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3519861a-70ab-46e6-e148-dba0c3ee413f",
+                        "name": "Unscripted"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Movies UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Mpa2adDaIj4hp3hgCdO2wA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T19:10:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Prince Harry</b> and Meghan \u2018set to release new Netflix documentaries\u2019",
+                "url": "https://www.telegraph.co.uk/royal-family/2024/02/01/prince-harry-meghan-new-documentaries-netflix/",
+                "description": "The Duke and Duchess of Sussex are also working on a scripted television series and a film adaptation as part of their $100m deal",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/424cb54b-41a3-c86b-d8e0-3ecef5609ce8",
+                        "name": "Netflix"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Netflix"
+                    },
+                    {
+                        "name": "Documentary film"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T18:41:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "&#39;I didn&#39;t expect to be drawn into UK internal issues!&#39;: Anti-monarchy Jamaican PM Andrew Holness breaks silence on <b>Harry</b> and Meghan after their visit to the Caribbean country ...",
+                "url": "https://www.dailymail.co.uk/news/article-13033967/Anti-monarchy-Jamaican-PM-Andrew-Holness-breaks-silence-Harry-Meghan-visit-Caribbean-country-royal-row.html",
+                "description": "Prince Harry and Meghan met Prime Minister Andrew Holness who has previously said he intends to ditch the monarchy and warned Prince William and Kate they&#39;d never rule the island.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fc7eab19-7d03-0e23-d4ca-3413831f019e",
+                        "name": "Andrew Holness"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7ee7f148-7ed7-b73e-7461-900ee716ef61",
+                        "name": "Caribbean"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T18:00:00.0000000Z"
+            },
+            {
+                "name": "<b>Harry</b> and Meghan, the \u2018soft power\u2019 Sussexes, still divide opinion",
+                "url": "https://www.theguardian.com/uk-news/2024/feb/01/harry-and-meghan-the-soft-power-sussexes-still-divide-opinion",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Oo_QkHuc25OwYU5ynN-D2y&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Letters: Desmond Hewitt thinks Hirschman\u2019s hypothesis has played out perfectly, Anna Yu supports them, Colton Richards just sees two people watching a film, while Rosemary Slawinska says Harry\u2019s treat",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9ae50fbc-11d0-ebb6-c66c-e655e0fa8266",
+                        "name": "Opinion"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T17:59:00.0000000Z"
+            },
+            {
+                "name": "<b>Harry</b> warned to \u2018lay off\u2019 Kate as Meghan mulls \u2018explosive\u2019 career move",
+                "url": "https://www.lbc.co.uk/news/prince-harry-lay-off-kate-middleton-meghan-markle-career-move/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.2GMdqGC6imD157b__sySoy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Paul Burrell worked for Princess Diana for more than a decade until her sudden death in 1997, and claimed Harry &#39;has a nerve&#39; to upset his sister-in-law. \u201cI understand why they are upset, because Kate went to great lengths to find out if a royal life was for her and it caused her issues,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "LBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.iWFEm2xSUKuVEhtVsjP6gQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T17:55:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Prince Harry</b> and Meghan Markle reveal they will spend Valentine&#39;s Day in Canada",
+                "url": "https://www.hellomagazine.com/royalty/512574/prince-harry-meghan-markle-reveal-their-2024-valentine-day-plans-all-the-details/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.h6y05KDFEsdc3KzmcZeTNy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The Duke and Duchess of Sussex will be spending Valentine&#39;s Day 2024 celebrating a cause close to their hearts, as they will attend the Invictus Games&#39; One Year to Go event later this month in Canada.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Valentine&#39;s Day"
+                    },
+                    {
+                        "name": "Victoria, Crown Princess of Sweden"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "HELLO! Magazine",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6bLjCo5bpOYzo-n6kqtwhg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T17:48:00.0000000Z",
+                "video": {
+                    "name": "Prince Harry and Meghan Markle reveal their 2024 Valentine Day plans \u2013 all the details",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/4d32d12a-312e-429c-9e25-48e432cc5b05/3e0c6911-d714-432f-ba8f-a35ca299_650.mp4",
+                    "thumbnail": {
+                        "width": 640,
+                        "height": 360
+                    }
+                }
+            },
+            {
+                "name": "<b>Prince Harry</b>&#39;s heart-warming four-word remark about George and Charlotte",
+                "url": "https://www.dailyrecord.co.uk/entertainment/celebrity/prince-harrys-heart-warming-four-32024401",
+                "description": "The Duke of Sussex was very close with his niece and nephew before he left the Royal Family in 2020 and fell out with his elder brother Prince William.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7423daea-8cab-a160-cbe8-817f94ca9574",
+                        "name": "Prince George, Duke of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1854ace0-70ae-3ef4-449d-7d5de6eb118f",
+                        "name": "Princess Charlotte of Wales"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Prince George, Duke of Cambridge"
+                    },
+                    {
+                        "name": "Princess Charlotte of Wales"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Record",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.B6nvPq26UTBuCaXH6tX71w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T16:39:00.0000000Z"
+            },
+            {
+                "name": "<b>Prince Harry</b> and Meghan Markle&#39;s future at Netflix revealed before contract expires",
+                "url": "https://www.mirror.co.uk/3am/us-celebrity-news/prince-harry-meghan-markles-future-32022959",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.z2ZRgrzM4frDF_XX-FNd5C&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Meghan Markle and Prince Harry are facing the end of their Netflix deal, but it seems all is not lost as the streaming service&#39;s chief content officer has made a big announcement",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/424cb54b-41a3-c86b-d8e0-3ecef5609ce8",
+                        "name": "Netflix"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "Netflix"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T16:20:00.0000000Z"
+            },
+            {
+                "name": "<b>Harry</b> and Meghan call for urgent change to protect children on social media",
+                "url": "https://www.itv.com/news/2024-02-01/harry-and-meghan-call-for-urgent-change-to-protect-children-on-social-media",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ULKKkMryQx1SCpbuZoFTeC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "It comes after a US Congressional hearing on the issue where Meta CEO Mark Zuckerberg apologised to parents of children who killed themselves over online abuse. | ITV National News",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "ITV",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.HlKTyCgM99pRvmITMdZC2w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T15:55:00.0000000Z"
+            },
+            {
+                "name": "Duke and Duchess of Sussex working on a &#39;bunch&#39; of Netflix projects",
+                "url": "https://www.standard.co.uk/showbiz/duke-duchess-sussex-netflix-film-documentary-prince-harry-meghan-markle-b1136425.html",
+                "description": "The Duke and Duchess of Sussex are developing \u201ca bunch\u201d of projects with Netflix including documentaries and a film, according to a senior executive at the streaming giant. The firm\u2019s chief content officer Bela Bajaria told a Hollywood event the couple\u2019s projects include \u201ca couple of unscripted things\u201d and a series.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/424cb54b-41a3-c86b-d8e0-3ecef5609ce8",
+                        "name": "Netflix"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "name": "Netflix"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T15:49:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Harry</b> and Meghan Say No Parent Can Keep Their Child Safe From Social Media",
+                "url": "https://uk.news.yahoo.com/harry-meghan-no-parent-keep-154606030.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.NZhxZf9hWR4kPSeyQbvqfy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Andrew Milligan/Pool/ReutersPrince Harry and Meghan Markle have issued an emotional statement saying that parents are powerless to keep children \u201csafe\u201d from social media platforms.The statement on their Archewell website comes after Mark Zuckerberg and other social media CEOs appeared Wednesday before the U.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T15:46:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "The Crown star Dominic West reveals he &#39;stayed in bed for two days&#39; after reading poor reviews",
+                "url": "https://www.standard.co.uk/showbiz/the-crown-dominic-west-stayed-in-bed-after-reading-reviews-b1136415.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.w3QFdUhbNz1H3dzSo_fVxS&pid=News",
+                        "width": 700,
+                        "height": 462
+                    }
+                },
+                "description": "Dominic West revealed that he spent &quot;two days in bed&quot; after reading the reviews for the final season of The Crown.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fa01d4e7-d03c-e2b5-857e-f12ce576b9b7",
+                        "name": "Dominic West"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/76c21f12-fa00-1dcb-e164-64ea2379f563",
+                        "name": "The Crown"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Dominic West"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "The Crown"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T15:35:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Prince Harry</b> and Meghan Markle branded &#39;power couple&#39; after important new video message",
+                "url": "https://www.express.co.uk/news/royal/1862166/prince-harry-meghan-markle-power-couple",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.uZ-hi2SAgSm2-M94xrEy1i&pid=News",
+                        "width": 700,
+                        "height": 415
+                    }
+                },
+                "description": "Prince Harry and Meghan Markle have spoken out again calling for &quot;urgent change&quot; to keep children safe online.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Daily Express"
+                    },
+                    {
+                        "name": "Meghan Markle"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T14:47:00.0000000Z"
+            },
+            {
+                "name": "<b>Prince Harry</b> will &#39;regret&#39; aimed attack at Kate Middleton that &#39;left William furious&#39;",
+                "url": "https://www.dailyrecord.co.uk/entertainment/celebrity/prince-harry-regret-aimed-attack-32022202",
+                "description": "The Duke of Sussex appeared to make a veiled dig at his sister-in-law the Princess of Wales during his Netflix docuseries with Meghan Markle.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/026387b6-916a-4fd2-91c9-c67298468905",
+                        "name": "Prince William, Duke of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Record",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.B6nvPq26UTBuCaXH6tX71w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T14:36:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Harry</b> and Meghan busy with \u2018a bunch\u2019 of new Netflix projects",
+                "url": "https://www.independent.co.uk/life-style/royal-family/news/harry-meghan-latest-news-netflix-b2488839.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.HxeJEVBbMZFoLBnGhQc46S&pid=News",
+                        "width": 700,
+                        "height": 525
+                    }
+                },
+                "description": "Shedding light on the future of their deal with Netflix, the company\u2019s chief content officer Bela Bajaria said Harry and Meghan\u2019s Archewell Productions is gearing up to deliver at least three new projects, including a film and \u201ca couple of other unscripted things\u201d.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/424cb54b-41a3-c86b-d8e0-3ecef5609ce8",
+                        "name": "Netflix"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "Netflix"
+                    },
+                    {
+                        "name": "Prince Harry"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T13:42:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Harry</b> and Meghan share rare and emotional message as they call for urgent change to child safety online",
+                "url": "https://www.lbc.co.uk/news/harry-meghan-rare-message-child-safety-online/",
+                "description": "Prince Harry and Meghan Markle have issued a rare and emotional message on child safety on social media. Harry and Meghan spoke out after chief executives of Meta, TikTok, X and other social media giants gave evidence before the US Senate Judiciary Committee on Wednesday.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "LBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.iWFEm2xSUKuVEhtVsjP6gQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T13:30:00.0000000Z",
+                "category": "ScienceAndTechnology"
+            },
+            {
+                "name": "<b>Prince Harry</b> warned to \u2018lay off\u2019 Kate Middleton as Meghan Markle prepares for \u2018explosive\u2019 career move, ex butler claims",
+                "url": "https://www.thesun.co.uk/royals/25645073/prince-harry-lay-off-kate-middleton-meghan-markle-career/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ts0CPQwjVHxguwlfwM008i&pid=News",
+                        "width": 300,
+                        "height": 192
+                    }
+                },
+                "description": "PRINCE Harry has been warned to \u201clay off\u201d his sister-in-law Kate Middleton as Meghan Markle gears up to write an \u201cexplosive\u201d memoir, according to a former royal butler.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mZZguWnkRkVFPCoaQUmKEg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T12:13:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Harry</b> and Meghan release video of Duchess telling families of children who have been victims of cyber bullying that &#39;we all just want to feel safe&#39; as couple front campaign ...",
+                "url": "https://www.dailymail.co.uk/news/article-13032173/Prince-Harry-Meghan-Markle-new-video-child-online-safety.html",
+                "description": "The Duke and Duchess of Sussex released the clip last night which was filmed during their appearance at a World Mental Health Day event in New York on October 10 last year.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T12:11:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Prince Harry</b> and Meghan Markle open up on parenting \u2018heartache\u2019 &amp; demand change to \u2018keep our children safe\u2019",
+                "url": "https://www.thesun.co.uk/royals/25647972/prince-harry-meghan-markle-parenting-children/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ElkTS6GwSz3P6HfSmLSZsy&pid=News",
+                        "width": 700,
+                        "height": 465
+                    }
+                },
+                "description": "PRINCE Harry and Meghan Markle have called for an urgent change to \u201ckeep our children safe\u201d on social media. The Duke and Duchess of Sussex said they had heard the",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mZZguWnkRkVFPCoaQUmKEg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T11:56:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Piers Morgan: Calls for the presenter to be re-investigated grow and he has <b>Prince Harry</b> to blame",
+                "url": "https://www.ohmymag.co.uk/entertainment/celebrities/piers-morgan-calls-for-the-presenter-to-be-re-investigated-grow-and-he-has-prince-harry-to-blame_art20988.html",
+                "description": "TV presenter and journalist Piers Morgan is once again in the spotlight because of his potential involvement in phone hacking. And this time, Prince Harry might be at the",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40caaaa3-1d34-aee8-d89f-7be6b283a917",
+                        "name": "Piers Morgan"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Piers Morgan"
+                    },
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Prince Andrew, Duke of York"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "ohmymag",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.paSXOEqa6avLJqgrjvvuFA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T11:35:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "\u2018The best parenting in the world\u2019 cannot keep children safe from social media, say <b>Harry</b> and Meghan",
+                "url": "https://www.telegraph.co.uk/royal-family/2024/02/01/best-parenting-social-media-meta-tiktok-prince-harry-meghan/",
+                "description": "The Sussexes told tech bosses they need to make changes to keep young people safe, rather than passing \u2018the buck of responsibility\u2019",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4ce177ea-a99f-5e40-7159-82f7b5581be3",
+                        "name": "Social media"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b2f69d84-61e8-6486-e21d-571285d3ba2f",
+                        "name": "Safety"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Social media"
+                    },
+                    {
+                        "name": "Safety"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T11:29:00.0000000Z"
+            },
+            {
+                "name": "Where do Kate Middleton and <b>Prince</b> William live? A look at their family home",
+                "url": "https://www.heart.co.uk/showbiz/where-do-kate-middleton-prince-william-family-home/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Ad0ThW3Ums2-TjF8RB8QiC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Where is Kate Middleton&#39;s family home? How many houses do Kate and Prince William have? Here&#39;s a look inside their portfolio of royal houses.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/026387b6-916a-4fd2-91c9-c67298468905",
+                        "name": "Prince William, Duke of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Heart",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.RMvRpK8kU0W6Jtsbk4UBOQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T11:23:00.0000000Z"
+            },
+            {
+                "name": "<b>Prince Harry</b> and Meghan: Online child safety \u2018transcends division and party lines\u2019",
+                "url": "https://uk.news.yahoo.com/prince-harry-meghan-online-child-161858513.html",
+                "description": "Prince Harry and Meghan, the Duke and Duchess of Sussex, are speaking out following this week\u2019s Senate Judiciary Committee hearing on online child safety, saying the issue \u201ctranscends division and party lines.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T11:18:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Meghan Markle and <b>Prince Harry</b> hug parents as they speak out over tragic children&#39;s deaths",
+                "url": "https://www.ok.co.uk/royal/meghan-markle-prince-harry-hug-32018421",
+                "description": "The Duke and Duchess of Sussex have been seen hugging parents over the loss of children at a mental wellness summit as they called for urgent change to child safety on social media",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/349f8350-f53d-05b3-5c64-5a0cfd22b5e8",
+                        "name": "Child"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Child"
+                    },
+                    {
+                        "name": "OK!"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "OK! Magazine UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.RWPHhKblzyP6_60q3Y3WTw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T11:05:00.0000000Z",
+                "video": {
+                    "name": "Archewell Foundation releases video showing their impact",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/92a1922c-ee1c-47d4-a914-e850c470bcd0/dbc99007-f7aa-46f2-a7ed-81a73227_650.mp4",
+                    "thumbnail": {
+                        "width": 640,
+                        "height": 360
+                    }
+                }
+            },
+            {
+                "name": "Meghan Markle and <b>Prince Harry</b> Share Emotional Message After Senate Child Safety Hearing",
+                "url": "https://uk.sports.yahoo.com/news/meghan-markle-prince-harry-share-032457586.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Ts1Qk1RJjJErKGdihkSCTy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Meghan Markle and Prince Harry are expressing their support following the U.S. Senate Judiciary Committee&#39;s hearing on online safety for children on Wednesday.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c910928b-ccc2-8861-7c95-d68db4338b19",
+                        "name": "Emotion"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo UK &amp; Ireland",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.bCGmgnmaXy3w_W9nI060kA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-01T03:24:00.0000000Z",
+                "category": "ScienceAndTechnology"
+            }
+        ]
+    }
+]

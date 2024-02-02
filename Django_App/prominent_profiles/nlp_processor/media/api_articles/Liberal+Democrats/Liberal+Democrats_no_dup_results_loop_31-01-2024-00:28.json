@@ -1,0 +1,3212 @@
+[
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=Liberal+Democrats",
+        "queryContext": {
+            "originalQuery": "Liberal Democrats",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 18,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Liberal+Democrats"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Liberal+Democrats&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Gateshead Council chief executive Sheena Ramsey to step down following elections in May",
+                "url": "https://www.chroniclelive.co.uk/news/north-east-news/gateshead-council-chief-executive-may-28540213",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.50YoMa-IXqTJj7kxGrRS6y&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "After more than seven years in the role, Sheena Ramsey says it is the &quot;right time&quot; to go, and the search for her replacement is underway.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1f6813bc-8fd6-e99a-c5c0-e0a924915fd9",
+                        "name": "Metropolitan Borough of Gateshead"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/16a0e9e0-ea6a-e070-14d1-aec59490e4ef",
+                        "name": "Ramsey"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a55d629b-42b2-9dcf-dbd7-860a94010ae2",
+                        "name": "Chronicle Live"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Ramsey"
+                    },
+                    {
+                        "name": "Metropolitan Borough of Gateshead"
+                    },
+                    {
+                        "name": "Chronicle Live"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Evening Chronicle",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.G4kbGBXl4xfkaxnbAFtYzw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T20:41:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "In South Carolina, Biden woos Black voters in a changing U.S. South",
+                "url": "https://www.investing.com/news/world-news/in-south-carolina-biden-woos-black-voters-in-a-changing-us-south-3287409",
+                "description": "Democrats hope South Carolina&#39;s new role as host of the party&#39;s first official primary on Feb. 3 will bolster support among Black voters. Top party officials also see it as a springboard to an audacious new strategy: retaking the American South in years to come.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cad484f9-be75-7a78-12dd-16233f823cd7",
+                        "name": "Joe Biden"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f8a853f5-66cc-7831-bf44-5b3930dffc82",
+                        "name": "New South"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/810015e8-b10b-4232-9e2c-de87a67bd26e",
+                        "name": "South Carolina"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Investing",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Tz9H9gBldz1PQCvYzytHzg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T19:54:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Parliament discuss Somerset Council tax rise proposals",
+                "url": "https://www.bbc.co.uk/news/uk-england-somerset-68146843?at_medium=RSS&at_campaign=KARANGA",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Oh7AV7715LlN8I_sSDN7pC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The proposed council tax rise is just one of the motions unveiled by Somerset Council to try and mitigate the budget deficit. However, the local authority needs special permission from the government to do this, as it is twice the maximum rise usually allowed.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2b333df9-032c-c9b1-0d74-88ea8c5befbd",
+                        "name": "Somerset"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ad52c9db-1b2d-011a-2191-bf1173935354",
+                        "name": "Parliament of the United Kingdom"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T19:33:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Lib Dem councillors left frustrated at other parties&#39; lack of support for canals motion",
+                "url": "https://bromsgrovestandard.co.uk/news/lib-dem-councillors-left-frustrated-at-other-parties-lack-of-support-for-canals-motion/",
+                "description": "THE BROMSGROVE Liberal Democrats say they are flabbergasted their motion on The Canal and River Trust over funding cuts was blocked.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0b6e8745-ef19-a297-6c29-52a563c95b7b",
+                        "name": "Bromsgrove"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/04a31463-61ec-9934-ca28-88c008dd5b58",
+                        "name": "Motion"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Bromsgrove Standard"
+                    }
+                ],
+                "datePublished": "2024-01-30T19:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "MPs queue up to demand separation of \u2018Sheikh and state\u2019 in Telegraph sale",
+                "url": "https://www.telegraph.co.uk/business/2024/01/30/mps-queue-demand-separation-sheikh-state-telegraph-sale/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.rsmZ4lvxnfRnPZde5bXvNC&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "An urgent question on the sale of The Telegraph had been granted to the Conservative backbencher Alicia Kearns, the chairman of the Foreign Affairs Select Committee and an avowed opponent of RedBird IMI\u2019s plans. She demanded a national security review as \u201cwe cannot separate Sheikh and state\u201d.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ec5f24b5-3452-dcee-ae5b-ad9aa77a7f1b",
+                        "name": "Mansour bin Zayed Al Nahyan"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/dde235e0-d521-1acc-8512-1c3ca519fcdc",
+                        "name": "The Daily Telegraph"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f243da52-cf1c-049f-a2bf-baef0f6880a0",
+                        "name": "Legal separation"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Mansour bin Zayed Al Nahyan"
+                    },
+                    {
+                        "name": "The Daily Telegraph"
+                    },
+                    {
+                        "name": "Legal separation"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T18:52:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Worcester Lib Dem puzzled over two-year roadpath closure",
+                "url": "https://worcesterobserver.co.uk/news/worcester-news-worcester-lib-dem-puzzled-over-two-year-roadpath-closure/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.rGgZ3WNN5seJcHiJQtYphC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Coun Jagger acknowledged the ongoing efforts of Coun Mel Allcott in seeking a resolution to the closure issue.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/dfa20122-f7be-d966-0569-2961e615137e",
+                        "name": "Worcester"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ba4126cc-094b-6006-81bd-5be8fdcf2f3d",
+                        "name": "Closure"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "worcesterobserver.co.uk",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._G5pKz-1P4ecy2xYj1SqtA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T18:09:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "&#39;A sad day for the North East&#39; \u2013 Reaction as new Metro trains hit by &#39;devastating&#39; setback",
+                "url": "https://www.chroniclelive.co.uk/news/north-east-news/new-metro-train-fleet-delay-28540355",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.kJU8a0G_MfYIkxCSzhICOi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The first of the 46 new trains were meant to begin entering passenger service in summer 2023, but Nexus bosses now say they are in need of more rigorous testing",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a55d629b-42b2-9dcf-dbd7-860a94010ae2",
+                        "name": "Chronicle Live"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Chronicle Live"
+                    },
+                    {
+                        "name": "Metro"
+                    },
+                    {
+                        "name": "North East England"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Evening Chronicle",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.G4kbGBXl4xfkaxnbAFtYzw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T18:05:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Norfolk county councillors vote to increase their allowance pay",
+                "url": "https://www.bbc.com/news/uk-england-norfolk-68146199",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.NythfLOxBMCMVG_rwm81xi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Councillors&#39; allowances will be increased and backdated, but not everyone at an authority agreed with the decision. At a Norfolk County Council meeting, members voted for a 3.82% (\u00a3360.30) rise effective from April 2023. Councillors are entitled to a yearly basic allowance which covered their time at meetings and travel costs.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eaa431cd-02d9-4291-327a-6b359c950c9d",
+                        "name": "Norfolk County"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k3N4DqozNjgK376rAnFmsA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T17:47:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Labour grandee Mandelson warns Labour lead is \u2018artificial\u2019 and will shrink before election",
+                "url": "https://uk.news.yahoo.com/labour-grandee-mandelson-warns-labour-171527971.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Z0TuUdL75s-8EVg0kFIvSi&pid=News",
+                        "width": 700,
+                        "height": 477
+                    }
+                },
+                "description": "Peter Mandelson said people \u2018are not pricing in sufficiently\u2019 the possibility of Sir Keir failing to win a majority",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7c7bdf1a-08db-d612-97fa-abc9065d37dc",
+                        "name": "Peter Mandelson"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T17:15:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Folkestone and Hythe District Council\u2019s \u00a3100k restructure dubbed \u2018more talking and a lot less work\u2019",
+                "url": "https://www.kentonline.co.uk/folkestone/news/council-s-100k-restructure-dubbed-more-talking-and-a-lot-l-300978/",
+                "description": "Politicians feel \u201cstabbed in the back\u201d after a high-profile restructuring - set to cost taxpayers \u00a3100,000 - was delayed.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d6a719d9-a578-011f-813a-68704c5d457d",
+                        "name": "Folkestone and Hythe"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Folkestone and Hythe"
+                    },
+                    {
+                        "name": "Folkestone"
+                    },
+                    {
+                        "name": "Restructuring"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Kent Online",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.hWRC_m6PUwfTBWwiGneX8Q&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T16:57:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Andrew Jones MP hits back after Lib Dem rival Tom Gordon attacks schools funding",
+                "url": "https://thestrayferret.co.uk/andrew-jones-mp-hits-back-after-lib-dem-rival-tom-gordon-attacks-schools-funding/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Z0tM9PpMFxcQZF8CMHrNaS&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "The Liberal Democrat bidding to be Harrogate and Knaresborough&#39;s next MP has accused the government of failing local children.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0537cea1-e1d4-0538-535e-7540aedd1fe6",
+                        "name": "Andrew Jones"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fbd38419-825e-db0d-3d3c-55c597cb2b16",
+                        "name": "Tom Gordon"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/93f80e71-b5c8-3e04-35ff-51cfd5241af9",
+                        "name": "Stray"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "thestrayferret",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.kZcHlMK8z--QHZ5zMzgtFA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T16:15:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "How much power does the Lords have to stop Rwanda Bill?",
+                "url": "https://uk.sports.yahoo.com/news/power-lords-rwanda-bill-150521003.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.zfNDubXIP1mRBo0qIfZgvS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "He suggested the bill puts the UK at risk of breaching international law, will lead to &quot;substantial costs to the taxpayer&quot;, would fail to provide safe routes for refugees and fails to includes measures to stop criminal people smuggling gangs. However, the Lords voted against the motion by 206 votes to 84, with Labour choosing to abstain.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/dc2ee5d2-6e16-3080-e8f0-7bac5c557f73",
+                        "name": "Lord&#39;s Cricket Ground"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo UK &amp; Ireland",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.bCGmgnmaXy3w_W9nI060kA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T15:05:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Politics latest news: Reform UK backing among 2019 Tory voters reaches record high",
+                "url": "https://www.telegraph.co.uk/politics/2024/01/30/rishi-sunak-latest-news-dup-northern-ireland-farage/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.YLRSXFZ2ZC_PR9qc9eHUNS&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "Nigel Farage has criticised the Archbishop of Canterbury Justin Welby over comments he made about small boat crossings and the Government\u2019s Rwanda Bill.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Tory"
+                    },
+                    {
+                        "name": "Reform"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T15:01:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Stanley Civic Hall&#39;s shocking condition revealed by Durham council",
+                "url": "https://www.thenorthernecho.co.uk/news/24084085.stanley-civic-halls-shocking-condition-revealed-durham-council/",
+                "description": "A town council has been branded \u201cinept and incompetent\u201d after an inspection of an arts and culture venue found urgent repairs are required.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0939c11b-3d66-0404-f1be-e4f9450f80e6",
+                        "name": "Stanley"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5e13601d-9ea7-2e21-72e8-4f5b89f9b4dd",
+                        "name": "Durham"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0ea8557b-aca1-fd00-d940-8fc09ed08569",
+                        "name": "Hall"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Northern Echo",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.48z66l2ZlkmQjDjWZGzaZQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T15:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Lib Dems defend blocking plan to turn derelict pub into homeless shelter",
+                "url": "https://uk.news.yahoo.com/lib-dems-plan-derelict-pub-homeless-shelter-211639997.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.dOLtbrmQWeIVMjgyhYghGi&pid=News",
+                        "width": 700,
+                        "height": 427
+                    }
+                },
+                "description": "A <b>Liberal</b> <b>Democrat</b> has defended his local party&#39;s efforts to prevent a homeless hostel being opened in a residential area, and to instead restore the disused building as a community pub. The Thorney Close Inn closed its doors in 2020 and has been boarded ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/36c04e39-acf5-56ab-6e5c-de11f13216f4",
+                        "name": "Liberal Democrats"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5feb976c-2d19-a8d5-9938-fdca3cffeade",
+                        "name": "Homeless shelter"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK"
+                    }
+                ],
+                "datePublished": "2024-01-30T13:16:00.0000000Z"
+            },
+            {
+                "name": "Cole-Hamilton: SNP making woeful progress on Scotland\u2019s drugs emergency",
+                "url": "https://www.scotlibdems.org.uk/news/article/cole-hamilton-snp-making-woeful-progress-on-scotlands-drugs-emergency",
+                "description": "Scottish Liberal Democrat leader Alex Cole-Hamilton MSP has today warned that the country\u2019s drugs crisis continues to \u201cend lives and blight communities\u201d, as new statistics revealed that drug-related hospital admissions,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c8c3a07-0c6a-0cbb-ce69-1e67d001e752",
+                        "name": "Scottish Liberal Democrats"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "scotlibdems"
+                    }
+                ],
+                "datePublished": "2024-01-30T12:55:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Lib Dems take fresh poll battering as Ed Davey hit by Post Office scandal fallout",
+                "url": "https://www.express.co.uk/news/politics/1861273/Ed-Davey-poll-lib-dems-post-office",
+                "description": "Beleaguered party took a huge hit in the latest Westminster opinion poll, weeks after Sir Ed Davey became embroiled in the Horizon scandal.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8d906304-949e-b145-6d63-e327ad81a7d4",
+                        "name": "Edward Davey"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6e018547-cfd3-9836-13fc-1f7ab6d0aa31",
+                        "name": "Post Office"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Edward Davey"
+                    },
+                    {
+                        "name": "Post Office"
+                    },
+                    {
+                        "name": "Daily Express"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T12:54:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Rwanda Bill criticised by peers at first stage in House of Lords",
+                "url": "https://www.bbc.co.uk/news/uk-politics-68126734?at_campaign=Social_Flow&at_ptr_name=facebook_page&at_bbc_team=editorial&at_format=link&at_link_id=5963E78A-BF49-11EE-B097-825A87A28522&at_link_type=web_link&at_link_origin=BBC_Politics&at_medium=social&at_campaign_type=owned",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.33NiOkqLl_V8-_-Jo67g_y&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Peers including the Archbishop of Canterbury attacked the principles of the bill, while the <b>Liberal Democrats</b> tried to kill it entirely. That move failed with the House of Lords voting to allow the bill to move to the next stage by 206 votes to 84.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC"
+                    }
+                ],
+                "datePublished": "2024-01-29T10:10:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=Liberal+Democrats",
+        "queryContext": {
+            "originalQuery": "Liberal Democrats",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 138,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Liberal+Democrats"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Liberal+Democrats&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Wisconsin&#39;s Democratic governor vetoes Republican map as another redistricting court fight looms",
+                "url": "https://accesswdun.com/article/2024/1/1225610",
+                "description": "Wisconsin Democratic Gov. Tony Evers has vetoed a redistricting proposal that the Republican-controlled Legislature passed last week in a last-ditch effort to avert the drawing of legislative boundari",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cb4d2853-06f4-4467-8e7c-4e31cbb35cb2",
+                        "name": "Wisconsin"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Access WDUN",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FJuvtN1xWw5ahxycKBW5qg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T23:14:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Pay attention to who is taking campus anti-Semitism seriously and who isn\u2019t",
+                "url": "https://www.ocregister.com/2024/01/30/pay-attention-to-who-is-taking-campus-anti-semitism-seriously-and-who-isnt/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.4W2LsvoSsfWQlovDD631wS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Jews alike would do well to remember what party treated \u201ccalls for the genocide of Jews\u201d as an urgent cause for action and which party dismissed it",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3d162712-78f0-0d5f-7fdf-ec0640d92b16",
+                        "name": "Attention"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0fd14190-f927-d6e2-098e-c8f6367d73a7",
+                        "name": "Orange County Register"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f2412135-efa1-e09f-3471-09f0b1b9982f",
+                        "name": "Antisemitism"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Orange County Register",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.-FsDVwsU9YQuSYYLCwHoFw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T22:23:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Gateshead Council chief executive Sheena Ramsey to step down following elections in May",
+                "url": "https://www.chroniclelive.co.uk/news/north-east-news/gateshead-council-chief-executive-may-28540213",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.50YoMa-IXqTJj7kxGrRS6y&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "After more than seven years in the role, Sheena Ramsey says it is the &quot;right time&quot; to go, and the search for her replacement is underway.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1f6813bc-8fd6-e99a-c5c0-e0a924915fd9",
+                        "name": "Metropolitan Borough of Gateshead"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/16a0e9e0-ea6a-e070-14d1-aec59490e4ef",
+                        "name": "Ramsey"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a55d629b-42b2-9dcf-dbd7-860a94010ae2",
+                        "name": "Chronicle Live"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Ramsey"
+                    },
+                    {
+                        "name": "Metropolitan Borough of Gateshead"
+                    },
+                    {
+                        "name": "Chronicle Live"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Evening Chronicle",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.G4kbGBXl4xfkaxnbAFtYzw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T20:41:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "In South Carolina, Biden woos Black voters in a changing U.S. South",
+                "url": "https://www.investing.com/news/world-news/in-south-carolina-biden-woos-black-voters-in-a-changing-us-south-3287409",
+                "description": "Democrats hope South Carolina&#39;s new role as host of the party&#39;s first official primary on Feb. 3 will bolster support among Black voters. Top party officials also see it as a springboard to an audacious new strategy: retaking the American South in years to come.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cad484f9-be75-7a78-12dd-16233f823cd7",
+                        "name": "Joe Biden"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f8a853f5-66cc-7831-bf44-5b3930dffc82",
+                        "name": "New South"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/810015e8-b10b-4232-9e2c-de87a67bd26e",
+                        "name": "South Carolina"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Investing",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Tz9H9gBldz1PQCvYzytHzg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T19:54:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Parliament discuss Somerset Council tax rise proposals",
+                "url": "https://www.bbc.co.uk/news/uk-england-somerset-68146843?at_medium=RSS&at_campaign=KARANGA",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Oh7AV7715LlN8I_sSDN7pC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The proposed council tax rise is just one of the motions unveiled by Somerset Council to try and mitigate the budget deficit. However, the local authority needs special permission from the government to do this, as it is twice the maximum rise usually allowed.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2b333df9-032c-c9b1-0d74-88ea8c5befbd",
+                        "name": "Somerset"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ad52c9db-1b2d-011a-2191-bf1173935354",
+                        "name": "Parliament of the United Kingdom"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T19:33:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Lib Dem councillors left frustrated at other parties&#39; lack of support for canals motion",
+                "url": "https://bromsgrovestandard.co.uk/news/lib-dem-councillors-left-frustrated-at-other-parties-lack-of-support-for-canals-motion/",
+                "description": "THE BROMSGROVE Liberal Democrats say they are flabbergasted their motion on The Canal and River Trust over funding cuts was blocked.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0b6e8745-ef19-a297-6c29-52a563c95b7b",
+                        "name": "Bromsgrove"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/04a31463-61ec-9934-ca28-88c008dd5b58",
+                        "name": "Motion"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Bromsgrove Standard"
+                    }
+                ],
+                "datePublished": "2024-01-30T19:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "MPs queue up to demand separation of \u2018Sheikh and state\u2019 in Telegraph sale",
+                "url": "https://www.telegraph.co.uk/business/2024/01/30/mps-queue-demand-separation-sheikh-state-telegraph-sale/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.rsmZ4lvxnfRnPZde5bXvNC&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "An urgent question on the sale of The Telegraph had been granted to the Conservative backbencher Alicia Kearns, the chairman of the Foreign Affairs Select Committee and an avowed opponent of RedBird IMI\u2019s plans. She demanded a national security review as \u201cwe cannot separate Sheikh and state\u201d.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ec5f24b5-3452-dcee-ae5b-ad9aa77a7f1b",
+                        "name": "Mansour bin Zayed Al Nahyan"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/dde235e0-d521-1acc-8512-1c3ca519fcdc",
+                        "name": "The Daily Telegraph"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f243da52-cf1c-049f-a2bf-baef0f6880a0",
+                        "name": "Legal separation"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Mansour bin Zayed Al Nahyan"
+                    },
+                    {
+                        "name": "The Daily Telegraph"
+                    },
+                    {
+                        "name": "Legal separation"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T18:52:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Worcester Lib Dem puzzled over two-year roadpath closure",
+                "url": "https://worcesterobserver.co.uk/news/worcester-news-worcester-lib-dem-puzzled-over-two-year-roadpath-closure/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.rGgZ3WNN5seJcHiJQtYphC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Coun Jagger acknowledged the ongoing efforts of Coun Mel Allcott in seeking a resolution to the closure issue.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/dfa20122-f7be-d966-0569-2961e615137e",
+                        "name": "Worcester"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ba4126cc-094b-6006-81bd-5be8fdcf2f3d",
+                        "name": "Closure"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "worcesterobserver.co.uk",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._G5pKz-1P4ecy2xYj1SqtA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T18:09:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "&#39;A sad day for the North East&#39; \u2013 Reaction as new Metro trains hit by &#39;devastating&#39; setback",
+                "url": "https://www.chroniclelive.co.uk/news/north-east-news/new-metro-train-fleet-delay-28540355",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.kJU8a0G_MfYIkxCSzhICOi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The first of the 46 new trains were meant to begin entering passenger service in summer 2023, but Nexus bosses now say they are in need of more rigorous testing",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a55d629b-42b2-9dcf-dbd7-860a94010ae2",
+                        "name": "Chronicle Live"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Chronicle Live"
+                    },
+                    {
+                        "name": "Metro"
+                    },
+                    {
+                        "name": "North East England"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Evening Chronicle",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.G4kbGBXl4xfkaxnbAFtYzw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T18:05:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Norfolk county councillors vote to increase their allowance pay",
+                "url": "https://www.bbc.com/news/uk-england-norfolk-68146199",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.NythfLOxBMCMVG_rwm81xi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Councillors&#39; allowances will be increased and backdated, but not everyone at an authority agreed with the decision. At a Norfolk County Council meeting, members voted for a 3.82% (\u00a3360.30) rise effective from April 2023. Councillors are entitled to a yearly basic allowance which covered their time at meetings and travel costs.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eaa431cd-02d9-4291-327a-6b359c950c9d",
+                        "name": "Norfolk County"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k3N4DqozNjgK376rAnFmsA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T17:47:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Labour grandee Mandelson warns Labour lead is \u2018artificial\u2019 and will shrink before election",
+                "url": "https://uk.news.yahoo.com/labour-grandee-mandelson-warns-labour-171527971.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Z0TuUdL75s-8EVg0kFIvSi&pid=News",
+                        "width": 700,
+                        "height": 477
+                    }
+                },
+                "description": "Peter Mandelson said people \u2018are not pricing in sufficiently\u2019 the possibility of Sir Keir failing to win a majority",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7c7bdf1a-08db-d612-97fa-abc9065d37dc",
+                        "name": "Peter Mandelson"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T17:15:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Folkestone and Hythe District Council\u2019s \u00a3100k restructure dubbed \u2018more talking and a lot less work\u2019",
+                "url": "https://www.kentonline.co.uk/folkestone/news/council-s-100k-restructure-dubbed-more-talking-and-a-lot-l-300978/",
+                "description": "Politicians feel \u201cstabbed in the back\u201d after a high-profile restructuring - set to cost taxpayers \u00a3100,000 - was delayed.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d6a719d9-a578-011f-813a-68704c5d457d",
+                        "name": "Folkestone and Hythe"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Folkestone and Hythe"
+                    },
+                    {
+                        "name": "Folkestone"
+                    },
+                    {
+                        "name": "Restructuring"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Kent Online",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.hWRC_m6PUwfTBWwiGneX8Q&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T16:57:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Andrew Jones MP hits back after Lib Dem rival Tom Gordon attacks schools funding",
+                "url": "https://thestrayferret.co.uk/andrew-jones-mp-hits-back-after-lib-dem-rival-tom-gordon-attacks-schools-funding/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Z0tM9PpMFxcQZF8CMHrNaS&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "The Liberal Democrat bidding to be Harrogate and Knaresborough&#39;s next MP has accused the government of failing local children.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0537cea1-e1d4-0538-535e-7540aedd1fe6",
+                        "name": "Andrew Jones"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fbd38419-825e-db0d-3d3c-55c597cb2b16",
+                        "name": "Tom Gordon"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/93f80e71-b5c8-3e04-35ff-51cfd5241af9",
+                        "name": "Stray"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "thestrayferret",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.kZcHlMK8z--QHZ5zMzgtFA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T16:15:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "How much power does the Lords have to stop Rwanda Bill?",
+                "url": "https://uk.sports.yahoo.com/news/power-lords-rwanda-bill-150521003.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.zfNDubXIP1mRBo0qIfZgvS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "He suggested the bill puts the UK at risk of breaching international law, will lead to &quot;substantial costs to the taxpayer&quot;, would fail to provide safe routes for refugees and fails to includes measures to stop criminal people smuggling gangs. However, the Lords voted against the motion by 206 votes to 84, with Labour choosing to abstain.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/dc2ee5d2-6e16-3080-e8f0-7bac5c557f73",
+                        "name": "Lord&#39;s Cricket Ground"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo UK &amp; Ireland",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.bCGmgnmaXy3w_W9nI060kA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T15:05:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Politics latest news: Reform UK backing among 2019 Tory voters reaches record high",
+                "url": "https://www.telegraph.co.uk/politics/2024/01/30/rishi-sunak-latest-news-dup-northern-ireland-farage/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.YLRSXFZ2ZC_PR9qc9eHUNS&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "Nigel Farage has criticised the Archbishop of Canterbury Justin Welby over comments he made about small boat crossings and the Government\u2019s Rwanda Bill.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Tory"
+                    },
+                    {
+                        "name": "Reform"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T15:01:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Schools to be hit with up to \u00a310m cuts in spending power",
+                "url": "https://londonnewsonline.co.uk/news/schools-to-be-hit-with-up-to-10m-cuts-in-spending-power/",
+                "description": "Schools across South London are set to be hit by cuts in spending power of more than \u00a310million in some boroughs, according to data from the National Education Union. The Government cuts mean funding per pupil will be reduced by hundreds of pounds compared to the previous financial year.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ce04a593-f9af-6da1-e878-c22f5a6bef58",
+                        "name": "School"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "South London Press"
+                    }
+                ],
+                "datePublished": "2024-01-30T15:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Stanley Civic Hall&#39;s shocking condition revealed by Durham council",
+                "url": "https://www.thenorthernecho.co.uk/news/24084085.stanley-civic-halls-shocking-condition-revealed-durham-council/",
+                "description": "A town council has been branded \u201cinept and incompetent\u201d after an inspection of an arts and culture venue found urgent repairs are required.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0939c11b-3d66-0404-f1be-e4f9450f80e6",
+                        "name": "Stanley"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5e13601d-9ea7-2e21-72e8-4f5b89f9b4dd",
+                        "name": "Durham"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0ea8557b-aca1-fd00-d940-8fc09ed08569",
+                        "name": "Hall"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Northern Echo",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.48z66l2ZlkmQjDjWZGzaZQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T15:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Lib Dems defend blocking plan to turn derelict pub into homeless shelter",
+                "url": "https://uk.news.yahoo.com/lib-dems-plan-derelict-pub-homeless-shelter-211639997.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.dOLtbrmQWeIVMjgyhYghGi&pid=News",
+                        "width": 700,
+                        "height": 427
+                    }
+                },
+                "description": "A <b>Liberal</b> <b>Democrat</b> has defended his local party&#39;s efforts to prevent a homeless hostel being opened in a residential area, and to instead restore the disused building as a community pub. The Thorney Close Inn closed its doors in 2020 and has been boarded ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/36c04e39-acf5-56ab-6e5c-de11f13216f4",
+                        "name": "Liberal Democrats"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5feb976c-2d19-a8d5-9938-fdca3cffeade",
+                        "name": "Homeless shelter"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK"
+                    }
+                ],
+                "datePublished": "2024-01-30T13:16:00.0000000Z"
+            },
+            {
+                "name": "Cole-Hamilton: SNP making woeful progress on Scotland\u2019s drugs emergency",
+                "url": "https://www.scotlibdems.org.uk/news/article/cole-hamilton-snp-making-woeful-progress-on-scotlands-drugs-emergency",
+                "description": "Scottish Liberal Democrat leader Alex Cole-Hamilton MSP has today warned that the country\u2019s drugs crisis continues to \u201cend lives and blight communities\u201d, as new statistics revealed that drug-related hospital admissions,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c8c3a07-0c6a-0cbb-ce69-1e67d001e752",
+                        "name": "Scottish Liberal Democrats"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "scotlibdems"
+                    }
+                ],
+                "datePublished": "2024-01-30T12:55:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Lib Dems take fresh poll battering as Ed Davey hit by Post Office scandal fallout",
+                "url": "https://www.express.co.uk/news/politics/1861273/Ed-Davey-poll-lib-dems-post-office",
+                "description": "Beleaguered party took a huge hit in the latest Westminster opinion poll, weeks after Sir Ed Davey became embroiled in the Horizon scandal.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8d906304-949e-b145-6d63-e327ad81a7d4",
+                        "name": "Edward Davey"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6e018547-cfd3-9836-13fc-1f7ab6d0aa31",
+                        "name": "Post Office"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Edward Davey"
+                    },
+                    {
+                        "name": "Post Office"
+                    },
+                    {
+                        "name": "Daily Express"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T12:54:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Norfolk county councillors vote to increase their allowances",
+                "url": "https://www.edp24.co.uk/news/24083700.norfolk-county-councillors-vote-increase-allowances/",
+                "description": "County councillors could be about award themselves more money - at a time when tips may be shut, disabled people made to pay more for their care",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b19d5dcb-a816-8e3f-50ff-e8854d7b9438",
+                        "name": "Allowance"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eaa431cd-02d9-4291-327a-6b359c950c9d",
+                        "name": "Norfolk County"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "EDP 24",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.jwNaXSYAQbMSCRbjWcrBZA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T12:41:00.0000000Z"
+            },
+            {
+                "name": "Cole-Hamilton: SNP&#39;s ministerial disinterest is taking its toll on A&amp;E",
+                "url": "https://www.scotlibdems.org.uk/news/article/cole-hamilton-snps-ministerial-disinterest-is-taking-its-toll-on-ae",
+                "description": "Responding to new figures showing only 62% of people attending A&amp;E were seen within the 4 hour target in the week ending 21st January, while 3,831 people waited over 8 hours, Scottish Liberal Democrat",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c8c3a07-0c6a-0cbb-ce69-1e67d001e752",
+                        "name": "Scottish Liberal Democrats"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "scotlibdems"
+                    }
+                ],
+                "datePublished": "2024-01-30T12:36:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Liberal Democrats</b> reveal MP candidate for Aylesbury",
+                "url": "https://www.bucksfreepress.co.uk/news/24083679.liberal-democrats-reveal-mp-candidate-aylesbury/",
+                "description": "The Liberal Democrats have revealed their general election candidate for Aylesbury \u2013 the current Mayor of Aylesbury Town, Steve Lambert.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1b38c970-a7f6-c941-4ee5-93ce1facd8d1",
+                        "name": "Aylesbury"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/36c04e39-acf5-56ab-6e5c-de11f13216f4",
+                        "name": "Liberal Democrats"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Bucks Free Press",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Rnaopxxd0csrouEie2oXOw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T12:30:00.0000000Z"
+            },
+            {
+                "name": "IMF warns Jeremy Hunt against further tax cuts in March Budget",
+                "url": "https://www.independent.co.uk/news/uk/politics/jeremy-hunt-tax-cuts-budget-rishi-sunak-imf-b2487354.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.g8TIe3rj-7K4VxjfSuTHli&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The IMF said any tax cuts would be \u2018very challenging to achieve\u2019 considering Britain\u2019s ageing population and mounting debt pile",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2bd73848-4b61-3c98-ba3e-c458fe954d74",
+                        "name": "Jeremy Hunt"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9c4c6740-9482-4917-e9af-876c29d9f749",
+                        "name": "Budget"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "Jeremy Hunt"
+                    },
+                    {
+                        "name": "Budget"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T12:25:00.0000000Z",
+                "video": {
+                    "name": "&#39;We don&#39;t have a magic money tree&#39;: Sunak addresses junior doctor pay row",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/906b940a-dea6-43e2-8c90-9635ad0b0a88/05264f82-e5ba-4cf6-9771-284738f0_650.mp4",
+                    "thumbnail": {
+                        "width": 640,
+                        "height": 360
+                    }
+                }
+            },
+            {
+                "name": "UK-Canada trade talks have not &#39;broken down&#39;, says business secretary Kemi Badenoch",
+                "url": "https://www.mirror.co.uk/money/uk-canada-trade-talks-not-31999681",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.RKkHFsuYWKiW2htthJfivi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The Business and Trade Secretary said &quot;multiple discussions&quot; are ongoing with Canada, while negotiations on a free trade agreement (FTA) have been &quot;paused&quot;",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/370ed614-32e1-4326-a356-dc0a7dd56aaa",
+                        "name": "Canada"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6c4c9e4f-3d65-c03f-10a5-df5e362c123e",
+                        "name": "Kemi"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Canada"
+                    },
+                    {
+                        "name": "Kemi"
+                    },
+                    {
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T10:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Redditch Labour councillor switches to Lib Dems",
+                "url": "https://www.markpack.org.uk/172475/redditch-labour-councillor-switches-to-lib-dems/",
+                "description": "After switching from Labour. Kerrie Miles becomes the first Liberal Democrat councillor on Redditch Council for over a decade.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8ca1506-a189-5785-498f-4bdc9d236b5e",
+                        "name": "Redditch"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7a49b862-dda4-2ebc-30ad-425c1f962da9",
+                        "name": "Switch"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "markpack.org.uk",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.XYMZpVOzi0chvuanEWeUlw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T09:01:00.0000000Z"
+            },
+            {
+                "name": "&#39;To help the NHS, we must address the crisis in social care&#39;",
+                "url": "https://www.midweekherald.co.uk/news/24083316.to-help-nhs-must-address-crisis-social-care/",
+                "description": "For years, Conservative ministers have failed to properly address the social care crisis, and have instead favoured short-term,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c70ac51-183b-57e7-b2e6-b061dbfbe6eb",
+                        "name": "Midweek Herald"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6f139537-5bc1-e0b8-7097-f07441113e28",
+                        "name": "Crisis"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Midweek Herald 24"
+                    }
+                ],
+                "datePublished": "2024-01-30T09:01:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Intruder armed with crossbow shot dead by police after breaking into Southwark home - latest updates",
+                "url": "https://www.independent.co.uk/news/uk/crime/police-shoot-man-crossbow-southwark-london-b2487215.html",
+                "description": "A man armed with a crossbow has been shot dead by armed police after trying to force his way into a building in south-east London, police have said. Neighbours heard \u201cbangs and screaming\u201d as police descended on the quiet estate during the early hours of the morning.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "Tennis shots"
+                    },
+                    {
+                        "name": "Integrated Overhead SIGINT Architecture"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T09:00:00.0000000Z",
+                "video": {
+                    "name": "Emergency services at scene after man \u2018armed with crossbow\u2019 shot dead by police in London",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/ece0ba2c-3574-4c9c-b639-909a7908774e/61fa6c3d-3343-43b7-b55d-e023d51c_650.mp4",
+                    "thumbnail": {
+                        "width": 640,
+                        "height": 360
+                    }
+                },
+                "category": "UK"
+            },
+            {
+                "name": "Cycle lane in &#39;hell of a state&#39; as people &#39;laugh&#39; about it",
+                "url": "https://www.liverpoolecho.co.uk/news/liverpool-news/cycle-lane-hell-state-people-28534808",
+                "description": "\u201cThat is in a hell of a state. It\u2019s full of litter, it\u2019s full of leaves, it\u2019s not maintained even if cyclists wanted to cycle along there. The laugh of the populous is spot the cyclist, nobody uses it. Surely this money from the Liverpool City Region could be better invested to get people more active.\u201d",
+                "mentions": [
+                    {
+                        "name": "Liverpool Echo"
+                    },
+                    {
+                        "name": "People"
+                    },
+                    {
+                        "name": "Dancing on Ice"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Liverpool Echo",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.lMNuYaPYFKYNaBUKNyUFHg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T08:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Rwanda bill passes first Lords hurdle despite savaging from Tory Ken Clarke",
+                "url": "https://inews.co.uk/news/politics/tory-grandee-ken-clarke-rwanda-bill-black-white-2879467?ico=more_from_this_author",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.YBgKDwrMi7-jD5jGx4G2SC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The Rwanda bill has cleared its first major hurdle in the House of Lords after Tory grandee Ken Clarke ridiculed the law and warned it risks moving the UK towards an \u201celected dictatorship\u201d. The former chancellor reversed his previous support for legislation related to the controversial deportation deal,",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T07:56:00.0000000Z"
+            },
+            {
+                "name": "Councillors lose bid to stop plans for three-weekly bin collections in Cardiff",
+                "url": "https://www.walesonline.co.uk/news/wales-news/councillors-lose-bid-stop-plans-28533644",
+                "description": "Councillors&#39; attempts to overturn controversial plans for one black bin bag collection every three weeks failed. Conservative councillors at Cardiff Council, led by Cllr John Lancaster, put forward a motion calling for a re-think on waste collection proposals at a full council meeting on Thursday, January 25.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cdfaa940-1a8c-2522-2bf5-e09831059c8c",
+                        "name": "Cardiff"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Cardiff"
+                    },
+                    {
+                        "name": "Councillor"
+                    },
+                    {
+                        "name": "Western Mail"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Wales Online",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.lVPjCN3LmTro40TL-cwcLg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T07:04:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Climate goal is now \u201ctotally impossible\u201d",
+                "url": "https://www.cornish-times.co.uk/news/climate-goal-is-now-totally-impossible-663064",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.MjSnCh4fCYMXTop222EE6S&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The leader of the <b>Liberal Democrats</b> group at Cornwall Council has said the local authority\u2019s goal for the Duchy to be carbon neutral by 2030 is \u201cnow totally impossible\u201d, writes Lee Trewhela. Cllr Colin Martin accused the council of blocking a debate ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/accff6a8-3045-c2ba-ebcd-469bf66b8df0",
+                        "name": "Climate"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Cornish Times"
+                    }
+                ],
+                "datePublished": "2024-01-30T07:02:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Archbishop of Canterbury Justin Welby is accused of &#39;hypocrisy&#39; by Lee Anderson after he attacks the government&#39;s Rwanda scheme in the House of Lords",
+                "url": "https://www.dailymail.co.uk/news/article-13021253/Archbishop-Canterbury-Justin-Welby-accused-hypocrisy-Lee-Anderson-attacks-governments-Rwanda-scheme-House-Lords.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.yCB31UjVvq9UeW47sMq0_S&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The Archbishop of Canterbury was blasted by Tory MPs last night after he said the Rwanda scheme was &#39;leading the nation down a damaging path&#39;.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/56ccaca7-5b52-cd11-63c3-916e5db1f78f",
+                        "name": "Lee Anderson"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7cbf7ffc-6db5-11f0-6385-995a5f3c8357",
+                        "name": "Justin Welby"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T06:57:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Fears over stalled revamp of Gloucester\u2019s historic Fleece Hotel as \u00a36.3m diverted to The Forum",
+                "url": "https://www.gloucestershirelive.co.uk/news/gloucester-news/fears-over-stalled-revamp-gloucesters-9063660",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.G9q-t6Y5n3J2fKkcFzvznC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Initial revamp plans for the 15th-century timber-framed building came to a halt and no detailed designs were forthcoming from the council\u2019s preferred partner for the site Dowdeswell Group",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eab8d5d9-01a7-f0db-d230-ec907f822254",
+                        "name": "Gloucestershire"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e64956e3-4f22-98cb-71d1-d965606d0a5f",
+                        "name": "Gloucester"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Gloucestershire"
+                    },
+                    {
+                        "name": "Gloucester"
+                    },
+                    {
+                        "name": "3M"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "gloucestershirelive.co.uk",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AAedA0Kw95Xd7VZ3fOXhiQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T06:00:00.0000000Z"
+            },
+            {
+                "name": "70% of housebuilders want Labour to win General Election, says Knight Frank",
+                "url": "https://thenegotiator.co.uk/70-of-housebuilders-want-labour-to-win-general-election-says-knight-frank",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.6DADad3od6PVI6hWPULmLS&pid=News",
+                        "width": 620,
+                        "height": 385
+                    }
+                },
+                "description": "The Knight Frank Land Index &amp; Housebuilder Survey of English housebuilders shows 70% favour Labour government plans for reform.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/599e96eb-d236-4624-b29d-70f60edfb4a4",
+                        "name": "Election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "thenegotiator",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.dXsmCg2OV8NrzlVxF2Zk3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T05:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Holocaust Memorial Day: Sarah Dyke signs Book of Commitment",
+                "url": "https://www.somersetcountygazette.co.uk/news/24081506.holocaust-memorial-day-sarah-dyke-signs-book-commitment/",
+                "description": "Sarah Dyke signed the Holocaust Educational Trust&#39;s Book of Commitment to mark Holocaust Memorial Day. The Liberal Democrat representative for Somerton and Frome honoured those who were killed, as well as the survivors. Holocaust Memorial Day is observed on January 27th, the date in 1945 when Auschwitz-Birkenau, the Nazi camp, was liberated.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Somerset County Gazette",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.waWzSPbN9UCKE_lQi3V8Cg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T05:00:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Police and crime commissioner candidate Tim Bearder speaks",
+                "url": "https://www.oxfordmail.co.uk/news/24082252.police-crime-commissioner-candidate-tim-bearder-speaks/",
+                "description": "<b>Liberal Democrats</b> have put forward Oxfordshire county councillor Tim Bearder in their bid for the Thames Valley police and crime commissioner role. The position is filled by Conservative Matthew Barber and its responsibilities include general oversight of ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Oxford Mail"
+                    }
+                ],
+                "datePublished": "2024-01-29T18:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Rwanda Bill criticised by peers at first stage in House of Lords",
+                "url": "https://www.bbc.co.uk/news/uk-politics-68126734?at_campaign=Social_Flow&at_ptr_name=facebook_page&at_bbc_team=editorial&at_format=link&at_link_id=5963E78A-BF49-11EE-B097-825A87A28522&at_link_type=web_link&at_link_origin=BBC_Politics&at_medium=social&at_campaign_type=owned",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.33NiOkqLl_V8-_-Jo67g_y&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Peers including the Archbishop of Canterbury attacked the principles of the bill, while the <b>Liberal Democrats</b> tried to kill it entirely. That move failed with the House of Lords voting to allow the bill to move to the next stage by 206 votes to 84.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC"
+                    }
+                ],
+                "datePublished": "2024-01-29T10:10:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=Liberal+Democrats",
+        "queryContext": {
+            "originalQuery": "Liberal Democrats",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 238,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Liberal+Democrats"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Liberal+Democrats&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Wisconsin&#39;s Democratic governor vetoes Republican map as another redistricting court fight looms",
+                "url": "https://accesswdun.com/article/2024/1/1225610",
+                "description": "Wisconsin Democratic Gov. Tony Evers has vetoed a redistricting proposal that the Republican-controlled Legislature passed last week in a last-ditch effort to avert the drawing of legislative boundari",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cb4d2853-06f4-4467-8e7c-4e31cbb35cb2",
+                        "name": "Wisconsin"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Access WDUN",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FJuvtN1xWw5ahxycKBW5qg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T23:14:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Pay attention to who is taking campus anti-Semitism seriously and who isn\u2019t",
+                "url": "https://www.ocregister.com/2024/01/30/pay-attention-to-who-is-taking-campus-anti-semitism-seriously-and-who-isnt/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.4W2LsvoSsfWQlovDD631wS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Jews alike would do well to remember what party treated \u201ccalls for the genocide of Jews\u201d as an urgent cause for action and which party dismissed it",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3d162712-78f0-0d5f-7fdf-ec0640d92b16",
+                        "name": "Attention"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0fd14190-f927-d6e2-098e-c8f6367d73a7",
+                        "name": "Orange County Register"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f2412135-efa1-e09f-3471-09f0b1b9982f",
+                        "name": "Antisemitism"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Orange County Register",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.-FsDVwsU9YQuSYYLCwHoFw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T22:23:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Gateshead Council chief executive Sheena Ramsey to step down following elections in May",
+                "url": "https://www.chroniclelive.co.uk/news/north-east-news/gateshead-council-chief-executive-may-28540213",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.50YoMa-IXqTJj7kxGrRS6y&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "After more than seven years in the role, Sheena Ramsey says it is the &quot;right time&quot; to go, and the search for her replacement is underway.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1f6813bc-8fd6-e99a-c5c0-e0a924915fd9",
+                        "name": "Metropolitan Borough of Gateshead"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/16a0e9e0-ea6a-e070-14d1-aec59490e4ef",
+                        "name": "Ramsey"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a55d629b-42b2-9dcf-dbd7-860a94010ae2",
+                        "name": "Chronicle Live"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Ramsey"
+                    },
+                    {
+                        "name": "Metropolitan Borough of Gateshead"
+                    },
+                    {
+                        "name": "Chronicle Live"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Evening Chronicle",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.G4kbGBXl4xfkaxnbAFtYzw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T20:41:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "In South Carolina, Biden woos Black voters in a changing U.S. South",
+                "url": "https://www.investing.com/news/world-news/in-south-carolina-biden-woos-black-voters-in-a-changing-us-south-3287409",
+                "description": "Democrats hope South Carolina&#39;s new role as host of the party&#39;s first official primary on Feb. 3 will bolster support among Black voters. Top party officials also see it as a springboard to an audacious new strategy: retaking the American South in years to come.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cad484f9-be75-7a78-12dd-16233f823cd7",
+                        "name": "Joe Biden"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f8a853f5-66cc-7831-bf44-5b3930dffc82",
+                        "name": "New South"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/810015e8-b10b-4232-9e2c-de87a67bd26e",
+                        "name": "South Carolina"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Investing",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Tz9H9gBldz1PQCvYzytHzg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T19:54:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Parliament discuss Somerset Council tax rise proposals",
+                "url": "https://www.bbc.co.uk/news/uk-england-somerset-68146843?at_medium=RSS&at_campaign=KARANGA",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Oh7AV7715LlN8I_sSDN7pC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The proposed council tax rise is just one of the motions unveiled by Somerset Council to try and mitigate the budget deficit. However, the local authority needs special permission from the government to do this, as it is twice the maximum rise usually allowed.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2b333df9-032c-c9b1-0d74-88ea8c5befbd",
+                        "name": "Somerset"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ad52c9db-1b2d-011a-2191-bf1173935354",
+                        "name": "Parliament of the United Kingdom"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T19:33:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Lib Dem councillors left frustrated at other parties&#39; lack of support for canals motion",
+                "url": "https://bromsgrovestandard.co.uk/news/lib-dem-councillors-left-frustrated-at-other-parties-lack-of-support-for-canals-motion/",
+                "description": "THE BROMSGROVE Liberal Democrats say they are flabbergasted their motion on The Canal and River Trust over funding cuts was blocked.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0b6e8745-ef19-a297-6c29-52a563c95b7b",
+                        "name": "Bromsgrove"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/04a31463-61ec-9934-ca28-88c008dd5b58",
+                        "name": "Motion"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Bromsgrove Standard"
+                    }
+                ],
+                "datePublished": "2024-01-30T19:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "MPs queue up to demand separation of \u2018Sheikh and state\u2019 in Telegraph sale",
+                "url": "https://www.telegraph.co.uk/business/2024/01/30/mps-queue-demand-separation-sheikh-state-telegraph-sale/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.rsmZ4lvxnfRnPZde5bXvNC&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "An urgent question on the sale of The Telegraph had been granted to the Conservative backbencher Alicia Kearns, the chairman of the Foreign Affairs Select Committee and an avowed opponent of RedBird IMI\u2019s plans. She demanded a national security review as \u201cwe cannot separate Sheikh and state\u201d.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ec5f24b5-3452-dcee-ae5b-ad9aa77a7f1b",
+                        "name": "Mansour bin Zayed Al Nahyan"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/dde235e0-d521-1acc-8512-1c3ca519fcdc",
+                        "name": "The Daily Telegraph"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f243da52-cf1c-049f-a2bf-baef0f6880a0",
+                        "name": "Legal separation"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Mansour bin Zayed Al Nahyan"
+                    },
+                    {
+                        "name": "The Daily Telegraph"
+                    },
+                    {
+                        "name": "Legal separation"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T18:52:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Worcester Lib Dem puzzled over two-year roadpath closure",
+                "url": "https://worcesterobserver.co.uk/news/worcester-news-worcester-lib-dem-puzzled-over-two-year-roadpath-closure/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.rGgZ3WNN5seJcHiJQtYphC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Coun Jagger acknowledged the ongoing efforts of Coun Mel Allcott in seeking a resolution to the closure issue.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/dfa20122-f7be-d966-0569-2961e615137e",
+                        "name": "Worcester"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ba4126cc-094b-6006-81bd-5be8fdcf2f3d",
+                        "name": "Closure"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "worcesterobserver.co.uk",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._G5pKz-1P4ecy2xYj1SqtA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T18:09:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "&#39;A sad day for the North East&#39; \u2013 Reaction as new Metro trains hit by &#39;devastating&#39; setback",
+                "url": "https://www.chroniclelive.co.uk/news/north-east-news/new-metro-train-fleet-delay-28540355",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.kJU8a0G_MfYIkxCSzhICOi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The first of the 46 new trains were meant to begin entering passenger service in summer 2023, but Nexus bosses now say they are in need of more rigorous testing",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a55d629b-42b2-9dcf-dbd7-860a94010ae2",
+                        "name": "Chronicle Live"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Chronicle Live"
+                    },
+                    {
+                        "name": "Metro"
+                    },
+                    {
+                        "name": "North East England"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Evening Chronicle",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.G4kbGBXl4xfkaxnbAFtYzw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T18:05:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Norfolk county councillors vote to increase their allowance pay",
+                "url": "https://www.bbc.com/news/uk-england-norfolk-68146199",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.NythfLOxBMCMVG_rwm81xi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Councillors&#39; allowances will be increased and backdated, but not everyone at an authority agreed with the decision. At a Norfolk County Council meeting, members voted for a 3.82% (\u00a3360.30) rise effective from April 2023. Councillors are entitled to a yearly basic allowance which covered their time at meetings and travel costs.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eaa431cd-02d9-4291-327a-6b359c950c9d",
+                        "name": "Norfolk County"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k3N4DqozNjgK376rAnFmsA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T17:47:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Labour grandee Mandelson warns Labour lead is \u2018artificial\u2019 and will shrink before election",
+                "url": "https://uk.news.yahoo.com/labour-grandee-mandelson-warns-labour-171527971.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Z0TuUdL75s-8EVg0kFIvSi&pid=News",
+                        "width": 700,
+                        "height": 477
+                    }
+                },
+                "description": "Peter Mandelson said people \u2018are not pricing in sufficiently\u2019 the possibility of Sir Keir failing to win a majority",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7c7bdf1a-08db-d612-97fa-abc9065d37dc",
+                        "name": "Peter Mandelson"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T17:15:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Folkestone and Hythe District Council\u2019s \u00a3100k restructure dubbed \u2018more talking and a lot less work\u2019",
+                "url": "https://www.kentonline.co.uk/folkestone/news/council-s-100k-restructure-dubbed-more-talking-and-a-lot-l-300978/",
+                "description": "Politicians feel \u201cstabbed in the back\u201d after a high-profile restructuring - set to cost taxpayers \u00a3100,000 - was delayed.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d6a719d9-a578-011f-813a-68704c5d457d",
+                        "name": "Folkestone and Hythe"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Folkestone and Hythe"
+                    },
+                    {
+                        "name": "Folkestone"
+                    },
+                    {
+                        "name": "Restructuring"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Kent Online",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.hWRC_m6PUwfTBWwiGneX8Q&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T16:57:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Andrew Jones MP hits back after Lib Dem rival Tom Gordon attacks schools funding",
+                "url": "https://thestrayferret.co.uk/andrew-jones-mp-hits-back-after-lib-dem-rival-tom-gordon-attacks-schools-funding/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Z0tM9PpMFxcQZF8CMHrNaS&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "The Liberal Democrat bidding to be Harrogate and Knaresborough&#39;s next MP has accused the government of failing local children.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0537cea1-e1d4-0538-535e-7540aedd1fe6",
+                        "name": "Andrew Jones"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fbd38419-825e-db0d-3d3c-55c597cb2b16",
+                        "name": "Tom Gordon"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/93f80e71-b5c8-3e04-35ff-51cfd5241af9",
+                        "name": "Stray"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "thestrayferret",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.kZcHlMK8z--QHZ5zMzgtFA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T16:15:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "How much power does the Lords have to stop Rwanda Bill?",
+                "url": "https://uk.sports.yahoo.com/news/power-lords-rwanda-bill-150521003.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.zfNDubXIP1mRBo0qIfZgvS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "He suggested the bill puts the UK at risk of breaching international law, will lead to &quot;substantial costs to the taxpayer&quot;, would fail to provide safe routes for refugees and fails to includes measures to stop criminal people smuggling gangs. However, the Lords voted against the motion by 206 votes to 84, with Labour choosing to abstain.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/dc2ee5d2-6e16-3080-e8f0-7bac5c557f73",
+                        "name": "Lord&#39;s Cricket Ground"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo UK &amp; Ireland",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.bCGmgnmaXy3w_W9nI060kA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T15:05:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Politics latest news: Reform UK backing among 2019 Tory voters reaches record high",
+                "url": "https://www.telegraph.co.uk/politics/2024/01/30/rishi-sunak-latest-news-dup-northern-ireland-farage/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.YLRSXFZ2ZC_PR9qc9eHUNS&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "Nigel Farage has criticised the Archbishop of Canterbury Justin Welby over comments he made about small boat crossings and the Government\u2019s Rwanda Bill.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Tory"
+                    },
+                    {
+                        "name": "Reform"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T15:01:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Schools to be hit with up to \u00a310m cuts in spending power",
+                "url": "https://londonnewsonline.co.uk/news/schools-to-be-hit-with-up-to-10m-cuts-in-spending-power/",
+                "description": "Schools across South London are set to be hit by cuts in spending power of more than \u00a310million in some boroughs, according to data from the National Education Union. The Government cuts mean funding per pupil will be reduced by hundreds of pounds compared to the previous financial year.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ce04a593-f9af-6da1-e878-c22f5a6bef58",
+                        "name": "School"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "South London Press"
+                    }
+                ],
+                "datePublished": "2024-01-30T15:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Stanley Civic Hall&#39;s shocking condition revealed by Durham council",
+                "url": "https://www.thenorthernecho.co.uk/news/24084085.stanley-civic-halls-shocking-condition-revealed-durham-council/",
+                "description": "A town council has been branded \u201cinept and incompetent\u201d after an inspection of an arts and culture venue found urgent repairs are required.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0939c11b-3d66-0404-f1be-e4f9450f80e6",
+                        "name": "Stanley"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5e13601d-9ea7-2e21-72e8-4f5b89f9b4dd",
+                        "name": "Durham"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0ea8557b-aca1-fd00-d940-8fc09ed08569",
+                        "name": "Hall"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Northern Echo",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.48z66l2ZlkmQjDjWZGzaZQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T15:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Lib Dems defend blocking plan to turn derelict pub into homeless shelter",
+                "url": "https://uk.news.yahoo.com/lib-dems-plan-derelict-pub-homeless-shelter-211639997.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.dOLtbrmQWeIVMjgyhYghGi&pid=News",
+                        "width": 700,
+                        "height": 427
+                    }
+                },
+                "description": "A <b>Liberal</b> <b>Democrat</b> has defended his local party&#39;s efforts to prevent a homeless hostel being opened in a residential area, and to instead restore the disused building as a community pub. The Thorney Close Inn closed its doors in 2020 and has been boarded ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/36c04e39-acf5-56ab-6e5c-de11f13216f4",
+                        "name": "Liberal Democrats"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5feb976c-2d19-a8d5-9938-fdca3cffeade",
+                        "name": "Homeless shelter"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK"
+                    }
+                ],
+                "datePublished": "2024-01-30T13:16:00.0000000Z"
+            },
+            {
+                "name": "Cole-Hamilton: SNP making woeful progress on Scotland\u2019s drugs emergency",
+                "url": "https://www.scotlibdems.org.uk/news/article/cole-hamilton-snp-making-woeful-progress-on-scotlands-drugs-emergency",
+                "description": "Scottish Liberal Democrat leader Alex Cole-Hamilton MSP has today warned that the country\u2019s drugs crisis continues to \u201cend lives and blight communities\u201d, as new statistics revealed that drug-related hospital admissions,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c8c3a07-0c6a-0cbb-ce69-1e67d001e752",
+                        "name": "Scottish Liberal Democrats"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "scotlibdems"
+                    }
+                ],
+                "datePublished": "2024-01-30T12:55:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Lib Dems take fresh poll battering as Ed Davey hit by Post Office scandal fallout",
+                "url": "https://www.express.co.uk/news/politics/1861273/Ed-Davey-poll-lib-dems-post-office",
+                "description": "Beleaguered party took a huge hit in the latest Westminster opinion poll, weeks after Sir Ed Davey became embroiled in the Horizon scandal.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8d906304-949e-b145-6d63-e327ad81a7d4",
+                        "name": "Edward Davey"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6e018547-cfd3-9836-13fc-1f7ab6d0aa31",
+                        "name": "Post Office"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Edward Davey"
+                    },
+                    {
+                        "name": "Post Office"
+                    },
+                    {
+                        "name": "Daily Express"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T12:54:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Norfolk county councillors vote to increase their allowances",
+                "url": "https://www.edp24.co.uk/news/24083700.norfolk-county-councillors-vote-increase-allowances/",
+                "description": "County councillors could be about award themselves more money - at a time when tips may be shut, disabled people made to pay more for their care",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b19d5dcb-a816-8e3f-50ff-e8854d7b9438",
+                        "name": "Allowance"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eaa431cd-02d9-4291-327a-6b359c950c9d",
+                        "name": "Norfolk County"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "EDP 24",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.jwNaXSYAQbMSCRbjWcrBZA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T12:41:00.0000000Z"
+            },
+            {
+                "name": "Cole-Hamilton: SNP&#39;s ministerial disinterest is taking its toll on A&amp;E",
+                "url": "https://www.scotlibdems.org.uk/news/article/cole-hamilton-snps-ministerial-disinterest-is-taking-its-toll-on-ae",
+                "description": "Responding to new figures showing only 62% of people attending A&amp;E were seen within the 4 hour target in the week ending 21st January, while 3,831 people waited over 8 hours, Scottish Liberal Democrat",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c8c3a07-0c6a-0cbb-ce69-1e67d001e752",
+                        "name": "Scottish Liberal Democrats"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "scotlibdems"
+                    }
+                ],
+                "datePublished": "2024-01-30T12:36:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Liberal Democrats</b> reveal MP candidate for Aylesbury",
+                "url": "https://www.bucksfreepress.co.uk/news/24083679.liberal-democrats-reveal-mp-candidate-aylesbury/",
+                "description": "The Liberal Democrats have revealed their general election candidate for Aylesbury \u2013 the current Mayor of Aylesbury Town, Steve Lambert.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1b38c970-a7f6-c941-4ee5-93ce1facd8d1",
+                        "name": "Aylesbury"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/36c04e39-acf5-56ab-6e5c-de11f13216f4",
+                        "name": "Liberal Democrats"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Bucks Free Press",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Rnaopxxd0csrouEie2oXOw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T12:30:00.0000000Z"
+            },
+            {
+                "name": "IMF warns Jeremy Hunt against further tax cuts in March Budget",
+                "url": "https://www.independent.co.uk/news/uk/politics/jeremy-hunt-tax-cuts-budget-rishi-sunak-imf-b2487354.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.g8TIe3rj-7K4VxjfSuTHli&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The IMF said any tax cuts would be \u2018very challenging to achieve\u2019 considering Britain\u2019s ageing population and mounting debt pile",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2bd73848-4b61-3c98-ba3e-c458fe954d74",
+                        "name": "Jeremy Hunt"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9c4c6740-9482-4917-e9af-876c29d9f749",
+                        "name": "Budget"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "Jeremy Hunt"
+                    },
+                    {
+                        "name": "Budget"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T12:25:00.0000000Z",
+                "video": {
+                    "name": "&#39;We don&#39;t have a magic money tree&#39;: Sunak addresses junior doctor pay row",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/906b940a-dea6-43e2-8c90-9635ad0b0a88/05264f82-e5ba-4cf6-9771-284738f0_650.mp4",
+                    "thumbnail": {
+                        "width": 640,
+                        "height": 360
+                    }
+                }
+            },
+            {
+                "name": "UK-Canada trade talks have not &#39;broken down&#39;, says business secretary Kemi Badenoch",
+                "url": "https://www.mirror.co.uk/money/uk-canada-trade-talks-not-31999681",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.RKkHFsuYWKiW2htthJfivi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The Business and Trade Secretary said &quot;multiple discussions&quot; are ongoing with Canada, while negotiations on a free trade agreement (FTA) have been &quot;paused&quot;",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/370ed614-32e1-4326-a356-dc0a7dd56aaa",
+                        "name": "Canada"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6c4c9e4f-3d65-c03f-10a5-df5e362c123e",
+                        "name": "Kemi"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Canada"
+                    },
+                    {
+                        "name": "Kemi"
+                    },
+                    {
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T10:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Redditch Labour councillor switches to Lib Dems",
+                "url": "https://www.markpack.org.uk/172475/redditch-labour-councillor-switches-to-lib-dems/",
+                "description": "After switching from Labour. Kerrie Miles becomes the first Liberal Democrat councillor on Redditch Council for over a decade.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8ca1506-a189-5785-498f-4bdc9d236b5e",
+                        "name": "Redditch"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7a49b862-dda4-2ebc-30ad-425c1f962da9",
+                        "name": "Switch"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "markpack.org.uk",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.XYMZpVOzi0chvuanEWeUlw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T09:01:00.0000000Z"
+            },
+            {
+                "name": "&#39;To help the NHS, we must address the crisis in social care&#39;",
+                "url": "https://www.midweekherald.co.uk/news/24083316.to-help-nhs-must-address-crisis-social-care/",
+                "description": "For years, Conservative ministers have failed to properly address the social care crisis, and have instead favoured short-term,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c70ac51-183b-57e7-b2e6-b061dbfbe6eb",
+                        "name": "Midweek Herald"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6f139537-5bc1-e0b8-7097-f07441113e28",
+                        "name": "Crisis"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Midweek Herald 24"
+                    }
+                ],
+                "datePublished": "2024-01-30T09:01:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Intruder armed with crossbow shot dead by police after breaking into Southwark home - latest updates",
+                "url": "https://www.independent.co.uk/news/uk/crime/police-shoot-man-crossbow-southwark-london-b2487215.html",
+                "description": "A man armed with a crossbow has been shot dead by armed police after trying to force his way into a building in south-east London, police have said. Neighbours heard \u201cbangs and screaming\u201d as police descended on the quiet estate during the early hours of the morning.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "Tennis shots"
+                    },
+                    {
+                        "name": "Integrated Overhead SIGINT Architecture"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T09:00:00.0000000Z",
+                "video": {
+                    "name": "Emergency services at scene after man \u2018armed with crossbow\u2019 shot dead by police in London",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/ece0ba2c-3574-4c9c-b639-909a7908774e/61fa6c3d-3343-43b7-b55d-e023d51c_650.mp4",
+                    "thumbnail": {
+                        "width": 640,
+                        "height": 360
+                    }
+                },
+                "category": "UK"
+            },
+            {
+                "name": "Cycle lane in &#39;hell of a state&#39; as people &#39;laugh&#39; about it",
+                "url": "https://www.liverpoolecho.co.uk/news/liverpool-news/cycle-lane-hell-state-people-28534808",
+                "description": "\u201cThat is in a hell of a state. It\u2019s full of litter, it\u2019s full of leaves, it\u2019s not maintained even if cyclists wanted to cycle along there. The laugh of the populous is spot the cyclist, nobody uses it. Surely this money from the Liverpool City Region could be better invested to get people more active.\u201d",
+                "mentions": [
+                    {
+                        "name": "Liverpool Echo"
+                    },
+                    {
+                        "name": "People"
+                    },
+                    {
+                        "name": "Dancing on Ice"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Liverpool Echo",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.lMNuYaPYFKYNaBUKNyUFHg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T08:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Rwanda bill passes first Lords hurdle despite savaging from Tory Ken Clarke",
+                "url": "https://inews.co.uk/news/politics/tory-grandee-ken-clarke-rwanda-bill-black-white-2879467?ico=more_from_this_author",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.YBgKDwrMi7-jD5jGx4G2SC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The Rwanda bill has cleared its first major hurdle in the House of Lords after Tory grandee Ken Clarke ridiculed the law and warned it risks moving the UK towards an \u201celected dictatorship\u201d. The former chancellor reversed his previous support for legislation related to the controversial deportation deal,",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T07:56:00.0000000Z"
+            },
+            {
+                "name": "Councillors lose bid to stop plans for three-weekly bin collections in Cardiff",
+                "url": "https://www.walesonline.co.uk/news/wales-news/councillors-lose-bid-stop-plans-28533644",
+                "description": "Councillors&#39; attempts to overturn controversial plans for one black bin bag collection every three weeks failed. Conservative councillors at Cardiff Council, led by Cllr John Lancaster, put forward a motion calling for a re-think on waste collection proposals at a full council meeting on Thursday, January 25.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cdfaa940-1a8c-2522-2bf5-e09831059c8c",
+                        "name": "Cardiff"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Cardiff"
+                    },
+                    {
+                        "name": "Councillor"
+                    },
+                    {
+                        "name": "Western Mail"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Wales Online",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.lVPjCN3LmTro40TL-cwcLg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T07:04:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Climate goal is now \u201ctotally impossible\u201d",
+                "url": "https://www.cornish-times.co.uk/news/climate-goal-is-now-totally-impossible-663064",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.MjSnCh4fCYMXTop222EE6S&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The leader of the <b>Liberal Democrats</b> group at Cornwall Council has said the local authority\u2019s goal for the Duchy to be carbon neutral by 2030 is \u201cnow totally impossible\u201d, writes Lee Trewhela. Cllr Colin Martin accused the council of blocking a debate ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/accff6a8-3045-c2ba-ebcd-469bf66b8df0",
+                        "name": "Climate"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Cornish Times"
+                    }
+                ],
+                "datePublished": "2024-01-30T07:02:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Archbishop of Canterbury Justin Welby is accused of &#39;hypocrisy&#39; by Lee Anderson after he attacks the government&#39;s Rwanda scheme in the House of Lords",
+                "url": "https://www.dailymail.co.uk/news/article-13021253/Archbishop-Canterbury-Justin-Welby-accused-hypocrisy-Lee-Anderson-attacks-governments-Rwanda-scheme-House-Lords.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.yCB31UjVvq9UeW47sMq0_S&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The Archbishop of Canterbury was blasted by Tory MPs last night after he said the Rwanda scheme was &#39;leading the nation down a damaging path&#39;.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/56ccaca7-5b52-cd11-63c3-916e5db1f78f",
+                        "name": "Lee Anderson"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7cbf7ffc-6db5-11f0-6385-995a5f3c8357",
+                        "name": "Justin Welby"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T06:57:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Fears over stalled revamp of Gloucester\u2019s historic Fleece Hotel as \u00a36.3m diverted to The Forum",
+                "url": "https://www.gloucestershirelive.co.uk/news/gloucester-news/fears-over-stalled-revamp-gloucesters-9063660",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.G9q-t6Y5n3J2fKkcFzvznC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Initial revamp plans for the 15th-century timber-framed building came to a halt and no detailed designs were forthcoming from the council\u2019s preferred partner for the site Dowdeswell Group",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eab8d5d9-01a7-f0db-d230-ec907f822254",
+                        "name": "Gloucestershire"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e64956e3-4f22-98cb-71d1-d965606d0a5f",
+                        "name": "Gloucester"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Gloucestershire"
+                    },
+                    {
+                        "name": "Gloucester"
+                    },
+                    {
+                        "name": "3M"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "gloucestershirelive.co.uk",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AAedA0Kw95Xd7VZ3fOXhiQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T06:00:00.0000000Z"
+            },
+            {
+                "name": "70% of housebuilders want Labour to win General Election, says Knight Frank",
+                "url": "https://thenegotiator.co.uk/70-of-housebuilders-want-labour-to-win-general-election-says-knight-frank",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.6DADad3od6PVI6hWPULmLS&pid=News",
+                        "width": 620,
+                        "height": 385
+                    }
+                },
+                "description": "The Knight Frank Land Index &amp; Housebuilder Survey of English housebuilders shows 70% favour Labour government plans for reform.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/599e96eb-d236-4624-b29d-70f60edfb4a4",
+                        "name": "Election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "thenegotiator",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.dXsmCg2OV8NrzlVxF2Zk3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T05:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Holocaust Memorial Day: Sarah Dyke signs Book of Commitment",
+                "url": "https://www.somersetcountygazette.co.uk/news/24081506.holocaust-memorial-day-sarah-dyke-signs-book-commitment/",
+                "description": "Sarah Dyke signed the Holocaust Educational Trust&#39;s Book of Commitment to mark Holocaust Memorial Day. The Liberal Democrat representative for Somerton and Frome honoured those who were killed, as well as the survivors. Holocaust Memorial Day is observed on January 27th, the date in 1945 when Auschwitz-Birkenau, the Nazi camp, was liberated.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Somerset County Gazette",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.waWzSPbN9UCKE_lQi3V8Cg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-30T05:00:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Police and crime commissioner candidate Tim Bearder speaks",
+                "url": "https://www.oxfordmail.co.uk/news/24082252.police-crime-commissioner-candidate-tim-bearder-speaks/",
+                "description": "<b>Liberal Democrats</b> have put forward Oxfordshire county councillor Tim Bearder in their bid for the Thames Valley police and crime commissioner role. The position is filled by Conservative Matthew Barber and its responsibilities include general oversight of ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Oxford Mail"
+                    }
+                ],
+                "datePublished": "2024-01-29T18:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Rwanda Bill criticised by peers at first stage in House of Lords",
+                "url": "https://www.bbc.co.uk/news/uk-politics-68126734?at_campaign=Social_Flow&at_ptr_name=facebook_page&at_bbc_team=editorial&at_format=link&at_link_id=5963E78A-BF49-11EE-B097-825A87A28522&at_link_type=web_link&at_link_origin=BBC_Politics&at_medium=social&at_campaign_type=owned",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.33NiOkqLl_V8-_-Jo67g_y&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Peers including the Archbishop of Canterbury attacked the principles of the bill, while the <b>Liberal Democrats</b> tried to kill it entirely. That move failed with the House of Lords voting to allow the bill to move to the next stage by 206 votes to 84.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC"
+                    }
+                ],
+                "datePublished": "2024-01-29T10:10:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    }
+]
