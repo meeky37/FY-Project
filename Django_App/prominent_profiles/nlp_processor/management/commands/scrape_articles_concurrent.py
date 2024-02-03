@@ -66,6 +66,17 @@ def perform_coreference_resolution(article_texts, batch_size=100):
     return article_text_clusters
 
 
+def check_similarity_with_timeout(article_obj):
+    """Wrapper function for check_similarity with a timeout."""
+    with concurrent.futures.ThreadPoolExecutor() as executor:
+        future = executor.submit(article_obj.check_similarity)
+        try:
+            return future.result(timeout=30)  # Returns True/False based on similarity check
+        except concurrent.futures.TimeoutError:
+            print("Check Similarity timed out!")
+            return False  # If we timeout, assume not too similar
+
+
 class Command(BaseCommand):
     help = 'Scrape articles and trigger NLP flow'
 
@@ -116,7 +127,6 @@ class Command(BaseCommand):
                     # print(metadata.date)
 
                     # Extract publication date
-
                     date_str = metadata.date
                     naive_datetime = datetime.strptime(date_str, '%Y-%m-%d')
 
@@ -142,7 +152,6 @@ class Command(BaseCommand):
                         article_obj = Article(url, headline, article_text, ner, publication_date,
                                               author, site_name)
 
-
                         start_time = time.time()
                         article_obj.get_statistics()
                         # print(f"Statistics Calculation: {time.time() - start_time} seconds")
@@ -151,7 +160,7 @@ class Command(BaseCommand):
                         article_obj.save_to_database()
 
                         start_time = time.time()
-                        too_similar = article_obj.check_similarity()
+                        too_similar = check_similarity_with_timeout(article_obj)
                         print(f"Check Similarity Time: {time.time() - start_time} seconds")
 
                         if too_similar:
@@ -196,8 +205,6 @@ class Command(BaseCommand):
         return Command.process_articles(articles, article_objects, processed_urls)
 
     def process_article(self, article, sa):
-
-
 
         start_time = time.time()
         article.source_ner_people()
