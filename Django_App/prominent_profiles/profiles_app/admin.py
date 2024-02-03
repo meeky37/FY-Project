@@ -266,6 +266,11 @@ class EntityViewAdmin(admin.ModelAdmin):
     list_filter = ('entity', 'view_dt', 'view_time')
     search_fields = ('entity__name',)
 
+class OverallSentimentAdmin(admin.ModelAdmin):
+    list_display = ('article_id', 'entity_id', 'num_bound', 'linear_neutral', 'linear_positive',
+                    'linear_negative', 'exp_neutral', 'exp_positive', 'exp_negative')
+    search_fields = ('article__id',)
+
 
 admin.site.register(Entity, EntityAdmin)
 admin.site.register(IgnoreEntitySimilarity)
@@ -273,4 +278,4 @@ admin.site.register(EntityHistory)
 admin.site.register(EntityView, EntityViewAdmin)
 admin.site.register(BingEntity, BingEntityAdmin)
 admin.site.register(BoundMention)
-admin.site.register(OverallSentiment)
+admin.site.register(OverallSentiment, OverallSentimentAdmin)
