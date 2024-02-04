@@ -1,0 +1,2439 @@
+[
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=Green+Party",
+        "queryContext": {
+            "originalQuery": "Green Party",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 16,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Green+Party"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Green+Party&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Labour vetoes ex-Barclays chief for net zero job after diversity row",
+                "url": "https://www.telegraph.co.uk/politics/2024/02/03/net-zero-committee-for-climate-change-labour-ian-cheshire/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.yATGP4RP5NR9wUwsjkLmDi&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "Party claims shortlist of six to be climate watchdog boss \u2018lacks credibility\u2019, meaning process could be re-run after general election",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a879bba1-b519-4278-8c02-4c4c02236e13",
+                        "name": "Ian Cheshire"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9fb91659-3521-96df-b9d4-f4441da7efdd",
+                        "name": "Barclays"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Ian Cheshire"
+                    },
+                    {
+                        "name": "Barclays"
+                    },
+                    {
+                        "name": "Veto"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T19:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Sofia Richie&#39;s Latest Look Put a Maternity Twist on Latte Dressing",
+                "url": "https://uk.movies.yahoo.com/sofia-richies-latest-look-put-191116927.html",
+                "description": "She&#39;s expecting her first child with husband Elliot Grainge.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/933f1b87-472d-8fa2-76c9-c0447f4e5070",
+                        "name": "Lionel Richie"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eff4fcb8-c55d-2f4b-c72e-3fe0a1efe922",
+                        "name": "Sofia"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Movies UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Mpa2adDaIj4hp3hgCdO2wA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T19:10:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "&#39;Destroyed countryside&#39; HS2 pictures spark fierce debate amid local building work",
+                "url": "https://www.coventrytelegraph.net/news/local-news/destroyed-countryside-hs2-pictures-spark-28560771",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.-2Gl6UsY0FB4w5lhHewW5S&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The sight of building hubs replacing green spaces in Warwickshire has stirred emotion on both sides of the debate",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/22171bae-1f21-f76e-b5b5-023bcd7bb031",
+                        "name": "High Speed 2"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "High Speed 2"
+                    },
+                    {
+                        "name": "Image"
+                    },
+                    {
+                        "name": "Local news"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Coventry Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.u4BH6dGprTBcRqmaDluUEw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T18:44:00.0000000Z",
+                "category": "ScienceAndTechnology"
+            },
+            {
+                "name": "Greens try to flip the script: Blame conservatives, not the <b>Green</b> Deal",
+                "url": "https://www.politico.eu/article/greens-try-to-flip-the-script-blame-conservatives-not-the-green-deal/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.iW0UxFtcZRVcSSiLrpzVyS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The farmers are protesting decades of conservative farming policy,\u2019 one official argued. That case will be a hard sell amid a cacophony of green-bashing.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cd116da5-559f-7456-5f30-1ce0be3388bf",
+                        "name": "Blame"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/07182109-18e6-0f9a-debb-c574ef9bd08e",
+                        "name": "Politico"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Politico Europe",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.3CNAC5ADv8S6W-YvRcGzxw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T18:25:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Labour ditches radical reforms as it prepares \u2018bombproof\u2019 election manifesto",
+                "url": "https://www.theguardian.com/politics/2024/feb/03/labour-ditches-radical-reforms-as-it-prepares-bombproof-election-manifesto",
+                "description": "Plans to reform social care and House of Lords are trimmed as Keir Starmer\u2019s party opts for caution ahead of vote",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1bbb9dd0-4b7d-681e-485f-f9877f41981b",
+                        "name": "Radical"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Radical"
+                    },
+                    {
+                        "name": "Election"
+                    },
+                    {
+                        "name": "Manifesto"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T18:23:00.0000000Z"
+            },
+            {
+                "name": "Robbie Williams and wife Ayda Field dress up as Mr and Mrs Potato Head as they throw their son Beau a Toy Story themed <b>party</b> for his fourth birthday",
+                "url": "https://www.dailymail.co.uk/tvshowbiz/article-13041595/Robbie-Williams-wife-Ayda-Field-dress-Mr-Mrs-Potato-Head-throw-son-Beau-Toy-Story-themed-party-fourth-birthday.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.7HtAASrY56kZy4XKt47ici&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Robbie Williams and his wife Ayda dressed up as Mr and Potato Head as they threw their son Beau a &#39;Toy Story&#39; themed party for his fourth birthday on Saturday, in pictures shared on Instagram.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fdbaef60-8735-ce1d-ed26-808d37213efb",
+                        "name": "Robbie Williams"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d80caede-4115-dd17-40a5-d8ab33566c43",
+                        "name": "Toy Story"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/47a54dda-aaba-cd67-691d-3fd53b756899",
+                        "name": "Ayda Field"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T18:04:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "A crash course in British politics: How elections work (Week 1)",
+                "url": "https://cherwell.org/2024/02/03/a-crash-course-in-british-politics-how-elections-work-week-1/",
+                "description": "This week\u2019s article will explain how British elections work, and hopefully will answer all your related questions.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/dd415822-7d36-f414-2e2e-d964388a5d8a",
+                        "name": "Cherwell"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Cherwell Online",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.4pyBj3JGlNQSmgEuH1BF4Q&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T18:04:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "RIATH AL-SAMARRAI: Olympic sport is worthless if you cannot believe your eyes - so why do Russian dopes keep being invited to the <b>party</b>?",
+                "url": "https://www.dailymail.co.uk/sport/othersports/article-13041735/RIATH-AL-SAMARRAI-Olympic-sport-Russian-dopes-invited.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.HQPN9Reno1ORxy5qz6Bx_i&pid=News",
+                        "width": 634,
+                        "height": 423
+                    }
+                },
+                "description": "Dogs seem to have a mixed reputation in Russia. I know this because it came up rather a lot during a surreal time in my life and returned to mind this week.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ed4fce79-8ad4-352b-205b-e4db36c49bbe",
+                        "name": "Russia"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/93a3e0e2-aecf-e53b-8432-c15f400cfb4e",
+                        "name": "Daily Mail"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/bb9fa97a-a48f-634d-5eeb-22dfd5d6fe3f",
+                        "name": "Albania"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Russia"
+                    },
+                    {
+                        "name": "Daily Mail"
+                    },
+                    {
+                        "name": "Albania"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T18:04:00.0000000Z",
+                "category": "Sports"
+            },
+            {
+                "name": "Labour Backtrack On \u00a328 Billion <b>Green</b> Investment Pledge After Weeks Of Confusion",
+                "url": "https://www.ibtimes.co.uk/labour-backtrack-28-billion-green-investment-pledge-after-weeks-confusion-1723184",
+                "description": "With a UK general election looming, the Labour Party are starting to persuade business and financial sector leaders that it can be trusted to grow the economy.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/de02adea-5fe2-517a-e485-a94a99bd572d",
+                        "name": "Pledge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/56baeb7d-20ee-9070-586b-d3d7c0ce62eb",
+                        "name": "Confusion"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d56fe443-56c0-e097-bd1f-dbb2c70faf6c",
+                        "name": "Investment"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "IBTimes UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.A4VFXrLFIRNrVa0JPthYgA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T17:36:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "\u2018Historic day\u2019 as Michelle O\u2019Neill becomes first nationalist leader of Stormont",
+                "url": "https://inews.co.uk/news/michelle-oneill-first-nationalist-leader-stormont-2888356",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ZRz11yGFjPqjiJ44MRl-yS&pid=News",
+                        "width": 640,
+                        "height": 360
+                    }
+                },
+                "description": "Northern Ireland \u2018s Stormont Assembly returned on Saturday after a two-year hiatus with Sinn Fein vice president Michelle O\u2019Neill becoming the country\u2019s first nationalist first minister.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fc276817-3034-0116-3770-f900f6d99a28",
+                        "name": "Parliament Buildings"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/13c96615-0707-ebe8-e3e0-9e76e61d23f2",
+                        "name": "Michelle O&#39;Neill"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Parliament Buildings"
+                    },
+                    {
+                        "name": "Michelle O&#39;Neill"
+                    },
+                    {
+                        "name": "Parliamentary group leader"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T17:21:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Laura Kuenssberg: When will politicians make their minds up on key plans?",
+                "url": "https://www.bbc.com/news/uk-politics-68192206",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.zLCkbPtHTeyLqt5J4mVBsi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "No wonder voters are unconvinced when politicians may seem unclear on economic plans, writes Laura Kuenssberg.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d699b48a-84a0-9aa0-2544-da75b2a11d77",
+                        "name": "Laura Kuenssberg"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k3N4DqozNjgK376rAnFmsA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T16:49:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Biden poised for boost as Democratic primaries begin in South Carolina",
+                "url": "https://www.theguardian.com/us-news/2024/feb/03/south-carolina-primary-democrats-joe-biden",
+                "description": "State holds party\u2019s first official primary under new schedule, with president polling at 70%",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cad484f9-be75-7a78-12dd-16233f823cd7",
+                        "name": "Joe Biden"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/810015e8-b10b-4232-9e2c-de87a67bd26e",
+                        "name": "South Carolina"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Joe Biden"
+                    },
+                    {
+                        "name": "South Carolina"
+                    },
+                    {
+                        "name": "Elections in the United States"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T16:24:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Greens congress choose veteran duo to take them to EU elections",
+                "url": "https://uk.news.yahoo.com/greens-congress-choose-veteran-duo-211112454.html",
+                "description": "The European Green Party on Saturday chose two of its most well-known EU lawmakers to take them to the European Parliament elections in June. German MEP Terry Reintke and Dutch MEP Bas Eickhout were both backed by Green party congress delegates in Lyon \u2014 getting 55 percent and 57 percent of the votes,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3b8ddb1a-cf19-ee77-560d-9dfa00ddf070",
+                        "name": "European Union"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0c976c4-310b-4203-1182-d3f85ae43a95",
+                        "name": "Les Verts Fraternels"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T16:11:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "In Northern Ireland, \u2018a Protestant state\u2019 finally has a Catholic leader",
+                "url": "https://www.politico.eu/article/michelle-oneill-sinn-fein-northern-ireland-protestant-stormont/",
+                "description": "Sinn F\u00e9in\u2019s Michelle O\u2019Neill vows to be \u2018a first minister for all\u2019 in a divided society where stable government has been a casualty of Brexit.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4b8bc44-385c-e87b-bb7d-b32328f53502",
+                        "name": "Northern Ireland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/07182109-18e6-0f9a-debb-c574ef9bd08e",
+                        "name": "Politico"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Politico Europe",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.3CNAC5ADv8S6W-YvRcGzxw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T15:49:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Business resumes at Northern Ireland Assembly on historic restoration day",
+                "url": "https://www.thisislocallondon.co.uk/news/national/24095447.business-resumes-northern-ireland-assembly-historic-restoration-day/",
+                "description": "Business at the Northern Ireland Assembly has reconvened on a day when Sinn Fein\u2019s Michelle O\u2019Neill is set to become the first nationalist first minister following a two-year political collapse.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8e0ba7b6-4225-fa8a-6369-1b5294e602a5",
+                        "name": "London"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/44c3d8ea-5fbe-69e7-dc5b-d4109b17b8eb",
+                        "name": "This is..."
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "This is Local London",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6O7FaDhOqebEUk84521YJg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T15:22:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Joe Rogan Shares 15-Hour <b>Green</b> Room Spotify Playlist, an Idea Inspired by Dave Chappelle, to Celebrate Podcast Deal Renewal",
+                "url": "https://uk.style.yahoo.com/joe-rogan-shares-15-hour-133224498.html",
+                "description": "Rogan started the <b>Green</b> Room playlist \u201cwhen I realized it\u2019s more fun to turn the <b>green</b> room into a <b>party</b>\u201d \u2014 a tactic he copied from Dave Chappelle. \u201cHe would always come to the Comedy Store and bring a big Bluetooth speaker, and Dave has dope ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/906e4245-16b1-1454-7536-1c1e7c9e7a0a",
+                        "name": "Joe Rogan"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6cafd233-2f2c-e64a-4047-8bc542989b5d",
+                        "name": "Deal"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9a89a220-d437-5e7c-d283-c87dbd8ff18a",
+                        "name": "Dave Chappelle"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Style UK"
+                    }
+                ],
+                "datePublished": "2024-02-03T05:33:00.0000000Z",
+                "category": "Entertainment"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=Green+Party",
+        "queryContext": {
+            "originalQuery": "Green Party",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 117,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Green+Party"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Green+Party&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Labour vetoes ex-Barclays chief for net zero job after diversity row",
+                "url": "https://www.telegraph.co.uk/politics/2024/02/03/net-zero-committee-for-climate-change-labour-ian-cheshire/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.yATGP4RP5NR9wUwsjkLmDi&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "Party claims shortlist of six to be climate watchdog boss \u2018lacks credibility\u2019, meaning process could be re-run after general election",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a879bba1-b519-4278-8c02-4c4c02236e13",
+                        "name": "Ian Cheshire"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9fb91659-3521-96df-b9d4-f4441da7efdd",
+                        "name": "Barclays"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Ian Cheshire"
+                    },
+                    {
+                        "name": "Barclays"
+                    },
+                    {
+                        "name": "Veto"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T19:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Sofia Richie&#39;s Latest Look Put a Maternity Twist on Latte Dressing",
+                "url": "https://uk.movies.yahoo.com/sofia-richies-latest-look-put-191116927.html",
+                "description": "She&#39;s expecting her first child with husband Elliot Grainge.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/933f1b87-472d-8fa2-76c9-c0447f4e5070",
+                        "name": "Lionel Richie"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eff4fcb8-c55d-2f4b-c72e-3fe0a1efe922",
+                        "name": "Sofia"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Movies UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Mpa2adDaIj4hp3hgCdO2wA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T19:10:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "&#39;Destroyed countryside&#39; HS2 pictures spark fierce debate amid local building work",
+                "url": "https://www.coventrytelegraph.net/news/local-news/destroyed-countryside-hs2-pictures-spark-28560771",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.-2Gl6UsY0FB4w5lhHewW5S&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The sight of building hubs replacing green spaces in Warwickshire has stirred emotion on both sides of the debate",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/22171bae-1f21-f76e-b5b5-023bcd7bb031",
+                        "name": "High Speed 2"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "High Speed 2"
+                    },
+                    {
+                        "name": "Image"
+                    },
+                    {
+                        "name": "Local news"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Coventry Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.u4BH6dGprTBcRqmaDluUEw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T18:44:00.0000000Z",
+                "category": "ScienceAndTechnology"
+            },
+            {
+                "name": "Greens try to flip the script: Blame conservatives, not the <b>Green</b> Deal",
+                "url": "https://www.politico.eu/article/greens-try-to-flip-the-script-blame-conservatives-not-the-green-deal/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.iW0UxFtcZRVcSSiLrpzVyS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The farmers are protesting decades of conservative farming policy,\u2019 one official argued. That case will be a hard sell amid a cacophony of green-bashing.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cd116da5-559f-7456-5f30-1ce0be3388bf",
+                        "name": "Blame"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/07182109-18e6-0f9a-debb-c574ef9bd08e",
+                        "name": "Politico"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Politico Europe",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.3CNAC5ADv8S6W-YvRcGzxw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T18:25:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Labour ditches radical reforms as it prepares \u2018bombproof\u2019 election manifesto",
+                "url": "https://www.theguardian.com/politics/2024/feb/03/labour-ditches-radical-reforms-as-it-prepares-bombproof-election-manifesto",
+                "description": "Plans to reform social care and House of Lords are trimmed as Keir Starmer\u2019s party opts for caution ahead of vote",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1bbb9dd0-4b7d-681e-485f-f9877f41981b",
+                        "name": "Radical"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Radical"
+                    },
+                    {
+                        "name": "Election"
+                    },
+                    {
+                        "name": "Manifesto"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T18:23:00.0000000Z"
+            },
+            {
+                "name": "Robbie Williams and wife Ayda Field dress up as Mr and Mrs Potato Head as they throw their son Beau a Toy Story themed <b>party</b> for his fourth birthday",
+                "url": "https://www.dailymail.co.uk/tvshowbiz/article-13041595/Robbie-Williams-wife-Ayda-Field-dress-Mr-Mrs-Potato-Head-throw-son-Beau-Toy-Story-themed-party-fourth-birthday.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.7HtAASrY56kZy4XKt47ici&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Robbie Williams and his wife Ayda dressed up as Mr and Potato Head as they threw their son Beau a &#39;Toy Story&#39; themed party for his fourth birthday on Saturday, in pictures shared on Instagram.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fdbaef60-8735-ce1d-ed26-808d37213efb",
+                        "name": "Robbie Williams"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d80caede-4115-dd17-40a5-d8ab33566c43",
+                        "name": "Toy Story"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/47a54dda-aaba-cd67-691d-3fd53b756899",
+                        "name": "Ayda Field"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T18:04:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "A crash course in British politics: How elections work (Week 1)",
+                "url": "https://cherwell.org/2024/02/03/a-crash-course-in-british-politics-how-elections-work-week-1/",
+                "description": "This week\u2019s article will explain how British elections work, and hopefully will answer all your related questions.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/dd415822-7d36-f414-2e2e-d964388a5d8a",
+                        "name": "Cherwell"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Cherwell Online",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.4pyBj3JGlNQSmgEuH1BF4Q&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T18:04:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "RIATH AL-SAMARRAI: Olympic sport is worthless if you cannot believe your eyes - so why do Russian dopes keep being invited to the <b>party</b>?",
+                "url": "https://www.dailymail.co.uk/sport/othersports/article-13041735/RIATH-AL-SAMARRAI-Olympic-sport-Russian-dopes-invited.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.HQPN9Reno1ORxy5qz6Bx_i&pid=News",
+                        "width": 634,
+                        "height": 423
+                    }
+                },
+                "description": "Dogs seem to have a mixed reputation in Russia. I know this because it came up rather a lot during a surreal time in my life and returned to mind this week.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ed4fce79-8ad4-352b-205b-e4db36c49bbe",
+                        "name": "Russia"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/93a3e0e2-aecf-e53b-8432-c15f400cfb4e",
+                        "name": "Daily Mail"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/bb9fa97a-a48f-634d-5eeb-22dfd5d6fe3f",
+                        "name": "Albania"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Russia"
+                    },
+                    {
+                        "name": "Daily Mail"
+                    },
+                    {
+                        "name": "Albania"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T18:04:00.0000000Z",
+                "category": "Sports"
+            },
+            {
+                "name": "Labour Backtrack On \u00a328 Billion <b>Green</b> Investment Pledge After Weeks Of Confusion",
+                "url": "https://www.ibtimes.co.uk/labour-backtrack-28-billion-green-investment-pledge-after-weeks-confusion-1723184",
+                "description": "With a UK general election looming, the Labour Party are starting to persuade business and financial sector leaders that it can be trusted to grow the economy.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/de02adea-5fe2-517a-e485-a94a99bd572d",
+                        "name": "Pledge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/56baeb7d-20ee-9070-586b-d3d7c0ce62eb",
+                        "name": "Confusion"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d56fe443-56c0-e097-bd1f-dbb2c70faf6c",
+                        "name": "Investment"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "IBTimes UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.A4VFXrLFIRNrVa0JPthYgA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T17:36:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "\u2018Historic day\u2019 as Michelle O\u2019Neill becomes first nationalist leader of Stormont",
+                "url": "https://inews.co.uk/news/michelle-oneill-first-nationalist-leader-stormont-2888356",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ZRz11yGFjPqjiJ44MRl-yS&pid=News",
+                        "width": 640,
+                        "height": 360
+                    }
+                },
+                "description": "Northern Ireland \u2018s Stormont Assembly returned on Saturday after a two-year hiatus with Sinn Fein vice president Michelle O\u2019Neill becoming the country\u2019s first nationalist first minister.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fc276817-3034-0116-3770-f900f6d99a28",
+                        "name": "Parliament Buildings"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/13c96615-0707-ebe8-e3e0-9e76e61d23f2",
+                        "name": "Michelle O&#39;Neill"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Parliament Buildings"
+                    },
+                    {
+                        "name": "Michelle O&#39;Neill"
+                    },
+                    {
+                        "name": "Parliamentary group leader"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T17:21:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Laura Kuenssberg: When will politicians make their minds up on key plans?",
+                "url": "https://www.bbc.com/news/uk-politics-68192206",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.zLCkbPtHTeyLqt5J4mVBsi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "No wonder voters are unconvinced when politicians may seem unclear on economic plans, writes Laura Kuenssberg.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d699b48a-84a0-9aa0-2544-da75b2a11d77",
+                        "name": "Laura Kuenssberg"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k3N4DqozNjgK376rAnFmsA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T16:49:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Biden poised for boost as Democratic primaries begin in South Carolina",
+                "url": "https://www.theguardian.com/us-news/2024/feb/03/south-carolina-primary-democrats-joe-biden",
+                "description": "State holds party\u2019s first official primary under new schedule, with president polling at 70%",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cad484f9-be75-7a78-12dd-16233f823cd7",
+                        "name": "Joe Biden"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/810015e8-b10b-4232-9e2c-de87a67bd26e",
+                        "name": "South Carolina"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Joe Biden"
+                    },
+                    {
+                        "name": "South Carolina"
+                    },
+                    {
+                        "name": "Elections in the United States"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T16:24:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Greens congress choose veteran duo to take them to EU elections",
+                "url": "https://uk.news.yahoo.com/greens-congress-choose-veteran-duo-211112454.html",
+                "description": "The European Green Party on Saturday chose two of its most well-known EU lawmakers to take them to the European Parliament elections in June. German MEP Terry Reintke and Dutch MEP Bas Eickhout were both backed by Green party congress delegates in Lyon \u2014 getting 55 percent and 57 percent of the votes,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3b8ddb1a-cf19-ee77-560d-9dfa00ddf070",
+                        "name": "European Union"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0c976c4-310b-4203-1182-d3f85ae43a95",
+                        "name": "Les Verts Fraternels"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T16:11:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "In Northern Ireland, \u2018a Protestant state\u2019 finally has a Catholic leader",
+                "url": "https://www.politico.eu/article/michelle-oneill-sinn-fein-northern-ireland-protestant-stormont/",
+                "description": "Sinn F\u00e9in\u2019s Michelle O\u2019Neill vows to be \u2018a first minister for all\u2019 in a divided society where stable government has been a casualty of Brexit.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4b8bc44-385c-e87b-bb7d-b32328f53502",
+                        "name": "Northern Ireland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/07182109-18e6-0f9a-debb-c574ef9bd08e",
+                        "name": "Politico"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Politico Europe",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.3CNAC5ADv8S6W-YvRcGzxw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T15:49:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Business resumes at Northern Ireland Assembly on historic restoration day",
+                "url": "https://www.northern-scot.co.uk/news/national/article/business-resumes-at-northern-ireland-assembly-on-historic-restoration-day-99218/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.YFldvb448dgMQ7WdjuGcbS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Business at the Northern Ireland Assembly has reconvened on a day when Sinn Fein\u2019s Michelle O\u2019Neill is set to become the first nationalist first minister following a two-year political collapse. MLAs took their seats in the Assembly chamber at Parliament Buildings,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/be7b978c-b44a-cbf6-1c64-6f10c02aa6aa",
+                        "name": "Restoration"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/db75dae2-974a-1c04-c57a-b00de3318c99",
+                        "name": "Northern Ireland Assembly"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "northern-scot.co.uk",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.vvfO2OnlLP2gcDJ2zfr4wQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T14:11:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "\u2018Historic day\u2019 as devolved government returns in Northern Ireland",
+                "url": "https://www.northwalespioneer.co.uk/news/national/24095190.historic-day-devolved-government-returns-northern-ireland/",
+                "description": "A \u201chistoric day\u201d has been hailed as devolved government is expected to return in Northern Ireland. Sinn Fein vice president Michelle O\u2019Neill is set to become the first nationalist first minister following a two-year political collapse.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4b8bc44-385c-e87b-bb7d-b32328f53502",
+                        "name": "Northern Ireland"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "North Wales Pioneer",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.xFkpb-I575SL4hEHRyQuwA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T14:05:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Joe Rogan Shares 15-Hour <b>Green</b> Room Spotify Playlist, an Idea Inspired by Dave Chappelle, to Celebrate Podcast Deal Renewal",
+                "url": "https://uk.style.yahoo.com/joe-rogan-shares-15-hour-133224498.html",
+                "description": "Rogan started the <b>Green</b> Room playlist \u201cwhen I realized it\u2019s more fun to turn the <b>green</b> room into a <b>party</b>\u201d \u2014 a tactic he copied from Dave Chappelle. \u201cHe would always come to the Comedy Store and bring a big Bluetooth speaker, and Dave has dope ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/906e4245-16b1-1454-7536-1c1e7c9e7a0a",
+                        "name": "Joe Rogan"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6cafd233-2f2c-e64a-4047-8bc542989b5d",
+                        "name": "Deal"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9a89a220-d437-5e7c-d283-c87dbd8ff18a",
+                        "name": "Dave Chappelle"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Style UK"
+                    }
+                ],
+                "datePublished": "2024-02-03T05:33:00.0000000Z",
+                "category": "Entertainment"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=Green+Party",
+        "queryContext": {
+            "originalQuery": "Green Party",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 217,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Green+Party"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Green+Party&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Labour vetoes ex-Barclays chief for net zero job after diversity row",
+                "url": "https://www.telegraph.co.uk/politics/2024/02/03/net-zero-committee-for-climate-change-labour-ian-cheshire/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.yATGP4RP5NR9wUwsjkLmDi&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "Party claims shortlist of six to be climate watchdog boss \u2018lacks credibility\u2019, meaning process could be re-run after general election",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a879bba1-b519-4278-8c02-4c4c02236e13",
+                        "name": "Ian Cheshire"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9fb91659-3521-96df-b9d4-f4441da7efdd",
+                        "name": "Barclays"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Ian Cheshire"
+                    },
+                    {
+                        "name": "Barclays"
+                    },
+                    {
+                        "name": "Veto"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T19:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Sofia Richie&#39;s Latest Look Put a Maternity Twist on Latte Dressing",
+                "url": "https://uk.movies.yahoo.com/sofia-richies-latest-look-put-191116927.html",
+                "description": "She&#39;s expecting her first child with husband Elliot Grainge.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/933f1b87-472d-8fa2-76c9-c0447f4e5070",
+                        "name": "Lionel Richie"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eff4fcb8-c55d-2f4b-c72e-3fe0a1efe922",
+                        "name": "Sofia"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Movies UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Mpa2adDaIj4hp3hgCdO2wA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T19:10:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "&#39;Destroyed countryside&#39; HS2 pictures spark fierce debate amid local building work",
+                "url": "https://www.coventrytelegraph.net/news/local-news/destroyed-countryside-hs2-pictures-spark-28560771",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.-2Gl6UsY0FB4w5lhHewW5S&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The sight of building hubs replacing green spaces in Warwickshire has stirred emotion on both sides of the debate",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/22171bae-1f21-f76e-b5b5-023bcd7bb031",
+                        "name": "High Speed 2"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "High Speed 2"
+                    },
+                    {
+                        "name": "Image"
+                    },
+                    {
+                        "name": "Local news"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Coventry Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.u4BH6dGprTBcRqmaDluUEw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T18:44:00.0000000Z",
+                "category": "ScienceAndTechnology"
+            },
+            {
+                "name": "Greens try to flip the script: Blame conservatives, not the <b>Green</b> Deal",
+                "url": "https://www.politico.eu/article/greens-try-to-flip-the-script-blame-conservatives-not-the-green-deal/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.iW0UxFtcZRVcSSiLrpzVyS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The farmers are protesting decades of conservative farming policy,\u2019 one official argued. That case will be a hard sell amid a cacophony of green-bashing.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cd116da5-559f-7456-5f30-1ce0be3388bf",
+                        "name": "Blame"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/07182109-18e6-0f9a-debb-c574ef9bd08e",
+                        "name": "Politico"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Politico Europe",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.3CNAC5ADv8S6W-YvRcGzxw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T18:25:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Labour ditches radical reforms as it prepares \u2018bombproof\u2019 election manifesto",
+                "url": "https://www.theguardian.com/politics/2024/feb/03/labour-ditches-radical-reforms-as-it-prepares-bombproof-election-manifesto",
+                "description": "Plans to reform social care and House of Lords are trimmed as Keir Starmer\u2019s party opts for caution ahead of vote",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1bbb9dd0-4b7d-681e-485f-f9877f41981b",
+                        "name": "Radical"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Radical"
+                    },
+                    {
+                        "name": "Election"
+                    },
+                    {
+                        "name": "Manifesto"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T18:23:00.0000000Z"
+            },
+            {
+                "name": "Robbie Williams and wife Ayda Field dress up as Mr and Mrs Potato Head as they throw their son Beau a Toy Story themed <b>party</b> for his fourth birthday",
+                "url": "https://www.dailymail.co.uk/tvshowbiz/article-13041595/Robbie-Williams-wife-Ayda-Field-dress-Mr-Mrs-Potato-Head-throw-son-Beau-Toy-Story-themed-party-fourth-birthday.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.7HtAASrY56kZy4XKt47ici&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Robbie Williams and his wife Ayda dressed up as Mr and Potato Head as they threw their son Beau a &#39;Toy Story&#39; themed party for his fourth birthday on Saturday, in pictures shared on Instagram.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fdbaef60-8735-ce1d-ed26-808d37213efb",
+                        "name": "Robbie Williams"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d80caede-4115-dd17-40a5-d8ab33566c43",
+                        "name": "Toy Story"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/47a54dda-aaba-cd67-691d-3fd53b756899",
+                        "name": "Ayda Field"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T18:04:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "A crash course in British politics: How elections work (Week 1)",
+                "url": "https://cherwell.org/2024/02/03/a-crash-course-in-british-politics-how-elections-work-week-1/",
+                "description": "This week\u2019s article will explain how British elections work, and hopefully will answer all your related questions.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/dd415822-7d36-f414-2e2e-d964388a5d8a",
+                        "name": "Cherwell"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Cherwell Online",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.4pyBj3JGlNQSmgEuH1BF4Q&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T18:04:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "RIATH AL-SAMARRAI: Olympic sport is worthless if you cannot believe your eyes - so why do Russian dopes keep being invited to the <b>party</b>?",
+                "url": "https://www.dailymail.co.uk/sport/othersports/article-13041735/RIATH-AL-SAMARRAI-Olympic-sport-Russian-dopes-invited.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.HQPN9Reno1ORxy5qz6Bx_i&pid=News",
+                        "width": 634,
+                        "height": 423
+                    }
+                },
+                "description": "Dogs seem to have a mixed reputation in Russia. I know this because it came up rather a lot during a surreal time in my life and returned to mind this week.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ed4fce79-8ad4-352b-205b-e4db36c49bbe",
+                        "name": "Russia"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/93a3e0e2-aecf-e53b-8432-c15f400cfb4e",
+                        "name": "Daily Mail"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/bb9fa97a-a48f-634d-5eeb-22dfd5d6fe3f",
+                        "name": "Albania"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Russia"
+                    },
+                    {
+                        "name": "Daily Mail"
+                    },
+                    {
+                        "name": "Albania"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T18:04:00.0000000Z",
+                "category": "Sports"
+            },
+            {
+                "name": "Labour Backtrack On \u00a328 Billion <b>Green</b> Investment Pledge After Weeks Of Confusion",
+                "url": "https://www.ibtimes.co.uk/labour-backtrack-28-billion-green-investment-pledge-after-weeks-confusion-1723184",
+                "description": "With a UK general election looming, the Labour Party are starting to persuade business and financial sector leaders that it can be trusted to grow the economy.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/de02adea-5fe2-517a-e485-a94a99bd572d",
+                        "name": "Pledge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/56baeb7d-20ee-9070-586b-d3d7c0ce62eb",
+                        "name": "Confusion"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d56fe443-56c0-e097-bd1f-dbb2c70faf6c",
+                        "name": "Investment"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "IBTimes UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.A4VFXrLFIRNrVa0JPthYgA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T17:36:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "\u2018Historic day\u2019 as Michelle O\u2019Neill becomes first nationalist leader of Stormont",
+                "url": "https://inews.co.uk/news/michelle-oneill-first-nationalist-leader-stormont-2888356",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ZRz11yGFjPqjiJ44MRl-yS&pid=News",
+                        "width": 640,
+                        "height": 360
+                    }
+                },
+                "description": "Northern Ireland \u2018s Stormont Assembly returned on Saturday after a two-year hiatus with Sinn Fein vice president Michelle O\u2019Neill becoming the country\u2019s first nationalist first minister.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fc276817-3034-0116-3770-f900f6d99a28",
+                        "name": "Parliament Buildings"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/13c96615-0707-ebe8-e3e0-9e76e61d23f2",
+                        "name": "Michelle O&#39;Neill"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Parliament Buildings"
+                    },
+                    {
+                        "name": "Michelle O&#39;Neill"
+                    },
+                    {
+                        "name": "Parliamentary group leader"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T17:21:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Laura Kuenssberg: When will politicians make their minds up on key plans?",
+                "url": "https://www.bbc.com/news/uk-politics-68192206",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.zLCkbPtHTeyLqt5J4mVBsi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "No wonder voters are unconvinced when politicians may seem unclear on economic plans, writes Laura Kuenssberg.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d699b48a-84a0-9aa0-2544-da75b2a11d77",
+                        "name": "Laura Kuenssberg"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k3N4DqozNjgK376rAnFmsA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T16:49:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Biden poised for boost as Democratic primaries begin in South Carolina",
+                "url": "https://www.theguardian.com/us-news/2024/feb/03/south-carolina-primary-democrats-joe-biden",
+                "description": "State holds party\u2019s first official primary under new schedule, with president polling at 70%",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cad484f9-be75-7a78-12dd-16233f823cd7",
+                        "name": "Joe Biden"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/810015e8-b10b-4232-9e2c-de87a67bd26e",
+                        "name": "South Carolina"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Joe Biden"
+                    },
+                    {
+                        "name": "South Carolina"
+                    },
+                    {
+                        "name": "Elections in the United States"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T16:24:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Greens congress choose veteran duo to take them to EU elections",
+                "url": "https://uk.news.yahoo.com/greens-congress-choose-veteran-duo-211112454.html",
+                "description": "The European Green Party on Saturday chose two of its most well-known EU lawmakers to take them to the European Parliament elections in June. German MEP Terry Reintke and Dutch MEP Bas Eickhout were both backed by Green party congress delegates in Lyon \u2014 getting 55 percent and 57 percent of the votes,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3b8ddb1a-cf19-ee77-560d-9dfa00ddf070",
+                        "name": "European Union"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0c976c4-310b-4203-1182-d3f85ae43a95",
+                        "name": "Les Verts Fraternels"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T16:11:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "In Northern Ireland, \u2018a Protestant state\u2019 finally has a Catholic leader",
+                "url": "https://www.politico.eu/article/michelle-oneill-sinn-fein-northern-ireland-protestant-stormont/",
+                "description": "Sinn F\u00e9in\u2019s Michelle O\u2019Neill vows to be \u2018a first minister for all\u2019 in a divided society where stable government has been a casualty of Brexit.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4b8bc44-385c-e87b-bb7d-b32328f53502",
+                        "name": "Northern Ireland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/07182109-18e6-0f9a-debb-c574ef9bd08e",
+                        "name": "Politico"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Politico Europe",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.3CNAC5ADv8S6W-YvRcGzxw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T15:49:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Business resumes at Northern Ireland Assembly on historic restoration day",
+                "url": "https://www.northern-scot.co.uk/news/national/article/business-resumes-at-northern-ireland-assembly-on-historic-restoration-day-99218/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.YFldvb448dgMQ7WdjuGcbS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Business at the Northern Ireland Assembly has reconvened on a day when Sinn Fein\u2019s Michelle O\u2019Neill is set to become the first nationalist first minister following a two-year political collapse. MLAs took their seats in the Assembly chamber at Parliament Buildings,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/be7b978c-b44a-cbf6-1c64-6f10c02aa6aa",
+                        "name": "Restoration"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/db75dae2-974a-1c04-c57a-b00de3318c99",
+                        "name": "Northern Ireland Assembly"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "northern-scot.co.uk",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.vvfO2OnlLP2gcDJ2zfr4wQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T14:11:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "\u2018Historic day\u2019 as devolved government returns in Northern Ireland",
+                "url": "https://www.northwalespioneer.co.uk/news/national/24095190.historic-day-devolved-government-returns-northern-ireland/",
+                "description": "A \u201chistoric day\u201d has been hailed as devolved government is expected to return in Northern Ireland. Sinn Fein vice president Michelle O\u2019Neill is set to become the first nationalist first minister following a two-year political collapse.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4b8bc44-385c-e87b-bb7d-b32328f53502",
+                        "name": "Northern Ireland"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "North Wales Pioneer",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.xFkpb-I575SL4hEHRyQuwA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T14:05:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Joe Rogan Shares 15-Hour <b>Green</b> Room Spotify Playlist, an Idea Inspired by Dave Chappelle, to Celebrate Podcast Deal Renewal",
+                "url": "https://uk.style.yahoo.com/joe-rogan-shares-15-hour-133224498.html",
+                "description": "Rogan started the <b>Green</b> Room playlist \u201cwhen I realized it\u2019s more fun to turn the <b>green</b> room into a <b>party</b>\u201d \u2014 a tactic he copied from Dave Chappelle. \u201cHe would always come to the Comedy Store and bring a big Bluetooth speaker, and Dave has dope ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/906e4245-16b1-1454-7536-1c1e7c9e7a0a",
+                        "name": "Joe Rogan"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6cafd233-2f2c-e64a-4047-8bc542989b5d",
+                        "name": "Deal"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9a89a220-d437-5e7c-d283-c87dbd8ff18a",
+                        "name": "Dave Chappelle"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Style UK"
+                    }
+                ],
+                "datePublished": "2024-02-03T05:33:00.0000000Z",
+                "category": "Entertainment"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=Green+Party",
+        "queryContext": {
+            "originalQuery": "Green Party",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 317,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Green+Party"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Green+Party&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Labour vetoes ex-Barclays chief for net zero job after diversity row",
+                "url": "https://www.telegraph.co.uk/politics/2024/02/03/net-zero-committee-for-climate-change-labour-ian-cheshire/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.yATGP4RP5NR9wUwsjkLmDi&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "Party claims shortlist of six to be climate watchdog boss \u2018lacks credibility\u2019, meaning process could be re-run after general election",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a879bba1-b519-4278-8c02-4c4c02236e13",
+                        "name": "Ian Cheshire"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9fb91659-3521-96df-b9d4-f4441da7efdd",
+                        "name": "Barclays"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Ian Cheshire"
+                    },
+                    {
+                        "name": "Barclays"
+                    },
+                    {
+                        "name": "Veto"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T19:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Sofia Richie&#39;s Latest Look Put a Maternity Twist on Latte Dressing",
+                "url": "https://uk.movies.yahoo.com/sofia-richies-latest-look-put-191116927.html",
+                "description": "She&#39;s expecting her first child with husband Elliot Grainge.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/933f1b87-472d-8fa2-76c9-c0447f4e5070",
+                        "name": "Lionel Richie"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eff4fcb8-c55d-2f4b-c72e-3fe0a1efe922",
+                        "name": "Sofia"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Movies UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Mpa2adDaIj4hp3hgCdO2wA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T19:10:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "&#39;Destroyed countryside&#39; HS2 pictures spark fierce debate amid local building work",
+                "url": "https://www.coventrytelegraph.net/news/local-news/destroyed-countryside-hs2-pictures-spark-28560771",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.-2Gl6UsY0FB4w5lhHewW5S&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The sight of building hubs replacing green spaces in Warwickshire has stirred emotion on both sides of the debate",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/22171bae-1f21-f76e-b5b5-023bcd7bb031",
+                        "name": "High Speed 2"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "High Speed 2"
+                    },
+                    {
+                        "name": "Image"
+                    },
+                    {
+                        "name": "Local news"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Coventry Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.u4BH6dGprTBcRqmaDluUEw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T18:44:00.0000000Z",
+                "category": "ScienceAndTechnology"
+            },
+            {
+                "name": "Greens try to flip the script: Blame conservatives, not the <b>Green</b> Deal",
+                "url": "https://www.politico.eu/article/greens-try-to-flip-the-script-blame-conservatives-not-the-green-deal/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.iW0UxFtcZRVcSSiLrpzVyS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The farmers are protesting decades of conservative farming policy,\u2019 one official argued. That case will be a hard sell amid a cacophony of green-bashing.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cd116da5-559f-7456-5f30-1ce0be3388bf",
+                        "name": "Blame"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/07182109-18e6-0f9a-debb-c574ef9bd08e",
+                        "name": "Politico"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Politico Europe",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.3CNAC5ADv8S6W-YvRcGzxw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T18:25:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Labour ditches radical reforms as it prepares \u2018bombproof\u2019 election manifesto",
+                "url": "https://www.theguardian.com/politics/2024/feb/03/labour-ditches-radical-reforms-as-it-prepares-bombproof-election-manifesto",
+                "description": "Plans to reform social care and House of Lords are trimmed as Keir Starmer\u2019s party opts for caution ahead of vote",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1bbb9dd0-4b7d-681e-485f-f9877f41981b",
+                        "name": "Radical"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Radical"
+                    },
+                    {
+                        "name": "Election"
+                    },
+                    {
+                        "name": "Manifesto"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T18:23:00.0000000Z"
+            },
+            {
+                "name": "Robbie Williams and wife Ayda Field dress up as Mr and Mrs Potato Head as they throw their son Beau a Toy Story themed <b>party</b> for his fourth birthday",
+                "url": "https://www.dailymail.co.uk/tvshowbiz/article-13041595/Robbie-Williams-wife-Ayda-Field-dress-Mr-Mrs-Potato-Head-throw-son-Beau-Toy-Story-themed-party-fourth-birthday.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.7HtAASrY56kZy4XKt47ici&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Robbie Williams and his wife Ayda dressed up as Mr and Potato Head as they threw their son Beau a &#39;Toy Story&#39; themed party for his fourth birthday on Saturday, in pictures shared on Instagram.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fdbaef60-8735-ce1d-ed26-808d37213efb",
+                        "name": "Robbie Williams"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d80caede-4115-dd17-40a5-d8ab33566c43",
+                        "name": "Toy Story"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/47a54dda-aaba-cd67-691d-3fd53b756899",
+                        "name": "Ayda Field"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T18:04:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "A crash course in British politics: How elections work (Week 1)",
+                "url": "https://cherwell.org/2024/02/03/a-crash-course-in-british-politics-how-elections-work-week-1/",
+                "description": "This week\u2019s article will explain how British elections work, and hopefully will answer all your related questions.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/dd415822-7d36-f414-2e2e-d964388a5d8a",
+                        "name": "Cherwell"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Cherwell Online",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.4pyBj3JGlNQSmgEuH1BF4Q&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T18:04:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "RIATH AL-SAMARRAI: Olympic sport is worthless if you cannot believe your eyes - so why do Russian dopes keep being invited to the <b>party</b>?",
+                "url": "https://www.dailymail.co.uk/sport/othersports/article-13041735/RIATH-AL-SAMARRAI-Olympic-sport-Russian-dopes-invited.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.HQPN9Reno1ORxy5qz6Bx_i&pid=News",
+                        "width": 634,
+                        "height": 423
+                    }
+                },
+                "description": "Dogs seem to have a mixed reputation in Russia. I know this because it came up rather a lot during a surreal time in my life and returned to mind this week.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ed4fce79-8ad4-352b-205b-e4db36c49bbe",
+                        "name": "Russia"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/93a3e0e2-aecf-e53b-8432-c15f400cfb4e",
+                        "name": "Daily Mail"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/bb9fa97a-a48f-634d-5eeb-22dfd5d6fe3f",
+                        "name": "Albania"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Russia"
+                    },
+                    {
+                        "name": "Daily Mail"
+                    },
+                    {
+                        "name": "Albania"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T18:04:00.0000000Z",
+                "category": "Sports"
+            },
+            {
+                "name": "Labour Backtrack On \u00a328 Billion <b>Green</b> Investment Pledge After Weeks Of Confusion",
+                "url": "https://www.ibtimes.co.uk/labour-backtrack-28-billion-green-investment-pledge-after-weeks-confusion-1723184",
+                "description": "With a UK general election looming, the Labour Party are starting to persuade business and financial sector leaders that it can be trusted to grow the economy.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/de02adea-5fe2-517a-e485-a94a99bd572d",
+                        "name": "Pledge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/56baeb7d-20ee-9070-586b-d3d7c0ce62eb",
+                        "name": "Confusion"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d56fe443-56c0-e097-bd1f-dbb2c70faf6c",
+                        "name": "Investment"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "IBTimes UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.A4VFXrLFIRNrVa0JPthYgA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T17:36:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "\u2018Historic day\u2019 as Michelle O\u2019Neill becomes first nationalist leader of Stormont",
+                "url": "https://inews.co.uk/news/michelle-oneill-first-nationalist-leader-stormont-2888356",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ZRz11yGFjPqjiJ44MRl-yS&pid=News",
+                        "width": 640,
+                        "height": 360
+                    }
+                },
+                "description": "Northern Ireland \u2018s Stormont Assembly returned on Saturday after a two-year hiatus with Sinn Fein vice president Michelle O\u2019Neill becoming the country\u2019s first nationalist first minister.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fc276817-3034-0116-3770-f900f6d99a28",
+                        "name": "Parliament Buildings"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/13c96615-0707-ebe8-e3e0-9e76e61d23f2",
+                        "name": "Michelle O&#39;Neill"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Parliament Buildings"
+                    },
+                    {
+                        "name": "Michelle O&#39;Neill"
+                    },
+                    {
+                        "name": "Parliamentary group leader"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T17:21:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Laura Kuenssberg: When will politicians make their minds up on key plans?",
+                "url": "https://www.bbc.com/news/uk-politics-68192206",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.zLCkbPtHTeyLqt5J4mVBsi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "No wonder voters are unconvinced when politicians may seem unclear on economic plans, writes Laura Kuenssberg.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d699b48a-84a0-9aa0-2544-da75b2a11d77",
+                        "name": "Laura Kuenssberg"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k3N4DqozNjgK376rAnFmsA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T16:49:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Biden poised for boost as Democratic primaries begin in South Carolina",
+                "url": "https://www.theguardian.com/us-news/2024/feb/03/south-carolina-primary-democrats-joe-biden",
+                "description": "State holds party\u2019s first official primary under new schedule, with president polling at 70%",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cad484f9-be75-7a78-12dd-16233f823cd7",
+                        "name": "Joe Biden"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/810015e8-b10b-4232-9e2c-de87a67bd26e",
+                        "name": "South Carolina"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Joe Biden"
+                    },
+                    {
+                        "name": "South Carolina"
+                    },
+                    {
+                        "name": "Elections in the United States"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T16:24:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Greens congress choose veteran duo to take them to EU elections",
+                "url": "https://uk.news.yahoo.com/greens-congress-choose-veteran-duo-211112454.html",
+                "description": "The European Green Party on Saturday chose two of its most well-known EU lawmakers to take them to the European Parliament elections in June. German MEP Terry Reintke and Dutch MEP Bas Eickhout were both backed by Green party congress delegates in Lyon \u2014 getting 55 percent and 57 percent of the votes,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3b8ddb1a-cf19-ee77-560d-9dfa00ddf070",
+                        "name": "European Union"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0c976c4-310b-4203-1182-d3f85ae43a95",
+                        "name": "Les Verts Fraternels"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T16:11:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "In Northern Ireland, \u2018a Protestant state\u2019 finally has a Catholic leader",
+                "url": "https://www.politico.eu/article/michelle-oneill-sinn-fein-northern-ireland-protestant-stormont/",
+                "description": "Sinn F\u00e9in\u2019s Michelle O\u2019Neill vows to be \u2018a first minister for all\u2019 in a divided society where stable government has been a casualty of Brexit.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4b8bc44-385c-e87b-bb7d-b32328f53502",
+                        "name": "Northern Ireland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/07182109-18e6-0f9a-debb-c574ef9bd08e",
+                        "name": "Politico"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Politico Europe",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.3CNAC5ADv8S6W-YvRcGzxw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T15:49:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Business resumes at Northern Ireland Assembly on historic restoration day",
+                "url": "https://www.northern-scot.co.uk/news/national/article/business-resumes-at-northern-ireland-assembly-on-historic-restoration-day-99218/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.YFldvb448dgMQ7WdjuGcbS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Business at the Northern Ireland Assembly has reconvened on a day when Sinn Fein\u2019s Michelle O\u2019Neill is set to become the first nationalist first minister following a two-year political collapse. MLAs took their seats in the Assembly chamber at Parliament Buildings,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/be7b978c-b44a-cbf6-1c64-6f10c02aa6aa",
+                        "name": "Restoration"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/db75dae2-974a-1c04-c57a-b00de3318c99",
+                        "name": "Northern Ireland Assembly"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "northern-scot.co.uk",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.vvfO2OnlLP2gcDJ2zfr4wQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T14:11:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "\u2018Historic day\u2019 as devolved government returns in Northern Ireland",
+                "url": "https://www.northwalespioneer.co.uk/news/national/24095190.historic-day-devolved-government-returns-northern-ireland/",
+                "description": "A \u201chistoric day\u201d has been hailed as devolved government is expected to return in Northern Ireland. Sinn Fein vice president Michelle O\u2019Neill is set to become the first nationalist first minister following a two-year political collapse.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4b8bc44-385c-e87b-bb7d-b32328f53502",
+                        "name": "Northern Ireland"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "North Wales Pioneer",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.xFkpb-I575SL4hEHRyQuwA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T14:05:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Joe Rogan Shares 15-Hour <b>Green</b> Room Spotify Playlist, an Idea Inspired by Dave Chappelle, to Celebrate Podcast Deal Renewal",
+                "url": "https://uk.style.yahoo.com/joe-rogan-shares-15-hour-133224498.html",
+                "description": "Rogan started the <b>Green</b> Room playlist \u201cwhen I realized it\u2019s more fun to turn the <b>green</b> room into a <b>party</b>\u201d \u2014 a tactic he copied from Dave Chappelle. \u201cHe would always come to the Comedy Store and bring a big Bluetooth speaker, and Dave has dope ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/906e4245-16b1-1454-7536-1c1e7c9e7a0a",
+                        "name": "Joe Rogan"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6cafd233-2f2c-e64a-4047-8bc542989b5d",
+                        "name": "Deal"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9a89a220-d437-5e7c-d283-c87dbd8ff18a",
+                        "name": "Dave Chappelle"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Style UK"
+                    }
+                ],
+                "datePublished": "2024-02-03T05:33:00.0000000Z",
+                "category": "Entertainment"
+            }
+        ]
+    }
+]

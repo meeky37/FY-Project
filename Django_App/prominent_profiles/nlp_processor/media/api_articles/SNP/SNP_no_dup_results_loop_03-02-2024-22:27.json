@@ -1,0 +1,2484 @@
+[
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=SNP",
+        "queryContext": {
+            "originalQuery": "SNP",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 12100,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=SNP"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=SNP&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "<b>SNP</b>&#39;s ex-Commons chief Ian Blackford bought sexy lingerie for his childhood sweetheart mistress from an account he shared with his wife of 22 years",
+                "url": "https://www.dailymail.co.uk/news/article-13042093/SNPs-ex-Commons-chief-Ian-Blackford-bought-sexy-lingerie-childhood-sweetheart-mistress-account-shared-wife-22-years.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.5FJb6_ZawhfAErHr2zDPNi&pid=News",
+                        "width": 634,
+                        "height": 423
+                    }
+                },
+                "description": "The former SNP leader has been pictured grinning and strolling hand-in-hand with his new lover, Kim Lyons and has been called &#39;emotionally bereft&#39; by family friends",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c6e5aa73-f4de-4c5d-d795-26968f7f045d",
+                        "name": "Blackford County"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/09516697-7915-adf6-409c-0293f2b9356a",
+                        "name": "Personal account"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T21:01:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Huge wildfire &#39;close&#39; to Perthshire houses with blaze &#39;visible from Dundee&#39;",
+                "url": "https://www.dailyrecord.co.uk/news/scottish-news/huge-wildfire-close-perthshire-houses-32040493.amp",
+                "description": "The Scottish Fire and Rescue Service were initially called to the scene at 2.08pm on Saturday, February 3 and remained there for at least six hours afterwards.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/26e6ea64-8197-1c44-a767-91d93e3e7e60",
+                        "name": "Dundee"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/346232d4-3ce4-844d-80f9-55654963a286",
+                        "name": "House"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Dundee"
+                    },
+                    {
+                        "name": "House"
+                    },
+                    {
+                        "name": "Daily Record"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Record",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.B6nvPq26UTBuCaXH6tX71w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T19:19:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "<b>SNP</b>-controlled Glasgow is pothole capital of Britain with Labour-led Edinburgh second",
+                "url": "https://www.telegraph.co.uk/news/2024/02/03/glasgow-pothole-capital-of-britain-with-edinburgh-second/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.rNSf9Rmo5NHjZCAwypdYwi&pid=News",
+                        "width": 680,
+                        "height": 426
+                    }
+                },
+                "description": "Across Britain, the Scottish capital Glasgow - run by an SNP -led minority council - had more than 9,700 potholes reported by residents over the past 17 years, less than a third of which have been repaired. Edinburgh has had less than a quarter of the 5,538 reported potholes being filled in since 2007, the data shows.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/da2548ee-1b26-f939-06b4-2fae57e075e7",
+                        "name": "Glasgow"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/286af946-edea-5f33-df53-4164821c69da",
+                        "name": "Edinburgh"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Glasgow"
+                    },
+                    {
+                        "name": "Edinburgh"
+                    },
+                    {
+                        "name": "United Kingdom"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T18:17:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "How Yousaf could mend years-long rift with Forbes",
+                "url": "https://www.thetimes.co.uk/article/how-yousaf-could-mend-years-long-rift-with-forbes-77mcfqkcg",
+                "description": "With Michael Matheson\u2019s days seemingly numbered, a cabinet post may help the party\u2019s two biggest figures to reunite after a bruising week for the SNP",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6d99b564-d527-5061-2ebd-f97730898d38",
+                        "name": "Humza Yousaf"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c225e474-1294-34f1-c00a-48e4d8a83253",
+                        "name": "Forbes"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2e9108b5-aa92-508b-b5ce-232d8640e4fa",
+                        "name": "Rift"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T18:11:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "How the <b>SNP</b>\u2019 \u2018captured\u2019 Scotland\u2019s civil service \u2014 and why it matters",
+                "url": "https://www.thetimes.co.uk/article/how-the-snp-captured-scotlands-civil-service-and-why-it-matters-qj6f57wgh",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.re6xgoK6IlAV4Su-IUXsGy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The Covid inquiry laid bare the failings of the Scottish government during the pandemic \u2014 but the way ministers politicised public servants reveals new depths of arrogance",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f8f841de-7f40-9f0c-c8ad-d32613878dc6",
+                        "name": "Civil service"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T18:00:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Scottish independence activists come together to campaign in Perth",
+                "url": "https://www.thenational.scot/news/24095712.scottish-independence-activists-come-together-campaign-perth/",
+                "description": "SCOTTISH\u00a0independence\u00a0activists from across the movement\u00a0have taken part in one of the first local campaign days of 2024 hosted by Believe",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/86e76e5b-5d61-6f6b-84e2-153552af467a",
+                        "name": "Perth"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b83d549f-1d62-a989-a518-4fdc76be546e",
+                        "name": "Campaign"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T17:54:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=SNP",
+        "queryContext": {
+            "originalQuery": "SNP",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 12100,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=SNP"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=SNP&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "<b>SNP</b>&#39;s ex-Commons chief Ian Blackford bought sexy lingerie for his childhood sweetheart mistress from an account he shared with his wife of 22 years",
+                "url": "https://www.dailymail.co.uk/news/article-13042093/SNPs-ex-Commons-chief-Ian-Blackford-bought-sexy-lingerie-childhood-sweetheart-mistress-account-shared-wife-22-years.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.5FJb6_ZawhfAErHr2zDPNi&pid=News",
+                        "width": 634,
+                        "height": 423
+                    }
+                },
+                "description": "The former SNP leader has been pictured grinning and strolling hand-in-hand with his new lover, Kim Lyons and has been called &#39;emotionally bereft&#39; by family friends",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c6e5aa73-f4de-4c5d-d795-26968f7f045d",
+                        "name": "Blackford County"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/09516697-7915-adf6-409c-0293f2b9356a",
+                        "name": "Personal account"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T21:01:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Huge wildfire &#39;close&#39; to Perthshire houses with blaze &#39;visible from Dundee&#39;",
+                "url": "https://www.dailyrecord.co.uk/news/scottish-news/huge-wildfire-close-perthshire-houses-32040493.amp",
+                "description": "The Scottish Fire and Rescue Service were initially called to the scene at 2.08pm on Saturday, February 3 and remained there for at least six hours afterwards.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/26e6ea64-8197-1c44-a767-91d93e3e7e60",
+                        "name": "Dundee"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/346232d4-3ce4-844d-80f9-55654963a286",
+                        "name": "House"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Dundee"
+                    },
+                    {
+                        "name": "House"
+                    },
+                    {
+                        "name": "Daily Record"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Record",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.B6nvPq26UTBuCaXH6tX71w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T19:19:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "<b>SNP</b>-controlled Glasgow is pothole capital of Britain with Labour-led Edinburgh second",
+                "url": "https://www.telegraph.co.uk/news/2024/02/03/glasgow-pothole-capital-of-britain-with-edinburgh-second/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.rNSf9Rmo5NHjZCAwypdYwi&pid=News",
+                        "width": 680,
+                        "height": 426
+                    }
+                },
+                "description": "Across Britain, the Scottish capital Glasgow - run by an SNP -led minority council - had more than 9,700 potholes reported by residents over the past 17 years, less than a third of which have been repaired. Edinburgh has had less than a quarter of the 5,538 reported potholes being filled in since 2007, the data shows.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/da2548ee-1b26-f939-06b4-2fae57e075e7",
+                        "name": "Glasgow"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/286af946-edea-5f33-df53-4164821c69da",
+                        "name": "Edinburgh"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Glasgow"
+                    },
+                    {
+                        "name": "Edinburgh"
+                    },
+                    {
+                        "name": "United Kingdom"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T18:17:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "How Yousaf could mend years-long rift with Forbes",
+                "url": "https://www.thetimes.co.uk/article/how-yousaf-could-mend-years-long-rift-with-forbes-77mcfqkcg",
+                "description": "With Michael Matheson\u2019s days seemingly numbered, a cabinet post may help the party\u2019s two biggest figures to reunite after a bruising week for the SNP",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6d99b564-d527-5061-2ebd-f97730898d38",
+                        "name": "Humza Yousaf"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c225e474-1294-34f1-c00a-48e4d8a83253",
+                        "name": "Forbes"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2e9108b5-aa92-508b-b5ce-232d8640e4fa",
+                        "name": "Rift"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T18:11:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "How the <b>SNP</b>\u2019 \u2018captured\u2019 Scotland\u2019s civil service \u2014 and why it matters",
+                "url": "https://www.thetimes.co.uk/article/how-the-snp-captured-scotlands-civil-service-and-why-it-matters-qj6f57wgh",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.re6xgoK6IlAV4Su-IUXsGy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The Covid inquiry laid bare the failings of the Scottish government during the pandemic \u2014 but the way ministers politicised public servants reveals new depths of arrogance",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f8f841de-7f40-9f0c-c8ad-d32613878dc6",
+                        "name": "Civil service"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T18:00:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Scottish independence activists come together to campaign in Perth",
+                "url": "https://www.thenational.scot/news/24095712.scottish-independence-activists-come-together-campaign-perth/",
+                "description": "SCOTTISH\u00a0independence\u00a0activists from across the movement\u00a0have taken part in one of the first local campaign days of 2024 hosted by Believe",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/86e76e5b-5d61-6f6b-84e2-153552af467a",
+                        "name": "Perth"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b83d549f-1d62-a989-a518-4fdc76be546e",
+                        "name": "Campaign"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T17:54:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Thousands gather in Edinburgh to call for immediate ceasefire in Gaza",
+                "url": "https://www.standard.co.uk/news/politics/israel-edinburgh-scottish-parliament-hamas-rishi-b1136844.html",
+                "description": "Thousands of pro-Palestine supporters gathered in Edinburgh on Saturday in support of an immediate ceasefire in Gaza. Carrying Palestinian flags and placards, they marched from Edinburgh Castle down the Royal Mile to the Scottish Parliament, shouting slogans such as: \u201cNo Justice, No Peace\u201d, and: \u201cCeasefire now!\u201d",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/286af946-edea-5f33-df53-4164821c69da",
+                        "name": "Edinburgh"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90eb9ff6-60ad-da43-d3fe-1ee3e3cb775a",
+                        "name": "Gaza Strip"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Edinburgh"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Gaza Strip"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T17:36:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Why we must recognise Palestine and ensure UK is not complicit in genocide",
+                "url": "https://www.thenational.scot/politics/24095426.must-recognise-palestine-ensure-uk-not-complicit-genocide/",
+                "description": "LAST week, we witnessed another act in the ongoing pantomime of elected members of parliament trying to hold the UK Government to account for",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e05b0b5c-512c-d6c0-73ef-16d00572aab3",
+                        "name": "State of Palestine"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d0ccb1bc-c0b7-4103-82c2-f13dd47e5e79",
+                        "name": "Ensure"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T17:02:00.0000000Z"
+            },
+            {
+                "name": "Consultation to be held on Inverclyde council tax plans",
+                "url": "https://www.greenocktelegraph.co.uk/news/24092863.consultation-held-inverclyde-council-tax-plans/",
+                "description": "Inverclyde residents will have a say on whether the local authority should reject Scottish Government plans to freeze council tax and raise rates",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f32e5a70-74af-4321-4f59-d98bdd74b525",
+                        "name": "Greenock Telegraph"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9439861d-d2ae-6fa7-2e52-f8a3922ad6c6",
+                        "name": "Consultation"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/aa1ed5d6-1d30-f27d-118b-5cba28935ee2",
+                        "name": "Inverclyde"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Greenock Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.paSsdOmqRx7gpSLRTDxy-Q&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T15:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Drivers in Edinburgh set to be banned from major city centre route",
+                "url": "https://www.thescottishsun.co.uk/motors/11908589/edinburgh-lothian-road-cowgate-council-canongate-traffic-ban/",
+                "description": "The plans also include prioritising pedestrians on Victoria Street, Waverley Bridge, Cockburn Street, and Grassmarket. <b>SNP</b> councillors pushed for the experimental closure of both bridge corridors to some or all traffic in 2024. And later this year ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/286af946-edea-5f33-df53-4164821c69da",
+                        "name": "Edinburgh"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/94f2cc12-53ea-f4df-fdac-4eccaceebb6f",
+                        "name": "Major"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Scottish Sun"
+                    }
+                ],
+                "datePublished": "2024-02-03T12:18:00.0000000Z"
+            },
+            {
+                "name": "Delivering new affordable homes is <b>SNP</b> priority, says MSP",
+                "url": "https://www.largsandmillportnews.com/opinion/24081208.delivering-new-affordable-homes-snp-priority-says-msp/",
+                "description": "Delivering new homes has ensured that the annual supply of affordable housing has been the highest in Britain per 10,000 population each year since the SNP took office in 2007. In 2023 alone - at a time of huge financial challenge - 10,582 affordable homes were completed in Scotland, 1,592 of which were high quality council houses.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/242a12e4-fb95-2691-ed01-7d583c7a1333",
+                        "name": "Largs"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a6be10a1-4fe3-cf76-b3ea-7f28dc5fc6b3",
+                        "name": "Millport, Cumbrae"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/af9d7b51-c889-5536-3b3e-a0ead97664ef",
+                        "name": "Delivering"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Largs and Millport Weekly News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.BGIghppHR6ADpVmTMd9tNQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T11:53:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "New-look board announced by Scottish Land Commission",
+                "url": "https://theedinburghreporter.co.uk/2024/02/new-look-board-announced-by-scottish-land-commission/",
+                "description": "Former MSP and SNP President, Michael Russell, has joined the Scottish Land Commission as Chair The Scottish Government announced the appointment of the new Chair and two other new members to the",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/286af946-edea-5f33-df53-4164821c69da",
+                        "name": "Edinburgh"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "the Edinburgh Reporter",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.tbjctWJ8Y7a07KiPCpS-Cw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T11:17:00.0000000Z"
+            },
+            {
+                "name": "parents who refuse to change their children\u2019s sex are in prison",
+                "url": "https://www.thevermilion.com/parents-who-refuse-to-change-their-childrens-sex-are-in-prison/article_2152/",
+                "description": "There Scottish LGBT community he certainly cannot complain about the political class. A few days ago the local government led by the national-progressive independentists of the Scottish National Party (SNP) was the worst in the",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/349f8350-f53d-05b3-5c64-5a0cfd22b5e8",
+                        "name": "Child"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Vermilion",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.sxXBL51nLHvzam5RFKVwng&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T10:47:00.0000000Z"
+            },
+            {
+                "name": "Stunning pictures shows large flock of Waxwings visiting Worcester",
+                "url": "https://uk.news.yahoo.com/stunning-pictures-shows-large-flock-102909854.html",
+                "description": "The pictures photographer Roger Mason took show the birds eating berries in Silverdale Avenue and flying away.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T10:29:00.0000000Z",
+                "category": "ScienceAndTechnology"
+            },
+            {
+                "name": "Moray MSP Richard Lochhead looks ahead in 2024 following another busy year representing the region",
+                "url": "https://www.forres-gazette.co.uk/news/richard-lochhead-looks-ahead-to-18th-year-as-msp-340991/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.SHgi0JNcFyE56c-IRbzVFS&pid=News",
+                        "width": 700,
+                        "height": 481
+                    }
+                },
+                "description": "AFTER 18 years as Moray\u2019s SNP MSP, Richard Lochhead is looking forward to supporting the area\u2019s communities again in 2024. However, despite enjoying the role he took on last year, Scottish Government Minister for Small Business, Innovation, Tourism and Trade, Richard Lochhead confirmed 2023 had been a difficult year.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/19db0510-62f8-fcd0-e6fc-82c8d52a7098",
+                        "name": "Richard Lochhead"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e600d2ae-9242-34ac-477d-105473c4a9f8",
+                        "name": "Moray"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a3f53cee-1aa8-5a06-c517-c971071fb13c",
+                        "name": "Member of the Scottish Parliament"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "forres-gazette.co.uk",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0GdVUa3qErbE5N-tBLUG-A&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T09:00:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "CalMac ferry fares could rise up to 40 per cent for island visitors under Scottish Government review",
+                "url": "https://www.scotsman.com/news/transport/calmac-ferry-fares-could-rise-up-to-40-per-cent-for-island-visitors-under-scottish-government-review-4503889",
+                "description": "Their so-called \u201c road equivalent tariff \u201d (RET) has cut the average fares for cars by an estimated 40 per cent and for passengers by 34 per cent across CalMac\u2019s west coast network since being extended to all its routes in 2015. Coaches are included in the scheme but not lorries or other vehicles more than 6m long.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eadd99b0-70cb-f1d7-2e75-20d64d34cc83",
+                        "name": "Caledonian MacBrayne"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Caledonian MacBrayne"
+                    },
+                    {
+                        "name": "Scottish Government"
+                    },
+                    {
+                        "name": "Palmero cheese"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Scotsman",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.QlHkHD_RALY4hnQHpw7jBw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T08:34:00.0000000Z"
+            },
+            {
+                "name": "Here&#39;s what happened when I investigated the <b>SNP</b> education plan",
+                "url": "https://www.heraldscotland.com/news/24075712.happened-investigated-snp-education-plan/?ref=rss",
+                "description": "Education writer James McEnaney takes you behind the scenes of his attempts to investigate SNP plans for a new Centre for Teaching Excellence.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "heraldscotland",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PjDUWS-WIq7w595SCRQefg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T07:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Politicians react to latest blow for Ardrossan Harbour",
+                "url": "https://www.ardrossanherald.com/news/24094474.politicians-react-latest-blow-ardrossan-harbour/",
+                "description": "Politicians react with dismay to news that Ardrossan Harbour&#39;s irish berth has been closed for good by owners Peel Ports.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f3e62e0a-efcf-d373-ae36-10ce5808291b",
+                        "name": "Ardrossan"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/22ee6f59-1153-ba0b-db09-1b5c77922d8c",
+                        "name": "Ardrossan Harbour railway station"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c04d8178-0363-e9f1-5429-a2e8fb247702",
+                        "name": "Politician"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "ardrossanherald",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Qr4cxXoYIO_AJhTn8EaBAA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T07:29:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Readers&#39; Letters: Nothing to see here in Sturgeon&#39;s WhatsApps",
+                "url": "https://www.msn.com/en-gb/news/other/readers-letters-nothing-to-see-here-in-sturgeon-s-whatsapps/ar-BB1hHExF",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.T-LBeYdgISxOYjj64OFMuC&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Well, now we have the truth, the whole truth and nothing but the truth. Nicola Sturgeon was not a member of any WhatsApp groups \u2013 apart from a very small number, the use of which was extremely limited.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40ff83fa-c18c-9216-49aa-77a9d6a5cc28",
+                        "name": "Nicola Sturgeon"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Nicola Sturgeon"
+                    },
+                    {
+                        "name": "Admiralty"
+                    },
+                    {
+                        "name": "McDougall, Ontario"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Scotsman on MSN.com",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.QlHkHD_RALY4hnQHpw7jBw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T07:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Nicola Sturgeon&#39;s behaviour suggests she is a politician who never grew up \u2013 Susan Dalgety",
+                "url": "https://www.msn.com/en-gb/news/other/nicola-sturgeon-s-behaviour-suggests-she-is-a-politician-who-never-grew-up-susan-dalgety/ar-BB1hHpAX",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.bixgyQK5b3ijj6y49Dbv7S&pid=News",
+                        "width": 700,
+                        "height": 450
+                    }
+                },
+                "description": "Screaming matches, bullying, mean girl gangs, lying when caught out, and fear of responsibility are all typical behaviour of an angry, sullen teenager",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Scotsman on MSN.com",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.QlHkHD_RALY4hnQHpw7jBw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T04:55:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>SNP</b> ministers urged to block US tycoon&#39;s golf development on Highland bay amid wildlife fears",
+                "url": "https://www.dailyrecord.co.uk/news/scottish-news/snp-ministers-urged-block-tycoons-32033573",
+                "description": "RSPB Scotland said the Holyrood government should call in the controversial plans to build at Coul Links, Sutherland, on protected coastal dunes.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f69239dd-3b67-d215-27a2-35ca6ac8f072",
+                        "name": "Highland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fb6f4f93-ce23-76a6-98b5-3ab6b5286762",
+                        "name": "Daily Record"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cbe6fa58-dbb8-31d7-586b-5e05a0558419",
+                        "name": "Block"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Highland"
+                    },
+                    {
+                        "name": "Daily Record"
+                    },
+                    {
+                        "name": "Block"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Record",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.B6nvPq26UTBuCaXH6tX71w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T03:30:00.0000000Z"
+            },
+            {
+                "name": "Bannockburn",
+                "url": "https://www.bbc.com/news/topics/cn1mzwgl4gmt?page=6",
+                "description": "Grant Karte, 30, posted five Twitter messages to the QC last month after drinking a bottle of whisky. The operator said it was reviewing its timetable to ease the pressure on staff still working out of its Bannockburn depot.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k3N4DqozNjgK376rAnFmsA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T00:49:00.0000000Z"
+            },
+            {
+                "name": "Almost 900 days since Fair Fares Review announced",
+                "url": "https://www.scotlibdems.org.uk/news/article/almost-900-days-since-fair-fares-review-announced",
+                "description": "Scottish Liberal Democrat leader Alex Cole-Hamilton MSP has today criticised the <b>SNP</b>/Green Government for failing to get serious about connectivity and the environment as he revealed that a long-promised review of public transport fares has yet to be ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c8c3a07-0c6a-0cbb-ce69-1e67d001e752",
+                        "name": "Scottish Liberal Democrats"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ff53344a-66ab-70a0-c59b-2838b36ba09a",
+                        "name": "Siege of Leningrad"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "scotlibdems"
+                    }
+                ],
+                "datePublished": "2024-02-03T00:01:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>SNP</b> to urge French group to support bid",
+                "url": "https://www.heraldscotland.com/news/13145150.snp-urge-french-group-support-bid/",
+                "description": "THE <b>SNP</b> will turn on the Gallic charm as it continues its bid to quell international hostility to independence. In a key speech to France&#39;s highly influential Institut Francais des Relations Internationales today, MEP Alyn Smith will contrast his party&#39;s ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c7bfe2de-4f82-e23c-ae42-8544b5b5c0ea",
+                        "name": "France"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "heraldscotland"
+                    }
+                ],
+                "datePublished": "2014-02-11T00:00:00.0000000Z"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=SNP",
+        "queryContext": {
+            "originalQuery": "SNP",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 12100,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=SNP"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=SNP&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "<b>SNP</b>&#39;s ex-Commons chief Ian Blackford bought sexy lingerie for his childhood sweetheart mistress from an account he shared with his wife of 22 years",
+                "url": "https://www.dailymail.co.uk/news/article-13042093/SNPs-ex-Commons-chief-Ian-Blackford-bought-sexy-lingerie-childhood-sweetheart-mistress-account-shared-wife-22-years.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.5FJb6_ZawhfAErHr2zDPNi&pid=News",
+                        "width": 634,
+                        "height": 423
+                    }
+                },
+                "description": "The former SNP leader has been pictured grinning and strolling hand-in-hand with his new lover, Kim Lyons and has been called &#39;emotionally bereft&#39; by family friends",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c6e5aa73-f4de-4c5d-d795-26968f7f045d",
+                        "name": "Blackford County"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/09516697-7915-adf6-409c-0293f2b9356a",
+                        "name": "Personal account"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T21:01:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Huge wildfire &#39;close&#39; to Perthshire houses with blaze &#39;visible from Dundee&#39;",
+                "url": "https://www.dailyrecord.co.uk/news/scottish-news/huge-wildfire-close-perthshire-houses-32040493.amp",
+                "description": "The Scottish Fire and Rescue Service were initially called to the scene at 2.08pm on Saturday, February 3 and remained there for at least six hours afterwards.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/26e6ea64-8197-1c44-a767-91d93e3e7e60",
+                        "name": "Dundee"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/346232d4-3ce4-844d-80f9-55654963a286",
+                        "name": "House"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Dundee"
+                    },
+                    {
+                        "name": "House"
+                    },
+                    {
+                        "name": "Daily Record"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Record",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.B6nvPq26UTBuCaXH6tX71w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T19:19:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "<b>SNP</b>-controlled Glasgow is pothole capital of Britain with Labour-led Edinburgh second",
+                "url": "https://www.telegraph.co.uk/news/2024/02/03/glasgow-pothole-capital-of-britain-with-edinburgh-second/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.rNSf9Rmo5NHjZCAwypdYwi&pid=News",
+                        "width": 680,
+                        "height": 426
+                    }
+                },
+                "description": "Across Britain, the Scottish capital Glasgow - run by an SNP -led minority council - had more than 9,700 potholes reported by residents over the past 17 years, less than a third of which have been repaired. Edinburgh has had less than a quarter of the 5,538 reported potholes being filled in since 2007, the data shows.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/da2548ee-1b26-f939-06b4-2fae57e075e7",
+                        "name": "Glasgow"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/286af946-edea-5f33-df53-4164821c69da",
+                        "name": "Edinburgh"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Glasgow"
+                    },
+                    {
+                        "name": "Edinburgh"
+                    },
+                    {
+                        "name": "United Kingdom"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T18:17:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "How Yousaf could mend years-long rift with Forbes",
+                "url": "https://www.thetimes.co.uk/article/how-yousaf-could-mend-years-long-rift-with-forbes-77mcfqkcg",
+                "description": "With Michael Matheson\u2019s days seemingly numbered, a cabinet post may help the party\u2019s two biggest figures to reunite after a bruising week for the SNP",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6d99b564-d527-5061-2ebd-f97730898d38",
+                        "name": "Humza Yousaf"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c225e474-1294-34f1-c00a-48e4d8a83253",
+                        "name": "Forbes"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2e9108b5-aa92-508b-b5ce-232d8640e4fa",
+                        "name": "Rift"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T18:11:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "How the <b>SNP</b>\u2019 \u2018captured\u2019 Scotland\u2019s civil service \u2014 and why it matters",
+                "url": "https://www.thetimes.co.uk/article/how-the-snp-captured-scotlands-civil-service-and-why-it-matters-qj6f57wgh",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.re6xgoK6IlAV4Su-IUXsGy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The Covid inquiry laid bare the failings of the Scottish government during the pandemic \u2014 but the way ministers politicised public servants reveals new depths of arrogance",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f8f841de-7f40-9f0c-c8ad-d32613878dc6",
+                        "name": "Civil service"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T18:00:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Scottish independence activists come together to campaign in Perth",
+                "url": "https://www.thenational.scot/news/24095712.scottish-independence-activists-come-together-campaign-perth/",
+                "description": "SCOTTISH\u00a0independence\u00a0activists from across the movement\u00a0have taken part in one of the first local campaign days of 2024 hosted by Believe",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/86e76e5b-5d61-6f6b-84e2-153552af467a",
+                        "name": "Perth"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b83d549f-1d62-a989-a518-4fdc76be546e",
+                        "name": "Campaign"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T17:54:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Thousands gather in Edinburgh to call for immediate ceasefire in Gaza",
+                "url": "https://www.standard.co.uk/news/politics/israel-edinburgh-scottish-parliament-hamas-rishi-b1136844.html",
+                "description": "Thousands of pro-Palestine supporters gathered in Edinburgh on Saturday in support of an immediate ceasefire in Gaza. Carrying Palestinian flags and placards, they marched from Edinburgh Castle down the Royal Mile to the Scottish Parliament, shouting slogans such as: \u201cNo Justice, No Peace\u201d, and: \u201cCeasefire now!\u201d",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/286af946-edea-5f33-df53-4164821c69da",
+                        "name": "Edinburgh"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90eb9ff6-60ad-da43-d3fe-1ee3e3cb775a",
+                        "name": "Gaza Strip"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Edinburgh"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Gaza Strip"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T17:36:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Why we must recognise Palestine and ensure UK is not complicit in genocide",
+                "url": "https://www.thenational.scot/politics/24095426.must-recognise-palestine-ensure-uk-not-complicit-genocide/",
+                "description": "LAST week, we witnessed another act in the ongoing pantomime of elected members of parliament trying to hold the UK Government to account for",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e05b0b5c-512c-d6c0-73ef-16d00572aab3",
+                        "name": "State of Palestine"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d0ccb1bc-c0b7-4103-82c2-f13dd47e5e79",
+                        "name": "Ensure"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T17:02:00.0000000Z"
+            },
+            {
+                "name": "Consultation to be held on Inverclyde council tax plans",
+                "url": "https://www.greenocktelegraph.co.uk/news/24092863.consultation-held-inverclyde-council-tax-plans/",
+                "description": "Inverclyde residents will have a say on whether the local authority should reject Scottish Government plans to freeze council tax and raise rates",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f32e5a70-74af-4321-4f59-d98bdd74b525",
+                        "name": "Greenock Telegraph"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9439861d-d2ae-6fa7-2e52-f8a3922ad6c6",
+                        "name": "Consultation"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/aa1ed5d6-1d30-f27d-118b-5cba28935ee2",
+                        "name": "Inverclyde"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Greenock Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.paSsdOmqRx7gpSLRTDxy-Q&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T15:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Drivers in Edinburgh set to be banned from major city centre route",
+                "url": "https://www.thescottishsun.co.uk/motors/11908589/edinburgh-lothian-road-cowgate-council-canongate-traffic-ban/",
+                "description": "The plans also include prioritising pedestrians on Victoria Street, Waverley Bridge, Cockburn Street, and Grassmarket. <b>SNP</b> councillors pushed for the experimental closure of both bridge corridors to some or all traffic in 2024. And later this year ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/286af946-edea-5f33-df53-4164821c69da",
+                        "name": "Edinburgh"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/94f2cc12-53ea-f4df-fdac-4eccaceebb6f",
+                        "name": "Major"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Scottish Sun"
+                    }
+                ],
+                "datePublished": "2024-02-03T12:18:00.0000000Z"
+            },
+            {
+                "name": "Delivering new affordable homes is <b>SNP</b> priority, says MSP",
+                "url": "https://www.largsandmillportnews.com/opinion/24081208.delivering-new-affordable-homes-snp-priority-says-msp/",
+                "description": "Delivering new homes has ensured that the annual supply of affordable housing has been the highest in Britain per 10,000 population each year since the SNP took office in 2007. In 2023 alone - at a time of huge financial challenge - 10,582 affordable homes were completed in Scotland, 1,592 of which were high quality council houses.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/242a12e4-fb95-2691-ed01-7d583c7a1333",
+                        "name": "Largs"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a6be10a1-4fe3-cf76-b3ea-7f28dc5fc6b3",
+                        "name": "Millport, Cumbrae"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/af9d7b51-c889-5536-3b3e-a0ead97664ef",
+                        "name": "Delivering"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Largs and Millport Weekly News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.BGIghppHR6ADpVmTMd9tNQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T11:53:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "New-look board announced by Scottish Land Commission",
+                "url": "https://theedinburghreporter.co.uk/2024/02/new-look-board-announced-by-scottish-land-commission/",
+                "description": "Former MSP and SNP President, Michael Russell, has joined the Scottish Land Commission as Chair The Scottish Government announced the appointment of the new Chair and two other new members to the",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/286af946-edea-5f33-df53-4164821c69da",
+                        "name": "Edinburgh"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "the Edinburgh Reporter",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.tbjctWJ8Y7a07KiPCpS-Cw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T11:17:00.0000000Z"
+            },
+            {
+                "name": "parents who refuse to change their children\u2019s sex are in prison",
+                "url": "https://www.thevermilion.com/parents-who-refuse-to-change-their-childrens-sex-are-in-prison/article_2152/",
+                "description": "There Scottish LGBT community he certainly cannot complain about the political class. A few days ago the local government led by the national-progressive independentists of the Scottish National Party (SNP) was the worst in the",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/349f8350-f53d-05b3-5c64-5a0cfd22b5e8",
+                        "name": "Child"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Vermilion",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.sxXBL51nLHvzam5RFKVwng&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T10:47:00.0000000Z"
+            },
+            {
+                "name": "Stunning pictures shows large flock of Waxwings visiting Worcester",
+                "url": "https://uk.news.yahoo.com/stunning-pictures-shows-large-flock-102909854.html",
+                "description": "The pictures photographer Roger Mason took show the birds eating berries in Silverdale Avenue and flying away.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T10:29:00.0000000Z",
+                "category": "ScienceAndTechnology"
+            },
+            {
+                "name": "Moray MSP Richard Lochhead looks ahead in 2024 following another busy year representing the region",
+                "url": "https://www.forres-gazette.co.uk/news/richard-lochhead-looks-ahead-to-18th-year-as-msp-340991/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.SHgi0JNcFyE56c-IRbzVFS&pid=News",
+                        "width": 700,
+                        "height": 481
+                    }
+                },
+                "description": "AFTER 18 years as Moray\u2019s SNP MSP, Richard Lochhead is looking forward to supporting the area\u2019s communities again in 2024. However, despite enjoying the role he took on last year, Scottish Government Minister for Small Business, Innovation, Tourism and Trade, Richard Lochhead confirmed 2023 had been a difficult year.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/19db0510-62f8-fcd0-e6fc-82c8d52a7098",
+                        "name": "Richard Lochhead"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e600d2ae-9242-34ac-477d-105473c4a9f8",
+                        "name": "Moray"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a3f53cee-1aa8-5a06-c517-c971071fb13c",
+                        "name": "Member of the Scottish Parliament"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "forres-gazette.co.uk",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0GdVUa3qErbE5N-tBLUG-A&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T09:00:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "CalMac ferry fares could rise up to 40 per cent for island visitors under Scottish Government review",
+                "url": "https://www.scotsman.com/news/transport/calmac-ferry-fares-could-rise-up-to-40-per-cent-for-island-visitors-under-scottish-government-review-4503889",
+                "description": "Their so-called \u201c road equivalent tariff \u201d (RET) has cut the average fares for cars by an estimated 40 per cent and for passengers by 34 per cent across CalMac\u2019s west coast network since being extended to all its routes in 2015. Coaches are included in the scheme but not lorries or other vehicles more than 6m long.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eadd99b0-70cb-f1d7-2e75-20d64d34cc83",
+                        "name": "Caledonian MacBrayne"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Caledonian MacBrayne"
+                    },
+                    {
+                        "name": "Scottish Government"
+                    },
+                    {
+                        "name": "Palmero cheese"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Scotsman",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.QlHkHD_RALY4hnQHpw7jBw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T08:34:00.0000000Z"
+            },
+            {
+                "name": "Here&#39;s what happened when I investigated the <b>SNP</b> education plan",
+                "url": "https://www.heraldscotland.com/news/24075712.happened-investigated-snp-education-plan/?ref=rss",
+                "description": "Education writer James McEnaney takes you behind the scenes of his attempts to investigate SNP plans for a new Centre for Teaching Excellence.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "heraldscotland",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PjDUWS-WIq7w595SCRQefg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T07:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Readers&#39; Letters: Nothing to see here in Sturgeon&#39;s WhatsApps",
+                "url": "https://www.msn.com/en-gb/news/other/readers-letters-nothing-to-see-here-in-sturgeon-s-whatsapps/ar-BB1hHExF",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.T-LBeYdgISxOYjj64OFMuC&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Well, now we have the truth, the whole truth and nothing but the truth. Nicola Sturgeon was not a member of any WhatsApp groups \u2013 apart from a very small number, the use of which was extremely limited.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40ff83fa-c18c-9216-49aa-77a9d6a5cc28",
+                        "name": "Nicola Sturgeon"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Nicola Sturgeon"
+                    },
+                    {
+                        "name": "Admiralty"
+                    },
+                    {
+                        "name": "McDougall, Ontario"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Scotsman on MSN.com",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.QlHkHD_RALY4hnQHpw7jBw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T07:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Nicola Sturgeon&#39;s behaviour suggests she is a politician who never grew up \u2013 Susan Dalgety",
+                "url": "https://www.msn.com/en-gb/news/other/nicola-sturgeon-s-behaviour-suggests-she-is-a-politician-who-never-grew-up-susan-dalgety/ar-BB1hHpAX",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.bixgyQK5b3ijj6y49Dbv7S&pid=News",
+                        "width": 700,
+                        "height": 450
+                    }
+                },
+                "description": "Screaming matches, bullying, mean girl gangs, lying when caught out, and fear of responsibility are all typical behaviour of an angry, sullen teenager",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Scotsman on MSN.com",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.QlHkHD_RALY4hnQHpw7jBw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T04:55:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>SNP</b> ministers urged to block US tycoon&#39;s golf development on Highland bay amid wildlife fears",
+                "url": "https://www.dailyrecord.co.uk/news/scottish-news/snp-ministers-urged-block-tycoons-32033573",
+                "description": "RSPB Scotland said the Holyrood government should call in the controversial plans to build at Coul Links, Sutherland, on protected coastal dunes.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f69239dd-3b67-d215-27a2-35ca6ac8f072",
+                        "name": "Highland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fb6f4f93-ce23-76a6-98b5-3ab6b5286762",
+                        "name": "Daily Record"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cbe6fa58-dbb8-31d7-586b-5e05a0558419",
+                        "name": "Block"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Highland"
+                    },
+                    {
+                        "name": "Daily Record"
+                    },
+                    {
+                        "name": "Block"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Record",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.B6nvPq26UTBuCaXH6tX71w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T03:30:00.0000000Z"
+            },
+            {
+                "name": "Bannockburn",
+                "url": "https://www.bbc.com/news/topics/cn1mzwgl4gmt?page=6",
+                "description": "Grant Karte, 30, posted five Twitter messages to the QC last month after drinking a bottle of whisky. The operator said it was reviewing its timetable to ease the pressure on staff still working out of its Bannockburn depot.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k3N4DqozNjgK376rAnFmsA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T00:49:00.0000000Z"
+            },
+            {
+                "name": "Almost 900 days since Fair Fares Review announced",
+                "url": "https://www.scotlibdems.org.uk/news/article/almost-900-days-since-fair-fares-review-announced",
+                "description": "Scottish Liberal Democrat leader Alex Cole-Hamilton MSP has today criticised the <b>SNP</b>/Green Government for failing to get serious about connectivity and the environment as he revealed that a long-promised review of public transport fares has yet to be ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c8c3a07-0c6a-0cbb-ce69-1e67d001e752",
+                        "name": "Scottish Liberal Democrats"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ff53344a-66ab-70a0-c59b-2838b36ba09a",
+                        "name": "Siege of Leningrad"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "scotlibdems"
+                    }
+                ],
+                "datePublished": "2024-02-03T00:01:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>SNP</b> to urge French group to support bid",
+                "url": "https://www.heraldscotland.com/news/13145150.snp-urge-french-group-support-bid/",
+                "description": "THE <b>SNP</b> will turn on the Gallic charm as it continues its bid to quell international hostility to independence. In a key speech to France&#39;s highly influential Institut Francais des Relations Internationales today, MEP Alyn Smith will contrast his party&#39;s ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c7bfe2de-4f82-e23c-ae42-8544b5b5c0ea",
+                        "name": "France"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "heraldscotland"
+                    }
+                ],
+                "datePublished": "2014-02-11T00:00:00.0000000Z"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=SNP",
+        "queryContext": {
+            "originalQuery": "SNP",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 12100,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=SNP"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=SNP&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "<b>SNP</b>&#39;s ex-Commons chief Ian Blackford bought sexy lingerie for his childhood sweetheart mistress from an account he shared with his wife of 22 years",
+                "url": "https://www.dailymail.co.uk/news/article-13042093/SNPs-ex-Commons-chief-Ian-Blackford-bought-sexy-lingerie-childhood-sweetheart-mistress-account-shared-wife-22-years.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.5FJb6_ZawhfAErHr2zDPNi&pid=News",
+                        "width": 634,
+                        "height": 423
+                    }
+                },
+                "description": "The former SNP leader has been pictured grinning and strolling hand-in-hand with his new lover, Kim Lyons and has been called &#39;emotionally bereft&#39; by family friends",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c6e5aa73-f4de-4c5d-d795-26968f7f045d",
+                        "name": "Blackford County"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/09516697-7915-adf6-409c-0293f2b9356a",
+                        "name": "Personal account"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T21:01:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Huge wildfire &#39;close&#39; to Perthshire houses with blaze &#39;visible from Dundee&#39;",
+                "url": "https://www.dailyrecord.co.uk/news/scottish-news/huge-wildfire-close-perthshire-houses-32040493.amp",
+                "description": "The Scottish Fire and Rescue Service were initially called to the scene at 2.08pm on Saturday, February 3 and remained there for at least six hours afterwards.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/26e6ea64-8197-1c44-a767-91d93e3e7e60",
+                        "name": "Dundee"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/346232d4-3ce4-844d-80f9-55654963a286",
+                        "name": "House"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Dundee"
+                    },
+                    {
+                        "name": "House"
+                    },
+                    {
+                        "name": "Daily Record"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Record",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.B6nvPq26UTBuCaXH6tX71w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T19:19:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "<b>SNP</b>-controlled Glasgow is pothole capital of Britain with Labour-led Edinburgh second",
+                "url": "https://www.telegraph.co.uk/news/2024/02/03/glasgow-pothole-capital-of-britain-with-edinburgh-second/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.rNSf9Rmo5NHjZCAwypdYwi&pid=News",
+                        "width": 680,
+                        "height": 426
+                    }
+                },
+                "description": "Across Britain, the Scottish capital Glasgow - run by an SNP -led minority council - had more than 9,700 potholes reported by residents over the past 17 years, less than a third of which have been repaired. Edinburgh has had less than a quarter of the 5,538 reported potholes being filled in since 2007, the data shows.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/da2548ee-1b26-f939-06b4-2fae57e075e7",
+                        "name": "Glasgow"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/286af946-edea-5f33-df53-4164821c69da",
+                        "name": "Edinburgh"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Glasgow"
+                    },
+                    {
+                        "name": "Edinburgh"
+                    },
+                    {
+                        "name": "United Kingdom"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T18:17:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "How Yousaf could mend years-long rift with Forbes",
+                "url": "https://www.thetimes.co.uk/article/how-yousaf-could-mend-years-long-rift-with-forbes-77mcfqkcg",
+                "description": "With Michael Matheson\u2019s days seemingly numbered, a cabinet post may help the party\u2019s two biggest figures to reunite after a bruising week for the SNP",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6d99b564-d527-5061-2ebd-f97730898d38",
+                        "name": "Humza Yousaf"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c225e474-1294-34f1-c00a-48e4d8a83253",
+                        "name": "Forbes"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2e9108b5-aa92-508b-b5ce-232d8640e4fa",
+                        "name": "Rift"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T18:11:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "How the <b>SNP</b>\u2019 \u2018captured\u2019 Scotland\u2019s civil service \u2014 and why it matters",
+                "url": "https://www.thetimes.co.uk/article/how-the-snp-captured-scotlands-civil-service-and-why-it-matters-qj6f57wgh",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.re6xgoK6IlAV4Su-IUXsGy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The Covid inquiry laid bare the failings of the Scottish government during the pandemic \u2014 but the way ministers politicised public servants reveals new depths of arrogance",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f8f841de-7f40-9f0c-c8ad-d32613878dc6",
+                        "name": "Civil service"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T18:00:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Scottish independence activists come together to campaign in Perth",
+                "url": "https://www.thenational.scot/news/24095712.scottish-independence-activists-come-together-campaign-perth/",
+                "description": "SCOTTISH\u00a0independence\u00a0activists from across the movement\u00a0have taken part in one of the first local campaign days of 2024 hosted by Believe",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/86e76e5b-5d61-6f6b-84e2-153552af467a",
+                        "name": "Perth"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b83d549f-1d62-a989-a518-4fdc76be546e",
+                        "name": "Campaign"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T17:54:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Thousands gather in Edinburgh to call for immediate ceasefire in Gaza",
+                "url": "https://www.standard.co.uk/news/politics/israel-edinburgh-scottish-parliament-hamas-rishi-b1136844.html",
+                "description": "Thousands of pro-Palestine supporters gathered in Edinburgh on Saturday in support of an immediate ceasefire in Gaza. Carrying Palestinian flags and placards, they marched from Edinburgh Castle down the Royal Mile to the Scottish Parliament, shouting slogans such as: \u201cNo Justice, No Peace\u201d, and: \u201cCeasefire now!\u201d",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/286af946-edea-5f33-df53-4164821c69da",
+                        "name": "Edinburgh"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90eb9ff6-60ad-da43-d3fe-1ee3e3cb775a",
+                        "name": "Gaza Strip"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Edinburgh"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Gaza Strip"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T17:36:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Why we must recognise Palestine and ensure UK is not complicit in genocide",
+                "url": "https://www.thenational.scot/politics/24095426.must-recognise-palestine-ensure-uk-not-complicit-genocide/",
+                "description": "LAST week, we witnessed another act in the ongoing pantomime of elected members of parliament trying to hold the UK Government to account for",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e05b0b5c-512c-d6c0-73ef-16d00572aab3",
+                        "name": "State of Palestine"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d0ccb1bc-c0b7-4103-82c2-f13dd47e5e79",
+                        "name": "Ensure"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T17:02:00.0000000Z"
+            },
+            {
+                "name": "Consultation to be held on Inverclyde council tax plans",
+                "url": "https://www.greenocktelegraph.co.uk/news/24092863.consultation-held-inverclyde-council-tax-plans/",
+                "description": "Inverclyde residents will have a say on whether the local authority should reject Scottish Government plans to freeze council tax and raise rates",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f32e5a70-74af-4321-4f59-d98bdd74b525",
+                        "name": "Greenock Telegraph"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9439861d-d2ae-6fa7-2e52-f8a3922ad6c6",
+                        "name": "Consultation"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/aa1ed5d6-1d30-f27d-118b-5cba28935ee2",
+                        "name": "Inverclyde"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Greenock Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.paSsdOmqRx7gpSLRTDxy-Q&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T15:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Drivers in Edinburgh set to be banned from major city centre route",
+                "url": "https://www.thescottishsun.co.uk/motors/11908589/edinburgh-lothian-road-cowgate-council-canongate-traffic-ban/",
+                "description": "The plans also include prioritising pedestrians on Victoria Street, Waverley Bridge, Cockburn Street, and Grassmarket. <b>SNP</b> councillors pushed for the experimental closure of both bridge corridors to some or all traffic in 2024. And later this year ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/286af946-edea-5f33-df53-4164821c69da",
+                        "name": "Edinburgh"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/94f2cc12-53ea-f4df-fdac-4eccaceebb6f",
+                        "name": "Major"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Scottish Sun"
+                    }
+                ],
+                "datePublished": "2024-02-03T12:18:00.0000000Z"
+            },
+            {
+                "name": "Delivering new affordable homes is <b>SNP</b> priority, says MSP",
+                "url": "https://www.largsandmillportnews.com/opinion/24081208.delivering-new-affordable-homes-snp-priority-says-msp/",
+                "description": "Delivering new homes has ensured that the annual supply of affordable housing has been the highest in Britain per 10,000 population each year since the SNP took office in 2007. In 2023 alone - at a time of huge financial challenge - 10,582 affordable homes were completed in Scotland, 1,592 of which were high quality council houses.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/242a12e4-fb95-2691-ed01-7d583c7a1333",
+                        "name": "Largs"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a6be10a1-4fe3-cf76-b3ea-7f28dc5fc6b3",
+                        "name": "Millport, Cumbrae"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/af9d7b51-c889-5536-3b3e-a0ead97664ef",
+                        "name": "Delivering"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Largs and Millport Weekly News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.BGIghppHR6ADpVmTMd9tNQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T11:53:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "New-look board announced by Scottish Land Commission",
+                "url": "https://theedinburghreporter.co.uk/2024/02/new-look-board-announced-by-scottish-land-commission/",
+                "description": "Former MSP and SNP President, Michael Russell, has joined the Scottish Land Commission as Chair The Scottish Government announced the appointment of the new Chair and two other new members to the",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/286af946-edea-5f33-df53-4164821c69da",
+                        "name": "Edinburgh"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "the Edinburgh Reporter",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.tbjctWJ8Y7a07KiPCpS-Cw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T11:17:00.0000000Z"
+            },
+            {
+                "name": "parents who refuse to change their children\u2019s sex are in prison",
+                "url": "https://www.thevermilion.com/parents-who-refuse-to-change-their-childrens-sex-are-in-prison/article_2152/",
+                "description": "There Scottish LGBT community he certainly cannot complain about the political class. A few days ago the local government led by the national-progressive independentists of the Scottish National Party (SNP) was the worst in the",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/349f8350-f53d-05b3-5c64-5a0cfd22b5e8",
+                        "name": "Child"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Vermilion",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.sxXBL51nLHvzam5RFKVwng&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T10:47:00.0000000Z"
+            },
+            {
+                "name": "Stunning pictures shows large flock of Waxwings visiting Worcester",
+                "url": "https://uk.news.yahoo.com/stunning-pictures-shows-large-flock-102909854.html",
+                "description": "The pictures photographer Roger Mason took show the birds eating berries in Silverdale Avenue and flying away.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T10:29:00.0000000Z",
+                "category": "ScienceAndTechnology"
+            },
+            {
+                "name": "Moray MSP Richard Lochhead looks ahead in 2024 following another busy year representing the region",
+                "url": "https://www.forres-gazette.co.uk/news/richard-lochhead-looks-ahead-to-18th-year-as-msp-340991/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.SHgi0JNcFyE56c-IRbzVFS&pid=News",
+                        "width": 700,
+                        "height": 481
+                    }
+                },
+                "description": "AFTER 18 years as Moray\u2019s SNP MSP, Richard Lochhead is looking forward to supporting the area\u2019s communities again in 2024. However, despite enjoying the role he took on last year, Scottish Government Minister for Small Business, Innovation, Tourism and Trade, Richard Lochhead confirmed 2023 had been a difficult year.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/19db0510-62f8-fcd0-e6fc-82c8d52a7098",
+                        "name": "Richard Lochhead"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e600d2ae-9242-34ac-477d-105473c4a9f8",
+                        "name": "Moray"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a3f53cee-1aa8-5a06-c517-c971071fb13c",
+                        "name": "Member of the Scottish Parliament"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "forres-gazette.co.uk",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0GdVUa3qErbE5N-tBLUG-A&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T09:00:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "CalMac ferry fares could rise up to 40 per cent for island visitors under Scottish Government review",
+                "url": "https://www.scotsman.com/news/transport/calmac-ferry-fares-could-rise-up-to-40-per-cent-for-island-visitors-under-scottish-government-review-4503889",
+                "description": "Their so-called \u201c road equivalent tariff \u201d (RET) has cut the average fares for cars by an estimated 40 per cent and for passengers by 34 per cent across CalMac\u2019s west coast network since being extended to all its routes in 2015. Coaches are included in the scheme but not lorries or other vehicles more than 6m long.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eadd99b0-70cb-f1d7-2e75-20d64d34cc83",
+                        "name": "Caledonian MacBrayne"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Caledonian MacBrayne"
+                    },
+                    {
+                        "name": "Scottish Government"
+                    },
+                    {
+                        "name": "Palmero cheese"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Scotsman",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.QlHkHD_RALY4hnQHpw7jBw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T08:34:00.0000000Z"
+            },
+            {
+                "name": "Here&#39;s what happened when I investigated the <b>SNP</b> education plan",
+                "url": "https://www.heraldscotland.com/news/24075712.happened-investigated-snp-education-plan/?ref=rss",
+                "description": "Education writer James McEnaney takes you behind the scenes of his attempts to investigate SNP plans for a new Centre for Teaching Excellence.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "heraldscotland",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PjDUWS-WIq7w595SCRQefg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T07:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Readers&#39; Letters: Nothing to see here in Sturgeon&#39;s WhatsApps",
+                "url": "https://www.msn.com/en-gb/news/other/readers-letters-nothing-to-see-here-in-sturgeon-s-whatsapps/ar-BB1hHExF",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.T-LBeYdgISxOYjj64OFMuC&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Well, now we have the truth, the whole truth and nothing but the truth. Nicola Sturgeon was not a member of any WhatsApp groups \u2013 apart from a very small number, the use of which was extremely limited.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40ff83fa-c18c-9216-49aa-77a9d6a5cc28",
+                        "name": "Nicola Sturgeon"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Nicola Sturgeon"
+                    },
+                    {
+                        "name": "Admiralty"
+                    },
+                    {
+                        "name": "McDougall, Ontario"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Scotsman on MSN.com",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.QlHkHD_RALY4hnQHpw7jBw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T07:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Nicola Sturgeon&#39;s behaviour suggests she is a politician who never grew up \u2013 Susan Dalgety",
+                "url": "https://www.msn.com/en-gb/news/other/nicola-sturgeon-s-behaviour-suggests-she-is-a-politician-who-never-grew-up-susan-dalgety/ar-BB1hHpAX",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.bixgyQK5b3ijj6y49Dbv7S&pid=News",
+                        "width": 700,
+                        "height": 450
+                    }
+                },
+                "description": "Screaming matches, bullying, mean girl gangs, lying when caught out, and fear of responsibility are all typical behaviour of an angry, sullen teenager",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Scotsman on MSN.com",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.QlHkHD_RALY4hnQHpw7jBw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T04:55:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>SNP</b> ministers urged to block US tycoon&#39;s golf development on Highland bay amid wildlife fears",
+                "url": "https://www.dailyrecord.co.uk/news/scottish-news/snp-ministers-urged-block-tycoons-32033573",
+                "description": "RSPB Scotland said the Holyrood government should call in the controversial plans to build at Coul Links, Sutherland, on protected coastal dunes.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f69239dd-3b67-d215-27a2-35ca6ac8f072",
+                        "name": "Highland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fb6f4f93-ce23-76a6-98b5-3ab6b5286762",
+                        "name": "Daily Record"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cbe6fa58-dbb8-31d7-586b-5e05a0558419",
+                        "name": "Block"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Highland"
+                    },
+                    {
+                        "name": "Daily Record"
+                    },
+                    {
+                        "name": "Block"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Record",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.B6nvPq26UTBuCaXH6tX71w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T03:30:00.0000000Z"
+            },
+            {
+                "name": "Bannockburn",
+                "url": "https://www.bbc.com/news/topics/cn1mzwgl4gmt?page=6",
+                "description": "Grant Karte, 30, posted five Twitter messages to the QC last month after drinking a bottle of whisky. The operator said it was reviewing its timetable to ease the pressure on staff still working out of its Bannockburn depot.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k3N4DqozNjgK376rAnFmsA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-03T00:49:00.0000000Z"
+            },
+            {
+                "name": "Almost 900 days since Fair Fares Review announced",
+                "url": "https://www.scotlibdems.org.uk/news/article/almost-900-days-since-fair-fares-review-announced",
+                "description": "Scottish Liberal Democrat leader Alex Cole-Hamilton MSP has today criticised the <b>SNP</b>/Green Government for failing to get serious about connectivity and the environment as he revealed that a long-promised review of public transport fares has yet to be ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c8c3a07-0c6a-0cbb-ce69-1e67d001e752",
+                        "name": "Scottish Liberal Democrats"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ff53344a-66ab-70a0-c59b-2838b36ba09a",
+                        "name": "Siege of Leningrad"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "scotlibdems"
+                    }
+                ],
+                "datePublished": "2024-02-03T00:01:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>SNP</b> to urge French group to support bid",
+                "url": "https://www.heraldscotland.com/news/13145150.snp-urge-french-group-support-bid/",
+                "description": "THE <b>SNP</b> will turn on the Gallic charm as it continues its bid to quell international hostility to independence. In a key speech to France&#39;s highly influential Institut Francais des Relations Internationales today, MEP Alyn Smith will contrast his party&#39;s ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c7bfe2de-4f82-e23c-ae42-8544b5b5c0ea",
+                        "name": "France"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "heraldscotland"
+                    }
+                ],
+                "datePublished": "2014-02-11T00:00:00.0000000Z"
+            }
+        ]
+    }
+]
