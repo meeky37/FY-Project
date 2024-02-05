@@ -185,8 +185,6 @@ export default {
           console.error('Error fetching BingEntity:', error)
         })
     }
-
-
   }
 }
 </script>
