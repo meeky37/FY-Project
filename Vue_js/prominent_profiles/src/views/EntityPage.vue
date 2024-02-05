@@ -89,6 +89,7 @@ export default {
     // Fetch BingEntity JSON based on the entity ID from Django backend
     this.fetchBingEntity()
     const viewedProfilesCookie = VueCookie.get('viewedProfiles')
+    // this.setDateRangeFromURL()
 
     if (viewedProfilesCookie === null) {
       // Set the cookie to an empty array if it doesn't exist
@@ -201,7 +202,7 @@ export default {
     },
 
     formatDate (dateString) {
-      // Format the date string as desired
+      // Formats the date string
       const options = { year: 'numeric', month: 'long', day: 'numeric' }
       const date = new Date(dateString)
       return date.toLocaleDateString(undefined, options)
@@ -217,6 +218,19 @@ export default {
       // console.log('updateDateFilter emit triggered in Entity Page!')
       this.dateRange = newDateRange
     },
+
+    // setDateRangeFromURL () {
+    //   const urlParams = new URLSearchParams(window.location.search)
+    //   const lastVisit = urlParams.get('last_visit')
+    //   if (lastVisit) {
+    //     const lastVisitDate = new Date(lastVisit)
+    //     const currentDate = new Date()
+    //     this.dateRange = {
+    //       start: lastVisitDate,
+    //       end: currentDate
+    //     }
+    //   }
+    // },
 
     setOldestArticleDate (newArticleDate, oldArticleDate) {
       console.log(newArticleDate)
