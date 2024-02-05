@@ -50,11 +50,11 @@ onActivated(() => {
   .card {
     position: relative;
     overflow: hidden;
-    margin: 10px auto;
+    margin: 10px;
     border: 1px solid #ddd;
     border-radius: 8px;
     min-height: 20vh;
-    max-width: 95vw;
+    width: auto;
   }
 
   img {
@@ -66,8 +66,8 @@ onActivated(() => {
 
   .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-    column-gap: 0px;
-    row-gap: 0px;
+    grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+    column-gap: 2px;
+    row-gap: 2px;
   }
 </style>
