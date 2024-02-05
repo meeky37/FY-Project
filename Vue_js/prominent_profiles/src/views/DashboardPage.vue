@@ -8,14 +8,15 @@
     <SubProfilesGrid/>
   </div>
 </template>
-
 <script setup>
-import axios from 'axios'
 import { onActivated, onMounted, ref } from 'vue'
+import axios from 'axios'
 import { API_BASE_URL } from '@/config.js'
 import { checkAuthenticationCommon } from '@/auth'
 import VueCookie from 'vue-cookie'
 import SubProfilesGrid from '@/components/SubProfilesGrid.vue'
+
+const userData = ref(null)
 
 const fetchData = async () => {
   try {
@@ -36,15 +37,11 @@ const fetchData = async () => {
   }
 }
 
-const userData = ref(null)
-
-onMounted(async () => {
-  // Fetch user data when the component is mounted
+const refreshData = async () => {
   userData.value = await fetchData()
-})
+}
 
-onActivated(async () => {
-  // Fetch user data when the component is activated to prevent old users name sticking around.
-  userData.value = await fetchData()
-})
+onMounted(refreshData)
+
+onActivated(refreshData)
 </script>
