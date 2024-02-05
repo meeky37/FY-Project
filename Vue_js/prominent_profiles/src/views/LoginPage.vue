@@ -4,6 +4,7 @@
     <h2 class="page-title">Prominent Profiles is Better When You Login</h2>
 
     <div class="form-group">
+      <p v-if="loginErrorMessage" class="validation-message">{{ loginErrorMessage }}</p>
       <label for="emailPhone" class="label">Email / Phone:</label>
       <input type="text"
              id="emailPhone"
@@ -24,7 +25,6 @@
              @keyup.enter="login"/>
     <p v-if="validationMessagePassword" class="validation-message">{{ validationMessagePassword }}</p>
   </div>
-
     <div class="button-group">
       <button class="login-button signup-button"
               @click="signUp" >Sign Up</button>
@@ -49,6 +49,7 @@ export default {
     const validationMessageUser = ref('')
     const validationMessagePassword = ref('')
     const router = useRouter()
+    const loginErrorMessage = ref('')
 
     let validationTimerUser = null
     let validationTimerPassword = null
@@ -69,11 +70,16 @@ export default {
             VueCookies.set('refresh_token', response.data.refresh, { expires: '7d' })
             // Redirect to the dashboard
             router.push('/dashboard')
+            loginErrorMessage.value = ''
             console.log(VueCookies.get('access_token'))
             console.log(VueCookies.get('refresh_token'))
           })
           .catch((error) => {
-            console.error('Login error:', error)
+            if (error.response && error.response.data && error.response.data.detail) {
+              loginErrorMessage.value = error.response.data.detail // Set custom error message
+            } else {
+              loginErrorMessage.value = 'An unexpected error occurred. Please try again later.'
+            }
           })
       } else {
         console.log('Login cannot proceed with improper input.')
@@ -136,6 +142,7 @@ export default {
       validationMessageUser,
       validationMessagePassword,
       focusPasswordInput,
+      loginErrorMessage,
       login,
       signUp
     }
@@ -213,4 +220,17 @@ export default {
   display: flex;
   flex-direction: row;
 }
+
+.validation-message {
+  /* Very light red background for better visibility */
+  color: #f44336;
+  background-color: #ffebee;
+  border: 1px solid #f44336;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  width: 20vw;
+  text-align: center;
+}
+
 </style>
