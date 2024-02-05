@@ -6,7 +6,6 @@
       Headline: <span v-html="Article[0].headline"></span>
     </h2>
     <h2 v-else>Article Not Found</h2>
-
     <!-- Display the image and description (centered) -->
     <div v-if="Article && Article.length > 0 && Article[0]" class="content-container">
       <!-- Box for Article Photo -->
@@ -192,12 +191,12 @@ export default {
 <style scoped>
 .content-container {
   display: flex;
-  justify-content: space-around;
-  margin: 30px;
+  justify-content: center;
+  margin: 0 20px 20px;
 }
 
 .flex-box{
-  margin: 30px;
+  margin: 0 20px 20px;
 }
 
 .article-box {
@@ -207,22 +206,23 @@ export default {
   padding: 10px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin: 30px;
+  margin: 0 20px 20px;
 }
 
 .article-photo img, .entity-photo img {
   max-width: 90%;
-  height: auto;
+  max-height: 25vh;
   border-radius: 8px;
   display: block;
-  margin: 30px auto;
+  margin: auto;
 }
 
 @media screen and (max-width: 1200px) {
   .content-container {
-    display: block;
-    text-align: center;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px 20px;
   }
 }
 </style>
