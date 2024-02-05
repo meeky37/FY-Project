@@ -159,6 +159,7 @@ header {
   justify-content: space-between;
   padding: 5px;
   background:  #30d5c8;
+  border-radius: 10px;
 }
 
 .logo {
