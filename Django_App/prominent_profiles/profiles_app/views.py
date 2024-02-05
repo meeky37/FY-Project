@@ -1,6 +1,9 @@
 from datetime import timedelta
 from django.shortcuts import get_object_or_404
 from django.views import View
+from rest_framework.views import APIView
+from rest_framework_simplejwt.authentication import JWTAuthentication
+
 from .models import Entity, BingEntity, OverallSentiment
 from nlp_processor.models import SimilarArticlePair
 
@@ -52,11 +55,27 @@ class BingEntityMiniView(View):
         return JsonResponse(serialized_entity, safe=False)
 
 
-class OverallSentimentExp(View):
+# TODO EXP and LINEAR could become one function with parameter true/false
+class OverallSentimentExp(APIView):
+    authentication_classes = [JWTAuthentication]
+
     def get(self, request, *args, **kwargs):
         entity_id = kwargs.get('entity_id')
 
+        dashboard = request.GET.get('dashboard', 'false').lower() == 'true'
+        user = request.user
+
+        print(dashboard)
+        print(request.user)
         overall_sentiments = OverallSentiment.objects.filter(entity=entity_id)
+
+        # Apply user-specific filtering if the dashboard flag is true and the user is authenticated
+        if dashboard and user.is_authenticated:
+            last_visit = user.last_visit_excluding_today or timezone.now()
+            overall_sentiments = overall_sentiments.filter(article__publication_date__gt=last_visit)
+        else:
+            last_visit = None
+
         if not overall_sentiments.exists():
             return JsonResponse({'error': 'No OverallSentiment found for the given entity_id'},
                                 status=404)
@@ -88,21 +107,48 @@ class OverallSentimentExp(View):
                     'headline': overall_sentiment.article.headline,
                     'url': overall_sentiment.article.url,
                     'image_url': overall_sentiment.article.image_url,
-                    'publication_date': overall_sentiment.article.publication_date,
+                    'publication_date': overall_sentiment.article.publication_date.isoformat(),
                     'author': overall_sentiment.article.author,
                     'neutral': overall_sentiment.exp_neutral,
                     'positive': overall_sentiment.exp_positive,
-                    'negative': overall_sentiment.exp_negative
+                    'negative': overall_sentiment.exp_negative,
                 }
                 serialized_entities.append(serialized_entity)
-        return JsonResponse(serialized_entities, safe=False)
+        if last_visit is not None:
+            last_visit_str = last_visit.isoformat()
+        else:
+            last_visit_str = None
+
+        '''Construct response_data with the list of serialized_entities and last_visit so we can
+           pass to entity page if a SubProfileCard in Vue is clicked.'''
+        response_data = {
+            'lastVisit': last_visit_str,
+            'data': serialized_entities,
+        }
+
+        return JsonResponse(response_data, safe=False)
 
 
 class OverallSentimentLinear(View):
+    authentication_classes = [JWTAuthentication]
 
     def get(self, request, *args, **kwargs):
         entity_id = kwargs.get('entity_id')
+
+        dashboard = request.GET.get('dashboard', 'false').lower() == 'true'
+        user = request.user
+
+        print(dashboard)
+        print(request.user)
         overall_sentiments = OverallSentiment.objects.filter(entity=entity_id)
+
+        # Apply user-specific filtering if the dashboard flag is true and the user is authenticated
+        if dashboard and user.is_authenticated:
+            last_visit = user.last_visit_excluding_today or timezone.now()
+            overall_sentiments = overall_sentiments.filter(article__publication_date__gt=last_visit)
+        else:
+            last_visit = None
+
         if not overall_sentiments.exists():
             return JsonResponse({'error': 'No OverallSentiment found for the given entity_id'},
                                 status=404)
@@ -123,25 +169,37 @@ class OverallSentimentLinear(View):
             )
         ).values_list('article2_id', flat=True)
 
+        print(has_similar_pair)
+
         serialized_entities = []
         for overall_sentiment in overall_sentiments:
             if overall_sentiment.article.id not in has_similar_pair:
                 serialized_entity = {
-                'id': overall_sentiment.article.id,
-                'entity_id': overall_sentiment.entity.id,
-                'headline': overall_sentiment.article.headline,
-                'url': overall_sentiment.article.url,
-                'image_url': overall_sentiment.article.image_url,
-                'publication_date': overall_sentiment.article.publication_date,
-                'author': overall_sentiment.article.author,
-                'neutral': overall_sentiment.linear_neutral,
-                'positive': overall_sentiment.linear_positive,
-                'negative': overall_sentiment.linear_negative
-            }
+                    'id': overall_sentiment.article.id,
+                    'entity_id': overall_sentiment.entity.id,
+                    'headline': overall_sentiment.article.headline,
+                    'url': overall_sentiment.article.url,
+                    'image_url': overall_sentiment.article.image_url,
+                    'publication_date': overall_sentiment.article.publication_date.isoformat(),
+                    'author': overall_sentiment.article.author,
+                    'neutral': overall_sentiment.linear_neutral,
+                    'positive': overall_sentiment.linear_positive,
+                    'negative': overall_sentiment.linear_negative,
+                }
+                serialized_entities.append(serialized_entity)
+        if last_visit is not None:
+            last_visit_str = last_visit.isoformat()
+        else:
+            last_visit_str = None
 
-            serialized_entities.append(serialized_entity)
+        '''Construct response_data with the list of serialized_entities and last_visit so we can
+           pass to entity page if a SubProfileCard in Vue is clicked.'''
+        response_data = {
+            'lastVisit': last_visit_str,
+            'data': serialized_entities,
+        }
 
-        return JsonResponse(serialized_entities, safe=False)
+        return JsonResponse(response_data, safe=False)
 
 
 class ArticleOverallSentimentExp(View):
