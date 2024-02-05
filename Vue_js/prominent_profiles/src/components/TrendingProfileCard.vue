@@ -8,7 +8,7 @@
           </p>
       <transition-group name="reel" tag="div">
         <p v-if="positiveArticle.length > 0" :key="currentPositiveIndex"
-           v-html="removeBoldTags(positiveArticle[currentPositiveIndex].headline)"
+           v-html="truncateString(removeBoldTags(positiveArticle[currentPositiveIndex].headline))"
            @click="viewArticleDetail(positiveArticle[currentPositiveIndex].id)"
            class="headline">
         </p>
@@ -35,7 +35,7 @@
     </p>
       <transition-group name="reel" tag="div">
         <p v-if="negativeArticle.length > 0" :key="currentNegativeIndex"
-           v-html="removeBoldTags(negativeArticle[currentNegativeIndex].headline)"
+           v-html="truncateString(removeBoldTags(negativeArticle[currentNegativeIndex].headline))"
            @click="viewArticleDetail(negativeArticle[currentNegativeIndex].id)"
            class="headline">
         </p>
@@ -92,7 +92,7 @@ export default {
 
       axios.get(apiUrl)
         .then(response => {
-          const articles = response.data
+          const { data: articles } = response.data
           articles.forEach(article => {
             if (parseFloat(article.positive) > parseFloat(article.neutral) && parseFloat(article.positive) > parseFloat(article.negative)) {
               this.positiveArticle.push(article)
@@ -137,6 +137,13 @@ export default {
 
     removeBoldTags (htmlString) {
       return htmlString.replace(/<b>/g, '').replace(/<\/b>/g, '')
+    },
+
+    truncateString (str, maxLength = 140) {
+      if (str.length > maxLength) {
+        return str.substring(0, maxLength) + '...'
+      }
+      return str
     },
 
     fetchMiniBingEntity,
@@ -303,5 +310,6 @@ export default {
 
   .headline {
     cursor: pointer;
+    font-size: large;
   }
 </style>
