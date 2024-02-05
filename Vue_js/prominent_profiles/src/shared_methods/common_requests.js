@@ -72,16 +72,19 @@ export const getAttributionMessage = function (bingEntity) {
 }
 
 export const redirectToEntityPage = function (lastVisit) {
-  // Standard Use Case
+  // Check if lastVisit is an event object (Not from trending profile card)
+  if (lastVisit instanceof Event) {
+    lastVisit = undefined
+  }
+
   let url = '/entity/' + this.entry.entity_id
   console.log('seen last visit')
   console.log(lastVisit)
-  // Dashboard sub card click has a last visit date to filter the entity page articles by date
+
   if (lastVisit) {
     url += '?last_visit=' + encodeURIComponent(lastVisit)
   }
 
-  // Redirect to the constructed URL
   this.$router.push(url)
 }
 
