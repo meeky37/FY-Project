@@ -1,0 +1,3135 @@
+[
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics",
+        "queryContext": {
+            "originalQuery": "uk politics",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 40,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Fujitsi urged to make \u00a310m \u2018initial contribution\u2019 towards Horizon compensation",
+                "url": "https://www.basingstokegazette.co.uk/news/national/24054580.fujitsi-urged-make-10m-initial-contribution-towards-horizon-compensation/",
+                "description": "Technology giant Fujitsu, which has its <b>UK</b> head office in Bracknell, developed the Horizon system for the Post Office (Andrew Matthews/PA) \u201cAlready too many people whose lives and livelihoods were ruined by this scandal have passed away without ever ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Gazette"
+                    }
+                ],
+                "datePublished": "2024-01-17T00:09:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Met uses undercover \u2018victim\u2019 officers to clamp down on luxury watch thefts",
+                "url": "https://www.leaderlive.co.uk/news/national/24054577.met-uses-undercover-victim-officers-clamp-luxury-watch-thefts/",
+                "description": "Two operations carried out in late 2022 and 2023 saw officers deployed as potential targets wearing expensive watch brands.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d6b585d7-23ca-1807-8370-6723907f8b8e",
+                        "name": "The Met"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e637cc46-4f84-41b7-a9fd-b056757c76c4",
+                        "name": "The Leader"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Leader",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6bgSSP_8hhzQ-AH2Xx0_eQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-17T00:09:00.0000000Z"
+            },
+            {
+                "name": "Medication shortages \u2018impacting upon patient safety\u2019, pharmacy leaders warn",
+                "url": "https://www.eadt.co.uk/news/national/24054576.medication-shortages-impacting-upon-patient-safety-pharmacy-leaders-warn/",
+                "description": "Experts said reasons for shortages are \u2018wide and varying\u2019, but there are calls for the Government to recognise the seriousness of the issue.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/81e4ac08-43fc-64cc-9713-09e42e1ca4c7",
+                        "name": "Patient safety"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "East Anglian Daily Times 24",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CXPjikUm43cC0YgIcs5aaQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-17T00:09:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "Stormont Assembly recalled ahead of devolution deadline",
+                "url": "https://www.bbc.com/news/uk-northern-ireland-67996628",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.4zyvn6TGPEpCmyZyV_Wuhy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The assembly collapsed in early 2022 due to the Democratic Unionist Party&#39;s (DUP) protest over post-Brexit trade rules for Northern Ireland. It has not been able to sit since as the DUP has refused to vote for a Speaker. The recall comes ahead of Thursday&#39;s legal deadline to restore devolution.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fc276817-3034-0116-3770-f900f6d99a28",
+                        "name": "Parliament Buildings"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/06325e6b-0a84-04c2-26d7-a07d7abccdf3",
+                        "name": "Devolution"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k3N4DqozNjgK376rAnFmsA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-17T00:01:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Your three-minute digest",
+                "url": "https://www.thetimes.co.uk/article/your-three-minute-digest-6ldw228w0",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.s-scI848UPpOtjQGjRhc0y&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The IT company behind the Post Office\u2019s faulty computer system has apologised to postmasters and admitted it has a \u201cmoral obligation\u201d to pay Post Office victims compensation. Paul Patterson, the UK",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-17T00:01:00.0000000Z"
+            },
+            {
+                "name": "Tory deputy chairmen resign party roles as government suffers significant rebellion on Rwanda bill",
+                "url": "https://news.sky.com/story/tory-deputy-chairmen-lee-anderson-and-brendan-clarke-smith-resign-after-backing-rwanda-bill-amendments-13049746",
+                "description": "Lee Anderson and Brendan Clarke-Smith stood down from their party roles after they backed proposals to toughen up Rishi Sunak&#39;s controversial Rwanda bill.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Rwanda"
+                    },
+                    {
+                        "name": "Tory"
+                    },
+                    {
+                        "name": "Sky News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Eg62H9DIbo-JYPI6GpAgGA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T23:50:00.0000000Z",
+                "video": {
+                    "name": "Tory rebels defy PM over Rwanda plan",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/a6575c5e-6661-4143-8b62-d1871e5d1bb9/8fae9548-fe93-4970-a031-7a79d4f4_650.mp4",
+                    "thumbnail": {
+                        "width": 204,
+                        "height": 360
+                    }
+                }
+            },
+            {
+                "name": "Man grows hair for three years to make wig for girlfriend with alopecia",
+                "url": "https://www.mirror.co.uk/news/us-news/man-grows-hair-three-years-31898640",
+                "description": "Cody Ennis decided to grow his hair 2 feet long as a gift for his girlfriend, Hannah Hosking, who is bald due to the hair-loss condition",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "Balding"
+                    },
+                    {
+                        "name": "Girlfriend"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T23:30:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "Lee Anderson resigns as deputy Tory chair to rebel over Rwanda bill",
+                "url": "https://www.bbc.co.uk/news/uk-politics-67999810?at_medium=RSS&at_campaign=KARANGA",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ASXRhF5f-qCP3Fw_uZbYai&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Lee Anderson has resigned as deputy Conservative chairman to rebel over the government&#39;s flagship Rwanda bill. Another deputy party chairman, Brendan Clarke-Smith, also resigned ahead of voting against the government. They were among 60 Tory MPs who backed an amendment which rebels said was aimed at toughening up the bill.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c94f2fa6-9853-e53f-af90-7aec244e4382",
+                        "name": "Lee Anderson"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T23:19:00.0000000Z"
+            },
+            {
+                "name": "Scientists reveal best formula for dunking biscuits in tea &amp; coffee \u2013 and how long each should be submerged for",
+                "url": "https://www.thesun.co.uk/news/25377713/scientists-reveal-best-formula-for-dunking-biscuit/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.-R4mX6_anIqmbRFqcQNvqC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "SCIENTISTS have revealed the perfect formula for dunking biscuits \u2013 discovering Rich Tea, Hobnobs and Digestives should be submerged for less than ONE second. Dr Helen Pilcher, who has a PhD in",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/43b71f68-62fb-d9f1-947a-b721e58c64eb",
+                        "name": "Reveal"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0f5bda33-3dbd-e47a-cb49-640867685310",
+                        "name": "Scientist"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a2f36fb6-54c1-3785-f675-1c318f9cddc5",
+                        "name": "Well-formed formula"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mZZguWnkRkVFPCoaQUmKEg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T23:01:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "It happened today \u2013 this day in history \u2013 January 17",
+                "url": "https://www.yellowad.co.uk/it-happened-today-this-day-in-history-january-17-5/",
+                "description": "Pope Gregory XI moves the Papacy back to Rome from Avignon. 1501: Cesare Borgia returns in triumph to Rome",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c9d2e93a-e00d-ea60-5403-8e5ecdd23f58",
+                        "name": "Schedule"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yellow Advertiser"
+                    }
+                ],
+                "datePublished": "2024-01-16T23:01:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Widening Wealth Gap: World&#39;s First Trillionaire Predicted in a Decade as the Poor Gets Poorer",
+                "url": "https://www.ibtimes.co.uk/widening-wealth-gap-worlds-first-trillionaire-predicted-decade-poor-gets-poorer-1722766",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.IkZ_umW3clCYGMMogzMYWS&pid=News",
+                        "width": 700,
+                        "height": 465
+                    }
+                },
+                "description": "The world&#39;s billionaires have collectively become \u00a32.6 trillion richer since 2020, growing their wealth at a rate three times faster than inflation.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ddb7c000-f710-87a0-dfc6-763c39ac30ee",
+                        "name": "World"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d048dd12-ddf2-85b3-b2b4-b56f40607ab0",
+                        "name": "Getae"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c699a6b2-2da6-f3e3-b431-8d808bc4928c",
+                        "name": "Decade"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "IBTimes UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.A4VFXrLFIRNrVa0JPthYgA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T22:36:00.0000000Z"
+            },
+            {
+                "name": "Man sues 27 women for \u00a357m over Facebook reviews calling him &#39;clingy&#39; and &#39;ghoster&#39;",
+                "url": "https://www.mirror.co.uk/news/us-news/man-sues-27-women-57m-31898316",
+                "description": "Nikko D&#39;Ambrosio, 32, is taking legal action against 27 women and demanding $75 million in damages after they wrote some less-than-desirable reviews about him on a Facebook page",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "Religious calling"
+                    },
+                    {
+                        "name": "Currys"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T22:36:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Labour\u2019s Rachel Reeves prepares for pitch to business in Davos",
+                "url": "https://www.ft.com/content/3b2683ed-355d-45fc-a8b1-4d8c36d31f7a",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Mb_6MXx-H8qrQ30zPw33ti&pid=News",
+                        "width": 700,
+                        "height": 394
+                    }
+                },
+                "description": "Shadow chancellor to accuse Tories of presiding over \u201814 years of stagnant growth\u2019 as she courts corporate elite",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/44912ba0-6f05-8470-af62-7b2639fa6d05",
+                        "name": "Rachel Reeves"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5d579a8e-548b-dfb6-3270-b3334b203e81",
+                        "name": "Davos"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Financial Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CdBlognZ1u9nda-gVEOS_w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T22:35:00.0000000Z"
+            },
+            {
+                "name": "Fujitsu challenged to make \u00a310 million \u2018initial contribution\u2019 towards Horizon compensation",
+                "url": "https://www.itv.com/news/2024-01-16/fujitsu-challenged-to-make-10-million-horizon-compensation-contribution",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.7M4Q24qkdaONn0O8J7pRqy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "MP Marion Fellows told\u00a0Fujitsu\u00a0Europe director Paul Patterson the cash would be a \u201csmall step in the right direction\u201d. | ITV National News",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "ITV",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.HlKTyCgM99pRvmITMdZC2w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T22:31:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Brexit and Liz Truss to blame for Britain\u2019s inflation problem, Rachel Reeves says",
+                "url": "https://inews.co.uk/news/politics/brexit-liz-truss-blame-britains-inflation-problem-rachel-reeves-2857967?ico=above_article_ticker",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.5ocwWcpZ5HyyC3ZcLCzgZy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Rishi Sunak claims the cost of living squeeze is coming to an end - but Labour will accuse the Conservatives of making it worse",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T22:30:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Labour\u2019s ambitions not achievable without business, Reeves to tell Davos summit",
+                "url": "https://www.standard.co.uk/business/business-news/labour-s-ambitions-not-achievable-without-business-reeves-to-tell-davos-summit-b1132791.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.vmO9sgnYRI-FUvILU-ytJy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The shadow chancellor will vow to \u2018restore stability\u2019 to the UK economy during her trip to the World Economic Forum in Switzerland.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/44912ba0-6f05-8470-af62-7b2639fa6d05",
+                        "name": "Rachel Reeves"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5d579a8e-548b-dfb6-3270-b3334b203e81",
+                        "name": "Davos"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Rachel Reeves"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Davos"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T22:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>UK</b> Housing Market Set for 3% Rise in 2024 Amidst Economic Resilience",
+                "url": "https://www.ibtimes.co.uk/uk-housing-market-set-3-rise-2024-amidst-economic-resilience-1722740",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ht9mCqpd72Pjn38OsOEQmi&pid=News",
+                        "width": 700,
+                        "height": 395
+                    }
+                },
+                "description": "Anticipation of interest rate cuts by the Bank of England has injected newfound optimism into the property sector.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "IBTimes UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.A4VFXrLFIRNrVa0JPthYgA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T22:27:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Telegraph nominated for 18 Press Awards",
+                "url": "https://www.telegraph.co.uk/news/2024/01/16/telegraph-nominated-18-press-awards/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.D2I7At1TpHOdcGgW0Ijo7C&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "Shortlisted accolades include Specialist Reporter, Website and App and Front Page of the Year for the first day of The Lockdown Files",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/dde235e0-d521-1acc-8512-1c3ca519fcdc",
+                        "name": "The Daily Telegraph"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Daily Telegraph"
+                    },
+                    {
+                        "name": "Award"
+                    },
+                    {
+                        "name": "Nomination"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T22:06:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "US and <b>UK</b> announce biosecurity alliance to counter pandemics and bioterrorism",
+                "url": "https://www.somersetcountygazette.co.uk/news/national/24054544.us-uk-announce-biosecurity-alliance-counter-pandemics-bioterrorism/",
+                "description": "The UK and US have agreed to work together to counter growing biological threats such as pandemics, antimicrobial resistance and bioterrorism. The two nations announced a new strategic dialogue on biosecurity on Tuesday.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d28a6ac7-4b98-a2b6-2e86-52c8ac39c66a",
+                        "name": "Alliance"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Somerset County Gazette",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.waWzSPbN9UCKE_lQi3V8Cg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T22:05:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "DANIEL HANNAN: The Channel boats make a mockery of Britain&#39;s laws and guarantee an election rout. That&#39;s why every Tory who wants to keep their seat must support this bill",
+                "url": "https://www.dailymail.co.uk/debate/article-12971343/DANIEL-HANNAN-Channel-boats-Britains-laws-election-rout-Tory-support-bill.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.if2QHpxR2IzLOlKyA_ApLS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Conservative MPs are staring down the barrel of a gun. Unless voters get to see illegal migrants being marched off planes in Rwanda before poll-ing day, they face electoral annihilation.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5493b50d-3b9a-e57f-59ee-b0f3b7ea8b57",
+                        "name": "English Channel"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "English Channel"
+                    },
+                    {
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "name": "Tory"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T21:58:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Newcastle chairman set to be hit with \u00a359m lawsuit amid accusations of \u2018malicious\u2019 campaign to \u2018destroy\u2019 Saudi spy chief",
+                "url": "https://www.thesun.co.uk/sport/25387684/newcastle-chairman-yasir-al-rumayyan-lawsuit/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.BAeD0qS211O28SNHQTvpNS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "NEWCASTLE chairman Yasir Al-Rumayyan is set to be hit by a \u00a359million lawsuit after being accused of orchestrating a \u201cmalicious\u201d campaign against a dissident former Saudi spy chief. Former",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/672bc136-22f9-3750-0459-2fbd2340f892",
+                        "name": "Saudi Arabia"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mZZguWnkRkVFPCoaQUmKEg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T21:43:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Covid inquiry to offer advice on handling \u2018future disaster\u2019 better",
+                "url": "https://news.stv.tv/politics/covid-inquiry-to-offer-advice-on-handling-future-disaster-better-counsel",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.umZXjYOPTo6rd5v-sn0lky&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The UK Covid-19 Inquiry will offer the government recommendations on \u201chow any such future disaster might be handled better\u201d, a counsel to the inquiry has said.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/92d09a68-306e-0774-fa19-09c35bb93b91",
+                        "name": "STV News at Six"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/52c83b9a-1675-2542-74af-b3397db6679a",
+                        "name": "Advice"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5b586384-c3eb-8768-9a0a-b4d6e660ddc5",
+                        "name": "Newton hearing"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "news.stv",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CZWPk4et8WgNjtL6sI0C_g&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T21:32:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Labour will restore <b>UK</b>\u2019s reputation for business, Rachel Reeves to tell Davos",
+                "url": "https://www.theguardian.com/politics/2024/jan/16/labour-will-restore-uks-reputation-for-business-rachel-reeves-to-tell-davos?ref=biztoc.com",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.eeWMhQQ99eWpJWUaDqL4qy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Shadow chancellor will say party has put private sector investment at heart of growth strategy, at JP Morgan breakfast meeting",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/44912ba0-6f05-8470-af62-7b2639fa6d05",
+                        "name": "Rachel Reeves"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5d579a8e-548b-dfb6-3270-b3334b203e81",
+                        "name": "Davos"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Rachel Reeves"
+                    },
+                    {
+                        "name": "Davos"
+                    },
+                    {
+                        "name": "United Kingdom"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T21:30:00.0000000Z"
+            },
+            {
+                "name": "DUP amendment to Rwanda Bill seeks to put <b>UK</b> law ahead of EU\u2019s in Northern Ireland",
+                "url": "https://www.belfasttelegraph.co.uk/news/northern-ireland/dup-amendment-to-rwanda-bill-seeks-to-put-uk-law-ahead-of-eus-in-northern-ireland/a954914452.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.iI2jCFBtYiq1ELvKe6iP-C&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The DUP is due to put forward an amendment to Rishi Sunak\u2019s controversial \u2018Rwanda Bill\u2019 today to ensure the law applies in Northern Ireland.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b784c78f-22e4-44ec-2fb5-9ce5be2bfcd6",
+                        "name": "Bill Cash"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4b8bc44-385c-e87b-bb7d-b32328f53502",
+                        "name": "Northern Ireland"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Belfast Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.KbCSMEkTE1gbQLCbNWqCnw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T21:25:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Ukraine: Volodymyr Zelenskyy brushes off funding fears if Donald Trump wins US presidential election",
+                "url": "https://news.sky.com/story/ukraine-volodymyr-zelenskyy-brushes-off-funding-fears-if-donald-trump-wins-us-presidential-election-13049810",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.u4niZ_NRdChZbHE0M-nTHC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Speaking at the World Economic Forum&#39;s annual meeting in Davos, Volodymyr Zelenskyy said Ukraine needs outside support, but did not express concern at the idea of Donald Trump returning to the White House.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1a466af2-ed23-25bd-794d-1ca925e4681b",
+                        "name": "Donald Trump"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ad599477-9e6d-4a0e-bab5-0edf9db7115a",
+                        "name": "Ukraine"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/bee0adb8-af8c-8f45-be27-015e5625655f",
+                        "name": "Brush"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Donald Trump"
+                    },
+                    {
+                        "name": "Ukraine"
+                    },
+                    {
+                        "name": "Brush"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Eg62H9DIbo-JYPI6GpAgGA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T21:18:00.0000000Z",
+                "video": {
+                    "name": "Donald Trump easily wins Iowa",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/a4a1a01a-f67e-447e-9628-43900d2fc076/3a4d1277-4776-4aa2-91c6-dead049c_650.mp4",
+                    "thumbnail": {
+                        "width": 640,
+                        "height": 360
+                    }
+                }
+            },
+            {
+                "name": "Jamie Lee Curtis, 65, is stylish in plum pantsuit while promoting children&#39;s book in NYC... as she reveals her approach to growing old gracefully",
+                "url": "https://www.dailymail.co.uk/tvshowbiz/article-12971123/Jamie-Lee-Curtis-dons-purple-pantsuit-promoting-childrens-book.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.DQBDoWhn_pTrEuPC26KhYy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Jamie Lee Curtis looked sophisticated wearing a plum pantsuit and nude heels while promoting her 20th children&#39;s book in Midtown Manhattan on Tuesday. Hairstylist Sean James coiffed the 65-year-old Oscar winner&#39;s signature silver pixie cut and make-up artist Grace Ahn made sure she was camera ready for her press tour.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5100be0f-4e5d-ffd1-8eb2-f304edc828d5",
+                        "name": "Jamie Lee Curtis"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/60d5dc2b-c915-460b-b722-c9e3485499ca",
+                        "name": "New York City"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/64f54a44-cc6c-8fd0-4ad9-3e16c92ce3be",
+                        "name": "Children&#39;s literature"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T21:17:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Fujitsu boss says his &#39;gut feel&#39; is staff knew of Horizon problems, as he apologises for scandal",
+                "url": "https://www.itv.com/news/2024-01-16/post-office-and-fujitsu-bosses-face-grilling-by-mps-on-horizon-scandal",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.STWnPomdQ7ZMCcBXA6uT7i&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The European boss of Fujitsu has told MPs that his &quot;gut feeling&quot; is staff in the company knew of errors in the Horizon system. | ITV National News",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "ITV",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.HlKTyCgM99pRvmITMdZC2w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T21:13:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Robert Peston: \u2018British exceptionalism today is a pernicious idea\u2019",
+                "url": "https://www.varsity.co.uk/interviews/26811",
+                "description": "Ella McCartney speaks to Robert Peston about journalism, geopolitics, and his \u2018middle-aged dad\u2019 rock cover band",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/34c06287-a52c-0e4b-342d-88e146302b39",
+                        "name": "Varsity"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cbe5ebea-4ee5-35e2-4158-ae1aab6d8a46",
+                        "name": "Exceptionalism"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Varsity",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.cbWlLf82y7xAyfkaacOXUw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T21:12:00.0000000Z"
+            },
+            {
+                "name": "Lee Anderson and Brendan Clarke-Smith resign over Rwanda vote",
+                "url": "https://www.bbc.com/news/live/uk-politics-67998491?src_origin=BBCS_BBC?bingParse",
+                "description": "Lee Anderson and Brendan Clarke-Smith have written to Rishi Sunak to explain their decision to resign from their roles as deputy chairmen of the Conservative Party in order to be able to support backbench amendments to the government&#39;s Rwanda Bill.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/95642aa0-a5ab-ec36-92ad-35f5a86fbca1",
+                        "name": "Brendan Clarke"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c94f2fa6-9853-e53f-af90-7aec244e4382",
+                        "name": "Lee Anderson"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k3N4DqozNjgK376rAnFmsA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T21:02:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Test Valley Borough Council release countryside event guides",
+                "url": "https://www.andoveradvertiser.co.uk/news/24052427.test-valley-borough-council-release-countryside-event-guides/",
+                "description": "Test Valley Borough Council\u2019s guides to events and activities taking place in nature reserves and open spaces across the region are now available.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/05cf3b63-3693-d1af-fbce-41f99eebca0c",
+                        "name": "Andover"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d4b4bd82-616c-5cdc-abec-edfa876c8bbc",
+                        "name": "Test Valley"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1577e8ad-9d29-6932-a12a-959a5f57a8a8",
+                        "name": "Borough"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Andover Advertiser",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.9HBvLtaNrUh8B9TIacJccw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T21:00:00.0000000Z"
+            },
+            {
+                "name": "Disaster for Rishi Sunak as pollster warns Tories are &#39;haemorrhaging&#39; votes to Reform <b>UK</b>",
+                "url": "https://www.express.co.uk/news/politics/1856484/rishi-sunak-rwanda-bill-reform-uk-election",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.I5x-9Pw48KAGe0-DSn5NYC&pid=News",
+                        "width": 700,
+                        "height": 415
+                    }
+                },
+                "description": "If Mr Sunak fails to get his legislation through the Commons on Wednesday he will look &quot;weak and lacking control over his own party&quot;, Chris Hopkins says.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9d6ba8f3-006f-5805-9895-7ef1a8afce78",
+                        "name": "Disaster Film"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Disaster Film"
+                    },
+                    {
+                        "name": "Conservative Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T20:45:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "General election: Labour would need record swing to win",
+                "url": "https://www.bbc.co.uk/news/uk-politics-67361138?at_bbc_team=editorial&at_link_origin=BBC_Politics&at_campaign=Social_Flow&at_medium=social&at_link_id=15CCDE6C-B451-11EE-BA95-D1F554826ABF&at_ptr_name=facebook_page&at_format=link&at_campaign_type=owned&at_link_type=web_link",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.P3eI5LVzzsxnzomW0Rc3Si&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "But a uniform national swing has been a reliable model for general elections in the <b>UK</b> over a long period of time. Changes to the <b>political</b> map ahead of the next general election mean constituencies will be new or different from the last general election ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC"
+                    }
+                ],
+                "datePublished": "2024-01-16T20:38:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Politics</b>: A helping hand is available so check your eligibility for benefits",
+                "url": "https://www.grampianonline.co.uk/news/politics-a-helping-hand-is-available-so-check-your-eligibil-339045/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Hib1QqzuCJiv0Eu0DqJwDS&pid=News",
+                        "width": 700,
+                        "height": 481
+                    }
+                },
+                "description": "In her latest column, MSP Gillian Martin discusses the post office scandal and how to access benefits even if you are in work.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ee01bca6-d3c5-ed13-5cd3-e3d1cd0ef7e8",
+                        "name": "Helping hand"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "grampianonline",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.TRteebnD1FT5BpcrlQL8ww&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T18:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "TikTok turns feral over hot Houthi pirate: \u2018He can board my ship anytime\u2019",
+                "url": "https://metro.co.uk/2024/01/16/tiktok-turns-feral-hot-houthi-pirate-20123795/?ico=trending-module_tag_israel-hamas-war_item-1",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT._-bvxL6v_LZMnAeqgGx1FC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The <b>UK</b> and US on Thursday launched a barrage of airstrikes on ... Yemen\u2019, with some comparing him to Misfits actor Robert Sheehan. The Houthi movement is a <b>political</b> and military group that follows a minority strand of Islam called Zaydism.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Metro"
+                    }
+                ],
+                "datePublished": "2024-01-16T16:59:00.0000000Z"
+            },
+            {
+                "name": "<b>UK</b> elections: Britons living abroad regain right to vote as 15-year rule ends",
+                "url": "https://www.standard.co.uk/news/politics/uk-elections-brits-overseas-abroad-voting-rules-register-b1132654.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.8loC7bB6d-NHt6__gMdpEy&pid=News",
+                        "width": 700,
+                        "height": 448
+                    }
+                },
+                "description": "Many more Britons can now vote in the next general election, the date of which has yet to be decided by Prime Minister Rishi Sunak",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c40a3cbe-bc9a-82dd-956f-2f0f75d5af46",
+                        "name": "Elections in the United Kingdom"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Elections in the United Kingdom"
+                    },
+                    {
+                        "name": "British people"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T16:24:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Political</b> parties using your data in their campaigns not always a threat to democracy",
+                "url": "https://www.sheffield.ac.uk/news/political-parties-using-your-data-their-campaigns-not-always-threat-democracy",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Uz7T1d7OkpmnFf6SjVBv2C&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "New insights into how political parties use personal data in their election campaigns are provided in a new book published by the University of Sheffield\u2019s Kate Dommett, a professor of digital politics,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8499affc-4a90-0928-2cd5-82d7a85f75d1",
+                        "name": "University of Sheffield"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4b27b0bc-733a-a18c-d33a-b08e5c0d50bf",
+                        "name": "Democracy"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "University of Sheffield",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.YfzBkNG_amwrVtorooEVaA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T10:50:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Britain has little money left \u2013 and it needs politicians who are honest about that",
+                "url": "https://www.cityam.com/britain-has-little-money-left-and-it-needs-politicians-who-are-honest-about-that/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.OGNk672boMsZ5mp2I1rSpy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "It may not be an easy vote winner, but Britain needs politicians who are honest about our fiscal reality, writes Adam Hawksbee.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "name": "Relative direction"
+                    },
+                    {
+                        "name": "Politician"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "City A.M.",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.WK13L95Ci2T09_VP-OSs8g&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T04:20:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>UK</b>&#39;s Sunak battles rebels over Rwanda migrant law",
+                "url": "https://www.modernghana.com/news/1285963/uks-sunak-battles-rebels-over-rwanda-migrant.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.0fFr47K3bkw6jpcPz3aOZi&pid=News",
+                        "width": 512,
+                        "height": 341
+                    }
+                },
+                "description": "<b>UK</b> leader Rishi Sunak fought to quell growing dissent within ... The Conservative prime minister has staked his <b>political</b> future on slashing record levels of regular migration and stopping asylum seekers crossing from France to Britain in small boats.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "modernghana.com"
+                    }
+                ],
+                "datePublished": "2024-01-16T00:00:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Defending Britain from a more dangerous world",
+                "url": "https://www.gov.uk/government/speeches/defending-britain-from-a-more-dangerous-world",
+                "description": "We use some essential cookies to make this website work. We\u2019d like to set additional cookies to understand how you use GOV.<b>UK</b>, remember your settings and improve government services. We also use cookies set by other sites to help us deliver content from ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Department of Health"
+                    }
+                ],
+                "datePublished": "2024-01-15T00:00:00.0000000Z",
+                "category": "ScienceAndTechnology"
+            },
+            {
+                "name": "Humza Yousaf&#39;s brother-in-law charged with drug offences in Dundee",
+                "url": "https://www.dailyrecord.co.uk/news/politics/humza-yousafs-brother-law-charged-31877686?int_source=nba",
+                "description": "It comes just days after Nadia, from Dundee, appealed to the <b>UK</b> Government to be allowed to host her other ... To sign up to the Daily Record <b>Politics</b> newsletter, clickhere.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6d99b564-d527-5061-2ebd-f97730898d38",
+                        "name": "Humza Yousaf"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/26e6ea64-8197-1c44-a767-91d93e3e7e60",
+                        "name": "Dundee"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Record"
+                    }
+                ],
+                "datePublished": "2024-01-14T00:00:00.0000000Z"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics",
+        "queryContext": {
+            "originalQuery": "uk politics",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 153,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Fujitsi urged to make \u00a310m \u2018initial contribution\u2019 towards Horizon compensation",
+                "url": "https://www.basingstokegazette.co.uk/news/national/24054580.fujitsi-urged-make-10m-initial-contribution-towards-horizon-compensation/",
+                "description": "Technology giant Fujitsu, which has its <b>UK</b> head office in Bracknell, developed the Horizon system for the Post Office (Andrew Matthews/PA) \u201cAlready too many people whose lives and livelihoods were ruined by this scandal have passed away without ever ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Gazette"
+                    }
+                ],
+                "datePublished": "2024-01-17T00:09:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Met uses undercover \u2018victim\u2019 officers to clamp down on luxury watch thefts",
+                "url": "https://www.leaderlive.co.uk/news/national/24054577.met-uses-undercover-victim-officers-clamp-luxury-watch-thefts/",
+                "description": "Two operations carried out in late 2022 and 2023 saw officers deployed as potential targets wearing expensive watch brands.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d6b585d7-23ca-1807-8370-6723907f8b8e",
+                        "name": "The Met"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e637cc46-4f84-41b7-a9fd-b056757c76c4",
+                        "name": "The Leader"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Leader",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6bgSSP_8hhzQ-AH2Xx0_eQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-17T00:09:00.0000000Z"
+            },
+            {
+                "name": "Medication shortages \u2018impacting upon patient safety\u2019, pharmacy leaders warn",
+                "url": "https://www.eadt.co.uk/news/national/24054576.medication-shortages-impacting-upon-patient-safety-pharmacy-leaders-warn/",
+                "description": "Experts said reasons for shortages are \u2018wide and varying\u2019, but there are calls for the Government to recognise the seriousness of the issue.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/81e4ac08-43fc-64cc-9713-09e42e1ca4c7",
+                        "name": "Patient safety"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "East Anglian Daily Times 24",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CXPjikUm43cC0YgIcs5aaQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-17T00:09:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "Stormont Assembly recalled ahead of devolution deadline",
+                "url": "https://www.bbc.com/news/uk-northern-ireland-67996628",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.4zyvn6TGPEpCmyZyV_Wuhy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The assembly collapsed in early 2022 due to the Democratic Unionist Party&#39;s (DUP) protest over post-Brexit trade rules for Northern Ireland. It has not been able to sit since as the DUP has refused to vote for a Speaker. The recall comes ahead of Thursday&#39;s legal deadline to restore devolution.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fc276817-3034-0116-3770-f900f6d99a28",
+                        "name": "Parliament Buildings"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/06325e6b-0a84-04c2-26d7-a07d7abccdf3",
+                        "name": "Devolution"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k3N4DqozNjgK376rAnFmsA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-17T00:01:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "\u2018Contradictory\u2019 and \u2018Self-Defeating\u2019: MPs Slam Government for Building New Houses in High-Flood Risk Areas",
+                "url": "https://bylinetimes.com/2024/01/17/contradictory-and-self-defeating-mps-slam-government-for-building-new-houses-in-high-flood-risk-areas/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.r739DIXA1CSH_xiYSFhz1y&pid=News",
+                        "width": 600,
+                        "height": 314
+                    }
+                },
+                "description": "The Government\u2019s plans to tackle the growing problems of flooding \u2013 particularly in rural areas \u2013 are \u201ca drop in the ocean\u201d, according to a new parliamentary report. The House of Commons\u2019 Public Accounts Committee is highly critical of the ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/00787750-58a1-29fa-2b6c-c0d0e817e2aa",
+                        "name": "Flood"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9bf19370-4ab8-455b-5ed3-162daf46cac5",
+                        "name": "Risk"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a1677bd5-9ddc-55e0-e9ff-aaffba403a69",
+                        "name": "Building"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "bylinetimes"
+                    }
+                ],
+                "datePublished": "2024-01-17T00:01:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Your three-minute digest",
+                "url": "https://www.thetimes.co.uk/article/your-three-minute-digest-6ldw228w0",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.s-scI848UPpOtjQGjRhc0y&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The IT company behind the Post Office\u2019s faulty computer system has apologised to postmasters and admitted it has a \u201cmoral obligation\u201d to pay Post Office victims compensation. Paul Patterson, the UK",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-17T00:01:00.0000000Z"
+            },
+            {
+                "name": "Tory deputy chairmen resign party roles as government suffers significant rebellion on Rwanda bill",
+                "url": "https://news.sky.com/story/tory-deputy-chairmen-lee-anderson-and-brendan-clarke-smith-resign-after-backing-rwanda-bill-amendments-13049746",
+                "description": "Lee Anderson and Brendan Clarke-Smith stood down from their party roles after they backed proposals to toughen up Rishi Sunak&#39;s controversial Rwanda bill.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Rwanda"
+                    },
+                    {
+                        "name": "Tory"
+                    },
+                    {
+                        "name": "Sky News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Eg62H9DIbo-JYPI6GpAgGA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T23:50:00.0000000Z",
+                "video": {
+                    "name": "Tory rebels defy PM over Rwanda plan",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/a6575c5e-6661-4143-8b62-d1871e5d1bb9/8fae9548-fe93-4970-a031-7a79d4f4_650.mp4",
+                    "thumbnail": {
+                        "width": 204,
+                        "height": 360
+                    }
+                }
+            },
+            {
+                "name": "Man grows hair for three years to make wig for girlfriend with alopecia",
+                "url": "https://www.mirror.co.uk/news/us-news/man-grows-hair-three-years-31898640",
+                "description": "Cody Ennis decided to grow his hair 2 feet long as a gift for his girlfriend, Hannah Hosking, who is bald due to the hair-loss condition",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "Balding"
+                    },
+                    {
+                        "name": "Girlfriend"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T23:30:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "Lee Anderson resigns as deputy Tory chair to rebel over Rwanda bill",
+                "url": "https://www.bbc.co.uk/news/uk-politics-67999810?at_medium=RSS&at_campaign=KARANGA",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ASXRhF5f-qCP3Fw_uZbYai&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Lee Anderson has resigned as deputy Conservative chairman to rebel over the government&#39;s flagship Rwanda bill. Another deputy party chairman, Brendan Clarke-Smith, also resigned ahead of voting against the government. They were among 60 Tory MPs who backed an amendment which rebels said was aimed at toughening up the bill.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c94f2fa6-9853-e53f-af90-7aec244e4382",
+                        "name": "Lee Anderson"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T23:19:00.0000000Z"
+            },
+            {
+                "name": "Scientists reveal best formula for dunking biscuits in tea &amp; coffee \u2013 and how long each should be submerged for",
+                "url": "https://www.thesun.co.uk/news/25377713/scientists-reveal-best-formula-for-dunking-biscuit/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.-R4mX6_anIqmbRFqcQNvqC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "SCIENTISTS have revealed the perfect formula for dunking biscuits \u2013 discovering Rich Tea, Hobnobs and Digestives should be submerged for less than ONE second. Dr Helen Pilcher, who has a PhD in",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/43b71f68-62fb-d9f1-947a-b721e58c64eb",
+                        "name": "Reveal"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0f5bda33-3dbd-e47a-cb49-640867685310",
+                        "name": "Scientist"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a2f36fb6-54c1-3785-f675-1c318f9cddc5",
+                        "name": "Well-formed formula"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mZZguWnkRkVFPCoaQUmKEg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T23:01:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "It happened today \u2013 this day in history \u2013 January 17",
+                "url": "https://www.yellowad.co.uk/it-happened-today-this-day-in-history-january-17-5/",
+                "description": "Pope Gregory XI moves the Papacy back to Rome from Avignon. 1501: Cesare Borgia returns in triumph to Rome",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c9d2e93a-e00d-ea60-5403-8e5ecdd23f58",
+                        "name": "Schedule"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yellow Advertiser"
+                    }
+                ],
+                "datePublished": "2024-01-16T23:01:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Widening Wealth Gap: World&#39;s First Trillionaire Predicted in a Decade as the Poor Gets Poorer",
+                "url": "https://www.ibtimes.co.uk/widening-wealth-gap-worlds-first-trillionaire-predicted-decade-poor-gets-poorer-1722766",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.IkZ_umW3clCYGMMogzMYWS&pid=News",
+                        "width": 700,
+                        "height": 465
+                    }
+                },
+                "description": "The world&#39;s billionaires have collectively become \u00a32.6 trillion richer since 2020, growing their wealth at a rate three times faster than inflation.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ddb7c000-f710-87a0-dfc6-763c39ac30ee",
+                        "name": "World"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d048dd12-ddf2-85b3-b2b4-b56f40607ab0",
+                        "name": "Getae"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c699a6b2-2da6-f3e3-b431-8d808bc4928c",
+                        "name": "Decade"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "IBTimes UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.A4VFXrLFIRNrVa0JPthYgA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T22:36:00.0000000Z"
+            },
+            {
+                "name": "Man sues 27 women for \u00a357m over Facebook reviews calling him &#39;clingy&#39; and &#39;ghoster&#39;",
+                "url": "https://www.mirror.co.uk/news/us-news/man-sues-27-women-57m-31898316",
+                "description": "Nikko D&#39;Ambrosio, 32, is taking legal action against 27 women and demanding $75 million in damages after they wrote some less-than-desirable reviews about him on a Facebook page",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "Religious calling"
+                    },
+                    {
+                        "name": "Currys"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T22:36:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Labour\u2019s Rachel Reeves prepares for pitch to business in Davos",
+                "url": "https://www.ft.com/content/3b2683ed-355d-45fc-a8b1-4d8c36d31f7a",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Mb_6MXx-H8qrQ30zPw33ti&pid=News",
+                        "width": 700,
+                        "height": 394
+                    }
+                },
+                "description": "Shadow chancellor to accuse Tories of presiding over \u201814 years of stagnant growth\u2019 as she courts corporate elite",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/44912ba0-6f05-8470-af62-7b2639fa6d05",
+                        "name": "Rachel Reeves"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5d579a8e-548b-dfb6-3270-b3334b203e81",
+                        "name": "Davos"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Financial Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CdBlognZ1u9nda-gVEOS_w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T22:35:00.0000000Z"
+            },
+            {
+                "name": "Fujitsu challenged to make \u00a310 million \u2018initial contribution\u2019 towards Horizon compensation",
+                "url": "https://www.itv.com/news/2024-01-16/fujitsu-challenged-to-make-10-million-horizon-compensation-contribution",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.7M4Q24qkdaONn0O8J7pRqy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "MP Marion Fellows told\u00a0Fujitsu\u00a0Europe director Paul Patterson the cash would be a \u201csmall step in the right direction\u201d. | ITV National News",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "ITV",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.HlKTyCgM99pRvmITMdZC2w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T22:31:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Brexit and Liz Truss to blame for Britain\u2019s inflation problem, Rachel Reeves says",
+                "url": "https://inews.co.uk/news/politics/brexit-liz-truss-blame-britains-inflation-problem-rachel-reeves-2857967?ico=above_article_ticker",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.5ocwWcpZ5HyyC3ZcLCzgZy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Rishi Sunak claims the cost of living squeeze is coming to an end - but Labour will accuse the Conservatives of making it worse",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T22:30:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "<b>UK</b> Housing Market Set for 3% Rise in 2024 Amidst Economic Resilience",
+                "url": "https://www.ibtimes.co.uk/uk-housing-market-set-3-rise-2024-amidst-economic-resilience-1722740",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ht9mCqpd72Pjn38OsOEQmi&pid=News",
+                        "width": 700,
+                        "height": 395
+                    }
+                },
+                "description": "Anticipation of interest rate cuts by the Bank of England has injected newfound optimism into the property sector.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "IBTimes UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.A4VFXrLFIRNrVa0JPthYgA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T22:27:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Telegraph nominated for 18 Press Awards",
+                "url": "https://www.telegraph.co.uk/news/2024/01/16/telegraph-nominated-18-press-awards/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.D2I7At1TpHOdcGgW0Ijo7C&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "Shortlisted accolades include Specialist Reporter, Website and App and Front Page of the Year for the first day of The Lockdown Files",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/dde235e0-d521-1acc-8512-1c3ca519fcdc",
+                        "name": "The Daily Telegraph"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Daily Telegraph"
+                    },
+                    {
+                        "name": "Award"
+                    },
+                    {
+                        "name": "Nomination"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T22:06:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "US and <b>UK</b> announce biosecurity alliance to counter pandemics and bioterrorism",
+                "url": "https://www.somersetcountygazette.co.uk/news/national/24054544.us-uk-announce-biosecurity-alliance-counter-pandemics-bioterrorism/",
+                "description": "The UK and US have agreed to work together to counter growing biological threats such as pandemics, antimicrobial resistance and bioterrorism. The two nations announced a new strategic dialogue on biosecurity on Tuesday.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d28a6ac7-4b98-a2b6-2e86-52c8ac39c66a",
+                        "name": "Alliance"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Somerset County Gazette",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.waWzSPbN9UCKE_lQi3V8Cg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T22:05:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "DANIEL HANNAN: The Channel boats make a mockery of Britain&#39;s laws and guarantee an election rout. That&#39;s why every Tory who wants to keep their seat must support this bill",
+                "url": "https://www.dailymail.co.uk/debate/article-12971343/DANIEL-HANNAN-Channel-boats-Britains-laws-election-rout-Tory-support-bill.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.if2QHpxR2IzLOlKyA_ApLS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Conservative MPs are staring down the barrel of a gun. Unless voters get to see illegal migrants being marched off planes in Rwanda before poll-ing day, they face electoral annihilation.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5493b50d-3b9a-e57f-59ee-b0f3b7ea8b57",
+                        "name": "English Channel"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "English Channel"
+                    },
+                    {
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "name": "Tory"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T21:58:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Newcastle chairman set to be hit with \u00a359m lawsuit amid accusations of \u2018malicious\u2019 campaign to \u2018destroy\u2019 Saudi spy chief",
+                "url": "https://www.thesun.co.uk/sport/25387684/newcastle-chairman-yasir-al-rumayyan-lawsuit/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.BAeD0qS211O28SNHQTvpNS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "NEWCASTLE chairman Yasir Al-Rumayyan is set to be hit by a \u00a359million lawsuit after being accused of orchestrating a \u201cmalicious\u201d campaign against a dissident former Saudi spy chief. Former",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/672bc136-22f9-3750-0459-2fbd2340f892",
+                        "name": "Saudi Arabia"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mZZguWnkRkVFPCoaQUmKEg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T21:43:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Covid inquiry to offer advice on handling \u2018future disaster\u2019 better",
+                "url": "https://news.stv.tv/politics/covid-inquiry-to-offer-advice-on-handling-future-disaster-better-counsel",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.umZXjYOPTo6rd5v-sn0lky&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The UK Covid-19 Inquiry will offer the government recommendations on \u201chow any such future disaster might be handled better\u201d, a counsel to the inquiry has said.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/92d09a68-306e-0774-fa19-09c35bb93b91",
+                        "name": "STV News at Six"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/52c83b9a-1675-2542-74af-b3397db6679a",
+                        "name": "Advice"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5b586384-c3eb-8768-9a0a-b4d6e660ddc5",
+                        "name": "Newton hearing"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "news.stv",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CZWPk4et8WgNjtL6sI0C_g&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T21:32:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "DUP amendment to Rwanda Bill seeks to put <b>UK</b> law ahead of EU\u2019s in Northern Ireland",
+                "url": "https://www.belfasttelegraph.co.uk/news/northern-ireland/dup-amendment-to-rwanda-bill-seeks-to-put-uk-law-ahead-of-eus-in-northern-ireland/a954914452.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.iI2jCFBtYiq1ELvKe6iP-C&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The DUP is due to put forward an amendment to Rishi Sunak\u2019s controversial \u2018Rwanda Bill\u2019 today to ensure the law applies in Northern Ireland.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b784c78f-22e4-44ec-2fb5-9ce5be2bfcd6",
+                        "name": "Bill Cash"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4b8bc44-385c-e87b-bb7d-b32328f53502",
+                        "name": "Northern Ireland"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Belfast Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.KbCSMEkTE1gbQLCbNWqCnw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T21:25:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Ukraine: Volodymyr Zelenskyy brushes off funding fears if Donald Trump wins US presidential election",
+                "url": "https://news.sky.com/story/ukraine-volodymyr-zelenskyy-brushes-off-funding-fears-if-donald-trump-wins-us-presidential-election-13049810",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.u4niZ_NRdChZbHE0M-nTHC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Speaking at the World Economic Forum&#39;s annual meeting in Davos, Volodymyr Zelenskyy said Ukraine needs outside support, but did not express concern at the idea of Donald Trump returning to the White House.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1a466af2-ed23-25bd-794d-1ca925e4681b",
+                        "name": "Donald Trump"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ad599477-9e6d-4a0e-bab5-0edf9db7115a",
+                        "name": "Ukraine"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/bee0adb8-af8c-8f45-be27-015e5625655f",
+                        "name": "Brush"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Donald Trump"
+                    },
+                    {
+                        "name": "Ukraine"
+                    },
+                    {
+                        "name": "Brush"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Eg62H9DIbo-JYPI6GpAgGA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T21:18:00.0000000Z",
+                "video": {
+                    "name": "Donald Trump easily wins Iowa",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/a4a1a01a-f67e-447e-9628-43900d2fc076/3a4d1277-4776-4aa2-91c6-dead049c_650.mp4",
+                    "thumbnail": {
+                        "width": 640,
+                        "height": 360
+                    }
+                }
+            },
+            {
+                "name": "Jamie Lee Curtis, 65, is stylish in plum pantsuit while promoting children&#39;s book in NYC... as she reveals her approach to growing old gracefully",
+                "url": "https://www.dailymail.co.uk/tvshowbiz/article-12971123/Jamie-Lee-Curtis-dons-purple-pantsuit-promoting-childrens-book.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.DQBDoWhn_pTrEuPC26KhYy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Jamie Lee Curtis looked sophisticated wearing a plum pantsuit and nude heels while promoting her 20th children&#39;s book in Midtown Manhattan on Tuesday. Hairstylist Sean James coiffed the 65-year-old Oscar winner&#39;s signature silver pixie cut and make-up artist Grace Ahn made sure she was camera ready for her press tour.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5100be0f-4e5d-ffd1-8eb2-f304edc828d5",
+                        "name": "Jamie Lee Curtis"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/60d5dc2b-c915-460b-b722-c9e3485499ca",
+                        "name": "New York City"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/64f54a44-cc6c-8fd0-4ad9-3e16c92ce3be",
+                        "name": "Children&#39;s literature"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T21:17:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Fujitsu boss says his &#39;gut feel&#39; is staff knew of Horizon problems, as he apologises for scandal",
+                "url": "https://www.itv.com/news/2024-01-16/post-office-and-fujitsu-bosses-face-grilling-by-mps-on-horizon-scandal",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.STWnPomdQ7ZMCcBXA6uT7i&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The European boss of Fujitsu has told MPs that his &quot;gut feeling&quot; is staff in the company knew of errors in the Horizon system. | ITV National News",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "ITV",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.HlKTyCgM99pRvmITMdZC2w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T21:13:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Robert Peston: \u2018British exceptionalism today is a pernicious idea\u2019",
+                "url": "https://www.varsity.co.uk/interviews/26811",
+                "description": "Ella McCartney speaks to Robert Peston about journalism, geopolitics, and his \u2018middle-aged dad\u2019 rock cover band",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/34c06287-a52c-0e4b-342d-88e146302b39",
+                        "name": "Varsity"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cbe5ebea-4ee5-35e2-4158-ae1aab6d8a46",
+                        "name": "Exceptionalism"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Varsity",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.cbWlLf82y7xAyfkaacOXUw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T21:12:00.0000000Z"
+            },
+            {
+                "name": "Lee Anderson and Brendan Clarke-Smith resign over Rwanda vote",
+                "url": "https://www.bbc.com/news/live/uk-politics-67998491?src_origin=BBCS_BBC?bingParse",
+                "description": "Lee Anderson and Brendan Clarke-Smith have written to Rishi Sunak to explain their decision to resign from their roles as deputy chairmen of the Conservative Party in order to be able to support backbench amendments to the government&#39;s Rwanda Bill.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/95642aa0-a5ab-ec36-92ad-35f5a86fbca1",
+                        "name": "Brendan Clarke"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c94f2fa6-9853-e53f-af90-7aec244e4382",
+                        "name": "Lee Anderson"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k3N4DqozNjgK376rAnFmsA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T21:02:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Test Valley Borough Council release countryside event guides",
+                "url": "https://www.andoveradvertiser.co.uk/news/24052427.test-valley-borough-council-release-countryside-event-guides/",
+                "description": "Test Valley Borough Council\u2019s guides to events and activities taking place in nature reserves and open spaces across the region are now available.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/05cf3b63-3693-d1af-fbce-41f99eebca0c",
+                        "name": "Andover"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d4b4bd82-616c-5cdc-abec-edfa876c8bbc",
+                        "name": "Test Valley"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1577e8ad-9d29-6932-a12a-959a5f57a8a8",
+                        "name": "Borough"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Andover Advertiser",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.9HBvLtaNrUh8B9TIacJccw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T21:00:00.0000000Z"
+            },
+            {
+                "name": "Disaster for Rishi Sunak as pollster warns Tories are &#39;haemorrhaging&#39; votes to Reform <b>UK</b>",
+                "url": "https://www.express.co.uk/news/politics/1856484/rishi-sunak-rwanda-bill-reform-uk-election",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.I5x-9Pw48KAGe0-DSn5NYC&pid=News",
+                        "width": 700,
+                        "height": 415
+                    }
+                },
+                "description": "If Mr Sunak fails to get his legislation through the Commons on Wednesday he will look &quot;weak and lacking control over his own party&quot;, Chris Hopkins says.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9d6ba8f3-006f-5805-9895-7ef1a8afce78",
+                        "name": "Disaster Film"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Disaster Film"
+                    },
+                    {
+                        "name": "Conservative Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T20:45:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "General election: Labour would need record swing to win",
+                "url": "https://www.bbc.co.uk/news/uk-politics-67361138?at_bbc_team=editorial&at_link_origin=BBC_Politics&at_campaign=Social_Flow&at_medium=social&at_link_id=15CCDE6C-B451-11EE-BA95-D1F554826ABF&at_ptr_name=facebook_page&at_format=link&at_campaign_type=owned&at_link_type=web_link",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.P3eI5LVzzsxnzomW0Rc3Si&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "But a uniform national swing has been a reliable model for general elections in the <b>UK</b> over a long period of time. Changes to the <b>political</b> map ahead of the next general election mean constituencies will be new or different from the last general election ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC"
+                    }
+                ],
+                "datePublished": "2024-01-16T20:38:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Labour\u2019s ambitions not achievable without business, Reeves to tell Davos summit",
+                "url": "https://www.independent.co.uk/business/labour-s-ambitions-not-achievable-without-business-reeves-to-tell-davos-summit-b2479774.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.vmO9sgnYRI-FUvILU-ytJy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The shadow chancellor will vow to \u2018restore stability\u2019 to the UK economy during her trip to the World Economic Forum in Switzerland.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/44912ba0-6f05-8470-af62-7b2639fa6d05",
+                        "name": "Rachel Reeves"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5d579a8e-548b-dfb6-3270-b3334b203e81",
+                        "name": "Davos"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Rachel Reeves"
+                    },
+                    {
+                        "name": "Davos"
+                    },
+                    {
+                        "name": "The Independent"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T20:31:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Lee Anderson and Brendan Clarke-Smith resign over Rwanda bill \u2014 follow latest",
+                "url": "https://www.thetimes.co.uk/article/rwanda-bill-vote-latest-news-rishi-sunak-amendments-tory-rebellion-vfg5pjr5n?region=global",
+                "description": "Two deputy chairmen of the Conservative party have resigned after being told their positions were untenable as they joined a Tory rebellion against Rishi Sunak\u2019s Rwanda bill. Lee Anderson and Brendan Clarke-Smith resigned from their party roles after voting for two amendments that aimed to toughen up the government\u2019s Safety of Rwanda bill.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b9fb068b-6e1b-01ae-07d9-06124f3b7367",
+                        "name": "Brendan Clarke"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c94f2fa6-9853-e53f-af90-7aec244e4382",
+                        "name": "Lee Anderson"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T20:05:00.0000000Z"
+            },
+            {
+                "name": "Lee Anderson and Brendan Clarke-Smith resign over Rwanda bill \u2013 <b>UK politics</b> live",
+                "url": "https://www.theguardian.com/politics/live/2024/jan/16/rwanda-bill-rishi-sunak-latest-politics-news-updates-live?page=with:block-65a6e72f8f0845976a83f0fd",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.SX1v3ZjIuaCvnZ7KKHn7xy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Jane Stevenson joins Conservative party\u2019s deputy chairs in resigning on a bruising night for Rishi Sunak",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T19:48:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "The Rwanda rebellion is the Tory equivalent of The Traitors \u2013 without the fun",
+                "url": "https://inews.co.uk/opinion/rwanda-rebellion-tory-traitors-without-fun-2857908?ico=best_of_opinion",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.DSp2CRnMdevpmwSRb3apfS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "For their part, members of the \u201cfive families\u201d of right-wing groups say they are the true loyalists, staying loyal to the party\u2019s Brexit promises to take back control of the nation\u2019s borders. Suella Braverman has declared the current version of the bill is \u201ca betrayal to the British public\u201d.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8628578-eb70-dfca-a7b2-6a53597e94f0",
+                        "name": "The Traitors"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T19:47:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Rishi\u2019s plea for party to \u201ccome together\u201d on Rwanda bill",
+                "url": "https://www.express.co.uk/news/politics/1856459/rishi-sunak-plea-to-tory-rebels-rwanda",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.PHxyApdOZheJBJKUb-Nduy&pid=News",
+                        "width": 590,
+                        "height": 394
+                    }
+                },
+                "description": "Rishi Sunak has made a dramatic last minute plea to Tory rebels to save his Rwanda flights bill after suffering the biggest revolt of his premiership.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Rwanda"
+                    },
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Daily Express"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T19:44:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "The only thing shocking about a 1997-style wipeout is that Sunak might keep 169 seats",
+                "url": "https://www.telegraph.co.uk/columnists/2024/01/16/conservative-election-1997-wipeout-sunak-government-voters/",
+                "description": "It\u2019s one thing to alienate the floating voter, but they\u2019ve been acting like they were their natural supporters\u2019 own worst enemy",
+                "mentions": [
+                    {
+                        "name": "Wishful thinking"
+                    },
+                    {
+                        "name": "Columnist"
+                    },
+                    {
+                        "name": "Bookselling"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T19:44:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Fact Check: Yes, Biden Said in 2020 that &#39;Trump Does Not Have the Authority to Take Us into War with Iran Without Congressional Approval&#39;",
+                "url": "https://uk.news.yahoo.com/fact-check-yes-biden-said-000000356.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.t_Jyo3z0WB-IChpJkXD6ti&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "&quot;A president should never take this nation to war without the informed consent of the American people,&quot; part of the purported quote read.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7fa9918b-cbf1-8f94-359b-2cd79c242183",
+                        "name": "Congressional Country Club"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/502b5268-992d-26c9-a0d8-6f206338406e",
+                        "name": "Iran"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cad484f9-be75-7a78-12dd-16233f823cd7",
+                        "name": "Joe Biden"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T19:00:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "SNP still have time to opt for a less risky General Election strategy",
+                "url": "https://www.thenational.scot/politics/24054432.snp-still-time-opt-less-risky-general-election-strategy/",
+                "description": "KIRSTY Strickland in her column on Monday claims \u201cSNP electoral strategy has its merits \u2013 and risks\u201d. However, for me she fails to provide",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8d8aa22b-becb-80d8-677c-a3161e16cbf5",
+                        "name": "General election"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d1d85ec7-1cbb-6ee9-88a8-8af94518438a",
+                        "name": "Time"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T19:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Professor who predicted 2008 crash talks economics of independence",
+                "url": "https://www.thenational.scot/politics/24054389.professor-predicted-2008-crash-talks-economics-independence/",
+                "description": "He is a former head of the school of economics, <b>politics</b> and history at Kingston University and ... Pact before becoming a member of the EU Voluntarily contributing to the <b>UK</b>&#39;s national debts Professor Keen&#39;s insights offer a sobering perspective on ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a98b9594-0e88-d6da-dd3d-494874ecf22d",
+                        "name": "Independence"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National"
+                    }
+                ],
+                "datePublished": "2024-01-16T18:18:00.0000000Z"
+            },
+            {
+                "name": "Instagram video showing snowman getting spray tan goes viral",
+                "url": "https://www.dailyecho.co.uk/news/national/uk-today/24054334.instagram-video-showing-snowman-getting-spray-tan-goes-viral/",
+                "description": "A &#39;brilliant&#39; video showing a snowman getting a spray tan in Liverpool has gone viral amid the Met Office alert for snow and ice in the UK.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a2113d26-7976-df57-241f-77b7bbb1b4f7",
+                        "name": "Instagram"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Southern Daily Echo",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.bbEnczrIhyW_4l1n_CB0Zw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T18:08:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Hiring judges for Rwanda appeals will be a challenge, says ex-justice secretary",
+                "url": "https://www.theargus.co.uk/news/national/24054352.hiring-judges-rwanda-appeals-will-challenge-says-ex-justice-secretary/",
+                "description": "The Lady Chief Justice has stressed that the decision to deploy more judges was \u2018exclusively a matter for the judiciary\u2019.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cbac8df7-3b5c-6632-8267-1a2127b8a31f",
+                        "name": "Challenge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e022ae56-ed08-4bcf-387b-9cc0fe21e621",
+                        "name": "Justice"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Argus",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.QOpcpeD2NEW-5ezLj52dtg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T18:02:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Politics</b>: A helping hand is available so check your eligibility for benefits",
+                "url": "https://www.grampianonline.co.uk/news/politics-a-helping-hand-is-available-so-check-your-eligibil-339045/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Hib1QqzuCJiv0Eu0DqJwDS&pid=News",
+                        "width": 700,
+                        "height": 481
+                    }
+                },
+                "description": "In her latest column, MSP Gillian Martin discusses the post office scandal and how to access benefits even if you are in work.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ee01bca6-d3c5-ed13-5cd3-e3d1cd0ef7e8",
+                        "name": "Helping hand"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "grampianonline",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.TRteebnD1FT5BpcrlQL8ww&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T18:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "TikTok turns feral over hot Houthi pirate: \u2018He can board my ship anytime\u2019",
+                "url": "https://metro.co.uk/2024/01/16/tiktok-turns-feral-hot-houthi-pirate-20123795/?ico=trending-module_tag_israel-hamas-war_item-1",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT._-bvxL6v_LZMnAeqgGx1FC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The <b>UK</b> and US on Thursday launched a barrage of airstrikes on ... Yemen\u2019, with some comparing him to Misfits actor Robert Sheehan. The Houthi movement is a <b>political</b> and military group that follows a minority strand of Islam called Zaydism.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Metro"
+                    }
+                ],
+                "datePublished": "2024-01-16T16:59:00.0000000Z"
+            },
+            {
+                "name": "The troubling rise of Russell Brand\u2019s fandom after rape and abuse allegations",
+                "url": "https://metro.co.uk/2024/01/16/russell-brand-popular-ever-100-000-new-fans-20112368/?ico=trending-post-strip_item_2",
+                "description": "Over the years, Brand shifted from being a comedian and actor \u2013 playing a large part in shaping late-noughties pop culture on comedy panel shows, chat shows, and in films \u2013 to a <b>political</b> campaigner ... Now, Metro.co.<b>uk</b> can reveal that, in spite ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/307f1139-3a68-c37e-292d-5fac6f5f5256",
+                        "name": "Russell Brand"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2872a54f-b045-8fe3-d356-1aa538e14812",
+                        "name": "Metro International"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Russell Brand"
+                    },
+                    {
+                        "name": "Metro International"
+                    },
+                    {
+                        "name": "United States"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Metro"
+                    }
+                ],
+                "datePublished": "2024-01-16T16:48:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>UK</b> elections: Britons living abroad regain right to vote as 15-year rule ends",
+                "url": "https://www.standard.co.uk/news/politics/uk-elections-brits-overseas-abroad-voting-rules-register-b1132654.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.8loC7bB6d-NHt6__gMdpEy&pid=News",
+                        "width": 700,
+                        "height": 448
+                    }
+                },
+                "description": "Many more Britons can now vote in the next general election, the date of which has yet to be decided by Prime Minister Rishi Sunak",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c40a3cbe-bc9a-82dd-956f-2f0f75d5af46",
+                        "name": "Elections in the United Kingdom"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Elections in the United Kingdom"
+                    },
+                    {
+                        "name": "British people"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T16:24:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Rwanda bill rebels - full list of Tories who voted for Cash amendment",
+                "url": "https://uk.news.yahoo.com/rwanda-bill-rebels-full-list-191300121.html",
+                "description": "The amendment, seeking to ensure <b>UK</b> and international law cannot be used to block a ... of the scale of unease within the Conservative Party during an election year. <b>Politics</b> latest: Rebellion on Sunak&#39;s Rwanda bill will cause &#39;jitters&#39; Below is a full ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b784c78f-22e4-44ec-2fb5-9ce5be2bfcd6",
+                        "name": "Bill Cash"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK"
+                    }
+                ],
+                "datePublished": "2024-01-16T14:13:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Political</b> parties using your data in their campaigns not always a threat to democracy",
+                "url": "https://www.sheffield.ac.uk/news/political-parties-using-your-data-their-campaigns-not-always-threat-democracy",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Uz7T1d7OkpmnFf6SjVBv2C&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "New insights into how political parties use personal data in their election campaigns are provided in a new book published by the University of Sheffield\u2019s Kate Dommett, a professor of digital politics,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8499affc-4a90-0928-2cd5-82d7a85f75d1",
+                        "name": "University of Sheffield"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4b27b0bc-733a-a18c-d33a-b08e5c0d50bf",
+                        "name": "Democracy"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "University of Sheffield",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.YfzBkNG_amwrVtorooEVaA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T10:50:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Britain has little money left \u2013 and it needs politicians who are honest about that",
+                "url": "https://www.cityam.com/britain-has-little-money-left-and-it-needs-politicians-who-are-honest-about-that/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.OGNk672boMsZ5mp2I1rSpy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "It may not be an easy vote winner, but Britain needs politicians who are honest about our fiscal reality, writes Adam Hawksbee.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "name": "Relative direction"
+                    },
+                    {
+                        "name": "Politician"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "City A.M.",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.WK13L95Ci2T09_VP-OSs8g&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-01-16T04:20:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Lee Anderson and Brendan Clarke-Smith\u2019s letter in full as Tory deputy chairs resign over Rwanda bill",
+                "url": "https://www.independent.co.uk/news/uk/politics/lee-anderson-letter-to-rishi-sunak-rwanda-b2479676.html",
+                "description": "It comes as MPs voted 529 to 68, majority 461, to reject Conservative Sir Bill Cash\u2019s changes to the Bill, which aimed to ensure <b>UK</b> and international law cannot ... As two people who have been on very different <b>political</b> journeys, one as a person who ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c94f2fa6-9853-e53f-af90-7aec244e4382",
+                        "name": "Lee Anderson"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "Rwanda"
+                    },
+                    {
+                        "name": "Lee Anderson"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent"
+                    }
+                ],
+                "datePublished": "2024-01-16T00:00:00.0000000Z",
+                "video": {
+                    "name": "Lee Anderson and Brendan Clarke-Smith\u2019s letter in full as Tory deputy chairs resign over Rwanda bill",
+                    "thumbnailUrl": "https://www.bing.com/th?id=OVF.cmT5y2d9CX%2F%2FmkSma%2Fvqnw&pid=News",
+                    "embedHtml": "&lt;iframe src=&quot;https://cdn.jwplayer.com/players/vBA1b46K-XLzx33eA.html&quot; width=&quot;480&quot; height=&quot;270&quot; frameborder=&quot;0&quot; scrolling=&quot;auto&quot;&gt;&lt;/iframe&gt;",
+                    "allowHttpsEmbed": true,
+                    "thumbnail": {
+                        "width": 520,
+                        "height": 292
+                    }
+                },
+                "category": "Politics"
+            },
+            {
+                "name": "<b>UK</b>&#39;s Sunak battles rebels over Rwanda migrant law",
+                "url": "https://www.modernghana.com/news/1285963/uks-sunak-battles-rebels-over-rwanda-migrant.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.0fFr47K3bkw6jpcPz3aOZi&pid=News",
+                        "width": 512,
+                        "height": 341
+                    }
+                },
+                "description": "<b>UK</b> leader Rishi Sunak fought to quell growing dissent within ... The Conservative prime minister has staked his <b>political</b> future on slashing record levels of regular migration and stopping asylum seekers crossing from France to Britain in small boats.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "modernghana.com"
+                    }
+                ],
+                "datePublished": "2024-01-16T00:00:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Defending Britain from a more dangerous world",
+                "url": "https://www.gov.uk/government/speeches/defending-britain-from-a-more-dangerous-world",
+                "description": "We use some essential cookies to make this website work. We\u2019d like to set additional cookies to understand how you use GOV.<b>UK</b>, remember your settings and improve government services. We also use cookies set by other sites to help us deliver content from ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Department of Health"
+                    }
+                ],
+                "datePublished": "2024-01-15T00:00:00.0000000Z",
+                "category": "ScienceAndTechnology"
+            },
+            {
+                "name": "Humza Yousaf&#39;s brother-in-law charged with drug offences in Dundee",
+                "url": "https://www.dailyrecord.co.uk/news/politics/humza-yousafs-brother-law-charged-31877686?int_source=nba",
+                "description": "It comes just days after Nadia, from Dundee, appealed to the <b>UK</b> Government to be allowed to host her other ... To sign up to the Daily Record <b>Politics</b> newsletter, clickhere.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6d99b564-d527-5061-2ebd-f97730898d38",
+                        "name": "Humza Yousaf"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/26e6ea64-8197-1c44-a767-91d93e3e7e60",
+                        "name": "Dundee"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Record"
+                    }
+                ],
+                "datePublished": "2024-01-14T00:00:00.0000000Z"
+            }
+        ]
+    }
+]
