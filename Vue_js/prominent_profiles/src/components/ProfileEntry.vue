@@ -68,26 +68,6 @@ export default {
   },
 
   methods: {
-    async fetchMiniBingEntity () {
-      const id = this.entry.entity_id
-      const apiUrl = `${API_BASE_URL}/profiles_app/bing_entities/mini/${id}/`
-
-      try {
-        const response = await fetch(apiUrl)
-        const data = await response.json()
-
-        if (data && Object.keys(data).length > 0) {
-          this.bingEntity = data
-        } else {
-          await this.fetchEntityName(id)
-        }
-      } catch (error) {
-        console.error('Error fetching BingEntity:', error)
-        // Bing data may not be available e.g. app_visible is false in db or bing api job not ran yet.
-        await this.fetchEntityName(id)
-      }
-    },
-
     async fetchEntityName (entityId) {
       const nameApiUrl = `${API_BASE_URL}/profiles_app/entity_name/${entityId}/`
 
@@ -118,6 +98,34 @@ export default {
       }
     },
 
+    async fetchMiniBingEntity () {
+      const id = this.entry.entity_id
+      const apiUrl = `${API_BASE_URL}/profiles_app/bing_entities/mini/${id}/`
+
+      try {
+        const response = await fetch(apiUrl)
+        if (response.ok) {
+          if (response.status !== 204) {
+            // Check if the response is not 204 No Content we can link back to their app page
+            const data = await response.json()
+            if (data && Object.keys(data).length > 0) {
+              this.bingEntity = data
+            } else {
+              // If data is empty but response was successful, trigger this for Goolge url / icon!
+              await this.fetchEntityName(id)
+            }
+          } else {
+            // Google fall back
+            await this.fetchEntityName(id)
+          }
+        }
+      } catch (error) {
+        console.error('Error fetching BingEntity:', error)
+        // Handle network errors or errors thrown from response.json()
+        await this.fetchEntityName(id)
+      }
+    },
+
     isWidthSufficient (width) {
       const minWidthToShowText = 25
       const numericWidth = parseFloat(width)
@@ -137,7 +145,6 @@ export default {
       }
     }
   },
-
   computed: {
     positiveWidth () {
       const positive = parseFloat(this.entry.positive)
@@ -152,6 +159,7 @@ export default {
       return isNaN(negative) ? '0%' : `${negative.toFixed(1)}%`
     }
   }
+
 }
 </script>
 <style scoped>
