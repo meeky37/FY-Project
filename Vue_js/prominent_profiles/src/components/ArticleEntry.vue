@@ -31,9 +31,10 @@
     </div>
   </div>
 </template>
-
 <script>
+import { computed } from 'vue'
 import { format } from 'date-fns'
+import { useRouter, useRoute } from 'vue-router'
 
 export default {
   props: {
@@ -42,62 +43,68 @@ export default {
       required: true
     }
   },
+  setup (props) {
+    const router = useRouter()
+    const route = useRoute()
 
-  methods: {
-    formatPublicationDate (dateString) {
+    const formatPublicationDate = (dateString) => {
       const date = new Date(dateString)
-      const formattedDate = format(date, 'do MMM')
-      return formattedDate
-    },
+      return format(date, 'do MMM')
+    }
 
-    isWidthSufficient (width) {
+    const isWidthSufficient = (width) => {
       const minWidthToShowText = 15
       const numericWidth = parseFloat(width)
       return !isNaN(numericWidth) && numericWidth >= minWidthToShowText
-    },
+    }
 
-    getSubsection (url) {
-      // Extract the subsection before the top-level domain
+    const getSubsection = (url) => {
       const match = url.match(/^(https?:\/\/)?(?:www\.)?([^/]+)/)
       const subsection = match ? match[2] : ''
       const maxChars = 15
       return subsection.length > maxChars ? subsection.substring(0, maxChars) + '...' : subsection
-    },
-
-    viewArticleDetail () {
-      const articleId = this.entry.id
-      console.log(this.entry)
-      const entityId = this.$route.params.id
-      this.$router.push({ name: 'entryId', params: { entityId, articleId } })
     }
 
-  },
-  computed: {
-    positiveWidth () {
-      const positive = parseFloat(this.entry.positive)
+    const viewArticleDetail = () => {
+      const articleId = props.entry.id
+      console.log(props.entry)
+      const entityId = route.params.id
+      router.push({ name: 'entryId', params: { entityId, articleId } })
+    }
+
+    const positiveWidth = computed(() => {
+      const positive = parseFloat(props.entry.positive)
       return isNaN(positive) ? '0%' : `${positive.toFixed(1)}%`
-    },
-    neutralWidth () {
-      const neutral = parseFloat(this.entry.neutral)
+    })
+
+    const neutralWidth = computed(() => {
+      const neutral = parseFloat(props.entry.neutral)
       return isNaN(neutral) ? '0%' : `${neutral.toFixed(1)}%`
-    },
-    negativeWidth () {
-      const negative = parseFloat(this.entry.negative)
+    })
+
+    const negativeWidth = computed(() => {
+      const negative = parseFloat(props.entry.negative)
       return isNaN(negative) ? '0%' : `${negative.toFixed(1)}%`
+    })
+
+    return {
+      formatPublicationDate,
+      isWidthSufficient,
+      getSubsection,
+      viewArticleDetail,
+      positiveWidth,
+      neutralWidth,
+      negativeWidth
     }
   }
 }
 </script>
-}
 
 <style scoped>
 .article-entry {
   border: 1px solid #ccc;
   padding: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 15px;
-  margin-right: 5px;
+  margin: 10px 5px 10px 15px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
