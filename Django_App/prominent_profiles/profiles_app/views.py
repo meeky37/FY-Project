@@ -6,6 +6,7 @@ from rest_framework_simplejwt.authentication import JWTAuthentication
 
 from .models import Entity, BingEntity, OverallSentiment
 from nlp_processor.models import SimilarArticlePair
+from django.http import Http404
 
 
 # TODO: Remove unneeded attributes from JSON views.
@@ -40,19 +41,36 @@ class BingEntityDetailView(View):
         return JsonResponse(serialized_entity, safe=False)
 
 
+
+
+
 class BingEntityMiniView(View):
     def get(self, request, *args, **kwargs):
         entity_id = kwargs.get('entity_id')
-        bing_entity = get_object_or_404(BingEntity, entity=entity_id)
 
-        serialized_entity = {
-            'id': bing_entity.id,
-            'name': bing_entity.name,
-            'image_url': bing_entity.image_url,
-            'contractual_rules': bing_entity.contractual_rules,
-            'display_hint': bing_entity.entity_type_display_hint
-        }
-        return JsonResponse(serialized_entity, safe=False)
+        # Check if Entity exists before attempting to fetch BingEntity
+        try:
+            entity = get_object_or_404(Entity, id=entity_id)
+
+            try:
+                bing_entity = BingEntity.objects.get(entity=entity_id)
+
+                serialized_entity = {
+                    'id': bing_entity.id,
+                    'name': bing_entity.name,
+                    'image_url': bing_entity.image_url,
+                    'contractual_rules': bing_entity.contractual_rules,
+                    'display_hint': bing_entity.entity_type_display_hint
+                }
+                return JsonResponse(serialized_entity, safe=False)
+            except BingEntity.DoesNotExist:
+                # BingEntity is not found but Entity exists
+                return JsonResponse(
+                    {'message': 'Bing entity does not exist - use Google/alternative'}, status=204)
+
+        except Http404:
+            # Entity itself does not exist
+            return JsonResponse({'error': 'Entity not found'}, status=404)
 
 
 # TODO EXP and LINEAR could become one function with parameter true/false
@@ -76,7 +94,14 @@ class OverallSentimentExp(APIView):
         else:
             last_visit = None
 
-        if not overall_sentiments.exists():
+        if not overall_sentiments.exists() and last_visit is not None:
+            response_data = {
+                'message': 'No new articles since last visit',
+                'lastVisit': last_visit.isoformat(),
+                'data': []
+            }
+            return JsonResponse(response_data, status=200)
+        elif not overall_sentiments.exists():
             return JsonResponse({'error': 'No OverallSentiment found for the given entity_id'},
                                 status=404)
 
