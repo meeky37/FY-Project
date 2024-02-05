@@ -10,18 +10,18 @@
 import SubProfileCard from './SubProfileCard.vue'
 import { API_BASE_URL } from '@/config'
 import axios from 'axios'
-
-import { ref, onMounted, onActivated } from 'vue'
+import { ref, onMounted, onActivated, watch } from 'vue'
+import { useRoute } from 'vue-router'
 
 const entities = ref([])
-
+const route = useRoute()
 const fetchData = async () => {
   try {
     const response = await axios.get(`${API_BASE_URL}/accounts/api/get_sub_list/`, {
       headers: {
         'Content-Type': 'application/json'
       },
-      credentials: 'include'
+      withCredentials: true
     })
 
     console.log(response)
@@ -39,11 +39,15 @@ onMounted(() => {
   fetchData()
 })
 
+watch(() => route.query, async () => {
+  console.log('Route query changed!')
+  await fetchData()
+}, { deep: true })
+
 onActivated(() => {
   console.log('Component is activated')
   fetchData()
 })
-
 </script>
 
 <style scoped>

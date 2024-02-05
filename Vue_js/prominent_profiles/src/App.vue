@@ -9,9 +9,7 @@
       <div class="centered-content">
         <EntitySelection />
       </div>
-      <nav>
-<!--        <router-link to="/" class="nav-link">Home</router-link>-->
-<!--        <router-link to="/vue" class="nav-link">Vue</router-link>-->
+      <nav v-if="!showMenuIcon" class="original-nav">
         <router-link to="/about" class="nav-link">About</router-link>
         <router-link v-if="!authenticated" :to="''" class="nav-link"
                      @click="LogonRedirect">Login </router-link>
@@ -20,6 +18,8 @@
         <router-link v-if="authenticated" :to="''" class="nav-link"  @click="Logout"> Logout
         </router-link>
       </nav>
+      <router-link v-if="showMenuIcon" :to="{ name: 'menu' }" class="menu-link">Menu</router-link>
+<!--      <img src="@/assets/hamburger-menu-icon.png" alt="Menu" class="menu-icon" />-->
     </header>
 
     <!-- Use keep-alive to persist the component across route changes -->
@@ -49,12 +49,22 @@ export default {
 
   data () {
     return {
-      authenticated: null
+      authenticated: null,
+      windowWidth: window.innerWidth
     }
   },
 
   beforeMount () {
     this.checkAuthentication()
+  },
+
+  mounted () {
+    window.addEventListener('resize', this.handleResize)
+    this.handleResize()
+  },
+
+  beforeUnmount () {
+    window.removeEventListener('resize', this.handleResize)
   },
 
   watch: {
@@ -66,33 +76,11 @@ export default {
       }
     }
   },
+
   methods: {
-    // async checkAuthentication () {
-    //   // TODO: API request or check a cookie/local storage here. VUEX worthwhile?
-    //   const accessToken = VueCookies.get('access_token')
-    //
-    //   if (!accessToken) {
-    //     // Attempt to refresh the access token using the refresh token
-    //     const refreshToken = VueCookies.get('refresh_token')
-    //     if (refreshToken) {
-    //       try {
-    //         const response = await axios.post(`${API_BASE_URL}/accounts/api/token/refresh/`, {
-    //           refresh: refreshToken
-    //         })
-    //         // Update the access token cookie
-    //         VueCookies.set('access_token', response.data.access)
-    //         const accessToken = VueCookies.get('access_token')
-    //         this.authenticated = !!accessToken
-    //         return
-    //       } catch (refreshError) {
-    //         // If refresh fails, redirect to the login page.
-    //         console.error('Token refresh failed', refreshError)
-    //         router.push('/login')
-    //       }
-    //     }
-    //   }
-    //   this.authenticated = !!accessToken
-    // },
+    handleResize () {
+      this.windowWidth = window.innerWidth
+    },
 
     async checkAuthentication () {
       try {
@@ -108,7 +96,11 @@ export default {
     async LogonRedirect () {
       await this.checkAuthentication()
       if (this.authenticated) {
-        this.$router.push('/dashboard/')
+        const dashboardRoute = {
+          path: '/dashboard/',
+          query: { key: Date.now() } // To enable SPA "refresh" / remount
+        }
+        this.$router.push(dashboardRoute)
       } else {
         this.$router.push('/login/')
       }
@@ -136,6 +128,13 @@ export default {
         .catch(error => {
           console.error('Error during logout:', error)
         })
+    }
+  },
+
+  computed: {
+    showMenuIcon () {
+      const breakpoint = 950
+      return this.windowWidth <= breakpoint
     }
   }
 }
@@ -199,4 +198,20 @@ nav {
   outline: 2px solid #fff;
   outline-offset:2px;
 }
+
+.menu-link {
+  margin-right: 60px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: ghostwhite;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  border-radius: 5px;
+}
+
+//TBC if I replace with icon over "menu"
+//.menu-icon {
+//  width: 24px;
+//  height: 24px;
+//}
 </style>
