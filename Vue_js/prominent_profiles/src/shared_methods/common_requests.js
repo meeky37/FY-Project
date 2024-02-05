@@ -71,11 +71,18 @@ export const getAttributionMessage = function (bingEntity) {
   }
 }
 
-export const redirectToEntityPage = function () {
-  // Redirect to the URL related to the selected entity
-  if (this.entry.entity_id) {
-    this.$router.push('/entity/' + this.entry.entity_id)
+export const redirectToEntityPage = function (lastVisit) {
+  // Standard Use Case
+  let url = '/entity/' + this.entry.entity_id
+  console.log('seen last visit')
+  console.log(lastVisit)
+  // Dashboard sub card click has a last visit date to filter the entity page articles by date
+  if (lastVisit) {
+    url += '?last_visit=' + encodeURIComponent(lastVisit)
   }
+
+  // Redirect to the constructed URL
+  this.$router.push(url)
 }
 
 export const viewArticleDetail = function (articleID) {
