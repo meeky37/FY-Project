@@ -9,7 +9,7 @@ class UserAdmin(BaseUserAdmin):
     ordering = ('email',)
 
     fieldsets = (
-        (None, {'fields': ('email', 'password')}),
+        (None, {'fields': ('email', 'password', 'last_visit', 'last_visit_excluding_today')}),
         ('Personal info', {'fields': ('phone_number', 'date_of_birth', 'email_verified', 'location', 'first_name', 'last_name')}),
         ('Permissions', {'fields': ('is_active', 'is_staff', 'is_superuser', 'groups', 'user_permissions')}),
         # ('Important dates', {'fields': ('last_login', 'date_joined')}),
