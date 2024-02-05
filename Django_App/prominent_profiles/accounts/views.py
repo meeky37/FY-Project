@@ -10,7 +10,6 @@ from django.contrib.auth import authenticate
 
 from .models import Subscription
 from .serializers import CustomUserSerializer
-
 from profiles_app.models import Entity
 
 
