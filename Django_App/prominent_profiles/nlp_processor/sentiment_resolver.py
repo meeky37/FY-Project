@@ -1,3 +1,4 @@
+import time
 from decimal import Decimal, ROUND_HALF_UP
 from .constants import EXPONENTIAL_K_VALUE
 from intervaltree import Interval, IntervalTree
@@ -80,8 +81,12 @@ class SentimentAnalyser:
             right_segment = article_text[mention_end:sentence_end]
 
             # Could add logging here to see the quality of sentence segmentation.
-
+            start_time = time.time()
             sentiment = self.tsc.infer_from_text(left_segment, mention_segment, right_segment)
+            elapsed_time = time.time() - start_time
+
+            if elapsed_time > 5:
+                print(f"News Sentiment Time > 5 seconds so: {elapsed_time} seconds")
             # print(sentiment[0])
 
             return sentiment[0]
