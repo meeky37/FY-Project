@@ -2,7 +2,7 @@
   <div>
      <div class="header-container">
       <h1 :class="{ 'loading': isLoading }">{{ isLoading ? 'Loading...' : (bingEntity ? bingEntity.name : 'Entity Not Found') }}</h1>
-      <SubscriptionButton :entityId="$route.params.id"/>
+      <SubscriptionButton :entityId="+$route.params.id" />
     </div>
 
     <!-- Display the image and description (centered) -->

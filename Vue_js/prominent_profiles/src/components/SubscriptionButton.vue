@@ -16,7 +16,7 @@ import router from '@/router'
 export default {
   props: {
     entityId: {
-      type: String,
+      type: Number,
       required: true
     }
   },
@@ -74,8 +74,6 @@ export default {
               withCredentials: true
             }
           )
-
-          console.log(response)
 
           if (response.status === 200) {
             isSubscribed.value = response.data.status
