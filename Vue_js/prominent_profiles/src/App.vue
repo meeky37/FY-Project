@@ -12,10 +12,10 @@
       <nav v-if="!showMenuIcon" class="original-nav">
         <router-link to="/about" class="nav-link">About</router-link>
         <router-link v-if="!authenticated" :to="''" class="nav-link"
-                     @click="LogonRedirect">Login </router-link>
-        <router-link v-if="authenticated" :to="''" class="nav-link"  @click="LogonRedirect"> Your
+                     @click="logonRedirect">Login </router-link>
+        <router-link v-if="authenticated" :to="''" class="nav-link"  @click="logonRedirect"> Your
           Dashboard</router-link>
-        <router-link v-if="authenticated" :to="''" class="nav-link"  @click="Logout"> Logout
+        <router-link v-if="authenticated" :to="''" class="nav-link"  @click="logout"> Logout
         </router-link>
       </nav>
       <router-link v-if="showMenuIcon" :to="{ name: 'menu' }" class="menu-link">Menu</router-link>
@@ -31,15 +31,11 @@
   </div>
        <PageFooter/>
 </template>
-
 <script>
-import VueCookies from 'vue-cookie'
-import router from '@/router'
+import { onMounted, onBeforeUnmount, computed, ref } from 'vue'
+import { authenticated, checkAuthentication, logonRedirect, logout } from './shared_methods/auth_methods.js'
 import EntitySelection from '@/components/EntitySelection.vue'
-import { API_BASE_URL } from '@/config'
-import axios from 'axios'
 import PageFooter from '@/components/PageFooter.vue'
-import { checkAuthenticationCommon } from '@/auth.js'
 
 export default {
   components: {
@@ -47,98 +43,33 @@ export default {
     EntitySelection
   },
 
-  data () {
+  setup () {
+    const windowWidth = ref(window.innerWidth)
+
+    const handleResize = () => {
+      windowWidth.value = window.innerWidth
+    }
+
+    onMounted(() => {
+      window.addEventListener('resize', handleResize)
+      handleResize()
+      checkAuthentication()
+    })
+
+    onBeforeUnmount(() => {
+      window.removeEventListener('resize', handleResize)
+    })
+
+    const showMenuIcon = computed(() => windowWidth.value <= 950)
+
     return {
-      authenticated: null,
-      windowWidth: window.innerWidth
-    }
-  },
-
-  beforeMount () {
-    this.checkAuthentication()
-  },
-
-  mounted () {
-    window.addEventListener('resize', this.handleResize)
-    this.handleResize()
-  },
-
-  beforeUnmount () {
-    window.removeEventListener('resize', this.handleResize)
-  },
-
-  watch: {
-    // LoginPage.vue redirects to dashboard on successful login - this is implemented to
-    // update the header to 'Your Dashboard' immediately
-    $route (to, from) {
-      if (to.path === '/dashboard') {
-        this.checkAuthentication()
-      }
-    }
-  },
-
-  methods: {
-    handleResize () {
-      this.windowWidth = window.innerWidth
-    },
-
-    async checkAuthentication () {
-      try {
-        const isAuthenticated = await checkAuthenticationCommon()
-        this.authenticated = isAuthenticated
-      } catch (error) {
-        console.error('Error checking authentication:', error)
-        // If refresh has failed in checkAuthenticationCommon, redirect to the login page.
-        router.push('/login')
-      }
-    },
-
-    async LogonRedirect () {
-      await this.checkAuthentication()
-      if (this.authenticated) {
-        const dashboardRoute = {
-          path: '/dashboard/',
-          query: { key: Date.now() } // To enable SPA "refresh" / remount
-        }
-        this.$router.push(dashboardRoute)
-      } else {
-        this.$router.push('/login/')
-      }
-    },
-
-    Logout () {
-      VueCookies.delete('access_token')
-      VueCookies.delete('refresh_token')
-
-      const csrfToken = VueCookies.get('csrftoken')
-
-      // Redirect to dashboard which will trigger update of header + redirect to login page
-      axios.post(`${API_BASE_URL}/accounts/logout/`, null, {
-        withCredentials: true,
-        headers: {
-          'X-CSRFToken': csrfToken
-        }
-      })
-        .then(() => {
-          // Redirect to the desired page after successful logout
-          this.authenticated = false
-          // router.push('/dashboard/')
-          this.LogonRedirect()
-        })
-        .catch(error => {
-          console.error('Error during logout:', error)
-        })
-    }
-  },
-
-  computed: {
-    showMenuIcon () {
-      const breakpoint = 950
-      return this.windowWidth <= breakpoint
+      authenticated,
+      showMenuIcon,
+      logonRedirect,
+      logout
     }
   }
 }
-
 </script>
 
 <style>
@@ -208,10 +139,9 @@ nav {
   transition: color 0.3s ease;
   border-radius: 5px;
 }
-
-//TBC if I replace with icon over "menu"
-//.menu-icon {
-//  width: 24px;
-//  height: 24px;
-//}
 </style>
+<!--TBC if I replace with icon over "menu"-->
+<!--.menu-icon {-->
+<!--  width: 24px;-->
+<!--  height: 24px;-->
+<!--}-->
