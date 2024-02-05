@@ -38,9 +38,9 @@ def can_fetch_url(url_to_check):
     return rules.can_fetch("*", url_to_check)
 
 
-def get_preview_image_url(url, timeout=PREVIEW_IMG_TIMEOUT):
+def get_preview_image_url(url):
     try:
-        response = requests.get(url, timeout=timeout)
+        response = requests.get(url, timeout=PREVIEW_IMG_TIMEOUT)
         if response.status_code == 200:
             soup = BeautifulSoup(response.text, 'html.parser')
 
@@ -640,7 +640,6 @@ class Article:
 
     def set_database_candidate_true(self):
         self.database_candidate = True
-        self.image_url = get_preview_image_url(self.url)
 
     def get_average_sentiment_results(self):
         self.sentiment_analyser.average_sentiment_results(self.database_id, self.bounds_sentiment,
@@ -680,6 +679,9 @@ class Article:
             )
             stats_model.save()
 
+            self.image_url = get_preview_image_url(self.url)
+            print(self.image_url)
+
         except Exception as e:
             print(f"Error saving article to the database: {e}")
 
@@ -712,6 +714,7 @@ class Article:
         all_stats_window = ArticleStatistics.objects.filter(
             article__publication_date__gte=search_window
         )
+        print(search_window)
 
         article_stats_for_this_article = ArticleStatistics.objects.filter(
             article_id=self.database_id)
@@ -759,6 +762,10 @@ class Article:
                 calculate_all_percentage_differences(pair)
                 saved_pair = SimilarArticlePair.objects.get(pk=pair.id)
 
+                # Can be a weaker strictness as this is determining whether to ignore and never
+                # see again.
+                # If lots of similar articles slips through we can tighten this up in
+                # views command.
                 if (
                         saved_pair.hash_similarity_score >= 90 or
                         (
