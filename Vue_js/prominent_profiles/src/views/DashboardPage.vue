@@ -2,8 +2,9 @@
   <div>
     <h1 v-if="userData">Hi {{ userData.first_name }}!</h1>
     <h2>Welcome to your dashboard</h2>
-
-    <p>Showing number of articles since your last site visit (excluding today's)</p>
+    <h3>You'll find your profile subscriptions here</h3>
+    <p> Each card shows the number of articles added since your last site visit (excluding
+      today's)</p>
     <SubProfilesGrid/>
   </div>
 </template>
@@ -46,5 +47,4 @@ onActivated(async () => {
   // Fetch user data when the component is activated to prevent old users name sticking around.
   userData.value = await fetchData()
 })
-
 </script>
