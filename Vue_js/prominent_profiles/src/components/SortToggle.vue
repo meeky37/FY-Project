@@ -58,6 +58,9 @@ export default {
     }
   },
 
+  mounted () {
+    this.setDateRangeFromURL()
+  },
   data () {
     return {
       sortType: 'sentiment', // Default to sentiment
@@ -79,6 +82,7 @@ export default {
       // console.log('Sort Toggle: Route parameter changed:', newId)
       // newId not defined? e.g. homepage don't attempt new API call.
       if (newId !== undefined) {
+        this.setDateRangeFromURL()
         this.$emit('updateSortType', this.sortType, this.isAscending)
         // console.log('Sort Toggle date range: :', this.dateRange)
         this.$emit('updateDateFilter', this.dateRange)
@@ -124,6 +128,19 @@ export default {
       this.previousDateRange = null
       this.$emit('updateSortType', this.sortType, this.isAscending)
       this.$emit('updateDateFilter', this.dateRange)
+    },
+    setDateRangeFromURL () {
+      const urlParams = new URLSearchParams(window.location.search)
+      const lastVisit = urlParams.get('last_visit')
+      if (lastVisit) {
+        const lastVisitDate = new Date(lastVisit)
+        const currentDate = new Date()
+        this.dateRange = {
+          start: lastVisitDate,
+          end: currentDate
+        }
+        this.$emit('updateDateFilter', this.dateRange)
+      }
     }
   }
 }
