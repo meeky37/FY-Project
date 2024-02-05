@@ -35,9 +35,11 @@
         :options="options"
         :re_render="re_render"
         @updateReRender="updateReRender"
+        class="flex-box"
       />
       <ArticleOtherEntities
         :Article="otherArticles"
+        class="flex-box"
       />
     </div>
   </div>
@@ -184,76 +186,45 @@ export default {
         })
     }
 
-    // getMediaUrl (bingEntity) {
-    // // Extract description URL from contractual rules
-    //   const mediaContract = bingEntity.contractual_rules.find(
-    //     (rule) => rule._type === 'ContractualRules/MediaAttribution' &&
-    //     rule.targetPropertyName === 'image'
-    //   )
-    //
-    //   const mediaUrl = mediaContract ? mediaContract.url : null
-    //   return mediaUrl
-    // },
 
-    // getAttributionMessage (bingEntity) {
-    //   const mediaUrl = this.getMediaUrl(bingEntity)
-    //   return `Attribution: ${mediaUrl}`
-    // },
-
-    // getDescriptionUrl (bingEntity) {
-    //   // Extract description URL from contractual rules
-    //   const descriptionContract = bingEntity.contractual_rules.find(
-    //     (rule) => rule._type === 'ContractualRules/LinkAttribution' &&
-    //       rule.targetPropertyName === 'description'
-    //   )
-    //   return descriptionContract ? descriptionContract.url : '#'
-    // },
-
-    // getDescriptionSource (bingEntity) {
-    //   // Extract description source text from contractual rules
-    //   const descriptionContract = bingEntity.contractual_rules.find(
-    //     (rule) => rule._type === 'ContractualRules/LinkAttribution' &&
-    //       rule.targetPropertyName === 'description'
-    //   )
-    //   return descriptionContract ? descriptionContract.text : 'Unknown Source'
-    // },
-
-    // formatDate (dateString) {
-    //   // Format the date string as desired
-    //   const options = { year: 'numeric', month: 'long', day: 'numeric' }
-    //   const date = new Date(dateString)
-    //   return date.toLocaleDateString(undefined, options)
-    //   }
-    // }
   }
 }
 </script>
 
 <style scoped>
+.content-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px;
+}
+
+.flex-box{
+  margin: 30px;
+}
+
+.article-box {
+  border: 1px solid #ccc;
+  min-width: 20vw;
+  max-width: 50vw;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 30px;
+}
+
+.article-photo img, .entity-photo img {
+  max-width: 90%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin: 30px auto;
+}
+
+@media screen and (max-width: 1200px) {
   .content-container {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
+    display: block;
+    text-align: center;
+    justify-content: center;
   }
-
-  .article-box {
-    border: 1px solid #ccc;
-    min-width: 20vw;
-    max-width: 50vw;
-    padding: 10px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-
-  .article-photo img{
-    max-width: 100%;
-    height: 30vh;
-    border-radius: 8px;
-  }
-
-.entity-photo img{
-  max-width: 100%;
-    height: 15vh;
-    border-radius: 8px;
 }
 </style>
