@@ -648,6 +648,9 @@ class Article:
 
     def save_to_database(self):
         try:
+
+            self.image_url = get_preview_image_url(self.url)
+
             article_model = ArticleModel.objects.create(
                 headline=self.headline,
                 url=self.url,
@@ -678,10 +681,6 @@ class Article:
                 with_count=self.linguistic_stats["with_count"],
             )
             stats_model.save()
-
-            self.image_url = get_preview_image_url(self.url)
-            print(self.image_url)
-
         except Exception as e:
             print(f"Error saving article to the database: {e}")
 
