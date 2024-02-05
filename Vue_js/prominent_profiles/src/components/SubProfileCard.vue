@@ -1,11 +1,20 @@
 <template>
-  <div>
-    <div class="card">
+  <div class="card">
+    <div class="header-container">
+      <h2 :class="{ 'loading': isLoading }" @click="redirectToEntityPage(this.lastVisit)">
+        {{ isLoading ? 'Loading...' : (bingEntity ? bingEntity.name : 'Entity Not Found') }}
+      </h2>
+      <div class="sub-button">
+      <SubscriptionButton :entityId=" entry ? entry.entity_id : null"/>
+        </div>
+
+    </div>
+    <div class="content-container">
       <div class="entity-photo-frame">
         <div class="entity-photo">
           <img
             v-if="bingEntity && bingEntity.image_url"
-            @click="redirectToEntityPage"
+            @click="redirectToEntityPage(this.lastVisit)"
             :src="bingEntity.image_url"
             alt="Entity Photo"
             style="width: 100px; height: auto; border-radius: 4px;"
@@ -22,7 +31,12 @@
         <p class="sentiment-count">{{ positiveArticle.length }}</p>
       </div>
 
-<!--      Neutral ??? -->
+      <div class="animated-neutral">
+        <p class="box-icon">
+          <font-awesome-icon :icon="['fas', 'circle-minus']" class="neutral" />
+        </p>
+        <p class="sentiment-count">{{ neutralArticle.length }}</p>
+      </div>
 
       <div class="animated-negative">
         <p class="box-icon">
@@ -31,11 +45,15 @@
         <p class="sentiment-count">{{ negativeArticle.length }}</p>
       </div>
     </div>
-  </div>
+    <div class="news-banner">
+  <div class="news-ticker" v-html="concatenatedHeadlines"></div>
+</div>
+    </div>
 </template>
 
 <script>
 import { API_BASE_URL } from '@/config'
+import SubscriptionButton from '@/components/SubscriptionButton.vue'
 import axios from 'axios'
 import {
   fetchEntityName,
@@ -54,14 +72,20 @@ export default {
     }
   },
 
+  components: {
+    SubscriptionButton
+  },
+
   data () {
     return {
       positiveArticle: [],
+      neutralArticle: [],
       negativeArticle: [],
-      currentPositiveIndex: 0,
-      currentNegativeIndex: 0,
+      currentArticleIndex: 0,
       bingEntity: null,
-      isLoading: false
+      isLoading: false,
+      currentArticle: null,
+      lastVisit: null
     }
   },
 
@@ -70,18 +94,33 @@ export default {
     this.fetchData()
   },
 
+  computed: {
+    allArticles () {
+      const combinedArticles = [...this.positiveArticle, ...this.neutralArticle, ...this.negativeArticle]
+      const sortByDate = (a, b) => new Date(b.publication_date) - new Date(a.publication_date)
+      return combinedArticles.sort(sortByDate)
+    },
+    concatenatedHeadlines () {
+      let string =
+        this.allArticles.map(article => this.removeBoldTags(article.headline)).join(' • ')
+      string = ' • ' + string
+      return string
+    }
+  },
   methods: {
     fetchData () {
       const entityId = this.entry.entity_id
-      const apiUrl = `${API_BASE_URL}/profiles_app/overall_sentiments/exp/${entityId}/`
+      const apiUrl = `${API_BASE_URL}/profiles_app/overall_sentiments/exp/${entityId}/?dashboard=true`
 
       this.positiveArticle = []
       this.neutralArticle = []
       this.negativeArticle = []
 
-      axios.get(apiUrl)
+      axios.get(apiUrl, { withCredentials: true })
         .then(response => {
-          const articles = response.data
+          const { data: articles, lastVisit } = response.data
+          this.lastVisit = lastVisit
+          console.log(this.lastVisit)
           articles.forEach(article => {
             if (parseFloat(article.positive) > parseFloat(article.neutral) && parseFloat(article.positive) > parseFloat(article.negative)) {
               this.positiveArticle.push(article)
@@ -104,25 +143,9 @@ export default {
       // focusing on recent / fresh.
       const sortByDate = (a, b) => new Date(b.publication_date) - new Date(a.publication_date)
       this.positiveArticle.sort(sortByDate)
+      this.neutralArticle.sort(sortByDate)
       this.negativeArticle.sort(sortByDate)
     },
-
-    // animateBoxes () {
-    //   setInterval(() => {
-    //     if (this.currentPositiveIndex === 5) {
-    //       this.currentPositiveIndex = 0
-    //     } else if (this.positiveArticle.length > 0) {
-    //       this.currentPositiveIndex =
-    //         (this.currentPositiveIndex + 1) % this.positiveArticle.length
-    //     }
-    //     if (this.currentNegativeIndex === 5) {
-    //       this.currentNegativeIndex = 0
-    //     } else if (this.negativeArticle.length > 0) {
-    //       this.currentNegativeIndex =
-    //         (this.currentNegativeIndex + 1) % this.negativeArticle.length
-    //     }
-    //   }, 5000)
-    // },
 
     removeBoldTags (htmlString) {
       return htmlString.replace(/<b>/g, '').replace(/<\/b>/g, '')
@@ -134,91 +157,6 @@ export default {
     getAttributionMessage,
     redirectToEntityPage,
     viewArticleDetail
-
-    // async fetchMiniBingEntity () {
-    //   const id = this.entry.entity_id
-    //   console.log(id)
-    //   const apiUrl = `${API_BASE_URL}/profiles_app/bing_entities/mini/${id}/`
-    //
-    //   try {
-    //     const response = await fetch(apiUrl)
-    //     const data = await response.json()
-    //
-    //     if (data && Object.keys(data).length > 0) {
-    //       this.bingEntity = data
-    //     } else {
-    //       await this.fetchEntityName(id)
-    //     }
-    //   } catch (error) {
-    //     console.error('Error fetching BingEntity:', error)
-    //     // Bing data may not be available e.g. app_visible is false in db or bing api job not ran yet.
-    //     await this.fetchEntityName(id)
-    //   }
-    // },
-
-    // async fetchEntityName (entityId) {
-    //   const nameApiUrl = `${API_BASE_URL}/profiles_app/entity_name/${entityId}/`
-    //
-    //   try {
-    //     const nameResponse = await fetch(nameApiUrl)
-    //     const nameData = await nameResponse.json()
-    //
-    //     if (nameData && 'name' in nameData) {
-    //       console.log(nameData.name)
-    //       this.bingEntity = {
-    //         id: entityId,
-    //         name: nameData.name,
-    //         description: null,
-    //         image_url: null,
-    //         web_search_url: `https://www.google.com/search?q=${encodeURIComponent(nameData.name)}`,
-    //         bing_id: null,
-    //         contractual_rules: null,
-    //         entity_type_display_hint: null,
-    //         entity_type_hints: null,
-    //         date_added: null
-    //       }
-    //       console.log(this.bingEntity.web_search_url)
-    //     } else {
-    //       console.error('Entity name not found for ID:', entityId)
-    //     }
-    //   } catch (error) {
-    //     console.error('Error fetching entity name:', error)
-    //   }
-    // },
-
-    // getMediaUrl (bingEntity) {
-    // // Extract description URL from contractual rules
-    //   const mediaContract = bingEntity.contractual_rules.find(
-    //     (rule) => rule._type === 'ContractualRules/MediaAttribution' &&
-    //     rule.targetPropertyName === 'image'
-    //   )
-    //
-    //   const mediaUrl = mediaContract ? mediaContract.url : null
-    //   return mediaUrl
-    // },
-
-    // getAttributionMessage (bingEntity) {
-    //   if (bingEntity && bingEntity.contractual_rules) {
-    //     const mediaUrl = this.getMediaUrl(bingEntity)
-    //     return `Attribution: ${mediaUrl}`
-    //   } else {
-    //     return 'Attribution: Not available'
-    //   }
-    // },
-    //
-    // redirectToEntityPage () {
-    //   // Redirect to the URL related to the selected entity
-    //   if (this.entry.entity_id) {
-    //     this.$router.push('/entity/' + this.entry.entity_id)
-    //   }
-    // },
-    //
-    // viewArticleDetail (articleID) {
-    //   const articleId = articleID
-    //   const entityId = this.entry.entity_id
-    //   this.$router.push({ name: 'entryId', params: { entityId, articleId } })
-    // }
-
   }
 }
 </script>
@@ -227,63 +165,126 @@ export default {
   .card {
     position: relative;
     overflow: hidden;
-    padding: 15px;
-    margin: 15px;
+    margin: 0px;
     border: 1px solid #ddd;
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-width: 300px;
-    height: 520px;
-    flex-direction: row
-  }
-
-  .entity-photo-frame {
-    border: 3px solid #755BB4;
-    border-radius: 8px;
-    overflow: visible;
-  }
-
-  .entity-photo {
-    position: relative;
-    cursor: pointer;
-  }
-
-  .entity-photo img {
-    margin: 0;
-    width: auto;
-    height: 100%;
-    vertical-align: bottom;
-    border-radius: 4px;
-  }
-
-  .animated-positive, .animated-negative {
-    width: 20%;
-    height: 100%;
-    padding: 15px;
-    text-align: center;
-    display: flex;
+    height: 275px;
+    width:400px;
     flex-direction: column;
-    align-items: center;
   }
 
-  .sentiment-count {
-    font-size: 2em;
+  .content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+.sentiment-count {
+  font-size: 1.5em;
+}
+
+.entity-photo img {
+  max-height: 80%;
+}
+
+.entity-photo-frame {
+  border: 3px solid #755BB4;
+  border-radius: 8px;
+  overflow: visible;
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+
+.entity-photo {
+  position: relative;
+  cursor: pointer;
+}
+
+.entity-photo img {
+  margin: 0;
+  width: auto;
+  height: 100%;
+  vertical-align: bottom;
+  border-radius: 4px;
+}
+
+.animated-positive, .animated-negative, .animated-neutral {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center items vertically inside the mid-section of the sub card */
+  align-items: center;
+  height: auto;
+}
+.header-container h2 {
+  margin-left: 50px;
+  cursor: pointer;
+}
+.sentiment-count {
+  font-size: 2em;
+}
+
+  .box-icon {
+    margin: 20px;
   }
 
   .positive {
     color: mediumseagreen;
     font-size: 2em;
+    margin-top: 10px;
   }
 
   .negative {
     color: indianred;
     font-size: 2em;
+    margin-top: 10px;
   }
 
   .neutral {
     color: deepskyblue;
     font-size: 2em;
+    margin-top: 10px;
   }
+
+  .header-container{
+    display: flex;
+    flex-direction: row;
+    height:20px;
+    width: auto;
+    white-space: nowrap;
+    margin-bottom: 20px;
+  }
+
+  .sub-button {
+    margin-top: 20px;
+  }
+.news-banner {
+  overflow: visible;
+  white-space: nowrap;
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin-top: -7px;
+}
+
+.news-ticker {
+  display: block; /* Ensures the ticker takes up the full width for its content */
+  white-space: nowrap;
+  position: relative;
+  width: auto;
+  animation: scroll-news linear infinite;
+  animation-duration: 250s; /* Adjust based on desired speed */
+  font-size: x-large;
+}
+
+@keyframes scroll-news {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-5000%);
+  }
+}
 </style>
