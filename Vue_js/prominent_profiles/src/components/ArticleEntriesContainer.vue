@@ -115,7 +115,7 @@ export default {
 
       axios.get(apiUrl)
         .then(response => {
-          const articles = response.data
+          const { data: articles } = response.data
 
           articles.forEach(article => {
             if (parseFloat(article.positive) > parseFloat(article.neutral) && parseFloat(article.positive) > parseFloat(article.negative)) {
