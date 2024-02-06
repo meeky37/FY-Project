@@ -6,7 +6,7 @@ from profiles_app.models import Article
 class ArticleStatistics(models.Model):
     article = models.OneToOneField(Article, on_delete=models.CASCADE, primary_key=True)
 
-    fuzzy_hash = models.CharField(max_length=64, null=True)
+    fuzzy_hash = models.CharField(max_length=128, null=True)
     word_count = models.IntegerField(null=True, blank=True)
     terms_count = models.IntegerField(null=True, blank=True)
     vocd = models.FloatField(null=True, blank=True)

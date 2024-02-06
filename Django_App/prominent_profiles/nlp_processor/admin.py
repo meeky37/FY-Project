@@ -31,6 +31,7 @@ class DuplicatePrediction(admin.SimpleListFilter):
         )
 
     def queryset(self, request, queryset):
+        # TODO: QUESTION MARK OVER wether this filtering works!
         if self.value() == 'high':
             return queryset.filter(hash_similarity_score__gte=90) | (
                 queryset.filter(
@@ -58,7 +59,8 @@ class DuplicatePrediction(admin.SimpleListFilter):
 class SimilarArticlePairAdmin(admin.ModelAdmin):
     list_display = ['id', 'article1', 'article2', 'hash_similarity_score', 'words_diff',
                     'terms_diff',
-                    'yulek_diff', 'avg_count_diff', 'simpsond_diff', 'the_diff', 'and_diff',
+                    'yulek_diff', 'vocd_diff', 'avg_count_diff', 'simpsond_diff', 'the_diff',
+                    'and_diff',
                     'is_diff', 'of_diff', 'in_diff', 'to_diff', 'it_diff', 'that_diff',
                     'with_diff']
     list_filter = [DuplicatePrediction]

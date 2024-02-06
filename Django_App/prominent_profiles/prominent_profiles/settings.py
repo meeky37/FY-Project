@@ -12,6 +12,8 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 import os
 from pathlib import Path
 
+from .constants import DB_PASSWORD
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -72,8 +74,6 @@ MIDDLEWARE = [
     'accounts.middleware.UserActivityMiddleware',
 ]
 
-
-
 # CORS_TRUSTED_ORIGINS = ["http://localhost:8080",
 #                         "http://localhost:8084",  # Obviously, do not use in production.
 #                         "http://localhost:8081",
@@ -87,7 +87,6 @@ MIDDLEWARE = [
 #                         ]
 
 CORS_ALLOWED_ORIGINS = ["http://localhost:8080"]
-
 
 CORS_ALLOW_HEADERS = [
     'accept',
@@ -154,10 +153,21 @@ WSGI_APPLICATION = 'prominent_profiles.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'prominent_profiles',
+        'USER': 'django_access',
+        'PASSWORD': DB_PASSWORD,
+        'HOST': 'localhost',
+        'PORT': '',
     }
 }
 

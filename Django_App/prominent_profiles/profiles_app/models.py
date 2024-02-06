@@ -4,8 +4,8 @@ from django.db import models
 
 class Article(models.Model):
     headline = models.CharField(max_length=255, null=True)
-    url = models.CharField(max_length=255, unique=True)
-    image_url = models.CharField(max_length=255, null=True, blank=True)
+    url = models.CharField(max_length=500, unique=True)
+    image_url = models.CharField(max_length=500, null=True, blank=True)
     publication_date = models.DateTimeField(null=True, blank=True)
     author = models.CharField(max_length=255, null=True, blank=True)
     site_name = models.CharField(max_length=255, null=True, blank=True)
@@ -16,7 +16,7 @@ class Article(models.Model):
 
 class Entity(models.Model):
     source_article = models.ForeignKey(Article, on_delete=models.CASCADE)
-    name = models.CharField(max_length=50)
+    name = models.CharField(max_length=100)
     type = models.CharField(max_length=50, null=True, blank=True)
     app_visible = models.BooleanField(
         default=False)  # So web admins can filter live entities on app.
