@@ -23,4 +23,11 @@ jobs:
         run: |
           docker-compose build
           docker-compose push
-        working-directory: ./Django_App/prominent_profiles
+        env:
+          RUNNING_IN_DOCKER: ${{ secrets.RUNNING_IN_DOCKER }}
+          SECRET_KEY: ${{ secrets.SECRET_KEY }}
+          DB_NAME: ${{ secrets.DB_NAME }}
+          DB_USER: ${{ secrets.DB_USER }}
+          DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
+          DB_HOST: ${{ secrets.DB_HOST }}
+        working-directory: ./Django_App/prominent_profiles  
