@@ -1,0 +1,3141 @@
+[
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=SNP",
+        "queryContext": {
+            "originalQuery": "SNP",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 11700,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=SNP"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=SNP&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Fewer than third of Scots believe Nicola Sturgeon\u2019s claim she did not politicise Covid crisis",
+                "url": "https://www.telegraph.co.uk/news/2024/02/07/nicola-sturgeons-claim-she-did-not-politicise-covid-not-bel/",
+                "description": "A new survey found that despite Sturgeon insisting she had not sought to play politics with the pandemic, this was widely rejected",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40ff83fa-c18c-9216-49aa-77a9d6a5cc28",
+                        "name": "Nicola Sturgeon"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/92d9ffee-a893-93a1-0099-8095803dd9fb",
+                        "name": "Fewer vs. less"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Nicola Sturgeon"
+                    },
+                    {
+                        "name": "Fewer vs. less"
+                    },
+                    {
+                        "name": "Scottish people"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T19:26:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Weekly audiences between King and PM expected to resume in two weeks",
+                "url": "https://www.standard.co.uk/news/politics/prime-minister-king-the-king-buckingham-palace-downing-street-b1137786.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.lhy6VevWudrPVeXiE79tHi&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Downing Street and Buckingham Palace took the unusual step of confirming details of a call between the Prime Minister and the King on Wednesday.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e41ece6a-b834-88d8-8222-14c991733021",
+                        "name": "Elvis Presley"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b327a4f2-7f7a-a27c-60e2-d0d254922e0c",
+                        "name": "Downing Street"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Elvis Presley"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Downing Street"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T19:12:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "King Charles holds weekly audience with Rishi Sunak by phone post cancer diagnosis",
+                "url": "https://www.express.co.uk/news/politics/1864321/king-charles-holds-weekly-audience-rishi-sunak-by-phone",
+                "description": "Downing Street and Buckingham Palace took the unusual step of sharing details about the meeting in an attempt to show the King was carrying on with his duties.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/607bf330-283c-e25d-6b64-69bbd33d5b72",
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Daily Express"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T18:51:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Jackie Baillie is quick to condemn the <b>SNP</b>, but not to apologise",
+                "url": "https://www.thenational.scot/politics/24105198.jackie-baillie-quick-condemn-snp-not-apologise/",
+                "description": "WE were treated on Wednesday morning to a diatribe from Dame Jackie Baillie for nearly nine minutes, complaining about the wrong coding of women",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3caace6a-b44d-cc19-ce25-6eba39b8f5a3",
+                        "name": "Jackie Baillie"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T18:50:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "The Settled Will",
+                "url": "https://bellacaledonia.org.uk/2024/02/07/the-settled-will/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.TFK0rMT6GUgUQnaSfSpuzy&pid=News",
+                        "width": 700,
+                        "height": 700
+                    }
+                },
+                "description": "How do you understand the latest polling from IPSOS which puts the SNP ahead of Labour by seven points and predicts they would pick up 40 seats in the next General Election? At the last general",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/766f56ee-d335-6b66-af5a-726f5c43ae30",
+                        "name": "Caledonia"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Bella Caledonia",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.tK8F44QNDpYNOfAyBOXG5g&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T18:18:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Glasgow man jailed for assaulting friend with bottle loses private hire bid",
+                "url": "https://www.glasgowlive.co.uk/news/glasgow-news/glasgow-man-jailed-assaulting-friend-28589084",
+                "description": "The applicant had a series of convictions, which were all spent, but Police Scotland, which objected to the application, believed they were relevant to the committee.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/da2548ee-1b26-f939-06b4-2fae57e075e7",
+                        "name": "Glasgow"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Glasgow"
+                    },
+                    {
+                        "name": "Friendship"
+                    },
+                    {
+                        "name": "Parable of the Good Samaritan"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "glasgowlive.co.uk",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.haisjyZ0cCjPO4PVMByWLw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T18:09:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Alarm raised as <b>SNP</b> ministers decide to leave \u2018crumbling\u2019 concrete in NHS buildings",
+                "url": "https://www.thescottishsun.co.uk/news/11935463/alarm-snp-crumbling-concrete-nhs-buildings/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.SsyT2DB4Vltt3ne-BZiwzy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "SNP ministers have been accused of risking \u201ccatastrophe\u201d after revealing they will leave so-called crumbling concrete in 35 NHS buildings. Health Secretary Michael Matheson disclosed the decision",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Scottish Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.pEepZhHtUOU2Dr7E3jedjg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T17:58:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Sauchiehall Street &#39;skyscraper&#39; roof row ends with planning permission go-ahead",
+                "url": "https://www.glasgowlive.co.uk/news/glasgow-news/sauchiehall-street-skyscraper-roof-row-28589038",
+                "description": "A councillor said there isn&#39;t an issue over seeing changes to the roof unless you are passing in a helicopter.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0262c7bd-2e33-ceb2-1e74-3d17c7dd6534",
+                        "name": "Sauchiehall Street"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/da2548ee-1b26-f939-06b4-2fae57e075e7",
+                        "name": "Glasgow"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Sauchiehall Street"
+                    },
+                    {
+                        "name": "Glasgow"
+                    },
+                    {
+                        "name": "Aquarium Development"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "glasgowlive.co.uk",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.haisjyZ0cCjPO4PVMByWLw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T17:37:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Sunak ignores Flynn&#39;s calls to apologise over &#39;crude&#39; \u00a31,000 Rwanda bet",
+                "url": "https://news.stv.tv/politics/rishi-sunak-ignores-snps-stephen-flynns-calls-to-apologise-over-1000-rwanda-bet-with-piers-morgan",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.K0e6dYSmojcHAjBH7a5L-S&pid=News",
+                        "width": 700,
+                        "height": 450
+                    }
+                },
+                "description": "The SNP Westminster leader said Rishi Sunak had demeaned asylum seekers and degraded the office of Prime Minister.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d6bb36e2-0cdf-a92d-9b92-2d0eb39c7da1",
+                        "name": "Stephen Flynn"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40caaaa3-1d34-aee8-d89f-7be6b283a917",
+                        "name": "Piers Morgan"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "news.stv",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CZWPk4et8WgNjtL6sI0C_g&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T17:19:00.0000000Z"
+            },
+            {
+                "name": "Badenoch accuses Starmer of exploiting Brianna Ghey tragedy after Sunak makes trans jibe during PMQs \u2013 as it happened",
+                "url": "https://www.theguardian.com/politics/live/2024/feb/07/rishi-sunak-pmqs-victoria-atkins-labour-conservatives-nhs-dentists-politics-live?filterKeyEvents=false&page=with:block-65c3726b8f080dbfe0e9b3db",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Ppy1SBvkfi0zxTIKT8vJPi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Kemi Badenoch accuses Labour leader of \u2018political point-scoring\u2019 after he condemned Rishi Sunak\u2019s comments in PMQs",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T16:53:00.0000000Z"
+            },
+            {
+                "name": "Yousaf the nationalist is condemned by his own words",
+                "url": "https://www.thetimes.co.uk/article/yousaf-the-nationalist-is-condemned-by-his-own-words-f3b65p2rs",
+                "description": "The great thing about Humza Yousaf is that he never knows when to stop talking. The first minister is an affable fellow who can scarcely pass a microphone without succumbing to the urge to share his thoughts. There are times when he makes Joe Biden seem a ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6d99b564-d527-5061-2ebd-f97730898d38",
+                        "name": "Humza Yousaf"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times"
+                    }
+                ],
+                "datePublished": "2024-02-07T16:49:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "<b>SNP</b> press UK Government on compensation bill for Waspi women",
+                "url": "https://www.thenational.scot/news/24104666.snp-press-uk-government-compensation-bill-waspi-women/",
+                "description": "THE\u00a0SNP\u00a0are pushing the UK Government to introduce a compensation scheme for women impacted by increases in the state pension age.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T16:07:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Rishi Sunak&#39;s transgender jibe as Brianna Ghey&#39;s mother in attendance is latest misstep from a Prime Minister who can&#39;t adapt",
+                "url": "https://www.scotsman.com/news/politics/rishi-sunaks-transgender-jibe-as-brianna-gheys-mother-in-attendance-is-latest-misstep-from-a-prime-minister-who-cant-adapt-4509331",
+                "description": "The joke was made as the mother of murdered teenager Brianna Ghey was at the Houses of Parliament. Esther Ghey was understood not to be in the public gallery for the immediate exchange, but entered later. Frankly, this does not matter.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/864f968f-789a-71af-38d1-2ea3bd15e33a",
+                        "name": "Jibe"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Jibe"
+                    },
+                    {
+                        "name": "Prime Minister of the United Kingdom"
+                    },
+                    {
+                        "name": "Prime minister"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Scotsman",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.QlHkHD_RALY4hnQHpw7jBw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T16:05:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Yousaf hopes ministers\u2019 discussion of mental health will help end stigma",
+                "url": "https://news.stv.tv/politics/humza-yousaf-hopes-ministers-discussion-of-mental-health-will-help-end-stigma",
+                "description": "Humza Yousaf has said he hopes he and other ministers discussing their mental health will help to end stigma around the issue. The First Minister said the political environment can be \u201ctoxic\u201d due to intrusion into private lives and public \u201ccharacter assassinations\u201d \u2013 acknowledging he has sometimes played a role in this himself.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6d99b564-d527-5061-2ebd-f97730898d38",
+                        "name": "Humza Yousaf"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/92d09a68-306e-0774-fa19-09c35bb93b91",
+                        "name": "STV News at Six"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/69d6f608-f056-71fa-5ee9-79d97d9d6a04",
+                        "name": "Mental illness"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "news.stv",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CZWPk4et8WgNjtL6sI0C_g&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T15:47:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Analysis: Snap general election? Why we\u2019ll know by mid March if May vote is off table",
+                "url": "https://uk.news.yahoo.com/analysis-snap-general-election-why-154320830.html",
+                "description": "Around Westminster and Holyrood, at meetings of local party groups, and indeed in newsrooms up and down the country, everyone is wondering &#39;when is the general election?&#39;",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/74963fe6-53f1-3dd9-4768-1580455e5af2",
+                        "name": "Snap"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8d8aa22b-becb-80d8-677c-a3161e16cbf5",
+                        "name": "General election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T15:43:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Snap general election? Why we\u2019ll know by mid March",
+                "url": "https://www.heraldscotland.com/news/24104532.snap-general-election-know-mid-march/",
+                "description": "First Minister Humza Yousaf certainly wasn&#39;t ruling it out when he gathered the <b>SNP</b> to the Oran Mor venue in Glasgow&#39;s west end near the start of the year to launch his party&#39;s campaign and unveil his candidates. Still smarting from the Rutherglen defeat ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8d8aa22b-becb-80d8-677c-a3161e16cbf5",
+                        "name": "General election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "heraldscotland"
+                    }
+                ],
+                "datePublished": "2024-02-07T15:43:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>SNP</b>\u2019s lead over Labour is narrowing, poll shows",
+                "url": "https://www.thetimes.co.uk/article/snps-lead-over-labour-is-narrowing-poll-shows-hvvqt2gvv",
+                "description": "Labour has narrowed its gap with the SNP in voting for the next general election, according to the latest polling. The SNP remains ahead in Westminster voting intentions with a seven-point lead over Labour,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e320dd44-b39b-fd9b-7883-0fe89bb44ace",
+                        "name": "Poll"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T15:40:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "PMQs sketch: Rishi Sunak misfires with transgender jibe as &#39;out of touch&#39; PM slammed in heated Commons clash",
+                "url": "https://uk.news.yahoo.com/pmqs-sketch-rishi-sunak-misfires-142213112.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.GffzhGcFlG5H14lNVmbJiy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The PM ignored a subsequent invitation from Labour MP Liz Twist to apologise to Mrs Ghey for his \u201cinsensitive comment\u201d, before using his very last answer of the session to belatedly praise Brianna\u2019s mother as representing \u201cthe very best of humanity in the face of seeing the very worst of humanity\u201d.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/bb5b7e64-0116-14d0-43de-fdf498ddcc2a",
+                        "name": "Sketch"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/864f968f-789a-71af-38d1-2ea3bd15e33a",
+                        "name": "Jibe"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T14:22:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>SNP</b> lead Labour by seven points in new election polling",
+                "url": "https://www.holyrood.com/news/view,snp-lead-labour-by-seven-points-in-new-election-polling",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.UIvFNAIvFnBBvfVL2SV2JS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The SNP lead Labour by seven points on general election voting intentions, according to a new poll by Ipsos Scotland and STV News. It shows that the gap in voting intentions is narrowing between the two parties, falling relatively sharply from the largest gap in recent times of 26 points in December 2022.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/599e96eb-d236-4624-b29d-70f60edfb4a4",
+                        "name": "Election"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/73330ccf-2058-8665-ac51-06760ab18194",
+                        "name": "Scottish National Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Holyrood",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PBW12iOhRPFNmsyxmjiBqw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T13:54:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Public to have say on plans to close eight police stations",
+                "url": "https://www.glasgowtimes.co.uk/news/24103972.public-say-plans-close-eight-police-stations/",
+                "description": "Plans to close eight police stations in Greater Glasgow, including city centre site currently\u00a0open 24/7, are to be put to the public.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/da2548ee-1b26-f939-06b4-2fae57e075e7",
+                        "name": "Glasgow"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9b299376-4a9c-2b92-d586-5c1578825e78",
+                        "name": "Police station"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "glasgowtimes"
+                    }
+                ],
+                "datePublished": "2024-02-07T13:43:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Starmer \u2018to announce scaling back of \u00a328 billion-a-year green pledge\u2019",
+                "url": "https://www.standard.co.uk/news/politics/labour-rachel-reeves-keir-starmer-laura-trott-gdp-b1137797.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.AgZrpf7yt-9CJky_OE4Lhy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "It\u2019s a weak and short-sighted U-turn Stephen Flynn, <b>SNP</b> Chief Secretary to the Treasury Laura Trott said: \u201cThis is a serious moment which confirms Labour have no plan for the UK, creating uncertainty for business and our economy. On the day that Labour ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/44912ba0-6f05-8470-af62-7b2639fa6d05",
+                        "name": "Rachel Reeves"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/63a6ef59-71fd-db08-08c6-d47d973d47fb",
+                        "name": "Keir Starmer"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "datePublished": "2024-02-07T00:00:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=SNP",
+        "queryContext": {
+            "originalQuery": "SNP",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 11700,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=SNP"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=SNP&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Fewer than third of Scots believe Nicola Sturgeon\u2019s claim she did not politicise Covid crisis",
+                "url": "https://www.telegraph.co.uk/news/2024/02/07/nicola-sturgeons-claim-she-did-not-politicise-covid-not-bel/",
+                "description": "A new survey found that despite Sturgeon insisting she had not sought to play politics with the pandemic, this was widely rejected",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40ff83fa-c18c-9216-49aa-77a9d6a5cc28",
+                        "name": "Nicola Sturgeon"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/92d9ffee-a893-93a1-0099-8095803dd9fb",
+                        "name": "Fewer vs. less"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Nicola Sturgeon"
+                    },
+                    {
+                        "name": "Fewer vs. less"
+                    },
+                    {
+                        "name": "Scottish people"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T19:26:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Weekly audiences between King and PM expected to resume in two weeks",
+                "url": "https://www.standard.co.uk/news/politics/prime-minister-king-the-king-buckingham-palace-downing-street-b1137786.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.lhy6VevWudrPVeXiE79tHi&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Downing Street and Buckingham Palace took the unusual step of confirming details of a call between the Prime Minister and the King on Wednesday.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e41ece6a-b834-88d8-8222-14c991733021",
+                        "name": "Elvis Presley"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b327a4f2-7f7a-a27c-60e2-d0d254922e0c",
+                        "name": "Downing Street"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Elvis Presley"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Downing Street"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T19:12:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "King Charles holds weekly audience with Rishi Sunak by phone post cancer diagnosis",
+                "url": "https://www.express.co.uk/news/politics/1864321/king-charles-holds-weekly-audience-rishi-sunak-by-phone",
+                "description": "Downing Street and Buckingham Palace took the unusual step of sharing details about the meeting in an attempt to show the King was carrying on with his duties.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/607bf330-283c-e25d-6b64-69bbd33d5b72",
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Daily Express"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T18:51:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "The Settled Will",
+                "url": "https://bellacaledonia.org.uk/2024/02/07/the-settled-will/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.TFK0rMT6GUgUQnaSfSpuzy&pid=News",
+                        "width": 700,
+                        "height": 700
+                    }
+                },
+                "description": "How do you understand the latest polling from IPSOS which puts the SNP ahead of Labour by seven points and predicts they would pick up 40 seats in the next General Election? At the last general",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/766f56ee-d335-6b66-af5a-726f5c43ae30",
+                        "name": "Caledonia"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Bella Caledonia",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.tK8F44QNDpYNOfAyBOXG5g&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T18:18:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Glasgow man jailed for assaulting friend with bottle loses private hire bid",
+                "url": "https://www.glasgowlive.co.uk/news/glasgow-news/glasgow-man-jailed-assaulting-friend-28589084",
+                "description": "The applicant had a series of convictions, which were all spent, but Police Scotland, which objected to the application, believed they were relevant to the committee.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/da2548ee-1b26-f939-06b4-2fae57e075e7",
+                        "name": "Glasgow"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Glasgow"
+                    },
+                    {
+                        "name": "Friendship"
+                    },
+                    {
+                        "name": "Parable of the Good Samaritan"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "glasgowlive.co.uk",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.haisjyZ0cCjPO4PVMByWLw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T18:09:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Alarm raised as <b>SNP</b> ministers decide to leave \u2018crumbling\u2019 concrete in NHS buildings",
+                "url": "https://www.thescottishsun.co.uk/news/11935463/alarm-snp-crumbling-concrete-nhs-buildings/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.SsyT2DB4Vltt3ne-BZiwzy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "SNP ministers have been accused of risking \u201ccatastrophe\u201d after revealing they will leave so-called crumbling concrete in 35 NHS buildings. Health Secretary Michael Matheson disclosed the decision",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Scottish Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.pEepZhHtUOU2Dr7E3jedjg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T17:58:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Sauchiehall Street &#39;skyscraper&#39; roof row ends with planning permission go-ahead",
+                "url": "https://www.glasgowlive.co.uk/news/glasgow-news/sauchiehall-street-skyscraper-roof-row-28589038",
+                "description": "A councillor said there isn&#39;t an issue over seeing changes to the roof unless you are passing in a helicopter.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0262c7bd-2e33-ceb2-1e74-3d17c7dd6534",
+                        "name": "Sauchiehall Street"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/da2548ee-1b26-f939-06b4-2fae57e075e7",
+                        "name": "Glasgow"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Sauchiehall Street"
+                    },
+                    {
+                        "name": "Glasgow"
+                    },
+                    {
+                        "name": "Aquarium Development"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "glasgowlive.co.uk",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.haisjyZ0cCjPO4PVMByWLw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T17:37:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Sunak ignores Flynn&#39;s calls to apologise over &#39;crude&#39; \u00a31,000 Rwanda bet",
+                "url": "https://news.stv.tv/politics/rishi-sunak-ignores-snps-stephen-flynns-calls-to-apologise-over-1000-rwanda-bet-with-piers-morgan",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.K0e6dYSmojcHAjBH7a5L-S&pid=News",
+                        "width": 700,
+                        "height": 450
+                    }
+                },
+                "description": "The SNP Westminster leader said Rishi Sunak had demeaned asylum seekers and degraded the office of Prime Minister.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d6bb36e2-0cdf-a92d-9b92-2d0eb39c7da1",
+                        "name": "Stephen Flynn"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40caaaa3-1d34-aee8-d89f-7be6b283a917",
+                        "name": "Piers Morgan"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "news.stv",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CZWPk4et8WgNjtL6sI0C_g&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T17:19:00.0000000Z"
+            },
+            {
+                "name": "Badenoch accuses Starmer of exploiting Brianna Ghey tragedy after Sunak makes trans jibe during PMQs \u2013 as it happened",
+                "url": "https://www.theguardian.com/politics/live/2024/feb/07/rishi-sunak-pmqs-victoria-atkins-labour-conservatives-nhs-dentists-politics-live?filterKeyEvents=false&page=with:block-65c3726b8f080dbfe0e9b3db",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Ppy1SBvkfi0zxTIKT8vJPi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Kemi Badenoch accuses Labour leader of \u2018political point-scoring\u2019 after he condemned Rishi Sunak\u2019s comments in PMQs",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T16:53:00.0000000Z"
+            },
+            {
+                "name": "<b>SNP</b> press UK Government on compensation bill for Waspi women",
+                "url": "https://www.thenational.scot/news/24104666.snp-press-uk-government-compensation-bill-waspi-women/",
+                "description": "THE\u00a0SNP\u00a0are pushing the UK Government to introduce a compensation scheme for women impacted by increases in the state pension age.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T16:07:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Rishi Sunak&#39;s transgender jibe as Brianna Ghey&#39;s mother in attendance is latest misstep from a Prime Minister who can&#39;t adapt",
+                "url": "https://www.scotsman.com/news/politics/rishi-sunaks-transgender-jibe-as-brianna-gheys-mother-in-attendance-is-latest-misstep-from-a-prime-minister-who-cant-adapt-4509331",
+                "description": "The joke was made as the mother of murdered teenager Brianna Ghey was at the Houses of Parliament. Esther Ghey was understood not to be in the public gallery for the immediate exchange, but entered later. Frankly, this does not matter.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/864f968f-789a-71af-38d1-2ea3bd15e33a",
+                        "name": "Jibe"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Jibe"
+                    },
+                    {
+                        "name": "Prime Minister of the United Kingdom"
+                    },
+                    {
+                        "name": "Prime minister"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Scotsman",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.QlHkHD_RALY4hnQHpw7jBw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T16:05:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "<b>SNP</b>\u2019s lead over Labour is narrowing, poll shows",
+                "url": "https://www.thetimes.co.uk/article/snps-lead-over-labour-is-narrowing-poll-shows-hvvqt2gvv",
+                "description": "Labour has narrowed its gap with the SNP in voting for the next general election, according to the latest polling. The SNP remains ahead in Westminster voting intentions with a seven-point lead over Labour,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e320dd44-b39b-fd9b-7883-0fe89bb44ace",
+                        "name": "Poll"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T15:40:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>SNP</b> lead Labour by seven points in new election polling",
+                "url": "https://www.holyrood.com/news/view,snp-lead-labour-by-seven-points-in-new-election-polling",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.UIvFNAIvFnBBvfVL2SV2JS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The SNP lead Labour by seven points on general election voting intentions, according to a new poll by Ipsos Scotland and STV News. It shows that the gap in voting intentions is narrowing between the two parties, falling relatively sharply from the largest gap in recent times of 26 points in December 2022.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/599e96eb-d236-4624-b29d-70f60edfb4a4",
+                        "name": "Election"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/73330ccf-2058-8665-ac51-06760ab18194",
+                        "name": "Scottish National Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Holyrood",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PBW12iOhRPFNmsyxmjiBqw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T13:54:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>SNP</b>&#39;s Mairi McAllan rules out formal review into A9 failings",
+                "url": "https://www.heraldscotland.com/news/24103936.snps-mairi-mcallan-rules-formal-review-a9-failings/",
+                "description": "Scotland\u2019s Transport Secretary has ruled out a formal internal review into the \u201ccomplete failure\u201d of dualling the A9 by\u00a0the original",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "heraldscotland",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PjDUWS-WIq7w595SCRQefg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T13:35:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "The Royal family teams up with cancer charities MacMillan and Maggie&#39;s Centre on Instagram to raise awareness and &#39;encourage others to reach out for support&#39; after King&#39;s diagnosis",
+                "url": "https://www.dailymail.co.uk/news/article-13056479/Royal-family-cancer-charities-MacMillan-Maggies-Centre-Instagram-Kings-diagnosis.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.tW7SM73w4Wvmg24OI9RAVS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The royal family has partnered with several leading cancer charities to promote support for those suffering from cancer and their loved ones.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/55d338da-62fb-d0db-a98f-8663c600a6bb",
+                        "name": "Maggie&#39;s Centres"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/07c2e835-fab3-fd0c-4e24-56ebee0b8912",
+                        "name": "Diagnosis"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e708f4ba-ad83-1837-f34a-a69a6dd30b81",
+                        "name": "British Royal Family"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Maggie&#39;s Centres"
+                    },
+                    {
+                        "name": "Diagnosis"
+                    },
+                    {
+                        "name": "British Royal Family"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T13:10:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Rishi Sunak refuses to apologise for &#39;crude&#39; \u00a31,000 bet on Rwanda asylum scheme",
+                "url": "https://www.manchestereveningnews.co.uk/news/uk-news/rishi-sunak-refuses-apologise-crude-28586416",
+                "description": "The Prime Minister shook hands with TalkTV presenter Piers Morgan when he was offered a charity bet that ministers would not be able to send asylum seekers to Rwanda by the time of the election.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Rwanda"
+                    },
+                    {
+                        "name": "Scheme"
+                    },
+                    {
+                        "name": "Manchester Evening News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Manchester Evening News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.oxaa8-w2MDoXi5yOUu7A3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T13:06:00.0000000Z"
+            },
+            {
+                "name": "<b>SNP</b>: Public used to Tory leaders betting on lives of others",
+                "url": "https://www.bbc.co.uk/news/av/uk-politics-68228438",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT._TACYeD6c7qqfky0ZxBuCC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Stephen Flynn references the records of Boris Johnson and Liz Truss and his view of their effects on the public.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T13:02:00.0000000Z"
+            },
+            {
+                "name": "Scottish Labour accused of nicking famous <b>SNP</b> independence slogan",
+                "url": "https://www.thescottishsun.co.uk/news/politics/11934350/scottish-labour-nick-snp-slogan/",
+                "description": "SCOTTISH Labour were today accused of nicking one of the SNP\u2019s main slogans from the 2014 independence referendum. Anas Sarwar\u2019s party used the \u201cScotland\u2019s Future\u201d tag on a mailshot telling voters",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b2ee1c2f-cc28-8fb3-2c77-6414bb1cdb8e",
+                        "name": "Scottish Labour Party"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3623bb38-70d0-e19e-02a0-30bcea8b3a30",
+                        "name": "Slogan"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Scottish Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.pEepZhHtUOU2Dr7E3jedjg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T12:50:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>SNP</b> launch bill for women impacted by state pension age increase (WASPI)",
+                "url": "https://www.grampianonline.co.uk/news/snp-launch-bill-for-women-impacted-by-state-pension-age-incr-341562/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.bCY7nLcBXJageMkLQGiUZC&pid=News",
+                        "width": 700,
+                        "height": 481
+                    }
+                },
+                "description": "The <b>SNP</b>\u2019s Alan Brown MP will present a Bill today that, if passed, would force the UK government to publish proposals for a compensation scheme for women born in the 1950s impacted by increases in the state pension age. Over 250,000 women affected by ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0971edee-a353-8694-01cb-293dd8e72533",
+                        "name": "Pension"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "grampianonline"
+                    }
+                ],
+                "datePublished": "2024-02-07T12:39:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Poll: <b>SNP</b> lead in Scotland falls as Labour narrows the gap",
+                "url": "https://www.scotsman.com/news/politics/poll-snp-lead-in-scotland-falls-as-labour-narrows-the-gap-4508856",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ZjSDbFbglhXfJul2JqvbzC&pid=News",
+                        "width": 640,
+                        "height": 427
+                    }
+                },
+                "description": "The poll shows the SNP remains the most trusted party across a range of issues. However, Labour has narrowed the gap on all four of the issues surveyed \u2013 managing the NHS, growing Scotland\u2019s economy, managing education and schools, and tackling the cost-of-living crisis.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Scotland"
+                    },
+                    {
+                        "name": "Scottish National Party"
+                    },
+                    {
+                        "name": "Scottish Parliament"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Scotsman",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.QlHkHD_RALY4hnQHpw7jBw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T12:37:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>SNP</b> lead shrinks as Labour narrows gap - Ipsos/STV poll",
+                "url": "https://news.stv.tv/scotland/ipsos-poll-snp-lead-shrinks-as-labour-narrows-gap",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.W4_SvLbn9pODkPOnBDTKDS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "New poll by Ipsos&#39; Scottish Political Monitor - run in partnership with STV News - finds SNP hold a seven point lead over Labour.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/92d09a68-306e-0774-fa19-09c35bb93b91",
+                        "name": "STV News at Six"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/443cbaf0-8e4b-bfa6-812b-63a6812d6c58",
+                        "name": "Ipsos"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e320dd44-b39b-fd9b-7883-0fe89bb44ace",
+                        "name": "Poll"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "news.stv",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CZWPk4et8WgNjtL6sI0C_g&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T12:15:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>SNP</b> retains general election poll lead over Labour but direction of travel will &#39;worry&#39; Humza Yousaf",
+                "url": "https://www.dailyrecord.co.uk/news/politics/snp-retains-general-election-poll-32067785",
+                "description": "The latest survey of voting intentions shows Labour continuing to make ground but the Nationalists still out in front.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6d99b564-d527-5061-2ebd-f97730898d38",
+                        "name": "Humza Yousaf"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/746fde72-9ab7-cb2c-f98e-7799f758fbba",
+                        "name": "Solomon Islands general election, 2010"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e320dd44-b39b-fd9b-7883-0fe89bb44ace",
+                        "name": "Poll"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Humza Yousaf"
+                    },
+                    {
+                        "name": "Solomon Islands general election, 2010"
+                    },
+                    {
+                        "name": "Poll"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Record",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.B6nvPq26UTBuCaXH6tX71w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T11:34:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Juryless trials pilot unlikely to get off the ground",
+                "url": "https://www.scottishlegal.com/articles/juryless-trials-pilot-unlikely-to-get-off-the-ground",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.x9nyK8bnHvPRIKYiXgCUqi&pid=News",
+                        "width": 640,
+                        "height": 426
+                    }
+                },
+                "description": "Almost all of Scotland&#39;s defence solicitors are prepared to boycott the Scottish government&#39;s proposed juryless trials pilot, meaning it will most likely not run. Appearing before MSPs on Holyrood&#39;s Justice Committee,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Scottish Legal News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.vxSMjOIMTQ9gOPfPczJMuA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T11:27:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Glasgow local authority chief backs council tax freeze despite city facing \u00a3120m shortfall",
+                "url": "https://www.dailyrecord.co.uk/news/politics/glasgow-local-authority-chief-backs-32066629",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.c1TvKJFkAOYtC0wxlxzadC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Susan Aitken, who leads the SNP group on Scotland&#39;s largest local authority, described the council tax freeze as a &quot;no-brainer&quot;.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/da2548ee-1b26-f939-06b4-2fae57e075e7",
+                        "name": "Glasgow"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fb6f4f93-ce23-76a6-98b5-3ab6b5286762",
+                        "name": "Daily Record"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Glasgow"
+                    },
+                    {
+                        "name": "Daily Record"
+                    },
+                    {
+                        "name": "Local government"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Record",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.B6nvPq26UTBuCaXH6tX71w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T10:24:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "&#39;Hatred of <b>SNP</b>&#39; leaves Tory MSP looking &#39;petty&#39; on minimum pricing",
+                "url": "https://www.thenational.scot/news/24102892.hatred-snp-leaves-tory-msp-looking-petty-minimum-pricing/",
+                "description": "A TORY MSP\u2019s \u201chatred of the SNP\u201d left him looking \u201cfoolish\u201d over his claims about minimum unit pricing, the depute leader of the SNP",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T09:51:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Scotland&#39;s papers: Harry reunited with King and <b>SNP</b> finances probe",
+                "url": "https://www.bbc.com/news/articles/cmlgvpjm3ego",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.D8OmHryPwWe8gaFtorYxnC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "King Charles&#39; meeting with Harry and a call for a police update on the SNP inquiry make the front pages.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/54389684-d1e7-09ad-33b0-d0587d219a6e",
+                        "name": "King County"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Scotland"
+                    },
+                    {
+                        "name": "King County"
+                    },
+                    {
+                        "name": "Scottish National Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k3N4DqozNjgK376rAnFmsA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T07:14:00.0000000Z"
+            },
+            {
+                "name": "<b>SNP</b> will win 40 Scottish seats at next General Election, poll predicts",
+                "url": "https://uk.news.yahoo.com/snp-win-40-scottish-seats-121035323.html",
+                "description": "THE SNP would lead Labour by seven points and win 40 Scottish seats if a General Election were held tomorrow, a new poll has found",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/73330ccf-2058-8665-ac51-06760ab18194",
+                        "name": "Scottish National Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T07:09:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>SNP</b> criticised over delayed plan to tackle Highland depopulation",
+                "url": "https://www.heraldscotland.com/news/24101916.snp-criticised-delayed-plan-tackle-highland-depopulation/",
+                "description": "The Scottish Government has been told to &quot;get its finger out&quot; over a four month delay to a report aimed at tackling depopulation",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f69239dd-3b67-d215-27a2-35ca6ac8f072",
+                        "name": "Highland"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "heraldscotland",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PjDUWS-WIq7w595SCRQefg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T06:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Council Tax freeze is a no-brainer for Glasgow <b>SNP</b>",
+                "url": "https://www.glasgowtimes.co.uk/news/24102283.council-tax-freeze-no-brainer-glasgow-snp/",
+                "description": "Council Tax remains badly in need of reform. Although the Scottish Government has taken action to make it less regressive for people in lower-value homes and to protect lower-income households, it\u2019s still an unfair tax \u2013 not only between households but also between different parts of Scotland .",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/da2548ee-1b26-f939-06b4-2fae57e075e7",
+                        "name": "Glasgow"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/37cac01d-8176-543b-ba7c-e99687b0a3ac",
+                        "name": "Council Tax"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "glasgowtimes"
+                    }
+                ],
+                "datePublished": "2024-02-07T06:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Listed house in West End to be demolished under council plans",
+                "url": "https://www.glasgowtimes.co.uk/news/24102236.listed-house-west-end-demolished-council-plans/",
+                "description": "A listed janitor\u2019s house on a former school site the West End is to be demolished as repairs have been deemed \u201cnot economically viable\u201d. Glasgow City Council intends to knock down the \u201cruinous\u201d Church Street building, with officials reporting it could benefit the \u201cfuture development\u201d of the land.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/da2548ee-1b26-f939-06b4-2fae57e075e7",
+                        "name": "Glasgow"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f8201b16-d25a-68fc-06de-505847abef38",
+                        "name": "West End theatre"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eaaef858-1162-2a38-1de1-759525f1f7b6",
+                        "name": "Council"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "glasgowtimes"
+                    }
+                ],
+                "datePublished": "2024-02-07T06:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Resigning <b>SNP</b> drugs minister hits out at hostility on Twitter",
+                "url": "https://uk.news.yahoo.com/resigning-snp-drugs-minister-hits-105239554.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.WV-IyXJbz7H5FaUp2mEIbi&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "AN SNP MSP who resigned as a minister in the Scottish Government citing \u201cpost-traumatic stress\u201d has hit out at hostility online",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/73330ccf-2058-8665-ac51-06760ab18194",
+                        "name": "Scottish National Party"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ab11c2f3-6663-cf63-4f77-7d6002ba6733",
+                        "name": "Regulation of therapeutic goods"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T05:53:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Edinburgh council urged to investigate claims tram works caused structural damage to Anchorfield tenement",
+                "url": "https://www.edinburghnews.scotsman.com/news/edinburgh-council-urged-to-investigate-claims-tram-works-caused-structural-damage-to-anchorfield-tenement-4508110",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.VuTqgypGpVT7tIUMEAPEQC&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "A Leith SNP councillor will table a motion at this week&#39;s full council meeting to investigate claims tram works caused tenement damage",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/286af946-edea-5f33-df53-4164821c69da",
+                        "name": "Edinburgh"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eaaef858-1162-2a38-1de1-759525f1f7b6",
+                        "name": "Council"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/41622229-a485-529a-41fc-7ab1c3a8e69d",
+                        "name": "Tenement"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "edinburghnews.scotsman.com",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.q5A2rO65JhbJbC_e_rAYWw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T04:45:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "How <b>SNP</b> forestry cuts will take an axe to Scotland\u2019s net zero ambitions",
+                "url": "https://www.thetimes.co.uk/article/how-snp-forestry-cuts-will-take-an-axe-to-scotlands-net-zero-ambitions-6wl9pb99h",
+                "description": "The Scottish government is proposing to cut 41 per cent of funding for the sector, which makes meeting its tree-planting target impossible to achieve",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T00:01:00.0000000Z",
+                "category": "ScienceAndTechnology"
+            },
+            {
+                "name": "Starmer \u2018to announce scaling back of \u00a328 billion-a-year green pledge\u2019",
+                "url": "https://www.standard.co.uk/news/politics/labour-rachel-reeves-keir-starmer-laura-trott-gdp-b1137797.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.AgZrpf7yt-9CJky_OE4Lhy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "It\u2019s a weak and short-sighted U-turn Stephen Flynn, <b>SNP</b> Chief Secretary to the Treasury Laura Trott said: \u201cThis is a serious moment which confirms Labour have no plan for the UK, creating uncertainty for business and our economy. On the day that Labour ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/44912ba0-6f05-8470-af62-7b2639fa6d05",
+                        "name": "Rachel Reeves"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/63a6ef59-71fd-db08-08c6-d47d973d47fb",
+                        "name": "Keir Starmer"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "datePublished": "2024-02-07T00:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Social Energy Tariff",
+                "url": "https://www.bbc.co.uk/programmes/m001wk5g",
+                "description": "The introduction to the House of Commons of a Bill under the ten minute rule by <b>SNP</b> MP Marian Fellows on a social energy tariff, from Tuesday 6 February.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/999c3013-b40f-9f08-4c83-d2006034fba9",
+                        "name": "BBC Parliament"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC"
+                    }
+                ],
+                "datePublished": "2024-02-07T00:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "As standards slip, <b>SNP</b> pushes more lessons\u2026 in Scots",
+                "url": "https://www.dailymail.co.uk/news/article-13053755/As-standards-slip-SNP-pushes-lessons-Scots.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.haJ34dGRdE1tJIA2PgDUby&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Teachers are being encouraged to &#39;embed&#39; the Scots language in the classroom, despite literacy standards falling.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/93a3e0e2-aecf-e53b-8432-c15f400cfb4e",
+                        "name": "Daily Mail"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5c11f2e6-2ff4-4609-afea-8073eaa1fe44",
+                        "name": "Scots Language"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Daily Mail"
+                    },
+                    {
+                        "name": "Scots Language"
+                    },
+                    {
+                        "name": "Lesson"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-06T22:36:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=SNP",
+        "queryContext": {
+            "originalQuery": "SNP",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 11700,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=SNP"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=SNP&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Fewer than third of Scots believe Nicola Sturgeon\u2019s claim she did not politicise Covid crisis",
+                "url": "https://www.telegraph.co.uk/news/2024/02/07/nicola-sturgeons-claim-she-did-not-politicise-covid-not-bel/",
+                "description": "A new survey found that despite Sturgeon insisting she had not sought to play politics with the pandemic, this was widely rejected",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40ff83fa-c18c-9216-49aa-77a9d6a5cc28",
+                        "name": "Nicola Sturgeon"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/92d9ffee-a893-93a1-0099-8095803dd9fb",
+                        "name": "Fewer vs. less"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Nicola Sturgeon"
+                    },
+                    {
+                        "name": "Fewer vs. less"
+                    },
+                    {
+                        "name": "Scottish people"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T19:26:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Weekly audiences between King and PM expected to resume in two weeks",
+                "url": "https://www.standard.co.uk/news/politics/prime-minister-king-the-king-buckingham-palace-downing-street-b1137786.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.lhy6VevWudrPVeXiE79tHi&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Downing Street and Buckingham Palace took the unusual step of confirming details of a call between the Prime Minister and the King on Wednesday.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e41ece6a-b834-88d8-8222-14c991733021",
+                        "name": "Elvis Presley"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b327a4f2-7f7a-a27c-60e2-d0d254922e0c",
+                        "name": "Downing Street"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Elvis Presley"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Downing Street"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T19:12:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "King Charles holds weekly audience with Rishi Sunak by phone post cancer diagnosis",
+                "url": "https://www.express.co.uk/news/politics/1864321/king-charles-holds-weekly-audience-rishi-sunak-by-phone",
+                "description": "Downing Street and Buckingham Palace took the unusual step of sharing details about the meeting in an attempt to show the King was carrying on with his duties.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/607bf330-283c-e25d-6b64-69bbd33d5b72",
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Daily Express"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T18:51:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "The Settled Will",
+                "url": "https://bellacaledonia.org.uk/2024/02/07/the-settled-will/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.TFK0rMT6GUgUQnaSfSpuzy&pid=News",
+                        "width": 700,
+                        "height": 700
+                    }
+                },
+                "description": "How do you understand the latest polling from IPSOS which puts the SNP ahead of Labour by seven points and predicts they would pick up 40 seats in the next General Election? At the last general",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/766f56ee-d335-6b66-af5a-726f5c43ae30",
+                        "name": "Caledonia"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Bella Caledonia",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.tK8F44QNDpYNOfAyBOXG5g&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T18:18:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Glasgow man jailed for assaulting friend with bottle loses private hire bid",
+                "url": "https://www.glasgowlive.co.uk/news/glasgow-news/glasgow-man-jailed-assaulting-friend-28589084",
+                "description": "The applicant had a series of convictions, which were all spent, but Police Scotland, which objected to the application, believed they were relevant to the committee.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/da2548ee-1b26-f939-06b4-2fae57e075e7",
+                        "name": "Glasgow"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Glasgow"
+                    },
+                    {
+                        "name": "Friendship"
+                    },
+                    {
+                        "name": "Parable of the Good Samaritan"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "glasgowlive.co.uk",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.haisjyZ0cCjPO4PVMByWLw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T18:09:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Alarm raised as <b>SNP</b> ministers decide to leave \u2018crumbling\u2019 concrete in NHS buildings",
+                "url": "https://www.thescottishsun.co.uk/news/11935463/alarm-snp-crumbling-concrete-nhs-buildings/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.SsyT2DB4Vltt3ne-BZiwzy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "SNP ministers have been accused of risking \u201ccatastrophe\u201d after revealing they will leave so-called crumbling concrete in 35 NHS buildings. Health Secretary Michael Matheson disclosed the decision",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Scottish Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.pEepZhHtUOU2Dr7E3jedjg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T17:58:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Sauchiehall Street &#39;skyscraper&#39; roof row ends with planning permission go-ahead",
+                "url": "https://www.glasgowlive.co.uk/news/glasgow-news/sauchiehall-street-skyscraper-roof-row-28589038",
+                "description": "A councillor said there isn&#39;t an issue over seeing changes to the roof unless you are passing in a helicopter.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0262c7bd-2e33-ceb2-1e74-3d17c7dd6534",
+                        "name": "Sauchiehall Street"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/da2548ee-1b26-f939-06b4-2fae57e075e7",
+                        "name": "Glasgow"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Sauchiehall Street"
+                    },
+                    {
+                        "name": "Glasgow"
+                    },
+                    {
+                        "name": "Aquarium Development"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "glasgowlive.co.uk",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.haisjyZ0cCjPO4PVMByWLw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T17:37:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Sunak ignores Flynn&#39;s calls to apologise over &#39;crude&#39; \u00a31,000 Rwanda bet",
+                "url": "https://news.stv.tv/politics/rishi-sunak-ignores-snps-stephen-flynns-calls-to-apologise-over-1000-rwanda-bet-with-piers-morgan",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.K0e6dYSmojcHAjBH7a5L-S&pid=News",
+                        "width": 700,
+                        "height": 450
+                    }
+                },
+                "description": "The SNP Westminster leader said Rishi Sunak had demeaned asylum seekers and degraded the office of Prime Minister.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d6bb36e2-0cdf-a92d-9b92-2d0eb39c7da1",
+                        "name": "Stephen Flynn"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40caaaa3-1d34-aee8-d89f-7be6b283a917",
+                        "name": "Piers Morgan"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "news.stv",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CZWPk4et8WgNjtL6sI0C_g&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T17:19:00.0000000Z"
+            },
+            {
+                "name": "Badenoch accuses Starmer of exploiting Brianna Ghey tragedy after Sunak makes trans jibe during PMQs \u2013 as it happened",
+                "url": "https://www.theguardian.com/politics/live/2024/feb/07/rishi-sunak-pmqs-victoria-atkins-labour-conservatives-nhs-dentists-politics-live?filterKeyEvents=false&page=with:block-65c3726b8f080dbfe0e9b3db",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Ppy1SBvkfi0zxTIKT8vJPi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Kemi Badenoch accuses Labour leader of \u2018political point-scoring\u2019 after he condemned Rishi Sunak\u2019s comments in PMQs",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T16:53:00.0000000Z"
+            },
+            {
+                "name": "<b>SNP</b> press UK Government on compensation bill for Waspi women",
+                "url": "https://www.thenational.scot/news/24104666.snp-press-uk-government-compensation-bill-waspi-women/",
+                "description": "THE\u00a0SNP\u00a0are pushing the UK Government to introduce a compensation scheme for women impacted by increases in the state pension age.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T16:07:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Rishi Sunak&#39;s transgender jibe as Brianna Ghey&#39;s mother in attendance is latest misstep from a Prime Minister who can&#39;t adapt",
+                "url": "https://www.scotsman.com/news/politics/rishi-sunaks-transgender-jibe-as-brianna-gheys-mother-in-attendance-is-latest-misstep-from-a-prime-minister-who-cant-adapt-4509331",
+                "description": "The joke was made as the mother of murdered teenager Brianna Ghey was at the Houses of Parliament. Esther Ghey was understood not to be in the public gallery for the immediate exchange, but entered later. Frankly, this does not matter.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/864f968f-789a-71af-38d1-2ea3bd15e33a",
+                        "name": "Jibe"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Jibe"
+                    },
+                    {
+                        "name": "Prime Minister of the United Kingdom"
+                    },
+                    {
+                        "name": "Prime minister"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Scotsman",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.QlHkHD_RALY4hnQHpw7jBw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T16:05:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "<b>SNP</b>\u2019s lead over Labour is narrowing, poll shows",
+                "url": "https://www.thetimes.co.uk/article/snps-lead-over-labour-is-narrowing-poll-shows-hvvqt2gvv",
+                "description": "Labour has narrowed its gap with the SNP in voting for the next general election, according to the latest polling. The SNP remains ahead in Westminster voting intentions with a seven-point lead over Labour,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e320dd44-b39b-fd9b-7883-0fe89bb44ace",
+                        "name": "Poll"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T15:40:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>SNP</b> lead Labour by seven points in new election polling",
+                "url": "https://www.holyrood.com/news/view,snp-lead-labour-by-seven-points-in-new-election-polling",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.UIvFNAIvFnBBvfVL2SV2JS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The SNP lead Labour by seven points on general election voting intentions, according to a new poll by Ipsos Scotland and STV News. It shows that the gap in voting intentions is narrowing between the two parties, falling relatively sharply from the largest gap in recent times of 26 points in December 2022.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/599e96eb-d236-4624-b29d-70f60edfb4a4",
+                        "name": "Election"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/73330ccf-2058-8665-ac51-06760ab18194",
+                        "name": "Scottish National Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Holyrood",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PBW12iOhRPFNmsyxmjiBqw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T13:54:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>SNP</b>&#39;s Mairi McAllan rules out formal review into A9 failings",
+                "url": "https://www.heraldscotland.com/news/24103936.snps-mairi-mcallan-rules-formal-review-a9-failings/",
+                "description": "Scotland\u2019s Transport Secretary has ruled out a formal internal review into the \u201ccomplete failure\u201d of dualling the A9 by\u00a0the original",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "heraldscotland",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PjDUWS-WIq7w595SCRQefg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T13:35:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "The Royal family teams up with cancer charities MacMillan and Maggie&#39;s Centre on Instagram to raise awareness and &#39;encourage others to reach out for support&#39; after King&#39;s diagnosis",
+                "url": "https://www.dailymail.co.uk/news/article-13056479/Royal-family-cancer-charities-MacMillan-Maggies-Centre-Instagram-Kings-diagnosis.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.tW7SM73w4Wvmg24OI9RAVS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The royal family has partnered with several leading cancer charities to promote support for those suffering from cancer and their loved ones.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/55d338da-62fb-d0db-a98f-8663c600a6bb",
+                        "name": "Maggie&#39;s Centres"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/07c2e835-fab3-fd0c-4e24-56ebee0b8912",
+                        "name": "Diagnosis"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e708f4ba-ad83-1837-f34a-a69a6dd30b81",
+                        "name": "British Royal Family"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Maggie&#39;s Centres"
+                    },
+                    {
+                        "name": "Diagnosis"
+                    },
+                    {
+                        "name": "British Royal Family"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T13:10:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Rishi Sunak refuses to apologise for &#39;crude&#39; \u00a31,000 bet on Rwanda asylum scheme",
+                "url": "https://www.manchestereveningnews.co.uk/news/uk-news/rishi-sunak-refuses-apologise-crude-28586416",
+                "description": "The Prime Minister shook hands with TalkTV presenter Piers Morgan when he was offered a charity bet that ministers would not be able to send asylum seekers to Rwanda by the time of the election.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Rwanda"
+                    },
+                    {
+                        "name": "Scheme"
+                    },
+                    {
+                        "name": "Manchester Evening News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Manchester Evening News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.oxaa8-w2MDoXi5yOUu7A3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T13:06:00.0000000Z"
+            },
+            {
+                "name": "<b>SNP</b>: Public used to Tory leaders betting on lives of others",
+                "url": "https://www.bbc.co.uk/news/av/uk-politics-68228438",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT._TACYeD6c7qqfky0ZxBuCC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Stephen Flynn references the records of Boris Johnson and Liz Truss and his view of their effects on the public.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T13:02:00.0000000Z"
+            },
+            {
+                "name": "Scottish Labour accused of nicking famous <b>SNP</b> independence slogan",
+                "url": "https://www.thescottishsun.co.uk/news/politics/11934350/scottish-labour-nick-snp-slogan/",
+                "description": "SCOTTISH Labour were today accused of nicking one of the SNP\u2019s main slogans from the 2014 independence referendum. Anas Sarwar\u2019s party used the \u201cScotland\u2019s Future\u201d tag on a mailshot telling voters",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b2ee1c2f-cc28-8fb3-2c77-6414bb1cdb8e",
+                        "name": "Scottish Labour Party"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3623bb38-70d0-e19e-02a0-30bcea8b3a30",
+                        "name": "Slogan"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Scottish Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.pEepZhHtUOU2Dr7E3jedjg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T12:50:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>SNP</b> launch bill for women impacted by state pension age increase (WASPI)",
+                "url": "https://www.grampianonline.co.uk/news/snp-launch-bill-for-women-impacted-by-state-pension-age-incr-341562/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.bCY7nLcBXJageMkLQGiUZC&pid=News",
+                        "width": 700,
+                        "height": 481
+                    }
+                },
+                "description": "The <b>SNP</b>\u2019s Alan Brown MP will present a Bill today that, if passed, would force the UK government to publish proposals for a compensation scheme for women born in the 1950s impacted by increases in the state pension age. Over 250,000 women affected by ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0971edee-a353-8694-01cb-293dd8e72533",
+                        "name": "Pension"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "grampianonline"
+                    }
+                ],
+                "datePublished": "2024-02-07T12:39:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Poll: <b>SNP</b> lead in Scotland falls as Labour narrows the gap",
+                "url": "https://www.scotsman.com/news/politics/poll-snp-lead-in-scotland-falls-as-labour-narrows-the-gap-4508856",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ZjSDbFbglhXfJul2JqvbzC&pid=News",
+                        "width": 640,
+                        "height": 427
+                    }
+                },
+                "description": "The poll shows the SNP remains the most trusted party across a range of issues. However, Labour has narrowed the gap on all four of the issues surveyed \u2013 managing the NHS, growing Scotland\u2019s economy, managing education and schools, and tackling the cost-of-living crisis.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Scotland"
+                    },
+                    {
+                        "name": "Scottish National Party"
+                    },
+                    {
+                        "name": "Scottish Parliament"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Scotsman",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.QlHkHD_RALY4hnQHpw7jBw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T12:37:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>SNP</b> lead shrinks as Labour narrows gap - Ipsos/STV poll",
+                "url": "https://news.stv.tv/scotland/ipsos-poll-snp-lead-shrinks-as-labour-narrows-gap",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.W4_SvLbn9pODkPOnBDTKDS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "New poll by Ipsos&#39; Scottish Political Monitor - run in partnership with STV News - finds SNP hold a seven point lead over Labour.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/92d09a68-306e-0774-fa19-09c35bb93b91",
+                        "name": "STV News at Six"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/443cbaf0-8e4b-bfa6-812b-63a6812d6c58",
+                        "name": "Ipsos"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e320dd44-b39b-fd9b-7883-0fe89bb44ace",
+                        "name": "Poll"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "news.stv",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CZWPk4et8WgNjtL6sI0C_g&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T12:15:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>SNP</b> retains general election poll lead over Labour but direction of travel will &#39;worry&#39; Humza Yousaf",
+                "url": "https://www.dailyrecord.co.uk/news/politics/snp-retains-general-election-poll-32067785",
+                "description": "The latest survey of voting intentions shows Labour continuing to make ground but the Nationalists still out in front.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6d99b564-d527-5061-2ebd-f97730898d38",
+                        "name": "Humza Yousaf"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/746fde72-9ab7-cb2c-f98e-7799f758fbba",
+                        "name": "Solomon Islands general election, 2010"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e320dd44-b39b-fd9b-7883-0fe89bb44ace",
+                        "name": "Poll"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Humza Yousaf"
+                    },
+                    {
+                        "name": "Solomon Islands general election, 2010"
+                    },
+                    {
+                        "name": "Poll"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Record",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.B6nvPq26UTBuCaXH6tX71w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T11:34:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Juryless trials pilot unlikely to get off the ground",
+                "url": "https://www.scottishlegal.com/articles/juryless-trials-pilot-unlikely-to-get-off-the-ground",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.x9nyK8bnHvPRIKYiXgCUqi&pid=News",
+                        "width": 640,
+                        "height": 426
+                    }
+                },
+                "description": "Almost all of Scotland&#39;s defence solicitors are prepared to boycott the Scottish government&#39;s proposed juryless trials pilot, meaning it will most likely not run. Appearing before MSPs on Holyrood&#39;s Justice Committee,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Scottish Legal News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.vxSMjOIMTQ9gOPfPczJMuA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T11:27:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Glasgow local authority chief backs council tax freeze despite city facing \u00a3120m shortfall",
+                "url": "https://www.dailyrecord.co.uk/news/politics/glasgow-local-authority-chief-backs-32066629",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.c1TvKJFkAOYtC0wxlxzadC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Susan Aitken, who leads the SNP group on Scotland&#39;s largest local authority, described the council tax freeze as a &quot;no-brainer&quot;.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/da2548ee-1b26-f939-06b4-2fae57e075e7",
+                        "name": "Glasgow"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fb6f4f93-ce23-76a6-98b5-3ab6b5286762",
+                        "name": "Daily Record"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Glasgow"
+                    },
+                    {
+                        "name": "Daily Record"
+                    },
+                    {
+                        "name": "Local government"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Record",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.B6nvPq26UTBuCaXH6tX71w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T10:24:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "&#39;Hatred of <b>SNP</b>&#39; leaves Tory MSP looking &#39;petty&#39; on minimum pricing",
+                "url": "https://www.thenational.scot/news/24102892.hatred-snp-leaves-tory-msp-looking-petty-minimum-pricing/",
+                "description": "A TORY MSP\u2019s \u201chatred of the SNP\u201d left him looking \u201cfoolish\u201d over his claims about minimum unit pricing, the depute leader of the SNP",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T09:51:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Scotland&#39;s papers: Harry reunited with King and <b>SNP</b> finances probe",
+                "url": "https://www.bbc.com/news/articles/cmlgvpjm3ego",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.D8OmHryPwWe8gaFtorYxnC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "King Charles&#39; meeting with Harry and a call for a police update on the SNP inquiry make the front pages.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/54389684-d1e7-09ad-33b0-d0587d219a6e",
+                        "name": "King County"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Scotland"
+                    },
+                    {
+                        "name": "King County"
+                    },
+                    {
+                        "name": "Scottish National Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k3N4DqozNjgK376rAnFmsA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T07:14:00.0000000Z"
+            },
+            {
+                "name": "<b>SNP</b> will win 40 Scottish seats at next General Election, poll predicts",
+                "url": "https://uk.news.yahoo.com/snp-win-40-scottish-seats-121035323.html",
+                "description": "THE SNP would lead Labour by seven points and win 40 Scottish seats if a General Election were held tomorrow, a new poll has found",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/73330ccf-2058-8665-ac51-06760ab18194",
+                        "name": "Scottish National Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T07:09:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>SNP</b> criticised over delayed plan to tackle Highland depopulation",
+                "url": "https://www.heraldscotland.com/news/24101916.snp-criticised-delayed-plan-tackle-highland-depopulation/",
+                "description": "The Scottish Government has been told to &quot;get its finger out&quot; over a four month delay to a report aimed at tackling depopulation",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f69239dd-3b67-d215-27a2-35ca6ac8f072",
+                        "name": "Highland"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "heraldscotland",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PjDUWS-WIq7w595SCRQefg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T06:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Council Tax freeze is a no-brainer for Glasgow <b>SNP</b>",
+                "url": "https://www.glasgowtimes.co.uk/news/24102283.council-tax-freeze-no-brainer-glasgow-snp/",
+                "description": "Council Tax remains badly in need of reform. Although the Scottish Government has taken action to make it less regressive for people in lower-value homes and to protect lower-income households, it\u2019s still an unfair tax \u2013 not only between households but also between different parts of Scotland .",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/da2548ee-1b26-f939-06b4-2fae57e075e7",
+                        "name": "Glasgow"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/37cac01d-8176-543b-ba7c-e99687b0a3ac",
+                        "name": "Council Tax"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "glasgowtimes"
+                    }
+                ],
+                "datePublished": "2024-02-07T06:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Listed house in West End to be demolished under council plans",
+                "url": "https://www.glasgowtimes.co.uk/news/24102236.listed-house-west-end-demolished-council-plans/",
+                "description": "A listed janitor\u2019s house on a former school site the West End is to be demolished as repairs have been deemed \u201cnot economically viable\u201d. Glasgow City Council intends to knock down the \u201cruinous\u201d Church Street building, with officials reporting it could benefit the \u201cfuture development\u201d of the land.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/da2548ee-1b26-f939-06b4-2fae57e075e7",
+                        "name": "Glasgow"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f8201b16-d25a-68fc-06de-505847abef38",
+                        "name": "West End theatre"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eaaef858-1162-2a38-1de1-759525f1f7b6",
+                        "name": "Council"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "glasgowtimes"
+                    }
+                ],
+                "datePublished": "2024-02-07T06:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Resigning <b>SNP</b> drugs minister hits out at hostility on Twitter",
+                "url": "https://uk.news.yahoo.com/resigning-snp-drugs-minister-hits-105239554.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.WV-IyXJbz7H5FaUp2mEIbi&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "AN SNP MSP who resigned as a minister in the Scottish Government citing \u201cpost-traumatic stress\u201d has hit out at hostility online",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/73330ccf-2058-8665-ac51-06760ab18194",
+                        "name": "Scottish National Party"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ab11c2f3-6663-cf63-4f77-7d6002ba6733",
+                        "name": "Regulation of therapeutic goods"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T05:53:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Edinburgh council urged to investigate claims tram works caused structural damage to Anchorfield tenement",
+                "url": "https://www.edinburghnews.scotsman.com/news/edinburgh-council-urged-to-investigate-claims-tram-works-caused-structural-damage-to-anchorfield-tenement-4508110",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.VuTqgypGpVT7tIUMEAPEQC&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "A Leith SNP councillor will table a motion at this week&#39;s full council meeting to investigate claims tram works caused tenement damage",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/286af946-edea-5f33-df53-4164821c69da",
+                        "name": "Edinburgh"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eaaef858-1162-2a38-1de1-759525f1f7b6",
+                        "name": "Council"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/41622229-a485-529a-41fc-7ab1c3a8e69d",
+                        "name": "Tenement"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "edinburghnews.scotsman.com",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.q5A2rO65JhbJbC_e_rAYWw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T04:45:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "How <b>SNP</b> forestry cuts will take an axe to Scotland\u2019s net zero ambitions",
+                "url": "https://www.thetimes.co.uk/article/how-snp-forestry-cuts-will-take-an-axe-to-scotlands-net-zero-ambitions-6wl9pb99h",
+                "description": "The Scottish government is proposing to cut 41 per cent of funding for the sector, which makes meeting its tree-planting target impossible to achieve",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-07T00:01:00.0000000Z",
+                "category": "ScienceAndTechnology"
+            },
+            {
+                "name": "Starmer \u2018to announce scaling back of \u00a328 billion-a-year green pledge\u2019",
+                "url": "https://www.standard.co.uk/news/politics/labour-rachel-reeves-keir-starmer-laura-trott-gdp-b1137797.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.AgZrpf7yt-9CJky_OE4Lhy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "It\u2019s a weak and short-sighted U-turn Stephen Flynn, <b>SNP</b> Chief Secretary to the Treasury Laura Trott said: \u201cThis is a serious moment which confirms Labour have no plan for the UK, creating uncertainty for business and our economy. On the day that Labour ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/44912ba0-6f05-8470-af62-7b2639fa6d05",
+                        "name": "Rachel Reeves"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/63a6ef59-71fd-db08-08c6-d47d973d47fb",
+                        "name": "Keir Starmer"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "datePublished": "2024-02-07T00:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Social Energy Tariff",
+                "url": "https://www.bbc.co.uk/programmes/m001wk5g",
+                "description": "The introduction to the House of Commons of a Bill under the ten minute rule by <b>SNP</b> MP Marian Fellows on a social energy tariff, from Tuesday 6 February.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/999c3013-b40f-9f08-4c83-d2006034fba9",
+                        "name": "BBC Parliament"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC"
+                    }
+                ],
+                "datePublished": "2024-02-07T00:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "As standards slip, <b>SNP</b> pushes more lessons\u2026 in Scots",
+                "url": "https://www.dailymail.co.uk/news/article-13053755/As-standards-slip-SNP-pushes-lessons-Scots.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.haJ34dGRdE1tJIA2PgDUby&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Teachers are being encouraged to &#39;embed&#39; the Scots language in the classroom, despite literacy standards falling.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/93a3e0e2-aecf-e53b-8432-c15f400cfb4e",
+                        "name": "Daily Mail"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5c11f2e6-2ff4-4609-afea-8073eaa1fe44",
+                        "name": "Scots Language"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Daily Mail"
+                    },
+                    {
+                        "name": "Scots Language"
+                    },
+                    {
+                        "name": "Lesson"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-06T22:36:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    }
+]
