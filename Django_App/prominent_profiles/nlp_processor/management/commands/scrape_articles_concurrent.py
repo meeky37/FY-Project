@@ -24,6 +24,7 @@ from urllib.parse import urlparse
 from urllib.robotparser import RobotFileParser
 from ...sentiment_resolver import SentimentAnalyser
 from memory_profiler import profile
+from Django_App.prominent_profiles.nlp_processor.constants import F_COREF_DEVICE
 
 
 def can_fetch_url(url_to_check):
@@ -48,7 +49,7 @@ def can_fetch_url(url_to_check):
 
 
 def perform_coreference_resolution(article_texts, batch_size=100):
-    model = FCoref(device='mps')
+    model = FCoref(device=F_COREF_DEVICE)
     predictions = model.predict(texts=article_texts, max_tokens_in_batch=batch_size)
 
     # Empty list to store clusters for each article

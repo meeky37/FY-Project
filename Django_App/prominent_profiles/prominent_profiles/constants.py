@@ -4,4 +4,7 @@
 # etc
 
 
-DB_PASSWORD = 'S"x\y;C5}I4YzID+7/'
+# Local password
+# DB_PASSWORD = 'S"x\y;C5}I4YzID+7/'
+
+# DB_PASSWORD=9v$24gKp!LwRtE

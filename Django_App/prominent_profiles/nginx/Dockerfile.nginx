@@ -1,0 +1,11 @@
+# Official Nginx image
+FROM nginx:alpine
+
+# Discarding default Nginx configuration file
+RUN rm /etc/nginx/conf.d/default.conf
+
+# Copying over the configuration file from the current directory to the container
+COPY nginx.conf /etc/nginx/conf.d
+
+# Expose port 80 to the Docker network
+EXPOSE 80
