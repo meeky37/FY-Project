@@ -42,6 +42,8 @@ jobs:
           host: ${{ secrets.DROPLET_HOST }}
           username: ${{ secrets.DROPLET_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
+          script: |
+            echo "Hello, World!" > hello_world.txt
           source: "./Django_App/prominent_profiles/docker-compose.yml"
           target: "/var/www/prominent_profiles/docker-compose.yml"
       
