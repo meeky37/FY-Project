@@ -36,6 +36,15 @@ jobs:
     needs: build-and-push
     runs-on: ubuntu-latest
     steps:
+      - name: Transfer docker-compose file to Droplet
+        uses: appleboy/scp-action@master
+        with:
+          host: ${{ secrets.DROPLET_HOST }}
+          username: ${{ secrets.DROPLET_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          source: "./Django_App/prominent_profiles/docker-compose.yml"
+          target: "/var/www/prominent_profiles/docker-compose.yml"
+      
       - name: Deploy to Digital Ocean Droplet
         uses: appleboy/ssh-action@master
         with:
@@ -43,6 +52,7 @@ jobs:
           username: ${{ secrets.DROPLET_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            docker login ghcr.io -u ${{ github.actor }} -p ${{ secrets.GITHUB_TOKEN }}
+            cd /var/www/prominent_profiles
             docker-compose pull
             docker-compose up -d
+            
