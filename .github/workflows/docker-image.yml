@@ -51,9 +51,8 @@ jobs:
           host: ${{ secrets.DROPLET_HOST }}
           username: ${{ secrets.DROPLET_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
-          source: "./Django_App/prominent_profiles/"
-          target: "/var/www/prominent_profiles/"
-          args: "-v"
+          source: "${{ github.workspace }}/Django_App/prominent_profiles/docker-compose.yml"
+          target: "/var/www/prominent_profiles/docker-compose.yml"
       
       - name: Deploy to Digital Ocean Droplet
         uses: appleboy/ssh-action@master
