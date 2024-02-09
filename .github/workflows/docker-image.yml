@@ -53,6 +53,7 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           source: "${{ github.workspace }}/Django_App/prominent_profiles/docker-compose.yml"
           target: "/var/www/prominent_profiles/docker-compose.yml"
+          strip_components: 1
       
       - name: Deploy to Digital Ocean Droplet
         uses: appleboy/ssh-action@master
