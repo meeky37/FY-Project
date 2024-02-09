@@ -33,7 +33,7 @@ jobs:
   #       working-directory: ./Django_App/prominent_profiles  
 
   deploy:
-    needs: build-and-push
+    # needs: build-and-push
     runs-on: ubuntu-latest
     steps:
       - name: Test SSH Connection
