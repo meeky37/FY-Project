@@ -6,36 +6,45 @@ on:
       - main
 
 jobs:
-  build-and-push:
-    runs-on: ubuntu-latest
+  # build-and-push:
+  #   runs-on: ubuntu-latest
 
-    steps:
-      - uses: actions/checkout@v2
+  #   steps:
+  #     - uses: actions/checkout@v2
       
-      - name: Log in to GitHub Container Registry
-        uses: docker/login-action@v1
-        with:
-          registry: ghcr.io
-          username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
+  #     - name: Log in to GitHub Container Registry
+  #       uses: docker/login-action@v1
+  #       with:
+  #         registry: ghcr.io
+  #         username: ${{ github.actor }}
+  #         password: ${{ secrets.GITHUB_TOKEN }}
           
-      - name: Build and push Docker images using Docker Compose
-        run: |
-          docker-compose build
-          docker-compose push
-        env:
-          RUNNING_IN_DOCKER: ${{ secrets.RUNNING_IN_DOCKER }}
-          SECRET_KEY: ${{ secrets.SECRET_KEY }}
-          DB_NAME: ${{ secrets.DB_NAME }}
-          DB_USER: ${{ secrets.DB_USER }}
-          DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
-          DB_HOST: ${{ secrets.DB_HOST }}
-        working-directory: ./Django_App/prominent_profiles  
+  #     - name: Build and push Docker images using Docker Compose
+  #       run: |
+  #         docker-compose build
+  #         docker-compose push
+  #       env:
+  #         RUNNING_IN_DOCKER: ${{ secrets.RUNNING_IN_DOCKER }}
+  #         SECRET_KEY: ${{ secrets.SECRET_KEY }}
+  #         DB_NAME: ${{ secrets.DB_NAME }}
+  #         DB_USER: ${{ secrets.DB_USER }}
+  #         DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
+  #         DB_HOST: ${{ secrets.DB_HOST }}
+  #       working-directory: ./Django_App/prominent_profiles  
 
   deploy:
     needs: build-and-push
     runs-on: ubuntu-latest
     steps:
+      - name: Test SSH Connection
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.DROPLET_HOST }}
+          username: ${{ secrets.DROPLET_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          script: |
+            echo "Hello, World!" > hello_world.txt
+    
       - name: Transfer docker-compose file to Droplet
         uses: appleboy/scp-action@master
         with:
