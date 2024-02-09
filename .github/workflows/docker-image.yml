@@ -36,6 +36,9 @@ jobs:
     # needs: build-and-push
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+    
       - name: Test SSH Connection
         uses: appleboy/ssh-action@master
         with:
