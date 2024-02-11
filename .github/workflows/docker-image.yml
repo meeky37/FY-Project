@@ -47,7 +47,7 @@ jobs:
         with:
           node-version: 20
     
-      - name: Test SSH Connection
+      - name: Test SSH Connection - key
         uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.DROPLET_HOST }}
