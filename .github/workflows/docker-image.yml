@@ -93,6 +93,7 @@ jobs:
             export DB_PASSWORD='${{ secrets.DB_PASSWORD }}'
             
             cd /var/www/Django_App/prominent_profiles
+            echo $CR_PAT | docker login ghcr.io -u USERNAME --password-stdin
             docker-compose pull
             docker-compose up -d
             
