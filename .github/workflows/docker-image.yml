@@ -70,7 +70,10 @@ jobs:
         run: |
           ssh ${{ secrets.DROPLET_USER }}@${{ secrets.DROPLET_HOST }} "mkdir -p /var/www/Django_App/prominent_profiles/"
           scp ./Django_App/prominent_profiles/docker-compose.yml ${{ secrets.DROPLET_USER }}@${{ secrets.DROPLET_HOST }}:/var/www/Django_App/prominent_profiles/
-      
+
+      - name: Copy nginx configuration to server
+        run: |
+          scp -r ./Django_App/nginx ${DROPLET_USER}@${DROPLET_HOST}:/var/www/Django_App/prominent_profiles/
       
       - name: Deploy to Digital Ocean Droplet
         uses: appleboy/ssh-action@master
