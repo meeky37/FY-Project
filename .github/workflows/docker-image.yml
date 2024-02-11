@@ -63,8 +63,8 @@ jobs:
           username: ${{ secrets.DROPLET_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            scp ./Django_App/prominent_profiles/docker-compose.yml ${{ secrets.DROPLET_USER }}@${{ secrets.DROPLET_HOST }}:/var/www/Django_App/prominent_profiles/
-      
+            scp -vvv ./Django_App/prominent_profiles/docker-compose.yml ${{ secrets.DROPLET_USER }}@${{ secrets.DROPLET_HOST }}:/var/www/Django_App/prominent_profiles/
+           
       - name: Deploy to Digital Ocean Droplet
         uses: appleboy/ssh-action@master
         with:
