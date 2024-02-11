@@ -24,10 +24,9 @@ services:
 
   nginx:
     build:
-    image: ghcr.io/meeky37/fy-project/nginx:latest
-    /meeky37/FY-Project/
       context: ./nginx
       dockerfile: Dockerfile.nginx
+    image: ghcr.io/meeky37/fy-project/nginx:latest
     volumes:
       - .:/app
       - static_volume:/usr/share/nginx/html/static
