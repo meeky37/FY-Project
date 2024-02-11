@@ -63,7 +63,7 @@ jobs:
           username: ${{ secrets.DROPLET_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            rsync -avz ./Django_App/prominent_profiles/docker-compose.yml /var/www/
+            rsync -avz /Django_App/prominent_profiles/docker-compose.yml /var/www/
       
       - name: Deploy to Digital Ocean Droplet
         uses: appleboy/ssh-action@master
