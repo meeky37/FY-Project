@@ -21,6 +21,9 @@ jobs:
           registry: ghcr.io
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Checkout code
+        uses: actions/checkout@v2
           
       - name: Build and push Docker images using Docker Compose
         run: |
