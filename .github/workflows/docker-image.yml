@@ -53,15 +53,15 @@ jobs:
           script: |
             echo "Hello, World!" > hello_world.txt
     
-      - name: Transfer docker-compose file to Droplet using RSYNC
+      - name: Transfer files using SSH Action and Rsync
         uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.DROPLET_HOST }}
           username: ${{ secrets.DROPLET_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            rsync -avz -e "ssh -o StrictHostKeyChecking=no" ./Django_App/prominent_profiles/docker-compose.yml ${{ secrets.DROPLET_USER }}@${{ secrets.DROPLET_HOST }}:/var/www/
-            
+            rsync -avz ./Django_App/prominent_profiles/docker-compose.yml /var/www/
+      
       - name: Deploy to Digital Ocean Droplet
         uses: appleboy/ssh-action@master
         with:
