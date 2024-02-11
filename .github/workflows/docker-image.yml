@@ -56,15 +56,16 @@ jobs:
           script: |
             echo "Hello, World!" > hello_world.txt
     
-      - name: Transfer docker-compose.yml using SCP
-        uses: appleboy/ssh-action@master
+      - name: Set up SSH key
+        uses: webfactory/ssh-agent@v0.5.3
         with:
-          host: ${{ secrets.DROPLET_HOST }}
-          username: ${{ secrets.DROPLET_USER }}
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
-          script: |
-            scp -vvv ./Django_App/prominent_profiles/docker-compose.yml ${{ secrets.DROPLET_USER }}@${{ secrets.DROPLET_HOST }}:/var/www/Django_App/prominent_profiles/
-           
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+      - name: Copy docker-compose file to server
+        run: |
+          scp ./Django_App/prominent_profiles/docker-compose.yml ${{ secrets.DROPLET_USER }}@${{ secrets.DROPLET_HOST }}:/var/www/Django_App/prominent_profiles/
+      
+      
       - name: Deploy to Digital Ocean Droplet
         uses: appleboy/ssh-action@master
         with:
