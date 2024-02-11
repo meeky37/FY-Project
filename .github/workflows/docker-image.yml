@@ -68,6 +68,7 @@ jobs:
     
       - name: Copy docker-compose file to server
         run: |
+          ssh ${{ secrets.DROPLET_USER }}@${{ secrets.DROPLET_HOST }} "mkdir -p /var/www/Django_App/prominent_profiles/"
           scp ./Django_App/prominent_profiles/docker-compose.yml ${{ secrets.DROPLET_USER }}@${{ secrets.DROPLET_HOST }}:/var/www/Django_App/prominent_profiles/
       
       
