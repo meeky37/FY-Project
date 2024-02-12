@@ -86,6 +86,7 @@ jobs:
     deploy:
       # needs: prep_deploy
       runs-on: ubuntu-latest
+      timeout-minutes: 30
       steps:
       - name: Deploy to Digital Ocean Droplet
         uses: appleboy/ssh-action@master
