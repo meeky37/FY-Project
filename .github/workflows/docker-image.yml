@@ -39,73 +39,69 @@ jobs:
           DB_HOST: ${{ secrets.DB_HOST }}
         working-directory: ./Django_App/prominent_profiles  
 
-prep_deploy:
-  needs: build-and-push
-  runs-on: ubuntu-latest
-  timeout-minutes: 30
-  steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
-  
-    - name: Use Node.js 20
-      uses: actions/setup-node@v3
-      with:
-        node-version: 20
-  
-    - name: Test SSH Connection - key
-      uses: appleboy/ssh-action@master
-      with:
-        host: ${{ secrets.DROPLET_HOST }}
-        username: ${{ secrets.DROPLET_USER }}
-        key: ${{ secrets.SSH_PRIVATE_KEY }}
-        script: |
-          echo "Hello, World!" > hello_world.txt
-  
-    - name: Set up SSH key
-      uses: webfactory/ssh-agent@v0.5.3
-      with:
-        ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
-    
-    - name: Add SSH Key to Known Hosts
-      run: |
-        echo "${{ secrets.SSH_KNOWN_HOSTS }}" >> ~/.ssh/known_hosts
-
-  
-    - name: Copy docker-compose, web dockerfile file to server
-      run: |
-        ssh ${{ secrets.DROPLET_USER }}@${{ secrets.DROPLET_HOST }} "mkdir -p /var/www/Django_App/prominent_profiles/"
-        scp ./Django_App/prominent_profiles/production/docker-compose.yml ${{ secrets
-        .DROPLET_USER }}@${{ secrets.DROPLET_HOST }}:/var/www/Django_App/prominent_profiles/
-        scp ./Django_App/prominent_profiles/Dockerfile ${{ secrets.DROPLET_USER }}@${{ secrets.DROPLET_HOST }}:/var/www/Django_App/prominent_profiles/
-
-    - name: Copy nginx configuration/Dockerfile to server
-      run: |
-        ssh ${{ secrets.DROPLET_USER }}@${{ secrets.DROPLET_HOST }} "mkdir -p /var/www/Django_App/prominent_profiles/nginx"
-        scp -r ./Django_App/prominent_profiles/nginx ${{ secrets.DROPLET_USER }}@${{ secrets.DROPLET_HOST }}:/var/www/Django_App/prominent_profiles/nginx
-    
   deploy:
-    # needs: prep_deploy
+    needs: build-and-push
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
-    - name: Deploy to Digital Ocean Droplet
-      uses: appleboy/ssh-action@master
-      with:
-        host: ${{ secrets.DROPLET_HOST }}
-        command_timeout: 30m
-        username: ${{ secrets.DROPLET_USER }}
-        key: ${{ secrets.SSH_PRIVATE_KEY }}
-        script: |
-          echo ${{ secrets.GHCR_PAT }} | docker login ghcr.io -u ${{ secrets.GHCR_USERNAME }} --password-stdin
-          
-          export RUNNING_IN_DOCKER='${{ secrets.RUNNING_IN_DOCKER }}'
-          export SECRET_KEY='${{ secrets.SECRET_KEY }}'
-          export DB_HOST='${{ secrets.DB_HOST }}'
-          export DB_NAME='${{ secrets.DB_NAME }}'
-          export DB_USER='${{ secrets.DB_USER }}'
-          export DB_PASSWORD='${{ secrets.DB_PASSWORD }}'
-          
-          cd /var/www/Django_App/prominent_profiles
-          docker pull ghcr.io/meeky37/fy-project/nginx:latest
-          docker pull ghcr.io/meeky37/fy-project/web:latest
-          docker-compose up -d
-          
+      - name: Checkout code
+        uses: actions/checkout@v2
+    
+      - name: Use Node.js 20
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+    
+      - name: Test SSH Connection - key
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.DROPLET_HOST }}
+          username: ${{ secrets.DROPLET_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          script: |
+            echo "Hello, World!" > hello_world.txt
+    
+      - name: Set up SSH key
+        uses: webfactory/ssh-agent@v0.5.3
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+      
+      - name: Add SSH Key to Known Hosts
+        run: |
+          echo "${{ secrets.SSH_KNOWN_HOSTS }}" >> ~/.ssh/known_hosts
+  
+    
+      - name: Copy docker-compose, web dockerfile file to server
+        run: |
+          ssh ${{ secrets.DROPLET_USER }}@${{ secrets.DROPLET_HOST }} "mkdir -p /var/www/Django_App/prominent_profiles/"
+          scp ./Django_App/prominent_profiles/production/docker-compose.yml ${{ secrets
+          .DROPLET_USER }}@${{ secrets.DROPLET_HOST }}:/var/www/Django_App/prominent_profiles/
+          scp ./Django_App/prominent_profiles/Dockerfile ${{ secrets.DROPLET_USER }}@${{ secrets.DROPLET_HOST }}:/var/www/Django_App/prominent_profiles/
+  
+      - name: Copy nginx configuration/Dockerfile to server
+        run: |
+          ssh ${{ secrets.DROPLET_USER }}@${{ secrets.DROPLET_HOST }} "mkdir -p /var/www/Django_App/prominent_profiles/nginx"
+          scp -r ./Django_App/prominent_profiles/nginx ${{ secrets.DROPLET_USER }}@${{ secrets.DROPLET_HOST }}:/var/www/Django_App/prominent_profiles/nginx
+      
+      - name: Deploy to Digital Ocean Droplet
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.DROPLET_HOST }}
+          command_timeout: 30m
+          username: ${{ secrets.DROPLET_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          script: |
+            echo ${{ secrets.GHCR_PAT }} | docker login ghcr.io -u ${{ secrets.GHCR_USERNAME }} --password-stdin
+            
+            export RUNNING_IN_DOCKER='${{ secrets.RUNNING_IN_DOCKER }}'
+            export SECRET_KEY='${{ secrets.SECRET_KEY }}'
+            export DB_HOST='${{ secrets.DB_HOST }}'
+            export DB_NAME='${{ secrets.DB_NAME }}'
+            export DB_USER='${{ secrets.DB_USER }}'
+            export DB_PASSWORD='${{ secrets.DB_PASSWORD }}'
+            
+            cd /var/www/Django_App/prominent_profiles
+            docker pull ghcr.io/meeky37/fy-project/nginx:latest
+            docker pull ghcr.io/meeky37/fy-project/web:latest
+            docker-compose up -d
+            
