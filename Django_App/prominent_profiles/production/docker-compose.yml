@@ -17,6 +17,7 @@ services:
       - DB_USER=${DB_USER}
       - DB_PASSWORD=${DB_PASSWORD}
       - DB_HOST=${DB_HOST}
+      - DB_POST=${DB_PORT}
       - RUNNING_IN_DOCKER=${RUNNING_IN_DOCKER}
       - SECRET_KEY=${SECRET_KEY}
 
