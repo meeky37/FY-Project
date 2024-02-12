@@ -105,5 +105,4 @@ jobs:
             docker pull ghcr.io/meeky37/fy-project/nginx:latest
             docker pull ghcr.io/meeky37/fy-project/web:latest
             docker-compose up -d
-            
           
