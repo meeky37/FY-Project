@@ -84,6 +84,7 @@ jobs:
           scp -r ./Django_App/prominent_profiles/nginx ${{ secrets.DROPLET_USER }}@${{ secrets.DROPLET_HOST }}:/var/www/Django_App/prominent_profiles/nginx
       
       - name: Deploy to Digital Ocean Droplet
+        timeout-minutes: 30
         uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.DROPLET_HOST }}
