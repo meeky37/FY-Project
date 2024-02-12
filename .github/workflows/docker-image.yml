@@ -101,6 +101,7 @@ jobs:
             export DB_PASSWORD='${{ secrets.DB_PASSWORD }}'
             
             cd /var/www/Django_App/prominent_profiles
-            docker-compose pull
+            docker pull ghcr.io/meeky37/fy-project/nginx:latest
+            docker pull ghcr.io/meeky37/fy-project/web:latest
             docker-compose up -d
             
