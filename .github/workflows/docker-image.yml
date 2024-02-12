@@ -86,12 +86,12 @@ jobs:
     deploy:
       # needs: prep_deploy
       runs-on: ubuntu-latest
-      timeout-minutes: 30
       steps:
       - name: Deploy to Digital Ocean Droplet
         uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.DROPLET_HOST }}
+          command_timeout: 30
           username: ${{ secrets.DROPLET_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
