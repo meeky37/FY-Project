@@ -15,29 +15,29 @@ jobs:
         with:
           node-version: 20
       
-      # - name: Log in to GitHub Container Registry
-      #   uses: docker/login-action@v1
-      #   with:
-      #     registry: ghcr.io
-      #     username: ${{ github.actor }}
-      #     password: ${{ secrets.GITHUB_TOKEN }}
+      - name: Log in to GitHub Container Registry
+        uses: docker/login-action@v1
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
 
-      # - name: Checkout code
-      #   uses: actions/checkout@v2
+      - name: Checkout code
+        uses: actions/checkout@v2
           
-      # - name: Build and push Docker images using Docker Compose
-      #   run: |
-      #     docker-compose build
-      #     docker push ghcr.io/meeky37/fy-project/nginx:latest
-      #     docker push ghcr.io/meeky37/fy-project/web:latest
-      #   env:
-      #     RUNNING_IN_DOCKER: ${{ secrets.RUNNING_IN_DOCKER }}
-      #     SECRET_KEY: ${{ secrets.SECRET_KEY }}
-      #     DB_NAME: ${{ secrets.DB_NAME }}
-      #     DB_USER: ${{ secrets.DB_USER }}
-      #     DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
-      #     DB_HOST: ${{ secrets.DB_HOST }}
-      #   working-directory: ./Django_App/prominent_profiles
+      - name: Build and push Docker images using Docker Compose
+        run: |
+          docker-compose build
+          docker push ghcr.io/meeky37/fy-project/nginx:latest
+          docker push ghcr.io/meeky37/fy-project/web:latest
+        env:
+          RUNNING_IN_DOCKER: ${{ secrets.RUNNING_IN_DOCKER }}
+          SECRET_KEY: ${{ secrets.SECRET_KEY }}
+          DB_NAME: ${{ secrets.DB_NAME }}
+          DB_USER: ${{ secrets.DB_USER }}
+          DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
+          DB_HOST: ${{ secrets.DB_HOST }}
+        working-directory: ./Django_App/prominent_profiles
 
   deploy:
     needs: build-and-push
