@@ -9,7 +9,7 @@ class Command(BaseCommand):
     def handle(self, *args, **options):
 
         try:
-            model = FCoref(device='cuda:0')
+            model = FCoref(device='cpu')
             preds = model.predict(texts=[
                 'We are so happy to see you using our coref package. This package is very fast!'])
             output = preds[0].get_clusters(as_strings=True)
