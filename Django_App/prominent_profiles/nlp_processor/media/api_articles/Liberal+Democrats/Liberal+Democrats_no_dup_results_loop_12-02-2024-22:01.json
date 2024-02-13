@@ -1,0 +1,2817 @@
+[
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=Liberal+Democrats",
+        "queryContext": {
+            "originalQuery": "Liberal Democrats",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 22,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Liberal+Democrats"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Liberal+Democrats&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Lib Dems target \u2018Waitrose women\u2019 and \u2018M&amp;S movers\u2019",
+                "url": "https://www.telegraph.co.uk/politics/2024/02/12/lib-dems-target-waitrose-women-and-ms-movers/",
+                "description": "Strategists believe two demographics at opposite ends of the political spectrum are key to winning seats in the Tory Party\u2019s Blue Wall",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/36c04e39-acf5-56ab-6e5c-de11f13216f4",
+                        "name": "Liberal Democrats"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fb379108-4c34-b87d-fd27-addcd9dc4210",
+                        "name": "Waitrose"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Liberal Democrats"
+                    },
+                    {
+                        "name": "Waitrose"
+                    },
+                    {
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:50:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "York library service fears cuts would make them financially unviable&#39;",
+                "url": "https://www.yorkpress.co.uk/news/24115160.york-library-service-fears-cuts-make-financially-unviable/",
+                "description": "As part of the savings, the administration has proposed cutting \u00a3300,000 from Explore\u2019s budget in each of the next two years \u2013 meaning that after two years, the library\u2019s service\u2019s annual budget would have been slashed from \u00a32.6 million to just \u00a32 million.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a60ce14b-6919-f15c-15bd-5d5494ff8598",
+                        "name": "York"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Press",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6jQbP8CoKeIBudzFJ2C9mg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T18:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Valentine&#39;s Day warning as romance scammers tricked people out of \u00a390million last year",
+                "url": "https://www.mirror.co.uk/news/politics/valentines-day-warning-romance-scammers-32109470",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.aSEmQaJgcS1o4OP9tFzflC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Romance fraud is when people are defrauded into sending money to criminals who have gained their trust and convinced them that they are in a genuine relationship",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e88a173e-30a7-ec38-cac8-53a5e5fcda18",
+                        "name": "Warning"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b4a29efd-db54-e74f-b461-723117a953bf",
+                        "name": "Romance"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "Warning"
+                    },
+                    {
+                        "name": "Romance"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T18:11:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Councillor joins Save our Buses rally in Yeovil to prevent cuts",
+                "url": "https://www.chardandilminsternews.co.uk/news/crewkerne_news/24114317.councillor-joins-save-buses-rally-yeovil-prevent-cuts/",
+                "description": "On Saturday, February 10, Adam Dance, Somerset Councillor for South Petherton &amp; Iselmoor, joined Somerset Bus Partnership in Yeovil to campaign to save important bus routes across Somerset . \u2022 25: Taunton-Dulverton, including Cotford St. Luke, Norton Fitzwarren, and Wiveliscombe",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3a289287-1a7e-4071-a9bb-ff9599ce6476",
+                        "name": "Ilminster"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f9a719f8-0476-e9dc-8509-91119d0e473a",
+                        "name": "Yeovil"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1ed1511a-5cfd-1b2f-6bd9-57475309fa28",
+                        "name": "Chard"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Chard and Ilminster News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CEHY2c7Q_5JyJFAj7q1vlA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T17:00:00.0000000Z"
+            },
+            {
+                "name": "Inverness South <b>Liberal</b> <b>Democrat</b> Councillor Colin Aitken resigns from Highland Council",
+                "url": "https://www.inverness-courier.co.uk/news/inverness-south-councillor-colin-aitken-resigns-from-highlan-342022/",
+                "description": "Liberal Democrat Councillor Colin Aitken has resigned from Highland Council having first been elected in 2021. It is understood the move is related to changes of employment and increased responsibility that are not compatible with his role as an elected member..",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f69239dd-3b67-d215-27a2-35ca6ac8f072",
+                        "name": "Highland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/248b9a26-9d08-2f38-153d-481ac115e3e3",
+                        "name": "Inverness South"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9fb40164-659e-c352-e3cb-fc1a572992b3",
+                        "name": "Councillor"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Inverness Courier",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.XhhVRILA3jWO7XL7zsgWPA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T15:44:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Wishart responds to Sandness incident",
+                "url": "https://www.scotlibdems.org.uk/news/article/wishart-responds-to-sandness-incident",
+                "description": "Shetland MSP and Scottish Liberal Democrat Beatrice Wishart MSP has responded to the incident in Sandness, Shetland, where Police Scotland confirmed that around 16:55 on Sunday 11th February officers were called to a report of a disturbance.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/89de9581-2271-6c45-a89e-c5d63f823226",
+                        "name": "Sandness"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c8c3a07-0c6a-0cbb-ce69-1e67d001e752",
+                        "name": "Scottish Liberal Democrats"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2ff7d7ac-0a54-021d-5cb9-f02b1888e0c5",
+                        "name": "Respond"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "scotlibdems"
+                    }
+                ],
+                "datePublished": "2024-02-12T15:19:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Rebecca Pow MP reacts to grant given to YMCA Taunton",
+                "url": "https://www.somersetcountygazette.co.uk/news/24114310.rebecca-pow-mp-reacts-grant-given-ymca-taunton/",
+                "description": "Rebecca Pow, MP for Taunton Deane, has said the Conservatives will continue to fund youth services following a grant given to YMCA Taunton.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/36efe269-0024-1f8b-e108-15f138ee6b03",
+                        "name": "Rebecca"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40dc053f-0dbc-ba2b-624d-4d8e44c53b7f",
+                        "name": "Taunton"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Somerset County Gazette",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.waWzSPbN9UCKE_lQi3V8Cg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T15:19:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Tories \u2018could lose more than half of England\u2019s 100 most rural seats\u2019",
+                "url": "https://www.telegraph.co.uk/politics/2024/02/12/conservatives-labour-party-countryside-seats-election/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.7a2W5FR8IxZ5XqtNYAtsSS&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "The Conservatives could lose more than half of the 100 most rural seats in England at the election, according to a poll that has dealt another blow to Rishi Sunak. The Survation survey showed that Labour holds a lead in the polls in the seats, which have traditionally formed Conservative heartlands.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/280d39e8-7217-6863-6980-a8c20c211c89",
+                        "name": "England"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "England"
+                    },
+                    {
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "name": "Seat"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T15:15:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Water bosses should face jail time on top of bonus bans, campaigners say",
+                "url": "https://inews.co.uk/news/water-bosses-jail-bonus-ban-2901937?ico=most_popular",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.RbhZxnSzv8Iq0v7bW9Ox2S&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "No 10 is accused of &#39;smoke and mirrors&#39; as it announces it will consult on banning bonuses for polluting water firms&#39; bosses",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8a61b679-26a4-81a0-ec75-03b1de205149",
+                        "name": "Private prison"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Private prison"
+                    },
+                    {
+                        "name": "Civil society campaign"
+                    },
+                    {
+                        "name": "Bingo"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T15:03:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Lib Dems select parliamentary candidate for North East Herts",
+                "url": "https://www.thecomet.net/news/24114257.lib-dems-select-parliamentary-candidate-north-east-herts/",
+                "description": "The <b>Liberal Democrats</b> have selected their parliamentary candidate for North East Hertfordshire. Ruth Brown, who has lived in Royston for 35 years, is a district and town councillor and has been deputy leader of North Herts Council for two years ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0098e261-8c5d-77bf-bde9-bdc8bfa0c9d8",
+                        "name": "North East England"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Comet"
+                    }
+                ],
+                "datePublished": "2024-02-12T14:38:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Water company bosses face ban on bonuses over illegal sewage spills",
+                "url": "https://www.itv.com/news/2024-02-11/water-firms-face-significant-fines-for-poor-customer-service-under-new-powers",
+                "description": "Bosses at water companies have pocketed more than \u00a326 million in bonuses, benefits and incentives over the last four years. | ITV National News",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "ITV",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.HlKTyCgM99pRvmITMdZC2w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T14:36:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Rochdale by-election: Formal complaint filed against Labour candidate after &#39;antisemitic&#39; remarks",
+                "url": "https://uk.news.yahoo.com/rochdale-election-formal-complaint-filed-181600199.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Mgq64G54YxN8kxga4ovDhy&pid=News",
+                        "width": 640,
+                        "height": 380
+                    }
+                },
+                "description": "The Labour Party has received an official complaint about its candidate in the Rochdale by-election following &quot;antisemitic&quot; comments about the 7 October attack on Israel, Sky News has learned. Labour Against Antisemitism (LAAS),",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/baf56fc2-cb3f-46c7-83ad-08830d0407e4",
+                        "name": "Rochdale"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/94811ffa-fefe-1295-44ad-6e5cff2e545a",
+                        "name": "Complaint"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T13:15:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Council leader writes \u2018Community bears brunt of Tory cuts\u2019",
+                "url": "https://southwarknews.co.uk/area/southwark/council-leader-writes-community-bears-brunt-of-tory-cuts/",
+                "description": "This year is my tenth as a councillor. It\u2019s a role I love, because in it I get to work with brilliant people from every part of our community. Over the last decade I\u2019ve seen some amazing things achieved.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/08395004-52c8-7e92-072d-e7eb99cbb793",
+                        "name": "Community"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Southwark News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.LxwJdYbfG6Q1qaq5xM2D0A&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T13:11:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Nearly half of Sussex children have not seen an NHS dentist in 12 months",
+                "url": "https://www.sussexexpress.co.uk/news/people/nearly-half-of-sussex-children-have-not-seen-an-nhs-dentist-in-12-months-4514811",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.o5MqObtMErPSIbBbKHV6fS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "A total of 133,376 children in Sussex \u2013 nearly half \u2013 have not been seen by an NHS dentist in 12 months. That\u2019s according to research commissioned from the House of Commons Library which estimates the number of children who weren\u2019t seen by an NHS dentist in the year to June 2023, based on the latest data from the health service.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90836c93-726d-0b49-3471-f8d6cb9e7f51",
+                        "name": "Sussex"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/507e27aa-24fb-9b98-1e76-45f59043d1e6",
+                        "name": "Romanian months"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sussex Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.M2IwrO6uYYq6DYNJ49zCog&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T12:53:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "Senior Tories set to lose seats at next election as support in rural strongholds collapses",
+                "url": "https://www.independent.co.uk/news/uk/conservative-vote-collapse-rural-labour-lead-election-b2494601.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.O85GQCbslBw9I0NbN3xUfC&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Support for the Conservatives among England\u2019s rural voters has collapsed since 2019 with many high profile MPs at risk of losing their seats",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "News UK"
+                    },
+                    {
+                        "name": "Conservatism"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T12:35:00.0000000Z",
+                "video": {
+                    "name": "Senior Tories set to lose seats at next election as support in rural strongholds collapses",
+                    "thumbnailUrl": "https://www.bing.com/th?id=OVF.B0wg%2B9EP%2BqoQmPZIk6NvZw&pid=News",
+                    "embedHtml": "&lt;iframe src=&quot;https://cdn.jwplayer.com/players/t9T0c3PO-XLzx33eA.html&quot; width=&quot;480&quot; height=&quot;270&quot; frameborder=&quot;0&quot; scrolling=&quot;auto&quot;&gt;&lt;/iframe&gt;",
+                    "allowHttpsEmbed": true,
+                    "thumbnail": {
+                        "width": 520,
+                        "height": 291
+                    }
+                },
+                "category": "Politics"
+            },
+            {
+                "name": "Mark Harper and Jacob Rees-Mogg among West Country Tories that face general election ousting",
+                "url": "https://www.itv.com/news/westcountry/2024-02-12/mark-harper-and-jacob-rees-mogg-among-tories-that-face-general-election-ousting",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Th5ieDlDlvdfH_HxZusdJy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "According to a new poll by the Country Land Business Association, the Conservatives are losing support among rural voters. | ITV News",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "ITV",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.HlKTyCgM99pRvmITMdZC2w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T11:48:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "\u2018It\u2019s shameless\u2019, cry customers as last bank closes in town \u2013 with clients facing 50-mile trek to nearest Barclays",
+                "url": "https://www.thesun.co.uk/money/25879230/shameless-cry-customers-as-last-bank-closes-barclays/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.kQIf3Y2DPkTxqCbVZj6gTC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "CUSTOMERS have hit out after bosses decided to close the last bank in a town leaving locals with a 50-mile trek to their nearest Barclays branch. Locals in Leiston, Suffolk now face a 24 mile trip",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9fb91659-3521-96df-b9d4-f4441da7efdd",
+                        "name": "Barclays"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mZZguWnkRkVFPCoaQUmKEg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T11:02:00.0000000Z"
+            },
+            {
+                "name": "Picking a winner? The Conservatives\u2019 campaign for the City of Durham begins",
+                "url": "https://www.palatinate.org.uk/picking-a-winner-the-conservatives-campaign-for-the-city-of-durham-begins/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.8VQCS1iaWv60Jw4pms8xdC&pid=News",
+                        "width": 700,
+                        "height": 467
+                    }
+                },
+                "description": "Jussi-Peter Hill explores Councillor Luke Allan Holmes&#39;s selection as the Conservative candidate for the forthcoming general election.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/28a7bdc8-d68d-24de-0cb0-e4bb518c7dc4",
+                        "name": "Palatinate"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6a9a951e-fcd0-1929-15fd-be29956fce3e",
+                        "name": "City of Durham"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b83d549f-1d62-a989-a518-4fdc76be546e",
+                        "name": "Campaign"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Palatinate",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.jFDgsFGIq6tX_ioEJiN7bA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T10:42:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Labour candidate &#39;fell for online conspiracy theory&#39; about Hamas attacks, shadow minister says",
+                "url": "https://news.sky.com/story/amp/labour-candidate-fell-for-online-conspiracy-theory-about-hamas-attacks-shadow-minister-says-13069951",
+                "description": "And it is that message which resonates across Rochdale: young and old, white and black.&quot; The <b>Liberal Democrats</b> have been approached for comment. Mr Ali, a former government adviser who was made an OBE in 2020 for public service, was selected last month to ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fd56a0c1-5b09-6e40-09dc-a8abf5069c30",
+                        "name": "Hamas"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a51d348d-acde-2292-48bb-1122a78ae529",
+                        "name": "Conspiracy theory"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky"
+                    }
+                ],
+                "datePublished": "2024-02-12T10:07:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Lib Dems announce Worthing general election candidates",
+                "url": "https://www.sussexexpress.co.uk/news/politics/lib-dems-announce-worthing-general-election-candidates-4514059",
+                "description": "The party has selected Morag Chugg, a youth support worker, to contest Worthing West. David Batchelor, a chartered surveyor from Shoreham, will contest East Worthing &amp; Shoreham. The seats are currently held by Conservatives Sir Peter Bottomley and Tim Loughton respectively.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/02ce881a-7ee7-f584-9eb1-903888376643",
+                        "name": "Worthing"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8d8aa22b-becb-80d8-677c-a3161e16cbf5",
+                        "name": "General election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sussex Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.M2IwrO6uYYq6DYNJ49zCog&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T08:58:00.0000000Z"
+            },
+            {
+                "name": "Labour takes lead over Tories among \u2018politically homeless\u2019 rural voters",
+                "url": "https://www.theargus.co.uk/news/national/24112713.labour-takes-lead-tories-among-politically-homeless-rural-voters/",
+                "description": "Labour has taken a narrow lead over the Conservatives among England\u2019s rural voters, a poll has found. But while the survey suggests Conservative support has collapsed in the party\u2019s heartlands, the head of a major countryside business association said rural voters were still \u201cpolitically homeless\u201d.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Argus",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.QOpcpeD2NEW-5ezLj52dtg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T00:06:00.0000000Z"
+            },
+            {
+                "name": "Revealed: 1.5 million patients waited 12 hours or more in A&amp;E in past year",
+                "url": "https://www.libdems.org.uk/press/release/revealed-15-million-patients-waited-12-hours-or-more-in-ae-in-past-year",
+                "description": "A staggering 1.5 million patients in England waited 12 hours or more after arriving at A&amp;E over the past year, new analysis by the\u00a0Liberal\u00a0Democrats has revealed.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Liberal Democrats",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wrQc3eyCyWze_QNK0eU0VQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-11T23:08:00.0000000Z"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=Liberal+Democrats",
+        "queryContext": {
+            "originalQuery": "Liberal Democrats",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 130,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Liberal+Democrats"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Liberal+Democrats&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Lib Dems target \u2018Waitrose women\u2019 and \u2018M&amp;S movers\u2019",
+                "url": "https://www.telegraph.co.uk/politics/2024/02/12/lib-dems-target-waitrose-women-and-ms-movers/",
+                "description": "Strategists believe two demographics at opposite ends of the political spectrum are key to winning seats in the Tory Party\u2019s Blue Wall",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/36c04e39-acf5-56ab-6e5c-de11f13216f4",
+                        "name": "Liberal Democrats"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fb379108-4c34-b87d-fd27-addcd9dc4210",
+                        "name": "Waitrose"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Liberal Democrats"
+                    },
+                    {
+                        "name": "Waitrose"
+                    },
+                    {
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:50:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "York library service fears cuts would make them financially unviable&#39;",
+                "url": "https://www.yorkpress.co.uk/news/24115160.york-library-service-fears-cuts-make-financially-unviable/",
+                "description": "As part of the savings, the administration has proposed cutting \u00a3300,000 from Explore\u2019s budget in each of the next two years \u2013 meaning that after two years, the library\u2019s service\u2019s annual budget would have been slashed from \u00a32.6 million to just \u00a32 million.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a60ce14b-6919-f15c-15bd-5d5494ff8598",
+                        "name": "York"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Press",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6jQbP8CoKeIBudzFJ2C9mg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T18:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Valentine&#39;s Day warning as romance scammers tricked people out of \u00a390million last year",
+                "url": "https://www.mirror.co.uk/news/politics/valentines-day-warning-romance-scammers-32109470",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.aSEmQaJgcS1o4OP9tFzflC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Romance fraud is when people are defrauded into sending money to criminals who have gained their trust and convinced them that they are in a genuine relationship",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e88a173e-30a7-ec38-cac8-53a5e5fcda18",
+                        "name": "Warning"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b4a29efd-db54-e74f-b461-723117a953bf",
+                        "name": "Romance"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "Warning"
+                    },
+                    {
+                        "name": "Romance"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T18:11:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Councillor joins Save our Buses rally in Yeovil to prevent cuts",
+                "url": "https://www.chardandilminsternews.co.uk/news/crewkerne_news/24114317.councillor-joins-save-buses-rally-yeovil-prevent-cuts/",
+                "description": "On Saturday, February 10, Adam Dance, Somerset Councillor for South Petherton &amp; Iselmoor, joined Somerset Bus Partnership in Yeovil to campaign to save important bus routes across Somerset . \u2022 25: Taunton-Dulverton, including Cotford St. Luke, Norton Fitzwarren, and Wiveliscombe",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3a289287-1a7e-4071-a9bb-ff9599ce6476",
+                        "name": "Ilminster"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f9a719f8-0476-e9dc-8509-91119d0e473a",
+                        "name": "Yeovil"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1ed1511a-5cfd-1b2f-6bd9-57475309fa28",
+                        "name": "Chard"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Chard and Ilminster News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CEHY2c7Q_5JyJFAj7q1vlA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T17:00:00.0000000Z"
+            },
+            {
+                "name": "Inverness South <b>Liberal</b> <b>Democrat</b> Councillor Colin Aitken resigns from Highland Council",
+                "url": "https://www.inverness-courier.co.uk/news/inverness-south-councillor-colin-aitken-resigns-from-highlan-342022/",
+                "description": "Liberal Democrat Councillor Colin Aitken has resigned from Highland Council having first been elected in 2021. It is understood the move is related to changes of employment and increased responsibility that are not compatible with his role as an elected member..",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f69239dd-3b67-d215-27a2-35ca6ac8f072",
+                        "name": "Highland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/248b9a26-9d08-2f38-153d-481ac115e3e3",
+                        "name": "Inverness South"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9fb40164-659e-c352-e3cb-fc1a572992b3",
+                        "name": "Councillor"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Inverness Courier",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.XhhVRILA3jWO7XL7zsgWPA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T15:44:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Wishart responds to Sandness incident",
+                "url": "https://www.scotlibdems.org.uk/news/article/wishart-responds-to-sandness-incident",
+                "description": "Shetland MSP and Scottish Liberal Democrat Beatrice Wishart MSP has responded to the incident in Sandness, Shetland, where Police Scotland confirmed that around 16:55 on Sunday 11th February officers were called to a report of a disturbance.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/89de9581-2271-6c45-a89e-c5d63f823226",
+                        "name": "Sandness"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c8c3a07-0c6a-0cbb-ce69-1e67d001e752",
+                        "name": "Scottish Liberal Democrats"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2ff7d7ac-0a54-021d-5cb9-f02b1888e0c5",
+                        "name": "Respond"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "scotlibdems"
+                    }
+                ],
+                "datePublished": "2024-02-12T15:19:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Rebecca Pow MP reacts to grant given to YMCA Taunton",
+                "url": "https://www.somersetcountygazette.co.uk/news/24114310.rebecca-pow-mp-reacts-grant-given-ymca-taunton/",
+                "description": "Rebecca Pow, MP for Taunton Deane, has said the Conservatives will continue to fund youth services following a grant given to YMCA Taunton.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/36efe269-0024-1f8b-e108-15f138ee6b03",
+                        "name": "Rebecca"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40dc053f-0dbc-ba2b-624d-4d8e44c53b7f",
+                        "name": "Taunton"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Somerset County Gazette",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.waWzSPbN9UCKE_lQi3V8Cg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T15:19:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Tories \u2018could lose more than half of England\u2019s 100 most rural seats\u2019",
+                "url": "https://www.telegraph.co.uk/politics/2024/02/12/conservatives-labour-party-countryside-seats-election/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.7a2W5FR8IxZ5XqtNYAtsSS&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "The Conservatives could lose more than half of the 100 most rural seats in England at the election, according to a poll that has dealt another blow to Rishi Sunak. The Survation survey showed that Labour holds a lead in the polls in the seats, which have traditionally formed Conservative heartlands.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/280d39e8-7217-6863-6980-a8c20c211c89",
+                        "name": "England"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "England"
+                    },
+                    {
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "name": "Seat"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T15:15:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Water bosses should face jail time on top of bonus bans, campaigners say",
+                "url": "https://inews.co.uk/news/water-bosses-jail-bonus-ban-2901937?ico=most_popular",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.RbhZxnSzv8Iq0v7bW9Ox2S&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "No 10 is accused of &#39;smoke and mirrors&#39; as it announces it will consult on banning bonuses for polluting water firms&#39; bosses",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8a61b679-26a4-81a0-ec75-03b1de205149",
+                        "name": "Private prison"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Private prison"
+                    },
+                    {
+                        "name": "Civil society campaign"
+                    },
+                    {
+                        "name": "Bingo"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T15:03:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Lib Dems select parliamentary candidate for North East Herts",
+                "url": "https://www.thecomet.net/news/24114257.lib-dems-select-parliamentary-candidate-north-east-herts/",
+                "description": "The <b>Liberal Democrats</b> have selected their parliamentary candidate for North East Hertfordshire. Ruth Brown, who has lived in Royston for 35 years, is a district and town councillor and has been deputy leader of North Herts Council for two years ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0098e261-8c5d-77bf-bde9-bdc8bfa0c9d8",
+                        "name": "North East England"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Comet"
+                    }
+                ],
+                "datePublished": "2024-02-12T14:38:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Water company bosses face ban on bonuses over illegal sewage spills",
+                "url": "https://www.itv.com/news/2024-02-11/water-firms-face-significant-fines-for-poor-customer-service-under-new-powers",
+                "description": "Bosses at water companies have pocketed more than \u00a326 million in bonuses, benefits and incentives over the last four years. | ITV National News",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "ITV",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.HlKTyCgM99pRvmITMdZC2w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T14:36:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Rochdale by-election: Formal complaint filed against Labour candidate after &#39;antisemitic&#39; remarks",
+                "url": "https://uk.news.yahoo.com/rochdale-election-formal-complaint-filed-181600199.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Mgq64G54YxN8kxga4ovDhy&pid=News",
+                        "width": 640,
+                        "height": 380
+                    }
+                },
+                "description": "The Labour Party has received an official complaint about its candidate in the Rochdale by-election following &quot;antisemitic&quot; comments about the 7 October attack on Israel, Sky News has learned. Labour Against Antisemitism (LAAS),",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/baf56fc2-cb3f-46c7-83ad-08830d0407e4",
+                        "name": "Rochdale"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/94811ffa-fefe-1295-44ad-6e5cff2e545a",
+                        "name": "Complaint"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T13:15:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Council leader writes \u2018Community bears brunt of Tory cuts\u2019",
+                "url": "https://southwarknews.co.uk/area/southwark/council-leader-writes-community-bears-brunt-of-tory-cuts/",
+                "description": "This year is my tenth as a councillor. It\u2019s a role I love, because in it I get to work with brilliant people from every part of our community. Over the last decade I\u2019ve seen some amazing things achieved.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/08395004-52c8-7e92-072d-e7eb99cbb793",
+                        "name": "Community"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Southwark News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.LxwJdYbfG6Q1qaq5xM2D0A&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T13:11:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Nearly half of Sussex children have not seen an NHS dentist in 12 months",
+                "url": "https://www.sussexexpress.co.uk/news/people/nearly-half-of-sussex-children-have-not-seen-an-nhs-dentist-in-12-months-4514811",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.o5MqObtMErPSIbBbKHV6fS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "A total of 133,376 children in Sussex \u2013 nearly half \u2013 have not been seen by an NHS dentist in 12 months. That\u2019s according to research commissioned from the House of Commons Library which estimates the number of children who weren\u2019t seen by an NHS dentist in the year to June 2023, based on the latest data from the health service.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90836c93-726d-0b49-3471-f8d6cb9e7f51",
+                        "name": "Sussex"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/507e27aa-24fb-9b98-1e76-45f59043d1e6",
+                        "name": "Romanian months"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sussex Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.M2IwrO6uYYq6DYNJ49zCog&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T12:53:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "Senior Tories set to lose seats at next election as support in rural strongholds collapses",
+                "url": "https://www.independent.co.uk/news/uk/conservative-vote-collapse-rural-labour-lead-election-b2494601.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.O85GQCbslBw9I0NbN3xUfC&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Support for the Conservatives among England\u2019s rural voters has collapsed since 2019 with many high profile MPs at risk of losing their seats",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "News UK"
+                    },
+                    {
+                        "name": "Conservatism"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T12:35:00.0000000Z",
+                "video": {
+                    "name": "Senior Tories set to lose seats at next election as support in rural strongholds collapses",
+                    "thumbnailUrl": "https://www.bing.com/th?id=OVF.B0wg%2B9EP%2BqoQmPZIk6NvZw&pid=News",
+                    "embedHtml": "&lt;iframe src=&quot;https://cdn.jwplayer.com/players/t9T0c3PO-XLzx33eA.html&quot; width=&quot;480&quot; height=&quot;270&quot; frameborder=&quot;0&quot; scrolling=&quot;auto&quot;&gt;&lt;/iframe&gt;",
+                    "allowHttpsEmbed": true,
+                    "thumbnail": {
+                        "width": 520,
+                        "height": 291
+                    }
+                },
+                "category": "Politics"
+            },
+            {
+                "name": "Mark Harper and Jacob Rees-Mogg among West Country Tories that face general election ousting",
+                "url": "https://www.itv.com/news/westcountry/2024-02-12/mark-harper-and-jacob-rees-mogg-among-tories-that-face-general-election-ousting",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Th5ieDlDlvdfH_HxZusdJy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "According to a new poll by the Country Land Business Association, the Conservatives are losing support among rural voters. | ITV News",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "ITV",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.HlKTyCgM99pRvmITMdZC2w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T11:48:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "\u2018It\u2019s shameless\u2019, cry customers as last bank closes in town \u2013 with clients facing 50-mile trek to nearest Barclays",
+                "url": "https://www.thesun.co.uk/money/25879230/shameless-cry-customers-as-last-bank-closes-barclays/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.kQIf3Y2DPkTxqCbVZj6gTC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "CUSTOMERS have hit out after bosses decided to close the last bank in a town leaving locals with a 50-mile trek to their nearest Barclays branch. Locals in Leiston, Suffolk now face a 24 mile trip",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9fb91659-3521-96df-b9d4-f4441da7efdd",
+                        "name": "Barclays"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mZZguWnkRkVFPCoaQUmKEg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T11:02:00.0000000Z"
+            },
+            {
+                "name": "Picking a winner? The Conservatives\u2019 campaign for the City of Durham begins",
+                "url": "https://www.palatinate.org.uk/picking-a-winner-the-conservatives-campaign-for-the-city-of-durham-begins/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.8VQCS1iaWv60Jw4pms8xdC&pid=News",
+                        "width": 700,
+                        "height": 467
+                    }
+                },
+                "description": "Jussi-Peter Hill explores Councillor Luke Allan Holmes&#39;s selection as the Conservative candidate for the forthcoming general election.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/28a7bdc8-d68d-24de-0cb0-e4bb518c7dc4",
+                        "name": "Palatinate"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6a9a951e-fcd0-1929-15fd-be29956fce3e",
+                        "name": "City of Durham"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b83d549f-1d62-a989-a518-4fdc76be546e",
+                        "name": "Campaign"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Palatinate",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.jFDgsFGIq6tX_ioEJiN7bA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T10:42:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Labour candidate &#39;fell for online conspiracy theory&#39; about Hamas attacks, shadow minister says",
+                "url": "https://news.sky.com/story/labour-candidate-fell-for-online-conspiracy-theory-about-hamas-attacks-shadow-minister-says-13069951",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.RbqFuDRmagMRPa883ZOzCC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Nick Thomas-Symonds describes Councillor Azhar Ali&#39;s comments as &quot;appalling&quot;, but says he should be given the chance to &quot;rebuild trust&quot; with the Jewish community.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a51d348d-acde-2292-48bb-1122a78ae529",
+                        "name": "Conspiracy theory"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fd56a0c1-5b09-6e40-09dc-a8abf5069c30",
+                        "name": "Hamas"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Conspiracy theory"
+                    },
+                    {
+                        "name": "Hamas"
+                    },
+                    {
+                        "name": "Australian Labor Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Eg62H9DIbo-JYPI6GpAgGA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T10:07:00.0000000Z",
+                "video": {
+                    "name": "Labour candidate needs to &#39;earn trust back&#39;",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/3f8a4843-e10a-498e-9bb2-e0f13ac06d15/21324921-384b-4bf6-aec0-bf685052_650.mp4",
+                    "thumbnail": {
+                        "width": 640,
+                        "height": 360
+                    }
+                },
+                "category": "Politics"
+            },
+            {
+                "name": "Joe Biden leans into Dark Brandon right-wing conspiracy theory about Taylor Swift and the Super Bowl",
+                "url": "https://uk.news.yahoo.com/joe-biden-leans-wing-conspiracy-094610590.html",
+                "description": "Joe Biden trolled right-wing conspiracy theorists on Sunday night by sharing a meme implying he and Taylor Swift connived to bring about the Kanas City Chiefs\u2019 victory at the 2024 Super Bowl.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cad484f9-be75-7a78-12dd-16233f823cd7",
+                        "name": "Joe Biden"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/bd93c397-a17d-c98f-0889-83c356659393",
+                        "name": "Brandon"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/98004a38-a3ea-b902-b6d3-687b30b54353",
+                        "name": "Taylor Swift"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T10:01:00.0000000Z",
+                "category": "Sports"
+            },
+            {
+                "name": "Minister Greg Hands in fight to win his seat to avoid Tory wipe-out in central London, say political experts",
+                "url": "https://www.standard.co.uk/news/politics/tory-mps-central-london-wipeout-election-felicity-buchan-greg-hands-b1138535.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.CrVtF0UP-QXHGOdXp_t7_i&pid=News",
+                        "width": 700,
+                        "height": 467
+                    }
+                },
+                "description": "The Conservatives currently hold three seats in central London but Labour is strongly targeting at least two of them",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/df61b8e3-ff4e-bd32-297b-be7e3af57761",
+                        "name": "Greg Hands"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/bd842bc6-9602-9a83-cfa8-c874dc0a0fdb",
+                        "name": "Central London"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Greg Hands"
+                    },
+                    {
+                        "name": "Central London"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T09:11:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Labour takes poll lead over Tories in rural heartlands",
+                "url": "https://www.fwi.co.uk/news/labour-takes-poll-lead-over-tories-in-rural-heartlands",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.dLPtsJDv_StM4w4FuBCHKy&pid=News",
+                        "width": 700,
+                        "height": 394
+                    }
+                },
+                "description": "The Conservatives will struggle to keep hold of to their \u201cblue hedge\u201d seats in rural England, if the results of a new poll are replicated in the general",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e320dd44-b39b-fd9b-7883-0fe89bb44ace",
+                        "name": "Poll"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b01e5839-d8f8-2311-df4f-5c8980299f38",
+                        "name": "Farmers Weekly"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Farmers Weekly",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0oKXntqfiCHF1J6DacUkVQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T09:08:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Lib Dems announce Worthing general election candidates",
+                "url": "https://www.sussexexpress.co.uk/news/politics/lib-dems-announce-worthing-general-election-candidates-4514059",
+                "description": "The party has selected Morag Chugg, a youth support worker, to contest Worthing West. David Batchelor, a chartered surveyor from Shoreham, will contest East Worthing &amp; Shoreham. The seats are currently held by Conservatives Sir Peter Bottomley and Tim Loughton respectively.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/02ce881a-7ee7-f584-9eb1-903888376643",
+                        "name": "Worthing"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8d8aa22b-becb-80d8-677c-a3161e16cbf5",
+                        "name": "General election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sussex Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.M2IwrO6uYYq6DYNJ49zCog&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T08:58:00.0000000Z"
+            },
+            {
+                "name": "All you need to know about the upcoming by-elections",
+                "url": "https://uk.finance.yahoo.com/news/know-upcoming-elections-084553685.html",
+                "description": "Three by-elections are taking place this month, in the latest test of the strength of Rishi Sunak\u2019s government.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5e83019e-d5ad-de66-bfc7-9f24e0932322",
+                        "name": "By-election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Finance",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.LBn5t3rqxzpf5jMTBU81BA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T08:44:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "NHS crisis saw more than 1.5million A&amp;E patients have to wait at least 12 hours to be treated last year",
+                "url": "https://www.dailymail.co.uk/health/article-13073325/NHS-crisis-wait-12-hours-treated-year.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.84W6Rly84HPp-mJ8j6aGGi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "More than 1.5million patients waited 12 hours after arriving at A&amp;E last year. At Blackpool Teaching Hospitals, one in four patients faced delays of 12 hours in January - the worst in the country.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8c7e3ff-4385-006e-4203-ce75efb28fa7",
+                        "name": "Wait"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6f139537-5bc1-e0b8-7097-f07441113e28",
+                        "name": "Crisis"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Wait"
+                    },
+                    {
+                        "name": "Crisis"
+                    },
+                    {
+                        "name": "Daily Mail"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T08:14:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "New water bill rules under fire - but they come into force &#39;from today&#39;",
+                "url": "https://www.birminghammail.co.uk/news/cost-of-living/new-water-bill-rules-under-28613908",
+                "description": "A new scheme to fine water companies for providing poor service to customers has been dismissed as \u201cnothing less than a gimmick\u201d.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/aaac0a14-911d-49c8-ac97-51d9f9100ad7",
+                        "name": "Birmingham"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Birmingham"
+                    },
+                    {
+                        "name": "Department for Work and Pensions"
+                    },
+                    {
+                        "name": "Invoice"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Birmingham Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.jPou0vlDKt0Px6h21V_3rw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T07:58:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "By-election results will provide important clues ahead of next general election",
+                "url": "https://news.sky.com/story/by-election-results-will-provide-important-clues-ahead-of-next-general-election-13067764",
+                "description": "Next week voters go to the polls in twin elections at Kingswood and Wellingborough - with the Tories facing a threat not just from Labour, but from Reform UK too. But emerging divisions within Labour could also check its electoral progress.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5e83019e-d5ad-de66-bfc7-9f24e0932322",
+                        "name": "By-election"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8d8aa22b-becb-80d8-677c-a3161e16cbf5",
+                        "name": "General election"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "By-election"
+                    },
+                    {
+                        "name": "General election"
+                    },
+                    {
+                        "name": "Election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Eg62H9DIbo-JYPI6GpAgGA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T07:43:00.0000000Z",
+                "video": {
+                    "name": "&#39;Looking at exceptional swings&#39;",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/802ea7c4-5c80-4c6a-b053-0a2a897fe46e/95b51c93-a267-484a-a14e-e376a1f3_650.mp4",
+                    "thumbnail": {
+                        "width": 640,
+                        "height": 360
+                    }
+                },
+                "category": "Politics"
+            },
+            {
+                "name": "Crime to buses: Wellingborough by-election in charts",
+                "url": "https://www.bbc.co.uk/news/uk-england-northamptonshire-68170196",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.i6dVmTXCVl29ojkhxpp3yS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Voters in Wellingborough will choose a new MP in a by-election on February 15. It is taking place because the former Conservative MP Peter Bone was removed from his role after more than one in 10 registered constituents signed a recall petition.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/46dd78dd-5ef4-fbbe-a972-201185a1f3c9",
+                        "name": "Wellingborough"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T06:37:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Labour takes lead over Tories among \u2018politically homeless\u2019 rural voters",
+                "url": "https://www.kentonline.co.uk/news/national/labour-takes-lead-over-tories-among-politically-homeless-rural-voters-110317/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.GpSVsBNZ-OlYeThKZnMn3y&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Labour has taken a narrow lead over the Conservatives among England\u2019s rural voters, a poll has found. But while the survey suggests Conservative support has collapsed in the party\u2019s heartlands, the head of a major countryside business association said rural voters were still \u201cpolitically homeless\u201d.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Kent Online",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.hWRC_m6PUwfTBWwiGneX8Q&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T00:10:00.0000000Z"
+            },
+            {
+                "name": "Revealed: 1.5 million patients waited 12 hours or more in A&amp;E in past year",
+                "url": "https://www.libdems.org.uk/press/release/revealed-15-million-patients-waited-12-hours-or-more-in-ae-in-past-year",
+                "description": "A staggering 1.5 million patients in England waited 12 hours or more after arriving at A&amp;E over the past year, new analysis by the\u00a0Liberal\u00a0Democrats has revealed.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Liberal Democrats",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wrQc3eyCyWze_QNK0eU0VQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-11T23:08:00.0000000Z"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=Liberal+Democrats",
+        "queryContext": {
+            "originalQuery": "Liberal Democrats",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 230,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Liberal+Democrats"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Liberal+Democrats&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Lib Dems target \u2018Waitrose women\u2019 and \u2018M&amp;S movers\u2019",
+                "url": "https://www.telegraph.co.uk/politics/2024/02/12/lib-dems-target-waitrose-women-and-ms-movers/",
+                "description": "Strategists believe two demographics at opposite ends of the political spectrum are key to winning seats in the Tory Party\u2019s Blue Wall",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/36c04e39-acf5-56ab-6e5c-de11f13216f4",
+                        "name": "Liberal Democrats"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fb379108-4c34-b87d-fd27-addcd9dc4210",
+                        "name": "Waitrose"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Liberal Democrats"
+                    },
+                    {
+                        "name": "Waitrose"
+                    },
+                    {
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:50:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "York library service fears cuts would make them financially unviable&#39;",
+                "url": "https://www.yorkpress.co.uk/news/24115160.york-library-service-fears-cuts-make-financially-unviable/",
+                "description": "As part of the savings, the administration has proposed cutting \u00a3300,000 from Explore\u2019s budget in each of the next two years \u2013 meaning that after two years, the library\u2019s service\u2019s annual budget would have been slashed from \u00a32.6 million to just \u00a32 million.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a60ce14b-6919-f15c-15bd-5d5494ff8598",
+                        "name": "York"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Press",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6jQbP8CoKeIBudzFJ2C9mg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T18:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Valentine&#39;s Day warning as romance scammers tricked people out of \u00a390million last year",
+                "url": "https://www.mirror.co.uk/news/politics/valentines-day-warning-romance-scammers-32109470",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.aSEmQaJgcS1o4OP9tFzflC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Romance fraud is when people are defrauded into sending money to criminals who have gained their trust and convinced them that they are in a genuine relationship",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e88a173e-30a7-ec38-cac8-53a5e5fcda18",
+                        "name": "Warning"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b4a29efd-db54-e74f-b461-723117a953bf",
+                        "name": "Romance"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "Warning"
+                    },
+                    {
+                        "name": "Romance"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T18:11:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Councillor joins Save our Buses rally in Yeovil to prevent cuts",
+                "url": "https://www.chardandilminsternews.co.uk/news/crewkerne_news/24114317.councillor-joins-save-buses-rally-yeovil-prevent-cuts/",
+                "description": "On Saturday, February 10, Adam Dance, Somerset Councillor for South Petherton &amp; Iselmoor, joined Somerset Bus Partnership in Yeovil to campaign to save important bus routes across Somerset . \u2022 25: Taunton-Dulverton, including Cotford St. Luke, Norton Fitzwarren, and Wiveliscombe",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3a289287-1a7e-4071-a9bb-ff9599ce6476",
+                        "name": "Ilminster"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f9a719f8-0476-e9dc-8509-91119d0e473a",
+                        "name": "Yeovil"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1ed1511a-5cfd-1b2f-6bd9-57475309fa28",
+                        "name": "Chard"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Chard and Ilminster News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CEHY2c7Q_5JyJFAj7q1vlA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T17:00:00.0000000Z"
+            },
+            {
+                "name": "Inverness South <b>Liberal</b> <b>Democrat</b> Councillor Colin Aitken resigns from Highland Council",
+                "url": "https://www.inverness-courier.co.uk/news/inverness-south-councillor-colin-aitken-resigns-from-highlan-342022/",
+                "description": "Liberal Democrat Councillor Colin Aitken has resigned from Highland Council having first been elected in 2021. It is understood the move is related to changes of employment and increased responsibility that are not compatible with his role as an elected member..",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f69239dd-3b67-d215-27a2-35ca6ac8f072",
+                        "name": "Highland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/248b9a26-9d08-2f38-153d-481ac115e3e3",
+                        "name": "Inverness South"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9fb40164-659e-c352-e3cb-fc1a572992b3",
+                        "name": "Councillor"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Inverness Courier",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.XhhVRILA3jWO7XL7zsgWPA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T15:44:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Wishart responds to Sandness incident",
+                "url": "https://www.scotlibdems.org.uk/news/article/wishart-responds-to-sandness-incident",
+                "description": "Shetland MSP and Scottish Liberal Democrat Beatrice Wishart MSP has responded to the incident in Sandness, Shetland, where Police Scotland confirmed that around 16:55 on Sunday 11th February officers were called to a report of a disturbance.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/89de9581-2271-6c45-a89e-c5d63f823226",
+                        "name": "Sandness"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c8c3a07-0c6a-0cbb-ce69-1e67d001e752",
+                        "name": "Scottish Liberal Democrats"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2ff7d7ac-0a54-021d-5cb9-f02b1888e0c5",
+                        "name": "Respond"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "scotlibdems"
+                    }
+                ],
+                "datePublished": "2024-02-12T15:19:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Rebecca Pow MP reacts to grant given to YMCA Taunton",
+                "url": "https://www.somersetcountygazette.co.uk/news/24114310.rebecca-pow-mp-reacts-grant-given-ymca-taunton/",
+                "description": "Rebecca Pow, MP for Taunton Deane, has said the Conservatives will continue to fund youth services following a grant given to YMCA Taunton.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/36efe269-0024-1f8b-e108-15f138ee6b03",
+                        "name": "Rebecca"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40dc053f-0dbc-ba2b-624d-4d8e44c53b7f",
+                        "name": "Taunton"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Somerset County Gazette",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.waWzSPbN9UCKE_lQi3V8Cg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T15:19:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Tories \u2018could lose more than half of England\u2019s 100 most rural seats\u2019",
+                "url": "https://www.telegraph.co.uk/politics/2024/02/12/conservatives-labour-party-countryside-seats-election/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.7a2W5FR8IxZ5XqtNYAtsSS&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "The Conservatives could lose more than half of the 100 most rural seats in England at the election, according to a poll that has dealt another blow to Rishi Sunak. The Survation survey showed that Labour holds a lead in the polls in the seats, which have traditionally formed Conservative heartlands.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/280d39e8-7217-6863-6980-a8c20c211c89",
+                        "name": "England"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "England"
+                    },
+                    {
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "name": "Seat"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T15:15:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Water bosses should face jail time on top of bonus bans, campaigners say",
+                "url": "https://inews.co.uk/news/water-bosses-jail-bonus-ban-2901937?ico=most_popular",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.RbhZxnSzv8Iq0v7bW9Ox2S&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "No 10 is accused of &#39;smoke and mirrors&#39; as it announces it will consult on banning bonuses for polluting water firms&#39; bosses",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8a61b679-26a4-81a0-ec75-03b1de205149",
+                        "name": "Private prison"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Private prison"
+                    },
+                    {
+                        "name": "Civil society campaign"
+                    },
+                    {
+                        "name": "Bingo"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T15:03:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Lib Dems select parliamentary candidate for North East Herts",
+                "url": "https://www.thecomet.net/news/24114257.lib-dems-select-parliamentary-candidate-north-east-herts/",
+                "description": "The <b>Liberal Democrats</b> have selected their parliamentary candidate for North East Hertfordshire. Ruth Brown, who has lived in Royston for 35 years, is a district and town councillor and has been deputy leader of North Herts Council for two years ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0098e261-8c5d-77bf-bde9-bdc8bfa0c9d8",
+                        "name": "North East England"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Comet"
+                    }
+                ],
+                "datePublished": "2024-02-12T14:38:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Water company bosses face ban on bonuses over illegal sewage spills",
+                "url": "https://www.itv.com/news/2024-02-11/water-firms-face-significant-fines-for-poor-customer-service-under-new-powers",
+                "description": "Bosses at water companies have pocketed more than \u00a326 million in bonuses, benefits and incentives over the last four years. | ITV National News",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "ITV",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.HlKTyCgM99pRvmITMdZC2w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T14:36:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Rochdale by-election: Formal complaint filed against Labour candidate after &#39;antisemitic&#39; remarks",
+                "url": "https://uk.news.yahoo.com/rochdale-election-formal-complaint-filed-181600199.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Mgq64G54YxN8kxga4ovDhy&pid=News",
+                        "width": 640,
+                        "height": 380
+                    }
+                },
+                "description": "The Labour Party has received an official complaint about its candidate in the Rochdale by-election following &quot;antisemitic&quot; comments about the 7 October attack on Israel, Sky News has learned. Labour Against Antisemitism (LAAS),",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/baf56fc2-cb3f-46c7-83ad-08830d0407e4",
+                        "name": "Rochdale"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/94811ffa-fefe-1295-44ad-6e5cff2e545a",
+                        "name": "Complaint"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T13:15:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Council leader writes \u2018Community bears brunt of Tory cuts\u2019",
+                "url": "https://southwarknews.co.uk/area/southwark/council-leader-writes-community-bears-brunt-of-tory-cuts/",
+                "description": "This year is my tenth as a councillor. It\u2019s a role I love, because in it I get to work with brilliant people from every part of our community. Over the last decade I\u2019ve seen some amazing things achieved.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/08395004-52c8-7e92-072d-e7eb99cbb793",
+                        "name": "Community"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Southwark News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.LxwJdYbfG6Q1qaq5xM2D0A&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T13:11:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Nearly half of Sussex children have not seen an NHS dentist in 12 months",
+                "url": "https://www.sussexexpress.co.uk/news/people/nearly-half-of-sussex-children-have-not-seen-an-nhs-dentist-in-12-months-4514811",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.o5MqObtMErPSIbBbKHV6fS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "A total of 133,376 children in Sussex \u2013 nearly half \u2013 have not been seen by an NHS dentist in 12 months. That\u2019s according to research commissioned from the House of Commons Library which estimates the number of children who weren\u2019t seen by an NHS dentist in the year to June 2023, based on the latest data from the health service.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90836c93-726d-0b49-3471-f8d6cb9e7f51",
+                        "name": "Sussex"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/507e27aa-24fb-9b98-1e76-45f59043d1e6",
+                        "name": "Romanian months"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sussex Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.M2IwrO6uYYq6DYNJ49zCog&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T12:53:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "Senior Tories set to lose seats at next election as support in rural strongholds collapses",
+                "url": "https://www.independent.co.uk/news/uk/conservative-vote-collapse-rural-labour-lead-election-b2494601.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.O85GQCbslBw9I0NbN3xUfC&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Support for the Conservatives among England\u2019s rural voters has collapsed since 2019 with many high profile MPs at risk of losing their seats",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "News UK"
+                    },
+                    {
+                        "name": "Conservatism"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T12:35:00.0000000Z",
+                "video": {
+                    "name": "Senior Tories set to lose seats at next election as support in rural strongholds collapses",
+                    "thumbnailUrl": "https://www.bing.com/th?id=OVF.B0wg%2B9EP%2BqoQmPZIk6NvZw&pid=News",
+                    "embedHtml": "&lt;iframe src=&quot;https://cdn.jwplayer.com/players/t9T0c3PO-XLzx33eA.html&quot; width=&quot;480&quot; height=&quot;270&quot; frameborder=&quot;0&quot; scrolling=&quot;auto&quot;&gt;&lt;/iframe&gt;",
+                    "allowHttpsEmbed": true,
+                    "thumbnail": {
+                        "width": 520,
+                        "height": 291
+                    }
+                },
+                "category": "Politics"
+            },
+            {
+                "name": "Mark Harper and Jacob Rees-Mogg among West Country Tories that face general election ousting",
+                "url": "https://www.itv.com/news/westcountry/2024-02-12/mark-harper-and-jacob-rees-mogg-among-tories-that-face-general-election-ousting",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Th5ieDlDlvdfH_HxZusdJy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "According to a new poll by the Country Land Business Association, the Conservatives are losing support among rural voters. | ITV News",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "ITV",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.HlKTyCgM99pRvmITMdZC2w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T11:48:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "\u2018It\u2019s shameless\u2019, cry customers as last bank closes in town \u2013 with clients facing 50-mile trek to nearest Barclays",
+                "url": "https://www.thesun.co.uk/money/25879230/shameless-cry-customers-as-last-bank-closes-barclays/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.kQIf3Y2DPkTxqCbVZj6gTC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "CUSTOMERS have hit out after bosses decided to close the last bank in a town leaving locals with a 50-mile trek to their nearest Barclays branch. Locals in Leiston, Suffolk now face a 24 mile trip",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9fb91659-3521-96df-b9d4-f4441da7efdd",
+                        "name": "Barclays"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mZZguWnkRkVFPCoaQUmKEg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T11:02:00.0000000Z"
+            },
+            {
+                "name": "Picking a winner? The Conservatives\u2019 campaign for the City of Durham begins",
+                "url": "https://www.palatinate.org.uk/picking-a-winner-the-conservatives-campaign-for-the-city-of-durham-begins/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.8VQCS1iaWv60Jw4pms8xdC&pid=News",
+                        "width": 700,
+                        "height": 467
+                    }
+                },
+                "description": "Jussi-Peter Hill explores Councillor Luke Allan Holmes&#39;s selection as the Conservative candidate for the forthcoming general election.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/28a7bdc8-d68d-24de-0cb0-e4bb518c7dc4",
+                        "name": "Palatinate"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6a9a951e-fcd0-1929-15fd-be29956fce3e",
+                        "name": "City of Durham"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b83d549f-1d62-a989-a518-4fdc76be546e",
+                        "name": "Campaign"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Palatinate",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.jFDgsFGIq6tX_ioEJiN7bA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T10:42:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Labour candidate &#39;fell for online conspiracy theory&#39; about Hamas attacks, shadow minister says",
+                "url": "https://news.sky.com/story/labour-candidate-fell-for-online-conspiracy-theory-about-hamas-attacks-shadow-minister-says-13069951",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.RbqFuDRmagMRPa883ZOzCC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Nick Thomas-Symonds describes Councillor Azhar Ali&#39;s comments as &quot;appalling&quot;, but says he should be given the chance to &quot;rebuild trust&quot; with the Jewish community.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a51d348d-acde-2292-48bb-1122a78ae529",
+                        "name": "Conspiracy theory"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fd56a0c1-5b09-6e40-09dc-a8abf5069c30",
+                        "name": "Hamas"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Conspiracy theory"
+                    },
+                    {
+                        "name": "Hamas"
+                    },
+                    {
+                        "name": "Australian Labor Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Eg62H9DIbo-JYPI6GpAgGA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T10:07:00.0000000Z",
+                "video": {
+                    "name": "Labour candidate needs to &#39;earn trust back&#39;",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/3f8a4843-e10a-498e-9bb2-e0f13ac06d15/21324921-384b-4bf6-aec0-bf685052_650.mp4",
+                    "thumbnail": {
+                        "width": 640,
+                        "height": 360
+                    }
+                },
+                "category": "Politics"
+            },
+            {
+                "name": "Joe Biden leans into Dark Brandon right-wing conspiracy theory about Taylor Swift and the Super Bowl",
+                "url": "https://uk.news.yahoo.com/joe-biden-leans-wing-conspiracy-094610590.html",
+                "description": "Joe Biden trolled right-wing conspiracy theorists on Sunday night by sharing a meme implying he and Taylor Swift connived to bring about the Kanas City Chiefs\u2019 victory at the 2024 Super Bowl.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cad484f9-be75-7a78-12dd-16233f823cd7",
+                        "name": "Joe Biden"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/bd93c397-a17d-c98f-0889-83c356659393",
+                        "name": "Brandon"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/98004a38-a3ea-b902-b6d3-687b30b54353",
+                        "name": "Taylor Swift"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T10:01:00.0000000Z",
+                "category": "Sports"
+            },
+            {
+                "name": "Minister Greg Hands in fight to win his seat to avoid Tory wipe-out in central London, say political experts",
+                "url": "https://www.standard.co.uk/news/politics/tory-mps-central-london-wipeout-election-felicity-buchan-greg-hands-b1138535.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.CrVtF0UP-QXHGOdXp_t7_i&pid=News",
+                        "width": 700,
+                        "height": 467
+                    }
+                },
+                "description": "The Conservatives currently hold three seats in central London but Labour is strongly targeting at least two of them",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/df61b8e3-ff4e-bd32-297b-be7e3af57761",
+                        "name": "Greg Hands"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/bd842bc6-9602-9a83-cfa8-c874dc0a0fdb",
+                        "name": "Central London"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Greg Hands"
+                    },
+                    {
+                        "name": "Central London"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T09:11:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Labour takes poll lead over Tories in rural heartlands",
+                "url": "https://www.fwi.co.uk/news/labour-takes-poll-lead-over-tories-in-rural-heartlands",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.dLPtsJDv_StM4w4FuBCHKy&pid=News",
+                        "width": 700,
+                        "height": 394
+                    }
+                },
+                "description": "The Conservatives will struggle to keep hold of to their \u201cblue hedge\u201d seats in rural England, if the results of a new poll are replicated in the general",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e320dd44-b39b-fd9b-7883-0fe89bb44ace",
+                        "name": "Poll"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b01e5839-d8f8-2311-df4f-5c8980299f38",
+                        "name": "Farmers Weekly"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Farmers Weekly",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0oKXntqfiCHF1J6DacUkVQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T09:08:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Lib Dems announce Worthing general election candidates",
+                "url": "https://www.sussexexpress.co.uk/news/politics/lib-dems-announce-worthing-general-election-candidates-4514059",
+                "description": "The party has selected Morag Chugg, a youth support worker, to contest Worthing West. David Batchelor, a chartered surveyor from Shoreham, will contest East Worthing &amp; Shoreham. The seats are currently held by Conservatives Sir Peter Bottomley and Tim Loughton respectively.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/02ce881a-7ee7-f584-9eb1-903888376643",
+                        "name": "Worthing"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8d8aa22b-becb-80d8-677c-a3161e16cbf5",
+                        "name": "General election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sussex Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.M2IwrO6uYYq6DYNJ49zCog&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T08:58:00.0000000Z"
+            },
+            {
+                "name": "All you need to know about the upcoming by-elections",
+                "url": "https://uk.finance.yahoo.com/news/know-upcoming-elections-084553685.html",
+                "description": "Three by-elections are taking place this month, in the latest test of the strength of Rishi Sunak\u2019s government.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5e83019e-d5ad-de66-bfc7-9f24e0932322",
+                        "name": "By-election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Finance",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.LBn5t3rqxzpf5jMTBU81BA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T08:44:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "NHS crisis saw more than 1.5million A&amp;E patients have to wait at least 12 hours to be treated last year",
+                "url": "https://www.dailymail.co.uk/health/article-13073325/NHS-crisis-wait-12-hours-treated-year.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.84W6Rly84HPp-mJ8j6aGGi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "More than 1.5million patients waited 12 hours after arriving at A&amp;E last year. At Blackpool Teaching Hospitals, one in four patients faced delays of 12 hours in January - the worst in the country.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8c7e3ff-4385-006e-4203-ce75efb28fa7",
+                        "name": "Wait"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6f139537-5bc1-e0b8-7097-f07441113e28",
+                        "name": "Crisis"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Wait"
+                    },
+                    {
+                        "name": "Crisis"
+                    },
+                    {
+                        "name": "Daily Mail"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T08:14:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "New water bill rules under fire - but they come into force &#39;from today&#39;",
+                "url": "https://www.birminghammail.co.uk/news/cost-of-living/new-water-bill-rules-under-28613908",
+                "description": "A new scheme to fine water companies for providing poor service to customers has been dismissed as \u201cnothing less than a gimmick\u201d.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/aaac0a14-911d-49c8-ac97-51d9f9100ad7",
+                        "name": "Birmingham"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Birmingham"
+                    },
+                    {
+                        "name": "Department for Work and Pensions"
+                    },
+                    {
+                        "name": "Invoice"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Birmingham Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.jPou0vlDKt0Px6h21V_3rw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T07:58:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "By-election results will provide important clues ahead of next general election",
+                "url": "https://news.sky.com/story/by-election-results-will-provide-important-clues-ahead-of-next-general-election-13067764",
+                "description": "Next week voters go to the polls in twin elections at Kingswood and Wellingborough - with the Tories facing a threat not just from Labour, but from Reform UK too. But emerging divisions within Labour could also check its electoral progress.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5e83019e-d5ad-de66-bfc7-9f24e0932322",
+                        "name": "By-election"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8d8aa22b-becb-80d8-677c-a3161e16cbf5",
+                        "name": "General election"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "By-election"
+                    },
+                    {
+                        "name": "General election"
+                    },
+                    {
+                        "name": "Election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Eg62H9DIbo-JYPI6GpAgGA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T07:43:00.0000000Z",
+                "video": {
+                    "name": "&#39;Looking at exceptional swings&#39;",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/802ea7c4-5c80-4c6a-b053-0a2a897fe46e/95b51c93-a267-484a-a14e-e376a1f3_650.mp4",
+                    "thumbnail": {
+                        "width": 640,
+                        "height": 360
+                    }
+                },
+                "category": "Politics"
+            },
+            {
+                "name": "Crime to buses: Wellingborough by-election in charts",
+                "url": "https://www.bbc.co.uk/news/uk-england-northamptonshire-68170196",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.i6dVmTXCVl29ojkhxpp3yS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Voters in Wellingborough will choose a new MP in a by-election on February 15. It is taking place because the former Conservative MP Peter Bone was removed from his role after more than one in 10 registered constituents signed a recall petition.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/46dd78dd-5ef4-fbbe-a972-201185a1f3c9",
+                        "name": "Wellingborough"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T06:37:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Labour takes lead over Tories among \u2018politically homeless\u2019 rural voters",
+                "url": "https://www.kentonline.co.uk/news/national/labour-takes-lead-over-tories-among-politically-homeless-rural-voters-110317/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.GpSVsBNZ-OlYeThKZnMn3y&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Labour has taken a narrow lead over the Conservatives among England\u2019s rural voters, a poll has found. But while the survey suggests Conservative support has collapsed in the party\u2019s heartlands, the head of a major countryside business association said rural voters were still \u201cpolitically homeless\u201d.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Kent Online",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.hWRC_m6PUwfTBWwiGneX8Q&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T00:10:00.0000000Z"
+            },
+            {
+                "name": "Revealed: 1.5 million patients waited 12 hours or more in A&amp;E in past year",
+                "url": "https://www.libdems.org.uk/press/release/revealed-15-million-patients-waited-12-hours-or-more-in-ae-in-past-year",
+                "description": "A staggering 1.5 million patients in England waited 12 hours or more after arriving at A&amp;E over the past year, new analysis by the\u00a0Liberal\u00a0Democrats has revealed.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Liberal Democrats",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wrQc3eyCyWze_QNK0eU0VQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-11T23:08:00.0000000Z"
+            }
+        ]
+    }
+]

@@ -1,0 +1,2437 @@
+[
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=Conservatives",
+        "queryContext": {
+            "originalQuery": "Conservatives",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 52900,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Conservatives"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Conservatives&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Bank of England\u2019s Andrew Bailey sees signs of \u2018somewhat stronger \u2019 UK growth",
+                "url": "https://www.ft.com/content/4f24d958-7f73-430d-b069-2acc760b8842",
+                "description": "Governor plays down upcoming economic data that is feared to show technical recession and deliver blow to Sunak",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/39489aca-40dc-4b1d-46eb-9971b56fd299",
+                        "name": "Andrew Bailey"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/280d39e8-7217-6863-6980-a8c20c211c89",
+                        "name": "England"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Financial Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CdBlognZ1u9nda-gVEOS_w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T20:54:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Rishi Sunak issues warning over Labour as Brits urged not to fall for Keir Starmer&#39;s &#39;con&#39;",
+                "url": "https://www.express.co.uk/news/politics/1865978/rishi-sunak-keir-stamer-labour-conservatives-general-election",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.BvwRh6MSwML5gn2V43AlQS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Rishi Sunak vowed to fix the social care system, slash NHS waiting lists and continue to ease the cost of living crisis if the Tories win the next general election.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e88a173e-30a7-ec38-cac8-53a5e5fcda18",
+                        "name": "Warning"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2349f216-dc4b-726d-e114-3173fb4e9b99",
+                        "name": "British people"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Warning"
+                    },
+                    {
+                        "name": "British people"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T20:24:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Two schools forced to shut after concrete falls from ceiling",
+                "url": "https://metro.co.uk/2024/02/12/two-schools-forced-shut-concrete-falls-ceiling-20267979/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.VNHp2ic3W-KEPqueaRK2XC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Two schools have closed and another two are shut to certain year groups after falling concrete prompted safety inspections.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e637724b-302f-3142-c4c4-9398ea124427",
+                        "name": "Ceiling"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2872a54f-b045-8fe3-d356-1aa538e14812",
+                        "name": "Metro International"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Ceiling"
+                    },
+                    {
+                        "name": "Metro International"
+                    },
+                    {
+                        "name": "Department for Education"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Metro",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8olLCBBg15Ilf5cNVQh2IA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T20:03:00.0000000Z"
+            },
+            {
+                "name": "Biden Teases Super Bowl Conspiracy With \u2018Dark Brandon\u2019 Meme After Chiefs Win",
+                "url": "https://www.huffpost.com/entry/biden-trolls-super-bowl-conspiracy-dark-brandon_n_65ca1f59e4b0fb721d61ee27",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.FWwZk6M6gFKa7o1Ardt8hy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "President Joe Biden likely sent conspiracy theorists into a frenzy late Sunday by teasingly suggesting the Kansas City Chiefs\u2019 Super Bowl win was indeed a deep-state plot. \u201cJust like we drew it up,\u201d he posted on X, the social media site formerly known as Twitter, following the Chiefs\u2019 nail-biting 25-22 victory in overtime.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d6c99810-e2a6-4797-5986-31c806ad7a3a",
+                        "name": "Brandon"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9804446e-fa1b-4fd1-2097-ed4a186ed3b4",
+                        "name": "Conspiracy"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cad484f9-be75-7a78-12dd-16233f823cd7",
+                        "name": "Joe Biden"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Brandon"
+                    },
+                    {
+                        "name": "Conspiracy"
+                    },
+                    {
+                        "name": "Joe Biden"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "HuffPost",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.rPjudoA7C5i-PdVAOVho9w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:42:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Romcom ending: Taylor Swift and Travis Kelce\u2019s big night at the Super Bowl",
+                "url": "https://www.theguardian.com/music/2024/feb/11/taylor-swift-travis-kelce-super-bowl?ICID=ref_fark",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.UsA7a-RWA_QNous60kQpGy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The pop star was a focal point during the NFL\u2019s biggest night, getting to enjoy a happy ending with her victorious boyfriend",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/98004a38-a3ea-b902-b6d3-687b30b54353",
+                        "name": "Taylor Swift"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4e917ff4-3613-42f8-bf79-9c12138e3ede",
+                        "name": "Travis Kelce"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ce1fece8-34c4-6249-a1aa-2e779294760e",
+                        "name": "Super Bowl"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Taylor Swift"
+                    },
+                    {
+                        "name": "Travis Kelce"
+                    },
+                    {
+                        "name": "Super Bowl"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:33:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Sunak hopes to shrug off bad economic news with OBR forecast allowing tax cuts",
+                "url": "https://inews.co.uk/news/politics/sunak-shrug-bad-economic-news-obr-forecast-tax-cuts-2902707?ITO=msn",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.NiG2xmCM1M6b1XoYVE-Bzy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The Treasury is braced for a double blow this week, with the ONS expected to confirm a slight increase in inflation on Wednesday due to a rise in the energy price cap which took effect in January, although it is expected to fall back to its target of 2 per cent this year.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T18:36:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Rishi Sunak\u2019s Rwanda bill comes under fire from Tory and Labour peers",
+                "url": "https://uk.news.yahoo.com/rishi-sunak-rwanda-bill-comes-180935010.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.7RFhDdca20tvBt4bpfG72S&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Tory and Labour peers warned of their belief that the Safety of Rwanda Bill would set a dangerous precedent for Britain",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T18:10:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Gillian Keegan visits new education facilities in Blyth during National Apprenticeship Week",
+                "url": "https://www.chroniclelive.co.uk/news/north-east-news/gillian-keegan-national-apprenticeships-week-28617369",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.n5rFmcEZF6Z5KHa3i7h5ri&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The Education secretary also joined the Secretary of State for Energy Security and Net Zero on a visit to an offshore windfarm",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2d274778-74fc-563a-efbf-95d454db7602",
+                        "name": "National"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a55d629b-42b2-9dcf-dbd7-860a94010ae2",
+                        "name": "Chronicle Live"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8a36472-67a5-c72f-f9da-856e1210f77e",
+                        "name": "Blyth"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "National"
+                    },
+                    {
+                        "name": "Chronicle Live"
+                    },
+                    {
+                        "name": "Blyth"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Evening Chronicle",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.G4kbGBXl4xfkaxnbAFtYzw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T18:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Hillary Clinton Trolls <b>Conservatives</b> With \u2018Taylor\u2019s Boyfriend\u2019 Super Bowl Post",
+                "url": "https://www.huffpost.com/entry/hillary-clinton-super-bowl-2024-tweet_n_65c9c2c1e4b01f4a8b01552a",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.f25pmk870em2VSpv_mkbBy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Clinton\u2019s comment was interpreted by some as a double troll of conservatives. Firstly, for flipping the trope of sports commentators defining female athletes by their male partners. Swift, of course, is in a relationship with Chiefs\u2019 tight end Travis Kelce and she jetted in from Tokyo to see the game.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/82b92f37-7844-b683-443c-71f0cdf6dcb4",
+                        "name": "Hillary Rodham Clinton"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "HuffPost",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.rPjudoA7C5i-PdVAOVho9w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T17:56:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Tories Fear Slower 4G Rollout Would Be Nail In The Coffin For Ailing Rural Voters",
+                "url": "https://www.politicshome.com/news/article/rural-tory-mps-worried-about-mobile-merger-impact",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.aF5j2mlXQxM9vhcYnFM1qy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Conservative MPs have expressed concern that a proposed merger of two of the country&#39;s four mobile networks could result in bigger\u00a0phone bills\u00a0and",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/436c2296-4e42-0655-bae7-c6b6890f37c5",
+                        "name": "Fear"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/769327fd-03dc-2574-2aa2-76f0256508e2",
+                        "name": "The Coffin"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90725f45-8631-8e72-27c5-388ae95e1246",
+                        "name": "Rural area"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "PoliticsHome",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.jYsWK_bTg9eBgVKGQafjWA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T17:13:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "SNP demand clarity on free tuition fee stance from Scottish Tories",
+                "url": "https://www.thenational.scot/news/24114824.snp-demand-clarity-free-tuition-fee-stance-scottish-tories/",
+                "description": "\u201cWith the Tories planning to impose backdoor tuition fees, and Keir Starmer\u2019s breaking his pledge on free tuition, it\u2019s clear that only the SNP will stand up for Scotland\u2019s students, and make sure a university education is based on the ability to learn and not the ability to pay.\u201d",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T16:40:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "When are the next by-elections? Labour stands by Rochdale candidate after &#39;offensive&#39; comments about Israel",
+                "url": "https://www.standard.co.uk/news/politics/when-next-byelections-dates-labour-conservatives-mps-b1107076.html",
+                "description": "Mr Al apologises unreservedly to the Jewish community after saying Israel had \u2018allowed\u2019 the deadly Hamas attack on October 7",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1ffafed3-2b37-b871-c271-aa855d98449a",
+                        "name": "Israel"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5e83019e-d5ad-de66-bfc7-9f24e0932322",
+                        "name": "By-election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T16:12:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Humza Yousaf accused of carrying on Nicola Sturgeon&#39;s &#39;addiction to cover-up and secrecy&#39;",
+                "url": "https://www.express.co.uk/news/politics/1865887/humza-yousaf-nicola-sturgeon-snp-secrecy",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.40R-wXAnAD0cMDwKhUAWjS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Labour&#39;s Jackie Baillie accused the SNP of &quot;treating the public with contempt and attempting to stifle scrutiny&quot;.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6d99b564-d527-5061-2ebd-f97730898d38",
+                        "name": "Humza Yousaf"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40ff83fa-c18c-9216-49aa-77a9d6a5cc28",
+                        "name": "Nicola Sturgeon"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Humza Yousaf"
+                    },
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Nicola Sturgeon"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T16:08:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Ofwat water bosses&#39; bonus block plans dismissed as \u2018symbolic\u2019 by campaigners",
+                "url": "https://morningstaronline.co.uk/article/ofwat-water-bosses-bonus-block-plans-dismissed-symbolic-campaigners",
+                "description": "GOVERNMENT plans to block the bonuses of water company bosses who fail to stop illegal sewage spills have been dismissed as merely \u201csymbolic\u201d by environment group Greenpeace.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a6e84275-4af2-8b92-f62d-1630dbac7db1",
+                        "name": "Ofwat"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Morning Star",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.XYFAfbQ1KrLZXw8Gl4oJeg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T16:08:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "UK&#39;s Labour Party cuts ties with a candidate who said Israel allowed Hamas&#39; attack to happen",
+                "url": "https://uk.news.yahoo.com/uks-labour-party-cuts-ties-210420966.html",
+                "description": "Britain\u2019s opposition Labour Party on Monday disowned an election candidate who claimed that Israel allowed Hamas\u2019 Oct. 7 attack to happen as a pretext to invade Gaza. Azhar Ali was selected last month to run for Labour in a Feb.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T16:04:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Tories slump to their lowest poll rating with Rishi as PM with Labour lead surging to 25 points at start of what could be one of Sunak&#39;s worst weeks in No10",
+                "url": "https://www.dailymail.co.uk/news/article-13074859/Tories-slump-lowest-poll-rating-Rishi-PM-Labour-lead-surging-25-points-start-one-Sunaks-worst-weeks-No10.html",
+                "description": "The latest Redfield &amp; Wilton Strategies survey showed the Conservatives on just 21 per cent support among voters, which is down three points since last week.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9585b0e9-1240-d064-5ce2-94b34b344160",
+                        "name": "Rishi"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7ae1da-c089-3d4d-32b3-1441e29fbd65",
+                        "name": "Lead paragraph"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e320dd44-b39b-fd9b-7883-0fe89bb44ace",
+                        "name": "Poll"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Rishi"
+                    },
+                    {
+                        "name": "Lead paragraph"
+                    },
+                    {
+                        "name": "Poll"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T16:01:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Empty council offices could &#39;solve homelessness and rough sleeping&#39; in Salford",
+                "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/empty-council-offices-could-solve-28617074",
+                "description": "Empty council offices should be used to help people who are homeless or rough sleeping in Salford, a councillor has said. Offices in Salford Civic Centre in Swinton are often left empty when staff work from home, Councillor Robin Garrido said.",
+                "mentions": [
+                    {
+                        "name": "Council"
+                    },
+                    {
+                        "name": "Manchester Evening News"
+                    },
+                    {
+                        "name": "Homelessness"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Manchester Evening News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.oxaa8-w2MDoXi5yOUu7A3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T15:53:00.0000000Z"
+            },
+            {
+                "name": "&#39;<b>Conservatives</b>&#39; lack of plan led to lacking NHS services in Devizes&#39;",
+                "url": "https://www.gazetteandherald.co.uk/news/towns/devizesheadlines/24105106.conservatives-lack-plan-led-lacking-nhs-services-devizes/",
+                "description": "\u201cWas it part of the plan not to hold NHS Property Services to account, when they sold the NHS clinic in New Park Street to Majestic, or for leaving the Devizes Community Hospital in a state of decline over many years - apart from moving the clinics to it, of course - until now when they are starting the process of trying to sell it off?",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4ebe79fa-f77b-5216-7ef9-f8ea04679349",
+                        "name": "Wiltshire"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5881acd3-aac3-46ee-78f6-020efd8abb26",
+                        "name": "Devizes"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Gazette and Herald",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.o5oZlZiPvruNKFOGi39PlA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T15:46:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Why it\u2019s unlikely Lord Cameron would become PM again despite Tory plots to oust Sunak",
+                "url": "https://inews.co.uk/news/politics/unlikely-lord-cameron-pm-again-tory-plots-oust-sunak-2902018?ITO=msn",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.9sev73cu6a80CzPKNNrJQC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "One MP tells i the Foreign Secretary is being floated by some Tory plotters as a potential &#39;unity candidate&#39; before the election",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T15:38:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Rebecca Pow MP reacts to grant given to YMCA Taunton",
+                "url": "https://www.somersetcountygazette.co.uk/news/24114310.rebecca-pow-mp-reacts-grant-given-ymca-taunton/",
+                "description": "Rebecca Pow, MP for Taunton Deane, has said the Conservatives will continue to fund youth services following a grant given to YMCA Taunton.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/36efe269-0024-1f8b-e108-15f138ee6b03",
+                        "name": "Rebecca"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40dc053f-0dbc-ba2b-624d-4d8e44c53b7f",
+                        "name": "Taunton"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Somerset County Gazette",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.waWzSPbN9UCKE_lQi3V8Cg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T15:19:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Tories \u2018could lose more than half of England\u2019s 100 most rural seats\u2019",
+                "url": "https://www.telegraph.co.uk/politics/2024/02/12/conservatives-labour-party-countryside-seats-election/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.7a2W5FR8IxZ5XqtNYAtsSS&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "The Conservatives could lose more than half of the 100 most rural seats in England at the election, according to a poll that has dealt another blow to Rishi Sunak. The Survation survey showed that Labour holds a lead in the polls in the seats, which have traditionally formed Conservative heartlands.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/280d39e8-7217-6863-6980-a8c20c211c89",
+                        "name": "England"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "England"
+                    },
+                    {
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "name": "Seat"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T15:15:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "David Cameron handed Michelle Mone a peerage as she was a &#39;proud Scot&#39; and &#39;proud Conservative&#39;",
+                "url": "https://www.dailyrecord.co.uk/news/politics/david-cameron-handed-michelle-mone-32108746",
+                "description": "Cameron was prime minister in 2015 when he decided to hand the controversial businesswoman a life-long place in the House of Lords.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/20f5d02f-7b33-0d30-b90d-2c0c7bf5858e",
+                        "name": "Michelle Mone"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/05973aa9-1608-8d06-96d6-e4ce0311b75a",
+                        "name": "David Cameron"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Michelle Mone"
+                    },
+                    {
+                        "name": "David Cameron"
+                    },
+                    {
+                        "name": "Daily Record"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Record",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.B6nvPq26UTBuCaXH6tX71w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T15:14:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Lords debate Rwanda deportation bill \u2013 UK politics live",
+                "url": "https://www.theguardian.com/politics/live/2024/feb/12/rishi-sunak-keir-starmer-rochdale-rwanda-conservatives-labour-uk-politics-live?page=with:block-65ca20d98f086f2438b7c99b&filterKeyEvents=false",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.1hujrbMlyKCHnSfi5_5k7y&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Peers debate amendments to controversial immigration legislation",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T15:06:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Politics latest news: Tories need &#39;best campaigners&#39; like Boris Johnson at election, says minister",
+                "url": "https://www.telegraph.co.uk/politics/2024/02/12/rishi-sunak-latest-news-labour-rochdale-elections-rwanda/",
+                "description": "The Labour Party now holds a poll lead over the Tories in England\u2019s 100 most rural constituencies in a fresh blow for Rishi Sunak. A Survation survey put Labour on 37 per cent of the vote in the traditionally Tory heartlands with the Conservatives now three points behind on 34 per cent.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fe217755-2d46-1c61-dded-740ff4500899",
+                        "name": "Boris Johnson"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Boris Johnson"
+                    },
+                    {
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T15:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Warwickshire County Councillors removed from committee following SEND comments",
+                "url": "https://www.itv.com/news/central/2024-02-12/councillors-removed-from-committee-after-badly-behaved-send-kids-comments",
+                "description": "Comments from councillors Brian Hammersley, Jeff Morgan and Clare Golby about SEND children caused outrage from parents and campaigners. | ITV News Central",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "ITV",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.HlKTyCgM99pRvmITMdZC2w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T14:46:00.0000000Z"
+            },
+            {
+                "name": "Edinburgh Castle&#39;s Redcoat Cafe re-opening upsets independence supporters despite same name for 30 years",
+                "url": "https://www.edinburghnews.scotsman.com/news/people/edinburgh-castles-redcoat-cafe-re-opening-upsets-scottish-independence-supporters-despite-same-name-4514198",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.tMccU17AnZ3zVoCQrUKwpi&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Redcoats was an informal name for British infantrymen who wore a distinctive garment into battles. Scottish independence supporters associate the army, clad in red, with the killing of Scots at the Battle of Culloden Moor in 1746, marking the defeat of the Jacobite movement.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cda4def5-e32b-2018-d3d4-e96563523dcf",
+                        "name": "Edinburgh Castle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f46e3c58-115f-189c-c3d0-54aabe6a93b9",
+                        "name": "Supporter"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fac935ba-9541-a4ea-89bf-d2b4184f0480",
+                        "name": "Butlins Redcoats"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Edinburgh Castle"
+                    },
+                    {
+                        "name": "Supporter"
+                    },
+                    {
+                        "name": "Butlins Redcoats"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "edinburghnews.scotsman.com",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.q5A2rO65JhbJbC_e_rAYWw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T14:29:00.0000000Z"
+            },
+            {
+                "name": "Rod Stewart gives scathing verdict on the Tories and says Labour &#39;deserve a crack&#39;",
+                "url": "https://www.mirror.co.uk/news/politics/rod-stewart-gives-scathing-verdict-32088184?int_source=nba",
+                "description": "I live here [in the UK] now. I didn&#39;t used to. And I see what the <b>Conservatives</b> get up to.\u201d Sir Rod, who was speaking in an interview with The Times, added: \u201cWell, I liked Boris Johnson. He was a good figurehead, but he turned out to be a lying f***ing ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror"
+                    }
+                ],
+                "datePublished": "2024-02-09T13:43:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=Conservatives",
+        "queryContext": {
+            "originalQuery": "Conservatives",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 52900,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Conservatives"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Conservatives&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Bank of England\u2019s Andrew Bailey sees signs of \u2018somewhat stronger \u2019 UK growth",
+                "url": "https://www.ft.com/content/4f24d958-7f73-430d-b069-2acc760b8842",
+                "description": "Governor plays down upcoming economic data that is feared to show technical recession and deliver blow to Sunak",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/39489aca-40dc-4b1d-46eb-9971b56fd299",
+                        "name": "Andrew Bailey"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/280d39e8-7217-6863-6980-a8c20c211c89",
+                        "name": "England"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Financial Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CdBlognZ1u9nda-gVEOS_w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T20:54:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Rishi Sunak issues warning over Labour as Brits urged not to fall for Keir Starmer&#39;s &#39;con&#39;",
+                "url": "https://www.express.co.uk/news/politics/1865978/rishi-sunak-keir-stamer-labour-conservatives-general-election",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.BvwRh6MSwML5gn2V43AlQS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Rishi Sunak vowed to fix the social care system, slash NHS waiting lists and continue to ease the cost of living crisis if the Tories win the next general election.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e88a173e-30a7-ec38-cac8-53a5e5fcda18",
+                        "name": "Warning"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2349f216-dc4b-726d-e114-3173fb4e9b99",
+                        "name": "British people"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Warning"
+                    },
+                    {
+                        "name": "British people"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T20:24:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Two schools forced to shut after concrete falls from ceiling",
+                "url": "https://metro.co.uk/2024/02/12/two-schools-forced-shut-concrete-falls-ceiling-20267979/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.VNHp2ic3W-KEPqueaRK2XC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Two schools have closed and another two are shut to certain year groups after falling concrete prompted safety inspections.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e637724b-302f-3142-c4c4-9398ea124427",
+                        "name": "Ceiling"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2872a54f-b045-8fe3-d356-1aa538e14812",
+                        "name": "Metro International"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Ceiling"
+                    },
+                    {
+                        "name": "Metro International"
+                    },
+                    {
+                        "name": "Department for Education"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Metro",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8olLCBBg15Ilf5cNVQh2IA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T20:03:00.0000000Z"
+            },
+            {
+                "name": "Biden Teases Super Bowl Conspiracy With \u2018Dark Brandon\u2019 Meme After Chiefs Win",
+                "url": "https://www.huffpost.com/entry/biden-trolls-super-bowl-conspiracy-dark-brandon_n_65ca1f59e4b0fb721d61ee27",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.FWwZk6M6gFKa7o1Ardt8hy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "President Joe Biden likely sent conspiracy theorists into a frenzy late Sunday by teasingly suggesting the Kansas City Chiefs\u2019 Super Bowl win was indeed a deep-state plot. \u201cJust like we drew it up,\u201d he posted on X, the social media site formerly known as Twitter, following the Chiefs\u2019 nail-biting 25-22 victory in overtime.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d6c99810-e2a6-4797-5986-31c806ad7a3a",
+                        "name": "Brandon"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9804446e-fa1b-4fd1-2097-ed4a186ed3b4",
+                        "name": "Conspiracy"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cad484f9-be75-7a78-12dd-16233f823cd7",
+                        "name": "Joe Biden"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Brandon"
+                    },
+                    {
+                        "name": "Conspiracy"
+                    },
+                    {
+                        "name": "Joe Biden"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "HuffPost",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.rPjudoA7C5i-PdVAOVho9w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:42:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Romcom ending: Taylor Swift and Travis Kelce\u2019s big night at the Super Bowl",
+                "url": "https://www.theguardian.com/music/2024/feb/11/taylor-swift-travis-kelce-super-bowl?ICID=ref_fark",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.UsA7a-RWA_QNous60kQpGy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The pop star was a focal point during the NFL\u2019s biggest night, getting to enjoy a happy ending with her victorious boyfriend",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/98004a38-a3ea-b902-b6d3-687b30b54353",
+                        "name": "Taylor Swift"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4e917ff4-3613-42f8-bf79-9c12138e3ede",
+                        "name": "Travis Kelce"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ce1fece8-34c4-6249-a1aa-2e779294760e",
+                        "name": "Super Bowl"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Taylor Swift"
+                    },
+                    {
+                        "name": "Travis Kelce"
+                    },
+                    {
+                        "name": "Super Bowl"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:33:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Sunak hopes to shrug off bad economic news with OBR forecast allowing tax cuts",
+                "url": "https://inews.co.uk/news/politics/sunak-shrug-bad-economic-news-obr-forecast-tax-cuts-2902707?ITO=msn",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.NiG2xmCM1M6b1XoYVE-Bzy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The Treasury is braced for a double blow this week, with the ONS expected to confirm a slight increase in inflation on Wednesday due to a rise in the energy price cap which took effect in January, although it is expected to fall back to its target of 2 per cent this year.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T18:36:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Rishi Sunak\u2019s Rwanda bill comes under fire from Tory and Labour peers",
+                "url": "https://uk.news.yahoo.com/rishi-sunak-rwanda-bill-comes-180935010.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.7RFhDdca20tvBt4bpfG72S&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Tory and Labour peers warned of their belief that the Safety of Rwanda Bill would set a dangerous precedent for Britain",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T18:10:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Gillian Keegan visits new education facilities in Blyth during National Apprenticeship Week",
+                "url": "https://www.chroniclelive.co.uk/news/north-east-news/gillian-keegan-national-apprenticeships-week-28617369",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.n5rFmcEZF6Z5KHa3i7h5ri&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The Education secretary also joined the Secretary of State for Energy Security and Net Zero on a visit to an offshore windfarm",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2d274778-74fc-563a-efbf-95d454db7602",
+                        "name": "National"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a55d629b-42b2-9dcf-dbd7-860a94010ae2",
+                        "name": "Chronicle Live"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8a36472-67a5-c72f-f9da-856e1210f77e",
+                        "name": "Blyth"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "National"
+                    },
+                    {
+                        "name": "Chronicle Live"
+                    },
+                    {
+                        "name": "Blyth"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Evening Chronicle",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.G4kbGBXl4xfkaxnbAFtYzw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T18:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Hillary Clinton Trolls <b>Conservatives</b> With \u2018Taylor\u2019s Boyfriend\u2019 Super Bowl Post",
+                "url": "https://www.huffpost.com/entry/hillary-clinton-super-bowl-2024-tweet_n_65c9c2c1e4b01f4a8b01552a",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.f25pmk870em2VSpv_mkbBy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Clinton\u2019s comment was interpreted by some as a double troll of conservatives. Firstly, for flipping the trope of sports commentators defining female athletes by their male partners. Swift, of course, is in a relationship with Chiefs\u2019 tight end Travis Kelce and she jetted in from Tokyo to see the game.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/82b92f37-7844-b683-443c-71f0cdf6dcb4",
+                        "name": "Hillary Rodham Clinton"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "HuffPost",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.rPjudoA7C5i-PdVAOVho9w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T17:56:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Tories Fear Slower 4G Rollout Would Be Nail In The Coffin For Ailing Rural Voters",
+                "url": "https://www.politicshome.com/news/article/rural-tory-mps-worried-about-mobile-merger-impact",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.aF5j2mlXQxM9vhcYnFM1qy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Conservative MPs have expressed concern that a proposed merger of two of the country&#39;s four mobile networks could result in bigger\u00a0phone bills\u00a0and",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/436c2296-4e42-0655-bae7-c6b6890f37c5",
+                        "name": "Fear"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/769327fd-03dc-2574-2aa2-76f0256508e2",
+                        "name": "The Coffin"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90725f45-8631-8e72-27c5-388ae95e1246",
+                        "name": "Rural area"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "PoliticsHome",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.jYsWK_bTg9eBgVKGQafjWA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T17:13:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "SNP demand clarity on free tuition fee stance from Scottish Tories",
+                "url": "https://www.thenational.scot/news/24114824.snp-demand-clarity-free-tuition-fee-stance-scottish-tories/",
+                "description": "\u201cWith the Tories planning to impose backdoor tuition fees, and Keir Starmer\u2019s breaking his pledge on free tuition, it\u2019s clear that only the SNP will stand up for Scotland\u2019s students, and make sure a university education is based on the ability to learn and not the ability to pay.\u201d",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T16:40:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "When are the next by-elections? Labour stands by Rochdale candidate after &#39;offensive&#39; comments about Israel",
+                "url": "https://www.standard.co.uk/news/politics/when-next-byelections-dates-labour-conservatives-mps-b1107076.html",
+                "description": "Mr Al apologises unreservedly to the Jewish community after saying Israel had \u2018allowed\u2019 the deadly Hamas attack on October 7",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1ffafed3-2b37-b871-c271-aa855d98449a",
+                        "name": "Israel"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5e83019e-d5ad-de66-bfc7-9f24e0932322",
+                        "name": "By-election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T16:12:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Humza Yousaf accused of carrying on Nicola Sturgeon&#39;s &#39;addiction to cover-up and secrecy&#39;",
+                "url": "https://www.express.co.uk/news/politics/1865887/humza-yousaf-nicola-sturgeon-snp-secrecy",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.40R-wXAnAD0cMDwKhUAWjS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Labour&#39;s Jackie Baillie accused the SNP of &quot;treating the public with contempt and attempting to stifle scrutiny&quot;.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6d99b564-d527-5061-2ebd-f97730898d38",
+                        "name": "Humza Yousaf"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40ff83fa-c18c-9216-49aa-77a9d6a5cc28",
+                        "name": "Nicola Sturgeon"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Humza Yousaf"
+                    },
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Nicola Sturgeon"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T16:08:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Ofwat water bosses&#39; bonus block plans dismissed as \u2018symbolic\u2019 by campaigners",
+                "url": "https://morningstaronline.co.uk/article/ofwat-water-bosses-bonus-block-plans-dismissed-symbolic-campaigners",
+                "description": "GOVERNMENT plans to block the bonuses of water company bosses who fail to stop illegal sewage spills have been dismissed as merely \u201csymbolic\u201d by environment group Greenpeace.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a6e84275-4af2-8b92-f62d-1630dbac7db1",
+                        "name": "Ofwat"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Morning Star",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.XYFAfbQ1KrLZXw8Gl4oJeg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T16:08:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "UK&#39;s Labour Party cuts ties with a candidate who said Israel allowed Hamas&#39; attack to happen",
+                "url": "https://uk.news.yahoo.com/uks-labour-party-cuts-ties-210420966.html",
+                "description": "Britain\u2019s opposition Labour Party on Monday disowned an election candidate who claimed that Israel allowed Hamas\u2019 Oct. 7 attack to happen as a pretext to invade Gaza. Azhar Ali was selected last month to run for Labour in a Feb.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T16:04:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Tories slump to their lowest poll rating with Rishi as PM with Labour lead surging to 25 points at start of what could be one of Sunak&#39;s worst weeks in No10",
+                "url": "https://www.dailymail.co.uk/news/article-13074859/Tories-slump-lowest-poll-rating-Rishi-PM-Labour-lead-surging-25-points-start-one-Sunaks-worst-weeks-No10.html",
+                "description": "The latest Redfield &amp; Wilton Strategies survey showed the Conservatives on just 21 per cent support among voters, which is down three points since last week.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9585b0e9-1240-d064-5ce2-94b34b344160",
+                        "name": "Rishi"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7ae1da-c089-3d4d-32b3-1441e29fbd65",
+                        "name": "Lead paragraph"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e320dd44-b39b-fd9b-7883-0fe89bb44ace",
+                        "name": "Poll"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Rishi"
+                    },
+                    {
+                        "name": "Lead paragraph"
+                    },
+                    {
+                        "name": "Poll"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T16:01:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Empty council offices could &#39;solve homelessness and rough sleeping&#39; in Salford",
+                "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/empty-council-offices-could-solve-28617074",
+                "description": "Empty council offices should be used to help people who are homeless or rough sleeping in Salford, a councillor has said. Offices in Salford Civic Centre in Swinton are often left empty when staff work from home, Councillor Robin Garrido said.",
+                "mentions": [
+                    {
+                        "name": "Council"
+                    },
+                    {
+                        "name": "Manchester Evening News"
+                    },
+                    {
+                        "name": "Homelessness"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Manchester Evening News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.oxaa8-w2MDoXi5yOUu7A3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T15:53:00.0000000Z"
+            },
+            {
+                "name": "&#39;<b>Conservatives</b>&#39; lack of plan led to lacking NHS services in Devizes&#39;",
+                "url": "https://www.gazetteandherald.co.uk/news/towns/devizesheadlines/24105106.conservatives-lack-plan-led-lacking-nhs-services-devizes/",
+                "description": "\u201cWas it part of the plan not to hold NHS Property Services to account, when they sold the NHS clinic in New Park Street to Majestic, or for leaving the Devizes Community Hospital in a state of decline over many years - apart from moving the clinics to it, of course - until now when they are starting the process of trying to sell it off?",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4ebe79fa-f77b-5216-7ef9-f8ea04679349",
+                        "name": "Wiltshire"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5881acd3-aac3-46ee-78f6-020efd8abb26",
+                        "name": "Devizes"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Gazette and Herald",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.o5oZlZiPvruNKFOGi39PlA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T15:46:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Why it\u2019s unlikely Lord Cameron would become PM again despite Tory plots to oust Sunak",
+                "url": "https://inews.co.uk/news/politics/unlikely-lord-cameron-pm-again-tory-plots-oust-sunak-2902018?ITO=msn",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.9sev73cu6a80CzPKNNrJQC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "One MP tells i the Foreign Secretary is being floated by some Tory plotters as a potential &#39;unity candidate&#39; before the election",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T15:38:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Rebecca Pow MP reacts to grant given to YMCA Taunton",
+                "url": "https://www.somersetcountygazette.co.uk/news/24114310.rebecca-pow-mp-reacts-grant-given-ymca-taunton/",
+                "description": "Rebecca Pow, MP for Taunton Deane, has said the Conservatives will continue to fund youth services following a grant given to YMCA Taunton.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/36efe269-0024-1f8b-e108-15f138ee6b03",
+                        "name": "Rebecca"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40dc053f-0dbc-ba2b-624d-4d8e44c53b7f",
+                        "name": "Taunton"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Somerset County Gazette",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.waWzSPbN9UCKE_lQi3V8Cg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T15:19:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Tories \u2018could lose more than half of England\u2019s 100 most rural seats\u2019",
+                "url": "https://www.telegraph.co.uk/politics/2024/02/12/conservatives-labour-party-countryside-seats-election/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.7a2W5FR8IxZ5XqtNYAtsSS&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "The Conservatives could lose more than half of the 100 most rural seats in England at the election, according to a poll that has dealt another blow to Rishi Sunak. The Survation survey showed that Labour holds a lead in the polls in the seats, which have traditionally formed Conservative heartlands.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/280d39e8-7217-6863-6980-a8c20c211c89",
+                        "name": "England"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "England"
+                    },
+                    {
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "name": "Seat"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T15:15:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "David Cameron handed Michelle Mone a peerage as she was a &#39;proud Scot&#39; and &#39;proud Conservative&#39;",
+                "url": "https://www.dailyrecord.co.uk/news/politics/david-cameron-handed-michelle-mone-32108746",
+                "description": "Cameron was prime minister in 2015 when he decided to hand the controversial businesswoman a life-long place in the House of Lords.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/20f5d02f-7b33-0d30-b90d-2c0c7bf5858e",
+                        "name": "Michelle Mone"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/05973aa9-1608-8d06-96d6-e4ce0311b75a",
+                        "name": "David Cameron"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Michelle Mone"
+                    },
+                    {
+                        "name": "David Cameron"
+                    },
+                    {
+                        "name": "Daily Record"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Record",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.B6nvPq26UTBuCaXH6tX71w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T15:14:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Lords debate Rwanda deportation bill \u2013 UK politics live",
+                "url": "https://www.theguardian.com/politics/live/2024/feb/12/rishi-sunak-keir-starmer-rochdale-rwanda-conservatives-labour-uk-politics-live?page=with:block-65ca20d98f086f2438b7c99b&filterKeyEvents=false",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.1hujrbMlyKCHnSfi5_5k7y&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Peers debate amendments to controversial immigration legislation",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T15:06:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Politics latest news: Tories need &#39;best campaigners&#39; like Boris Johnson at election, says minister",
+                "url": "https://www.telegraph.co.uk/politics/2024/02/12/rishi-sunak-latest-news-labour-rochdale-elections-rwanda/",
+                "description": "The Labour Party now holds a poll lead over the Tories in England\u2019s 100 most rural constituencies in a fresh blow for Rishi Sunak. A Survation survey put Labour on 37 per cent of the vote in the traditionally Tory heartlands with the Conservatives now three points behind on 34 per cent.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fe217755-2d46-1c61-dded-740ff4500899",
+                        "name": "Boris Johnson"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Boris Johnson"
+                    },
+                    {
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T15:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Warwickshire County Councillors removed from committee following SEND comments",
+                "url": "https://www.itv.com/news/central/2024-02-12/councillors-removed-from-committee-after-badly-behaved-send-kids-comments",
+                "description": "Comments from councillors Brian Hammersley, Jeff Morgan and Clare Golby about SEND children caused outrage from parents and campaigners. | ITV News Central",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "ITV",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.HlKTyCgM99pRvmITMdZC2w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T14:46:00.0000000Z"
+            },
+            {
+                "name": "Edinburgh Castle&#39;s Redcoat Cafe re-opening upsets independence supporters despite same name for 30 years",
+                "url": "https://www.edinburghnews.scotsman.com/news/people/edinburgh-castles-redcoat-cafe-re-opening-upsets-scottish-independence-supporters-despite-same-name-4514198",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.tMccU17AnZ3zVoCQrUKwpi&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Redcoats was an informal name for British infantrymen who wore a distinctive garment into battles. Scottish independence supporters associate the army, clad in red, with the killing of Scots at the Battle of Culloden Moor in 1746, marking the defeat of the Jacobite movement.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cda4def5-e32b-2018-d3d4-e96563523dcf",
+                        "name": "Edinburgh Castle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f46e3c58-115f-189c-c3d0-54aabe6a93b9",
+                        "name": "Supporter"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fac935ba-9541-a4ea-89bf-d2b4184f0480",
+                        "name": "Butlins Redcoats"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Edinburgh Castle"
+                    },
+                    {
+                        "name": "Supporter"
+                    },
+                    {
+                        "name": "Butlins Redcoats"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "edinburghnews.scotsman.com",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.q5A2rO65JhbJbC_e_rAYWw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T14:29:00.0000000Z"
+            },
+            {
+                "name": "Politicians are desperate not to damage Britain&#39;s parlous finances - and that should be good news on the affordability checks front",
+                "url": "https://www.racingpost.com/news/opinion/comment/politicians-are-desperate-not-to-damage-britains-parlous-finances-and-that-should-be-good-news-on-the-affordability-checks-front-aI3eI9L4Rp8n/",
+                "description": "There was much national media coverage last week of the so-called &#39;Pop Cons&#39; [Popular <b>Conservatives</b>] holding a meeting in Westminster, at which such luminaries as former prime minister Liz Truss and Jacob Rees-Mogg called for an end to all sorts of ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c04d8178-0363-e9f1-5429-a2e8fb247702",
+                        "name": "Politician"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Racing Post"
+                    }
+                ],
+                "datePublished": "2024-02-12T14:01:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "&#39;Seaton Hospital is classed as a &#39;Asset of Community Value&#39;",
+                "url": "https://www.exmouthjournal.co.uk/news/24114048.seaton-hospital-classed-asset-community-value/",
+                "description": "Several huge meetings took place in Seaton and Colyford, and a campaign committee was formed, on which the local MP and I sit, alongside local medical representatives, the League of Friends and experienced serving and ex-councillors from Seaton.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/773bb5b3-a26f-f8b4-e420-240a98423d62",
+                        "name": "Exmouth Journal"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3154d660-b1fa-d625-9647-eda9037929b6",
+                        "name": "Seaton"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Exmouth Journal",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.gZ5J4NSu-4ZEAD0jmWBnpA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T13:54:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Former Tory minister announces she&#39;s quitting Parliament",
+                "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/former-tory-minister-announces-shes-28616501",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.d3JfA4B-Fr1rDhk9D_rGMC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Ms Crouch, 48, is the eighth MP, and sixth Conservative, this year to announce that they will quit Parliament at the election expected to take place later in 2024.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Tory"
+                    },
+                    {
+                        "name": "Parliament of the United Kingdom"
+                    },
+                    {
+                        "name": "Manchester Evening News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Manchester Evening News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.oxaa8-w2MDoXi5yOUu7A3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T13:32:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Former sports minister becomes latest Tory to say she will quit Parliament",
+                "url": "https://www.standard.co.uk/news/politics/tracey-crouch-parliament-conservative-kent-aylesford-b1138651.html",
+                "description": "Tracey Crouch said she would pursue \u2018a new professional challenge\u2019, and that her reasons for not standing were \u2018entirely personal and positive\u2019.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/029b6d7d-91d8-ffa5-71fd-03b4602e0e4d",
+                        "name": "Aylesford"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/aee19860-c259-31db-e6a2-67ba4bf809ab",
+                        "name": "Tracey Crouch"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Aylesford"
+                    },
+                    {
+                        "name": "Tracey Crouch"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T13:17:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Angry words as Sheffield councillors oppose government ending \u00a310.4m help for poorest families",
+                "url": "https://www.thestar.co.uk/news/politics/council/angry-words-as-sheffield-councillors-oppose-government-ending-ps104m-help-for-poorest-families-4514827",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.-yaiens-A-UHQQM7MJfwZi&pid=News",
+                        "width": 640,
+                        "height": 427
+                    }
+                },
+                "description": "There have been angry exchanges between Labour and LibDem councillors during a debate about the loss of \u00a310.4m of support for Sheffield families living in poverty.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/41dbe832-f699-1fd7-e3b3-fbdcbd0167eb",
+                        "name": "Sheffield"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Sheffield"
+                    },
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Child"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Star",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Y7yUQbF3UkENdsbD9VT6zg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T12:58:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Senior Tories set to lose seats at next election as support in rural strongholds collapses",
+                "url": "https://www.independent.co.uk/news/uk/conservative-vote-collapse-rural-labour-lead-election-b2494601.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.O85GQCbslBw9I0NbN3xUfC&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Support for the Conservatives among England\u2019s rural voters has collapsed since 2019 with many high profile MPs at risk of losing their seats",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "News UK"
+                    },
+                    {
+                        "name": "Conservatism"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T12:35:00.0000000Z",
+                "video": {
+                    "name": "Senior Tories set to lose seats at next election as support in rural strongholds collapses",
+                    "thumbnailUrl": "https://www.bing.com/th?id=OVF.B0wg%2B9EP%2BqoQmPZIk6NvZw&pid=News",
+                    "embedHtml": "&lt;iframe src=&quot;https://cdn.jwplayer.com/players/t9T0c3PO-XLzx33eA.html&quot; width=&quot;480&quot; height=&quot;270&quot; frameborder=&quot;0&quot; scrolling=&quot;auto&quot;&gt;&lt;/iframe&gt;",
+                    "allowHttpsEmbed": true,
+                    "thumbnail": {
+                        "width": 520,
+                        "height": 291
+                    }
+                },
+                "category": "Politics"
+            },
+            {
+                "name": "Jeremy Hunt calls for &#39;united front&#39; among <b>Conservatives</b>",
+                "url": "https://www.thenorthernecho.co.uk/news/24107617.jeremy-hunt-calls-united-front-among-conservatives/",
+                "description": "The Chancellor has called for a &#39;united front&#39; among Conservatives to have a chance at holding North East seats",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2bd73848-4b61-3c98-ba3e-c458fe954d74",
+                        "name": "Jeremy Hunt"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Northern Echo",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.48z66l2ZlkmQjDjWZGzaZQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T12:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Robert F. Kennedy Jr. Apologizes For Controversial $7 Million Super Bowl Ad",
+                "url": "https://www.huffingtonpost.co.uk/entry/robert-f-kennedy-jr-super-bowl-ad_n_65c9f9f6e4b067c6b73da056",
+                "description": "The ad, produced by a super PAC backing Kennedy, American Values 2024, borrowed heavily from a 1960 spot for his uncle John F. Kennedy \u2019s winning presidential bid. It uses the same jingle and co-opts the vintage vibe.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e045d327-0fdc-d12c-b847-d1c25c43331e",
+                        "name": "Robert F. Kennedy, Jr."
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Huffington Post UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0y8ov4dkxpxjENNw_hd4jw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T11:46:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Tory promises to wipe out national debt proved false - Yorkshire Post Letters",
+                "url": "https://www.yorkshirepost.co.uk/news/opinion/letters/tory-promises-to-wipe-out-national-debt-proved-false-yorkshire-post-letters-4505020",
+                "description": "Fossil fuel companies are raking it in. Those with assets are doing fine. Those without aren\u2019t. <b>Conservatives</b> are criticising Labour for plans to invest \u00a328bn a year in low carbon industry which will create a return and boost the economy. However ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/30ca08ad-df25-3618-6fed-d09733d64eeb",
+                        "name": "Wipe"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Yorkshire Post"
+                    }
+                ],
+                "datePublished": "2024-02-12T11:45:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Conservative candidate Rosie Hanlon wins Ponteland Town Council by-election",
+                "url": "https://www.northumberlandgazette.co.uk/news/politics/conservative-candidate-rosie-hanlon-wins-ponteland-town-council-by-election-4514635",
+                "description": "The Conservative Party has been successful in a Ponteland Town Council by-election, with Rosie Hanlon elected as the new councillor for the Ponteland East ward.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3452224b-d097-b06a-579c-f8a3ff692b12",
+                        "name": "Ponteland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c3139dcc-085c-7ec6-dc87-2269e891bcdf",
+                        "name": "Town council"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Northumberland Gazette",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.w-Bbt7wl-PesbPw0TcnyjA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T11:44:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "New national anti-fraud campaign launched - but critics say it&#39;s &#39;too little, too late&#39;",
+                "url": "https://www.chroniclelive.co.uk/news/uk-news/new-national-anti-fraud-campaign-28614766",
+                "description": "The Government&#39;s Stop! Think Fraud campaign, starting on Monday, includes a new website with fraud safety advice and adverts on billboards, TV and radio broadcasts and social media.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a55d629b-42b2-9dcf-dbd7-860a94010ae2",
+                        "name": "Chronicle Live"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b83d549f-1d62-a989-a518-4fdc76be546e",
+                        "name": "Campaign"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Chronicle Live"
+                    },
+                    {
+                        "name": "Campaign"
+                    },
+                    {
+                        "name": "Newcastle United F.C."
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Evening Chronicle",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.G4kbGBXl4xfkaxnbAFtYzw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T11:34:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "SNP calls on all parties to support hike in alcohol price and warns against &#39;political point scoring&#39;",
+                "url": "https://www.dailyrecord.co.uk/news/politics/snp-calls-parties-support-hike-32105585.amp",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.29BnhaJTx-H90SOOr93n7C&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Claire Haughey claimed MSPs &quot;owe it to the people of Scotland&quot; to support an increase in minimum unit pricing.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fb6f4f93-ce23-76a6-98b5-3ab6b5286762",
+                        "name": "Daily Record"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Daily Record"
+                    },
+                    {
+                        "name": "Alcohol fuel"
+                    },
+                    {
+                        "name": "Scottish National Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Record",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.B6nvPq26UTBuCaXH6tX71w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T11:11:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Tories and Labour trade blows over oil and gas windfall tax plans",
+                "url": "https://www.businessgreen.com/news/4172931/tories-labour-trade-blows-oil-gas-windfall-tax-plans",
+                "description": "Chancellor Jeremy Hunt accuses Labour of having an \u00a38bn black hole in its Green Prosperity Plan, but Opposition slams &#39;flawed&#39; analysis",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2cb53ba6-5f69-9623-f848-f152d6f30f0d",
+                        "name": "Trade"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Business Green",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.JpqvKsAye5NINvbectdquQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T11:02:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Picking a winner? The <b>Conservatives</b>\u2019 campaign for the City of Durham begins",
+                "url": "https://www.palatinate.org.uk/picking-a-winner-the-conservatives-campaign-for-the-city-of-durham-begins/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.8VQCS1iaWv60Jw4pms8xdC&pid=News",
+                        "width": 700,
+                        "height": 467
+                    }
+                },
+                "description": "Jussi-Peter Hill explores Councillor Luke Allan Holmes&#39;s selection as the Conservative candidate for the forthcoming general election.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/28a7bdc8-d68d-24de-0cb0-e4bb518c7dc4",
+                        "name": "Palatinate"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6a9a951e-fcd0-1929-15fd-be29956fce3e",
+                        "name": "City of Durham"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b83d549f-1d62-a989-a518-4fdc76be546e",
+                        "name": "Campaign"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Palatinate",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.jFDgsFGIq6tX_ioEJiN7bA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T10:42:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Bonus ban for water bosses who break rules with illegal sewage spills",
+                "url": "https://uk.style.yahoo.com/bonus-ban-water-bosses-break-104245100.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Ua-a5RKWrf2wegmfkoUD7i&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Water company bosses are set to be banned from receiving bonuses if their companies let illegal sewage spills pollute beaches and rivers. The environment secretary called on water company bosses to take responsibility for \u201cinexcusable breaches\u201d damaging the environment while announcing the ban on Sunday.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/85c008d9-df04-9cef-82c0-496f594c59b2",
+                        "name": "Water"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Style UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.R1Y_kEYTGAFzjK1_2NaYlQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T10:42:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Europe mishandled its migration crisis. Biden can learn from it",
+                "url": "https://www.newstatesman.com/comment/2024/02/taylor-swift-triumphant-incoherence",
+                "description": "Remembering this, the anti-Swift mania that gripped the \u201cMake America great again\u201d (Maga) <b>conservatives</b> for weeks now is hardly surprising. A flurry of accusations emerged: Swift is a \u201cPentagon asset\u201d conspiring with Democrats to deliver electoral ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/98004a38-a3ea-b902-b6d3-687b30b54353",
+                        "name": "Taylor Swift"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "New Statesman"
+                    }
+                ],
+                "datePublished": "2024-02-11T23:59:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Rod Stewart gives scathing verdict on the Tories and says Labour &#39;deserve a crack&#39;",
+                "url": "https://www.mirror.co.uk/news/politics/rod-stewart-gives-scathing-verdict-32088184?int_source=nba",
+                "description": "I live here [in the UK] now. I didn&#39;t used to. And I see what the <b>Conservatives</b> get up to.\u201d Sir Rod, who was speaking in an interview with The Times, added: \u201cWell, I liked Boris Johnson. He was a good figurehead, but he turned out to be a lying f***ing ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror"
+                    }
+                ],
+                "datePublished": "2024-02-09T13:43:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    }
+]

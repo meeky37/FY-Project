@@ -1,0 +1,1178 @@
+[
+    {
+        "_type": "News",
+        "queryContext": {
+            "originalQuery": "Reform",
+            "adultIntent": false
+        },
+        "value": []
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=Reform",
+        "queryContext": {
+            "originalQuery": "Reform",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 67500,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Reform"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Reform&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "I understand voters\u2019 frustrations, Sunak says in live TV grilling",
+                "url": "https://www.independent.co.uk/news/uk/rishi-sunak-nhs-prime-minister-rwanda-labour-b2495025.html",
+                "description": "As peers in the House of Lords debated draft legislation aimed at sending asylum seekers to Kigali, one voter asked Mr Sunak why he was \u201cso adamant\u201d about the Rwanda policy \u201cwhen public documentation shows it isn\u2019t working and that it\u2019s not going to work\u201d.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "News UK"
+                    },
+                    {
+                        "name": "Rwanda"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:35:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Keir Starmer finally cuts ties with Labour by-election candidate after fresh row explodes",
+                "url": "https://www.express.co.uk/news/politics/1865966/keir-starmer-labour-party-rochdale-by-election",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.rn32wQ29q3kd2unfpWZ-bC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Keir Starmer had faced accusations he was protecting a &quot;racist crank&quot; after his party rallied round MP hopeful Azhar Ali.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/63a6ef59-71fd-db08-08c6-d47d973d47fb",
+                        "name": "Keir Starmer"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5e83019e-d5ad-de66-bfc7-9f24e0932322",
+                        "name": "By-election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Tories urged to bring Boris Johnson back for &#39;game-changing&#39; general election campaign",
+                "url": "https://www.express.co.uk/news/politics/1865963/tories-bring-back-boris-johnson-uk-general-election",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT._0HWLCbFfOGAoba2t2cf1S&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Ahead of what Tory MPs are dubbing &quot;apocalypse week&quot; for the party, Rishi Sunak has been warned he needs to bring back Boris Johnson or lose catastrophically.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fe217755-2d46-1c61-dded-740ff4500899",
+                        "name": "Boris Johnson"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1d184444-695d-2c7f-a056-d96c5772f630",
+                        "name": "Political campaign"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Boris Johnson"
+                    },
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Political campaign"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:13:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "The Scottish Government, &#39;evading scrutiny&#39; and Freedom of Information",
+                "url": "https://www.heraldscotland.com/news/24115207.scottish-government-evading-scrutiny-freedom-information/",
+                "description": "The Scottish Government has found itself tied in knots once again over transparency \u2013 but should we be surprised at politicians not being as",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "heraldscotland",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PjDUWS-WIq7w595SCRQefg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Scottish government&#39;s \u2018rotten culture of secrecy\u2019 slammed",
+                "url": "https://morningstaronline.co.uk/article/scottish-government-rotten-culture-of-secrecy-slammed",
+                "description": "SCOTTISH LABOUR hit out at a \u201crotten culture of secrecy\u201d today after it was revealed that the Scottish government honours less than a third of freedom of information (FoI) requests in full and on time.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/955e8a7c-d981-037b-3759-28686357dc34",
+                        "name": "Scottish Government"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Morning Star",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.XYFAfbQ1KrLZXw8Gl4oJeg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T16:51:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Tories slump to their lowest poll rating with Rishi as PM with Labour lead surging to 25 points at start of what could be one of Sunak&#39;s worst weeks in No10",
+                "url": "https://www.dailymail.co.uk/news/article-13074859/Tories-slump-lowest-poll-rating-Rishi-PM-Labour-lead-surging-25-points-start-one-Sunaks-worst-weeks-No10.html",
+                "description": "The latest Redfield &amp; Wilton Strategies survey showed the Conservatives on just 21 per cent support among voters, which is down three points since last week.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9585b0e9-1240-d064-5ce2-94b34b344160",
+                        "name": "Rishi"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7ae1da-c089-3d4d-32b3-1441e29fbd65",
+                        "name": "Lead paragraph"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e320dd44-b39b-fd9b-7883-0fe89bb44ace",
+                        "name": "Poll"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Rishi"
+                    },
+                    {
+                        "name": "Lead paragraph"
+                    },
+                    {
+                        "name": "Poll"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T16:01:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Alliance Calls For Urgent Delivery Of Early Learning And Childcare Strategy",
+                "url": "https://www.4ni.co.uk/northern-ireland-news/304918/alliance-calls-for-urgent-delivery-of-early-learning-and-childcare-strategy",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.6N39UaXeEg0c56DRnC07DC&pid=News",
+                        "width": 600,
+                        "height": 440
+                    }
+                },
+                "description": "12 February 2024 Alliance Calls For Urgent Delivery Of Early Learning And Childcare Strategy The Alliance Party has called on the Minister of Education, Paul Givan, to urgently bring forward a timeline for delivery on the Early Learning and Childcare Strategy.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4b8bc44-385c-e87b-bb7d-b32328f53502",
+                        "name": "Northern Ireland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b949fd4-e9bb-6089-9fc3-edf057b8d604",
+                        "name": "Strategy"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/92f54b90-c835-f4e6-7112-13509d4b2122",
+                        "name": "Child care"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "4NI"
+                    }
+                ],
+                "datePublished": "2024-02-12T16:00:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Unfair to draw wider conclusions from candidate\u2019s Israel claims: shadow minister",
+                "url": "https://www.thenorthernecho.co.uk/news/national/24113053.unfair-draw-wider-conclusions-candidates-israel-claims-shadow-minister/",
+                "description": "A shadow minister has insisted it would be \u201cunfair\u201d to conclude there is a problem with Labour in Rochdale amid criticism of remarks about Israel made by the party\u2019s constituency candidate.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1ffafed3-2b37-b871-c271-aa855d98449a",
+                        "name": "Israel"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Northern Echo",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.48z66l2ZlkmQjDjWZGzaZQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T15:20:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=Reform",
+        "queryContext": {
+            "originalQuery": "Reform",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 67500,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Reform"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Reform&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "I understand voters\u2019 frustrations, Sunak says in live TV grilling",
+                "url": "https://www.independent.co.uk/news/uk/rishi-sunak-nhs-prime-minister-rwanda-labour-b2495025.html",
+                "description": "As peers in the House of Lords debated draft legislation aimed at sending asylum seekers to Kigali, one voter asked Mr Sunak why he was \u201cso adamant\u201d about the Rwanda policy \u201cwhen public documentation shows it isn\u2019t working and that it\u2019s not going to work\u201d.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "News UK"
+                    },
+                    {
+                        "name": "Rwanda"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:35:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Keir Starmer finally cuts ties with Labour by-election candidate after fresh row explodes",
+                "url": "https://www.express.co.uk/news/politics/1865966/keir-starmer-labour-party-rochdale-by-election",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.rn32wQ29q3kd2unfpWZ-bC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Keir Starmer had faced accusations he was protecting a &quot;racist crank&quot; after his party rallied round MP hopeful Azhar Ali.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/63a6ef59-71fd-db08-08c6-d47d973d47fb",
+                        "name": "Keir Starmer"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5e83019e-d5ad-de66-bfc7-9f24e0932322",
+                        "name": "By-election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Tories urged to bring Boris Johnson back for &#39;game-changing&#39; general election campaign",
+                "url": "https://www.express.co.uk/news/politics/1865963/tories-bring-back-boris-johnson-uk-general-election",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT._0HWLCbFfOGAoba2t2cf1S&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Ahead of what Tory MPs are dubbing &quot;apocalypse week&quot; for the party, Rishi Sunak has been warned he needs to bring back Boris Johnson or lose catastrophically.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fe217755-2d46-1c61-dded-740ff4500899",
+                        "name": "Boris Johnson"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1d184444-695d-2c7f-a056-d96c5772f630",
+                        "name": "Political campaign"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Boris Johnson"
+                    },
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Political campaign"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:13:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "The Scottish Government, &#39;evading scrutiny&#39; and Freedom of Information",
+                "url": "https://www.heraldscotland.com/news/24115207.scottish-government-evading-scrutiny-freedom-information/",
+                "description": "The Scottish Government has found itself tied in knots once again over transparency \u2013 but should we be surprised at politicians not being as",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "heraldscotland",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PjDUWS-WIq7w595SCRQefg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Scottish government&#39;s \u2018rotten culture of secrecy\u2019 slammed",
+                "url": "https://morningstaronline.co.uk/article/scottish-government-rotten-culture-of-secrecy-slammed",
+                "description": "SCOTTISH LABOUR hit out at a \u201crotten culture of secrecy\u201d today after it was revealed that the Scottish government honours less than a third of freedom of information (FoI) requests in full and on time.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/955e8a7c-d981-037b-3759-28686357dc34",
+                        "name": "Scottish Government"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Morning Star",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.XYFAfbQ1KrLZXw8Gl4oJeg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T16:51:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Tories slump to their lowest poll rating with Rishi as PM with Labour lead surging to 25 points at start of what could be one of Sunak&#39;s worst weeks in No10",
+                "url": "https://www.dailymail.co.uk/news/article-13074859/Tories-slump-lowest-poll-rating-Rishi-PM-Labour-lead-surging-25-points-start-one-Sunaks-worst-weeks-No10.html",
+                "description": "The latest Redfield &amp; Wilton Strategies survey showed the Conservatives on just 21 per cent support among voters, which is down three points since last week.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9585b0e9-1240-d064-5ce2-94b34b344160",
+                        "name": "Rishi"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7ae1da-c089-3d4d-32b3-1441e29fbd65",
+                        "name": "Lead paragraph"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e320dd44-b39b-fd9b-7883-0fe89bb44ace",
+                        "name": "Poll"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Rishi"
+                    },
+                    {
+                        "name": "Lead paragraph"
+                    },
+                    {
+                        "name": "Poll"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T16:01:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Alliance Calls For Urgent Delivery Of Early Learning And Childcare Strategy",
+                "url": "https://www.4ni.co.uk/northern-ireland-news/304918/alliance-calls-for-urgent-delivery-of-early-learning-and-childcare-strategy",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.6N39UaXeEg0c56DRnC07DC&pid=News",
+                        "width": 600,
+                        "height": 440
+                    }
+                },
+                "description": "12 February 2024 Alliance Calls For Urgent Delivery Of Early Learning And Childcare Strategy The Alliance Party has called on the Minister of Education, Paul Givan, to urgently bring forward a timeline for delivery on the Early Learning and Childcare Strategy.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4b8bc44-385c-e87b-bb7d-b32328f53502",
+                        "name": "Northern Ireland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b949fd4-e9bb-6089-9fc3-edf057b8d604",
+                        "name": "Strategy"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/92f54b90-c835-f4e6-7112-13509d4b2122",
+                        "name": "Child care"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "4NI"
+                    }
+                ],
+                "datePublished": "2024-02-12T16:00:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Unfair to draw wider conclusions from candidate\u2019s Israel claims: shadow minister",
+                "url": "https://www.thenorthernecho.co.uk/news/national/24113053.unfair-draw-wider-conclusions-candidates-israel-claims-shadow-minister/",
+                "description": "A shadow minister has insisted it would be \u201cunfair\u201d to conclude there is a problem with Labour in Rochdale amid criticism of remarks about Israel made by the party\u2019s constituency candidate.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1ffafed3-2b37-b871-c271-aa855d98449a",
+                        "name": "Israel"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Northern Echo",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.48z66l2ZlkmQjDjWZGzaZQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T15:20:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=Reform",
+        "queryContext": {
+            "originalQuery": "Reform",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 67500,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Reform"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Reform&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "I understand voters\u2019 frustrations, Sunak says in live TV grilling",
+                "url": "https://www.independent.co.uk/news/uk/rishi-sunak-nhs-prime-minister-rwanda-labour-b2495025.html",
+                "description": "As peers in the House of Lords debated draft legislation aimed at sending asylum seekers to Kigali, one voter asked Mr Sunak why he was \u201cso adamant\u201d about the Rwanda policy \u201cwhen public documentation shows it isn\u2019t working and that it\u2019s not going to work\u201d.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "News UK"
+                    },
+                    {
+                        "name": "Rwanda"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:35:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Keir Starmer finally cuts ties with Labour by-election candidate after fresh row explodes",
+                "url": "https://www.express.co.uk/news/politics/1865966/keir-starmer-labour-party-rochdale-by-election",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.rn32wQ29q3kd2unfpWZ-bC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Keir Starmer had faced accusations he was protecting a &quot;racist crank&quot; after his party rallied round MP hopeful Azhar Ali.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/63a6ef59-71fd-db08-08c6-d47d973d47fb",
+                        "name": "Keir Starmer"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5e83019e-d5ad-de66-bfc7-9f24e0932322",
+                        "name": "By-election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Tories urged to bring Boris Johnson back for &#39;game-changing&#39; general election campaign",
+                "url": "https://www.express.co.uk/news/politics/1865963/tories-bring-back-boris-johnson-uk-general-election",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT._0HWLCbFfOGAoba2t2cf1S&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Ahead of what Tory MPs are dubbing &quot;apocalypse week&quot; for the party, Rishi Sunak has been warned he needs to bring back Boris Johnson or lose catastrophically.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fe217755-2d46-1c61-dded-740ff4500899",
+                        "name": "Boris Johnson"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1d184444-695d-2c7f-a056-d96c5772f630",
+                        "name": "Political campaign"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Boris Johnson"
+                    },
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Political campaign"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:13:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "The Scottish Government, &#39;evading scrutiny&#39; and Freedom of Information",
+                "url": "https://www.heraldscotland.com/news/24115207.scottish-government-evading-scrutiny-freedom-information/",
+                "description": "The Scottish Government has found itself tied in knots once again over transparency \u2013 but should we be surprised at politicians not being as",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "heraldscotland",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PjDUWS-WIq7w595SCRQefg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Scottish government&#39;s \u2018rotten culture of secrecy\u2019 slammed",
+                "url": "https://morningstaronline.co.uk/article/scottish-government-rotten-culture-of-secrecy-slammed",
+                "description": "SCOTTISH LABOUR hit out at a \u201crotten culture of secrecy\u201d today after it was revealed that the Scottish government honours less than a third of freedom of information (FoI) requests in full and on time.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/955e8a7c-d981-037b-3759-28686357dc34",
+                        "name": "Scottish Government"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Morning Star",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.XYFAfbQ1KrLZXw8Gl4oJeg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T16:51:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Tories slump to their lowest poll rating with Rishi as PM with Labour lead surging to 25 points at start of what could be one of Sunak&#39;s worst weeks in No10",
+                "url": "https://www.dailymail.co.uk/news/article-13074859/Tories-slump-lowest-poll-rating-Rishi-PM-Labour-lead-surging-25-points-start-one-Sunaks-worst-weeks-No10.html",
+                "description": "The latest Redfield &amp; Wilton Strategies survey showed the Conservatives on just 21 per cent support among voters, which is down three points since last week.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9585b0e9-1240-d064-5ce2-94b34b344160",
+                        "name": "Rishi"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7ae1da-c089-3d4d-32b3-1441e29fbd65",
+                        "name": "Lead paragraph"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e320dd44-b39b-fd9b-7883-0fe89bb44ace",
+                        "name": "Poll"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Rishi"
+                    },
+                    {
+                        "name": "Lead paragraph"
+                    },
+                    {
+                        "name": "Poll"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T16:01:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Alliance Calls For Urgent Delivery Of Early Learning And Childcare Strategy",
+                "url": "https://www.4ni.co.uk/northern-ireland-news/304918/alliance-calls-for-urgent-delivery-of-early-learning-and-childcare-strategy",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.6N39UaXeEg0c56DRnC07DC&pid=News",
+                        "width": 600,
+                        "height": 440
+                    }
+                },
+                "description": "12 February 2024 Alliance Calls For Urgent Delivery Of Early Learning And Childcare Strategy The Alliance Party has called on the Minister of Education, Paul Givan, to urgently bring forward a timeline for delivery on the Early Learning and Childcare Strategy.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4b8bc44-385c-e87b-bb7d-b32328f53502",
+                        "name": "Northern Ireland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b949fd4-e9bb-6089-9fc3-edf057b8d604",
+                        "name": "Strategy"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/92f54b90-c835-f4e6-7112-13509d4b2122",
+                        "name": "Child care"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "4NI"
+                    }
+                ],
+                "datePublished": "2024-02-12T16:00:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Unfair to draw wider conclusions from candidate\u2019s Israel claims: shadow minister",
+                "url": "https://www.thenorthernecho.co.uk/news/national/24113053.unfair-draw-wider-conclusions-candidates-israel-claims-shadow-minister/",
+                "description": "A shadow minister has insisted it would be \u201cunfair\u201d to conclude there is a problem with Labour in Rochdale amid criticism of remarks about Israel made by the party\u2019s constituency candidate.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1ffafed3-2b37-b871-c271-aa855d98449a",
+                        "name": "Israel"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Northern Echo",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.48z66l2ZlkmQjDjWZGzaZQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T15:20:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=Reform",
+        "queryContext": {
+            "originalQuery": "Reform",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 67500,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Reform"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Reform&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "I understand voters\u2019 frustrations, Sunak says in live TV grilling",
+                "url": "https://www.independent.co.uk/news/uk/rishi-sunak-nhs-prime-minister-rwanda-labour-b2495025.html",
+                "description": "As peers in the House of Lords debated draft legislation aimed at sending asylum seekers to Kigali, one voter asked Mr Sunak why he was \u201cso adamant\u201d about the Rwanda policy \u201cwhen public documentation shows it isn\u2019t working and that it\u2019s not going to work\u201d.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "News UK"
+                    },
+                    {
+                        "name": "Rwanda"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:35:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Keir Starmer finally cuts ties with Labour by-election candidate after fresh row explodes",
+                "url": "https://www.express.co.uk/news/politics/1865966/keir-starmer-labour-party-rochdale-by-election",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.rn32wQ29q3kd2unfpWZ-bC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Keir Starmer had faced accusations he was protecting a &quot;racist crank&quot; after his party rallied round MP hopeful Azhar Ali.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/63a6ef59-71fd-db08-08c6-d47d973d47fb",
+                        "name": "Keir Starmer"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5e83019e-d5ad-de66-bfc7-9f24e0932322",
+                        "name": "By-election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Tories urged to bring Boris Johnson back for &#39;game-changing&#39; general election campaign",
+                "url": "https://www.express.co.uk/news/politics/1865963/tories-bring-back-boris-johnson-uk-general-election",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT._0HWLCbFfOGAoba2t2cf1S&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Ahead of what Tory MPs are dubbing &quot;apocalypse week&quot; for the party, Rishi Sunak has been warned he needs to bring back Boris Johnson or lose catastrophically.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fe217755-2d46-1c61-dded-740ff4500899",
+                        "name": "Boris Johnson"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1d184444-695d-2c7f-a056-d96c5772f630",
+                        "name": "Political campaign"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Boris Johnson"
+                    },
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Political campaign"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:13:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "The Scottish Government, &#39;evading scrutiny&#39; and Freedom of Information",
+                "url": "https://www.heraldscotland.com/news/24115207.scottish-government-evading-scrutiny-freedom-information/",
+                "description": "The Scottish Government has found itself tied in knots once again over transparency \u2013 but should we be surprised at politicians not being as",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "heraldscotland",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PjDUWS-WIq7w595SCRQefg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Scottish government&#39;s \u2018rotten culture of secrecy\u2019 slammed",
+                "url": "https://morningstaronline.co.uk/article/scottish-government-rotten-culture-of-secrecy-slammed",
+                "description": "SCOTTISH LABOUR hit out at a \u201crotten culture of secrecy\u201d today after it was revealed that the Scottish government honours less than a third of freedom of information (FoI) requests in full and on time.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/955e8a7c-d981-037b-3759-28686357dc34",
+                        "name": "Scottish Government"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Morning Star",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.XYFAfbQ1KrLZXw8Gl4oJeg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T16:51:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Tories slump to their lowest poll rating with Rishi as PM with Labour lead surging to 25 points at start of what could be one of Sunak&#39;s worst weeks in No10",
+                "url": "https://www.dailymail.co.uk/news/article-13074859/Tories-slump-lowest-poll-rating-Rishi-PM-Labour-lead-surging-25-points-start-one-Sunaks-worst-weeks-No10.html",
+                "description": "The latest Redfield &amp; Wilton Strategies survey showed the Conservatives on just 21 per cent support among voters, which is down three points since last week.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9585b0e9-1240-d064-5ce2-94b34b344160",
+                        "name": "Rishi"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7ae1da-c089-3d4d-32b3-1441e29fbd65",
+                        "name": "Lead paragraph"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e320dd44-b39b-fd9b-7883-0fe89bb44ace",
+                        "name": "Poll"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Rishi"
+                    },
+                    {
+                        "name": "Lead paragraph"
+                    },
+                    {
+                        "name": "Poll"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T16:01:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Alliance Calls For Urgent Delivery Of Early Learning And Childcare Strategy",
+                "url": "https://www.4ni.co.uk/northern-ireland-news/304918/alliance-calls-for-urgent-delivery-of-early-learning-and-childcare-strategy",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.6N39UaXeEg0c56DRnC07DC&pid=News",
+                        "width": 600,
+                        "height": 440
+                    }
+                },
+                "description": "12 February 2024 Alliance Calls For Urgent Delivery Of Early Learning And Childcare Strategy The Alliance Party has called on the Minister of Education, Paul Givan, to urgently bring forward a timeline for delivery on the Early Learning and Childcare Strategy.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4b8bc44-385c-e87b-bb7d-b32328f53502",
+                        "name": "Northern Ireland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b949fd4-e9bb-6089-9fc3-edf057b8d604",
+                        "name": "Strategy"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/92f54b90-c835-f4e6-7112-13509d4b2122",
+                        "name": "Child care"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "4NI"
+                    }
+                ],
+                "datePublished": "2024-02-12T16:00:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Unfair to draw wider conclusions from candidate\u2019s Israel claims: shadow minister",
+                "url": "https://www.thenorthernecho.co.uk/news/national/24113053.unfair-draw-wider-conclusions-candidates-israel-claims-shadow-minister/",
+                "description": "A shadow minister has insisted it would be \u201cunfair\u201d to conclude there is a problem with Labour in Rochdale amid criticism of remarks about Israel made by the party\u2019s constituency candidate.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1ffafed3-2b37-b871-c271-aa855d98449a",
+                        "name": "Israel"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Northern Echo",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.48z66l2ZlkmQjDjWZGzaZQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T15:20:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    }
+]

@@ -1,0 +1,2626 @@
+[
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=Green+Party",
+        "queryContext": {
+            "originalQuery": "Green Party",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 33,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Green+Party"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Green+Party&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Labour <b>Party</b> withdraws support for Rochdale candidate Azhar Ali",
+                "url": "https://5pillarsuk.com/2024/02/12/labour-party-withdraws-support-for-rochdale-candidate-azhar-ali/",
+                "description": "had apologised after the Mail on Sunday reported he had said Israel \u201callowed\u201d the Hamas attacks of October 7th in order to get a \u201c<b>green</b> light to do whatever they bloody want.\u201d But a Labour <b>party</b> spokesperson said on Monday night: \u201cFollowing new ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ab70f55a-e575-e252-f77b-26bd50dc50b2",
+                        "name": "Azhar Ali"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c38266bb-c5ec-d1d6-9bfe-d6b6ec242aa1",
+                        "name": "Labour Party"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/baf56fc2-cb3f-46c7-83ad-08830d0407e4",
+                        "name": "Rochdale"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "5Pillars"
+                    }
+                ],
+                "datePublished": "2024-02-12T21:18:00.0000000Z"
+            },
+            {
+                "name": "Labour drops support for by-election candidate after Hamas-Israel claims",
+                "url": "https://www.ft.com/content/73e64287-e84e-4933-ae88-12fcdcc5be35",
+                "description": "Party withdraws backing for Rochdale hopeful Azhar Ali after comments he made to newspaper over October 7 attack",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1ffafed3-2b37-b871-c271-aa855d98449a",
+                        "name": "Israel"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Financial Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CdBlognZ1u9nda-gVEOS_w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T20:52:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Azhar Ali: Labour&#39;s former Rochdale by-election candidate criticised by Preston Jewish faith leader over Israel attack comments",
+                "url": "https://www.lep.co.uk/news/politics/azhar-ali-labours-former-rochdale-by-election-candidate-criticised-by-preston-jewish-faith-leader-over-israel-attack-comments-4515431",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.xFcLke1rRlnm0wJvD5MFay&pid=News",
+                        "width": 640,
+                        "height": 427
+                    }
+                },
+                "description": "A Jewish community leader in Preston says comments made by a senior Lancashire county councillor alleging Israel deliberately allowed the 7th October terrorist attack have given fuel to \u201cdemons\u201d on social media spreading other unsubstantiated claims about the state.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/91c620b3-1522-0ebd-63b2-4a7e645a1fde",
+                        "name": "Preston"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5e83019e-d5ad-de66-bfc7-9f24e0932322",
+                        "name": "By-election"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/baf56fc2-cb3f-46c7-83ad-08830d0407e4",
+                        "name": "Rochdale"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Preston"
+                    },
+                    {
+                        "name": "By-election"
+                    },
+                    {
+                        "name": "Rochdale"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Lancashire Evening Post",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Wcd8HXK9ZgvKKRZFFaKQGg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T20:46:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Starmer withdraws support for Rochdale by-election candidate after &#39;deeply offensive&#39; anti-Israel rant",
+                "url": "https://www.standard.co.uk/news/politics/labour-rochdale-byelection-azhar-ali-mp-israel-gaza-b1138734.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.DJLpMHwYWLv-bz-ZH9Ur2C&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Labour finally acts after spending much of Monday trying to defend Azhar Ali - with party suspending him pending an investigation",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/baf56fc2-cb3f-46c7-83ad-08830d0407e4",
+                        "name": "Rochdale"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Rochdale"
+                    },
+                    {
+                        "name": "Anti-Zionism"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T20:39:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Rishi Sunak issues warning over Labour as Brits urged not to fall for Keir Starmer&#39;s &#39;con&#39;",
+                "url": "https://www.express.co.uk/news/politics/1865978/rishi-sunak-keir-stamer-labour-conservatives-general-election",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.BvwRh6MSwML5gn2V43AlQS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Rishi Sunak vowed to fix the social care system, slash NHS waiting lists and continue to ease the cost of living crisis if the Tories win the next general election.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e88a173e-30a7-ec38-cac8-53a5e5fcda18",
+                        "name": "Warning"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2349f216-dc4b-726d-e114-3173fb4e9b99",
+                        "name": "British people"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Warning"
+                    },
+                    {
+                        "name": "British people"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T20:24:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Rochdale by-election: Labour withdraws support for candidate Azhar Ali after &#39;antisemitism&#39; remarks",
+                "url": "https://www.iwradio.co.uk/news/sky-news/rochdale-by-election-labour-withdraws-support-for-candidate-azhar-ali-after-antisemitism-remarks/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.uQjf6bu5hSvAlQE6CpQqSi&pid=News",
+                        "width": 640,
+                        "height": 380
+                    }
+                },
+                "description": "The Labour Party has withdrawn support for its candidate in the Rochdale by-election after receiving an official complaint over his antisemitic remarks.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/146f2c34-a3c4-7c7a-b958-63b4f8956e0b",
+                        "name": "Antisemitism"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/baf56fc2-cb3f-46c7-83ad-08830d0407e4",
+                        "name": "Rochdale"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Isle Of Wight Radio",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.a7uxf82O3Umn0q30N0l0jQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T20:21:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Rochdale by-election: Labour withdraws support for candidate Azhar Ali after &#39;antisemitism&#39; row",
+                "url": "https://www.iwradio.co.uk/news/sky-news/rochdale-by-election-labour-withdraws-support-for-candidate-azhar-ali-after-antisemitism-row/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.uQjf6bu5hSvAlQE6CpQqSi&pid=News",
+                        "width": 640,
+                        "height": 380
+                    }
+                },
+                "description": "The Labour Party has withdrawn support for its candidate in the Rochdale by-election after receiving an official complaint over his antisemitic remarks.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/146f2c34-a3c4-7c7a-b958-63b4f8956e0b",
+                        "name": "Antisemitism"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/baf56fc2-cb3f-46c7-83ad-08830d0407e4",
+                        "name": "Rochdale"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Isle Of Wight Radio",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.a7uxf82O3Umn0q30N0l0jQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T20:18:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Labour withdraws support for Rochdale by-election candidate",
+                "url": "https://www.telegraph.co.uk/politics/2024/02/12/labour-withdraws-support-rochdale-candidate-by-election/",
+                "description": "Sir Keir Starmer had faced pressure to cut ties with Azhar Ali, who claimed Israel had allowed Oct 7 attacks to take place",
+                "mentions": [
+                    {
+                        "name": "Rochdale"
+                    },
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Australian Labor Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:51:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Labour drop Rochdale MP candidate over Israel comments",
+                "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/labour-drop-rochdale-mp-candidate-28619786",
+                "description": "that massacre that gives them the <b>green</b> light to do whatever they bloody want.&quot; Mr Ali also said Keir Starmer had &#39;lost the confidence&#39; of Labour MPs over the <b>party</b>&#39;s initial reluctance to back a ceasefire, according the paper. It comes after Shadow ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/25a89873-4b9f-b274-250c-365d8aabc7b7",
+                        "name": "Rochdale"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1ffafed3-2b37-b871-c271-aa855d98449a",
+                        "name": "Israel"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Rochdale"
+                    },
+                    {
+                        "name": "Israel"
+                    },
+                    {
+                        "name": "Manchester Evening News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Manchester Evening News"
+                    }
+                ],
+                "datePublished": "2024-02-12T19:50:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Labour ditches Rochdale by-election candidate Azhar Ali over offensive Israel claims",
+                "url": "https://www.mirror.co.uk/news/politics/breaking-labour-ditches-rochdale-election-32110350",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ntQQynKIyLT5JILAu8IwnC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Azhar Ali had been picked as Labour&#39;s candidate for the Rochdale by-election on February 29, but has been dumped over his claim Israel allowed the October 7 attacks",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/baf56fc2-cb3f-46c7-83ad-08830d0407e4",
+                        "name": "Rochdale"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1ffafed3-2b37-b871-c271-aa855d98449a",
+                        "name": "Israel"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Rochdale"
+                    },
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "Israel"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:48:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Able-bodied Australian woman who fell in love with a paralyzed man slams trolls who accuse her of dating him for a <b>green</b> card or &#39;easy money&#39;",
+                "url": "https://www.dailymail.co.uk/femail/article-13063201/australian-woman-love-paralyzed-man-haters-green-card.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.vQ4DLMb5gd4leto1HPYhIC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Rocky, from Michigan, became paralyzed after breaking his neck at 19 while wrestling with one of his friends. Although the incident transformed his life, it helped him meet the love of his life, Jacquelyn.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/06de2191-243d-a83f-6990-2eb1c7f3382a",
+                        "name": "Australia"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:37:00.0000000Z",
+                "video": {
+                    "name": "Able-bodied Australian woman who fell in love with a paralyzed man slams trolls who accuse her of dating him for a green card or &#39;easy money&#39;",
+                    "thumbnailUrl": "https://www.bing.com/th?id=OVF.PBy%2BB3Md2PCXzyEdT3LHIw&pid=News",
+                    "thumbnail": {
+                        "width": 520,
+                        "height": 292
+                    }
+                }
+            },
+            {
+                "name": "Rochdale by-election: Labour received &#39;new information&#39; about Azhar Ali before withdrawing support",
+                "url": "https://news.sky.com/story/rochdale-by-election-labour-withdraws-support-for-candidate-azhar-ali-after-antisemitism-row-13070338",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Sty5TIGO3wS1YYpypxO9hy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The Labour Party has withdrawn support for its candidate in the Rochdale by-election after receiving &quot;new information&quot; about comments he is alleged to have made.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/baf56fc2-cb3f-46c7-83ad-08830d0407e4",
+                        "name": "Rochdale"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Rochdale"
+                    },
+                    {
+                        "name": "Australian Labor Party"
+                    },
+                    {
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Eg62H9DIbo-JYPI6GpAgGA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:34:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Labour withdraws support for Rochdale candidate after Israel-Gaza remarks",
+                "url": "https://www.theguardian.com/politics/2024/feb/12/labour-withdraws-support-for-rochdale-candidate-after-israel-gaza-remarks?ref=mc.news",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.OYPBKVVZlM8qVkmIHjIc9C&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Party no longer campaigning for Azhar Ali, who suggested Israel had allowed 7 October attack to happen",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1ffafed3-2b37-b871-c271-aa855d98449a",
+                        "name": "Israel"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90eb9ff6-60ad-da43-d3fe-1ee3e3cb775a",
+                        "name": "Gaza Strip"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/25a89873-4b9f-b274-250c-365d8aabc7b7",
+                        "name": "Rochdale"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Israel"
+                    },
+                    {
+                        "name": "Gaza Strip"
+                    },
+                    {
+                        "name": "Rochdale"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:19:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Rishi Sunak GB News \u2013 live: Rwanda scheme is \u2018right thing to do\u2019 insists Prime Minister in live TV grilling",
+                "url": "https://www.independent.co.uk/news/uk/politics/rishi-sunak-gb-news-today-updates-b2494979.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.jtqvi-2bEjETIuGmFdD11y&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Rishi Sunak is set to be grilled by the UK public as pressure continues to mount on the prime minister in one of the most challenging weeks of his premiership. Mr Sunak is facing questions from undecided and swing voters in County Durham during the People&#39;s Forum event, which kicks off at 8pm on GB News.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Rwanda"
+                    },
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "Scheme"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:18:00.0000000Z",
+                "video": {
+                    "name": "Keir Starmer calls on Israel to abide by international law",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/f0e81255-089c-4e3a-b6cb-242af0ba77c9/ab3351ba-07b0-4013-bf0c-3e6b7de9_650.mp4",
+                    "thumbnail": {
+                        "width": 640,
+                        "height": 360
+                    }
+                },
+                "category": "Politics"
+            },
+            {
+                "name": "TV Choice Awards 2024: Strictly&#39;s Ellie Leach puts on a leggy display in olive <b>green</b> mini dress with a feathered trim as she arrives separately from Bobby Brazier amid romance ...",
+                "url": "https://www.dailymail.co.uk/tvshowbiz/article-13075461/tv-choice-awards-2024-strictly-ellie-leach-bobby-brazier-romance.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Iu83PoW_mugx0_ZCpztAFi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Ellie Leach showed off her glamorous sense of style as she arrived separately from rumoured boyfriend Bobby Brazier at the\u00a0TV Choice Awards at the London Hilton on Park Lane on Monday.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/93a3e0e2-aecf-e53b-8432-c15f400cfb4e",
+                        "name": "Daily Mail"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68759a77-263d-c626-7351-4ce99ba79bae",
+                        "name": "Strictly Come Dancing - Season 11"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b4a29efd-db54-e74f-b461-723117a953bf",
+                        "name": "Romance"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:05:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Labour Withdraws Support For Rochdale By-Election Candidate After Anti-Israel Comments",
+                "url": "https://www.huffingtonpost.co.uk/entry/labour-withdraws-support-azhar-ali-rochdale_uk_65ca74f4e4b0fb721d62356c",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Yb0RjyewfsVmgQdoDoOZ_C&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The Labour Party has withdrawn its support for Rochdale by-election candidate Azhar Ali after a backlash over his remarks about Israel, a party spokesperson has said. It comes after The Mail on Sunday reported the councillor allegedly said Israel deliberately allowed 1,400 people to be killed on its own soil on October 7.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ab70f55a-e575-e252-f77b-26bd50dc50b2",
+                        "name": "Azhar Ali"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/baf56fc2-cb3f-46c7-83ad-08830d0407e4",
+                        "name": "Rochdale"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Azhar Ali"
+                    },
+                    {
+                        "name": "Rochdale"
+                    },
+                    {
+                        "name": "Australian Labor Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Huffington Post UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0y8ov4dkxpxjENNw_hd4jw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:03:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Rochdale by-election: Formal complaint filed against Labour candidate after &#39;antisemitic&#39; remarks",
+                "url": "https://news.sky.com/story/rochdale-by-election-formal-complaint-filed-against-labour-candidate-after-antisemitic-remarks-13070291",
+                "description": "Campaign group Labour Against Antisemitism is demanding that Councillor Azhar Ali be suspended as a party member after he suggested Israel let the 7 October Hamas attack go ahead so it could invade Gaza.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/baf56fc2-cb3f-46c7-83ad-08830d0407e4",
+                        "name": "Rochdale"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/94811ffa-fefe-1295-44ad-6e5cff2e545a",
+                        "name": "Complaint"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5e83019e-d5ad-de66-bfc7-9f24e0932322",
+                        "name": "By-election"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Rochdale"
+                    },
+                    {
+                        "name": "Complaint"
+                    },
+                    {
+                        "name": "By-election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Eg62H9DIbo-JYPI6GpAgGA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:01:00.0000000Z",
+                "video": {
+                    "name": "&#39;Tremendous task to rebuild trust&#39;",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/ca152d37-9692-4cea-9e22-6da821856f36/e6f32d7a-1454-47e7-ad11-9b4d10f4_650.mp4",
+                    "thumbnail": {
+                        "width": 640,
+                        "height": 360
+                    }
+                }
+            },
+            {
+                "name": "BBC Strictly Come Dancing star leaves wrap <b>party</b> in tears after &#39;breaking down&#39; in co-star&#39;s arms",
+                "url": "https://www.devonlive.com/news/celebs-tv/bbc-strictly-come-dancing-stars-9095402",
+                "description": "Strictly Come Dancing stars were seen leaving the wrap party in London on Sunday night after the live tour ended at the O2 Arena, with some looking more emotional than others",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8abac381-9360-40bb-b4e2-ae71ee761c45",
+                        "name": "Strictly Come Dancing"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/56cd9dc4-3f3b-da2b-a165-78a579d79f5b",
+                        "name": "BBC"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1b40c4fe-4fc0-bc0e-cb8f-7b89a673da45",
+                        "name": "Star"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Strictly Come Dancing"
+                    },
+                    {
+                        "name": "BBC"
+                    },
+                    {
+                        "name": "Star"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Crime",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.IkSEzXMGPlUAPF6aRZhyDw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:00:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Labour withdraws support for Rochdale candidate after Israel conspiracy theory remarks",
+                "url": "https://www.lbc.co.uk/news/labour-withdraws-support-for-rochdale-candidate-after-israel-conspiracy-theory-r/",
+                "description": "Labour has withdrawn its support for Rochdale by-election candidate Azhar Ali after criticism of remarks about Israel, a party spokesperson said.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1ffafed3-2b37-b871-c271-aa855d98449a",
+                        "name": "Israel"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/25a89873-4b9f-b274-250c-365d8aabc7b7",
+                        "name": "Rochdale"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a51d348d-acde-2292-48bb-1122a78ae529",
+                        "name": "Conspiracy theory"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "LBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.iWFEm2xSUKuVEhtVsjP6gQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T18:47:00.0000000Z"
+            },
+            {
+                "name": "Hastings Borough Council is not going bankrupt, new leader says",
+                "url": "https://www.bbc.com/news/uk-england-sussex-68276324",
+                "description": "Eight Labour councillors, including the council leader and deputy leader, quit the <b>party</b> in December and formed a coalition as independents with the <b>Green Party</b>. It came months after HBC was told it faced imminent effective bankruptcy. The cabinet ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5a0922ab-98fd-0c2f-385a-b53bd3e800e8",
+                        "name": "Hastings"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC"
+                    }
+                ],
+                "datePublished": "2024-02-12T18:43:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Slashing public investment during a downturn is the worst thing to do",
+                "url": "https://www.thenational.scot/politics/24115178.slashing-public-investment-downturn-worst-thing/",
+                "description": "ENGLISH Labour\u2019s pledge to spend \u00a328 billion \u2013 really \u00a320 billion, since it included \u00a38 billion already spent \u2013 is gone in a poof,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7401bd47-b79a-fbc6-edbd-4f24780da0c2",
+                        "name": "Slashing"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T18:39:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Certified natural gas is \u2018dangerous greenwashing scheme\u2019, Democrats say",
+                "url": "https://www.theguardian.com/us-news/2024/feb/12/natural-gas-greenwashing-democrats?ref=upstract.com",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.zIRAK8CwdobeQFQz9ipP1S&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Group of Democratic senators led by Ed Markey call for crackdown on certified natural gas in letter to US federal regulators",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b3fadce6-ff3f-a81e-0c89-bdb409be5593",
+                        "name": "Fossil fuel"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T18:38:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Austria looks at early exit from Russian gas deal as reliance on Moscow deepens",
+                "url": "https://www.politico.eu/article/austria-looks-at-early-exit-from-russian-gas-deal-as-reliance-on-moscow-deepens/",
+                "description": "Austria has faced broader criticism for maintaining close commercial ties with Russia. In December, Vienna threatened to torpedo Brussels\u2019 12th sanctions package after Ukraine labeled Austrian banking group Raiffeisen a \u201cwar sponsor\u201d for refusing to exit Russia.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ed4fce79-8ad4-352b-205b-e4db36c49bbe",
+                        "name": "Russia"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c3f78b59-5e8d-133a-d0e2-ff2e71c4a5d5",
+                        "name": "Austria"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/07182109-18e6-0f9a-debb-c574ef9bd08e",
+                        "name": "Politico"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Politico Europe",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.3CNAC5ADv8S6W-YvRcGzxw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T18:24:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "What is happening in the Rochdale by-election?",
+                "url": "https://www.independent.co.uk/news/uk/politics/politics-explained/rochdale-george-galloway-labour-byelection-b2494939.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.gfw4DZAcJTT2nHtx66WI8y&pid=News",
+                        "width": 700,
+                        "height": 467
+                    }
+                },
+                "description": "With Labour\u2019s candidate falling foul of conspiracy theories, the Rochdale vote may not be a sure thing for Keir Starmer, with trouble ahead even if they were to win. What\u2019s more, a controversial but familiar political player has stepped in to cause even more trouble.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T18:18:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Disaster looms for Tories and Labour in Rochdale",
+                "url": "https://socialistworker.co.uk/news/disaster-looms-for-tories-and-labour-in-rochdale/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.7FhT5PLmF5lbmsjjMPRYqS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Labour\u2019s campaign for the Rochdale by-election has collapsed after its candidate managed to enrage both Zionists and pro-Palestine voters. Azhar Ali was already facing potential defeat at the election set for 29 February. Thousands of people in the constituency are enraged by the Labour Party\u2019s support for Israel in Gaza.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/baf56fc2-cb3f-46c7-83ad-08830d0407e4",
+                        "name": "Rochdale"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Socialist Worker",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.rUdSQD17GRae8OK2ZUMKlA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T17:59:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Heating and Ventilation News",
+                "url": "https://www.hvnplus.co.uk/features/uk-politicians-warned-against-backtracking-on-low-carbon-heat-12-02-2024/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.lNtkqFx9_kecQxraaQLY7S&pid=News",
+                        "width": 700,
+                        "height": 555
+                    }
+                },
+                "description": "The UK\u2019s two largest political parties are coming under fire over their long-term policy commitments for incentivising lower carbon heat. Both the",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c0fc345-a834-c89a-4f3a-0cf8b94634ac",
+                        "name": "Backtracking"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Heating and Ventilation News"
+                    }
+                ],
+                "datePublished": "2024-02-12T17:44:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Green Party</b> announce candidate for North Cotswolds seat",
+                "url": "https://www.cotswoldjournal.co.uk/news/24115066.green-party-announce-candidate-north-cotswolds-seat/",
+                "description": "The Green Party has selected Cllr Chloe Turner - who currently represents Minchinhampton on both Stroud District Council and Gloucestershire County Council - as its parliamentary candidate for the new North Cotswolds constituency seat.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ad6d3d8f-f997-84f9-b85b-2e8d230e869e",
+                        "name": "Cotswolds"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3f4bdc06-6726-1a36-b91e-ee19aea9cef1",
+                        "name": "USN Journal"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/22c29ccd-7eb5-42c0-26e2-015f15731e9d",
+                        "name": "Green Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Cotswold Journal",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Q86SS-6JFxpUe7OgkmF6RA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T17:35:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "UK politicians warned against \u2018backtracking\u2019 on low carbon heat",
+                "url": "https://www.hvnplus.co.uk/news/uk-politicians-warned-against-backtracking-on-low-carbon-heat-12-02-2024/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.lNtkqFx9_kecQxraaQLY7S&pid=News",
+                        "width": 700,
+                        "height": 555
+                    }
+                },
+                "description": "The UK\u2019s two largest political parties are coming under fire over their long-term policy commitments for incentivising lower carbon heat. Both the",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c0fc345-a834-c89a-4f3a-0cf8b94634ac",
+                        "name": "Backtracking"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Heating and Ventilation News"
+                    }
+                ],
+                "datePublished": "2024-02-12T17:33:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Anas Sarwar: Holyrood &#39;too focused on social justice, not economy&#39;",
+                "url": "https://www.thenational.scot/news/24115058.anas-sarwar-holyrood-too-focused-social-justice-not-economy/",
+                "description": "ANAS Sarwar has been criticised after he suggested the Scottish Parliament\u00a0had focused too much on social justice and not the\u00a0economy",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a6f5bd12-ce24-8c09-5216-19909157ef48",
+                        "name": "Anas Sarwar"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8249b924-0798-dc16-60ff-5c3b54a933f0",
+                        "name": "Economy"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T17:32:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Keir Starmer stands by \u2018conspiracy theory\u2019 candidate in Labour antisemitism row",
+                "url": "https://uk.news.yahoo.com/keir-starmer-stands-conspiracy-theory-164601031.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.LuU5uxLOKgZglTi_NkENKi&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Shadow minister said Azhar Ali \u2018fell for an online conspiracy theory\u2019 when he suggested Israel had allowed the October 7 Hamas attack to happen",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/63a6ef59-71fd-db08-08c6-d47d973d47fb",
+                        "name": "Keir Starmer"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a51d348d-acde-2292-48bb-1122a78ae529",
+                        "name": "Conspiracy theory"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ce9fb8b7-ed13-c13c-6282-56dc4672b70c",
+                        "name": "Australian Labor Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T16:47:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "UK: Anti-apartheid campaigner Andrew Feinstein set to challenge Starmer in upcoming elections",
+                "url": "https://www.middleeasteye.net/news/war-gaza-apartheid-campaigner-andrew-feinstein-challenge-starmer-upcoming-election",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.mXwGgiDhUPvUHRh9vssLHi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The former Nelson Mandela advisor is among a wave of independents seeking to unseat Labour candidates who failed to vote for a ceasefire in Gaza",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5d2c4816-d5c1-40dd-acc9-6a05558f6459",
+                        "name": "Andrew Feinstein"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ba4dcd59-7aaf-ab51-0b2c-3186cc75acdc",
+                        "name": "Middle East"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cbac8df7-3b5c-6632-8267-1a2127b8a31f",
+                        "name": "Challenge"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Middle East Eye",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.B9AgOE1qt6hbt597t-5KKg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T16:47:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "New Nato member Finland elects president set to keep up hard line on Russia",
+                "url": "https://www.thetelegraphandargus.co.uk/news/national/24114699.new-nato-member-finland-elects-president-set-keep-hard-line-russia/",
+                "description": "The final tally from Sunday\u2019s runoff shows Mr Stubb, of the centre-right National Coalition <b>Party</b>, had 51.6% of the votes, while independent candidate and former foreign minister Pekka Haavisto from the <b>green</b> left got 48.4% of the votes. The two were the ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ed4fce79-8ad4-352b-205b-e4db36c49bbe",
+                        "name": "Russia"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ceea53a9-734c-46c7-a9f7-185e7cf6826e",
+                        "name": "Finland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d5381221-4444-4cc7-8524-1f485b030d5e",
+                        "name": "Presidents of the University of Alabama"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Telegraph &amp; Argus"
+                    }
+                ],
+                "datePublished": "2024-02-12T16:12:00.0000000Z"
+            },
+            {
+                "name": "Tea drinkers warned over \u2018supply issues\u2019 facing supermarkets",
+                "url": "https://www.shropshirestar.com/news/uk-news/2024/02/12/tea-drinkers-warned-over-supply-issues-facing-supermarkets/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Y1EvMWfwZPr0M5fTJTHT2S&pid=News",
+                        "width": 700,
+                        "height": 525
+                    }
+                },
+                "description": "British shoppers have been warned they could struggle to find tea on the shelves due to \u201csupply issues\u201d facing supermarkets. Sainsbury\u2019s has cautioned shoppers in some stores that there are \u201cnationwide\u201d problems which could impact the ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4ff9d84c-26df-69fe-797a-057cffe10c95",
+                        "name": "Tea"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b7f7bd85-1ad0-4201-d37c-952337210b27",
+                        "name": "Supply"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Shropshire Star"
+                    }
+                ],
+                "datePublished": "2024-02-11T23:59:00.0000000Z"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=Green+Party",
+        "queryContext": {
+            "originalQuery": "Green Party",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 139,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Green+Party"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Green+Party&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Labour <b>Party</b> withdraws support for Rochdale candidate Azhar Ali",
+                "url": "https://5pillarsuk.com/2024/02/12/labour-party-withdraws-support-for-rochdale-candidate-azhar-ali/",
+                "description": "had apologised after the Mail on Sunday reported he had said Israel \u201callowed\u201d the Hamas attacks of October 7th in order to get a \u201c<b>green</b> light to do whatever they bloody want.\u201d But a Labour <b>party</b> spokesperson said on Monday night: \u201cFollowing new ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ab70f55a-e575-e252-f77b-26bd50dc50b2",
+                        "name": "Azhar Ali"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c38266bb-c5ec-d1d6-9bfe-d6b6ec242aa1",
+                        "name": "Labour Party"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/baf56fc2-cb3f-46c7-83ad-08830d0407e4",
+                        "name": "Rochdale"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "5Pillars"
+                    }
+                ],
+                "datePublished": "2024-02-12T21:18:00.0000000Z"
+            },
+            {
+                "name": "Labour drops support for by-election candidate after Hamas-Israel claims",
+                "url": "https://www.ft.com/content/73e64287-e84e-4933-ae88-12fcdcc5be35",
+                "description": "Party withdraws backing for Rochdale hopeful Azhar Ali after comments he made to newspaper over October 7 attack",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1ffafed3-2b37-b871-c271-aa855d98449a",
+                        "name": "Israel"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Financial Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CdBlognZ1u9nda-gVEOS_w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T20:52:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Azhar Ali: Labour&#39;s former Rochdale by-election candidate criticised by Preston Jewish faith leader over Israel attack comments",
+                "url": "https://www.lep.co.uk/news/politics/azhar-ali-labours-former-rochdale-by-election-candidate-criticised-by-preston-jewish-faith-leader-over-israel-attack-comments-4515431",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.xFcLke1rRlnm0wJvD5MFay&pid=News",
+                        "width": 640,
+                        "height": 427
+                    }
+                },
+                "description": "A Jewish community leader in Preston says comments made by a senior Lancashire county councillor alleging Israel deliberately allowed the 7th October terrorist attack have given fuel to \u201cdemons\u201d on social media spreading other unsubstantiated claims about the state.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/91c620b3-1522-0ebd-63b2-4a7e645a1fde",
+                        "name": "Preston"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5e83019e-d5ad-de66-bfc7-9f24e0932322",
+                        "name": "By-election"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/baf56fc2-cb3f-46c7-83ad-08830d0407e4",
+                        "name": "Rochdale"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Preston"
+                    },
+                    {
+                        "name": "By-election"
+                    },
+                    {
+                        "name": "Rochdale"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Lancashire Evening Post",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Wcd8HXK9ZgvKKRZFFaKQGg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T20:46:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Starmer withdraws support for Rochdale by-election candidate after &#39;deeply offensive&#39; anti-Israel rant",
+                "url": "https://www.standard.co.uk/news/politics/labour-rochdale-byelection-azhar-ali-mp-israel-gaza-b1138734.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.DJLpMHwYWLv-bz-ZH9Ur2C&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Labour finally acts after spending much of Monday trying to defend Azhar Ali - with party suspending him pending an investigation",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/baf56fc2-cb3f-46c7-83ad-08830d0407e4",
+                        "name": "Rochdale"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Rochdale"
+                    },
+                    {
+                        "name": "Anti-Zionism"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T20:39:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Rishi Sunak issues warning over Labour as Brits urged not to fall for Keir Starmer&#39;s &#39;con&#39;",
+                "url": "https://www.express.co.uk/news/politics/1865978/rishi-sunak-keir-stamer-labour-conservatives-general-election",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.BvwRh6MSwML5gn2V43AlQS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Rishi Sunak vowed to fix the social care system, slash NHS waiting lists and continue to ease the cost of living crisis if the Tories win the next general election.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e88a173e-30a7-ec38-cac8-53a5e5fcda18",
+                        "name": "Warning"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2349f216-dc4b-726d-e114-3173fb4e9b99",
+                        "name": "British people"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Warning"
+                    },
+                    {
+                        "name": "British people"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T20:24:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Rochdale by-election: Labour withdraws support for candidate Azhar Ali after &#39;antisemitism&#39; remarks",
+                "url": "https://www.iwradio.co.uk/news/sky-news/rochdale-by-election-labour-withdraws-support-for-candidate-azhar-ali-after-antisemitism-remarks/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.uQjf6bu5hSvAlQE6CpQqSi&pid=News",
+                        "width": 640,
+                        "height": 380
+                    }
+                },
+                "description": "The Labour Party has withdrawn support for its candidate in the Rochdale by-election after receiving an official complaint over his antisemitic remarks.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/146f2c34-a3c4-7c7a-b958-63b4f8956e0b",
+                        "name": "Antisemitism"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/baf56fc2-cb3f-46c7-83ad-08830d0407e4",
+                        "name": "Rochdale"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Isle Of Wight Radio",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.a7uxf82O3Umn0q30N0l0jQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T20:21:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Rochdale by-election: Labour withdraws support for candidate Azhar Ali after &#39;antisemitism&#39; row",
+                "url": "https://www.iwradio.co.uk/news/sky-news/rochdale-by-election-labour-withdraws-support-for-candidate-azhar-ali-after-antisemitism-row/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.uQjf6bu5hSvAlQE6CpQqSi&pid=News",
+                        "width": 640,
+                        "height": 380
+                    }
+                },
+                "description": "The Labour Party has withdrawn support for its candidate in the Rochdale by-election after receiving an official complaint over his antisemitic remarks.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/146f2c34-a3c4-7c7a-b958-63b4f8956e0b",
+                        "name": "Antisemitism"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/baf56fc2-cb3f-46c7-83ad-08830d0407e4",
+                        "name": "Rochdale"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Isle Of Wight Radio",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.a7uxf82O3Umn0q30N0l0jQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T20:18:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Labour withdraws support for Rochdale by-election candidate",
+                "url": "https://www.telegraph.co.uk/politics/2024/02/12/labour-withdraws-support-rochdale-candidate-by-election/",
+                "description": "Sir Keir Starmer had faced pressure to cut ties with Azhar Ali, who claimed Israel had allowed Oct 7 attacks to take place",
+                "mentions": [
+                    {
+                        "name": "Rochdale"
+                    },
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Australian Labor Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:51:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Labour drop Rochdale MP candidate over Israel comments",
+                "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/labour-drop-rochdale-mp-candidate-28619786",
+                "description": "that massacre that gives them the <b>green</b> light to do whatever they bloody want.&quot; Mr Ali also said Keir Starmer had &#39;lost the confidence&#39; of Labour MPs over the <b>party</b>&#39;s initial reluctance to back a ceasefire, according the paper. It comes after Shadow ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/25a89873-4b9f-b274-250c-365d8aabc7b7",
+                        "name": "Rochdale"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1ffafed3-2b37-b871-c271-aa855d98449a",
+                        "name": "Israel"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Rochdale"
+                    },
+                    {
+                        "name": "Israel"
+                    },
+                    {
+                        "name": "Manchester Evening News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Manchester Evening News"
+                    }
+                ],
+                "datePublished": "2024-02-12T19:50:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Labour ditches Rochdale by-election candidate Azhar Ali over offensive Israel claims",
+                "url": "https://www.mirror.co.uk/news/politics/breaking-labour-ditches-rochdale-election-32110350",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ntQQynKIyLT5JILAu8IwnC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Azhar Ali had been picked as Labour&#39;s candidate for the Rochdale by-election on February 29, but has been dumped over his claim Israel allowed the October 7 attacks",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/baf56fc2-cb3f-46c7-83ad-08830d0407e4",
+                        "name": "Rochdale"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1ffafed3-2b37-b871-c271-aa855d98449a",
+                        "name": "Israel"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Rochdale"
+                    },
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "Israel"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:48:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Able-bodied Australian woman who fell in love with a paralyzed man slams trolls who accuse her of dating him for a <b>green</b> card or &#39;easy money&#39;",
+                "url": "https://www.dailymail.co.uk/femail/article-13063201/australian-woman-love-paralyzed-man-haters-green-card.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.vQ4DLMb5gd4leto1HPYhIC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Rocky, from Michigan, became paralyzed after breaking his neck at 19 while wrestling with one of his friends. Although the incident transformed his life, it helped him meet the love of his life, Jacquelyn.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/06de2191-243d-a83f-6990-2eb1c7f3382a",
+                        "name": "Australia"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:37:00.0000000Z",
+                "video": {
+                    "name": "Able-bodied Australian woman who fell in love with a paralyzed man slams trolls who accuse her of dating him for a green card or &#39;easy money&#39;",
+                    "thumbnailUrl": "https://www.bing.com/th?id=OVF.PBy%2BB3Md2PCXzyEdT3LHIw&pid=News",
+                    "thumbnail": {
+                        "width": 520,
+                        "height": 292
+                    }
+                }
+            },
+            {
+                "name": "Rochdale by-election: Labour received &#39;new information&#39; about Azhar Ali before withdrawing support",
+                "url": "https://news.sky.com/story/rochdale-by-election-labour-withdraws-support-for-candidate-azhar-ali-after-antisemitism-row-13070338",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Sty5TIGO3wS1YYpypxO9hy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The Labour Party has withdrawn support for its candidate in the Rochdale by-election after receiving &quot;new information&quot; about comments he is alleged to have made.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/baf56fc2-cb3f-46c7-83ad-08830d0407e4",
+                        "name": "Rochdale"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Rochdale"
+                    },
+                    {
+                        "name": "Australian Labor Party"
+                    },
+                    {
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Eg62H9DIbo-JYPI6GpAgGA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:34:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Labour withdraws support for Rochdale candidate after Israel-Gaza remarks",
+                "url": "https://www.theguardian.com/politics/2024/feb/12/labour-withdraws-support-for-rochdale-candidate-after-israel-gaza-remarks?ref=mc.news",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.OYPBKVVZlM8qVkmIHjIc9C&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Party no longer campaigning for Azhar Ali, who suggested Israel had allowed 7 October attack to happen",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1ffafed3-2b37-b871-c271-aa855d98449a",
+                        "name": "Israel"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90eb9ff6-60ad-da43-d3fe-1ee3e3cb775a",
+                        "name": "Gaza Strip"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/25a89873-4b9f-b274-250c-365d8aabc7b7",
+                        "name": "Rochdale"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Israel"
+                    },
+                    {
+                        "name": "Gaza Strip"
+                    },
+                    {
+                        "name": "Rochdale"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:19:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Rishi Sunak GB News \u2013 live: Rwanda scheme is \u2018right thing to do\u2019 insists Prime Minister in live TV grilling",
+                "url": "https://www.independent.co.uk/news/uk/politics/rishi-sunak-gb-news-today-updates-b2494979.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.jtqvi-2bEjETIuGmFdD11y&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Rishi Sunak is set to be grilled by the UK public as pressure continues to mount on the prime minister in one of the most challenging weeks of his premiership. Mr Sunak is facing questions from undecided and swing voters in County Durham during the People&#39;s Forum event, which kicks off at 8pm on GB News.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Rwanda"
+                    },
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "Scheme"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:18:00.0000000Z",
+                "video": {
+                    "name": "Keir Starmer calls on Israel to abide by international law",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/f0e81255-089c-4e3a-b6cb-242af0ba77c9/ab3351ba-07b0-4013-bf0c-3e6b7de9_650.mp4",
+                    "thumbnail": {
+                        "width": 640,
+                        "height": 360
+                    }
+                },
+                "category": "Politics"
+            },
+            {
+                "name": "TV Choice Awards 2024: Strictly&#39;s Ellie Leach puts on a leggy display in olive <b>green</b> mini dress with a feathered trim as she arrives separately from Bobby Brazier amid romance ...",
+                "url": "https://www.dailymail.co.uk/tvshowbiz/article-13075461/tv-choice-awards-2024-strictly-ellie-leach-bobby-brazier-romance.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Iu83PoW_mugx0_ZCpztAFi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Ellie Leach showed off her glamorous sense of style as she arrived separately from rumoured boyfriend Bobby Brazier at the\u00a0TV Choice Awards at the London Hilton on Park Lane on Monday.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/93a3e0e2-aecf-e53b-8432-c15f400cfb4e",
+                        "name": "Daily Mail"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68759a77-263d-c626-7351-4ce99ba79bae",
+                        "name": "Strictly Come Dancing - Season 11"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b4a29efd-db54-e74f-b461-723117a953bf",
+                        "name": "Romance"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:05:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Labour Withdraws Support For Rochdale By-Election Candidate After Anti-Israel Comments",
+                "url": "https://www.huffingtonpost.co.uk/entry/labour-withdraws-support-azhar-ali-rochdale_uk_65ca74f4e4b0fb721d62356c",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Yb0RjyewfsVmgQdoDoOZ_C&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The Labour Party has withdrawn its support for Rochdale by-election candidate Azhar Ali after a backlash over his remarks about Israel, a party spokesperson has said. It comes after The Mail on Sunday reported the councillor allegedly said Israel deliberately allowed 1,400 people to be killed on its own soil on October 7.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ab70f55a-e575-e252-f77b-26bd50dc50b2",
+                        "name": "Azhar Ali"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/baf56fc2-cb3f-46c7-83ad-08830d0407e4",
+                        "name": "Rochdale"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Azhar Ali"
+                    },
+                    {
+                        "name": "Rochdale"
+                    },
+                    {
+                        "name": "Australian Labor Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Huffington Post UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0y8ov4dkxpxjENNw_hd4jw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:03:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Rochdale by-election: Formal complaint filed against Labour candidate after &#39;antisemitic&#39; remarks",
+                "url": "https://news.sky.com/story/rochdale-by-election-formal-complaint-filed-against-labour-candidate-after-antisemitic-remarks-13070291",
+                "description": "Campaign group Labour Against Antisemitism is demanding that Councillor Azhar Ali be suspended as a party member after he suggested Israel let the 7 October Hamas attack go ahead so it could invade Gaza.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/baf56fc2-cb3f-46c7-83ad-08830d0407e4",
+                        "name": "Rochdale"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/94811ffa-fefe-1295-44ad-6e5cff2e545a",
+                        "name": "Complaint"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5e83019e-d5ad-de66-bfc7-9f24e0932322",
+                        "name": "By-election"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Rochdale"
+                    },
+                    {
+                        "name": "Complaint"
+                    },
+                    {
+                        "name": "By-election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Eg62H9DIbo-JYPI6GpAgGA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:01:00.0000000Z",
+                "video": {
+                    "name": "&#39;Tremendous task to rebuild trust&#39;",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/ca152d37-9692-4cea-9e22-6da821856f36/e6f32d7a-1454-47e7-ad11-9b4d10f4_650.mp4",
+                    "thumbnail": {
+                        "width": 640,
+                        "height": 360
+                    }
+                }
+            },
+            {
+                "name": "BBC Strictly Come Dancing star leaves wrap <b>party</b> in tears after &#39;breaking down&#39; in co-star&#39;s arms",
+                "url": "https://www.devonlive.com/news/celebs-tv/bbc-strictly-come-dancing-stars-9095402",
+                "description": "Strictly Come Dancing stars were seen leaving the wrap party in London on Sunday night after the live tour ended at the O2 Arena, with some looking more emotional than others",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8abac381-9360-40bb-b4e2-ae71ee761c45",
+                        "name": "Strictly Come Dancing"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/56cd9dc4-3f3b-da2b-a165-78a579d79f5b",
+                        "name": "BBC"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1b40c4fe-4fc0-bc0e-cb8f-7b89a673da45",
+                        "name": "Star"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Strictly Come Dancing"
+                    },
+                    {
+                        "name": "BBC"
+                    },
+                    {
+                        "name": "Star"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Crime",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.IkSEzXMGPlUAPF6aRZhyDw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:00:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Labour withdraws support for Rochdale candidate after Israel conspiracy theory remarks",
+                "url": "https://www.lbc.co.uk/news/labour-withdraws-support-for-rochdale-candidate-after-israel-conspiracy-theory-r/",
+                "description": "Labour has withdrawn its support for Rochdale by-election candidate Azhar Ali after criticism of remarks about Israel, a party spokesperson said.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1ffafed3-2b37-b871-c271-aa855d98449a",
+                        "name": "Israel"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/25a89873-4b9f-b274-250c-365d8aabc7b7",
+                        "name": "Rochdale"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a51d348d-acde-2292-48bb-1122a78ae529",
+                        "name": "Conspiracy theory"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "LBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.iWFEm2xSUKuVEhtVsjP6gQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T18:47:00.0000000Z"
+            },
+            {
+                "name": "Hastings Borough Council is not going bankrupt, new leader says",
+                "url": "https://www.bbc.com/news/uk-england-sussex-68276324",
+                "description": "Eight Labour councillors, including the council leader and deputy leader, quit the <b>party</b> in December and formed a coalition as independents with the <b>Green Party</b>. It came months after HBC was told it faced imminent effective bankruptcy. The cabinet ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5a0922ab-98fd-0c2f-385a-b53bd3e800e8",
+                        "name": "Hastings"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC"
+                    }
+                ],
+                "datePublished": "2024-02-12T18:43:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Slashing public investment during a downturn is the worst thing to do",
+                "url": "https://www.thenational.scot/politics/24115178.slashing-public-investment-downturn-worst-thing/",
+                "description": "ENGLISH Labour\u2019s pledge to spend \u00a328 billion \u2013 really \u00a320 billion, since it included \u00a38 billion already spent \u2013 is gone in a poof,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7401bd47-b79a-fbc6-edbd-4f24780da0c2",
+                        "name": "Slashing"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T18:39:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Certified natural gas is \u2018dangerous greenwashing scheme\u2019, Democrats say",
+                "url": "https://www.theguardian.com/us-news/2024/feb/12/natural-gas-greenwashing-democrats?ref=upstract.com",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.zIRAK8CwdobeQFQz9ipP1S&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Group of Democratic senators led by Ed Markey call for crackdown on certified natural gas in letter to US federal regulators",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b3fadce6-ff3f-a81e-0c89-bdb409be5593",
+                        "name": "Fossil fuel"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T18:38:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Austria looks at early exit from Russian gas deal as reliance on Moscow deepens",
+                "url": "https://www.politico.eu/article/austria-looks-at-early-exit-from-russian-gas-deal-as-reliance-on-moscow-deepens/",
+                "description": "Austria has faced broader criticism for maintaining close commercial ties with Russia. In December, Vienna threatened to torpedo Brussels\u2019 12th sanctions package after Ukraine labeled Austrian banking group Raiffeisen a \u201cwar sponsor\u201d for refusing to exit Russia.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ed4fce79-8ad4-352b-205b-e4db36c49bbe",
+                        "name": "Russia"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c3f78b59-5e8d-133a-d0e2-ff2e71c4a5d5",
+                        "name": "Austria"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/07182109-18e6-0f9a-debb-c574ef9bd08e",
+                        "name": "Politico"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Politico Europe",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.3CNAC5ADv8S6W-YvRcGzxw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T18:24:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "What is happening in the Rochdale by-election?",
+                "url": "https://www.independent.co.uk/news/uk/politics/politics-explained/rochdale-george-galloway-labour-byelection-b2494939.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.gfw4DZAcJTT2nHtx66WI8y&pid=News",
+                        "width": 700,
+                        "height": 467
+                    }
+                },
+                "description": "With Labour\u2019s candidate falling foul of conspiracy theories, the Rochdale vote may not be a sure thing for Keir Starmer, with trouble ahead even if they were to win. What\u2019s more, a controversial but familiar political player has stepped in to cause even more trouble.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T18:18:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Disaster looms for Tories and Labour in Rochdale",
+                "url": "https://socialistworker.co.uk/news/disaster-looms-for-tories-and-labour-in-rochdale/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.7FhT5PLmF5lbmsjjMPRYqS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Labour\u2019s campaign for the Rochdale by-election has collapsed after its candidate managed to enrage both Zionists and pro-Palestine voters. Azhar Ali was already facing potential defeat at the election set for 29 February. Thousands of people in the constituency are enraged by the Labour Party\u2019s support for Israel in Gaza.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/baf56fc2-cb3f-46c7-83ad-08830d0407e4",
+                        "name": "Rochdale"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Socialist Worker",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.rUdSQD17GRae8OK2ZUMKlA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T17:59:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Heating and Ventilation News",
+                "url": "https://www.hvnplus.co.uk/features/uk-politicians-warned-against-backtracking-on-low-carbon-heat-12-02-2024/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.lNtkqFx9_kecQxraaQLY7S&pid=News",
+                        "width": 700,
+                        "height": 555
+                    }
+                },
+                "description": "The UK\u2019s two largest political parties are coming under fire over their long-term policy commitments for incentivising lower carbon heat. Both the",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c0fc345-a834-c89a-4f3a-0cf8b94634ac",
+                        "name": "Backtracking"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Heating and Ventilation News"
+                    }
+                ],
+                "datePublished": "2024-02-12T17:44:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Green Party</b> announce candidate for North Cotswolds seat",
+                "url": "https://www.cotswoldjournal.co.uk/news/24115066.green-party-announce-candidate-north-cotswolds-seat/",
+                "description": "The Green Party has selected Cllr Chloe Turner - who currently represents Minchinhampton on both Stroud District Council and Gloucestershire County Council - as its parliamentary candidate for the new North Cotswolds constituency seat.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ad6d3d8f-f997-84f9-b85b-2e8d230e869e",
+                        "name": "Cotswolds"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3f4bdc06-6726-1a36-b91e-ee19aea9cef1",
+                        "name": "USN Journal"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/22c29ccd-7eb5-42c0-26e2-015f15731e9d",
+                        "name": "Green Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Cotswold Journal",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Q86SS-6JFxpUe7OgkmF6RA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T17:35:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "UK politicians warned against \u2018backtracking\u2019 on low carbon heat",
+                "url": "https://www.hvnplus.co.uk/news/uk-politicians-warned-against-backtracking-on-low-carbon-heat-12-02-2024/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.lNtkqFx9_kecQxraaQLY7S&pid=News",
+                        "width": 700,
+                        "height": 555
+                    }
+                },
+                "description": "The UK\u2019s two largest political parties are coming under fire over their long-term policy commitments for incentivising lower carbon heat. Both the",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c0fc345-a834-c89a-4f3a-0cf8b94634ac",
+                        "name": "Backtracking"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Heating and Ventilation News"
+                    }
+                ],
+                "datePublished": "2024-02-12T17:33:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Anas Sarwar: Holyrood &#39;too focused on social justice, not economy&#39;",
+                "url": "https://www.thenational.scot/news/24115058.anas-sarwar-holyrood-too-focused-social-justice-not-economy/",
+                "description": "ANAS Sarwar has been criticised after he suggested the Scottish Parliament\u00a0had focused too much on social justice and not the\u00a0economy",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a6f5bd12-ce24-8c09-5216-19909157ef48",
+                        "name": "Anas Sarwar"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8249b924-0798-dc16-60ff-5c3b54a933f0",
+                        "name": "Economy"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T17:32:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Keir Starmer stands by \u2018conspiracy theory\u2019 candidate in Labour antisemitism row",
+                "url": "https://uk.news.yahoo.com/keir-starmer-stands-conspiracy-theory-164601031.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.LuU5uxLOKgZglTi_NkENKi&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Shadow minister said Azhar Ali \u2018fell for an online conspiracy theory\u2019 when he suggested Israel had allowed the October 7 Hamas attack to happen",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/63a6ef59-71fd-db08-08c6-d47d973d47fb",
+                        "name": "Keir Starmer"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a51d348d-acde-2292-48bb-1122a78ae529",
+                        "name": "Conspiracy theory"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ce9fb8b7-ed13-c13c-6282-56dc4672b70c",
+                        "name": "Australian Labor Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T16:47:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "UK: Anti-apartheid campaigner Andrew Feinstein set to challenge Starmer in upcoming elections",
+                "url": "https://www.middleeasteye.net/news/war-gaza-apartheid-campaigner-andrew-feinstein-challenge-starmer-upcoming-election",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.mXwGgiDhUPvUHRh9vssLHi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The former Nelson Mandela advisor is among a wave of independents seeking to unseat Labour candidates who failed to vote for a ceasefire in Gaza",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5d2c4816-d5c1-40dd-acc9-6a05558f6459",
+                        "name": "Andrew Feinstein"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ba4dcd59-7aaf-ab51-0b2c-3186cc75acdc",
+                        "name": "Middle East"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cbac8df7-3b5c-6632-8267-1a2127b8a31f",
+                        "name": "Challenge"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Middle East Eye",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.B9AgOE1qt6hbt597t-5KKg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T16:47:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "When are the next by-elections? Labour stands by Rochdale candidate after &#39;offensive&#39; comments about Israel",
+                "url": "https://www.standard.co.uk/news/politics/when-next-byelections-dates-labour-conservatives-mps-b1107076.html",
+                "description": "Mr Al apologises unreservedly to the Jewish community after saying Israel had \u2018allowed\u2019 the deadly Hamas attack on October 7",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1ffafed3-2b37-b871-c271-aa855d98449a",
+                        "name": "Israel"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5e83019e-d5ad-de66-bfc7-9f24e0932322",
+                        "name": "By-election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T16:12:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Azhar Ali: Labour defends standing by Rochdale by-election candidate",
+                "url": "https://www.bbc.co.uk/news/uk-politics-68272820?at_medium=RSS",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.s03iYRwW_E0dTXB0f601fy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Mr Thomas-Symonds confirmed Labour would continue to campaign for Mr Ali in Rochdale, who he said had &quot;fallen for a conspiracy theory&quot; but that there was a need to &quot;do a tremendous amount of work to rebuild trust with the Jewish community&quot;. He pointed to comments from former MP Louise Ellman, who has backed Mr Ali.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ab70f55a-e575-e252-f77b-26bd50dc50b2",
+                        "name": "Azhar Ali"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/baf56fc2-cb3f-46c7-83ad-08830d0407e4",
+                        "name": "Rochdale"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T16:08:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "ITV Strictly Come Dancing stars let loose at boozy <b>party</b> as Annabel Croft in tears as tour ends",
+                "url": "https://www.mirror.co.uk/3am/celebrity-news/itv-strictly-come-dancing-stars-32108399?int_source=amp_continue_reading&int_medium=amp&int_campaign=continue_reading_button",
+                "description": "Strictly Come Dancing stars were in high spirits as they celebrated the end of the live tour at the wrap party in London on Sunday night",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T16:01:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "New NATO member Finland elects president set to keep up hard line on Russia",
+                "url": "https://www.expressandstar.com/news/world-news/2024/02/12/new-nato-member-finland-elects-president-set-to-keep-up-hard-line-on-russia/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.sgnDUuCxK082vXnQVCZlry&pid=News",
+                        "width": 700,
+                        "height": 525
+                    }
+                },
+                "description": "The country\u2019s head of state commands the military \u2013 a key role after Finland joined NATO in April 2023 in the aftermath of Russia\u2019s attack on Ukraine.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ceea53a9-734c-46c7-a9f7-185e7cf6826e",
+                        "name": "Finland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a39405be-be1f-1a0a-cf80-021e0d600d07",
+                        "name": "Union of Soviet Socialist Republics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9264eb79-a76c-1562-7a1e-ca3ec4bbb385",
+                        "name": "North Atlantic Treaty Organization (NATO)"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Express &amp; Star",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mlsgqRbVCSL6esnw8ifS8A&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T16:00:00.0000000Z"
+            },
+            {
+                "name": "Labour has shown it will prioritise political gain over fighting Israel haters",
+                "url": "https://www.express.co.uk/comment/expresscomment/1865880/labour-rochdale-anti-israel",
+                "description": "On hearing this wild conspiracy theory, Starmer should have booted Ali into political oblivion - scratching him from the ballot paper at the February 29 by-election and from the Labour <b>Party</b> with immediate effect. Starmer, the man who would be PM ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8be74069-27e2-f65e-cdfa-14940b0eb2a9",
+                        "name": "Express"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express"
+                    }
+                ],
+                "datePublished": "2024-02-12T15:54:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Royal Society of Arts boycotted by internationally renowned speakers amid staff pay dispute",
+                "url": "https://morningstaronline.co.uk/article/royal-society-arts-boycotted-internationally-renowned-speakers-amid-staff-pay-dispute",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Eas5gIayzkOyWbgkyGspHC&pid=News",
+                        "width": 700,
+                        "height": 469
+                    }
+                },
+                "description": "INTERNATIONALLY renowned speakers are pulling out of engagements with the Royal Society of Arts (RSA) in support of a boycott called by staff in a pay dispute. Members of the Independent Workers of Great Britain (IWGB) employed by the RSA launched a boycott of the institution today.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/dc1acf60-7cee-b7a4-2101-132482392925",
+                        "name": "Butler\u2013FitzGerald dispute"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Morning Star",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.XYFAfbQ1KrLZXw8Gl4oJeg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T15:43:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Green Party</b> candidate for East Midlands mayor announced",
+                "url": "https://westbridgfordwire.com/green-party-candidate-for-east-midlands-mayor-announced/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.-bOlssNwHBal9DIDgg8PdS&pid=News",
+                        "width": 700,
+                        "height": 525
+                    }
+                },
+                "description": "The <b>Green Party</b> has selected its candidate to run in the East Midlands mayoral race in May. Frank Adlington-Stringer, who was born in Chesterfield and is North East Derbyshire\u2019s first-ever <b>Green Party</b> councillor, has promised he will not be whipped like ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2c901ec5-d734-04c8-7100-f83cbb23b74a",
+                        "name": "West Bridgford"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/00bd18eb-2cc8-a881-7d0d-6a4bc0eaf5bc",
+                        "name": "East Midlands"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/55262b5a-05df-f8f2-9718-a5fb98599dd4",
+                        "name": "Green party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "West Bridgford Wire"
+                    }
+                ],
+                "datePublished": "2024-02-12T08:04:00.0000000Z"
+            },
+            {
+                "name": "Tea drinkers warned over \u2018supply issues\u2019 facing supermarkets",
+                "url": "https://www.shropshirestar.com/news/uk-news/2024/02/12/tea-drinkers-warned-over-supply-issues-facing-supermarkets/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Y1EvMWfwZPr0M5fTJTHT2S&pid=News",
+                        "width": 700,
+                        "height": 525
+                    }
+                },
+                "description": "British shoppers have been warned they could struggle to find tea on the shelves due to \u201csupply issues\u201d facing supermarkets. Sainsbury\u2019s has cautioned shoppers in some stores that there are \u201cnationwide\u201d problems which could impact the ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4ff9d84c-26df-69fe-797a-057cffe10c95",
+                        "name": "Tea"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b7f7bd85-1ad0-4201-d37c-952337210b27",
+                        "name": "Supply"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Shropshire Star"
+                    }
+                ],
+                "datePublished": "2024-02-11T23:59:00.0000000Z"
+            }
+        ]
+    }
+]

@@ -1,0 +1,2984 @@
+[
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics",
+        "queryContext": {
+            "originalQuery": "uk politics",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 38,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Google Cloud\u2019s Nick Godfrey Talks Security, Budget and AI for CISOs",
+                "url": "https://www.techrepublic.com/article/google-cloud-ciso-nick-godfrey-interview/",
+                "description": "Google Cloud\u2019s Director of Office of the CISO Nick Godfrey reminds business leaders to integrate security into conversations around financial and business targets.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ba93a384-0de9-407f-2608-871de2ab04fc",
+                        "name": "Godfrey"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f39b29ec-05ee-d6cb-3070-ddaa0fb00ee0",
+                        "name": "Google"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2027188f-1828-8a00-ee60-d137df227b0d",
+                        "name": "Nick, Hungary"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "TechRepublic",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.iIj0BXhILAa8fn4e7Ly-qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T21:51:00.0000000Z",
+                "category": "ScienceAndTechnology"
+            },
+            {
+                "name": "I understand voters\u2019 frustrations, Sunak says in live TV grilling",
+                "url": "https://www.countytimes.co.uk/news/national/24115289.understand-voters-frustrations-sunak-says-live-tv-grilling/",
+                "description": "As peers in the House of Lords debated draft legislation aimed at sending asylum seekers to Kigali, one voter asked Mr Sunak why he was \u201cso adamant\u201d about the Rwanda policy \u201cwhen public documentation shows it isn\u2019t working and that it\u2019s not going to work\u201d.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7ba55e0f-4cfb-6f1c-c80b-5362fb7c338a",
+                        "name": "U.S. County"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "countytimes.co.uk",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.QuCrvjwzbhwSOWUVWHCOqw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T21:40:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Prince Harry plays up NFL connection in his and Meghan Markle&#39;s new Sussex.com site",
+                "url": "https://www.mirror.co.uk/3am/us-celebrity-news/prince-harry-plays-up-nfl-32110759",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.24yGC2O2GA4GCblRbNoLfS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Harry and Meghan&#39;s new website has quite a number of changes. For instance, the site used to be titled SussexRoyal.com. The Duke and Duchess of Sussex likely dropped &quot;royal&quot; from their URL after agreeing to no longer use the word. The agreement came after they resigned from their position in the Royal Family in 2020.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90836c93-726d-0b49-3471-f8d6cb9e7f51",
+                        "name": "Sussex"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Sussex"
+                    },
+                    {
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T21:27:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>UK</b> Labour Party withdraws support for candidate after Israel conspiracy comments",
+                "url": "https://uk.news.yahoo.com/uk-labour-party-withdraws-support-210401159.html",
+                "description": "Britain&#39;s opposition Labour Party has withdrawn support for its candidate to become a member of parliament in a special election after he was recorded espousing conspiracy theories about Israel. Labour announced it had withdrawn support for Azhar Ali,",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T21:04:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "From banned general to dancing grandpa: how Prabowo became favourite to lead Indonesia",
+                "url": "https://www.ft.com/content/0e365a05-e87e-4cd1-a2b9-09e843e9403a",
+                "description": "Support from popular president Joko Widodo has lifted the 72-year-old once barred from the US over human rights concerns",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b4a5bd62-2259-21e3-4627-bf249ae6ee84",
+                        "name": "Indonesia"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0356dbb9-1da7-3c83-437a-0e7f85c9b902",
+                        "name": "Prabowo Subianto"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/dcb37a95-bac8-003c-01a4-5e2afec2770b",
+                        "name": "Grandparent"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Financial Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CdBlognZ1u9nda-gVEOS_w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T21:00:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Boy critically injured in Texas megachurch shooting is \u2018son of suspect\u2019, police say",
+                "url": "https://www.leaderlive.co.uk/news/national/24115200.boy-critically-injured-texas-megachurch-shooting-son-suspect-police-say/",
+                "description": "The boy is understood to have entered the megachurch with the attacker before they opened fire with an AR-style rifle.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/00a23ccd-3344-461c-8b9f-c2bb55be5815",
+                        "name": "Texas"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4ffab47c-8ecf-01e2-16cc-fd2965c338d8",
+                        "name": "Suspect"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e637cc46-4f84-41b7-a9fd-b056757c76c4",
+                        "name": "The Leader"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Leader",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6bgSSP_8hhzQ-AH2Xx0_eQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T21:00:00.0000000Z"
+            },
+            {
+                "name": "Azhar Ali: Labour&#39;s former Rochdale by-election candidate criticised by Preston Jewish faith leader over Israel attack comments",
+                "url": "https://www.lep.co.uk/news/politics/azhar-ali-labours-former-rochdale-by-election-candidate-criticised-by-preston-jewish-faith-leader-over-israel-attack-comments-4515431",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.xFcLke1rRlnm0wJvD5MFay&pid=News",
+                        "width": 640,
+                        "height": 427
+                    }
+                },
+                "description": "A Jewish community leader in Preston says comments made by a senior Lancashire county councillor alleging Israel deliberately allowed the 7th October terrorist attack have given fuel to \u201cdemons\u201d on social media spreading other unsubstantiated claims about the state.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/91c620b3-1522-0ebd-63b2-4a7e645a1fde",
+                        "name": "Preston"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5e83019e-d5ad-de66-bfc7-9f24e0932322",
+                        "name": "By-election"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/baf56fc2-cb3f-46c7-83ad-08830d0407e4",
+                        "name": "Rochdale"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Preston"
+                    },
+                    {
+                        "name": "By-election"
+                    },
+                    {
+                        "name": "Rochdale"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Lancashire Evening Post",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Wcd8HXK9ZgvKKRZFFaKQGg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T20:46:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "On the streets of Rochdale Labour have a problem",
+                "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/streets-rochdale-labour-problem-28617781",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.8kh0y0hBTvzIYxuGBL8nbS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The town has been caught up in controversy after Labour&#39;s former candidate who wants to be the next MP made &#39;deeply offensive&#39; comments about Israel - but there are other things occupying voters&#39; mind",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/25a89873-4b9f-b274-250c-365d8aabc7b7",
+                        "name": "Rochdale"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Rochdale"
+                    },
+                    {
+                        "name": "Manchester Evening News"
+                    },
+                    {
+                        "name": "Australian Labor Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Manchester Evening News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.oxaa8-w2MDoXi5yOUu7A3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T20:34:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Government and Stormont set to clash over revenue raising",
+                "url": "https://www.belfasttelegraph.co.uk/news/politics/government-and-stormont-set-to-clash-over-revenue-raising-after-michelle-oneill-rules-out-water-charges/a478250877.html",
+                "description": "The Government and new Stormont Executive are already on a collision course after the First Minister Michelle O\u2019Neill categorically ruled out introducing water charges during her time in office.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/13c96615-0707-ebe8-e3e0-9e76e61d23f2",
+                        "name": "Michelle O&#39;Neill"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fc276817-3034-0116-3770-f900f6d99a28",
+                        "name": "Parliament Buildings"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5634d914-4190-dd0b-fa80-715c2ac46335",
+                        "name": "Government"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Belfast Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.KbCSMEkTE1gbQLCbNWqCnw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T20:30:00.0000000Z"
+            },
+            {
+                "name": "<b>UK</b> sanctions four Israeli settlers accused of violence",
+                "url": "https://www.bbc.co.uk/news/uk-68274777.amp",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.xC2IHKu0l5riGE-UNsWQaC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The UK has imposed sanctions against four &quot;extremist&quot; Israeli settlers it has accused of attacking Palestinians in the occupied West Bank. The Foreign Office announced financial and travel restrictions against the four who it says have committed human rights abuses against Palestinians.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c49c20cc-7ec7-e153-0da2-bf9924a47a40",
+                        "name": "Israeli settlement"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T20:29:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Suella Braverman: Stop making people feel guilty for being white",
+                "url": "https://www.telegraph.co.uk/politics/2024/02/12/suella-braverman-stop-white-guilty-countryside-racism/",
+                "description": "Former home secretary says report suggesting countryside is racist is &#39;wholly disempowering for ethnic minorities&#39;",
+                "mentions": [
+                    {
+                        "name": "Light skin"
+                    },
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Royal Society for the Prevention of Cruelty to Animals"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T20:19:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Australia <b>politics</b> live: $707m boost for Indigenous work programs; Greens MP in car crash",
+                "url": "https://www.theguardian.com/australia-news/live/2024/feb/13/australia-politics-live-indigenous-closing-the-gap-sorry-linda-burney-question-time-anthony-albanese-peter-dutton-amy-macmahon?filterKeyEvents=false&page=with:block-65ca79448f085f0b174e5701",
+                "description": "Follow live",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:44:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Matt Hancock defends use of taxpayer-funded Jaguar for COVID inquiry appearances",
+                "url": "https://www.iwradio.co.uk/news/sky-news/matt-hancock-defends-use-of-taxpayer-funded-jaguar-for-covid-inquiry-appearances/",
+                "description": "Matt Hancock has defended using a taxpayer-funded Jaguar to take him to the COVID Inquiry - despite resigning from government more than two years ago.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3c5a8f7c-8835-0c0c-c12d-d2e832ce32c6",
+                        "name": "Matt Hancock"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4fb53ba0-896f-e4f5-6b93-d612c510e6f0",
+                        "name": "Jaguar"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1df6df41-d818-44c6-8a74-d208293cbe4d",
+                        "name": "Taxpayer"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Isle Of Wight Radio",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.a7uxf82O3Umn0q30N0l0jQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:44:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Government Could Need UN Nod On Rwanda Flights In New Lords Proposal",
+                "url": "https://www.politicshome.com/news/article/government-taking-unreasonable-risk-sending-people-rwanda-without-safety-advice-says-bishop",
+                "description": "The House of Lords is exploring whether Government could need to seek UN advice on whether Rwanda is a safe country in order to deport asylum",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5634d914-4190-dd0b-fa80-715c2ac46335",
+                        "name": "Government"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "PoliticsHome",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.jYsWK_bTg9eBgVKGQafjWA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:28:00.0000000Z"
+            },
+            {
+                "name": "Victorian disease warning: Symptoms of rare infections that are surging in <b>UK</b>",
+                "url": "https://www.mirror.co.uk/news/health/victorian-disease-warning-symptoms-rare-32109825",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.sNcLJu45nE6IRXCHpA_Bcy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Diseases like these were thought to have been consigned to history, with sound science, good public health policy and access to clean water and good food seeing cases dwindle",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e88a173e-30a7-ec38-cac8-53a5e5fcda18",
+                        "name": "Warning"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "Warning"
+                    },
+                    {
+                        "name": "Symptom"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:24:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "Rishi Sunak GB News \u2013 live: Rwanda scheme is \u2018right thing to do\u2019 insists Prime Minister in live TV grilling",
+                "url": "https://www.independent.co.uk/news/uk/politics/rishi-sunak-gb-news-today-updates-b2494979.html?page=7",
+                "description": "Rishi Sunak has insisted his Rwanda scheme is \u201cthe right thing to do\u201d in a live TV grilling by the UK public. The Prime Minister faced questions from undecided and swing voters in County Durham on GB News on Monday evening, including over his flagship deportation policy.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "Rwanda"
+                    },
+                    {
+                        "name": "Scheme"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:20:00.0000000Z"
+            },
+            {
+                "name": "Downing Street fury as ex-civil servant auctions off Margaret Thatcher&#39;s visitors\u2019 book",
+                "url": "https://www.express.co.uk/news/uk/1865953/downing-street-fury-civil-servant-auction-margaret-thatcher-book",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.vq54B3UH4Wqw7FE0ediWrS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The former government employee claims he rescued the historic item 20 years ago after it was &#39;nearly destroyed&#39;.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7e1d1595-2f14-4cc4-a894-32f0ea10741d",
+                        "name": "Margaret Thatcher"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ccd9f31f-4906-4fc4-aa08-039ec79096c5",
+                        "name": "Fury"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Margaret Thatcher"
+                    },
+                    {
+                        "name": "Daily Express"
+                    },
+                    {
+                        "name": "Fury"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:06:00.0000000Z"
+            },
+            {
+                "name": "Inside the scamming networks kidnapping and enslaving victims in east Asia",
+                "url": "https://www.itv.com/news/2024-02-12/inside-the-scamming-networks-kidnapping-and-enslaving-victims-in-east-asia",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.2yYeM_HIoO1L7YJISAIyXy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Forced scamming is one of the most complex and fastest-growing forms of modern slavery in the world, writes ITV News Correspondent Lucy Watson. | ITV National News",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "ITV",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.HlKTyCgM99pRvmITMdZC2w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:05:00.0000000Z",
+                "video": {
+                    "name": "Inside the scamming networks kidnapping and enslaving victims in east Asia",
+                    "thumbnailUrl": "https://www.bing.com/th?id=OVF.bOeloDjgdr96ably4ZguFA&pid=News",
+                    "thumbnail": {
+                        "width": 520,
+                        "height": 292
+                    }
+                }
+            },
+            {
+                "name": "Conservative Donor Who Won \u00a3164m PPE Contracts Admits Deleting Emails",
+                "url": "https://bylinetimes.com/2024/02/12/conservative-donor-who-won-164m-ppe-contracts-admits-deleting-emails/",
+                "description": "A Government trade advisor and Conservative donor, who won Covid contracts worth \u00a3164 million after being referred to the \u2018VIP Lane\u2019 by his long-term political ally Michael Gove has admitted deleting emails from the account through which he conducted the deals, a court has been told.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/539e2b67-1439-43c4-8114-85b489854ef8",
+                        "name": "Contract"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "bylinetimes"
+                    }
+                ],
+                "datePublished": "2024-02-12T19:05:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Rochdale by-election: Formal complaint filed against Labour candidate after &#39;antisemitic&#39; remarks",
+                "url": "https://news.sky.com/story/rochdale-by-election-formal-complaint-filed-against-labour-candidate-after-antisemitic-remarks-13070291",
+                "description": "Campaign group Labour Against Antisemitism is demanding that Councillor Azhar Ali be suspended as a party member after he suggested Israel let the 7 October Hamas attack go ahead so it could invade Gaza.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/baf56fc2-cb3f-46c7-83ad-08830d0407e4",
+                        "name": "Rochdale"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/94811ffa-fefe-1295-44ad-6e5cff2e545a",
+                        "name": "Complaint"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5e83019e-d5ad-de66-bfc7-9f24e0932322",
+                        "name": "By-election"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Rochdale"
+                    },
+                    {
+                        "name": "Complaint"
+                    },
+                    {
+                        "name": "By-election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Eg62H9DIbo-JYPI6GpAgGA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:01:00.0000000Z",
+                "video": {
+                    "name": "&#39;Tremendous task to rebuild trust&#39;",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/ca152d37-9692-4cea-9e22-6da821856f36/e6f32d7a-1454-47e7-ad11-9b4d10f4_650.mp4",
+                    "thumbnail": {
+                        "width": 640,
+                        "height": 360
+                    }
+                }
+            },
+            {
+                "name": "The Scottish Government, &#39;evading scrutiny&#39; and Freedom of Information",
+                "url": "https://www.heraldscotland.com/news/24115207.scottish-government-evading-scrutiny-freedom-information/",
+                "description": "The Scottish Government has found itself tied in knots once again over transparency \u2013 but should we be surprised at politicians not being as",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "heraldscotland",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PjDUWS-WIq7w595SCRQefg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Polish state TV host decries past anti-LGBT output",
+                "url": "https://www.bbc.co.uk/news/world-europe-68278630.amp",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.vMJWegzExSdYMMzUTW_CWi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "A journalist for the Polish state broadcaster has apologised for his channel&#39;s &quot;shameful&quot; role in spreading anti-LGBT sentiment. Host Wojciech Szelag said that LGBT people had been targeted for &quot;years&quot; by &quot;hateful words&quot;. The channel, TVP Info, was criticised as a mouthpiece of the previous governing Law and Justice (PiS) party.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1d6059a2-d1f1-d2d7-4261-dc7cd5cdb84b",
+                        "name": "Poland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a3948c8d-6079-4636-8f7f-171f2cc5d9dc",
+                        "name": "Violence against LGBT people"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T18:52:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "How Biden is still hoping to pull off his dream of peace in Middle East",
+                "url": "https://inews.co.uk/news/world/biden-dream-peace-middle-east-2902586",
+                "description": "If the Biden administration can pull it off, it would be &#39;the biggest strategic realignment in the region since the 1979 Camp David treaty&#39;, said one analyst",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cad484f9-be75-7a78-12dd-16233f823cd7",
+                        "name": "Joe Biden"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ba4dcd59-7aaf-ab51-0b2c-3186cc75acdc",
+                        "name": "Middle East"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Joe Biden"
+                    },
+                    {
+                        "name": "Middle East"
+                    },
+                    {
+                        "name": "State of Palestine"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T18:43:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Slashing public investment during a downturn is the worst thing to do",
+                "url": "https://www.thenational.scot/politics/24115178.slashing-public-investment-downturn-worst-thing/",
+                "description": "ENGLISH Labour\u2019s pledge to spend \u00a328 billion \u2013 really \u00a320 billion, since it included \u00a38 billion already spent \u2013 is gone in a poof,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7401bd47-b79a-fbc6-edbd-4f24780da0c2",
+                        "name": "Slashing"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T18:39:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Long Island could see up to 8 inches of snow on Election Day in key House race",
+                "url": "https://uk.movies.yahoo.com/long-island-could-see-8-182900611.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ZPjsbfi82ficsxTQOCns-C&pid=News",
+                        "width": 608,
+                        "height": 456
+                    }
+                },
+                "description": "New York City will see wintry conditions on Tuesday, which is also Election Day in the race to represent the 3rd Congressional District, a swing seat left vacant after disgraced Republican Rep. George Santos&#39; expulsion.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ef0c0f37-bad2-bd1a-ad90-888ea76346bb",
+                        "name": "Long Island"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Movies UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Mpa2adDaIj4hp3hgCdO2wA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T18:29:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Joe Biden\u2019s popularity plummets in <b>UK</b>, especially among Labour voters",
+                "url": "https://www.telegraph.co.uk/us/politics/2024/02/12/bidens-popularity-plummets-in-uk-especially-among-labour/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.2GFgJY3by_LQg7ZPRA1-gC&pid=News",
+                        "width": 700,
+                        "height": 439
+                    }
+                },
+                "description": "Joe Biden \u2019s popularity in the UK has plummeted, with just a fifth of Britons holding a favourable opinion of the US president, according to polling by Ipsos.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cad484f9-be75-7a78-12dd-16233f823cd7",
+                        "name": "Joe Biden"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Joe Biden"
+                    },
+                    {
+                        "name": "Popularity"
+                    },
+                    {
+                        "name": "Australian Labor Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T18:25:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Cameron vows to help Scot facing death penalty in India",
+                "url": "https://www.heraldscotland.com/news/24115131.cameron-vows-help-scot-facing-death-penalty-india/",
+                "description": "Foreign Secretary Lord Cameron has vowed to review the UK Government&#39;s involvement in the case of a British man who has been held in an",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/05973aa9-1608-8d06-96d6-e4ce0311b75a",
+                        "name": "David Cameron"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "heraldscotland",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PjDUWS-WIq7w595SCRQefg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T18:01:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "EU, <b>UK</b> urge scientists to join research programme after Brexit concerns",
+                "url": "https://uk.news.yahoo.com/eu-uk-urge-scientists-join-180011225.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Zgi5tnt9M9c257-drHjN2C&pid=News",
+                        "width": 700,
+                        "height": 463
+                    }
+                },
+                "description": "EU and UK science chiefs\u00a0on Monday launched a push to attract scientists to Europe&#39;s \u00a380 billion Horizon research programme after warnings of high costs and red tape in Britain.\u00a0At a meeting in London on Monday,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3b8ddb1a-cf19-ee77-560d-9dfa00ddf070",
+                        "name": "European Union"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/dc9fb828-d21b-bf89-6e86-cf5b5c5e6014",
+                        "name": "Research program"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T18:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Disaster looms for Tories and Labour in Rochdale",
+                "url": "https://socialistworker.co.uk/news/disaster-looms-for-tories-and-labour-in-rochdale/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.7FhT5PLmF5lbmsjjMPRYqS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Labour\u2019s campaign for the Rochdale by-election has collapsed after its candidate managed to enrage both Zionists and pro-Palestine voters. Azhar Ali was already facing potential defeat at the election set for 29 February. Thousands of people in the constituency are enraged by the Labour Party\u2019s support for Israel in Gaza.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/baf56fc2-cb3f-46c7-83ad-08830d0407e4",
+                        "name": "Rochdale"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Socialist Worker",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.rUdSQD17GRae8OK2ZUMKlA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T17:59:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "\u2018Rwanda cares deeply about refugees\u2019, minister tells Lords in debate \u2013 <b>UK politics</b> live",
+                "url": "https://www.theguardian.com/politics/live/2024/feb/12/rishi-sunak-keir-starmer-rochdale-rwanda-conservatives-labour-uk-politics-live?filterKeyEvents=false&page=with%3Ablock-65ca3bd18f081f61f2d805a1",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.1hujrbMlyKCHnSfi5_5k7y&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Lord Sharpe of Epsom tells peers those sent to the country \u2018will be offered safety and protection\u2019 under treaty",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Rwanda"
+                    },
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Tell"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T17:56:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Heating and Ventilation News",
+                "url": "https://www.hvnplus.co.uk/features/uk-politicians-warned-against-backtracking-on-low-carbon-heat-12-02-2024/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.lNtkqFx9_kecQxraaQLY7S&pid=News",
+                        "width": 700,
+                        "height": 555
+                    }
+                },
+                "description": "The UK\u2019s two largest political parties are coming under fire over their long-term policy commitments for incentivising lower carbon heat. Both the",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c0fc345-a834-c89a-4f3a-0cf8b94634ac",
+                        "name": "Backtracking"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Heating and Ventilation News"
+                    }
+                ],
+                "datePublished": "2024-02-12T17:44:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Family of Briton jailed in India left \u2018frustrated\u2019 after meeting with David Cameron",
+                "url": "https://inews.co.uk/news/jagtar-singh-johal-family-david-cameron-2902328?ico=related_article_inline",
+                "description": "The Foreign Secretary urged India to &quot;speed up&quot; the case of Jagtar Singh Johal \u2013 but did not call for his release. The former Prime Minister met the family of Jagtar Singh Johal, a 37-year-old Sikh activist from Dumbarton in Scotland, on his first visit ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/05973aa9-1608-8d06-96d6-e4ce0311b75a",
+                        "name": "David Cameron"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/85fa63d3-9596-adb9-b4eb-502273d84f56",
+                        "name": "India"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "David Cameron"
+                    },
+                    {
+                        "name": "India"
+                    },
+                    {
+                        "name": "British people"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i"
+                    }
+                ],
+                "datePublished": "2024-02-12T17:40:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>UK</b> politicians warned against \u2018backtracking\u2019 on low carbon heat",
+                "url": "https://www.hvnplus.co.uk/news/uk-politicians-warned-against-backtracking-on-low-carbon-heat-12-02-2024/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.lNtkqFx9_kecQxraaQLY7S&pid=News",
+                        "width": 700,
+                        "height": 555
+                    }
+                },
+                "description": "The UK\u2019s two largest political parties are coming under fire over their long-term policy commitments for incentivising lower carbon heat. Both the",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c0fc345-a834-c89a-4f3a-0cf8b94634ac",
+                        "name": "Backtracking"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Heating and Ventilation News"
+                    }
+                ],
+                "datePublished": "2024-02-12T17:33:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Anas Sarwar: Holyrood &#39;too focused on social justice, not economy&#39;",
+                "url": "https://www.thenational.scot/news/24115058.anas-sarwar-holyrood-too-focused-social-justice-not-economy/",
+                "description": "ANAS Sarwar has been criticised after he suggested the Scottish Parliament\u00a0had focused too much on social justice and not the\u00a0economy",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a6f5bd12-ce24-8c09-5216-19909157ef48",
+                        "name": "Anas Sarwar"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8249b924-0798-dc16-60ff-5c3b54a933f0",
+                        "name": "Economy"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T17:32:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Pat McFadden: It&#39;s a myth that British <b>politics</b> is a pendulum - Labour victories are rarities",
+                "url": "https://www.holyrood.com/inside-politics/view,pat-mcfadden-its-a-myth-that-british-politics-is-a-pendulum-labour-victories-are-rarities",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.hDutwCTXindPCeXaXrTGzC&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "I don\u2019t want Scottish voters to send a message, I want them to send a government&#39;. The Labour MP and party strategist",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1025cb2e-ee5b-98b6-249d-02cd3edb53ad",
+                        "name": "Pat McFadden"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Holyrood",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PBW12iOhRPFNmsyxmjiBqw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T06:19:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Buying a home is harder for half of the population. Spoiler: it\u2019s not men",
+                "url": "https://metro.co.uk/2024/02/12/housing-harder-half-population-spoiler-not-men-20240668/?ico=metro-posts_home_whats-trending-now",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.GpYMaV9u-1kqPFiZksjVpS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "She tells Metro.co.<b>uk</b>: \u2018I used a Help to Buy scheme ... She explains: \u2018We need to make a <b>political</b> choice to build more social housing. The renting market offers no security for long-term letters \u2013 they can be evicted quickly.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2872a54f-b045-8fe3-d356-1aa538e14812",
+                        "name": "Metro International"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Metro International"
+                    },
+                    {
+                        "name": "Statistical population"
+                    },
+                    {
+                        "name": "Spoiler"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Metro"
+                    }
+                ],
+                "datePublished": "2024-02-12T05:00:00.0000000Z"
+            },
+            {
+                "name": "Labour takes lead over Tories among \u2018politically homeless\u2019 rural voters",
+                "url": "https://www.countytimes.co.uk/news/national/24112713.labour-takes-lead-tories-among-politically-homeless-rural-voters/",
+                "description": "Labour has taken a narrow lead over the Conservatives among England\u2019s rural voters, a poll has found. But while the survey suggests Conservative support has collapsed in the party\u2019s heartlands, the head of a major countryside business association said rural voters were still \u201cpolitically homeless\u201d.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/064644a1-4ce5-6209-6306-a69d3734b8f6",
+                        "name": "County"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "countytimes.co.uk",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.QuCrvjwzbhwSOWUVWHCOqw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T00:06:00.0000000Z"
+            },
+            {
+                "name": "Potter Payper announces \u201cstraight-talking\u201d mixtape \u2018Thanks For Hating\u2019",
+                "url": "https://www.nme.com/news/music/potter-payper-announces-upcoming-mixtape-thanks-for-hating-mobo-awards-thanks-for-waiting-3584451",
+                "description": "On both, the 33-year-old told vivid stories from his past life as a drug dealer and the <b>politics</b> he learnt to abide by. The mixtape will be his first full-length project since 2023\u2019s \u2018Real Back In Style\u2019 \u2013 which made <b>UK</b> chart history when it became ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "NME"
+                    }
+                ],
+                "datePublished": "2024-02-11T23:59:00.0000000Z",
+                "category": "Entertainment"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics",
+        "queryContext": {
+            "originalQuery": "uk politics",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 152,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Google Cloud\u2019s Nick Godfrey Talks Security, Budget and AI for CISOs",
+                "url": "https://www.techrepublic.com/article/google-cloud-ciso-nick-godfrey-interview/",
+                "description": "Google Cloud\u2019s Director of Office of the CISO Nick Godfrey reminds business leaders to integrate security into conversations around financial and business targets.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ba93a384-0de9-407f-2608-871de2ab04fc",
+                        "name": "Godfrey"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f39b29ec-05ee-d6cb-3070-ddaa0fb00ee0",
+                        "name": "Google"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2027188f-1828-8a00-ee60-d137df227b0d",
+                        "name": "Nick, Hungary"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "TechRepublic",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.iIj0BXhILAa8fn4e7Ly-qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T21:51:00.0000000Z",
+                "category": "ScienceAndTechnology"
+            },
+            {
+                "name": "I understand voters\u2019 frustrations, Sunak says in live TV grilling",
+                "url": "https://www.countytimes.co.uk/news/national/24115289.understand-voters-frustrations-sunak-says-live-tv-grilling/",
+                "description": "As peers in the House of Lords debated draft legislation aimed at sending asylum seekers to Kigali, one voter asked Mr Sunak why he was \u201cso adamant\u201d about the Rwanda policy \u201cwhen public documentation shows it isn\u2019t working and that it\u2019s not going to work\u201d.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7ba55e0f-4cfb-6f1c-c80b-5362fb7c338a",
+                        "name": "U.S. County"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "countytimes.co.uk",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.QuCrvjwzbhwSOWUVWHCOqw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T21:40:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Prince Harry plays up NFL connection in his and Meghan Markle&#39;s new Sussex.com site",
+                "url": "https://www.mirror.co.uk/3am/us-celebrity-news/prince-harry-plays-up-nfl-32110759",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.24yGC2O2GA4GCblRbNoLfS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Harry and Meghan&#39;s new website has quite a number of changes. For instance, the site used to be titled SussexRoyal.com. The Duke and Duchess of Sussex likely dropped &quot;royal&quot; from their URL after agreeing to no longer use the word. The agreement came after they resigned from their position in the Royal Family in 2020.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90836c93-726d-0b49-3471-f8d6cb9e7f51",
+                        "name": "Sussex"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Sussex"
+                    },
+                    {
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T21:27:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "From banned general to dancing grandpa: how Prabowo became favourite to lead Indonesia",
+                "url": "https://www.ft.com/content/0e365a05-e87e-4cd1-a2b9-09e843e9403a",
+                "description": "Support from popular president Joko Widodo has lifted the 72-year-old once barred from the US over human rights concerns",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b4a5bd62-2259-21e3-4627-bf249ae6ee84",
+                        "name": "Indonesia"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0356dbb9-1da7-3c83-437a-0e7f85c9b902",
+                        "name": "Prabowo Subianto"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/dcb37a95-bac8-003c-01a4-5e2afec2770b",
+                        "name": "Grandparent"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Financial Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CdBlognZ1u9nda-gVEOS_w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T21:00:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Boy critically injured in Texas megachurch shooting is \u2018son of suspect\u2019, police say",
+                "url": "https://www.leaderlive.co.uk/news/national/24115200.boy-critically-injured-texas-megachurch-shooting-son-suspect-police-say/",
+                "description": "The boy is understood to have entered the megachurch with the attacker before they opened fire with an AR-style rifle.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/00a23ccd-3344-461c-8b9f-c2bb55be5815",
+                        "name": "Texas"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4ffab47c-8ecf-01e2-16cc-fd2965c338d8",
+                        "name": "Suspect"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e637cc46-4f84-41b7-a9fd-b056757c76c4",
+                        "name": "The Leader"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Leader",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6bgSSP_8hhzQ-AH2Xx0_eQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T21:00:00.0000000Z"
+            },
+            {
+                "name": "Azhar Ali: Labour&#39;s former Rochdale by-election candidate criticised by Preston Jewish faith leader over Israel attack comments",
+                "url": "https://www.lep.co.uk/news/politics/azhar-ali-labours-former-rochdale-by-election-candidate-criticised-by-preston-jewish-faith-leader-over-israel-attack-comments-4515431",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.xFcLke1rRlnm0wJvD5MFay&pid=News",
+                        "width": 640,
+                        "height": 427
+                    }
+                },
+                "description": "A Jewish community leader in Preston says comments made by a senior Lancashire county councillor alleging Israel deliberately allowed the 7th October terrorist attack have given fuel to \u201cdemons\u201d on social media spreading other unsubstantiated claims about the state.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/91c620b3-1522-0ebd-63b2-4a7e645a1fde",
+                        "name": "Preston"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5e83019e-d5ad-de66-bfc7-9f24e0932322",
+                        "name": "By-election"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/baf56fc2-cb3f-46c7-83ad-08830d0407e4",
+                        "name": "Rochdale"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Preston"
+                    },
+                    {
+                        "name": "By-election"
+                    },
+                    {
+                        "name": "Rochdale"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Lancashire Evening Post",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Wcd8HXK9ZgvKKRZFFaKQGg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T20:46:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "On the streets of Rochdale Labour have a problem",
+                "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/streets-rochdale-labour-problem-28617781",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.8kh0y0hBTvzIYxuGBL8nbS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The town has been caught up in controversy after Labour&#39;s former candidate who wants to be the next MP made &#39;deeply offensive&#39; comments about Israel - but there are other things occupying voters&#39; mind",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/25a89873-4b9f-b274-250c-365d8aabc7b7",
+                        "name": "Rochdale"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Rochdale"
+                    },
+                    {
+                        "name": "Manchester Evening News"
+                    },
+                    {
+                        "name": "Australian Labor Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Manchester Evening News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.oxaa8-w2MDoXi5yOUu7A3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T20:34:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Government and Stormont set to clash over revenue raising",
+                "url": "https://www.belfasttelegraph.co.uk/news/politics/government-and-stormont-set-to-clash-over-revenue-raising-after-michelle-oneill-rules-out-water-charges/a478250877.html",
+                "description": "The Government and new Stormont Executive are already on a collision course after the First Minister Michelle O\u2019Neill categorically ruled out introducing water charges during her time in office.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/13c96615-0707-ebe8-e3e0-9e76e61d23f2",
+                        "name": "Michelle O&#39;Neill"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fc276817-3034-0116-3770-f900f6d99a28",
+                        "name": "Parliament Buildings"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5634d914-4190-dd0b-fa80-715c2ac46335",
+                        "name": "Government"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Belfast Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.KbCSMEkTE1gbQLCbNWqCnw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T20:30:00.0000000Z"
+            },
+            {
+                "name": "<b>UK</b> sanctions four Israeli settlers accused of violence",
+                "url": "https://www.bbc.co.uk/news/uk-68274777.amp",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.xC2IHKu0l5riGE-UNsWQaC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The UK has imposed sanctions against four &quot;extremist&quot; Israeli settlers it has accused of attacking Palestinians in the occupied West Bank. The Foreign Office announced financial and travel restrictions against the four who it says have committed human rights abuses against Palestinians.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c49c20cc-7ec7-e153-0da2-bf9924a47a40",
+                        "name": "Israeli settlement"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T20:29:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Suella Braverman: Stop making people feel guilty for being white",
+                "url": "https://www.telegraph.co.uk/politics/2024/02/12/suella-braverman-stop-white-guilty-countryside-racism/",
+                "description": "Former home secretary says report suggesting countryside is racist is &#39;wholly disempowering for ethnic minorities&#39;",
+                "mentions": [
+                    {
+                        "name": "Light skin"
+                    },
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Royal Society for the Prevention of Cruelty to Animals"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T20:19:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Matt Hancock defends use of taxpayer-funded Jaguar for COVID inquiry appearances",
+                "url": "https://www.iwradio.co.uk/news/sky-news/matt-hancock-defends-use-of-taxpayer-funded-jaguar-for-covid-inquiry-appearances/",
+                "description": "Matt Hancock has defended using a taxpayer-funded Jaguar to take him to the COVID Inquiry - despite resigning from government more than two years ago.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3c5a8f7c-8835-0c0c-c12d-d2e832ce32c6",
+                        "name": "Matt Hancock"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4fb53ba0-896f-e4f5-6b93-d612c510e6f0",
+                        "name": "Jaguar"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1df6df41-d818-44c6-8a74-d208293cbe4d",
+                        "name": "Taxpayer"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Isle Of Wight Radio",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.a7uxf82O3Umn0q30N0l0jQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:44:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Government Could Need UN Nod On Rwanda Flights In New Lords Proposal",
+                "url": "https://www.politicshome.com/news/article/government-taking-unreasonable-risk-sending-people-rwanda-without-safety-advice-says-bishop",
+                "description": "The House of Lords is exploring whether Government could need to seek UN advice on whether Rwanda is a safe country in order to deport asylum",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5634d914-4190-dd0b-fa80-715c2ac46335",
+                        "name": "Government"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "PoliticsHome",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.jYsWK_bTg9eBgVKGQafjWA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:28:00.0000000Z"
+            },
+            {
+                "name": "Victorian disease warning: Symptoms of rare infections that are surging in <b>UK</b>",
+                "url": "https://www.mirror.co.uk/news/health/victorian-disease-warning-symptoms-rare-32109825",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.sNcLJu45nE6IRXCHpA_Bcy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Diseases like these were thought to have been consigned to history, with sound science, good public health policy and access to clean water and good food seeing cases dwindle",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e88a173e-30a7-ec38-cac8-53a5e5fcda18",
+                        "name": "Warning"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "Warning"
+                    },
+                    {
+                        "name": "Symptom"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:24:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "Downing Street fury as ex-civil servant auctions off Margaret Thatcher&#39;s visitors\u2019 book",
+                "url": "https://www.express.co.uk/news/uk/1865953/downing-street-fury-civil-servant-auction-margaret-thatcher-book",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.vq54B3UH4Wqw7FE0ediWrS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The former government employee claims he rescued the historic item 20 years ago after it was &#39;nearly destroyed&#39;.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7e1d1595-2f14-4cc4-a894-32f0ea10741d",
+                        "name": "Margaret Thatcher"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ccd9f31f-4906-4fc4-aa08-039ec79096c5",
+                        "name": "Fury"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Margaret Thatcher"
+                    },
+                    {
+                        "name": "Daily Express"
+                    },
+                    {
+                        "name": "Fury"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:06:00.0000000Z"
+            },
+            {
+                "name": "Inside the scamming networks kidnapping and enslaving victims in east Asia",
+                "url": "https://www.itv.com/news/2024-02-12/inside-the-scamming-networks-kidnapping-and-enslaving-victims-in-east-asia",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.2yYeM_HIoO1L7YJISAIyXy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Forced scamming is one of the most complex and fastest-growing forms of modern slavery in the world, writes ITV News Correspondent Lucy Watson. | ITV National News",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "ITV",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.HlKTyCgM99pRvmITMdZC2w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:05:00.0000000Z",
+                "video": {
+                    "name": "Inside the scamming networks kidnapping and enslaving victims in east Asia",
+                    "thumbnailUrl": "https://www.bing.com/th?id=OVF.bOeloDjgdr96ably4ZguFA&pid=News",
+                    "thumbnail": {
+                        "width": 520,
+                        "height": 292
+                    }
+                }
+            },
+            {
+                "name": "Conservative Donor Who Won \u00a3164m PPE Contracts Admits Deleting Emails",
+                "url": "https://bylinetimes.com/2024/02/12/conservative-donor-who-won-164m-ppe-contracts-admits-deleting-emails/",
+                "description": "A Government trade advisor and Conservative donor, who won Covid contracts worth \u00a3164 million after being referred to the \u2018VIP Lane\u2019 by his long-term political ally Michael Gove has admitted deleting emails from the account through which he conducted the deals, a court has been told.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/539e2b67-1439-43c4-8114-85b489854ef8",
+                        "name": "Contract"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "bylinetimes"
+                    }
+                ],
+                "datePublished": "2024-02-12T19:05:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Rochdale by-election: Formal complaint filed against Labour candidate after &#39;antisemitic&#39; remarks",
+                "url": "https://news.sky.com/story/rochdale-by-election-formal-complaint-filed-against-labour-candidate-after-antisemitic-remarks-13070291",
+                "description": "Campaign group Labour Against Antisemitism is demanding that Councillor Azhar Ali be suspended as a party member after he suggested Israel let the 7 October Hamas attack go ahead so it could invade Gaza.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/baf56fc2-cb3f-46c7-83ad-08830d0407e4",
+                        "name": "Rochdale"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/94811ffa-fefe-1295-44ad-6e5cff2e545a",
+                        "name": "Complaint"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5e83019e-d5ad-de66-bfc7-9f24e0932322",
+                        "name": "By-election"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Rochdale"
+                    },
+                    {
+                        "name": "Complaint"
+                    },
+                    {
+                        "name": "By-election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Eg62H9DIbo-JYPI6GpAgGA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:01:00.0000000Z",
+                "video": {
+                    "name": "&#39;Tremendous task to rebuild trust&#39;",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/ca152d37-9692-4cea-9e22-6da821856f36/e6f32d7a-1454-47e7-ad11-9b4d10f4_650.mp4",
+                    "thumbnail": {
+                        "width": 640,
+                        "height": 360
+                    }
+                }
+            },
+            {
+                "name": "The Scottish Government, &#39;evading scrutiny&#39; and Freedom of Information",
+                "url": "https://www.heraldscotland.com/news/24115207.scottish-government-evading-scrutiny-freedom-information/",
+                "description": "The Scottish Government has found itself tied in knots once again over transparency \u2013 but should we be surprised at politicians not being as",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "heraldscotland",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PjDUWS-WIq7w595SCRQefg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T19:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Slashing public investment during a downturn is the worst thing to do",
+                "url": "https://www.thenational.scot/politics/24115178.slashing-public-investment-downturn-worst-thing/",
+                "description": "ENGLISH Labour\u2019s pledge to spend \u00a328 billion \u2013 really \u00a320 billion, since it included \u00a38 billion already spent \u2013 is gone in a poof,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7401bd47-b79a-fbc6-edbd-4f24780da0c2",
+                        "name": "Slashing"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T18:39:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Long Island could see up to 8 inches of snow on Election Day in key House race",
+                "url": "https://uk.movies.yahoo.com/long-island-could-see-8-182900611.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ZPjsbfi82ficsxTQOCns-C&pid=News",
+                        "width": 608,
+                        "height": 456
+                    }
+                },
+                "description": "New York City will see wintry conditions on Tuesday, which is also Election Day in the race to represent the 3rd Congressional District, a swing seat left vacant after disgraced Republican Rep. George Santos&#39; expulsion.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ef0c0f37-bad2-bd1a-ad90-888ea76346bb",
+                        "name": "Long Island"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Movies UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Mpa2adDaIj4hp3hgCdO2wA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T18:29:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Joe Biden\u2019s popularity plummets in <b>UK</b>, especially among Labour voters",
+                "url": "https://www.telegraph.co.uk/us/politics/2024/02/12/bidens-popularity-plummets-in-uk-especially-among-labour/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.2GFgJY3by_LQg7ZPRA1-gC&pid=News",
+                        "width": 700,
+                        "height": 439
+                    }
+                },
+                "description": "Joe Biden \u2019s popularity in the UK has plummeted, with just a fifth of Britons holding a favourable opinion of the US president, according to polling by Ipsos.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cad484f9-be75-7a78-12dd-16233f823cd7",
+                        "name": "Joe Biden"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Joe Biden"
+                    },
+                    {
+                        "name": "Popularity"
+                    },
+                    {
+                        "name": "Australian Labor Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T18:25:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Cameron vows to help Scot facing death penalty in India",
+                "url": "https://www.heraldscotland.com/news/24115131.cameron-vows-help-scot-facing-death-penalty-india/",
+                "description": "Foreign Secretary Lord Cameron has vowed to review the UK Government&#39;s involvement in the case of a British man who has been held in an",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/05973aa9-1608-8d06-96d6-e4ce0311b75a",
+                        "name": "David Cameron"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "heraldscotland",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PjDUWS-WIq7w595SCRQefg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T18:01:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "EU, <b>UK</b> urge scientists to join research programme after Brexit concerns",
+                "url": "https://uk.news.yahoo.com/eu-uk-urge-scientists-join-180011225.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Zgi5tnt9M9c257-drHjN2C&pid=News",
+                        "width": 700,
+                        "height": 463
+                    }
+                },
+                "description": "EU and UK science chiefs\u00a0on Monday launched a push to attract scientists to Europe&#39;s \u00a380 billion Horizon research programme after warnings of high costs and red tape in Britain.\u00a0At a meeting in London on Monday,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3b8ddb1a-cf19-ee77-560d-9dfa00ddf070",
+                        "name": "European Union"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/dc9fb828-d21b-bf89-6e86-cf5b5c5e6014",
+                        "name": "Research program"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T18:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Disaster looms for Tories and Labour in Rochdale",
+                "url": "https://socialistworker.co.uk/news/disaster-looms-for-tories-and-labour-in-rochdale/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.7FhT5PLmF5lbmsjjMPRYqS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Labour\u2019s campaign for the Rochdale by-election has collapsed after its candidate managed to enrage both Zionists and pro-Palestine voters. Azhar Ali was already facing potential defeat at the election set for 29 February. Thousands of people in the constituency are enraged by the Labour Party\u2019s support for Israel in Gaza.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/baf56fc2-cb3f-46c7-83ad-08830d0407e4",
+                        "name": "Rochdale"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Socialist Worker",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.rUdSQD17GRae8OK2ZUMKlA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T17:59:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "\u2018Rwanda cares deeply about refugees\u2019, minister tells Lords in debate \u2013 <b>UK politics</b> live",
+                "url": "https://www.theguardian.com/politics/live/2024/feb/12/rishi-sunak-keir-starmer-rochdale-rwanda-conservatives-labour-uk-politics-live?filterKeyEvents=false&page=with%3Ablock-65ca3bd18f081f61f2d805a1",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.1hujrbMlyKCHnSfi5_5k7y&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Lord Sharpe of Epsom tells peers those sent to the country \u2018will be offered safety and protection\u2019 under treaty",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eb5f926e-ec19-3d93-b71c-da7503c96e60",
+                        "name": "Rwanda"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Rwanda"
+                    },
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Tell"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T17:56:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Heating and Ventilation News",
+                "url": "https://www.hvnplus.co.uk/features/uk-politicians-warned-against-backtracking-on-low-carbon-heat-12-02-2024/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.lNtkqFx9_kecQxraaQLY7S&pid=News",
+                        "width": 700,
+                        "height": 555
+                    }
+                },
+                "description": "The UK\u2019s two largest political parties are coming under fire over their long-term policy commitments for incentivising lower carbon heat. Both the",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c0fc345-a834-c89a-4f3a-0cf8b94634ac",
+                        "name": "Backtracking"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Heating and Ventilation News"
+                    }
+                ],
+                "datePublished": "2024-02-12T17:44:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>UK</b> politicians warned against \u2018backtracking\u2019 on low carbon heat",
+                "url": "https://www.hvnplus.co.uk/news/uk-politicians-warned-against-backtracking-on-low-carbon-heat-12-02-2024/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.lNtkqFx9_kecQxraaQLY7S&pid=News",
+                        "width": 700,
+                        "height": 555
+                    }
+                },
+                "description": "The UK\u2019s two largest political parties are coming under fire over their long-term policy commitments for incentivising lower carbon heat. Both the",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c0fc345-a834-c89a-4f3a-0cf8b94634ac",
+                        "name": "Backtracking"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Heating and Ventilation News"
+                    }
+                ],
+                "datePublished": "2024-02-12T17:33:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Anas Sarwar: Holyrood &#39;too focused on social justice, not economy&#39;",
+                "url": "https://www.thenational.scot/news/24115058.anas-sarwar-holyrood-too-focused-social-justice-not-economy/",
+                "description": "ANAS Sarwar has been criticised after he suggested the Scottish Parliament\u00a0had focused too much on social justice and not the\u00a0economy",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a6f5bd12-ce24-8c09-5216-19909157ef48",
+                        "name": "Anas Sarwar"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8249b924-0798-dc16-60ff-5c3b54a933f0",
+                        "name": "Economy"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T17:32:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Rishi Sunak GB News \u2013 live: Prime minister set to be grilled by <b>UK</b> public as pressure mounts",
+                "url": "https://www.independent.co.uk/news/uk/politics/rishi-sunak-gb-news-today-updates-b2494979.html?page=5",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.QhCz58HKkqIDc9aof3p7IS&pid=News",
+                        "width": 700,
+                        "height": 455
+                    }
+                },
+                "description": "Rishi Sunak is set to be grilled by the UK public as pressure continues to mount on the prime minister in one of the most challenging weeks of his premiership. Mr Sunak is facing questions from undecided and swing voters in County Durham during the People&#39;s Forum event,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "Today"
+                    },
+                    {
+                        "name": "News UK"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T17:17:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Family of Briton jailed in India left \u2018frustrated\u2019 after meeting with David Cameron",
+                "url": "https://inews.co.uk/news/jagtar-singh-johal-family-david-cameron-2902328",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.3T6n0nepYGXXXtEEhwa6fS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The Foreign Secretary urged India to &quot;speed up&quot; the case of Jagtar Singh Johal \u2013 but did not call for his release.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/05973aa9-1608-8d06-96d6-e4ce0311b75a",
+                        "name": "David Cameron"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/85fa63d3-9596-adb9-b4eb-502273d84f56",
+                        "name": "India"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "David Cameron"
+                    },
+                    {
+                        "name": "India"
+                    },
+                    {
+                        "name": "British people"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T17:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>UK</b>: Anti-apartheid campaigner Andrew Feinstein set to challenge Starmer in upcoming elections",
+                "url": "https://www.middleeasteye.net/news/war-gaza-apartheid-campaigner-andrew-feinstein-challenge-starmer-upcoming-election",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.mXwGgiDhUPvUHRh9vssLHi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The former Nelson Mandela advisor is among a wave of independents seeking to unseat Labour candidates who failed to vote for a ceasefire in Gaza",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5d2c4816-d5c1-40dd-acc9-6a05558f6459",
+                        "name": "Andrew Feinstein"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ba4dcd59-7aaf-ab51-0b2c-3186cc75acdc",
+                        "name": "Middle East"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cbac8df7-3b5c-6632-8267-1a2127b8a31f",
+                        "name": "Challenge"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Middle East Eye",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.B9AgOE1qt6hbt597t-5KKg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T16:47:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Councillors kicked off committee for \u2018offensive and ignorant\u2019 comments about special needs children",
+                "url": "https://leamingtonobserver.co.uk/news/councillors-kicked-off-committee-for-offensive-and-ignorant-comments-about-special-needs-children-48328/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.gZ35yahGSD0_YHcNcMX9jy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "But Warwickshire County Councils leader says she will not be removing the whip from the three Conservative councillors \u2018at this moment in time\u2019",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/595146b5-5686-0053-ca70-1fbfd34dfa98",
+                        "name": "Leamington Spa"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9fb40164-659e-c352-e3cb-fc1a572992b3",
+                        "name": "Councillor"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "leamingtonobserver",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.XyJu17FGdOJWDLtuJnGeEA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T16:45:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Asylum-seeker \u2018conveyor belt\u2019 conversions is a fiction, says Bishop of Durham",
+                "url": "https://www.churchtimes.co.uk/articles/2024/16-february/news/uk/asylum-seeker-conveyor-belt-conversions-is-a-fiction-says-bishop-of-durham",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.YqNT7xeENS5MYCff6Xrw4C&pid=News",
+                        "width": 600,
+                        "height": 314
+                    }
+                },
+                "description": "THERE is no evidence to support the \u201cimaginative range of allegations\u201d made by a former C of E priest about the Church\u2019s apparent complicity in a \u201cconveyor belt\u201d of asylum-seeker conversions, the Bishop of Durham, the Rt Revd Paul Butler, has said.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Church Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.JVDjUfGY_-ym1atT1D-fgA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T16:43:00.0000000Z"
+            },
+            {
+                "name": "Lord Cameron vows to review case of Briton tortured and detained in India",
+                "url": "https://www.itv.com/news/2024-02-12/lord-cameron-vows-to-review-case-of-briton-tortured-and-detained-in-india",
+                "description": "The brother of Jagtar Singh Johal, who has been imprisoned for six years, told the foreign secretary &#39;his life is in your hands&#39; after they met on Monday. | ITV National News",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "ITV",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.HlKTyCgM99pRvmITMdZC2w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T16:42:00.0000000Z"
+            },
+            {
+                "name": "Moscow slaps sanctions on 18 &#39;Russophobic&#39; British officials, historians and academics including Lord Ashcroft and Admiral Simon Asquith",
+                "url": "https://www.dailymail.co.uk/news/article-13074815/Moscow-slaps-sanctions-Russophobic-British-officials-historians-academics-Lord-Ashcroft.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.api_Pwr3gwPNt5lNNAdtBy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The Russian foreign ministry issued &#39;personal sanctions&#39;\u00a0in response to what it called &#39;London&#39;s ongoing confrontational course&#39; - as the UK continues to support Kyiv as it resists Putin&#39;s forces.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/47c86965-87f5-d461-e478-96663977305a",
+                        "name": "H. H. Asquith"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8cfb85c5-879c-2a83-b1d2-9f1ed5137370",
+                        "name": "Michael Ashcroft, Baron Ashcroft"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/93a3e0e2-aecf-e53b-8432-c15f400cfb4e",
+                        "name": "Daily Mail"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "H. H. Asquith"
+                    },
+                    {
+                        "name": "Michael Ashcroft, Baron Ashcroft"
+                    },
+                    {
+                        "name": "Daily Mail"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T16:34:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "As US-China tensions mount, the <b>UK</b> will need to work closer with Europe in the Indo-Pacific",
+                "url": "https://uk.news.yahoo.com/us-china-tensions-mount-uk-163139971.html",
+                "description": "The UK\u2019s strategy for the Indo-Pacific region is built around its alliance with the US. This was formalised in September 2021 with the announcement of Aukus, a military alliance with the US and Australia. Yet its major interests there \u2013 in security, economy, diplomacy and human rights \u2013 appear more closely aligned with Brussels than Washington.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f2e4ed57-2883-edb9-ce8f-25e1cf8046b9",
+                        "name": "Indo-Pacific"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/501457aa-5b70-cfba-cfd8-be882b4bac1e",
+                        "name": "Europe"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T16:31:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "\u2018It Is No Coincidence Israel Chose US Super Bowl to Launch Latest Bombing Spree On Palestinians\u2019",
+                "url": "https://bylinetimes.com/2024/02/12/it-is-no-coincidence-israel-chose-us-super-bowl-to-launch-latest-bombing-spree-on-palestinians/",
+                "description": "The western powers have expressed increasing concern over the conduct of Israel\u2019s campaign in Gaza but applied no consequences in practice, writes former diplomat",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ee104351-e88f-0107-d631-6328c9bd7a9f",
+                        "name": "Bomb"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/04577582-e829-ea74-6c69-9287dfcba3ef",
+                        "name": "Launch"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5377ed0e-333f-3328-42da-12e0f7e15456",
+                        "name": "Coincidence"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "bylinetimes"
+                    }
+                ],
+                "datePublished": "2024-02-12T16:16:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Azhar Ali: Labour defends standing by Rochdale by-election candidate",
+                "url": "https://www.bbc.co.uk/news/uk-politics-68272820?at_medium=RSS",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.s03iYRwW_E0dTXB0f601fy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Mr Thomas-Symonds confirmed Labour would continue to campaign for Mr Ali in Rochdale, who he said had &quot;fallen for a conspiracy theory&quot; but that there was a need to &quot;do a tremendous amount of work to rebuild trust with the Jewish community&quot;. He pointed to comments from former MP Louise Ellman, who has backed Mr Ali.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ab70f55a-e575-e252-f77b-26bd50dc50b2",
+                        "name": "Azhar Ali"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/baf56fc2-cb3f-46c7-83ad-08830d0407e4",
+                        "name": "Rochdale"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T16:08:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Vladimir Putin threats backfire as Russia poised to get new nuclear superpower neighbour",
+                "url": "https://www.express.co.uk/news/world/1865878/vladimir-putin-ukraine-war-poland-nuclear-weapons",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.-bVqcs2kFEj53yMBniEZOy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Russia is the only country in Eastern Europe to keep a nuclear arsenal but the ongoing war in Ukraine could change that.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/60d41b9e-06ae-967b-bcc5-97ad4a13d29c",
+                        "name": "Vladimir Putin"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ed4fce79-8ad4-352b-205b-e4db36c49bbe",
+                        "name": "Russia"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Vladimir Putin"
+                    },
+                    {
+                        "name": "Daily Express"
+                    },
+                    {
+                        "name": "Russia"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T16:01:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "ageing dementia research",
+                "url": "https://www.ncl.ac.uk/press/articles/latest/2024/02/ageingdementiaresearch/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ngmVqJ0VG5fJa420lcxbNC&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "Newcastle University is collaborating with national experts to understand ageing and dementia-related diseases better in the hope of improving future treatments.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1fd20919-b5a1-11eb-7c5d-f582a546d039",
+                        "name": "Newcastle University"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b6c6d65c-4f80-60fb-2799-08ad9229faf7",
+                        "name": "Microsoft Office"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Newcastle University",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.rguh2zG4hTjzUrchAvoa9g&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T16:01:00.0000000Z"
+            },
+            {
+                "name": "Three apologies after several days of mobile network issues",
+                "url": "https://www.basingstokegazette.co.uk/news/national/24114633.three-apologies-several-days-mobile-network-issues/",
+                "description": "Mobile operator Three has apologised to customers after an issue hit its network for the fourth day running, leaving thousands of customers without connectivity.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Gazette",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PGe-aLvoklijfev_SotkNQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T15:59:00.0000000Z"
+            },
+            {
+                "name": "<b>UK</b> sanctions four Israeli settlers accused of human rights abuses in West Bank",
+                "url": "https://www.swindonadvertiser.co.uk/news/national/24113884.uk-sanctions-four-israeli-settlers-accused-human-rights-abuses-west-bank/",
+                "description": "Moshe Sharvit, Yinon Levy, Zvi Bar Yosef and Ely Federman have been made subject to a UK asset freeze, and travel and visa ban.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c49c20cc-7ec7-e153-0da2-bf9924a47a40",
+                        "name": "Israeli settlement"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3cd35bc6-4bad-e4bd-95c2-70965d7b2124",
+                        "name": "West Bank"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/87b0f4da-878d-1095-fb4b-d5e03ce59499",
+                        "name": "Human rights"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Swindon Advertiser",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.cn6A2bNZFtiSrprjEILJ1g&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T15:49:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "A second Trump presidency would be great for Britain",
+                "url": "https://www.politicshome.com/thehouse/article/second-trump-presidency-great-britain",
+                "description": "The greatest Tory prime minister, Benjamin Disraeli, served two spells as prime minister, as did Winston Churchill, during and then after the",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1a466af2-ed23-25bd-794d-1ca925e4681b",
+                        "name": "Donald Trump"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9bb8530d-7389-d6c6-7d6f-e2f1a8fd4918",
+                        "name": "The House"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "PoliticsHome",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.jYsWK_bTg9eBgVKGQafjWA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T15:46:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Why it\u2019s unlikely Lord Cameron would become PM again despite Tory plots to oust Sunak",
+                "url": "https://inews.co.uk/news/politics/unlikely-lord-cameron-pm-again-tory-plots-oust-sunak-2902018?ITO=msn",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.9sev73cu6a80CzPKNNrJQC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "One MP tells i the Foreign Secretary is being floated by some Tory plotters as a potential &#39;unity candidate&#39; before the election",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T15:38:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Crowdfunder launched for Norwich&#39;s Shoebox Community Hub",
+                "url": "https://www.edp24.co.uk/news/24114361.crowdfunder-launched-norwichs-shoebox-community-hub/",
+                "description": "A Crowdfunder appeal has been launched to secure the long-term future of The Shoebox Community Hub in Castle Meadow Norwich - home to a",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/984fdffb-7ef3-de93-5b19-44454e228884",
+                        "name": "Norwich"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/08395004-52c8-7e92-072d-e7eb99cbb793",
+                        "name": "Community"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "EDP 24",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.jwNaXSYAQbMSCRbjWcrBZA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T15:28:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Unfair to draw wider conclusions from candidate\u2019s Israel claims: shadow minister",
+                "url": "https://www.bucksfreepress.co.uk/news/national/24113053.unfair-draw-wider-conclusions-candidates-israel-claims-shadow-minister/",
+                "description": "A shadow minister has insisted it would be \u201cunfair\u201d to conclude there is a problem with Labour in Rochdale amid criticism of remarks about Israel made by the party\u2019s constituency candidate.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1ffafed3-2b37-b871-c271-aa855d98449a",
+                        "name": "Israel"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/10d9ae79-aac3-e985-2c87-c6940137a0b8",
+                        "name": "Draw play"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Bucks Free Press",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Rnaopxxd0csrouEie2oXOw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T15:20:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Pat McFadden: It&#39;s a myth that British <b>politics</b> is a pendulum - Labour victories are rarities",
+                "url": "https://www.holyrood.com/inside-politics/view,pat-mcfadden-its-a-myth-that-british-politics-is-a-pendulum-labour-victories-are-rarities",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.hDutwCTXindPCeXaXrTGzC&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "I don\u2019t want Scottish voters to send a message, I want them to send a government&#39;. The Labour MP and party strategist",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1025cb2e-ee5b-98b6-249d-02cd3edb53ad",
+                        "name": "Pat McFadden"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Holyrood",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PBW12iOhRPFNmsyxmjiBqw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T06:19:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Buying a home is harder for half of the population. Spoiler: it\u2019s not men",
+                "url": "https://metro.co.uk/2024/02/12/housing-harder-half-population-spoiler-not-men-20240668/?ico=metro-posts_home_whats-trending-now",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.GpYMaV9u-1kqPFiZksjVpS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "She tells Metro.co.<b>uk</b>: \u2018I used a Help to Buy scheme ... She explains: \u2018We need to make a <b>political</b> choice to build more social housing. The renting market offers no security for long-term letters \u2013 they can be evicted quickly.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2872a54f-b045-8fe3-d356-1aa538e14812",
+                        "name": "Metro International"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Metro International"
+                    },
+                    {
+                        "name": "Statistical population"
+                    },
+                    {
+                        "name": "Spoiler"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Metro"
+                    }
+                ],
+                "datePublished": "2024-02-12T05:00:00.0000000Z"
+            },
+            {
+                "name": "Labour takes lead over Tories among \u2018politically homeless\u2019 rural voters",
+                "url": "https://www.countytimes.co.uk/news/national/24112713.labour-takes-lead-tories-among-politically-homeless-rural-voters/",
+                "description": "Labour has taken a narrow lead over the Conservatives among England\u2019s rural voters, a poll has found. But while the survey suggests Conservative support has collapsed in the party\u2019s heartlands, the head of a major countryside business association said rural voters were still \u201cpolitically homeless\u201d.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/064644a1-4ce5-6209-6306-a69d3734b8f6",
+                        "name": "County"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "countytimes.co.uk",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.QuCrvjwzbhwSOWUVWHCOqw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-12T00:06:00.0000000Z"
+            },
+            {
+                "name": "Potter Payper announces \u201cstraight-talking\u201d mixtape \u2018Thanks For Hating\u2019",
+                "url": "https://www.nme.com/news/music/potter-payper-announces-upcoming-mixtape-thanks-for-hating-mobo-awards-thanks-for-waiting-3584451",
+                "description": "On both, the 33-year-old told vivid stories from his past life as a drug dealer and the <b>politics</b> he learnt to abide by. The mixtape will be his first full-length project since 2023\u2019s \u2018Real Back In Style\u2019 \u2013 which made <b>UK</b> chart history when it became ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "NME"
+                    }
+                ],
+                "datePublished": "2024-02-11T23:59:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Whatever the plan is for childcare, the status quo just simply can\u2019t continue",
+                "url": "https://www.belfasttelegraph.co.uk/opinion/comment/whatever-the-plan-is-for-childcare-the-status-quo-just-simply-cant-continue/a868709370.html",
+                "description": "It seemed like something we hardly dared to dream was on the horizon in recent weeks as our <b>political</b> parties appeared to be in agreement on how crucial further childcare support is to parents, with one politician \u2014 Alliance\u2019s Kate Nicholl \u2014 rightly ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ec10885d-cbd2-5ece-8d5b-7f5e05a240e9",
+                        "name": "uk"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Belfast Telegraph"
+                    }
+                ],
+                "datePublished": "2024-02-11T23:59:00.0000000Z"
+            },
+            {
+                "name": "How the First Minister contenders match up on business support and the economy",
+                "url": "https://www.business-live.co.uk/opinion-analysis/how-first-minister-contenders-match-28617708",
+                "description": "This means that one of the two candidates vying for this role - Jeremy Miles and Vaughan Gething - will be responsible for the future direction of the nation at a time when the economy is struggling, and Wales remains one of the poorest parts of the <b>UK</b>.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cd550390-8f23-9faa-4b3d-5d5ef422c989",
+                        "name": "Match"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8249b924-0798-dc16-60ff-5c3b54a933f0",
+                        "name": "Economy"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Match"
+                    },
+                    {
+                        "name": "Economy"
+                    },
+                    {
+                        "name": "First Evil"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "business-live"
+                    }
+                ],
+                "datePublished": "2024-02-11T23:59:00.0000000Z"
+            }
+        ]
+    }
+]

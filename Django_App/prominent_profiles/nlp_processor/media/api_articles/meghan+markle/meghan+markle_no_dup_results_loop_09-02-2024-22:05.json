@@ -1,0 +1,3598 @@
+[
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=meghan+markle",
+        "queryContext": {
+            "originalQuery": "meghan markle",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 15,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=meghan+markle"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=meghan+markle&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "<b>Meghan Markle</b> &#39;will attend&#39; Super Bowl with Prince Harry after missing Charles visit",
+                "url": "https://www.express.co.uk/news/royal/1865220/Prince-Harry-Meghan-Markle-Super-Bowl",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.qIJxu8i5aYCv_2qj28qLzC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Sources say Prince Harry and Meghan Markle will be watching the Super Bowl in Las Vegas on Sunday, just days after he jetted to see cancer-stricken King Charles",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Daily Express"
+                    },
+                    {
+                        "name": "Meghan Markle"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T20:19:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Prince Harry &amp; <b>Meghan Markle</b> \u2018WILL attend Super Bowl in Las Vegas\u2019 this weekend after duke dashed to UK to see Charles",
+                "url": "https://www.thesun.co.uk/royals/25845837/prince-harry-meghan-markle-super-bowl-king-charles/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.TXGq25k1RWMqG0TEFaKGzy&pid=News",
+                        "width": 600,
+                        "height": 338
+                    }
+                },
+                "description": "PRINCE Harry and Meghan Markle are expected to attend the Super Bowl LVII this weekend. The Sussexes are set to attend the famous sporting event following Harry\u2019s appearance at the NFL",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ce1fece8-34c4-6249-a1aa-2e779294760e",
+                        "name": "Super Bowl"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mZZguWnkRkVFPCoaQUmKEg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T19:54:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Prince Harry and <b>Meghan Markle</b> &#39;WILL attend the Super Bowl in Las Vegas this weekend&#39;... after Duke of Sussex made headlines with gag-filled speech - and no mention of his ...",
+                "url": "https://www.dailymail.co.uk/news/article-13067165/Prince-Harry-Meghan-Markle-Super-Bowl-Las-Vegas.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.STjmb5YnsMmqQ3ADGL_LQy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The Duke of Sussex made a shock appearance at the NFL Honors awards night on Thursday, and Fox News now reports that he will be sticking around for the big game on Sunday night.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6ff32734-2ab0-2636-a1b0-1e2f5e94a701",
+                        "name": "National Football League"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "name": "National Football League"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T19:35:00.0000000Z",
+                "category": "ScienceAndTechnology"
+            },
+            {
+                "name": "Prince William &#39;upset&#39; over Harry&#39;s mad rush &#39;PR stunt&#39; to King Charles",
+                "url": "https://www.dailyrecord.co.uk/entertainment/celebrity/prince-william-upset-over-harrys-32091532",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.eDfp1HebfymnlijkIQuIXi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "During Prince Harry&#39;s whirlwind trip to the UK to meet with King Charles following his cancer diagnosis, his brother Prince William reportedly isn&#39;t keen on reconciling relationship",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/607bf330-283c-e25d-6b64-69bbd33d5b72",
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/026387b6-916a-4fd2-91c9-c67298468905",
+                        "name": "Prince William, Duke of Cambridge"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Record",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.B6nvPq26UTBuCaXH6tX71w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T18:30:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Meghan Markle</b> snubbed from both Suits Super Bowl reunion and reboot days apart",
+                "url": "https://www.mirror.co.uk/3am/us-celebrity-news/meghan-markle-snubbed-both-suits-32089328?int_source=nba",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.sSmc-7A5LlxjVVlz2BbHpS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "<b>Meghan Markle</b>&#39;s Suits co-stars will be seen back together for a new Super Bowl commercial airing on February 11. The Duchess Of Sussex&#39;s former co-stars Gina Torres, Rick Hoffman, and Sarah Rafferty will all be seen in the advert for e.lf. Cosmetics but ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/22ae7ce8-15f0-4187-ac32-b212cc9ee87e",
+                        "name": "Suits"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "name": "Suits"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror"
+                    }
+                ],
+                "datePublished": "2024-02-09T17:16:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Meghan Markle</b> won&#39;t be happy that her &#39;dirty laundry&#39; is being &#39;re-hashed&#39; in public",
+                "url": "https://www.mirror.co.uk/3am/us-celebrity-news/meghan-markle-wont-happy-dirty-32089034?int_source=nba",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Xz0TL1byKKqT1Nw62kuC2C&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Thomas <b>Markle</b> has sent well wishes to King Charles after the monarch was diagnosed with cancer, but it looks like he&#39;s risked widening the rift with his estranged daughter <b>Meghan Markle</b>. Thomas, who has had his own health struggles, said he hopes the King recovers soon.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "name": "Markle"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror"
+                    }
+                ],
+                "datePublished": "2024-02-09T17:05:00.0000000Z"
+            },
+            {
+                "name": "Prince Harry Made a Surprise Appearance at NFL Honors in Las Vegas Ahead of the Super Bowl",
+                "url": "https://uk.news.yahoo.com/prince-harry-made-surprise-appearance-155803251.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.8VTb2pqIUx3oloklRWvCJC&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Just days after visiting his father, King Charles, in the U.K., Prince Harry made a super surprising appearance during the 2024 NFL Honors on Thursday in Las Vegas, begging the question: Are Prince Harry and Meghan Markle headed to the Super Bowl on Sunday?",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cb1dfc65-5b19-63d4-fab5-a17c7a206ef1",
+                        "name": "NFL Honors"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8a5f8a4e-8f82-a901-cfee-44f261717ac0",
+                        "name": "Surprise locomotive"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T15:58:00.0000000Z",
+                "category": "Sports"
+            },
+            {
+                "name": "Victoria Beckham&#39;s favourite \u00a3405 moisturiser can be bought for &#39;price of a coffee&#39;",
+                "url": "https://www.walesonline.co.uk/lifestyle/fashion/augustinus-bader-rich-cream-deal-28603921",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.rLDXYkszDNv6ytMXdprrMC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The Rich Cream by Augustinus Bader has a whole host of celebrity users, including royals like Meghan Markle, and models like Gigi Hadid",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d515b43f-e1fa-ab11-de90-16e11aa9fecc",
+                        "name": "Victoria Beckham"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Victoria Beckham"
+                    },
+                    {
+                        "name": "Cream"
+                    },
+                    {
+                        "name": "Western Mail"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Wales Online",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.lVPjCN3LmTro40TL-cwcLg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T15:56:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "Prince Harry Makes a Surprise Appearance at 2024 NFL Honors",
+                "url": "https://uk.sports.yahoo.com/news/prince-harry-makes-surprise-appearance-151328758.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.pChK4zg3WdKMlL39EX3zyC&pid=News",
+                        "width": 700,
+                        "height": 410
+                    }
+                },
+                "description": "Prince Harry made a surprise appearance at the 2024 NFL Honors on Thursday in Las Vegas. The Duke of Sussex presented the Walter Payton NFL Man of the Year Award to Pittsburgh Steelers star Cameron Heyward. Harry sported a navy suit and matching silk tie for the occasion, adding on a crisp white button-up top.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8a182278-ee48-4cc3-8a1f-a70893d74b01",
+                        "name": "Surprise"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cb1dfc65-5b19-63d4-fab5-a17c7a206ef1",
+                        "name": "NFL Honors"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo UK &amp; Ireland",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.bCGmgnmaXy3w_W9nI060kA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T15:13:00.0000000Z"
+            },
+            {
+                "name": "<b>Meghan Markle</b> set to pull of a clever &#39;PR stunt&#39; at massive global event this month",
+                "url": "https://www.express.co.uk/news/royal/1865109/Meghan-Markle-news-fasion-week-pr-stunt",
+                "description": "Meghan Markle could make a surprise appearance in New York this month, according to a Hollywood and Royal guru.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4eb0b986-b460-2620-00b5-8ec172abf717",
+                        "name": "Royal News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T14:19:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "How Edward Enninful got 40 of the world&#39;s most famous women in one room for jaw-dropping final Vogue cover: 1,000 WhatsApps, more than 13,000 air miles, celebrity sleepovers ...",
+                "url": "https://www.dailymail.co.uk/news/article-13064911/edward-enninful-british-vogue-cover-photoshoot.html",
+                "description": "Mr Enninful, 51, has revealed that his famous friends came to New York in December - at their own expense. Some flew in from Mexico , Milan, London and Paris.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4713c1bf-ce4b-931a-e2dc-a200c0402f02",
+                        "name": "Edward Enninful"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/93a3e0e2-aecf-e53b-8432-c15f400cfb4e",
+                        "name": "Daily Mail"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ddb7c000-f710-87a0-dfc6-763c39ac30ee",
+                        "name": "World"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Edward Enninful"
+                    },
+                    {
+                        "name": "Daily Mail"
+                    },
+                    {
+                        "name": "World"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T14:00:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Makeup Revolution\u2019s new \u00a311 serum foundation gives &#39;Armani-like&#39; results for \u00a335 less",
+                "url": "https://www.ok.co.uk/lifestyle/beauty/revolution-skincare-serum-foundation-armani-32080112",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.q2KIjA5BANWYEVECdEArny&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Makeup Revolution just dropped an ultra-affordable serum infused foundation that combines makeup and skincare and is said to rival the \u00a346 Kim Kardashian-loved Armani Lumious Silk",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d7059ae5-de81-0819-fd70-c2e650b60af4",
+                        "name": "Revolution"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e6063527-e34e-1522-0736-6f4216d00b5e",
+                        "name": "Armani"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Revolution"
+                    },
+                    {
+                        "name": "Armani"
+                    },
+                    {
+                        "name": "Foundation"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "OK! Magazine UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.RWPHhKblzyP6_60q3Y3WTw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T11:57:00.0000000Z",
+                "video": {
+                    "name": "Beauty hack: OK! writer tries out new foundation routine",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/d0918439-a4ff-4ca1-ab65-84de727ad245/6e20d79f-a9fb-406a-91eb-83a9a502_650.mp4",
+                    "thumbnail": {
+                        "width": 640,
+                        "height": 360
+                    }
+                },
+                "category": "Health"
+            },
+            {
+                "name": "<b>Meghan Markle</b> could make millions amid \u2018money worries\u2019 with \u2018explosive\u2019 career comeback, says brand expert",
+                "url": "https://www.thesun.co.uk/royals/25779054/meghan-markle-make-millions-money-worries-brand-expert/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.CTH0hm16uPpfCx-uEg7o-C&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Meghan Markle could make \u201cmillions within months\u201d which will ease her \u201cmoney worries\u201d one brand expert has predicted \u2013 but it could come at a personal cost. This comes as Prince Harry jetted",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mZZguWnkRkVFPCoaQUmKEg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T10:51:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Meghan Markle</b> &#39;will not appear in Suits reboot&#39;",
+                "url": "https://uk.news.yahoo.com/meghan-markle-not-appear-suits-104633382.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Z0sghru1QYkSFqpDAAttTC&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Meghan Markle will not be involved with the LA -based Suits reboot, according to reports. It was confirmed last month that a spin-off of the legal drama, which propelled Markle into the spotlight, has been greenlit.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/22ae7ce8-15f0-4187-ac32-b212cc9ee87e",
+                        "name": "Suits"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/da17dafe-c614-8cf3-6338-cbe07a4e4417",
+                        "name": "Reboot"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T05:46:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Inside Prince Harry&#39;s \u20ac1,870-an-hour VIP lounge at Heathrow with private butler",
+                "url": "https://www.irishmirror.ie/showbiz/us-gossip/inside-prince-harrys-1870-hour-32089123",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Lup2TLiiKyBcByR5ml2t6S&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "After meeting for a brief 30 minute reunion, Prince Harry made his way back to the States to wife <b>Meghan Markle</b> and their children Prince Archie and Princess Lilibet. Now pictures from inside his VIP lounge in Heathrow have revealed Harry&#39;s luxury waiting ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/77f28672-5669-4775-a58a-b62b17779010",
+                        "name": "Ireland"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Ireland"
+                    },
+                    {
+                        "name": "Airport lounge"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Irish Daily Mirror"
+                    }
+                ],
+                "datePublished": "2024-02-08T23:59:00.0000000Z"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=meghan+markle",
+        "queryContext": {
+            "originalQuery": "meghan markle",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 139,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=meghan+markle"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=meghan+markle&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Harry and <b>Meghan</b> &#39;WILL attend the Super Bowl&#39;: Duke of Sussex set to stay in Las Vegas after making no mention of cancer-stricken King Charles in gag-filled speech at NFL ...",
+                "url": "https://www.msn.com/en-my/news/other/harry-and-meghan-will-attend-the-super-bowl-duke-of-sussex-set-to-stay-in-las-vegas-after-making-no-mention-of-cancer-stricken-king-charles-in-gag-filled-speech-at-nfl-awards-which-followed-24-hour-whistlestop-trip-to-visit-his-father-in-the-uk/ar-BB1i3esi",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ztJFEniDoI6lY4IY9bwp-y&pid=News",
+                        "width": 700,
+                        "height": 420
+                    }
+                },
+                "description": "Prince Harry makes gag-filled speech at NFL awards in VegasPrince Harry and Meghan Markle will be in attendance at this weekend&#39;s Super Bowl in Las Vegas, according to reports.The Duke of Sussex\u00a0made a shock appearance at the NFL Honors awards night on Thursday,",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail on MSN.com",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T20:35:50.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Meghan Markle</b> &#39;will attend&#39; Super Bowl with Prince Harry after missing Charles visit",
+                "url": "https://www.express.co.uk/news/royal/1865220/Prince-Harry-Meghan-Markle-Super-Bowl",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.qIJxu8i5aYCv_2qj28qLzC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Sources say Prince Harry and Meghan Markle will be watching the Super Bowl in Las Vegas on Sunday, just days after he jetted to see cancer-stricken King Charles",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Daily Express"
+                    },
+                    {
+                        "name": "Meghan Markle"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T20:19:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Prince Harry &amp; <b>Meghan Markle</b> \u2018WILL attend Super Bowl in Las Vegas\u2019 this weekend after duke dashed to UK to see Charles",
+                "url": "https://www.thesun.co.uk/royals/25845837/prince-harry-meghan-markle-super-bowl-king-charles/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.TXGq25k1RWMqG0TEFaKGzy&pid=News",
+                        "width": 600,
+                        "height": 338
+                    }
+                },
+                "description": "PRINCE Harry and Meghan Markle are expected to attend the Super Bowl LVII this weekend. The Sussexes are set to attend the famous sporting event following Harry\u2019s appearance at the NFL",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ce1fece8-34c4-6249-a1aa-2e779294760e",
+                        "name": "Super Bowl"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mZZguWnkRkVFPCoaQUmKEg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T19:54:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Prince Harry, <b>Meghan Markle</b> expected to attend Super Bowl: source",
+                "url": "https://www.foxnews.com/entertainment/prince-harry-meghan-markle-expected-attend-super-bowl-source",
+                "description": "Prince Harry and Meghan Markle are expected to attend Sunday&#39;s Super Bowl after the Duke of Sussex traveled to England to visit King Charles. The king was diagnosed with cancer.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cf5f2db7-a5fd-a0f7-e93b-0a6f7cb5d357",
+                        "name": "Source"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Source"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Fox News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mdH-v7wPV5psO7NVm756zg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T19:48:00.0000000Z",
+                "video": {
+                    "name": "Why are people tuning in to this year&#39;s Super Bowl? Many say it&#39;s not to watch the game",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/02011981-9ff2-4e25-87d7-2b07a3139226/bdc87324-c217-4168-9927-978b30eb_650.mp4",
+                    "thumbnail": {
+                        "width": 640,
+                        "height": 360
+                    }
+                }
+            },
+            {
+                "name": "Prince Harry settles phone-hacking claim against British tabloid",
+                "url": "https://www.wsbtv.com/news/trending/prince-harry-settles-phone-hacking-claim-against-british-tabloid/QPJBL2ML4FBXTO5NMZLGFAFZ3A/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.CCoE_RfW2iHpPrXJjtE1iC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Prince Harry and Mirror Group Newspapers reached the settlement over 115 tabloid articles that Harry said were produced with facts gained through illegal means.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1a92f3fa-61f9-4e89-b606-40c945cf18d1",
+                        "name": "Atlanta"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "WSB-TV",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.DYLr_K0C_-78f5edRFl_ow&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T19:41:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Prince William charity achieves significant success compared to Harry, <b>Meghan</b> Archewell",
+                "url": "https://www.thenews.com.pk/latest/1156059-prince-william-charity-achieves-significant-success-compared-to-harry-meghan-archewell",
+                "description": "On the other hand, Prince Harry and <b>Meghan Markle</b>&#39;s Archewell experienced a decline in revenue last year. The Earthshot Prize, founded by William in 2019, awards those who devise solutions to what the Prince of Wales described as &quot;some of the world&#39;s ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/98080d7b-0cff-68d9-7b3e-52f8cb9723b1",
+                        "name": "Prince William of Gloucester"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ce1aeeeb-174f-e74d-3e9a-50aa2458b7d8",
+                        "name": "Charity"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The News International"
+                    }
+                ],
+                "datePublished": "2024-02-09T19:40:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Prince Harry and <b>Meghan Markle</b> &#39;WILL attend the Super Bowl in Las Vegas this weekend&#39;... after Duke of Sussex made headlines with gag-filled speech - and no mention of his ...",
+                "url": "https://www.dailymail.co.uk/news/article-13067165/Prince-Harry-Meghan-Markle-Super-Bowl-Las-Vegas.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.STjmb5YnsMmqQ3ADGL_LQy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The Duke of Sussex made a shock appearance at the NFL Honors awards night on Thursday, and Fox News now reports that he will be sticking around for the big game on Sunday night.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6ff32734-2ab0-2636-a1b0-1e2f5e94a701",
+                        "name": "National Football League"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "name": "National Football League"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T19:35:00.0000000Z",
+                "category": "ScienceAndTechnology"
+            },
+            {
+                "name": "<b>Meghan Markle</b> urged to &#39;take risks&#39; amid financial woes",
+                "url": "https://www.thenews.com.pk/latest/1156065-meghan-markle-urged-to-take-risks-amid-financial-woes",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.GvYkX56eMR5uI-o9qDPJyC&pid=News",
+                        "width": 700,
+                        "height": 390
+                    }
+                },
+                "description": "Meghan Markle has been advised to collaborate with &#39;huge fashion or beauty brands&#39; to save her and Prince Harry from their financial woes.In conversation with Fabulous magazine, brand expert",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The News International",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.R_Wr_C9SScHzCqzeYqSIug&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T19:33:00.0000000Z"
+            },
+            {
+                "name": "Prince Harry settles tabloid phone hacking claim, says mission to tame UK media continues",
+                "url": "https://www.scmp.com/news/world/europe/article/3251603/prince-harry-settles-tabloid-phone-hacking-claim-says-mission-tame-uk-media-continues",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.i_esAZriXUOF7Ya3NjNzPy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Harry\u2019s case against the publisher of the Daily Mirror is one of several that he has launched in a campaign against the British media, which he blames for blighting his life and hounding both his late mother Princess Diana and his wife <b>Meghan Markle</b>.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1a65845e-7c63-fd7c-9a64-c1f80cdc6350",
+                        "name": "Mission"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "scmp.com"
+                    }
+                ],
+                "datePublished": "2024-02-09T19:33:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "King Charles Doesn&#39;t Want to Put &#39;Pressure&#39; on Prince William amid Cancer Diagnosis, Says Source",
+                "url": "https://uk.news.yahoo.com/king-charles-doesnt-want-put-191921936.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.WhjMZzwN2q_LkdU5eVhEyS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "King Charles doesn\u2019t want to overwhelm Prince William with royal responsibilities following his cancer diagnosis, especially as his son is focused on family duties amid his wife Kate Middleton \u2019s lengthy recovery outside of the spotlight after her abdominal surgery.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/607bf330-283c-e25d-6b64-69bbd33d5b72",
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/026387b6-916a-4fd2-91c9-c67298468905",
+                        "name": "Prince William, Duke of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d9ed3979-0d45-31b8-09a3-b17b5e0365d3",
+                        "name": "Cancer"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T19:19:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "<b>Meghan Markle</b> Flashes Smile as Prince Harry Returns Home After Visiting Cancer-Stricken King Charles",
+                "url": "https://radaronline.com/p/meghan-markle-smiles-photos-king-charles-cancer/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Ym1tFME1yfb2leiwXNH66i&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "Meghan Markle was seen for the first time since King Charles&#39; cancer diagnosis.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/607bf330-283c-e25d-6b64-69bbd33d5b72",
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d9ed3979-0d45-31b8-09a3-b17b5e0365d3",
+                        "name": "Cancer"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "radaronline",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FlxsD1klxyPzWUopD1dP6w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T19:00:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Prince William &#39;upset&#39; over Harry&#39;s mad rush &#39;PR stunt&#39; to King Charles",
+                "url": "https://www.dailyrecord.co.uk/entertainment/celebrity/prince-william-upset-over-harrys-32091532",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.eDfp1HebfymnlijkIQuIXi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "During Prince Harry&#39;s whirlwind trip to the UK to meet with King Charles following his cancer diagnosis, his brother Prince William reportedly isn&#39;t keen on reconciling relationship",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/607bf330-283c-e25d-6b64-69bbd33d5b72",
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/026387b6-916a-4fd2-91c9-c67298468905",
+                        "name": "Prince William, Duke of Cambridge"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Record",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.B6nvPq26UTBuCaXH6tX71w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T18:30:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "British Vogue casts 40 women to appear on Edward Enninful\u2019s final issue",
+                "url": "https://www.theaustralian.com.au/life/style/british-vogue-casts-40-women-to-appear-on-edward-enninfuls-final-issue/news-story/863ea07ff5bea26f8e81e44f3040c4f6",
+                "description": "The March 2024 cover of British Vogue was released on Friday and features Jane Fonda, Oprah, Serena Williams, Naomi Campbell and Linda Evangelista. \u201cLegendary! 40 Vogue Icons, 1 epic shoot \u2026 The ultimate fashion,\u201d the cover line reads.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Australian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.S__BsNBpP5K6XUunE-_mxg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T18:28:00.0000000Z"
+            },
+            {
+                "name": "Americans have \u2018bad will\u2019 towards <b>Meghan</b> and Harry - \u2018They\u2019re airing their dirty laundry!\u2019",
+                "url": "https://www.msn.com/en-us/lifestyle/lifestyle-buzz/americans-have-bad-will-towards-meghan-and-harry-they-re-airing-their-dirty-laundry/ar-BB1i2TD6",
+                "description": "A political commentator has slammed Prince Harry and Meghan Markle for &quot;airing their dirty laundry&quot; and said that Americans have &quot;bad will&quot; towards the pair. The Sussexes quit their positions as senior royals in January 2020 and moved from the UK due to &quot;safety.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/adec2ef7-7683-0db4-160d-f9105507e8df",
+                        "name": "Americans"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Americans"
+                    },
+                    {
+                        "name": "United States"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "GB News on MSN.com"
+                    }
+                ],
+                "datePublished": "2024-02-09T18:20:42.0000000Z"
+            },
+            {
+                "name": "<b>Meghan Markle</b> snubbed from both Suits Super Bowl reunion and reboot days apart",
+                "url": "https://www.mirror.co.uk/3am/us-celebrity-news/meghan-markle-snubbed-both-suits-32089328?int_source=nba",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.sSmc-7A5LlxjVVlz2BbHpS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "<b>Meghan Markle</b>&#39;s Suits co-stars will be seen back together for a new Super Bowl commercial airing on February 11. The Duchess Of Sussex&#39;s former co-stars Gina Torres, Rick Hoffman, and Sarah Rafferty will all be seen in the advert for e.lf. Cosmetics but ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/22ae7ce8-15f0-4187-ac32-b212cc9ee87e",
+                        "name": "Suits"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "name": "Suits"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror"
+                    }
+                ],
+                "datePublished": "2024-02-09T17:16:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Meghan Markle</b> won&#39;t be happy that her &#39;dirty laundry&#39; is being &#39;re-hashed&#39; in public",
+                "url": "https://www.mirror.co.uk/3am/us-celebrity-news/meghan-markle-wont-happy-dirty-32089034?int_source=nba",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Xz0TL1byKKqT1Nw62kuC2C&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Thomas <b>Markle</b> has sent well wishes to King Charles after the monarch was diagnosed with cancer, but it looks like he&#39;s risked widening the rift with his estranged daughter <b>Meghan Markle</b>. Thomas, who has had his own health struggles, said he hopes the King recovers soon.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "name": "Markle"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror"
+                    }
+                ],
+                "datePublished": "2024-02-09T17:05:00.0000000Z"
+            },
+            {
+                "name": "<b>Meghan Markle</b> reportedly &#39;won&#39;t appear in Suits spin-off&#39;",
+                "url": "https://nationalpost.com/entertainment/celebrity/meghan-markle-suits-spin-off",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.qn_oMbGnf-KOYFk6zXVHdC&pid=News",
+                        "width": 700,
+                        "height": 525
+                    }
+                },
+                "description": "Meghan, Duchess of Sussex reportedly won\u2019t appear in a new \u2018Suits\u2019 spin-off.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/22ae7ce8-15f0-4187-ac32-b212cc9ee87e",
+                        "name": "Suits"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "National Post",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.QtlGURtDYZJoV-eeVyOKpg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T16:53:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Modern or taboo? These royals have all BROKEN royal protocol",
+                "url": "https://www.thesouthafrican.com/lifestyle/celeb-news/royals/taboo-royal-protocol-king-charles-camilla-kate-meghan-markle-queen-elizabeth-9-february-2024/",
+                "description": "Members of the royal family always put their best foot forward. But these royals are fearless in breaking the rules.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f4af795d-5426-b48f-2621-1f5cfc9344eb",
+                        "name": "Queen Camilla"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61903fb3-0074-0b21-eeb1-1aa307d3a9e4",
+                        "name": "Protocol"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Queen Camilla"
+                    },
+                    {
+                        "name": "Protocol"
+                    },
+                    {
+                        "name": "Royal"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "richest",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k5pBiBOSVDJzdt7aJD-Mng&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T16:50:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Prince Harry Made a Surprise Appearance at NFL Honors in Las Vegas Ahead of the Super Bowl",
+                "url": "https://uk.news.yahoo.com/prince-harry-made-surprise-appearance-155803251.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.8VTb2pqIUx3oloklRWvCJC&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Just days after visiting his father, King Charles, in the U.K., Prince Harry made a super surprising appearance during the 2024 NFL Honors on Thursday in Las Vegas, begging the question: Are Prince Harry and Meghan Markle headed to the Super Bowl on Sunday?",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cb1dfc65-5b19-63d4-fab5-a17c7a206ef1",
+                        "name": "NFL Honors"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8a5f8a4e-8f82-a901-cfee-44f261717ac0",
+                        "name": "Surprise locomotive"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T15:58:00.0000000Z",
+                "category": "Sports"
+            },
+            {
+                "name": "Victoria Beckham&#39;s favourite \u00a3405 moisturiser can be bought for &#39;price of a coffee&#39;",
+                "url": "https://www.walesonline.co.uk/lifestyle/fashion/augustinus-bader-rich-cream-deal-28603921",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.rLDXYkszDNv6ytMXdprrMC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The Rich Cream by Augustinus Bader has a whole host of celebrity users, including royals like Meghan Markle, and models like Gigi Hadid",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d515b43f-e1fa-ab11-de90-16e11aa9fecc",
+                        "name": "Victoria Beckham"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Victoria Beckham"
+                    },
+                    {
+                        "name": "Cream"
+                    },
+                    {
+                        "name": "Western Mail"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Wales Online",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.lVPjCN3LmTro40TL-cwcLg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T15:56:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "Prince Harry Makes a Surprise Appearance at 2024 NFL Honors",
+                "url": "https://uk.sports.yahoo.com/news/prince-harry-makes-surprise-appearance-151328758.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.pChK4zg3WdKMlL39EX3zyC&pid=News",
+                        "width": 700,
+                        "height": 410
+                    }
+                },
+                "description": "Prince Harry made a surprise appearance at the 2024 NFL Honors on Thursday in Las Vegas. The Duke of Sussex presented the Walter Payton NFL Man of the Year Award to Pittsburgh Steelers star Cameron Heyward. Harry sported a navy suit and matching silk tie for the occasion, adding on a crisp white button-up top.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8a182278-ee48-4cc3-8a1f-a70893d74b01",
+                        "name": "Surprise"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cb1dfc65-5b19-63d4-fab5-a17c7a206ef1",
+                        "name": "NFL Honors"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo UK &amp; Ireland",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.bCGmgnmaXy3w_W9nI060kA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T15:13:00.0000000Z"
+            },
+            {
+                "name": "Makeup Revolution\u2019s new \u00a311 serum foundation gives &#39;Armani-like&#39; results for \u00a335 less",
+                "url": "https://www.ok.co.uk/lifestyle/beauty/revolution-skincare-serum-foundation-armani-32080112",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.q2KIjA5BANWYEVECdEArny&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Makeup Revolution just dropped an ultra-affordable serum infused foundation that combines makeup and skincare and is said to rival the \u00a346 Kim Kardashian-loved Armani Lumious Silk",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d7059ae5-de81-0819-fd70-c2e650b60af4",
+                        "name": "Revolution"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e6063527-e34e-1522-0736-6f4216d00b5e",
+                        "name": "Armani"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Revolution"
+                    },
+                    {
+                        "name": "Armani"
+                    },
+                    {
+                        "name": "Foundation"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "OK! Magazine UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.RWPHhKblzyP6_60q3Y3WTw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T11:57:00.0000000Z",
+                "video": {
+                    "name": "Beauty hack: OK! writer tries out new foundation routine",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/d0918439-a4ff-4ca1-ab65-84de727ad245/6e20d79f-a9fb-406a-91eb-83a9a502_650.mp4",
+                    "thumbnail": {
+                        "width": 640,
+                        "height": 360
+                    }
+                },
+                "category": "Health"
+            },
+            {
+                "name": "<b>Meghan Markle</b> could make millions amid \u2018money worries\u2019 with \u2018explosive\u2019 career comeback, says brand expert",
+                "url": "https://www.thesun.co.uk/royals/25779054/meghan-markle-make-millions-money-worries-brand-expert/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.CTH0hm16uPpfCx-uEg7o-C&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Meghan Markle could make \u201cmillions within months\u201d which will ease her \u201cmoney worries\u201d one brand expert has predicted \u2013 but it could come at a personal cost. This comes as Prince Harry jetted",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mZZguWnkRkVFPCoaQUmKEg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T10:51:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Did Vogue snub <b>Meghan Markle</b>? Royal fans question why the Duchess of Sussex didn&#39;t appear on one-time pal Edward Enninful&#39;s final cover with 40 of the world&#39;s leading ladies",
+                "url": "https://www.dailymail.co.uk/femail/article-13065211/Did-Vogue-snub-Meghan-Markle-Royal-fans-question-Duchess-Sussex-didnt-appear-one-time-pal-Edward-Enninfuls-final-cover-40-worlds-leading-ladies.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.oFkl8ZnyEPlCtlKlGA9YsC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "For royals fans, Meghan Markle, 42, who&#39;s based in California, was\u00a0noticeably absent from the impressive line-up - which also included Salma Hayek , Oprah Winfrey and Miley Cyrus.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ddb7c000-f710-87a0-dfc6-763c39ac30ee",
+                        "name": "World"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "name": "World"
+                    },
+                    {
+                        "name": "Meghan Markle"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T10:50:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Meghan Markle</b> skipped reunion with King to avoid &#39;uncomfortable situation&#39; after diagnosis",
+                "url": "https://www.express.co.uk/news/royal/1864967/meghan-markle-skipped-king-reunion-cancer-diagnosis",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Y2XyG4Lzi33hHCUnGBubCi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Meghan Markle stayed in California while Prince Harry rushed back to the UK hours after his father&#39;s aides confirmed he had cancer.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/607bf330-283c-e25d-6b64-69bbd33d5b72",
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "name": "Daily Express"
+                    },
+                    {
+                        "name": "Meghan Markle"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T10:37:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Prince Harry &#39;relishes the spotlight&#39; in Las Vegas after brief visit to sick King Charles",
+                "url": "https://www.irishmirror.ie/showbiz/us-gossip/prince-harry-las-vegas-superbowl-32085544",
+                "description": "After a quick trip to the UK, Prince Harry surprised fans by presenting an award at the 2024 NFL Honours ceremony in Las Vegas, where he smiled widely as he took to the stage",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/77f28672-5669-4775-a58a-b62b17779010",
+                        "name": "Ireland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9ecdd5be-baeb-d001-2fa9-4362ed99bc58",
+                        "name": "Spotlight"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Ireland"
+                    },
+                    {
+                        "name": "Spotlight"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Irish Daily Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.2BcD1ARbWJ-h3eIGF0o4xA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T10:24:00.0000000Z"
+            },
+            {
+                "name": "Piers Morgan quits TV show to focus on YouTube after &#39;getting bored&#39;",
+                "url": "https://www.leicestermercury.co.uk/news/uk-world-news/piers-morgan-quits-tv-show-9088230",
+                "description": "The disagreement occurred when Beresford criticised Morgan for constantly attacking Prince Harry&#39;s wife after her interview with American talk show host Oprah Winfrey. In a surprising turn of events, Piers walked off the set of the ITV news programme after Alex labelled his remarks about Meghan as &quot;diabolical&quot;.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4b2d786f-4d40-dd9a-2c29-31c1db8a6dd3",
+                        "name": "Leicestershire"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40caaaa3-1d34-aee8-d89f-7be6b283a917",
+                        "name": "Piers Morgan"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7e927161-920b-d128-12a0-1dcc2dcfd8b0",
+                        "name": "Television program"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Leicestershire"
+                    },
+                    {
+                        "name": "Piers Morgan"
+                    },
+                    {
+                        "name": "Television program"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Leicester Mercury",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.lFAMHmM-LrSJkx1aav-rPA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T09:47:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Piers Morgan quits TalkTV show for YouTube as he makes &#39;personal news&#39; announcement",
+                "url": "https://www.manchestereveningnews.co.uk/news/uk-news/piers-morgan-quits-talktv-show-28598962",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.J-N1HhpGhV_nBkkSLJabwC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Piers Morgan, the former Good Morning Britain presenter, has announced he&#39;s leaving TalkTV to focus on his YouTube channel, Piers Morgan Uncensored. He shared the news on Twitter, expressing his frustration with traditional TV formats and his desire for more flexibility in content creation.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40caaaa3-1d34-aee8-d89f-7be6b283a917",
+                        "name": "Piers Morgan"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6a95943f-4941-500b-bc94-8ef3203697e7",
+                        "name": "Talk TV"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Piers Morgan"
+                    },
+                    {
+                        "name": "Talk TV"
+                    },
+                    {
+                        "name": "Manchester Evening News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Manchester Evening News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.oxaa8-w2MDoXi5yOUu7A3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T07:41:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Piers Morgan to Move \u2018Uncensored\u2019 Show to YouTube: TV Schedules Are an \u2018Unnecessary Straitjacket\u2019",
+                "url": "https://uk.finance.yahoo.com/news/piers-morgan-move-uncensored-show-121355000.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.VHNAlco90gVkJ8wLUGq7dy&pid=News",
+                        "width": 700,
+                        "height": 394
+                    }
+                },
+                "description": "Piers Morgan has announced his \u201cUncensored\u201d show is moving from TalkTV to YouTube, citing the \u201cunnecessary straitjacket\u201d of TV schedules. In an interview with The Times, Morgan said he will now focus on growing the \u201cUncensored\u201d YouTube channel,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40caaaa3-1d34-aee8-d89f-7be6b283a917",
+                        "name": "Piers Morgan"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Finance",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.LBn5t3rqxzpf5jMTBU81BA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T07:13:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Piers Morgan quits TV to become a YouTube star",
+                "url": "https://www.walesonline.co.uk/lifestyle/tv/piers-morgan-quits-tv-become-28598767",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.wEEBsmja3HHKBpprVFt-hy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Piers Morgan has quit TV to become star on YouTube. The Mirror reports he is leaving his TalkTV presenting job to take his show online instead.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40caaaa3-1d34-aee8-d89f-7be6b283a917",
+                        "name": "Piers Morgan"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Piers Morgan"
+                    },
+                    {
+                        "name": "Star"
+                    },
+                    {
+                        "name": "Western Mail"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Wales Online",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.lVPjCN3LmTro40TL-cwcLg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T06:30:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Meghan Markle</b> &#39;will not appear in Suits reboot&#39;",
+                "url": "https://sg.news.yahoo.com/meghan-markle-not-appear-suits-104633382.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Z0sghru1QYkSFqpDAAttTC&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "<b>Meghan Markle</b> will not be involved with the LA-based Suits reboot, according to reports. It was confirmed last month that a spin-off of the legal drama, which propelled <b>Markle</b> into the spotlight, has been greenlit. The Duchess of Sussex played the roll of ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News Singapore"
+                    }
+                ],
+                "datePublished": "2024-02-09T02:45:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "The Grand Tour: Sand Job, review: tired, flabby, in need of a rest \u2013 and that&#39;s just the show",
+                "url": "https://www.telegraph.co.uk/tv/2024/02/09/the-grand-tour-sand-job-review-sahara-dakar-clarkson/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.bv26qvmRgUkyeALaiRFDjS&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "The penultimate episode of Jeremy Clarkson, James May and Richard Hammond&#39;s motoring show feels a lot like a slog across the Sahara",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9d9df36d-c3a8-1d37-f2e3-5c4bffd9c72f",
+                        "name": "Grand Tour"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Grand Tour"
+                    },
+                    {
+                        "name": "Job"
+                    },
+                    {
+                        "name": "Rest"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T00:01:00.0000000Z"
+            },
+            {
+                "name": "Prince Harry and <b>Meghan Markle</b> are coming to Canada next week",
+                "url": "https://www.thespec.com/life/prince-harry-and-meghan-markle-are-coming-to-canada-next-week/article_18b0e5b2-1477-5b5a-b348-8aec6d86f301.html",
+                "description": "Forget the candlelit dinner and extended gazing into each others\u2019 eyes over a chocolate souffl\u00e9: <b>Meghan</b> and Harry\u2019s Valentine\u2019s Day plans for 2024 have been revealed, and they\u2019re unexpectedly\u2026Canadian.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Hamilton Spectator"
+                    }
+                ],
+                "datePublished": "2024-02-08T23:59:00.0000000Z"
+            },
+            {
+                "name": "<b>Meghan</b> felt too &#39;uncomfortable&#39; to visit royals after King Charles&#39; cancer news",
+                "url": "https://www.dailyrecord.co.uk/entertainment/celebrity/meghan-felt-uncomfortable-visit-royals-32085042",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.0BjQQRCMMPkndnh2J3VoYS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "<b>Meghan Markle</b> chose to stay in California while Prince Harry made a fleeting visit back to the UK after King Charles was diagnosed with cancer. The Duke of Sussex had a whirlwind 24 hours in London and travelled to Clarence House, where he had a brief 30 ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/607bf330-283c-e25d-6b64-69bbd33d5b72",
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fb6f4f93-ce23-76a6-98b5-3ab6b5286762",
+                        "name": "Daily Record"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Record"
+                    }
+                ],
+                "datePublished": "2024-02-08T23:59:00.0000000Z"
+            },
+            {
+                "name": "We finally know if <b>Meghan Markle</b> will take part in the new LA-based Suits reboot",
+                "url": "https://goss.ie/featured/we-finally-know-if-meghan-markle-will-take-part-in-the-new-la-based-suits-reboot-369396",
+                "description": "<b>Meghan Markle</b> has reportedly turned down a role in the upcoming Suits reboot, which will be based in Los Angeles. Last month, it was reported that a spin-off series entitled Suits: LA was in the works, four years after the original show came to an end.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/22ae7ce8-15f0-4187-ac32-b212cc9ee87e",
+                        "name": "Suits"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/63f10dac-fc19-221d-52cc-54ed8a81865e",
+                        "name": "Reboot"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "goss"
+                    }
+                ],
+                "datePublished": "2024-02-08T23:59:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Inside Prince Harry&#39;s \u20ac1,870-an-hour VIP lounge at Heathrow with private butler",
+                "url": "https://www.irishmirror.ie/showbiz/us-gossip/inside-prince-harrys-1870-hour-32089123",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Lup2TLiiKyBcByR5ml2t6S&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "After meeting for a brief 30 minute reunion, Prince Harry made his way back to the States to wife <b>Meghan Markle</b> and their children Prince Archie and Princess Lilibet. Now pictures from inside his VIP lounge in Heathrow have revealed Harry&#39;s luxury waiting ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/77f28672-5669-4775-a58a-b62b17779010",
+                        "name": "Ireland"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Ireland"
+                    },
+                    {
+                        "name": "Airport lounge"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Irish Daily Mirror"
+                    }
+                ],
+                "datePublished": "2024-02-08T23:59:00.0000000Z"
+            },
+            {
+                "name": "Prince Harry Leaves London, 24 Hours After Arriving",
+                "url": "https://ca.yahoo.com/style/prince-harry-leaves-london-24-154800098.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.bb7MipzrW5vtZaP44Axl_S&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Multiple outlets have reported that Harry stayed in a hotel last night, rather than a royal residence. (He and <b>Meghan Markle</b> moved out of their Frogmore Cottage home last year at the request of the King.) Yesterday, Prince Harry spent around 30 to 45 ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2d199720-b7fa-45d0-82fb-e8e27cc5c0b6",
+                        "name": "Leaves"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8e0ba7b6-4225-fa8a-6369-1b5294e602a5",
+                        "name": "London"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Style Canada"
+                    }
+                ],
+                "datePublished": "2024-02-08T10:48:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Meghan</b> has a chance of becoming Queen before Kate \u2013 with a very, very big asterisk",
+                "url": "https://metro.co.uk/2024/02/08/meghan-a-chance-become-queen-england-a-big-asterisk-20247986/?ico=trending-module_tag_weird-news_item-0",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.rwqNyeJBAK4FW2gE8KyeCC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "If <b>Meghan Markle</b> harbours any ambitions to become the Queen of England, she\u2019s going about it quite a strange way. When she got engaged to Prince Harry in 2017, he was only fifth in line to the British throne. And then, of course, the couple decided to ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d90ae9bb-1ac8-e5ef-b917-f33d5feee2f1",
+                        "name": "Queen"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2872a54f-b045-8fe3-d356-1aa538e14812",
+                        "name": "Metro International"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Metro"
+                    }
+                ],
+                "datePublished": "2024-02-08T08:56:00.0000000Z"
+            },
+            {
+                "name": "Prince Harry Left London 24 Hours After Arriving To See King Charles",
+                "url": "https://uk.yahoo.com/style/prince-harry-left-london-24-182100636.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.bb7MipzrW5vtZaP44Axl_S&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Multiple outlets have reported that Harry stayed in a hotel last night, rather than a royal residence. (He and <b>Meghan Markle</b> moved out of their Frogmore Cottage home last year at the request of the King.) Yesterday, Prince Harry spent around 30 to 45 ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8e0ba7b6-4225-fa8a-6369-1b5294e602a5",
+                        "name": "London"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/607bf330-283c-e25d-6b64-69bbd33d5b72",
+                        "name": "Charles I of England"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Style UK"
+                    }
+                ],
+                "datePublished": "2024-02-07T13:21:00.0000000Z",
+                "category": "Entertainment"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=meghan+markle",
+        "queryContext": {
+            "originalQuery": "meghan markle",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 239,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=meghan+markle"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=meghan+markle&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Harry and <b>Meghan</b> &#39;WILL attend the Super Bowl&#39;: Duke of Sussex set to stay in Las Vegas after making no mention of cancer-stricken King Charles in gag-filled speech at NFL ...",
+                "url": "https://www.msn.com/en-my/news/other/harry-and-meghan-will-attend-the-super-bowl-duke-of-sussex-set-to-stay-in-las-vegas-after-making-no-mention-of-cancer-stricken-king-charles-in-gag-filled-speech-at-nfl-awards-which-followed-24-hour-whistlestop-trip-to-visit-his-father-in-the-uk/ar-BB1i3esi",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ztJFEniDoI6lY4IY9bwp-y&pid=News",
+                        "width": 700,
+                        "height": 420
+                    }
+                },
+                "description": "Prince Harry makes gag-filled speech at NFL awards in VegasPrince Harry and Meghan Markle will be in attendance at this weekend&#39;s Super Bowl in Las Vegas, according to reports.The Duke of Sussex\u00a0made a shock appearance at the NFL Honors awards night on Thursday,",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail on MSN.com",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T20:35:50.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Meghan Markle</b> &#39;will attend&#39; Super Bowl with Prince Harry after missing Charles visit",
+                "url": "https://www.express.co.uk/news/royal/1865220/Prince-Harry-Meghan-Markle-Super-Bowl",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.qIJxu8i5aYCv_2qj28qLzC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Sources say Prince Harry and Meghan Markle will be watching the Super Bowl in Las Vegas on Sunday, just days after he jetted to see cancer-stricken King Charles",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Daily Express"
+                    },
+                    {
+                        "name": "Meghan Markle"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T20:19:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Prince Harry &amp; <b>Meghan Markle</b> \u2018WILL attend Super Bowl in Las Vegas\u2019 this weekend after duke dashed to UK to see Charles",
+                "url": "https://www.thesun.co.uk/royals/25845837/prince-harry-meghan-markle-super-bowl-king-charles/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.TXGq25k1RWMqG0TEFaKGzy&pid=News",
+                        "width": 600,
+                        "height": 338
+                    }
+                },
+                "description": "PRINCE Harry and Meghan Markle are expected to attend the Super Bowl LVII this weekend. The Sussexes are set to attend the famous sporting event following Harry\u2019s appearance at the NFL",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ce1fece8-34c4-6249-a1aa-2e779294760e",
+                        "name": "Super Bowl"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mZZguWnkRkVFPCoaQUmKEg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T19:54:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Prince Harry, <b>Meghan Markle</b> expected to attend Super Bowl: source",
+                "url": "https://www.foxnews.com/entertainment/prince-harry-meghan-markle-expected-attend-super-bowl-source",
+                "description": "Prince Harry and Meghan Markle are expected to attend Sunday&#39;s Super Bowl after the Duke of Sussex traveled to England to visit King Charles. The king was diagnosed with cancer.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cf5f2db7-a5fd-a0f7-e93b-0a6f7cb5d357",
+                        "name": "Source"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Source"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Fox News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mdH-v7wPV5psO7NVm756zg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T19:48:00.0000000Z",
+                "video": {
+                    "name": "Why are people tuning in to this year&#39;s Super Bowl? Many say it&#39;s not to watch the game",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/02011981-9ff2-4e25-87d7-2b07a3139226/bdc87324-c217-4168-9927-978b30eb_650.mp4",
+                    "thumbnail": {
+                        "width": 640,
+                        "height": 360
+                    }
+                }
+            },
+            {
+                "name": "Prince Harry settles phone-hacking claim against British tabloid",
+                "url": "https://www.wsbtv.com/news/trending/prince-harry-settles-phone-hacking-claim-against-british-tabloid/QPJBL2ML4FBXTO5NMZLGFAFZ3A/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.CCoE_RfW2iHpPrXJjtE1iC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Prince Harry and Mirror Group Newspapers reached the settlement over 115 tabloid articles that Harry said were produced with facts gained through illegal means.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1a92f3fa-61f9-4e89-b606-40c945cf18d1",
+                        "name": "Atlanta"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "WSB-TV",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.DYLr_K0C_-78f5edRFl_ow&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T19:41:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Prince William charity achieves significant success compared to Harry, <b>Meghan</b> Archewell",
+                "url": "https://www.thenews.com.pk/latest/1156059-prince-william-charity-achieves-significant-success-compared-to-harry-meghan-archewell",
+                "description": "On the other hand, Prince Harry and <b>Meghan Markle</b>&#39;s Archewell experienced a decline in revenue last year. The Earthshot Prize, founded by William in 2019, awards those who devise solutions to what the Prince of Wales described as &quot;some of the world&#39;s ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/98080d7b-0cff-68d9-7b3e-52f8cb9723b1",
+                        "name": "Prince William of Gloucester"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ce1aeeeb-174f-e74d-3e9a-50aa2458b7d8",
+                        "name": "Charity"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The News International"
+                    }
+                ],
+                "datePublished": "2024-02-09T19:40:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Prince Harry and <b>Meghan Markle</b> &#39;WILL attend the Super Bowl in Las Vegas this weekend&#39;... after Duke of Sussex made headlines with gag-filled speech - and no mention of his ...",
+                "url": "https://www.dailymail.co.uk/news/article-13067165/Prince-Harry-Meghan-Markle-Super-Bowl-Las-Vegas.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.STjmb5YnsMmqQ3ADGL_LQy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The Duke of Sussex made a shock appearance at the NFL Honors awards night on Thursday, and Fox News now reports that he will be sticking around for the big game on Sunday night.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6ff32734-2ab0-2636-a1b0-1e2f5e94a701",
+                        "name": "National Football League"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "name": "National Football League"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T19:35:00.0000000Z",
+                "category": "ScienceAndTechnology"
+            },
+            {
+                "name": "<b>Meghan Markle</b> urged to &#39;take risks&#39; amid financial woes",
+                "url": "https://www.thenews.com.pk/latest/1156065-meghan-markle-urged-to-take-risks-amid-financial-woes",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.GvYkX56eMR5uI-o9qDPJyC&pid=News",
+                        "width": 700,
+                        "height": 390
+                    }
+                },
+                "description": "Meghan Markle has been advised to collaborate with &#39;huge fashion or beauty brands&#39; to save her and Prince Harry from their financial woes.In conversation with Fabulous magazine, brand expert",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The News International",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.R_Wr_C9SScHzCqzeYqSIug&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T19:33:00.0000000Z"
+            },
+            {
+                "name": "Prince Harry settles tabloid phone hacking claim, says mission to tame UK media continues",
+                "url": "https://www.scmp.com/news/world/europe/article/3251603/prince-harry-settles-tabloid-phone-hacking-claim-says-mission-tame-uk-media-continues",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.i_esAZriXUOF7Ya3NjNzPy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Harry\u2019s case against the publisher of the Daily Mirror is one of several that he has launched in a campaign against the British media, which he blames for blighting his life and hounding both his late mother Princess Diana and his wife <b>Meghan Markle</b>.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1a65845e-7c63-fd7c-9a64-c1f80cdc6350",
+                        "name": "Mission"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "scmp.com"
+                    }
+                ],
+                "datePublished": "2024-02-09T19:33:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "King Charles Doesn&#39;t Want to Put &#39;Pressure&#39; on Prince William amid Cancer Diagnosis, Says Source",
+                "url": "https://uk.news.yahoo.com/king-charles-doesnt-want-put-191921936.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.WhjMZzwN2q_LkdU5eVhEyS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "King Charles doesn\u2019t want to overwhelm Prince William with royal responsibilities following his cancer diagnosis, especially as his son is focused on family duties amid his wife Kate Middleton \u2019s lengthy recovery outside of the spotlight after her abdominal surgery.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/607bf330-283c-e25d-6b64-69bbd33d5b72",
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/026387b6-916a-4fd2-91c9-c67298468905",
+                        "name": "Prince William, Duke of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d9ed3979-0d45-31b8-09a3-b17b5e0365d3",
+                        "name": "Cancer"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T19:19:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "<b>Meghan Markle</b> Flashes Smile as Prince Harry Returns Home After Visiting Cancer-Stricken King Charles",
+                "url": "https://radaronline.com/p/meghan-markle-smiles-photos-king-charles-cancer/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Ym1tFME1yfb2leiwXNH66i&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "Meghan Markle was seen for the first time since King Charles&#39; cancer diagnosis.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/607bf330-283c-e25d-6b64-69bbd33d5b72",
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d9ed3979-0d45-31b8-09a3-b17b5e0365d3",
+                        "name": "Cancer"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "radaronline",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FlxsD1klxyPzWUopD1dP6w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T19:00:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Prince William &#39;upset&#39; over Harry&#39;s mad rush &#39;PR stunt&#39; to King Charles",
+                "url": "https://www.dailyrecord.co.uk/entertainment/celebrity/prince-william-upset-over-harrys-32091532",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.eDfp1HebfymnlijkIQuIXi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "During Prince Harry&#39;s whirlwind trip to the UK to meet with King Charles following his cancer diagnosis, his brother Prince William reportedly isn&#39;t keen on reconciling relationship",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/607bf330-283c-e25d-6b64-69bbd33d5b72",
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/026387b6-916a-4fd2-91c9-c67298468905",
+                        "name": "Prince William, Duke of Cambridge"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Record",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.B6nvPq26UTBuCaXH6tX71w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T18:30:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "British Vogue casts 40 women to appear on Edward Enninful\u2019s final issue",
+                "url": "https://www.theaustralian.com.au/life/style/british-vogue-casts-40-women-to-appear-on-edward-enninfuls-final-issue/news-story/863ea07ff5bea26f8e81e44f3040c4f6",
+                "description": "The March 2024 cover of British Vogue was released on Friday and features Jane Fonda, Oprah, Serena Williams, Naomi Campbell and Linda Evangelista. \u201cLegendary! 40 Vogue Icons, 1 epic shoot \u2026 The ultimate fashion,\u201d the cover line reads.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Australian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.S__BsNBpP5K6XUunE-_mxg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T18:28:00.0000000Z"
+            },
+            {
+                "name": "Americans have \u2018bad will\u2019 towards <b>Meghan</b> and Harry - \u2018They\u2019re airing their dirty laundry!\u2019",
+                "url": "https://www.msn.com/en-us/lifestyle/lifestyle-buzz/americans-have-bad-will-towards-meghan-and-harry-they-re-airing-their-dirty-laundry/ar-BB1i2TD6",
+                "description": "A political commentator has slammed Prince Harry and Meghan Markle for &quot;airing their dirty laundry&quot; and said that Americans have &quot;bad will&quot; towards the pair. The Sussexes quit their positions as senior royals in January 2020 and moved from the UK due to &quot;safety.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/adec2ef7-7683-0db4-160d-f9105507e8df",
+                        "name": "Americans"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Americans"
+                    },
+                    {
+                        "name": "United States"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "GB News on MSN.com"
+                    }
+                ],
+                "datePublished": "2024-02-09T18:20:42.0000000Z"
+            },
+            {
+                "name": "<b>Meghan Markle</b> snubbed from both Suits Super Bowl reunion and reboot days apart",
+                "url": "https://www.mirror.co.uk/3am/us-celebrity-news/meghan-markle-snubbed-both-suits-32089328?int_source=nba",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.sSmc-7A5LlxjVVlz2BbHpS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "<b>Meghan Markle</b>&#39;s Suits co-stars will be seen back together for a new Super Bowl commercial airing on February 11. The Duchess Of Sussex&#39;s former co-stars Gina Torres, Rick Hoffman, and Sarah Rafferty will all be seen in the advert for e.lf. Cosmetics but ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/22ae7ce8-15f0-4187-ac32-b212cc9ee87e",
+                        "name": "Suits"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "name": "Suits"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror"
+                    }
+                ],
+                "datePublished": "2024-02-09T17:16:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Meghan Markle</b> won&#39;t be happy that her &#39;dirty laundry&#39; is being &#39;re-hashed&#39; in public",
+                "url": "https://www.mirror.co.uk/3am/us-celebrity-news/meghan-markle-wont-happy-dirty-32089034?int_source=nba",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Xz0TL1byKKqT1Nw62kuC2C&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Thomas <b>Markle</b> has sent well wishes to King Charles after the monarch was diagnosed with cancer, but it looks like he&#39;s risked widening the rift with his estranged daughter <b>Meghan Markle</b>. Thomas, who has had his own health struggles, said he hopes the King recovers soon.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "name": "Markle"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror"
+                    }
+                ],
+                "datePublished": "2024-02-09T17:05:00.0000000Z"
+            },
+            {
+                "name": "<b>Meghan Markle</b> reportedly &#39;won&#39;t appear in Suits spin-off&#39;",
+                "url": "https://nationalpost.com/entertainment/celebrity/meghan-markle-suits-spin-off",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.qn_oMbGnf-KOYFk6zXVHdC&pid=News",
+                        "width": 700,
+                        "height": 525
+                    }
+                },
+                "description": "Meghan, Duchess of Sussex reportedly won\u2019t appear in a new \u2018Suits\u2019 spin-off.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/22ae7ce8-15f0-4187-ac32-b212cc9ee87e",
+                        "name": "Suits"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "National Post",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.QtlGURtDYZJoV-eeVyOKpg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T16:53:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Modern or taboo? These royals have all BROKEN royal protocol",
+                "url": "https://www.thesouthafrican.com/lifestyle/celeb-news/royals/taboo-royal-protocol-king-charles-camilla-kate-meghan-markle-queen-elizabeth-9-february-2024/",
+                "description": "Members of the royal family always put their best foot forward. But these royals are fearless in breaking the rules.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f4af795d-5426-b48f-2621-1f5cfc9344eb",
+                        "name": "Queen Camilla"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61903fb3-0074-0b21-eeb1-1aa307d3a9e4",
+                        "name": "Protocol"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Queen Camilla"
+                    },
+                    {
+                        "name": "Protocol"
+                    },
+                    {
+                        "name": "Royal"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "richest",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k5pBiBOSVDJzdt7aJD-Mng&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T16:50:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Prince Harry Made a Surprise Appearance at NFL Honors in Las Vegas Ahead of the Super Bowl",
+                "url": "https://uk.news.yahoo.com/prince-harry-made-surprise-appearance-155803251.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.8VTb2pqIUx3oloklRWvCJC&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Just days after visiting his father, King Charles, in the U.K., Prince Harry made a super surprising appearance during the 2024 NFL Honors on Thursday in Las Vegas, begging the question: Are Prince Harry and Meghan Markle headed to the Super Bowl on Sunday?",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cb1dfc65-5b19-63d4-fab5-a17c7a206ef1",
+                        "name": "NFL Honors"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8a5f8a4e-8f82-a901-cfee-44f261717ac0",
+                        "name": "Surprise locomotive"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T15:58:00.0000000Z",
+                "category": "Sports"
+            },
+            {
+                "name": "Victoria Beckham&#39;s favourite \u00a3405 moisturiser can be bought for &#39;price of a coffee&#39;",
+                "url": "https://www.walesonline.co.uk/lifestyle/fashion/augustinus-bader-rich-cream-deal-28603921",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.rLDXYkszDNv6ytMXdprrMC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The Rich Cream by Augustinus Bader has a whole host of celebrity users, including royals like Meghan Markle, and models like Gigi Hadid",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d515b43f-e1fa-ab11-de90-16e11aa9fecc",
+                        "name": "Victoria Beckham"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Victoria Beckham"
+                    },
+                    {
+                        "name": "Cream"
+                    },
+                    {
+                        "name": "Western Mail"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Wales Online",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.lVPjCN3LmTro40TL-cwcLg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T15:56:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "Prince Harry Makes a Surprise Appearance at 2024 NFL Honors",
+                "url": "https://uk.sports.yahoo.com/news/prince-harry-makes-surprise-appearance-151328758.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.pChK4zg3WdKMlL39EX3zyC&pid=News",
+                        "width": 700,
+                        "height": 410
+                    }
+                },
+                "description": "Prince Harry made a surprise appearance at the 2024 NFL Honors on Thursday in Las Vegas. The Duke of Sussex presented the Walter Payton NFL Man of the Year Award to Pittsburgh Steelers star Cameron Heyward. Harry sported a navy suit and matching silk tie for the occasion, adding on a crisp white button-up top.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8a182278-ee48-4cc3-8a1f-a70893d74b01",
+                        "name": "Surprise"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cb1dfc65-5b19-63d4-fab5-a17c7a206ef1",
+                        "name": "NFL Honors"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo UK &amp; Ireland",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.bCGmgnmaXy3w_W9nI060kA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T15:13:00.0000000Z"
+            },
+            {
+                "name": "Makeup Revolution\u2019s new \u00a311 serum foundation gives &#39;Armani-like&#39; results for \u00a335 less",
+                "url": "https://www.ok.co.uk/lifestyle/beauty/revolution-skincare-serum-foundation-armani-32080112",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.q2KIjA5BANWYEVECdEArny&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Makeup Revolution just dropped an ultra-affordable serum infused foundation that combines makeup and skincare and is said to rival the \u00a346 Kim Kardashian-loved Armani Lumious Silk",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d7059ae5-de81-0819-fd70-c2e650b60af4",
+                        "name": "Revolution"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e6063527-e34e-1522-0736-6f4216d00b5e",
+                        "name": "Armani"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Revolution"
+                    },
+                    {
+                        "name": "Armani"
+                    },
+                    {
+                        "name": "Foundation"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "OK! Magazine UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.RWPHhKblzyP6_60q3Y3WTw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T11:57:00.0000000Z",
+                "video": {
+                    "name": "Beauty hack: OK! writer tries out new foundation routine",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/d0918439-a4ff-4ca1-ab65-84de727ad245/6e20d79f-a9fb-406a-91eb-83a9a502_650.mp4",
+                    "thumbnail": {
+                        "width": 640,
+                        "height": 360
+                    }
+                },
+                "category": "Health"
+            },
+            {
+                "name": "<b>Meghan Markle</b> could make millions amid \u2018money worries\u2019 with \u2018explosive\u2019 career comeback, says brand expert",
+                "url": "https://www.thesun.co.uk/royals/25779054/meghan-markle-make-millions-money-worries-brand-expert/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.CTH0hm16uPpfCx-uEg7o-C&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Meghan Markle could make \u201cmillions within months\u201d which will ease her \u201cmoney worries\u201d one brand expert has predicted \u2013 but it could come at a personal cost. This comes as Prince Harry jetted",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mZZguWnkRkVFPCoaQUmKEg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T10:51:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Did Vogue snub <b>Meghan Markle</b>? Royal fans question why the Duchess of Sussex didn&#39;t appear on one-time pal Edward Enninful&#39;s final cover with 40 of the world&#39;s leading ladies",
+                "url": "https://www.dailymail.co.uk/femail/article-13065211/Did-Vogue-snub-Meghan-Markle-Royal-fans-question-Duchess-Sussex-didnt-appear-one-time-pal-Edward-Enninfuls-final-cover-40-worlds-leading-ladies.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.oFkl8ZnyEPlCtlKlGA9YsC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "For royals fans, Meghan Markle, 42, who&#39;s based in California, was\u00a0noticeably absent from the impressive line-up - which also included Salma Hayek , Oprah Winfrey and Miley Cyrus.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a114f866-0b1d-4dbd-90eb-3a45b3d23a1f",
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ddb7c000-f710-87a0-dfc6-763c39ac30ee",
+                        "name": "World"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Catherine, Duchess of Cambridge"
+                    },
+                    {
+                        "name": "World"
+                    },
+                    {
+                        "name": "Meghan Markle"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T10:50:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Meghan Markle</b> skipped reunion with King to avoid &#39;uncomfortable situation&#39; after diagnosis",
+                "url": "https://www.express.co.uk/news/royal/1864967/meghan-markle-skipped-king-reunion-cancer-diagnosis",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Y2XyG4Lzi33hHCUnGBubCi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Meghan Markle stayed in California while Prince Harry rushed back to the UK hours after his father&#39;s aides confirmed he had cancer.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/607bf330-283c-e25d-6b64-69bbd33d5b72",
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "name": "Daily Express"
+                    },
+                    {
+                        "name": "Meghan Markle"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T10:37:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Prince Harry &#39;relishes the spotlight&#39; in Las Vegas after brief visit to sick King Charles",
+                "url": "https://www.irishmirror.ie/showbiz/us-gossip/prince-harry-las-vegas-superbowl-32085544",
+                "description": "After a quick trip to the UK, Prince Harry surprised fans by presenting an award at the 2024 NFL Honours ceremony in Las Vegas, where he smiled widely as he took to the stage",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/77f28672-5669-4775-a58a-b62b17779010",
+                        "name": "Ireland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9ecdd5be-baeb-d001-2fa9-4362ed99bc58",
+                        "name": "Spotlight"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Ireland"
+                    },
+                    {
+                        "name": "Spotlight"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Irish Daily Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.2BcD1ARbWJ-h3eIGF0o4xA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T10:24:00.0000000Z"
+            },
+            {
+                "name": "Piers Morgan quits TV show to focus on YouTube after &#39;getting bored&#39;",
+                "url": "https://www.leicestermercury.co.uk/news/uk-world-news/piers-morgan-quits-tv-show-9088230",
+                "description": "The disagreement occurred when Beresford criticised Morgan for constantly attacking Prince Harry&#39;s wife after her interview with American talk show host Oprah Winfrey. In a surprising turn of events, Piers walked off the set of the ITV news programme after Alex labelled his remarks about Meghan as &quot;diabolical&quot;.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4b2d786f-4d40-dd9a-2c29-31c1db8a6dd3",
+                        "name": "Leicestershire"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40caaaa3-1d34-aee8-d89f-7be6b283a917",
+                        "name": "Piers Morgan"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7e927161-920b-d128-12a0-1dcc2dcfd8b0",
+                        "name": "Television program"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Leicestershire"
+                    },
+                    {
+                        "name": "Piers Morgan"
+                    },
+                    {
+                        "name": "Television program"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Leicester Mercury",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.lFAMHmM-LrSJkx1aav-rPA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T09:47:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Piers Morgan quits TalkTV show for YouTube as he makes &#39;personal news&#39; announcement",
+                "url": "https://www.manchestereveningnews.co.uk/news/uk-news/piers-morgan-quits-talktv-show-28598962",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.J-N1HhpGhV_nBkkSLJabwC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Piers Morgan, the former Good Morning Britain presenter, has announced he&#39;s leaving TalkTV to focus on his YouTube channel, Piers Morgan Uncensored. He shared the news on Twitter, expressing his frustration with traditional TV formats and his desire for more flexibility in content creation.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40caaaa3-1d34-aee8-d89f-7be6b283a917",
+                        "name": "Piers Morgan"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6a95943f-4941-500b-bc94-8ef3203697e7",
+                        "name": "Talk TV"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Piers Morgan"
+                    },
+                    {
+                        "name": "Talk TV"
+                    },
+                    {
+                        "name": "Manchester Evening News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Manchester Evening News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.oxaa8-w2MDoXi5yOUu7A3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T07:41:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Piers Morgan to Move \u2018Uncensored\u2019 Show to YouTube: TV Schedules Are an \u2018Unnecessary Straitjacket\u2019",
+                "url": "https://uk.finance.yahoo.com/news/piers-morgan-move-uncensored-show-121355000.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.VHNAlco90gVkJ8wLUGq7dy&pid=News",
+                        "width": 700,
+                        "height": 394
+                    }
+                },
+                "description": "Piers Morgan has announced his \u201cUncensored\u201d show is moving from TalkTV to YouTube, citing the \u201cunnecessary straitjacket\u201d of TV schedules. In an interview with The Times, Morgan said he will now focus on growing the \u201cUncensored\u201d YouTube channel,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40caaaa3-1d34-aee8-d89f-7be6b283a917",
+                        "name": "Piers Morgan"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Finance",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.LBn5t3rqxzpf5jMTBU81BA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T07:13:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Piers Morgan quits TV to become a YouTube star",
+                "url": "https://www.walesonline.co.uk/lifestyle/tv/piers-morgan-quits-tv-become-28598767",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.wEEBsmja3HHKBpprVFt-hy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Piers Morgan has quit TV to become star on YouTube. The Mirror reports he is leaving his TalkTV presenting job to take his show online instead.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40caaaa3-1d34-aee8-d89f-7be6b283a917",
+                        "name": "Piers Morgan"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Piers Morgan"
+                    },
+                    {
+                        "name": "Star"
+                    },
+                    {
+                        "name": "Western Mail"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Wales Online",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.lVPjCN3LmTro40TL-cwcLg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T06:30:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Meghan Markle</b> &#39;will not appear in Suits reboot&#39;",
+                "url": "https://sg.news.yahoo.com/meghan-markle-not-appear-suits-104633382.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Z0sghru1QYkSFqpDAAttTC&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "<b>Meghan Markle</b> will not be involved with the LA-based Suits reboot, according to reports. It was confirmed last month that a spin-off of the legal drama, which propelled <b>Markle</b> into the spotlight, has been greenlit. The Duchess of Sussex played the roll of ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News Singapore"
+                    }
+                ],
+                "datePublished": "2024-02-09T02:45:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "The Grand Tour: Sand Job, review: tired, flabby, in need of a rest \u2013 and that&#39;s just the show",
+                "url": "https://www.telegraph.co.uk/tv/2024/02/09/the-grand-tour-sand-job-review-sahara-dakar-clarkson/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.bv26qvmRgUkyeALaiRFDjS&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "The penultimate episode of Jeremy Clarkson, James May and Richard Hammond&#39;s motoring show feels a lot like a slog across the Sahara",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9d9df36d-c3a8-1d37-f2e3-5c4bffd9c72f",
+                        "name": "Grand Tour"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Grand Tour"
+                    },
+                    {
+                        "name": "Job"
+                    },
+                    {
+                        "name": "Rest"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-09T00:01:00.0000000Z"
+            },
+            {
+                "name": "Prince Harry and <b>Meghan Markle</b> are coming to Canada next week",
+                "url": "https://www.thespec.com/life/prince-harry-and-meghan-markle-are-coming-to-canada-next-week/article_18b0e5b2-1477-5b5a-b348-8aec6d86f301.html",
+                "description": "Forget the candlelit dinner and extended gazing into each others\u2019 eyes over a chocolate souffl\u00e9: <b>Meghan</b> and Harry\u2019s Valentine\u2019s Day plans for 2024 have been revealed, and they\u2019re unexpectedly\u2026Canadian.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Hamilton Spectator"
+                    }
+                ],
+                "datePublished": "2024-02-08T23:59:00.0000000Z"
+            },
+            {
+                "name": "<b>Meghan</b> felt too &#39;uncomfortable&#39; to visit royals after King Charles&#39; cancer news",
+                "url": "https://www.dailyrecord.co.uk/entertainment/celebrity/meghan-felt-uncomfortable-visit-royals-32085042",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.0BjQQRCMMPkndnh2J3VoYS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "<b>Meghan Markle</b> chose to stay in California while Prince Harry made a fleeting visit back to the UK after King Charles was diagnosed with cancer. The Duke of Sussex had a whirlwind 24 hours in London and travelled to Clarence House, where he had a brief 30 ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/607bf330-283c-e25d-6b64-69bbd33d5b72",
+                        "name": "Charles I of England"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fb6f4f93-ce23-76a6-98b5-3ab6b5286762",
+                        "name": "Daily Record"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Record"
+                    }
+                ],
+                "datePublished": "2024-02-08T23:59:00.0000000Z"
+            },
+            {
+                "name": "We finally know if <b>Meghan Markle</b> will take part in the new LA-based Suits reboot",
+                "url": "https://goss.ie/featured/we-finally-know-if-meghan-markle-will-take-part-in-the-new-la-based-suits-reboot-369396",
+                "description": "<b>Meghan Markle</b> has reportedly turned down a role in the upcoming Suits reboot, which will be based in Los Angeles. Last month, it was reported that a spin-off series entitled Suits: LA was in the works, four years after the original show came to an end.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e4308957-a185-03fa-10ed-3c7b47fd0aea",
+                        "name": "Meghan Markle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/22ae7ce8-15f0-4187-ac32-b212cc9ee87e",
+                        "name": "Suits"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/63f10dac-fc19-221d-52cc-54ed8a81865e",
+                        "name": "Reboot"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "goss"
+                    }
+                ],
+                "datePublished": "2024-02-08T23:59:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Inside Prince Harry&#39;s \u20ac1,870-an-hour VIP lounge at Heathrow with private butler",
+                "url": "https://www.irishmirror.ie/showbiz/us-gossip/inside-prince-harrys-1870-hour-32089123",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Lup2TLiiKyBcByR5ml2t6S&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "After meeting for a brief 30 minute reunion, Prince Harry made his way back to the States to wife <b>Meghan Markle</b> and their children Prince Archie and Princess Lilibet. Now pictures from inside his VIP lounge in Heathrow have revealed Harry&#39;s luxury waiting ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/77f28672-5669-4775-a58a-b62b17779010",
+                        "name": "Ireland"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "name": "Ireland"
+                    },
+                    {
+                        "name": "Airport lounge"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Irish Daily Mirror"
+                    }
+                ],
+                "datePublished": "2024-02-08T23:59:00.0000000Z"
+            },
+            {
+                "name": "Prince Harry Leaves London, 24 Hours After Arriving",
+                "url": "https://ca.yahoo.com/style/prince-harry-leaves-london-24-154800098.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.bb7MipzrW5vtZaP44Axl_S&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Multiple outlets have reported that Harry stayed in a hotel last night, rather than a royal residence. (He and <b>Meghan Markle</b> moved out of their Frogmore Cottage home last year at the request of the King.) Yesterday, Prince Harry spent around 30 to 45 ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2d199720-b7fa-45d0-82fb-e8e27cc5c0b6",
+                        "name": "Leaves"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8e0ba7b6-4225-fa8a-6369-1b5294e602a5",
+                        "name": "London"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Style Canada"
+                    }
+                ],
+                "datePublished": "2024-02-08T10:48:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "<b>Meghan</b> has a chance of becoming Queen before Kate \u2013 with a very, very big asterisk",
+                "url": "https://metro.co.uk/2024/02/08/meghan-a-chance-become-queen-england-a-big-asterisk-20247986/?ico=trending-module_tag_weird-news_item-0",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.rwqNyeJBAK4FW2gE8KyeCC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "If <b>Meghan Markle</b> harbours any ambitions to become the Queen of England, she\u2019s going about it quite a strange way. When she got engaged to Prince Harry in 2017, he was only fifth in line to the British throne. And then, of course, the couple decided to ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d90ae9bb-1ac8-e5ef-b917-f33d5feee2f1",
+                        "name": "Queen"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2872a54f-b045-8fe3-d356-1aa538e14812",
+                        "name": "Metro International"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Metro"
+                    }
+                ],
+                "datePublished": "2024-02-08T08:56:00.0000000Z"
+            },
+            {
+                "name": "Prince Harry Left London 24 Hours After Arriving To See King Charles",
+                "url": "https://uk.yahoo.com/style/prince-harry-left-london-24-182100636.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.bb7MipzrW5vtZaP44Axl_S&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Multiple outlets have reported that Harry stayed in a hotel last night, rather than a royal residence. (He and <b>Meghan Markle</b> moved out of their Frogmore Cottage home last year at the request of the King.) Yesterday, Prince Harry spent around 30 to 45 ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae7736c2-4291-bc85-8732-6d20c29ff943",
+                        "name": "Prince Harry"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8e0ba7b6-4225-fa8a-6369-1b5294e602a5",
+                        "name": "London"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/607bf330-283c-e25d-6b64-69bbd33d5b72",
+                        "name": "Charles I of England"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Style UK"
+                    }
+                ],
+                "datePublished": "2024-02-07T13:21:00.0000000Z",
+                "category": "Entertainment"
+            }
+        ]
+    }
+]
