@@ -6,7 +6,8 @@ COPY requirements.txt .
 RUN apt-get update && apt-get install -y --no-install-recommends gcc libc6-dev \
     && rm -rf /var/lib/apt/lists/* \
     && pip install --upgrade pip \
-    && pip wheel --no-cache-dir --no-deps --wheel-dir /usr/src/app/wheels -r requirements.txt
+    && pip wheel --no-cache-dir --no-deps --wheel-dir /usr/src/app/wheels -r requirements.txt \
+    && pip wheel --no-cache-dir --no-deps --wheel-dir /usr/src/app/wheels newssentiment==1.1.25
 
 # Stage B: Production stage for creating the final image
 FROM python:3.8-slim
