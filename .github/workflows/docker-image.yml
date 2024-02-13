@@ -103,6 +103,7 @@ jobs:
             export DB_USER='${{ secrets.DB_USER }}'
             export DB_PASSWORD='${{ secrets.DB_PASSWORD }}'
             export DB_PORT='${{ secrets.DB_PORT }}'
+            export DJANGO_DEBUG ='${{ secrets.DJANGO_DEBUG }}'
             
             cd /var/www/Django_App/prominent_profiles
             docker pull ghcr.io/meeky37/fy-project/nginx:latest
