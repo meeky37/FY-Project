@@ -29,7 +29,7 @@ else:
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv('DEBUG', 'FALSE'),
 
-ALLOWED_HOSTS = ["localhost", "http://157.245.46.42", "http://www.prominentprofiles.com"]
+ALLOWED_HOSTS = ["localhost", "157.245.46.42", "www.prominentprofiles.com"]
 
 # Application definition
 
@@ -89,7 +89,8 @@ MIDDLEWARE = [
 #                         "http://localhost:8089",
 #                         ]
 
-CORS_ALLOWED_ORIGINS = ["http://localhost:8080", "157.245.46.42", "www.prominentprofiles.com"]
+CORS_ALLOWED_ORIGINS = ["http://localhost:8080", "http://157.245.46.42",
+                        "http://www.prominentprofiles.com"]
 
 CORS_ALLOW_HEADERS = [
     'accept',
