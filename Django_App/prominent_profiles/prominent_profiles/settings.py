@@ -29,7 +29,10 @@ else:
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv('DEBUG', 'FALSE'),
 
-ALLOWED_HOSTS = ["localhost", "157.245.46.42", "www.prominentprofiles.com"]
+ALLOWED_HOSTS = ["localhost", "157.245.46.42", "www.prominentprofiles.com",
+                 "prominentprofiles.com",
+                 "api.ipify.org",
+                "www.shadowserver.org"]
 
 # Application definition
 
