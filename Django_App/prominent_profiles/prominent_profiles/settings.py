@@ -32,7 +32,7 @@ DEBUG = os.getenv('DEBUG', 'FALSE'),
 ALLOWED_HOSTS = ["localhost", "157.245.46.42", "www.prominentprofiles.com",
                  "prominentprofiles.com",
                  "api.ipify.org",
-                "www.shadowserver.org"]
+                "www.shadowserver.org", "0.0.0.0"]
 
 # Application definition
 
