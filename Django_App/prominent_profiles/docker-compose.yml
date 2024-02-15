@@ -32,10 +32,29 @@ services:
       - .:/app
       - static_volume:/usr/share/nginx/html/static
       - media_volume:/usr/share/nginx/html/media
+      - ./letsencrypt:/etc/letsencrypt
+      - ./lib/letsencrypt:/var/lib/letsencrypt
+      - ./webroot:/var/www/certbot
     ports:
       - "80:80"
+      - "443:443"
     depends_on:
       - web
+
+  certbot:
+    image: certbot/certbot
+    volumes:
+      - ./letsencrypt:/etc/letsencrypt
+      - ./lib/letsencrypt:/var/lib/letsencrypt
+      - ./webroot:/var/www/certbot
+      - ./nginx:/etc/nginx:ro
+    depends_on:
+      - nginx
+    entrypoint: "/bin/sh -c 'trap exit TERM; while :; do certbot renew; sleep 1d & wait $${!}; done;'"
+    command: >
+      certonly --webroot --webroot-path=/var/www/certbot
+      --email ${CERTBOT_EMAIL} --agree-tos --no-eff-email
+      --staging -d prominentprofiles.com -d www.prominentprofiles.com
 
 volumes:
   postgres_data:

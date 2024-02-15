@@ -92,8 +92,14 @@ MIDDLEWARE = [
 #                         "http://localhost:8089",
 #                         ]
 
-CORS_ALLOWED_ORIGINS = ["http://localhost:8080", "http://157.245.46.42",
-                        "http://www.prominentprofiles.com"]
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:8080",
+    "https://localhost:8080",
+    "http://157.245.46.42",
+    "https://157.245.46.42",
+    "http://www.prominentprofiles.com",
+    "https://www.prominentprofiles.com",
+]
 
 CORS_ALLOW_HEADERS = [
     'accept',
