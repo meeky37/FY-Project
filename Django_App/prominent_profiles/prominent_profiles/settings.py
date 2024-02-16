@@ -31,8 +31,7 @@ DEBUG = os.getenv('DEBUG', 'FALSE'),
 
 ALLOWED_HOSTS = ["localhost", "157.245.46.42", "www.prominentprofiles.com",
                  "prominentprofiles.com",
-                 "api.ipify.org",
-                "www.shadowserver.org", "0.0.0.0"]
+                 "api.ipify.org", "www.shadowserver.org", "0.0.0.0"]
 
 # Application definition
 
@@ -64,7 +63,7 @@ AUTH_USER_MODEL = 'accounts.CustomUser'
 
 SIMPLE_JWT = {
     'AUTH_HEADER_TYPES': ('Bearer',),
-    'TOKEN_COOKIE_SECURE': False,  # True for production will need HTTPS setup.
+    'TOKEN_COOKIE_SECURE': True,  # True for production will need HTTPS setup.
     'TOKEN_COOKIE_HTTPONLY': True,
 }
 
@@ -123,11 +122,14 @@ CORS_ALLOW_METHODS = [
 ]
 
 CORS_ALLOW_CREDENTIALS = True
-
-CSRF_COOKIE_SECURE = False
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = True
 CSRF_COOKIE_NAME = "csrftoken"
 CSRF_HEADER_NAME = "HTTP_X_CSRFTOKEN"
-CSRF_TRUSTED_ORIGINS = ['http://localhost:8080']
+CSRF_TRUSTED_ORIGINS = ['http://localhost:8080',
+                        "https://www.prominentprofiles.com"]
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+
 
 #
 # CORS_ALLOWED_ORIGINS = [
