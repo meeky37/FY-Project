@@ -17,7 +17,7 @@ services:
       - DB_USER=${DB_USER}
       - DB_PASSWORD=${DB_PASSWORD}
       - DB_HOST=${DB_HOST}
-      - DB_POST=${DB_PORT}
+      - DB_PORT=${DB_PORT}
       - RUNNING_IN_DOCKER=${RUNNING_IN_DOCKER}
       - SECRET_KEY=${SECRET_KEY}
 
@@ -27,9 +27,8 @@ services:
       - .:/app
       - static_volume:/usr/share/nginx/html/static
       - media_volume:/usr/share/nginx/html/media
-      - ./letsencrypt:/etc/letsencrypt
-      - ./lib/letsencrypt:/var/lib/letsencrypt
-      - ./webroot:/var/www/certbot
+      - /var/www/static/:/var/www/static/
+      - ./nginx/conf.d/:/etc/nginx/conf.d/
     ports:
       - "80:80"
       - "443:443"
@@ -39,10 +38,8 @@ services:
   certbot:
     image: certbot/certbot
     volumes:
-      - ./letsencrypt:/etc/letsencrypt
-      - ./lib/letsencrypt:/var/lib/letsencrypt
-      - ./webroot:/var/www/certbot
-      - ./nginx:/etc/nginx:ro
+      - /var/certbot/conf:/etc/letsencrypt/:rw
+      - /var/certbot/www/:/var/www/certbot/:rw
     depends_on:
       - nginx
     entrypoint: "/bin/sh -c 'trap exit TERM; while :; do certbot renew; sleep 1d & wait $${!}; done;'"
