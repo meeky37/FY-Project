@@ -23,8 +23,6 @@ services:
 
   vuejs:
     image: ghcr.io/meeky37/fy-project/vuejs:latest
-    build:
-      context: ../Vue_js/prominent_profiles
     ports:
       - "8080:80" # Expose Vue.js app on port 8080 on the host (was at 8080 when local).
     depends_on:
