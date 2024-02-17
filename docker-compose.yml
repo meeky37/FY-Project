@@ -9,7 +9,7 @@ services:
                   python manage.py migrate &&
                   gunicorn prominent_profiles.wsgi:application --bind 0.0.0.0:8000"
     volumes:
-      - .:/app
+      - ./Django_App/prominent_profiles
       - media_volume:/app/nlp_processor/media
       - static_volume:/app/static
     ports:
@@ -37,7 +37,7 @@ services:
       dockerfile: Dockerfile.nginx
     image: ghcr.io/meeky37/fy-project/nginx:latest
     volumes:
-      - .:/app
+#      - ./Django_App/prominent_profiles #Remove later and see if actually required.
       - static_volume:/usr/share/nginx/html/static
       - media_volume:/usr/share/nginx/html/media
     ports:
