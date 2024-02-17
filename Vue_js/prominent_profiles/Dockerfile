@@ -2,7 +2,7 @@
 FROM node:lts-alpine as build-stage
 WORKDIR /app
 COPY package*.json ./
-RUN npm install --force # Ignore ES Lint
+RUN npm ci --force # Ignore ES Lint
 COPY . .
 RUN npm run build
 

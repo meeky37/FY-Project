@@ -21,12 +21,12 @@ services:
       - RUNNING_IN_DOCKER=${RUNNING_IN_DOCKER}
       - SECRET_KEY=${SECRET_KEY}
 
-  vuejs:
-    image: ghcr.io/meeky37/fy-project/vuejs:latest
-    ports:
-      - "8080:80" # Expose Vue.js app on port 8080 on the host (was at 8080 when local).
-    depends_on:
-      - web
+#  vuejs:
+#    image: ghcr.io/meeky37/fy-project/vuejs:latest
+#    ports:
+#      - "8080:80" # Expose Vue.js app on port 8080 on the host (was at 8080 when local).
+#    depends_on:
+#      - web
 
   nginx:
     image: ghcr.io/meeky37/fy-project/nginx:latest
