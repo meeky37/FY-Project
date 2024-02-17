@@ -495,6 +495,7 @@ export default {
 .input-field {
   font-size: large;
   height: 40px;
+  min-width: 300px;
   text-align: left;
   font-weight: bold;
   text-decoration: none;

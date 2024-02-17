@@ -139,7 +139,7 @@ export default {
       return htmlString.replace(/<b>/g, '').replace(/<\/b>/g, '')
     },
 
-    truncateString (str, maxLength = 90) {
+    truncateString (str, maxLength = 65) {
       if (str.length > maxLength) {
         return str.substring(0, maxLength) + '...'
       }

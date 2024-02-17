@@ -98,6 +98,8 @@ header {
 }
 
 .logo {
+  margin-top: 4px;
+  min-height: 45px;
   max-width: 30vw;
   max-height: 5vh;
   color: #2c3e50;
