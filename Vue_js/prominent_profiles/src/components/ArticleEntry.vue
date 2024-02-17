@@ -6,7 +6,7 @@
         <h3 v-html="entry.headline" class="headline"></h3>
        <div v-if="entry.url" class="url-container">
           <div class="url-subsection">
-            {{ getSubsection(entry.url) }}
+            {{ getSubsection(entry.url, substringLength) }}
           </div>
           <a :href="entry.url" target="_blank" rel="noopener noreferrer" class="external-link">
             <font-awesome-icon :icon="['fas', 'external-link-alt']" />
@@ -32,7 +32,7 @@
   </div>
 </template>
 <script>
-import { computed } from 'vue'
+import { computed, ref } from 'vue'
 import { format } from 'date-fns'
 import { useRouter, useRoute } from 'vue-router'
 import { getSubsection } from '../shared_methods/common_requests.js'
@@ -81,10 +81,17 @@ export default {
       return isNaN(negative) ? '0%' : `${negative.toFixed(1)}%`
     })
 
+    const windowWidth = ref(window.innerWidth)
+
+    const substringLength = computed(() => {
+      return windowWidth.value <= 950 ? 10 : 15
+    })
+
     return {
       formatPublicationDate,
       isWidthSufficient,
       getSubsection,
+      substringLength,
       viewArticleDetailArticleEntry,
       positiveWidth,
       neutralWidth,

@@ -72,7 +72,7 @@ onMounted(() => {
     border: 1px solid #ddd;
     border-radius: 8px;
     min-height: 20vh;
-    max-width: 85vw;
+    max-width: 95vw;
   }
 
   img {
@@ -84,7 +84,7 @@ onMounted(() => {
 
   .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     column-gap: 0px;
     row-gap: 0px;
   }

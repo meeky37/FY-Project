@@ -103,9 +103,8 @@ export const viewArticleDetail = function (articleID) {
   this.$router.push({ name: 'entryId', params: { entityId, articleId } })
 }
 
-export const getSubsection = (url) => {
+export const getSubsection = (url, maxChars = 15) => {
   const match = url.match(/^(https?:\/\/)?(?:www\.)?([^/]+)/)
   const subsection = match ? match[2] : ''
-  const maxChars = 15
   return subsection.length > maxChars ? `${subsection.substring(0, maxChars)}...` : subsection
 }
