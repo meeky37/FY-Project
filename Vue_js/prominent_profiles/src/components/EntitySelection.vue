@@ -110,11 +110,12 @@ export default {
 }
 
 .dropdown {
-  width: 20vw;
+  min-width: 30vw;
+  width: auto;
   font-size: large;
   height: 40px;
-  margin-right: 10px;
-  margin-left: 30px;
+  margin-right: 0px;
+  margin-left: 0px;
   text-align: left;
   font-weight: bold;
   text-decoration: none;
@@ -131,11 +132,12 @@ export default {
   background-color: #755BB4;
   border-radius: 5px;
   margin-left: 20px; /* Space between dropdown and button */
-  margin-right: 60px;
+  margin-right: 10px;
 }
 
 .button-container:hover {
    outline: 2px solid #fff;
    outline-offset: 3px;
 }
+
 </style>

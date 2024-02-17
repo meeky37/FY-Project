@@ -68,7 +68,7 @@ onMounted(() => {
   .card {
     position: relative;
     overflow: hidden;
-    margin: 10px auto;
+    margin: 10px;
     border: 1px solid #ddd;
     border-radius: 8px;
     min-height: 20vh;

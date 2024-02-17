@@ -3,7 +3,10 @@
     <header>
       <div class="logo-container">
         <a href="/">
-          <img src="@/assets/profiles rework left align.png" alt="Logo" class="logo" />
+          <img v-if="!showLogoOnly" src="@/assets/profiles rework left align.png" alt="Logo"
+               class="logo" />
+          <img v-if="showLogoOnly" src="@/assets/profiles rework logo only.png" alt="Logo"
+               class="logo" />
         </a>
       </div>
       <div class="centered-content">
@@ -61,10 +64,12 @@ export default {
     })
 
     const showMenuIcon = computed(() => windowWidth.value <= 950)
+    const showLogoOnly = computed(() => windowWidth.value <= 950)
 
     return {
       authenticated,
       showMenuIcon,
+      showLogoOnly,
       logonRedirect,
       logout
     }
@@ -93,7 +98,8 @@ header {
 }
 
 .logo {
-  max-width: 20vw;
+  max-width: 30vw;
+  max-height: 5vh;
   color: #2c3e50;
 }
 
@@ -123,6 +129,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-right: 3vw;
 }
 
 .nav-link:hover {
@@ -140,6 +147,7 @@ nav {
   border-radius: 5px;
 }
 </style>
+
 <!--TBC if I replace with icon over "menu"-->
 <!--.menu-icon {-->
 <!--  width: 24px;-->

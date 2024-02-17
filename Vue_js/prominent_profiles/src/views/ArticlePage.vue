@@ -33,11 +33,11 @@
         :options="options"
         :re_render="re_render"
         @updateReRender="updateReRender"
-        class="flex-box"
+        class="article-box"
       />
       <ArticleOtherEntities
         :Article="otherArticles"
-        class="flex-box"
+        class="article-box"
       />
     </div>
   </div>
@@ -199,13 +199,9 @@ export default {
   margin: 0 20px 20px;
 }
 
-.flex-box{
-  margin: 0 20px 20px;
-}
-
 .article-box {
   border: 1px solid #ccc;
-  min-width: 20vw;
+  min-width: 425px;
   max-width: 50vw;
   padding: 10px;
   border-radius: 8px;

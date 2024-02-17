@@ -179,6 +179,7 @@ export default {
 
 .input-field {
   width: 20vw;
+  min-width: 300px;
   font-size: large;
   height: 40px;
   text-align: left;

@@ -139,7 +139,7 @@ export default {
       return htmlString.replace(/<b>/g, '').replace(/<\/b>/g, '')
     },
 
-    truncateString (str, maxLength = 140) {
+    truncateString (str, maxLength = 90) {
       if (str.length > maxLength) {
         return str.substring(0, maxLength) + '...'
       }
@@ -254,7 +254,7 @@ export default {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    min-width: 300px;
+    min-width: 200px;
   }
 
   .animated-positive, .animated-negative {
@@ -282,18 +282,18 @@ export default {
   .neutral {
   color: deepskyblue;
   font-size: 2em;
-}
+  }
 
   .entity-photo-frame {
   border: 4px solid #755BB4;
   border-radius: 8px;
   overflow: visible;
-}
+  }
 
   .entity-photo {
   position: relative;
   cursor: pointer;
-}
+  }
 
   .entity-photo img {
   margin: 0;
@@ -301,7 +301,7 @@ export default {
   height: 100%;
   vertical-align: bottom;
   border-radius: 4px;
-}
+  }
 
   .entity-name {
     margin-bottom: 0px;
