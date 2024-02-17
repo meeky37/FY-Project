@@ -29,6 +29,7 @@ jobs:
          run: |
            docker-compose build
            docker push ghcr.io/meeky37/fy-project/nginx:latest
+           docker push ghcr.io/meeky37/fy-project/vuejs:latest
            docker push ghcr.io/meeky37/fy-project/web:latest
          env:
            RUNNING_IN_DOCKER: ${{ secrets.RUNNING_IN_DOCKER }}
@@ -108,6 +109,7 @@ jobs:
             
             cd /var/www/Django_App/prominent_profiles
             docker pull ghcr.io/meeky37/fy-project/nginx:latest
+            docker pull ghcr.io/meeky37/fy-project/vuejs:latest
             docker pull ghcr.io/meeky37/fy-project/web:latest
             docker-compose up -d
             docker image prune -af
