@@ -118,11 +118,11 @@ export default {
   justify-content: right;
   flex: 1;
   font-size: small;
-
+  max-width: 88%;
 }
 
 .article-image {
-  max-width: 48%;
+  max-width: 45%;
   margin-right: 10px;
   justify-content: left;
   flex: 1;

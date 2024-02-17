@@ -201,7 +201,7 @@ export default {
 
 .article-box {
   border: 1px solid #ccc;
-  min-width: 425px;
+  min-width: 300px;
   max-width: 50vw;
   padding: 10px;
   border-radius: 8px;
