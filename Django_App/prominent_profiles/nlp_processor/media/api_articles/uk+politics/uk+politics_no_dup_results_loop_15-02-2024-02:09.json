@@ -1,0 +1,2292 @@
+[
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics",
+        "queryContext": {
+            "originalQuery": "uk politics",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 13,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Overseas student applications to <b>UK</b> universities rise again",
+                "url": "https://www.bbc.com/news/education-68294078",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Ou3VkrMiW1XZbiI1gQYD_S&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "A report from the British Council last week suggested the &quot;post-Covid boom&quot; in international-student numbers would end this year, because of &quot;rising <b>political</b> pressure against migration&quot; and the increasing cost of studying in the <b>UK</b>. Signs of pressure on ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC"
+                    }
+                ],
+                "datePublished": "2024-02-15T02:05:00.0000000Z"
+            },
+            {
+                "name": "Sunak Faces Electoral Tests That Risk Encouraging Tory Plotters",
+                "url": "https://uk.news.yahoo.com/sunak-faces-electoral-tests-risk-000100344.html",
+                "description": "Still, much of the <b>political</b> focus will be on the Reform <b>UK</b> party and its ability to siphon off support from the Conservatives. That is the nightmare scenario for many Tory Members of Parliament, who fear a split in the right-wing vote will facilitate a ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8bcfa984-e8c9-7ea0-4e05-1fc7832e2cf3",
+                        "name": "Plaza"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b7baa3a2-9d22-da6e-26f3-3119a50730fb",
+                        "name": "Plotter"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK"
+                    }
+                ],
+                "datePublished": "2024-02-15T01:09:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Vikings and their impact in Britain examined in new set of stamps issued by Royal Mail",
+                "url": "https://www.dailymail.co.uk/news/article-13085445/Vikings-Britain-new-stamps-issued-Royal-Mail.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.BQKVgp5TcNidGnBici6_fi&pid=News",
+                        "width": 634,
+                        "height": 380
+                    }
+                },
+                "description": "The impact the Vikings had on Britain is being examined in a new set of stamps issued by Royal Mail. The eight stamps feature Viking artefacts and locations of significance.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/93a3e0e2-aecf-e53b-8432-c15f400cfb4e",
+                        "name": "Daily Mail"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/828d06df-c28f-ac2d-1df0-c28b20151139",
+                        "name": "Viking"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T00:34:00.0000000Z"
+            },
+            {
+                "name": "Sunak braced for double by-election test in Wellingborough and Kingswood",
+                "url": "https://www.irishnews.com/news/uk/sunak-braced-for-double-by-election-test-in-wellingborough-and-kingswood-FB2YR7ZL2VIJNLD5MZWOKYH5GA/",
+                "description": "Rishi Sunak is braced for tests in Wellingborough and Kingswood, where Labour hopes to flip Tory majorities in the tens of thousands.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/79dd2f21-0dd1-9c0e-1310-9b93cd0cac67",
+                        "name": "Kingswood"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/73388964-99e9-bfa8-c8a4-0331f036fdb6",
+                        "name": "Wellingborough"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Kingswood"
+                    },
+                    {
+                        "name": "Wellingborough"
+                    },
+                    {
+                        "name": "By-election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Irish News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.__x40GFqMbYWdAqfe63VNg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T00:28:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Sturgeon\u2019s legacy: One year since <b>political</b> big fish resigned as first minister",
+                "url": "https://www.thenorthernecho.co.uk/news/national/24120929.sturgeons-legacy-one-year-since-political-big-fish-resigned-first-minister/",
+                "description": "But 12 months later, amid investigations and inquiries, Ms Sturgeon\u2019s name remains at the forefront of the <b>political</b> landscape ... of informal messages received and sent during the <b>UK</b> Covid-19 Inquiry. During her evidence to the inquiry\u2019s Edinburgh ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d3e4b2b5-a5c3-9a7e-6dd8-089b9b5bb22b",
+                        "name": "Sturgeon"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Northern Echo"
+                    }
+                ],
+                "datePublished": "2024-02-15T00:02:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "New stamps celebrate history and legacy of Vikings in Britain",
+                "url": "https://www.theargus.co.uk/news/national/24120921.new-stamps-celebrate-history-legacy-vikings-britain/",
+                "description": "the answer is that they transformed Britain and left an enduring influence on the languages, economy, society and <b>political</b> geography of the <b>UK</b> forever. \u201cTheir impact was enormous and cannot be overlooked. \u201cWe hope these stamps will inspire people to ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/828d06df-c28f-ac2d-1df0-c28b20151139",
+                        "name": "Viking"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Argus"
+                    }
+                ],
+                "datePublished": "2024-02-15T00:02:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Nurses call for emergency measures amid decline in student applications",
+                "url": "https://www.gazetteandherald.co.uk/news/national/24120919.nurses-call-emergency-measures-amid-decline-student-applications/",
+                "description": "In the <b>UK</b> overall, the number of nursing applicants \u2013 of all ages ... She added: \u201cThese latest figures expose a widening gap between the aspirations of the plan and the level of <b>political</b> effort required to make them a reality. This needs immediate ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4ebe79fa-f77b-5216-7ef9-f8ea04679349",
+                        "name": "Wiltshire"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Gazette and Herald"
+                    }
+                ],
+                "datePublished": "2024-02-15T00:02:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "<b>UK</b> politicians must step up and fight this tide of antisemitism",
+                "url": "https://www.thetimes.co.uk/article/uk-politicians-must-step-up-and-fight-this-tide-of-antisemitism-9qgjf9l7n",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.JYAEg-dqQ38j_9O3ZkB2pC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The government\u2019s independent adviser on antisemitism says abuse must stop before the UK heads down a slippery slope",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/146f2c34-a3c4-7c7a-b958-63b4f8956e0b",
+                        "name": "Antisemitism"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T00:01:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Glasgow Film Festival unveils 20th anniversary programme",
+                "url": "https://www.standard.co.uk/showbiz/celebrity-news/viggo-mortensen-george-mackay-the-beast-scottish-kevin-macdonald-b1139249.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.N34NejZw4gc5taInP5AX9i&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Bafta-winning British-Palestinian director Farah Nabulsi will bring the <b>UK</b> premiere of her new feature The Teacher, about a Palestinian school teacher struggling to reconcile his life-threatening commitment to <b>political</b> resistance with the chance of a new ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5b52072f-918f-c2c8-b892-70b5c4485e4a",
+                        "name": "George MacKay"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2c1aabb0-7ce1-d85f-7285-c4140b31f93a",
+                        "name": "Kevin Macdonald"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6af09bca-4a44-86e4-e846-a79ababf0252",
+                        "name": "Viggo Mortensen"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "George MacKay"
+                    },
+                    {
+                        "name": "Kevin Macdonald"
+                    },
+                    {
+                        "name": "Viggo Mortensen"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "datePublished": "2024-02-15T00:00:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Cameron disparaged by Republican right-winger after call for Ukraine funding",
+                "url": "https://www.watfordobserver.co.uk/news/national/24120837.cameron-disparaged-republican-right-winger-call-ukraine-funding/",
+                "description": "Lord David Cameron has attracted the ire of Republican right-winger Marjorie Taylor Greene after urging US lawmakers to pass a bill including support for Ukraine. The UK Foreign Secretary was told to \u201cfocus on his own country\u201d following his intervention over the multibillion-dollar foreign aid package making its way through Congress.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/05973aa9-1608-8d06-96d6-e4ce0311b75a",
+                        "name": "David Cameron"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ad599477-9e6d-4a0e-bab5-0edf9db7115a",
+                        "name": "Ukraine"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Watford Observer",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RvCo_z4icgtlrQyFfJxOg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T20:58:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "In full: The <b>Politics</b> Hub with Mark Austin",
+                "url": "https://news.sky.com/video/in-full-the-politics-hub-with-mark-austin-13071790",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.FG_fMBVUr0EoadLPIOkjey&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "David Cameron has made an unashamed attempt to sway US politicians as a new funding package for Ukraine hangs in the balance. It hasn&#39;t gone down well with a Trump-backing Republican. Back here in Westminster, Labour&#39;s Keir Starmer is grappling with a ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fdf703eb-aba7-d70b-48ec-abff6788d99c",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky"
+                    }
+                ],
+                "datePublished": "2024-02-14T20:25:00.0000000Z",
+                "video": {
+                    "name": "In full: The Politics Hub with Mark Austin",
+                    "thumbnailUrl": "https://www.bing.com/th?id=OVF.uTLRlAKo82OVtUDpdKGvjA&pid=News",
+                    "duration": "PT2S",
+                    "thumbnail": {
+                        "width": 520,
+                        "height": 292
+                    }
+                }
+            },
+            {
+                "name": "What is Disease X? What we know about the \u2018next pandemic\u2019",
+                "url": "https://metro.co.uk/2024/02/14/what-is-disease-x-next-pandemic-who-covid-20277106/?ico=trending-module_tag_social-media_item-0",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.SIbm1X58rtDAvhu__IVoIy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The <b>UK</b> and other G7 countries signed up to the \u2018100 Days Mission ... Conspiracy theorists believe that <b>political</b> and business leaders meet at Davos to enact these plans. The \u2018Great Reset\u2019 claims have been debunked by fact-checking organisation ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2872a54f-b045-8fe3-d356-1aa538e14812",
+                        "name": "Metro International"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Metro International"
+                    },
+                    {
+                        "name": "Disease"
+                    },
+                    {
+                        "name": "ABC World News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Metro"
+                    }
+                ],
+                "datePublished": "2024-02-14T10:58:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "The Mayorkas impeachment was a classic example of performance <b>politics</b>",
+                "url": "https://uk.news.yahoo.com/mayorkas-impeachment-classic-example-performance-171745698.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.3NYLRPdllG2s_5_eaUxI_S&pid=News",
+                        "width": 700,
+                        "height": 524
+                    }
+                },
+                "description": "Like most of the House GOP&#39;s passed legislation this session, Mayorkas&#39; partisan impeachment won&#39;t actually accomplish anything.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1697aff5-4a59-0de6-3e14-f5df930f40b1",
+                        "name": "Alejandro Mayorkas"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/934b3860-599d-36aa-375e-3e86d935d9d9",
+                        "name": "Impeachment"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T09:17:00.0000000Z",
+                "video": {
+                    "name": "The Mayorkas impeachment was a classic example of performance politics",
+                    "thumbnailUrl": "https://www.bing.com/th?id=OVF.0B16MDkLmIqljptAif%2F%2FMA&pid=News",
+                    "thumbnail": {
+                        "width": 520,
+                        "height": 389
+                    }
+                },
+                "category": "World"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics",
+        "queryContext": {
+            "originalQuery": "uk politics",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 117,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Overseas student applications to <b>UK</b> universities rise again",
+                "url": "https://www.bbc.com/news/education-68294078",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Ou3VkrMiW1XZbiI1gQYD_S&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "A report from the British Council last week suggested the &quot;post-Covid boom&quot; in international-student numbers would end this year, because of &quot;rising <b>political</b> pressure against migration&quot; and the increasing cost of studying in the <b>UK</b>. Signs of pressure on ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC"
+                    }
+                ],
+                "datePublished": "2024-02-15T02:05:00.0000000Z"
+            },
+            {
+                "name": "Sunak Faces Electoral Tests That Risk Encouraging Tory Plotters",
+                "url": "https://uk.news.yahoo.com/sunak-faces-electoral-tests-risk-000100344.html",
+                "description": "Still, much of the <b>political</b> focus will be on the Reform <b>UK</b> party and its ability to siphon off support from the Conservatives. That is the nightmare scenario for many Tory Members of Parliament, who fear a split in the right-wing vote will facilitate a ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8bcfa984-e8c9-7ea0-4e05-1fc7832e2cf3",
+                        "name": "Plaza"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b7baa3a2-9d22-da6e-26f3-3119a50730fb",
+                        "name": "Plotter"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK"
+                    }
+                ],
+                "datePublished": "2024-02-15T01:09:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Vikings and their impact in Britain examined in new set of stamps issued by Royal Mail",
+                "url": "https://www.dailymail.co.uk/news/article-13085445/Vikings-Britain-new-stamps-issued-Royal-Mail.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.BQKVgp5TcNidGnBici6_fi&pid=News",
+                        "width": 634,
+                        "height": 380
+                    }
+                },
+                "description": "The impact the Vikings had on Britain is being examined in a new set of stamps issued by Royal Mail. The eight stamps feature Viking artefacts and locations of significance.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/93a3e0e2-aecf-e53b-8432-c15f400cfb4e",
+                        "name": "Daily Mail"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/828d06df-c28f-ac2d-1df0-c28b20151139",
+                        "name": "Viking"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T00:34:00.0000000Z"
+            },
+            {
+                "name": "Sunak braced for double by-election test in Wellingborough and Kingswood",
+                "url": "https://www.irishnews.com/news/uk/sunak-braced-for-double-by-election-test-in-wellingborough-and-kingswood-FB2YR7ZL2VIJNLD5MZWOKYH5GA/",
+                "description": "Rishi Sunak is braced for tests in Wellingborough and Kingswood, where Labour hopes to flip Tory majorities in the tens of thousands.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/79dd2f21-0dd1-9c0e-1310-9b93cd0cac67",
+                        "name": "Kingswood"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/73388964-99e9-bfa8-c8a4-0331f036fdb6",
+                        "name": "Wellingborough"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Kingswood"
+                    },
+                    {
+                        "name": "Wellingborough"
+                    },
+                    {
+                        "name": "By-election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Irish News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.__x40GFqMbYWdAqfe63VNg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T00:28:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "French citizenship row engulfs Indian Ocean island of Mayotte",
+                "url": "https://www.bbc.co.uk/news/world-europe-68292604",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.3V7NfNveE_r9joSuOG-M1i&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "A speck of France in the Indian Ocean has become the latest battleground over the laws on immigration. A French possession since 1841, the tiny island of Mayotte is now a d\u00e9partement or county of the Republic which means, in theory, that the same rules apply there as in the Moselle or Maine-et-Loire, or anywhere else in France.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/15cc2830-c4be-7bfa-6af0-f14291cfbc7f",
+                        "name": "Indian Ocean"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8e0d846e-780c-48a0-6b41-8ed227fc927a",
+                        "name": "Palmero cheese"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T00:04:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Number of international students applying for university courses in <b>UK</b> rises",
+                "url": "https://www.expressandstar.com/news/uk-news/2024/02/15/number-of-international-students-applying-for-university-courses-in-uk-rises/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.D0aG-9Xz_Omps3GcFOnm8C&pid=News",
+                        "width": 300,
+                        "height": 225
+                    }
+                },
+                "description": "Applications to nursing courses have fallen once again, prompting concerns about the development of the workforce.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/bd9a2d18-7a9d-4f26-88e2-4d927c18257c",
+                        "name": "International student"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Express &amp; Star",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mlsgqRbVCSL6esnw8ifS8A&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T00:04:00.0000000Z"
+            },
+            {
+                "name": "Royal Mail stamps mark 40 years of Jorvik Viking Centre",
+                "url": "https://www.yorkpress.co.uk/news/24120011.royal-mail-stamps-mark-40-years-jorvik-viking-centre/",
+                "description": "New stamps are being issued to celebrate the history of Vikings in Britain - and mark 40 years since the Jorvik Viking Centre opened in York.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fabbbfac-6f57-303f-7428-c48d63193e80",
+                        "name": "Jorvik Viking Centre"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c17f5145-8781-6635-affd-32b98e37d51e",
+                        "name": "Royal Mail"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a33386b1-1803-1c9b-9700-b1c93e824769",
+                        "name": "Mark"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Press",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6jQbP8CoKeIBudzFJ2C9mg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T00:04:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Sturgeon resignation accelerated SNP\u2019s poll decline, say experts",
+                "url": "https://www.sloughobserver.co.uk/news/national/24120918.sturgeon-resignation-accelerated-snps-poll-decline-say-experts/",
+                "description": "The year since Nicola Sturgeon\u2019s resignation announcement has accelerated a decline in the SNP\u2019s opinion poll leads, experts have said. However, support for Scottish independence has hardly changed at all in the 12 months since Ms Sturgeon\u2019s Bute House announcement,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40ff83fa-c18c-9216-49aa-77a9d6a5cc28",
+                        "name": "Nicola Sturgeon"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/abfe29f2-7624-f440-e5c1-83347196e0b5",
+                        "name": "Slough"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e320dd44-b39b-fd9b-7883-0fe89bb44ace",
+                        "name": "Poll"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Slough Observer",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Jzei8PKarJeZxEGulHsufg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T00:02:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Nurses call for emergency measures amid decline in student applications",
+                "url": "https://www.gazetteandherald.co.uk/news/national/24120919.nurses-call-emergency-measures-amid-decline-student-applications/",
+                "description": "In the <b>UK</b> overall, the number of nursing applicants \u2013 of all ages ... She added: \u201cThese latest figures expose a widening gap between the aspirations of the plan and the level of <b>political</b> effort required to make them a reality. This needs immediate ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4ebe79fa-f77b-5216-7ef9-f8ea04679349",
+                        "name": "Wiltshire"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Gazette and Herald"
+                    }
+                ],
+                "datePublished": "2024-02-15T00:02:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "Timeline: Turbulent year for SNP following Sturgeon\u2019s resignation",
+                "url": "https://www.oxfordmail.co.uk/news/national/24120922.timeline-turbulent-year-snp-following-sturgeons-resignation/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.RpdRbjjJDivjknDVdzAiHy&pid=News",
+                        "width": 700,
+                        "height": 507
+                    }
+                },
+                "description": "Nicola Sturgeon resigns: A month prior to her shock resignation, Scotland\u2019s longest serving first minister told broadcasters she had \u201cplenty left in the tank\u201d as leader. But she closed the chapter on her tenure in charge after more than eight years in the job, on February 15 2023.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40ff83fa-c18c-9216-49aa-77a9d6a5cc28",
+                        "name": "Nicola Sturgeon"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/bc957fd4-ee8f-49f3-b1d1-bef44c0c4274",
+                        "name": "Timeline"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Oxford Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.z7YBvJJ1phG0yPXBTeFvFQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T00:02:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>UK</b> politicians must step up and fight this tide of antisemitism",
+                "url": "https://www.thetimes.co.uk/article/uk-politicians-must-step-up-and-fight-this-tide-of-antisemitism-9qgjf9l7n",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.JYAEg-dqQ38j_9O3ZkB2pC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The government\u2019s independent adviser on antisemitism says abuse must stop before the UK heads down a slippery slope",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/146f2c34-a3c4-7c7a-b958-63b4f8956e0b",
+                        "name": "Antisemitism"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T00:01:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Glasgow Film Festival unveils 20th anniversary programme",
+                "url": "https://www.standard.co.uk/showbiz/celebrity-news/viggo-mortensen-george-mackay-the-beast-scottish-kevin-macdonald-b1139249.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.N34NejZw4gc5taInP5AX9i&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Bafta-winning British-Palestinian director Farah Nabulsi will bring the <b>UK</b> premiere of her new feature The Teacher, about a Palestinian school teacher struggling to reconcile his life-threatening commitment to <b>political</b> resistance with the chance of a new ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5b52072f-918f-c2c8-b892-70b5c4485e4a",
+                        "name": "George MacKay"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2c1aabb0-7ce1-d85f-7285-c4140b31f93a",
+                        "name": "Kevin Macdonald"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6af09bca-4a44-86e4-e846-a79ababf0252",
+                        "name": "Viggo Mortensen"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "George MacKay"
+                    },
+                    {
+                        "name": "Kevin Macdonald"
+                    },
+                    {
+                        "name": "Viggo Mortensen"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "datePublished": "2024-02-15T00:00:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Cameron disparaged by Republican right-winger after call for Ukraine funding",
+                "url": "https://www.watfordobserver.co.uk/news/national/24120837.cameron-disparaged-republican-right-winger-call-ukraine-funding/",
+                "description": "Lord David Cameron has attracted the ire of Republican right-winger Marjorie Taylor Greene after urging US lawmakers to pass a bill including support for Ukraine. The UK Foreign Secretary was told to \u201cfocus on his own country\u201d following his intervention over the multibillion-dollar foreign aid package making its way through Congress.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/05973aa9-1608-8d06-96d6-e4ce0311b75a",
+                        "name": "David Cameron"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ad599477-9e6d-4a0e-bab5-0edf9db7115a",
+                        "name": "Ukraine"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Watford Observer",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RvCo_z4icgtlrQyFfJxOg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T20:58:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "In full: The <b>Politics</b> Hub with Mark Austin",
+                "url": "https://news.sky.com/video/in-full-the-politics-hub-with-mark-austin-13071790",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.FG_fMBVUr0EoadLPIOkjey&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "David Cameron has made an unashamed attempt to sway US politicians as a new funding package for Ukraine hangs in the balance. It hasn&#39;t gone down well with a Trump-backing Republican. Back here in Westminster, Labour&#39;s Keir Starmer is grappling with a ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fdf703eb-aba7-d70b-48ec-abff6788d99c",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky"
+                    }
+                ],
+                "datePublished": "2024-02-14T20:25:00.0000000Z",
+                "video": {
+                    "name": "In full: The Politics Hub with Mark Austin",
+                    "thumbnailUrl": "https://www.bing.com/th?id=OVF.uTLRlAKo82OVtUDpdKGvjA&pid=News",
+                    "duration": "PT2S",
+                    "thumbnail": {
+                        "width": 520,
+                        "height": 292
+                    }
+                }
+            },
+            {
+                "name": "What is Disease X? What we know about the \u2018next pandemic\u2019",
+                "url": "https://metro.co.uk/2024/02/14/what-is-disease-x-next-pandemic-who-covid-20277106/?ico=trending-module_tag_social-media_item-0",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.SIbm1X58rtDAvhu__IVoIy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The <b>UK</b> and other G7 countries signed up to the \u2018100 Days Mission ... Conspiracy theorists believe that <b>political</b> and business leaders meet at Davos to enact these plans. The \u2018Great Reset\u2019 claims have been debunked by fact-checking organisation ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2872a54f-b045-8fe3-d356-1aa538e14812",
+                        "name": "Metro International"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Metro International"
+                    },
+                    {
+                        "name": "Disease"
+                    },
+                    {
+                        "name": "ABC World News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Metro"
+                    }
+                ],
+                "datePublished": "2024-02-14T10:58:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "The Mayorkas impeachment was a classic example of performance <b>politics</b>",
+                "url": "https://uk.news.yahoo.com/mayorkas-impeachment-classic-example-performance-171745698.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.3NYLRPdllG2s_5_eaUxI_S&pid=News",
+                        "width": 700,
+                        "height": 524
+                    }
+                },
+                "description": "Like most of the House GOP&#39;s passed legislation this session, Mayorkas&#39; partisan impeachment won&#39;t actually accomplish anything.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1697aff5-4a59-0de6-3e14-f5df930f40b1",
+                        "name": "Alejandro Mayorkas"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/934b3860-599d-36aa-375e-3e86d935d9d9",
+                        "name": "Impeachment"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T09:17:00.0000000Z",
+                "video": {
+                    "name": "The Mayorkas impeachment was a classic example of performance politics",
+                    "thumbnailUrl": "https://www.bing.com/th?id=OVF.0B16MDkLmIqljptAif%2F%2FMA&pid=News",
+                    "thumbnail": {
+                        "width": 520,
+                        "height": 389
+                    }
+                },
+                "category": "World"
+            },
+            {
+                "name": "Scottish parliament computers used numerous times to edit &amp; improve MSPs\u2019 Wikipedia pages",
+                "url": "https://www.thesun.co.uk/news/25949389/scottish-parliament-computers-edit-msps-wikipedia-pages/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.oHUPeUz6dBBQDflHRU7v0C&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Michelle Ballantyne, the former Scottish Tory MSP who defected to Reform <b>UK</b> to become their leader in Scotland in ... Those using parliamentary computers also made some non-<b>political</b> changes, including one which suggested American TV presenter Jerry ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun"
+                    }
+                ],
+                "datePublished": "2024-02-14T00:08:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics",
+        "queryContext": {
+            "originalQuery": "uk politics",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 219,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Overseas student applications to <b>UK</b> universities rise again",
+                "url": "https://www.bbc.com/news/education-68294078",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Ou3VkrMiW1XZbiI1gQYD_S&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "A report from the British Council last week suggested the &quot;post-Covid boom&quot; in international-student numbers would end this year, because of &quot;rising <b>political</b> pressure against migration&quot; and the increasing cost of studying in the <b>UK</b>. Signs of pressure on ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC"
+                    }
+                ],
+                "datePublished": "2024-02-15T02:05:00.0000000Z"
+            },
+            {
+                "name": "Sunak Faces Electoral Tests That Risk Encouraging Tory Plotters",
+                "url": "https://uk.news.yahoo.com/sunak-faces-electoral-tests-risk-000100344.html",
+                "description": "Still, much of the <b>political</b> focus will be on the Reform <b>UK</b> party and its ability to siphon off support from the Conservatives. That is the nightmare scenario for many Tory Members of Parliament, who fear a split in the right-wing vote will facilitate a ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8bcfa984-e8c9-7ea0-4e05-1fc7832e2cf3",
+                        "name": "Plaza"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b7baa3a2-9d22-da6e-26f3-3119a50730fb",
+                        "name": "Plotter"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK"
+                    }
+                ],
+                "datePublished": "2024-02-15T01:09:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Vikings and their impact in Britain examined in new set of stamps issued by Royal Mail",
+                "url": "https://www.dailymail.co.uk/news/article-13085445/Vikings-Britain-new-stamps-issued-Royal-Mail.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.BQKVgp5TcNidGnBici6_fi&pid=News",
+                        "width": 634,
+                        "height": 380
+                    }
+                },
+                "description": "The impact the Vikings had on Britain is being examined in a new set of stamps issued by Royal Mail. The eight stamps feature Viking artefacts and locations of significance.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/93a3e0e2-aecf-e53b-8432-c15f400cfb4e",
+                        "name": "Daily Mail"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/828d06df-c28f-ac2d-1df0-c28b20151139",
+                        "name": "Viking"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T00:34:00.0000000Z"
+            },
+            {
+                "name": "Sunak braced for double by-election test in Wellingborough and Kingswood",
+                "url": "https://www.irishnews.com/news/uk/sunak-braced-for-double-by-election-test-in-wellingborough-and-kingswood-FB2YR7ZL2VIJNLD5MZWOKYH5GA/",
+                "description": "Rishi Sunak is braced for tests in Wellingborough and Kingswood, where Labour hopes to flip Tory majorities in the tens of thousands.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/79dd2f21-0dd1-9c0e-1310-9b93cd0cac67",
+                        "name": "Kingswood"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/73388964-99e9-bfa8-c8a4-0331f036fdb6",
+                        "name": "Wellingborough"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Kingswood"
+                    },
+                    {
+                        "name": "Wellingborough"
+                    },
+                    {
+                        "name": "By-election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Irish News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.__x40GFqMbYWdAqfe63VNg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T00:28:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "French citizenship row engulfs Indian Ocean island of Mayotte",
+                "url": "https://www.bbc.co.uk/news/world-europe-68292604",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.3V7NfNveE_r9joSuOG-M1i&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "A speck of France in the Indian Ocean has become the latest battleground over the laws on immigration. A French possession since 1841, the tiny island of Mayotte is now a d\u00e9partement or county of the Republic which means, in theory, that the same rules apply there as in the Moselle or Maine-et-Loire, or anywhere else in France.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/15cc2830-c4be-7bfa-6af0-f14291cfbc7f",
+                        "name": "Indian Ocean"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8e0d846e-780c-48a0-6b41-8ed227fc927a",
+                        "name": "Palmero cheese"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T00:04:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "New stamps celebrate history and legacy of Vikings in Britain",
+                "url": "https://www.expressandstar.com/news/uk-news/2024/02/15/new-stamps-celebrate-history-and-legacy-of-vikings-in-britain/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.IiwAagWWFofLZKd2ZrjdaS&pid=News",
+                        "width": 700,
+                        "height": 525
+                    }
+                },
+                "description": "New stamps are being issued that celebrate the history and legacy of Vikings in Britain. The eight stamps also mark 40 years since the Jorvik Viking Centre opened in York.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/828d06df-c28f-ac2d-1df0-c28b20151139",
+                        "name": "Viking"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Express &amp; Star",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mlsgqRbVCSL6esnw8ifS8A&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T00:04:00.0000000Z"
+            },
+            {
+                "name": "Royal Mail stamps mark 40 years of Jorvik Viking Centre",
+                "url": "https://www.yorkpress.co.uk/news/24120011.royal-mail-stamps-mark-40-years-jorvik-viking-centre/",
+                "description": "New stamps are being issued to celebrate the history of Vikings in Britain - and mark 40 years since the Jorvik Viking Centre opened in York.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fabbbfac-6f57-303f-7428-c48d63193e80",
+                        "name": "Jorvik Viking Centre"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c17f5145-8781-6635-affd-32b98e37d51e",
+                        "name": "Royal Mail"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a33386b1-1803-1c9b-9700-b1c93e824769",
+                        "name": "Mark"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Press",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6jQbP8CoKeIBudzFJ2C9mg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T00:04:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Sturgeon resignation accelerated SNP\u2019s poll decline, say experts",
+                "url": "https://www.sloughobserver.co.uk/news/national/24120918.sturgeon-resignation-accelerated-snps-poll-decline-say-experts/",
+                "description": "The year since Nicola Sturgeon\u2019s resignation announcement has accelerated a decline in the SNP\u2019s opinion poll leads, experts have said. However, support for Scottish independence has hardly changed at all in the 12 months since Ms Sturgeon\u2019s Bute House announcement,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40ff83fa-c18c-9216-49aa-77a9d6a5cc28",
+                        "name": "Nicola Sturgeon"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/abfe29f2-7624-f440-e5c1-83347196e0b5",
+                        "name": "Slough"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e320dd44-b39b-fd9b-7883-0fe89bb44ace",
+                        "name": "Poll"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Slough Observer",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Jzei8PKarJeZxEGulHsufg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T00:02:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Nurses call for emergency measures amid decline in student applications",
+                "url": "https://www.gazetteandherald.co.uk/news/national/24120919.nurses-call-emergency-measures-amid-decline-student-applications/",
+                "description": "In the <b>UK</b> overall, the number of nursing applicants \u2013 of all ages ... She added: \u201cThese latest figures expose a widening gap between the aspirations of the plan and the level of <b>political</b> effort required to make them a reality. This needs immediate ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4ebe79fa-f77b-5216-7ef9-f8ea04679349",
+                        "name": "Wiltshire"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Gazette and Herald"
+                    }
+                ],
+                "datePublished": "2024-02-15T00:02:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "Timeline: Turbulent year for SNP following Sturgeon\u2019s resignation",
+                "url": "https://www.oxfordmail.co.uk/news/national/24120922.timeline-turbulent-year-snp-following-sturgeons-resignation/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.RpdRbjjJDivjknDVdzAiHy&pid=News",
+                        "width": 700,
+                        "height": 507
+                    }
+                },
+                "description": "Nicola Sturgeon resigns: A month prior to her shock resignation, Scotland\u2019s longest serving first minister told broadcasters she had \u201cplenty left in the tank\u201d as leader. But she closed the chapter on her tenure in charge after more than eight years in the job, on February 15 2023.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40ff83fa-c18c-9216-49aa-77a9d6a5cc28",
+                        "name": "Nicola Sturgeon"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/bc957fd4-ee8f-49f3-b1d1-bef44c0c4274",
+                        "name": "Timeline"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Oxford Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.z7YBvJJ1phG0yPXBTeFvFQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T00:02:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>UK</b> politicians must step up and fight this tide of antisemitism",
+                "url": "https://www.thetimes.co.uk/article/uk-politicians-must-step-up-and-fight-this-tide-of-antisemitism-9qgjf9l7n",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.JYAEg-dqQ38j_9O3ZkB2pC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The government\u2019s independent adviser on antisemitism says abuse must stop before the UK heads down a slippery slope",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/146f2c34-a3c4-7c7a-b958-63b4f8956e0b",
+                        "name": "Antisemitism"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T00:01:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Royal Mail new stamps celebrate Viking history in Britain",
+                "url": "https://www.somersetcountygazette.co.uk/news/national/uk-today/24120107.royal-mail-new-stamps-celebrate-viking-history-britain/",
+                "description": "the answer is that they transformed Britain and left an enduring influence on the languages, economy, society and <b>political</b> geography of the <b>UK</b> forever. \u201cTheir impact was enormous and cannot be overlooked. \u201cWe hope these stamps will inspire people to ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/828d06df-c28f-ac2d-1df0-c28b20151139",
+                        "name": "Viking"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Somerset County Gazette"
+                    }
+                ],
+                "datePublished": "2024-02-15T00:01:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Number of international students applying for university courses in <b>UK</b> rises",
+                "url": "https://www.standard.co.uk/news/politics/ucas-nhs-universities-uk-china-turkey-b1139247.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.uPUfThW0q6gaJfzRISfXNy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Across the <b>UK</b>, there has been a 1% decline in applicants from England ... \u201cThere is a big gap in the rhetoric we hear from policymakers on all sides of the <b>political</b> spectrum about developing the NHS workforce and the actual trends in demand to enter ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "UCAS"
+                    },
+                    {
+                        "name": "Universities UK"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "datePublished": "2024-02-15T00:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Glasgow Film Festival unveils 20th anniversary programme",
+                "url": "https://www.standard.co.uk/showbiz/celebrity-news/viggo-mortensen-george-mackay-the-beast-scottish-kevin-macdonald-b1139249.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.N34NejZw4gc5taInP5AX9i&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Bafta-winning British-Palestinian director Farah Nabulsi will bring the <b>UK</b> premiere of her new feature The Teacher, about a Palestinian school teacher struggling to reconcile his life-threatening commitment to <b>political</b> resistance with the chance of a new ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5b52072f-918f-c2c8-b892-70b5c4485e4a",
+                        "name": "George MacKay"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2c1aabb0-7ce1-d85f-7285-c4140b31f93a",
+                        "name": "Kevin Macdonald"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6af09bca-4a44-86e4-e846-a79ababf0252",
+                        "name": "Viggo Mortensen"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "George MacKay"
+                    },
+                    {
+                        "name": "Kevin Macdonald"
+                    },
+                    {
+                        "name": "Viggo Mortensen"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "datePublished": "2024-02-15T00:00:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Cameron disparaged by Republican right-winger after call for Ukraine funding",
+                "url": "https://www.watfordobserver.co.uk/news/national/24120837.cameron-disparaged-republican-right-winger-call-ukraine-funding/",
+                "description": "Lord David Cameron has attracted the ire of Republican right-winger Marjorie Taylor Greene after urging US lawmakers to pass a bill including support for Ukraine. The UK Foreign Secretary was told to \u201cfocus on his own country\u201d following his intervention over the multibillion-dollar foreign aid package making its way through Congress.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/05973aa9-1608-8d06-96d6-e4ce0311b75a",
+                        "name": "David Cameron"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ad599477-9e6d-4a0e-bab5-0edf9db7115a",
+                        "name": "Ukraine"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Watford Observer",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RvCo_z4icgtlrQyFfJxOg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T20:58:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "In full: The <b>Politics</b> Hub with Mark Austin",
+                "url": "https://news.sky.com/video/in-full-the-politics-hub-with-mark-austin-13071790",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.FG_fMBVUr0EoadLPIOkjey&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "David Cameron has made an unashamed attempt to sway US politicians as a new funding package for Ukraine hangs in the balance. It hasn&#39;t gone down well with a Trump-backing Republican. Back here in Westminster, Labour&#39;s Keir Starmer is grappling with a ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fdf703eb-aba7-d70b-48ec-abff6788d99c",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky"
+                    }
+                ],
+                "datePublished": "2024-02-14T20:25:00.0000000Z",
+                "video": {
+                    "name": "In full: The Politics Hub with Mark Austin",
+                    "thumbnailUrl": "https://www.bing.com/th?id=OVF.uTLRlAKo82OVtUDpdKGvjA&pid=News",
+                    "duration": "PT2S",
+                    "thumbnail": {
+                        "width": 520,
+                        "height": 292
+                    }
+                }
+            },
+            {
+                "name": "What is Disease X? What we know about the \u2018next pandemic\u2019",
+                "url": "https://metro.co.uk/2024/02/14/what-is-disease-x-next-pandemic-who-covid-20277106/?ico=trending-module_tag_social-media_item-0",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.SIbm1X58rtDAvhu__IVoIy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The <b>UK</b> and other G7 countries signed up to the \u2018100 Days Mission ... Conspiracy theorists believe that <b>political</b> and business leaders meet at Davos to enact these plans. The \u2018Great Reset\u2019 claims have been debunked by fact-checking organisation ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2872a54f-b045-8fe3-d356-1aa538e14812",
+                        "name": "Metro International"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Metro International"
+                    },
+                    {
+                        "name": "Disease"
+                    },
+                    {
+                        "name": "ABC World News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Metro"
+                    }
+                ],
+                "datePublished": "2024-02-14T10:58:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "The Mayorkas impeachment was a classic example of performance <b>politics</b>",
+                "url": "https://uk.news.yahoo.com/mayorkas-impeachment-classic-example-performance-171745698.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.3NYLRPdllG2s_5_eaUxI_S&pid=News",
+                        "width": 700,
+                        "height": 524
+                    }
+                },
+                "description": "Like most of the House GOP&#39;s passed legislation this session, Mayorkas&#39; partisan impeachment won&#39;t actually accomplish anything.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1697aff5-4a59-0de6-3e14-f5df930f40b1",
+                        "name": "Alejandro Mayorkas"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/934b3860-599d-36aa-375e-3e86d935d9d9",
+                        "name": "Impeachment"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T09:17:00.0000000Z",
+                "video": {
+                    "name": "The Mayorkas impeachment was a classic example of performance politics",
+                    "thumbnailUrl": "https://www.bing.com/th?id=OVF.0B16MDkLmIqljptAif%2F%2FMA&pid=News",
+                    "thumbnail": {
+                        "width": 520,
+                        "height": 389
+                    }
+                },
+                "category": "World"
+            },
+            {
+                "name": "Scottish parliament computers used numerous times to edit &amp; improve MSPs\u2019 Wikipedia pages",
+                "url": "https://www.thesun.co.uk/news/25949389/scottish-parliament-computers-edit-msps-wikipedia-pages/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.oHUPeUz6dBBQDflHRU7v0C&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Michelle Ballantyne, the former Scottish Tory MSP who defected to Reform <b>UK</b> to become their leader in Scotland in ... Those using parliamentary computers also made some non-<b>political</b> changes, including one which suggested American TV presenter Jerry ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun"
+                    }
+                ],
+                "datePublished": "2024-02-14T00:08:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics",
+        "queryContext": {
+            "originalQuery": "uk politics",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 319,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Overseas student applications to <b>UK</b> universities rise again",
+                "url": "https://www.bbc.com/news/education-68294078",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Ou3VkrMiW1XZbiI1gQYD_S&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "A report from the British Council last week suggested the &quot;post-Covid boom&quot; in international-student numbers would end this year, because of &quot;rising <b>political</b> pressure against migration&quot; and the increasing cost of studying in the <b>UK</b>. Signs of pressure on ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC"
+                    }
+                ],
+                "datePublished": "2024-02-15T02:05:00.0000000Z"
+            },
+            {
+                "name": "Sunak Faces Electoral Tests That Risk Encouraging Tory Plotters",
+                "url": "https://uk.news.yahoo.com/sunak-faces-electoral-tests-risk-000100344.html",
+                "description": "Still, much of the <b>political</b> focus will be on the Reform <b>UK</b> party and its ability to siphon off support from the Conservatives. That is the nightmare scenario for many Tory Members of Parliament, who fear a split in the right-wing vote will facilitate a ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8bcfa984-e8c9-7ea0-4e05-1fc7832e2cf3",
+                        "name": "Plaza"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b7baa3a2-9d22-da6e-26f3-3119a50730fb",
+                        "name": "Plotter"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK"
+                    }
+                ],
+                "datePublished": "2024-02-15T01:09:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Vikings and their impact in Britain examined in new set of stamps issued by Royal Mail",
+                "url": "https://www.dailymail.co.uk/news/article-13085445/Vikings-Britain-new-stamps-issued-Royal-Mail.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.BQKVgp5TcNidGnBici6_fi&pid=News",
+                        "width": 634,
+                        "height": 380
+                    }
+                },
+                "description": "The impact the Vikings had on Britain is being examined in a new set of stamps issued by Royal Mail. The eight stamps feature Viking artefacts and locations of significance.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/93a3e0e2-aecf-e53b-8432-c15f400cfb4e",
+                        "name": "Daily Mail"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/828d06df-c28f-ac2d-1df0-c28b20151139",
+                        "name": "Viking"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T00:34:00.0000000Z"
+            },
+            {
+                "name": "Sunak braced for double by-election test in Wellingborough and Kingswood",
+                "url": "https://www.irishnews.com/news/uk/sunak-braced-for-double-by-election-test-in-wellingborough-and-kingswood-FB2YR7ZL2VIJNLD5MZWOKYH5GA/",
+                "description": "Rishi Sunak is braced for tests in Wellingborough and Kingswood, where Labour hopes to flip Tory majorities in the tens of thousands.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/79dd2f21-0dd1-9c0e-1310-9b93cd0cac67",
+                        "name": "Kingswood"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/73388964-99e9-bfa8-c8a4-0331f036fdb6",
+                        "name": "Wellingborough"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Kingswood"
+                    },
+                    {
+                        "name": "Wellingborough"
+                    },
+                    {
+                        "name": "By-election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Irish News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.__x40GFqMbYWdAqfe63VNg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T00:28:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "French citizenship row engulfs Indian Ocean island of Mayotte",
+                "url": "https://www.bbc.co.uk/news/world-europe-68292604",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.3V7NfNveE_r9joSuOG-M1i&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "A speck of France in the Indian Ocean has become the latest battleground over the laws on immigration. A French possession since 1841, the tiny island of Mayotte is now a d\u00e9partement or county of the Republic which means, in theory, that the same rules apply there as in the Moselle or Maine-et-Loire, or anywhere else in France.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/15cc2830-c4be-7bfa-6af0-f14291cfbc7f",
+                        "name": "Indian Ocean"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8e0d846e-780c-48a0-6b41-8ed227fc927a",
+                        "name": "Palmero cheese"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T00:04:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "New stamps celebrate history and legacy of Vikings in Britain",
+                "url": "https://www.expressandstar.com/news/uk-news/2024/02/15/new-stamps-celebrate-history-and-legacy-of-vikings-in-britain/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.IiwAagWWFofLZKd2ZrjdaS&pid=News",
+                        "width": 700,
+                        "height": 525
+                    }
+                },
+                "description": "New stamps are being issued that celebrate the history and legacy of Vikings in Britain. The eight stamps also mark 40 years since the Jorvik Viking Centre opened in York.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/828d06df-c28f-ac2d-1df0-c28b20151139",
+                        "name": "Viking"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Express &amp; Star",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mlsgqRbVCSL6esnw8ifS8A&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T00:04:00.0000000Z"
+            },
+            {
+                "name": "Royal Mail stamps mark 40 years of Jorvik Viking Centre",
+                "url": "https://www.yorkpress.co.uk/news/24120011.royal-mail-stamps-mark-40-years-jorvik-viking-centre/",
+                "description": "New stamps are being issued to celebrate the history of Vikings in Britain - and mark 40 years since the Jorvik Viking Centre opened in York.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fabbbfac-6f57-303f-7428-c48d63193e80",
+                        "name": "Jorvik Viking Centre"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c17f5145-8781-6635-affd-32b98e37d51e",
+                        "name": "Royal Mail"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a33386b1-1803-1c9b-9700-b1c93e824769",
+                        "name": "Mark"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Press",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6jQbP8CoKeIBudzFJ2C9mg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T00:04:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Sturgeon resignation accelerated SNP\u2019s poll decline, say experts",
+                "url": "https://www.sloughobserver.co.uk/news/national/24120918.sturgeon-resignation-accelerated-snps-poll-decline-say-experts/",
+                "description": "The year since Nicola Sturgeon\u2019s resignation announcement has accelerated a decline in the SNP\u2019s opinion poll leads, experts have said. However, support for Scottish independence has hardly changed at all in the 12 months since Ms Sturgeon\u2019s Bute House announcement,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40ff83fa-c18c-9216-49aa-77a9d6a5cc28",
+                        "name": "Nicola Sturgeon"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/abfe29f2-7624-f440-e5c1-83347196e0b5",
+                        "name": "Slough"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e320dd44-b39b-fd9b-7883-0fe89bb44ace",
+                        "name": "Poll"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Slough Observer",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Jzei8PKarJeZxEGulHsufg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T00:02:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Nurses call for emergency measures amid decline in student applications",
+                "url": "https://www.gazetteandherald.co.uk/news/national/24120919.nurses-call-emergency-measures-amid-decline-student-applications/",
+                "description": "In the <b>UK</b> overall, the number of nursing applicants \u2013 of all ages ... She added: \u201cThese latest figures expose a widening gap between the aspirations of the plan and the level of <b>political</b> effort required to make them a reality. This needs immediate ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4ebe79fa-f77b-5216-7ef9-f8ea04679349",
+                        "name": "Wiltshire"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Gazette and Herald"
+                    }
+                ],
+                "datePublished": "2024-02-15T00:02:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "Timeline: Turbulent year for SNP following Sturgeon\u2019s resignation",
+                "url": "https://www.oxfordmail.co.uk/news/national/24120922.timeline-turbulent-year-snp-following-sturgeons-resignation/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.RpdRbjjJDivjknDVdzAiHy&pid=News",
+                        "width": 700,
+                        "height": 507
+                    }
+                },
+                "description": "Nicola Sturgeon resigns: A month prior to her shock resignation, Scotland\u2019s longest serving first minister told broadcasters she had \u201cplenty left in the tank\u201d as leader. But she closed the chapter on her tenure in charge after more than eight years in the job, on February 15 2023.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/40ff83fa-c18c-9216-49aa-77a9d6a5cc28",
+                        "name": "Nicola Sturgeon"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/bc957fd4-ee8f-49f3-b1d1-bef44c0c4274",
+                        "name": "Timeline"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Oxford Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.z7YBvJJ1phG0yPXBTeFvFQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T00:02:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>UK</b> politicians must step up and fight this tide of antisemitism",
+                "url": "https://www.thetimes.co.uk/article/uk-politicians-must-step-up-and-fight-this-tide-of-antisemitism-9qgjf9l7n",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.JYAEg-dqQ38j_9O3ZkB2pC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The government\u2019s independent adviser on antisemitism says abuse must stop before the UK heads down a slippery slope",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/146f2c34-a3c4-7c7a-b958-63b4f8956e0b",
+                        "name": "Antisemitism"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T00:01:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Royal Mail new stamps celebrate Viking history in Britain",
+                "url": "https://www.somersetcountygazette.co.uk/news/national/uk-today/24120107.royal-mail-new-stamps-celebrate-viking-history-britain/",
+                "description": "the answer is that they transformed Britain and left an enduring influence on the languages, economy, society and <b>political</b> geography of the <b>UK</b> forever. \u201cTheir impact was enormous and cannot be overlooked. \u201cWe hope these stamps will inspire people to ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/828d06df-c28f-ac2d-1df0-c28b20151139",
+                        "name": "Viking"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Somerset County Gazette"
+                    }
+                ],
+                "datePublished": "2024-02-15T00:01:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Number of international students applying for university courses in <b>UK</b> rises",
+                "url": "https://www.standard.co.uk/news/politics/ucas-nhs-universities-uk-china-turkey-b1139247.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.uPUfThW0q6gaJfzRISfXNy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Across the <b>UK</b>, there has been a 1% decline in applicants from England ... \u201cThere is a big gap in the rhetoric we hear from policymakers on all sides of the <b>political</b> spectrum about developing the NHS workforce and the actual trends in demand to enter ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "UCAS"
+                    },
+                    {
+                        "name": "Universities UK"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "datePublished": "2024-02-15T00:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Glasgow Film Festival unveils 20th anniversary programme",
+                "url": "https://www.standard.co.uk/showbiz/celebrity-news/viggo-mortensen-george-mackay-the-beast-scottish-kevin-macdonald-b1139249.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.N34NejZw4gc5taInP5AX9i&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Bafta-winning British-Palestinian director Farah Nabulsi will bring the <b>UK</b> premiere of her new feature The Teacher, about a Palestinian school teacher struggling to reconcile his life-threatening commitment to <b>political</b> resistance with the chance of a new ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5b52072f-918f-c2c8-b892-70b5c4485e4a",
+                        "name": "George MacKay"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2c1aabb0-7ce1-d85f-7285-c4140b31f93a",
+                        "name": "Kevin Macdonald"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6af09bca-4a44-86e4-e846-a79ababf0252",
+                        "name": "Viggo Mortensen"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "George MacKay"
+                    },
+                    {
+                        "name": "Kevin Macdonald"
+                    },
+                    {
+                        "name": "Viggo Mortensen"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "datePublished": "2024-02-15T00:00:00.0000000Z",
+                "category": "Entertainment"
+            },
+            {
+                "name": "Cameron disparaged by Republican right-winger after call for Ukraine funding",
+                "url": "https://www.watfordobserver.co.uk/news/national/24120837.cameron-disparaged-republican-right-winger-call-ukraine-funding/",
+                "description": "Lord David Cameron has attracted the ire of Republican right-winger Marjorie Taylor Greene after urging US lawmakers to pass a bill including support for Ukraine. The UK Foreign Secretary was told to \u201cfocus on his own country\u201d following his intervention over the multibillion-dollar foreign aid package making its way through Congress.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/05973aa9-1608-8d06-96d6-e4ce0311b75a",
+                        "name": "David Cameron"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ad599477-9e6d-4a0e-bab5-0edf9db7115a",
+                        "name": "Ukraine"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Watford Observer",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RvCo_z4icgtlrQyFfJxOg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T20:58:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "In full: The <b>Politics</b> Hub with Mark Austin",
+                "url": "https://news.sky.com/video/in-full-the-politics-hub-with-mark-austin-13071790",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.FG_fMBVUr0EoadLPIOkjey&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "David Cameron has made an unashamed attempt to sway US politicians as a new funding package for Ukraine hangs in the balance. It hasn&#39;t gone down well with a Trump-backing Republican. Back here in Westminster, Labour&#39;s Keir Starmer is grappling with a ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fdf703eb-aba7-d70b-48ec-abff6788d99c",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky"
+                    }
+                ],
+                "datePublished": "2024-02-14T20:25:00.0000000Z",
+                "video": {
+                    "name": "In full: The Politics Hub with Mark Austin",
+                    "thumbnailUrl": "https://www.bing.com/th?id=OVF.uTLRlAKo82OVtUDpdKGvjA&pid=News",
+                    "duration": "PT2S",
+                    "thumbnail": {
+                        "width": 520,
+                        "height": 292
+                    }
+                }
+            },
+            {
+                "name": "What is Disease X? What we know about the \u2018next pandemic\u2019",
+                "url": "https://metro.co.uk/2024/02/14/what-is-disease-x-next-pandemic-who-covid-20277106/?ico=trending-module_tag_social-media_item-0",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.SIbm1X58rtDAvhu__IVoIy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The <b>UK</b> and other G7 countries signed up to the \u2018100 Days Mission ... Conspiracy theorists believe that <b>political</b> and business leaders meet at Davos to enact these plans. The \u2018Great Reset\u2019 claims have been debunked by fact-checking organisation ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2872a54f-b045-8fe3-d356-1aa538e14812",
+                        "name": "Metro International"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Metro International"
+                    },
+                    {
+                        "name": "Disease"
+                    },
+                    {
+                        "name": "ABC World News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Metro"
+                    }
+                ],
+                "datePublished": "2024-02-14T10:58:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "The Mayorkas impeachment was a classic example of performance <b>politics</b>",
+                "url": "https://uk.news.yahoo.com/mayorkas-impeachment-classic-example-performance-171745698.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.3NYLRPdllG2s_5_eaUxI_S&pid=News",
+                        "width": 700,
+                        "height": 524
+                    }
+                },
+                "description": "Like most of the House GOP&#39;s passed legislation this session, Mayorkas&#39; partisan impeachment won&#39;t actually accomplish anything.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1697aff5-4a59-0de6-3e14-f5df930f40b1",
+                        "name": "Alejandro Mayorkas"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/934b3860-599d-36aa-375e-3e86d935d9d9",
+                        "name": "Impeachment"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T09:17:00.0000000Z",
+                "video": {
+                    "name": "The Mayorkas impeachment was a classic example of performance politics",
+                    "thumbnailUrl": "https://www.bing.com/th?id=OVF.0B16MDkLmIqljptAif%2F%2FMA&pid=News",
+                    "thumbnail": {
+                        "width": 520,
+                        "height": 389
+                    }
+                },
+                "category": "World"
+            },
+            {
+                "name": "Scottish parliament computers used numerous times to edit &amp; improve MSPs\u2019 Wikipedia pages",
+                "url": "https://www.thesun.co.uk/news/25949389/scottish-parliament-computers-edit-msps-wikipedia-pages/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.oHUPeUz6dBBQDflHRU7v0C&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Michelle Ballantyne, the former Scottish Tory MSP who defected to Reform <b>UK</b> to become their leader in Scotland in ... Those using parliamentary computers also made some non-<b>political</b> changes, including one which suggested American TV presenter Jerry ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun"
+                    }
+                ],
+                "datePublished": "2024-02-14T00:08:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    }
+]

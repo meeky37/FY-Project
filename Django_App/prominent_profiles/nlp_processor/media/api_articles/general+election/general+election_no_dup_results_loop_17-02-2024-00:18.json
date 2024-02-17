@@ -1,0 +1,3585 @@
+[
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=general+election",
+        "queryContext": {
+            "originalQuery": "general election",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 20,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=general+election"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=general+election&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Donald Trump ordered to pay $354 million in New York real estate fraud lawsuit",
+                "url": "https://www.msn.com/en-us/news/politics/donald-trump-ordered-to-pay-354-million-in-new-york-real-estate-fraud-lawsuit/ar-BB1ioIVi",
+                "description": "&quot;In order to borrow more and at lower rates, defendants submitted blatantly false financial data to the accountants, resulting in fraudulent financial statements,&quot; Engoron said in a 92-page ruling.Start the day smarter.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1a466af2-ed23-25bd-794d-1ca925e4681b",
+                        "name": "Donald Trump"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/caeb7b9a-f5d7-4686-8fb5-cf7628296b13",
+                        "name": "New York"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "USA TODAY on MSN.com",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.m1iod5ODNIyyKu23kGIllQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-17T00:13:31.0000000Z",
+                "video": {
+                    "name": "Judges orders Donald Trump to pay over $300 million in damages in real estate fraud case",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/ca34fdd9-5ab3-473e-8c23-499064e08b8a/c0e66eb9-4602-4c00-bb4e-d3e7a032_650.mp4",
+                    "thumbnail": {
+                        "width": 204,
+                        "height": 360
+                    }
+                },
+                "category": "Business"
+            },
+            {
+                "name": "Give up street lanes in L.A. for bikes and buses? Measure HLA is on the ballot",
+                "url": "https://www.dailynews.com/2024/02/16/give-up-street-lanes-in-l-a-for-bikes-and-buses-measure-hla-is-on-the-ballot/",
+                "description": "Councilmember Traci Park worries LA will \u2018end up with a system of road diets to nowhere just in time for the Olympics.\u2019",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/aa818bc9-1fd0-ed5a-2842-03de6477f4cc",
+                        "name": "Ballot"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Ballot"
+                    },
+                    {
+                        "name": "New York Daily News"
+                    },
+                    {
+                        "name": "Los Angeles County"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Los Angeles Daily News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Ty09FvDG3p3KjJ1fhE-20A&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-17T00:11:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Trump Loses It Over $355 Million Judgment In Civil Fraud Trial",
+                "url": "https://www.huffpost.com/entry/trump-reaction-civil-fraud-trial-verdict_n_65cfc695e4b043f1c0ab2161",
+                "description": "&quot;A crooked New York state judge... has just fined me $355 Million based on nothing other than having built a GREAT COMPANY,&quot; Trump wrote on Truth Social.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1a466af2-ed23-25bd-794d-1ca925e4681b",
+                        "name": "Donald Trump"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/774fc83b-059a-48ee-a99a-2f70f1cee025",
+                        "name": "Fraud"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/793442f3-de86-cf8b-021c-772c6198ccab",
+                        "name": "Trial"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Donald Trump"
+                    },
+                    {
+                        "name": "Fraud"
+                    },
+                    {
+                        "name": "Trial"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "HuffPost",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.rPjudoA7C5i-PdVAOVho9w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T23:04:00.0000000Z"
+            },
+            {
+                "name": "Trump \u2018perfected the art of the steal\u2019, New York attorney <b>general</b> says after $350m ruling \u2013 live",
+                "url": "https://www.theguardian.com/us-news/live/2024/feb/16/trump-trial-fraud-fani-willis-election-geogia-updates?filterKeyEvents=false&page=with:block-65cfebf98f08dfb189f4ed2c",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.I1VEiWf31UVNnLm7vMH6Jy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Letitia James says judgment of more than $350m shows Trump \u2018engaged in incredible financial fraud to enrich himself\u2019 \u2013 follow the latest",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T22:28:00.0000000Z"
+            },
+            {
+                "name": "Transcript: Tories reel from by-<b>election</b> blows",
+                "url": "https://www.ft.com/content/7dfa734c-0f15-421a-bc24-47fe42e96174",
+                "description": "Lucy Fisher talks to George Parker, Rafe Uddin, elections guru Professor Sir John Curtice and the FT\u2019s foreign editor Alec Russell",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5e83019e-d5ad-de66-bfc7-9f24e0932322",
+                        "name": "By-election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Financial Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CdBlognZ1u9nda-gVEOS_w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T22:06:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Yousaf to campaign in Scottish Tory leader\u2019s seat",
+                "url": "https://www.independent.co.uk/news/uk/humza-yousaf-scotland-scottish-labour-douglas-ross-moray-b2497790.html",
+                "description": "First Minister Humza Yousaf will campaign in the Moray seat of Scottish Tory leader Douglas Ross as he pushes to make Scotland \u201cTory-free\u201d after the next election. The SNP has set its sights on Mr Ross\u2019 party, with Labour riding high in the polls ahead of an election expected this year.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6d99b564-d527-5061-2ebd-f97730898d38",
+                        "name": "Humza Yousaf"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Humza Yousaf"
+                    },
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "Scotland"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T22:01:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Nigel Farage declares: Tory members want ME as their leader, not Rishi Sunak",
+                "url": "https://www.express.co.uk/news/politics/1867734/nigel-farage-tory-leader-rish-sunak-wellingborough-by-election",
+                "description": "Nigel Farage says grassroots Conservatives would prefer him to lead the party instead of Rishi Sunak in the wake of two crushing by-election drubbings.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4e19a7ad-e1b4-0f74-86c3-ba3be21089da",
+                        "name": "Nigel Farage"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/af9f6af3-dd71-b99f-0f24-acfa43b556ef",
+                        "name": "Montenegro"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Nigel Farage"
+                    },
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Montenegro"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T21:38:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "\u2018Come together\u2019 Sunak tells Conservatives after twin by-<b>election</b> blow",
+                "url": "https://www.independent.co.uk/news/uk/rishi-sunak-wellingborough-conservatives-labour-government-b2497777.html",
+                "description": "Rishi Sunak has called on British conservatives to \u2018come together\u2019, after a bruising set of by-election defeats in Wellingborough and Kingswood.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "name": "Tell"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T21:13:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Reform leader rejects an <b>election</b> pact with Conservatives",
+                "url": "https://www.telegraph.co.uk/politics/2024/02/16/reform-uk-richard-tice-rishi-sunak-election-pact-reject/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.26uXGEg7moZBUSxae7siFi&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "Richard Tice rules out a collaboration with Rishi Sunak as Tories fear the general election becoming a \u2018slow-moving car crash\u2019",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/120d4238-df93-4584-9fac-30072ef9ad9d",
+                        "name": "Reform"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5e83019e-d5ad-de66-bfc7-9f24e0932322",
+                        "name": "By-election"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "name": "Reform"
+                    },
+                    {
+                        "name": "By-election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T21:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "\u2018It\u2019s a sinking ship\u2019: Grassroots Tories fear <b>general election</b> wipeout",
+                "url": "https://inews.co.uk/news/politics/grassroots-tories-election-wipeout-fears-2910698?ito=facebook_share_article-top",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.FRkvagSlVbqF1ksURtSf2S&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Grassroots Tories fear a <b>general election</b> wipeout if Rishi Sunak cannot convince Conservative supporters to turn out and vote after the party suffered a double by-<b>election</b> defeat. Councillors told i the by-<b>election</b> results in Wellingborough and Kingswood ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i"
+                    }
+                ],
+                "datePublished": "2024-02-16T17:42:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Labour\u2019s by-<b>election</b> victories are historic, but ultimately shallow",
+                "url": "https://inews.co.uk/opinion/labour-by-election-victory-historic-shallow-2910758?ico=more_from_this_author",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.UeTeGoa2K6kpbhXFUYm37i&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Fortunately for the party, the two seats duly delivered. Kingswood was always likely to deliver a Labour victory \u2013 and the seat is one of those that, if the next general election were being held on the current parliamentary boundaries,",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T17:09:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "What Labour\u2019s by-<b>election</b> wins mean for the <b>general election</b>",
+                "url": "https://www.thetimes.co.uk/article/what-labour-by-election-wins-mean-next-general-election-wellingborough-kingswood-3jd6d63zj?ilc=timesradio:morefromthetimes",
+                "description": "The 37.6 per cent drop in its vote in Wellingborough is the biggest decline the Conservative Party has ever suffered in a by-election it was defending. This brought us all back to reality. After a diverting couple of weeks needling Sir Keir Starmer about his failure to wipe out antisemitism within the party or to deal with Labour\u2019s conspiracy theorist candidate in Rochdale as swiftly as he should have,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8d8aa22b-becb-80d8-677c-a3161e16cbf5",
+                        "name": "General election"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5e83019e-d5ad-de66-bfc7-9f24e0932322",
+                        "name": "By-election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T17:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "By-<b>elections</b>: Tory gloom deepens after double poll blow",
+                "url": "https://www.bbc.co.uk/news/uk-politics-68316527.amp",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.XUGTn1zwG3Po_ieFRfDzLC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Tory candidate Helen Harrison had a night to forget So, another two whopping by-election victories for Labour. What is most striking about the results in Wellingborough and Kingwood is that they feel almost unsurprising,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fffdcc34-651a-82f4-aba2-458b5b4f8e9b",
+                        "name": "Gloom"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5e83019e-d5ad-de66-bfc7-9f24e0932322",
+                        "name": "By-election"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T13:53:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Nigel Farage says he &#39;might&#39; return to lead Reform UK after by-<b>election</b> results",
+                "url": "https://www.standard.co.uk/news/politics/nigel-farage-reform-uk-by-election-results-wellingborough-kingswood-b1139580.html",
+                "description": "Nigel Farage has said he \u201cmight\u201d make a return to frontline politics to lead Reform UK after the party\u2019s record by-election results. The Conservatives suffered a double defeat in the Kingswood and Wellingborough votes, with Labour over turning large Tory majorities in the seats.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4e19a7ad-e1b4-0f74-86c3-ba3be21089da",
+                        "name": "Nigel Farage"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/120d4238-df93-4584-9fac-30072ef9ad9d",
+                        "name": "Reform"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Nigel Farage"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Reform"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T11:27:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "These by-<b>election</b> results could be consequential and dramatic - here&#39;s why",
+                "url": "https://news.sky.com/story/these-by-election-results-could-be-consequential-and-dramatic-heres-why-13072730",
+                "description": "As the choice in the general election looms, these two by-elections were more hammerings which confirmed Labour&#39;s momentum - and made for a terrible night for Rishi Sunak and the Conservatives.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5e83019e-d5ad-de66-bfc7-9f24e0932322",
+                        "name": "By-election"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "By-election"
+                    },
+                    {
+                        "name": "Election"
+                    },
+                    {
+                        "name": "Sky News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Eg62H9DIbo-JYPI6GpAgGA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T10:31:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "When is the next <b>general election</b>? The dates Rishi Sunak is considering",
+                "url": "https://www.telegraph.co.uk/politics/2024/02/16/next-uk-general-parliamentary-election-dates/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.QYVXyRBqVPiypfLZ8Y7FVC&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "The Prime Minister has hinted at an autumn poll but could call one as early as May. The Telegraph examines his options",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8d8aa22b-becb-80d8-677c-a3161e16cbf5",
+                        "name": "General election"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "General election"
+                    },
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Parliament"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T09:34:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Pollster offers by-<b>election</b> verdict as Reform UK surges \u2013 and it&#39;s bad news for everyone",
+                "url": "https://www.express.co.uk/news/politics/1867322/by-election-results-reform-uk",
+                "description": "The Tories have taken a kicking, Labour have two new MPs and Reform are flying high - but Professor Sir John Curtice warns that the real losers were everyone.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/485b2a51-d95c-6470-9357-463834668752",
+                        "name": "Verdict"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/120d4238-df93-4584-9fac-30072ef9ad9d",
+                        "name": "Reform"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Verdict"
+                    },
+                    {
+                        "name": "Reform"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T07:21:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "By-<b>election</b> results since 2019 as Labour takes two more seats from Tories",
+                "url": "https://www.nottinghampost.com/news/uk-world-news/election-results-2019-labour-takes-9103752",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.tihXZVthnQo8w4hUlJPCMC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The latest by-elections mean the Conservatives have suffered more by-election defeats than in any single Parliament since the Second World War",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/474ecb67-f819-ecef-a259-d24741044ebd",
+                        "name": "Nottinghamshire"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5e83019e-d5ad-de66-bfc7-9f24e0932322",
+                        "name": "By-election"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Nottinghamshire"
+                    },
+                    {
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "name": "By-election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Nottingham Post",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.uIhRYEl-hjUmBuW39k7IdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T06:18:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "The Tories \u2018must adapt\u2019 if they want <b>General Election</b> hope after two by-<b>election</b> drubbings",
+                "url": "https://www.thesun.co.uk/news/25997621/tories-general-election-by-election/",
+                "description": "RISHI Sunak has been urged to \u201cchange course\u201d by his Tory MPs to give them hope for the <b>General Election</b>. The warning to the PM came after two by-<b>election</b> drubbings. Both Wellingborough, in Northants, and Kingswood, Gloucs, were lost to Labour \u2014 with ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d7a25a0d-7256-22c8-d18c-95799d2e5ebc",
+                        "name": "The Sun"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun"
+                    }
+                ],
+                "datePublished": "2024-02-16T00:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Automatic voter registration in Wales moves a step closer",
+                "url": "https://www.cwmbranlife.co.uk/automatic-voter-registration-in-wales-moves-a-step-closer/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.5usges-5vipWhOcpOMKtqC&pid=News",
+                        "width": 640,
+                        "height": 423
+                    }
+                },
+                "description": "Mick Antoniw said the <b>Elections</b> and Elected Bodies bill is an important step ... Mr Antoniw \u2013 who is counsel <b>general</b>, the Welsh Government\u2019s chief legal adviser \u2013 stressed the importance of protecting vulnerable voters through anonymous registration.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b51b24e1-6afb-d525-d360-f2eb5bf3410b",
+                        "name": "Wales"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/bf162f19-bbd2-aed4-df9b-6b75ed4b83c6",
+                        "name": "Voter registration"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "cwmbranlife"
+                    }
+                ],
+                "datePublished": "2024-02-16T00:00:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=general+election",
+        "queryContext": {
+            "originalQuery": "general election",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 140,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=general+election"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=general+election&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Read: Judge\u2019s $354 million civil fraud decision against Trump",
+                "url": "https://thehill.com/regulation/court-battles/4473139-trump-354-million-civil-fraud-decision-read/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.pxH66qyO6kg5YTz2nEniki&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "A New York judge on Friday afternoon ordered former President Trump to pay more than $350 million in penalties as part of the civil fraud case focused on the Trump family\u2019s business empire.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1a466af2-ed23-25bd-794d-1ca925e4681b",
+                        "name": "Donald Trump"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Donald Trump"
+                    },
+                    {
+                        "name": "The Hill"
+                    },
+                    {
+                        "name": "Regulation"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Hill",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.BO7AWyiZH_p5UNPH6KXa_g&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-17T00:16:00.0000000Z"
+            },
+            {
+                "name": "Letters: The Conservatives are being punished for treating their core voters with contempt",
+                "url": "https://www.msn.com/en-us/news/world/letters-the-conservatives-are-being-punished-for-treating-their-core-voters-with-contempt/ar-BB1ipbcr",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Po11qfZUKHBM6HREtiegRi&pid=News",
+                        "width": 700,
+                        "height": 437
+                    }
+                },
+                "description": "SIR \u2013 Rishi Sunak is imploring voters not to put Labour in power by switching to Reform UK, following the Conservatives\u2019 Kingswood and Wellingborough by-election losses (report, telegraph.co.uk, February 16).",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Telegraph on MSN.com",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-17T00:01:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Republican quits Senate bid just days after announcement after failing to get Trump endorsement",
+                "url": "https://www.msn.com/en-gb/news/politics/republican-quits-senate-bid-just-days-after-announcement-after-failing-to-get-trump-endorsement/ar-BB1ipe07",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.DEWvflebowHU4PGvy3LEfi&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Republican quits Senate bid just days after announcement after failing to get Trump endorsement - Matt Rosendale dropped out once the former president endorsed his would-be primary opponent",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent on MSN.com",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T23:47:31.0000000Z",
+                "video": {
+                    "name": "Republican lawmaker claims as a vet he is \u2018qualified\u2019 to ban abortion",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/e0e49380-256a-449f-93b4-ea80ebbc1ad6/d94473dc-ea66-4395-8b69-4f97cf7b_650.mp4",
+                    "thumbnail": {
+                        "width": 640,
+                        "height": 360
+                    }
+                },
+                "category": "World"
+            },
+            {
+                "name": "Court overturns Senegalese presidential <b>election</b> delay",
+                "url": "https://www.foxnews.com/world/court-overturns-senegalese-presidential-election-delay",
+                "description": "Senegal will hold its next presidential election as soon as possible following the overturning of incumbent Macky Sall&#39;s postponement of the vote.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61b4b41a-e86a-1c43-604a-57097e879fb9",
+                        "name": "Senegal"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/273e0477-30ed-3993-f232-f39244306805",
+                        "name": "Fox News Channel"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/66c1579e-eaa2-f29f-f3f9-c71c4df34009",
+                        "name": "Court"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Fox News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mdH-v7wPV5psO7NVm756zg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T23:32:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Are There Any Persuadable Voters Left?",
+                "url": "https://www.nytimes.com/2024/02/16/us/politics/presidential-election-voters.html",
+                "description": "But that\u2019s not universal. Murray of Monmouth said that there were still some voters whose identities were not closely tied to their politics \u2014 and they might be up for grabs. \u201cThose are the persuadable voters,\u201d he said, \u201cthat don\u2019t buy into kind of these doomsday scenarios that both parties are putting out if the other party wins.\u201d",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/614b60a2-4ccd-3ecb-15dc-6e2fba54ed28",
+                        "name": "The New York Times"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The New York Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.GzcmUDr41J6Qc1JEQyNTCA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T23:24:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "The gathering storm at your dinner table",
+                "url": "https://www.politico.com/newsletters/politico-nightly/2024/02/16/the-gathering-storm-at-your-dinner-table-00142015",
+                "description": "FAMILY FEUD \u2014 New research suggests a fascinating trend with implications for politics \u2014 and family dinners: Daughters from conservative families are voting for Democrats at levels much higher than sons.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cf1ff3b2-bf10-cc21-6f54-2d41659f0653",
+                        "name": "Gathering"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Politico",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.MHxqk0yjS0WJ0s_YOcKUhg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T23:01:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Shareholders Led by Yi Zhang Announce Successful Results of Removal of Directors and <b>Election</b> of New Directors of YS Biopharma Co., Ltd.",
+                "url": "https://finance.yahoo.com/news/shareholders-led-yi-zhang-announce-223600011.html",
+                "description": "Yi Zhang and shareholders representing over 59.2% of the outstanding shares of YS Biopharma Co., Ltd. (the &quot;Company&quot; or &quot;YS&quot;) (NASDAQ: YS) (the &quot;Convening Shareholders&quot;) today announced the successful approval of all resolutions at the YS Extraordinary General Meeting of Shareholders (&quot;EGM&quot;) held today.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/07cf1995-7bf4-fd2a-4900-985da7b1565d",
+                        "name": "Zhang Yun"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/88d827e8-9789-3118-4505-8eaddd2c5190",
+                        "name": "Shareholder"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/53266c8c-274c-3e05-551d-d51d4cdead90",
+                        "name": "Corporation"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "YAHOO!Finance",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.fJDJ4f2BFbmOkQx_rnDw3Q&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T22:36:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Trump \u2018perfected the art of the steal\u2019, New York attorney <b>general</b> says after $350m ruling \u2013 live",
+                "url": "https://www.theguardian.com/us-news/live/2024/feb/16/trump-trial-fraud-fani-willis-election-geogia-updates?filterKeyEvents=false&page=with:block-65cfebf98f08dfb189f4ed2c",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.I1VEiWf31UVNnLm7vMH6Jy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Letitia James says judgment of more than $350m shows Trump \u2018engaged in incredible financial fraud to enrich himself\u2019 \u2013 follow the latest",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T22:28:00.0000000Z"
+            },
+            {
+                "name": "Electoral Bonds: Bank rules may impede revealing poll bond information, say government sources",
+                "url": "https://timesofindia.indiatimes.com/india/electoral-bonds-bank-rules-may-impede-revealing-poll-bond-information-say-government-sources/articleshow/107764097.cms",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Sn1vAdfcH1sGuH31Y7MXoS&pid=News",
+                        "width": 700,
+                        "height": 379
+                    }
+                },
+                "description": "Prevailing banking standards may impede the disclosure of the names of electoral bond subscribers, according to government sources, who claim the prog",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/85fa63d3-9596-adb9-b4eb-502273d84f56",
+                        "name": "India"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7804fb2e-ea6c-f934-6dc5-c5bc671e2ba2",
+                        "name": "The Times of India"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a00227e3-ffd7-b1d1-b5e1-0d69bafbfa37",
+                        "name": "India News"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "India"
+                    },
+                    {
+                        "name": "The Times of India"
+                    },
+                    {
+                        "name": "India News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Indiatimes",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.VBzHmoY4z9NL3FbRonyM1w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T22:11:00.0000000Z"
+            },
+            {
+                "name": "Transcript: Tories reel from by-<b>election</b> blows",
+                "url": "https://www.ft.com/content/7dfa734c-0f15-421a-bc24-47fe42e96174",
+                "description": "Lucy Fisher talks to George Parker, Rafe Uddin, elections guru Professor Sir John Curtice and the FT\u2019s foreign editor Alec Russell",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5e83019e-d5ad-de66-bfc7-9f24e0932322",
+                        "name": "By-election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Financial Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CdBlognZ1u9nda-gVEOS_w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T22:06:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Divided Michigan Republicans plan dueling meetings to choose presidential nominee",
+                "url": "https://news.yahoo.com/divided-michigan-republicans-plan-dueling-220008712.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.P-fMVPG-RAYJSOhDxlVBjC&pid=News",
+                        "width": 700,
+                        "height": 525
+                    }
+                },
+                "description": "Warring factions within the Michigan Republican Party are planning to hold separate meetings next month to choose the party&#39;s presidential nominee, the latest sign of the turmoil gripping the party in the key battleground state.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/18d7f0ab-bacf-55ce-4fad-e337129f5b2a",
+                        "name": "Divided"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/162411c2-b757-495d-aa81-93942fae2f7e",
+                        "name": "Michigan"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/53c1fcf5-7124-31e5-fb48-545a399f0131",
+                        "name": "Presidential nominee"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "YAHOO!News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.nYADEgS75l8rdCg9D-p_OQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T22:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Live updates: Trump ordered to pay over $350M after fraud trial; Fani Willis hearing adjourns",
+                "url": "https://www.nbcnews.com/politics/donald-trump/live-blog/live-updates-da-fani-willis-faces-misconduct-allegations-trump-georgia-rcna139166",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.psr7KEgrFkXndVEJzDj_MC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Updates and news coverage on what&#39;s at stake in Trump&#39;s misconduct allegations against DA Fani Willis, who is prosecuting the the Georgia election interference case.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "NBC News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.ighWNnrr5MMFUs8WKMme2A&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T21:53:00.0000000Z"
+            },
+            {
+                "name": "Maine voting FAQ",
+                "url": "https://www.usatoday.com/story/news/politics/elections/2024/02/16/maine-voting-faq/72429429007/",
+                "description": "Another way to register to vote is to download and print a Maine voter registration application from the Secretary of State\u2019s website or contact your town clerk to have a voter registration card mailed to you. You can hand deliver or mail the completed voter registration application or card to your town office or city hall.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d62dd683-9cf9-4db9-a497-d810d529592b",
+                        "name": "Maine"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/07e44756-ec03-8ab1-a04d-ec82784953ee",
+                        "name": "FAQ"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "USA Today",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.m1iod5ODNIyyKu23kGIllQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T21:51:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Trump&#39;s civil fraud verdict appeal may hinge on &#39;no victims&#39; defense",
+                "url": "https://www.reuters.com/legal/trumps-civil-fraud-verdict-appeal-may-hinge-no-victims-defense-2024-02-16/",
+                "description": "Donald Trump&#39;s planned appeal of a $355 million judgment against him in his civil fraud case may focus on the former president&#39;s contention that there were no actual victims from his conduct at issue in the case,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1a466af2-ed23-25bd-794d-1ca925e4681b",
+                        "name": "Donald Trump"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/485b2a51-d95c-6470-9357-463834668752",
+                        "name": "Verdict"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1ef128a5-7baa-925f-273c-769dd3ec277e",
+                        "name": "Defense"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Reuters",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.jFXbg3L7Ce_1pS4_IOR8CA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T21:44:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Reform leader rejects an <b>election</b> pact with Conservatives",
+                "url": "https://www.telegraph.co.uk/politics/2024/02/16/reform-uk-richard-tice-rishi-sunak-election-pact-reject/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.26uXGEg7moZBUSxae7siFi&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "Richard Tice rules out a collaboration with Rishi Sunak as Tories fear the general election becoming a \u2018slow-moving car crash\u2019",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/120d4238-df93-4584-9fac-30072ef9ad9d",
+                        "name": "Reform"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5e83019e-d5ad-de66-bfc7-9f24e0932322",
+                        "name": "By-election"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "name": "Reform"
+                    },
+                    {
+                        "name": "By-election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T21:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Rishi Sunak faces mutinous Tory party after by-<b>election</b> losses",
+                "url": "https://www.ft.com/content/80f99501-dc76-4bd1-9a9e-6729da1a584d",
+                "description": "Danny Kruger and Miriam Cates, the co-leaders of the New Conservatives faction of right-wing Tory MPs, also issued a damning statement accusing Sunak of presiding over \u201cconsensus politics\u201d that centred on \u201chigh taxes, low security, managed decline\u201d.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5e83019e-d5ad-de66-bfc7-9f24e0932322",
+                        "name": "By-election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Financial Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CdBlognZ1u9nda-gVEOS_w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T17:15:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Sunak faces conflicting calls over Tory path forward after bruising byelections",
+                "url": "https://www.theguardian.com/politics/2024/feb/16/rishi-sunak-conservative-tory-path-forward-byelections-analysis",
+                "description": "Loudest voices urge further tack to right after Reform UK gains but moderates argue general election can only be won on centre ground",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T17:09:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Labour\u2019s by-<b>election</b> victories are historic, but ultimately shallow",
+                "url": "https://inews.co.uk/opinion/labour-by-election-victory-historic-shallow-2910758?ico=more_from_this_author",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.UeTeGoa2K6kpbhXFUYm37i&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Fortunately for the party, the two seats duly delivered. Kingswood was always likely to deliver a Labour victory \u2013 and the seat is one of those that, if the next general election were being held on the current parliamentary boundaries,",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T17:09:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "What Labour\u2019s by-<b>election</b> wins mean for the <b>general election</b>",
+                "url": "https://www.thetimes.co.uk/article/what-labour-by-election-wins-mean-next-general-election-wellingborough-kingswood-3jd6d63zj?ilc=timesradio:morefromthetimes",
+                "description": "The 37.6 per cent drop in its vote in Wellingborough is the biggest decline the Conservative Party has ever suffered in a by-election it was defending. This brought us all back to reality. After a diverting couple of weeks needling Sir Keir Starmer about his failure to wipe out antisemitism within the party or to deal with Labour\u2019s conspiracy theorist candidate in Rochdale as swiftly as he should have,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8d8aa22b-becb-80d8-677c-a3161e16cbf5",
+                        "name": "General election"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5e83019e-d5ad-de66-bfc7-9f24e0932322",
+                        "name": "By-election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T17:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Wellingborough and Kingswood by-<b>elections</b>: Job not done despite huge wins, says Starmer",
+                "url": "https://www.bbc.co.uk/news/uk-politics-68313421.amp",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.P0JGr4dnBlOLr5TTanNzBS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The party came third in both by-elections, picking up 13% of the vote in Wellingborough and 10.4% in Kingswood. Labour secured a majority of 2,501 over Tory candidate Sam Bromiley in the South Gloucestershire seat of Kingswood, near Bristol.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/79dd2f21-0dd1-9c0e-1310-9b93cd0cac67",
+                        "name": "Kingswood"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/73388964-99e9-bfa8-c8a4-0331f036fdb6",
+                        "name": "Wellingborough"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T15:33:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "A tempestuous day in multiple courts deepens Trump\u2019s legal imbroglio",
+                "url": "https://edition.cnn.com/2024/02/16/politics/trump-legal-drama-complications/index.html?ref=mc.news",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ZiRYsSjHsSwHedMvrmunaS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Trump\u2019s lawyers made a final, beseeching plea to the Supreme Court to stop the clock in a federal trial over his attempt to overturn the 2020 election. Justices must now decide whether to take up one of the most profound cases in the body\u2019s history.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1a466af2-ed23-25bd-794d-1ca925e4681b",
+                        "name": "Donald Trump"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c4c637e5-f9cc-a3ed-3380-7152515e062e",
+                        "name": "CNN"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Donald Trump"
+                    },
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "CNN"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "CNN",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.L448Bu0prHuvdWqWB4wMng&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T15:19:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Byelection results - live: Boost for Starmer after Rochdale \u2018shambles\u2019 as Labour clinches two major victories",
+                "url": "https://www.independent.co.uk/news/uk/politics/wellingborough-kingswood-by-election-results-egan-kitchen-b2497238.html?page=6",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.DfCkQ8BQNOydzk8SMbo8Ty&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Labour overturns two large majorities to take seats in Northamptonshire and South Gloucestershire on a bad night for the Conservative party",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/baf56fc2-cb3f-46c7-83ad-08830d0407e4",
+                        "name": "Rochdale"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T14:50:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Why Abortion Matters In This Suddenly Competitive Blue-State Senate Race",
+                "url": "https://www.huffpost.com/entry/larry-hogan-maryland-abortion-senate_n_65ce8506e4b04daca696508d?ncid=engmodushpmg00000003",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.13k-M9mbW3LIuwUQG-PmWy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Larry Hogan has managed to make his anti-abortion rights views irrelevant in Maryland. That\u2019ll be a tough sell as he runs for Senate.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "HuffPost",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.rPjudoA7C5i-PdVAOVho9w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T14:45:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Nigel Farage says he and Tories such as Jacob Rees-Mogg &#39;will have to be in the same party at some point&#39; as he urges right-wing unity - but only after the <b>general election</b>",
+                "url": "https://www.dailymail.co.uk/news/article-13092235/Nigel-Farage-says-Tories-Jacob-Rees-Mogg-party-point-urges-right-wing-unity-general-election.html",
+                "description": "The Brexit architect, the former leader of UKIP , predicted a coming together of right-wing politicians in the wake of two more by-election defeats for the Tories.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/635771d4-2931-15cf-326f-55c87ce8ab71",
+                        "name": "Jacob Rees-Mogg"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4e19a7ad-e1b4-0f74-86c3-ba3be21089da",
+                        "name": "Nigel Farage"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Jacob Rees-Mogg"
+                    },
+                    {
+                        "name": "Nigel Farage"
+                    },
+                    {
+                        "name": "Conservative Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T14:36:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "By-<b>elections</b>: Tory gloom deepens after double poll blow",
+                "url": "https://www.bbc.com/news/uk-politics-68316527",
+                "description": "And in Kingswood, near Bristol, they got a share of the vote greater than the gap between the victorious Labour candidate and the Tory runner-up. That is a double dose of the heebie-jeebies delivered in one day to nervous Tories.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5e83019e-d5ad-de66-bfc7-9f24e0932322",
+                        "name": "By-election"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fffdcc34-651a-82f4-aba2-458b5b4f8e9b",
+                        "name": "Gloom"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k3N4DqozNjgK376rAnFmsA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T13:53:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Nigel Farage says he &#39;might&#39; return to lead Reform UK after by-<b>election</b> results",
+                "url": "https://www.standard.co.uk/news/politics/nigel-farage-reform-uk-by-election-results-wellingborough-kingswood-b1139580.html",
+                "description": "Nigel Farage has said he \u201cmight\u201d make a return to frontline politics to lead Reform UK after the party\u2019s record by-election results. The Conservatives suffered a double defeat in the Kingswood and Wellingborough votes, with Labour over turning large Tory majorities in the seats.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4e19a7ad-e1b4-0f74-86c3-ba3be21089da",
+                        "name": "Nigel Farage"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/120d4238-df93-4584-9fac-30072ef9ad9d",
+                        "name": "Reform"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Nigel Farage"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Reform"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T11:27:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Problems mount for UK PM Rishi Sunak as his party suffers heavy defeat in two parliamentary <b>elections</b>",
+                "url": "https://edition.cnn.com/2024/02/16/uk/sunak-conservatives-by-election-losses-intl/index.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.470fvaci0lIWvV1K6CvpPS&pid=News",
+                        "width": 256,
+                        "height": 144
+                    }
+                },
+                "description": "British Prime Minister Rishi Sunak is facing a weekend of difficult questions after his governing Conservative policy lost two seats in parliament on Thursday.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c4c637e5-f9cc-a3ed-3380-7152515e062e",
+                        "name": "CNN"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2570ebea-8c42-048a-3350-57c9e4169167",
+                        "name": "Prime Minister of the United Kingdom"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "CNN"
+                    },
+                    {
+                        "name": "Prime Minister of the United Kingdom"
+                    },
+                    {
+                        "name": "General election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "CNN",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.L448Bu0prHuvdWqWB4wMng&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T11:25:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Could Reform UK surge sink Tory <b>election</b> hopes?",
+                "url": "https://www.bbc.co.uk/news/uk-politics-68314949",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.bTTL9GmQug-bMCyKE5HADy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Reform UK leader Richard Tice has said he wants to &quot;smash&quot; and &quot;destroy&quot; the Tory Party at the general election. He insisted Reform UK would never consider repeating the Brexit Party&#39;s 2019 deal with the Conservatives - which saw it withdraw candidates in 317 constituencies after then-Tory leader Boris Johnson committed to leaving the EU by 2020.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T10:45:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "These by-<b>election</b> results could be consequential and dramatic - here&#39;s why",
+                "url": "https://news.sky.com/story/these-by-election-results-could-be-consequential-and-dramatic-heres-why-13072730",
+                "description": "As the choice in the general election looms, these two by-elections were more hammerings which confirmed Labour&#39;s momentum - and made for a terrible night for Rishi Sunak and the Conservatives.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5e83019e-d5ad-de66-bfc7-9f24e0932322",
+                        "name": "By-election"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "By-election"
+                    },
+                    {
+                        "name": "Election"
+                    },
+                    {
+                        "name": "Sky News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Eg62H9DIbo-JYPI6GpAgGA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T10:31:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Reform UK surge to their best ever by-<b>election</b> result - but how much of a threat do they pose at the <b>general election</b>? Will Nigel Farage return as leader? And what are their ...",
+                "url": "https://www.dailymail.co.uk/news/article-13091275/Reform-UK-surge-best-election-result-threat-pose-general-election-Nigel-Farage-return-leader-tax-cutting-net-zero-immigration-plans.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.4sl9yzXxheRMXO3NILz8DC&pid=News",
+                        "width": 634,
+                        "height": 423
+                    }
+                },
+                "description": "Election experts said the by-election results &#39;backed up&#39; Reform&#39;s national opinion polling, which has seen the party hover around 10 per cent for a number of weeks.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4e19a7ad-e1b4-0f74-86c3-ba3be21089da",
+                        "name": "Nigel Farage"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8d8aa22b-becb-80d8-677c-a3161e16cbf5",
+                        "name": "General election"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5e83019e-d5ad-de66-bfc7-9f24e0932322",
+                        "name": "By-election"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Nigel Farage"
+                    },
+                    {
+                        "name": "General election"
+                    },
+                    {
+                        "name": "By-election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T10:12:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "\u2018A vote for Reform is a vote for Starmer\u2019, says Sunak",
+                "url": "https://www.independent.co.uk/news/uk/rishi-sunak-reform-labour-conservative-party-richard-tice-b2497398.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.oKEiMqqNiE3q1Fwe4JlyJC&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Prime Minister Rishi Sunak said the \u2018actual choice\u2019 at the general election is \u2018between me and him\u2019, referring to the Labour leader.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/120d4238-df93-4584-9fac-30072ef9ad9d",
+                        "name": "Reform"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "Reform"
+                    },
+                    {
+                        "name": "News UK"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T09:46:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "When is the next <b>general election</b>? The dates Rishi Sunak is considering",
+                "url": "https://www.telegraph.co.uk/politics/2024/02/16/next-uk-general-parliamentary-election-dates/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.QYVXyRBqVPiypfLZ8Y7FVC&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "The Prime Minister has hinted at an autumn poll but could call one as early as May. The Telegraph examines his options",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8d8aa22b-becb-80d8-677c-a3161e16cbf5",
+                        "name": "General election"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "General election"
+                    },
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Parliament"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T09:34:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Kingswood by-<b>election</b>: Labour&#39;s Damien Egan overturns large Tory majority",
+                "url": "https://www.bbc.com/news/uk-england-bristol-68308476.amp",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.uN04D8BvKF3V3CCtgBrJKS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Tory MP Jacob Rees-Mogg, whose North East Somerset constituency borders Kingswood, blamed the result on a low turnout and insisted Rishi Sunak&#39;s leadership is &quot;solid&quot; and &quot;by-elections don&#39;t change that&quot;. However he added, his party &quot;needs some fresh ideas&quot;.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9ac6e509-eff7-4b1e-bf53-dcb38e130f37",
+                        "name": "Kingswood"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k3N4DqozNjgK376rAnFmsA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T09:06:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Pollster offers by-<b>election</b> verdict as Reform UK surges \u2013 and it&#39;s bad news for everyone",
+                "url": "https://www.express.co.uk/news/politics/1867322/by-election-results-reform-uk",
+                "description": "The Tories have taken a kicking, Labour have two new MPs and Reform are flying high - but Professor Sir John Curtice warns that the real losers were everyone.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/485b2a51-d95c-6470-9357-463834668752",
+                        "name": "Verdict"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/120d4238-df93-4584-9fac-30072ef9ad9d",
+                        "name": "Reform"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Verdict"
+                    },
+                    {
+                        "name": "Reform"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T07:21:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Delay Tactics And Quick Trips: Takeaways From Two Trump Case Hearings In New York And Georgia",
+                "url": "https://www.huffpost.com/entry/trump-indictments-takeaways-delays_n_65ceceeae4b0f7fbe7b21db7",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.1k6tNfdU_vYiiEi93PrU_y&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Donald Trump\u2019s unprecedented tangle of overlapping cases was on full display Thursday with simultaneous court hearings in New York and Georgia.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1a466af2-ed23-25bd-794d-1ca925e4681b",
+                        "name": "Donald Trump"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/84604bc7-2c47-4f8d-8ea5-b6ac8c018a20",
+                        "name": "Georgia"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "HuffPost",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.rPjudoA7C5i-PdVAOVho9w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T07:04:00.0000000Z",
+                "video": {
+                    "name": "Delay Tactics And Quick Trips: Takeaways From Two Trump Case Hearings In New York And Georgia",
+                    "thumbnailUrl": "https://www.bing.com/th?id=OVF.cXCSQjqd%2BiPaTNbJpo8fIw&pid=News",
+                    "thumbnail": {
+                        "width": 520,
+                        "height": 273
+                    }
+                }
+            },
+            {
+                "name": "By-<b>election</b> results since 2019 as Labour takes two more seats from Tories",
+                "url": "https://www.nottinghampost.com/news/uk-world-news/election-results-2019-labour-takes-9103752",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.tihXZVthnQo8w4hUlJPCMC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The latest by-elections mean the Conservatives have suffered more by-election defeats than in any single Parliament since the Second World War",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/474ecb67-f819-ecef-a259-d24741044ebd",
+                        "name": "Nottinghamshire"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5e83019e-d5ad-de66-bfc7-9f24e0932322",
+                        "name": "By-election"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Nottinghamshire"
+                    },
+                    {
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "name": "By-election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Nottingham Post",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.uIhRYEl-hjUmBuW39k7IdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T06:18:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Conservatives lose two by-<b>elections</b> after huge swings towards Labour",
+                "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/conservatives-lose-two-elections-after-28643455",
+                "description": "The twin blows will compound the Prime Minister&#39;s woes, coming the day after it was officially announced that the UK had entered a recession at the end of 2023, and mean the Conservatives have suffered more by-election defeats than in any single Parliament since the Second World War.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5e83019e-d5ad-de66-bfc7-9f24e0932322",
+                        "name": "By-election"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "name": "By-election"
+                    },
+                    {
+                        "name": "Manchester Evening News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Manchester Evening News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.oxaa8-w2MDoXi5yOUu7A3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T06:07:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Conservatives\u2019 by-<b>election</b> scorecard since 2019 <b>general election</b>",
+                "url": "https://www.kentonline.co.uk/news/national/conservatives-by-election-scorecard-since-2019-general-election-110655/",
+                "description": "The Conservatives\u2019 share of the vote slumped from 62% at the 2019 general election to just 25%, the largest drop recorded by the Tories at any by-election since 1945. The Conservatives have made one by-election gain during this parliament: Hartlepool in County Durham, which the party took from Labour on a swing of 16.0 percentage points.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8d8aa22b-becb-80d8-677c-a3161e16cbf5",
+                        "name": "General election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Kent Online",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.hWRC_m6PUwfTBWwiGneX8Q&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T05:52:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "The Tories \u2018must adapt\u2019 if they want <b>General Election</b> hope after two by-<b>election</b> drubbings",
+                "url": "https://www.thesun.co.uk/news/25997621/tories-general-election-by-election/",
+                "description": "RISHI Sunak has been urged to \u201cchange course\u201d by his Tory MPs to give them hope for the <b>General Election</b>. The warning to the PM came after two by-<b>election</b> drubbings. Both Wellingborough, in Northants, and Kingswood, Gloucs, were lost to Labour \u2014 with ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d7a25a0d-7256-22c8-d18c-95799d2e5ebc",
+                        "name": "The Sun"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun"
+                    }
+                ],
+                "datePublished": "2024-02-16T00:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Automatic voter registration in Wales moves a step closer",
+                "url": "https://www.cwmbranlife.co.uk/automatic-voter-registration-in-wales-moves-a-step-closer/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.5usges-5vipWhOcpOMKtqC&pid=News",
+                        "width": 640,
+                        "height": 423
+                    }
+                },
+                "description": "Mick Antoniw said the <b>Elections</b> and Elected Bodies bill is an important step ... Mr Antoniw \u2013 who is counsel <b>general</b>, the Welsh Government\u2019s chief legal adviser \u2013 stressed the importance of protecting vulnerable voters through anonymous registration.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b51b24e1-6afb-d525-d360-f2eb5bf3410b",
+                        "name": "Wales"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/bf162f19-bbd2-aed4-df9b-6b75ed4b83c6",
+                        "name": "Voter registration"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "cwmbranlife"
+                    }
+                ],
+                "datePublished": "2024-02-16T00:00:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=general+election",
+        "queryContext": {
+            "originalQuery": "general election",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 240,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=general+election"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=general+election&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Read: Judge\u2019s $354 million civil fraud decision against Trump",
+                "url": "https://thehill.com/regulation/court-battles/4473139-trump-354-million-civil-fraud-decision-read/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.pxH66qyO6kg5YTz2nEniki&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "A New York judge on Friday afternoon ordered former President Trump to pay more than $350 million in penalties as part of the civil fraud case focused on the Trump family\u2019s business empire.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1a466af2-ed23-25bd-794d-1ca925e4681b",
+                        "name": "Donald Trump"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Donald Trump"
+                    },
+                    {
+                        "name": "The Hill"
+                    },
+                    {
+                        "name": "Regulation"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Hill",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.BO7AWyiZH_p5UNPH6KXa_g&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-17T00:16:00.0000000Z"
+            },
+            {
+                "name": "Letters: The Conservatives are being punished for treating their core voters with contempt",
+                "url": "https://www.msn.com/en-us/news/world/letters-the-conservatives-are-being-punished-for-treating-their-core-voters-with-contempt/ar-BB1ipbcr",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Po11qfZUKHBM6HREtiegRi&pid=News",
+                        "width": 700,
+                        "height": 437
+                    }
+                },
+                "description": "SIR \u2013 Rishi Sunak is imploring voters not to put Labour in power by switching to Reform UK, following the Conservatives\u2019 Kingswood and Wellingborough by-election losses (report, telegraph.co.uk, February 16).",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Telegraph on MSN.com",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-17T00:01:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Republican quits Senate bid just days after announcement after failing to get Trump endorsement",
+                "url": "https://www.msn.com/en-gb/news/politics/republican-quits-senate-bid-just-days-after-announcement-after-failing-to-get-trump-endorsement/ar-BB1ipe07",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.DEWvflebowHU4PGvy3LEfi&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Republican quits Senate bid just days after announcement after failing to get Trump endorsement - Matt Rosendale dropped out once the former president endorsed his would-be primary opponent",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent on MSN.com",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T23:47:31.0000000Z",
+                "video": {
+                    "name": "Republican lawmaker claims as a vet he is \u2018qualified\u2019 to ban abortion",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/e0e49380-256a-449f-93b4-ea80ebbc1ad6/d94473dc-ea66-4395-8b69-4f97cf7b_650.mp4",
+                    "thumbnail": {
+                        "width": 640,
+                        "height": 360
+                    }
+                },
+                "category": "World"
+            },
+            {
+                "name": "Court overturns Senegalese presidential <b>election</b> delay",
+                "url": "https://www.foxnews.com/world/court-overturns-senegalese-presidential-election-delay",
+                "description": "Senegal will hold its next presidential election as soon as possible following the overturning of incumbent Macky Sall&#39;s postponement of the vote.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61b4b41a-e86a-1c43-604a-57097e879fb9",
+                        "name": "Senegal"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/273e0477-30ed-3993-f232-f39244306805",
+                        "name": "Fox News Channel"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/66c1579e-eaa2-f29f-f3f9-c71c4df34009",
+                        "name": "Court"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Fox News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mdH-v7wPV5psO7NVm756zg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T23:32:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Are There Any Persuadable Voters Left?",
+                "url": "https://www.nytimes.com/2024/02/16/us/politics/presidential-election-voters.html",
+                "description": "But that\u2019s not universal. Murray of Monmouth said that there were still some voters whose identities were not closely tied to their politics \u2014 and they might be up for grabs. \u201cThose are the persuadable voters,\u201d he said, \u201cthat don\u2019t buy into kind of these doomsday scenarios that both parties are putting out if the other party wins.\u201d",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/614b60a2-4ccd-3ecb-15dc-6e2fba54ed28",
+                        "name": "The New York Times"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The New York Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.GzcmUDr41J6Qc1JEQyNTCA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T23:24:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "The gathering storm at your dinner table",
+                "url": "https://www.politico.com/newsletters/politico-nightly/2024/02/16/the-gathering-storm-at-your-dinner-table-00142015",
+                "description": "FAMILY FEUD \u2014 New research suggests a fascinating trend with implications for politics \u2014 and family dinners: Daughters from conservative families are voting for Democrats at levels much higher than sons.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cf1ff3b2-bf10-cc21-6f54-2d41659f0653",
+                        "name": "Gathering"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Politico",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.MHxqk0yjS0WJ0s_YOcKUhg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T23:01:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Shareholders Led by Yi Zhang Announce Successful Results of Removal of Directors and <b>Election</b> of New Directors of YS Biopharma Co., Ltd.",
+                "url": "https://finance.yahoo.com/news/shareholders-led-yi-zhang-announce-223600011.html",
+                "description": "Yi Zhang and shareholders representing over 59.2% of the outstanding shares of YS Biopharma Co., Ltd. (the &quot;Company&quot; or &quot;YS&quot;) (NASDAQ: YS) (the &quot;Convening Shareholders&quot;) today announced the successful approval of all resolutions at the YS Extraordinary General Meeting of Shareholders (&quot;EGM&quot;) held today.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/07cf1995-7bf4-fd2a-4900-985da7b1565d",
+                        "name": "Zhang Yun"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/88d827e8-9789-3118-4505-8eaddd2c5190",
+                        "name": "Shareholder"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/53266c8c-274c-3e05-551d-d51d4cdead90",
+                        "name": "Corporation"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "YAHOO!Finance",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.fJDJ4f2BFbmOkQx_rnDw3Q&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T22:36:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Trump \u2018perfected the art of the steal\u2019, New York attorney <b>general</b> says after $350m ruling \u2013 live",
+                "url": "https://www.theguardian.com/us-news/live/2024/feb/16/trump-trial-fraud-fani-willis-election-geogia-updates?filterKeyEvents=false&page=with:block-65cfebf98f08dfb189f4ed2c",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.I1VEiWf31UVNnLm7vMH6Jy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Letitia James says judgment of more than $350m shows Trump \u2018engaged in incredible financial fraud to enrich himself\u2019 \u2013 follow the latest",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T22:28:00.0000000Z"
+            },
+            {
+                "name": "Electoral Bonds: Bank rules may impede revealing poll bond information, say government sources",
+                "url": "https://timesofindia.indiatimes.com/india/electoral-bonds-bank-rules-may-impede-revealing-poll-bond-information-say-government-sources/articleshow/107764097.cms",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Sn1vAdfcH1sGuH31Y7MXoS&pid=News",
+                        "width": 700,
+                        "height": 379
+                    }
+                },
+                "description": "Prevailing banking standards may impede the disclosure of the names of electoral bond subscribers, according to government sources, who claim the prog",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/85fa63d3-9596-adb9-b4eb-502273d84f56",
+                        "name": "India"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7804fb2e-ea6c-f934-6dc5-c5bc671e2ba2",
+                        "name": "The Times of India"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a00227e3-ffd7-b1d1-b5e1-0d69bafbfa37",
+                        "name": "India News"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "India"
+                    },
+                    {
+                        "name": "The Times of India"
+                    },
+                    {
+                        "name": "India News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Indiatimes",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.VBzHmoY4z9NL3FbRonyM1w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T22:11:00.0000000Z"
+            },
+            {
+                "name": "Transcript: Tories reel from by-<b>election</b> blows",
+                "url": "https://www.ft.com/content/7dfa734c-0f15-421a-bc24-47fe42e96174",
+                "description": "Lucy Fisher talks to George Parker, Rafe Uddin, elections guru Professor Sir John Curtice and the FT\u2019s foreign editor Alec Russell",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5e83019e-d5ad-de66-bfc7-9f24e0932322",
+                        "name": "By-election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Financial Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CdBlognZ1u9nda-gVEOS_w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T22:06:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Divided Michigan Republicans plan dueling meetings to choose presidential nominee",
+                "url": "https://news.yahoo.com/divided-michigan-republicans-plan-dueling-220008712.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.P-fMVPG-RAYJSOhDxlVBjC&pid=News",
+                        "width": 700,
+                        "height": 525
+                    }
+                },
+                "description": "Warring factions within the Michigan Republican Party are planning to hold separate meetings next month to choose the party&#39;s presidential nominee, the latest sign of the turmoil gripping the party in the key battleground state.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/18d7f0ab-bacf-55ce-4fad-e337129f5b2a",
+                        "name": "Divided"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/162411c2-b757-495d-aa81-93942fae2f7e",
+                        "name": "Michigan"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/53c1fcf5-7124-31e5-fb48-545a399f0131",
+                        "name": "Presidential nominee"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "YAHOO!News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.nYADEgS75l8rdCg9D-p_OQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T22:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Live updates: Trump ordered to pay over $350M after fraud trial; Fani Willis hearing adjourns",
+                "url": "https://www.nbcnews.com/politics/donald-trump/live-blog/live-updates-da-fani-willis-faces-misconduct-allegations-trump-georgia-rcna139166",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.psr7KEgrFkXndVEJzDj_MC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Updates and news coverage on what&#39;s at stake in Trump&#39;s misconduct allegations against DA Fani Willis, who is prosecuting the the Georgia election interference case.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "NBC News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.ighWNnrr5MMFUs8WKMme2A&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T21:53:00.0000000Z"
+            },
+            {
+                "name": "Maine voting FAQ",
+                "url": "https://www.usatoday.com/story/news/politics/elections/2024/02/16/maine-voting-faq/72429429007/",
+                "description": "Another way to register to vote is to download and print a Maine voter registration application from the Secretary of State\u2019s website or contact your town clerk to have a voter registration card mailed to you. You can hand deliver or mail the completed voter registration application or card to your town office or city hall.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d62dd683-9cf9-4db9-a497-d810d529592b",
+                        "name": "Maine"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/07e44756-ec03-8ab1-a04d-ec82784953ee",
+                        "name": "FAQ"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "USA Today",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.m1iod5ODNIyyKu23kGIllQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T21:51:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Trump&#39;s civil fraud verdict appeal may hinge on &#39;no victims&#39; defense",
+                "url": "https://www.reuters.com/legal/trumps-civil-fraud-verdict-appeal-may-hinge-no-victims-defense-2024-02-16/",
+                "description": "Donald Trump&#39;s planned appeal of a $355 million judgment against him in his civil fraud case may focus on the former president&#39;s contention that there were no actual victims from his conduct at issue in the case,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1a466af2-ed23-25bd-794d-1ca925e4681b",
+                        "name": "Donald Trump"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/485b2a51-d95c-6470-9357-463834668752",
+                        "name": "Verdict"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1ef128a5-7baa-925f-273c-769dd3ec277e",
+                        "name": "Defense"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Reuters",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.jFXbg3L7Ce_1pS4_IOR8CA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T21:44:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Reform leader rejects an <b>election</b> pact with Conservatives",
+                "url": "https://www.telegraph.co.uk/politics/2024/02/16/reform-uk-richard-tice-rishi-sunak-election-pact-reject/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.26uXGEg7moZBUSxae7siFi&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "Richard Tice rules out a collaboration with Rishi Sunak as Tories fear the general election becoming a \u2018slow-moving car crash\u2019",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/120d4238-df93-4584-9fac-30072ef9ad9d",
+                        "name": "Reform"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5e83019e-d5ad-de66-bfc7-9f24e0932322",
+                        "name": "By-election"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "name": "Reform"
+                    },
+                    {
+                        "name": "By-election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T21:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Rishi Sunak faces mutinous Tory party after by-<b>election</b> losses",
+                "url": "https://www.ft.com/content/80f99501-dc76-4bd1-9a9e-6729da1a584d",
+                "description": "Danny Kruger and Miriam Cates, the co-leaders of the New Conservatives faction of right-wing Tory MPs, also issued a damning statement accusing Sunak of presiding over \u201cconsensus politics\u201d that centred on \u201chigh taxes, low security, managed decline\u201d.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5e83019e-d5ad-de66-bfc7-9f24e0932322",
+                        "name": "By-election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Financial Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CdBlognZ1u9nda-gVEOS_w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T17:15:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Sunak faces conflicting calls over Tory path forward after bruising byelections",
+                "url": "https://www.theguardian.com/politics/2024/feb/16/rishi-sunak-conservative-tory-path-forward-byelections-analysis",
+                "description": "Loudest voices urge further tack to right after Reform UK gains but moderates argue general election can only be won on centre ground",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T17:09:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Labour\u2019s by-<b>election</b> victories are historic, but ultimately shallow",
+                "url": "https://inews.co.uk/opinion/labour-by-election-victory-historic-shallow-2910758?ico=more_from_this_author",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.UeTeGoa2K6kpbhXFUYm37i&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Fortunately for the party, the two seats duly delivered. Kingswood was always likely to deliver a Labour victory \u2013 and the seat is one of those that, if the next general election were being held on the current parliamentary boundaries,",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T17:09:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "What Labour\u2019s by-<b>election</b> wins mean for the <b>general election</b>",
+                "url": "https://www.thetimes.co.uk/article/what-labour-by-election-wins-mean-next-general-election-wellingborough-kingswood-3jd6d63zj?ilc=timesradio:morefromthetimes",
+                "description": "The 37.6 per cent drop in its vote in Wellingborough is the biggest decline the Conservative Party has ever suffered in a by-election it was defending. This brought us all back to reality. After a diverting couple of weeks needling Sir Keir Starmer about his failure to wipe out antisemitism within the party or to deal with Labour\u2019s conspiracy theorist candidate in Rochdale as swiftly as he should have,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8d8aa22b-becb-80d8-677c-a3161e16cbf5",
+                        "name": "General election"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5e83019e-d5ad-de66-bfc7-9f24e0932322",
+                        "name": "By-election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T17:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Wellingborough and Kingswood by-<b>elections</b>: Job not done despite huge wins, says Starmer",
+                "url": "https://www.bbc.co.uk/news/uk-politics-68313421.amp",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.P0JGr4dnBlOLr5TTanNzBS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The party came third in both by-elections, picking up 13% of the vote in Wellingborough and 10.4% in Kingswood. Labour secured a majority of 2,501 over Tory candidate Sam Bromiley in the South Gloucestershire seat of Kingswood, near Bristol.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/79dd2f21-0dd1-9c0e-1310-9b93cd0cac67",
+                        "name": "Kingswood"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/73388964-99e9-bfa8-c8a4-0331f036fdb6",
+                        "name": "Wellingborough"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T15:33:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "A tempestuous day in multiple courts deepens Trump\u2019s legal imbroglio",
+                "url": "https://edition.cnn.com/2024/02/16/politics/trump-legal-drama-complications/index.html?ref=mc.news",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ZiRYsSjHsSwHedMvrmunaS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Trump\u2019s lawyers made a final, beseeching plea to the Supreme Court to stop the clock in a federal trial over his attempt to overturn the 2020 election. Justices must now decide whether to take up one of the most profound cases in the body\u2019s history.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1a466af2-ed23-25bd-794d-1ca925e4681b",
+                        "name": "Donald Trump"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c4c637e5-f9cc-a3ed-3380-7152515e062e",
+                        "name": "CNN"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Donald Trump"
+                    },
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "CNN"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "CNN",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.L448Bu0prHuvdWqWB4wMng&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T15:19:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Byelection results - live: Boost for Starmer after Rochdale \u2018shambles\u2019 as Labour clinches two major victories",
+                "url": "https://www.independent.co.uk/news/uk/politics/wellingborough-kingswood-by-election-results-egan-kitchen-b2497238.html?page=6",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.DfCkQ8BQNOydzk8SMbo8Ty&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Labour overturns two large majorities to take seats in Northamptonshire and South Gloucestershire on a bad night for the Conservative party",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/baf56fc2-cb3f-46c7-83ad-08830d0407e4",
+                        "name": "Rochdale"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T14:50:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Why Abortion Matters In This Suddenly Competitive Blue-State Senate Race",
+                "url": "https://www.huffpost.com/entry/larry-hogan-maryland-abortion-senate_n_65ce8506e4b04daca696508d?ncid=engmodushpmg00000003",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.13k-M9mbW3LIuwUQG-PmWy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Larry Hogan has managed to make his anti-abortion rights views irrelevant in Maryland. That\u2019ll be a tough sell as he runs for Senate.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "HuffPost",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.rPjudoA7C5i-PdVAOVho9w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T14:45:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Nigel Farage says he and Tories such as Jacob Rees-Mogg &#39;will have to be in the same party at some point&#39; as he urges right-wing unity - but only after the <b>general election</b>",
+                "url": "https://www.dailymail.co.uk/news/article-13092235/Nigel-Farage-says-Tories-Jacob-Rees-Mogg-party-point-urges-right-wing-unity-general-election.html",
+                "description": "The Brexit architect, the former leader of UKIP , predicted a coming together of right-wing politicians in the wake of two more by-election defeats for the Tories.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/635771d4-2931-15cf-326f-55c87ce8ab71",
+                        "name": "Jacob Rees-Mogg"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4e19a7ad-e1b4-0f74-86c3-ba3be21089da",
+                        "name": "Nigel Farage"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Jacob Rees-Mogg"
+                    },
+                    {
+                        "name": "Nigel Farage"
+                    },
+                    {
+                        "name": "Conservative Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T14:36:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "By-<b>elections</b>: Tory gloom deepens after double poll blow",
+                "url": "https://www.bbc.com/news/uk-politics-68316527",
+                "description": "And in Kingswood, near Bristol, they got a share of the vote greater than the gap between the victorious Labour candidate and the Tory runner-up. That is a double dose of the heebie-jeebies delivered in one day to nervous Tories.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5e83019e-d5ad-de66-bfc7-9f24e0932322",
+                        "name": "By-election"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fffdcc34-651a-82f4-aba2-458b5b4f8e9b",
+                        "name": "Gloom"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k3N4DqozNjgK376rAnFmsA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T13:53:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Nigel Farage says he &#39;might&#39; return to lead Reform UK after by-<b>election</b> results",
+                "url": "https://www.standard.co.uk/news/politics/nigel-farage-reform-uk-by-election-results-wellingborough-kingswood-b1139580.html",
+                "description": "Nigel Farage has said he \u201cmight\u201d make a return to frontline politics to lead Reform UK after the party\u2019s record by-election results. The Conservatives suffered a double defeat in the Kingswood and Wellingborough votes, with Labour over turning large Tory majorities in the seats.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4e19a7ad-e1b4-0f74-86c3-ba3be21089da",
+                        "name": "Nigel Farage"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/120d4238-df93-4584-9fac-30072ef9ad9d",
+                        "name": "Reform"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Nigel Farage"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Reform"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T11:27:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Problems mount for UK PM Rishi Sunak as his party suffers heavy defeat in two parliamentary <b>elections</b>",
+                "url": "https://edition.cnn.com/2024/02/16/uk/sunak-conservatives-by-election-losses-intl/index.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.470fvaci0lIWvV1K6CvpPS&pid=News",
+                        "width": 256,
+                        "height": 144
+                    }
+                },
+                "description": "British Prime Minister Rishi Sunak is facing a weekend of difficult questions after his governing Conservative policy lost two seats in parliament on Thursday.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c4c637e5-f9cc-a3ed-3380-7152515e062e",
+                        "name": "CNN"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2570ebea-8c42-048a-3350-57c9e4169167",
+                        "name": "Prime Minister of the United Kingdom"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "CNN"
+                    },
+                    {
+                        "name": "Prime Minister of the United Kingdom"
+                    },
+                    {
+                        "name": "General election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "CNN",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.L448Bu0prHuvdWqWB4wMng&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T11:25:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Could Reform UK surge sink Tory <b>election</b> hopes?",
+                "url": "https://www.bbc.co.uk/news/uk-politics-68314949",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.bTTL9GmQug-bMCyKE5HADy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Reform UK leader Richard Tice has said he wants to &quot;smash&quot; and &quot;destroy&quot; the Tory Party at the general election. He insisted Reform UK would never consider repeating the Brexit Party&#39;s 2019 deal with the Conservatives - which saw it withdraw candidates in 317 constituencies after then-Tory leader Boris Johnson committed to leaving the EU by 2020.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T10:45:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "These by-<b>election</b> results could be consequential and dramatic - here&#39;s why",
+                "url": "https://news.sky.com/story/these-by-election-results-could-be-consequential-and-dramatic-heres-why-13072730",
+                "description": "As the choice in the general election looms, these two by-elections were more hammerings which confirmed Labour&#39;s momentum - and made for a terrible night for Rishi Sunak and the Conservatives.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5e83019e-d5ad-de66-bfc7-9f24e0932322",
+                        "name": "By-election"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "By-election"
+                    },
+                    {
+                        "name": "Election"
+                    },
+                    {
+                        "name": "Sky News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Eg62H9DIbo-JYPI6GpAgGA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T10:31:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Reform UK surge to their best ever by-<b>election</b> result - but how much of a threat do they pose at the <b>general election</b>? Will Nigel Farage return as leader? And what are their ...",
+                "url": "https://www.dailymail.co.uk/news/article-13091275/Reform-UK-surge-best-election-result-threat-pose-general-election-Nigel-Farage-return-leader-tax-cutting-net-zero-immigration-plans.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.4sl9yzXxheRMXO3NILz8DC&pid=News",
+                        "width": 634,
+                        "height": 423
+                    }
+                },
+                "description": "Election experts said the by-election results &#39;backed up&#39; Reform&#39;s national opinion polling, which has seen the party hover around 10 per cent for a number of weeks.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4e19a7ad-e1b4-0f74-86c3-ba3be21089da",
+                        "name": "Nigel Farage"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8d8aa22b-becb-80d8-677c-a3161e16cbf5",
+                        "name": "General election"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5e83019e-d5ad-de66-bfc7-9f24e0932322",
+                        "name": "By-election"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Nigel Farage"
+                    },
+                    {
+                        "name": "General election"
+                    },
+                    {
+                        "name": "By-election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T10:12:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "\u2018A vote for Reform is a vote for Starmer\u2019, says Sunak",
+                "url": "https://www.independent.co.uk/news/uk/rishi-sunak-reform-labour-conservative-party-richard-tice-b2497398.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.oKEiMqqNiE3q1Fwe4JlyJC&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Prime Minister Rishi Sunak said the \u2018actual choice\u2019 at the general election is \u2018between me and him\u2019, referring to the Labour leader.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/120d4238-df93-4584-9fac-30072ef9ad9d",
+                        "name": "Reform"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "Reform"
+                    },
+                    {
+                        "name": "News UK"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T09:46:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "When is the next <b>general election</b>? The dates Rishi Sunak is considering",
+                "url": "https://www.telegraph.co.uk/politics/2024/02/16/next-uk-general-parliamentary-election-dates/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.QYVXyRBqVPiypfLZ8Y7FVC&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "The Prime Minister has hinted at an autumn poll but could call one as early as May. The Telegraph examines his options",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8d8aa22b-becb-80d8-677c-a3161e16cbf5",
+                        "name": "General election"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "General election"
+                    },
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Parliament"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T09:34:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Kingswood by-<b>election</b>: Labour&#39;s Damien Egan overturns large Tory majority",
+                "url": "https://www.bbc.com/news/uk-england-bristol-68308476.amp",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.uN04D8BvKF3V3CCtgBrJKS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Tory MP Jacob Rees-Mogg, whose North East Somerset constituency borders Kingswood, blamed the result on a low turnout and insisted Rishi Sunak&#39;s leadership is &quot;solid&quot; and &quot;by-elections don&#39;t change that&quot;. However he added, his party &quot;needs some fresh ideas&quot;.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9ac6e509-eff7-4b1e-bf53-dcb38e130f37",
+                        "name": "Kingswood"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k3N4DqozNjgK376rAnFmsA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T09:06:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Pollster offers by-<b>election</b> verdict as Reform UK surges \u2013 and it&#39;s bad news for everyone",
+                "url": "https://www.express.co.uk/news/politics/1867322/by-election-results-reform-uk",
+                "description": "The Tories have taken a kicking, Labour have two new MPs and Reform are flying high - but Professor Sir John Curtice warns that the real losers were everyone.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/485b2a51-d95c-6470-9357-463834668752",
+                        "name": "Verdict"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/120d4238-df93-4584-9fac-30072ef9ad9d",
+                        "name": "Reform"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Politics"
+                    },
+                    {
+                        "name": "Verdict"
+                    },
+                    {
+                        "name": "Reform"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T07:21:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Delay Tactics And Quick Trips: Takeaways From Two Trump Case Hearings In New York And Georgia",
+                "url": "https://www.huffpost.com/entry/trump-indictments-takeaways-delays_n_65ceceeae4b0f7fbe7b21db7",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.1k6tNfdU_vYiiEi93PrU_y&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Donald Trump\u2019s unprecedented tangle of overlapping cases was on full display Thursday with simultaneous court hearings in New York and Georgia.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1a466af2-ed23-25bd-794d-1ca925e4681b",
+                        "name": "Donald Trump"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/84604bc7-2c47-4f8d-8ea5-b6ac8c018a20",
+                        "name": "Georgia"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "HuffPost",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.rPjudoA7C5i-PdVAOVho9w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T07:04:00.0000000Z",
+                "video": {
+                    "name": "Delay Tactics And Quick Trips: Takeaways From Two Trump Case Hearings In New York And Georgia",
+                    "thumbnailUrl": "https://www.bing.com/th?id=OVF.cXCSQjqd%2BiPaTNbJpo8fIw&pid=News",
+                    "thumbnail": {
+                        "width": 520,
+                        "height": 273
+                    }
+                }
+            },
+            {
+                "name": "By-<b>election</b> results since 2019 as Labour takes two more seats from Tories",
+                "url": "https://www.nottinghampost.com/news/uk-world-news/election-results-2019-labour-takes-9103752",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.tihXZVthnQo8w4hUlJPCMC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The latest by-elections mean the Conservatives have suffered more by-election defeats than in any single Parliament since the Second World War",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/474ecb67-f819-ecef-a259-d24741044ebd",
+                        "name": "Nottinghamshire"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5e83019e-d5ad-de66-bfc7-9f24e0932322",
+                        "name": "By-election"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Nottinghamshire"
+                    },
+                    {
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "name": "By-election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Nottingham Post",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.uIhRYEl-hjUmBuW39k7IdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T06:18:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Conservatives lose two by-<b>elections</b> after huge swings towards Labour",
+                "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/conservatives-lose-two-elections-after-28643455",
+                "description": "The twin blows will compound the Prime Minister&#39;s woes, coming the day after it was officially announced that the UK had entered a recession at the end of 2023, and mean the Conservatives have suffered more by-election defeats than in any single Parliament since the Second World War.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5e83019e-d5ad-de66-bfc7-9f24e0932322",
+                        "name": "By-election"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "name": "By-election"
+                    },
+                    {
+                        "name": "Manchester Evening News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Manchester Evening News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.oxaa8-w2MDoXi5yOUu7A3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T06:07:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Conservatives\u2019 by-<b>election</b> scorecard since 2019 <b>general election</b>",
+                "url": "https://www.kentonline.co.uk/news/national/conservatives-by-election-scorecard-since-2019-general-election-110655/",
+                "description": "The Conservatives\u2019 share of the vote slumped from 62% at the 2019 general election to just 25%, the largest drop recorded by the Tories at any by-election since 1945. The Conservatives have made one by-election gain during this parliament: Hartlepool in County Durham, which the party took from Labour on a swing of 16.0 percentage points.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8d8aa22b-becb-80d8-677c-a3161e16cbf5",
+                        "name": "General election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Kent Online",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.hWRC_m6PUwfTBWwiGneX8Q&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-16T05:52:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "The Tories \u2018must adapt\u2019 if they want <b>General Election</b> hope after two by-<b>election</b> drubbings",
+                "url": "https://www.thesun.co.uk/news/25997621/tories-general-election-by-election/",
+                "description": "RISHI Sunak has been urged to \u201cchange course\u201d by his Tory MPs to give them hope for the <b>General Election</b>. The warning to the PM came after two by-<b>election</b> drubbings. Both Wellingborough, in Northants, and Kingswood, Gloucs, were lost to Labour \u2014 with ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d7a25a0d-7256-22c8-d18c-95799d2e5ebc",
+                        "name": "The Sun"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun"
+                    }
+                ],
+                "datePublished": "2024-02-16T00:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Automatic voter registration in Wales moves a step closer",
+                "url": "https://www.cwmbranlife.co.uk/automatic-voter-registration-in-wales-moves-a-step-closer/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.5usges-5vipWhOcpOMKtqC&pid=News",
+                        "width": 640,
+                        "height": 423
+                    }
+                },
+                "description": "Mick Antoniw said the <b>Elections</b> and Elected Bodies bill is an important step ... Mr Antoniw \u2013 who is counsel <b>general</b>, the Welsh Government\u2019s chief legal adviser \u2013 stressed the importance of protecting vulnerable voters through anonymous registration.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b51b24e1-6afb-d525-d360-f2eb5bf3410b",
+                        "name": "Wales"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/bf162f19-bbd2-aed4-df9b-6b75ed4b83c6",
+                        "name": "Voter registration"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "cwmbranlife"
+                    }
+                ],
+                "datePublished": "2024-02-16T00:00:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    }
+]

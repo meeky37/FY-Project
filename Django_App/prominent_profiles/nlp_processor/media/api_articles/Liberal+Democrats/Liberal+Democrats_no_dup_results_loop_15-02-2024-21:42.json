@@ -1,0 +1,2341 @@
+[
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=Liberal+Democrats",
+        "queryContext": {
+            "originalQuery": "Liberal Democrats",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 15,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Liberal+Democrats"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Liberal+Democrats&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "17.6 million patients waited four weeks or longer to see a GP in 2023, NHS data reveals",
+                "url": "https://www.chroniclelive.co.uk/news/uk-news/176-million-patients-waited-four-28643024",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.37kbUViXBYwO--0o2iDbpC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The number of patients who had to wait four weeks or more for a GP appointment last year rose by 38% compared to 2022 figures",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a55d629b-42b2-9dcf-dbd7-860a94010ae2",
+                        "name": "Chronicle Live"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Chronicle Live"
+                    },
+                    {
+                        "name": "Newcastle United F.C."
+                    },
+                    {
+                        "name": "Newcastle upon Tyne"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Evening Chronicle",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.G4kbGBXl4xfkaxnbAFtYzw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T20:50:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "Council Budgets allow us to put <b>Liberal</b> Values into practice",
+                "url": "https://www.libdemvoice.org/council-budgets-allow-us-to-put-liberal-values-into-practice-74657.html",
+                "description": "Lib Dems are addressing the Cost of Living, providing community level services and decision making and Greener boroughs. Next Wednesday, the Southwark Liberal Democrat group will be presenting our Alternative Budget at full council.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9c4c6740-9482-4917-e9af-876c29d9f749",
+                        "name": "Budget"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eaaef858-1162-2a38-1de1-759525f1f7b6",
+                        "name": "Council"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8931119b-1bd1-bf79-96dc-1439c71418f6",
+                        "name": "Liberalism"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Liberal Democrat Voice",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6htcbn_wp6HslO1MiivrIA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T19:36:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "New Watford Overground name set to inspire sportswomen",
+                "url": "https://www.bbc.co.uk/news/uk-england-beds-bucks-herts-68309471",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.0ATYx9s2vj0LJwdVNofgjy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "A London Overground line is changing its name in the hope of inspiring more women to take up sport. Transport for London (TFL) announced the stopper service between Euston and Watford will be named the Lioness Line. TFL said name is to honour the England women&#39;s football team&#39;s achievements.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5989cd27-efc8-06fc-1aa4-ebdbf8384a64",
+                        "name": "Watford"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T19:13:00.0000000Z"
+            },
+            {
+                "name": "A Barclays Local is set to open in Leiston to replace branch",
+                "url": "https://www.eadt.co.uk/news/24123162.barclays-local-set-open-leiston-replace-branch/",
+                "description": "A prospective parliamentary candidate has accused Barclays of &#39;palming off&#39; customers over plans to open a Barclays Local in Leiston in Suffolk.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9fb91659-3521-96df-b9d4-f4441da7efdd",
+                        "name": "Barclays"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ba948257-9e1a-03b7-88f3-6eef8ae414de",
+                        "name": "replace"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/64418b91-edc6-f78d-301c-cd4a9a44393c",
+                        "name": "Branch"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "East Anglian Daily Times 24",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CXPjikUm43cC0YgIcs5aaQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T18:00:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Wiltshire councillors debate U-turn on disabled parking charges",
+                "url": "https://www.salisburyjournal.co.uk/news/24120187.wiltshire-councillors-debate-u-turn-disabled-parking-charges/",
+                "description": "Blue-badge holders in Wiltshire could get free parking back after charges were re-introduced less than two years ago, if the Lib Dem\u2019s",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4ebe79fa-f77b-5216-7ef9-f8ea04679349",
+                        "name": "Wiltshire"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Salisbury Journal",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Lm7VoAawXSyBOtfD27ffPQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T17:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "&#39;Stop the Boats&#39; to stop Reform UK? Poll finds immigration is top priority for insurgent party&#39;s backers - as Rishi Sunak faces a fifth of 2019 Tory voters defecting to Nigel ...",
+                "url": "https://www.dailymail.co.uk/news/article-13088625/Stop-Boats-stop-Reform-UK-Poll-finds-immigration-priority-insurgent-partys-backers-Rishi-Sunak-faces-fifth-2019-Tory-voters-defecting-Nigel-Farage-outfit.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.LcSLMyJgqcSoP5P54HJE5y&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "A YouGov survey of more than 4,000 people revealed 19 per cent of those who previously supported the Tories would switch to the party founded by Nigel Farage.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4e19a7ad-e1b4-0f74-86c3-ba3be21089da",
+                        "name": "Nigel Farage"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9585b0e9-1240-d064-5ce2-94b34b344160",
+                        "name": "Rishi"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Nigel Farage"
+                    },
+                    {
+                        "name": "Tory"
+                    },
+                    {
+                        "name": "Rishi"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T16:58:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Number of people waiting four weeks or longer to see GP rises",
+                "url": "https://www.manchestereveningnews.co.uk/news/health/number-people-waiting-four-weeks-28641654",
+                "description": "The number of appointments where people waited four weeks or longer for a GP last year rose by 38% on 2022&#39;s figures to 17.6 million",
+                "mentions": [
+                    {
+                        "name": "Manchester Evening News"
+                    },
+                    {
+                        "name": "Salford, Greater Manchester"
+                    },
+                    {
+                        "name": "Manchester United F.C."
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Manchester Evening News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.oxaa8-w2MDoXi5yOUu7A3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T16:55:00.0000000Z"
+            },
+            {
+                "name": "Cole-Hamilton responds to fall in nursing applications for third year in a row",
+                "url": "https://www.scotlibdems.org.uk/news/article/cole-hamilton-responds-to-fall-in-nursing-applications-for-third-year-in-a-row",
+                "description": "Responding to the embargoed data from UCAS which shows that for the third year in a row the number of applicants for nursing courses in Scotland has dropped, down by 8.3% compared to the same point last year,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c8c3a07-0c6a-0cbb-ce69-1e67d001e752",
+                        "name": "Scottish Liberal Democrats"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2ff7d7ac-0a54-021d-5cb9-f02b1888e0c5",
+                        "name": "Respond"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f858d135-b882-0387-b573-0bd3d855020c",
+                        "name": "Fall"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "scotlibdems"
+                    }
+                ],
+                "datePublished": "2024-02-15T16:53:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "More than 150,000 Scots see their work affected due to spiralling NHS waits",
+                "url": "https://www.scotlibdems.org.uk/news/article/more-than-150000-scots-see-their-work-affected-due-to-spiralling-nhs-waits",
+                "description": "Scottish Liberal Democrat leader and health spokesperson Alex Cole-Hamilton MSP has today criticised the SNP government for dealing a \u201chammer blow\u201d to the economy and thousands of lives as he revealed that more than 150,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c8c3a07-0c6a-0cbb-ce69-1e67d001e752",
+                        "name": "Scottish Liberal Democrats"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "scotlibdems"
+                    }
+                ],
+                "datePublished": "2024-02-15T16:44:00.0000000Z"
+            },
+            {
+                "name": "North Yorkshire Council urged to press Chancellor to maintain taxes",
+                "url": "https://www.harrogateadvertiser.co.uk/news/politics/council/north-yorkshire-council-urged-to-press-chancellor-to-maintain-taxes-4520450",
+                "description": "Liberal Democrat councillors are calling for the Conservative-run authority responsible for running services in the Prime Minister\u2019s constituency to write to the Government calling for next month\u2019s Budget to feature significant extra funding for council services.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fb1d8fdd-e4d5-f9a0-5f8c-1a03f3c7dad4",
+                        "name": "North Yorkshire"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/67e771e4-215e-dd49-d6b1-330d0b3de4ce",
+                        "name": "Chancellor"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eaaef858-1162-2a38-1de1-759525f1f7b6",
+                        "name": "Council"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Harrogate Advertiser",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.aCLiUt5Yj7NJXW829lEk2Q&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T16:19:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "House speaker moves to reassure public over \u2018serious national security threat\u2019: Live updates",
+                "url": "https://www.independent.co.uk/news/world/americas/us-politics/national-security-us-politics-congress-live-news-b2496966.html?page=5",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.MYgUzw6F4bvMckQbaBbxoS&pid=News",
+                        "width": 700,
+                        "height": 467
+                    }
+                },
+                "description": "Exact nature of threat not disclosed by congressional leaders to be briefed by White House national security adviser Jake Sullivan",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/043261dd-648e-1d4e-719b-66817728c306",
+                        "name": "National security"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/995e8eb0-dbf9-1087-967b-294f4f9bbd99",
+                        "name": "Speaker driver"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/baf3736f-9663-4af4-babb-36e3e3fcae6c",
+                        "name": "The Independent"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T16:04:00.0000000Z"
+            },
+            {
+                "name": "Claims Powys schools facing &#39;Welsh language crisis&#39;",
+                "url": "https://www.countytimes.co.uk/news/24120332.claims-powys-schools-facing-welsh-language-crisis/",
+                "description": "The Learning and Skills committee believed that the Cabinet need to address the \u201cWelsh language crisis\u201d in Powys schools. This comment has drawn criticism from Cabinet members as they \u201crejected\u201d the advice. At the meeting Conservative group leader, Cllr Aled Davies said it was \u201creally surprising\u201d that the cabinet had rejected the recommendation.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7ba55e0f-4cfb-6f1c-c80b-5362fb7c338a",
+                        "name": "U.S. County"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1aec3627-c232-4a19-98e5-156296a023e6",
+                        "name": "Welsh"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6f139537-5bc1-e0b8-7097-f07441113e28",
+                        "name": "Crisis"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "countytimes.co.uk",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.QuCrvjwzbhwSOWUVWHCOqw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T15:48:00.0000000Z"
+            },
+            {
+                "name": "Former Police Commissioner switches to Lib Dems, running again",
+                "url": "https://www.markpack.org.uk/172544/former-police-commissioner-switches-to-lib-dems-running-again/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ZiVFCyP4vs6_8hFKE1nEFS&pid=News",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "description": "The Liberal Democrats finished second in the 2021 Gloucestershire Police and Crime Commissioner elections, behind the Conservative party, with Mr Surl finishing in third place as an independent. The Labour party finished fourth. You can follow XXX on XXX.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c12dbbe6-4e72-4170-dc1b-fd006a35795e",
+                        "name": "Police commissioner"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7a49b862-dda4-2ebc-30ad-425c1f962da9",
+                        "name": "Switch"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "markpack.org.uk",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.XYMZpVOzi0chvuanEWeUlw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T14:49:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Lib Dems admit error over Labour victory in political literature",
+                "url": "https://www.hampshirechronicle.co.uk/news/24121938.lib-dems-admit-error-labour-victory-political-literature/",
+                "description": "In a pamphlet from General Election candidate Danny Chambers, delivered to hundreds of Winchester homes, they claim \u201cLabour has NEVER won here\u201d. In fact George Jeger won for Labour in 1945, holding the seat for four years as part of the post-war Attlee government.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Hampshire Chronicle",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.YBoERqiH2tSa6eVQXRhnVw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T14:42:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "More people waiting longer to see GP \u2013 NHS data",
+                "url": "https://www.standard.co.uk/news/politics/nhs-liberal-democrats-gps-david-lynch-liberal-democrat-b1139399.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.qWkpe-dSUHLe3nuMnRr5Vy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "It should be a given that people can see their GP when they need to, not a struggle. That is why the <b>Liberal Democrats</b> are calling for a legal right for all patients to see their GP within seven days, and 24 hours if in urgent need <b>Liberal</b> <b>Democrat</b> leader ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "National Health Service"
+                    },
+                    {
+                        "name": "United States"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "datePublished": "2024-02-15T00:00:00.0000000Z",
+                "category": "Health"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=Liberal+Democrats",
+        "queryContext": {
+            "originalQuery": "Liberal Democrats",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 118,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Liberal+Democrats"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Liberal+Democrats&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "17.6 million patients waited four weeks or longer to see a GP in 2023, NHS data reveals",
+                "url": "https://www.chroniclelive.co.uk/news/uk-news/176-million-patients-waited-four-28643024",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.37kbUViXBYwO--0o2iDbpC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The number of patients who had to wait four weeks or more for a GP appointment last year rose by 38% compared to 2022 figures",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a55d629b-42b2-9dcf-dbd7-860a94010ae2",
+                        "name": "Chronicle Live"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Chronicle Live"
+                    },
+                    {
+                        "name": "Newcastle United F.C."
+                    },
+                    {
+                        "name": "Newcastle upon Tyne"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Evening Chronicle",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.G4kbGBXl4xfkaxnbAFtYzw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T20:50:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "Council Budgets allow us to put <b>Liberal</b> Values into practice",
+                "url": "https://www.libdemvoice.org/council-budgets-allow-us-to-put-liberal-values-into-practice-74657.html",
+                "description": "Lib Dems are addressing the Cost of Living, providing community level services and decision making and Greener boroughs. Next Wednesday, the Southwark Liberal Democrat group will be presenting our Alternative Budget at full council.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9c4c6740-9482-4917-e9af-876c29d9f749",
+                        "name": "Budget"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eaaef858-1162-2a38-1de1-759525f1f7b6",
+                        "name": "Council"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8931119b-1bd1-bf79-96dc-1439c71418f6",
+                        "name": "Liberalism"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Liberal Democrat Voice",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6htcbn_wp6HslO1MiivrIA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T19:36:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "New Watford Overground name set to inspire sportswomen",
+                "url": "https://www.bbc.co.uk/news/uk-england-beds-bucks-herts-68309471",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.0ATYx9s2vj0LJwdVNofgjy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "A London Overground line is changing its name in the hope of inspiring more women to take up sport. Transport for London (TFL) announced the stopper service between Euston and Watford will be named the Lioness Line. TFL said name is to honour the England women&#39;s football team&#39;s achievements.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5989cd27-efc8-06fc-1aa4-ebdbf8384a64",
+                        "name": "Watford"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T19:13:00.0000000Z"
+            },
+            {
+                "name": "A Barclays Local is set to open in Leiston to replace branch",
+                "url": "https://www.eadt.co.uk/news/24123162.barclays-local-set-open-leiston-replace-branch/",
+                "description": "A prospective parliamentary candidate has accused Barclays of &#39;palming off&#39; customers over plans to open a Barclays Local in Leiston in Suffolk.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9fb91659-3521-96df-b9d4-f4441da7efdd",
+                        "name": "Barclays"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ba948257-9e1a-03b7-88f3-6eef8ae414de",
+                        "name": "replace"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/64418b91-edc6-f78d-301c-cd4a9a44393c",
+                        "name": "Branch"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "East Anglian Daily Times 24",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CXPjikUm43cC0YgIcs5aaQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T18:00:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Wiltshire councillors debate U-turn on disabled parking charges",
+                "url": "https://www.salisburyjournal.co.uk/news/24120187.wiltshire-councillors-debate-u-turn-disabled-parking-charges/",
+                "description": "Blue-badge holders in Wiltshire could get free parking back after charges were re-introduced less than two years ago, if the Lib Dem\u2019s",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4ebe79fa-f77b-5216-7ef9-f8ea04679349",
+                        "name": "Wiltshire"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Salisbury Journal",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Lm7VoAawXSyBOtfD27ffPQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T17:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "&#39;Stop the Boats&#39; to stop Reform UK? Poll finds immigration is top priority for insurgent party&#39;s backers - as Rishi Sunak faces a fifth of 2019 Tory voters defecting to Nigel ...",
+                "url": "https://www.dailymail.co.uk/news/article-13088625/Stop-Boats-stop-Reform-UK-Poll-finds-immigration-priority-insurgent-partys-backers-Rishi-Sunak-faces-fifth-2019-Tory-voters-defecting-Nigel-Farage-outfit.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.LcSLMyJgqcSoP5P54HJE5y&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "A YouGov survey of more than 4,000 people revealed 19 per cent of those who previously supported the Tories would switch to the party founded by Nigel Farage.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4e19a7ad-e1b4-0f74-86c3-ba3be21089da",
+                        "name": "Nigel Farage"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9585b0e9-1240-d064-5ce2-94b34b344160",
+                        "name": "Rishi"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Nigel Farage"
+                    },
+                    {
+                        "name": "Tory"
+                    },
+                    {
+                        "name": "Rishi"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T16:58:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Number of people waiting four weeks or longer to see GP rises",
+                "url": "https://www.manchestereveningnews.co.uk/news/health/number-people-waiting-four-weeks-28641654",
+                "description": "The number of appointments where people waited four weeks or longer for a GP last year rose by 38% on 2022&#39;s figures to 17.6 million",
+                "mentions": [
+                    {
+                        "name": "Manchester Evening News"
+                    },
+                    {
+                        "name": "Salford, Greater Manchester"
+                    },
+                    {
+                        "name": "Manchester United F.C."
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Manchester Evening News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.oxaa8-w2MDoXi5yOUu7A3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T16:55:00.0000000Z"
+            },
+            {
+                "name": "Cole-Hamilton responds to fall in nursing applications for third year in a row",
+                "url": "https://www.scotlibdems.org.uk/news/article/cole-hamilton-responds-to-fall-in-nursing-applications-for-third-year-in-a-row",
+                "description": "Responding to the embargoed data from UCAS which shows that for the third year in a row the number of applicants for nursing courses in Scotland has dropped, down by 8.3% compared to the same point last year,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c8c3a07-0c6a-0cbb-ce69-1e67d001e752",
+                        "name": "Scottish Liberal Democrats"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2ff7d7ac-0a54-021d-5cb9-f02b1888e0c5",
+                        "name": "Respond"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f858d135-b882-0387-b573-0bd3d855020c",
+                        "name": "Fall"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "scotlibdems"
+                    }
+                ],
+                "datePublished": "2024-02-15T16:53:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "More than 150,000 Scots see their work affected due to spiralling NHS waits",
+                "url": "https://www.scotlibdems.org.uk/news/article/more-than-150000-scots-see-their-work-affected-due-to-spiralling-nhs-waits",
+                "description": "Scottish Liberal Democrat leader and health spokesperson Alex Cole-Hamilton MSP has today criticised the SNP government for dealing a \u201chammer blow\u201d to the economy and thousands of lives as he revealed that more than 150,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c8c3a07-0c6a-0cbb-ce69-1e67d001e752",
+                        "name": "Scottish Liberal Democrats"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "scotlibdems"
+                    }
+                ],
+                "datePublished": "2024-02-15T16:44:00.0000000Z"
+            },
+            {
+                "name": "North Yorkshire Council urged to press Chancellor to maintain taxes",
+                "url": "https://www.harrogateadvertiser.co.uk/news/politics/council/north-yorkshire-council-urged-to-press-chancellor-to-maintain-taxes-4520450",
+                "description": "Liberal Democrat councillors are calling for the Conservative-run authority responsible for running services in the Prime Minister\u2019s constituency to write to the Government calling for next month\u2019s Budget to feature significant extra funding for council services.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fb1d8fdd-e4d5-f9a0-5f8c-1a03f3c7dad4",
+                        "name": "North Yorkshire"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/67e771e4-215e-dd49-d6b1-330d0b3de4ce",
+                        "name": "Chancellor"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eaaef858-1162-2a38-1de1-759525f1f7b6",
+                        "name": "Council"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Harrogate Advertiser",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.aCLiUt5Yj7NJXW829lEk2Q&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T16:19:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "House speaker moves to reassure public over \u2018serious national security threat\u2019: Live updates",
+                "url": "https://www.independent.co.uk/news/world/americas/us-politics/national-security-us-politics-congress-live-news-b2496966.html?page=5",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.MYgUzw6F4bvMckQbaBbxoS&pid=News",
+                        "width": 700,
+                        "height": 467
+                    }
+                },
+                "description": "Exact nature of threat not disclosed by congressional leaders to be briefed by White House national security adviser Jake Sullivan",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/043261dd-648e-1d4e-719b-66817728c306",
+                        "name": "National security"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/995e8eb0-dbf9-1087-967b-294f4f9bbd99",
+                        "name": "Speaker driver"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/baf3736f-9663-4af4-babb-36e3e3fcae6c",
+                        "name": "The Independent"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T16:04:00.0000000Z"
+            },
+            {
+                "name": "Isle of Wight general election candidates announced by Lib Dems",
+                "url": "https://www.countypress.co.uk/news/24122288.isle-wight-general-election-candidates-announced-lib-dems/",
+                "description": "Cllr Lilley will do battle for Isle of Wight East, while Cllr Stuart will fight for Isle of Wight West in the next general election. The\u00a0last Isle of Wight Liberal Democrat MP was\u00a0Peter Brand, who served between 1997 and 2001 and\u00a0died last year.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/95d8ced0-437b-28ff-5329-8fbf91940733",
+                        "name": "Isle of Wight"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4d57f6b3-18c8-9e92-c766-ecff93385e95",
+                        "name": "Isle of Wight County Press"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8d8aa22b-becb-80d8-677c-a3161e16cbf5",
+                        "name": "General election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "countypress",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.eXGiK41ac3vbSVJJUW5gGw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T16:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Claims Powys schools facing &#39;Welsh language crisis&#39;",
+                "url": "https://www.countytimes.co.uk/news/24120332.claims-powys-schools-facing-welsh-language-crisis/",
+                "description": "The Learning and Skills committee believed that the Cabinet need to address the \u201cWelsh language crisis\u201d in Powys schools. This comment has drawn criticism from Cabinet members as they \u201crejected\u201d the advice. At the meeting Conservative group leader, Cllr Aled Davies said it was \u201creally surprising\u201d that the cabinet had rejected the recommendation.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7ba55e0f-4cfb-6f1c-c80b-5362fb7c338a",
+                        "name": "U.S. County"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1aec3627-c232-4a19-98e5-156296a023e6",
+                        "name": "Welsh"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6f139537-5bc1-e0b8-7097-f07441113e28",
+                        "name": "Crisis"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "countytimes.co.uk",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.QuCrvjwzbhwSOWUVWHCOqw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T15:48:00.0000000Z"
+            },
+            {
+                "name": "Former Police Commissioner switches to Lib Dems, running again",
+                "url": "https://www.markpack.org.uk/172544/former-police-commissioner-switches-to-lib-dems-running-again/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ZiVFCyP4vs6_8hFKE1nEFS&pid=News",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "description": "The Liberal Democrats finished second in the 2021 Gloucestershire Police and Crime Commissioner elections, behind the Conservative party, with Mr Surl finishing in third place as an independent. The Labour party finished fourth. You can follow XXX on XXX.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c12dbbe6-4e72-4170-dc1b-fd006a35795e",
+                        "name": "Police commissioner"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7a49b862-dda4-2ebc-30ad-425c1f962da9",
+                        "name": "Switch"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "markpack.org.uk",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.XYMZpVOzi0chvuanEWeUlw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T14:49:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Lib Dems admit error over Labour victory in political literature",
+                "url": "https://www.hampshirechronicle.co.uk/news/24121938.lib-dems-admit-error-labour-victory-political-literature/",
+                "description": "In a pamphlet from General Election candidate Danny Chambers, delivered to hundreds of Winchester homes, they claim \u201cLabour has NEVER won here\u201d. In fact George Jeger won for Labour in 1945, holding the seat for four years as part of the post-war Attlee government.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Hampshire Chronicle",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.YBoERqiH2tSa6eVQXRhnVw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T14:42:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Green Party announces ex-police officer and campaigner as candidate for Tees Valley Mayor",
+                "url": "https://www.gazettelive.co.uk/news/teesside-news/green-party-announces-ex-police-28638753",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.x_dGpdVkl2B2ALviAHLzky&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Environmental campaigner Sally Bunce has launched her campaign as the Green Party candidate for Tees Valley Mayor.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/42049c6a-4431-788c-9dfe-02c553c6c825",
+                        "name": "University of Teesside"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "University of Teesside"
+                    },
+                    {
+                        "name": "Green Party of the United States"
+                    },
+                    {
+                        "name": "Civil society campaign"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Teesside Gazette",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.idVXuSxYqWlCfll3AXTbFg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T14:10:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Calderdale councillors back Gaza ceasefire motion",
+                "url": "https://www.bbc.co.uk/news/articles/cek74pe5e52o?at_medium=RSS&at_campaign=KARANGA",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.X0xzW0OuKz5QMbkZZ9rcgC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "A motion calling for an &quot;immediate and permanent&quot; ceasefire in Gaza has been passed by Labour-run Calderdale Council. At a full council meeting on Wednesday, the majority of councillors supported the motion, which also called for the release and return of all hostages.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90eb9ff6-60ad-da43-d3fe-1ee3e3cb775a",
+                        "name": "Gaza Strip"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T14:02:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "More people waiting longer to see GP \u2013 NHS data",
+                "url": "https://www.standard.co.uk/news/politics/nhs-liberal-democrats-gps-david-lynch-liberal-democrat-b1139399.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.qWkpe-dSUHLe3nuMnRr5Vy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "It should be a given that people can see their GP when they need to, not a struggle. That is why the <b>Liberal Democrats</b> are calling for a legal right for all patients to see their GP within seven days, and 24 hours if in urgent need <b>Liberal</b> <b>Democrat</b> leader ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "National Health Service"
+                    },
+                    {
+                        "name": "United States"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "datePublished": "2024-02-15T00:00:00.0000000Z",
+                "category": "Health"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=Liberal+Democrats",
+        "queryContext": {
+            "originalQuery": "Liberal Democrats",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 218,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Liberal+Democrats"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Liberal+Democrats&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "17.6 million patients waited four weeks or longer to see a GP in 2023, NHS data reveals",
+                "url": "https://www.chroniclelive.co.uk/news/uk-news/176-million-patients-waited-four-28643024",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.37kbUViXBYwO--0o2iDbpC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The number of patients who had to wait four weeks or more for a GP appointment last year rose by 38% compared to 2022 figures",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a55d629b-42b2-9dcf-dbd7-860a94010ae2",
+                        "name": "Chronicle Live"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Chronicle Live"
+                    },
+                    {
+                        "name": "Newcastle United F.C."
+                    },
+                    {
+                        "name": "Newcastle upon Tyne"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Evening Chronicle",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.G4kbGBXl4xfkaxnbAFtYzw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T20:50:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "Council Budgets allow us to put <b>Liberal</b> Values into practice",
+                "url": "https://www.libdemvoice.org/council-budgets-allow-us-to-put-liberal-values-into-practice-74657.html",
+                "description": "Lib Dems are addressing the Cost of Living, providing community level services and decision making and Greener boroughs. Next Wednesday, the Southwark Liberal Democrat group will be presenting our Alternative Budget at full council.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9c4c6740-9482-4917-e9af-876c29d9f749",
+                        "name": "Budget"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eaaef858-1162-2a38-1de1-759525f1f7b6",
+                        "name": "Council"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8931119b-1bd1-bf79-96dc-1439c71418f6",
+                        "name": "Liberalism"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Liberal Democrat Voice",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6htcbn_wp6HslO1MiivrIA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T19:36:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "New Watford Overground name set to inspire sportswomen",
+                "url": "https://www.bbc.co.uk/news/uk-england-beds-bucks-herts-68309471",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.0ATYx9s2vj0LJwdVNofgjy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "A London Overground line is changing its name in the hope of inspiring more women to take up sport. Transport for London (TFL) announced the stopper service between Euston and Watford will be named the Lioness Line. TFL said name is to honour the England women&#39;s football team&#39;s achievements.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5989cd27-efc8-06fc-1aa4-ebdbf8384a64",
+                        "name": "Watford"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T19:13:00.0000000Z"
+            },
+            {
+                "name": "A Barclays Local is set to open in Leiston to replace branch",
+                "url": "https://www.eadt.co.uk/news/24123162.barclays-local-set-open-leiston-replace-branch/",
+                "description": "A prospective parliamentary candidate has accused Barclays of &#39;palming off&#39; customers over plans to open a Barclays Local in Leiston in Suffolk.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9fb91659-3521-96df-b9d4-f4441da7efdd",
+                        "name": "Barclays"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ba948257-9e1a-03b7-88f3-6eef8ae414de",
+                        "name": "replace"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/64418b91-edc6-f78d-301c-cd4a9a44393c",
+                        "name": "Branch"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "East Anglian Daily Times 24",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CXPjikUm43cC0YgIcs5aaQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T18:00:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Wiltshire councillors debate U-turn on disabled parking charges",
+                "url": "https://www.salisburyjournal.co.uk/news/24120187.wiltshire-councillors-debate-u-turn-disabled-parking-charges/",
+                "description": "Blue-badge holders in Wiltshire could get free parking back after charges were re-introduced less than two years ago, if the Lib Dem\u2019s",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4ebe79fa-f77b-5216-7ef9-f8ea04679349",
+                        "name": "Wiltshire"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Salisbury Journal",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Lm7VoAawXSyBOtfD27ffPQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T17:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "&#39;Stop the Boats&#39; to stop Reform UK? Poll finds immigration is top priority for insurgent party&#39;s backers - as Rishi Sunak faces a fifth of 2019 Tory voters defecting to Nigel ...",
+                "url": "https://www.dailymail.co.uk/news/article-13088625/Stop-Boats-stop-Reform-UK-Poll-finds-immigration-priority-insurgent-partys-backers-Rishi-Sunak-faces-fifth-2019-Tory-voters-defecting-Nigel-Farage-outfit.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.LcSLMyJgqcSoP5P54HJE5y&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "A YouGov survey of more than 4,000 people revealed 19 per cent of those who previously supported the Tories would switch to the party founded by Nigel Farage.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4e19a7ad-e1b4-0f74-86c3-ba3be21089da",
+                        "name": "Nigel Farage"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9585b0e9-1240-d064-5ce2-94b34b344160",
+                        "name": "Rishi"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Nigel Farage"
+                    },
+                    {
+                        "name": "Tory"
+                    },
+                    {
+                        "name": "Rishi"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T16:58:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Number of people waiting four weeks or longer to see GP rises",
+                "url": "https://www.manchestereveningnews.co.uk/news/health/number-people-waiting-four-weeks-28641654",
+                "description": "The number of appointments where people waited four weeks or longer for a GP last year rose by 38% on 2022&#39;s figures to 17.6 million",
+                "mentions": [
+                    {
+                        "name": "Manchester Evening News"
+                    },
+                    {
+                        "name": "Salford, Greater Manchester"
+                    },
+                    {
+                        "name": "Manchester United F.C."
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Manchester Evening News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.oxaa8-w2MDoXi5yOUu7A3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T16:55:00.0000000Z"
+            },
+            {
+                "name": "Cole-Hamilton responds to fall in nursing applications for third year in a row",
+                "url": "https://www.scotlibdems.org.uk/news/article/cole-hamilton-responds-to-fall-in-nursing-applications-for-third-year-in-a-row",
+                "description": "Responding to the embargoed data from UCAS which shows that for the third year in a row the number of applicants for nursing courses in Scotland has dropped, down by 8.3% compared to the same point last year,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c8c3a07-0c6a-0cbb-ce69-1e67d001e752",
+                        "name": "Scottish Liberal Democrats"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2ff7d7ac-0a54-021d-5cb9-f02b1888e0c5",
+                        "name": "Respond"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f858d135-b882-0387-b573-0bd3d855020c",
+                        "name": "Fall"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "scotlibdems"
+                    }
+                ],
+                "datePublished": "2024-02-15T16:53:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "More than 150,000 Scots see their work affected due to spiralling NHS waits",
+                "url": "https://www.scotlibdems.org.uk/news/article/more-than-150000-scots-see-their-work-affected-due-to-spiralling-nhs-waits",
+                "description": "Scottish Liberal Democrat leader and health spokesperson Alex Cole-Hamilton MSP has today criticised the SNP government for dealing a \u201chammer blow\u201d to the economy and thousands of lives as he revealed that more than 150,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c8c3a07-0c6a-0cbb-ce69-1e67d001e752",
+                        "name": "Scottish Liberal Democrats"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "scotlibdems"
+                    }
+                ],
+                "datePublished": "2024-02-15T16:44:00.0000000Z"
+            },
+            {
+                "name": "North Yorkshire Council urged to press Chancellor to maintain taxes",
+                "url": "https://www.harrogateadvertiser.co.uk/news/politics/council/north-yorkshire-council-urged-to-press-chancellor-to-maintain-taxes-4520450",
+                "description": "Liberal Democrat councillors are calling for the Conservative-run authority responsible for running services in the Prime Minister\u2019s constituency to write to the Government calling for next month\u2019s Budget to feature significant extra funding for council services.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fb1d8fdd-e4d5-f9a0-5f8c-1a03f3c7dad4",
+                        "name": "North Yorkshire"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/67e771e4-215e-dd49-d6b1-330d0b3de4ce",
+                        "name": "Chancellor"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eaaef858-1162-2a38-1de1-759525f1f7b6",
+                        "name": "Council"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Harrogate Advertiser",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.aCLiUt5Yj7NJXW829lEk2Q&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T16:19:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "House speaker moves to reassure public over \u2018serious national security threat\u2019: Live updates",
+                "url": "https://www.independent.co.uk/news/world/americas/us-politics/national-security-us-politics-congress-live-news-b2496966.html?page=5",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.MYgUzw6F4bvMckQbaBbxoS&pid=News",
+                        "width": 700,
+                        "height": 467
+                    }
+                },
+                "description": "Exact nature of threat not disclosed by congressional leaders to be briefed by White House national security adviser Jake Sullivan",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/043261dd-648e-1d4e-719b-66817728c306",
+                        "name": "National security"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/995e8eb0-dbf9-1087-967b-294f4f9bbd99",
+                        "name": "Speaker driver"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/baf3736f-9663-4af4-babb-36e3e3fcae6c",
+                        "name": "The Independent"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T16:04:00.0000000Z"
+            },
+            {
+                "name": "Isle of Wight general election candidates announced by Lib Dems",
+                "url": "https://www.countypress.co.uk/news/24122288.isle-wight-general-election-candidates-announced-lib-dems/",
+                "description": "Cllr Lilley will do battle for Isle of Wight East, while Cllr Stuart will fight for Isle of Wight West in the next general election. The\u00a0last Isle of Wight Liberal Democrat MP was\u00a0Peter Brand, who served between 1997 and 2001 and\u00a0died last year.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/95d8ced0-437b-28ff-5329-8fbf91940733",
+                        "name": "Isle of Wight"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4d57f6b3-18c8-9e92-c766-ecff93385e95",
+                        "name": "Isle of Wight County Press"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8d8aa22b-becb-80d8-677c-a3161e16cbf5",
+                        "name": "General election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "countypress",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.eXGiK41ac3vbSVJJUW5gGw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T16:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Claims Powys schools facing &#39;Welsh language crisis&#39;",
+                "url": "https://www.countytimes.co.uk/news/24120332.claims-powys-schools-facing-welsh-language-crisis/",
+                "description": "The Learning and Skills committee believed that the Cabinet need to address the \u201cWelsh language crisis\u201d in Powys schools. This comment has drawn criticism from Cabinet members as they \u201crejected\u201d the advice. At the meeting Conservative group leader, Cllr Aled Davies said it was \u201creally surprising\u201d that the cabinet had rejected the recommendation.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7ba55e0f-4cfb-6f1c-c80b-5362fb7c338a",
+                        "name": "U.S. County"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1aec3627-c232-4a19-98e5-156296a023e6",
+                        "name": "Welsh"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6f139537-5bc1-e0b8-7097-f07441113e28",
+                        "name": "Crisis"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "countytimes.co.uk",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.QuCrvjwzbhwSOWUVWHCOqw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T15:48:00.0000000Z"
+            },
+            {
+                "name": "Former Police Commissioner switches to Lib Dems, running again",
+                "url": "https://www.markpack.org.uk/172544/former-police-commissioner-switches-to-lib-dems-running-again/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ZiVFCyP4vs6_8hFKE1nEFS&pid=News",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "description": "The Liberal Democrats finished second in the 2021 Gloucestershire Police and Crime Commissioner elections, behind the Conservative party, with Mr Surl finishing in third place as an independent. The Labour party finished fourth. You can follow XXX on XXX.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c12dbbe6-4e72-4170-dc1b-fd006a35795e",
+                        "name": "Police commissioner"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7a49b862-dda4-2ebc-30ad-425c1f962da9",
+                        "name": "Switch"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "markpack.org.uk",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.XYMZpVOzi0chvuanEWeUlw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T14:49:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Lib Dems admit error over Labour victory in political literature",
+                "url": "https://www.hampshirechronicle.co.uk/news/24121938.lib-dems-admit-error-labour-victory-political-literature/",
+                "description": "In a pamphlet from General Election candidate Danny Chambers, delivered to hundreds of Winchester homes, they claim \u201cLabour has NEVER won here\u201d. In fact George Jeger won for Labour in 1945, holding the seat for four years as part of the post-war Attlee government.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Hampshire Chronicle",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.YBoERqiH2tSa6eVQXRhnVw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T14:42:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Green Party announces ex-police officer and campaigner as candidate for Tees Valley Mayor",
+                "url": "https://www.gazettelive.co.uk/news/teesside-news/green-party-announces-ex-police-28638753",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.x_dGpdVkl2B2ALviAHLzky&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Environmental campaigner Sally Bunce has launched her campaign as the Green Party candidate for Tees Valley Mayor.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/42049c6a-4431-788c-9dfe-02c553c6c825",
+                        "name": "University of Teesside"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "University of Teesside"
+                    },
+                    {
+                        "name": "Green Party of the United States"
+                    },
+                    {
+                        "name": "Civil society campaign"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Teesside Gazette",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.idVXuSxYqWlCfll3AXTbFg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T14:10:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Calderdale councillors back Gaza ceasefire motion",
+                "url": "https://www.bbc.co.uk/news/articles/cek74pe5e52o?at_medium=RSS&at_campaign=KARANGA",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.X0xzW0OuKz5QMbkZZ9rcgC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "A motion calling for an &quot;immediate and permanent&quot; ceasefire in Gaza has been passed by Labour-run Calderdale Council. At a full council meeting on Wednesday, the majority of councillors supported the motion, which also called for the release and return of all hostages.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90eb9ff6-60ad-da43-d3fe-1ee3e3cb775a",
+                        "name": "Gaza Strip"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T14:02:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "More people waiting longer to see GP \u2013 NHS data",
+                "url": "https://www.standard.co.uk/news/politics/nhs-liberal-democrats-gps-david-lynch-liberal-democrat-b1139399.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.qWkpe-dSUHLe3nuMnRr5Vy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "It should be a given that people can see their GP when they need to, not a struggle. That is why the <b>Liberal Democrats</b> are calling for a legal right for all patients to see their GP within seven days, and 24 hours if in urgent need <b>Liberal</b> <b>Democrat</b> leader ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "National Health Service"
+                    },
+                    {
+                        "name": "United States"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "datePublished": "2024-02-15T00:00:00.0000000Z",
+                "category": "Health"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=Liberal+Democrats",
+        "queryContext": {
+            "originalQuery": "Liberal Democrats",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 318,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Liberal+Democrats"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Liberal+Democrats&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "17.6 million patients waited four weeks or longer to see a GP in 2023, NHS data reveals",
+                "url": "https://www.chroniclelive.co.uk/news/uk-news/176-million-patients-waited-four-28643024",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.37kbUViXBYwO--0o2iDbpC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The number of patients who had to wait four weeks or more for a GP appointment last year rose by 38% compared to 2022 figures",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a55d629b-42b2-9dcf-dbd7-860a94010ae2",
+                        "name": "Chronicle Live"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Chronicle Live"
+                    },
+                    {
+                        "name": "Newcastle United F.C."
+                    },
+                    {
+                        "name": "Newcastle upon Tyne"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Evening Chronicle",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.G4kbGBXl4xfkaxnbAFtYzw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T20:50:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "Council Budgets allow us to put <b>Liberal</b> Values into practice",
+                "url": "https://www.libdemvoice.org/council-budgets-allow-us-to-put-liberal-values-into-practice-74657.html",
+                "description": "Lib Dems are addressing the Cost of Living, providing community level services and decision making and Greener boroughs. Next Wednesday, the Southwark Liberal Democrat group will be presenting our Alternative Budget at full council.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9c4c6740-9482-4917-e9af-876c29d9f749",
+                        "name": "Budget"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eaaef858-1162-2a38-1de1-759525f1f7b6",
+                        "name": "Council"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8931119b-1bd1-bf79-96dc-1439c71418f6",
+                        "name": "Liberalism"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Liberal Democrat Voice",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6htcbn_wp6HslO1MiivrIA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T19:36:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "New Watford Overground name set to inspire sportswomen",
+                "url": "https://www.bbc.co.uk/news/uk-england-beds-bucks-herts-68309471",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.0ATYx9s2vj0LJwdVNofgjy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "A London Overground line is changing its name in the hope of inspiring more women to take up sport. Transport for London (TFL) announced the stopper service between Euston and Watford will be named the Lioness Line. TFL said name is to honour the England women&#39;s football team&#39;s achievements.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5989cd27-efc8-06fc-1aa4-ebdbf8384a64",
+                        "name": "Watford"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T19:13:00.0000000Z"
+            },
+            {
+                "name": "A Barclays Local is set to open in Leiston to replace branch",
+                "url": "https://www.eadt.co.uk/news/24123162.barclays-local-set-open-leiston-replace-branch/",
+                "description": "A prospective parliamentary candidate has accused Barclays of &#39;palming off&#39; customers over plans to open a Barclays Local in Leiston in Suffolk.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9fb91659-3521-96df-b9d4-f4441da7efdd",
+                        "name": "Barclays"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ba948257-9e1a-03b7-88f3-6eef8ae414de",
+                        "name": "replace"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/64418b91-edc6-f78d-301c-cd4a9a44393c",
+                        "name": "Branch"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "East Anglian Daily Times 24",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CXPjikUm43cC0YgIcs5aaQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T18:00:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Wiltshire councillors debate U-turn on disabled parking charges",
+                "url": "https://www.salisburyjournal.co.uk/news/24120187.wiltshire-councillors-debate-u-turn-disabled-parking-charges/",
+                "description": "Blue-badge holders in Wiltshire could get free parking back after charges were re-introduced less than two years ago, if the Lib Dem\u2019s",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4ebe79fa-f77b-5216-7ef9-f8ea04679349",
+                        "name": "Wiltshire"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Salisbury Journal",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Lm7VoAawXSyBOtfD27ffPQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T17:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "&#39;Stop the Boats&#39; to stop Reform UK? Poll finds immigration is top priority for insurgent party&#39;s backers - as Rishi Sunak faces a fifth of 2019 Tory voters defecting to Nigel ...",
+                "url": "https://www.dailymail.co.uk/news/article-13088625/Stop-Boats-stop-Reform-UK-Poll-finds-immigration-priority-insurgent-partys-backers-Rishi-Sunak-faces-fifth-2019-Tory-voters-defecting-Nigel-Farage-outfit.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.LcSLMyJgqcSoP5P54HJE5y&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "A YouGov survey of more than 4,000 people revealed 19 per cent of those who previously supported the Tories would switch to the party founded by Nigel Farage.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4e19a7ad-e1b4-0f74-86c3-ba3be21089da",
+                        "name": "Nigel Farage"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9585b0e9-1240-d064-5ce2-94b34b344160",
+                        "name": "Rishi"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Nigel Farage"
+                    },
+                    {
+                        "name": "Tory"
+                    },
+                    {
+                        "name": "Rishi"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T16:58:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Number of people waiting four weeks or longer to see GP rises",
+                "url": "https://www.manchestereveningnews.co.uk/news/health/number-people-waiting-four-weeks-28641654",
+                "description": "The number of appointments where people waited four weeks or longer for a GP last year rose by 38% on 2022&#39;s figures to 17.6 million",
+                "mentions": [
+                    {
+                        "name": "Manchester Evening News"
+                    },
+                    {
+                        "name": "Salford, Greater Manchester"
+                    },
+                    {
+                        "name": "Manchester United F.C."
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Manchester Evening News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.oxaa8-w2MDoXi5yOUu7A3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T16:55:00.0000000Z"
+            },
+            {
+                "name": "Cole-Hamilton responds to fall in nursing applications for third year in a row",
+                "url": "https://www.scotlibdems.org.uk/news/article/cole-hamilton-responds-to-fall-in-nursing-applications-for-third-year-in-a-row",
+                "description": "Responding to the embargoed data from UCAS which shows that for the third year in a row the number of applicants for nursing courses in Scotland has dropped, down by 8.3% compared to the same point last year,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c8c3a07-0c6a-0cbb-ce69-1e67d001e752",
+                        "name": "Scottish Liberal Democrats"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2ff7d7ac-0a54-021d-5cb9-f02b1888e0c5",
+                        "name": "Respond"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f858d135-b882-0387-b573-0bd3d855020c",
+                        "name": "Fall"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "scotlibdems"
+                    }
+                ],
+                "datePublished": "2024-02-15T16:53:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "More than 150,000 Scots see their work affected due to spiralling NHS waits",
+                "url": "https://www.scotlibdems.org.uk/news/article/more-than-150000-scots-see-their-work-affected-due-to-spiralling-nhs-waits",
+                "description": "Scottish Liberal Democrat leader and health spokesperson Alex Cole-Hamilton MSP has today criticised the SNP government for dealing a \u201chammer blow\u201d to the economy and thousands of lives as he revealed that more than 150,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c8c3a07-0c6a-0cbb-ce69-1e67d001e752",
+                        "name": "Scottish Liberal Democrats"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "scotlibdems"
+                    }
+                ],
+                "datePublished": "2024-02-15T16:44:00.0000000Z"
+            },
+            {
+                "name": "North Yorkshire Council urged to press Chancellor to maintain taxes",
+                "url": "https://www.harrogateadvertiser.co.uk/news/politics/council/north-yorkshire-council-urged-to-press-chancellor-to-maintain-taxes-4520450",
+                "description": "Liberal Democrat councillors are calling for the Conservative-run authority responsible for running services in the Prime Minister\u2019s constituency to write to the Government calling for next month\u2019s Budget to feature significant extra funding for council services.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fb1d8fdd-e4d5-f9a0-5f8c-1a03f3c7dad4",
+                        "name": "North Yorkshire"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/67e771e4-215e-dd49-d6b1-330d0b3de4ce",
+                        "name": "Chancellor"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eaaef858-1162-2a38-1de1-759525f1f7b6",
+                        "name": "Council"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Harrogate Advertiser",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.aCLiUt5Yj7NJXW829lEk2Q&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T16:19:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "House speaker moves to reassure public over \u2018serious national security threat\u2019: Live updates",
+                "url": "https://www.independent.co.uk/news/world/americas/us-politics/national-security-us-politics-congress-live-news-b2496966.html?page=5",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.MYgUzw6F4bvMckQbaBbxoS&pid=News",
+                        "width": 700,
+                        "height": 467
+                    }
+                },
+                "description": "Exact nature of threat not disclosed by congressional leaders to be briefed by White House national security adviser Jake Sullivan",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/043261dd-648e-1d4e-719b-66817728c306",
+                        "name": "National security"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/995e8eb0-dbf9-1087-967b-294f4f9bbd99",
+                        "name": "Speaker driver"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/baf3736f-9663-4af4-babb-36e3e3fcae6c",
+                        "name": "The Independent"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T16:04:00.0000000Z"
+            },
+            {
+                "name": "Isle of Wight general election candidates announced by Lib Dems",
+                "url": "https://www.countypress.co.uk/news/24122288.isle-wight-general-election-candidates-announced-lib-dems/",
+                "description": "Cllr Lilley will do battle for Isle of Wight East, while Cllr Stuart will fight for Isle of Wight West in the next general election. The\u00a0last Isle of Wight Liberal Democrat MP was\u00a0Peter Brand, who served between 1997 and 2001 and\u00a0died last year.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/95d8ced0-437b-28ff-5329-8fbf91940733",
+                        "name": "Isle of Wight"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4d57f6b3-18c8-9e92-c766-ecff93385e95",
+                        "name": "Isle of Wight County Press"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8d8aa22b-becb-80d8-677c-a3161e16cbf5",
+                        "name": "General election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "countypress",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.eXGiK41ac3vbSVJJUW5gGw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T16:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Claims Powys schools facing &#39;Welsh language crisis&#39;",
+                "url": "https://www.countytimes.co.uk/news/24120332.claims-powys-schools-facing-welsh-language-crisis/",
+                "description": "The Learning and Skills committee believed that the Cabinet need to address the \u201cWelsh language crisis\u201d in Powys schools. This comment has drawn criticism from Cabinet members as they \u201crejected\u201d the advice. At the meeting Conservative group leader, Cllr Aled Davies said it was \u201creally surprising\u201d that the cabinet had rejected the recommendation.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7ba55e0f-4cfb-6f1c-c80b-5362fb7c338a",
+                        "name": "U.S. County"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1aec3627-c232-4a19-98e5-156296a023e6",
+                        "name": "Welsh"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6f139537-5bc1-e0b8-7097-f07441113e28",
+                        "name": "Crisis"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "countytimes.co.uk",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.QuCrvjwzbhwSOWUVWHCOqw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T15:48:00.0000000Z"
+            },
+            {
+                "name": "Former Police Commissioner switches to Lib Dems, running again",
+                "url": "https://www.markpack.org.uk/172544/former-police-commissioner-switches-to-lib-dems-running-again/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ZiVFCyP4vs6_8hFKE1nEFS&pid=News",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "description": "The Liberal Democrats finished second in the 2021 Gloucestershire Police and Crime Commissioner elections, behind the Conservative party, with Mr Surl finishing in third place as an independent. The Labour party finished fourth. You can follow XXX on XXX.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c12dbbe6-4e72-4170-dc1b-fd006a35795e",
+                        "name": "Police commissioner"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7a49b862-dda4-2ebc-30ad-425c1f962da9",
+                        "name": "Switch"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "markpack.org.uk",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.XYMZpVOzi0chvuanEWeUlw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T14:49:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Lib Dems admit error over Labour victory in political literature",
+                "url": "https://www.hampshirechronicle.co.uk/news/24121938.lib-dems-admit-error-labour-victory-political-literature/",
+                "description": "In a pamphlet from General Election candidate Danny Chambers, delivered to hundreds of Winchester homes, they claim \u201cLabour has NEVER won here\u201d. In fact George Jeger won for Labour in 1945, holding the seat for four years as part of the post-war Attlee government.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Hampshire Chronicle",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.YBoERqiH2tSa6eVQXRhnVw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T14:42:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Green Party announces ex-police officer and campaigner as candidate for Tees Valley Mayor",
+                "url": "https://www.gazettelive.co.uk/news/teesside-news/green-party-announces-ex-police-28638753",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.x_dGpdVkl2B2ALviAHLzky&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Environmental campaigner Sally Bunce has launched her campaign as the Green Party candidate for Tees Valley Mayor.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/42049c6a-4431-788c-9dfe-02c553c6c825",
+                        "name": "University of Teesside"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "University of Teesside"
+                    },
+                    {
+                        "name": "Green Party of the United States"
+                    },
+                    {
+                        "name": "Civil society campaign"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Teesside Gazette",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.idVXuSxYqWlCfll3AXTbFg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T14:10:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Calderdale councillors back Gaza ceasefire motion",
+                "url": "https://www.bbc.co.uk/news/articles/cek74pe5e52o?at_medium=RSS&at_campaign=KARANGA",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.X0xzW0OuKz5QMbkZZ9rcgC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "A motion calling for an &quot;immediate and permanent&quot; ceasefire in Gaza has been passed by Labour-run Calderdale Council. At a full council meeting on Wednesday, the majority of councillors supported the motion, which also called for the release and return of all hostages.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90eb9ff6-60ad-da43-d3fe-1ee3e3cb775a",
+                        "name": "Gaza Strip"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T14:02:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "More people waiting longer to see GP \u2013 NHS data",
+                "url": "https://www.standard.co.uk/news/politics/nhs-liberal-democrats-gps-david-lynch-liberal-democrat-b1139399.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.qWkpe-dSUHLe3nuMnRr5Vy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "It should be a given that people can see their GP when they need to, not a struggle. That is why the <b>Liberal Democrats</b> are calling for a legal right for all patients to see their GP within seven days, and 24 hours if in urgent need <b>Liberal</b> <b>Democrat</b> leader ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "National Health Service"
+                    },
+                    {
+                        "name": "United States"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "datePublished": "2024-02-15T00:00:00.0000000Z",
+                "category": "Health"
+            }
+        ]
+    }
+]

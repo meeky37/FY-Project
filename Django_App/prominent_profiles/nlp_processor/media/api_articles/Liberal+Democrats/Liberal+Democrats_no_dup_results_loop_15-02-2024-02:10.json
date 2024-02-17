@@ -1,0 +1,3337 @@
+[
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=Liberal+Democrats",
+        "queryContext": {
+            "originalQuery": "Liberal Democrats",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 24,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Liberal+Democrats"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Liberal+Democrats&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Tories face election wipeout in Scotland, poll predicts",
+                "url": "https://www.thetimes.co.uk/article/tories-face-election-wipeout-in-scotland-poll-predicts-st79j6jgm",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.hiMuicnOS6z_tlFoWv_-wi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The Liberal Democrats would secure four seats but the Tories would return no MPs in Scotland for the first time since 1997. The polling of 18,000 people was carried out on behalf",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e320dd44-b39b-fd9b-7883-0fe89bb44ace",
+                        "name": "Poll"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/250728c4-d49f-4bab-701e-471facc49ecf",
+                        "name": "Wipeout"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T00:01:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Scottish parliament computers used numerous times to edit &amp; improve MSPs\u2019 Wikipedia pages",
+                "url": "https://www.thescottishsun.co.uk/news/11983157/scottish-parliament-computers-edit-msps-wikipedia-pages/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.b_1Zj44HMxx7PKKklDe2oC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "SCOTTISH Parliament\u00a0computers have been used numerous times to\u00a0 edit MSPs\u2019 Wikipedia pages to make them more positive. They include deleting criticism of Scottish Lib Dem leader",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Scottish Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.pEepZhHtUOU2Dr7E3jedjg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T21:28:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Tories face being reduced to 80 seats, poll of 18,000 voters suggests",
+                "url": "https://inews.co.uk/news/politics/tories-80-seats-general-election-poll-2906688",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.3OgGyuFZWEAcFuTHYkrHzC&pid=News",
+                        "width": 640,
+                        "height": 360
+                    }
+                },
+                "description": "Cabinet ministers are predicted to lose their seats in total in what would mark the worst Conservative wipeout in history",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/01d0dbad-386f-5352-a1be-80941d1ef40a",
+                        "name": "Burau representation"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e320dd44-b39b-fd9b-7883-0fe89bb44ace",
+                        "name": "Poll"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "name": "Burau representation"
+                    },
+                    {
+                        "name": "Poll"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T21:18:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Sadiq Khan to &#39;consider&#39; installing vast floor map of London at City Hall",
+                "url": "https://uk.news.yahoo.com/sadiq-khan-consider-installing-vast-211205176.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.6iL6LyhxmfMVQrtPowSmHC&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The huge aerial map was a popular feature of the old City Hall, but it was left behind when the Greater London Authority moved to the Royal Docks",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d7862dc2-4c03-1dc8-3412-7fe03041fdcb",
+                        "name": "Sadiq Khan"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/50510eea-bf22-1174-c65d-2bf8763956c9",
+                        "name": "City Hall"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8e0ba7b6-4225-fa8a-6369-1b5294e602a5",
+                        "name": "London"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T21:12:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "By-elections - LIVE: Peter Bone\u2019s girlfriend aims for Wellingborough seat as Kingswood faces axe",
+                "url": "https://www.independent.co.uk/news/uk/politics/wellingborough-kingswood-byelections-peter-bone-results-b2496002.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.DwkWekgAeFM7YUM-DJbNcy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Helen Harrison is running for the Conservative Party in Wellingborough, after her disgraced partner Peter Bone lost the seat in a recall petition having been suspended over bullying and sexual misconduct claims he denies.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/02c3f7b1-c087-9183-2212-5d30373eda3e",
+                        "name": "Peter Bone"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/79dd2f21-0dd1-9c0e-1310-9b93cd0cac67",
+                        "name": "Kingswood"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Peter Bone"
+                    },
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "Kingswood"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T19:14:00.0000000Z",
+                "video": {
+                    "name": "Kingswood and Wellingborough by-elections key statistics and benchmarks",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/bf923f45-a9f8-4de4-9729-b32ac090717e/0a3c92fa-a297-4a45-8933-cdd628b3_650.mp4",
+                    "thumbnail": {
+                        "width": 640,
+                        "height": 360
+                    }
+                },
+                "category": "Politics"
+            },
+            {
+                "name": "Retired police officer joins politics to stand in Lincoln council leader\u2019s seat",
+                "url": "https://thelincolnite.co.uk/2024/02/retired-police-officer-joins-politics-to-stands-for-lincoln-council-leaders-seat/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.I1xO0NeJ8B2zNHdzMU0BJS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "A retired Lincolnshire Police officer is vying for Ric Metcalfe\u2019s seat on City of Lincoln Council in this year\u2019s local election. In light of Councillor Metcalfe\u2019s retirement, the Labour group has confirmed Duncan Spencer as their candidate for the Glebe ward in this year\u2019s local election.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/321d3f65-5118-0a2b-0198-3cf86d40fe39",
+                        "name": "Lincoln"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ca0ec412-02d0-23a5-fcec-dba45954eb65",
+                        "name": "Police officer"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Lincolnite",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.iIo3aUWA2vO2fdTPoe_7NA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T19:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Green London mayoral candidate Zo\u00eb Garbett proposes &#39;smarter, fairer road charging system&#39;",
+                "url": "https://www.standard.co.uk/news/london/zoe-garbett-road-user-charging-pay-per-mile-system-ulez-congestion-charge-london-mayoral-election-candidate-b1139209.html",
+                "description": "The idea bears a close resemblance to the \u2018pay-per-mile\u2019 system which Sadiq Khan has promised will not happen for as long as he is mayor",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8e0ba7b6-4225-fa8a-6369-1b5294e602a5",
+                        "name": "London"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9402cb6b-39f3-e999-7138-05a62047cdb4",
+                        "name": "Road pricing"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "London"
+                    },
+                    {
+                        "name": "Road pricing"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T18:50:00.0000000Z"
+            },
+            {
+                "name": "Bombshell poll shows Rishi Sunak on course to hold just 80 Tory seats",
+                "url": "https://www.independent.co.uk/news/uk/politics/rishi-sunak-general-election-starmer-poll-b2496283.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.h-E-9Cl8Qvj_BNqeNqUG2y&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Rishi Sunak is on course to lose more than three quarters of the Tories\u2019 seats, the survey of 18,000 voters suggests",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e320dd44-b39b-fd9b-7883-0fe89bb44ace",
+                        "name": "Poll"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T18:14:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Waverley Street raw sewage problem caused by &#39;wet wipes&#39;",
+                "url": "https://www.worcesternews.co.uk/news/24117267.waverley-street-raw-sewage-problem-caused-wet-wipes/",
+                "description": "We reported last week how raw sewage was pouring out of a drain in the middle of Waverley Street in Diglis last Thursday after heavy rain. Now the cause of the blockage has been revealed - wet wipes flushed down city toilets which had to be cleared by Severn Trent Water engineers.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3fcab35a-b7b8-4873-90c6-e289cd60edf4",
+                        "name": "Waverley"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/97c6e162-d84f-8889-d0fc-ae8a4c30a8db",
+                        "name": "Sewage"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b43609e1-1163-8dad-e8b0-b97580660079",
+                        "name": "Wet wipe"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Worcester News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.HYKfwXd3BiD8DUUluukExA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T17:59:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "Jon Stewart Draws <b>Liberal</b> Anger for Criticizing Biden: \u201cI\u2019ll Never Forgive You\u201d",
+                "url": "https://uk.style.yahoo.com/jon-stewart-draws-liberal-anger-173317173.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.17brc7PROkal3Q3_Pug7tC&pid=News",
+                        "width": 630,
+                        "height": 420
+                    }
+                },
+                "description": "With his very first episode back, Jon Stewart has successfully returned The Daily Show to the cultural conversation \u2014 by drawing fire from Democrats. Stewart\u2019s return to Daily Show hosting duties Monday night opened with a 20-minute monologue going after Donald Trump and Joe Biden.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/84824857-02f6-21e5-673c-f388fba25f48",
+                        "name": "Jon Stewart"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cad484f9-be75-7a78-12dd-16233f823cd7",
+                        "name": "Joe Biden"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8931119b-1bd1-bf79-96dc-1439c71418f6",
+                        "name": "Liberalism"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Style UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.R1Y_kEYTGAFzjK1_2NaYlQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T17:33:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Luke Littler &#39;looks about 35&#39; says House of Lords Peer",
+                "url": "https://www.warringtonguardian.co.uk/news/24120546.luke-littler-looks-35-says-house-lords-peer/",
+                "description": "LUKE Littler has been used as an example in the house of lords criticising the Government\u2019s approach to determining if an asylum seeker is a child",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9140e2bb-d697-44c8-ad1e-5086268e3bbe",
+                        "name": "Littler"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Warrington Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.2IDTg9whrbRDyzPbotqK2g&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T17:20:00.0000000Z",
+                "category": "ScienceAndTechnology"
+            },
+            {
+                "name": "Tories need &#39;geography lessons&#39; after Network North transport pledge includes funding for South",
+                "url": "https://www.mirror.co.uk/news/politics/tories-need-geography-lessons-after-32126088",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ni5I2TZACtJ0ZFTbFEiIgS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "An official document on the &#39;Network North&#39; scheme outlines plans for rail not only in the North and the Midlands, but also in London and in areas as far south as Devon",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/407d1e07-a234-cb55-7b40-64b6d00486f8",
+                        "name": "Network"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/22d96fa0-825f-9be8-c8ac-0b646d3fda96",
+                        "name": "Southern United States"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9e2bf053-dd80-4646-8f26-65075e7085c0",
+                        "name": "North Carolina"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Network"
+                    },
+                    {
+                        "name": "Southern United States"
+                    },
+                    {
+                        "name": "North Carolina"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T17:17:00.0000000Z"
+            },
+            {
+                "name": "General election 2024 poll tracker: How do the UK political parties compare",
+                "url": "https://www.mirror.co.uk/news/politics/general-election-2024-poll-tracker-32123308",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.XLp7vWXLCS9I9SrpRl9dnC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Britain is gearing up for a general election this year after 14 years of Tory rule. Here are the latest polls and odds on Labour, the Conservatives, Reform UK, Lib Dems and more",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e320dd44-b39b-fd9b-7883-0fe89bb44ace",
+                        "name": "Poll"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T17:16:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "OPINION - The speed with which Keir Starmer has transformed Labour is both his greatest success and clearest weakness",
+                "url": "https://uk.news.yahoo.com/opinion-speed-keir-starmer-transformed-162056538.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.I_A5NPHOP-HSsWymiBIC6y&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The three original members, Mutya Buena, Keisha Buchanan and Siobhan Donaghy each eventually left the group to be replaced in turn by a new singer, until none of the founder members remained. Much like the theoretical ship debated by ancient philosophers,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/63a6ef59-71fd-db08-08c6-d47d973d47fb",
+                        "name": "Keir Starmer"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T16:21:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Harrogate Lib Dem&#39;s plea for a return to &#39;proper community policing&#39; in response to burglary figures for North Yorks",
+                "url": "https://www.harrogateadvertiser.co.uk/news/politics/harrogate-lib-dems-plea-for-a-return-to-proper-community-policing-in-response-to-burglary-figures-for-north-yorks-4518820",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.gkMs3suPeGUeqAcfVp3Yry&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Harrogate&#39;s Lib Dem candidate for the General Election has returned to his attacks on &quot;ineffective resourcing&quot; which he says has left police forces in North Yorkshire overstretched and unable to focus on frontline crime like burglaries.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/791c03fe-0a95-5158-dbd2-e5974e759d0e",
+                        "name": "Yorkshire"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9e2bf053-dd80-4646-8f26-65075e7085c0",
+                        "name": "North Carolina"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/92584088-1657-d4e5-bef5-5722b173eb4d",
+                        "name": "Harrogate"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Harrogate Advertiser",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.aCLiUt5Yj7NJXW829lEk2Q&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T16:17:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Kingswood by-election 2024 LIVE: Voters head to the polls today after MP resigns",
+                "url": "https://www.bristolpost.co.uk/news/bristol-news/kingswood-election-2024-live-voters-9099248",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.YZCnhUMoRpdVA0nwCSVxli&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The by-election is being held on Thursday, February 15 and the result expected early in the morning of Friday, February 16",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/79dd2f21-0dd1-9c0e-1310-9b93cd0cac67",
+                        "name": "Kingswood"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Bristol Post",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Qcp_v1E0ZjlhF2TektrQhg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T16:07:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Powys Council to submit Ysgol Bro Hyddgen bid amid Cadw call",
+                "url": "https://www.countytimes.co.uk/news/24119990.powys-council-submit-ysgol-bro-hyddgen-bid-amid-cadw-call/",
+                "description": "Powys County Council says it is to submit an application for its \u00a349m Ysgol Bro Hyddgen plans despite Cadw being asked to list the building.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/31d688a4-9710-877f-85cb-9335555dc142",
+                        "name": "Powys County Council"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7ba55e0f-4cfb-6f1c-c80b-5362fb7c338a",
+                        "name": "U.S. County"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8161bf9f-b021-131d-02a1-2ccf222ca81e",
+                        "name": "Cadw"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "countytimes.co.uk",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.QuCrvjwzbhwSOWUVWHCOqw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T15:22:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Europe\u2019s new age of insecurity",
+                "url": "https://www.newstatesman.com/ns-interview/2024/02/hillbilly-energy",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.H_DGJWj0p6OfehXxa-bdty&pid=News",
+                        "width": 700,
+                        "height": 365
+                    }
+                },
+                "description": "Tipped to be Trump\u2019s running mate, JD Vance is the voice of the new American right.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1b8a19c5-d426-cdea-db05-18857d7adfd2",
+                        "name": "New Statesman"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c5c81a72-e5ba-35e0-c7b7-989168637634",
+                        "name": "Energy"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "New Statesman",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.83Sdvx0ijgf5jpBYrSS3Lg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T14:58:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Final day of campaigning in Kingswood and Wellingborough byelections \u2013 UK politics live",
+                "url": "https://www.theguardian.com/politics/live/2024/feb/14/labour-conservatives-rochdale-kingswood-wellingborough-rishi-sunak-keir-starmer-uk-politics-live?filterKeyEvents=false&page=with:block-65ccde888f084fe73a9945b1",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.eivTUYaCibrWDhEzNe5_zC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Labour seeking to take two seats from Tories on Thursday amid fraught week of candidate suspensions",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T14:43:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Lib Dem candidate selected for Frome",
+                "url": "https://www.frometimes.co.uk/2024/02/14/lib-dem-candidate-selected-for-frome/",
+                "description": "THE Liberal Democrats have selected local businesswoman and campaigner, Anna Sabine, as their election candidate for the new Frome and East Somerset constituency.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b01b7341-ec28-6a25-4c50-58462c93b9ed",
+                        "name": "Frome"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "frometimes.co.uk"
+                    }
+                ],
+                "datePublished": "2024-02-14T14:36:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Tory MP becomes 58th to quit at next election as Conservatives near 1997 record",
+                "url": "https://www.telegraph.co.uk/politics/2024/02/14/tory-mp-58th-quit-next-election-conservatives-kieran-mullan/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.2SCcEY5POcs4CI05jNDj-y&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "More Tory MPs are quitting at the next election than at any point since 1997, when 75 stood aside in advance of a contest that saw Labour win a landslide victory under Sir Tony Blair. Rishi Sunak is widely expected to trigger the next national poll in the second half of this year, meaning the threshold could well be reached in the coming months.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f264bcee-007b-aa97-2443-f535e9f34d0f",
+                        "name": "Mullan"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cb5a43b5-b015-4b99-ca20-eba070149957",
+                        "name": "2006 Crit\u00e9rium du Dauphin\u00e9 Lib\u00e9r\u00e9"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Mullan"
+                    },
+                    {
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "name": "2006 Crit\u00e9rium du Dauphin\u00e9 Lib\u00e9r\u00e9"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T13:32:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Hertfordshire County Council sets whopping \u00a31.1bn budget for 24/25 after max tax increase",
+                "url": "https://www.hemeltoday.co.uk/news/politics/council/hertfordshire-county-council-sets-whopping-ps11bn-budget-for-2425-after-max-tax-increase-4518247",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.zp8OpHpbduOVWZmKniQ_Ky&pid=News",
+                        "width": 499,
+                        "height": 332
+                    }
+                },
+                "description": "During the budget debate amendments were proposed by <b>Liberal</b> <b>Democrat</b> and Labour councillors \u2013 but none were backed by the council\u2019s Conservative majority. The <b>Liberal Democrats</b> proposed that an extra \u00a31m be invested in the SEND team and the proposed ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/331ea9d1-91d0-509c-e43e-c9e123b51f31",
+                        "name": "Hertfordshire County Council"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Hemel Hempstead Gazette"
+                    }
+                ],
+                "datePublished": "2024-02-14T13:02:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Wellingborough by-election: The seat poised to present Sunak with first electoral headache of 2024",
+                "url": "https://www.itv.com/news/anglia/2024-02-14/knife-edge-by-election-gives-sunak-first-electoral-headache-of-2024",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.lu1uLpoDbryRBpNQTW5fay&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The by-election in Wellingborough in Northamptonshire was triggered after the constituency&#39;s previous MP was removed by a recall petition. | ITV News Anglia",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "ITV",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.HlKTyCgM99pRvmITMdZC2w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T12:41:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "How you will be allowed larger extensions to the rear, side or loft of your home WITHOUT planning permission under Michael Gove&#39;s changes - but there&#39;s warnings it will pit ...",
+                "url": "https://www.dailymail.co.uk/news/article-13082595/How-allowed-larger-extensions-rear-loft-home-WITHOUT-planning-permission-Michael-Goves-changes-theres-warnings-pit-neighbour-against-neighbour-civil-war-Britains-streets.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.jj5fUzS9TYyHB-japAgKtC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Michael Gove , the Levelling Up, Housing and Communities Secretary, wants homeowners in England to have greater rights to expand their properties.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c12951d9-25c7-062e-3e0c-288ac8a6d91e",
+                        "name": "Michael Gove"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4264d1f3-385c-a352-a51c-c77ac3219b6f",
+                        "name": "Rear"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T12:29:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=Liberal+Democrats",
+        "queryContext": {
+            "originalQuery": "Liberal Democrats",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 135,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Liberal+Democrats"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Liberal+Democrats&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Tories face election wipeout in Scotland, poll predicts",
+                "url": "https://www.thetimes.co.uk/article/tories-face-election-wipeout-in-scotland-poll-predicts-st79j6jgm",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.hiMuicnOS6z_tlFoWv_-wi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The Liberal Democrats would secure four seats but the Tories would return no MPs in Scotland for the first time since 1997. The polling of 18,000 people was carried out on behalf",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e320dd44-b39b-fd9b-7883-0fe89bb44ace",
+                        "name": "Poll"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/250728c4-d49f-4bab-701e-471facc49ecf",
+                        "name": "Wipeout"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T00:01:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Scottish parliament computers used numerous times to edit &amp; improve MSPs\u2019 Wikipedia pages",
+                "url": "https://www.thescottishsun.co.uk/news/11983157/scottish-parliament-computers-edit-msps-wikipedia-pages/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.b_1Zj44HMxx7PKKklDe2oC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "SCOTTISH Parliament\u00a0computers have been used numerous times to\u00a0 edit MSPs\u2019 Wikipedia pages to make them more positive. They include deleting criticism of Scottish Lib Dem leader",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Scottish Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.pEepZhHtUOU2Dr7E3jedjg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T21:28:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Tories face being reduced to 80 seats, poll of 18,000 voters suggests",
+                "url": "https://inews.co.uk/news/politics/tories-80-seats-general-election-poll-2906688",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.3OgGyuFZWEAcFuTHYkrHzC&pid=News",
+                        "width": 640,
+                        "height": 360
+                    }
+                },
+                "description": "Cabinet ministers are predicted to lose their seats in total in what would mark the worst Conservative wipeout in history",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/01d0dbad-386f-5352-a1be-80941d1ef40a",
+                        "name": "Burau representation"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e320dd44-b39b-fd9b-7883-0fe89bb44ace",
+                        "name": "Poll"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "name": "Burau representation"
+                    },
+                    {
+                        "name": "Poll"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T21:18:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Sadiq Khan to &#39;consider&#39; installing vast floor map of London at City Hall",
+                "url": "https://uk.news.yahoo.com/sadiq-khan-consider-installing-vast-211205176.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.6iL6LyhxmfMVQrtPowSmHC&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The huge aerial map was a popular feature of the old City Hall, but it was left behind when the Greater London Authority moved to the Royal Docks",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d7862dc2-4c03-1dc8-3412-7fe03041fdcb",
+                        "name": "Sadiq Khan"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/50510eea-bf22-1174-c65d-2bf8763956c9",
+                        "name": "City Hall"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8e0ba7b6-4225-fa8a-6369-1b5294e602a5",
+                        "name": "London"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T21:12:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "By-elections - LIVE: Peter Bone\u2019s girlfriend aims for Wellingborough seat as Kingswood faces axe",
+                "url": "https://www.independent.co.uk/news/uk/politics/wellingborough-kingswood-byelections-peter-bone-results-b2496002.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.DwkWekgAeFM7YUM-DJbNcy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Helen Harrison is running for the Conservative Party in Wellingborough, after her disgraced partner Peter Bone lost the seat in a recall petition having been suspended over bullying and sexual misconduct claims he denies.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/02c3f7b1-c087-9183-2212-5d30373eda3e",
+                        "name": "Peter Bone"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/79dd2f21-0dd1-9c0e-1310-9b93cd0cac67",
+                        "name": "Kingswood"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Peter Bone"
+                    },
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "Kingswood"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T19:14:00.0000000Z",
+                "video": {
+                    "name": "Kingswood and Wellingborough by-elections key statistics and benchmarks",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/bf923f45-a9f8-4de4-9729-b32ac090717e/0a3c92fa-a297-4a45-8933-cdd628b3_650.mp4",
+                    "thumbnail": {
+                        "width": 640,
+                        "height": 360
+                    }
+                },
+                "category": "Politics"
+            },
+            {
+                "name": "Retired police officer joins politics to stand in Lincoln council leader\u2019s seat",
+                "url": "https://thelincolnite.co.uk/2024/02/retired-police-officer-joins-politics-to-stands-for-lincoln-council-leaders-seat/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.I1xO0NeJ8B2zNHdzMU0BJS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "A retired Lincolnshire Police officer is vying for Ric Metcalfe\u2019s seat on City of Lincoln Council in this year\u2019s local election. In light of Councillor Metcalfe\u2019s retirement, the Labour group has confirmed Duncan Spencer as their candidate for the Glebe ward in this year\u2019s local election.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/321d3f65-5118-0a2b-0198-3cf86d40fe39",
+                        "name": "Lincoln"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ca0ec412-02d0-23a5-fcec-dba45954eb65",
+                        "name": "Police officer"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Lincolnite",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.iIo3aUWA2vO2fdTPoe_7NA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T19:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Bombshell poll shows Rishi Sunak on course to hold just 80 Tory seats",
+                "url": "https://www.independent.co.uk/news/uk/politics/rishi-sunak-general-election-starmer-poll-b2496283.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.h-E-9Cl8Qvj_BNqeNqUG2y&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Rishi Sunak is on course to lose more than three quarters of the Tories\u2019 seats, the survey of 18,000 voters suggests",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e320dd44-b39b-fd9b-7883-0fe89bb44ace",
+                        "name": "Poll"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T18:14:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Waverley Street raw sewage problem caused by &#39;wet wipes&#39;",
+                "url": "https://www.worcesternews.co.uk/news/24117267.waverley-street-raw-sewage-problem-caused-wet-wipes/",
+                "description": "We reported last week how raw sewage was pouring out of a drain in the middle of Waverley Street in Diglis last Thursday after heavy rain. Now the cause of the blockage has been revealed - wet wipes flushed down city toilets which had to be cleared by Severn Trent Water engineers.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3fcab35a-b7b8-4873-90c6-e289cd60edf4",
+                        "name": "Waverley"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/97c6e162-d84f-8889-d0fc-ae8a4c30a8db",
+                        "name": "Sewage"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b43609e1-1163-8dad-e8b0-b97580660079",
+                        "name": "Wet wipe"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Worcester News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.HYKfwXd3BiD8DUUluukExA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T17:59:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "Jon Stewart Draws <b>Liberal</b> Anger for Criticizing Biden: \u201cI\u2019ll Never Forgive You\u201d",
+                "url": "https://uk.style.yahoo.com/jon-stewart-draws-liberal-anger-173317173.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.17brc7PROkal3Q3_Pug7tC&pid=News",
+                        "width": 630,
+                        "height": 420
+                    }
+                },
+                "description": "With his very first episode back, Jon Stewart has successfully returned The Daily Show to the cultural conversation \u2014 by drawing fire from Democrats. Stewart\u2019s return to Daily Show hosting duties Monday night opened with a 20-minute monologue going after Donald Trump and Joe Biden.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/84824857-02f6-21e5-673c-f388fba25f48",
+                        "name": "Jon Stewart"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cad484f9-be75-7a78-12dd-16233f823cd7",
+                        "name": "Joe Biden"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8931119b-1bd1-bf79-96dc-1439c71418f6",
+                        "name": "Liberalism"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Style UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.R1Y_kEYTGAFzjK1_2NaYlQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T17:33:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Luke Littler &#39;looks about 35&#39; says House of Lords Peer",
+                "url": "https://www.warringtonguardian.co.uk/news/24120546.luke-littler-looks-35-says-house-lords-peer/",
+                "description": "LUKE Littler has been used as an example in the house of lords criticising the Government\u2019s approach to determining if an asylum seeker is a child",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9140e2bb-d697-44c8-ad1e-5086268e3bbe",
+                        "name": "Littler"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Warrington Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.2IDTg9whrbRDyzPbotqK2g&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T17:20:00.0000000Z",
+                "category": "ScienceAndTechnology"
+            },
+            {
+                "name": "Tories need &#39;geography lessons&#39; after Network North transport pledge includes funding for South",
+                "url": "https://www.mirror.co.uk/news/politics/tories-need-geography-lessons-after-32126088",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ni5I2TZACtJ0ZFTbFEiIgS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "An official document on the &#39;Network North&#39; scheme outlines plans for rail not only in the North and the Midlands, but also in London and in areas as far south as Devon",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/407d1e07-a234-cb55-7b40-64b6d00486f8",
+                        "name": "Network"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/22d96fa0-825f-9be8-c8ac-0b646d3fda96",
+                        "name": "Southern United States"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9e2bf053-dd80-4646-8f26-65075e7085c0",
+                        "name": "North Carolina"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Network"
+                    },
+                    {
+                        "name": "Southern United States"
+                    },
+                    {
+                        "name": "North Carolina"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T17:17:00.0000000Z"
+            },
+            {
+                "name": "General election 2024 poll tracker: How do the UK political parties compare",
+                "url": "https://www.mirror.co.uk/news/politics/general-election-2024-poll-tracker-32123308",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.XLp7vWXLCS9I9SrpRl9dnC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Britain is gearing up for a general election this year after 14 years of Tory rule. Here are the latest polls and odds on Labour, the Conservatives, Reform UK, Lib Dems and more",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e320dd44-b39b-fd9b-7883-0fe89bb44ace",
+                        "name": "Poll"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T17:16:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "OPINION - The speed with which Keir Starmer has transformed Labour is both his greatest success and clearest weakness",
+                "url": "https://uk.news.yahoo.com/opinion-speed-keir-starmer-transformed-162056538.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.I_A5NPHOP-HSsWymiBIC6y&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The three original members, Mutya Buena, Keisha Buchanan and Siobhan Donaghy each eventually left the group to be replaced in turn by a new singer, until none of the founder members remained. Much like the theoretical ship debated by ancient philosophers,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/63a6ef59-71fd-db08-08c6-d47d973d47fb",
+                        "name": "Keir Starmer"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T16:21:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Harrogate Lib Dem&#39;s plea for a return to &#39;proper community policing&#39; in response to burglary figures for North Yorks",
+                "url": "https://www.harrogateadvertiser.co.uk/news/politics/harrogate-lib-dems-plea-for-a-return-to-proper-community-policing-in-response-to-burglary-figures-for-north-yorks-4518820",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.gkMs3suPeGUeqAcfVp3Yry&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Harrogate&#39;s Lib Dem candidate for the General Election has returned to his attacks on &quot;ineffective resourcing&quot; which he says has left police forces in North Yorkshire overstretched and unable to focus on frontline crime like burglaries.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/791c03fe-0a95-5158-dbd2-e5974e759d0e",
+                        "name": "Yorkshire"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9e2bf053-dd80-4646-8f26-65075e7085c0",
+                        "name": "North Carolina"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/92584088-1657-d4e5-bef5-5722b173eb4d",
+                        "name": "Harrogate"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Harrogate Advertiser",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.aCLiUt5Yj7NJXW829lEk2Q&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T16:17:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Kingswood by-election 2024 LIVE: Voters head to the polls today after MP resigns",
+                "url": "https://www.bristolpost.co.uk/news/bristol-news/kingswood-election-2024-live-voters-9099248",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.YZCnhUMoRpdVA0nwCSVxli&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The by-election is being held on Thursday, February 15 and the result expected early in the morning of Friday, February 16",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/79dd2f21-0dd1-9c0e-1310-9b93cd0cac67",
+                        "name": "Kingswood"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Bristol Post",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Qcp_v1E0ZjlhF2TektrQhg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T16:07:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Powys Council to submit Ysgol Bro Hyddgen bid amid Cadw call",
+                "url": "https://www.countytimes.co.uk/news/24119990.powys-council-submit-ysgol-bro-hyddgen-bid-amid-cadw-call/",
+                "description": "Powys County Council says it is to submit an application for its \u00a349m Ysgol Bro Hyddgen plans despite Cadw being asked to list the building.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/31d688a4-9710-877f-85cb-9335555dc142",
+                        "name": "Powys County Council"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7ba55e0f-4cfb-6f1c-c80b-5362fb7c338a",
+                        "name": "U.S. County"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8161bf9f-b021-131d-02a1-2ccf222ca81e",
+                        "name": "Cadw"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "countytimes.co.uk",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.QuCrvjwzbhwSOWUVWHCOqw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T15:22:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Europe\u2019s new age of insecurity",
+                "url": "https://www.newstatesman.com/ns-interview/2024/02/hillbilly-energy",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.H_DGJWj0p6OfehXxa-bdty&pid=News",
+                        "width": 700,
+                        "height": 365
+                    }
+                },
+                "description": "Tipped to be Trump\u2019s running mate, JD Vance is the voice of the new American right.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1b8a19c5-d426-cdea-db05-18857d7adfd2",
+                        "name": "New Statesman"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c5c81a72-e5ba-35e0-c7b7-989168637634",
+                        "name": "Energy"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "New Statesman",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.83Sdvx0ijgf5jpBYrSS3Lg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T14:58:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Final day of campaigning in Kingswood and Wellingborough byelections \u2013 UK politics live",
+                "url": "https://www.theguardian.com/politics/live/2024/feb/14/labour-conservatives-rochdale-kingswood-wellingborough-rishi-sunak-keir-starmer-uk-politics-live?filterKeyEvents=false&page=with:block-65ccde888f084fe73a9945b1",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.eivTUYaCibrWDhEzNe5_zC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Labour seeking to take two seats from Tories on Thursday amid fraught week of candidate suspensions",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T14:43:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Lib Dem candidate selected for Frome",
+                "url": "https://www.frometimes.co.uk/2024/02/14/lib-dem-candidate-selected-for-frome/",
+                "description": "THE Liberal Democrats have selected local businesswoman and campaigner, Anna Sabine, as their election candidate for the new Frome and East Somerset constituency.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b01b7341-ec28-6a25-4c50-58462c93b9ed",
+                        "name": "Frome"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "frometimes.co.uk"
+                    }
+                ],
+                "datePublished": "2024-02-14T14:36:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Tory MP becomes 58th to quit at next election as Conservatives near 1997 record",
+                "url": "https://www.telegraph.co.uk/politics/2024/02/14/tory-mp-58th-quit-next-election-conservatives-kieran-mullan/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.2SCcEY5POcs4CI05jNDj-y&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "More Tory MPs are quitting at the next election than at any point since 1997, when 75 stood aside in advance of a contest that saw Labour win a landslide victory under Sir Tony Blair. Rishi Sunak is widely expected to trigger the next national poll in the second half of this year, meaning the threshold could well be reached in the coming months.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f264bcee-007b-aa97-2443-f535e9f34d0f",
+                        "name": "Mullan"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cb5a43b5-b015-4b99-ca20-eba070149957",
+                        "name": "2006 Crit\u00e9rium du Dauphin\u00e9 Lib\u00e9r\u00e9"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Mullan"
+                    },
+                    {
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "name": "2006 Crit\u00e9rium du Dauphin\u00e9 Lib\u00e9r\u00e9"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T13:32:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Hertfordshire County Council sets whopping \u00a31.1bn budget for 24/25 after max tax increase",
+                "url": "https://www.hemeltoday.co.uk/news/politics/council/hertfordshire-county-council-sets-whopping-ps11bn-budget-for-2425-after-max-tax-increase-4518247",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.zp8OpHpbduOVWZmKniQ_Ky&pid=News",
+                        "width": 499,
+                        "height": 332
+                    }
+                },
+                "description": "During the budget debate amendments were proposed by <b>Liberal</b> <b>Democrat</b> and Labour councillors \u2013 but none were backed by the council\u2019s Conservative majority. The <b>Liberal Democrats</b> proposed that an extra \u00a31m be invested in the SEND team and the proposed ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/331ea9d1-91d0-509c-e43e-c9e123b51f31",
+                        "name": "Hertfordshire County Council"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Hemel Hempstead Gazette"
+                    }
+                ],
+                "datePublished": "2024-02-14T13:02:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Wellingborough by-election: The seat poised to present Sunak with first electoral headache of 2024",
+                "url": "https://www.itv.com/news/anglia/2024-02-14/knife-edge-by-election-gives-sunak-first-electoral-headache-of-2024",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.lu1uLpoDbryRBpNQTW5fay&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The by-election in Wellingborough in Northamptonshire was triggered after the constituency&#39;s previous MP was removed by a recall petition. | ITV News Anglia",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "ITV",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.HlKTyCgM99pRvmITMdZC2w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T12:41:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "How you will be allowed larger extensions to the rear, side or loft of your home WITHOUT planning permission under Michael Gove&#39;s changes - but there&#39;s warnings it will pit ...",
+                "url": "https://www.dailymail.co.uk/news/article-13082595/How-allowed-larger-extensions-rear-loft-home-WITHOUT-planning-permission-Michael-Goves-changes-theres-warnings-pit-neighbour-against-neighbour-civil-war-Britains-streets.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.jj5fUzS9TYyHB-japAgKtC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Michael Gove , the Levelling Up, Housing and Communities Secretary, wants homeowners in England to have greater rights to expand their properties.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c12951d9-25c7-062e-3e0c-288ac8a6d91e",
+                        "name": "Michael Gove"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4264d1f3-385c-a352-a51c-c77ac3219b6f",
+                        "name": "Rear"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T12:29:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Tribute to long serving New Mills councillor following his unexpected death",
+                "url": "https://www.buxtonadvertiser.co.uk/news/people/tribute-to-long-serving-new-mills-councillor-following-his-unexpected-death-4518079",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.sK9irxp-LwDuN459fa7Q3i&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The family and friends of a long serving New Mills councillor have expressed their shock following his sudden death.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/47c49855-f59e-1593-1dd0-d96ff509cfe5",
+                        "name": "Tribute"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Buxton Advertiser",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.OjIxlkX_3wrdwYrW7tbLsg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T12:01:00.0000000Z"
+            },
+            {
+                "name": "Electorate set to vote in by-election for new Staveley Town Councillor for Duckmanton",
+                "url": "https://www.derbyshiretimes.co.uk/news/people/electorate-set-to-vote-in-by-election-for-new-staveley-town-councillor-for-duckmanton-4517981",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.vpf1aGNQ9HurqlGz9mXUGy&pid=News",
+                        "width": 640,
+                        "height": 427
+                    }
+                },
+                "description": "Voters are being given a chance to influence recovering Derbyshire-based Staveley Town Council\u2019s finely-balanced political make-up as it holds a by-election for its vacant Duckmanton Ward seat.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f3db68d0-0af4-348d-4d8c-17f0e186201a",
+                        "name": "Duckmanton"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8f25e77-4e2b-25be-922e-10a49e22ec72",
+                        "name": "Staveley Town railway station"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5e83019e-d5ad-de66-bfc7-9f24e0932322",
+                        "name": "By-election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Derbyshire Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Uh95g7sn-68FOaL2i3KYBA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T11:31:00.0000000Z"
+            },
+            {
+                "name": "Extra money for Powys schools as Welsh Government cash drops",
+                "url": "https://www.abergavennychronicle.com/news/extra-money-for-powys-schools-as-welsh-government-cash-drops-665944",
+                "description": "AN extra \u00a3570,000 is expected to be ploughed into Powys schools as more funding from Welsh Government is set to be given to local authorities.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5d9c5f00-6996-2dfd-d223-c8de2ee5eca5",
+                        "name": "Powys"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4bcd62ae-bb87-198a-c0e4-5c71d4cc223c",
+                        "name": "Welsh Government"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Abergavenny Chronicle",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Xya1H8dJYzROugT7EwJskA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T10:58:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Teeth pulled out with pliers as shortage of dentists leads to desperate action",
+                "url": "https://www.express.co.uk/news/uk/1866601/diy-dentistry-nhs-crisis",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Y78CjH9j9Y3slR9rKaR-9y&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Millions of people feel they have no choice but to resort to carrying out urgent treatment themselves due to a lack of NHS dentists.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Daily Express"
+                    },
+                    {
+                        "name": "Economic shortage"
+                    },
+                    {
+                        "name": "NHS dentistry"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T10:51:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "Kingswood and Wellingborough by-elections: Key statistics and benchmarks",
+                "url": "https://www.standard.co.uk/news/politics/labour-conservatives-wellingborough-kingswood-government-b1139016.html",
+                "description": "There are six candidates standing in the by-election: Sam Bromiley (Conservative), Andrew Brown (Liberal Democrat), Damien Egan (Labour), Lorraine Francis (Green), Rupert Lowe (Reform) and Nicholas Wood (Ukip).",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/79dd2f21-0dd1-9c0e-1310-9b93cd0cac67",
+                        "name": "Kingswood"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/73388964-99e9-bfa8-c8a4-0331f036fdb6",
+                        "name": "Wellingborough"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Kingswood"
+                    },
+                    {
+                        "name": "Wellingborough"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T10:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Party awards \u2013 get your nominations in by 27 February",
+                "url": "https://www.libdemvoice.org/party-awards-get-your-nominations-in-by-27-february-74651.html",
+                "description": "Every Conference, the Liberal Democrats honour individuals who have served the party well with our party awards. In York, the following awards will be presented: The Leader\u2019s Award Eligibility: Any member of the party.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2de09184-dd27-10bc-742a-8f07dd388198",
+                        "name": "Nomination"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Liberal Democrat Voice",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6htcbn_wp6HslO1MiivrIA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T09:57:00.0000000Z"
+            },
+            {
+                "name": "Ridiculing Trump doesn\u2019t hurt him \u2013 <b>liberal</b> media does not understand that",
+                "url": "https://inews.co.uk/news/world/liberal-media-trump-ridicule-satire-2904068?ico=in-line_link",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.7DSiCVkPDB2fsYV4WuTDfy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "In a year\u2019s time, Nato could be in tatters and a gung-ho Russian dictator could be considering plans to &#39;de-Nazify\u2019 Baltic nations",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T09:19:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Extra \u00a3570k drops into Powys schools\u2019 coffers",
+                "url": "https://www.mywelshpool.co.uk/viewerheadline/ArticleId/25402",
+                "description": "At a meeting of Powys County Council\u2019s <b>Liberal</b> <b>Democrat</b>/Labour Cabinet yesterday (Tuesday), senior councillors took another look at their draft budget for 2024/2025. This included a budget amendment after deciding what to do with the extra money from the ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5d9c5f00-6996-2dfd-d223-c8de2ee5eca5",
+                        "name": "Powys"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "mywelshpool"
+                    }
+                ],
+                "datePublished": "2024-02-14T08:26:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Europe\u2019s Iron Lady: Estonian prime minister Kaja Kallas",
+                "url": "https://www.newstatesman.com/world/americas/north-america/us/2024/02/hillbilly-energy",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.H_DGJWj0p6OfehXxa-bdty&pid=News",
+                        "width": 700,
+                        "height": 365
+                    }
+                },
+                "description": "Tipped to be Trump\u2019s running mate, JD Vance is the voice of the new American right",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1b8a19c5-d426-cdea-db05-18857d7adfd2",
+                        "name": "New Statesman"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ddb7c000-f710-87a0-dfc6-763c39ac30ee",
+                        "name": "World"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "New Statesman",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.83Sdvx0ijgf5jpBYrSS3Lg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T08:16:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Extra \u00a3570k for Powys schools in next year&#39;s budget",
+                "url": "https://www.shropshirestar.com/news/education/2024/02/14/extra-570k-for-powys-schools-in-next-years-budget/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.xIr_OSaB8wsRdKHFtEmphS&pid=News",
+                        "width": 700,
+                        "height": 525
+                    }
+                },
+                "description": "An extra \u00a3570,000 is expected to be ploughed into Powys schools as more funding from Welsh Government is set to be given to local authorities.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5d9c5f00-6996-2dfd-d223-c8de2ee5eca5",
+                        "name": "Powys"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Shropshire Star",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.z7PYjCdp4xvIwys_5w9_gA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T06:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Democrats</b> win another special election, and 4 more takeaways from New York&#39;s House race",
+                "url": "https://uk.movies.yahoo.com/democrats-win-another-special-election-053600391.html",
+                "description": "Suozzi came out in strong support of Israel&#39;s response, which has drawn pushback from Biden as &quot;over the top,&quot; saying he didn&#39;t support conditions on aid to Israel, a key demand of many of Biden&#39;s more <b>liberal</b> detractors. <b>Democrats</b> in New York were dogged ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/022d3e13-c9e7-91f5-ce61-8a3d48d58fc6",
+                        "name": "Democratic Party"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5e83019e-d5ad-de66-bfc7-9f24e0932322",
+                        "name": "By-election"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/caeb7b9a-f5d7-4686-8fb5-cf7628296b13",
+                        "name": "New York"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Movies UK"
+                    }
+                ],
+                "datePublished": "2024-02-14T00:36:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Maximum council tax increase for people across Cambridgeshire as promise made to spend more on roads",
+                "url": "https://www.cambridge-news.co.uk/news/cambridge-news/maximum-council-tax-increase-people-28629335",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.HcOAahyYEEXGO5WTfKojGi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The leader of the county council, Councillor Lucy Nethsingha (<b>Liberal</b> <b>Democrat</b>), said the investments proposed for the coming year will \u201cmake a difference for families in Cambridgeshire \u201d. At a full council meeting this week (February 13) the authority ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/bc02c14b-0035-fc4c-411f-168edbf62536",
+                        "name": "Cambridgeshire"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/37cac01d-8176-543b-ba7c-e99687b0a3ac",
+                        "name": "Council Tax"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Cambridgeshire"
+                    },
+                    {
+                        "name": "Council Tax"
+                    },
+                    {
+                        "name": "Haunted highway"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Cambridge News"
+                    }
+                ],
+                "datePublished": "2024-02-14T00:00:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=Liberal+Democrats",
+        "queryContext": {
+            "originalQuery": "Liberal Democrats",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 235,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Liberal+Democrats"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Liberal+Democrats&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Tories face election wipeout in Scotland, poll predicts",
+                "url": "https://www.thetimes.co.uk/article/tories-face-election-wipeout-in-scotland-poll-predicts-st79j6jgm",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.hiMuicnOS6z_tlFoWv_-wi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The Liberal Democrats would secure four seats but the Tories would return no MPs in Scotland for the first time since 1997. The polling of 18,000 people was carried out on behalf",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e320dd44-b39b-fd9b-7883-0fe89bb44ace",
+                        "name": "Poll"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/250728c4-d49f-4bab-701e-471facc49ecf",
+                        "name": "Wipeout"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-15T00:01:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Scottish parliament computers used numerous times to edit &amp; improve MSPs\u2019 Wikipedia pages",
+                "url": "https://www.thescottishsun.co.uk/news/11983157/scottish-parliament-computers-edit-msps-wikipedia-pages/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.b_1Zj44HMxx7PKKklDe2oC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "SCOTTISH Parliament\u00a0computers have been used numerous times to\u00a0 edit MSPs\u2019 Wikipedia pages to make them more positive. They include deleting criticism of Scottish Lib Dem leader",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a0377d96-1a18-f843-65ad-adcbc4acdc69",
+                        "name": "Scotland"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Scottish Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.pEepZhHtUOU2Dr7E3jedjg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T21:28:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Tories face being reduced to 80 seats, poll of 18,000 voters suggests",
+                "url": "https://inews.co.uk/news/politics/tories-80-seats-general-election-poll-2906688",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.3OgGyuFZWEAcFuTHYkrHzC&pid=News",
+                        "width": 640,
+                        "height": 360
+                    }
+                },
+                "description": "Cabinet ministers are predicted to lose their seats in total in what would mark the worst Conservative wipeout in history",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/01d0dbad-386f-5352-a1be-80941d1ef40a",
+                        "name": "Burau representation"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e320dd44-b39b-fd9b-7883-0fe89bb44ace",
+                        "name": "Poll"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "name": "Burau representation"
+                    },
+                    {
+                        "name": "Poll"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T21:18:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Sadiq Khan to &#39;consider&#39; installing vast floor map of London at City Hall",
+                "url": "https://uk.news.yahoo.com/sadiq-khan-consider-installing-vast-211205176.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.6iL6LyhxmfMVQrtPowSmHC&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The huge aerial map was a popular feature of the old City Hall, but it was left behind when the Greater London Authority moved to the Royal Docks",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d7862dc2-4c03-1dc8-3412-7fe03041fdcb",
+                        "name": "Sadiq Khan"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/50510eea-bf22-1174-c65d-2bf8763956c9",
+                        "name": "City Hall"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8e0ba7b6-4225-fa8a-6369-1b5294e602a5",
+                        "name": "London"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T21:12:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "By-elections - LIVE: Peter Bone\u2019s girlfriend aims for Wellingborough seat as Kingswood faces axe",
+                "url": "https://www.independent.co.uk/news/uk/politics/wellingborough-kingswood-byelections-peter-bone-results-b2496002.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.DwkWekgAeFM7YUM-DJbNcy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Helen Harrison is running for the Conservative Party in Wellingborough, after her disgraced partner Peter Bone lost the seat in a recall petition having been suspended over bullying and sexual misconduct claims he denies.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/02c3f7b1-c087-9183-2212-5d30373eda3e",
+                        "name": "Peter Bone"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/79dd2f21-0dd1-9c0e-1310-9b93cd0cac67",
+                        "name": "Kingswood"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Peter Bone"
+                    },
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "Kingswood"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T19:14:00.0000000Z",
+                "video": {
+                    "name": "Kingswood and Wellingborough by-elections key statistics and benchmarks",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/bf923f45-a9f8-4de4-9729-b32ac090717e/0a3c92fa-a297-4a45-8933-cdd628b3_650.mp4",
+                    "thumbnail": {
+                        "width": 640,
+                        "height": 360
+                    }
+                },
+                "category": "Politics"
+            },
+            {
+                "name": "Retired police officer joins politics to stand in Lincoln council leader\u2019s seat",
+                "url": "https://thelincolnite.co.uk/2024/02/retired-police-officer-joins-politics-to-stands-for-lincoln-council-leaders-seat/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.I1xO0NeJ8B2zNHdzMU0BJS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "A retired Lincolnshire Police officer is vying for Ric Metcalfe\u2019s seat on City of Lincoln Council in this year\u2019s local election. In light of Councillor Metcalfe\u2019s retirement, the Labour group has confirmed Duncan Spencer as their candidate for the Glebe ward in this year\u2019s local election.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/321d3f65-5118-0a2b-0198-3cf86d40fe39",
+                        "name": "Lincoln"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ca0ec412-02d0-23a5-fcec-dba45954eb65",
+                        "name": "Police officer"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Lincolnite",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.iIo3aUWA2vO2fdTPoe_7NA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T19:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Bombshell poll shows Rishi Sunak on course to hold just 80 Tory seats",
+                "url": "https://www.independent.co.uk/news/uk/politics/rishi-sunak-general-election-starmer-poll-b2496283.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.h-E-9Cl8Qvj_BNqeNqUG2y&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Rishi Sunak is on course to lose more than three quarters of the Tories\u2019 seats, the survey of 18,000 voters suggests",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e320dd44-b39b-fd9b-7883-0fe89bb44ace",
+                        "name": "Poll"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T18:14:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Waverley Street raw sewage problem caused by &#39;wet wipes&#39;",
+                "url": "https://www.worcesternews.co.uk/news/24117267.waverley-street-raw-sewage-problem-caused-wet-wipes/",
+                "description": "We reported last week how raw sewage was pouring out of a drain in the middle of Waverley Street in Diglis last Thursday after heavy rain. Now the cause of the blockage has been revealed - wet wipes flushed down city toilets which had to be cleared by Severn Trent Water engineers.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3fcab35a-b7b8-4873-90c6-e289cd60edf4",
+                        "name": "Waverley"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/97c6e162-d84f-8889-d0fc-ae8a4c30a8db",
+                        "name": "Sewage"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b43609e1-1163-8dad-e8b0-b97580660079",
+                        "name": "Wet wipe"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Worcester News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.HYKfwXd3BiD8DUUluukExA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T17:59:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "Jon Stewart Draws <b>Liberal</b> Anger for Criticizing Biden: \u201cI\u2019ll Never Forgive You\u201d",
+                "url": "https://uk.style.yahoo.com/jon-stewart-draws-liberal-anger-173317173.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.17brc7PROkal3Q3_Pug7tC&pid=News",
+                        "width": 630,
+                        "height": 420
+                    }
+                },
+                "description": "With his very first episode back, Jon Stewart has successfully returned The Daily Show to the cultural conversation \u2014 by drawing fire from Democrats. Stewart\u2019s return to Daily Show hosting duties Monday night opened with a 20-minute monologue going after Donald Trump and Joe Biden.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/84824857-02f6-21e5-673c-f388fba25f48",
+                        "name": "Jon Stewart"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cad484f9-be75-7a78-12dd-16233f823cd7",
+                        "name": "Joe Biden"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8931119b-1bd1-bf79-96dc-1439c71418f6",
+                        "name": "Liberalism"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Style UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.R1Y_kEYTGAFzjK1_2NaYlQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T17:33:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Luke Littler &#39;looks about 35&#39; says House of Lords Peer",
+                "url": "https://www.warringtonguardian.co.uk/news/24120546.luke-littler-looks-35-says-house-lords-peer/",
+                "description": "LUKE Littler has been used as an example in the house of lords criticising the Government\u2019s approach to determining if an asylum seeker is a child",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9140e2bb-d697-44c8-ad1e-5086268e3bbe",
+                        "name": "Littler"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Warrington Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.2IDTg9whrbRDyzPbotqK2g&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T17:20:00.0000000Z",
+                "category": "ScienceAndTechnology"
+            },
+            {
+                "name": "Tories need &#39;geography lessons&#39; after Network North transport pledge includes funding for South",
+                "url": "https://www.mirror.co.uk/news/politics/tories-need-geography-lessons-after-32126088",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ni5I2TZACtJ0ZFTbFEiIgS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "An official document on the &#39;Network North&#39; scheme outlines plans for rail not only in the North and the Midlands, but also in London and in areas as far south as Devon",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/407d1e07-a234-cb55-7b40-64b6d00486f8",
+                        "name": "Network"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/22d96fa0-825f-9be8-c8ac-0b646d3fda96",
+                        "name": "Southern United States"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9e2bf053-dd80-4646-8f26-65075e7085c0",
+                        "name": "North Carolina"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Network"
+                    },
+                    {
+                        "name": "Southern United States"
+                    },
+                    {
+                        "name": "North Carolina"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T17:17:00.0000000Z"
+            },
+            {
+                "name": "General election 2024 poll tracker: How do the UK political parties compare",
+                "url": "https://www.mirror.co.uk/news/politics/general-election-2024-poll-tracker-32123308",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.XLp7vWXLCS9I9SrpRl9dnC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Britain is gearing up for a general election this year after 14 years of Tory rule. Here are the latest polls and odds on Labour, the Conservatives, Reform UK, Lib Dems and more",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e320dd44-b39b-fd9b-7883-0fe89bb44ace",
+                        "name": "Poll"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T17:16:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "OPINION - The speed with which Keir Starmer has transformed Labour is both his greatest success and clearest weakness",
+                "url": "https://uk.news.yahoo.com/opinion-speed-keir-starmer-transformed-162056538.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.I_A5NPHOP-HSsWymiBIC6y&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The three original members, Mutya Buena, Keisha Buchanan and Siobhan Donaghy each eventually left the group to be replaced in turn by a new singer, until none of the founder members remained. Much like the theoretical ship debated by ancient philosophers,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/63a6ef59-71fd-db08-08c6-d47d973d47fb",
+                        "name": "Keir Starmer"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T16:21:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Harrogate Lib Dem&#39;s plea for a return to &#39;proper community policing&#39; in response to burglary figures for North Yorks",
+                "url": "https://www.harrogateadvertiser.co.uk/news/politics/harrogate-lib-dems-plea-for-a-return-to-proper-community-policing-in-response-to-burglary-figures-for-north-yorks-4518820",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.gkMs3suPeGUeqAcfVp3Yry&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Harrogate&#39;s Lib Dem candidate for the General Election has returned to his attacks on &quot;ineffective resourcing&quot; which he says has left police forces in North Yorkshire overstretched and unable to focus on frontline crime like burglaries.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/791c03fe-0a95-5158-dbd2-e5974e759d0e",
+                        "name": "Yorkshire"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9e2bf053-dd80-4646-8f26-65075e7085c0",
+                        "name": "North Carolina"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/92584088-1657-d4e5-bef5-5722b173eb4d",
+                        "name": "Harrogate"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Harrogate Advertiser",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.aCLiUt5Yj7NJXW829lEk2Q&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T16:17:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Kingswood by-election 2024 LIVE: Voters head to the polls today after MP resigns",
+                "url": "https://www.bristolpost.co.uk/news/bristol-news/kingswood-election-2024-live-voters-9099248",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.YZCnhUMoRpdVA0nwCSVxli&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The by-election is being held on Thursday, February 15 and the result expected early in the morning of Friday, February 16",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/79dd2f21-0dd1-9c0e-1310-9b93cd0cac67",
+                        "name": "Kingswood"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Bristol Post",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Qcp_v1E0ZjlhF2TektrQhg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T16:07:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Powys Council to submit Ysgol Bro Hyddgen bid amid Cadw call",
+                "url": "https://www.countytimes.co.uk/news/24119990.powys-council-submit-ysgol-bro-hyddgen-bid-amid-cadw-call/",
+                "description": "Powys County Council says it is to submit an application for its \u00a349m Ysgol Bro Hyddgen plans despite Cadw being asked to list the building.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/31d688a4-9710-877f-85cb-9335555dc142",
+                        "name": "Powys County Council"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7ba55e0f-4cfb-6f1c-c80b-5362fb7c338a",
+                        "name": "U.S. County"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8161bf9f-b021-131d-02a1-2ccf222ca81e",
+                        "name": "Cadw"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "countytimes.co.uk",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.QuCrvjwzbhwSOWUVWHCOqw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T15:22:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Europe\u2019s new age of insecurity",
+                "url": "https://www.newstatesman.com/ns-interview/2024/02/hillbilly-energy",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.H_DGJWj0p6OfehXxa-bdty&pid=News",
+                        "width": 700,
+                        "height": 365
+                    }
+                },
+                "description": "Tipped to be Trump\u2019s running mate, JD Vance is the voice of the new American right.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1b8a19c5-d426-cdea-db05-18857d7adfd2",
+                        "name": "New Statesman"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c5c81a72-e5ba-35e0-c7b7-989168637634",
+                        "name": "Energy"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "New Statesman",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.83Sdvx0ijgf5jpBYrSS3Lg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T14:58:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Final day of campaigning in Kingswood and Wellingborough byelections \u2013 UK politics live",
+                "url": "https://www.theguardian.com/politics/live/2024/feb/14/labour-conservatives-rochdale-kingswood-wellingborough-rishi-sunak-keir-starmer-uk-politics-live?filterKeyEvents=false&page=with:block-65ccde888f084fe73a9945b1",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.eivTUYaCibrWDhEzNe5_zC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Labour seeking to take two seats from Tories on Thursday amid fraught week of candidate suspensions",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T14:43:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Lib Dem candidate selected for Frome",
+                "url": "https://www.frometimes.co.uk/2024/02/14/lib-dem-candidate-selected-for-frome/",
+                "description": "THE Liberal Democrats have selected local businesswoman and campaigner, Anna Sabine, as their election candidate for the new Frome and East Somerset constituency.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b01b7341-ec28-6a25-4c50-58462c93b9ed",
+                        "name": "Frome"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "frometimes.co.uk"
+                    }
+                ],
+                "datePublished": "2024-02-14T14:36:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Tory MP becomes 58th to quit at next election as Conservatives near 1997 record",
+                "url": "https://www.telegraph.co.uk/politics/2024/02/14/tory-mp-58th-quit-next-election-conservatives-kieran-mullan/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.2SCcEY5POcs4CI05jNDj-y&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "More Tory MPs are quitting at the next election than at any point since 1997, when 75 stood aside in advance of a contest that saw Labour win a landslide victory under Sir Tony Blair. Rishi Sunak is widely expected to trigger the next national poll in the second half of this year, meaning the threshold could well be reached in the coming months.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f264bcee-007b-aa97-2443-f535e9f34d0f",
+                        "name": "Mullan"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cb5a43b5-b015-4b99-ca20-eba070149957",
+                        "name": "2006 Crit\u00e9rium du Dauphin\u00e9 Lib\u00e9r\u00e9"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Mullan"
+                    },
+                    {
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "name": "2006 Crit\u00e9rium du Dauphin\u00e9 Lib\u00e9r\u00e9"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T13:32:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Hertfordshire County Council sets whopping \u00a31.1bn budget for 24/25 after max tax increase",
+                "url": "https://www.hemeltoday.co.uk/news/politics/council/hertfordshire-county-council-sets-whopping-ps11bn-budget-for-2425-after-max-tax-increase-4518247",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.zp8OpHpbduOVWZmKniQ_Ky&pid=News",
+                        "width": 499,
+                        "height": 332
+                    }
+                },
+                "description": "During the budget debate amendments were proposed by <b>Liberal</b> <b>Democrat</b> and Labour councillors \u2013 but none were backed by the council\u2019s Conservative majority. The <b>Liberal Democrats</b> proposed that an extra \u00a31m be invested in the SEND team and the proposed ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/331ea9d1-91d0-509c-e43e-c9e123b51f31",
+                        "name": "Hertfordshire County Council"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Hemel Hempstead Gazette"
+                    }
+                ],
+                "datePublished": "2024-02-14T13:02:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Wellingborough by-election: The seat poised to present Sunak with first electoral headache of 2024",
+                "url": "https://www.itv.com/news/anglia/2024-02-14/knife-edge-by-election-gives-sunak-first-electoral-headache-of-2024",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.lu1uLpoDbryRBpNQTW5fay&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The by-election in Wellingborough in Northamptonshire was triggered after the constituency&#39;s previous MP was removed by a recall petition. | ITV News Anglia",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "ITV",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.HlKTyCgM99pRvmITMdZC2w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T12:41:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "How you will be allowed larger extensions to the rear, side or loft of your home WITHOUT planning permission under Michael Gove&#39;s changes - but there&#39;s warnings it will pit ...",
+                "url": "https://www.dailymail.co.uk/news/article-13082595/How-allowed-larger-extensions-rear-loft-home-WITHOUT-planning-permission-Michael-Goves-changes-theres-warnings-pit-neighbour-against-neighbour-civil-war-Britains-streets.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.jj5fUzS9TYyHB-japAgKtC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Michael Gove , the Levelling Up, Housing and Communities Secretary, wants homeowners in England to have greater rights to expand their properties.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c12951d9-25c7-062e-3e0c-288ac8a6d91e",
+                        "name": "Michael Gove"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4264d1f3-385c-a352-a51c-c77ac3219b6f",
+                        "name": "Rear"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T12:29:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Tribute to long serving New Mills councillor following his unexpected death",
+                "url": "https://www.buxtonadvertiser.co.uk/news/people/tribute-to-long-serving-new-mills-councillor-following-his-unexpected-death-4518079",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.sK9irxp-LwDuN459fa7Q3i&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The family and friends of a long serving New Mills councillor have expressed their shock following his sudden death.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/47c49855-f59e-1593-1dd0-d96ff509cfe5",
+                        "name": "Tribute"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Buxton Advertiser",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.OjIxlkX_3wrdwYrW7tbLsg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T12:01:00.0000000Z"
+            },
+            {
+                "name": "Electorate set to vote in by-election for new Staveley Town Councillor for Duckmanton",
+                "url": "https://www.derbyshiretimes.co.uk/news/people/electorate-set-to-vote-in-by-election-for-new-staveley-town-councillor-for-duckmanton-4517981",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.vpf1aGNQ9HurqlGz9mXUGy&pid=News",
+                        "width": 640,
+                        "height": 427
+                    }
+                },
+                "description": "Voters are being given a chance to influence recovering Derbyshire-based Staveley Town Council\u2019s finely-balanced political make-up as it holds a by-election for its vacant Duckmanton Ward seat.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f3db68d0-0af4-348d-4d8c-17f0e186201a",
+                        "name": "Duckmanton"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8f25e77-4e2b-25be-922e-10a49e22ec72",
+                        "name": "Staveley Town railway station"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5e83019e-d5ad-de66-bfc7-9f24e0932322",
+                        "name": "By-election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Derbyshire Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Uh95g7sn-68FOaL2i3KYBA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T11:31:00.0000000Z"
+            },
+            {
+                "name": "Extra money for Powys schools as Welsh Government cash drops",
+                "url": "https://www.abergavennychronicle.com/news/extra-money-for-powys-schools-as-welsh-government-cash-drops-665944",
+                "description": "AN extra \u00a3570,000 is expected to be ploughed into Powys schools as more funding from Welsh Government is set to be given to local authorities.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5d9c5f00-6996-2dfd-d223-c8de2ee5eca5",
+                        "name": "Powys"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4bcd62ae-bb87-198a-c0e4-5c71d4cc223c",
+                        "name": "Welsh Government"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Abergavenny Chronicle",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Xya1H8dJYzROugT7EwJskA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T10:58:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Teeth pulled out with pliers as shortage of dentists leads to desperate action",
+                "url": "https://www.express.co.uk/news/uk/1866601/diy-dentistry-nhs-crisis",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Y78CjH9j9Y3slR9rKaR-9y&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Millions of people feel they have no choice but to resort to carrying out urgent treatment themselves due to a lack of NHS dentists.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a77fc12b-772e-4804-268d-9febd6126ab3",
+                        "name": "Daily Express"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Daily Express"
+                    },
+                    {
+                        "name": "Economic shortage"
+                    },
+                    {
+                        "name": "NHS dentistry"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T10:51:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "Kingswood and Wellingborough by-elections: Key statistics and benchmarks",
+                "url": "https://www.standard.co.uk/news/politics/labour-conservatives-wellingborough-kingswood-government-b1139016.html",
+                "description": "There are six candidates standing in the by-election: Sam Bromiley (Conservative), Andrew Brown (Liberal Democrat), Damien Egan (Labour), Lorraine Francis (Green), Rupert Lowe (Reform) and Nicholas Wood (Ukip).",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/79dd2f21-0dd1-9c0e-1310-9b93cd0cac67",
+                        "name": "Kingswood"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/73388964-99e9-bfa8-c8a4-0331f036fdb6",
+                        "name": "Wellingborough"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Kingswood"
+                    },
+                    {
+                        "name": "Wellingborough"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T10:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Party awards \u2013 get your nominations in by 27 February",
+                "url": "https://www.libdemvoice.org/party-awards-get-your-nominations-in-by-27-february-74651.html",
+                "description": "Every Conference, the Liberal Democrats honour individuals who have served the party well with our party awards. In York, the following awards will be presented: The Leader\u2019s Award Eligibility: Any member of the party.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2de09184-dd27-10bc-742a-8f07dd388198",
+                        "name": "Nomination"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Liberal Democrat Voice",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6htcbn_wp6HslO1MiivrIA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T09:57:00.0000000Z"
+            },
+            {
+                "name": "Ridiculing Trump doesn\u2019t hurt him \u2013 <b>liberal</b> media does not understand that",
+                "url": "https://inews.co.uk/news/world/liberal-media-trump-ridicule-satire-2904068?ico=in-line_link",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.7DSiCVkPDB2fsYV4WuTDfy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "In a year\u2019s time, Nato could be in tatters and a gung-ho Russian dictator could be considering plans to &#39;de-Nazify\u2019 Baltic nations",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T09:19:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Extra \u00a3570k drops into Powys schools\u2019 coffers",
+                "url": "https://www.mywelshpool.co.uk/viewerheadline/ArticleId/25402",
+                "description": "At a meeting of Powys County Council\u2019s <b>Liberal</b> <b>Democrat</b>/Labour Cabinet yesterday (Tuesday), senior councillors took another look at their draft budget for 2024/2025. This included a budget amendment after deciding what to do with the extra money from the ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5d9c5f00-6996-2dfd-d223-c8de2ee5eca5",
+                        "name": "Powys"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "mywelshpool"
+                    }
+                ],
+                "datePublished": "2024-02-14T08:26:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Europe\u2019s Iron Lady: Estonian prime minister Kaja Kallas",
+                "url": "https://www.newstatesman.com/world/americas/north-america/us/2024/02/hillbilly-energy",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.H_DGJWj0p6OfehXxa-bdty&pid=News",
+                        "width": 700,
+                        "height": 365
+                    }
+                },
+                "description": "Tipped to be Trump\u2019s running mate, JD Vance is the voice of the new American right",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1b8a19c5-d426-cdea-db05-18857d7adfd2",
+                        "name": "New Statesman"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ddb7c000-f710-87a0-dfc6-763c39ac30ee",
+                        "name": "World"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "New Statesman",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.83Sdvx0ijgf5jpBYrSS3Lg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T08:16:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Extra \u00a3570k for Powys schools in next year&#39;s budget",
+                "url": "https://www.shropshirestar.com/news/education/2024/02/14/extra-570k-for-powys-schools-in-next-years-budget/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.xIr_OSaB8wsRdKHFtEmphS&pid=News",
+                        "width": 700,
+                        "height": 525
+                    }
+                },
+                "description": "An extra \u00a3570,000 is expected to be ploughed into Powys schools as more funding from Welsh Government is set to be given to local authorities.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5d9c5f00-6996-2dfd-d223-c8de2ee5eca5",
+                        "name": "Powys"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Shropshire Star",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.z7PYjCdp4xvIwys_5w9_gA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-14T06:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Democrats</b> win another special election, and 4 more takeaways from New York&#39;s House race",
+                "url": "https://uk.movies.yahoo.com/democrats-win-another-special-election-053600391.html",
+                "description": "Suozzi came out in strong support of Israel&#39;s response, which has drawn pushback from Biden as &quot;over the top,&quot; saying he didn&#39;t support conditions on aid to Israel, a key demand of many of Biden&#39;s more <b>liberal</b> detractors. <b>Democrats</b> in New York were dogged ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/022d3e13-c9e7-91f5-ce61-8a3d48d58fc6",
+                        "name": "Democratic Party"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5e83019e-d5ad-de66-bfc7-9f24e0932322",
+                        "name": "By-election"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/caeb7b9a-f5d7-4686-8fb5-cf7628296b13",
+                        "name": "New York"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo Movies UK"
+                    }
+                ],
+                "datePublished": "2024-02-14T00:36:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Maximum council tax increase for people across Cambridgeshire as promise made to spend more on roads",
+                "url": "https://www.cambridge-news.co.uk/news/cambridge-news/maximum-council-tax-increase-people-28629335",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.HcOAahyYEEXGO5WTfKojGi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The leader of the county council, Councillor Lucy Nethsingha (<b>Liberal</b> <b>Democrat</b>), said the investments proposed for the coming year will \u201cmake a difference for families in Cambridgeshire \u201d. At a full council meeting this week (February 13) the authority ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/bc02c14b-0035-fc4c-411f-168edbf62536",
+                        "name": "Cambridgeshire"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/37cac01d-8176-543b-ba7c-e99687b0a3ac",
+                        "name": "Council Tax"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Cambridgeshire"
+                    },
+                    {
+                        "name": "Council Tax"
+                    },
+                    {
+                        "name": "Haunted highway"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Cambridge News"
+                    }
+                ],
+                "datePublished": "2024-02-14T00:00:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    }
+]
