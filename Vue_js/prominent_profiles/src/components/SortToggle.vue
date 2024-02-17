@@ -4,18 +4,18 @@
     <label class="radio-label" @click="selectSortType('sentiment')">
       <input type="radio" v-model="sortType" value="sentiment" class="radio-input" />
       <div :class="{ selected: sortType === 'sentiment' }">
-        <font-awesome-icon :icon="['fas', 'percent']" style="color: #755BB4;"/>
+        <font-awesome-icon :icon="['fas', 'percent']" style="color: #755BB4; margin-top: 10px"/>
       </div>
     </label>
     <label class="radio-label" @click="selectSortType('date')">
       <input type="radio" v-model="sortType" value="date" class="radio-input" />
       <div :class="{ selected: sortType === 'date' }">
-         <font-awesome-icon :icon="['fas', 'clock']" style="color: #755BB4;" />
+         <font-awesome-icon :icon="['fas', 'clock']" style="color: #755BB4; margin-top: 10px" />
       </div>
     </label>
     <!-- Ordering Toggle -->
     <div class="radio-label" @click="toggleSortDirection" :key="sortDirectionKey">
-      <font-awesome-icon :icon="sortDirectionIcon" style="color: #755BB4;" />
+      <font-awesome-icon :icon="sortDirectionIcon" style="color: #755BB4; margin-top: 10px" />
     </div>
     <div class="advanced-container">
     <font-awesome-icon
@@ -32,7 +32,7 @@
       @click="rangeSetCheck"/>
   </div>
   <div>
-    <button @click="resetToggles" class="reset-button">Reset</button>
+    <button @click="resetToggles" class="reset-button"><b>Reset</b></button>
   </div>
 </template>
 
@@ -210,6 +210,7 @@ export default {
   padding-left: 10px;
   padding-right: 10px;
   margin-bottom: 10px;
+  margin-top: 10px;
   background-color: #755BB4;
   border-radius: 5px;
 }

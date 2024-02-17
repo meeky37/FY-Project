@@ -6,7 +6,7 @@
       <p class="box-icon">
             <font-awesome-icon :icon="['fas', 'circle-chevron-up']" class="positive" />
           </p>
-      <transition-group name="reel" tag="div">
+      <transition-group name="reel" tag="div" class="transition-container">
         <p v-if="positiveArticle.length > 0" :key="currentPositiveIndex"
            v-html="truncateString(removeBoldTags(positiveArticle[currentPositiveIndex].headline))"
            @click="viewArticleDetail(positiveArticle[currentPositiveIndex].id)"
@@ -33,7 +33,7 @@
       <p class="box-icon">
       <font-awesome-icon :icon="['fas', 'circle-chevron-down']" class="negative" />
     </p>
-      <transition-group name="reel" tag="div">
+      <transition-group name="reel" tag="div" class="transition-container">
         <p v-if="negativeArticle.length > 0" :key="currentNegativeIndex"
            v-html="truncateString(removeBoldTags(negativeArticle[currentNegativeIndex].headline))"
            @click="viewArticleDetail(negativeArticle[currentNegativeIndex].id)"
@@ -80,6 +80,12 @@ export default {
     this.fetchMiniBingEntity()
     this.fetchData()
     this.animateBoxes()
+  },
+
+  beforeUnmount () {
+    if (this.intervalId) {
+      clearInterval(this.intervalId)
+    }
   },
 
   methods: {
@@ -139,7 +145,7 @@ export default {
       return htmlString.replace(/<b>/g, '').replace(/<\/b>/g, '')
     },
 
-    truncateString (str, maxLength = 65) {
+    truncateString (str, maxLength = 85) {
       if (str.length > maxLength) {
         return str.substring(0, maxLength) + '...'
       }
@@ -249,7 +255,7 @@ export default {
     margin: 15px ;
     border: 1px solid #ddd;
     border-radius: 8px;
-    height: 520px;
+    height: 570px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -264,20 +270,59 @@ export default {
     //border: 1px solid #ddd;
     //border-radius: 8px;
     text-align: center;
-    margin-top: 0%;
+    margin-top: 10px;
+    margin-bottom: 20px;
   }
 
-  .reel-enter-active {
-    transition-delay: 0.5s;
+  .transition-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  min-height: 300px;
+}
+
+  /* Initial state for entering headlines */
+  .reel-enter-from {
+    opacity: 0;
+    transform: translateX(+100%);
+  }
+
+  /* Target state for entering headlines */
+  .reel-enter-to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  /* Initial state for leaving headlines */
+  .reel-leave-from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  /* Target state for leaving headlines */
+  .reel-leave-to {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+
+  /* Active state for both entering and leaving */
+  .reel-enter-active, .reel-leave-active {
+    position: absolute;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    margin-bottom: 10px;
   }
 
     .positive {
   color: mediumseagreen;
   font-size: 2em;
+  margin-bottom: -20px;
   }
   .negative {
   color: indianred;
   font-size: 2em;
+  margin-top: -20px;
+  margin-bottom: -20px;
   }
   .neutral {
   color: deepskyblue;
@@ -288,11 +333,15 @@ export default {
   border: 4px solid #755BB4;
   border-radius: 8px;
   overflow: visible;
+  margin-bottom: -30px; /* Spacing closer for mobile use to reduce scroll efforts */
+  margin-top: -30px;
   }
 
   .entity-photo {
   position: relative;
   cursor: pointer;
+  width: 100%;
+  height: 100%;
   }
 
   .entity-photo img {
@@ -304,7 +353,7 @@ export default {
   }
 
   .entity-name {
-    margin-bottom: 0px;
+    margin-bottom: -20px;
     cursor: pointer;
   }
 
