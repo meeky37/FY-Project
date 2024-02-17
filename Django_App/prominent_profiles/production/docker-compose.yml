@@ -42,7 +42,7 @@ services:
       - "443:443"
     depends_on:
       - web
-      - vuejs
+#      - vuejs
 
   certbot:
     image: certbot/certbot
