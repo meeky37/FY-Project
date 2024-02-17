@@ -24,8 +24,8 @@ services:
 
   nginx:
     build:
-      context: ./Django_App/prominent_profiles/nginx
-      dockerfile: Dockerfile.nginx
+      context: ./
+      dockerfile: Django_App/prominent_profiles/nginx/Dockerfile.nginx
     image: ghcr.io/meeky37/fy-project/nginx:latest
     volumes:
 #      - ./Django_App/prominent_profiles #Remove later and see if actually required.

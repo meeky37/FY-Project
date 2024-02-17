@@ -1,14 +1,18 @@
 # Vue JS build
 FROM node:lts-alpine as build-stage
 WORKDIR /app
-COPY ./Vue_js/prominent_profiles/package*.json ./
+COPY Vue_js/prominent_profiles/package*.json ./
 RUN npm ci --force
-COPY ./Vue_js/prominent_profiles/ .
+COPY Vue_js/prominent_profiles/ .
 RUN npm run build
 
 # Nginx, with Vue JS stuff
 FROM nginx:stable-alpine as production-stage
 COPY --from=build-stage /app/dist /usr/share/nginx/html
-COPY ./nginx.conf /etc/nginx/nginx.conf
+COPY Django_App/prominent_profiles/nginx/nginx.conf /etc/nginx/nginx.conf
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"];
+
+
+
+
