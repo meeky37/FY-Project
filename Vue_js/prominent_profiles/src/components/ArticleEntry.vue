@@ -11,7 +11,7 @@
           <a :href="entry.url" target="_blank" rel="noopener noreferrer" class="external-link">
             <font-awesome-icon :icon="['fas', 'external-link-alt']" />
           </a>
-          <div class="button-container" @click="viewArticleDetail">
+          <div class="button-container" @click="viewArticleDetailArticleEntry">
           <font-awesome-icon :icon="['fas', 'magnifying-glass-chart']" style="color: #755BB4;"/>
           </div>
         </div>
@@ -35,6 +35,7 @@
 import { computed } from 'vue'
 import { format } from 'date-fns'
 import { useRouter, useRoute } from 'vue-router'
+import { getSubsection } from '../shared_methods/common_requests.js'
 
 export default {
   props: {
@@ -58,14 +59,7 @@ export default {
       return !isNaN(numericWidth) && numericWidth >= minWidthToShowText
     }
 
-    const getSubsection = (url) => {
-      const match = url.match(/^(https?:\/\/)?(?:www\.)?([^/]+)/)
-      const subsection = match ? match[2] : ''
-      const maxChars = 15
-      return subsection.length > maxChars ? subsection.substring(0, maxChars) + '...' : subsection
-    }
-
-    const viewArticleDetail = () => {
+    const viewArticleDetailArticleEntry = () => {
       const articleId = props.entry.id
       console.log(props.entry)
       const entityId = route.params.id
@@ -91,7 +85,7 @@ export default {
       formatPublicationDate,
       isWidthSufficient,
       getSubsection,
-      viewArticleDetail,
+      viewArticleDetailArticleEntry,
       positiveWidth,
       neutralWidth,
       negativeWidth

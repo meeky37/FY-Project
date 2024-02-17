@@ -6,16 +6,25 @@ export const fetchMiniBingEntity = async function () {
 
   try {
     const response = await fetch(apiUrl)
-    const data = await response.json()
-
-    if (data && Object.keys(data).length > 0) {
-      this.bingEntity = data
-    } else {
+    // Handle 204 No Content specifically
+    if (response.status === 204) {
       await this.fetchEntityName(id)
+      return
+    }
+
+    if (response.ok) {
+      const data = await response.json()
+
+      if (data && Object.keys(data).length > 0) {
+        this.bingEntity = data
+      } else {
+        await this.fetchEntityName(id)
+      }
+    } else {
+      throw new Error('Failed to fetch Bing entity data')
     }
   } catch (error) {
     console.error('Error fetching BingEntity:', error)
-    // Bing data may not be available, e.g., app_visible is false in the database or Bing API job not run yet.
     await this.fetchEntityName(id)
   }
 }
@@ -92,4 +101,11 @@ export const viewArticleDetail = function (articleID) {
   const articleId = articleID
   const entityId = this.entry.entity_id
   this.$router.push({ name: 'entryId', params: { entityId, articleId } })
+}
+
+export const getSubsection = (url) => {
+  const match = url.match(/^(https?:\/\/)?(?:www\.)?([^/]+)/)
+  const subsection = match ? match[2] : ''
+  const maxChars = 15
+  return subsection.length > maxChars ? `${subsection.substring(0, maxChars)}...` : subsection
 }

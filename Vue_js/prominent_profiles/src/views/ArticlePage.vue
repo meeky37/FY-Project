@@ -24,7 +24,6 @@
           </a>
 
         </h2>
-
       </div>
 
       <!-- Box for Entity Spotlight -->
@@ -49,6 +48,7 @@ import EntitySpotlight from '@/components/EntitySpotlight.vue'
 import { API_BASE_URL } from '@/config.js'
 import ArticleOtherEntities from '@/components/ArticleOtherEntities.vue'
 import { format } from 'date-fns'
+import { getSubsection } from '../shared_methods/common_requests.js'
 export default {
   name: 'ArticlePage',
 
@@ -78,6 +78,10 @@ export default {
         cutout: '50%'
       }
     }
+  },
+
+  setup () {
+    return { getSubsection }
   },
 
   watch: {
@@ -127,13 +131,13 @@ export default {
       this.re_render = value
     },
 
-    getSubsection (url) {
-      // Extract the subsection before the top-level domain
-      const match = url.match(/^(https?:\/\/)?(?:www\.)?([^/]+)/)
-      const subsection = match ? match[2] : ''
-      const maxChars = 15
-      return subsection.length > maxChars ? subsection.substring(0, maxChars) + '...' : subsection
-    },
+    // getSubsection (url) {
+    //   // Extract the subsection before the top-level domain
+    //   const match = url.match(/^(https?:\/\/)?(?:www\.)?([^/]+)/)
+    //   const subsection = match ? match[2] : ''
+    //   const maxChars = 15
+    //   return subsection.length > maxChars ? subsection.substring(0, maxChars) + '...' : subsection
+    // },
 
     fetchArticleSentiments () {
       // Use the entity ID from the route parameters
