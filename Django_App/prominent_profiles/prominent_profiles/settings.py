@@ -98,6 +98,8 @@ CORS_ALLOWED_ORIGINS = [
     "https://157.245.46.42",
     "http://www.prominentprofiles.com",
     "https://www.prominentprofiles.com",
+    "http://prominentprofiles.com",
+    "https://prominentprofiles.com",
 ]
 
 CORS_ALLOW_HEADERS = [
