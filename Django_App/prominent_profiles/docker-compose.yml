@@ -22,6 +22,15 @@ services:
       - RUNNING_IN_DOCKER=${RUNNING_IN_DOCKER}
       - SECRET_KEY=${SECRET_KEY}
 
+  vuejs:
+    build:
+      context: ../Vue_js/prominent_profiles
+    image: ghcr.io/meeky37/fy-project/vuejs:latest
+    ports:
+      - "8080:80" # Expose Vue.js app on port 8080 on the host (was at 8080 when local).
+    depends_on:
+      - web
+
   nginx:
     build:
       context: ./nginx
@@ -33,8 +42,10 @@ services:
       - media_volume:/usr/share/nginx/html/media
     ports:
       - "80:80"
+      - "443:443"
     depends_on:
       - web
+      - vuejs
 
 volumes:
   postgres_data:
