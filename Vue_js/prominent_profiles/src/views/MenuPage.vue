@@ -1,9 +1,12 @@
 <template>
   <div class="menu-container">
-    <router-link to="/about" class="menu-item">About</router-link>
-    <router-link v-if="!authenticated" to="/login" class="menu-item" @click.prevent="logonRedirect">Login</router-link>
-    <router-link v-if="authenticated" to="/dashboard" class="menu-item">Your Dashboard</router-link>
-    <button v-if="authenticated" @click="logout" class="menu-item logout-button">Logout</button>
+    <router-link to="/about" class="menu-item"><b>About</b></router-link>
+    <router-link v-if="!authenticated" to="/login" class="menu-item"
+                 @click.prevent="logonRedirect"><b>Login</b></router-link>
+    <router-link v-if="authenticated" to="/dashboard"
+                 class="menu-item"><b>Your Dashboard</b></router-link>
+    <button v-if="authenticated" @click="logout" class="menu-item logout-button"><b>Logout</b>
+    </button>
   </div>
 </template>
 

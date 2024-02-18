@@ -21,7 +21,9 @@
         <router-link v-if="authenticated" :to="''" class="nav-link"  @click="logout"> Logout
         </router-link>
       </nav>
-      <router-link v-if="showMenuIcon" :to="{ name: 'menu' }" class="menu-link">Menu</router-link>
+      <router-link v-if="showMenuIcon" :to="{ name: 'menu' }" class="menu-link">
+        <font-awesome-icon :icon="['fas', 'bars']" />
+      </router-link>
 <!--      <img src="@/assets/hamburger-menu-icon.png" alt="Menu" class="menu-icon" />-->
     </header>
 
@@ -63,7 +65,7 @@ export default {
       window.removeEventListener('resize', handleResize)
     })
 
-    const showMenuIcon = computed(() => windowWidth.value <= 950)
+    const showMenuIcon = computed(() => windowWidth.value <= 1120)
     const showLogoOnly = computed(() => windowWidth.value <= 950)
 
     return {
@@ -140,9 +142,9 @@ nav {
 }
 
 .menu-link {
-  margin-right: 60px;
+  margin-right: 20px;
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   color: ghostwhite;
   text-decoration: none;
   transition: color 0.3s ease;

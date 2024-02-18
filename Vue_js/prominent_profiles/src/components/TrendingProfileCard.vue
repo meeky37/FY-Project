@@ -145,7 +145,7 @@ export default {
       return htmlString.replace(/<b>/g, '').replace(/<\/b>/g, '')
     },
 
-    truncateString (str, maxLength = 85) {
+    truncateString (str, maxLength = 95) {
       if (str.length > maxLength) {
         return str.substring(0, maxLength) + '...'
       }
@@ -334,7 +334,7 @@ export default {
   border-radius: 8px;
   overflow: visible;
   margin-bottom: -30px; /* Spacing closer for mobile use to reduce scroll efforts */
-  margin-top: -30px;
+  margin-top: -25px;
   }
 
   .entity-photo {

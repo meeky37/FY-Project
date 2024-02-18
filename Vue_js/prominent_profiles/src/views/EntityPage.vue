@@ -247,6 +247,19 @@ export default {
   align-items: center;
 }
 
+@media (max-width: 700px) {
+  .content-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .entity-photo, .description-box {
+    /* Can return to tweak if looks bad on iPhone */
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+}
+
 .entity-photo {
   margin-left: 30px;
   max-width: 300px;
@@ -257,10 +270,11 @@ export default {
   background-color: #f4f4f4;
   border-radius: 8px;
   padding: 20px;
+  padding-bottom: 35px; /* Wikipedia and Date was sometimes overlapping fixed here */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin: 0px 30px 0px 30px;
   position: relative;
-  min-width: 75vw;
+  max-width: 75vw;
 }
 .description-box p {
   font-size: medium;
@@ -302,10 +316,12 @@ export default {
 }
 
 .attribution-link{
+  display: block;
   font-size: small;
   color: purple;
   text-decoration: underline;
   cursor: pointer;
+  margin-bottom: 10px;
 }
 
 .attribution-link:hover {

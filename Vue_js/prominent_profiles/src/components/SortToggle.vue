@@ -32,7 +32,8 @@
       @click="rangeSetCheck"/>
   </div>
   <div>
-    <button @click="resetToggles" class="reset-button"><b>Reset</b></button>
+    <button @click="resetToggles" class="quick-button"><b>Reset</b></button>
+    <button @click="last7Days" class="quick-button"><b>Recent</b></button>
   </div>
 </template>
 
@@ -100,15 +101,18 @@ export default {
       this.sortType = type
       this.$emit('updateSortType', this.sortType, this.isAscending)
     },
+
     toggleSortDirection () {
       this.isAscending = !this.isAscending
       this.sortDirectionKey += 1
       // console.log('icon should change')
       this.$emit('updateSortType', this.sortType, this.isAscending)
     },
+
     toggleDatePicker () {
       this.isDatePickerVisible = !this.isDatePickerVisible
     },
+
     rangeSetCheck () {
       if (this.dateRange && this.previousDateRange !== this.dateRange &&
         this.dateRange.start !== null &&
@@ -119,6 +123,7 @@ export default {
         this.isDatePickerVisible = !this.isDatePickerVisible
       }
     },
+
     resetToggles () {
       this.sortType = 'sentiment'
       this.isAscending = true
@@ -129,6 +134,17 @@ export default {
       this.$emit('updateSortType', this.sortType, this.isAscending)
       this.$emit('updateDateFilter', this.dateRange)
     },
+
+    last7Days () {
+      const currentDate = new Date()
+      this.dateRange = {
+        start: new Date(currentDate.getFullYear(), currentDate.getMonth(),
+          currentDate.getDate() - 7),
+        end: currentDate
+      }
+      this.$emit('updateDateFilter', this.dateRange)
+    },
+
     setDateRangeFromURL () {
       const urlParams = new URLSearchParams(window.location.search)
       const lastVisit = urlParams.get('last_visit')
@@ -201,14 +217,14 @@ export default {
   max-height: 1px;
 }
 
-.reset-button{
+.quick-button{
   background-color: #755BB4;
   color: white;
   cursor: pointer;
   font-size: 16px;
   height: 35px;
-  padding-left: 10px;
-  padding-right: 10px;
+  margin-left: 28px;
+  margin-right: 20px;
   margin-bottom: 10px;
   margin-top: 10px;
   background-color: #755BB4;

@@ -119,6 +119,7 @@ export default {
   text-align: left;
   font-weight: bold;
   text-decoration: none;
+  color: #755BB4;
 }
 
 .button-container {

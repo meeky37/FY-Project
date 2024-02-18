@@ -232,7 +232,7 @@ export default {
   overflow-x: hidden;
   margin-left: 10px;
   margin-top: 10px;
-  margin-right: 25px;
+  margin-right: 25px; /* Stops scroll bar hanging out of container on right side */
   margin-bottom: 1px;
   flex-wrap: wrap;
   min-height: 70vh;
@@ -295,7 +295,7 @@ export default {
   font-size: 2em;
 }
 
-@media screen and (max-width: 1450px) {
+@media screen and (max-width: 1370px) {
   .sentiment-columns-container {
     display: block; /* Changing to a different layout for small screens/mobile? */
   }
