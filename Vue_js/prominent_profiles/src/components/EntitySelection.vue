@@ -119,7 +119,15 @@ export default {
   text-align: left;
   font-weight: bold;
   text-decoration: none;
-  color: #755BB4;
+  background-color: #755BB4;
+  color: white;
+  border-radius: 5px;
+}
+
+.dropdown:hover{
+  outline: 2px solid #fff;
+  outline-offset: 3px;
+  cursor: pointer;
 }
 
 .button-container {
