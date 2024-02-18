@@ -27,9 +27,8 @@ library.add(faCheck)
 library.add(faBars)
 
 const app = createApp(App).use(router)
-
-app.mount('#app')
 app.use(setupCalendar, {})
 app.component('font-awesome-icon', FontAwesomeIcon)
 app.component('VCalendar', Calendar)
 app.component('VDatePicker', DatePicker)
+app.mount('#app')

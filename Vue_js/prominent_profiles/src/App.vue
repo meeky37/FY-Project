@@ -57,7 +57,6 @@ export default {
 
     onMounted(() => {
       window.addEventListener('resize', handleResize)
-      handleResize()
       checkAuthentication()
     })
 
@@ -151,9 +150,3 @@ nav {
   border-radius: 5px;
 }
 </style>
-
-<!--TBC if I replace with icon over "menu"-->
-<!--.menu-icon {-->
-<!--  width: 24px;-->
-<!--  height: 24px;-->
-<!--}-->
