@@ -245,6 +245,8 @@ export default {
 .content-container {
   display: flex;
   align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 @media (max-width: 700px) {
@@ -261,7 +263,6 @@ export default {
 }
 
 .entity-photo {
-  margin-left: 30px;
   max-width: 300px;
   max-height: 300px;
 }
@@ -274,7 +275,6 @@ export default {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin: 0px 30px 0px 30px;
   position: relative;
-  max-width: 75vw;
 }
 .description-box p {
   font-size: medium;
