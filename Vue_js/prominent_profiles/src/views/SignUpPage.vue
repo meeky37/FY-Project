@@ -32,47 +32,9 @@
              ref="emailInput"
              v-model="email"
              class="input-field"
-             @keyup.enter="focusPhoneInput"/>
+             @keyup.enter="focusLocationInput"/>
       <p v-if="validationMessageEmail" class="validation-message">{{ validationMessageEmail }}</p>
     </div>
-
-    <div class="form-group">
-      <label for="phone" class="label">Mobile Number:</label>
-      <input type="text"
-             id="phone"
-             ref="phoneInput"
-             v-model="phone"
-             class="input-field"
-             @keyup.enter="focusDOBInput"/>
-      <p v-if="validationMessagePhone" class="validation-message">{{ validationMessagePhone }}</p>
-    </div>
-
-    <div class="form-group">
-    <label for="dob" class="label">Date of Birth:</label>
-    <VDatePicker v-model="dateOfBirth"
-                 :color="selectedColor"
-                 :disabled-dates="disabledDates"
-                  id="dob"/>
-  </div>
-
-</div>
-
-<!--     <div class="form-group">-->
-<!--    <label for="location" class="label">Location:</label>-->
-<!--    <input type="text"-->
-<!--           id="location"-->
-<!--           ref="locationInput"-->
-<!--           v-model="location"-->
-<!--           class="input-field"-->
-<!--           @input="filterLocations"-->
-<!--           @keyup.enter="focusFirstNameInput"/>-->
-<!--    <ul v-if="filteredLocations.length > 0" class="suggestion-list">-->
-<!--      <li v-for="suggest in filteredLocations" :key="suggest" @click="selectLocation(suggest)">-->
-<!--        {{ suggest }}-->
-<!--      </li>-->
-<!--    </ul>-->
-<!--    <p v-if="validationMessageLocation" class="validation-message">{{ validationMessageLocation }}</p>-->
-<!--  </div>-->
 
     <div class="form-group">
       <label for="location" class="label">Location:</label>
@@ -84,6 +46,29 @@
       </select>
       <p v-if="validationMessageLocation" class="validation-message">{{ validationMessageLocation }}</p>
     </div>
+
+    <div class="form-group" v-if="location === 'United Kingdom'">
+      <label for="phone" class="label">Mobile Number:</label>
+      <input type="text"
+         id="phone"
+         ref="phoneInput"
+         :value="formattedPhone"
+         @input="updatePhone($event)"
+         class="input-field"
+         :disabled="location !== 'United Kingdom'"
+         placeholder="Mobile number"
+        @keyup.enter="focusDOBInput"/>
+      <p v-if="validationMessagePhone" class="validation-message">{{ validationMessagePhone }}</p>
+    </div>
+
+    <div class="form-group">
+    <label for="dob" class="label">Date of Birth:</label>
+    <VDatePicker v-model="dateOfBirth"
+                 :color="selectedColor"
+                 :disabled-dates="disabledDates"
+                  id="dob"/>
+  </div>
+</div>
 
     <div class="form-group">
       <label for="password" class="label">Password:</label>
@@ -281,7 +266,7 @@ export default {
       clearTimeout(validationTimerPhone)
 
       validationTimerPhone = setTimeout(() => {
-        if (phone.value !== '') {
+        if (phone.value !== '+44') {
           // const isPhoneNumber = /^\+?\d{7,16}$/.test(phone.value)
           const isPhoneNumber = validator.isMobilePhone(phone.value)
           // TODO: Could bind the options of validator to location selection. e.g. if UK is selected ensure number is GB.
@@ -375,8 +360,29 @@ export default {
       return countriesCopy
     })
 
+    // Force +44 onto mobile number.
+    const formattedPhone = computed(() => {
+      if (!phone.value.startsWith('+44')) {
+        return '+44' + phone.value
+      }
+      return phone.value
+    })
+    const updatePhone = (event) => {
+      const inputVal = event.target.value
+      if (!inputVal.startsWith('+44')) {
+        phone.value = '+44' + inputVal.replace(/^\+44/, '') // Ensure +44 is not duplicated
+      } else {
+        phone.value = inputVal
+      }
+    }
+
     // Watch for changes in input fields and trigger validation
     watch(email, validateEmail)
+    watch(location, (newVal) => {
+      if (newVal === 'United Kingdom' && !phone.value.startsWith('+44')) {
+        phone.value = '+44' + phone.value
+      }
+    })
     watch(phone, validatePhone)
     watch(firstName, validateFirstName)
     watch(lastName, validateLastName)
@@ -393,9 +399,6 @@ export default {
       location,
       sortedCountries,
       disabledDates,
-      // filteredLocations,
-      // filterLocations,
-      // selectLocation,
       password,
       confirmPassword,
       validationMessageFirstName,
@@ -413,7 +416,9 @@ export default {
       focusLastNameInput,
       focusPasswordInput,
       focusConfirmPasswordInput,
-      register
+      register,
+      formattedPhone,
+      updatePhone
     }
   }
 }
@@ -455,10 +460,7 @@ export default {
   padding-right: 10px;
   background-color: #755BB4;
   border-radius: 5px;
-  margin-top: 10px;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 20px;
+  margin: 10px 20px 20px;
   background-color: rgba(117, 91, 180, 0.65);
   font-weight: bold;
   font-size: 1.2rem;

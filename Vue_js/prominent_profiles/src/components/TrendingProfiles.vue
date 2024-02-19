@@ -72,7 +72,6 @@ onMounted(() => {
     border: 1px solid #ddd;
     border-radius: 8px;
     min-height: 20vh;
-    max-width: 95vw;
   }
 
   img {

@@ -3,10 +3,10 @@
     <header>
       <div class="logo-container">
         <a href="/">
-          <img v-if="!showLogoOnly" src="@/assets/profiles rework left align.png" alt="Logo"
+          <img v-if="!showSmallLogo" src="@/assets/profiles rework left align.png" alt="Logo"
                class="logo" />
-          <img v-if="showLogoOnly" src="@/assets/profiles rework logo only.png" alt="Logo"
-               class="logo" />
+          <img v-if="showSmallLogo" src="@/assets/profiles rework logo only.png" alt="Logo"
+               class="logo-small" />
         </a>
       </div>
       <div class="centered-content">
@@ -64,13 +64,13 @@ export default {
       window.removeEventListener('resize', handleResize)
     })
 
-    const showMenuIcon = computed(() => windowWidth.value <= 1120)
-    const showLogoOnly = computed(() => windowWidth.value <= 950)
+    const showMenuIcon = computed(() => windowWidth.value <= 1430)
+    const showSmallLogo = computed(() => windowWidth.value <= 1070)
 
     return {
       authenticated,
       showMenuIcon,
-      showLogoOnly,
+      showSmallLogo,
       logonRedirect,
       logout
     }
@@ -104,6 +104,14 @@ header {
   min-height: 45px;
   max-width: 30vw;
   max-height: 5vh;
+  color: #2c3e50;
+}
+
+.logo-small {
+  margin-top: 4px;
+  min-height: 45px;
+  max-width: 30vw;
+  max-height: 4.15vh;
   color: #2c3e50;
 }
 

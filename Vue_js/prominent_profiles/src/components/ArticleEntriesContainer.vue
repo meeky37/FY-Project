@@ -269,7 +269,6 @@ export default {
 .column-container{
   width: calc(33.333% - 25px);
   flex-wrap: wrap;
-  max-width: 750px;
 }
 
 .column-heading {
