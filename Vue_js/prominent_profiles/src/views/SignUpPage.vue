@@ -52,8 +52,7 @@
       <input type="text"
          id="phone"
          ref="phoneInput"
-         :value="formattedPhone"
-         @input="updatePhone($event)"
+         v-model="phone"
          class="input-field"
          :disabled="location !== 'United Kingdom'"
          placeholder="Mobile number"
@@ -266,15 +265,19 @@ export default {
       clearTimeout(validationTimerPhone)
 
       validationTimerPhone = setTimeout(() => {
-        if (phone.value !== '+44') {
-          // const isPhoneNumber = /^\+?\d{7,16}$/.test(phone.value)
-          const isPhoneNumber = validator.isMobilePhone(phone.value)
-          // TODO: Could bind the options of validator to location selection. e.g. if UK is selected ensure number is GB.
+        const trimmedPhone = phone.value
+
+        if (trimmedPhone.startsWith('+44') && trimmedPhone.length > 3) {
+          const nationalFormatPhone = '0' + trimmedPhone.substring(3)
+          const isPhoneNumber = validator.isMobilePhone(nationalFormatPhone, 'en-GB')
+
           if (!isPhoneNumber) {
-            validationMessagePhone.value = 'Invalid phone number format'
+            validationMessagePhone.value = 'Invalid UK mobile number format'
           } else {
             validationMessagePhone.value = ''
           }
+        } else if ((location.value === 'United Kingdom')) {
+          validationMessagePhone.value = 'UK mobile number must start with +44'
         } else {
           validationMessagePhone.value = ''
         }
@@ -360,22 +363,6 @@ export default {
       return countriesCopy
     })
 
-    // Force +44 onto mobile number.
-    const formattedPhone = computed(() => {
-      if (!phone.value.startsWith('+44')) {
-        return '+44' + phone.value
-      }
-      return phone.value
-    })
-    const updatePhone = (event) => {
-      const inputVal = event.target.value
-      if (!inputVal.startsWith('+44')) {
-        phone.value = '+44' + inputVal.replace(/^\+44/, '') // Ensure +44 is not duplicated
-      } else {
-        phone.value = inputVal
-      }
-    }
-
     // Watch for changes in input fields and trigger validation
     watch(email, validateEmail)
     watch(location, (newVal) => {
@@ -416,9 +403,7 @@ export default {
       focusLastNameInput,
       focusPasswordInput,
       focusConfirmPasswordInput,
-      register,
-      formattedPhone,
-      updatePhone
+      register
     }
   }
 }
