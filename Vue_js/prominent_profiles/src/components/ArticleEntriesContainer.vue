@@ -218,7 +218,8 @@ export default {
 .entry-column-wrapper {
   flex: 1 0 calc(33.333% - 25px);
   min-width: 200px;
-  margin-right: 15px;
+  margin-left: 7.5px;
+  margin-right: 7.5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   background-color: white;
   border-radius: 25px;
@@ -295,7 +296,7 @@ export default {
   font-size: 2em;
 }
 
-@media screen and (max-width: 1370px) {
+@media screen and (max-width: 1275px) {
   .sentiment-columns-container {
     display: block; /* Changing to a different layout for small screens/mobile? */
   }

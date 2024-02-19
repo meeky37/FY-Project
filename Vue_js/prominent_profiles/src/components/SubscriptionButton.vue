@@ -110,6 +110,5 @@ export default {
   background-color: #755BB4;
   border-radius: 5px;
   margin-left: 20px; /* Putting distance between Entity Name and Subscription Button */
-  margin-right: 60px;
 }
 </style>

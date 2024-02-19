@@ -5,15 +5,15 @@
       <div>
         <h3 v-html="entry.headline" class="headline"></h3>
        <div v-if="entry.url" class="url-container">
+         <div class="button-container" @click="viewArticleDetailArticleEntry">
+          <font-awesome-icon :icon="['fas', 'magnifying-glass-chart']" style="color: #755BB4;"/>
+          </div>
           <div class="url-subsection">
             {{ getSubsection(entry.url, substringLength) }}
           </div>
           <a :href="entry.url" target="_blank" rel="noopener noreferrer" class="external-link">
             <font-awesome-icon :icon="['fas', 'external-link-alt']" />
           </a>
-          <div class="button-container" @click="viewArticleDetailArticleEntry">
-          <font-awesome-icon :icon="['fas', 'magnifying-glass-chart']" style="color: #755BB4;"/>
-          </div>
         </div>
         <p class="date">{{ formatPublicationDate(entry.publication_date) }}</p>
       </div>
@@ -32,7 +32,7 @@
   </div>
 </template>
 <script>
-import { computed, ref } from 'vue'
+import { computed, onMounted, onUnmounted, ref } from 'vue'
 import { format } from 'date-fns'
 import { useRouter, useRoute } from 'vue-router'
 import { getSubsection } from '../shared_methods/common_requests.js'
@@ -83,8 +83,31 @@ export default {
 
     const windowWidth = ref(window.innerWidth)
 
+    const handleResize = () => {
+      windowWidth.value = window.innerWidth
+    }
+
+    onMounted(() => {
+      window.addEventListener('resize', handleResize)
+    })
+
+    onUnmounted(() => {
+      window.removeEventListener('resize', handleResize)
+    })
+
+    /* Making article source credit text cut off depending on available space */
     const substringLength = computed(() => {
-      return windowWidth.value <= 950 ? 10 : 15
+      if (windowWidth.value <= 1275) {
+        /* Card containers are vertically stacked at this point */
+        return 20
+      } else if (windowWidth.value <= 1350) {
+        /* Card containers are in a row at this point and above */
+        return 10
+      } else if (windowWidth.value <= 1650) {
+        return 15
+      } else {
+        return 20
+      }
     })
 
     return {
@@ -146,7 +169,8 @@ export default {
 }
 
 .button-container{
-  margin-left: 15px;
+  margin-left: 0px;
+  margin-right: 10px;
   font-size: x-large;
 }
 
@@ -179,7 +203,8 @@ export default {
 .url-container {
   display: flex;
   align-items: center;
-  margin-left: 5px;
+  justify-content: center;
+  margin-left: 0px;
 }
 
 .url-subsection {
@@ -187,10 +212,6 @@ export default {
   color: #777;
   margin-right: 5px;
   display: inline-block;
-}
-
-.date{
-  margin-left: 10px;
 }
 
 </style>

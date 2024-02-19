@@ -90,6 +90,7 @@ export default {
 }
 
 header {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -128,11 +129,14 @@ nav {
 }
 
 .centered-content {
+  position: absolute; /* Now use the header dimensions rather than content to center on page */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   flex-grow: 1;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-right: 3vw;
 }
 
 .nav-link:hover {
