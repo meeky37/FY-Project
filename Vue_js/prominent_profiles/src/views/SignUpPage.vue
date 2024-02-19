@@ -491,6 +491,7 @@ export default {
   color: #fff;
   border: none;
   border-radius: 5px;
+  min-width: 300px;
   width: 20.5vw;
 }
 
