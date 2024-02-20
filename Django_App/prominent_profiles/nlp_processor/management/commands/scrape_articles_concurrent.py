@@ -23,7 +23,7 @@ from django.conf import settings
 from urllib.parse import urlparse
 from urllib.robotparser import RobotFileParser
 from ...sentiment_resolver import SentimentAnalyser
-from memory_profiler import profile
+# from memory_profiler import profile
 # from Django_App.prominent_profiles.nlp_processor.constants import F_COREF_DEVICE
 
 
@@ -269,7 +269,7 @@ class Command(BaseCommand):
             # Putting the SentimentAnalyser back in the queue, even if exception takes place
             self.sa_queue.put(sa)
 
-    @profile
+    # @profile
     def handle(self, *args, **options):
 
         logger = logging.getLogger('scrape_articles_logger')
