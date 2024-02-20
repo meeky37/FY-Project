@@ -97,8 +97,11 @@ export default {
 
     /* Making article source credit text cut off depending on available space */
     const substringLength = computed(() => {
-      if (windowWidth.value <= 1275) {
-        /* Card containers are vertically stacked at this point */
+      if (windowWidth.value <= 500) {
+      /* Card containers are vertically stacked at this point but mobile! */
+        return 7
+      } else if (windowWidth.value <= 1275) {
+      /* Card containers are vertically stacked at this point */
         return 20
       } else if (windowWidth.value <= 1350) {
         /* Card containers are in a row at this point and above */

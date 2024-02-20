@@ -303,5 +303,10 @@ export default {
   .column-container {
     width: 100%; /* Occupying full width on smaller screens */
   }
+
+  .entry-column-wrapper{ /* See if larger margin helps scrolling on phone */
+    margin-left: 15px;
+    margin-right: 15px;
+  }
 }
 </style>
