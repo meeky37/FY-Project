@@ -1,0 +1,1637 @@
+[
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=Labour",
+        "queryContext": {
+            "originalQuery": "Labour",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 108000,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Labour"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Labour&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Ex-Post Office chairman hits back at Badenoch after \u2018astonishing\u2019 bullying claims",
+                "url": "https://inews.co.uk/news/ex-post-office-badenoch-after-bullying-claims-2914937?ico=most_popular",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.CDPpyvRInL1LtFctcdfK8y&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Spokesperson for Henry Staunton says Commons statement by Ms Badenoch was &#39;first time&#39; any investigation into bullying claims had been mentioned",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0f3fb0f7-7f4f-1e57-f53d-53ae93bdcbcd",
+                        "name": "Badenoch"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-19T23:06:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Birmingham City Council reveal details of massive budget cuts to young people&#39;s services",
+                "url": "https://www.expressandstar.com/news/local-hubs/birmingham/2024/02/19/birmingham-city-council-reveal-details-of-massive-budget-cuts-to-young-peoples-services/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.lIOWNlFjLNgt1WXUT4hSnC&pid=News",
+                        "width": 700,
+                        "height": 525
+                    }
+                },
+                "description": "Birmingham City Council has finally revealed how it will slash services for children, young people and families amid its alarming financial crisis.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/180a3f2a-8ee2-39ff-4ea8-04375ba56a7d",
+                        "name": "Birmingham City Council"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Express &amp; Star",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mlsgqRbVCSL6esnw8ifS8A&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-19T22:52:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Cost of living fears rife in election battleground",
+                "url": "https://www.bbc.com/news/articles/cp490rp287wo",
+                "description": "I\u2019m not going to be 40 and still living at home.&quot; Shannon Challoner is a bingo hall cashier who sees no way of ever owning her own home. As a general election looms, the 20-year-old from from Rhyl, Denbighshire,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/85249bf7-5ca1-cbe1-aba3-f88690cec70f",
+                        "name": "North Wales"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "North Wales"
+                    },
+                    {
+                        "name": "Cost of living"
+                    },
+                    {
+                        "name": "General election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k3N4DqozNjgK376rAnFmsA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-19T22:50:00.0000000Z"
+            },
+            {
+                "name": "Tories accused of failing parents as cost of childcare rises faster than inflation",
+                "url": "https://news.sky.com/story/tories-accused-of-failing-parents-as-cost-of-childcare-rises-faster-than-inflation-13075864",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.dlsCfsRlS_PMUNrcuPz3Ii&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Analysis by the Labour Party shows the price of a part-time nursery place has jumped from \u00a382 per week in 2010 to \u00a3146 now.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/31125ccd-3d3f-132b-2c6c-566240cfe745",
+                        "name": "Inflation"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Eg62H9DIbo-JYPI6GpAgGA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-19T22:48:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Tories thwarted in budget ploy to save Aquarium roundabout",
+                "url": "https://www.brightonandhovenews.org/2024/02/19/tories-thwarted-in-budget-ploy-to-save-aquarium-roundabout/",
+                "description": "The Tories called on the <b>Labour</b>-run council scrap the scheme before the \u201cbudget council\u201d meeting on Thursday (22 February). They want to use \u00a31 million from the capital budget for the Valley Gardens project on other transport projects such as fixing ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/297cae4c-741d-4091-0d17-7a0cb4dfc072",
+                        "name": "Brighton and Hove"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6a1a8047-56a0-d695-3f72-34a3f030c958",
+                        "name": "Roundabout"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Brighton and Hove News"
+                    }
+                ],
+                "datePublished": "2024-02-19T22:47:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Angry motorists urge Chancellor Jeremy Hunt to make more cuts to fuel duty in Budget",
+                "url": "https://www.thesun.co.uk/motors/26048886/motorists-jeremy-hunt-cut-fuel-duty-budget/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.3Iljl39qIYYIRdu2hGN_0S&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "He said last night: \u201cA Budget for motorists will entice wavering voters away from <b>Labour</b>. \u201cStarting with a big cut in Fuel Duty and ensuring the fuel supply chain is ruthlessly policed with PumpWatch will be hugely helpful to the Tory Party\u2019s ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae997c08-75ff-9e61-aa23-7d79694aa474",
+                        "name": "Chancellor"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2bd73848-4b61-3c98-ba3e-c458fe954d74",
+                        "name": "Jeremy Hunt"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9c4c6740-9482-4917-e9af-876c29d9f749",
+                        "name": "Budget"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun"
+                    }
+                ],
+                "datePublished": "2024-02-19T22:33:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Debate the triple lock all you want, but UK needs to solve pensioner poverty",
+                "url": "https://inews.co.uk/opinion/debate-triple-lock-solve-pensioner-poverty-2914907?ico=related_stories",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.RjpZ1W-58VW0fP1kDoa4zC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Pensioners protesting in Westminister over the cost of living and poverty (Photo: Guy Smallman/Getty) Photographer: Guy Smallman Provider: Getty Images Source: Getty Images Europe Some people will celebrate the fact that <b>Labour</b> is expected to commit ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i"
+                    }
+                ],
+                "datePublished": "2024-02-19T22:24:00.0000000Z"
+            },
+            {
+                "name": "Sunak bids to win back support of British farmers",
+                "url": "https://www.ft.com/content/ab467c3b-63ef-4f83-bd1c-e6de458b5983",
+                "description": "The governing party won 96 of the 100 most rural seats in England in 2019 but is on track to lose more than half of those to <b>Labour</b> and the Liberal Democrats, according to a poll by Survation, commissioned by the Country Land and Business Association.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Financial Times"
+                    }
+                ],
+                "datePublished": "2024-02-19T14:51:00.0000000Z"
+            },
+            {
+                "name": "PM to tell farming conference Government is \u2018by their side\u2019",
+                "url": "https://www.standard.co.uk/news/politics/prime-minister-labour-rishi-sunak-government-ukraine-b1140168.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ITVrDLypyLlci1AbGX75hy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "His speech comes in the wake of polling which found <b>Labour</b> had narrowly overtaken the Tories among countryside voters, who also felt neither main party understood rural communities. Farmers have been dealing with the impacts of soaring costs of inputs ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5634d914-4190-dd0b-fa80-715c2ac46335",
+                        "name": "Government"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Government"
+                    },
+                    {
+                        "name": "Prime minister"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "datePublished": "2024-02-19T00:00:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=Labour",
+        "queryContext": {
+            "originalQuery": "Labour",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 108000,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Labour"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Labour&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Ex-Post Office chairman hits back at Badenoch after \u2018astonishing\u2019 bullying claims",
+                "url": "https://inews.co.uk/news/ex-post-office-badenoch-after-bullying-claims-2914937?ico=most_popular",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.CDPpyvRInL1LtFctcdfK8y&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Spokesperson for Henry Staunton says Commons statement by Ms Badenoch was &#39;first time&#39; any investigation into bullying claims had been mentioned",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0f3fb0f7-7f4f-1e57-f53d-53ae93bdcbcd",
+                        "name": "Badenoch"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-19T23:06:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Birmingham City Council reveal details of massive budget cuts to young people&#39;s services",
+                "url": "https://www.expressandstar.com/news/local-hubs/birmingham/2024/02/19/birmingham-city-council-reveal-details-of-massive-budget-cuts-to-young-peoples-services/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.lIOWNlFjLNgt1WXUT4hSnC&pid=News",
+                        "width": 700,
+                        "height": 525
+                    }
+                },
+                "description": "Birmingham City Council has finally revealed how it will slash services for children, young people and families amid its alarming financial crisis.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/180a3f2a-8ee2-39ff-4ea8-04375ba56a7d",
+                        "name": "Birmingham City Council"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Express &amp; Star",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mlsgqRbVCSL6esnw8ifS8A&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-19T22:52:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Cost of living fears rife in election battleground",
+                "url": "https://www.bbc.com/news/articles/cp490rp287wo",
+                "description": "I\u2019m not going to be 40 and still living at home.&quot; Shannon Challoner is a bingo hall cashier who sees no way of ever owning her own home. As a general election looms, the 20-year-old from from Rhyl, Denbighshire,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/85249bf7-5ca1-cbe1-aba3-f88690cec70f",
+                        "name": "North Wales"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "North Wales"
+                    },
+                    {
+                        "name": "Cost of living"
+                    },
+                    {
+                        "name": "General election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k3N4DqozNjgK376rAnFmsA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-19T22:50:00.0000000Z"
+            },
+            {
+                "name": "Tories accused of failing parents as cost of childcare rises faster than inflation",
+                "url": "https://news.sky.com/story/tories-accused-of-failing-parents-as-cost-of-childcare-rises-faster-than-inflation-13075864",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.dlsCfsRlS_PMUNrcuPz3Ii&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Analysis by the Labour Party shows the price of a part-time nursery place has jumped from \u00a382 per week in 2010 to \u00a3146 now.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/31125ccd-3d3f-132b-2c6c-566240cfe745",
+                        "name": "Inflation"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Eg62H9DIbo-JYPI6GpAgGA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-19T22:48:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Tories thwarted in budget ploy to save Aquarium roundabout",
+                "url": "https://www.brightonandhovenews.org/2024/02/19/tories-thwarted-in-budget-ploy-to-save-aquarium-roundabout/",
+                "description": "The Tories called on the <b>Labour</b>-run council scrap the scheme before the \u201cbudget council\u201d meeting on Thursday (22 February). They want to use \u00a31 million from the capital budget for the Valley Gardens project on other transport projects such as fixing ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/297cae4c-741d-4091-0d17-7a0cb4dfc072",
+                        "name": "Brighton and Hove"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6a1a8047-56a0-d695-3f72-34a3f030c958",
+                        "name": "Roundabout"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Brighton and Hove News"
+                    }
+                ],
+                "datePublished": "2024-02-19T22:47:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Fruit-picking robots could slash the need for migrant <b>labour</b>, Rishi Sunak to tell farmers as he unveils \u00a3220 million fund for new technology",
+                "url": "https://www.dailymail.co.uk/news/article-13101935/Fruit-picking-robots-slash-need-migrant-labour-Rishi-Sunak-tell-farmers-unveils-220-million-fund-new-technology.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.vmkLlJiIDlL3u0ynC_yYny&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Fruit-picking robots could slash the need for migrant <b>labour</b>, Rishi Sunak will tell farmers today. Addressing the National Farmers&#39; Union conference, the Prime Minister will unveil a \u00a3220 million fund to help deploy new technology to help boost ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/73799dc2-9580-ded9-365b-f4c1befc9eab",
+                        "name": "Labour"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/93a3e0e2-aecf-e53b-8432-c15f400cfb4e",
+                        "name": "Daily Mail"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2a67a7b3-797f-d941-0418-dcad6722de0b",
+                        "name": "Fruit picking"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Labour"
+                    },
+                    {
+                        "name": "Daily Mail"
+                    },
+                    {
+                        "name": "Fruit picking"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail"
+                    }
+                ],
+                "datePublished": "2024-02-19T22:34:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Angry motorists urge Chancellor Jeremy Hunt to make more cuts to fuel duty in Budget",
+                "url": "https://www.thesun.co.uk/motors/26048886/motorists-jeremy-hunt-cut-fuel-duty-budget/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.3Iljl39qIYYIRdu2hGN_0S&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "He said last night: \u201cA Budget for motorists will entice wavering voters away from <b>Labour</b>. \u201cStarting with a big cut in Fuel Duty and ensuring the fuel supply chain is ruthlessly policed with PumpWatch will be hugely helpful to the Tory Party\u2019s ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae997c08-75ff-9e61-aa23-7d79694aa474",
+                        "name": "Chancellor"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2bd73848-4b61-3c98-ba3e-c458fe954d74",
+                        "name": "Jeremy Hunt"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9c4c6740-9482-4917-e9af-876c29d9f749",
+                        "name": "Budget"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun"
+                    }
+                ],
+                "datePublished": "2024-02-19T22:33:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Debate the triple lock all you want, but UK needs to solve pensioner poverty",
+                "url": "https://inews.co.uk/opinion/debate-triple-lock-solve-pensioner-poverty-2914907?ico=related_stories",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.RjpZ1W-58VW0fP1kDoa4zC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Pensioners protesting in Westminister over the cost of living and poverty (Photo: Guy Smallman/Getty) Photographer: Guy Smallman Provider: Getty Images Source: Getty Images Europe Some people will celebrate the fact that <b>Labour</b> is expected to commit ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i"
+                    }
+                ],
+                "datePublished": "2024-02-19T22:24:00.0000000Z"
+            },
+            {
+                "name": "Sunak bids to win back support of British farmers",
+                "url": "https://www.ft.com/content/ab467c3b-63ef-4f83-bd1c-e6de458b5983",
+                "description": "The governing party won 96 of the 100 most rural seats in England in 2019 but is on track to lose more than half of those to <b>Labour</b> and the Liberal Democrats, according to a poll by Survation, commissioned by the Country Land and Business Association.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Financial Times"
+                    }
+                ],
+                "datePublished": "2024-02-19T14:51:00.0000000Z"
+            },
+            {
+                "name": "PM to tell farming conference Government is \u2018by their side\u2019",
+                "url": "https://www.standard.co.uk/news/politics/prime-minister-labour-rishi-sunak-government-ukraine-b1140168.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ITVrDLypyLlci1AbGX75hy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "His speech comes in the wake of polling which found <b>Labour</b> had narrowly overtaken the Tories among countryside voters, who also felt neither main party understood rural communities. Farmers have been dealing with the impacts of soaring costs of inputs ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5634d914-4190-dd0b-fa80-715c2ac46335",
+                        "name": "Government"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Government"
+                    },
+                    {
+                        "name": "Prime minister"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "datePublished": "2024-02-19T00:00:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=Labour",
+        "queryContext": {
+            "originalQuery": "Labour",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 111000,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Labour"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Labour&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Ex-Post Office chairman hits back at Badenoch after \u2018astonishing\u2019 bullying claims",
+                "url": "https://inews.co.uk/news/ex-post-office-badenoch-after-bullying-claims-2914937?ico=most_popular",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.CDPpyvRInL1LtFctcdfK8y&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Spokesperson for Henry Staunton says Commons statement by Ms Badenoch was &#39;first time&#39; any investigation into bullying claims had been mentioned",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0f3fb0f7-7f4f-1e57-f53d-53ae93bdcbcd",
+                        "name": "Badenoch"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-19T23:06:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Birmingham City Council reveal details of massive budget cuts to young people&#39;s services",
+                "url": "https://www.expressandstar.com/news/local-hubs/birmingham/2024/02/19/birmingham-city-council-reveal-details-of-massive-budget-cuts-to-young-peoples-services/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.lIOWNlFjLNgt1WXUT4hSnC&pid=News",
+                        "width": 700,
+                        "height": 525
+                    }
+                },
+                "description": "Birmingham City Council has finally revealed how it will slash services for children, young people and families amid its alarming financial crisis.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/180a3f2a-8ee2-39ff-4ea8-04375ba56a7d",
+                        "name": "Birmingham City Council"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Express &amp; Star",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mlsgqRbVCSL6esnw8ifS8A&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-19T22:52:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Cost of living fears rife in election battleground",
+                "url": "https://www.bbc.com/news/articles/cp490rp287wo",
+                "description": "I\u2019m not going to be 40 and still living at home.&quot; Shannon Challoner is a bingo hall cashier who sees no way of ever owning her own home. As a general election looms, the 20-year-old from from Rhyl, Denbighshire,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/85249bf7-5ca1-cbe1-aba3-f88690cec70f",
+                        "name": "North Wales"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "North Wales"
+                    },
+                    {
+                        "name": "Cost of living"
+                    },
+                    {
+                        "name": "General election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k3N4DqozNjgK376rAnFmsA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-19T22:50:00.0000000Z"
+            },
+            {
+                "name": "Tories accused of failing parents as cost of childcare rises faster than inflation",
+                "url": "https://news.sky.com/story/tories-accused-of-failing-parents-as-cost-of-childcare-rises-faster-than-inflation-13075864",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.dlsCfsRlS_PMUNrcuPz3Ii&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Analysis by the Labour Party shows the price of a part-time nursery place has jumped from \u00a382 per week in 2010 to \u00a3146 now.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/31125ccd-3d3f-132b-2c6c-566240cfe745",
+                        "name": "Inflation"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Eg62H9DIbo-JYPI6GpAgGA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-19T22:48:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Tories thwarted in budget ploy to save Aquarium roundabout",
+                "url": "https://www.brightonandhovenews.org/2024/02/19/tories-thwarted-in-budget-ploy-to-save-aquarium-roundabout/",
+                "description": "The Tories called on the <b>Labour</b>-run council scrap the scheme before the \u201cbudget council\u201d meeting on Thursday (22 February). They want to use \u00a31 million from the capital budget for the Valley Gardens project on other transport projects such as fixing ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/297cae4c-741d-4091-0d17-7a0cb4dfc072",
+                        "name": "Brighton and Hove"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6a1a8047-56a0-d695-3f72-34a3f030c958",
+                        "name": "Roundabout"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Brighton and Hove News"
+                    }
+                ],
+                "datePublished": "2024-02-19T22:47:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Fruit-picking robots could slash the need for migrant <b>labour</b>, Rishi Sunak to tell farmers as he unveils \u00a3220 million fund for new technology",
+                "url": "https://www.dailymail.co.uk/news/article-13101935/Fruit-picking-robots-slash-need-migrant-labour-Rishi-Sunak-tell-farmers-unveils-220-million-fund-new-technology.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.vmkLlJiIDlL3u0ynC_yYny&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Fruit-picking robots could slash the need for migrant <b>labour</b>, Rishi Sunak will tell farmers today. Addressing the National Farmers&#39; Union conference, the Prime Minister will unveil a \u00a3220 million fund to help deploy new technology to help boost ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/73799dc2-9580-ded9-365b-f4c1befc9eab",
+                        "name": "Labour"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/93a3e0e2-aecf-e53b-8432-c15f400cfb4e",
+                        "name": "Daily Mail"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2a67a7b3-797f-d941-0418-dcad6722de0b",
+                        "name": "Fruit picking"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Labour"
+                    },
+                    {
+                        "name": "Daily Mail"
+                    },
+                    {
+                        "name": "Fruit picking"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail"
+                    }
+                ],
+                "datePublished": "2024-02-19T22:34:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Angry motorists urge Chancellor Jeremy Hunt to make more cuts to fuel duty in Budget",
+                "url": "https://www.thesun.co.uk/motors/26048886/motorists-jeremy-hunt-cut-fuel-duty-budget/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.3Iljl39qIYYIRdu2hGN_0S&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "He said last night: \u201cA Budget for motorists will entice wavering voters away from <b>Labour</b>. \u201cStarting with a big cut in Fuel Duty and ensuring the fuel supply chain is ruthlessly policed with PumpWatch will be hugely helpful to the Tory Party\u2019s ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae997c08-75ff-9e61-aa23-7d79694aa474",
+                        "name": "Chancellor"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2bd73848-4b61-3c98-ba3e-c458fe954d74",
+                        "name": "Jeremy Hunt"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9c4c6740-9482-4917-e9af-876c29d9f749",
+                        "name": "Budget"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun"
+                    }
+                ],
+                "datePublished": "2024-02-19T22:33:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Debate the triple lock all you want, but UK needs to solve pensioner poverty",
+                "url": "https://inews.co.uk/opinion/debate-triple-lock-solve-pensioner-poverty-2914907?ico=related_stories",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.RjpZ1W-58VW0fP1kDoa4zC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Pensioners protesting in Westminister over the cost of living and poverty (Photo: Guy Smallman/Getty) Photographer: Guy Smallman Provider: Getty Images Source: Getty Images Europe Some people will celebrate the fact that <b>Labour</b> is expected to commit ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i"
+                    }
+                ],
+                "datePublished": "2024-02-19T22:24:00.0000000Z"
+            },
+            {
+                "name": "Sunak bids to win back support of British farmers",
+                "url": "https://www.ft.com/content/ab467c3b-63ef-4f83-bd1c-e6de458b5983",
+                "description": "The governing party won 96 of the 100 most rural seats in England in 2019 but is on track to lose more than half of those to <b>Labour</b> and the Liberal Democrats, according to a poll by Survation, commissioned by the Country Land and Business Association.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Financial Times"
+                    }
+                ],
+                "datePublished": "2024-02-19T14:51:00.0000000Z"
+            },
+            {
+                "name": "PM to tell farming conference Government is \u2018by their side\u2019",
+                "url": "https://www.standard.co.uk/news/politics/prime-minister-labour-rishi-sunak-government-ukraine-b1140168.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ITVrDLypyLlci1AbGX75hy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "His speech comes in the wake of polling which found <b>Labour</b> had narrowly overtaken the Tories among countryside voters, who also felt neither main party understood rural communities. Farmers have been dealing with the impacts of soaring costs of inputs ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5634d914-4190-dd0b-fa80-715c2ac46335",
+                        "name": "Government"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Government"
+                    },
+                    {
+                        "name": "Prime minister"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "datePublished": "2024-02-19T00:00:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=Labour",
+        "queryContext": {
+            "originalQuery": "Labour",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 108000,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Labour"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Labour&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Ex-Post Office chairman hits back at Badenoch after \u2018astonishing\u2019 bullying claims",
+                "url": "https://inews.co.uk/news/ex-post-office-badenoch-after-bullying-claims-2914937?ico=most_popular",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.CDPpyvRInL1LtFctcdfK8y&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Spokesperson for Henry Staunton says Commons statement by Ms Badenoch was &#39;first time&#39; any investigation into bullying claims had been mentioned",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0f3fb0f7-7f4f-1e57-f53d-53ae93bdcbcd",
+                        "name": "Badenoch"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-19T23:06:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Birmingham City Council reveal details of massive budget cuts to young people&#39;s services",
+                "url": "https://www.expressandstar.com/news/local-hubs/birmingham/2024/02/19/birmingham-city-council-reveal-details-of-massive-budget-cuts-to-young-peoples-services/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.lIOWNlFjLNgt1WXUT4hSnC&pid=News",
+                        "width": 700,
+                        "height": 525
+                    }
+                },
+                "description": "Birmingham City Council has finally revealed how it will slash services for children, young people and families amid its alarming financial crisis.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/180a3f2a-8ee2-39ff-4ea8-04375ba56a7d",
+                        "name": "Birmingham City Council"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Express &amp; Star",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mlsgqRbVCSL6esnw8ifS8A&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-19T22:52:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Cost of living fears rife in election battleground",
+                "url": "https://www.bbc.com/news/articles/cp490rp287wo",
+                "description": "I\u2019m not going to be 40 and still living at home.&quot; Shannon Challoner is a bingo hall cashier who sees no way of ever owning her own home. As a general election looms, the 20-year-old from from Rhyl, Denbighshire,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/85249bf7-5ca1-cbe1-aba3-f88690cec70f",
+                        "name": "North Wales"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "North Wales"
+                    },
+                    {
+                        "name": "Cost of living"
+                    },
+                    {
+                        "name": "General election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k3N4DqozNjgK376rAnFmsA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-19T22:50:00.0000000Z"
+            },
+            {
+                "name": "Tories accused of failing parents as cost of childcare rises faster than inflation",
+                "url": "https://news.sky.com/story/tories-accused-of-failing-parents-as-cost-of-childcare-rises-faster-than-inflation-13075864",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.dlsCfsRlS_PMUNrcuPz3Ii&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Analysis by the Labour Party shows the price of a part-time nursery place has jumped from \u00a382 per week in 2010 to \u00a3146 now.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/31125ccd-3d3f-132b-2c6c-566240cfe745",
+                        "name": "Inflation"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Eg62H9DIbo-JYPI6GpAgGA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-19T22:48:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Tories thwarted in budget ploy to save Aquarium roundabout",
+                "url": "https://www.brightonandhovenews.org/2024/02/19/tories-thwarted-in-budget-ploy-to-save-aquarium-roundabout/",
+                "description": "The Tories called on the <b>Labour</b>-run council scrap the scheme before the \u201cbudget council\u201d meeting on Thursday (22 February). They want to use \u00a31 million from the capital budget for the Valley Gardens project on other transport projects such as fixing ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/297cae4c-741d-4091-0d17-7a0cb4dfc072",
+                        "name": "Brighton and Hove"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6a1a8047-56a0-d695-3f72-34a3f030c958",
+                        "name": "Roundabout"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Brighton and Hove News"
+                    }
+                ],
+                "datePublished": "2024-02-19T22:47:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Fruit-picking robots could slash the need for migrant <b>labour</b>, Rishi Sunak to tell farmers as he unveils \u00a3220 million fund for new technology",
+                "url": "https://www.dailymail.co.uk/news/article-13101935/Fruit-picking-robots-slash-need-migrant-labour-Rishi-Sunak-tell-farmers-unveils-220-million-fund-new-technology.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.vmkLlJiIDlL3u0ynC_yYny&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Fruit-picking robots could slash the need for migrant <b>labour</b>, Rishi Sunak will tell farmers today. Addressing the National Farmers&#39; Union conference, the Prime Minister will unveil a \u00a3220 million fund to help deploy new technology to help boost ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/73799dc2-9580-ded9-365b-f4c1befc9eab",
+                        "name": "Labour"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/93a3e0e2-aecf-e53b-8432-c15f400cfb4e",
+                        "name": "Daily Mail"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2a67a7b3-797f-d941-0418-dcad6722de0b",
+                        "name": "Fruit picking"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Labour"
+                    },
+                    {
+                        "name": "Daily Mail"
+                    },
+                    {
+                        "name": "Fruit picking"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail"
+                    }
+                ],
+                "datePublished": "2024-02-19T22:34:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Angry motorists urge Chancellor Jeremy Hunt to make more cuts to fuel duty in Budget",
+                "url": "https://www.thesun.co.uk/motors/26048886/motorists-jeremy-hunt-cut-fuel-duty-budget/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.3Iljl39qIYYIRdu2hGN_0S&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "He said last night: \u201cA Budget for motorists will entice wavering voters away from <b>Labour</b>. \u201cStarting with a big cut in Fuel Duty and ensuring the fuel supply chain is ruthlessly policed with PumpWatch will be hugely helpful to the Tory Party\u2019s ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae997c08-75ff-9e61-aa23-7d79694aa474",
+                        "name": "Chancellor"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2bd73848-4b61-3c98-ba3e-c458fe954d74",
+                        "name": "Jeremy Hunt"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9c4c6740-9482-4917-e9af-876c29d9f749",
+                        "name": "Budget"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun"
+                    }
+                ],
+                "datePublished": "2024-02-19T22:33:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Debate the triple lock all you want, but UK needs to solve pensioner poverty",
+                "url": "https://inews.co.uk/opinion/debate-triple-lock-solve-pensioner-poverty-2914907?ico=related_stories",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.RjpZ1W-58VW0fP1kDoa4zC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Pensioners protesting in Westminister over the cost of living and poverty (Photo: Guy Smallman/Getty) Photographer: Guy Smallman Provider: Getty Images Source: Getty Images Europe Some people will celebrate the fact that <b>Labour</b> is expected to commit ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i"
+                    }
+                ],
+                "datePublished": "2024-02-19T22:24:00.0000000Z"
+            },
+            {
+                "name": "Sunak bids to win back support of British farmers",
+                "url": "https://www.ft.com/content/ab467c3b-63ef-4f83-bd1c-e6de458b5983",
+                "description": "The governing party won 96 of the 100 most rural seats in England in 2019 but is on track to lose more than half of those to <b>Labour</b> and the Liberal Democrats, according to a poll by Survation, commissioned by the Country Land and Business Association.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Financial Times"
+                    }
+                ],
+                "datePublished": "2024-02-19T14:51:00.0000000Z"
+            },
+            {
+                "name": "PM to tell farming conference Government is \u2018by their side\u2019",
+                "url": "https://www.standard.co.uk/news/politics/prime-minister-labour-rishi-sunak-government-ukraine-b1140168.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ITVrDLypyLlci1AbGX75hy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "His speech comes in the wake of polling which found <b>Labour</b> had narrowly overtaken the Tories among countryside voters, who also felt neither main party understood rural communities. Farmers have been dealing with the impacts of soaring costs of inputs ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5634d914-4190-dd0b-fa80-715c2ac46335",
+                        "name": "Government"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Government"
+                    },
+                    {
+                        "name": "Prime minister"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "datePublished": "2024-02-19T00:00:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=Labour",
+        "queryContext": {
+            "originalQuery": "Labour",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 108000,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Labour"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Labour&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Ex-Post Office chairman hits back at Badenoch after \u2018astonishing\u2019 bullying claims",
+                "url": "https://inews.co.uk/news/ex-post-office-badenoch-after-bullying-claims-2914937?ico=most_popular",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.CDPpyvRInL1LtFctcdfK8y&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Spokesperson for Henry Staunton says Commons statement by Ms Badenoch was &#39;first time&#39; any investigation into bullying claims had been mentioned",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0f3fb0f7-7f4f-1e57-f53d-53ae93bdcbcd",
+                        "name": "Badenoch"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-19T23:06:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Birmingham City Council reveal details of massive budget cuts to young people&#39;s services",
+                "url": "https://www.expressandstar.com/news/local-hubs/birmingham/2024/02/19/birmingham-city-council-reveal-details-of-massive-budget-cuts-to-young-peoples-services/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.lIOWNlFjLNgt1WXUT4hSnC&pid=News",
+                        "width": 700,
+                        "height": 525
+                    }
+                },
+                "description": "Birmingham City Council has finally revealed how it will slash services for children, young people and families amid its alarming financial crisis.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/180a3f2a-8ee2-39ff-4ea8-04375ba56a7d",
+                        "name": "Birmingham City Council"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Express &amp; Star",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.mlsgqRbVCSL6esnw8ifS8A&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-19T22:52:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Cost of living fears rife in election battleground",
+                "url": "https://www.bbc.com/news/articles/cp490rp287wo",
+                "description": "I\u2019m not going to be 40 and still living at home.&quot; Shannon Challoner is a bingo hall cashier who sees no way of ever owning her own home. As a general election looms, the 20-year-old from from Rhyl, Denbighshire,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/85249bf7-5ca1-cbe1-aba3-f88690cec70f",
+                        "name": "North Wales"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "North Wales"
+                    },
+                    {
+                        "name": "Cost of living"
+                    },
+                    {
+                        "name": "General election"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k3N4DqozNjgK376rAnFmsA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-19T22:50:00.0000000Z"
+            },
+            {
+                "name": "Tories accused of failing parents as cost of childcare rises faster than inflation",
+                "url": "https://news.sky.com/story/tories-accused-of-failing-parents-as-cost-of-childcare-rises-faster-than-inflation-13075864",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.dlsCfsRlS_PMUNrcuPz3Ii&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Analysis by the Labour Party shows the price of a part-time nursery place has jumped from \u00a382 per week in 2010 to \u00a3146 now.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/31125ccd-3d3f-132b-2c6c-566240cfe745",
+                        "name": "Inflation"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Eg62H9DIbo-JYPI6GpAgGA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-19T22:48:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Tories thwarted in budget ploy to save Aquarium roundabout",
+                "url": "https://www.brightonandhovenews.org/2024/02/19/tories-thwarted-in-budget-ploy-to-save-aquarium-roundabout/",
+                "description": "The Tories called on the <b>Labour</b>-run council scrap the scheme before the \u201cbudget council\u201d meeting on Thursday (22 February). They want to use \u00a31 million from the capital budget for the Valley Gardens project on other transport projects such as fixing ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/297cae4c-741d-4091-0d17-7a0cb4dfc072",
+                        "name": "Brighton and Hove"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6a1a8047-56a0-d695-3f72-34a3f030c958",
+                        "name": "Roundabout"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Brighton and Hove News"
+                    }
+                ],
+                "datePublished": "2024-02-19T22:47:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Fruit-picking robots could slash the need for migrant <b>labour</b>, Rishi Sunak to tell farmers as he unveils \u00a3220 million fund for new technology",
+                "url": "https://www.dailymail.co.uk/news/article-13101935/Fruit-picking-robots-slash-need-migrant-labour-Rishi-Sunak-tell-farmers-unveils-220-million-fund-new-technology.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.vmkLlJiIDlL3u0ynC_yYny&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Fruit-picking robots could slash the need for migrant <b>labour</b>, Rishi Sunak will tell farmers today. Addressing the National Farmers&#39; Union conference, the Prime Minister will unveil a \u00a3220 million fund to help deploy new technology to help boost ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/73799dc2-9580-ded9-365b-f4c1befc9eab",
+                        "name": "Labour"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/93a3e0e2-aecf-e53b-8432-c15f400cfb4e",
+                        "name": "Daily Mail"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2a67a7b3-797f-d941-0418-dcad6722de0b",
+                        "name": "Fruit picking"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Labour"
+                    },
+                    {
+                        "name": "Daily Mail"
+                    },
+                    {
+                        "name": "Fruit picking"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail"
+                    }
+                ],
+                "datePublished": "2024-02-19T22:34:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Angry motorists urge Chancellor Jeremy Hunt to make more cuts to fuel duty in Budget",
+                "url": "https://www.thesun.co.uk/motors/26048886/motorists-jeremy-hunt-cut-fuel-duty-budget/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.3Iljl39qIYYIRdu2hGN_0S&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "He said last night: \u201cA Budget for motorists will entice wavering voters away from <b>Labour</b>. \u201cStarting with a big cut in Fuel Duty and ensuring the fuel supply chain is ruthlessly policed with PumpWatch will be hugely helpful to the Tory Party\u2019s ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ae997c08-75ff-9e61-aa23-7d79694aa474",
+                        "name": "Chancellor"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2bd73848-4b61-3c98-ba3e-c458fe954d74",
+                        "name": "Jeremy Hunt"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9c4c6740-9482-4917-e9af-876c29d9f749",
+                        "name": "Budget"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun"
+                    }
+                ],
+                "datePublished": "2024-02-19T22:33:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Debate the triple lock all you want, but UK needs to solve pensioner poverty",
+                "url": "https://inews.co.uk/opinion/debate-triple-lock-solve-pensioner-poverty-2914907?ico=related_stories",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.RjpZ1W-58VW0fP1kDoa4zC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Pensioners protesting in Westminister over the cost of living and poverty (Photo: Guy Smallman/Getty) Photographer: Guy Smallman Provider: Getty Images Source: Getty Images Europe Some people will celebrate the fact that <b>Labour</b> is expected to commit ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i"
+                    }
+                ],
+                "datePublished": "2024-02-19T22:24:00.0000000Z"
+            },
+            {
+                "name": "Sunak bids to win back support of British farmers",
+                "url": "https://www.ft.com/content/ab467c3b-63ef-4f83-bd1c-e6de458b5983",
+                "description": "The governing party won 96 of the 100 most rural seats in England in 2019 but is on track to lose more than half of those to <b>Labour</b> and the Liberal Democrats, according to a poll by Survation, commissioned by the Country Land and Business Association.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Financial Times"
+                    }
+                ],
+                "datePublished": "2024-02-19T14:51:00.0000000Z"
+            },
+            {
+                "name": "PM to tell farming conference Government is \u2018by their side\u2019",
+                "url": "https://www.standard.co.uk/news/politics/prime-minister-labour-rishi-sunak-government-ukraine-b1140168.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ITVrDLypyLlci1AbGX75hy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "His speech comes in the wake of polling which found <b>Labour</b> had narrowly overtaken the Tories among countryside voters, who also felt neither main party understood rural communities. Farmers have been dealing with the impacts of soaring costs of inputs ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5634d914-4190-dd0b-fa80-715c2ac46335",
+                        "name": "Government"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Government"
+                    },
+                    {
+                        "name": "Prime minister"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "datePublished": "2024-02-19T00:00:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    }
+]
