@@ -12,32 +12,30 @@ class Command(BaseCommand):
     help = 'Update article statistics for a specific article'
 
     def handle(self, *args, **options):
-
         # target_url = "https://www.bbc.co.uk/news/world-us-canada-68051757.amp"
-        #
-        # article_list = ArticleModel.objects.filter(
-        #     articlestatistics__fuzzy_hash__isnull=True
-        # )
-        #
-        # for article in article_list:
-        #     downloaded = trafilatura.fetch_url(article.url)
-        #     extracted_text = trafilatura.extract(
-        #         downloaded,
-        #         favour_recall=True,
-        #         include_comments=False,
-        #         include_images=False,
-        #         include_tables=False
-        #     )
-        #
-        #     article_update = ArticleUpdate(extracted_text, article)
-        #     if extracted_text is not None:
-        #         article_update.get_statistics()
-        #         article_update.update_stats()
-        #         self.stdout.write(
-        #             self.style.SUCCESS(f'Successfully updated stats for article {article.id}'))
-        #     else:
-        #         self.stdout.write(
-        #             self.style.WARNING(f'No text returned {article.id}'))
+        article_list = ArticleModel.objects.filter(
+            articlestatistics__fuzzy_hash__isnull=True
+        )
+
+        for article in article_list:
+            downloaded = trafilatura.fetch_url(article.url)
+            extracted_text = trafilatura.extract(
+                downloaded,
+                favour_recall=True,
+                include_comments=False,
+                include_images=False,
+                include_tables=False
+            )
+
+            article_update = ArticleUpdate(extracted_text, article)
+            if extracted_text is not None:
+                article_update.get_statistics()
+                article_update.update_stats()
+                self.stdout.write(
+                    self.style.SUCCESS(f'Successfully updated stats for article {article.id}'))
+            else:
+                self.stdout.write(
+                    self.style.WARNING(f'No text returned {article.id}'))
 
         all_stats = ArticleStatistics.objects.all()
         # all_stats = ArticleStatistics.objects.filter(article_id__gt=3746)

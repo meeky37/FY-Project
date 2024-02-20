@@ -30,7 +30,7 @@ class BingEntityDetailView(View):
             'id': bing_entity.id,
             'name': bing_entity.name,
             'description': bing_entity.description,
-            'image_url': bing_entity.image_url,
+            'image_url': bing_entity.improved_image_url,
             'web_search_url': bing_entity.web_search_url,
             'bing_id': bing_entity.bing_id,
             'contractual_rules': bing_entity.contractual_rules,
@@ -58,7 +58,7 @@ class BingEntityMiniView(View):
                 serialized_entity = {
                     'id': bing_entity.id,
                     'name': bing_entity.name,
-                    'image_url': bing_entity.image_url,
+                    'image_url': bing_entity.improved_image_url,
                     'contractual_rules': bing_entity.contractual_rules,
                     'display_hint': bing_entity.entity_type_display_hint
                 }

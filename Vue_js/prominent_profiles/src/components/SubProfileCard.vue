@@ -2,7 +2,7 @@
   <div class="card">
     <div class="header-container">
       <h2 :class="{ 'loading': isLoading }" @click="redirectToEntityPage(this.lastVisit)">
-        {{ isLoading ? 'Loading...' : (bingEntity ? bingEntity.name : 'Entity Not Found') }}
+        {{ isLoading ? 'Loading...' : (bingEntity ? bingEntity.name : 'Loading...') }}
       </h2>
       <div class="sub-button">
       <SubscriptionButton :entityId=" entry ? entry.entity_id : null"/>

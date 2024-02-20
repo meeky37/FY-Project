@@ -256,7 +256,8 @@ class EntityAdmin(admin.ModelAdmin):
 
 
 class BingEntityAdmin(admin.ModelAdmin):
-    list_display = ('id', 'entity', 'name', 'description', 'image_url', 'web_search_url', 'bing_id',
+    list_display = ('id', 'entity', 'name', 'description', 'image_url',
+                    'improved_image_url', 'web_search_url', 'bing_id',
                     'contractual_rules', 'entity_type_display_hint', 'entity_type_hints',
                     'date_added')
 

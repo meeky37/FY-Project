@@ -67,6 +67,7 @@ class BingEntity(models.Model):
     name = models.CharField(max_length=255)
     description = models.TextField()
     image_url = models.CharField(max_length=255)
+    improved_image_url = models.CharField(max_length=255, null=True)
     web_search_url = models.CharField(max_length=255)
     bing_id = models.CharField(max_length=255)
     contractual_rules = models.JSONField()
