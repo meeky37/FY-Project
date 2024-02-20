@@ -13,6 +13,7 @@
           alt="Entity Photo"
           style="width: auto; min-height: 150px; border-radius: 8px; border: 4px solid #755BB4;"
           :title="getAttributionMessage(bingEntity)"
+          height="250px"
         />
          <a class="attribution-link" @click="openSourcePopup">CREDIT</a>
       </div>
