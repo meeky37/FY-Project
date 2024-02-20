@@ -22,7 +22,7 @@
             @click="redirectToEntityPage"
             :src="bingEntity.image_url"
             alt="Entity Photo"
-            style="width: auto; min-height: 150px;"
+            style="width: auto; height: 150px"
             :title="getAttributionMessage(bingEntity)"
           />
           <a v-if="getAttributionMessage(bingEntity)" class="attribution-link" @mouseover="showAttribution" @mouseleave="hideAttribution"></a>
@@ -334,7 +334,7 @@ export default {
   border-radius: 8px;
   overflow: visible;
   margin-bottom: -30px; /* Spacing closer for mobile use to reduce scroll efforts */
-  margin-top: -25px;
+  margin-top: -10px;
   }
 
   .entity-photo {

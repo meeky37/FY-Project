@@ -19,7 +19,8 @@ def get_wikipedia_image_url(wiki_url):
         "format": "json",
         "prop": "pageimages",
         "titles": page_title,
-        "pithumbsize": 500
+        "pithumbsize": 250
+        # Set to 250 as that is max used on site currently - let's not get bigger than we need!
     }
 
     try:
