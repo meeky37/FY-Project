@@ -21,11 +21,11 @@ urlpatterns = [
     path('api/get_sub_status/<int:entity_id>/', get_sub_status, name='get_sub_status'),
     path('api/get_sub_list/', get_sub_list, name='get_sub_list'),
     # 20th Feb add -> Password reset links
-    path('api/password_reset/', PasswordResetView.as_view(), name='password_reset'),
-    path('api/password_reset/done/', PasswordResetDoneView.as_view(), name='password_reset_done'),
+    path('api/password_reset/', PasswordResetView.as_view(), name='password_reset_request'),
     path('api/password_reset/<uidb64>/<token>/', PasswordResetConfirmView.as_view(),
          name='password_reset_confirm'),
-    path('reset/done/', PasswordResetCompleteView.as_view(), name='password_reset_complete'),
+    # path('api/password_reset/done/', PasswordResetDoneView.as_view(), name='password_reset_done'),
+    # path('reset/done/', PasswordResetCompleteView.as_view(), name='password_reset_complete'),
 ]
 
 # TODO: Need to add forgot password still! Done?

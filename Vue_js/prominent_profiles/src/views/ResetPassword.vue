@@ -31,6 +31,7 @@ import {
   useConfirmPasswordValidation,
   usePasswordValidation
 } from '@/shared_methods/validationUtils'
+import VueCookie from 'vue-cookie'
 
 export default {
   name: 'ResetPassword',
@@ -53,8 +54,13 @@ export default {
         try {
           isSubmitting.value = true
           const { uid, token } = route.query
-          await axios.post(`/api/password_reset/${uid}/${token}/`, {
+          const csrfToken = VueCookie.get('csrftoken')
+          await axios.post(`accounts/api/password_reset/confirm/${uid}/${token}/`, {
             new_password: newPassword.value
+          }, {
+            headers: {
+              'X-CSRFToken': csrfToken
+            }
           })
           message.value = 'Your password has been successfully reset. You can now use your new password to log in.'
         } catch (error) {

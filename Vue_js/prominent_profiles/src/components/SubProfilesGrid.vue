@@ -12,14 +12,17 @@ import { API_BASE_URL } from '@/config'
 import axios from 'axios'
 import { ref, onMounted, onActivated, watch } from 'vue'
 import { useRoute } from 'vue-router'
+import { VueCookies } from
 
 const entities = ref([])
 const route = useRoute()
 const fetchData = async () => {
   try {
+   const csrfToken = VueCookies.get('csrftoken')
     const response = await axios.get(`${API_BASE_URL}/accounts/api/get_sub_list/`, {
       headers: {
         'Content-Type': 'application/json'
+        'X-CSRFToken': csrfToken
       },
       withCredentials: true
     })
