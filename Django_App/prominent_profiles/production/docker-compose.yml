@@ -13,20 +13,14 @@ services:
     ports:
       - "8000:8000"
     environment:
+      - DB_HOST=${DB_HOST}
       - DB_NAME=${DB_NAME}
       - DB_USER=${DB_USER}
       - DB_PASSWORD=${DB_PASSWORD}
-      - DB_HOST=${DB_HOST}
-      - DB_PORT=${DB_PORT}
       - RUNNING_IN_DOCKER=${RUNNING_IN_DOCKER}
       - SECRET_KEY=${SECRET_KEY}
-
-#  vuejs:
-#    image: ghcr.io/meeky37/fy-project/vuejs:latest
-#    ports:
-#      - "8080:80" # Expose Vue.js app on port 8080 on the host (was at 8080 when local).
-#    depends_on:
-#      - web
+      - DJANGO_DEBUG=${DJANGO_DEBUG}
+      - BING_API_KEY=${ING_API_KEY}
 
   nginx:
     image: ghcr.io/meeky37/fy-project/nginx:latest
