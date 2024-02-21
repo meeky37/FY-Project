@@ -15,12 +15,15 @@ services:
     ports:
       - "8000:8000"
     environment:
+      - DB_HOST=${DB_HOST}
       - DB_NAME=${DB_NAME}
       - DB_USER=${DB_USER}
       - DB_PASSWORD=${DB_PASSWORD}
-      - DB_HOST=${DB_HOST}
       - RUNNING_IN_DOCKER=${RUNNING_IN_DOCKER}
       - SECRET_KEY=${SECRET_KEY}
+      - DJANGO_DEBUG=${DJANGO_DEBUG}
+      - CERTBOT_EMAIL=${CERTBOT_EMAIL}
+      - BING_API_KEY=${ING_API_KEY}
 
   nginx:
     build:
