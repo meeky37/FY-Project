@@ -200,9 +200,11 @@ export default {
 .entity-image {
   max-width: 48%;
   margin-right: 10px;
-  border: 2px solid #755BB4;
-  border-radius: 4px;
+  border: 4px solid #755BB4;
   cursor: pointer;
+  height: 15vh;
+  border: 4px solid #755BB4;
+  border-radius: 8px;
 }
 
 .internal-link,

@@ -5,6 +5,10 @@
 
     <div class="form-group">
       <p v-if="loginErrorMessage" class="validation-message">{{ loginErrorMessage }}</p>
+      <button class="wide-button"
+              @click="forgotPassword"
+              v-if="loginErrorMessage"
+              >Forgot Password?</button>
       <label for="emailPhone" class="label">Email / Phone:</label>
       <input type="text"
              id="emailPhone"
@@ -26,7 +30,7 @@
     <p v-if="validationMessagePassword" class="validation-message">{{ validationMessagePassword }}</p>
   </div>
     <div class="button-group">
-      <button class="login-button signup-button"
+      <button class="login-button"
               @click="signUp" >Sign Up</button>
       <button class="login-button"
               @click="login" >Login</button>
@@ -34,11 +38,12 @@
   </div>
 </template>
 <script>
-import { ref, watch } from 'vue'
+import { computed, ref, watch } from 'vue'
 import VueCookies from 'vue-cookie'
 import axios from 'axios'
 import { API_BASE_URL } from '@/config.js'
 import { useRouter } from 'vue-router'
+import { usePasswordValidation } from '@/shared_methods/validationUtils'
 
 export default {
   name: 'LoginPage',
@@ -47,13 +52,12 @@ export default {
     const emailPhone = ref('')
     const password = ref('')
     const validationMessageUser = ref('')
-    const validationMessagePassword = ref('')
     const router = useRouter()
     const loginErrorMessage = ref('')
 
     let validationTimerUser = null
-    let validationTimerPassword = null
 
+    const { validationMessagePassword } = usePasswordValidation(password)
     const focusPasswordInput = () => {
       document.getElementById('password').focus()
     }
@@ -86,8 +90,17 @@ export default {
       }
     }
 
+    const showForgotPassword = computed(() => {
+      // Adjust the condition based on the actual error message you receive
+      return loginErrorMessage.value === 'No active account found with the given credentials'
+    })
+
     const signUp = () => {
       router.push('/sign-up')
+    }
+
+    const forgotPassword = () => {
+      router.push('/forgot-password')
     }
 
     const validateUserNameInput = () => {
@@ -113,28 +126,8 @@ export default {
       }, 1000)
     }
 
-    const validatePassword = () => {
-      clearTimeout(validationTimerPassword)
-
-      validationTimerPassword = setTimeout(() => {
-        if (password.value !== '') {
-          const isStrongPassword = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/.test(password.value)
-
-          validationMessagePassword.value = ''
-
-          // Validation message updated based on password input
-          if (!isStrongPassword) {
-            validationMessagePassword.value = 'Password must be at least 8 characters long and contain at least one letter and one number.'
-          }
-        } else {
-          validationMessagePassword.value = ''
-        }
-      }, 1000)
-    }
-
     // Watch for changes in emailPhone and password and trigger validation
     watch(emailPhone, validateUserNameInput)
-    watch(password, validatePassword)
 
     return {
       emailPhone,
@@ -144,13 +137,17 @@ export default {
       focusPasswordInput,
       loginErrorMessage,
       login,
-      signUp
+      signUp,
+      forgotPassword,
+      showForgotPassword
     }
   }
 }
 
 </script>
-<style scoped>
+
+<style>
+/* Deliberately not scoped to apply to ResetPassword, ForgotPassword pages */
 .login-container {
   display: flex;
   flex-direction: column;
@@ -212,9 +209,22 @@ export default {
   border-radius: 5px;
 }
 
-.login-button:hover {
-  outline: 2px solid #fff;
-  outline-offset: 10px;
+.wide-button {
+  cursor: pointer;
+  height: 35px;
+  width: 250px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #755BB4;
+  border-radius: 5px;
+  margin: 10px 20px 20px;
+  background-color: rgba(117, 91, 180, 0.65);
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: ghostwhite;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  border-radius: 5px;
 }
 
 .button-group {
@@ -228,7 +238,7 @@ export default {
   background-color: #ffebee;
   border: 1px solid #f44336;
   padding: 10px;
-  margin-top: 10px;
+  margin-top: 20px;
   border-radius: 5px;
   width: 20vw;
   text-align: center;

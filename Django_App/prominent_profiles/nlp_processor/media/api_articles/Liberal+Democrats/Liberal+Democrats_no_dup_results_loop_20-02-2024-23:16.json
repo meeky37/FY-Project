@@ -1,0 +1,1871 @@
+[
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=Liberal+Democrats",
+        "queryContext": {
+            "originalQuery": "Liberal Democrats",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 3,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Liberal+Democrats"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Liberal+Democrats&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Moped gangs targeting London cyclists with high-end bicycles",
+                "url": "https://www.standard.co.uk/news/london/moped-gangs-london-cyclists-bicycles-theft-crime-regent-s-park-b1140442.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Y0iUm5wU4quqYIqSOHa33S&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Hackney was named the worst borough for bike theft, after a total of 896 bikes were reported stolen in the east London borough between January and July in 2023. The Clean Cities Campaign, which carried out the research that was published last November, said more than 50 bikes a day were reported stolen across the capital.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8e0ba7b6-4225-fa8a-6369-1b5294e602a5",
+                        "name": "London"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-20T22:32:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Lib Dems call for extra \u00a31bn for farming budget in bid to win rural votes",
+                "url": "https://www.independent.co.uk/news/uk/tim-farron-lib-dems-nfu-liberal-democrats-government-b2499545.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.3f6eyZ-gEUuDasLQ08-2Zy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The party is also calling for \u2018arbitrary\u2019 visa salary thresholds to be abandoned in order to help plug workforce gaps in the food sector.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/186aa09e-5d70-7242-c2fc-bd4e7405ee11",
+                        "name": "Tim Farron"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b4e33529-11c5-9f8f-0276-1807d9cca854",
+                        "name": "Farron"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Tim Farron"
+                    },
+                    {
+                        "name": "Farron"
+                    },
+                    {
+                        "name": "The Independent"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-20T20:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Lib Dems select their Redditch prospective parliamentary candidate",
+                "url": "https://redditchstandard.co.uk/news/redditch-news-lib-dems-select-their-redditch-prospective-parliamentary-candidate/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.I9urM1cAp08xClW8pfILni&pid=News",
+                        "width": 700,
+                        "height": 525
+                    }
+                },
+                "description": "THE <b>LIBERAL Democrats</b> have selected their Redditch Prospective Parliamentary Candidate for the upcoming general election. Andrew Fieldsend-Roxborough lives in the town with his wife and works as an engineer for the National Grid. He said it was an ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1f2ca52b-ef4d-3f7c-617e-50fd930a6589",
+                        "name": "Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5ac93349-6543-9471-e528-ee32bb646bab",
+                        "name": "Prospective parliamentary candidate"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8ca1506-a189-5785-498f-4bdc9d236b5e",
+                        "name": "Redditch"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Redditch Standard"
+                    }
+                ],
+                "datePublished": "2024-02-20T00:00:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=Liberal+Democrats",
+        "queryContext": {
+            "originalQuery": "Liberal Democrats",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 115,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Liberal+Democrats"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Liberal+Democrats&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Moped gangs targeting London cyclists with high-end bicycles",
+                "url": "https://www.standard.co.uk/news/london/moped-gangs-london-cyclists-bicycles-theft-crime-regent-s-park-b1140442.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Y0iUm5wU4quqYIqSOHa33S&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Hackney was named the worst borough for bike theft, after a total of 896 bikes were reported stolen in the east London borough between January and July in 2023. The Clean Cities Campaign, which carried out the research that was published last November, said more than 50 bikes a day were reported stolen across the capital.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8e0ba7b6-4225-fa8a-6369-1b5294e602a5",
+                        "name": "London"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-20T22:32:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Voters are tougher on immigration than all of the main political parties and back policies often seen as the preserve of the Right, poll finds",
+                "url": "https://www.dailymail.co.uk/news/article-13106329/voters-tough-immigration-political-parties-preserve-right.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.sir5RQIglJHegRXJBY2lsi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "A survey of more than 13,000 adults found that almost two-thirds want more restrictions on immigration, including slim majorities of Labour and Liberal Democrat voters.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/93a3e0e2-aecf-e53b-8432-c15f400cfb4e",
+                        "name": "Daily Mail"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/26f1fcaa-22ef-33fe-37e2-0b746a38d963",
+                        "name": "Right-wing politics"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Daily Mail"
+                    },
+                    {
+                        "name": "Right-wing politics"
+                    },
+                    {
+                        "name": "Poll"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-20T21:19:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Lib Dems call for extra \u00a31bn for farming budget in bid to win rural votes",
+                "url": "https://www.independent.co.uk/news/uk/tim-farron-lib-dems-nfu-liberal-democrats-government-b2499545.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.3f6eyZ-gEUuDasLQ08-2Zy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The party is also calling for \u2018arbitrary\u2019 visa salary thresholds to be abandoned in order to help plug workforce gaps in the food sector.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/186aa09e-5d70-7242-c2fc-bd4e7405ee11",
+                        "name": "Tim Farron"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b4e33529-11c5-9f8f-0276-1807d9cca854",
+                        "name": "Farron"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Tim Farron"
+                    },
+                    {
+                        "name": "Farron"
+                    },
+                    {
+                        "name": "The Independent"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-20T20:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "I have your back, Rishi Sunak tells farmers at NFU conference",
+                "url": "https://www.theguardian.com/environment/2024/feb/20/i-have-your-back-rishi-sunak-tells-farmers-at-nfu-conference",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.1Mhx2MYzvF6KMlHUHES2QC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Sunak becomes first PM to address conference since Gordon Brown in 2008, as part of courting of farming sector",
+                "mentions": [
+                    {
+                        "name": "Tell"
+                    },
+                    {
+                        "name": "National Farmers Union of England and Wales"
+                    },
+                    {
+                        "name": "Environment"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-20T19:43:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "How are late-night hosts handling Biden\u2019s age?",
+                "url": "https://www.theguardian.com/tv-and-radio/2024/feb/20/late-night-hosts-biden-age-stewart-colbert?ref=upstract.com",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ETQE8qTAIP6z0pquXCaNpS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "With the US election looming, comedians are grappling with how much to reference Joe Biden\u2019s age without wider pushback",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cad484f9-be75-7a78-12dd-16233f823cd7",
+                        "name": "Joe Biden"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Joe Biden"
+                    },
+                    {
+                        "name": "hosts"
+                    },
+                    {
+                        "name": "The Guardian"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-20T19:13:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Scholars who ranked Trump &#39;worst ever president&#39; SLAMMED for &#39;<b>liberal</b> bias&#39; by polling academic group that&#39;s &#39;barely distinguishable from the Democratic Party and its far-left ...",
+                "url": "https://www.dailymail.co.uk/news/article-13104493/Scholars-Trump-worst-president-liberal-bias-poll-Democratic.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Y4m2LKQQg-817xJfk8-LyS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Social media users pounced on the results, accusing the academics of polling only a small group of experts with a shared outlook that&#39;s increasingly at odds with regular Americans.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1a466af2-ed23-25bd-794d-1ca925e4681b",
+                        "name": "Donald Trump"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/93a3e0e2-aecf-e53b-8432-c15f400cfb4e",
+                        "name": "Daily Mail"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/963b5fe8-c852-f7be-edfb-f62d6b593b90",
+                        "name": "Ranking"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Donald Trump"
+                    },
+                    {
+                        "name": "Daily Mail"
+                    },
+                    {
+                        "name": "Ranking"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-20T18:26:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Lib Dems fight to save Telford/Roseburn Path",
+                "url": "https://www.scotlibdems.org.uk/news/article/lib-dems-fight-to-save-telford-roseburn-path",
+                "description": "Following a recent Transport and Environment Committee meeting, the next phase of the tram project was agreed upon. A concerning point about this is that one of the suggested routes in the Roseburn-Telford path.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/491180ae-bc78-bb74-d925-9a29f183d0ae",
+                        "name": "Roseburn"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c8c3a07-0c6a-0cbb-ce69-1e67d001e752",
+                        "name": "Scottish Liberal Democrats"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ffa703ef-50b0-0752-14a3-9abe0836c063",
+                        "name": "Path"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "scotlibdems"
+                    }
+                ],
+                "datePublished": "2024-02-20T18:25:00.0000000Z"
+            },
+            {
+                "name": "New oil and gas licences signal Britain is not serious about tackling climate change",
+                "url": "https://www.politicshome.com/thehouse/article/offshore-petroleum-licensing-bill-answer-britains-problems",
+                "description": "We\u2019re not even two months into the year and multiple storms have already caused not just property damage and business disruption across the",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "PoliticsHome",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.jYsWK_bTg9eBgVKGQafjWA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-20T18:20:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "York Lib Dem leader calls North Yorkshire councillor&#39;s anti-Semitic comments &quot;appalling&quot;",
+                "url": "https://www.yorkshirepost.co.uk/news/politics/council/york-lib-dem-leader-calls-north-yorkshire-councillors-anti-semitic-comments-appalling-4526701",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.irtsztRBKCMxQS1KE6QBAC&pid=News",
+                        "width": 640,
+                        "height": 427
+                    }
+                },
+                "description": "The leader of York Liberal Democrats has labelled anit-Semitic comments a North Yorkshire councillor in the same party made as \u201cappalling.\u201d Coun Pat Marsh, who chairs the Harrogate and Knaresborough area constituency committee, was suspended from the Liberal Democrats after she tweeted various anti-Semitic comments.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fb1d8fdd-e4d5-f9a0-5f8c-1a03f3c7dad4",
+                        "name": "North Yorkshire"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a60ce14b-6919-f15c-15bd-5d5494ff8598",
+                        "name": "York"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "North Yorkshire"
+                    },
+                    {
+                        "name": "York"
+                    },
+                    {
+                        "name": "Liberal Democrats"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Yorkshire Post",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.09iNt-iyhN1syfVBdWc2jA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-20T17:57:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "&#39;Some people said it was like turkeys voting for Christmas... they were right&#39;",
+                "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/some-people-said-like-turkeys-28666196",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.CVCV2yHH12cCFP6gfsmkGy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Hannah, 34, said: \u201cSome people said it was like turkeys voting for Christmas, and they were right. Me? I didn\u2019t vote Conservative and I never will. Why people thought the Conservatives would do anything for Leigh is beyond me.\u201d",
+                "mentions": [
+                    {
+                        "name": "Turkeys voting for Christmas"
+                    },
+                    {
+                        "name": "Manchester Evening News"
+                    },
+                    {
+                        "name": "Luton Town F.C."
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Manchester Evening News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.oxaa8-w2MDoXi5yOUu7A3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-20T17:34:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Tory minister Maria Caulfield gives bizarre excuse for not handing back \u00a38,000 pay-off",
+                "url": "https://www.mirror.co.uk/news/politics/tory-minister-maria-caulfield-gives-32172000",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.JcIb77UCK0tKnn4ALew_ji&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Tory Health Minister Maria Caulfield pocketed thousands of pounds in severance pay despite returning to the same job just seven weeks later - and she has refused to give it back",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "Tory"
+                    },
+                    {
+                        "name": "Maria Regina High School"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-20T17:25:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Former Burnley MP and current <b>Liberal</b> <b>Democrat</b> candidate Gordon Birtwistle believes he can win at next general election",
+                "url": "https://www.burnleyexpress.net/news/politics/former-burnley-mp-and-current-liberal-democrat-candidate-gordon-birtwistle-believes-he-can-win-at-next-general-election-4526499",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.9hLlX7QRdcVnQmzmMw92jy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Mr Birtwistle, the oldest new MP when he was elected by the people of Burnley to Parliament in 2010, believes there is every chance he will hold that mantle again should his fellow residents elect him a second time at this year\u2019s general election, now at ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/545d667b-c319-315a-30f0-d04649366006",
+                        "name": "Gordon Birtwistle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f777137d-4edd-4c8d-87c8-f6f916f6620b",
+                        "name": "Burnley"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Burnley Express"
+                    }
+                ],
+                "datePublished": "2024-02-20T16:24:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Inspections on water companies to quadruple \u2018to end routine lawbreaking\u2019",
+                "url": "https://www.thenorthernecho.co.uk/news/national/24132234.inspections-water-companies-quadruple-to-end-routine-lawbreaking/",
+                "description": "Inspections on water companies will quadruple over the next year in a bid to crack down on pollution by firms, the Government has announced. The measures to increase checks include up to 500 additional Environment Agency staff for inspections,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/85c008d9-df04-9cef-82c0-496f594c59b2",
+                        "name": "Water"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Northern Echo",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.48z66l2ZlkmQjDjWZGzaZQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-20T16:11:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Lib Dems select their Redditch prospective parliamentary candidate",
+                "url": "https://redditchstandard.co.uk/news/redditch-news-lib-dems-select-their-redditch-prospective-parliamentary-candidate/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.I9urM1cAp08xClW8pfILni&pid=News",
+                        "width": 700,
+                        "height": 525
+                    }
+                },
+                "description": "THE <b>LIBERAL Democrats</b> have selected their Redditch Prospective Parliamentary Candidate for the upcoming general election. Andrew Fieldsend-Roxborough lives in the town with his wife and works as an engineer for the National Grid. He said it was an ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1f2ca52b-ef4d-3f7c-617e-50fd930a6589",
+                        "name": "Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5ac93349-6543-9471-e528-ee32bb646bab",
+                        "name": "Prospective parliamentary candidate"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8ca1506-a189-5785-498f-4bdc9d236b5e",
+                        "name": "Redditch"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Redditch Standard"
+                    }
+                ],
+                "datePublished": "2024-02-20T00:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Farmer&#39;s Junction Update - Feb24",
+                "url": "https://www.scotlibdems.org.uk/news/article/farmers-junction-update-feb24",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.PRSOPuYcKXUZJRzGAOJVKi&pid=News",
+                        "width": 480,
+                        "height": 270
+                    }
+                },
+                "description": "For many years there have been concerns about the safety of what is known as Farmer\u2019s Junction, at the top of Strachan Road, as presently it is very difficult to access this junction safely as a pedestrian. This is especially true for those with a sight ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c8c3a07-0c6a-0cbb-ce69-1e67d001e752",
+                        "name": "Scottish Liberal Democrats"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "scotlibdems"
+                    }
+                ],
+                "datePublished": "2024-02-20T00:00:00.0000000Z"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=Liberal+Democrats",
+        "queryContext": {
+            "originalQuery": "Liberal Democrats",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 215,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Liberal+Democrats"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Liberal+Democrats&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Moped gangs targeting London cyclists with high-end bicycles",
+                "url": "https://www.standard.co.uk/news/london/moped-gangs-london-cyclists-bicycles-theft-crime-regent-s-park-b1140442.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Y0iUm5wU4quqYIqSOHa33S&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Hackney was named the worst borough for bike theft, after a total of 896 bikes were reported stolen in the east London borough between January and July in 2023. The Clean Cities Campaign, which carried out the research that was published last November, said more than 50 bikes a day were reported stolen across the capital.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8e0ba7b6-4225-fa8a-6369-1b5294e602a5",
+                        "name": "London"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-20T22:32:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Voters are tougher on immigration than all of the main political parties and back policies often seen as the preserve of the Right, poll finds",
+                "url": "https://www.dailymail.co.uk/news/article-13106329/voters-tough-immigration-political-parties-preserve-right.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.sir5RQIglJHegRXJBY2lsi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "A survey of more than 13,000 adults found that almost two-thirds want more restrictions on immigration, including slim majorities of Labour and Liberal Democrat voters.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/93a3e0e2-aecf-e53b-8432-c15f400cfb4e",
+                        "name": "Daily Mail"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/26f1fcaa-22ef-33fe-37e2-0b746a38d963",
+                        "name": "Right-wing politics"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Daily Mail"
+                    },
+                    {
+                        "name": "Right-wing politics"
+                    },
+                    {
+                        "name": "Poll"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-20T21:19:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Lib Dems call for extra \u00a31bn for farming budget in bid to win rural votes",
+                "url": "https://www.independent.co.uk/news/uk/tim-farron-lib-dems-nfu-liberal-democrats-government-b2499545.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.3f6eyZ-gEUuDasLQ08-2Zy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The party is also calling for \u2018arbitrary\u2019 visa salary thresholds to be abandoned in order to help plug workforce gaps in the food sector.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/186aa09e-5d70-7242-c2fc-bd4e7405ee11",
+                        "name": "Tim Farron"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b4e33529-11c5-9f8f-0276-1807d9cca854",
+                        "name": "Farron"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Tim Farron"
+                    },
+                    {
+                        "name": "Farron"
+                    },
+                    {
+                        "name": "The Independent"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-20T20:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "I have your back, Rishi Sunak tells farmers at NFU conference",
+                "url": "https://www.theguardian.com/environment/2024/feb/20/i-have-your-back-rishi-sunak-tells-farmers-at-nfu-conference",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.1Mhx2MYzvF6KMlHUHES2QC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Sunak becomes first PM to address conference since Gordon Brown in 2008, as part of courting of farming sector",
+                "mentions": [
+                    {
+                        "name": "Tell"
+                    },
+                    {
+                        "name": "National Farmers Union of England and Wales"
+                    },
+                    {
+                        "name": "Environment"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-20T19:43:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "How are late-night hosts handling Biden\u2019s age?",
+                "url": "https://www.theguardian.com/tv-and-radio/2024/feb/20/late-night-hosts-biden-age-stewart-colbert?ref=upstract.com",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ETQE8qTAIP6z0pquXCaNpS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "With the US election looming, comedians are grappling with how much to reference Joe Biden\u2019s age without wider pushback",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cad484f9-be75-7a78-12dd-16233f823cd7",
+                        "name": "Joe Biden"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Joe Biden"
+                    },
+                    {
+                        "name": "hosts"
+                    },
+                    {
+                        "name": "The Guardian"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-20T19:13:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Scholars who ranked Trump &#39;worst ever president&#39; SLAMMED for &#39;<b>liberal</b> bias&#39; by polling academic group that&#39;s &#39;barely distinguishable from the Democratic Party and its far-left ...",
+                "url": "https://www.dailymail.co.uk/news/article-13104493/Scholars-Trump-worst-president-liberal-bias-poll-Democratic.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Y4m2LKQQg-817xJfk8-LyS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Social media users pounced on the results, accusing the academics of polling only a small group of experts with a shared outlook that&#39;s increasingly at odds with regular Americans.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1a466af2-ed23-25bd-794d-1ca925e4681b",
+                        "name": "Donald Trump"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/93a3e0e2-aecf-e53b-8432-c15f400cfb4e",
+                        "name": "Daily Mail"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/963b5fe8-c852-f7be-edfb-f62d6b593b90",
+                        "name": "Ranking"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Donald Trump"
+                    },
+                    {
+                        "name": "Daily Mail"
+                    },
+                    {
+                        "name": "Ranking"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-20T18:26:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Lib Dems fight to save Telford/Roseburn Path",
+                "url": "https://www.scotlibdems.org.uk/news/article/lib-dems-fight-to-save-telford-roseburn-path",
+                "description": "Following a recent Transport and Environment Committee meeting, the next phase of the tram project was agreed upon. A concerning point about this is that one of the suggested routes in the Roseburn-Telford path.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/491180ae-bc78-bb74-d925-9a29f183d0ae",
+                        "name": "Roseburn"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c8c3a07-0c6a-0cbb-ce69-1e67d001e752",
+                        "name": "Scottish Liberal Democrats"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ffa703ef-50b0-0752-14a3-9abe0836c063",
+                        "name": "Path"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "scotlibdems"
+                    }
+                ],
+                "datePublished": "2024-02-20T18:25:00.0000000Z"
+            },
+            {
+                "name": "New oil and gas licences signal Britain is not serious about tackling climate change",
+                "url": "https://www.politicshome.com/thehouse/article/offshore-petroleum-licensing-bill-answer-britains-problems",
+                "description": "We\u2019re not even two months into the year and multiple storms have already caused not just property damage and business disruption across the",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "PoliticsHome",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.jYsWK_bTg9eBgVKGQafjWA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-20T18:20:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "York Lib Dem leader calls North Yorkshire councillor&#39;s anti-Semitic comments &quot;appalling&quot;",
+                "url": "https://www.yorkshirepost.co.uk/news/politics/council/york-lib-dem-leader-calls-north-yorkshire-councillors-anti-semitic-comments-appalling-4526701",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.irtsztRBKCMxQS1KE6QBAC&pid=News",
+                        "width": 640,
+                        "height": 427
+                    }
+                },
+                "description": "The leader of York Liberal Democrats has labelled anit-Semitic comments a North Yorkshire councillor in the same party made as \u201cappalling.\u201d Coun Pat Marsh, who chairs the Harrogate and Knaresborough area constituency committee, was suspended from the Liberal Democrats after she tweeted various anti-Semitic comments.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fb1d8fdd-e4d5-f9a0-5f8c-1a03f3c7dad4",
+                        "name": "North Yorkshire"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a60ce14b-6919-f15c-15bd-5d5494ff8598",
+                        "name": "York"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "North Yorkshire"
+                    },
+                    {
+                        "name": "York"
+                    },
+                    {
+                        "name": "Liberal Democrats"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Yorkshire Post",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.09iNt-iyhN1syfVBdWc2jA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-20T17:57:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "&#39;Some people said it was like turkeys voting for Christmas... they were right&#39;",
+                "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/some-people-said-like-turkeys-28666196",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.CVCV2yHH12cCFP6gfsmkGy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Hannah, 34, said: \u201cSome people said it was like turkeys voting for Christmas, and they were right. Me? I didn\u2019t vote Conservative and I never will. Why people thought the Conservatives would do anything for Leigh is beyond me.\u201d",
+                "mentions": [
+                    {
+                        "name": "Turkeys voting for Christmas"
+                    },
+                    {
+                        "name": "Manchester Evening News"
+                    },
+                    {
+                        "name": "Luton Town F.C."
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Manchester Evening News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.oxaa8-w2MDoXi5yOUu7A3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-20T17:34:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Tory minister Maria Caulfield gives bizarre excuse for not handing back \u00a38,000 pay-off",
+                "url": "https://www.mirror.co.uk/news/politics/tory-minister-maria-caulfield-gives-32172000",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.JcIb77UCK0tKnn4ALew_ji&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Tory Health Minister Maria Caulfield pocketed thousands of pounds in severance pay despite returning to the same job just seven weeks later - and she has refused to give it back",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "Tory"
+                    },
+                    {
+                        "name": "Maria Regina High School"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-20T17:25:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Former Burnley MP and current <b>Liberal</b> <b>Democrat</b> candidate Gordon Birtwistle believes he can win at next general election",
+                "url": "https://www.burnleyexpress.net/news/politics/former-burnley-mp-and-current-liberal-democrat-candidate-gordon-birtwistle-believes-he-can-win-at-next-general-election-4526499",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.9hLlX7QRdcVnQmzmMw92jy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Mr Birtwistle, the oldest new MP when he was elected by the people of Burnley to Parliament in 2010, believes there is every chance he will hold that mantle again should his fellow residents elect him a second time at this year\u2019s general election, now at ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/545d667b-c319-315a-30f0-d04649366006",
+                        "name": "Gordon Birtwistle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f777137d-4edd-4c8d-87c8-f6f916f6620b",
+                        "name": "Burnley"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Burnley Express"
+                    }
+                ],
+                "datePublished": "2024-02-20T16:24:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Inspections on water companies to quadruple \u2018to end routine lawbreaking\u2019",
+                "url": "https://www.thenorthernecho.co.uk/news/national/24132234.inspections-water-companies-quadruple-to-end-routine-lawbreaking/",
+                "description": "Inspections on water companies will quadruple over the next year in a bid to crack down on pollution by firms, the Government has announced. The measures to increase checks include up to 500 additional Environment Agency staff for inspections,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/85c008d9-df04-9cef-82c0-496f594c59b2",
+                        "name": "Water"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Northern Echo",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.48z66l2ZlkmQjDjWZGzaZQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-20T16:11:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Lib Dems select their Redditch prospective parliamentary candidate",
+                "url": "https://redditchstandard.co.uk/news/redditch-news-lib-dems-select-their-redditch-prospective-parliamentary-candidate/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.I9urM1cAp08xClW8pfILni&pid=News",
+                        "width": 700,
+                        "height": 525
+                    }
+                },
+                "description": "THE <b>LIBERAL Democrats</b> have selected their Redditch Prospective Parliamentary Candidate for the upcoming general election. Andrew Fieldsend-Roxborough lives in the town with his wife and works as an engineer for the National Grid. He said it was an ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1f2ca52b-ef4d-3f7c-617e-50fd930a6589",
+                        "name": "Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5ac93349-6543-9471-e528-ee32bb646bab",
+                        "name": "Prospective parliamentary candidate"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8ca1506-a189-5785-498f-4bdc9d236b5e",
+                        "name": "Redditch"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Redditch Standard"
+                    }
+                ],
+                "datePublished": "2024-02-20T00:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Farmer&#39;s Junction Update - Feb24",
+                "url": "https://www.scotlibdems.org.uk/news/article/farmers-junction-update-feb24",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.PRSOPuYcKXUZJRzGAOJVKi&pid=News",
+                        "width": 480,
+                        "height": 270
+                    }
+                },
+                "description": "For many years there have been concerns about the safety of what is known as Farmer\u2019s Junction, at the top of Strachan Road, as presently it is very difficult to access this junction safely as a pedestrian. This is especially true for those with a sight ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c8c3a07-0c6a-0cbb-ce69-1e67d001e752",
+                        "name": "Scottish Liberal Democrats"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "scotlibdems"
+                    }
+                ],
+                "datePublished": "2024-02-20T00:00:00.0000000Z"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=Liberal+Democrats",
+        "queryContext": {
+            "originalQuery": "Liberal Democrats",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 315,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Liberal+Democrats"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Liberal+Democrats&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Moped gangs targeting London cyclists with high-end bicycles",
+                "url": "https://www.standard.co.uk/news/london/moped-gangs-london-cyclists-bicycles-theft-crime-regent-s-park-b1140442.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Y0iUm5wU4quqYIqSOHa33S&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Hackney was named the worst borough for bike theft, after a total of 896 bikes were reported stolen in the east London borough between January and July in 2023. The Clean Cities Campaign, which carried out the research that was published last November, said more than 50 bikes a day were reported stolen across the capital.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8e0ba7b6-4225-fa8a-6369-1b5294e602a5",
+                        "name": "London"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-20T22:32:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Voters are tougher on immigration than all of the main political parties and back policies often seen as the preserve of the Right, poll finds",
+                "url": "https://www.dailymail.co.uk/news/article-13106329/voters-tough-immigration-political-parties-preserve-right.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.sir5RQIglJHegRXJBY2lsi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "A survey of more than 13,000 adults found that almost two-thirds want more restrictions on immigration, including slim majorities of Labour and Liberal Democrat voters.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/93a3e0e2-aecf-e53b-8432-c15f400cfb4e",
+                        "name": "Daily Mail"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/26f1fcaa-22ef-33fe-37e2-0b746a38d963",
+                        "name": "Right-wing politics"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Daily Mail"
+                    },
+                    {
+                        "name": "Right-wing politics"
+                    },
+                    {
+                        "name": "Poll"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-20T21:19:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Lib Dems call for extra \u00a31bn for farming budget in bid to win rural votes",
+                "url": "https://www.independent.co.uk/news/uk/tim-farron-lib-dems-nfu-liberal-democrats-government-b2499545.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.3f6eyZ-gEUuDasLQ08-2Zy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The party is also calling for \u2018arbitrary\u2019 visa salary thresholds to be abandoned in order to help plug workforce gaps in the food sector.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/186aa09e-5d70-7242-c2fc-bd4e7405ee11",
+                        "name": "Tim Farron"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b4e33529-11c5-9f8f-0276-1807d9cca854",
+                        "name": "Farron"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Tim Farron"
+                    },
+                    {
+                        "name": "Farron"
+                    },
+                    {
+                        "name": "The Independent"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-20T20:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "I have your back, Rishi Sunak tells farmers at NFU conference",
+                "url": "https://www.theguardian.com/environment/2024/feb/20/i-have-your-back-rishi-sunak-tells-farmers-at-nfu-conference",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.1Mhx2MYzvF6KMlHUHES2QC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Sunak becomes first PM to address conference since Gordon Brown in 2008, as part of courting of farming sector",
+                "mentions": [
+                    {
+                        "name": "Tell"
+                    },
+                    {
+                        "name": "National Farmers Union of England and Wales"
+                    },
+                    {
+                        "name": "Environment"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-20T19:43:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "How are late-night hosts handling Biden\u2019s age?",
+                "url": "https://www.theguardian.com/tv-and-radio/2024/feb/20/late-night-hosts-biden-age-stewart-colbert?ref=upstract.com",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ETQE8qTAIP6z0pquXCaNpS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "With the US election looming, comedians are grappling with how much to reference Joe Biden\u2019s age without wider pushback",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/cad484f9-be75-7a78-12dd-16233f823cd7",
+                        "name": "Joe Biden"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Joe Biden"
+                    },
+                    {
+                        "name": "hosts"
+                    },
+                    {
+                        "name": "The Guardian"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-20T19:13:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Scholars who ranked Trump &#39;worst ever president&#39; SLAMMED for &#39;<b>liberal</b> bias&#39; by polling academic group that&#39;s &#39;barely distinguishable from the Democratic Party and its far-left ...",
+                "url": "https://www.dailymail.co.uk/news/article-13104493/Scholars-Trump-worst-president-liberal-bias-poll-Democratic.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Y4m2LKQQg-817xJfk8-LyS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Social media users pounced on the results, accusing the academics of polling only a small group of experts with a shared outlook that&#39;s increasingly at odds with regular Americans.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1a466af2-ed23-25bd-794d-1ca925e4681b",
+                        "name": "Donald Trump"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/93a3e0e2-aecf-e53b-8432-c15f400cfb4e",
+                        "name": "Daily Mail"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/963b5fe8-c852-f7be-edfb-f62d6b593b90",
+                        "name": "Ranking"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Donald Trump"
+                    },
+                    {
+                        "name": "Daily Mail"
+                    },
+                    {
+                        "name": "Ranking"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-20T18:26:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Lib Dems fight to save Telford/Roseburn Path",
+                "url": "https://www.scotlibdems.org.uk/news/article/lib-dems-fight-to-save-telford-roseburn-path",
+                "description": "Following a recent Transport and Environment Committee meeting, the next phase of the tram project was agreed upon. A concerning point about this is that one of the suggested routes in the Roseburn-Telford path.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/491180ae-bc78-bb74-d925-9a29f183d0ae",
+                        "name": "Roseburn"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c8c3a07-0c6a-0cbb-ce69-1e67d001e752",
+                        "name": "Scottish Liberal Democrats"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ffa703ef-50b0-0752-14a3-9abe0836c063",
+                        "name": "Path"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "scotlibdems"
+                    }
+                ],
+                "datePublished": "2024-02-20T18:25:00.0000000Z"
+            },
+            {
+                "name": "New oil and gas licences signal Britain is not serious about tackling climate change",
+                "url": "https://www.politicshome.com/thehouse/article/offshore-petroleum-licensing-bill-answer-britains-problems",
+                "description": "We\u2019re not even two months into the year and multiple storms have already caused not just property damage and business disruption across the",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b1a5155a-6bb2-4646-8f7c-3e6b3a53c831",
+                        "name": "United Kingdom"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "PoliticsHome",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.jYsWK_bTg9eBgVKGQafjWA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-20T18:20:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "York Lib Dem leader calls North Yorkshire councillor&#39;s anti-Semitic comments &quot;appalling&quot;",
+                "url": "https://www.yorkshirepost.co.uk/news/politics/council/york-lib-dem-leader-calls-north-yorkshire-councillors-anti-semitic-comments-appalling-4526701",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.irtsztRBKCMxQS1KE6QBAC&pid=News",
+                        "width": 640,
+                        "height": 427
+                    }
+                },
+                "description": "The leader of York Liberal Democrats has labelled anit-Semitic comments a North Yorkshire councillor in the same party made as \u201cappalling.\u201d Coun Pat Marsh, who chairs the Harrogate and Knaresborough area constituency committee, was suspended from the Liberal Democrats after she tweeted various anti-Semitic comments.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fb1d8fdd-e4d5-f9a0-5f8c-1a03f3c7dad4",
+                        "name": "North Yorkshire"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a60ce14b-6919-f15c-15bd-5d5494ff8598",
+                        "name": "York"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "North Yorkshire"
+                    },
+                    {
+                        "name": "York"
+                    },
+                    {
+                        "name": "Liberal Democrats"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Yorkshire Post",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.09iNt-iyhN1syfVBdWc2jA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-20T17:57:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "&#39;Some people said it was like turkeys voting for Christmas... they were right&#39;",
+                "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/some-people-said-like-turkeys-28666196",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.CVCV2yHH12cCFP6gfsmkGy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Hannah, 34, said: \u201cSome people said it was like turkeys voting for Christmas, and they were right. Me? I didn\u2019t vote Conservative and I never will. Why people thought the Conservatives would do anything for Leigh is beyond me.\u201d",
+                "mentions": [
+                    {
+                        "name": "Turkeys voting for Christmas"
+                    },
+                    {
+                        "name": "Manchester Evening News"
+                    },
+                    {
+                        "name": "Luton Town F.C."
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Manchester Evening News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.oxaa8-w2MDoXi5yOUu7A3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-20T17:34:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Tory minister Maria Caulfield gives bizarre excuse for not handing back \u00a38,000 pay-off",
+                "url": "https://www.mirror.co.uk/news/politics/tory-minister-maria-caulfield-gives-32172000",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.JcIb77UCK0tKnn4ALew_ji&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Tory Health Minister Maria Caulfield pocketed thousands of pounds in severance pay despite returning to the same job just seven weeks later - and she has refused to give it back",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "Tory"
+                    },
+                    {
+                        "name": "Maria Regina High School"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-20T17:25:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Former Burnley MP and current <b>Liberal</b> <b>Democrat</b> candidate Gordon Birtwistle believes he can win at next general election",
+                "url": "https://www.burnleyexpress.net/news/politics/former-burnley-mp-and-current-liberal-democrat-candidate-gordon-birtwistle-believes-he-can-win-at-next-general-election-4526499",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.9hLlX7QRdcVnQmzmMw92jy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Mr Birtwistle, the oldest new MP when he was elected by the people of Burnley to Parliament in 2010, believes there is every chance he will hold that mantle again should his fellow residents elect him a second time at this year\u2019s general election, now at ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/545d667b-c319-315a-30f0-d04649366006",
+                        "name": "Gordon Birtwistle"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f777137d-4edd-4c8d-87c8-f6f916f6620b",
+                        "name": "Burnley"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Burnley Express"
+                    }
+                ],
+                "datePublished": "2024-02-20T16:24:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Inspections on water companies to quadruple \u2018to end routine lawbreaking\u2019",
+                "url": "https://www.thenorthernecho.co.uk/news/national/24132234.inspections-water-companies-quadruple-to-end-routine-lawbreaking/",
+                "description": "Inspections on water companies will quadruple over the next year in a bid to crack down on pollution by firms, the Government has announced. The measures to increase checks include up to 500 additional Environment Agency staff for inspections,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/85c008d9-df04-9cef-82c0-496f594c59b2",
+                        "name": "Water"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Northern Echo",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.48z66l2ZlkmQjDjWZGzaZQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-20T16:11:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Lib Dems select their Redditch prospective parliamentary candidate",
+                "url": "https://redditchstandard.co.uk/news/redditch-news-lib-dems-select-their-redditch-prospective-parliamentary-candidate/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.I9urM1cAp08xClW8pfILni&pid=News",
+                        "width": 700,
+                        "height": 525
+                    }
+                },
+                "description": "THE <b>LIBERAL Democrats</b> have selected their Redditch Prospective Parliamentary Candidate for the upcoming general election. Andrew Fieldsend-Roxborough lives in the town with his wife and works as an engineer for the National Grid. He said it was an ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1f2ca52b-ef4d-3f7c-617e-50fd930a6589",
+                        "name": "Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5ac93349-6543-9471-e528-ee32bb646bab",
+                        "name": "Prospective parliamentary candidate"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8ca1506-a189-5785-498f-4bdc9d236b5e",
+                        "name": "Redditch"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Redditch Standard"
+                    }
+                ],
+                "datePublished": "2024-02-20T00:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Farmer&#39;s Junction Update - Feb24",
+                "url": "https://www.scotlibdems.org.uk/news/article/farmers-junction-update-feb24",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.PRSOPuYcKXUZJRzGAOJVKi&pid=News",
+                        "width": 480,
+                        "height": 270
+                    }
+                },
+                "description": "For many years there have been concerns about the safety of what is known as Farmer\u2019s Junction, at the top of Strachan Road, as presently it is very difficult to access this junction safely as a pedestrian. This is especially true for those with a sight ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1c8c3a07-0c6a-0cbb-ce69-1e67d001e752",
+                        "name": "Scottish Liberal Democrats"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "scotlibdems"
+                    }
+                ],
+                "datePublished": "2024-02-20T00:00:00.0000000Z"
+            }
+        ]
+    }
+]

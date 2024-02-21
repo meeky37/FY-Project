@@ -44,7 +44,6 @@
           {{ country.name }}
         </option>
       </select>
-      <p v-if="validationMessageLocation" class="validation-message">{{ validationMessageLocation }}</p>
     </div>
 
     <div class="form-group" v-if="location === 'United Kingdom'">
@@ -106,43 +105,37 @@ import axios from 'axios'
 import { API_BASE_URL } from '@/config.js'
 import { useRouter } from 'vue-router'
 import { countries } from 'countries-list'
-import validator from 'validator'
+
+import {
+  useEmailValidation, useFirstNameValidation, useLastNameValidation,
+  usePhoneValidation, usePasswordValidation, useConfirmPasswordValidation
+} from
+  '@/shared_methods/validationUtils'
 
 export default {
   name: 'RegisterPage',
-
   setup () {
     const router = useRouter()
-
-    const firstName = ref('')
-    const lastName = ref('')
     const email = ref('')
     const phone = ref('')
-    const dateOfBirth = ref(null)
-    const location = ref('')
+    const firstName = ref('')
+    const lastName = ref('')
     const password = ref('')
     const confirmPassword = ref('')
+    const location = ref('')
+    const dateOfBirth = ref(null)
 
-    // Validation messages for each field
-    const validationMessageEmail = ref('')
-    const validationMessagePhone = ref('')
-    const validationMessageLocation = ref('')
-    const validationMessageFirstName = ref('')
-    const validationMessageLastName = ref('')
-    const validationMessagePassword = ref('')
-    const validationMessageConfirmPassword = ref('')
+    const { validationMessageEmail } = useEmailValidation(email)
+    const { validationMessageFirstName } = useFirstNameValidation(firstName)
+    const { validationMessageLastName } = useLastNameValidation(lastName)
+    const { validationMessagePhone } = usePhoneValidation(phone)
+    const { validationMessagePassword } = usePasswordValidation(password)
+    const { validationMessageConfirmPassword } = useConfirmPasswordValidation(password, confirmPassword)
+
     const signUpMessage = ref('')
-
     const selectedColor = ref('teal')
     const currentDate = new Date()
     const disabledDates = ref([{ start: new Date(currentDate.getFullYear() - 13, currentDate.getMonth(), currentDate.getDate()) }])
-
-    let validationTimerFirstName = null
-    let validationTimerLastName = null
-    let validationTimerEmail = null
-    let validationTimerPhone = null
-    let validationTimerPassword = null
-    let validationTimerConfirmPassword = null
 
     onActivated(async () => {
     // When component is activated clear the password field from any previous use
@@ -194,17 +187,10 @@ export default {
         password.value !== null &&
         password.value === confirmPassword.value
       ) {
-        console.log(email.value)
-        console.log(phone.value)
-        console.log(dateOfBirth.value)
-        console.log(location.value)
-        console.log(firstName.value)
-        console.log(lastName.value)
-        console.log(password.value)
         axios
           .post(`${API_BASE_URL}/accounts/api/register/`, {
             email: email.value,
-            phoneNumber: phone.value,
+            phone_number: phone.value,
             date_of_birth: dateOfBirth.value.toISOString().slice(0, 10),
             location: location.value,
             first_name: firstName.value,
@@ -232,7 +218,10 @@ export default {
             // Display custom error message for duplicate email
             if (error.response && error.response.data.errors &&
                 error.response.data.errors.email === 'This email is already registered.') {
-              signUpMessage.value = 'This email is already registered.'
+              signUpMessage.value = error.response.data.errors.email
+            } else if (error.response && error.response.data.errors &&
+                error.response.data.errors.phone === 'This mobile number is already registered.') {
+              signUpMessage.value = error.response.data.errors.phone
             } else {
               signUpMessage.value = 'An error occurred during registration.'
             }
@@ -241,109 +230,6 @@ export default {
         console.log('Registration cannot proceed with improper input.')
         signUpMessage.value = 'Please check ALL your inputs are valid'
       }
-    }
-
-    const validateEmail = () => {
-      clearTimeout(validationTimerEmail)
-
-      validationTimerEmail = setTimeout(() => {
-        if (email.value !== '') {
-          // const isEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.value)
-          const isEmail = validator.isEmail(email.value)
-
-          if (!isEmail) {
-            validationMessageEmail.value = 'Invalid email format'
-          } else {
-            validationMessageEmail.value = ''
-          }
-        } else {
-          validationMessageEmail.value = ''
-        }
-      }, 1000)
-    }
-    const validatePhone = () => {
-      clearTimeout(validationTimerPhone)
-
-      validationTimerPhone = setTimeout(() => {
-        const trimmedPhone = phone.value
-
-        if (trimmedPhone.startsWith('+44') && trimmedPhone.length > 3) {
-          const nationalFormatPhone = '0' + trimmedPhone.substring(3)
-          const isPhoneNumber = validator.isMobilePhone(nationalFormatPhone, 'en-GB')
-
-          if (!isPhoneNumber) {
-            validationMessagePhone.value = 'Invalid UK mobile number format'
-          } else {
-            validationMessagePhone.value = ''
-          }
-        } else if ((location.value === 'United Kingdom')) {
-          validationMessagePhone.value = 'UK mobile number must start with +44'
-        } else {
-          validationMessagePhone.value = ''
-        }
-      }, 1000)
-    }
-    const validateFirstName = () => {
-      clearTimeout(validationTimerFirstName)
-
-      validationTimerFirstName = setTimeout(() => {
-        if (!/^[a-zA-Z]*$/.test(firstName.value)) {
-          validationMessageFirstName.value = 'Only letters permitted in first name entry'
-        } else if (firstName.value.length < 2) {
-          validationMessageFirstName.value = 'First name must be at least 2 characters long'
-        } else {
-          validationMessageFirstName.value = ''
-        }
-      }, 1000)
-    }
-
-    const validateLastName = () => {
-      clearTimeout(validationTimerLastName)
-
-      validationTimerLastName = setTimeout(() => {
-        if (!/^[a-zA-Z]*$/.test(lastName.value)) {
-          validationMessageLastName.value = 'Only letters permitted in last name entry'
-        } else if (lastName.value.length < 2) {
-          validationMessageLastName.value = 'Last name must be at least 2 characters long'
-        } else {
-          validationMessageLastName.value = ''
-        }
-      }, 1000)
-    }
-
-    const validatePassword = () => {
-      clearTimeout(validationTimerPassword)
-
-      validationTimerPassword = setTimeout(() => {
-        if (password.value !== '') {
-          const isStrongPassword = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/.test(password.value)
-
-          validationMessagePassword.value = ''
-
-          if (!isStrongPassword) {
-            validationMessagePassword.value = 'Password must be at least 8 characters long and contain at least one letter and one number.'
-          }
-        } else {
-          validationMessagePassword.value = ''
-        }
-      }, 1000)
-    }
-
-    const validateConfirmPassword = () => {
-      clearTimeout(validationTimerConfirmPassword)
-
-      validationTimerConfirmPassword = setTimeout(() => {
-        if (confirmPassword.value !== '') {
-          // Check if passwords match
-          if (confirmPassword.value !== password.value) {
-            validationMessageConfirmPassword.value = 'Passwords do not match'
-          } else {
-            validationMessageConfirmPassword.value = ''
-          }
-        } else {
-          validationMessageConfirmPassword.value = ''
-        }
-      }, 1000)
     }
 
     const sortedCountries = computed(() => {
@@ -364,18 +250,12 @@ export default {
     })
 
     // Watch for changes in input fields and trigger validation
-    watch(email, validateEmail)
+    // I have moved this into validationUtils.js
     watch(location, (newVal) => {
       if (newVal === 'United Kingdom' && !phone.value.startsWith('+44')) {
         phone.value = '+44' + phone.value
       }
     })
-    watch(phone, validatePhone)
-    watch(firstName, validateFirstName)
-    watch(lastName, validateLastName)
-    watch(password, validatePassword)
-    watch(confirmPassword, validateConfirmPassword)
-
     return {
       firstName,
       lastName,
@@ -392,7 +272,6 @@ export default {
       validationMessageLastName,
       validationMessageEmail,
       validationMessagePhone,
-      validationMessageLocation,
       validationMessagePassword,
       validationMessageConfirmPassword,
       signUpMessage,

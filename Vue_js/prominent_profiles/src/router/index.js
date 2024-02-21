@@ -7,6 +7,8 @@ import LoginPage from '../views/LoginPage.vue'
 import SignUpPage from '../views/SignUpPage.vue'
 import DashboardPage from '../views/DashboardPage.vue'
 import MenuPage from '@/views/MenuPage.vue'
+import ForgotPassword from '@/views/ForgotPassword.vue'
+import ResetPassword from '@/views/ResetPassword.vue'
 
 const routes = [
   {
@@ -28,6 +30,16 @@ const routes = [
     path: '/login',
     name: 'login',
     component: LoginPage
+  },
+  {
+    path: '/forgot-password',
+    name: 'forgotPassword',
+    component: ForgotPassword
+  },
+  {
+    path: '/reset-password',
+    name: 'resetPassword',
+    component: ResetPassword
   },
   {
     path: '/sign-up',

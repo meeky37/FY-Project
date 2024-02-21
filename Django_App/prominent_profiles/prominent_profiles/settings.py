@@ -260,3 +260,10 @@ ADMIN_SHORTCUTS = [
         'title': 'Fuzzy Matching',
     },
 ]
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.zoho.com'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = 'info@prominentprofiles.com'
+EMAIL_HOST_PASSWORD = os.getenv('EMAIL_PASSWORD', '')

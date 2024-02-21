@@ -1,13 +1,13 @@
 from django.urls import path
-from django.contrib.auth.views import LoginView, LogoutView
+from django.contrib.auth.views import (LoginView, LogoutView, PasswordResetView,
+                                       PasswordResetDoneView, PasswordResetConfirmView,
+                                       PasswordResetCompleteView)
 from rest_framework_simplejwt.views import (
     TokenObtainPairView,
     TokenRefreshView,
     TokenVerifyView,
 )
 from .views import get_user_data, register_user, toggle_sub, get_sub_status, get_sub_list
-
-
 
 urlpatterns = [
     path('login/', LoginView.as_view(), name='login'),
@@ -20,5 +20,12 @@ urlpatterns = [
     path('api/toggle_sub/<int:entity_id>/', toggle_sub, name='toggle_sub'),
     path('api/get_sub_status/<int:entity_id>/', get_sub_status, name='get_sub_status'),
     path('api/get_sub_list/', get_sub_list, name='get_sub_list'),
+    # 20th Feb add -> Password reset links
+    path('api/password_reset/', PasswordResetView.as_view(), name='password_reset'),
+    path('api/password_reset/done/', PasswordResetDoneView.as_view(), name='password_reset_done'),
+    path('api/password_reset/<uidb64>/<token>/', PasswordResetConfirmView.as_view(),
+         name='password_reset_confirm'),
+    path('reset/done/', PasswordResetCompleteView.as_view(), name='password_reset_complete'),
 ]
-    # TODO: Need to add forgot password still!
+
+# TODO: Need to add forgot password still! Done?

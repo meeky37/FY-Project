@@ -19,7 +19,6 @@ def register_user(request):
     """Registers a user provided they email is unique"""
     # TODO: Extend to phone number?
     data = request.data
-
     serializer = CustomUserSerializer(data=data)
     if serializer.is_valid():
         user = serializer.save()
@@ -32,6 +31,13 @@ def register_user(request):
             return Response(
                 {'success': False, 'errors': {'email': 'This email is already registered.'}},
                 status=status.HTTP_400_BAD_REQUEST)
+
+        if 'phone_number' in serializer.errors:
+            return Response(
+                {'success': False, 'errors':
+                    {'mobile': 'This mobile number is already registered.'}},
+                status=status.HTTP_400_BAD_REQUEST)
+
         else:
             return Response({'success': False, 'errors': serializer.errors},
                             status=status.HTTP_400_BAD_REQUEST)
