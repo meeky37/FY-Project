@@ -12,7 +12,7 @@ import { API_BASE_URL } from '@/config'
 import axios from 'axios'
 import { ref, onMounted, onActivated, watch } from 'vue'
 import { useRoute } from 'vue-router'
-import { VueCookies } from
+import { VueCookies } from 'vue-cookie'
 
 const entities = ref([])
 const route = useRoute()
