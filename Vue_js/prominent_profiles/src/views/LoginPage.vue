@@ -241,6 +241,7 @@ export default {
   margin-top: 20px;
   border-radius: 5px;
   width: 20vw;
+  min-width: 300px;
   text-align: center;
 }
 
