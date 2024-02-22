@@ -261,6 +261,7 @@ ADMIN_SHORTCUTS = [
     },
 ]
 
+DEFAULT_FROM_EMAIL = 'info@prominentprofiles.com'
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtppro.zoho.eu'
 EMAIL_PORT = 587
