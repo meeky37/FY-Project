@@ -23,7 +23,8 @@ services:
       - SECRET_KEY=${SECRET_KEY}
       - DJANGO_DEBUG=${DJANGO_DEBUG}
       - CERTBOT_EMAIL=${CERTBOT_EMAIL}
-      - BING_API_KEY=${ING_API_KEY}
+      - BING_API_KEY=${BING_API_KEY}
+      - EMAIL_PASSWORD=${EMAIL_PASSWORD}
 
   nginx:
     build:

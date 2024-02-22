@@ -20,7 +20,8 @@ services:
       - RUNNING_IN_DOCKER=${RUNNING_IN_DOCKER}
       - SECRET_KEY=${SECRET_KEY}
       - DJANGO_DEBUG=${DJANGO_DEBUG}
-      - BING_API_KEY=${ING_API_KEY}
+      - BING_API_KEY=${BING_API_KEY}
+      - EMAIL_PASSWORD=${EMAIL_PASSWORD}
 
   nginx:
     image: ghcr.io/meeky37/fy-project/nginx:latest
@@ -36,7 +37,6 @@ services:
       - "443:443"
     depends_on:
       - web
-#      - vuejs
 
   certbot:
     image: certbot/certbot
