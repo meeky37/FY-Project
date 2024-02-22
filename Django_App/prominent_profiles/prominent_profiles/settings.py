@@ -116,6 +116,10 @@ CORS_TRUSTED_ORIGINS = [
     "https://prominentprofiles.com",
 ]
 
+CORS_ORIGIN_REGEX_WHITELIST = [
+    r"^https://\w+\.prominentprofiles\.com$",
+]
+
 CORS_ALLOW_HEADERS = [
     'accept',
     'accept-encoding',
