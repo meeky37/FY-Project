@@ -147,23 +147,10 @@ CSRF_COOKIE_SECURE = True
 CSRF_COOKIE_NAME = "csrftoken"
 CSRF_HEADER_NAME = "HTTP_X_CSRFTOKEN"
 CSRF_TRUSTED_ORIGINS = ['http://localhost:8080',
-                        "https://www.prominentprofiles.com"]
+                        "https://www.prominentprofiles.com",
+                        'https://prominentprofiles.com']
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
-
-#
-# CORS_ALLOWED_ORIGINS = [
-#     "http://localhost:8084",  # Obviously, do not use in production.
-#     "http://localhost:8088",
-#     "http://localhost:8080",
-#     "http://localhost:8081",
-#     "http://localhost:8082",
-#     "http://localhost:8083",
-#     "http://localhost:8085",
-#     "http://localhost:8086",
-#     "http://localhost:8087",
-#     "http://localhost:8089",
-# ]
 
 ROOT_URLCONF = 'prominent_profiles.urls'
 
