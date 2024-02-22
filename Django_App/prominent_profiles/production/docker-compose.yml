@@ -51,7 +51,30 @@ services:
     command: >
       certonly --webroot --webroot-path=/var/www/certbot
       --email ${CERTBOT_EMAIL} --agree-tos --no-eff-email
-      --staging -d prominentprofiles.com -d www.prominentprofiles.com
+      -d prominentprofiles.com -d www.prominentprofiles.com
+
+  redis:
+    image: redis:alpine
+    ports:
+      - 6379:6379
+
+  celery:
+    build: .
+    user: django-user
+    command: ["celery", "-A", "myproject", "worker", "--loglevel=info"]
+    volumes:
+      - .:/app
+    depends_on:
+      - redis
+
+  celerybeat:
+    build: .
+    user: django-user
+    command: ["celery", "-A", "myproject", "beat", "--loglevel=info", "--scheduler", "django_celery_beat.schedulers:DatabaseScheduler"]
+    volumes:
+      - .:/app
+    depends_on:
+      - redis
 
 volumes:
   postgres_data:
