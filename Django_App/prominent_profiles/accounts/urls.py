@@ -1,4 +1,4 @@
-from django.urls import path
+from django.urls import path, include
 from django.contrib.auth.views import (LoginView, LogoutView, PasswordResetView,
                                        PasswordResetDoneView, PasswordResetConfirmView,
                                        PasswordResetCompleteView)
@@ -21,11 +21,17 @@ urlpatterns = [
     path('api/toggle_sub/<int:entity_id>/', toggle_sub, name='toggle_sub'),
     path('api/get_sub_status/<int:entity_id>/', get_sub_status, name='get_sub_status'),
     path('api/get_sub_list/', get_sub_list, name='get_sub_list'),
-    # 20th Feb add -> Password reset links
-    path('api/password_reset/', CustomPasswordResetView.as_view(),
-         name='password_r   eset_request'),
-    path('api/password_reset/<uidb64>/<token>/', PasswordResetConfirmView.as_view(),
+
+    # Django Password Reset Views
+    path('password_reset/', CustomPasswordResetView.as_view(),
+         name='password_reset_request'),
+    path('password_reset/<uidb64>/<token>/', PasswordResetConfirmView.as_view(),
          name='password_reset_confirm'),
-    path('api/password_reset/done/', PasswordResetDoneView.as_view(), name='password_reset_done'),
+    path('password_reset/done/', PasswordResetDoneView.as_view(), name='password_reset_done'),
     path('reset/done/', PasswordResetCompleteView.as_view(), name='password_reset_complete'),
+
+    # Django Rest Password Reset
+    path('api/password_reset/',
+         include('django_rest_passwordreset.urls', namespace='password_reset')),
+
 ]

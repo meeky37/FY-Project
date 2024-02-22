@@ -54,19 +54,42 @@ export default {
       if (isFormValid.value) {
         try {
           isSubmitting.value = true
-          const { uid, token } = route.query
+          const { token } = route.query
           const csrfToken = VueCookies.get('csrftoken')
-          await axios.post(`${API_BASE_URL}accounts/api/password_reset/${uid}/${token}/`, {
-            new_password: newPassword.value
+
+          // We should validate the token first - it may have expired
+          const validationResponse = await axios.post(`${API_BASE_URL}/accounts/api/password_reset/validate_token/`, {
+            token: token
           }, {
             headers: {
               'X-CSRFToken': csrfToken
             }
           })
-          message.value = 'Your password has been successfully reset. You can now use your new password to log in.'
+
+          // Check if the token validation was successful
+          if (validationResponse.status === 200) {
+            // Token is valid, proceed with password reset confirmation
+            try {
+              await axios.post(`${API_BASE_URL}/accounts/api/password_reset/confirm/`, {
+                token: token,
+                password: newPassword.value
+              }, {
+                headers: {
+                  'X-CSRFToken': csrfToken
+                }
+              })
+              message.value = 'Your password has been successfully reset. You can now use your new password to log in.'
+            } catch (error) {
+              console.error('Password reset confirmation error:', error)
+              message.value = 'An error occurred while confirming your new password. Please try again.'
+            }
+          } else {
+            // Token validation failed
+            message.value = 'This password reset link is invalid or has expired. Please request a new one.'
+          }
         } catch (error) {
-          console.error('Password reset error:', error)
-          message.value = 'An error occurred while trying to reset your password. Please try again.'
+          console.error('Token validation error:', error)
+          message.value = 'This password reset link is invalid or has expired. Please request a new one.'
         } finally {
           isSubmitting.value = false
         }
