@@ -16,7 +16,7 @@
 import { ref } from 'vue'
 import axios from 'axios'
 import { API_BASE_URL } from '@/config'
-import VueCookie from 'vue-cookie'
+import VueCookies from 'vue-cookie'
 
 export default {
   name: 'ForgotPasswordPage',
@@ -30,7 +30,7 @@ export default {
       message.value = ''
 
       try {
-        const csrfToken = VueCookie.get('csrftoken')
+        const csrfToken = VueCookies.get('csrftoken')
         await axios.post(`${API_BASE_URL}/accounts/api/password_reset/`, { email: email.value }, {
           headers: {
             'X-CSRFToken': csrfToken

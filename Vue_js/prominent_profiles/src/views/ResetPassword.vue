@@ -31,7 +31,7 @@ import {
   useConfirmPasswordValidation,
   usePasswordValidation
 } from '@/shared_methods/validationUtils'
-import VueCookie from 'vue-cookie'
+import VueCookies from 'vue-cookie'
 import { API_BASE_URL } from '@/config'
 
 export default {
@@ -55,7 +55,7 @@ export default {
         try {
           isSubmitting.value = true
           const { uid, token } = route.query
-          const csrfToken = VueCookie.get('csrftoken')
+          const csrfToken = VueCookies.get('csrftoken')
           await axios.post(`${API_BASE_URL}accounts/api/password_reset/${uid}/${token}/`, {
             new_password: newPassword.value
           }, {

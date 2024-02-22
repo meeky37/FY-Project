@@ -17,23 +17,27 @@ import VueCookies from 'vue-cookie'
 const entities = ref([])
 const route = useRoute()
 const fetchData = async () => {
-  try {
-    const csrfToken = VueCookies.get('csrftoken')
-    const response = await axios.get(`${API_BASE_URL}/accounts/api/get_sub_list/`, {
-      headers: {
-        'Content-Type': 'application/json',
-        'X-CSRFToken': csrfToken
-      },
-      withCredentials: true
-    })
+  // Making API call conditional as dashboard may be briefly visited before redirect when logged out.
+  const accessToken = VueCookies.get('access_token')
+  if (accessToken) {
+    try {
+      const csrfToken = VueCookies.get('csrftoken')
+      const response = await axios.get(`${API_BASE_URL}/accounts/api/get_sub_list/`, {
+        headers: {
+          'Content-Type': 'application/json',
+          'X-CSRFToken': csrfToken
+        },
+        withCredentials: true
+      })
 
-    console.log(response)
-    entities.value = response.data.subscribed_entities.map((item) => ({
-      entity_id: item.id,
-      entity_name: item.name
-    }))
-  } catch (error) {
-    console.error('Error fetching data:', error)
+      console.log(response)
+      entities.value = response.data.subscribed_entities.map((item) => ({
+        entity_id: item.id,
+        entity_name: item.name
+      }))
+    } catch (error) {
+      console.error('Error fetching data:', error)
+    }
   }
 }
 
