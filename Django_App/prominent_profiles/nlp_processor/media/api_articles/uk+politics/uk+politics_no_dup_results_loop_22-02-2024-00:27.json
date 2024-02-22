@@ -1,0 +1,2296 @@
+[
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics",
+        "queryContext": {
+            "originalQuery": "uk politics",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 12,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Government launches baby loss certificate scheme to \u2018recognise grief of parents\u2019",
+                "url": "https://www.basingstokegazette.co.uk/news/national/24135851.government-launches-baby-loss-certificate-scheme-recognise-grief-parents/",
+                "description": "\u201cWe cannot begin to tackle the wider problem of baby loss without a Government commitment to gather and record <b>UK</b>-wide miscarriage statistics. \u201cWithout data, miscarriage remains a largely hidden problem and isn\u2019t prioritised, despite the tens of ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5634d914-4190-dd0b-fa80-715c2ac46335",
+                        "name": "Government"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/035c7db6-2243-e5ef-0444-567071b875ed",
+                        "name": "Scheme"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Gazette"
+                    }
+                ],
+                "datePublished": "2024-02-22T00:10:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "<b>UK</b> quits \u2018outdated\u2019 treaty that could penalise shift to net zero",
+                "url": "https://www.swindonadvertiser.co.uk/news/national/24135844.uk-quits-outdated-treaty-penalise-shift-net-zero/",
+                "description": "\u201cCivil society organisations and parliamentarians from all <b>political</b> parties have been clear that the Energy Charter Treaty is an out-of-date agreement and undermines our efforts to tackle climate change. \u201cWe welcome the <b>UK</b>\u2019s decision to ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Swindon Advertiser"
+                    }
+                ],
+                "datePublished": "2024-02-22T00:09:00.0000000Z",
+                "category": "ScienceAndTechnology"
+            },
+            {
+                "name": "Poorer families in full-time jobs \u2018need eight-day week to escape poverty\u2019",
+                "url": "https://www.eadt.co.uk/news/national/24135842.poorer-families-full-time-jobs-need-eight-day-week-escape-poverty/",
+                "description": "The charity said its analysis showed almost 300,000 low-income families with children in the <b>UK</b> are trapped in poverty despite the ... \u201cIn this election year, this is something all <b>political</b> parties must address. \u201cFurther research is needed into ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/84b8fb13-f777-5d2c-78fc-c7d54c6546b8",
+                        "name": "Poverty"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/721eadb1-aeec-783d-36b7-94c39e6e4601",
+                        "name": "Full-time"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "East Anglian Daily Times 24"
+                    }
+                ],
+                "datePublished": "2024-02-22T00:09:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "\u2018Most distressed\u2019 IPP prisoners should be immediately released, charity says",
+                "url": "https://www.theargus.co.uk/news/national/24135840.most-distressed-ipp-prisoners-immediately-released-charity-says/",
+                "description": "In its report, the CCJS said reviews of resentencing for all IPP prisoners and all forms of preventative detention in the <b>UK</b> should be ordered ... adopt our recommendations without delay, to end the <b>political</b> inertia that has allowed this stain on the ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Argus"
+                    }
+                ],
+                "datePublished": "2024-02-22T00:09:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "More than 2,700 dangerous wild animals privately owned, figures show",
+                "url": "https://www.countytimes.co.uk/news/national/24135846.2-700-dangerous-wild-animals-privately-owned-figures-show/",
+                "description": "Dr Mark Jones, Born Free\u2019s head of policy, said: \u201cIt is unbelievable that, in this day and age, so many dangerous animals, including big cats, large primates, crocodiles and venomous snakes, continue to be legally kept in people\u2019s homes in the <b>UK</b>.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/064644a1-4ce5-6209-6306-a69d3734b8f6",
+                        "name": "County"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "countytimes.co.uk"
+                    }
+                ],
+                "datePublished": "2024-02-22T00:09:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "Commons Speaker under pressure after Gaza vote chaos",
+                "url": "https://www.inverness-courier.co.uk/news/national/commons-speaker-under-pressure-after-gaza-vote-chaos-100626/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.kU1HBzjOE7kjBTmMUcndWi&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The Speaker of the House of Commons is under pressure over his handling of a debate on Gaza, which resulted in MPs passing Labour\u2019s amendment calling for an \u201cimmediate humanitarian ceasefire\u201d amid scenes of chaos. The motion was approved but only ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90eb9ff6-60ad-da43-d3fe-1ee3e3cb775a",
+                        "name": "Gaza Strip"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Inverness Courier"
+                    }
+                ],
+                "datePublished": "2024-02-22T00:01:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Gaza ceasefire vote: Commons debate descends into chaos",
+                "url": "https://www.bbc.com/news/uk-politics-68362405.amp",
+                "description": "&quot;This should have been the chance for the <b>UK</b> Parliament to do the right thing and vote for ... Sir Keir accused the Conservatives and SNP of &quot;choosing <b>political</b> games over serious solutions&quot;. &quot;Today was a chance for Parliament to unite and speak with ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90eb9ff6-60ad-da43-d3fe-1ee3e3cb775a",
+                        "name": "Gaza Strip"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC"
+                    }
+                ],
+                "datePublished": "2024-02-21T20:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Tensions rise towards Speaker in Commons Gaza debate",
+                "url": "https://www.bbc.co.uk/news/av/uk-politics-68358532",
+                "description": "Conservative and SNP MPs show their anger with Lindsay Hoyle&#39;s ruling over a debate calling for a Middle East ceasefire.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90eb9ff6-60ad-da43-d3fe-1ee3e3cb775a",
+                        "name": "Gaza Strip"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-21T15:46:00.0000000Z",
+                "video": {
+                    "name": "Tensions rise towards Speaker in Commons Gaza debate",
+                    "thumbnailUrl": "https://www.bing.com/th?id=OVF.Qlr5kWJqXJRnNOkWol8JTw&pid=News",
+                    "embedHtml": "&lt;iframe width=&quot;400&quot; height=&quot;500&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://www.bbc.com/news/av-embeds/68358532/vpid/p0hd6j4p&quot;&gt;&lt;/iframe&gt;",
+                    "allowHttpsEmbed": true,
+                    "thumbnail": {
+                        "width": 520,
+                        "height": 292
+                    }
+                },
+                "category": "Politics"
+            },
+            {
+                "name": "Councillor\u2019s lying says more than MP\u2019s insensitive moment",
+                "url": "https://www.edp24.co.uk/news/24133420.councillors-lying-says-mps-insensitive-moment/",
+                "description": "While empathy is due to anyone who is working hard and struggling, MP George Freeman\u2019s pleading poverty as reason to resign his ministerial",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9fb40164-659e-c352-e3cb-fc1a572992b3",
+                        "name": "Councillor"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "EDP 24",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.jwNaXSYAQbMSCRbjWcrBZA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-21T10:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Embracing geopolitical uncertainty: Why discord presents lucrative opportunities for investors",
+                "url": "https://www.lbc.co.uk/opinion/views/embracing-geopolitical-uncertainty-discord-presents-lucrative-opportunities/",
+                "description": "With geopolitical worries thickening it is tempting for investors to succumb to pessimism. But remember that from a purely investment point of view discord also brings opportunity.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "LBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.iWFEm2xSUKuVEhtVsjP6gQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-21T07:11:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Why Speaker\u2019s decision on Gaza debate in House of Commons sparked chaos in chamber",
+                "url": "https://www.independent.co.uk/politics/speaker-gaza-commons-lyndsay-hoyle-votes-b2500244.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.CruCqQNat5RQWQShJnDyIi&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Commons Leader Penny Mordaunt accused Sir Lindsay of having \u201chijacked\u201d the debate and said it had become a \u201c<b>political</b> row within the Labour Party\u201d, adding: \u201cRegrettably Mr Speaker has inserted himself into that row with today\u2019s decision and ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90eb9ff6-60ad-da43-d3fe-1ee3e3cb775a",
+                        "name": "Gaza Strip"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/624ebe06-f26e-873c-8a3d-de65c757453a",
+                        "name": "Speaker"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "Gaza Strip"
+                    },
+                    {
+                        "name": "Speaker"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent"
+                    }
+                ],
+                "datePublished": "2024-02-21T00:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "This is the year to get <b>political</b> and make the case for what you believe in",
+                "url": "https://www.architectsjournal.co.uk/news/opinion/this-is-the-year-to-get-political-and-make-the-case-for-what-you-believe-in",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.wjX0ia3N17VJBSYvnGzHhi&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Having barely emerged from the tumult of Brexit and the Covid-19 pandemic, the <b>UK</b>\u2019s <b>political</b> framework and resolve have been tested to their limits in recent months. As a beleaguered Tory administration prepares for what must be an election year ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/44c3d8ea-5fbe-69e7-dc5b-d4109b17b8eb",
+                        "name": "This is..."
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Architects&#39; Journal"
+                    }
+                ],
+                "datePublished": "2024-02-21T00:00:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics",
+        "queryContext": {
+            "originalQuery": "uk politics",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 131,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Government launches baby loss certificate scheme to \u2018recognise grief of parents\u2019",
+                "url": "https://www.basingstokegazette.co.uk/news/national/24135851.government-launches-baby-loss-certificate-scheme-recognise-grief-parents/",
+                "description": "\u201cWe cannot begin to tackle the wider problem of baby loss without a Government commitment to gather and record <b>UK</b>-wide miscarriage statistics. \u201cWithout data, miscarriage remains a largely hidden problem and isn\u2019t prioritised, despite the tens of ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5634d914-4190-dd0b-fa80-715c2ac46335",
+                        "name": "Government"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/035c7db6-2243-e5ef-0444-567071b875ed",
+                        "name": "Scheme"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Gazette"
+                    }
+                ],
+                "datePublished": "2024-02-22T00:10:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "More than 2,700 dangerous wild animals privately owned, figures show",
+                "url": "https://www.countytimes.co.uk/news/national/24135846.2-700-dangerous-wild-animals-privately-owned-figures-show/",
+                "description": "Dr Mark Jones, Born Free\u2019s head of policy, said: \u201cIt is unbelievable that, in this day and age, so many dangerous animals, including big cats, large primates, crocodiles and venomous snakes, continue to be legally kept in people\u2019s homes in the <b>UK</b>.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/064644a1-4ce5-6209-6306-a69d3734b8f6",
+                        "name": "County"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "countytimes.co.uk"
+                    }
+                ],
+                "datePublished": "2024-02-22T00:09:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "\u2018Politically driven\u2019 post-16 policy churn has damaged stability, think tank warns",
+                "url": "https://feweek.co.uk/politically-driven-post-16-policy-churn-has-damaged-stability-think-tank-warns/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.yqVM_shiJFaxcYyTDoYlNC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Governments must end the \u201chigh level\u201d of policy churn across all four UK nations that has caused instabilities and overly complex training routes",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "FE Week",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.DER86qo6SEguMGBxyaHiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-22T00:01:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Commons Speaker under pressure after Gaza vote chaos",
+                "url": "https://www.inverness-courier.co.uk/news/national/commons-speaker-under-pressure-after-gaza-vote-chaos-100626/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.kU1HBzjOE7kjBTmMUcndWi&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The Speaker of the House of Commons is under pressure over his handling of a debate on Gaza, which resulted in MPs passing Labour\u2019s amendment calling for an \u201cimmediate humanitarian ceasefire\u201d amid scenes of chaos. The motion was approved but only ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90eb9ff6-60ad-da43-d3fe-1ee3e3cb775a",
+                        "name": "Gaza Strip"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Inverness Courier"
+                    }
+                ],
+                "datePublished": "2024-02-22T00:01:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>UK</b> quits \u2018outdated\u2019 treaty that could penalise shift to net zero",
+                "url": "https://www.independent.co.uk/climate-change/news/green-alliance-government-germany-spain-netherlands-b2500316.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.-ny7ueh6BT-Go3LvaxGvZC&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "\u201cCivil society organisations and parliamentarians from all <b>political</b> parties have been clear that the Energy Charter Treaty is an out-of-date agreement and undermines our efforts to tackle climate change. \u201cWe welcome the <b>UK</b>\u2019s decision to ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "Green Alliance"
+                    },
+                    {
+                        "name": "Climate"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent"
+                    }
+                ],
+                "datePublished": "2024-02-22T00:00:00.0000000Z"
+            },
+            {
+                "name": "The Private Sector Must Continue to Take Charge of Eastern Europe&#39;s Economic Development",
+                "url": "https://www.ibtimes.co.uk/private-sector-must-continue-take-charge-eastern-europes-economic-development-1723486",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Ak8erFvQCxFyngvOs_oWmy&pid=News",
+                        "width": 619,
+                        "height": 365
+                    }
+                },
+                "description": "Historically, the post-Soviet sphere still suffers from the challenges emanating from its legacies of centralized economies and unstable <b>political</b> transitions. As many a government still struggles to navigate complex reforms and institutional changes ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/501457aa-5b70-cfba-cfd8-be882b4bac1e",
+                        "name": "Europe"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fa5bb100-bee7-bf23-ba27-cdb6971cd2c6",
+                        "name": "Eastern Europe"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/23e1b11a-7a11-10c3-c0e7-e85376c56266",
+                        "name": "Economic development"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "IBTimes UK"
+                    }
+                ],
+                "datePublished": "2024-02-21T23:41:00.0000000Z"
+            },
+            {
+                "name": "Prince Harry&#39;s path to royal reconciliation could take years as &#39;trust&#39; must be gained",
+                "url": "https://www.mirror.co.uk/3am/us-celebrity-news/prince-harrys-path-royal-reconciliation-32183115?int_source=amp_continue_reading&int_medium=amp&int_campaign=continue_reading_button",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.P_MugWkC_zdbA5NIkWwm8S&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Prince Harry&#39;s Path to Royal Reconciliation Could Take Years as &#39;trust&#39; must be gained. Newsweek&#39;s royal correspondent Jack Royston, has mapped out Harry&#39;s possible route back.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-21T23:27:00.0000000Z"
+            },
+            {
+                "name": "Gaza ceasefire vote: Commons debate descends into chaos",
+                "url": "https://www.bbc.co.uk/news/uk-politics-68362405.amp",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.5WEyn3KTT0-SMkqYSUIF2y&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "A Commons debate on calls for a ceasefire in Gaza descended into chaos, after the Speaker was accused of allowing it to be &quot;hijacked&quot; by Labour. Sir Lindsay Hoyle sparked fury from the SNP and Conservatives when he broke with convention to allow a vote on a Labour motion for an &quot;immediate humanitarian ceasefire&quot;.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90eb9ff6-60ad-da43-d3fe-1ee3e3cb775a",
+                        "name": "Gaza Strip"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-21T22:22:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "MP accuses &#39;infuriating&#39; IMF of dodging scrutiny as it sits on its &#39;perch in Washington&#39;",
+                "url": "https://www.thisismoney.co.uk/money/markets/article-13110591/MP-accuses-infuriating-IMF-dodging-scrutiny-sits-perch-Washington.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.qP-kswPU6EcdZZAl9JsUri&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "A senior MP who chairs the Treasury select committee branded it \u2018infuriating\u2019, just weeks after the IMF waded into <b>UK politics</b> by advising Chancellor Jeremy Hunt not to cut taxes in the Budget next month and increase public spending. The Washington ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/44c3d8ea-5fbe-69e7-dc5b-d4109b17b8eb",
+                        "name": "This is..."
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/216726d1-8987-06d3-5eff-823da05c3d3c",
+                        "name": "Washington, D.C."
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "This is..."
+                    },
+                    {
+                        "name": "Washington, D.C."
+                    },
+                    {
+                        "name": "Scrutiny"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "This is Money"
+                    }
+                ],
+                "datePublished": "2024-02-21T22:05:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "SNP\u2019s Stephen Flynn calls for investigation following chaotic Gaza vote",
+                "url": "https://www.scotsman.com/news/politics/snps-stephen-flynn-calls-for-investigation-following-chaotic-gaza-vote-4528450",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.2hb9czNmNVa9tZeCLiVk2S&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Stephen Flynn has called for an investigation into the chaos in the Commons on Wednesday following a debate on Gaza led by his party.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Scotsman",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.QlHkHD_RALY4hnQHpw7jBw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-21T21:52:00.0000000Z",
+                "category": "ScienceAndTechnology"
+            },
+            {
+                "name": "House of Commons Gaza debate: What happened during the chamber\u2019s day of chaos?",
+                "url": "https://www.irishnews.com/news/uk/house-of-commons-gaza-debate-what-happened-during-the-chambers-day-of-chaos-LK6WMNSGP5OTHL2WCBATZFZSZQ/",
+                "description": "What was meant to be a discussion about the UK\u2019s policy on the Hamas-Israel conflict spiralled into heated exchanges on the Speaker\u2019s actions.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7fa7286a-62e2-4a7e-4956-c7364e046b5f",
+                        "name": "House of Commons of the United Kingdom"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "House of Commons of the United Kingdom"
+                    },
+                    {
+                        "name": "Chamber"
+                    },
+                    {
+                        "name": "Debate"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Irish News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.__x40GFqMbYWdAqfe63VNg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-21T21:43:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "More than 30 MPs sign motion of no confidence in Commons speaker \u2013 <b>UK politics</b> live",
+                "url": "https://www.theguardian.com/politics/live/2024/feb/21/kemi-badenoch-post-office-scandal-rishi-sunak-keir-starmer-pmqs-uk-politics-live?page=with:block-65d67b4e8f089d88380e86a6",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.NaWcIuyLv71BbYKw3kacny&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Labour amendment calling for immediate Gaza ceasefire passes after government and SNP walkout",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0f3fb0f7-7f4f-1e57-f53d-53ae93bdcbcd",
+                        "name": "Badenoch"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6c4c9e4f-3d65-c03f-10a5-df5e362c123e",
+                        "name": "Kemi"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Badenoch"
+                    },
+                    {
+                        "name": "Kemi"
+                    },
+                    {
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-21T21:39:00.0000000Z"
+            },
+            {
+                "name": "Loose Women&#39;s Carol McGiffin slams Dan Wootton investigation as a &#39;<b>political</b> witch hunt&#39;",
+                "url": "https://www.express.co.uk/celebrity-news/1869393/Loose-Women-Carol-McGiffin-Dan-Wootton-investigation-witch-hunt",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.qp-qcv2I86kvRfX48e7LRi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Former Loose Women star Carol McGiffin has branded the police investigation into Dan Wootton a &quot;political witch hunt&quot;, after learning the GB News presenter has been cleared.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/51ee7c35-dc0b-3722-391e-d7c69c304b46",
+                        "name": "Dan Wootton"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3bc76cfe-b163-7ed2-f265-b58fecac03fd",
+                        "name": "Carol McGiffin"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/31cd7a6d-12c1-8743-c35d-adc8092a9ac1",
+                        "name": "Loose Women"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Dan Wootton"
+                    },
+                    {
+                        "name": "Carol McGiffin"
+                    },
+                    {
+                        "name": "Loose Women"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-21T21:39:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "FIRST QUANTUM ANNOUNCES COMPREHENSIVE REFINANCING TRANSACTIONS AS PART OF ITS BALANCE SHEET STRENGTHENING INITIATIVES",
+                "url": "https://www.prnewswire.co.uk/news-releases/first-quantum-announces-comprehensive-refinancing-transactions-as-part-of-its-balance-sheet-strengthening-initiatives-302068040.html",
+                "description": "First Quantum Minerals Ltd. (&quot;First Quantum&quot; or the &quot;Company&quot;) (TSX: FM) announces four balance sheet strengthening initiatives",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "PR Newswire",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.F7z6wtdhd7oDTw7xVIu4Rw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-21T21:39:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Lord Cameron urges world to hold &#39;Putin and his cronies to account&#39; after Navalny death",
+                "url": "https://www.itv.com/news/2024-02-21/uk-sanctions-the-heads-of-artic-penal-colony-where-alexei-navalny-died",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.WkqWn-QNfTMj4rYNN_2L6C&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Six individuals at the head of the Arctic penal colony where Alexei Navalny died have been sanctioned by the UK. The men are now banned from the UK and subject to an asset freeze preventing UK companies and individuals from dealing with them.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "ITV",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.HlKTyCgM99pRvmITMdZC2w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-21T21:35:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Speaker clinging on to job as 33 MPs sign no-confidence motion after Commons Gaza vote descends into row",
+                "url": "https://news.sky.com/story/speaker-clinging-on-to-job-as-33-mps-sign-no-confidence-motion-after-commons-gaza-vote-descends-into-row-13077779",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.500bzAnbWeZGPwtzzNXwYi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "An SNP opposition day starts with a row over Sir Lindsay Hoyle&#39;s decision to select a Labour amendment and ends with a mass walkout of MPs.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90eb9ff6-60ad-da43-d3fe-1ee3e3cb775a",
+                        "name": "Gaza Strip"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/624ebe06-f26e-873c-8a3d-de65c757453a",
+                        "name": "Speaker"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Eg62H9DIbo-JYPI6GpAgGA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-21T21:34:00.0000000Z",
+                "video": {
+                    "name": "Speaker clinging on to job as 33 MPs sign no-confidence motion after Commons Gaza vote descends into row",
+                    "thumbnailUrl": "https://www.bing.com/th?id=OVF.xCq3Ij81RItioWVVFIhphw&pid=News",
+                    "thumbnail": {
+                        "width": 520,
+                        "height": 292
+                    }
+                }
+            },
+            {
+                "name": "What happened with <b>UK</b> Gaza ceasefire vote as Lindsay Hoyle\u2019s future is questioned",
+                "url": "https://metro.co.uk/2024/02/21/happened-house-commons-gaza-ceasefire-vote-chaos-explained-20323752/?ico=mosaic_news",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.XHpXXbg-k4esCcJyod2liC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The commotion in Parliament drew widespread criticism, with Palestinian ambassador to the <b>UK</b> Husam Zomlot telling LBC: \u2018It\u2019s very disgraceful. Today we have seen British <b>politics</b> at its worst.\u2019 Halima Begum, chief executive of the ActionAid <b>UK</b> ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2872a54f-b045-8fe3-d356-1aa538e14812",
+                        "name": "Metro International"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Metro International"
+                    },
+                    {
+                        "name": "House of Commons of the United Kingdom"
+                    },
+                    {
+                        "name": "Gaza City"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Metro"
+                    }
+                ],
+                "datePublished": "2024-02-21T20:58:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Gaza ceasefire vote descends into chaos and anger as SNP and Tories walk out",
+                "url": "https://inews.co.uk/news/politics/gaza-ceasefire-vote-descends-into-chaos-and-anger-as-snp-and-tories-walk-out-2919643?ico=related_article_inline",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.NPvGuxNzycVRCN_2sXySdy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "But the result came only after scenes of chaos and bitter <b>political</b> point-scoring which saw Tory MPs call ... to the SNP\u2019s Gaza ceasefire motion (Photo: House of Commons/<b>UK</b> Parliament) At one stage, MPs voted on whether the Commons should sit in private ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i"
+                    }
+                ],
+                "datePublished": "2024-02-21T20:52:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>UK</b> government votes to call for an \u2018immediate ceasefire\u2019 in Gaza",
+                "url": "https://metro.co.uk/2024/02/21/results-uks-gazas-ceasefire-vote-revealed-20323318/?ico=trending-post-strip_item_4",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.SHV506Z_f58yefJRwpf-Qy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Pro-Palestinian demonstrators are marching outside of parliament ahead of the vote (Picture: HENRY NICHOLLS/AFP) MPs have voted to call for an immediate ceasefire in Gaza after a day of <b>political</b> wrangling between Labour and the SNP. The <b>UK</b> government ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2872a54f-b045-8fe3-d356-1aa538e14812",
+                        "name": "Metro International"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Metro International"
+                    },
+                    {
+                        "name": "Government of the United Kingdom"
+                    },
+                    {
+                        "name": "House of Commons of the United Kingdom"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Metro"
+                    }
+                ],
+                "datePublished": "2024-02-21T20:01:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Tiger Woods&#39; son Charlie takes huge step towards PGA Tour debut at just 15",
+                "url": "https://www.mirror.co.uk/sport/golf/tiger-woods-charlie-pga-tour-32182494.amp",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.4QVeE3oHjPS_r_UE8_3Spy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The 82-time Tour winner had not featured on Tour since last December&#39;s Hero World Challenge in the Bahamas. For all the latest on news, <b>politics</b>, sports, and showbiz from the USA, go to The Mirror US. Tiger Woods&#39; daughter Sam caddied for the 15-time major ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/931d8546-b1c8-9c8c-b1ba-dc657a6b1a60",
+                        "name": "Charlie Woods"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/bf2e69ec-2cac-bb86-cb06-4db33c1c7b56",
+                        "name": "PGA Tour"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Charlie Woods"
+                    },
+                    {
+                        "name": "PGA Tour"
+                    },
+                    {
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror"
+                    }
+                ],
+                "datePublished": "2024-02-21T19:49:00.0000000Z",
+                "category": "Sports"
+            },
+            {
+                "name": "<b>UK</b> parliament plunged into chaos over Gaza ceasefire vote",
+                "url": "https://uk.news.yahoo.com/uk-parliament-plunged-chaos-over-234329678.html",
+                "description": "Dozens of lawmakers stormed out of Britain&#39;s parliament on Wednesday with tempers flaring as the three biggest <b>political</b> parties sought to outmanoeuvre each other over a vote on a ceasefire in Gaza. The uproar followed a decision by the speaker to ignore ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90eb9ff6-60ad-da43-d3fe-1ee3e3cb775a",
+                        "name": "Gaza Strip"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ad52c9db-1b2d-011a-2191-bf1173935354",
+                        "name": "Parliament of the United Kingdom"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK"
+                    }
+                ],
+                "datePublished": "2024-02-21T18:43:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "House of Commons Sinks Into Chaos Over Israel-Hamas War Vote",
+                "url": "https://uk.news.yahoo.com/house-commons-sinks-chaos-over-212311445.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.l8pfoJ2u2IaExKuaqVxfoS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Yet in the <b>UK</b>\u2019s pre-election <b>politics</b>, the smallest differences are opportunities for point-scoring, which is why during the debate on a non-binding vote on a cease-fire, some MPs lamented the bigger picture was completely overlooked. The focus \u201cmust ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK"
+                    }
+                ],
+                "datePublished": "2024-02-21T16:24:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Tensions rise towards Speaker in Commons Gaza debate",
+                "url": "https://www.bbc.co.uk/news/av/uk-politics-68358532",
+                "description": "Conservative and SNP MPs show their anger with Lindsay Hoyle&#39;s ruling over a debate calling for a Middle East ceasefire.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90eb9ff6-60ad-da43-d3fe-1ee3e3cb775a",
+                        "name": "Gaza Strip"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-21T15:46:00.0000000Z",
+                "video": {
+                    "name": "Tensions rise towards Speaker in Commons Gaza debate",
+                    "thumbnailUrl": "https://www.bing.com/th?id=OVF.Qlr5kWJqXJRnNOkWol8JTw&pid=News",
+                    "embedHtml": "&lt;iframe width=&quot;400&quot; height=&quot;500&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://www.bbc.com/news/av-embeds/68358532/vpid/p0hd6j4p&quot;&gt;&lt;/iframe&gt;",
+                    "allowHttpsEmbed": true,
+                    "thumbnail": {
+                        "width": 520,
+                        "height": 292
+                    }
+                },
+                "category": "Politics"
+            },
+            {
+                "name": "HSBC announces record \u00a324bn profit boosted by interest rates",
+                "url": "https://inews.co.uk/news/business/hsbc-profit-interest-rates-boost-2917388?ico=more_from_this_author",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.O5O2-vL5QhppAlsQglc-7y&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Its profits were also boosted by its emergency rescue of Silicon Valley Bank <b>UK</b> during the banking crisis last year ... expected economic recovery after the pandemic, greater regional <b>political</b> tensions and a crisis in the property market.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i"
+                    }
+                ],
+                "datePublished": "2024-02-21T14:29:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Councillor\u2019s lying says more than MP\u2019s insensitive moment",
+                "url": "https://www.edp24.co.uk/news/24133420.councillors-lying-says-mps-insensitive-moment/",
+                "description": "While empathy is due to anyone who is working hard and struggling, MP George Freeman\u2019s pleading poverty as reason to resign his ministerial",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9fb40164-659e-c352-e3cb-fc1a572992b3",
+                        "name": "Councillor"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "EDP 24",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.jwNaXSYAQbMSCRbjWcrBZA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-21T10:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Embracing geopolitical uncertainty: Why discord presents lucrative opportunities for investors",
+                "url": "https://www.lbc.co.uk/opinion/views/embracing-geopolitical-uncertainty-discord-presents-lucrative-opportunities/",
+                "description": "With geopolitical worries thickening it is tempting for investors to succumb to pessimism. But remember that from a purely investment point of view discord also brings opportunity.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "LBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.iWFEm2xSUKuVEhtVsjP6gQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-21T07:11:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Labour amendment pushing for immediate Gaza ceasefire passes amid Commons chaos",
+                "url": "https://www.standard.co.uk/news/politics/gaza-labour-snp-hamas-house-of-commons-b1140715.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.xsBSON1tetALup4CyK3EYy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The commotion in Parliament drew widespread criticism, with Palestinian ambassador to the <b>UK</b> Husam Zomlot telling LBC: \u201cIt\u2019s very disgraceful. Today we have seen British <b>politics</b> at its worst.\u201d ActionAid <b>UK</b>\u2019s chief executive Halima Begum said ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90eb9ff6-60ad-da43-d3fe-1ee3e3cb775a",
+                        "name": "Gaza Strip"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Gaza Strip"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Australian Labor Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "datePublished": "2024-02-21T00:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Why Speaker\u2019s decision on Gaza debate in House of Commons sparked chaos in chamber",
+                "url": "https://www.independent.co.uk/politics/speaker-gaza-commons-lyndsay-hoyle-votes-b2500244.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.CruCqQNat5RQWQShJnDyIi&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Commons Leader Penny Mordaunt accused Sir Lindsay of having \u201chijacked\u201d the debate and said it had become a \u201c<b>political</b> row within the Labour Party\u201d, adding: \u201cRegrettably Mr Speaker has inserted himself into that row with today\u2019s decision and ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90eb9ff6-60ad-da43-d3fe-1ee3e3cb775a",
+                        "name": "Gaza Strip"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/624ebe06-f26e-873c-8a3d-de65c757453a",
+                        "name": "Speaker"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "Gaza Strip"
+                    },
+                    {
+                        "name": "Speaker"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent"
+                    }
+                ],
+                "datePublished": "2024-02-21T00:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Government warned over excluding NI from livestock export ban",
+                "url": "https://www.belfasttelegraph.co.uk/news/politics/government-warned-over-excluding-ni-from-livestock-export-ban/a504913910.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.olvK3DuLU__GovAkUy_Q0i&pid=News",
+                        "width": 629,
+                        "height": 460
+                    }
+                },
+                "description": "While recognising the &quot;complex <b>political</b> and pragmatic reasons&quot; behind the Northern ... Lord Dodds added: &quot;Once again, the territorial integrity of the United Kingdom, the right of <b>UK</b> lawmakers to make democratic decisions, and the sovereignty of our ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5634d914-4190-dd0b-fa80-715c2ac46335",
+                        "name": "Government"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ec10885d-cbd2-5ece-8d5b-7f5e05a240e9",
+                        "name": "uk"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Belfast Telegraph"
+                    }
+                ],
+                "datePublished": "2024-02-21T00:00:00.0000000Z"
+            },
+            {
+                "name": "Waiting to cut rates risks \u2018hard landing\u2019 for <b>UK</b> economy, says Bank policymaker",
+                "url": "https://www.standard.co.uk/news/politics/mpc-bank-of-england-b1140667.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.2jl-fKyUU6hjul-b97GCYy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "She said that <b>UK</b> consumption had still not recovered to levels seen before the pandemic, unlike in the US and eurozone, adding that the impact of the recent run of 14 rate hikes in a row would still continue to be felt for some time. Ms Dhingra said ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/472a8dae-f5f3-48f9-51dc-05a654abbbed",
+                        "name": "Bank"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Bank"
+                    },
+                    {
+                        "name": "Economy of the United Kingdom"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "datePublished": "2024-02-21T00:00:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "This is the year to get <b>political</b> and make the case for what you believe in",
+                "url": "https://www.architectsjournal.co.uk/news/opinion/this-is-the-year-to-get-political-and-make-the-case-for-what-you-believe-in",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.wjX0ia3N17VJBSYvnGzHhi&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Having barely emerged from the tumult of Brexit and the Covid-19 pandemic, the <b>UK</b>\u2019s <b>political</b> framework and resolve have been tested to their limits in recent months. As a beleaguered Tory administration prepares for what must be an election year ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/44c3d8ea-5fbe-69e7-dc5b-d4109b17b8eb",
+                        "name": "This is..."
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Architects&#39; Journal"
+                    }
+                ],
+                "datePublished": "2024-02-21T00:00:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics",
+        "queryContext": {
+            "originalQuery": "uk politics",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 231,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Government launches baby loss certificate scheme to \u2018recognise grief of parents\u2019",
+                "url": "https://www.basingstokegazette.co.uk/news/national/24135851.government-launches-baby-loss-certificate-scheme-recognise-grief-parents/",
+                "description": "\u201cWe cannot begin to tackle the wider problem of baby loss without a Government commitment to gather and record <b>UK</b>-wide miscarriage statistics. \u201cWithout data, miscarriage remains a largely hidden problem and isn\u2019t prioritised, despite the tens of ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5634d914-4190-dd0b-fa80-715c2ac46335",
+                        "name": "Government"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/035c7db6-2243-e5ef-0444-567071b875ed",
+                        "name": "Scheme"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Gazette"
+                    }
+                ],
+                "datePublished": "2024-02-22T00:10:00.0000000Z",
+                "category": "Health"
+            },
+            {
+                "name": "More than 2,700 dangerous wild animals privately owned, figures show",
+                "url": "https://www.countytimes.co.uk/news/national/24135846.2-700-dangerous-wild-animals-privately-owned-figures-show/",
+                "description": "Dr Mark Jones, Born Free\u2019s head of policy, said: \u201cIt is unbelievable that, in this day and age, so many dangerous animals, including big cats, large primates, crocodiles and venomous snakes, continue to be legally kept in people\u2019s homes in the <b>UK</b>.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/064644a1-4ce5-6209-6306-a69d3734b8f6",
+                        "name": "County"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "countytimes.co.uk"
+                    }
+                ],
+                "datePublished": "2024-02-22T00:09:00.0000000Z",
+                "category": "UK"
+            },
+            {
+                "name": "\u2018Politically driven\u2019 post-16 policy churn has damaged stability, think tank warns",
+                "url": "https://feweek.co.uk/politically-driven-post-16-policy-churn-has-damaged-stability-think-tank-warns/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.yqVM_shiJFaxcYyTDoYlNC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Governments must end the \u201chigh level\u201d of policy churn across all four UK nations that has caused instabilities and overly complex training routes",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "FE Week",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.DER86qo6SEguMGBxyaHiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-22T00:01:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Commons Speaker under pressure after Gaza vote chaos",
+                "url": "https://www.inverness-courier.co.uk/news/national/commons-speaker-under-pressure-after-gaza-vote-chaos-100626/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.kU1HBzjOE7kjBTmMUcndWi&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The Speaker of the House of Commons is under pressure over his handling of a debate on Gaza, which resulted in MPs passing Labour\u2019s amendment calling for an \u201cimmediate humanitarian ceasefire\u201d amid scenes of chaos. The motion was approved but only ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90eb9ff6-60ad-da43-d3fe-1ee3e3cb775a",
+                        "name": "Gaza Strip"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Inverness Courier"
+                    }
+                ],
+                "datePublished": "2024-02-22T00:01:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>UK</b> quits \u2018outdated\u2019 treaty that could penalise shift to net zero",
+                "url": "https://www.independent.co.uk/climate-change/news/green-alliance-government-germany-spain-netherlands-b2500316.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.-ny7ueh6BT-Go3LvaxGvZC&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "\u201cCivil society organisations and parliamentarians from all <b>political</b> parties have been clear that the Energy Charter Treaty is an out-of-date agreement and undermines our efforts to tackle climate change. \u201cWe welcome the <b>UK</b>\u2019s decision to ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "Green Alliance"
+                    },
+                    {
+                        "name": "Climate"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent"
+                    }
+                ],
+                "datePublished": "2024-02-22T00:00:00.0000000Z"
+            },
+            {
+                "name": "The Private Sector Must Continue to Take Charge of Eastern Europe&#39;s Economic Development",
+                "url": "https://www.ibtimes.co.uk/private-sector-must-continue-take-charge-eastern-europes-economic-development-1723486",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.Ak8erFvQCxFyngvOs_oWmy&pid=News",
+                        "width": 619,
+                        "height": 365
+                    }
+                },
+                "description": "Historically, the post-Soviet sphere still suffers from the challenges emanating from its legacies of centralized economies and unstable <b>political</b> transitions. As many a government still struggles to navigate complex reforms and institutional changes ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/501457aa-5b70-cfba-cfd8-be882b4bac1e",
+                        "name": "Europe"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fa5bb100-bee7-bf23-ba27-cdb6971cd2c6",
+                        "name": "Eastern Europe"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/23e1b11a-7a11-10c3-c0e7-e85376c56266",
+                        "name": "Economic development"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "IBTimes UK"
+                    }
+                ],
+                "datePublished": "2024-02-21T23:41:00.0000000Z"
+            },
+            {
+                "name": "Prince Harry&#39;s path to royal reconciliation could take years as &#39;trust&#39; must be gained",
+                "url": "https://www.mirror.co.uk/3am/us-celebrity-news/prince-harrys-path-royal-reconciliation-32183115?int_source=amp_continue_reading&int_medium=amp&int_campaign=continue_reading_button",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.P_MugWkC_zdbA5NIkWwm8S&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Prince Harry&#39;s Path to Royal Reconciliation Could Take Years as &#39;trust&#39; must be gained. Newsweek&#39;s royal correspondent Jack Royston, has mapped out Harry&#39;s possible route back.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-21T23:27:00.0000000Z"
+            },
+            {
+                "name": "Gaza ceasefire vote: Commons debate descends into chaos",
+                "url": "https://www.bbc.co.uk/news/uk-politics-68362405.amp",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.5WEyn3KTT0-SMkqYSUIF2y&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "A Commons debate on calls for a ceasefire in Gaza descended into chaos, after the Speaker was accused of allowing it to be &quot;hijacked&quot; by Labour. Sir Lindsay Hoyle sparked fury from the SNP and Conservatives when he broke with convention to allow a vote on a Labour motion for an &quot;immediate humanitarian ceasefire&quot;.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90eb9ff6-60ad-da43-d3fe-1ee3e3cb775a",
+                        "name": "Gaza Strip"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-21T22:22:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "MP accuses &#39;infuriating&#39; IMF of dodging scrutiny as it sits on its &#39;perch in Washington&#39;",
+                "url": "https://www.thisismoney.co.uk/money/markets/article-13110591/MP-accuses-infuriating-IMF-dodging-scrutiny-sits-perch-Washington.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.qP-kswPU6EcdZZAl9JsUri&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "A senior MP who chairs the Treasury select committee branded it \u2018infuriating\u2019, just weeks after the IMF waded into <b>UK politics</b> by advising Chancellor Jeremy Hunt not to cut taxes in the Budget next month and increase public spending. The Washington ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/44c3d8ea-5fbe-69e7-dc5b-d4109b17b8eb",
+                        "name": "This is..."
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/216726d1-8987-06d3-5eff-823da05c3d3c",
+                        "name": "Washington, D.C."
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "This is..."
+                    },
+                    {
+                        "name": "Washington, D.C."
+                    },
+                    {
+                        "name": "Scrutiny"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "This is Money"
+                    }
+                ],
+                "datePublished": "2024-02-21T22:05:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "SNP\u2019s Stephen Flynn calls for investigation following chaotic Gaza vote",
+                "url": "https://www.scotsman.com/news/politics/snps-stephen-flynn-calls-for-investigation-following-chaotic-gaza-vote-4528450",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.2hb9czNmNVa9tZeCLiVk2S&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Stephen Flynn has called for an investigation into the chaos in the Commons on Wednesday following a debate on Gaza led by his party.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Scotsman",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.QlHkHD_RALY4hnQHpw7jBw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-21T21:52:00.0000000Z",
+                "category": "ScienceAndTechnology"
+            },
+            {
+                "name": "House of Commons Gaza debate: What happened during the chamber\u2019s day of chaos?",
+                "url": "https://www.irishnews.com/news/uk/house-of-commons-gaza-debate-what-happened-during-the-chambers-day-of-chaos-LK6WMNSGP5OTHL2WCBATZFZSZQ/",
+                "description": "What was meant to be a discussion about the UK\u2019s policy on the Hamas-Israel conflict spiralled into heated exchanges on the Speaker\u2019s actions.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7fa7286a-62e2-4a7e-4956-c7364e046b5f",
+                        "name": "House of Commons of the United Kingdom"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "House of Commons of the United Kingdom"
+                    },
+                    {
+                        "name": "Chamber"
+                    },
+                    {
+                        "name": "Debate"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Irish News",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.__x40GFqMbYWdAqfe63VNg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-21T21:43:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "More than 30 MPs sign motion of no confidence in Commons speaker \u2013 <b>UK politics</b> live",
+                "url": "https://www.theguardian.com/politics/live/2024/feb/21/kemi-badenoch-post-office-scandal-rishi-sunak-keir-starmer-pmqs-uk-politics-live?page=with:block-65d67b4e8f089d88380e86a6",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.NaWcIuyLv71BbYKw3kacny&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Labour amendment calling for immediate Gaza ceasefire passes after government and SNP walkout",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/0f3fb0f7-7f4f-1e57-f53d-53ae93bdcbcd",
+                        "name": "Badenoch"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6c4c9e4f-3d65-c03f-10a5-df5e362c123e",
+                        "name": "Kemi"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Badenoch"
+                    },
+                    {
+                        "name": "Kemi"
+                    },
+                    {
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-21T21:39:00.0000000Z"
+            },
+            {
+                "name": "Loose Women&#39;s Carol McGiffin slams Dan Wootton investigation as a &#39;<b>political</b> witch hunt&#39;",
+                "url": "https://www.express.co.uk/celebrity-news/1869393/Loose-Women-Carol-McGiffin-Dan-Wootton-investigation-witch-hunt",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.qp-qcv2I86kvRfX48e7LRi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Former Loose Women star Carol McGiffin has branded the police investigation into Dan Wootton a &quot;political witch hunt&quot;, after learning the GB News presenter has been cleared.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/51ee7c35-dc0b-3722-391e-d7c69c304b46",
+                        "name": "Dan Wootton"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3bc76cfe-b163-7ed2-f265-b58fecac03fd",
+                        "name": "Carol McGiffin"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/31cd7a6d-12c1-8743-c35d-adc8092a9ac1",
+                        "name": "Loose Women"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Dan Wootton"
+                    },
+                    {
+                        "name": "Carol McGiffin"
+                    },
+                    {
+                        "name": "Loose Women"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-21T21:39:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "FIRST QUANTUM ANNOUNCES COMPREHENSIVE REFINANCING TRANSACTIONS AS PART OF ITS BALANCE SHEET STRENGTHENING INITIATIVES",
+                "url": "https://www.prnewswire.co.uk/news-releases/first-quantum-announces-comprehensive-refinancing-transactions-as-part-of-its-balance-sheet-strengthening-initiatives-302068040.html",
+                "description": "First Quantum Minerals Ltd. (&quot;First Quantum&quot; or the &quot;Company&quot;) (TSX: FM) announces four balance sheet strengthening initiatives",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "PR Newswire",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.F7z6wtdhd7oDTw7xVIu4Rw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-21T21:39:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Lord Cameron urges world to hold &#39;Putin and his cronies to account&#39; after Navalny death",
+                "url": "https://www.itv.com/news/2024-02-21/uk-sanctions-the-heads-of-artic-penal-colony-where-alexei-navalny-died",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.WkqWn-QNfTMj4rYNN_2L6C&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Six individuals at the head of the Arctic penal colony where Alexei Navalny died have been sanctioned by the UK. The men are now banned from the UK and subject to an asset freeze preventing UK companies and individuals from dealing with them.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "ITV",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.HlKTyCgM99pRvmITMdZC2w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-21T21:35:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Speaker clinging on to job as 33 MPs sign no-confidence motion after Commons Gaza vote descends into row",
+                "url": "https://news.sky.com/story/speaker-clinging-on-to-job-as-33-mps-sign-no-confidence-motion-after-commons-gaza-vote-descends-into-row-13077779",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.500bzAnbWeZGPwtzzNXwYi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "An SNP opposition day starts with a row over Sir Lindsay Hoyle&#39;s decision to select a Labour amendment and ends with a mass walkout of MPs.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90eb9ff6-60ad-da43-d3fe-1ee3e3cb775a",
+                        "name": "Gaza Strip"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/624ebe06-f26e-873c-8a3d-de65c757453a",
+                        "name": "Speaker"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Eg62H9DIbo-JYPI6GpAgGA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-21T21:34:00.0000000Z",
+                "video": {
+                    "name": "Speaker clinging on to job as 33 MPs sign no-confidence motion after Commons Gaza vote descends into row",
+                    "thumbnailUrl": "https://www.bing.com/th?id=OVF.xCq3Ij81RItioWVVFIhphw&pid=News",
+                    "thumbnail": {
+                        "width": 520,
+                        "height": 292
+                    }
+                }
+            },
+            {
+                "name": "What happened with <b>UK</b> Gaza ceasefire vote as Lindsay Hoyle\u2019s future is questioned",
+                "url": "https://metro.co.uk/2024/02/21/happened-house-commons-gaza-ceasefire-vote-chaos-explained-20323752/?ico=mosaic_news",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.XHpXXbg-k4esCcJyod2liC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The commotion in Parliament drew widespread criticism, with Palestinian ambassador to the <b>UK</b> Husam Zomlot telling LBC: \u2018It\u2019s very disgraceful. Today we have seen British <b>politics</b> at its worst.\u2019 Halima Begum, chief executive of the ActionAid <b>UK</b> ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2872a54f-b045-8fe3-d356-1aa538e14812",
+                        "name": "Metro International"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Metro International"
+                    },
+                    {
+                        "name": "House of Commons of the United Kingdom"
+                    },
+                    {
+                        "name": "Gaza City"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Metro"
+                    }
+                ],
+                "datePublished": "2024-02-21T20:58:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Gaza ceasefire vote descends into chaos and anger as SNP and Tories walk out",
+                "url": "https://inews.co.uk/news/politics/gaza-ceasefire-vote-descends-into-chaos-and-anger-as-snp-and-tories-walk-out-2919643?ico=related_article_inline",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.NPvGuxNzycVRCN_2sXySdy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "But the result came only after scenes of chaos and bitter <b>political</b> point-scoring which saw Tory MPs call ... to the SNP\u2019s Gaza ceasefire motion (Photo: House of Commons/<b>UK</b> Parliament) At one stage, MPs voted on whether the Commons should sit in private ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i"
+                    }
+                ],
+                "datePublished": "2024-02-21T20:52:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>UK</b> government votes to call for an \u2018immediate ceasefire\u2019 in Gaza",
+                "url": "https://metro.co.uk/2024/02/21/results-uks-gazas-ceasefire-vote-revealed-20323318/?ico=trending-post-strip_item_4",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.SHV506Z_f58yefJRwpf-Qy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Pro-Palestinian demonstrators are marching outside of parliament ahead of the vote (Picture: HENRY NICHOLLS/AFP) MPs have voted to call for an immediate ceasefire in Gaza after a day of <b>political</b> wrangling between Labour and the SNP. The <b>UK</b> government ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2872a54f-b045-8fe3-d356-1aa538e14812",
+                        "name": "Metro International"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Metro International"
+                    },
+                    {
+                        "name": "Government of the United Kingdom"
+                    },
+                    {
+                        "name": "House of Commons of the United Kingdom"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Metro"
+                    }
+                ],
+                "datePublished": "2024-02-21T20:01:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Tiger Woods&#39; son Charlie takes huge step towards PGA Tour debut at just 15",
+                "url": "https://www.mirror.co.uk/sport/golf/tiger-woods-charlie-pga-tour-32182494.amp",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.4QVeE3oHjPS_r_UE8_3Spy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The 82-time Tour winner had not featured on Tour since last December&#39;s Hero World Challenge in the Bahamas. For all the latest on news, <b>politics</b>, sports, and showbiz from the USA, go to The Mirror US. Tiger Woods&#39; daughter Sam caddied for the 15-time major ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/931d8546-b1c8-9c8c-b1ba-dc657a6b1a60",
+                        "name": "Charlie Woods"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/bf2e69ec-2cac-bb86-cb06-4db33c1c7b56",
+                        "name": "PGA Tour"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Charlie Woods"
+                    },
+                    {
+                        "name": "PGA Tour"
+                    },
+                    {
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror"
+                    }
+                ],
+                "datePublished": "2024-02-21T19:49:00.0000000Z",
+                "category": "Sports"
+            },
+            {
+                "name": "<b>UK</b> parliament plunged into chaos over Gaza ceasefire vote",
+                "url": "https://uk.news.yahoo.com/uk-parliament-plunged-chaos-over-234329678.html",
+                "description": "Dozens of lawmakers stormed out of Britain&#39;s parliament on Wednesday with tempers flaring as the three biggest <b>political</b> parties sought to outmanoeuvre each other over a vote on a ceasefire in Gaza. The uproar followed a decision by the speaker to ignore ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90eb9ff6-60ad-da43-d3fe-1ee3e3cb775a",
+                        "name": "Gaza Strip"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ad52c9db-1b2d-011a-2191-bf1173935354",
+                        "name": "Parliament of the United Kingdom"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK"
+                    }
+                ],
+                "datePublished": "2024-02-21T18:43:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "House of Commons Sinks Into Chaos Over Israel-Hamas War Vote",
+                "url": "https://uk.news.yahoo.com/house-commons-sinks-chaos-over-212311445.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.l8pfoJ2u2IaExKuaqVxfoS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Yet in the <b>UK</b>\u2019s pre-election <b>politics</b>, the smallest differences are opportunities for point-scoring, which is why during the debate on a non-binding vote on a cease-fire, some MPs lamented the bigger picture was completely overlooked. The focus \u201cmust ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK"
+                    }
+                ],
+                "datePublished": "2024-02-21T16:24:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Tensions rise towards Speaker in Commons Gaza debate",
+                "url": "https://www.bbc.co.uk/news/av/uk-politics-68358532",
+                "description": "Conservative and SNP MPs show their anger with Lindsay Hoyle&#39;s ruling over a debate calling for a Middle East ceasefire.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90eb9ff6-60ad-da43-d3fe-1ee3e3cb775a",
+                        "name": "Gaza Strip"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-21T15:46:00.0000000Z",
+                "video": {
+                    "name": "Tensions rise towards Speaker in Commons Gaza debate",
+                    "thumbnailUrl": "https://www.bing.com/th?id=OVF.Qlr5kWJqXJRnNOkWol8JTw&pid=News",
+                    "embedHtml": "&lt;iframe width=&quot;400&quot; height=&quot;500&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://www.bbc.com/news/av-embeds/68358532/vpid/p0hd6j4p&quot;&gt;&lt;/iframe&gt;",
+                    "allowHttpsEmbed": true,
+                    "thumbnail": {
+                        "width": 520,
+                        "height": 292
+                    }
+                },
+                "category": "Politics"
+            },
+            {
+                "name": "HSBC announces record \u00a324bn profit boosted by interest rates",
+                "url": "https://inews.co.uk/news/business/hsbc-profit-interest-rates-boost-2917388?ico=more_from_this_author",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.O5O2-vL5QhppAlsQglc-7y&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Its profits were also boosted by its emergency rescue of Silicon Valley Bank <b>UK</b> during the banking crisis last year ... expected economic recovery after the pandemic, greater regional <b>political</b> tensions and a crisis in the property market.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i"
+                    }
+                ],
+                "datePublished": "2024-02-21T14:29:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Councillor\u2019s lying says more than MP\u2019s insensitive moment",
+                "url": "https://www.edp24.co.uk/news/24133420.councillors-lying-says-mps-insensitive-moment/",
+                "description": "While empathy is due to anyone who is working hard and struggling, MP George Freeman\u2019s pleading poverty as reason to resign his ministerial",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9fb40164-659e-c352-e3cb-fc1a572992b3",
+                        "name": "Councillor"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "EDP 24",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.jwNaXSYAQbMSCRbjWcrBZA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-21T10:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Embracing geopolitical uncertainty: Why discord presents lucrative opportunities for investors",
+                "url": "https://www.lbc.co.uk/opinion/views/embracing-geopolitical-uncertainty-discord-presents-lucrative-opportunities/",
+                "description": "With geopolitical worries thickening it is tempting for investors to succumb to pessimism. But remember that from a purely investment point of view discord also brings opportunity.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "LBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.iWFEm2xSUKuVEhtVsjP6gQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-21T07:11:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Labour amendment pushing for immediate Gaza ceasefire passes amid Commons chaos",
+                "url": "https://www.standard.co.uk/news/politics/gaza-labour-snp-hamas-house-of-commons-b1140715.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.xsBSON1tetALup4CyK3EYy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The commotion in Parliament drew widespread criticism, with Palestinian ambassador to the <b>UK</b> Husam Zomlot telling LBC: \u201cIt\u2019s very disgraceful. Today we have seen British <b>politics</b> at its worst.\u201d ActionAid <b>UK</b>\u2019s chief executive Halima Begum said ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90eb9ff6-60ad-da43-d3fe-1ee3e3cb775a",
+                        "name": "Gaza Strip"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Gaza Strip"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Australian Labor Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "datePublished": "2024-02-21T00:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Why Speaker\u2019s decision on Gaza debate in House of Commons sparked chaos in chamber",
+                "url": "https://www.independent.co.uk/politics/speaker-gaza-commons-lyndsay-hoyle-votes-b2500244.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.CruCqQNat5RQWQShJnDyIi&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Commons Leader Penny Mordaunt accused Sir Lindsay of having \u201chijacked\u201d the debate and said it had become a \u201c<b>political</b> row within the Labour Party\u201d, adding: \u201cRegrettably Mr Speaker has inserted himself into that row with today\u2019s decision and ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90eb9ff6-60ad-da43-d3fe-1ee3e3cb775a",
+                        "name": "Gaza Strip"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/624ebe06-f26e-873c-8a3d-de65c757453a",
+                        "name": "Speaker"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "Gaza Strip"
+                    },
+                    {
+                        "name": "Speaker"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent"
+                    }
+                ],
+                "datePublished": "2024-02-21T00:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Government warned over excluding NI from livestock export ban",
+                "url": "https://www.belfasttelegraph.co.uk/news/politics/government-warned-over-excluding-ni-from-livestock-export-ban/a504913910.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.olvK3DuLU__GovAkUy_Q0i&pid=News",
+                        "width": 629,
+                        "height": 460
+                    }
+                },
+                "description": "While recognising the &quot;complex <b>political</b> and pragmatic reasons&quot; behind the Northern ... Lord Dodds added: &quot;Once again, the territorial integrity of the United Kingdom, the right of <b>UK</b> lawmakers to make democratic decisions, and the sovereignty of our ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5634d914-4190-dd0b-fa80-715c2ac46335",
+                        "name": "Government"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ec10885d-cbd2-5ece-8d5b-7f5e05a240e9",
+                        "name": "uk"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Belfast Telegraph"
+                    }
+                ],
+                "datePublished": "2024-02-21T00:00:00.0000000Z"
+            },
+            {
+                "name": "Waiting to cut rates risks \u2018hard landing\u2019 for <b>UK</b> economy, says Bank policymaker",
+                "url": "https://www.standard.co.uk/news/politics/mpc-bank-of-england-b1140667.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.2jl-fKyUU6hjul-b97GCYy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "She said that <b>UK</b> consumption had still not recovered to levels seen before the pandemic, unlike in the US and eurozone, adding that the impact of the recent run of 14 rate hikes in a row would still continue to be felt for some time. Ms Dhingra said ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/472a8dae-f5f3-48f9-51dc-05a654abbbed",
+                        "name": "Bank"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Bank"
+                    },
+                    {
+                        "name": "Economy of the United Kingdom"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "datePublished": "2024-02-21T00:00:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "This is the year to get <b>political</b> and make the case for what you believe in",
+                "url": "https://www.architectsjournal.co.uk/news/opinion/this-is-the-year-to-get-political-and-make-the-case-for-what-you-believe-in",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.wjX0ia3N17VJBSYvnGzHhi&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Having barely emerged from the tumult of Brexit and the Covid-19 pandemic, the <b>UK</b>\u2019s <b>political</b> framework and resolve have been tested to their limits in recent months. As a beleaguered Tory administration prepares for what must be an election year ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/44c3d8ea-5fbe-69e7-dc5b-d4109b17b8eb",
+                        "name": "This is..."
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Architects&#39; Journal"
+                    }
+                ],
+                "datePublished": "2024-02-21T00:00:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    }
+]
