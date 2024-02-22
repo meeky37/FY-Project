@@ -22,8 +22,8 @@ urlpatterns = [
     path('api/get_sub_list/', get_sub_list, name='get_sub_list'),
     # 20th Feb add -> Password reset links
     path('api/password_reset/', PasswordResetView.as_view(
-             email_template_name='accounts/registration/password_reset_email.txt',
-             html_email_template_name='accounts/registration/password_reset_email.html'),
+             email_template_name='registration/password_reset_email.txt',
+             html_email_template_name='registration/password_reset_email.html'),
          name='password_reset_request'),
     path('api/password_reset/<uidb64>/<token>/', PasswordResetConfirmView.as_view(),
          name='password_reset_confirm'),
