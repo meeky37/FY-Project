@@ -105,6 +105,17 @@ CORS_ALLOWED_ORIGINS = [
     "https://prominentprofiles.com",
 ]
 
+CORS_TRUSTED_ORIGINS = [
+    "http://localhost:8080",
+    "https://localhost:8080",
+    "http://157.245.46.42",
+    "https://157.245.46.42",
+    "http://www.prominentprofiles.com",
+    "https://www.prominentprofiles.com",
+    "http://prominentprofiles.com",
+    "https://prominentprofiles.com",
+]
+
 CORS_ALLOW_HEADERS = [
     'accept',
     'accept-encoding',
@@ -267,4 +278,4 @@ EMAIL_HOST = 'smtppro.zoho.eu'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'info@prominentprofiles.com'
-EMAIL_HOST_PASSWORD = os.getenv('EMAIL_PASSWORD', '')
+EMAIL_HOST_PASSWORD = os.getenv('EMAIL_PASSWORD', 'zct&B8af')
