@@ -278,4 +278,4 @@ EMAIL_HOST = 'smtppro.zoho.eu'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'info@prominentprofiles.com'
-EMAIL_HOST_PASSWORD = os.getenv('EMAIL_PASSWORD', 'zct&B8af')
+EMAIL_HOST_PASSWORD = os.getenv('EMAIL_PASSWORD', '')
