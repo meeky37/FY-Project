@@ -106,6 +106,7 @@ jobs:
             export DJANGO_DEBUG ='${{ secrets.DJANGO_DEBUG }}'
             export CERTBOT_EMAIL='${{ secrets.CERTBOT_EMAIL }}'
             export BING_API_KEY='${{ secrets.BING_API_KEY }}'
+            export EMAIL_PASSWORD ='${{ secrets.EMAIL_PASSWORD }}'
             
             cd /var/www/Django_App/prominent_profiles
             docker pull ghcr.io/meeky37/fy-project/nginx:latest
