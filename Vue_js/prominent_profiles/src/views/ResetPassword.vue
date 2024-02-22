@@ -55,7 +55,7 @@ export default {
           isSubmitting.value = true
           const { uid, token } = route.query
           const csrfToken = VueCookie.get('csrftoken')
-          await axios.post(`accounts/api/password_reset/confirm/${uid}/${token}/`, {
+          await axios.post(`accounts/api/password_reset/${uid}/${token}/`, {
             new_password: newPassword.value
           }, {
             headers: {
