@@ -7,6 +7,7 @@ from rest_framework.decorators import api_view, permission_classes, authenticati
 from rest_framework.response import Response
 from rest_framework.permissions import AllowAny, IsAuthenticated
 from django.contrib.auth import authenticate
+from django.contrib.auth.views import PasswordResetView
 
 from .models import Subscription
 from .serializers import CustomUserSerializer
@@ -131,3 +132,8 @@ def get_sub_list(request):
     entities_list = list(entities_data)
 
     return JsonResponse({'subscribed_entities': entities_list})
+
+
+class CustomPasswordResetView(PasswordResetView):
+    email_template_name = 'password_reset_email.txt'
+    html_email_template_name = 'password_reset_email.html'

@@ -7,7 +7,8 @@ from rest_framework_simplejwt.views import (
     TokenRefreshView,
     TokenVerifyView,
 )
-from .views import get_user_data, register_user, toggle_sub, get_sub_status, get_sub_list
+from .views import get_user_data, register_user, toggle_sub, get_sub_status, get_sub_list, \
+    CustomPasswordResetView
 
 urlpatterns = [
     path('login/', LoginView.as_view(), name='login'),
@@ -21,10 +22,8 @@ urlpatterns = [
     path('api/get_sub_status/<int:entity_id>/', get_sub_status, name='get_sub_status'),
     path('api/get_sub_list/', get_sub_list, name='get_sub_list'),
     # 20th Feb add -> Password reset links
-    path('api/password_reset/', PasswordResetView.as_view(
-             email_template_name='registration/password_reset_email.txt',
-             html_email_template_name='registration/password_reset_email.html'),
-         name='password_reset_request'),
+    path('api/password_reset/', CustomPasswordResetView.as_view(),
+         name='password_r   eset_request'),
     path('api/password_reset/<uidb64>/<token>/', PasswordResetConfirmView.as_view(),
          name='password_reset_confirm'),
     path('api/password_reset/done/', PasswordResetDoneView.as_view(), name='password_reset_done'),
