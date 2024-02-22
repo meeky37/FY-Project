@@ -14,10 +14,19 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
+from django.http import JsonResponse
+from django.middleware.csrf import get_token
 from django.urls import include, path
+
+
+def set_csrf_token(request):
+    get_token(request)
+    return JsonResponse({'detail': 'CSRF cookie set'})
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('profiles_app/', include('profiles_app.urls')),
-    path('accounts/', include('accounts.urls'))
+    path('accounts/', include('accounts.urls')),
+    path('set-csrf/', set_csrf_token, name='set-csrf'),
 ]

@@ -149,6 +149,8 @@ CSRF_HEADER_NAME = "HTTP_X_CSRFTOKEN"
 CSRF_TRUSTED_ORIGINS = ['http://localhost:8080',
                         "https://www.prominentprofiles.com",
                         'https://prominentprofiles.com']
+CSRF_COOKIE_DOMAIN = '.prominentprofiles.com'
+CSRF_COOKIE_PATH = '/'
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
 

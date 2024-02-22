@@ -41,6 +41,7 @@ import { onMounted, onBeforeUnmount, computed, ref } from 'vue'
 import { authenticated, checkAuthentication, logonRedirect, logout } from './shared_methods/auth_methods.js'
 import EntitySelection from '@/components/EntitySelection.vue'
 import PageFooter from '@/components/PageFooter.vue'
+import { API_BASE_URL } from '@/config'
 
 export default {
   components: {
@@ -54,9 +55,21 @@ export default {
     const handleResize = () => {
       windowWidth.value = window.innerWidth
     }
+    const setCsrfToken = () => {
+      fetch(`${API_BASE_URL}/set-csrf/`)
+        .then(response => {
+          if (response.ok) {
+            console.log('CSRF token set')
+          } else {
+            throw new Error('Failed to set CSRF token')
+          }
+        })
+        .catch(error => console.error('Error setting CSRF token:', error))
+    }
 
     onMounted(() => {
       window.addEventListener('resize', handleResize)
+      setCsrfToken()
       checkAuthentication()
     })
 
