@@ -4,8 +4,7 @@ services:
   web:
     image: ghcr.io/meeky37/fy-project/web:latest
     command: >
-      sh -c "chmod -R 777 /app/nlp_processor/media /app/static &&
-                  python manage.py collectstatic --noinput &&
+      sh -c "python manage.py collectstatic --noinput &&
                   python manage.py migrate &&
                   gunicorn prominent_profiles.wsgi:application --bind 0.0.0.0:8000"
     volumes:
