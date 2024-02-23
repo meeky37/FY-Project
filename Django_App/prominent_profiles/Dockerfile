@@ -12,13 +12,13 @@ RUN apt-get update && apt-get install -y --no-install-recommends gcc libc6-dev \
 FROM python:3.8-slim
 WORKDIR /app
 
-RUN apt-get update && apt-get install -y gosu && rm -rf /var/lib/apt/lists/*
-
-# User for better security
-RUN groupadd -r django && useradd -r -g django -d /home/django-user -m django-user
-COPY entrypoint.sh /usr/local/bin/entrypoint.sh
-RUN chmod +x /usr/local/bin/entrypoint.sh
-ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
+#RUN apt-get update && apt-get install -y gosu && rm -rf /var/lib/apt/lists/*
+#
+## User for better security
+#RUN groupadd -r django && useradd -r -g django -d /home/django-user -m django-user
+#COPY entrypoint.sh /usr/local/bin/entrypoint.sh
+#RUN chmod +x /usr/local/bin/entrypoint.sh
+#ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
 
 COPY --from=builder /usr/src/app/wheels /wheels
 COPY --from=builder /app/requirements.txt .
