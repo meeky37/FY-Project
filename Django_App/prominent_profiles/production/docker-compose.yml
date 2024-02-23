@@ -59,7 +59,7 @@ services:
       - 6379:6379
 
   celery:
-    build: .
+    image: ghcr.io/meeky37/fy-project/web:latest
     user: django-user
     command: ["celery", "-A", "myproject", "worker", "--loglevel=info"]
     volumes:
@@ -68,7 +68,7 @@ services:
       - redis
 
   celerybeat:
-    build: .
+    image: ghcr.io/meeky37/fy-project/web:latest
     user: django-user
     command: ["celery", "-A", "myproject", "beat", "--loglevel=info", "--scheduler", "django_celery_beat.schedulers:DatabaseScheduler"]
     volumes:

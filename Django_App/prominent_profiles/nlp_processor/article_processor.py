@@ -1,19 +1,21 @@
-# nlp_processor/article_processor.py
-from datetime import timezone, timedelta, datetime
-
-import requests
-from bs4 import BeautifulSoup
-from django.db.models import Q, F
-
-from .article_update import calculate_statistics, calculate_all_percentage_differences
-from .models import ArticleStatistics, SimilarArticlePair
-from profiles_app.models import Article as ArticleModel
-from nlp_processor.sentiment_resolver import SentimentAnalyser
 import math
 import re
-from functools import reduce
-from textblob import TextBlob
+import urllib.robotparser
 from collections import defaultdict
+from datetime import timedelta
+from functools import reduce
+from itertools import product
+from urllib.parse import urlparse
+
+import ppdeep
+import requests
+from bs4 import BeautifulSoup
+from django.db.models import Q
+from nlp_processor.sentiment_resolver import SentimentAnalyser
+from profiles_app.models import Article as ArticleModel
+from textblob import TextBlob
+
+from .article_update import calculate_statistics, calculate_all_percentage_differences
 from .constants import (ENTITY_THRESHOLD_PERCENT,
                         MENTION_REQ_PER,
                         MERGE_REMOVAL_INDICATOR,
@@ -21,10 +23,7 @@ from .constants import (ENTITY_THRESHOLD_PERCENT,
                         COMBINED_CLUSTER_ID_SEPARATOR,
                         SIMILAR_SEARCH_DAYS,
                         PREVIEW_IMG_TIMEOUT)
-from urllib.parse import urlparse
-import urllib.robotparser
-import ppdeep
-from itertools import product
+from .models import ArticleStatistics, SimilarArticlePair
 
 
 def can_fetch_url(url_to_check):

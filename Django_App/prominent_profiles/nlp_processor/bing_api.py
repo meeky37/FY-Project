@@ -1,14 +1,7 @@
-import time
-
-import requests
-
 from .config import BING_API_KEY
 from profiles_app.models import BingEntity, Entity
-import os
 import requests
-import json
 import time
-from datetime import datetime
 
 
 def get_bing_entity_info(entity_name):
