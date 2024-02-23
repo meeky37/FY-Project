@@ -4,7 +4,6 @@ from django.contrib import admin
 from django.db.models import F
 from django.db.models import Case, When, Value
 from django.db import models
-
 from .models import ProcessedFile, BoundError, ArticleStatistics, SimilarArticlePair
 from django.utils.translation import gettext as _
 
