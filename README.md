@@ -63,40 +63,37 @@ MADTSC HERE TOO
 - prometheus-client: [https://pypi.org/project/prometheus-client/0.14.1/](https://pypi.org/project/prometheus-client/0.14.1/)
 - psutil: [https://pypi.org/project/psutil/5.9.0/](https://pypi.org/project/psutil/5.9.0/)
 - Pygments: [https://pypi.org/project/Pygments/2.15.1/](https://pypi.org/project/Pygments/2.15.1/)
-PyJWT: https://pypi.org/project/PyJWT/2.8.0/
-pyOpenSSL: https://pypi.org/project/pyOpenSSL/23.2.0/
-pyparsing: https://pypi.org/project/pyparsing/3.1.1/
-pyrsistent: https://pypi.org/project/pyrsistent/0.18.0/
-python-dateutil: https://pypi.org/project/python-dateutil/2.8.2/
-pytz: https://pypi.org/project/pytz/2023.3.post1/
-requests: https://pypi.org/project/requests/2.31.0/
-sqlparse: https://pypi.org/project/sqlparse/0.4.4/
-tqdm: https://pypi.org/project/tqdm/4.66.1/
-psycopg2-binary: https://pypi.org/project/psycopg2-binary/2.9.9/
-rapidfuzz: https://pypi.org/project/rapidfuzz/3.6.1/
-jsonlines: https://pypi.org/project/jsonlines/4.0.0/ (Note: Listed twice, only need to include once)
-numpy: https://pypi.org/project/numpy/1.24.4/
-imbalanced-learn: https://pypi.org/project/imbalanced-learn/0.11.0/
-networkx: https://pypi.org/project/networkx/3.1/
-openpyxl: https://pypi.org/project/openpyxl/3.1.2/
-pandas: https://pypi.org/project/pandas/2.0.3/
-regex: https://pypi.org/project/regex/2023.10.3/
-sacremoses: https://pypi.org/project/sacremoses/0.1.1/
-scikit-learn: https://pypi.org/project/scikit-learn/1.3.2/
-tabulate: https://pypi.org/project/tabulate/0.9.0/
-transformers: https://pypi.org/project/transformers/4.24.0/
-matplotlib: https://pypi.org/project/matplotlib/3.7.4/
+- PyJWT: [https://pypi.org/project/PyJWT/2.8.0/](https://pypi.org/project/PyJWT/2.8.0/)
+- pyOpenSSL: [https://pypi.org/project/pyOpenSSL/23.2.0/](https://pypi.org/project/pyOpenSSL/23.2.0/)
+- pyparsing: [https://pypi.org/project/pyparsing/3.1.1/](https://pypi.org/project/pyparsing/3.1.1/)
+- pyrsistent: [https://pypi.org/project/pyrsistent/0.18.0/](https://pypi.org/project/pyrsistent/0.18.0/)
+- python-dateutil: [https://pypi.org/project/python-dateutil/2.8.2/](https://pypi.org/project/python-dateutil/2.8.2/)
+- pytz: [https://pypi.org/project/pytz/2023.3.post1/](https://pypi.org/project/pytz/2023.3.post1/)
+- requests: [https://pypi.org/project/requests/2.31.0/](https://pypi.org/project/requests/2.31.0/)
+- sqlparse: [https://pypi.org/project/sqlparse/0.4.4/](https://pypi.org/project/sqlparse/0.4.4/)
+- tqdm: [https://pypi.org/project/tqdm/4.66.1/](https://pypi.org/project/tqdm/4.66.1/)
+- psycopg2-binary: [https://pypi.org/project/psycopg2-binary/2.9.9/](https://pypi.org/project/psycopg2-binary/2.9.9/)
+- rapidfuzz: [https://pypi.org/project/rapidfuzz/3.6.1/](https://pypi.org/project/rapidfuzz/3.6.1/)
+- jsonlines: [https://pypi.org/project/jsonlines/4.0.0/](https://pypi.org/project/jsonlines/4.0.0/)
+- numpy: [https://pypi.org/project/numpy/1.24.4/](https://pypi.org/project/numpy/1.24.4/)
+- imbalanced-learn: [https://pypi.org/project/imbalanced-learn/0.11.0/](https://pypi.org/project/imbalanced-learn/0.11.0/)
+- networkx: [https://pypi.org/project/networkx/3.1/](https://pypi.org/project/networkx/3.1/)
+- openpyxl: [https://pypi.org/project/openpyxl/3.1.2/](https://pypi.org/project/openpyxl/3.1.2/)
+- pandas: [https://pypi.org/project/pandas/2.0.3/](https://pypi.org/project/pandas/2.0.3/)
+- regex: [https://pypi.org/project/regex/2023.10.3/](https://pypi.org/project/regex/2023.10.3/)
+- sacremoses: [https://pypi.org/project/sacremoses/0.1.1/](https://pypi.org/project/sacremoses/0.1.1/)
+- scikit-learn: [https://pypi.org/project/scikit-learn/1.3.2/](https://pypi.org/project/scikit-learn/1.3.2/)
+- tabulate: [https://pypi.org/project/tabulate/0.9.0/](https://pypi.org/project/tabulate/0.9.0/)
+- transformers: [https://pypi.org/project/transformers/4.24.0/](https://pypi.org/project/transformers/4.24.0/)
+- matplotlib: [https://pypi.org/project/matplotlib/3.7.4/](https://pypi.org/project/matplotlib/3.7.4/)
 
+- Django: [https://pypi.org/project/Django/4.2.10/](https://pypi.org/project/Django/4.2.10/)
+- django-cors-headers: [https://pypi.org/project/django-cors-headers/4.3.1/](https://pypi.org/project/django-cors-headers/4.3.1/)
+- djangorestframework: [https://pypi.org/project/djangorestframework/3.14.0/](https://pypi.org/project/djangorestframework/3.14.0/)
+- djangorestframework-simplejwt: [https://pypi.org/project/djangorestframework-simplejwt/5.3.1/](https://pypi.org/project/djangorestframework-simplejwt/5.3.1/)
+- django-admin-shortcuts: [https://pypi.org/project/django-admin-shortcuts/2.1.1/](https://pypi.org/project/django-admin-shortcuts/2.1.1/)
+- django-admin-sortable2: [https://pypi.org/project/django-admin-sortable2/2.1.10/](https://pypi.org/project/django-admin-sortable2/2.1.10/)
+- django-extensions: [https://pypi.org/project/django-extensions/3.2.3/](https://pypi.org/project/django-extensions/3.2.3/)
+- django-rest-passwordreset: [https://pypi.org/project/django-rest-passwordreset/1.4.0/](https://pypi.org/project/django-rest-passwordreset/1.4.0/)
+- celery: [https://pypi.org/project/celery/5.3.6/](https://pypi.org/project/celery/5.3.6/)
 
-
-Django: https://pypi.org/project/Django/4.2.10/
-django-cors-headers: https://pypi.org/project/django-cors-headers/4.3.1/
-djangorestframework: https://pypi.org/project/djangorestframework/3.14.0/
-djangorestframework-simplejwt: https://pypi.org/project/djangorestframework-simplejwt/5.3.1/
-django-admin-shortcuts: https://pypi.org/project/django-admin-shortcuts/2.1.1/
-django-admin-sortable2: https://pypi.org/project/django-admin-sortable2/2.1.10/
-django-extensions: https://pypi.org/project/django-extensions/3.2.3/
-django-rest-passwordreset: https://pypi.org/project/django-rest-passwordreset/1.4.0/
-celery: https://pypi.org/project/celery/5.3.6/
-redis: https://pypi.org/project/redis/5.0.1/
-django-celery-beat: https://pypi.org/project/django-celery-beat/2.5.0/
