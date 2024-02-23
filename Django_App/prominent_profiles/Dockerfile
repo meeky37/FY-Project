@@ -13,8 +13,8 @@ FROM python:3.8-slim
 WORKDIR /app
 
 # User for better security
-RUN groupadd -r django && useradd -r -g django django-user
-RUN chown -R django-user:django /app
+RUN groupadd -r django && useradd -r -g django -d /home/django-user -m django-user \
+    && chown -R django-user:django /app
 USER django-user
 
 COPY --from=builder /usr/src/app/wheels /wheels
