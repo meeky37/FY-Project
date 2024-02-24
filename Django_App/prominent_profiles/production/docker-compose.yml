@@ -60,7 +60,7 @@ services:
 
   celery:
     image: ghcr.io/meeky37/fy-project/web:latest
-    user: django-user
+#    user: django-user
     command: ["celery", "-A", "prominent_profiles", "worker", "--loglevel=info"]
     volumes:
       - .:/app
@@ -69,7 +69,7 @@ services:
 
   celerybeat:
     image: ghcr.io/meeky37/fy-project/web:latest
-    user: django-user
+#    user: django-user
     command: ["celery", "-A", "prominent_profiles", "beat", "--loglevel=info", "--scheduler",
               "django_celery_beat.schedulers:DatabaseScheduler"]
     volumes:
