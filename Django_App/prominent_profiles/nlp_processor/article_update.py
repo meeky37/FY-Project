@@ -101,6 +101,11 @@ def calculate_all_percentage_differences(pair):
 
 class ArticleUpdate:
     def __init__(self, text_body, article_model):
+        try:
+            nltk.data.find('tokenizers/punkt')
+        except LookupError:
+            nltk.download('punkt')
+
         self.text_body = text_body  # Added by trafilatura
         self.linguistic_stats = None
         self.article_model = article_model
