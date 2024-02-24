@@ -59,9 +59,7 @@ services:
 
   celery:
     image: ghcr.io/meeky37/fy-project/web:latest
-    command: /bin/sh -c "ls -l; exec celery -A prominent_profiles worker --loglevel=info"
-    user: django-user
-#    command: ["celery", "-A", "prominent_profiles", "worker", "--loglevel=info"]
+    command: gosu django-user celery -A prominent_profiles worker --loglevel=info
     environment:
       - DB_HOST=${DB_HOST}
       - DB_NAME=${DB_NAME}
@@ -77,10 +75,7 @@ services:
 
   celerybeat:
     image: ghcr.io/meeky37/fy-project/web:latest
-    command: /bin/sh -c "ls -l; exec celery -A prominent_profiles beat --loglevel=info --scheduler django_celery_beat.schedulers:DatabaseScheduler"
-    user: django-user
-#    command: ["celery", "-A", "prominent_profiles", "beat", "--loglevel=info", "--scheduler",
-#              "django_celery_beat.schedulers:DatabaseScheduler"]
+    command: gosu django-user celery -A prominent_profiles beat --loglevel=info --scheduler django_celery_beat.schedulers:DatabaseScheduler"
     environment:
       - DB_HOST=${DB_HOST}
       - DB_NAME=${DB_NAME}
