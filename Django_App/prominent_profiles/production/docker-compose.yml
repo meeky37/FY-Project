@@ -75,7 +75,7 @@ services:
 
   celerybeat:
     image: ghcr.io/meeky37/fy-project/web:latest
-    command: celery -A prominent_profiles beat --loglevel=info --scheduler django_celery_beat.schedulers:DatabaseScheduler"
+    command: celery -A prominent_profiles beat --loglevel=info --scheduler django_celery_beat.schedulers:DatabaseScheduler
     environment:
       - DB_HOST=${DB_HOST}
       - DB_NAME=${DB_NAME}
