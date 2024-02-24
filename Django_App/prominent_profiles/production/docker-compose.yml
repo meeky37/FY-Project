@@ -58,24 +58,42 @@ services:
     ports:
       - 6379:6379
 
-#  celery:
-#    image: ghcr.io/meeky37/fy-project/web:latest
-##    user: django-user
-#    command: ["celery", "-A", "prominent_profiles", "worker", "--loglevel=info"]
-#    volumes:
-#      - .:/app
-#    depends_on:
-#      - redis
-#
-#  celerybeat:
-#    image: ghcr.io/meeky37/fy-project/web:latest
-##    user: django-user
-#    command: ["celery", "-A", "prominent_profiles", "beat", "--loglevel=info", "--scheduler",
-#              "django_celery_beat.schedulers:DatabaseScheduler"]
-#    volumes:
-#      - .:/app
-#    depends_on:
-#      - redis
+  celery:
+    image: ghcr.io/meeky37/fy-project/web:latest
+    command: ["celery", "-A", "prominent_profiles", "worker", "--loglevel=info"]
+    environment:
+      - DB_HOST=${DB_HOST}
+      - DB_NAME=${DB_NAME}
+      - DB_USER=${DB_USER}
+      - DB_PASSWORD=${DB_PASSWORD}
+      - RUNNING_IN_DOCKER=${RUNNING_IN_DOCKER}
+      - SECRET_KEY=${SECRET_KEY}
+      - DJANGO_DEBUG=${DJANGO_DEBUG}
+      - BING_API_KEY=${BING_API_KEY}
+      - EMAIL_PASSWORD=${EMAIL_PASSWORD}
+    volumes:
+      - .:/app
+    depends_on:
+      - redis
+
+  celerybeat:
+    image: ghcr.io/meeky37/fy-project/web:latest
+    command: ["celery", "-A", "prominent_profiles", "beat", "--loglevel=info", "--scheduler",
+              "django_celery_beat.schedulers:DatabaseScheduler"]
+    environment:
+      - DB_HOST=${DB_HOST}
+      - DB_NAME=${DB_NAME}
+      - DB_USER=${DB_USER}
+      - DB_PASSWORD=${DB_PASSWORD}
+      - RUNNING_IN_DOCKER=${RUNNING_IN_DOCKER}
+      - SECRET_KEY=${SECRET_KEY}
+      - DJANGO_DEBUG=${DJANGO_DEBUG}
+      - BING_API_KEY=${BING_API_KEY}
+      - EMAIL_PASSWORD=${EMAIL_PASSWORD}
+    volumes:
+      - .:/app
+    depends_on:
+      - redis
 
 volumes:
   postgres_data:
