@@ -85,13 +85,6 @@ class Command(BaseCommand):
     def __init__(self, *args, **kwargs):
         super(Command, self).__init__(*args, **kwargs)
 
-        model_name = "en_core_web_sm"
-        if not spacy.util.is_package(model_name):
-            print(f"{model_name} is not installed. Installing now...")
-            spacy.cli.download(model_name)
-        else:
-            print(f"{model_name} is already installed.")
-
         self.sa_queue = queue.Queue()
 
         self.max_concurrent_threads = 2
@@ -103,8 +96,6 @@ class Command(BaseCommand):
             self.sa_queue.put(sa)
 
     def process_articles(articles, article_objects, processed_urls, start=0, end=None):
-
-        ner = spacy.load("en_core_web_sm")
 
         fetches = 0
         skips = 0
