@@ -84,6 +84,19 @@ class Command(BaseCommand):
 
     def __init__(self, *args, **kwargs):
         super(Command, self).__init__(*args, **kwargs)
+
+        try:
+            nltk.data.find('tokenizers/punkt')
+        except LookupError:
+            nltk.download('punkt')
+
+        model_name = "en_core_web_sm"
+        if not spacy.util.is_package(model_name):
+            print(f"{model_name} is not installed. Installing now...")
+            spacy.cli.download(model_name)
+        else:
+            print(f"{model_name} is already installed.")
+
         self.sa_queue = queue.Queue()
 
         self.max_concurrent_threads = 2
