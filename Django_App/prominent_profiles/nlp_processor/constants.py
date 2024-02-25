@@ -4,6 +4,9 @@ ENTITY_THRESHOLD_PERCENT = 0.30
 MERGE_REMOVAL_INDICATOR = -200
 COMBINED_REMOVAL_INDICATOR = -100
 COMBINED_CLUSTER_ID_SEPARATOR = '0000'
+
+# 3 days seems the appropriate trade-off given overhead of combinations vs our existing
+#  SimilarArticlePairs in publication dates.
 SIMILAR_SEARCH_DAYS = 3
 PREVIEW_IMG_TIMEOUT = 4
 F_COREF_DEVICE = 'mps'

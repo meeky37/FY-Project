@@ -73,7 +73,7 @@ def check_similarity_with_timeout(article_obj):
     with concurrent.futures.ThreadPoolExecutor() as executor:
         future = executor.submit(article_obj.check_similarity)
         try:
-            return future.result(timeout=30)  # Returns True/False based on similarity check
+            return future.result(timeout=60)  # Returns True/False based on similarity check
         except concurrent.futures.TimeoutError:
             print("Check Similarity timed out!")
             return False  # If we timeout, assume not too similar

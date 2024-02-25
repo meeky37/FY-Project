@@ -1,15 +1,35 @@
+"""
+Module: article_processor.py
+
+Designed to process and analyse articles, extracting key entities (classed as PERSON),
+identifying the positions of all their mentions, including coreferences, with efforts
+to work towards a single FIRST LAST name for each person mentioned in the text. 
+Those consolidated entity/coref clusters that meet the threshold can then be processed
+by the SentimentAnalyser class and its methods.
+
+Key Features:
+- Entity Recognition: Identifies named entities in the text.
+- Coreference Resolution: Resolves references to the same entity across the article, 
+grouping mentions.
+- Entity-to-Cluster Mapping: Maps identified entities to their respective coreference 
+clusters both intra and inter cluster consolidation is attempted.
+- Data Cleaning and Normalisation: Cleans and normalises entity names by removing 
+unnecessary characters, standardising formats, and correcting capitalisation.
+- Filtering: Filters entities based on mention thresholds and name length to ensure 
+relevance and accuracy.
+- Database Interaction: Saves articles and their processed metadata, including 
+linguistic statistics and entity information, to a database for persistence and further analysis.
+"""
+
+
 import math
 import re
 from collections import defaultdict
 from datetime import timedelta
 from functools import reduce
 from itertools import product
-import urllib.robotparser
-from urllib.parse import urlparse
 
-from bs4 import BeautifulSoup
 import ppdeep
-import requests
 from textblob import TextBlob
 
 from django.core.exceptions import ValidationError
@@ -24,343 +44,21 @@ from .constants import (ENTITY_THRESHOLD_PERCENT,
                         MERGE_REMOVAL_INDICATOR,
                         COMBINED_REMOVAL_INDICATOR,
                         COMBINED_CLUSTER_ID_SEPARATOR,
-                        SIMILAR_SEARCH_DAYS,
-                        PREVIEW_IMG_TIMEOUT)
+                        SIMILAR_SEARCH_DAYS)
 from .models import ArticleStatistics, SimilarArticlePair
+from .article_utils import (get_preview_image_url,
+                             merge_positions, cleanse_cluster_text,
+                             remove_titles, insert_intervals, 
+                             is_substring, combine_entities, 
+                             update_entity_name, clean_up_substrings,
+                             create_entity_entry)
 
-
-def can_fetch_url(url_to_check):
-    """Check whether a specific URL (url_to_check) is allowed to be fetched by any web crawler
-      (user-agent *) according to the website's robots.txt rules.
-    
-    Args:
-        url_to_check (str): Candidate article url
-
-    Returns:
-        bool: True indicates that fetching the URL is allowed for any crawler,
-              while False suggests it is disallowed.
-    """
-    parsed_url = urlparse(url_to_check)
-    base_url = parsed_url.scheme + "://" + parsed_url.netloc
-    rules = urllib.robotparser.RobotFileParser()
-    rules.set_url(base_url + "/robots.txt")
-    rules.read()
-    return rules.can_fetch("*", url_to_check)
-
-
-def get_preview_image_url(url):
-    """
-    Fetches the preview image URL from a given webpage.
-
-    Args:
-        url (str): The URL of the webpage.
-
-    Returns:
-        str: The URL of the preview image, or an empty string if not found.
-    """
-
-    try:
-        response = requests.get(url, timeout=PREVIEW_IMG_TIMEOUT)
-        if response.status_code == 200:
-            soup = BeautifulSoup(response.text, 'html.parser')
-
-            og_image = soup.find('meta', property='og:image')
-            if og_image:
-                return og_image['content']
-
-            # Twitter Card image tag
-            twitter_image = soup.find(name='twitter:image')
-            if twitter_image:
-                return twitter_image['content']
-
-    except requests.exceptions.Timeout:
-        print(f"Error fetching preview image URL ({url}): [Timeout error].")
-    except requests.exceptions.HTTPError as e:
-        print(f"Error fetching preview image URL ({url}): [HTTP error ({e.response.status_code})].")
-    except requests.exceptions.ConnectionError:
-        print(f"Error fetching preview image URL ({url}): [Connection error].")
-    except requests.exceptions.RequestException:
-        print(f"Error fetching preview image URL ({url}): [General request exception].")
-    except Exception as e:
-        print(f"Error fetching preview image URL ({url}): [Unexpected error: {e}].")
-
-
-def merge_positions(entities, word):
-    """
-    Merges instances of the same named entity into a single entry within an 'entities' dictionary, 
-    aggregating their occurrences throughout the document.
-
-    Args:
-        entities (dict): A dictionary where keys are entity identifiers combining the 
-                         entity's text and label in lowercase, and values are lists 
-                         containing the entity's original text, a list of position ranges
-                         ([start_char, end_char]), and the entity's label.
-        word (Token): A spaCy Token object representing an entity, with attributes for text, entity label (label_),
-                      and character positions (start_char, end_char).
-    Returns:
-        dict: The updated 'entities' dictionary with consolidated positions for each named entity.
-    """    
-    
-    entity_key = (word.text + word.label_).lower()
-    if entity_key in entities:
-        entities[entity_key][1].append([word.start_char, word.end_char])
-    else:
-        entities[entity_key] = [word.text, [[word.start_char, word
-        .end_char]], word.label_]
-    return entities
-
-
-def cleanse_cluster_text(cluster_text):
-    """
-    Helper function. Cleanses the text of a cluster by filtering out common stopwords
-    that are not useful for the purposes of entity recognition and cluster matching. 
-    By eliminating these words, the remaining text is more meaningful for identifying
-    and matching entities to clusters based on significant content.
-
-    
-    Args:
-        cluster_text (list of str): The original text of the cluster as a list, where each
-                                    element is a word from the cluster.
-
-    Returns:
-        list of str: A cleansed list of words from the cluster, with undesired words removed.
-    """       
-    
-    undesired_words = ["i", "he", "his", "she", "they", "it", "this", "that",
-                   "these", "those", "the", "a", "an", "of"]
-
-    return [word.strip() for word in cluster_text if word.lower().strip() not
-            in undesired_words]
-
-
-
-def remove_titles(text):
-
-    """
-    Normalises entity name by removing titles facilitating more accurate matching. 
-    Entity to cluster matching prefers 2 words i.e hoping for a first and second name.
-    Removing the title could reduce an entry for 3 to 2 words.
-    
-    Args:
-        text (str): The original text from which titles and honorifics are to be removed.
-
-    Returns:
-        str: The text with common titles and honorifics removed from its beginning and specific titles 
-             removed from its end.
-
-    Example: 10th Nov:
-    {'Entity Name': 'Keith', 'Positions': [[11664, 11669], [12301, 12306], [14453, 14458], 
-    [15005, 15010], [15286, 15291]], 'Label': 'PERSON', 'Num Positions': 5, 'Cluster Info': 
-    {'Cluster ID': 12, 'Cluster Text': ['Keith', 'Keith', 'Keith', 'Keith', 'Hugo Keith KC',
-    'Keith', 'Keith', 'Keith'], 'Cluster Positions': [(11664, 11669), (12301, 12306), 
-    (12312, 12314), (13026, 13031), (13464, 13469), (14374, 14387), (14453, 14458),
-    (15005, 15010), (15286, 15291)]}}
-    would have been updated to Hugo Keith had it not been for KC which made it 3 words"""
-       
-    title_pattern = r"^(Mr|Mrs|Ms|Miss|Dr|Prof|Rev|Capt|Sir|Madam|Mx|Esq|Hon|Gen|Col|Sgt|Fr|Sr|Jr|Lord|Lady)\s"
-    text = re.sub(title_pattern, "", text)
-
-    # Pattern for titles at the end
-    title_pattern_end = r"\s*(KC|QC)\s*$"
-    text = re.sub(title_pattern_end, "", text)
-    return text
-
-
-def insert_intervals(initial_list, new_values):
-    """The insert_intervals function enables the segmentation of sentences provided by
-    TextBlob (as shown in the cell below) to be further divided into smaller boundaries. This
-     division is based on the identification of specific points where it is deemed necessary
-     to split sentences, particularly within the context of news articles.
-     
-    Args:
-        initial_list (list of tuple): Initial sentence boundaries as a list of (start, end) tuples.
-        new_values (list): Positions at which to insert new sentence boundaries, based on specific textual patterns.
-
-    Returns:
-        list of tuple: Updated list of sentence boundaries, including the newly inserted boundary points.
-
-    Example:
-    initial_list = [(0, 50), (51, 100), (101, 150)]
-    new_values = [75, 120] e.g. New line and hyphen points
-    updated_list = [(0, 50), (51, 75), (76, 100), (101, 120), (121, 150)]
-     """
-
-    def insert_recursive(intervals, values):
-        if not values:
-            return intervals  # Base case: Return the intervals when there are no more values to insert.
-
-        value = values[0]
-        result = []
-        for interval in intervals:
-            if interval[0] <= value <= interval[1]:
-                # If the value falls within an existing interval, split the interval into two parts.
-                # The first part goes from the interval's start to the value (inclusive), and
-                # the second part goes from the value+1 to the interval's end.
-                if interval[0] < value:
-                    # To mess around with intervals change value + - offset here.
-                    result.append((interval[0], value))
-                if value < interval[1]:
-                    # To mess around with intervals change value + - offset here.
-                    result.append((value + 1, interval[1]))
-            else:
-                # If the value doesn't fall within the interval, keep the interval as is.
-                result.append(interval)
-        # Recursively process other values.
-        return insert_recursive(result, values[1:])
-
-    # Recursive function call
-    updated_list = insert_recursive(initial_list, new_values)
-    return updated_list
-
-
-def is_substring(entity1, entity2):
-    """
-    Check if either entity is a substring of the other, case-insensitively.
-
-    Args:
-        entity1 (str): The first entity to compare.
-        entity2 (str): The second entity to compare.
-
-    Returns:
-        bool: True if either entity1 is a substring of entity2 or vice versa; False otherwise.
-    """
-    return entity1.lower() in entity2.lower() or entity2.lower() in entity1.lower()
-
-def combine_entities(entities, cluster_text):
-    """
-    Combines two or more entities into a single entity if their concatenated form is found
-    within the cluster text. Helps handle cases where individual names or titles are 
-    mentioned separately but refer to the same entity in context.
-
-    Args:
-        entities (list): A list of entity names (strings) to be combined.
-        cluster_text (str): The text of the cluster containing the entities, used to verify
-                            the combined form's presence.
-
-    Returns:
-        str: The combined entity name if the concatenation is found in the cluster text;
-             otherwise, returns an empty string.
-    """
-
-    combined_entity = None
-
-    for entity1 in entities:
-        for entity2 in entities:
-            if entity1 != entity2:
-                combined1 = entity1 + ' ' + entity2
-                combined2 = entity2 + ' ' + entity1
-
-                if combined1 in cluster_text or combined2 in cluster_text:
-                    combined_entity = combined1 if combined1 in cluster_text \
-                        else combined2
-                    break
-
-    return combined_entity
-
-
-def update_entity_name(entry):
-    """
-    Calls remove titles and removes possessive punctation before checking if an entity name is a
-     substring of a 2 word entry in the coref cluster e.g. Johnson should become Boris Johnson
-     
-    Args:
-        entry (dict): A dictionary representing an entity entry, with keys 'Entity Name'
-                      and 'Cluster Info' containing cluster text.
-
-    Returns:
-        dict: The updated entry with potentially modified 'Entity Name'.
-    """
-
-    entity_name = entry['Entity Name']
-    cluster_text = entry['Cluster Info']['Cluster Text']
-
-    for text in cluster_text:
-        # Remove titles as not relevant
-        text = remove_titles(text)
-        # Replaces left / right quotation mark with standard single quotation mark
-        text = text.replace('’', "'").replace('‘', "'")
-        # Remove possessive markers for comparison
-        text = text.replace("’s", "")
-        # Remove space and quote
-        text = text.replace(" '", "")
-        # Check if the current entity name is a substring of a 2-word cluster text entry
-        if len(text.split()) == 2 and entity_name in text:
-            entry['Entity Name'] = text
-            break
-    return entry
-
-
-def clean_up_substrings(clustered_entities):
-    """
-    Cleans up substring entities in a list of clustered entities by keeping only the longest entity names
-    within each cluster ID. 
-
-    Args:
-        clustered_entities (list): List of dictionaries representing clustered entities, where each entity
-                                   contains 'Cluster Info' and 'Entity Name' keys.
-
-    Returns:
-        list: List of dictionaries representing cleaned-up entities, where only the longest entity names
-              within each cluster ID are retained.
-
-    Example: 'Rishi', 'Rishi Sunak' -> 'Rishi Sunak' retained 'Sunak' removed.
-    """
-    longest_names = {}
-    entities_to_keep = []
-
-    # Identify longest names in cluster ID and remove shorter ones
-    for entity in clustered_entities:
-        cluster_id = entity['Cluster Info']['Cluster ID']
-        entity_name = entity['Entity Name']
-        current_longest = longest_names.get(cluster_id, "")
-
-        if len(entity_name) > len(current_longest):
-            # Remove the shorter entity without adding it to the list of entities to keep
-            if current_longest:
-                entities_to_keep = [e for e in clustered_entities if
-                                    e['Cluster Info']['Cluster ID'] != cluster_id]
-            longest_names[cluster_id] = entity_name
-
-            # Add the entity to the list of entities to keep
-            entities_to_keep.append(entity)
-
-    # Set merge indicator for entities with more than one associated name in the original list
-    for entity in clustered_entities:
-        cluster_id = entity['Cluster Info']['Cluster ID']
-        if len([e for e in entities_to_keep if
-                e['Cluster Info']['Cluster ID'] == cluster_id]) > 1:
-            entity['Num Positions'] = int(MERGE_REMOVAL_INDICATOR)
-            entity['Positions'] = int(MERGE_REMOVAL_INDICATOR)
-    return entities_to_keep
-
-
-def create_entity_entry(entity_name, positions, label, num_positions):
-    """
-    Create a dictionary representing an entity entry with the provided parameters.
-
-    Args:
-        entity_name (str): The name of the entity.
-        positions (int): The positions of the entity.
-        label (str): The label of the entity.
-        num_positions (int): The number of positions of the entity.
-
-    Returns:
-        dict: A dictionary representing the entity entry.
-    """
-
-    return {
-        'Entity Name': entity_name,
-        'Positions': positions,
-        'Label': label,
-        'Num Positions': num_positions,
-        'Cluster Info': []
-    }
 
 
 class Article:
-    # MENTION_REQ_PER = 0.20 - Moved to constants.py
-    # ENTITY_THRESHOLD_PERCENT = 0.30 - Moved to constants.py
-
+    """
+    Represents a news article and includes functionality for processing article 
+    """
     def __init__(self, url, headline, text_body, NER, date, author, site_name):
         self.url = url
         self.NER = NER
@@ -388,25 +86,26 @@ class Article:
 
         """
             Sets the sentiment analyser for the article object. In the context of a Django job where
-            declaring a sentiment analyser class is expensive due to the initialisation of `TargetSentimentClassifier`
-            with PyTorch, this method aims to optimise memory usage and performance.
+            declaring a sentiment analyser class is expensive due to the initialisation of 
+            `TargetSentimentClassifier` with PyTorch, this method aims to optimise memory 
+            usage and performance.
 
-            Previously, each article object instantiated its own sentiment analyser, leading to high memory
-            consumption and extra delay for each first-time NewsSentiment use. 
+            Previously, each article object instantiated its own sentiment analyser, leading to high
+            memory consumption and extra delay for each first-time NewsSentiment use. 
             
             This method allows for the reuse of a sentiment analyser instance.
 
-            If `sa` (sentiment analyser) is `None`, a new `SentimentAnalyser` instance is created and assigned.
+            If `sa` (sentiment analyser) is `None`, a new `SentimentAnalyser` instance is created
+            and assigned.
             Otherwise, the provided `sa` instance is assigned directly.
 
             Args:
-                sa (SentimentAnalyser or None): The sentiment analyser instance to be set. If `None`, a new
-                                                `SentimentAnalyser` instance will be created.
+                sa (SentimentAnalyser or None): The sentiment analyser instance to be set. 
+                If None, a new SentimentAnalyser instance will be created.
 
             Returns:
                 None
         """
-    
         if sa is None:
             self.sentiment_analyser = SentimentAnalyser()
         else:
@@ -429,27 +128,41 @@ class Article:
             print()
 
     def determine_entity_to_cluster_mapping(self):
-
         """
-        Removing pronouns & other 'useless words' (his, her, he, I etc) then doing a % match rate on
-        entity text across cluster entries for each entity. If match rate % exceeds threshold
-        pair them.
+        Initiates the mapping of entities to clusters by processing each entity in `self.people_entities`. 
+        This function prepares entity entries and delegates the detailed matching process to 
+        `process_clusters_for_entity`, which assesses each entity against cluster entries based
+         on name similarity.
 
-        Improvement: Spliting the entity names into part words e.g. Sadiq Khan will be split into
-        Sadiq and Khan for evaluation purposes. This way if they are mostly mentioned by first
-        or second name the match still has an opportunity to take place.
+        - Input: `self.people_entities`, a dictionary containing entities to be mapped to clusters.
+        - Process: For each entity, it creates an entity entry and then calls `process_clusters_for_entity` 
+        to attempt matching and mapping to clusters.
         """
 
-        for entities in self.people_entities.items():
+        for entity_type, entities in self.people_entities.items():
             for entity in entities:
                 entity_name, positions, label, num_positions = entity
                 entity_entry = create_entity_entry(entity_name, positions, label,
                                                    num_positions)
                 self.process_clusters_for_entity(entity_entry, entity_name)
 
-    def process_clusters_for_entity(self, entity_entry, entity_name):
+    def process_clusters_for_entity(self, entity_entry, entity_name):     
+        """
+        Removing pronouns & other 'useless words' (his, her, he, I etc) then doing a % match rate on
+        entity first/last names across cluster entries for each entity. If match rate % exceeds threshold
+        pair them.
+
+        Improvement: Spliting the entity names into part words e.g. Sadiq Khan will be split into
+        Sadiq and Khan for evaluation purposes. This way if they are mostly mentioned by first
+        or second name the match still has an opportunity to take place.
+
+        Input: entity_entry (contains name, positions, label, number of positions), entity_name
+        Output: Assigns outcome to `self.entity_to_cluster_mapping` to include entities 
+        successfully mapped to clusters, based on exceeding the similarity threshold.
+        """
+
         cluster_id = 0
-        for (cluster_text, cluster_positions, _) in self.coref_clusters:
+        for index, (cluster_text, cluster_positions, _) in self.coref_clusters:
             cluster_id += 1
 
             cluster_text = cleanse_cluster_text(cluster_text)
@@ -485,14 +198,17 @@ class Article:
                 break
 
     def set_coref_clusters(self, sorted_combined_clusters):
-        """Add an ID to each cluster"""
+        """Adds an ID to each cluster and assigns it to self.coref_clusters
+           for later use in process_clusters_for_entity method"""
         self.coref_clusters = list(enumerate(sorted_combined_clusters))
 
     def source_ner_people(self):
 
-        """SpaCy is a popular NLP library that offers pre-trained models for various languages, and
-            its NER component is capable of recognising and categorising named entities within text.
-            It is utilised here to identify PERSON entities"""
+        """
+        SpaCy is a popular NLP library that offers pre-trained models for various languages, and
+        its NER component is capable of recognising and categorising named entities within text.
+        It is utilised here to identify PERSON entities.
+        """
 
         NER = self.NER
         article_text = self.text_body
@@ -553,20 +269,25 @@ class Article:
         Process the article text, tokenise by sentence and add custom adjustments to the
         tokenisation using insert intervals below.
         spaCy was not satisfactory for accurately tokenising for sentence start / end
-        characters. Trying textblob instead. TextBlob is a Python library for processing textual
+        characters. 
+        I used TextBlob instead: a Python library for processing textual
         data that is bulit upon NLTK.
 
         TextBlob can provide me with the start and end of sentences by using the sentences
         attribute of a TextBlob object. This attribute returns a list of Sentence objects, each
         of which has a start and end property that indicates the index of the first and last
-        character of the sentence within the original text."""
+        character of the sentence within the original text.
+
+        Custom splitting is possible afterwards here using insert intervals
+        on the TextBlob sentence bounds
+        """
 
         # Process the article text and adjust tokenization
         article_text = self.text_body
         blob = TextBlob(article_text)
         sentences = blob.sentences
 
-        # Determine custom tokenization:
+        # Determine custom tokenisation:
         # In testing article a new line and '-' hyphen use typically means consider
         # a different sentence (e.g Daily Mail articles).
         hyphen_nl_pos = [pos for pos, char in enumerate(article_text) if
@@ -599,6 +320,28 @@ class Article:
 
         4. 16th November - resolve instances of 'King\n11:43' which should be King.
 
+        The consolidation process involves:
+            1. Intra-cluster Consolidation:
+            - Entities within the same cluster are examined for substring relationships between their names.
+            - Entities are either merged by removing the entity with the shorter name or by creating a new 
+                entity entry if a combined entity name is relevant within the cluster context.
+            - Special indicators mark entries that have been merged or combined, 
+                facilitating subsequent processing steps.
+
+            2. Inter-cluster Consolidation:
+            - After refining entities within clusters, the process checks across different clusters for 
+                potential entity merges based on name substring relationships.
+            - Clusters with related entities are merged by updating cluster IDs to a combined format and 
+                consolidating cluster texts and positions, aiming to create a more coherent representation 
+                of related entities across the dataset.
+            
+            3. Finishing touches:
+            - Entity names are cleaned and standardised, removing unrequired characters and ensuring proper
+              formatting e.g quote marks.
+            - Entities failing to meet the 20% mention threshold or exceeding a three-word limit are
+              filtered out.
+            - The refined list of entities is further cleaned to address any remaining inconsistencies,
+              like overlapping substrings.
                 
         Modifies:
         - Updates `self.entity_to_cluster_mapping` by consolidating entities based on the criteria
@@ -800,13 +543,12 @@ class Article:
         # print(f"number of entities after mention threshold: {new_length}")
 
         clustered_entities = clean_up_substrings(clustered_entities)
-
         self.clustered_entities = clustered_entities
 
         # Is this article going to go on the web app? If clustered_entities > 0 then yes so get
         # article parts and insert into database.
-        if new_length > 0:
-            self.set_database_candidate_true() # Redundant now we add at similarity stage anyway
+        # if new_length > 0:
+            # self.set_database_candidate_true() # Redundant now we add at similarity stage anyway
 
     def set_database_candidate_true(self):
         """
@@ -825,8 +567,19 @@ class Article:
                                                           .text_body)
 
     def save_to_database(self):
-        try:
+        """
+        Saves the article and its associated fuzzy hash and linguistic statistics to the database.
 
+        Process:
+        1. Retrieves a preview image URL for the article.
+        2. Creates and saves an article instance in the ArticleModel table.
+        3. Creates and saves an article statistics instance in the ArticleStatistics table, linked to the article.
+        4. Catches and handles specific exceptions that may arise during the database operations.
+        
+        Additionally, updates `self.database_id` to the ID of the article saved in the database.
+        """
+        
+        try:
             self.image_url = get_preview_image_url(self.url)
 
             article_model = ArticleModel.objects.create(
@@ -889,16 +642,18 @@ class Article:
 
     def check_similarity(self):
         """
-        Checks for similarity by comparing the current article with other recently published articles
-        in terms of fuzzy hashing, and percentage differences in lingustic features. 
+        Checks for similarity by comparing the current article with other recently published
+        articles in terms of fuzzy hashing, and percentage differences in lingustic features. 
         
-        It also checks for the existence of similar article pairs - which was useful for running on my existing database
-        before this was incorporated into the scrape_articles_concurrent daily job. 
+        It also checks for the existence of similar article pairs - which was useful
+        for running on my existing database before this was incorporated into the 
+        scrape_articles_concurrent daily job. 
 
-        The comparison includes metrics such as the percentage difference in the occurrences of words like "the",
-        "and", "is", "of", "in", "to", "it", "that", and "with".
+        The comparison includes metrics such as the percentage difference in the occurrences of 
+        words like "the", "and", "is", "of", "in", "to", "it", "that", and "with".
 
-        If a similarity threshold is met, the method returns True, indicating a similar article is found.
+        If a similarity threshold is met, the method returns True, indicating a similar article is
+        found.
 
         Returns:
             bool: True if a similar article is found, False otherwise.
@@ -943,7 +698,8 @@ class Article:
 
             if existing_pair:
                 print(
-                    f"Similarity pair exists between Article {stat1.article_id} and Article {stat2.article_id}. Ignoring.")
+                    f"Similarity pair exists between Article"
+                    f"{stat1.article_id} and Article {stat2.article_id}. Ignoring.")
                 similar = True
                 return similar
 

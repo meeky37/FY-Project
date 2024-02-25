@@ -1,0 +1,1009 @@
+[
+    {
+        "_type": "News",
+        "queryContext": {
+            "originalQuery": "Reform",
+            "adultIntent": false
+        },
+        "value": []
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=Reform",
+        "queryContext": {
+            "originalQuery": "Reform",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 112,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Reform"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Reform&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "German bishops to head to Rome after Vatican demands they scrap a vote on contentious lay council",
+                "url": "https://www.newsday.com/news/nation/Vatican-Germany-reform-synod-r39519",
+                "description": "A delegation of German bishops is expected in Rome soon after the Vatican insisted they scrap a planned vote on a controversial proposal to let laypeople participate in a decision-making council alongside bishops.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5ed498af-fa85-2a88-874d-212494ddb06f",
+                        "name": "Rome"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/75c62d8e-1449-4e4d-b188-d9e88f878dd9",
+                        "name": "Germany"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e98c41e2-a3dd-2898-3123-efa71f0a52a4",
+                        "name": "Newsday"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Newsday",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.85aUDNToFsCpCmrIeBdRag&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-24T00:01:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Labour lead grows in &#39;sea wall&#39; constituencies, polling shows",
+                "url": "https://news.sky.com/story/labour-lead-grows-in-sea-wall-constituencies-polling-shows-13079229",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.arVfMWST4N1QskTnZUO5oC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Research seen by Sky News suggests Sir Keir Starmer&#39;s party is ahead of the Conservatives in a swathe of coastal constituencies in England and Wales.",
+                "mentions": [
+                    {
+                        "name": "Australian Labor Party"
+                    },
+                    {
+                        "name": "Sky News"
+                    },
+                    {
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Eg62H9DIbo-JYPI6GpAgGA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-23T20:40:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Wales&#39; next First Minister: Candidates stand firm on 20mph limits and farming consultation",
+                "url": "https://www.walesonline.co.uk/news/wales-news/wales-next-first-minister-candidates-28695735",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.17wFyd_WDo1N6eXyLG3X8y&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Voting is open in the race to become the next leader of Welsh Labour when Mark Drakeford stands down in March. It is between the economy minister, Vaughan Gething, and education minister, Jeremy Miles. Voting is open for Labour members and those in affiliated groups, and the result will be announced on March 16.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b51b24e1-6afb-d525-d360-f2eb5bf3410b",
+                        "name": "Wales"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Wales"
+                    },
+                    {
+                        "name": "Candidate"
+                    },
+                    {
+                        "name": "Public consultation"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Wales Online",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.lVPjCN3LmTro40TL-cwcLg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-23T20:27:00.0000000Z"
+            },
+            {
+                "name": "Defiant Martin defends handling of \u2018very difficult\u2019 RTE exit pay saga as minsters give backing amid \u2018untenable\u2019 calls",
+                "url": "https://www.thesun.ie/news/12273493/rte-catherine-martin-defends-handling-exit-package-untenable/",
+                "description": "MEDIA Minister Catherine Martin has defended her handling of the latest crisis to engulf RTE, which led to Siun Ni Raghallaigh resigning as the chairwoman of the network\u2019s board. Minister Martin,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7efed38b-cd6e-ea14-4954-33be8e9c81d2",
+                        "name": "Catherine Martin"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Irish Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.tjXwvGzOgpcKN_0jNk7glg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-23T20:04:00.0000000Z"
+            },
+            {
+                "name": "Rishi Sunak touts \u2018green shoots\u2019 of UK economic recovery ahead of Budget",
+                "url": "https://www.ft.com/content/820a4c91-675b-4000-a70b-940002e99ddb",
+                "description": "Sunak and chancellor Jeremy Hunt believe voters are starting to see evidence of a recovery, with real wages rising and unemployment rates below 4 per cent. Hunt is putting the finishing touches to the main measures he intends to put into his Budget on March 6, which he hopes to show voters a clear path to a brighter future.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7ed91c5a-c761-3685-0fb9-18c5b82b7d90",
+                        "name": "Green shoots"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Financial Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CdBlognZ1u9nda-gVEOS_w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-23T19:32:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Sunak backs farmers protesting against Welsh Government <b>reform</b>",
+                "url": "https://www.southwalesargus.co.uk/news/24140857.sunak-backs-farmers-protesting-welsh-government-reform/",
+                "description": "RISHI Sunak has offered his support to protesting farmers in Wales. Farmers across Wales have objected to the Welsh Labour government\u2019s proposals to change farming subsidies to require more land to be set aside for environmental schemes.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/120d4238-df93-4584-9fac-30072ef9ad9d",
+                        "name": "Reform"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4bcd62ae-bb87-198a-c0e4-5c71d4cc223c",
+                        "name": "Welsh Government"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "South Wales Argus",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.MT-QJylgO3dtHD0v2vEIFA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-23T18:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Reform</b> would raise 40p income tax threshold to \u00a370k",
+                "url": "https://www.telegraph.co.uk/politics/2024/02/23/reform-raise-40p-income-tax-threshold-70k/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.J1lR2Cac-AGLgXdJ1XFNOC&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "Draft manifesto unveiled by party leader Richard Tice piles pressure on Chancellor to go further with tax cuts in spring Budget",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d355755f-5bca-f787-9933-51cccbfe3b63",
+                        "name": "Conscription in the United States"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03333e0f-559e-424c-7178-5b8240bc78d0",
+                        "name": "Income tax threshold"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c93e9126-cc30-44e8-bfbd-cce4ffc6148f",
+                        "name": "Reform Party"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Conscription in the United States"
+                    },
+                    {
+                        "name": "Income tax threshold"
+                    },
+                    {
+                        "name": "Reform Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-23T16:24:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Reform</b> UK to unveil new policies and election candidates at Doncaster rally",
+                "url": "https://www.theguardian.com/politics/2024/feb/23/reform-uk-to-unveil-new-policies-and-election-candidates-at-doncaster-rally",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.HDwrcB3syiDV_jjj8D-Pyi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Far-right party is trying to capitalise on third place finishes in recent byelections and is cleaning up social media histories of prospective MPs",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c0baca15-2d44-42ee-1e02-34efdcdfdf4e",
+                        "name": "Doncaster"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/120d4238-df93-4584-9fac-30072ef9ad9d",
+                        "name": "Reform"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1fed0e76-8502-b92b-c0eb-be89568314be",
+                        "name": "Rally"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Doncaster"
+                    },
+                    {
+                        "name": "Reform"
+                    },
+                    {
+                        "name": "Rally"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-23T16:10:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "How do we get voters more engaged, if not with local authority <b>reform</b>?",
+                "url": "https://www.thenational.scot/politics/24138657.get-voters-engaged-not-local-authority-reform/",
+                "description": "Any reporter or newspaper that steps out of line, questions just a little \u201ctoo near the bone\u201d a particular incident, will find themselves on the receiving end of a charge of \u201cbringing the game into disrepute\u201d by the very officials who are above and beyond question or criticism.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/120d4238-df93-4584-9fac-30072ef9ad9d",
+                        "name": "Reform"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-23T15:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Rebel Tory MPs may force renters\u2019 reforms to be put \u2018on ice\u2019",
+                "url": "https://inews.co.uk/news/rebel-tory-mp-rental-reforms-2921737?ico=most_popular",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT._dL0IN8G1CNF_pJTXs6iAS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The Government is considering putting on hold radical rental reforms if concessions fail to appease the nearly 50 Tory MPs opposed to proposed rules",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/120d4238-df93-4584-9fac-30072ef9ad9d",
+                        "name": "Reform"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Tory"
+                    },
+                    {
+                        "name": "Reform"
+                    },
+                    {
+                        "name": "Force"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.e7fQ8Xlt73qPYww7zCl5TQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-23T13:21:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "HMRC targets unrepresented in basis period <b>reform</b>",
+                "url": "https://www.accountingweb.co.uk/tax/hmrc-policy/hmrc-targets-unrepresented-in-basis-period-reform",
+                "description": "Unrepresented sole traders and partnerships with a year-end other than 31 March or 5 April could have a surprise landing on their doormats in the next",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/28169edd-9203-165a-81e9-17d48677c121",
+                        "name": "Basis"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/120d4238-df93-4584-9fac-30072ef9ad9d",
+                        "name": "Reform"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "accountingweb.co.uk",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.3P07X-NHx6cUVcH8oIiJoA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-23T11:42:00.0000000Z",
+                "category": "ScienceAndTechnology"
+            },
+            {
+                "name": "Glasgow council looks to cut 172 teaching posts at primary and secondary schools",
+                "url": "https://www.glasgowlive.co.uk/news/glasgow-news/glasgow-council-looks-cut-172-28689707",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.qasSmB5a9yfg0_K0MOW6gC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Education service reform was included in a budget passed last week, as the city faces a \u00a3107m budget blackhole over three years.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/da2548ee-1b26-f939-06b4-2fae57e075e7",
+                        "name": "Glasgow"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/eaaef858-1162-2a38-1de1-759525f1f7b6",
+                        "name": "Council"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Glasgow"
+                    },
+                    {
+                        "name": "Council"
+                    },
+                    {
+                        "name": "Secondary school"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "glasgowlive.co.uk",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.haisjyZ0cCjPO4PVMByWLw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-23T10:48:00.0000000Z"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=Reform",
+        "queryContext": {
+            "originalQuery": "Reform",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 69600,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Reform"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Reform&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "German bishops to head to Rome after Vatican demands they scrap a vote on contentious lay council",
+                "url": "https://www.newsday.com/news/nation/Vatican-Germany-reform-synod-r39519",
+                "description": "A delegation of German bishops is expected in Rome soon after the Vatican insisted they scrap a planned vote on a controversial proposal to let laypeople participate in a decision-making council alongside bishops.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5ed498af-fa85-2a88-874d-212494ddb06f",
+                        "name": "Rome"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/75c62d8e-1449-4e4d-b188-d9e88f878dd9",
+                        "name": "Germany"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e98c41e2-a3dd-2898-3123-efa71f0a52a4",
+                        "name": "Newsday"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Newsday",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.85aUDNToFsCpCmrIeBdRag&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-24T00:01:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Labour lead grows in &#39;sea wall&#39; constituencies, polling shows",
+                "url": "https://news.sky.com/story/labour-lead-grows-in-sea-wall-constituencies-polling-shows-13079229",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.arVfMWST4N1QskTnZUO5oC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Research seen by Sky News suggests Sir Keir Starmer&#39;s party is ahead of the Conservatives in a swathe of coastal constituencies in England and Wales.",
+                "mentions": [
+                    {
+                        "name": "Australian Labor Party"
+                    },
+                    {
+                        "name": "Sky News"
+                    },
+                    {
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Eg62H9DIbo-JYPI6GpAgGA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-23T20:40:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Wales&#39; next First Minister: Candidates stand firm on 20mph limits and farming consultation",
+                "url": "https://www.walesonline.co.uk/news/wales-news/wales-next-first-minister-candidates-28695735",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.17wFyd_WDo1N6eXyLG3X8y&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Voting is open in the race to become the next leader of Welsh Labour when Mark Drakeford stands down in March. It is between the economy minister, Vaughan Gething, and education minister, Jeremy Miles. Voting is open for Labour members and those in affiliated groups, and the result will be announced on March 16.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b51b24e1-6afb-d525-d360-f2eb5bf3410b",
+                        "name": "Wales"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Wales"
+                    },
+                    {
+                        "name": "Candidate"
+                    },
+                    {
+                        "name": "Public consultation"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Wales Online",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.lVPjCN3LmTro40TL-cwcLg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-23T20:27:00.0000000Z"
+            },
+            {
+                "name": "Defiant Martin defends handling of \u2018very difficult\u2019 RTE exit pay saga as minsters give backing amid \u2018untenable\u2019 calls",
+                "url": "https://www.thesun.ie/news/12273493/rte-catherine-martin-defends-handling-exit-package-untenable/",
+                "description": "MEDIA Minister Catherine Martin has defended her handling of the latest crisis to engulf RTE, which led to Siun Ni Raghallaigh resigning as the chairwoman of the network\u2019s board. Minister Martin,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7efed38b-cd6e-ea14-4954-33be8e9c81d2",
+                        "name": "Catherine Martin"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Irish Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.tjXwvGzOgpcKN_0jNk7glg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-23T20:04:00.0000000Z"
+            },
+            {
+                "name": "Rishi Sunak touts \u2018green shoots\u2019 of UK economic recovery ahead of Budget",
+                "url": "https://www.ft.com/content/820a4c91-675b-4000-a70b-940002e99ddb",
+                "description": "Sunak and chancellor Jeremy Hunt believe voters are starting to see evidence of a recovery, with real wages rising and unemployment rates below 4 per cent. Hunt is putting the finishing touches to the main measures he intends to put into his Budget on March 6, which he hopes to show voters a clear path to a brighter future.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7ed91c5a-c761-3685-0fb9-18c5b82b7d90",
+                        "name": "Green shoots"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Financial Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CdBlognZ1u9nda-gVEOS_w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-23T19:32:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=Reform",
+        "queryContext": {
+            "originalQuery": "Reform",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 69600,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Reform"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Reform&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "German bishops to head to Rome after Vatican demands they scrap a vote on contentious lay council",
+                "url": "https://www.newsday.com/news/nation/Vatican-Germany-reform-synod-r39519",
+                "description": "A delegation of German bishops is expected in Rome soon after the Vatican insisted they scrap a planned vote on a controversial proposal to let laypeople participate in a decision-making council alongside bishops.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5ed498af-fa85-2a88-874d-212494ddb06f",
+                        "name": "Rome"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/75c62d8e-1449-4e4d-b188-d9e88f878dd9",
+                        "name": "Germany"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e98c41e2-a3dd-2898-3123-efa71f0a52a4",
+                        "name": "Newsday"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Newsday",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.85aUDNToFsCpCmrIeBdRag&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-24T00:01:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Labour lead grows in &#39;sea wall&#39; constituencies, polling shows",
+                "url": "https://news.sky.com/story/labour-lead-grows-in-sea-wall-constituencies-polling-shows-13079229",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.arVfMWST4N1QskTnZUO5oC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Research seen by Sky News suggests Sir Keir Starmer&#39;s party is ahead of the Conservatives in a swathe of coastal constituencies in England and Wales.",
+                "mentions": [
+                    {
+                        "name": "Australian Labor Party"
+                    },
+                    {
+                        "name": "Sky News"
+                    },
+                    {
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Eg62H9DIbo-JYPI6GpAgGA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-23T20:40:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Wales&#39; next First Minister: Candidates stand firm on 20mph limits and farming consultation",
+                "url": "https://www.walesonline.co.uk/news/wales-news/wales-next-first-minister-candidates-28695735",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.17wFyd_WDo1N6eXyLG3X8y&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Voting is open in the race to become the next leader of Welsh Labour when Mark Drakeford stands down in March. It is between the economy minister, Vaughan Gething, and education minister, Jeremy Miles. Voting is open for Labour members and those in affiliated groups, and the result will be announced on March 16.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b51b24e1-6afb-d525-d360-f2eb5bf3410b",
+                        "name": "Wales"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Wales"
+                    },
+                    {
+                        "name": "Candidate"
+                    },
+                    {
+                        "name": "Public consultation"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Wales Online",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.lVPjCN3LmTro40TL-cwcLg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-23T20:27:00.0000000Z"
+            },
+            {
+                "name": "Defiant Martin defends handling of \u2018very difficult\u2019 RTE exit pay saga as minsters give backing amid \u2018untenable\u2019 calls",
+                "url": "https://www.thesun.ie/news/12273493/rte-catherine-martin-defends-handling-exit-package-untenable/",
+                "description": "MEDIA Minister Catherine Martin has defended her handling of the latest crisis to engulf RTE, which led to Siun Ni Raghallaigh resigning as the chairwoman of the network\u2019s board. Minister Martin,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7efed38b-cd6e-ea14-4954-33be8e9c81d2",
+                        "name": "Catherine Martin"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Irish Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.tjXwvGzOgpcKN_0jNk7glg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-23T20:04:00.0000000Z"
+            },
+            {
+                "name": "Rishi Sunak touts \u2018green shoots\u2019 of UK economic recovery ahead of Budget",
+                "url": "https://www.ft.com/content/820a4c91-675b-4000-a70b-940002e99ddb",
+                "description": "Sunak and chancellor Jeremy Hunt believe voters are starting to see evidence of a recovery, with real wages rising and unemployment rates below 4 per cent. Hunt is putting the finishing touches to the main measures he intends to put into his Budget on March 6, which he hopes to show voters a clear path to a brighter future.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7ed91c5a-c761-3685-0fb9-18c5b82b7d90",
+                        "name": "Green shoots"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Financial Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CdBlognZ1u9nda-gVEOS_w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-23T19:32:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=Reform",
+        "queryContext": {
+            "originalQuery": "Reform",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 69600,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Reform"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Reform&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "German bishops to head to Rome after Vatican demands they scrap a vote on contentious lay council",
+                "url": "https://www.newsday.com/news/nation/Vatican-Germany-reform-synod-r39519",
+                "description": "A delegation of German bishops is expected in Rome soon after the Vatican insisted they scrap a planned vote on a controversial proposal to let laypeople participate in a decision-making council alongside bishops.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5ed498af-fa85-2a88-874d-212494ddb06f",
+                        "name": "Rome"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/75c62d8e-1449-4e4d-b188-d9e88f878dd9",
+                        "name": "Germany"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e98c41e2-a3dd-2898-3123-efa71f0a52a4",
+                        "name": "Newsday"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Newsday",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.85aUDNToFsCpCmrIeBdRag&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-24T00:01:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Labour lead grows in &#39;sea wall&#39; constituencies, polling shows",
+                "url": "https://news.sky.com/story/labour-lead-grows-in-sea-wall-constituencies-polling-shows-13079229",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.arVfMWST4N1QskTnZUO5oC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Research seen by Sky News suggests Sir Keir Starmer&#39;s party is ahead of the Conservatives in a swathe of coastal constituencies in England and Wales.",
+                "mentions": [
+                    {
+                        "name": "Australian Labor Party"
+                    },
+                    {
+                        "name": "Sky News"
+                    },
+                    {
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Eg62H9DIbo-JYPI6GpAgGA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-23T20:40:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Wales&#39; next First Minister: Candidates stand firm on 20mph limits and farming consultation",
+                "url": "https://www.walesonline.co.uk/news/wales-news/wales-next-first-minister-candidates-28695735",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.17wFyd_WDo1N6eXyLG3X8y&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Voting is open in the race to become the next leader of Welsh Labour when Mark Drakeford stands down in March. It is between the economy minister, Vaughan Gething, and education minister, Jeremy Miles. Voting is open for Labour members and those in affiliated groups, and the result will be announced on March 16.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b51b24e1-6afb-d525-d360-f2eb5bf3410b",
+                        "name": "Wales"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Wales"
+                    },
+                    {
+                        "name": "Candidate"
+                    },
+                    {
+                        "name": "Public consultation"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Wales Online",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.lVPjCN3LmTro40TL-cwcLg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-23T20:27:00.0000000Z"
+            },
+            {
+                "name": "Defiant Martin defends handling of \u2018very difficult\u2019 RTE exit pay saga as minsters give backing amid \u2018untenable\u2019 calls",
+                "url": "https://www.thesun.ie/news/12273493/rte-catherine-martin-defends-handling-exit-package-untenable/",
+                "description": "MEDIA Minister Catherine Martin has defended her handling of the latest crisis to engulf RTE, which led to Siun Ni Raghallaigh resigning as the chairwoman of the network\u2019s board. Minister Martin,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7efed38b-cd6e-ea14-4954-33be8e9c81d2",
+                        "name": "Catherine Martin"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Irish Sun",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.tjXwvGzOgpcKN_0jNk7glg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-23T20:04:00.0000000Z"
+            },
+            {
+                "name": "Rishi Sunak touts \u2018green shoots\u2019 of UK economic recovery ahead of Budget",
+                "url": "https://www.ft.com/content/820a4c91-675b-4000-a70b-940002e99ddb",
+                "description": "Sunak and chancellor Jeremy Hunt believe voters are starting to see evidence of a recovery, with real wages rising and unemployment rates below 4 per cent. Hunt is putting the finishing touches to the main measures he intends to put into his Budget on March 6, which he hopes to show voters a clear path to a brighter future.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/7ed91c5a-c761-3685-0fb9-18c5b82b7d90",
+                        "name": "Green shoots"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Financial Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CdBlognZ1u9nda-gVEOS_w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-23T19:32:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    }
+]

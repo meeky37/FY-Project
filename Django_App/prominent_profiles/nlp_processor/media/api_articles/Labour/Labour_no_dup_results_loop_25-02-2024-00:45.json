@@ -1,0 +1,1795 @@
+[
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=Labour",
+        "queryContext": {
+            "originalQuery": "Labour",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 112000,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Labour"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Labour&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Newspaper headlines: &#39;Bodyguards for MPs&#39; and Starmer turns on Tories",
+                "url": "https://www.bbc.co.uk/news/blogs-the-papers-68395364",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ifGuRIxUXMleLzB8CTakZy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "&quot;Boot out this bigot&quot; reads the headline on the front of the Sunday Mirror, next to a picture of Lee Anderson. It reports on the Tory MP being suspended by his party following his comments about Mayor of London Sadiq Khan.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-25T00:36:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Keir Starmer accuses &#39;weak&#39; Sunak of harbouring &#39;extremists&#39; in his party",
+                "url": "https://news.sky.com/story/keir-starmer-accuses-weak-sunak-of-harbouring-extremists-in-his-party-13080553",
+                "description": "The <b>Labour</b> leader said Rishi Sunak&#39;s &quot;weakness&quot; allowed Lee Anderson &quot;to act with impunity&quot; and that he &quot;needs to get a grip and take on the extremists in his party&quot;. Sir Keir said it was &quot;right&quot; that Mr Anderson lost the whip after what he called an ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/63a6ef59-71fd-db08-08c6-d47d973d47fb",
+                        "name": "Keir Starmer"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky"
+                    }
+                ],
+                "datePublished": "2024-02-25T00:34:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "With his plans ripped up, Jeremy Hunt may go where <b>Labour</b> can\u2019t follow",
+                "url": "https://www.thetimes.co.uk/article/jeremy-hunt-recession-budget-2024-labour-cant-follow-gl9d2nmhn",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.xG4Lo8BNmEMb31Gy5xK4rS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Before every budget there is a slightly giddy period when journalists \u2014 and politicians \u2014 start floating all manner of proposals that might, or should, be in it. The latest is the idea that, to help young people onto the housing ladder, the government ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2bd73848-4b61-3c98-ba3e-c458fe954d74",
+                        "name": "Jeremy Hunt"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times"
+                    }
+                ],
+                "datePublished": "2024-02-25T00:19:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Sunak to hold regional Cabinet as local transport fund announced",
+                "url": "https://www.standard.co.uk/news/politics/mark-harper-prime-minister-midlands-government-humber-b1141345.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.yIXZkxDZ9jXTemXRu8yPbS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The Prime Minister said there is a \u2018clear plan to level up our country\u2019 by investing in projects across the North and the Midlands.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3b5d1ee5-6986-57f3-e41f-f9fd350fd3bd",
+                        "name": "Mark Harper"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Mark Harper"
+                    },
+                    {
+                        "name": "Transport"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-25T00:01:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "SNP to propose fresh Gaza ceasefire motion after Commons chaos",
+                "url": "https://www.standard.co.uk/news/politics/snp-gaza-government-keir-starmer-commons-b1141347.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.G50KvbmHcWUMMhaGI6WMky&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "MPs are set to again debate calling for a ceasefire in Gaza after a previous attempt dissolved into angry recriminations and demands for the Commons Speaker to resign. The SNP said it will take up Speaker Sir Lindsay Hoyle\u2019s offer of a meaningful debate on a fresh ceasefire motion following criticism of his handling of the last Commons debate on the subject.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90eb9ff6-60ad-da43-d3fe-1ee3e3cb775a",
+                        "name": "Gaza Strip"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Gaza Strip"
+                    },
+                    {
+                        "name": "Motion"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-25T00:01:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "A century later: the first <b>Labour</b> Government, People\u2019s History Museum, Manchester",
+                "url": "https://www.northernsoul.me.uk/centenary-labour-phm-mcr/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.jbOWMY7oYiC3WNxfMB70uC&pid=News",
+                        "width": 700,
+                        "height": 534
+                    }
+                },
+                "description": "That first <b>Labour</b> administration of 1924 was short-lived, lacking the parliamentary majority necessary for longer tenure, and inheriting both the recent loss of the Irish Free State and increasing unemployment. Nonetheless, that <b>Labour</b> should have come ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/177c4d76-4f1e-85f6-4a3c-8f3e98118a01",
+                        "name": "People&#39;s History Museum"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/35dddbb1-7bb3-4072-bfd5-f9e6570713b0",
+                        "name": "Manchester"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "northernsoul.me.uk"
+                    }
+                ],
+                "datePublished": "2024-02-25T00:00:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=Labour",
+        "queryContext": {
+            "originalQuery": "Labour",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 112,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Labour"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Labour&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Newspaper headlines: &#39;Bodyguards for MPs&#39; and Starmer turns on Tories",
+                "url": "https://www.bbc.co.uk/news/blogs-the-papers-68395364",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ifGuRIxUXMleLzB8CTakZy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "&quot;Boot out this bigot&quot; reads the headline on the front of the Sunday Mirror, next to a picture of Lee Anderson. It reports on the Tory MP being suspended by his party following his comments about Mayor of London Sadiq Khan.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-25T00:36:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "With his plans ripped up, Jeremy Hunt may go where <b>Labour</b> can\u2019t follow",
+                "url": "https://www.thetimes.co.uk/article/jeremy-hunt-recession-budget-2024-labour-cant-follow-gl9d2nmhn",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.xG4Lo8BNmEMb31Gy5xK4rS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Before every budget there is a slightly giddy period when journalists \u2014 and politicians \u2014 start floating all manner of proposals that might, or should, be in it. The latest is the idea that, to help young people onto the housing ladder, the government ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2bd73848-4b61-3c98-ba3e-c458fe954d74",
+                        "name": "Jeremy Hunt"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times"
+                    }
+                ],
+                "datePublished": "2024-02-25T00:19:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Sunak to hold regional Cabinet as local transport fund announced",
+                "url": "https://www.standard.co.uk/news/politics/mark-harper-prime-minister-midlands-government-humber-b1141345.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.yIXZkxDZ9jXTemXRu8yPbS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The Prime Minister said there is a \u2018clear plan to level up our country\u2019 by investing in projects across the North and the Midlands.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3b5d1ee5-6986-57f3-e41f-f9fd350fd3bd",
+                        "name": "Mark Harper"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Mark Harper"
+                    },
+                    {
+                        "name": "Transport"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-25T00:01:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "A century later: the first <b>Labour</b> Government, People\u2019s History Museum, Manchester",
+                "url": "https://www.northernsoul.me.uk/centenary-labour-phm-mcr/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.jbOWMY7oYiC3WNxfMB70uC&pid=News",
+                        "width": 700,
+                        "height": 534
+                    }
+                },
+                "description": "That first <b>Labour</b> administration of 1924 was short-lived, lacking the parliamentary majority necessary for longer tenure, and inheriting both the recent loss of the Irish Free State and increasing unemployment. Nonetheless, that <b>Labour</b> should have come ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/177c4d76-4f1e-85f6-4a3c-8f3e98118a01",
+                        "name": "People&#39;s History Museum"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/35dddbb1-7bb3-4072-bfd5-f9e6570713b0",
+                        "name": "Manchester"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "northernsoul.me.uk"
+                    }
+                ],
+                "datePublished": "2024-02-25T00:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "&#39;Local transport fund&#39; Cabinet meeting coming North after HS2 axe",
+                "url": "https://www.nottinghampost.com/news/uk-world-news/local-transport-fund-cabinet-meeting-9122958",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.GVSYi4oM73_0mkfVZFW3EC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The new fund will see Rishi Sunak visit the North of England as he discloses how money from the abandoned HS2 plans will be shared across regional councils",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9ece1b05-fc74-3f9d-1b09-26fe3c2eacf1",
+                        "name": "Local World"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/474ecb67-f819-ecef-a259-d24741044ebd",
+                        "name": "Nottinghamshire"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a82e435f-44f8-4376-ff30-dce2d373dc6e",
+                        "name": "North of England cricket team"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Local World"
+                    },
+                    {
+                        "name": "Nottinghamshire"
+                    },
+                    {
+                        "name": "North of England cricket team"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Nottingham Post",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.uIhRYEl-hjUmBuW39k7IdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-25T00:00:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "PM\u2019s silence is \u2018tacit endorsement of vile remarks\u2019 by Anderson, says mayor",
+                "url": "https://www.standard.co.uk/news/politics/lee-anderson-sadiq-khan-prime-minister-labour-baroness-warsi-b1141337.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.lEbSmi_alQKbZXJj0lsV-y&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Former deputy party chairman Lee Anderson lost the Tory whip after refusing to apologise for the remarks on \u2018Islamists\u2019.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c94f2fa6-9853-e53f-af90-7aec244e4382",
+                        "name": "Lee Anderson"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d7862dc2-4c03-1dc8-3412-7fe03041fdcb",
+                        "name": "Sadiq Khan"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Lee Anderson"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Sadiq Khan"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-24T23:43:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Calls for more tower crane safety after death of Vancouver worker",
+                "url": "https://uk.news.yahoo.com/calls-more-tower-crane-safety-234204130.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.zDFzuKyvZ_XneQAJNwPJbC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The union representing crane operators in B.C. is asking for stricter safety regulations after a Vancouver construction worker was killed when a crane&#39;s load fell on her.Yuridia Flores, a mother of two from Mexico,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b2f69d84-61e8-6486-e21d-571285d3ba2f",
+                        "name": "Safety"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d9a176fc-df40-2288-f646-b6bf5b7d4a9b",
+                        "name": "Vancouver"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-24T23:42:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Labour</b> MPs boasted Sir Keir Starmer was \u2018going to fix the Speaker\u2019 in crunch meeting over Gaza votes",
+                "url": "https://www.thesun.co.uk/news/26163303/sir-keir-starmer-fix-speaker-gaza-votes/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.gINJkp_TJQ5Fq-BNm954Si&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "<b>LABOUR</b> MPs boasted Sir Keir Starmer was \u201cgoing to fix the Speaker\u201d in a crunch meeting over Gaza votes which sent Parliament into meltdown. The explosive claim piles pressure on Sir Keir to reveal what was said in the showdown with Sir Lindsay Hoyle.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90eb9ff6-60ad-da43-d3fe-1ee3e3cb775a",
+                        "name": "Gaza Strip"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d7a25a0d-7256-22c8-d18c-95799d2e5ebc",
+                        "name": "The Sun"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun"
+                    }
+                ],
+                "datePublished": "2024-02-24T23:41:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "The Prime Minister In Waiting - but who really is Keir Starmer?",
+                "url": "https://news.sky.com/story/the-prime-minister-in-waiting-but-who-really-is-keir-starmer-13079122",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ELQPLcDm38KA-nT7cTDHwC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The man himself may insist it isn&#39;t over until the votes are in, but Keir Starmer looks likely to be the next prime minister. Who is he and how did he get here? And why do those close to him feel the public doesn&#39;t see all of what they see?",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/63a6ef59-71fd-db08-08c6-d47d973d47fb",
+                        "name": "Keir Starmer"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/18d9cf39-9ea4-5c26-8b65-72a8b536cdf7",
+                        "name": "Prime minister"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Keir Starmer"
+                    },
+                    {
+                        "name": "Prime minister"
+                    },
+                    {
+                        "name": "Sky News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Eg62H9DIbo-JYPI6GpAgGA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-24T23:28:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Rishi Sunak&#39;s \u00a35 billion transport plan to &quot;fire up&quot; the north",
+                "url": "https://www.express.co.uk/news/politics/1870461/Rishi-Sunak-s-5-billion-transport-plan-to-fire-up-the-north",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.JxK8cVWA6SbqZdh1E0X1sS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "RISHI Sunak vowed to revitalise Britain\u2019s forgotten regions by pumping almost \u00a35billion into improving transport links. The PM will use cash saved by scrapping the northern leg of HS2 to upgrade roads, rail and bus services in \u201cred wall\u201d areas.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-24T23:02:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Risk to financial future of Somerset Council remains despite budget agreement",
+                "url": "https://www.burnham-on-sea.com/news/risk-to-financial-future-of-somerset-council-remains-despite-budget-agreement/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.4jwBfEQ_5sCM37jiEvc3jS&pid=News",
+                        "width": 690,
+                        "height": 408
+                    }
+                },
+                "description": "Somerset Council could still declare bankruptcy within the next 12 months despite managing to pass a balanced budget last week, it has been warned.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2b333df9-032c-c9b1-0d74-88ea8c5befbd",
+                        "name": "Somerset"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/92c976a5-1167-de4f-ac00-ab84db63af18",
+                        "name": "Risk"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Burnham-On-Sea",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.p0vmunW8qnDuHE7PZOFugw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-24T23:02:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "RMT leader Mick Lynch gives Jeremy Corbyn general election backing",
+                "url": "https://www.bbc.com/news/uk-politics-68393822.amp",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.35fXfxSKyYcSC8pxdDFFQi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "RMT leader Mick Lynch said the union would back Mr Corbyn should he run for his seat again as an independent. &quot;We will support all sorts of people in this election, because we&#39;re not affiliated,&quot; Mr Lynch told the War on Want conference.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k3N4DqozNjgK376rAnFmsA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-24T22:35:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=Labour",
+        "queryContext": {
+            "originalQuery": "Labour",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 112000,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Labour"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Labour&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Newspaper headlines: &#39;Bodyguards for MPs&#39; and Starmer turns on Tories",
+                "url": "https://www.bbc.co.uk/news/blogs-the-papers-68395364",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ifGuRIxUXMleLzB8CTakZy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "&quot;Boot out this bigot&quot; reads the headline on the front of the Sunday Mirror, next to a picture of Lee Anderson. It reports on the Tory MP being suspended by his party following his comments about Mayor of London Sadiq Khan.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-25T00:36:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Keir Starmer accuses &#39;weak&#39; Sunak of harbouring &#39;extremists&#39; in his party",
+                "url": "https://news.sky.com/story/keir-starmer-accuses-weak-sunak-of-harbouring-extremists-in-his-party-13080553",
+                "description": "The <b>Labour</b> leader said Rishi Sunak&#39;s &quot;weakness&quot; allowed Lee Anderson &quot;to act with impunity&quot; and that he &quot;needs to get a grip and take on the extremists in his party&quot;. Sir Keir said it was &quot;right&quot; that Mr Anderson lost the whip after what he called an ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/63a6ef59-71fd-db08-08c6-d47d973d47fb",
+                        "name": "Keir Starmer"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky"
+                    }
+                ],
+                "datePublished": "2024-02-25T00:34:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "With his plans ripped up, Jeremy Hunt may go where <b>Labour</b> can\u2019t follow",
+                "url": "https://www.thetimes.co.uk/article/jeremy-hunt-recession-budget-2024-labour-cant-follow-gl9d2nmhn",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.xG4Lo8BNmEMb31Gy5xK4rS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Before every budget there is a slightly giddy period when journalists \u2014 and politicians \u2014 start floating all manner of proposals that might, or should, be in it. The latest is the idea that, to help young people onto the housing ladder, the government ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2bd73848-4b61-3c98-ba3e-c458fe954d74",
+                        "name": "Jeremy Hunt"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times"
+                    }
+                ],
+                "datePublished": "2024-02-25T00:19:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Sunak to hold regional Cabinet as local transport fund announced",
+                "url": "https://www.standard.co.uk/news/politics/mark-harper-prime-minister-midlands-government-humber-b1141345.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.yIXZkxDZ9jXTemXRu8yPbS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The Prime Minister said there is a \u2018clear plan to level up our country\u2019 by investing in projects across the North and the Midlands.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3b5d1ee5-6986-57f3-e41f-f9fd350fd3bd",
+                        "name": "Mark Harper"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Mark Harper"
+                    },
+                    {
+                        "name": "Transport"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-25T00:01:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "A century later: the first <b>Labour</b> Government, People\u2019s History Museum, Manchester",
+                "url": "https://www.northernsoul.me.uk/centenary-labour-phm-mcr/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.jbOWMY7oYiC3WNxfMB70uC&pid=News",
+                        "width": 700,
+                        "height": 534
+                    }
+                },
+                "description": "That first <b>Labour</b> administration of 1924 was short-lived, lacking the parliamentary majority necessary for longer tenure, and inheriting both the recent loss of the Irish Free State and increasing unemployment. Nonetheless, that <b>Labour</b> should have come ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/177c4d76-4f1e-85f6-4a3c-8f3e98118a01",
+                        "name": "People&#39;s History Museum"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/35dddbb1-7bb3-4072-bfd5-f9e6570713b0",
+                        "name": "Manchester"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "northernsoul.me.uk"
+                    }
+                ],
+                "datePublished": "2024-02-25T00:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "&#39;Local transport fund&#39; Cabinet meeting coming North after HS2 axe",
+                "url": "https://www.nottinghampost.com/news/uk-world-news/local-transport-fund-cabinet-meeting-9122958",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.GVSYi4oM73_0mkfVZFW3EC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The new fund will see Rishi Sunak visit the North of England as he discloses how money from the abandoned HS2 plans will be shared across regional councils",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9ece1b05-fc74-3f9d-1b09-26fe3c2eacf1",
+                        "name": "Local World"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/474ecb67-f819-ecef-a259-d24741044ebd",
+                        "name": "Nottinghamshire"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a82e435f-44f8-4376-ff30-dce2d373dc6e",
+                        "name": "North of England cricket team"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Local World"
+                    },
+                    {
+                        "name": "Nottinghamshire"
+                    },
+                    {
+                        "name": "North of England cricket team"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Nottingham Post",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.uIhRYEl-hjUmBuW39k7IdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-25T00:00:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "PM\u2019s silence is \u2018tacit endorsement of vile remarks\u2019 by Anderson, says mayor",
+                "url": "https://www.standard.co.uk/news/politics/lee-anderson-sadiq-khan-prime-minister-labour-baroness-warsi-b1141337.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.lEbSmi_alQKbZXJj0lsV-y&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Former deputy party chairman Lee Anderson lost the Tory whip after refusing to apologise for the remarks on \u2018Islamists\u2019.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c94f2fa6-9853-e53f-af90-7aec244e4382",
+                        "name": "Lee Anderson"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d7862dc2-4c03-1dc8-3412-7fe03041fdcb",
+                        "name": "Sadiq Khan"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Lee Anderson"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Sadiq Khan"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-24T23:43:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Taxpayer-funded bodyguards and cars \u2018provided to more MPs due to safety fears\u2019",
+                "url": "https://www.newsshopper.co.uk/news/national/24142457.taxpayer-funded-bodyguards-cars-provided-mps-due-safety-fears/",
+                "description": "Taxpayer-funded bodyguards and cars have reportedly been provided to more MPs amid growing fears for their safety. A rising number of politicians have been assessed to be at risk and are being provided with close protection by private security personnel, the Sunday Telegraph reported.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "News Shopper",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.-MR3oOXaxEPgpQr786VGvQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-24T23:43:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Labour</b> MPs boasted Sir Keir Starmer was \u2018going to fix the Speaker\u2019 in crunch meeting over Gaza votes",
+                "url": "https://www.thesun.co.uk/news/26163303/sir-keir-starmer-fix-speaker-gaza-votes/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.gINJkp_TJQ5Fq-BNm954Si&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "<b>LABOUR</b> MPs boasted Sir Keir Starmer was \u201cgoing to fix the Speaker\u201d in a crunch meeting over Gaza votes which sent Parliament into meltdown. The explosive claim piles pressure on Sir Keir to reveal what was said in the showdown with Sir Lindsay Hoyle.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90eb9ff6-60ad-da43-d3fe-1ee3e3cb775a",
+                        "name": "Gaza Strip"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d7a25a0d-7256-22c8-d18c-95799d2e5ebc",
+                        "name": "The Sun"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun"
+                    }
+                ],
+                "datePublished": "2024-02-24T23:41:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=Labour",
+        "queryContext": {
+            "originalQuery": "Labour",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 312,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Labour"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Labour&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Newspaper headlines: &#39;Bodyguards for MPs&#39; and Starmer turns on Tories",
+                "url": "https://www.bbc.co.uk/news/blogs-the-papers-68395364",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ifGuRIxUXMleLzB8CTakZy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "&quot;Boot out this bigot&quot; reads the headline on the front of the Sunday Mirror, next to a picture of Lee Anderson. It reports on the Tory MP being suspended by his party following his comments about Mayor of London Sadiq Khan.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-25T00:36:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "With his plans ripped up, Jeremy Hunt may go where <b>Labour</b> can\u2019t follow",
+                "url": "https://www.thetimes.co.uk/article/jeremy-hunt-recession-budget-2024-labour-cant-follow-gl9d2nmhn",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.xG4Lo8BNmEMb31Gy5xK4rS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Before every budget there is a slightly giddy period when journalists \u2014 and politicians \u2014 start floating all manner of proposals that might, or should, be in it. The latest is the idea that, to help young people onto the housing ladder, the government ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2bd73848-4b61-3c98-ba3e-c458fe954d74",
+                        "name": "Jeremy Hunt"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times"
+                    }
+                ],
+                "datePublished": "2024-02-25T00:19:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Sunak to hold regional Cabinet as local transport fund announced",
+                "url": "https://www.standard.co.uk/news/politics/mark-harper-prime-minister-midlands-government-humber-b1141345.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.yIXZkxDZ9jXTemXRu8yPbS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The Prime Minister said there is a \u2018clear plan to level up our country\u2019 by investing in projects across the North and the Midlands.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3b5d1ee5-6986-57f3-e41f-f9fd350fd3bd",
+                        "name": "Mark Harper"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Mark Harper"
+                    },
+                    {
+                        "name": "Transport"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-25T00:01:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "A century later: the first <b>Labour</b> Government, People\u2019s History Museum, Manchester",
+                "url": "https://www.northernsoul.me.uk/centenary-labour-phm-mcr/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.jbOWMY7oYiC3WNxfMB70uC&pid=News",
+                        "width": 700,
+                        "height": 534
+                    }
+                },
+                "description": "That first <b>Labour</b> administration of 1924 was short-lived, lacking the parliamentary majority necessary for longer tenure, and inheriting both the recent loss of the Irish Free State and increasing unemployment. Nonetheless, that <b>Labour</b> should have come ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/177c4d76-4f1e-85f6-4a3c-8f3e98118a01",
+                        "name": "People&#39;s History Museum"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/35dddbb1-7bb3-4072-bfd5-f9e6570713b0",
+                        "name": "Manchester"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "northernsoul.me.uk"
+                    }
+                ],
+                "datePublished": "2024-02-25T00:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "&#39;Local transport fund&#39; Cabinet meeting coming North after HS2 axe",
+                "url": "https://www.nottinghampost.com/news/uk-world-news/local-transport-fund-cabinet-meeting-9122958",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.GVSYi4oM73_0mkfVZFW3EC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The new fund will see Rishi Sunak visit the North of England as he discloses how money from the abandoned HS2 plans will be shared across regional councils",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9ece1b05-fc74-3f9d-1b09-26fe3c2eacf1",
+                        "name": "Local World"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/474ecb67-f819-ecef-a259-d24741044ebd",
+                        "name": "Nottinghamshire"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a82e435f-44f8-4376-ff30-dce2d373dc6e",
+                        "name": "North of England cricket team"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Local World"
+                    },
+                    {
+                        "name": "Nottinghamshire"
+                    },
+                    {
+                        "name": "North of England cricket team"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Nottingham Post",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.uIhRYEl-hjUmBuW39k7IdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-25T00:00:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "PM\u2019s silence is \u2018tacit endorsement of vile remarks\u2019 by Anderson, says mayor",
+                "url": "https://www.standard.co.uk/news/politics/lee-anderson-sadiq-khan-prime-minister-labour-baroness-warsi-b1141337.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.lEbSmi_alQKbZXJj0lsV-y&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Former deputy party chairman Lee Anderson lost the Tory whip after refusing to apologise for the remarks on \u2018Islamists\u2019.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c94f2fa6-9853-e53f-af90-7aec244e4382",
+                        "name": "Lee Anderson"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d7862dc2-4c03-1dc8-3412-7fe03041fdcb",
+                        "name": "Sadiq Khan"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Lee Anderson"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Sadiq Khan"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-24T23:43:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Calls for more tower crane safety after death of Vancouver worker",
+                "url": "https://uk.news.yahoo.com/calls-more-tower-crane-safety-234204130.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.zDFzuKyvZ_XneQAJNwPJbC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The union representing crane operators in B.C. is asking for stricter safety regulations after a Vancouver construction worker was killed when a crane&#39;s load fell on her.Yuridia Flores, a mother of two from Mexico,",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b2f69d84-61e8-6486-e21d-571285d3ba2f",
+                        "name": "Safety"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d9a176fc-df40-2288-f646-b6bf5b7d4a9b",
+                        "name": "Vancouver"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-24T23:42:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Labour</b> MPs boasted Sir Keir Starmer was \u2018going to fix the Speaker\u2019 in crunch meeting over Gaza votes",
+                "url": "https://www.thesun.co.uk/news/26163303/sir-keir-starmer-fix-speaker-gaza-votes/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.gINJkp_TJQ5Fq-BNm954Si&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "<b>LABOUR</b> MPs boasted Sir Keir Starmer was \u201cgoing to fix the Speaker\u201d in a crunch meeting over Gaza votes which sent Parliament into meltdown. The explosive claim piles pressure on Sir Keir to reveal what was said in the showdown with Sir Lindsay Hoyle.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90eb9ff6-60ad-da43-d3fe-1ee3e3cb775a",
+                        "name": "Gaza Strip"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d7a25a0d-7256-22c8-d18c-95799d2e5ebc",
+                        "name": "The Sun"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun"
+                    }
+                ],
+                "datePublished": "2024-02-24T23:41:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "The Prime Minister In Waiting - but who really is Keir Starmer?",
+                "url": "https://news.sky.com/story/the-prime-minister-in-waiting-but-who-really-is-keir-starmer-13079122",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ELQPLcDm38KA-nT7cTDHwC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The man himself may insist it isn&#39;t over until the votes are in, but Keir Starmer looks likely to be the next prime minister. Who is he and how did he get here? And why do those close to him feel the public doesn&#39;t see all of what they see?",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/63a6ef59-71fd-db08-08c6-d47d973d47fb",
+                        "name": "Keir Starmer"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/18d9cf39-9ea4-5c26-8b65-72a8b536cdf7",
+                        "name": "Prime minister"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Keir Starmer"
+                    },
+                    {
+                        "name": "Prime minister"
+                    },
+                    {
+                        "name": "Sky News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Eg62H9DIbo-JYPI6GpAgGA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-24T23:28:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Rishi Sunak&#39;s \u00a35 billion transport plan to &quot;fire up&quot; the north",
+                "url": "https://www.express.co.uk/news/politics/1870461/Rishi-Sunak-s-5-billion-transport-plan-to-fire-up-the-north",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.JxK8cVWA6SbqZdh1E0X1sS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "RISHI Sunak vowed to revitalise Britain\u2019s forgotten regions by pumping almost \u00a35billion into improving transport links. The PM will use cash saved by scrapping the northern leg of HS2 to upgrade roads, rail and bus services in \u201cred wall\u201d areas.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-24T23:02:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Risk to financial future of Somerset Council remains despite budget agreement",
+                "url": "https://www.burnham-on-sea.com/news/risk-to-financial-future-of-somerset-council-remains-despite-budget-agreement/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.4jwBfEQ_5sCM37jiEvc3jS&pid=News",
+                        "width": 690,
+                        "height": 408
+                    }
+                },
+                "description": "Somerset Council could still declare bankruptcy within the next 12 months despite managing to pass a balanced budget last week, it has been warned.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2b333df9-032c-c9b1-0d74-88ea8c5befbd",
+                        "name": "Somerset"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/92c976a5-1167-de4f-ac00-ab84db63af18",
+                        "name": "Risk"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Burnham-On-Sea",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.p0vmunW8qnDuHE7PZOFugw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-24T23:02:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "RMT leader Mick Lynch gives Jeremy Corbyn general election backing",
+                "url": "https://www.bbc.com/news/uk-politics-68393822.amp",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.35fXfxSKyYcSC8pxdDFFQi&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "RMT leader Mick Lynch said the union would back Mr Corbyn should he run for his seat again as an independent. &quot;We will support all sorts of people in this election, because we&#39;re not affiliated,&quot; Mr Lynch told the War on Want conference.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.k3N4DqozNjgK376rAnFmsA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-24T22:35:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=Labour",
+        "queryContext": {
+            "originalQuery": "Labour",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 112000,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Labour"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=Labour&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "Newspaper headlines: &#39;Bodyguards for MPs&#39; and Starmer turns on Tories",
+                "url": "https://www.bbc.co.uk/news/blogs-the-papers-68395364",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ifGuRIxUXMleLzB8CTakZy&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "&quot;Boot out this bigot&quot; reads the headline on the front of the Sunday Mirror, next to a picture of Lee Anderson. It reports on the Tory MP being suspended by his party following his comments about Mayor of London Sadiq Khan.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.yhngt24TSWuyw3ur0Pt3WQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-25T00:36:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Keir Starmer accuses &#39;weak&#39; Sunak of harbouring &#39;extremists&#39; in his party",
+                "url": "https://news.sky.com/story/keir-starmer-accuses-weak-sunak-of-harbouring-extremists-in-his-party-13080553",
+                "description": "The <b>Labour</b> leader said Rishi Sunak&#39;s &quot;weakness&quot; allowed Lee Anderson &quot;to act with impunity&quot; and that he &quot;needs to get a grip and take on the extremists in his party&quot;. Sir Keir said it was &quot;right&quot; that Mr Anderson lost the whip after what he called an ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/63a6ef59-71fd-db08-08c6-d47d973d47fb",
+                        "name": "Keir Starmer"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky"
+                    }
+                ],
+                "datePublished": "2024-02-25T00:34:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "With his plans ripped up, Jeremy Hunt may go where <b>Labour</b> can\u2019t follow",
+                "url": "https://www.thetimes.co.uk/article/jeremy-hunt-recession-budget-2024-labour-cant-follow-gl9d2nmhn",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.xG4Lo8BNmEMb31Gy5xK4rS&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "Before every budget there is a slightly giddy period when journalists \u2014 and politicians \u2014 start floating all manner of proposals that might, or should, be in it. The latest is the idea that, to help young people onto the housing ladder, the government ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/2bd73848-4b61-3c98-ba3e-c458fe954d74",
+                        "name": "Jeremy Hunt"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times"
+                    }
+                ],
+                "datePublished": "2024-02-25T00:19:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Sunak to hold regional Cabinet as local transport fund announced",
+                "url": "https://www.standard.co.uk/news/politics/mark-harper-prime-minister-midlands-government-humber-b1141345.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.yIXZkxDZ9jXTemXRu8yPbS&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The Prime Minister said there is a \u2018clear plan to level up our country\u2019 by investing in projects across the North and the Midlands.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/3b5d1ee5-6986-57f3-e41f-f9fd350fd3bd",
+                        "name": "Mark Harper"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Mark Harper"
+                    },
+                    {
+                        "name": "Transport"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-25T00:01:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "A century later: the first <b>Labour</b> Government, People\u2019s History Museum, Manchester",
+                "url": "https://www.northernsoul.me.uk/centenary-labour-phm-mcr/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.jbOWMY7oYiC3WNxfMB70uC&pid=News",
+                        "width": 700,
+                        "height": 534
+                    }
+                },
+                "description": "That first <b>Labour</b> administration of 1924 was short-lived, lacking the parliamentary majority necessary for longer tenure, and inheriting both the recent loss of the Irish Free State and increasing unemployment. Nonetheless, that <b>Labour</b> should have come ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/177c4d76-4f1e-85f6-4a3c-8f3e98118a01",
+                        "name": "People&#39;s History Museum"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/35dddbb1-7bb3-4072-bfd5-f9e6570713b0",
+                        "name": "Manchester"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "northernsoul.me.uk"
+                    }
+                ],
+                "datePublished": "2024-02-25T00:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "&#39;Local transport fund&#39; Cabinet meeting coming North after HS2 axe",
+                "url": "https://www.nottinghampost.com/news/uk-world-news/local-transport-fund-cabinet-meeting-9122958",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.GVSYi4oM73_0mkfVZFW3EC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The new fund will see Rishi Sunak visit the North of England as he discloses how money from the abandoned HS2 plans will be shared across regional councils",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9ece1b05-fc74-3f9d-1b09-26fe3c2eacf1",
+                        "name": "Local World"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/474ecb67-f819-ecef-a259-d24741044ebd",
+                        "name": "Nottinghamshire"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/a82e435f-44f8-4376-ff30-dce2d373dc6e",
+                        "name": "North of England cricket team"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Local World"
+                    },
+                    {
+                        "name": "Nottinghamshire"
+                    },
+                    {
+                        "name": "North of England cricket team"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Nottingham Post",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.uIhRYEl-hjUmBuW39k7IdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-25T00:00:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "PM\u2019s silence is \u2018tacit endorsement of vile remarks\u2019 by Anderson, says mayor",
+                "url": "https://www.standard.co.uk/news/politics/lee-anderson-sadiq-khan-prime-minister-labour-baroness-warsi-b1141337.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.lEbSmi_alQKbZXJj0lsV-y&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Former deputy party chairman Lee Anderson lost the Tory whip after refusing to apologise for the remarks on \u2018Islamists\u2019.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c94f2fa6-9853-e53f-af90-7aec244e4382",
+                        "name": "Lee Anderson"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d7862dc2-4c03-1dc8-3412-7fe03041fdcb",
+                        "name": "Sadiq Khan"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Lee Anderson"
+                    },
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Sadiq Khan"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-24T23:43:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Taxpayer-funded bodyguards and cars \u2018provided to more MPs due to safety fears\u2019",
+                "url": "https://www.newsshopper.co.uk/news/national/24142457.taxpayer-funded-bodyguards-cars-provided-mps-due-safety-fears/",
+                "description": "Taxpayer-funded bodyguards and cars have reportedly been provided to more MPs amid growing fears for their safety. A rising number of politicians have been assessed to be at risk and are being provided with close protection by private security personnel, the Sunday Telegraph reported.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "News Shopper",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.-MR3oOXaxEPgpQr786VGvQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-24T23:43:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>Labour</b> MPs boasted Sir Keir Starmer was \u2018going to fix the Speaker\u2019 in crunch meeting over Gaza votes",
+                "url": "https://www.thesun.co.uk/news/26163303/sir-keir-starmer-fix-speaker-gaza-votes/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.gINJkp_TJQ5Fq-BNm954Si&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "<b>LABOUR</b> MPs boasted Sir Keir Starmer was \u201cgoing to fix the Speaker\u201d in a crunch meeting over Gaza votes which sent Parliament into meltdown. The explosive claim piles pressure on Sir Keir to reveal what was said in the showdown with Sir Lindsay Hoyle.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90eb9ff6-60ad-da43-d3fe-1ee3e3cb775a",
+                        "name": "Gaza Strip"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d7a25a0d-7256-22c8-d18c-95799d2e5ebc",
+                        "name": "The Sun"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Sun"
+                    }
+                ],
+                "datePublished": "2024-02-24T23:41:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    }
+]

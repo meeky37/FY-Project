@@ -1,0 +1,1878 @@
+[
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics",
+        "queryContext": {
+            "originalQuery": "uk politics",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 8,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "<b>UK</b> and US launch strikes against Houthis after surge in attacks on shipping",
+                "url": "https://www.andoveradvertiser.co.uk/news/national/24142445.uk-us-launch-strikes-houthis-surge-attacks-shipping/",
+                "description": "The <b>UK</b> and US have launched another round of missile strikes against Houthi targets in Yemen after a surge in attacks around the Red Sea by the Iran-backed group. American and British fighter jets hit sites in eight locations, according to US officials.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Andover Advertiser"
+                    }
+                ],
+                "datePublished": "2024-02-25T00:14:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "<b>UK</b> pledges \u00a34.25m in sexual and reproductive aid for women in Gaza",
+                "url": "https://www.northern-scot.co.uk/news/national/article/uk-pledges-4-25m-in-sexual-and-reproductive-aid-for-women-in-gaza-100864/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.xcz9-Ngmufdoye7eGa5g8i&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Foreign Secretary Lord Cameron reiterated the Government line that an \u2018immediate pause\u2019 in the fighting is needed.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90eb9ff6-60ad-da43-d3fe-1ee3e3cb775a",
+                        "name": "Gaza Strip"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "northern-scot.co.uk",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.vvfO2OnlLP2gcDJ2zfr4wQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-25T00:11:00.0000000Z"
+            },
+            {
+                "name": "There\u2019s no debate \u2014 <b>politics</b> belongs on the curriculum",
+                "url": "https://www.thetimes.co.uk/article/theres-no-debate-politics-belongs-on-the-curriculum-3bnmbtdsl",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.lLjDMqbwy4iqG6OY4gsVGi&pid=News",
+                        "width": 360,
+                        "height": 202
+                    }
+                },
+                "description": "Our leaders of tomorrow must be encouraged to develop skills in critical thinking and public speaking",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-25T00:01:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "SNP to propose fresh Gaza ceasefire motion after Commons chaos",
+                "url": "https://www.wiltshiretimes.co.uk/news/national/24142462.snp-propose-fresh-gaza-ceasefire-motion-commons-chaos/",
+                "description": "Mr Flynn added: \u201cThe SNP\u2019s calls for the <b>UK</b> to back an immediate ceasefire have never just ... A fresh debate will renew the <b>political</b> headache that Labour leader Sir Keir was able to avoid on Wednesday. Many of his MPs are likely to vote in favour ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90eb9ff6-60ad-da43-d3fe-1ee3e3cb775a",
+                        "name": "Gaza Strip"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/04a31463-61ec-9934-ca28-88c008dd5b58",
+                        "name": "Motion"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Wiltshire Times"
+                    }
+                ],
+                "datePublished": "2024-02-25T00:01:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Trump greeted with fierce bear hug from Javier Milei backstage at CPAC",
+                "url": "https://uk.news.yahoo.com/trump-greeted-fierce-bear-hug-000701902.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.WJg24m0dwV0FiBcxbwdmeC&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "He\u2019s a great gentleman ... he said \u2018I am Maga\u2019 then I realized these are the few [who] can really do it,\u2019 former president says",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-25T00:00:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "MPs to vote on fresh Gaza ceasefire motion after Commons chaos",
+                "url": "https://uk.news.yahoo.com/mps-vote-fresh-gaza-ceasefire-001302310.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.K636eBOo_k7RFVzGWCIboy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Story continues Mr Flynn added: \u201cThe SNP\u2019s calls for the <b>UK</b> to back an immediate ceasefire have never ... A fresh debate will renew the <b>political</b> headache that Labour leader Sir Keir was able to avoid on Wednesday. Many of his MPs are likely to vote ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK"
+                    }
+                ],
+                "datePublished": "2024-02-25T00:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "NHS tops poll of voters\u2019 concerns as latest strike threatens further havoc",
+                "url": "https://www.theguardian.com/society/2024/feb/24/nhs-tops-poll-of-voters-concerns-as-latest-strike-threatens-further-havoc",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.mA_9IYRnNcG0b6CvnBUDxS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Junior doctors\u2019 11th walkout in England expected to add to backlogs in service a third of Britons say NHS is most pressing issue The NHS has overtaken soaring prices as the issue most Britons believe is the biggest challenge facing the <b>UK</b>, new polling ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f9e2b409-7b88-1896-b90d-bce65cd2057a",
+                        "name": "Strike"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e320dd44-b39b-fd9b-7883-0fe89bb44ace",
+                        "name": "Poll"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Strike"
+                    },
+                    {
+                        "name": "Poll"
+                    },
+                    {
+                        "name": "The Guardian"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian"
+                    }
+                ],
+                "datePublished": "2024-02-24T06:00:00.0000000Z"
+            },
+            {
+                "name": "Huge Ukrainian flag unfurled at Preston anniversary event",
+                "url": "https://www.bbc.co.uk/news/uk-england-lancashire-68392068.amp",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.owEdyWEIrJYBS1vO6X_1RC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "<b>UK</b> <b>political</b> leaders recently reaffirmed their support for Ukraine, with Prime Minister Rishi Sunak saying Britain was prepared to do &quot;whatever it takes&quot; as he pledged nearly \u00a3250m towards producing artillery shells.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/91c620b3-1522-0ebd-63b2-4a7e645a1fde",
+                        "name": "Preston"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC"
+                    }
+                ],
+                "datePublished": "2024-02-24T00:00:00.0000000Z",
+                "category": "ScienceAndTechnology"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics",
+        "queryContext": {
+            "originalQuery": "uk politics",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 109,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "<b>UK</b> and US launch strikes against Houthis after surge in attacks on shipping",
+                "url": "https://www.andoveradvertiser.co.uk/news/national/24142445.uk-us-launch-strikes-houthis-surge-attacks-shipping/",
+                "description": "The <b>UK</b> and US have launched another round of missile strikes against Houthi targets in Yemen after a surge in attacks around the Red Sea by the Iran-backed group. American and British fighter jets hit sites in eight locations, according to US officials.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Andover Advertiser"
+                    }
+                ],
+                "datePublished": "2024-02-25T00:14:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "SNP to propose fresh Gaza ceasefire motion after Commons chaos",
+                "url": "https://www.standard.co.uk/news/politics/snp-gaza-government-keir-starmer-commons-b1141347.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.G50KvbmHcWUMMhaGI6WMky&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "MPs are set to again debate calling for a ceasefire in Gaza after a previous attempt dissolved into angry recriminations and demands for the Commons Speaker to resign. The SNP said it will take up Speaker Sir Lindsay Hoyle\u2019s offer of a meaningful debate on a fresh ceasefire motion following criticism of his handling of the last Commons debate on the subject.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90eb9ff6-60ad-da43-d3fe-1ee3e3cb775a",
+                        "name": "Gaza Strip"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Gaza Strip"
+                    },
+                    {
+                        "name": "Motion"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-25T00:01:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "There\u2019s no debate \u2014 <b>politics</b> belongs on the curriculum",
+                "url": "https://www.thetimes.co.uk/article/theres-no-debate-politics-belongs-on-the-curriculum-3bnmbtdsl",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.lLjDMqbwy4iqG6OY4gsVGi&pid=News",
+                        "width": 360,
+                        "height": 202
+                    }
+                },
+                "description": "Our leaders of tomorrow must be encouraged to develop skills in critical thinking and public speaking",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-25T00:01:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "<b>Politics</b> is turning into a nightmare of conspiracy theories",
+                "url": "https://www.thetimes.co.uk/article/politics-turning-into-nightmare-conspiracy-theories-liz-truss-braverman-7dxlkxllt",
+                "description": "Liz Truss and Suella Braverman court the far right; the left is just as bad. No one dares mention our real problems",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ec42f128-e33f-c455-233b-2d9e5fe2d26e",
+                        "name": "Nightmare"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-25T00:01:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>UK</b> pledges \u00a34.25m in sexual and reproductive aid for women in Gaza",
+                "url": "https://www.standard.co.uk/news/politics/cameron-gaza-foreign-office-government-foreign-secretary-b1141343.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.EqqgMKbbF2NkOAdfsG-pky&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The <b>UK</b> has pledged \u00a34.25 million to help the UN\u2019s agency for ... But he repeated his call for a \u201cnew <b>political</b> horizon for the Palestinian people\u201d and a two-state solution, which Israeli prime minister Benjamin Netanyahu opposes.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90eb9ff6-60ad-da43-d3fe-1ee3e3cb775a",
+                        "name": "Gaza Strip"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Gaza Strip"
+                    },
+                    {
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "datePublished": "2024-02-25T00:00:00.0000000Z"
+            },
+            {
+                "name": "Trump greeted with fierce bear hug from Javier Milei backstage at CPAC",
+                "url": "https://uk.news.yahoo.com/trump-greeted-fierce-bear-hug-000701902.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.WJg24m0dwV0FiBcxbwdmeC&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "He\u2019s a great gentleman ... he said \u2018I am Maga\u2019 then I realized these are the few [who] can really do it,\u2019 former president says",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-25T00:00:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "MPs to vote on fresh Gaza ceasefire motion after Commons chaos",
+                "url": "https://uk.news.yahoo.com/mps-vote-fresh-gaza-ceasefire-001302310.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.K636eBOo_k7RFVzGWCIboy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Story continues Mr Flynn added: \u201cThe SNP\u2019s calls for the <b>UK</b> to back an immediate ceasefire have never ... A fresh debate will renew the <b>political</b> headache that Labour leader Sir Keir was able to avoid on Wednesday. Many of his MPs are likely to vote ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK"
+                    }
+                ],
+                "datePublished": "2024-02-25T00:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "NHS tops poll of voters\u2019 concerns as latest strike threatens further havoc",
+                "url": "https://www.theguardian.com/society/2024/feb/24/nhs-tops-poll-of-voters-concerns-as-latest-strike-threatens-further-havoc",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.mA_9IYRnNcG0b6CvnBUDxS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Junior doctors\u2019 11th walkout in England expected to add to backlogs in service a third of Britons say NHS is most pressing issue The NHS has overtaken soaring prices as the issue most Britons believe is the biggest challenge facing the <b>UK</b>, new polling ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f9e2b409-7b88-1896-b90d-bce65cd2057a",
+                        "name": "Strike"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e320dd44-b39b-fd9b-7883-0fe89bb44ace",
+                        "name": "Poll"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Strike"
+                    },
+                    {
+                        "name": "Poll"
+                    },
+                    {
+                        "name": "The Guardian"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian"
+                    }
+                ],
+                "datePublished": "2024-02-24T06:00:00.0000000Z"
+            },
+            {
+                "name": "Huge Ukrainian flag unfurled at Preston anniversary event",
+                "url": "https://www.bbc.co.uk/news/uk-england-lancashire-68392068.amp",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.owEdyWEIrJYBS1vO6X_1RC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "<b>UK</b> <b>political</b> leaders recently reaffirmed their support for Ukraine, with Prime Minister Rishi Sunak saying Britain was prepared to do &quot;whatever it takes&quot; as he pledged nearly \u00a3250m towards producing artillery shells.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/91c620b3-1522-0ebd-63b2-4a7e645a1fde",
+                        "name": "Preston"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC"
+                    }
+                ],
+                "datePublished": "2024-02-24T00:00:00.0000000Z",
+                "category": "ScienceAndTechnology"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics",
+        "queryContext": {
+            "originalQuery": "uk politics",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 209,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "<b>UK</b> and US launch strikes against Houthis after surge in attacks on shipping",
+                "url": "https://www.andoveradvertiser.co.uk/news/national/24142445.uk-us-launch-strikes-houthis-surge-attacks-shipping/",
+                "description": "The <b>UK</b> and US have launched another round of missile strikes against Houthi targets in Yemen after a surge in attacks around the Red Sea by the Iran-backed group. American and British fighter jets hit sites in eight locations, according to US officials.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Andover Advertiser"
+                    }
+                ],
+                "datePublished": "2024-02-25T00:14:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "SNP to propose fresh Gaza ceasefire motion after Commons chaos",
+                "url": "https://www.standard.co.uk/news/politics/snp-gaza-government-keir-starmer-commons-b1141347.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.G50KvbmHcWUMMhaGI6WMky&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "MPs are set to again debate calling for a ceasefire in Gaza after a previous attempt dissolved into angry recriminations and demands for the Commons Speaker to resign. The SNP said it will take up Speaker Sir Lindsay Hoyle\u2019s offer of a meaningful debate on a fresh ceasefire motion following criticism of his handling of the last Commons debate on the subject.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90eb9ff6-60ad-da43-d3fe-1ee3e3cb775a",
+                        "name": "Gaza Strip"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Gaza Strip"
+                    },
+                    {
+                        "name": "Motion"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-25T00:01:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "There\u2019s no debate \u2014 <b>politics</b> belongs on the curriculum",
+                "url": "https://www.thetimes.co.uk/article/theres-no-debate-politics-belongs-on-the-curriculum-3bnmbtdsl",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.lLjDMqbwy4iqG6OY4gsVGi&pid=News",
+                        "width": 360,
+                        "height": 202
+                    }
+                },
+                "description": "Our leaders of tomorrow must be encouraged to develop skills in critical thinking and public speaking",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-25T00:01:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "<b>Politics</b> is turning into a nightmare of conspiracy theories",
+                "url": "https://www.thetimes.co.uk/article/politics-turning-into-nightmare-conspiracy-theories-liz-truss-braverman-7dxlkxllt",
+                "description": "Liz Truss and Suella Braverman court the far right; the left is just as bad. No one dares mention our real problems",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ec42f128-e33f-c455-233b-2d9e5fe2d26e",
+                        "name": "Nightmare"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-25T00:01:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>UK</b> pledges \u00a34.25m in sexual and reproductive aid for women in Gaza",
+                "url": "https://www.standard.co.uk/news/politics/cameron-gaza-foreign-office-government-foreign-secretary-b1141343.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.EqqgMKbbF2NkOAdfsG-pky&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The <b>UK</b> has pledged \u00a34.25 million to help the UN\u2019s agency for ... But he repeated his call for a \u201cnew <b>political</b> horizon for the Palestinian people\u201d and a two-state solution, which Israeli prime minister Benjamin Netanyahu opposes.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90eb9ff6-60ad-da43-d3fe-1ee3e3cb775a",
+                        "name": "Gaza Strip"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Gaza Strip"
+                    },
+                    {
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "datePublished": "2024-02-25T00:00:00.0000000Z"
+            },
+            {
+                "name": "Trump greeted with fierce bear hug from Javier Milei backstage at CPAC",
+                "url": "https://uk.news.yahoo.com/trump-greeted-fierce-bear-hug-000701902.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.WJg24m0dwV0FiBcxbwdmeC&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "He\u2019s a great gentleman ... he said \u2018I am Maga\u2019 then I realized these are the few [who] can really do it,\u2019 former president says",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-25T00:00:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "MPs to vote on fresh Gaza ceasefire motion after Commons chaos",
+                "url": "https://uk.news.yahoo.com/mps-vote-fresh-gaza-ceasefire-001302310.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.K636eBOo_k7RFVzGWCIboy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Story continues Mr Flynn added: \u201cThe SNP\u2019s calls for the <b>UK</b> to back an immediate ceasefire have never ... A fresh debate will renew the <b>political</b> headache that Labour leader Sir Keir was able to avoid on Wednesday. Many of his MPs are likely to vote ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK"
+                    }
+                ],
+                "datePublished": "2024-02-25T00:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "NHS tops poll of voters\u2019 concerns as latest strike threatens further havoc",
+                "url": "https://www.theguardian.com/society/2024/feb/24/nhs-tops-poll-of-voters-concerns-as-latest-strike-threatens-further-havoc",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.mA_9IYRnNcG0b6CvnBUDxS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Junior doctors\u2019 11th walkout in England expected to add to backlogs in service a third of Britons say NHS is most pressing issue The NHS has overtaken soaring prices as the issue most Britons believe is the biggest challenge facing the <b>UK</b>, new polling ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f9e2b409-7b88-1896-b90d-bce65cd2057a",
+                        "name": "Strike"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e320dd44-b39b-fd9b-7883-0fe89bb44ace",
+                        "name": "Poll"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Strike"
+                    },
+                    {
+                        "name": "Poll"
+                    },
+                    {
+                        "name": "The Guardian"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian"
+                    }
+                ],
+                "datePublished": "2024-02-24T06:00:00.0000000Z"
+            },
+            {
+                "name": "Huge Ukrainian flag unfurled at Preston anniversary event",
+                "url": "https://www.bbc.co.uk/news/uk-england-lancashire-68392068.amp",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.owEdyWEIrJYBS1vO6X_1RC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "<b>UK</b> <b>political</b> leaders recently reaffirmed their support for Ukraine, with Prime Minister Rishi Sunak saying Britain was prepared to do &quot;whatever it takes&quot; as he pledged nearly \u00a3250m towards producing artillery shells.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/91c620b3-1522-0ebd-63b2-4a7e645a1fde",
+                        "name": "Preston"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC"
+                    }
+                ],
+                "datePublished": "2024-02-24T00:00:00.0000000Z",
+                "category": "ScienceAndTechnology"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics",
+        "queryContext": {
+            "originalQuery": "uk politics",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 321,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "SNP to propose fresh Gaza ceasefire motion after Commons chaos",
+                "url": "https://www.standard.co.uk/news/politics/snp-gaza-government-keir-starmer-commons-b1141347.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.G50KvbmHcWUMMhaGI6WMky&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "MPs are set to again debate calling for a ceasefire in Gaza after a previous attempt dissolved into angry recriminations and demands for the Commons Speaker to resign. The SNP said it will take up Speaker Sir Lindsay Hoyle\u2019s offer of a meaningful debate on a fresh ceasefire motion following criticism of his handling of the last Commons debate on the subject.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90eb9ff6-60ad-da43-d3fe-1ee3e3cb775a",
+                        "name": "Gaza Strip"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Gaza Strip"
+                    },
+                    {
+                        "name": "Motion"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-25T00:01:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "There\u2019s no debate \u2014 <b>politics</b> belongs on the curriculum",
+                "url": "https://www.thetimes.co.uk/article/theres-no-debate-politics-belongs-on-the-curriculum-3bnmbtdsl",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.lLjDMqbwy4iqG6OY4gsVGi&pid=News",
+                        "width": 360,
+                        "height": 202
+                    }
+                },
+                "description": "Our leaders of tomorrow must be encouraged to develop skills in critical thinking and public speaking",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-25T00:01:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "<b>Politics</b> is turning into a nightmare of conspiracy theories",
+                "url": "https://www.thetimes.co.uk/article/politics-turning-into-nightmare-conspiracy-theories-liz-truss-braverman-7dxlkxllt",
+                "description": "Liz Truss and Suella Braverman court the far right; the left is just as bad. No one dares mention our real problems",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ec42f128-e33f-c455-233b-2d9e5fe2d26e",
+                        "name": "Nightmare"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-25T00:01:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>UK</b> pledges \u00a34.25m in sexual and reproductive aid for women in Gaza",
+                "url": "https://www.standard.co.uk/news/politics/cameron-gaza-foreign-office-government-foreign-secretary-b1141343.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.EqqgMKbbF2NkOAdfsG-pky&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The <b>UK</b> has pledged \u00a34.25 million to help the UN\u2019s agency for ... But he repeated his call for a \u201cnew <b>political</b> horizon for the Palestinian people\u201d and a two-state solution, which Israeli prime minister Benjamin Netanyahu opposes.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90eb9ff6-60ad-da43-d3fe-1ee3e3cb775a",
+                        "name": "Gaza Strip"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Gaza Strip"
+                    },
+                    {
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "datePublished": "2024-02-25T00:00:00.0000000Z"
+            },
+            {
+                "name": "The Prime Minister In Waiting - but who really is Keir Starmer?",
+                "url": "https://news.sky.com/story/the-prime-minister-in-waiting-but-who-really-is-keir-starmer-13079122",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.ELQPLcDm38KA-nT7cTDHwC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "The man himself may insist it isn&#39;t over until the votes are in, but Keir Starmer looks likely to be the next prime minister. Who is he and how did he get here? And why do those close to him feel the public doesn&#39;t see all of what they see?",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/63a6ef59-71fd-db08-08c6-d47d973d47fb",
+                        "name": "Keir Starmer"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/18d9cf39-9ea4-5c26-8b65-72a8b536cdf7",
+                        "name": "Prime minister"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Keir Starmer"
+                    },
+                    {
+                        "name": "Prime minister"
+                    },
+                    {
+                        "name": "Sky News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Sky",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Eg62H9DIbo-JYPI6GpAgGA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-24T23:28:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "&#39;The worry in Westminster: People are sick of Tories, but what if they don&#39;t vote Labour?&#39;",
+                "url": "https://www.mirror.co.uk/news/politics/the-worry-westminster-people-sick-32204219",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.fYjmzKKzguV1cwIKj1xt7C&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "At a time when it&#39;s vital for people to be paying attention to politics, carnivals of point-scoring like what happened over the Gaza ceasefire vote shows why there&#39;s a lack of faith in politicians",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6601b215-4d04-81fc-958d-d656f0c752cf",
+                        "name": "People"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/af088475-52f4-af6e-14bf-059282fca79b",
+                        "name": "Austin Westminster"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "People"
+                    },
+                    {
+                        "name": "Austin Westminster"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.CWDfHbZtL9U2bsuN-kn_-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-24T23:02:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "MPs to vote on fresh Gaza ceasefire motion after Commons chaos",
+                "url": "https://www.independent.co.uk/news/uk/politics/snp-ceasefire-israel-gaza-b2501948.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.nm7mv5UQartsZhty3FRaTC&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The SNP says it will take up speaker Sir Lindsay Hoyle\u2019s offer of a meaningful debate on a fresh ceasefire motion following criticism of his handling of the previous Commons debate on the subject",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/6b7b8c50-0d5d-4a9e-7af2-0002e29e173e",
+                        "name": "The Independent"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Independent"
+                    },
+                    {
+                        "name": "Motion"
+                    },
+                    {
+                        "name": "News UK"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Independent",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Itq1YaygZYquIY-bZPUV3w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-24T22:13:00.0000000Z",
+                "video": {
+                    "name": "David Lammy calls for &#39;immediate&#39; Gaza ceasefire",
+                    "motionThumbnailUrl": "https://prod-streaming-video-msn-com.akamaized.net/fc8b8389-0ffb-4237-a6ab-a3e3459a08e2/50744bae-6d9b-41cd-9922-546297f0_650.mp4",
+                    "thumbnail": {
+                        "width": 640,
+                        "height": 360
+                    }
+                },
+                "category": "Politics"
+            },
+            {
+                "name": "I was sent death threats for joining the Tories\u2026 I had to go into hiding to protect my children",
+                "url": "https://www.dailymail.co.uk/news/article-13121597/Lisa-Cameron-death-threats-joining-Tories-hiding-protect-children-former-SNP-MP.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.xtyolxR7-tHOFtKDU93Cci&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "A former Nationalist MP who was deluged with \u00adviolent threats from online nationalist trolls after defecting to the Tories last night told of her \u00adturmoil at being forced to go into hiding.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/06ceaff5-6fbf-8b69-128e-0ce420fdaeb0",
+                        "name": "Death threat"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Mail",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF._kZMPt4WNJFUpf58U6Qe-w&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-24T22:09:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Ranting Donald Trump warns he&#39;ll save US from &#39;obliteration&#39; in World War 3 in wild CPAC speech",
+                "url": "https://www.mirror.co.uk/news/politics/ranting-donald-trump-warns-hell-32203730",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.vQvi6XJGL3kw15RUtukXfi&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Trump, who described himself in his speech as a &quot;proud <b>political</b> dissident,&quot; has long said his 2020 election ... also made an appearance at the right-wing conference, with the <b>UK</b>&#39;s worst-ever Prime Minister hailed as a &quot;modern Margaret Thatcher&quot; by ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/1a466af2-ed23-25bd-794d-1ca925e4681b",
+                        "name": "Donald Trump"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f90a0ccf-30fb-80ed-8c08-987dc40eb5b8",
+                        "name": "The Daily Mirror"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Donald Trump"
+                    },
+                    {
+                        "name": "The Daily Mirror"
+                    },
+                    {
+                        "name": "World War III"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Mirror"
+                    }
+                ],
+                "datePublished": "2024-02-24T21:56:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Spending doubles at Cuadrilla but no plans for future \u201csubstantive expenditure\u201d",
+                "url": "https://drillordrop.com/2024/02/24/spending-doubles-at-cuadrilla-but-no-plans-for-future-substantive-expenditure/",
+                "description": "Cuadrilla\u2019s Australian owner spent more than \u00a30.75m in six months in the UK in 2023, more than double the amount in the previous year. But the company has no plans for future \u201csubstantive",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "drillordrop.com",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.Xr-Unq5S9ZPWFW_X_gc2YA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-24T21:32:00.0000000Z",
+                "category": "Business"
+            },
+            {
+                "name": "Anderson has Tory whip suspended after \u2018refusal to apologise\u2019 for Islamist claim",
+                "url": "https://www.andoveradvertiser.co.uk/news/national/24142371.anderson-tory-whip-suspended-refusal-apologise-islamist-claim/",
+                "description": "The decision was taken following the former Tory deputy chairman\u2019s \u201crefusal to apologise\u201d for the remarks made on Friday, a spokesperson for chief whip Simon Hart said. Pres",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c94f2fa6-9853-e53f-af90-7aec244e4382",
+                        "name": "Lee Anderson"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/05cf3b63-3693-d1af-fbce-41f99eebca0c",
+                        "name": "Andover"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/8cc69774-084d-b0cc-490a-df01bb162f8d",
+                        "name": "Refusal"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Andover Advertiser",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.9HBvLtaNrUh8B9TIacJccw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-24T20:23:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Farage woos Anderson after Tory suspended over Khan comments",
+                "url": "https://www.telegraph.co.uk/politics/2024/02/24/lee-anderson-whip-suspended-sadiq-khan-islamists/",
+                "description": "Lee Anderson has had the Conservative whip withdrawn after claiming that \u201cIslamists\u201d have \u201cgot control\u201d of Sadiq Khan. On Saturday afternoon, a spokesman for the Chief Whip Simon Hart said: \u201cFollowing his refusal to apologise for comments made yesterday, the Chief Whip has suspended the Conservative whip from Lee Anderson MP.\u201d",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4e19a7ad-e1b4-0f74-86c3-ba3be21089da",
+                        "name": "Nigel Farage"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/c94f2fa6-9853-e53f-af90-7aec244e4382",
+                        "name": "Lee Anderson"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d7862dc2-4c03-1dc8-3412-7fe03041fdcb",
+                        "name": "Sadiq Khan"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Nigel Farage"
+                    },
+                    {
+                        "name": "Lee Anderson"
+                    },
+                    {
+                        "name": "Sadiq Khan"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-24T20:20:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Reform leader Tice wants to legistlate supposed Sharia Law threats",
+                "url": "https://www.asianimage.co.uk/news/24142342.reform-leader-tice-wants-legistlate-supposed-sharia-law-threats/",
+                "description": "Reform UK leader Richard Tice said the country is at the \u201cEverest base camp of sectarian politics\u201d as he said political leaders, the establishment and the police were all in fear of extremists.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/5288e6b2-094a-9e72-d584-2ccbc1c2eb88",
+                        "name": "Asia"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/41078639-a950-11bf-34ee-25774a9943fb",
+                        "name": "Sharia"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/120d4238-df93-4584-9fac-30072ef9ad9d",
+                        "name": "Reform"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Asian Image",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.akEhfHleSZzFSk9PWrk9hQ&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-24T19:30:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Rishi Sunak vows to back Ukraine until it prevails on war anniversary",
+                "url": "https://www.heraldscotland.com/news/national/24141747.rishi-sunak-vows-back-ukraine-prevails-war-anniversary/",
+                "description": "The Prime Minister said \u2018tyranny will never triumph\u2019 as President Volodymyr Zelensky\u2019s troops defend the country against an emboldened Russia.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ad599477-9e6d-4a0e-bab5-0edf9db7115a",
+                        "name": "Ukraine"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "heraldscotland",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PjDUWS-WIq7w595SCRQefg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-24T19:13:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Donald Trump says \u2018crookedest\u2019 Joe Biden will have US \u2018losing World War 3\u2019",
+                "url": "https://metro.co.uk/2024/02/24/donald-trump-says-joe-biden-will-us-losing-world-war-3-20341468/?ico=trending-post-strip_item_3",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.wVtg_ucoB-Rc9H1Iwrejiy&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "We won\u2019t even be in World War 3, we\u2019ll be losing World War 3, with weapons the likes of which nobody has ever seen before.&#39;",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Metro",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8olLCBBg15Ilf5cNVQh2IA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-24T19:02:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Rural Right-wing voters abandon Tories in huge switch to Reform <b>UK</b>",
+                "url": "https://www.telegraph.co.uk/politics/2024/02/24/rural-right-wing-voters-yougov-poll-conservatives-reform-uk/",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.yC_00fDgkQ3R7xgTx8HXEy&pid=News",
+                        "width": 700,
+                        "height": 366
+                    }
+                },
+                "description": "Former Conservative voters living in the countryside are shifting allegiance to Richard Tice\u2019s party, suggests poll by Labour think tank",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90725f45-8631-8e72-27c5-388ae95e1246",
+                        "name": "Rural area"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/9000aafd-a3fc-3069-ec13-637cb8aa9ae7",
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/26f1fcaa-22ef-33fe-37e2-0b746a38d963",
+                        "name": "Right-wing politics"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Rural area"
+                    },
+                    {
+                        "name": "Conservative Party"
+                    },
+                    {
+                        "name": "Right-wing politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Daily Telegraph",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-24T19:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Unhinged Tory conspiracies are nothing new in <b>UK politics</b>",
+                "url": "https://www.thenational.scot/politics/24142211.unhinged-tory-conspiracies-nothing-new-uk-politics/",
+                "description": "THE strapline is \u201cwhere globalism goes to die.\u201d The Conservative Political Action Conference styles itself as \u201cthe largest and",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/68d188dd-0d01-414f-3b06-53c7395bbaf7",
+                        "name": "The National"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/61bf363e-2312-be92-8979-7d34f44601c7",
+                        "name": "Tory"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The National",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.wXvzvKQ8Fx1L22kdPckiMw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-24T18:45:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "\u2018When\u2019s Nigel coming back?\u2019 Farage absence looms large over Reform <b>UK</b> conference",
+                "url": "https://www.theguardian.com/politics/2024/feb/24/nigel-farage-reform-uk-conference-doncaster-party?ref=upstract.com",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.M552RrHtUH-pLV_Ovwr4CC&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "The leaders of Reform <b>UK</b>, which grew out of the Brexit party after the last ... \u201cHe\u2019s the only one with any <b>political</b> nous,\u201d said one former minister. He pointed to issues that seem too technical and remote, such as Northern Ireland\u2019s Brexit ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/4e19a7ad-e1b4-0f74-86c3-ba3be21089da",
+                        "name": "Nigel Farage"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f43e2977-1df5-bf89-1b7f-422a767ab6b8",
+                        "name": "Nigel"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Nigel Farage"
+                    },
+                    {
+                        "name": "Nigel"
+                    },
+                    {
+                        "name": "The Guardian"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian"
+                    }
+                ],
+                "datePublished": "2024-02-24T18:18:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "Boris Johnson and Rishi Sunak share major boost of relations on Ukraine anniversary",
+                "url": "https://www.express.co.uk/news/politics/1870467/boris-johnson-rishi-sunak-relations-boost-ukraine",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.BYiPVm7fI5zmxO0aM-VYiS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "A simple social media post has given the biggest indication yet that Boris Johnson and Rishi Sunak are set to improve relations ahead of the General Election.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/fe217755-2d46-1c61-dded-740ff4500899",
+                        "name": "Boris Johnson"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ad599477-9e6d-4a0e-bab5-0edf9db7115a",
+                        "name": "Ukraine"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Daily Express",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.8EfL3f80GkcbewW9X07mYA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-24T18:16:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "The Observer view on the parliamentary chaos over Gaza",
+                "url": "https://www.theguardian.com/commentisfree/2024/feb/24/the-observer-view-on-the-parliamentary-chaos-over-gaza",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.SIu5fiJqYbYUSYUi_yVVHS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "x",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/782a006f-288f-3c02-f715-6d378e64c6bc",
+                        "name": "The Observer"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "The Observer"
+                    },
+                    {
+                        "name": "The Guardian"
+                    },
+                    {
+                        "name": "House of Commons of the United Kingdom"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.FLSSz2cn3Rqzpu_HVWuRvA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-24T18:00:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "Tories have \u2018broken Britain\u2019, says Reform <b>UK</b> leader as he unveils manifesto",
+                "url": "https://inews.co.uk/news/politics/tories-broken-britain-reform-uk-manifesto-2924690?ico=in-line_link",
+                "description": "Mr Tice said it demonstrated that Reform <b>UK</b> is now a \u201csignificant force now in British <b>politics</b> and that people have got to take us seriously\u201d. Delegates attend the Reform <b>UK</b> Party spring rally at Doncaster Racecourse on February 24, 2024 in Doncaster ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "i"
+                    }
+                ],
+                "datePublished": "2024-02-24T15:57:00.0000000Z",
+                "category": "Politics"
+            }
+        ]
+    },
+    {
+        "_type": "News",
+        "readLink": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics",
+        "queryContext": {
+            "originalQuery": "uk politics",
+            "adultIntent": false
+        },
+        "totalEstimatedMatches": 409,
+        "sort": [
+            {
+                "name": "Best match",
+                "id": "relevance",
+                "isSelected": false,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics"
+            },
+            {
+                "name": "Most recent",
+                "id": "date",
+                "isSelected": true,
+                "url": "https://api.bing.microsoft.com/api/v7/news/search?q=uk+politics&sortby=date"
+            }
+        ],
+        "value": [
+            {
+                "name": "<b>UK</b> and US launch strikes against Houthis after surge in attacks on shipping",
+                "url": "https://www.andoveradvertiser.co.uk/news/national/24142445.uk-us-launch-strikes-houthis-surge-attacks-shipping/",
+                "description": "The <b>UK</b> and US have launched another round of missile strikes against Houthi targets in Yemen after a surge in attacks around the Red Sea by the Iran-backed group. American and British fighter jets hit sites in eight locations, according to US officials.",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Andover Advertiser"
+                    }
+                ],
+                "datePublished": "2024-02-25T00:14:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "SNP to propose fresh Gaza ceasefire motion after Commons chaos",
+                "url": "https://www.standard.co.uk/news/politics/snp-gaza-government-keir-starmer-commons-b1141347.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.G50KvbmHcWUMMhaGI6WMky&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "MPs are set to again debate calling for a ceasefire in Gaza after a previous attempt dissolved into angry recriminations and demands for the Commons Speaker to resign. The SNP said it will take up Speaker Sir Lindsay Hoyle\u2019s offer of a meaningful debate on a fresh ceasefire motion following criticism of his handling of the last Commons debate on the subject.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90eb9ff6-60ad-da43-d3fe-1ee3e3cb775a",
+                        "name": "Gaza Strip"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Gaza Strip"
+                    },
+                    {
+                        "name": "Motion"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-25T00:01:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "There\u2019s no debate \u2014 <b>politics</b> belongs on the curriculum",
+                "url": "https://www.thetimes.co.uk/article/theres-no-debate-politics-belongs-on-the-curriculum-3bnmbtdsl",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.lLjDMqbwy4iqG6OY4gsVGi&pid=News",
+                        "width": 360,
+                        "height": 202
+                    }
+                },
+                "description": "Our leaders of tomorrow must be encouraged to develop skills in critical thinking and public speaking",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-25T00:01:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "<b>Politics</b> is turning into a nightmare of conspiracy theories",
+                "url": "https://www.thetimes.co.uk/article/politics-turning-into-nightmare-conspiracy-theories-liz-truss-braverman-7dxlkxllt",
+                "description": "Liz Truss and Suella Braverman court the far right; the left is just as bad. No one dares mention our real problems",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/b8f26db0-d3b7-4fb5-fbb0-9ea469754434",
+                        "name": "Politics"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/ec42f128-e33f-c455-233b-2d9e5fe2d26e",
+                        "name": "Nightmare"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Times",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.0RIhw57I0oMcjA-6dyx2qw&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-25T00:01:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "<b>UK</b> pledges \u00a34.25m in sexual and reproductive aid for women in Gaza",
+                "url": "https://www.standard.co.uk/news/politics/cameron-gaza-foreign-office-government-foreign-secretary-b1141343.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.EqqgMKbbF2NkOAdfsG-pky&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "The <b>UK</b> has pledged \u00a34.25 million to help the UN\u2019s agency for ... But he repeated his call for a \u201cnew <b>political</b> horizon for the Palestinian people\u201d and a two-state solution, which Israeli prime minister Benjamin Netanyahu opposes.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/90eb9ff6-60ad-da43-d3fe-1ee3e3cb775a",
+                        "name": "Gaza Strip"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "London Evening Standard"
+                    },
+                    {
+                        "name": "Gaza Strip"
+                    },
+                    {
+                        "name": "Politics"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "London Evening Standard"
+                    }
+                ],
+                "datePublished": "2024-02-25T00:00:00.0000000Z"
+            },
+            {
+                "name": "Trump greeted with fierce bear hug from Javier Milei backstage at CPAC",
+                "url": "https://uk.news.yahoo.com/trump-greeted-fierce-bear-hug-000701902.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.WJg24m0dwV0FiBcxbwdmeC&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "He\u2019s a great gentleman ... he said \u2018I am Maga\u2019 then I realized these are the few [who] can really do it,\u2019 former president says",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK",
+                        "image": {
+                            "thumbnail": {
+                                "contentUrl": "https://www.bing.com/th?id=ODF.PniYXwMdd8mMSkw6_umqcA&pid=news"
+                            }
+                        }
+                    }
+                ],
+                "datePublished": "2024-02-25T00:00:00.0000000Z",
+                "category": "World"
+            },
+            {
+                "name": "MPs to vote on fresh Gaza ceasefire motion after Commons chaos",
+                "url": "https://uk.news.yahoo.com/mps-vote-fresh-gaza-ceasefire-001302310.html",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.K636eBOo_k7RFVzGWCIboy&pid=News",
+                        "width": 700,
+                        "height": 466
+                    }
+                },
+                "description": "Story continues Mr Flynn added: \u201cThe SNP\u2019s calls for the <b>UK</b> to back an immediate ceasefire have never ... A fresh debate will renew the <b>political</b> headache that Labour leader Sir Keir was able to avoid on Wednesday. Many of his MPs are likely to vote ...",
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "Yahoo News UK"
+                    }
+                ],
+                "datePublished": "2024-02-25T00:00:00.0000000Z",
+                "category": "Politics"
+            },
+            {
+                "name": "NHS tops poll of voters\u2019 concerns as latest strike threatens further havoc",
+                "url": "https://www.theguardian.com/society/2024/feb/24/nhs-tops-poll-of-voters-concerns-as-latest-strike-threatens-further-havoc",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.mA_9IYRnNcG0b6CvnBUDxS&pid=News",
+                        "width": 700,
+                        "height": 367
+                    }
+                },
+                "description": "Junior doctors\u2019 11th walkout in England expected to add to backlogs in service a third of Britons say NHS is most pressing issue The NHS has overtaken soaring prices as the issue most Britons believe is the biggest challenge facing the <b>UK</b>, new polling ...",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/f9e2b409-7b88-1896-b90d-bce65cd2057a",
+                        "name": "Strike"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/e320dd44-b39b-fd9b-7883-0fe89bb44ace",
+                        "name": "Poll"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "name": "Strike"
+                    },
+                    {
+                        "name": "Poll"
+                    },
+                    {
+                        "name": "The Guardian"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "The Guardian"
+                    }
+                ],
+                "datePublished": "2024-02-24T06:00:00.0000000Z"
+            },
+            {
+                "name": "Huge Ukrainian flag unfurled at Preston anniversary event",
+                "url": "https://www.bbc.co.uk/news/uk-england-lancashire-68392068.amp",
+                "image": {
+                    "thumbnail": {
+                        "contentUrl": "https://www.bing.com/th?id=OVFT.owEdyWEIrJYBS1vO6X_1RC&pid=News",
+                        "width": 700,
+                        "height": 393
+                    }
+                },
+                "description": "<b>UK</b> <b>political</b> leaders recently reaffirmed their support for Ukraine, with Prime Minister Rishi Sunak saying Britain was prepared to do &quot;whatever it takes&quot; as he pledged nearly \u00a3250m towards producing artillery shells.",
+                "about": [
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/91c620b3-1522-0ebd-63b2-4a7e645a1fde",
+                        "name": "Preston"
+                    },
+                    {
+                        "readLink": "https://api.bing.microsoft.com/api/v7/entities/d8c12054-a38a-14f5-8f22-49ff5614aeb5",
+                        "name": "BBC News"
+                    }
+                ],
+                "provider": [
+                    {
+                        "_type": "Organization",
+                        "name": "BBC"
+                    }
+                ],
+                "datePublished": "2024-02-24T00:00:00.0000000Z",
+                "category": "ScienceAndTechnology"
+            }
+        ]
+    }
+]
