@@ -97,6 +97,8 @@ class Command(BaseCommand):
 
     def process_articles(articles, article_objects, processed_urls, start=0, end=None):
 
+        ner = spacy.load("en_core_web_sm")
+
         fetches = 0
         skips = 0
         too_short = 0
