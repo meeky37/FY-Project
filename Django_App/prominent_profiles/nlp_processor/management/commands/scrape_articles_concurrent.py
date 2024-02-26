@@ -23,6 +23,7 @@ from django.conf import settings
 from urllib.parse import urlparse
 from urllib.robotparser import RobotFileParser
 from ...sentiment_resolver import SentimentAnalyser
+from ...constants import ARTICLE_CHUNK_SIZE, ARTICLE_BATCH_SIZE, ARTICLE_THREADS
 # from memory_profiler import profile
 # from Django_App.prominent_profiles.nlp_processor.constants import F_COREF_DEVICE
 
@@ -48,7 +49,7 @@ def can_fetch_url(url_to_check):
     return False
 
 
-def perform_coreference_resolution(article_texts, batch_size=10):
+def perform_coreference_resolution(article_texts, batch_size=ARTICLE_BATCH_SIZE):
     # model = FCoref(device='mps')
     model = FCoref(device='cpu')
     predictions = model.predict(texts=article_texts, max_tokens_in_batch=batch_size)
@@ -87,7 +88,7 @@ class Command(BaseCommand):
 
         self.sa_queue = queue.Queue()
 
-        self.max_concurrent_threads = 1
+        self.max_concurrent_threads = ARTICLE_THREADS
         # Create 5 SentimentAnalyser objects (these take quite a bit of time to define!)
         # Previously declared for each article object so quite a wasteful operation
         # Queue for the 5 threads
@@ -95,9 +96,7 @@ class Command(BaseCommand):
             sa = SentimentAnalyser()
             self.sa_queue.put(sa)
 
-    def process_articles(articles, article_objects, processed_urls, start=0, end=None):
-
-        ner = spacy.load("en_core_web_sm")
+    def process_articles(articles, article_objects, processed_urls, ner, start=0, end=None):
 
         fetches = 0
         skips = 0
@@ -169,6 +168,7 @@ class Command(BaseCommand):
                         if too_similar:
                             article_obj.set_db_processed(is_processed=False, similar_rejection=True)
                             print(f"{article_obj.headline} removed on similarity grounds!")
+                            article_obj.text_body = None # Free memory explicitly
                         else:
                             article_objects.append(article_obj)
 
@@ -198,14 +198,17 @@ class Command(BaseCommand):
         print(len(article_objects))
         return article_objects
 
-    def process_file(self, file_name, article_objects, processed_urls):
-        directory_path = "Daily_Results"
+    def process_file(self, file_name, start, end, processed_urls, ner):
+
+        article_objects = []
         file_path = os.path.join(file_name)
 
         with open(file_path, "r") as articles_file:
             articles = json.load(articles_file)
 
-        return Command.process_articles(articles, article_objects, processed_urls)
+        articles_subset = articles[start:end]
+
+        return Command.process_articles(articles_subset, article_objects, processed_urls, ner=ner)
 
     def process_article(self, article, sa):
 
@@ -275,8 +278,7 @@ class Command(BaseCommand):
 
         logger = logging.getLogger('scrape_articles_logger')
         logger.info(f"Scrape and analyse articles job started at {datetime.now()}")
-
-        media_path = os.path.join(settings.ARTICLE_SCRAPER_MEDIA_ROOT, 'api_articles')
+        ner = spacy.load("en_core_web_sm")
 
         # Get a list of ProcessedFile objects with nlp_applied=False
         unapplied_files = ProcessedFile.objects.filter(nlp_applied=False)
@@ -284,21 +286,24 @@ class Command(BaseCommand):
         processed_urls = set()
 
         for file in unapplied_files:
-
             full_path = file.full_path()
             print(full_path)
+
+            with open(full_path, "r") as articles_file:
+                articles = json.load(articles_file)
+            total_articles = len(articles)
 
             # user_input = input("Continue? (y/n): ").lower()
             # if user_input.lower() != 'y':
             #     print("Terminating...")
             #     sys.exit()
 
-            # Check if the file has already been processed
-            if full_path not in processed_urls:
-                # Retrieve articles from the current file
-                articles_from_file = self.process_file(full_path, [], processed_urls)
+            for start_index in range(0, total_articles, ARTICLE_CHUNK_SIZE):
+                end_index = min(start_index + ARTICLE_CHUNK_SIZE, total_articles)
 
-                print()
+                # Retrieve and process a chunk of articles from the current file
+                articles_from_file = self.process_file(full_path, start_index, end_index,
+                                                       processed_urls, ner)
 
                 # Extend article_objects with articles from the current file
                 article_objects = articles_from_file
@@ -309,7 +314,7 @@ class Command(BaseCommand):
                 for article, clusters in zip(article_objects, article_text_clusters):
                     article.set_coref_clusters(clusters)
 
-                print("Length Article Objects: ")
+                print("\nLength Article Objects: ")
 
                 total_objects = len(article_objects)
                 print(f"Total objects: {total_objects}")

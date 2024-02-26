@@ -9,4 +9,9 @@ COMBINED_CLUSTER_ID_SEPARATOR = '0000'
 #  SimilarArticlePairs in publication dates.
 SIMILAR_SEARCH_DAYS = 3
 PREVIEW_IMG_TIMEOUT = 4
-F_COREF_DEVICE = 'mps'
+F_COREF_DEVICE = 'cpu'
+
+# Memory constraints on droplet with only 4GB to run nginx, django, celery, redis, serve vue.
+ARTICLE_CHUNK_SIZE = 15
+ARTICLE_BATCH_SIZE = 15
+ARTICLE_THREADS = 1
