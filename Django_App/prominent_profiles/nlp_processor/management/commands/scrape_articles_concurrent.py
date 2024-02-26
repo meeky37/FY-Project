@@ -48,7 +48,7 @@ def can_fetch_url(url_to_check):
     return False
 
 
-def perform_coreference_resolution(article_texts, batch_size=100):
+def perform_coreference_resolution(article_texts, batch_size=10):
     # model = FCoref(device='mps')
     model = FCoref(device='cpu')
     predictions = model.predict(texts=article_texts, max_tokens_in_batch=batch_size)

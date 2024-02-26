@@ -1,0 +1,12 @@
+locally cd /Users/ameek/FY-Project/Django_App/prominent_profiles/prominent_profiles
+python manage.py dumpdata --exclude auth.permission --exclude contenttypes --output db_backup.json
+
+python manage.py dumpdata --exclude auth.permission --exclude contenttypes --exclude admin.logentry > 25th_feb_db.json
+
+
+Droplet:
+cd /var/www/Django_App/prominent_profiles
+docker cp /var/www/Django_App/prominent_profiles/25th_feb_db.json prominent_profiles_web_1:/app
+docker exec -it prominent_profiles_web_1 /bin/bash
+python manage.py flush
+python manage.py loaddata 25th_feb_db.json
