@@ -547,8 +547,8 @@ class Article:
 
         # Is this article going to go on the web app? If clustered_entities > 0 then yes so get
         # article parts and insert into database.
-        # if new_length > 0:
-            # self.set_database_candidate_true() # Redundant now we add at similarity stage anyway
+          if new_length > 0:
+            self.set_database_candidate_true() # Not redudant - update to explain why
 
     def set_database_candidate_true(self):
         """
@@ -556,7 +556,10 @@ class Article:
         Now all articles that have article text extracted over 250 are stored but they might 
         be rejected from processing by 'similar_rejection" -> see scrape_articles_concurrent.py.
 
-        Needed to store all articles for foreign reference in SimilarArticlePair model.
+        Article db entry needed to store all articles for foreign reference
+        in SimilarArticlePair model.
+
+        TODO: However useful for deciding to process sentiment! 
         """
         self.database_candidate = True
 
