@@ -87,7 +87,7 @@ class Command(BaseCommand):
 
         self.sa_queue = queue.Queue()
 
-        self.max_concurrent_threads = 2
+        self.max_concurrent_threads = 1
         # Create 5 SentimentAnalyser objects (these take quite a bit of time to define!)
         # Previously declared for each article object so quite a wasteful operation
         # Queue for the 5 threads
