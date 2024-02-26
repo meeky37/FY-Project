@@ -73,7 +73,7 @@ class Article:
         self.mention_threshold = None
         self.entity_to_cluster_mapping = []
         self.clustered_entities = None
-        self.database_candidate = False
+        self.sentiment_candidate = False
         self.database_id = None
         self.bounds_sentiment = None
         self.sentiment_analyser = None
@@ -545,23 +545,24 @@ class Article:
         clustered_entities = clean_up_substrings(clustered_entities)
         self.clustered_entities = clustered_entities
 
-        # Is this article going to go on the web app? If clustered_entities > 0 then yes so get
-        # article parts and insert into database.
-          if new_length > 0:
-            self.set_database_candidate_true() # Not redudant - update to explain why
+        # Does this article require sentiment analysis? If clustered_entities > 0 now then yes
+        if new_length > 0:
+            self.set_sentiment_candidate_true()
 
-    def set_database_candidate_true(self):
+    def set_sentiment_candidate_true(self):
         """
-        Legacy method really - database insertion used to depend on entity threshold being met.
+        While articles are stored in the database regardless now for duplicate detection.
+        This method is used to set a flag for processing of the sentiments by SentimentAnalyser
+
+        Method previously called set_database_candidate...
+        NB: database insertion used to depend on entity threshold being met.
         Now all articles that have article text extracted over 250 are stored but they might 
         be rejected from processing by 'similar_rejection" -> see scrape_articles_concurrent.py.
 
         Article db entry needed to store all articles for foreign reference
         in SimilarArticlePair model.
-
-        TODO: However useful for deciding to process sentiment! 
         """
-        self.database_candidate = True
+        self.sentiment_candidate = True
 
     def get_average_sentiment_results(self):
         "Getter for average sentiment results -> see sentiment analyser class"

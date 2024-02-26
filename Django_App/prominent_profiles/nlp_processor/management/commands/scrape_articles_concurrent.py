@@ -226,7 +226,7 @@ class Command(BaseCommand):
         # print(f"Entity cluster map consolidation Time: {time.time() - start_time} seconds")
 
         time.time()
-        if article.database_candidate:
+        if article.sentiment_candidate:
             # article.save_to_database() already done earlier in similar check now
 
             if article.database_id != -1:
@@ -248,7 +248,7 @@ class Command(BaseCommand):
 
                 article.set_db_processed(True, similar_rejection=False)
 
-        elif not article.database_candidate:
+        elif not article.sentiment_candidate:
             # print("Not enough mentions to add")
             article.set_db_processed(True, similar_rejection=False)
         else:
