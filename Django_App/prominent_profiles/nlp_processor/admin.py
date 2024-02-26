@@ -43,7 +43,7 @@ class DuplicatePrediction(admin.SimpleListFilter):
                     published_close_together=Case(
                         When(
                             article2__article__publication_date__lte=F(
-                                'article1__article__publication_date') + timedelta(days=14),
+                                'article1__article__publication_date') + timedelta(days=3),
                             then=Value(True)
                         ),
                         default=Value(False),
@@ -56,7 +56,10 @@ class DuplicatePrediction(admin.SimpleListFilter):
 
 
 class SimilarArticlePairAdmin(admin.ModelAdmin):
-    list_display = ['id', 'article1', 'article2', 'hash_similarity_score', 'words_diff',
+    list_display = ['id', 'get_article_1_headline', 'get_article_2_headline',
+                    'get_article_1_site_name', 'get_article_2_site_name',
+                    'hash_similarity_score',
+                    'words_diff',
                     'terms_diff',
                     'yulek_diff', 'vocd_diff', 'avg_count_diff', 'simpsond_diff', 'the_diff',
                     'and_diff',
@@ -64,14 +67,41 @@ class SimilarArticlePairAdmin(admin.ModelAdmin):
                     'with_diff']
     list_filter = [DuplicatePrediction]
     search_fields = ['article1__article__id', 'article2__article__id']
+    readonly_fields = ['get_article_1_headline', 'get_article_2_headline'
+                       , 'get_article_1_site_name', 'get_article_2_site_name']
 
+    def get_article_1_headline(self, obj):
+        return obj.article1.article.headline
+    get_article_1_headline.short_description = 'Article 1 Headline'
+    get_article_1_headline.admin_order_field = 'article1__headline'
+
+    def get_article_2_site_name(self, obj):
+        return obj.article2.article.site_name
+    get_article_2_site_name.short_description = 'Article 2 Site Name'
+    get_article_2_site_name.admin_order_field = 'article2__site_name'
+
+    def get_article_1_site_name(self, obj):
+        return obj.article1.article.site_name
+
+    get_article_1_site_name.short_description = 'Article 1 Site Name'
+    get_article_1_site_name.admin_order_field = 'article1__site_name'
+
+    def get_article_2_headline(self, obj):
+        return obj.article2.article.headline
+
+    get_article_2_headline.short_description = 'Article 2 Headline'
+    get_article_2_headline.admin_order_field = 'article2__headline'
 
 class BoundErrorAdmin(admin.ModelAdmin):
     list_display = ('article', 'bound_start', 'bound_end', 'left_segment', 'mention_segment',
                     'right_segment', 'error_message', 'timestamp')
 
 
+class ArticleStatisticsAdmin(admin.ModelAdmin):
+    list_display = ('article', 'fuzzy_hash', 'word_count', 'terms_count', 'vocd', 'yulek', 'simpsond', 'the_count', 'and_count', 'is_count', 'of_count', 'in_count', 'to_count', 'it_count', 'that_count', 'with_count')
+
+
 admin.site.register(ProcessedFile, ProcessedFileAdmin)
 admin.site.register(BoundError, BoundErrorAdmin)
-admin.site.register(ArticleStatistics)
+admin.site.register(ArticleStatistics, ArticleStatisticsAdmin)
 admin.site.register(SimilarArticlePair, SimilarArticlePairAdmin)

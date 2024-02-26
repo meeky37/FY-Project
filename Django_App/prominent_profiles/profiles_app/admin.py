@@ -11,10 +11,74 @@ from .models import Article, BoundMention, OverallSentiment, BingEntity, EntityV
     IgnoreEntitySimilarity, Entity, EntityHistory
 
 
+class BoundMentionInline(admin.TabularInline):
+    model = BoundMention
+    fields = ('entity', 'name_display', 'bound_start', 'bound_end', 'avg_neutral', 'avg_positive',
+                       'avg_negative', 'bound_text')
+    readonly_fields = ('entity', 'name_display', 'bound_start', 'bound_end', 'avg_neutral',
+                       'avg_positive', 'avg_negative', 'bound_text')
+    can_delete = False
+    max_num = 0
+
+    def name_display(self, instance):
+        return instance.entity.name
+    name_display.short_description = "Entity Name"
+
+
+class OverallSentimentInlineForArticle(admin.TabularInline):
+    model = OverallSentiment
+    fields = ('name_display', 'num_bound', 'linear_neutral', 'linear_positive',
+                       'linear_negative',
+                       'exp_positive', 'exp_neutral', 'exp_negative',)
+    readonly_fields = ('name_display', 'num_bound', 'linear_neutral', 'linear_positive',
+                       'linear_negative',
+                       'exp_positive', 'exp_neutral', 'exp_negative')
+    can_delete = False
+    max_num = 0
+
+    def name_display(self, instance):
+        return instance.entity.name
+    name_display.short_description = "Entity Name"
+
+
+class OverallSentimentInlineForEntity(admin.TabularInline):
+    model = OverallSentiment
+    fields = ('article', 'headline_display', 'num_bound', 'linear_neutral', 'linear_positive',
+              'linear_negative',
+              'exp_positive', 'exp_neutral', 'exp_negative',)
+    readonly_fields = (
+    'article', 'headline_display', 'num_bound', 'linear_neutral', 'linear_positive',
+    'linear_negative',
+    'exp_positive', 'exp_neutral', 'exp_negative')
+    can_delete = False
+    max_num = 0
+
+    def headline_display(self, instance):
+        return instance.article.headline
+    headline_display.short_description = "Article Headline"
+
+
+class EntityInline(admin.TabularInline):
+    model = Entity
+    fields = ('Entity', 'name_display')
+    readonly_fields = ('Entity', 'name_display')
+    can_delete = False
+    max_num = 0
+
+    def name_display(self, instance):
+        return instance.entity.name
+    name_display.short_description = "Entity Name"
+
+
 @admin.register(Article)
 class ArticleAdmin(admin.ModelAdmin):
     list_display = ('id', 'processed', 'similar_rejection', 'headline', 'url', 'image_url',
     'date_added','publication_date', 'site_name', 'author')
+    readonly_fields = (
+    'headline', 'url', 'image_url', 'publication_date', 'author', 'site_name', 'processed',
+    'similar_rejection')
+
+    inlines = [BoundMentionInline, OverallSentimentInlineForArticle]
 
 
 def get_similar_entities(entities, ignored_entity_pairs, app_visible_entities, threshold):
@@ -86,6 +150,7 @@ class EntityAdmin(admin.ModelAdmin):
     list_filter = ('app_visible',)
     list_per_page = 1000
     search_fields = ['name']
+    inlines = [OverallSentimentInlineForEntity]
 
     def get_queryset(self, request):
         queryset = Entity.objects.annotate(overallsentiment__count=Count('overallsentiment__id'))
@@ -263,14 +328,47 @@ class BingEntityAdmin(admin.ModelAdmin):
 
 
 class EntityViewAdmin(admin.ModelAdmin):
-    list_display = ('entity', 'view_dt', 'view_time')
+    list_display = ('entity', 'get_entity_name', 'view_dt', 'view_time')
     list_filter = ('entity', 'view_dt', 'view_time')
     search_fields = ('entity__name',)
 
+    def get_entity_name(self, obj):
+        return obj.entity.name
+
+    get_entity_name.short_description = 'Entity Name'
+    get_entity_name.admin_order_field = 'entity__name'
+
+
 class OverallSentimentAdmin(admin.ModelAdmin):
-    list_display = ('article_id', 'entity_id', 'num_bound', 'linear_neutral', 'linear_positive',
-                    'linear_negative', 'exp_neutral', 'exp_positive', 'exp_negative')
+    list_display = (
+    'article_id', 'entity_id', 'get_article_headline', 'get_entity_name', 'num_bound',
+    'linear_neutral', 'linear_positive', 'linear_negative', 'exp_neutral', 'exp_positive',
+    'exp_negative')
     search_fields = ('article__id',)
+    readonly_fields = ['get_article_headline', 'get_entity_name']
+
+    def get_article_headline(self, obj):
+        return obj.article.headline
+
+    get_article_headline.short_description = 'Article Headline'
+    get_article_headline.admin_order_field = 'article__headline'
+
+    def get_entity_name(self, obj):
+        return obj.entity.name
+
+    get_entity_name.short_description = 'Entity Name'
+    get_entity_name.admin_order_field = 'entity__name'
+
+class BoundMentionAdmin(admin.ModelAdmin):
+    list_display = (
+        'article_id', 'entity_id', 'get_entity_name', 'bound_start', 'bound_end', 'avg_neutral',
+        'avg_positive', 'avg_negative', 'bound_text')
+
+    def get_entity_name(self, obj):
+        return obj.entity.name
+
+    get_entity_name.short_description = 'Entity Name'
+    get_entity_name.admin_order_field = 'entity__name'
 
 
 admin.site.register(Entity, EntityAdmin)
@@ -278,5 +376,5 @@ admin.site.register(IgnoreEntitySimilarity)
 admin.site.register(EntityHistory)
 admin.site.register(EntityView, EntityViewAdmin)
 admin.site.register(BingEntity, BingEntityAdmin)
-admin.site.register(BoundMention)
+admin.site.register(BoundMention, BoundMentionAdmin)
 admin.site.register(OverallSentiment, OverallSentimentAdmin)
