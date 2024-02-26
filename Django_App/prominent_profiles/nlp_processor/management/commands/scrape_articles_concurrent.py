@@ -326,8 +326,8 @@ class Command(BaseCommand):
                                       ((article, i + 1, len(article_objects)) for i, article in
                                        enumerate(article_objects))))
 
-                # Update the ProcessedFile object to mark it as processed
-                file.nlp_applied = True
-                file.save()
+            # Update the ProcessedFile object to mark it as processed
+            file.nlp_applied = True
+            file.save()
 
         logger.info(f"Scrape and analyse articles job finished at {datetime.now()}")
