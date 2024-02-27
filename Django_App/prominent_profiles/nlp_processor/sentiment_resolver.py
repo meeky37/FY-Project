@@ -120,12 +120,35 @@ def percentage_contribution(elements):
 
 
 class SentimentAnalyser:
+    """
+    For analysing the sentiment of entities within article text using NewsSentiment and tools to
+    get the clusters in the correct form.
+    """
 
     def __init__(self):
         self.tsc = TargetSentimentClassifier()
 
     def bounds_sentiment(self, mention_start, mention_end, sentence_start, sentence_end,
                          article_text, database_id):
+        """
+        Analyses sentiment for a specific text segment (mention) within an article using
+        NewsSentiment.
+
+        Args:
+            mention_start (int): The start index of the mention within the article text.
+            mention_end (int): The end index of the mention within the article text.
+            sentence_start (int): The start index of the sentence containing the mention.
+            sentence_end (int): The end index of the sentence containing the mention.
+            article_text (str): The full text of the article.
+            database_id (int): The database ID of the article.
+
+        Returns:
+            dict: A dictionary containing the sentiment analysis results for the mention.
+                  Returns None if an error occurs during analysis.
+
+        Exceptions will result in the creation of BoundError object for later analysis, debugging
+        and improvements to the tokenisation and entity clustering logic.
+        """
         try:
             warnings.filterwarnings("ignore",
                                     message="The `pad_to_max_length` argument is deprecated and "

@@ -588,14 +588,17 @@ class Article:
             self.image_url = get_preview_image_url(self.url)
 
             article_model, created = ArticleModel.objects.get_or_create(
-                headline=self.headline,
                 url=self.url,
-                image_url=self.image_url,
-                publication_date=self.publication_date,
-                author=self.author,
-                site_name=self.site_name,
-                source_file=self.source_file
+                defaults={
+                    'headline': self.headline,
+                    'image_url': self.image_url,
+                    'publication_date': self.publication_date,
+                    'author': self.author,
+                    'site_name': self.site_name,
+                    'source_file': self.source_file
+                }
             )
+
             self.database_id = article_model.id
 
             ArticleStatistics.objects.get_or_create(
