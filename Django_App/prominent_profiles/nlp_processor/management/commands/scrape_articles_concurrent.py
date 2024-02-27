@@ -173,12 +173,10 @@ class Command(BaseCommand):
                         # About 2 seconds
 
                         article_obj.save_to_database()
-                        print("save to database ran")
 
                         start_time = time.time()
                         too_similar = check_similarity_with_timeout(article_obj)
                         print(f"Check Similarity Time: {time.time() - start_time} seconds")
-                        print("Too similar:", too_similar)
 
                         if too_similar:
                             article_obj.set_db_processed(is_processed=False, similar_rejection=True)
@@ -247,7 +245,6 @@ class Command(BaseCommand):
 
         time.time()
         if article.sentiment_candidate:
-            print("Was sentiment candidate")
             # article.save_to_database() already done earlier in similar check now
 
             if article.database_id != -1:
