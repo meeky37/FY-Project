@@ -12,6 +12,6 @@ PREVIEW_IMG_TIMEOUT = 4
 F_COREF_DEVICE = 'cpu'
 
 # Memory constraints on droplet with only 4GB to run nginx, django, celery, redis, serve vue.
-ARTICLE_CHUNK_SIZE = 30
-ARTICLE_BATCH_SIZE = 10 # FCoref batching
+ARTICLE_CHUNK_SIZE = 15
+ARTICLE_BATCH_SIZE = 15
 ARTICLE_THREADS = 2
