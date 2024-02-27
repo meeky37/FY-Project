@@ -54,12 +54,12 @@ services:
 
   redis:
     image: redis:alpine
-    ports:
-      - 6379:6379
+#    ports:
+#      - 6379:6379 don't expose Digital Ocean Alert?
 
   celery:
     image: ghcr.io/meeky37/fy-project/web:latest
-    command: celery -A prominent_profiles worker --loglevel=info -c 2
+    command: celery -A prominent_profiles worker --loglevel=info -c 1
     volumes:
       - media_volume:/app/nlp_processor/media
       - static_volume:/app/static
