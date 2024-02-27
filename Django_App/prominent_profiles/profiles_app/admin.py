@@ -76,7 +76,7 @@ class ArticleAdmin(admin.ModelAdmin):
     'date_added','publication_date', 'site_name', 'author', 'source_file')
     readonly_fields = (
     'headline', 'url', 'image_url', 'publication_date', 'author', 'site_name',
-    'similar_rejection')
+    'similar_rejection', 'source_file')
 
     inlines = [BoundMentionInline, OverallSentimentInlineForArticle]
 
