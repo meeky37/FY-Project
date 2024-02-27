@@ -601,24 +601,29 @@ class Article:
 
             self.database_id = article_model.id
 
-            ArticleStatistics.objects.get_or_create(
+            _, stats_created = ArticleStatistics.objects.get_or_create(
                 article=article_model,
-                fuzzy_hash=self.linguistic_stats["fuzzy_hash"],
-                word_count=self.linguistic_stats["word_count"],
-                terms_count=self.linguistic_stats["terms_count"],
-                vocd=self.linguistic_stats["vocd"],
-                yulek=self.linguistic_stats["yulek"],
-                simpsond=self.linguistic_stats["simpsond"],
-                the_count=self.linguistic_stats["the_count"],
-                and_count=self.linguistic_stats["and_count"],
-                is_count=self.linguistic_stats["is_count"],
-                of_count=self.linguistic_stats["of_count"],
-                in_count=self.linguistic_stats["in_count"],
-                to_count=self.linguistic_stats["to_count"],
-                it_count=self.linguistic_stats["it_count"],
-                that_count=self.linguistic_stats["that_count"],
-                with_count=self.linguistic_stats["with_count"],
+                defaults={
+                    'fuzzy_hash': self.linguistic_stats["fuzzy_hash"],
+                    'word_count': self.linguistic_stats["word_count"],
+                    'terms_count': self.linguistic_stats["terms_count"],
+                    'vocd': self.linguistic_stats["vocd"],
+                    'yulek': self.linguistic_stats["yulek"],
+                    'simpsond': self.linguistic_stats["simpsond"],
+                    'the_count': self.linguistic_stats["the_count"],
+                    'and_count': self.linguistic_stats["and_count"],
+                    'is_count': self.linguistic_stats["is_count"],
+                    'of_count': self.linguistic_stats["of_count"],
+                    'in_count': self.linguistic_stats["in_count"],
+                    'to_count': self.linguistic_stats["to_count"],
+                    'it_count': self.linguistic_stats["it_count"],
+                    'that_count': self.linguistic_stats["that_count"],
+                    'with_count': self.linguistic_stats["with_count"],
+                }
             )
+
+            if not stats_created:
+                print("ArticleStatistics already exists for this article.")
 
         except IntegrityError as e:
             print(f"Database integrity error saving article/stats to the database: {e}")
