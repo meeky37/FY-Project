@@ -35,7 +35,7 @@ class DatabaseUtils:
             bound_text = text
 
             # Create BoundMention instance
-            bound_mention_instance = BoundMention.objects.create(
+            bound_mention_instance, inserted = BoundMention.objects.get_or_create(
                 article=article_instance,
                 entity=entity_instance,
                 bound_start=bound_start,
@@ -61,7 +61,7 @@ class DatabaseUtils:
             entity_instance, created_entity = Entity.objects.get_or_create(id=entity_id)
 
             # Create OverallSentiment instance
-            overall_sentiment_instance = OverallSentiment.objects.create(
+            overall_sentiment_instance = OverallSentiment.objects.get_or_create(
                 article=article_instance,
                 entity=entity_instance,
                 num_bound=num_bound,

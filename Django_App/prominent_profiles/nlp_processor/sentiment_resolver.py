@@ -1,15 +1,29 @@
 import time
-from decimal import Decimal, ROUND_HALF_UP
-from .constants import EXPONENTIAL_K_VALUE
+import warnings
+
 from intervaltree import Interval, IntervalTree
 from NewsSentiment import TargetSentimentClassifier
 
 from .models import BoundError
 from .utils import DatabaseUtils
-import warnings
+
+from decimal import Decimal, ROUND_HALF_UP
+from .constants import EXPONENTIAL_K_VALUE
+
 
 
 def scaling(avg_array_list, k=3, linear=False):
+    """
+    Scales the average sentiment scores by applying either linear or exponential scaling.
+
+    Args:
+        avg_array_list (list of list of float): A list of average sentiment scores for different categories.
+        k (int, optional): The exponent used for scaling when linear is False. Defaults to 3.
+        linear (bool, optional):  True -> apply linear scaling. False ->  apply exponential scaling.
+
+    Returns:
+        list: Scaled sentiment scores as a list containing [neutral_points, positive_points, negative_points].
+    """
     neutral_points = positive_points = negative_points = 0
 
     for avg_array in avg_array_list:
@@ -30,6 +44,24 @@ def scaling(avg_array_list, k=3, linear=False):
 
 
 def average_array(probabilities):
+    """
+    Calculates the average sentiment scores for neutral, positive, and negative sentiments 
+    from a list of probability data.
+
+    Iterates through the sentiment analysis results for each bound (a text segment) 
+    to calculate a mean sentiment across all input probabilities.
+
+    Args:
+        probabilities (list of dict): A list where each element is a dictionary containing
+            'class_prob' (the probability score) and 'class_label' (the sentiment label which
+            can be 'neutral', 'positive', or 'negative').
+
+    Returns:
+        list: A list containing the avg probability scores for [neutral, positive, negative]
+            sentiments. Each avg is computed as the total accumulated probability for the
+            sentiment divided by the number of entries in the input list. 
+            Empty lists will return [0, 0, 0].
+    """
     num_probabilities = len(probabilities)
     neutral_total = positive_total = negative_total = 0
 
@@ -54,6 +86,15 @@ def average_array(probabilities):
 
 
 def round_array_to_1dp(arr):
+    """
+    Elements of the array rounded to one dp with adjustment for a sum of 100
+    
+     Args:
+        arr (list of float): The input array to be rounded.
+
+    Returns:
+        list: The rounded array with elements rounded to one decimal place, adjusted to sum up to 100.
+    """
     decimal_array = [Decimal(str(x)) for x in arr]
     rounded_array = [x.quantize(Decimal('0.0'), rounding=ROUND_HALF_UP) for x in decimal_array]
     rounded_sum = sum(rounded_array)
@@ -64,6 +105,15 @@ def round_array_to_1dp(arr):
 
 
 def percentage_contribution(elements):
+    """
+    Calculates the % contribution of each element in a list to the total sum of the list.
+
+    Args:
+        elements (list of float): A list of numerical values.
+
+    Returns:
+        list: A list of percentage contributions of each element, rounded to one decimal place.
+    """
     total = sum(elements)
     percentage_contributions = [(element / total) * 100 for element in elements]
     return round_array_to_1dp(percentage_contributions)
@@ -104,7 +154,7 @@ class SentimentAnalyser:
             # print(f"MENTION: {mention_segment}")
             # print(f"RIGHT: {right_segment}")
 
-            BoundError.objects.create(
+            BoundError.objects.get_or_create(
                 article_id=database_id,
                 bound_start=mention_start,
                 bound_end=mention_end,
