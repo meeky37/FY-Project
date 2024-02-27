@@ -1,7 +1,6 @@
 from django.conf import settings
 from django.db import models
 
-
 class Article(models.Model):
     headline = models.CharField(max_length=255, null=True)
     url = models.CharField(max_length=500, unique=True)
@@ -12,6 +11,8 @@ class Article(models.Model):
     date_added = models.DateTimeField(auto_now_add=True)
     processed = models.BooleanField(default=False)
     similar_rejection = models.BooleanField(default=False)
+    source_file = models.ForeignKey('nlp_processor.ProcessedFile', on_delete=models.DO_NOTHING,
+                                    default=None, null=True, blank=True)
 
 
 class Entity(models.Model):

@@ -6,6 +6,7 @@ from NewsSentiment import TargetSentimentClassifier
 
 from .models import BoundError
 from .utils import DatabaseUtils
+import warnings
 
 
 def scaling(avg_array_list, k=3, linear=False):
@@ -76,6 +77,12 @@ class SentimentAnalyser:
     def bounds_sentiment(self, mention_start, mention_end, sentence_start, sentence_end,
                          article_text, database_id):
         try:
+            warnings.filterwarnings("ignore",
+                                    message="The `pad_to_max_length` argument is deprecated and "
+                                            "will be removed in a future version, use `padding=True`"
+                                            " or `padding='longest'` to pad to the longest sequence"
+                                            " in the batch, or use `padding='max_length'` to pad to"
+                                            " a max length.")
             left_segment = article_text[sentence_start:mention_start]
             mention_segment = article_text[mention_start:mention_end]
             right_segment = article_text[mention_end:sentence_end]
@@ -93,9 +100,9 @@ class SentimentAnalyser:
 
         except Exception as e:
             print(f"Error during sentiment analysis: {e}")
-            print(f"LEFT: {left_segment}")
-            print(f"MENTION: {mention_segment}")
-            print(f"RIGHT: {right_segment}")
+            # print(f"LEFT: {left_segment}")
+            # print(f"MENTION: {mention_segment}")
+            # print(f"RIGHT: {right_segment}")
 
             BoundError.objects.create(
                 article_id=database_id,

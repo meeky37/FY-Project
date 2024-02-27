@@ -96,7 +96,9 @@ class Command(BaseCommand):
             sa = SentimentAnalyser()
             self.sa_queue.put(sa)
 
-    def process_articles(articles, article_objects, processed_urls, ner, start=0, end=None):
+    def process_articles(self, source_file_id, articles, article_objects, processed_urls, ner,
+                         start=0,
+                         end=None):
 
         fetches = 0
         skips = 0
@@ -115,10 +117,16 @@ class Command(BaseCommand):
                 continue  # Skip this article
 
             # Check if the URL already exists in the database
-            if ArticleModel.objects.filter(url=url).exists():
-                print('Article URL already exists in db')
-                skips += 1
-                continue
+            existing_article = ArticleModel.objects.filter(url=url).first()
+            if existing_article:
+                if existing_article.processed:
+                    print('Article URL already exists in db and has been processed already')
+                    skips += 1
+                    continue  # Skip this article as it's already processed
+                else:
+                    print('Article URL already exists in db BUT has not been processed')
+                    # Added to handle crash during a sentiment job on the first occasion.
+
 
             try:
                 if can_fetch_url(url):
@@ -140,8 +148,10 @@ class Command(BaseCommand):
 
                     # 29th Jan Note - this was added over Christmas as an initial "solution" before
                     # a direction to use similarity hashing and statistic linguistics.
-                    if ArticleModel.objects.filter(headline=headline, author=author).exists():
-                        print('Exact headline and author already exists in db')
+                    if ArticleModel.objects.filter(headline=headline, author=author,
+                                                   processed=True).exists():
+                        print('Exact headline and author already exists in db and has been '
+                              'processed')
                         skips += 1
                         continue
 
@@ -150,9 +160,12 @@ class Command(BaseCommand):
                                                        include_comments=False, include_images=False,
                                                        include_tables=False)
 
+
                     if article_text and len(article_text) > 249:
+                        source_file = ProcessedFile.objects.get(id=source_file_id)
+
                         article_obj = Article(url, headline, article_text, ner, publication_date,
-                                              author, site_name)
+                                              author, site_name, source_file)
 
                         start_time = time.time()
                         article_obj.get_statistics()
@@ -198,7 +211,7 @@ class Command(BaseCommand):
         print(len(article_objects))
         return article_objects
 
-    def process_file(self, file_name, start, end, processed_urls, ner):
+    def process_file(self, source_file_id, file_name, start, end, processed_urls, ner):
 
         article_objects = []
         file_path = os.path.join(file_name)
@@ -208,7 +221,9 @@ class Command(BaseCommand):
 
         articles_subset = articles[start:end]
 
-        return Command.process_articles(articles_subset, article_objects, processed_urls, ner=ner)
+        return self.process_articles(source_file_id, articles_subset, article_objects,
+                                        processed_urls,
+                                        ner=ner)
 
     def process_article(self, article, sa):
 
@@ -302,7 +317,7 @@ class Command(BaseCommand):
                 end_index = min(start_index + ARTICLE_CHUNK_SIZE, total_articles)
 
                 # Retrieve and process a chunk of articles from the current file
-                articles_from_file = self.process_file(full_path, start_index, end_index,
+                articles_from_file = self.process_file(file.id, full_path, start_index, end_index,
                                                        processed_urls, ner)
 
                 # Extend article_objects with articles from the current file

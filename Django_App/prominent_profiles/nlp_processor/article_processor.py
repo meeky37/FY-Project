@@ -59,7 +59,7 @@ class Article:
     """
     Represents a news article and includes functionality for processing article 
     """
-    def __init__(self, url, headline, text_body, NER, date, author, site_name):
+    def __init__(self, url, headline, text_body, NER, date, author, site_name, source_file):
         self.url = url
         self.NER = NER
         self.headline = headline
@@ -81,6 +81,7 @@ class Article:
         self.author = author
         self.site_name = site_name
         self.linguistic_stats = None
+        self.source_file = source_file
 
     def set_sentiment_analyser(self, sa):
 
@@ -586,18 +587,18 @@ class Article:
         try:
             self.image_url = get_preview_image_url(self.url)
 
-            article_model = ArticleModel.objects.create(
+            article_model, created= ArticleModel.objects.get_or_create(
                 headline=self.headline,
                 url=self.url,
                 image_url=self.image_url,
                 publication_date=self.publication_date,
                 author=self.author,
-                site_name=self.site_name
+                site_name=self.site_name,
+                source_file=self.source_file
             )
-            article_model.save()
             self.database_id = article_model.id
 
-            stats_model = ArticleStatistics.objects.create(
+            stats_model, created = ArticleStatistics.objects.get_or_create(
                 article=article_model,
                 fuzzy_hash=self.linguistic_stats["fuzzy_hash"],
                 word_count=self.linguistic_stats["word_count"],
@@ -615,7 +616,6 @@ class Article:
                 that_count=self.linguistic_stats["that_count"],
                 with_count=self.linguistic_stats["with_count"],
             )
-            stats_model.save()
 
         except IntegrityError as e:
             print(f"Database integrity error saving article/stats to the database: {e}")

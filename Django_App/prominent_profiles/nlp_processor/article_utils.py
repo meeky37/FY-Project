@@ -76,6 +76,8 @@ def get_preview_image_url(url):
     except Exception as e:
         print(f"Error fetching preview image URL ({url}): [Unexpected error: {e}].")
 
+    return None
+
 
 def merge_positions(entities, word):
     """
