@@ -587,7 +587,7 @@ class Article:
         try:
             self.image_url = get_preview_image_url(self.url)
 
-            article_model, created= ArticleModel.objects.get_or_create(
+            article_model, created = ArticleModel.objects.get_or_create(
                 headline=self.headline,
                 url=self.url,
                 image_url=self.image_url,
@@ -598,7 +598,7 @@ class Article:
             )
             self.database_id = article_model.id
 
-            stats_model, created = ArticleStatistics.objects.get_or_create(
+            ArticleStatistics.objects.get_or_create(
                 article=article_model,
                 fuzzy_hash=self.linguistic_stats["fuzzy_hash"],
                 word_count=self.linguistic_stats["word_count"],
