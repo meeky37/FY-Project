@@ -59,7 +59,7 @@ services:
 
   celery:
     image: ghcr.io/meeky37/fy-project/web:latest
-    command: celery -A prominent_profiles worker --loglevel=info -c 3
+    command: celery -A prominent_profiles worker --loglevel=info -c 1
     volumes:
       - media_volume:/app/nlp_processor/media
       - static_volume:/app/static
