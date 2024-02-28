@@ -90,7 +90,8 @@ class OverallSentimentExp(APIView):
         # Apply user-specific filtering if the dashboard flag is true and the user is authenticated
         if dashboard and user.is_authenticated:
             last_visit = user.last_visit_excluding_today or timezone.now()
-            overall_sentiments = overall_sentiments.filter(article__publication_date__gt=last_visit)
+            # overall_sentiments = overall_sentiments.filter(article__publication_date__gt=last_visit)
+            overall_sentiments = overall_sentiments.filter(article__date_added__gt=last_visit)
         else:
             last_visit = None
 

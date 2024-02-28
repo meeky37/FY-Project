@@ -1,8 +1,10 @@
 import time
 import warnings
 
+
 from intervaltree import Interval, IntervalTree
 from NewsSentiment import TargetSentimentClassifier
+from NewsSentiment.customexceptions import TooLongTextException
 
 from .models import BoundError
 from .utils import DatabaseUtils
@@ -119,6 +121,25 @@ def percentage_contribution(elements):
     return round_array_to_1dp(percentage_contributions)
 
 
+def log_bound_error(exception, article_id, mention_start, mention_end, left_segment,
+                    mention_segment, right_segment):
+    """Logs details about the text bound error to the database."""
+    if isinstance(exception, TooLongTextException):
+        error_message = "TooLongTextException"
+    else:
+        error_message = "Exception during sentiment analysis"
+
+    BoundError.objects.get_or_create(
+        article_id=article_id,
+        bound_start=mention_start,
+        bound_end=mention_end,
+        left_segment=left_segment,
+        mention_segment=mention_segment,
+        right_segment=right_segment,
+        error_message=error_message
+    )
+
+
 class SentimentAnalyser:
     """
     For analysing the sentiment of entities within article text using NewsSentiment and tools to
@@ -172,21 +193,11 @@ class SentimentAnalyser:
             return sentiment[0]
 
         except Exception as e:
-            print(f"Error during sentiment analysis: {e}")
             # print(f"LEFT: {left_segment}")
             # print(f"MENTION: {mention_segment}")
             # print(f"RIGHT: {right_segment}")
-
-            BoundError.objects.get_or_create(
-                article_id=database_id,
-                bound_start=mention_start,
-                bound_end=mention_end,
-                left_segment=left_segment,
-                mention_segment=mention_segment,
-                right_segment=right_segment,
-                error_message=f"Exception during sentiment analysis"
-            )
-
+            log_bound_error(e, database_id, mention_start, mention_end, left_segment,
+                            mention_segment, right_segment)
             return None
 
     def process_clustered_entities(self, clustered_entities, sentence_bounds, article_text,
