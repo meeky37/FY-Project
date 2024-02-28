@@ -1,17 +1,14 @@
 import time
 import warnings
 
-
 from intervaltree import Interval, IntervalTree
 from NewsSentiment import TargetSentimentClassifier
-from NewsSentiment.customexceptions import TooLongTextException
 
 from .models import BoundError
 from .utils import DatabaseUtils
 
 from decimal import Decimal, ROUND_HALF_UP
 from .constants import EXPONENTIAL_K_VALUE
-
 
 
 def scaling(avg_array_list, k=3, linear=False):
@@ -47,10 +44,10 @@ def scaling(avg_array_list, k=3, linear=False):
 
 def average_array(probabilities):
     """
-    Calculates the average sentiment scores for neutral, positive, and negative sentiments 
+    Calculates the average sentiment scores for neutral, positive, and negative sentiments
     from a list of probability data.
 
-    Iterates through the sentiment analysis results for each bound (a text segment) 
+    Iterates through the sentiment analysis results for each bound (a text segment)
     to calculate a mean sentiment across all input probabilities.
 
     Args:
@@ -61,7 +58,7 @@ def average_array(probabilities):
     Returns:
         list: A list containing the avg probability scores for [neutral, positive, negative]
             sentiments. Each avg is computed as the total accumulated probability for the
-            sentiment divided by the number of entries in the input list. 
+            sentiment divided by the number of entries in the input list.
             Empty lists will return [0, 0, 0].
     """
     num_probabilities = len(probabilities)
@@ -90,7 +87,7 @@ def average_array(probabilities):
 def round_array_to_1dp(arr):
     """
     Elements of the array rounded to one dp with adjustment for a sum of 100
-    
+
      Args:
         arr (list of float): The input array to be rounded.
 
@@ -119,25 +116,6 @@ def percentage_contribution(elements):
     total = sum(elements)
     percentage_contributions = [(element / total) * 100 for element in elements]
     return round_array_to_1dp(percentage_contributions)
-
-
-def log_bound_error(exception, article_id, mention_start, mention_end, left_segment,
-                    mention_segment, right_segment):
-    """Logs details about the text bound error to the database."""
-    if isinstance(exception, TooLongTextException):
-        error_message = "TooLongTextException"
-    else:
-        error_message = "Exception during sentiment analysis"
-
-    BoundError.objects.get_or_create(
-        article_id=article_id,
-        bound_start=mention_start,
-        bound_end=mention_end,
-        left_segment=left_segment,
-        mention_segment=mention_segment,
-        right_segment=right_segment,
-        error_message=error_message
-    )
 
 
 class SentimentAnalyser:
@@ -193,11 +171,21 @@ class SentimentAnalyser:
             return sentiment[0]
 
         except Exception as e:
+            print(f"Error during sentiment analysis: {e}")
             # print(f"LEFT: {left_segment}")
             # print(f"MENTION: {mention_segment}")
             # print(f"RIGHT: {right_segment}")
-            log_bound_error(e, database_id, mention_start, mention_end, left_segment,
-                            mention_segment, right_segment)
+
+            BoundError.objects.get_or_create(
+                article_id=database_id,
+                bound_start=mention_start,
+                bound_end=mention_end,
+                left_segment=left_segment,
+                mention_segment=mention_segment,
+                right_segment=right_segment,
+                error_message=f"Exception during sentiment analysis"
+            )
+
             return None
 
     def process_clustered_entities(self, clustered_entities, sentence_bounds, article_text,
