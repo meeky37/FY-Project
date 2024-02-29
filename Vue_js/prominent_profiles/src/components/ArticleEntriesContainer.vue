@@ -209,17 +209,12 @@ export default {
 
 </script>
 <style scoped>
-.entries-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
 
 .entry-column-wrapper {
   flex: 1 0 calc(33.333% - 25px);
   min-width: 200px;
-  margin-left: 7.5px;
-  margin-right: 7.5px;
+  margin-left: 15px;
+  margin-right: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   background-color: white;
   border-radius: 25px;
@@ -237,7 +232,8 @@ export default {
   margin-bottom: 1px;
   flex-wrap: wrap;
   min-height: 70vh;
-  min-width: 20vw;
+  //min-width: 20vw;
+  max-width: 750px;
 }
 
 .entry-column-icon {
@@ -248,7 +244,6 @@ export default {
   margin-right: 10px;
   margin-bottom: 1px;
   flex-wrap: wrap;
-
 }
 
 .main-container {
@@ -305,8 +300,8 @@ export default {
   }
 
   .entry-column-wrapper{ /* See if larger margin helps scrolling on phone */
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
   }
 }
 </style>
