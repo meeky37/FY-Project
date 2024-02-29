@@ -14,7 +14,7 @@ from .models import Article, BoundMention, OverallSentiment, BingEntity, EntityV
 class BoundMentionInline(admin.TabularInline):
     model = BoundMention
     fields = ('entity', 'name_display', 'bound_start', 'bound_end', 'avg_neutral', 'avg_positive',
-                       'avg_negative', 'bound_text')
+              'avg_negative', 'bound_text')
     readonly_fields = ('entity', 'name_display', 'bound_start', 'bound_end', 'avg_neutral',
                        'avg_positive', 'avg_negative', 'bound_text')
     can_delete = False
@@ -22,22 +22,23 @@ class BoundMentionInline(admin.TabularInline):
 
     def name_display(self, instance):
         return instance.entity.name
+
     name_display.short_description = "Entity Name"
 
 
 class OverallSentimentInlineForArticle(admin.TabularInline):
     model = OverallSentiment
     fields = ('name_display', 'num_bound', 'linear_neutral', 'linear_positive',
-                       'linear_negative',
-                       'exp_positive', 'exp_neutral', 'exp_negative',)
+              'linear_negative',
+              'exp_positive', 'exp_neutral', 'exp_negative',)
     readonly_fields = ('name_display', 'num_bound', 'linear_neutral', 'linear_positive',
-                       'linear_negative',
-                       'exp_positive', 'exp_neutral', 'exp_negative')
+                       'linear_negative', 'exp_neutral', 'exp_positive', 'exp_negative')
     can_delete = False
     max_num = 0
 
     def name_display(self, instance):
         return instance.entity.name
+
     name_display.short_description = "Entity Name"
 
 
@@ -47,14 +48,14 @@ class OverallSentimentInlineForEntity(admin.TabularInline):
               'linear_negative',
               'exp_positive', 'exp_neutral', 'exp_negative',)
     readonly_fields = (
-    'article', 'headline_display', 'num_bound', 'linear_neutral', 'linear_positive',
-    'linear_negative',
-    'exp_positive', 'exp_neutral', 'exp_negative')
+        'article', 'headline_display', 'num_bound', 'linear_neutral', 'linear_positive',
+        'linear_negative', 'exp_neutral', 'exp_positive', 'exp_negative')
     can_delete = False
     max_num = 0
 
     def headline_display(self, instance):
         return instance.article.headline
+
     headline_display.short_description = "Article Headline"
 
 
@@ -67,16 +68,17 @@ class EntityInline(admin.TabularInline):
 
     def name_display(self, instance):
         return instance.entity.name
+
     name_display.short_description = "Entity Name"
 
 
 @admin.register(Article)
 class ArticleAdmin(admin.ModelAdmin):
     list_display = ('id', 'processed', 'similar_rejection', 'headline', 'url', 'image_url',
-    'date_added','publication_date', 'site_name', 'author', 'source_file')
+                    'date_added', 'publication_date', 'site_name', 'author', 'source_file')
     readonly_fields = (
-    'headline', 'url', 'image_url', 'publication_date', 'author', 'site_name',
-    'similar_rejection', 'source_file')
+        'headline', 'url', 'image_url', 'publication_date', 'author', 'site_name',
+        'similar_rejection', 'source_file')
 
     inlines = [BoundMentionInline, OverallSentimentInlineForArticle]
 
@@ -341,9 +343,9 @@ class EntityViewAdmin(admin.ModelAdmin):
 
 class OverallSentimentAdmin(admin.ModelAdmin):
     list_display = (
-    'article_id', 'entity_id', 'get_article_headline', 'get_entity_name', 'num_bound',
-    'linear_neutral', 'linear_positive', 'linear_negative', 'exp_neutral', 'exp_positive',
-    'exp_negative')
+        'article_id', 'entity_id', 'get_article_headline', 'get_entity_name', 'num_bound',
+        'linear_neutral', 'linear_positive', 'linear_negative', 'exp_neutral', 'exp_positive',
+        'exp_negative')
     search_fields = ('article__id',)
     readonly_fields = ['get_article_headline', 'get_entity_name']
 
@@ -358,6 +360,7 @@ class OverallSentimentAdmin(admin.ModelAdmin):
 
     get_entity_name.short_description = 'Entity Name'
     get_entity_name.admin_order_field = 'entity__name'
+
 
 class BoundMentionAdmin(admin.ModelAdmin):
     list_display = (
