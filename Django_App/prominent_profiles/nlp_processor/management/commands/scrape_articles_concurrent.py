@@ -1,36 +1,47 @@
 import concurrent.futures
 import json
+import logging
 import os
 import queue
-import urllib.robotparser
-import trafilatura
-import spacy
-import time
-import logging
-import urllib.request
 import socket
-
+import time
+import urllib.request
+import urllib.robotparser
 from datetime import datetime
-from django.utils import timezone
-from django.core.management.base import BaseCommand
-from profiles_app.models import Article as ArticleModel
-from nlp_processor.models import ProcessedFile
-from nlp_processor.utils import DatabaseUtils
-from nlp_processor.bing_api import *
-from fastcoref import FCoref
-from ...article_processor import Article
-from django.conf import settings
 from urllib.parse import urlparse
 from urllib.robotparser import RobotFileParser
+
+import spacy
+import trafilatura
+from django.core.mail import send_mail
+from django.core.management.base import BaseCommand
+from django.utils import timezone
+from fastcoref import FCoref
+from nlp_processor.bing_api import *
+from nlp_processor.models import ProcessedFile
+from nlp_processor.utils import DatabaseUtils
+from profiles_app.models import Article as ArticleModel
+
+from ...article_processor import Article
+from ...constants import ARTICLE_CHUNK_SIZE, ARTICLE_BATCH_SIZE, ARTICLE_THREADS, F_COREF_DEVICE
 from ...sentiment_resolver import SentimentAnalyser
-from ...constants import ARTICLE_CHUNK_SIZE, ARTICLE_BATCH_SIZE, ARTICLE_THREADS
+
+
+# Memory Profiling to establish resource requirements, make improvements like deleting article
+# instances where possible.
 # from memory_profiler import profile
 # from Django_App.prominent_profiles.nlp_processor.constants import F_COREF_DEVICE
 
 
 def can_fetch_url(url_to_check):
-    """Determine if the URL can be fetched by all crawlers - adding politeness / adherence to
-        robot policy."""
+    """
+    Determine if an article URL can be fetched by all crawlers - adding politeness / adherence to
+    robot policy.
+
+    :param url_to_check:
+    :return: true or false depending on publisher urls policy
+    """
+
     parsed_url = urlparse(url_to_check)
     base_url = parsed_url.scheme + "://" + parsed_url.netloc
 
@@ -50,8 +61,30 @@ def can_fetch_url(url_to_check):
 
 
 def perform_coreference_resolution(article_texts, batch_size=ARTICLE_BATCH_SIZE):
-    # model = FCoref(device='mps')
-    model = FCoref(device='cpu')
+    """
+    Performs coreference resolution on a batch of article texts using the FCoref model. This function
+    processes the provided texts to identify coreferences which is key to finding all
+    sentences/bounds of an entity and their alternative mentions.
+
+    e.g. ['Keir Starmer', 'Starmer', 'Keir Starmer', 'him', 'Sir Keir', 'the Labour leader',
+    'Keir Starmer (left)', 'him', 'the Labour leader', "Sir Keir Starmer's", 'Starmer', 'Sir Keir',
+     'the Labour leader', 'Keir', 'Sir Keir', 'Sir Keir']
+
+    :param article_texts: A list of strings, where each string is the text of an article on which
+                          coreference resolution is to be performed.
+
+    :param batch_size: An integer specifying the maximum number of tokens to process in a single batch.
+                       This helps manage memory usage and computational load, especially for large texts.
+
+    :return: A list of lists, where each sublist contains tuples of (text, positions, length) for each
+             cluster identified in the corresponding article text. The clusters are sorted by the length
+             of their text in descending order, later insignificant, small clusters will be
+             removed.
+
+     Batch size is controlled centrally by a constant.py entry now.
+    """
+
+    model = FCoref(device=F_COREF_DEVICE)
     predictions = model.predict(texts=article_texts, max_tokens_in_batch=batch_size)
 
     # Empty list to store clusters for each article
@@ -63,24 +96,48 @@ def perform_coreference_resolution(article_texts, batch_size=ARTICLE_BATCH_SIZE)
         combined_clusters = [(text, positions, len(text)) for text, positions in
                              zip(clusters_text, clusters_positions)]
         sorted_combined_clusters = sorted(combined_clusters, key=lambda x: x[2], reverse=True)
-
         article_text_clusters.append(sorted_combined_clusters)
 
     return article_text_clusters
 
 
 def check_similarity_with_timeout(article_obj):
-    """Wrapper function for check_similarity with a timeout."""
+    """
+    Executes the similarity check for an article object within a specified timeout period. If the
+    operation does not complete within the timeout, it is aborted, and the function returns False.
+
+    My thinking is if it is taking more than e.g. 60 seconds then take the risk of it being a
+    duplicate in return for less disruption to the pipeline.
+
+    :param article_obj: An instance of the Article class, holding the article to check for similarity.
+    :return: bool: True if the article is considered similar to others based on predefined criteria,
+             False if not similar or check not completed within the timeout period.
+    """
     with concurrent.futures.ThreadPoolExecutor() as executor:
         future = executor.submit(article_obj.check_similarity)
         try:
-            return future.result(timeout=60)  # Returns True/False based on similarity check
+            # Returns True/False based on similarity check
+            return future.result(timeout=SIMILARITY_TIMEOUT)
         except concurrent.futures.TimeoutError:
             print("Check Similarity timed out!")
             return False  # If we timeout, assume not too similar
 
 
 class Command(BaseCommand):
+    """
+    A Django management command intended to scrape articles, process them for NLP tasks including
+    coreference resolution, sentiment analysis, and similarity checking, and then update the
+    database to confirm successful completion*.
+
+    This command handles the full workflow from fetching unprocessed article data, applying NLP
+    processing, and then marking articles as processed since we don't want to store article texts for
+    legal/terms of service/storage reasons etc. it makes sense to have this as one end-to-end job
+    that can be run regularly 12 or 24 increments following Bing News Api calls.
+
+    If processed file fails and is not set to true e.g. the job is interrupted it will
+    conveniently be picked up on the next job get_or_create has been used across the NLP Processor
+    code to avoid breaking unique keys.
+    """
     help = 'Scrape articles and trigger NLP flow'
 
     def __init__(self, *args, **kwargs):
@@ -99,6 +156,21 @@ class Command(BaseCommand):
     def process_articles(self, source_file_id, articles, article_objects, processed_urls, ner,
                          start=0,
                          end=None):
+        """
+        Processes a list of articles by downloading their content (if permitted by robots.txt),
+        uses statistic analysis methods (article_update.py), and updating the database with the
+        results. It can then filter out articles based on duplication and length criteria.
+
+        :param source_file_id: The ID of the source file from which the articles are derived.
+        :param articles: A list of article metadata (such as URLs and titles) to process.
+        :param article_objects: A list to which newly created and processed Article objects will be added.
+        :param processed_urls: A set containing URLs of articles that have already been processed
+                                in this job to avoid duplication (first line defence).
+        :param ner: The named entity recognition model to use for processing articles.
+        :param start: The starting index in the articles list from which to begin processing.
+        :param end: The ending index in the articles list up to which to process. If None, processes all articles from start.
+        :return: A list of Article objects that have been processed.
+        """
 
         fetches = 0
         skips = 0
@@ -126,7 +198,6 @@ class Command(BaseCommand):
                 else:
                     print('Article URL already exists in db BUT has not been processed')
                     # Added to handle crash during a sentiment job on the first occasion.
-
 
             try:
                 if can_fetch_url(url):
@@ -160,7 +231,6 @@ class Command(BaseCommand):
                                                        include_comments=False, include_images=False,
                                                        include_tables=False)
 
-
                     if article_text and len(article_text) > 249:
                         source_file = ProcessedFile.objects.get(id=source_file_id)
 
@@ -181,7 +251,7 @@ class Command(BaseCommand):
                         if too_similar:
                             article_obj.set_db_processed(is_processed=False, similar_rejection=True)
                             print(f"{article_obj.headline} removed on similarity grounds!")
-                            article_obj.text_body = None # Free memory explicitly
+                            article_obj.text_body = None  # Free memory explicitly
                         else:
                             article_objects.append(article_obj)
 
@@ -212,7 +282,22 @@ class Command(BaseCommand):
         return article_objects
 
     def process_file(self, source_file_id, file_name, start, end, processed_urls, ner):
+        """
+        Processes a specified range of articles within a source file.
+        Articles are read from a JSON file and then sent for download.
 
+        Start and end filtering was useful for debugging e.g. running with just 2 or 3 articles
+        quickly
+
+        :param source_file_id: The ID of the source file containing the articles.
+        :param file_name: The path to the file containing article data in JSON format.
+        :param start: The index of the first article to process.
+        :param end: The index of the last article to process.
+        :param processed_urls: A set containing URLs of articles that have already been processed
+                                in this job to avoid duplication (first line defence).
+        :param ner: The spacy named entity recognition (NER) model used for processing articles.
+        :return: A list of processed Article objects.
+        """
         article_objects = []
         file_path = os.path.join(file_name)
 
@@ -222,10 +307,18 @@ class Command(BaseCommand):
         articles_subset = articles[start:end]
 
         return self.process_articles(source_file_id, articles_subset, article_objects,
-                                        processed_urls,
-                                        ner=ner)
+                                     processed_urls,
+                                     ner=ner)
 
     def process_article(self, article, sa):
+        """
+        Applies NLP processing on a single article, including named entity recognition, sentiment
+        analysis, and updating the database with the analysis results.
+
+        :param article: An instance of the Article class to be processed.
+        :param sa: An instance of the SentimentAnalyser class from the queue used to perform
+        sentiment analysis on the article.
+        """
 
         start_time = time.time()
         article.source_ner_people()
@@ -272,11 +365,17 @@ class Command(BaseCommand):
         else:
             print("Article already exists in the database")
 
-        # Save memory by deleting properly!
+        # Saved memory instead by deleting whole object properly!
         # article.reset_attributes()
         del article
 
     def process_article_wrapper(self, args):
+        """
+        A wrapper function designed to process an individual article within a concurrent env.
+        It ensures that each article is processed and that SentimentAnalyser instances are managed.
+
+        :param args: A tuple containing the article to process, its index, and the total number of articles to process.
+        """
         article, i, total_objects = args
         print(f"Current Progress: {i} of {total_objects}")
 
@@ -290,9 +389,24 @@ class Command(BaseCommand):
 
     # @profile
     def handle(self, *args, **options):
+        """
+        This is the entrypoint for the Django command that handles the workflow of fetching unprocessed
+        article files, applying NLP processing to each article, and updates the database accordingly.
+
+        29th Feb adding emails to internal email address for easy job monitoring.
+        """
 
         logger = logging.getLogger('scrape_articles_logger')
         logger.info(f"Scrape and analyse articles job started at {datetime.now()}")
+
+        send_mail(
+            'NLP Job Started',
+            'The scrape and analyse articles job has started.',
+            settings.EMAIL_HOST_USER,
+            [settings.EMAIL_HOST_USER],
+            fail_silently=True,
+        )
+
         ner = spacy.load("en_core_web_sm")
 
         # Get a list of ProcessedFile objects with nlp_applied=False
@@ -346,3 +460,11 @@ class Command(BaseCommand):
             file.save()
 
         logger.info(f"Scrape and analyse articles job finished at {datetime.now()}")
+
+        send_mail(
+            'NLP Job Finished',
+            'The scrape and analyse articles job has finished.',
+            settings.EMAIL_HOST_USER,
+            [settings.EMAIL_HOST_USER],
+            fail_silently=True,
+        )

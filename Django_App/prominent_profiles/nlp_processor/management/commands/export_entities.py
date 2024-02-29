@@ -1,7 +1,12 @@
-
+"""
+This one-off job supported analysis of entities in a CSV / Excel - was particularly useful before
+the django admin page was fully configured.
+"""
 import csv
+
 from django.core.management.base import BaseCommand
 from profiles_app.models import Entity
+
 
 class Command(BaseCommand):
     help = 'Export entities to a CSV file'

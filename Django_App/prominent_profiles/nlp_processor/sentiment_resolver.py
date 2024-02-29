@@ -1,3 +1,26 @@
+"""
+This module provides sentiment analysis capabilities for processed news articles (by article
+processor, leveraging the NewsSentiment library (Thank you: Hamborg, Felix and Donnay, Karsten).
+
+ It includes functionality to:
+
+- Analyse sentiment for specific text segments and process clustered entities within articles to
+  assess sentiment at both detailed and aggregated levels.
+- Scale average sentiment scores using either linear or exponential methods.
+- Calculate average sentiment scores across multiple categories (neutral, positive, negative)
+  from a list of NewsSentiment probability data, to provide a hollistic 'Overall Sentiment'
+  headline view.
+- Compute the % contribution of each sentiment category, offering insights into the relative
+ weight of sentiments within an article.
+- Round % scores above to one decimal place and ensure their sum equals 100%, for the sentiment
+  bars within ArticleEntry and ProfileEntry cards in the Vue Web App.
+- Log errors related to text bounds during sentiment analysis to the database, aiding in
+  debugging and will aid future development around tokenization, e.g. punctuation restoration.
+
+Outcomes are stored in BoundMention and OverallSentiments models in the Django App.
+"""
+
+
 import time
 import warnings
 
@@ -18,8 +41,8 @@ def scaling(avg_array_list, k=3, linear=False):
 
     Args:
         avg_array_list (list of list of float): A list of average sentiment scores for different categories.
-        k (int, optional): The exponent used for scaling when linear is False. Defaults to 3.
-        linear (bool, optional):  True -> apply linear scaling. False ->  apply exponential scaling.
+        k (int, optional): The exponent used for scaling when linear is False. Default is 3.
+        linear (bool, optional):  True -> apply linear scaling. False -> apply exponential scaling.
 
     Returns:
         list: Scaled sentiment scores as a list containing [neutral_points, positive_points, negative_points].
@@ -166,7 +189,7 @@ class SentimentAnalyser:
                   Returns None if an error occurs during analysis.
 
         Exceptions will result in the creation of BoundError object for later analysis, debugging
-        and improvements to the tokenisation and entity clustering logic.
+        and improvements to the tokenization and entity clustering logic.
         """
         try:
             warnings.filterwarnings("ignore",
@@ -201,6 +224,34 @@ class SentimentAnalyser:
     def process_clustered_entities(self, clustered_entities, sentence_bounds, article_text,
                                    database_id,
                                    debug):
+        """
+        Processes entities determined in article_processor.py by using get_bounds_sentiment
+        and caches results to avoid redundant computations (if coreference cluster was not
+        resolved to a single entity - there is no need to redo all the analysis as the result
+        would be identical).
+
+        Can also optionally highlight mentions for debugging.
+
+        Args:
+            clustered_entities (list of dict): Entities to process, including names, IDs, and cluster
+                                               information. Each entity's clustering info includes
+                                                positions (mention_start, mention_end) and a
+                                                cluster ID.
+            sentence_bounds (list of tuple): Start (sentence_start) and end (sentence_end)
+                                             positions of sentences in the article,
+                                             used to identify the context of each entity mention.
+            article_text (str): The full text of the article.
+            database_id (int): The database ID of the article.
+            debug (bool): Flag to enable debug outputs, including highlighted text to visually
+                          inspect the mention and its context.
+
+        Returns:
+            dict: A mapping from sentence boundaries to entities, and their sentiment analysis
+            results, where each key is a tuple (sentence_start, sentence_end), and each value is
+            a nested dictionary of entity names, their database IDs, and determined sentiment
+            scores.
+        """
+
         START_HIGHLIGHT = '\033[0m'
         END_HIGHLIGHT = '\033[94m'
         GREEN = '\033[92m'
@@ -292,6 +343,23 @@ class SentimentAnalyser:
 
     @staticmethod
     def average_sentiment_results(source_article_id, bounds_sentiment, article_text):
+        """
+        Compute average sentiment scores for entities based on their mentions (bounds_sentiment)
+        across an article.
+
+        Args:
+            source_article_id (int): The article these sentiment results concern.
+            article_text (str): The full text of the article.
+            bounds_sentiment (dict): A mapping from sentence boundaries to entities, and their
+            sentiment analysis results, where each key is a tuple (sentence_start, sentence_end),
+            and each value is a nested dictionary of entity names, their database IDs,
+            and determined sentiment scores.
+
+        Return:
+            Not a return as such - instead each bound sentiment is stored, then the overall
+            sentiment (average of sentiment scores w/ scaling) is determined (to get a headline
+            view for the web app) and stored.
+        """
         if bounds_sentiment is None:
             print("Error: bounds_sentiment is None")
             return

@@ -5,6 +5,28 @@ from bs4 import BeautifulSoup
 
 
 class Command(BaseCommand):
+    """
+    Identifies and deletes duplicate or very similar articles based on  Levenshtein distance
+    calculations of their headlines and author names. This command processes all articles in the
+    database, comparing each pair of articles to determine their similarity.
+
+    Articles are considered duplicates if their headlines and author names are similar within
+    defined thresholds. The command supports both automatic deletion (based on strict thresholds)
+    and manual review (based on more lenient thresholds) for identifying similar articles.
+
+    For strictly similar articles (under strict thresholds), the article with the higher ID is
+    automatically deleted. For articles that are similar under more lenient thresholds, the command
+    prompts for manual review to decide whether to delete the article with the higher ID.
+
+    The command uses BeautifulSoup to parse and clean the HTML content of article headlines before
+    comparison. Levenshtein distance is used to quantify the similarity between the cleaned headlines
+    and author names.
+
+    NB: This command was designed before the more complex ArticleStatistics and SimilarArticlePairs
+    solution was devised for handling article similarity. It serves as a legacy method for
+    managing duplicate articles.
+    """
+
     help = 'Delete duplicate/very similar articles automatically / via manual review'
 
     def handle(self, *args, **options):
@@ -21,7 +43,6 @@ class Command(BaseCommand):
                 soup = BeautifulSoup(html_content, 'html.parser')
                 article_2_headline = soup.get_text()
 
-                # Levenshtein distance
                 distance = Levenshtein.distance(article_1_headline,
                                                 article_2_headline)
 
@@ -49,12 +70,12 @@ class Command(BaseCommand):
                     print('Article with the higher ID will be deleted... ')
 
                     try:
-                            if article1.id > article2.id:
-                                article_to_delete = article1
-                            else:
-                                article_to_delete = article2
+                        if article1.id > article2.id:
+                            article_to_delete = article1
+                        else:
+                            article_to_delete = article2
 
-                            article_to_delete.delete()
+                        article_to_delete.delete()
                     except Exception:
                         print("Error Occurred")
 
@@ -80,12 +101,12 @@ class Command(BaseCommand):
                     print('Article with the higher ID will be deleted... ')
 
                     try:
-                            if article1.id > article2.id:
-                                article_to_delete = article1
-                            else:
-                                article_to_delete = article2
+                        if article1.id > article2.id:
+                            article_to_delete = article1
+                        else:
+                            article_to_delete = article2
 
-                            article_to_delete.delete()
+                        article_to_delete.delete()
                     except Exception:
                         print("Error Occurred")
 
@@ -118,8 +139,6 @@ class Command(BaseCommand):
                             article_to_delete.delete()
                     except:
                         print("Error Occurred")
-
-
 
         self.stdout.write(self.style.SUCCESS('Similar articles check complete'))
 

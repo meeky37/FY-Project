@@ -1,8 +1,8 @@
+from collections import defaultdict
+
 from django.core.exceptions import ObjectDoesNotExist
 from django.core.management.base import BaseCommand
 from django.db import transaction
-from collections import defaultdict
-
 from profiles_app.models import Entity, BoundMention, BingEntity, OverallSentiment
 
 from Django_App.prominent_profiles.profiles_app.models import EntityHistory
@@ -30,7 +30,7 @@ def clean_entity_name(entity_name):
     # Join the words back into the entity name
     cleaned_name = ' '.join(words)
 
-    # Capitalize the first letter of each word and make the rest lowercase
+    # Capitalise the first letter of each word and make the rest lowercase
     cleaned_name = ' '.join(word.capitalize() for word in words)
 
     # Remove spaces at the start and end of the string
@@ -41,10 +41,12 @@ def clean_entity_name(entity_name):
 class Command(BaseCommand):
     help = 'Merge entities with the same cleaned names'
 
-    """"Cleans and organises entities by their cleaned name.
-        Iterates over entities that match when cleaned.
-        Merges into master entity.
-        This *should* be a one-off as clean_entity_name functionality is in main job now"""
+    """
+    Cleans and organises entities by their cleaned name.
+    Iterates over entities that match when cleaned.
+    Merges into master entity.
+    This *should* be a one-off as clean_entity_name functionality is in main job now
+    """
 
     def handle(self, *args, **options):
         entities = Entity.objects.all()

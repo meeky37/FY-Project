@@ -1,10 +1,12 @@
 from django.db.models import F, Q, ExpressionWrapper, fields, Avg, StdDev, Max, Min
 from nlp_processor.models import SimilarArticlePair
 
-"""SimilarArticle pair determination is relatively expensive operation. Here calculate the date 
+"""
+SimilarArticle pair determination is relatively expensive operation. Here calculate the date 
 difference between article pairs and for those that meet the "Likely Duplicates" annotation 
 threshold calculate metrics to determine 3 days is more than enough window - Save huge amount of 
-time over checking the months of article pairs I have"""
+time over checking the months of article pairs I have.
+"""
 
 # Calculating the date difference between the article pairs
 date_diff = ExpressionWrapper(

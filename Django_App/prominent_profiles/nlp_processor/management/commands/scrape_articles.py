@@ -1,31 +1,46 @@
 import json
 import os
+import socket
+import time
+import urllib.request
 import urllib.robotparser
-import trafilatura
-import spacy
-from django.utils import timezone
-from tqdm import tqdm
-
-from django.core.management.base import BaseCommand
-from profiles_app.models import Article as ArticleModel
-from nlp_processor.models import ProcessedFile
-from nlp_processor.utils import DatabaseUtils
-from nlp_processor.bing_api import *
-from django.apps import apps
-from fastcoref import FCoref
-
-from ...article_processor import Article
-from django.conf import settings
-
 from urllib.parse import urlparse
 from urllib.robotparser import RobotFileParser
-import urllib.request
-import socket
 
-import time
+import spacy
+import trafilatura
+from django.conf import settings
+from django.core.management.base import BaseCommand
+from django.utils import timezone
+from fastcoref import FCoref
+from nlp_processor.bing_api import *
+from nlp_processor.models import ProcessedFile
+from nlp_processor.utils import DatabaseUtils
+from profiles_app.models import Article as ArticleModel
+
+from Django_App.prominent_profiles.nlp_processor.article_processor import Article
+
+"""This is a legacy django command designed to scrape articles, perform NLP analysis, 
+and populate the database with processed data. It is a reliatvely early version of article 
+processing that is more closely tied to the Jupyter Notebooks used to experiment and devise the
+logic for PP.
+
+It lacks the multithreading capability, has less error handling at various failure points, 
+uses hardcoded values, and its process for identifying / handling duplicate articles is overly 
+simplistic compared to the newer scrape_articles_concurrent.py - this file is retained for the 
+evolution of my project.
+"""
+
+
 def can_fetch_url(url_to_check):
-    """Determine if the URL can be fetched by all crawlers - adding politeness / adherence to
-        robot policy."""
+    """
+    Determine if an article URL can be fetched by all crawlers - adding politeness / adherence to
+    robot policy.
+
+    :param url_to_check:
+    :return: true or false depending on publisher urls policy
+    """
+
     # print("robo check started")
     parsed_url = urlparse(url_to_check)
     base_url = parsed_url.scheme + "://" + parsed_url.netloc
@@ -46,6 +61,27 @@ def can_fetch_url(url_to_check):
 
 
 def perform_coreference_resolution(article_texts, batch_size=100):
+    """
+    Performs coreference resolution on a batch of article texts using the FCoref model. This function
+    processes the provided texts to identify coreferences which is key to finding all
+    sentences/bounds of an entity and their alternative mentions.
+
+    e.g. ['Keir Starmer', 'Starmer', 'Keir Starmer', 'him', 'Sir Keir', 'the Labour leader',
+    'Keir Starmer (left)', 'him', 'the Labour leader', "Sir Keir Starmer's", 'Starmer', 'Sir Keir',
+     'the Labour leader', 'Keir', 'Sir Keir', 'Sir Keir']
+
+    :param article_texts: A list of strings, where each string is the text of an article on which
+                          coreference resolution is to be performed.
+
+    :param batch_size: An integer specifying the maximum number of tokens to process in a single batch.
+                       This helps manage memory usage and computational load, especially for large texts.
+
+    :return: A list of lists, where each sublist contains tuples of (text, positions, length) for each
+             cluster identified in the corresponding article text. The clusters are sorted by the length
+             of their text in descending order, later insignificant, small clusters will be
+             removed.
+    """
+    # Non-dynamic batch size fixed in scrape_articles_concurrent job.
     model = FCoref(device='mps')
 
     predictions = model.predict(texts=article_texts, max_tokens_in_batch=batch_size)
@@ -103,7 +139,6 @@ class Command(BaseCommand):
                     # print(metadata.date)
 
                     # Extract publication date
-
                     date_str = metadata.date
                     naive_datetime = datetime.strptime(date_str, '%Y-%m-%d')
 
@@ -167,6 +202,8 @@ class Command(BaseCommand):
         article_objects = []
 
         media_path = os.path.join(settings.ARTICLE_SCRAPER_MEDIA_ROOT, 'api_articles')
+
+        # Originally had to specify manual file paths.
 
         # file_name_1 = "keir+starmer_no_dup_articles_loop_17-11-2023-18:44.json"
         # media_path_1 = os.path.join(media_path, 'keir+starmer', file_name_1)
@@ -234,9 +271,9 @@ class Command(BaseCommand):
 
                     start_time = time.time()
                     article.entity_cluster_map_consolidation()
-                    print(f"Entity cluster map consolidation Time: {time.time() - start_time} seconds")
+                    print(
+                        f"Entity cluster map consolidation Time: {time.time() - start_time} seconds")
                     start_time = time.time()
-
 
                     if article.database_candidate:
                         article.save_to_database()
@@ -247,6 +284,10 @@ class Command(BaseCommand):
                                 entity_db_id = DatabaseUtils.insert_entity(entity_name,
                                                                            article.database_id)
                                 # print(entity_db_id)
+
+                                """This turned out to be a very quick way to hit my free 1000 bing 
+                                api quota! Visible Entity Bing in bing_api.py replaced this 
+                                approach."""
 
                                 # if not entity_db_id_exists_in_bing(entity_db_id):
                                 #     bing_entity_info = get_bing_entity_info(entity_name)
@@ -284,6 +325,6 @@ class Command(BaseCommand):
                         print("Article already exists in the database")
                     article.reset_attributes()
 
-                    # Update the ProcessedFile object to mark it as processed
+                # Update the ProcessedFile object to mark it as processed
                 file.nlp_applied = True
                 file.save()

@@ -1,9 +1,26 @@
+"""
+Models declared here are closely related for the nlp processor app use - i.e. they won't be
+displayed in the front end app unlike Article, Entity etc. which are used across the django app
+but are placed in profiles app as they are more tightly associated with the frontend user.
+
+This module handles the tracking of bing api article JSON files, bound errors, plus article
+statistics and their respective comparisons.
+"""
+
 import os
 from django.db import models
 from django.conf import settings
 from profiles_app.models import Article
 
+
 class ArticleStatistics(models.Model):
+    """
+    Stores detailed linguistic and statistical analysis results for articles. This includes metrics
+    like word count, term count, various diversity indices (e.g., VOCD, Yule's K), and specific word
+    frequencies.
+    Each instance is linked to a unique Article model instance.
+    Contents used by SimilarArticlePair to calculate % differences.
+    """
     article = models.OneToOneField(Article, on_delete=models.CASCADE, primary_key=True)
 
     fuzzy_hash = models.CharField(max_length=128, null=True)
@@ -24,6 +41,13 @@ class ArticleStatistics(models.Model):
 
 
 class SimilarArticlePair(models.Model):
+    """
+    Represents a pair of articles and quantifies their similarity based on various metrics,
+    including hash similarity scores and differences in linguistic statistics (e.g., word count,
+    term diversity).
+    Useful for identifying potentially duplicate or closely related articles to reject their
+    processing.
+    """
     article1 = models.ForeignKey(ArticleStatistics, related_name='article1',
                                  on_delete=models.CASCADE)
     article2 = models.ForeignKey(ArticleStatistics, related_name='article2',
@@ -62,6 +86,12 @@ class SimilarArticlePair(models.Model):
 
 
 class ProcessedFile(models.Model):
+    """
+    Tracks bing news api files processed for NLP analysis.
+    Contains metadata such as the search term used to acquire the file, the file name, the path
+    to the file, and whether NLP analysis has successfully been applied - allowing recovery from
+    failure without skipping articles.
+    """
     search_term = models.CharField(max_length=255)
     file_name = models.CharField(max_length=255)
     media_path = models.CharField(max_length=255)
@@ -72,6 +102,11 @@ class ProcessedFile(models.Model):
 
 
 class BoundError(models.Model):
+    """
+    Bound error used for NewsSentiment exceptions to identify tokenization improvements,
+    poor extraction, etc.
+    These records can be used to improve pre-processing steps in article_processor.py
+    """
     article = models.ForeignKey(Article, on_delete=models.CASCADE, null=True, blank=True,
                                 default=None)
     bound_start = models.IntegerField()

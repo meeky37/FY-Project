@@ -1,10 +1,40 @@
+"""For storage and legal/publisher terms of service considerations Prominent Profiles does not
+store full article texts. The intention was always to provide traffic to the site directly;
+PP is an innovative News Discovery tool rather than a news article reader. However, duplicates were
+commonplace and create an unprofessional look as well as costing expensive resource time running
+NewsSentiment on sentences it has seen EXACTLY before! This module provides a solution in the
+form of article statistics determination and analysis and stores these stats OneToOne for an
+article in the database
+
+Key Features:
+- Statistics calculation using fuzzy hash, and linguistic statistics to help fingerprint articles.
+- Create (or update) ArticleStatistics (One to one w/ Article) in the database.
+- Compute percentage differences so thresholding can be used across PP processes.
+"""
+
 import nltk
 import ppdeep
 from lexicalrichness import LexicalRichness
+
 from .models import ArticleStatistics
 
 
 def calculate_statistics(text_body):
+    """
+    Calculates various linguistic statistics and a fuzzy hash for a given text body.
+
+    This function computes word count, terms count, TTR (Type-Token Ratio) metrics like VOCD,
+    Yule's K, and Simpson's D, along with counts of common stop words within the text. These
+    statistics were chosen based on MINIMAL % difference between duplicate (or near-duplicate
+    articles) articles, and MAXIMAL % difference between different articles.
+
+    It uses NLTK for tokenization and lexical richness calculations, and ppdeep for fuzzy hashing
+    (the primary indicator of duplication in PP business logic).
+
+    :param text_body: The text content for which to calculate statistics.
+    :return: dict: A dictionary containing the calculated linguistic statistics and fuzzy hash of the text.
+    """
+
     try:
         nltk.data.find('tokenizers/punkt')
     except LookupError:
@@ -42,6 +72,16 @@ def calculate_statistics(text_body):
 
 
 def create_update_stats(article_model, linguistic_stats):
+    """
+    Updates or creates an ArticleStatistics model instance with the provided linguistic statistics.
+    Updates would typically be in the case of an interrupted article processing celery job.
+    Exceptions handled, printing error messages in case of failure.
+
+    :param article_model: The Django model instance of the article for which statistics are being updated or created.
+    :param linguistic_stats: A dictionary of linguistic statistics to be saved or updated in the ArticleStatistics model.
+    :return:
+    """
+
     try:
         stats_model, created = ArticleStatistics.objects.update_or_create(
             article=article_model,
@@ -74,6 +114,11 @@ def create_update_stats(article_model, linguistic_stats):
 
 
 def calculate_percentage_difference(value1, value2):
+    """
+    :param value1:
+    :param value2:
+    :return: float or none
+    """
     if value1 is not None and value2 is not None and max(value1, value2) != 0:
         return abs((value1 - value2) / max(value1, value2)) * 100
     elif value1 is not None or value2 is not None:
@@ -83,6 +128,13 @@ def calculate_percentage_difference(value1, value2):
 
 
 def calculate_all_percentage_differences(pair):
+    """
+    For each statistical metric this calculates the percentage difference between two articles
+    represented by a pair object. It updates the pair object with these calculated differences and
+    an average count difference, then saves the changes.
+    :param pair:
+    :return:
+    """
     stat1 = pair.article1
     stat2 = pair.article2
     pair.words_diff = calculate_percentage_difference(stat1.word_count, stat2.word_count)

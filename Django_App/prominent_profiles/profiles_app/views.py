@@ -7,9 +7,17 @@ from rest_framework_simplejwt.authentication import JWTAuthentication
 from .models import Entity, BingEntity, OverallSentiment
 from nlp_processor.models import SimilarArticlePair
 from django.http import Http404
+from datetime import timedelta
 
+from django.http import Http404
+from django.shortcuts import get_object_or_404
+from django.views import View
+from nlp_processor.models import SimilarArticlePair
+from rest_framework.views import APIView
+from rest_framework_simplejwt.authentication import JWTAuthentication
 
-# TODO: Remove unneeded attributes from JSON views.
+from .models import Entity, BingEntity, OverallSentiment
+
 
 class VisibleEntitiesView(View):
     def get(self, request, *args, **kwargs):
@@ -41,9 +49,6 @@ class BingEntityDetailView(View):
         return JsonResponse(serialized_entity, safe=False)
 
 
-
-
-
 class BingEntityMiniView(View):
     def get(self, request, *args, **kwargs):
         entity_id = kwargs.get('entity_id')
@@ -73,7 +78,6 @@ class BingEntityMiniView(View):
             return JsonResponse({'error': 'Entity not found'}, status=404)
 
 
-# TODO EXP and LINEAR could become one function with parameter true/false
 class OverallSentimentExp(APIView):
     authentication_classes = [JWTAuthentication]
 
@@ -90,6 +94,11 @@ class OverallSentimentExp(APIView):
         # Apply user-specific filtering if the dashboard flag is true and the user is authenticated
         if dashboard and user.is_authenticated:
             last_visit = user.last_visit_excluding_today or timezone.now()
+
+            # last_visit = timezone.make_aware(
+            #     datetime.datetime.combine(last_visit.date(), datetime.time.min),
+            #     timezone.get_default_timezone())
+
             overall_sentiments = overall_sentiments.filter(article__publication_date__gt=last_visit)
             # overall_sentiments = overall_sentiments.filter(article__date_added__gt=last_visit)
 
@@ -302,7 +311,7 @@ def create_entity_view(request, entity_id):
 
 from django.utils import timezone
 from django.http import JsonResponse
-from django.db.models import Sum, Count, Q, F
+from django.db.models import Count, Q, F
 from .models import EntityView
 
 

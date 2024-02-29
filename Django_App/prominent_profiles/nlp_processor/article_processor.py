@@ -5,7 +5,7 @@ Designed to process and analyse articles, extracting key entities (classed as PE
 identifying the positions of all their mentions, including coreferences, with efforts
 to work towards a single FIRST LAST name for each person mentioned in the text. 
 Those consolidated entity/coref clusters that meet the threshold can then be processed
-by the SentimentAnalyser class and its methods.
+by the SentimentAnalyser class (see sentiment_resolver.py) and its methods.
 
 Key Features:
 - Entity Recognition: Identifies named entities in the text.
@@ -84,28 +84,27 @@ class Article:
         self.source_file = source_file
 
     def set_sentiment_analyser(self, sa):
-
         """
-            Sets the sentiment analyser for the article object. In the context of a Django job where
-            declaring a sentiment analyser class is expensive due to the initialisation of 
-            `TargetSentimentClassifier` with PyTorch, this method aims to optimise memory 
-            usage and performance.
+        Sets the sentiment analyser for the article object. In the context of a Django job where
+        declaring a sentiment analyser class is expensive due to the initialisation of
+        `TargetSentimentClassifier` with PyTorch, this method aims to optimise memory
+        usage and performance.
 
-            Previously, each article object instantiated its own sentiment analyser, leading to high
-            memory consumption and extra delay for each first-time NewsSentiment use. 
-            
-            This method allows for the reuse of a sentiment analyser instance.
+        Previously, each article object instantiated its own sentiment analyser, leading to high
+        memory consumption and extra delay for each first-time NewsSentiment use.
 
-            If `sa` (sentiment analyser) is `None`, a new `SentimentAnalyser` instance is created
-            and assigned.
-            Otherwise, the provided `sa` instance is assigned directly.
+        This method allows for the reuse of a sentiment analyser instance.
 
-            Args:
-                sa (SentimentAnalyser or None): The sentiment analyser instance to be set. 
-                If None, a new SentimentAnalyser instance will be created.
+        If `sa` (sentiment analyser) is `None`, a new `SentimentAnalyser` instance is created
+        and assigned.
+        Otherwise, the provided `sa` instance is assigned directly.
 
-            Returns:
-                None
+        Args:
+            sa (SentimentAnalyser or None): The sentiment analyser instance to be set.
+            If None, a new SentimentAnalyser instance will be created.
+
+        Returns:
+            None
         """
         if sa is None:
             self.sentiment_analyser = SentimentAnalyser()
@@ -268,7 +267,7 @@ class Article:
 
         """
         Process the article text, tokenise by sentence and add custom adjustments to the
-        tokenisation using insert intervals below.
+        tokenization using insert intervals below.
         spaCy was not satisfactory for accurately tokenising for sentence start / end
         characters. 
         I used TextBlob instead: a Python library for processing textual
@@ -288,7 +287,7 @@ class Article:
         blob = TextBlob(article_text)
         sentences = blob.sentences
 
-        # Determine custom tokenisation:
+        # Determine custom tokenization:
         # In testing article a new line and '-' hyphen use typically means consider
         # a different sentence (e.g Daily Mail articles).
         hyphen_nl_pos = [pos for pos, char in enumerate(article_text) if
@@ -443,9 +442,9 @@ class Article:
                                 entity_2_name = entry2['Entity Name']
                                 # Check if an entity name is a substring of another.
                                 if entity_1_name in entity_2_name or entity_2_name in entity_1_name:
-                                    print('cross cluster merge triggered!')
-                                    print(entity_1_name)
-                                    print(entity_2_name)
+                                    # print('cross cluster merge triggered!')
+                                    # print(entity_1_name)
+                                    # print(entity_2_name)
                                     
                                     # Combine cluster IDs with '0000' in between as a combination flag.
                                     combined_cluster_id = (
@@ -655,7 +654,7 @@ class Article:
     def check_similarity(self):
         """
         Checks for similarity by comparing the current article with other recently published
-        articles in terms of fuzzy hashing, and percentage differences in lingustic features. 
+        articles in terms of fuzzy hashing, and percentage differences in linguistic features.
         
         It also checks for the existence of similar article pairs - which was useful
         for running on my existing database before this was incorporated into the 
