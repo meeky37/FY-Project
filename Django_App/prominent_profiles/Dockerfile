@@ -24,5 +24,5 @@ COPY --from=builder /usr/src/app/wheels /wheels
 COPY --from=builder /app/requirements.txt .
 # Install the pre-compiled wheels without needing build dependencies
 RUN pip install --upgrade pip && pip install --no-cache /wheels/* \
-    && pip install newssentiment==1.1.25 --no-deps
+    && pip install newssentiment==1.1.28 --no-deps
 COPY . .
