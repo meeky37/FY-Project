@@ -24,7 +24,7 @@ class ProcessedFileAdmin(admin.ModelAdmin):
 
     set_nlp_applied_true.short_description = "Set NLP Applied to TRUE for selected items"
 
-    actions = [set_nlp_applied_false]
+    actions = [set_nlp_applied_false, set_nlp_applied_true]
 
 
 class DuplicatePrediction(admin.SimpleListFilter):
