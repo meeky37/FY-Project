@@ -1,3 +1,15 @@
+"""
+Key Module Functionality:
+ - Defines URL patterns for basic authentication views like login and logout.
+ - JWT token endpoints for obtaining, refreshing, and verifying authentication tokens.
+ - Custom views for user registration, subscription management, and user data retrieval.
+ - Uses Django's built-in views for password reset functionality.
+ - Includes a custom password reset view (https://pypi.org/project/django-rest-passwordreset/) for Vue app.
+ - Integrates Django Rest Password Reset URLs for API-based password reset operations.
+
+Further comments for each view are in accounts/views.py.
+"""
+
 from django.urls import path, include
 from django.contrib.auth.views import (LoginView, LogoutView, PasswordResetView,
                                        PasswordResetDoneView, PasswordResetConfirmView,

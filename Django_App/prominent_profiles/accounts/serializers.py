@@ -3,6 +3,10 @@ from .models import CustomUser
 
 
 class CustomUserSerializer(serializers.ModelSerializer):
+    """
+    This serializer enforces the uniqueness check beyond the standard django 'email' check.
+    Create overrides django defaults to create a CustomUser as defined in accounts/models.py
+    """
     date_of_birth = serializers.DateField()
 
     def validate_phone_number(self, value):

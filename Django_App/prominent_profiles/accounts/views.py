@@ -17,8 +17,9 @@ from profiles_app.models import Entity
 @api_view(['POST'])
 @permission_classes([AllowAny])
 def register_user(request):
-    """Registers a user provided they email is unique"""
-    # TODO: Extend to phone number?
+    """
+    Registers a user provided their email and phone is unique (check is in serializer).
+    """
     data = request.data
     serializer = CustomUserSerializer(data=data)
     if serializer.is_valid():
@@ -47,8 +48,10 @@ def register_user(request):
 @api_view(['POST'])
 @permission_classes([AllowAny])
 def custom_login(request):
-    """Handles a login case of email or phone number.
-       The '@' should be suitable as validation in VueJS covers this holistically beforehand"""
+    """
+    Handles a login case of email or phone number.
+    The '@' should be suitable as validation in VueJS covers this holistically beforehand.
+    """
 
     input_data = request.data
     user_input = input_data.get('input')
@@ -75,7 +78,9 @@ def custom_login(request):
 @permission_classes([IsAuthenticated])
 @authentication_classes([JWTAuthentication])
 def get_user_data(request):
-    """Obtains info for personal dashboard welcome"""
+    """
+    Obtains first name for a personal dashboard welcome.
+    """
     user = request.user
     print(user)
     user_data = {
@@ -89,7 +94,9 @@ def get_user_data(request):
 @permission_classes([IsAuthenticated])
 @authentication_classes([JWTAuthentication])
 def toggle_sub(request, entity_id):
-    """Processes a users request to (un-)subscribe"""
+    """
+    Processes a users request to (un-)subscribe
+    """
     user = request.user
     print(user)
 
@@ -112,7 +119,9 @@ def toggle_sub(request, entity_id):
 @permission_classes([IsAuthenticated])
 @authentication_classes([JWTAuthentication])
 def get_sub_status(request, entity_id):
-    """Identifies if a user is subscribed to the entity they are viewing in frontend"""
+    """
+    Identifies if a user is subscribed to the entity they are viewing in frontend
+    """
     sub = Subscription.objects.filter(user=request.user, entity=entity_id).first()
     status = True if sub else False
     return JsonResponse({'status': status})
@@ -122,7 +131,9 @@ def get_sub_status(request, entity_id):
 @permission_classes([IsAuthenticated])
 @authentication_classes([JWTAuthentication])
 def get_sub_list(request):
-    """Gets a list of every entity a user is subscribed to for the dashboard page"""
+    """
+    Gets a list of every entity a user is subscribed to for the dashboard page
+    """
     if not request.user.is_authenticated:
         return JsonResponse({'error': 'User not authenticated'})
 
@@ -135,5 +146,8 @@ def get_sub_list(request):
 
 
 class CustomPasswordResetView(PasswordResetView):
+    """
+    Provides templates for password reset emails - so generic isn't used / more personalised.
+    """
     email_template_name = 'password_reset_email.txt'
     html_email_template_name = 'password_reset_email.html'

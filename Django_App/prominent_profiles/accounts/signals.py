@@ -1,4 +1,6 @@
-"""Code here is adapted from https://pypi.org/project/django-rest-passwordreset/"""
+"""
+Code here is adapted from https://pypi.org/project/django-rest-passwordreset/
+"""
 
 from django.core.mail import EmailMultiAlternatives
 from django.dispatch import receiver

@@ -1,3 +1,11 @@
+"""
+Key Module Functionality:
+Defines key URL patterns for Vue app to get entity, trending entities, bing entities, and overall
+sentiments views from the database.
+
+Further comments for each view are in profiles_app/views.py.
+"""
+
 from django.urls import path
 from .views import (VisibleEntitiesView, BingEntityDetailView,
                     BingEntityMiniView, OverallSentimentExp,
