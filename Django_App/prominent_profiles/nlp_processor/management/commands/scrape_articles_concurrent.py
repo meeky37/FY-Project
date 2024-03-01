@@ -16,6 +16,7 @@ import trafilatura
 from django.core.mail import send_mail
 from django.core.management.base import BaseCommand
 from django.utils import timezone
+from django.conf import settings
 from fastcoref import FCoref
 from nlp_processor.bing_api import *
 from nlp_processor.models import ProcessedFile
@@ -25,6 +26,8 @@ from profiles_app.models import Article as ArticleModel
 from ...article_processor import Article
 from ...constants import ARTICLE_CHUNK_SIZE, ARTICLE_BATCH_SIZE, ARTICLE_THREADS, F_COREF_DEVICE
 from ...sentiment_resolver import SentimentAnalyser
+
+
 
 
 # Memory Profiling to establish resource requirements, make improvements like deleting article

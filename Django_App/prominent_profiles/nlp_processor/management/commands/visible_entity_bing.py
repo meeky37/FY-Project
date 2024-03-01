@@ -10,9 +10,11 @@ def get_wikipedia_image_url(wiki_url):
     extracts the page title from the provided Wikipedia URL, queries the Wikipedia API for
     page images, and gets main image_url.
 
-    :param wiki_url: A string containing the full URL of the Wikipedia page from which to fetch the main image.
+    :param wiki_url: A string containing the full URL of the Wikipedia page from which to fetch the
+                     main image.
 
-    :return: A string containing the URL of the main image on the Wikipedia page, or None if the image cannot be fetched.
+    :return: A string containing the URL of the main image on the Wikipedia page, or None if the
+             image cannot be fetched.
     """
     session = requests.Session()
     url = "https://en.wikipedia.org/w/api.php"

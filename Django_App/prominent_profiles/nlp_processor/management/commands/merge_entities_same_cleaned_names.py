@@ -9,10 +9,10 @@ from Django_App.prominent_profiles.profiles_app.models import EntityHistory
 
 
 def clean_entity_name(entity_name):
-
-    """This is the process that has now been adopted as of 20th Jan into the main pipeline but I
-    want to resolve these issues on the current database"""
-
+    """
+    This is the improved clean entity process that has now been adopted as of 20th Jan into the
+    main pipeline, but I wanted to resolve these issues on the current database.
+    """
 
     # Replaces left / right quotation mark with standard single quotation mark
     entity_name = entity_name.replace('’', "'").replace('‘', "'")
@@ -37,6 +37,7 @@ def clean_entity_name(entity_name):
     cleaned_name = cleaned_name.strip()
 
     return cleaned_name
+
 
 class Command(BaseCommand):
     help = 'Merge entities with the same cleaned names'
@@ -67,8 +68,6 @@ class Command(BaseCommand):
                 for i in range(len(entity_list)):
                     for j in range(i + 1, len(entity_list)):
 
-
-
                         master_entity = entity_list[i]
                         secondary_entity = entity_list[j]
 
@@ -91,7 +90,8 @@ class Command(BaseCommand):
                                     BingEntity.objects.filter(entity=secondary_entity).update(
                                         entity=master_entity)
 
-                                if EntityHistory.objects.filter(merged_into=secondary_entity).exists():
+                                if EntityHistory.objects.filter(
+                                        merged_into=secondary_entity).exists():
                                     EntityHistory.objects.filter(
                                         merged_into=secondary_entity).update(
                                         merged_into=master_entity)
@@ -108,14 +108,12 @@ class Command(BaseCommand):
                                     secondary_entity.delete()
 
                                 self.stdout.write(self.style.SUCCESS(
-                                    f"Entities {master_entity.name} and {secondary_entity.name} merged successfully."))
+                                    f"Entities {master_entity.name} and {secondary_entity.name} "
+                                    f"merged successfully."))
 
                             except ObjectDoesNotExist as e:
                                 self.stdout.write(self.style.WARNING(
                                     f"Skipping merge for {master_entity.name} and {secondary_entity.name}: {e}"))
-
-
-
 
 #  Example Runs...
 
