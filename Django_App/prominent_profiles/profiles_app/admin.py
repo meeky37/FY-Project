@@ -74,7 +74,7 @@ class EntityInline(admin.TabularInline):
 
 @admin.register(Article)
 class ArticleAdmin(admin.ModelAdmin):
-    list_display = ('id', 'processed', 'similar_rejection', 'headline', 'url', 'image_url',
+    list_display = ('id', 'processed', 'similar_rejection', 'headline',
                     'date_added', 'publication_date', 'site_name', 'author', 'source_file')
     readonly_fields = (
         'headline', 'url', 'image_url', 'publication_date', 'author', 'site_name',
@@ -226,9 +226,11 @@ class EntityAdmin(admin.ModelAdmin):
         return custom_urls + urls
 
     def merge_review(self, request):
-        """Collect entity pairings to be ignored, all entities in database, set a moderate
+        """
+        Collect entity pairings to be ignored, all entities in database, set a moderate
         threshold then process using get_similar_entities.
-        Sort in alphabetical order for user display"""
+        Sort in alphabetical order for user display
+        """
         ignore_entity_pairs = IgnoreEntitySimilarity.objects.all()
         entities = Entity.objects.all()
         threshold = 78
@@ -238,7 +240,8 @@ class EntityAdmin(admin.ModelAdmin):
 
     def merge_review_app_visible_only(self, request):
         """As above but also obtains app_visible = True entities to provide similar_entities with a
-        smaller pool of fuzzy match comparisons to make"""
+        smaller pool of fuzzy match comparisons to make
+        The threshold is set lower as there will be less entries to overwhelm the user"""
         ignore_entity_pairs = IgnoreEntitySimilarity.objects.all()
         entities = Entity.objects.all()
         app_visible_entities = Entity.objects.filter(app_visible=True)
