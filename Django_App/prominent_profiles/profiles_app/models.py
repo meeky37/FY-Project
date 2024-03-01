@@ -3,6 +3,13 @@ from django.db import models
 
 
 class Article(models.Model):
+    """
+    Represents an article collected from various sources with metadata including its headline,
+    URL, publication details, and processing status.
+    NLP Job success can be inferred from this model as an article should always be marked
+    processed (i.e. it went through article_processor.py) or a similar reject as a
+    SimilarEntityPair was created during the job.
+    """
     headline = models.CharField(max_length=255, null=True)
     url = models.CharField(max_length=500, unique=True)
     image_url = models.CharField(max_length=500, null=True, blank=True)
@@ -17,6 +24,11 @@ class Article(models.Model):
 
 
 class Entity(models.Model):
+    """
+    Represents an entity identified within articles, with a visibility flag and article count to
+    help admins to make visibility decisions.
+    These are the 'Profiles' at the core of the 'Prominent Profiles' web app.
+    """
     source_article = models.ForeignKey(Article, on_delete=models.CASCADE)
     name = models.CharField(max_length=100)
     type = models.CharField(max_length=50, null=True, blank=True)
@@ -26,10 +38,20 @@ class Entity(models.Model):
 
     @property
     def article_count(self):
+        """
+        Property to compute the number of articles associated with this entity via the
+        OverallSentiment model.
+
+        :return: (int) The count of articles associated with this entity.
+        """
         return OverallSentiment.objects.filter(entity=self).count()
 
 
 class IgnoreEntitySimilarity(models.Model):
+    """
+    Defines a relationship to explicitly ignore the similarity between two entities, so they are
+    not suggested by the admins' Merge Review page as candidates for a merge.
+    """
     entity_a = models.ForeignKey('Entity', related_name='ignore_relationships_a',
                                  on_delete=models.CASCADE)
     entity_b = models.ForeignKey('Entity', related_name='ignore_relationships_b',
@@ -39,10 +61,18 @@ class IgnoreEntitySimilarity(models.Model):
         unique_together = ('entity_a', 'entity_b')
 
     def __str__(self):
+        """
+        String representation of the ignore similarity relationship between two entities.
+        Quicker, more logical representation than the default Django approach.
+        """
         return f"Ignore Relationship: '{self.entity_a.name}' <-> '{self.entity_b.name}'"
 
 
 class EntityHistory(models.Model):
+    """
+    Logs the history of entity modifications, specifically tracking entity merges as well as the
+    admin user account that made the change for accountability purposes.
+    """
     name = models.CharField(max_length=255)
     merged_into = models.ForeignKey('Entity', on_delete=models.SET_NULL, null=True, blank=True)
     timestamp = models.DateTimeField(auto_now_add=True)
@@ -50,6 +80,10 @@ class EntityHistory(models.Model):
                              blank=True)
 
     def __str__(self):
+        """
+        Overrides the default django admin representation with a more logical <- to show the
+        change made.
+        """
         if self.merged_into is not None:
             return f'Merge Log: {self.merged_into.name} <- {self.name}'
         else:
@@ -57,7 +91,12 @@ class EntityHistory(models.Model):
             return f'Merge Log: No merge information available for {self.name}'
 
 
-class SimilarEntityPairs(models.Model):
+class SimilarEntityPair(models.Model):
+    """
+    Represents a pair of entities with a calculated similarity score, useful for identifying
+    potentially related entities. Previously, these were not stored in the database and made for
+    an unresponsive admin user experience.
+    """
     entity_a = models.ForeignKey(Entity, related_name='similarity_pair_a', on_delete=models.CASCADE)
     entity_b = models.ForeignKey(Entity, related_name='similarity_pair_b', on_delete=models.CASCADE)
     similarity_score = models.FloatField()
@@ -74,12 +113,21 @@ class SimilarEntityPairs(models.Model):
 
 
 class EntityView(models.Model):
+    """
+    Tracks views of entities, logging each view with a date and time stamp for the
+    TrendingEntityCards on the apps home page www.prominentprofiles.com
+    """
     entity = models.ForeignKey(Entity, on_delete=models.CASCADE)
     view_dt = models.DateField(auto_now_add=True)
     view_time = models.TimeField(auto_now_add=True)
 
 
 class BingEntity(models.Model):
+    """
+    Stores info gathered from bing entity for display on front-end to enrich the UX.
+    Additionally, contractual rules and dates are kept to fairly attribute photos and
+    descriptions shown.
+    """
     entity = models.ForeignKey(Entity, on_delete=models.CASCADE)
     name = models.CharField(max_length=255)
     description = models.TextField()
@@ -94,6 +142,10 @@ class BingEntity(models.Model):
 
 
 class BoundMention(models.Model):
+    """
+    Represents a specific mention of an entity within an article
+    including its textual context (typically a sentence) and average NewsSentiment scores.
+    """
     article = models.ForeignKey(Article, on_delete=models.CASCADE)
     entity = models.ForeignKey(Entity, on_delete=models.CASCADE)
     bound_start = models.IntegerField()
@@ -105,6 +157,10 @@ class BoundMention(models.Model):
 
 
 class OverallSentiment(models.Model):
+    """
+    Represents the results of aggregating and scaling bound mentions of an entity across an
+    article text to provide a holistic/summative view for web app users.
+    """
     article = models.ForeignKey(Article, on_delete=models.CASCADE)
     entity = models.ForeignKey(Entity, on_delete=models.CASCADE)
     num_bound = models.IntegerField()

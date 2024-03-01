@@ -1,25 +1,24 @@
 from datetime import timedelta
-from django.shortcuts import get_object_or_404
-from django.views import View
-from rest_framework.views import APIView
-from rest_framework_simplejwt.authentication import JWTAuthentication
 
-from .models import Entity, BingEntity, OverallSentiment
-from nlp_processor.models import SimilarArticlePair
+from django.db.models import Count, Q, F
 from django.http import Http404
-from datetime import timedelta
-
-from django.http import Http404
+from django.http import JsonResponse
 from django.shortcuts import get_object_or_404
+from django.utils import timezone
 from django.views import View
 from nlp_processor.models import SimilarArticlePair
 from rest_framework.views import APIView
 from rest_framework_simplejwt.authentication import JWTAuthentication
 
 from .models import Entity, BingEntity, OverallSentiment
+from .models import EntityView
 
 
 class VisibleEntitiesView(View):
+    """
+    Fetches and returns a list of all entities marked as visible by admins.
+    This determines what entities are selectable in the front end.
+    """
     def get(self, request, *args, **kwargs):
         visible_entities = Entity.objects.filter(app_visible=True).order_by('name')
         serialized_entities = [
@@ -30,6 +29,10 @@ class VisibleEntitiesView(View):
 
 
 class BingEntityDetailView(View):
+    """
+    Provides the full view of entities complimenting details obtained from bing, for more
+    detailed pages e.g. the EntityPage.vue
+    """
     def get(self, request, *args, **kwargs):
         entity_id = kwargs.get('entity_id')
         bing_entity = get_object_or_404(BingEntity, entity=entity_id)
@@ -49,7 +52,11 @@ class BingEntityDetailView(View):
         return JsonResponse(serialized_entity, safe=False)
 
 
-class BingEntityMiniView(View):
+class BingEntityMiniView(View)
+    """
+    Provides a minimal view of a entities complementing details obtained from bing, primarily for 
+    quick lookups, faster page loading.
+    """
     def get(self, request, *args, **kwargs):
         entity_id = kwargs.get('entity_id')
 
@@ -79,6 +86,10 @@ class BingEntityMiniView(View):
 
 
 class OverallSentimentExp(APIView):
+    """
+    Retrieves exponential scaled sentiment scores for a specific entity.
+    Optional dashboard-specific filtering for authenticated users SubscriptionCards in Vue.
+    """
     authentication_classes = [JWTAuthentication]
 
     def get(self, request, *args, **kwargs):
@@ -97,7 +108,8 @@ class OverallSentimentExp(APIView):
 
             # last_visit = timezone.make_aware(
             #     datetime.datetime.combine(last_visit.date(), datetime.time.min),
-            #     timezone.get_default_timezone())
+            #     timezone.get_default_timezone()) - considered rounding down because I wasn't
+            #     seeing many articles
 
             overall_sentiments = overall_sentiments.filter(article__publication_date__gt=last_visit)
             # overall_sentiments = overall_sentiments.filter(article__date_added__gt=last_visit)
@@ -166,6 +178,10 @@ class OverallSentimentExp(APIView):
 
 
 class OverallSentimentLinear(View):
+    """
+    Retrieves linear scaled sentiment scores for a specific entity.
+    Optional dashboard-specific filtering for authenticated users SubscriptionCards in Vue.
+    """
     authentication_classes = [JWTAuthentication]
 
     def get(self, request, *args, **kwargs):
@@ -239,6 +255,9 @@ class OverallSentimentLinear(View):
 
 
 class ArticleOverallSentimentExp(View):
+    """
+    Gets exponential sentiment analysis results for all entities mentioned in a specific article.
+    """
     def get(self, request, *args, **kwargs):
         article_id = kwargs.get('article_id')
         entity_id = kwargs.get('entity_id')
@@ -251,7 +270,7 @@ class ArticleOverallSentimentExp(View):
             return JsonResponse({'error': 'No OverallSentiment found for the given article_id'},
                                 status=404)
 
-        # Sort the queryset to prioritize the entry id provided for article detail for that
+        # Sort the queryset to prioritise the entry id provided for article detail for that
         # click-thru.
         overall_sentiments = sorted(
             overall_sentiments,
@@ -281,6 +300,9 @@ class ArticleOverallSentimentExp(View):
 
 # Simple entity request (fall back for bing)
 def entity_name(request, entity_id):
+    """
+    Returns the name of an entity from provided ID, or an error message if not found.
+    """
     try:
         entity = Entity.objects.get(pk=entity_id)
         name = entity.name
@@ -291,6 +313,9 @@ def entity_name(request, entity_id):
 
 # Using for trending profiles front page
 def increment_view_count(request, entity_id):
+    """
+    This logic is no used - entity view table (for date/time support) instead below.
+    """
     entity = get_object_or_404(Entity, id=entity_id)
     entity.view_count += 1
     entity.save()
@@ -298,6 +323,9 @@ def increment_view_count(request, entity_id):
 
 
 def create_entity_view(request, entity_id):
+    """
+    Entity views by users (including anonymous) on vue app are logged by requests to this view.
+    """
     entity = get_object_or_404(Entity, pk=entity_id)
 
     EntityView.objects.create(
@@ -309,13 +337,12 @@ def create_entity_view(request, entity_id):
     return JsonResponse({'status': 'success', 'message': 'EntityView record created successfully'})
 
 
-from django.utils import timezone
-from django.http import JsonResponse
-from django.db.models import Count, Q, F
-from .models import EntityView
-
-
 def get_trending_entities(request):
+    """
+    Identifies and returns trending entities (for web app homepage) based on view counts over
+    gradually increasing time ranges until a clear top 6 entities is determined.
+    """
+
     # Time ranges 1, 3 and 5 days for trending entities homepage
     time_ranges = [24, 72, 120]
 
@@ -332,7 +359,7 @@ def get_trending_entities(request):
         # Check if there are clear top 6 entities
         if len(top_entities) > 6:
             if top_entities[5]['total_views'] > top_entities[6]['total_views']:
-                break  # Found clear top 3 entities
+                break  # Found clear top 6 entities
 
     # If no clear top 6, just return those 6 entities (we tried 3 time periods so this shouldn't
     # occur much)

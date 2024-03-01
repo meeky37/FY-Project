@@ -10,10 +10,14 @@ from rapidfuzz import fuzz
 from django.http import HttpResponse
 
 from .models import Article, BoundMention, OverallSentiment, BingEntity, EntityView, \
-    IgnoreEntitySimilarity, Entity, EntityHistory, SimilarEntityPairs
+    IgnoreEntitySimilarity, Entity, EntityHistory, SimilarEntityPair
 
 
 class BoundMentionInline(admin.TabularInline):
+    """
+    Inline table displays and allows the read-only interaction with BoundMention instances
+    directly from the Article admin page.
+    """
     model = BoundMention
     fields = ('entity', 'name_display', 'bound_start', 'bound_end', 'avg_neutral', 'avg_positive',
               'avg_negative', 'bound_text')
@@ -29,6 +33,11 @@ class BoundMentionInline(admin.TabularInline):
 
 
 class OverallSentimentInlineForArticle(admin.TabularInline):
+    """
+    Inline table displays and allows the read-only interaction with OverallSentiment instances
+    directly from the Article admin page.
+    """
+
     model = OverallSentiment
     fields = ('name_display', 'num_bound', 'linear_neutral', 'linear_positive',
               'linear_negative',
@@ -45,6 +54,13 @@ class OverallSentimentInlineForArticle(admin.TabularInline):
 
 
 class OverallSentimentInlineForEntity(admin.TabularInline):
+    """
+    Inline table displays and allows the read-only interaction with OverallSentiment instances
+    directly from the Entity admin page.
+
+    The fields are subtly different from ForArticle above - to show the article headline as well.
+    """
+
     model = OverallSentiment
     fields = ('article', 'headline_display', 'num_bound', 'linear_neutral', 'linear_positive',
               'linear_negative',
@@ -62,6 +78,9 @@ class OverallSentimentInlineForEntity(admin.TabularInline):
 
 
 class EntityInline(admin.TabularInline):
+    """
+    Currently unused class / used to experiment with simple tabular in lines at first
+    """
     model = Entity
     fields = ('Entity', 'name_display')
     readonly_fields = ('Entity', 'name_display')
@@ -76,6 +95,14 @@ class EntityInline(admin.TabularInline):
 
 @admin.register(Article)
 class ArticleAdmin(admin.ModelAdmin):
+    """
+    Configures list display, read-only fields, and inlines for bound mentions and overall
+    sentiments related to the article.
+
+    Enhances the admin interface for articles
+    by providing a comprehensive overview of article details, and the entity bound mentions and
+    overall sentiments within them.
+    """
     list_display = ('id', 'processed', 'similar_rejection', 'headline',
                     'date_added', 'publication_date', 'site_name', 'author', 'source_file')
     readonly_fields = (
@@ -92,8 +119,9 @@ def get_similar_entities(entities, ignored_entity_pairs, app_visible_entities, t
     replaced with model and celery job.
 
     Utilise rapid fuzzy matching on pairs that haven't been added to the ignore table.
-       Process can be reduced significantly by considering only entities that are visible on app
-       frontend (i.e most important)"""
+    Process can be reduced significantly by considering only entities that are visible on app
+    frontend (i.e most important)
+   """
     similar_entities = []
 
     ignored_pairs = set()
@@ -155,6 +183,12 @@ def update_and_merge_entities(master_entity, secondary_entity, request):
 
 
 class EntityAdmin(admin.ModelAdmin):
+    """
+    Allows entity management by configuring list displays, filters, search capabilities,
+    and custom actions for merging entities and resetting view counts. Inlines allow
+    for viewing overall sentiment directly within the entity's admin page.
+    """
+
     list_display = ('name', 'type', 'app_visible', 'view_count', 'display_article_count_numeric')
     list_filter = ('app_visible',)
     list_per_page = 1000
@@ -171,8 +205,10 @@ class EntityAdmin(admin.ModelAdmin):
     display_article_count_numeric.short_description = 'Article Count (Numeric)'
 
     def merge_entities_primary_higher(self, request, queryset):
-        """Merges two checkbox selected entities in standard django entity table view.
-            The entity selected higher in the table ordering is retained."""
+        """
+        Merges two checkbox selected entities in the standard django entity table view.
+        The entity selected HIGHER in the table ordering is retained.
+        """
         queryset = queryset.annotate(article_count_numeric=Count('overallsentiment'))
         if queryset.count() == 2:
             master_entity = queryset.first()
@@ -185,7 +221,9 @@ class EntityAdmin(admin.ModelAdmin):
                               level='ERROR')
 
     def merge_entities_primary_lower(self, request, queryset):
-        """As above except the entity lower in the table is retained (opposite to above)"""
+        """
+        As above except the entity LOWER in the table is retained (opposite to above)
+        """
         queryset = queryset.annotate(article_count_numeric=Count('overallsentiment'))
         if queryset.count() == 2:
             master_entity = queryset.last()
@@ -218,6 +256,12 @@ class EntityAdmin(admin.ModelAdmin):
                reset_view_count]
 
     def get_urls(self):
+        """
+        Extends the default URLs for the admin site to include custom routes for the custom entity
+        merge review pages.
+
+        :return: (list) A combined list of default admin URLs and custom URLs for entity management.
+        """
         urls = super().get_urls()
         custom_urls = [
             path('merge_review/', self.admin_site.admin_view(self.merge_review),
@@ -243,7 +287,7 @@ class EntityAdmin(admin.ModelAdmin):
         threshold = 78
         # similar_entities = get_similar_entities(entities, ignore_entity_pairs, None, fuzzy_threshold)
 
-        similar_entities = SimilarEntityPairs.objects.filter(
+        similar_entities = SimilarEntityPair.objects.filter(
             Q(similarity_score__gt=threshold),
         )
 
@@ -277,7 +321,7 @@ class EntityAdmin(admin.ModelAdmin):
 
         # Filter for pairs where the similarity score is greater than 65
         # and at least one of the entities in the pair is app_visible
-        similar_entities = SimilarEntityPairs.objects.filter(
+        similar_entities = SimilarEntityPair.objects.filter(
             Q(similarity_score__gt=fuzzy_threshold),
             Q(entity_a__app_visible=True) | Q(entity_b__app_visible=True)
         )
@@ -351,7 +395,7 @@ class EntityAdmin(admin.ModelAdmin):
                                 secondary_entity = self.get_object(request, entity_id)
                                 IgnoreEntitySimilarity.objects.create(entity_a=primary_entity,
                                                                       entity_b=secondary_entity)
-                                SimilarEntityPairs.objects.filter(
+                                SimilarEntityPair.objects.filter(
                                     models.Q(entity_a=primary_entity, entity_b=secondary_entity) |
                                     models.Q(entity_a=secondary_entity,
                                              entity_b=primary_entity)).delete()
@@ -373,6 +417,10 @@ class EntityAdmin(admin.ModelAdmin):
 
 
 class BingEntityAdmin(admin.ModelAdmin):
+    """
+    Custom configuration with list_display so details are visible in the overview admin page - so
+    admins don't need to click on each one individually to view details.
+    """
     list_display = ('id', 'entity', 'name', 'description', 'image_url',
                     'improved_image_url', 'web_search_url', 'bing_id',
                     'contractual_rules', 'entity_type_display_hint', 'entity_type_hints',
@@ -380,6 +428,10 @@ class BingEntityAdmin(admin.ModelAdmin):
 
 
 class EntityViewAdmin(admin.ModelAdmin):
+    """
+    Provides all EntityView fields on its admin overview page and enables filtering and entity_name
+    search functionality.
+    """
     list_display = ('entity', 'get_entity_name', 'view_dt', 'view_time')
     list_filter = ('entity', 'view_dt', 'view_time')
     search_fields = ('entity__name',)
@@ -392,6 +444,11 @@ class EntityViewAdmin(admin.ModelAdmin):
 
 
 class OverallSentimentAdmin(admin.ModelAdmin):
+    """
+    Displays article and entity IDs, sentiment scores, and includes shortcuts to view article headlines
+    and entity names directly in the admin list. Supports searching and makes certain fields readonly
+    for data integrity.
+    """
     list_display = (
         'article_id', 'entity_id', 'get_article_headline', 'get_entity_name', 'num_bound',
         'linear_neutral', 'linear_positive', 'linear_negative', 'exp_neutral', 'exp_positive',
@@ -413,6 +470,11 @@ class OverallSentimentAdmin(admin.ModelAdmin):
 
 
 class BoundMentionAdmin(admin.ModelAdmin):
+    """
+    Provides a detailed list view of mentions, including entity names, positions, and sentiment
+    scores.
+    Enhances usability with a custom display for entity names and supports search functionality.
+    """
     list_display = (
         'article_id', 'entity_id', 'get_entity_name', 'bound_start', 'bound_end', 'avg_neutral',
         'avg_positive', 'avg_negative', 'bound_text')
@@ -425,7 +487,7 @@ class BoundMentionAdmin(admin.ModelAdmin):
 
 
 admin.site.register(Entity, EntityAdmin)
-admin.site.register(SimilarEntityPairs)
+admin.site.register(SimilarEntityPair)
 admin.site.register(IgnoreEntitySimilarity)
 admin.site.register(EntityHistory)
 admin.site.register(EntityView, EntityViewAdmin)
