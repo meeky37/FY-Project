@@ -1,6 +1,6 @@
 from django.core.management.base import BaseCommand
 from django.db import transaction
-from profiles_app.models import Entity, SimilarEntityPairs, IgnoreEntitySimilarity
+from profiles_app.models import Entity, SimilarEntityPair, IgnoreEntitySimilarity
 from rapidfuzz import fuzz
 
 
@@ -58,12 +58,12 @@ class Command(BaseCommand):
         similar_entities_tuples = get_similar_entities(entities, ignore_entity_pairs,
                                                        app_visible_entities, threshold)
         # Delete all similar article entity pairs
-        SimilarEntityPairs.objects.all().delete()
-        # Creating SimilarEntityPairs records
+        SimilarEntityPair.objects.all().delete()
+        # Creating SimilarEntityPair records
         with transaction.atomic():
             for entity, similar_entities_for_current in similar_entities_tuples:
                 for similar_entity, score in similar_entities_for_current:
-                    SimilarEntityPairs.objects.create(
+                    SimilarEntityPair.objects.create(
                         entity_a=entity,
                         entity_b=similar_entity,
                         similarity_score=score
