@@ -1,11 +1,17 @@
+from django.conf import settings
 from django.contrib.auth.models import AbstractBaseUser, BaseUserManager, PermissionsMixin
 from django.db import models
-
-from django.conf import settings
 from profiles_app.models import Entity
 
 
 class CustomUserManager(BaseUserManager):
+    """
+    Custom user manager for CustomUser, providing helper methods to create user and superuser
+    accounts.
+
+    # create_user: Creates and returns a new user
+    # create_superuser: Creates and returns a new superuser with all permissions.
+    """
     def create_user(self, email, password=None, **extra_fields):
         user = self.model(email=email, **extra_fields)
         user.set_password(password)
@@ -20,6 +26,11 @@ class CustomUserManager(BaseUserManager):
 
 
 class CustomUser(AbstractBaseUser, PermissionsMixin):
+    """
+    The model uses 'email' as the USERNAME_FIELD and requires 'phone_number', 'date_of_birth',
+    'location', 'first_name', and 'last_name' for creating a user.
+    CustomUserManager (above) is used for objects creation.
+    """
     email = models.EmailField(unique=True)
     phone_number = models.CharField(max_length=15, blank=True, null=True)
     date_of_birth = models.DateField(blank=True, null=True)
@@ -44,6 +55,12 @@ class CustomUser(AbstractBaseUser, PermissionsMixin):
 
 
 class Subscription(models.Model):
+    """
+    Each Subscription links a CustomUser instance to an Entity instance,
+    enabling the persistence of user subs to various entities within Prominent Profiles across
+    devices.
+    Enforces uniqueness to ensure each user-entity pair is only subscribed once.
+    """
     user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
     entity = models.ForeignKey(Entity, on_delete=models.CASCADE)
 

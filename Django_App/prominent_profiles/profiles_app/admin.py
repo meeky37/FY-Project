@@ -121,7 +121,7 @@ def get_similar_entities(entities, ignored_entity_pairs, app_visible_entities, t
     Utilise rapid fuzzy matching on pairs that haven't been added to the ignore table.
     Process can be reduced significantly by considering only entities that are visible on app
     frontend (i.e most important)
-   """
+    """
     similar_entities = []
 
     ignored_pairs = set()
@@ -309,7 +309,8 @@ class EntityAdmin(admin.ModelAdmin):
         Sort in alphabetical order for user display
 
         App visible only variation (much shorter list)
-        The threshold is set lower as there will be less entries to overwhelm the user"""
+        The threshold is set lower as there will be less entries to overwhelm the user
+        """
         ignore_entity_pairs = IgnoreEntitySimilarity.objects.all()
         entities = Entity.objects.all()
         app_visible_entities = Entity.objects.filter(app_visible=True)
@@ -338,9 +339,11 @@ class EntityAdmin(admin.ModelAdmin):
         return render(request, 'admin/merge_review.html', {'merge_pairs': merge_pairs})
 
     def merge_entities_admin(self, request):
-        """Handles merge request made in the admin site by checking the form is actually a merge
+        """
+        Handles merge request made in the admin site by checking the form is actually a merge
         request and that secondary entities have been selected.
-        Then merges secondaries into primary iteratively then return an appropriate response"""
+        Then merges secondaries into primary iteratively then return an appropriate response
+        """
         if request.method == 'POST':
             merge_option = request.POST.get('merge')
 
@@ -376,7 +379,8 @@ class EntityAdmin(admin.ModelAdmin):
         Handles ignore request made in the admin site by checking the form is actually an ignore
         request and that secondary entities have been selected.
         Then creates ignore entity pairs and removes any existing similar entity pairs
-        for the involved entities."""
+        for the involved entities.
+        """
         if request.method == 'POST':
             ignore_option = request.POST.get('ignore')
 
