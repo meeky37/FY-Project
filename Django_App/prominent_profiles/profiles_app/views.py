@@ -52,7 +52,7 @@ class BingEntityDetailView(View):
         return JsonResponse(serialized_entity, safe=False)
 
 
-class BingEntityMiniView(View)
+class BingEntityMiniView(View):
     """
     Provides a minimal view of a entities complementing details obtained from bing, primarily for 
     quick lookups, faster page loading.
