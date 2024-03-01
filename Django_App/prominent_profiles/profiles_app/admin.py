@@ -1,6 +1,8 @@
+from collections import defaultdict
+
 from django.contrib import admin, messages
-from django.db import transaction
-from django.db.models import Count
+from django.db import transaction, models
+from django.db.models import Count, Q
 from django.http import HttpResponseBadRequest
 from django.urls import path
 from django.shortcuts import render
@@ -8,7 +10,7 @@ from rapidfuzz import fuzz
 from django.http import HttpResponse
 
 from .models import Article, BoundMention, OverallSentiment, BingEntity, EntityView, \
-    IgnoreEntitySimilarity, Entity, EntityHistory
+    IgnoreEntitySimilarity, Entity, EntityHistory, SimilarEntityPairs
 
 
 class BoundMentionInline(admin.TabularInline):
@@ -84,7 +86,12 @@ class ArticleAdmin(admin.ModelAdmin):
 
 
 def get_similar_entities(entities, ignored_entity_pairs, app_visible_entities, threshold):
-    """Utilise rapid fuzzy matching on pairs that haven't been added to the ignore table.
+    """
+    This method is legacy - it used to be called every time the
+    admin/profiles_app/entity/merge_review/app_visible/ page was visited - not very responsive
+    replaced with model and celery job.
+
+    Utilise rapid fuzzy matching on pairs that haven't been added to the ignore table.
        Process can be reduced significantly by considering only entities that are visible on app
        frontend (i.e most important)"""
     similar_entities = []
@@ -227,27 +234,62 @@ class EntityAdmin(admin.ModelAdmin):
 
     def merge_review(self, request):
         """
-        Collect entity pairings to be ignored, all entities in database, set a moderate
-        threshold then process using get_similar_entities.
+        Provide entities the user may wish to merge together - assists admin but isn't making
+        automated merges we can't go back from easily safer than automation.
         Sort in alphabetical order for user display
         """
         ignore_entity_pairs = IgnoreEntitySimilarity.objects.all()
         entities = Entity.objects.all()
         threshold = 78
-        similar_entities = get_similar_entities(entities, ignore_entity_pairs, None, threshold)
+        # similar_entities = get_similar_entities(entities, ignore_entity_pairs, None, fuzzy_threshold)
+
+        similar_entities = SimilarEntityPairs.objects.filter(
+            Q(similarity_score__gt=threshold),
+        )
+
+        similar_entities_transformed = defaultdict(list)
+        for pair in similar_entities:
+            similar_entities_transformed[pair.entity_a].append(pair.entity_b)
+            # similar_entities_transformed[pair.entity_b].append(pair.entity_a)
+
+        similar_entities = [(entity, matches) for entity, matches in
+                            similar_entities_transformed.items()]
+
         merge_pairs = sorted(similar_entities, key=lambda x: x[0].name)
         return render(request, 'admin/merge_review.html', {'merge_pairs': merge_pairs})
 
     def merge_review_app_visible_only(self, request):
-        """As above but also obtains app_visible = True entities to provide similar_entities with a
-        smaller pool of fuzzy match comparisons to make
+        """
+        Provide entities the user may wish to merge together - assists admin but isn't making
+        automated merges we can't go back from easily safer than automation.
+        Sort in alphabetical order for user display
+
+        App visible only variation (much shorter list)
         The threshold is set lower as there will be less entries to overwhelm the user"""
         ignore_entity_pairs = IgnoreEntitySimilarity.objects.all()
         entities = Entity.objects.all()
         app_visible_entities = Entity.objects.filter(app_visible=True)
-        threshold = 65
-        similar_entities = get_similar_entities(entities, ignore_entity_pairs,
-                                                app_visible_entities, threshold)
+        fuzzy_threshold = 65
+
+        # Old Slow Logic - long loading times - not responsive due to recompute every time!
+        # similar_entities = get_similar_entities(entities, ignore_entity_pairs,
+        #                                         app_visible_entities, fuzzy_threshold)
+
+        # Filter for pairs where the similarity score is greater than 65
+        # and at least one of the entities in the pair is app_visible
+        similar_entities = SimilarEntityPairs.objects.filter(
+            Q(similarity_score__gt=fuzzy_threshold),
+            Q(entity_a__app_visible=True) | Q(entity_b__app_visible=True)
+        )
+
+        similar_entities_transformed = defaultdict(list)
+        for pair in similar_entities:
+            similar_entities_transformed[pair.entity_a].append(pair.entity_b)
+            # similar_entities_transformed[pair.entity_b].append(pair.entity_a)
+
+        similar_entities = [(entity, matches) for entity, matches in
+                            similar_entities_transformed.items()]
+
         merge_pairs = sorted(similar_entities, key=lambda x: x[0].name)
         return render(request, 'admin/merge_review.html', {'merge_pairs': merge_pairs})
 
@@ -286,9 +328,11 @@ class EntityAdmin(admin.ModelAdmin):
         return HttpResponseBadRequest("Invalid request.")
 
     def ignore_entities_admin(self, request):
-        """Handles merge request made in the admin site by checking the form is actually a merge
+        """
+        Handles ignore request made in the admin site by checking the form is actually an ignore
         request and that secondary entities have been selected.
-        Then merges secondaries into primary iteratively then return an appropriate response"""
+        Then creates ignore entity pairs and removes any existing similar entity pairs
+        for the involved entities."""
         if request.method == 'POST':
             ignore_option = request.POST.get('ignore')
 
@@ -307,7 +351,10 @@ class EntityAdmin(admin.ModelAdmin):
                                 secondary_entity = self.get_object(request, entity_id)
                                 IgnoreEntitySimilarity.objects.create(entity_a=primary_entity,
                                                                       entity_b=secondary_entity)
-
+                                SimilarEntityPairs.objects.filter(
+                                    models.Q(entity_a=primary_entity, entity_b=secondary_entity) |
+                                    models.Q(entity_a=secondary_entity,
+                                             entity_b=primary_entity)).delete()
                             messages.success(request,
                                              f"Entity fuzzy match exceptions created "
                                              f"successfully. "
@@ -378,6 +425,7 @@ class BoundMentionAdmin(admin.ModelAdmin):
 
 
 admin.site.register(Entity, EntityAdmin)
+admin.site.register(SimilarEntityPairs)
 admin.site.register(IgnoreEntitySimilarity)
 admin.site.register(EntityHistory)
 admin.site.register(EntityView, EntityViewAdmin)

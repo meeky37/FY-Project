@@ -1,6 +1,7 @@
 from django.conf import settings
 from django.db import models
 
+
 class Article(models.Model):
     headline = models.CharField(max_length=255, null=True)
     url = models.CharField(max_length=500, unique=True)
@@ -55,6 +56,21 @@ class EntityHistory(models.Model):
             # Handle cases where EntityHistory was (by mistake) not included in merge steps
             return f'Merge Log: No merge information available for {self.name}'
 
+
+class SimilarEntityPairs(models.Model):
+    entity_a = models.ForeignKey(Entity, related_name='similarity_pair_a', on_delete=models.CASCADE)
+    entity_b = models.ForeignKey(Entity, related_name='similarity_pair_b', on_delete=models.CASCADE)
+    similarity_score = models.FloatField()
+
+    class Meta:
+        unique_together = ('entity_a', 'entity_b')
+        indexes = [
+            models.Index(fields=['entity_a', 'entity_b']),
+            models.Index(fields=['entity_b', 'entity_a']),
+        ]
+
+    def __str__(self):
+        return f"{self.entity_a.name} - {self.entity_b.name}: {self.similarity_score}"
 
 
 class EntityView(models.Model):
