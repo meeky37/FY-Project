@@ -53,7 +53,6 @@ def can_fetch_url(url_to_check):
     try:
         with urllib.request.urlopen(base_url + "/robots.txt", timeout=5) as response:
             rules.parse(response.read().decode('utf-8').splitlines())
-        # print("robo check done")
         return rules.can_fetch("*", url_to_check)
     except urllib.error.URLError as e:
         print(f"Error accessing robots.txt: {e}")

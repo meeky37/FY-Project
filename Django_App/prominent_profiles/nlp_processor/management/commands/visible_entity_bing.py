@@ -104,8 +104,8 @@ class Command(BaseCommand):
                         new_bing_entity.contractual_rules)
                     new_image_url = get_wikipedia_image_url(wiki_url)
                     if new_image_url:
-                        existing_bing_entity.improved_image_url = new_image_url
-                        existing_bing_entity.save()
+                        new_bing_entity.improved_image_url = new_image_url
+                        new_bing_entity.save()
                         print(f"Added an improved image URL for {entity_name}")
 
                 else:
