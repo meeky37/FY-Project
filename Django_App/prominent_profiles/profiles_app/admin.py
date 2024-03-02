@@ -41,7 +41,7 @@ class OverallSentimentInlineForArticle(admin.TabularInline):
     model = OverallSentiment
     fields = ('name_display', 'num_bound', 'linear_neutral', 'linear_positive',
               'linear_negative',
-              'exp_positive', 'exp_neutral', 'exp_negative',)
+              'exp_neutral', 'exp_positive', 'exp_negative',)
     readonly_fields = ('name_display', 'num_bound', 'linear_neutral', 'linear_positive',
                        'linear_negative', 'exp_neutral', 'exp_positive', 'exp_negative')
     can_delete = False
