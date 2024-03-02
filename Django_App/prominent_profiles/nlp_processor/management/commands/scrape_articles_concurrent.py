@@ -385,7 +385,6 @@ class Command(BaseCommand):
         sa = self.sa_queue.get()
         try:
             self.process_article(article, sa)
-
         finally:
             # Putting the SentimentAnalyser back in the queue, even if exception takes place
             self.sa_queue.put(sa)
