@@ -14,7 +14,7 @@ from .models import Entity, BingEntity, OverallSentiment
 from .models import EntityView
 
 
-class VisibleEntitiesView(View):
+class VisibleEntitiesView(APIView):
     """
     Fetches and returns a list of all entities marked as visible by admins.
     This determines what entities are selectable in the front end.
@@ -28,7 +28,7 @@ class VisibleEntitiesView(View):
         return JsonResponse(serialized_entities, safe=False)
 
 
-class BingEntityDetailView(View):
+class BingEntityDetailView(APIView):
     """
     Provides the full view of entities complimenting details obtained from bing, for more
     detailed pages e.g. the EntityPage.vue
@@ -52,7 +52,7 @@ class BingEntityDetailView(View):
         return JsonResponse(serialized_entity, safe=False)
 
 
-class BingEntityMiniView(View):
+class BingEntityMiniView(APIView):
     """
     Provides a minimal view of a entities complementing details obtained from bing, primarily for 
     quick lookups, faster page loading.
@@ -177,7 +177,7 @@ class OverallSentimentExp(APIView):
         return JsonResponse(response_data, safe=False)
 
 
-class OverallSentimentLinear(View):
+class OverallSentimentLinear(APIView):
     """
     Retrieves linear scaled sentiment scores for a specific entity.
     Optional dashboard-specific filtering for authenticated users SubscriptionCards in Vue.
@@ -254,7 +254,7 @@ class OverallSentimentLinear(View):
         return JsonResponse(response_data, safe=False)
 
 
-class ArticleOverallSentimentExp(View):
+class ArticleOverallSentimentExp(APIView):
     """
     Gets exponential sentiment analysis results for all entities mentioned in a specific article.
     """

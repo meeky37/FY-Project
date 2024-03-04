@@ -19,7 +19,9 @@ export const checkAuthenticationCommon = async () => {
         console.log('common check auth returning true')
         return true
       } catch (refreshError) {
-        console.error('Token refresh failed', refreshError)
+        console.error('Token refresh failed - deleting access/refresh tokens', refreshError)
+        VueCookies.delete('access_token')
+        VueCookies.delete('refresh_token')
         return false
       }
     }

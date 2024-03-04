@@ -157,7 +157,6 @@ def fetch_articles(search_term):
     for offset in range(0, results_to_fetch, count):
         if skip_future_calls:
             break
-
         time.sleep(1)
         params = {
             "q": search_term,

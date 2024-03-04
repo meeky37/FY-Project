@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'drf_yasg',
     'django_celery_beat',
     'adminsortable2',
     'profiles_app',
@@ -55,7 +56,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework_simplejwt',
     'django_rest_passwordreset',
-    'django_extensions',
+    'django_extensions'
 ]
 
 REST_FRAMEWORK = {
