@@ -17,10 +17,10 @@
     <div class="radio-label" @click="toggleSortDirection" :key="sortDirectionKey">
       <font-awesome-icon :icon="sortDirectionIcon" style="color: #755BB4; margin-top: 10px" />
     </div>
-    <div class="advanced-container">
-    <font-awesome-icon
-      :icon="['fas', 'calendar-days']"
-      @click="toggleDatePicker" style="color: #755BB4;" />
+    <div class="advanced-container" :class="{ 'selected': isDateRangeSelected }">
+  <font-awesome-icon
+    :icon="['fas', 'calendar-days']"
+    @click="toggleDatePicker" style="color: #755BB4;" />
   </div>
   </div>
   <div class="date-picker">
@@ -39,7 +39,6 @@
 
 <script setup>
 import { ref } from 'vue'
-/* TODO: disable dates older than oldest date too */
 const selectedColor = ref('teal')
 const currentDate = new Date()
 const disabledDates = ref([
@@ -72,11 +71,6 @@ export default {
       previousDateRange: null
     }
   },
-  // watch: {
-  //   oldestArticleDate(newOldestDate, newOldestDate) {
-  //     this.sortEntries()
-  //   }
-  // },
 
   watch: {
     '$route.params.id': function (newId, oldId) {
@@ -94,6 +88,9 @@ export default {
   computed: {
     sortDirectionIcon () {
       return this.isAscending ? ['fas', 'arrow-up'] : ['fas', 'arrow-down']
+    },
+    isDateRangeSelected () {
+      return this.dateRange && this.dateRange.start !== null && this.dateRange.end !== null
     }
   },
   methods: {

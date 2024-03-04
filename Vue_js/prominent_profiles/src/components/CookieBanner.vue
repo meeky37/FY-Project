@@ -62,6 +62,7 @@ export default {
   font-size: 1rem;
   border: none;
   border-radius: 5px;
+  margin: 10px;
 }
 
 .accept-button {
