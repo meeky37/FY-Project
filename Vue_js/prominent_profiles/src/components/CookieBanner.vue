@@ -1,12 +1,11 @@
 <template>
   <div v-if="!accepted && !nonEssentialRejected" class="cookie-banner">
     <p>This website uses non-essential cookies to aid the determination of trending entities.</p>
-    <div class="button-group">
+    <p>By using Prominent Profiles, you agree to our <a href="https://www.prominentprofiles.com/privacypolicy" target="_blank" style="color: white;">Privacy Policy</a>.</p>
       <button @click="acceptCookies" class="cookie-button accept-button">Accept Cookies</button>
       <button @click="rejectNonEssentialCookies" class="cookie-button reject-button">Reject
         All Non-essential Cookies</button>
     </div>
-  </div>
 </template>
 
 <script>
@@ -42,7 +41,7 @@ export default {
 .cookie-banner {
   background-color: #755BB4;
   color: white;
-  padding: 30px;
+  padding: 20px;
   border-radius: 5px;
   margin-bottom: 20px;
   margin-top: 10px;
@@ -56,8 +55,8 @@ export default {
 
 .cookie-button {
   cursor: pointer;
-  height: 35px;
-  width: 200px;
+  height: auto;
+  width: auto;
   margin: 0 10px;
   font-weight: bold;
   font-size: 1rem;
@@ -66,12 +65,14 @@ export default {
 }
 
 .accept-button {
-  background-color: #755BB4;
+  background-color: #30d5c8;
   color: white;
+  padding: 10px;
 }
 
 .reject-button {
-  background-color: #755BB4;
+  background-color: #30d5c8;
   color: white;
+  padding: 10px;
 }
 </style>
