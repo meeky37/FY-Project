@@ -1,6 +1,6 @@
 <template>
   <div v-if="!accepted && !nonEssentialRejected" class="cookie-banner">
-    <p>This website uses non-essential cookies to aid the determination trending entities.</p>
+    <p>This website uses non-essential cookies to aid the determination of trending entities.</p>
     <div class="button-group">
       <button @click="acceptCookies" class="cookie-button accept-button">Accept Cookies</button>
       <button @click="rejectNonEssentialCookies" class="cookie-button reject-button">Reject Non-Essential Cookies</button>
