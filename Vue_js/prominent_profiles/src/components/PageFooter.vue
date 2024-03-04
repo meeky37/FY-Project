@@ -1,6 +1,7 @@
 <template>
   <footer>
-    <p>&copy; Prominent Profiles {{ currentYear }}</p>
+<!--    <p>&copy; Prominent Profiles {{ currentYear }}</p>-->
+    <p>Prominent Profiles {{ currentYear }}</p>
   </footer>
 </template>
 

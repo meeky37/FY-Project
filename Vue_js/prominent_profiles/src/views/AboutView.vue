@@ -47,17 +47,16 @@
 
 </div>
 <div id="Credits">
-  <h2>Credits</h2>
-    <a href="https://github.com/meeky37/FY-Project">Git Repo</a><br>
-    <a href="https://logo.com">Logo: Logo.com</a><br>
-    <a href="https://trafilatura.readthedocs.io/en/latest/index.html">Trafilatura</a><br>
-    <a href="https://pypi.org/project/fastcoref/">Fast Coref</a><br>
-    <a href="https://www.nltk.org/">NLTK</a><br>
-    <a href="https://pypi.org/project/NewsSentiment/">News Sentiment</a><br>
-    <a href="https://textblob.readthedocs.io/en/dev/">TextBlob</a><br>
-    <a href="https://pypi.org/project/django-admin-shortcuts/">Django Admin Shortcuts</a><br>
-    <p>Add other modules/packages here - review properly</p>
+  <h2>Git Repository</h2>
+  <p>Visit our GitHub repository for acknowledgments behind Prominent Profiles.</p>
+  <a href="https://github.com/meeky37/FY-Project">Git Repo</a><br>
   </div>
+
+    <div id="PrivacyPolicy">
+      <h2>Privacy Policy</h2>
+      <p>Read our Privacy Policy to understand how we collect, use, and protect your information.</p>
+      <router-link to="/privacypolicy">Privacy Policy</router-link>
+    </div>
   </div>
 </template>
 <script setup>

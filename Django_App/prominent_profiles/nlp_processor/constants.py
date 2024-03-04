@@ -62,6 +62,6 @@ F_COREF_DEVICE = 'cpu'
 # Torch really requires 8GB to run free of SIGNAL 9-Memory errors - by increasing the server
 # resources to 4 vCPUs and 8GB from 2 and 4GB respectively; the scrape_articles_concurrent.py job
 # can handle higher chunk, batch and threading.
-ARTICLE_CHUNK_SIZE = 30
-ARTICLE_BATCH_SIZE = 30
+ARTICLE_CHUNK_SIZE = 15
+ARTICLE_BATCH_SIZE = 15
 ARTICLE_THREADS = 2

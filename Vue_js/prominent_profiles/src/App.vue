@@ -24,8 +24,9 @@
       <router-link v-if="showMenuIcon" :to="{ name: 'menu' }" class="menu-link">
         <font-awesome-icon :icon="['fas', 'bars']" />
       </router-link>
-<!--      <img src="@/assets/hamburger-menu-icon.png" alt="Menu" class="menu-icon" />-->
     </header>
+
+    <CookieBanner/>
 
     <!-- Use keep-alive to persist the component across route changes -->
     <router-view v-slot="{ Component }">
@@ -41,12 +42,14 @@ import { onMounted, onBeforeUnmount, computed, ref } from 'vue'
 import { authenticated, checkAuthentication, logonRedirect, logout } from './shared_methods/auth_methods.js'
 import EntitySelection from '@/components/EntitySelection.vue'
 import PageFooter from '@/components/PageFooter.vue'
+import CookieBanner from '@/components/CookieBanner.vue'
 import { API_BASE_URL } from '@/config'
 
 export default {
   components: {
     PageFooter,
-    EntitySelection
+    EntitySelection,
+    CookieBanner
   },
 
   setup () {

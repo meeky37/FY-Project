@@ -9,6 +9,7 @@ import DashboardPage from '../views/DashboardPage.vue'
 import MenuPage from '@/views/MenuPage.vue'
 import ForgotPassword from '@/views/ForgotPassword.vue'
 import ResetPassword from '@/views/ResetPassword.vue'
+import PrivacyPolicy from '@/views/PrivacyPolicy.vue'
 
 const routes = [
   {
@@ -30,6 +31,11 @@ const routes = [
     path: '/login',
     name: 'login',
     component: LoginPage
+  },
+  {
+    path: '/privacypolicy',
+    name: 'privacyPolicy',
+    component: PrivacyPolicy
   },
   {
     path: '/forgot-password',

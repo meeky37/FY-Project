@@ -56,6 +56,7 @@ import SortToggle from '@/components/SortToggle.vue'
 import { API_BASE_URL } from '@/config.js'
 import VueCookie from 'vue-cookie'
 import SubscriptionButton from '@/components/SubscriptionButton.vue'
+import { ref } from 'vue'
 export default {
   name: 'EntityPage',
 
@@ -90,9 +91,10 @@ export default {
     // Fetch BingEntity JSON based on the entity ID from Django backend
     this.fetchBingEntity()
     const viewedProfilesCookie = VueCookie.get('viewedProfiles')
+    const accepted = ref(VueCookie.get('non_essential_cookies_accepted'))
     // this.setDateRangeFromURL()
 
-    if (viewedProfilesCookie === null) {
+    if (viewedProfilesCookie === null && accepted.value !== null) {
       // Set the cookie to an empty array if it doesn't exist
       VueCookie.set('viewedProfiles', [])
     }
@@ -108,6 +110,13 @@ export default {
 
     async incrementViewCount (entityId) {
       try {
+        // Check if non-essential cookies are accepted
+        const accepted = VueCookie.get('non_essential_cookies_accepted')
+        if (!accepted) {
+          console.log('Non-essential cookies not accepted. View count not incremented.')
+          return
+        }
+
         // Check if the user has already viewed the profile in the current session
         // JSON.parse converts the string to an array
         const viewedProfiles = JSON.parse(VueCookie.get('viewedProfiles') || '[]')

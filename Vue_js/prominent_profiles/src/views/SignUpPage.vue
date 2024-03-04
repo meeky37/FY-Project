@@ -90,6 +90,17 @@
     <p v-if="validationMessageConfirmPassword" class="validation-message">{{ validationMessageConfirmPassword }}</p>
   </div>
 
+      <div class="form-group">
+        <p>By signing up, you agree to our <router-link to="/privacypolicy">Privacy Policy</router-link>.</p>
+      </div>
+
+      <div class="form-group">
+        <label for="privacyPolicyCheckbox" class="label">
+          <input type="checkbox" id="privacyPolicyCheckbox" v-model="privacyPolicyConfirmed">
+          I have read and understood the Privacy Policy
+        </label>
+      </div>
+
     <div class="button-group">
       <button class="login-button signup-button"
               @click="register" >Sign Up</button>
@@ -124,6 +135,7 @@ export default {
     const confirmPassword = ref('')
     const location = ref('')
     const dateOfBirth = ref(null)
+    const privacyPolicyConfirmed = ref(false)
 
     const { validationMessageEmail } = useEmailValidation(email)
     const { validationMessageFirstName } = useFirstNameValidation(firstName)
@@ -135,7 +147,10 @@ export default {
     const signUpMessage = ref('')
     const selectedColor = ref('teal')
     const currentDate = new Date()
-    const disabledDates = ref([{ start: new Date(currentDate.getFullYear() - 13, currentDate.getMonth(), currentDate.getDate()) }])
+    const disabledDates = ref([{
+      start: new Date(currentDate.getFullYear() - 18,
+        currentDate.getMonth(), currentDate.getDate())
+    }])
 
     onActivated(async () => {
     // When component is activated clear the password field from any previous use
@@ -172,6 +187,7 @@ export default {
 
     const register = () => {
       if (
+        privacyPolicyConfirmed.value &&
         validationMessageEmail.value === '' &&
         validationMessagePhone.value === '' &&
         validationMessageFirstName.value === '' &&
@@ -268,6 +284,7 @@ export default {
       disabledDates,
       password,
       confirmPassword,
+      privacyPolicyConfirmed,
       validationMessageFirstName,
       validationMessageLastName,
       validationMessageEmail,
