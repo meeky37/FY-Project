@@ -62,7 +62,7 @@ services:
     command: celery -A prominent_profiles worker --loglevel=info -c 3
     volumes:
       - media_volume:/app/nlp_processor/media
-      - static_volume:/app/static
+#      - static_volume:/app/static TODO: Consider removal of this as just processed file needed?
     environment:
       - DB_HOST=${DB_HOST}
       - DB_NAME=${DB_NAME}

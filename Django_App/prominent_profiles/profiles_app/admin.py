@@ -102,12 +102,15 @@ class ArticleAdmin(admin.ModelAdmin):
     Enhances the admin interface for articles
     by providing a comprehensive overview of article details, and the entity bound mentions and
     overall sentiments within them.
+
+    Search function to look up and debug articles quickly.
     """
     list_display = ('id', 'processed', 'similar_rejection', 'headline',
                     'date_added', 'publication_date', 'site_name', 'author', 'source_file')
     readonly_fields = (
         'headline', 'url', 'image_url', 'publication_date', 'author', 'site_name',
         'similar_rejection', 'source_file')
+    search_fields = ['headline', 'url', 'id']
 
     inlines = [BoundMentionInline, OverallSentimentInlineForArticle]
 

@@ -3,7 +3,8 @@
     <p>This website uses non-essential cookies to aid the determination of trending entities.</p>
     <div class="button-group">
       <button @click="acceptCookies" class="cookie-button accept-button">Accept Cookies</button>
-      <button @click="rejectNonEssentialCookies" class="cookie-button reject-button">Reject Non-Essential Cookies</button>
+      <button @click="rejectNonEssentialCookies" class="cookie-button reject-button">Reject
+        All Non-essential Cookies</button>
     </div>
   </div>
 </template>
@@ -41,7 +42,7 @@ export default {
 .cookie-banner {
   background-color: #755BB4;
   color: white;
-  padding: 20px;
+  padding: 30px;
   border-radius: 5px;
   margin-bottom: 20px;
   margin-top: 10px;
