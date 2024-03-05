@@ -137,8 +137,12 @@ def percentage_contribution(elements):
     Returns:
         list: A list of percentage contributions of each element, rounded to one decimal place.
     """
-    total = sum(elements)
-    percentage_contributions = [(element / total) * 100 for element in elements]
+    try:
+        total = sum(elements)
+        percentage_contributions = [(element / total) * 100 for element in elements]
+    except ZeroDivisionError:
+        print('Division by zero error in percentage contribution!')
+        return [0, 0, 0]
     return round_array_to_1dp(percentage_contributions)
 
 

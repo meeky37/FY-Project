@@ -1,6 +1,6 @@
 <template>
   <div v-if="!accepted && !nonEssentialRejected" class="cookie-banner">
-    <p>This website uses non-essential cookies to aid the determination of trending entities.</p>
+    <p>This website uses non-essential cookies to aid the determination of Trending Profiles.</p>
     <p>By using Prominent Profiles, you agree to our <a href="https://www.prominentprofiles.com/privacypolicy" target="_blank" style="color: white;">Privacy Policy</a>.</p>
       <button @click="acceptCookies" class="cookie-button accept-button">Accept Cookies</button>
       <button @click="rejectNonEssentialCookies" class="cookie-button reject-button">Reject
