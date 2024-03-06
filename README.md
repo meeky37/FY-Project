@@ -12,7 +12,7 @@ This undergraduate project was inspired by the NewsMTSC paper and made possible 
 
 - Hamborg, F., & Donnay, K. (2021). NewsMTSC: (Multi-)Target-dependent Sentiment Classification in News Articles. Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics (EACL 2021), April. [https://www.aclweb.org/anthology/2021.eacl-main.243](https://www.aclweb.org/anthology/2021.eacl-main.243)
 
-Additionaly, I would like to extend this the MAD-TSC paper for its further work and datasets made avaliable:
+Additionaly, I would like to extend this to the MAD-TSC paper for its further work and datasets made avaliable:
 
 - Dufraisse, E., et al. (2023). MAD-TSC: A Multilingual Aligned News Dataset for Target-dependent Sentiment Classification. Proceedings of the Annual Meeting of the Association for Computational Linguistics (ACL 2023). [https://aclanthology.org/2023.acl-long.461/](https://aclanthology.org/2023.acl-long.461/)
 
