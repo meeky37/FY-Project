@@ -29,7 +29,7 @@ axios.interceptors.response.use(
 
     // Check if the error is due to an expired access token and we haven't retried yet
     if (error.response.status === 401 && !originalRequest._retry) {
-      originalRequest._retry = tru
+      originalRequest._retry = true
 
       const refreshToken = VueCookies.get('refresh_token')
       if (refreshToken) {
