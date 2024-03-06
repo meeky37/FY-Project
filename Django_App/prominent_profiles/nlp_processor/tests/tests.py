@@ -1,22 +1,25 @@
 from datetime import datetime
+from decimal import Decimal
 
 from django.test import TestCase
 from django.utils import timezone
 
 from nlp_processor.models import ArticleStatistics, SimilarArticlePair, ProcessedFile, BoundError
-from profiles_app.models import Article as ArticleModel
+from profiles_app.models import Article as ArticleModel, Entity, BoundMention, OverallSentiment
 from nlp_processor.article_processor import Article
 from datetime import datetime
 
 from nlp_processor.article_update import calculate_all_percentage_differences
-
 from nlp_processor.sentiment_resolver import (scaling, average_array, round_array_to_1dp,
                                               percentage_contribution)
+from nlp_processor.utils import DatabaseUtils
 
 """
 The following tests focus on the success of nlp_processor models interacting with profiles app 
 models, object creation, and that of statistics calculation, percentage difference and similarity 
 detection in the NLP pipeline"""
+
+
 class ProcessedFileTest(TestCase):
     def setUp(self):
         # Set up data for the whole TestCase
@@ -257,6 +260,7 @@ class SimilarArticlesTest(TestCase):
     """Here we use Tales of Two Cities by Charles Dickens in original and a modified variant to
     test the linguistics values, their difference calculations and the expected similarity=True
     outcome"""
+
     def setUp(self):
         current_date = timezone.now()
         publication_date = timezone.make_aware(
@@ -433,6 +437,7 @@ class NoSimilarityTest(TestCase):
     """Here we use Tales of Two Cities by Charles Dickens and a completely unrelated real news
     article to test the linguistics values, their difference calculations and the expected
     similarity=False outcome"""
+
     def setUp(self):
         naive_datetime = datetime.strptime("Dec. 11, 2023", "%b. %d, %Y")
         publication_date = timezone.make_aware(naive_datetime)
@@ -546,7 +551,6 @@ class SentimentResolverHelper(TestCase):
         self.elements_zero_sum = [0, 0, 0]
         self.elements_varied = [10, 20, 70]
 
-
     # scaling tests
     def test_scaling_linear(self):
         """Test linear scaling of sentiment scores."""
@@ -572,7 +576,6 @@ class SentimentResolverHelper(TestCase):
         """Verify handling and correctly scale multiple sentiment score arrays"""
         expected_output = [0.9, 53.9, 21.7]
         output = scaling(self.avg_array_list_2)
-        print(output)
         tolerance = 1e-5
         self.assertTrue(all(abs(a - b) < tolerance for a, b in zip(output, expected_output)))
 
@@ -585,13 +588,13 @@ class SentimentResolverHelper(TestCase):
 
     def test_average_array_mixed_sentiments(self):
         """Test averaging with mixed sentiment labels"""
-        expected_output = [(0.2/3), (0.3/3), (0.5/3)]
+        expected_output = [(0.2 / 3), (0.3 / 3), (0.5 / 3)]
         output = average_array(self.probabilities_mixed)
         self.assertEqual(output, expected_output)
 
     def test_average_array_positive_sentiments(self):
         """ Test averaging when all entries have the same label"""
-        expected_output = [0, (1.4/3), 0]
+        expected_output = [0, (1.4 / 3), 0]
         output = average_array(self.probabilities_positive_only)
         self.assertEqual(output, expected_output)
 
@@ -656,4 +659,227 @@ class SentimentResolverHelper(TestCase):
         self.assertEqual(output, expected_output)
 
 
-"""The following tests concern checking Database Utils in utils.py"""
+"""The following tests check methods in Database Utils in utils.py"""
+
+
+class EntityDatabaseUtilsTests(TestCase):
+    def setUp(self):
+        self.article_1_data = {
+            "headline": "Eat Out To Help Out ‘a mistake', says son whose father died with Covid-19",
+            "url": "https://www.irishnews.com/news/uknews/2023/12/11/news/eat_out_to_help_out_a_mistake_says_son_whose_father_died_with_covid-19-3841086/",
+            "image_url": "https://www.irishnews.com/resizer/v2/2MA3VA3ZPBPJHPF26ETAK5BLBU.jpg?smart=true&auth=cb38d4fd0baddad649316411ca4f82b60ea0957801edec0adc8267240c5ab470&width=1200&height=630",
+            "publication_date": timezone.now(),
+            "author": "Max McLean; Hannah Cottrell; PA",
+            "site_name": "The Irish News",
+            "processed": False,
+            "similar_rejection": False,
+        }
+        self.article_1 = ArticleModel.objects.create(**self.article_1_data)
+
+        self.article_2_data = {
+            "headline": "Eat Out To Help Out ‘a mistake’, says son whose father died with Covid-19",
+            "url": "https://www.andoveradvertiser.co.uk/news/national/23983163.eat-help-a-mistake-says-son-whose-father-died-covid-19/",
+            "image_url": "https://www.andoveradvertiser.co.uk/resources/images/17538776/?type=og-image",
+            "publication_date": timezone.now(),
+            "author": "PA News Agency",
+            "site_name": "Andover Advertiser",
+            "processed": False,
+            "similar_rejection": False,
+        }
+        self.article_2 = ArticleModel.objects.create(**self.article_2_data)
+
+    def test_insert_new_entity(self):
+        """Test inserting a new entity associated with an article."""
+        entity_name = "Rishi Sunak"
+        source_article_id = self.article_1.id
+        entity_id = DatabaseUtils.insert_entity(entity_name, source_article_id)
+        self.assertIsNotNone(entity_id)
+        self.assertTrue(Entity.objects.filter(id=entity_id).exists())
+        entity = Entity.objects.get(id=entity_id)
+        self.assertEqual(entity.name, entity_name)
+        self.assertEqual(entity.source_article.id, source_article_id)
+
+    #
+    def test_prevent_duplicate_entity(self):
+        """Ensure that inserting a duplicate entity name does not create a new entity."""
+        entity_name = "Rishi Sunak"
+        source_article_id = self.article_1.id
+
+        # Then many articles later we encounter the same entity_name
+        source_article_id_2 = self.article_2.id
+
+        # Insert the entity first time and then simulating an equivalent name mention later
+        first_insert_id = DatabaseUtils.insert_entity(entity_name, source_article_id)
+        second_insert_id = DatabaseUtils.insert_entity(entity_name, source_article_id_2)
+        print(first_insert_id)
+        print(second_insert_id)
+
+        self.assertEqual(first_insert_id, second_insert_id)
+        self.assertEqual(Entity.objects.filter(name=entity_name).count(), 1)
+
+    def test_reject_insert_entity_without_article(self):
+        """Test that attempting to insert an entity without associating it with an article is rejected.
+           Else we open the door to first-time entity inserts with no source article id.
+           Consistently insert entity should ALWAYS be called with a source article id!"""
+
+        entity_name = "Dr Mark Lee"
+        entity_id = DatabaseUtils.insert_entity(entity_name)
+        self.assertIsNone(entity_id)
+
+
+class BoundMentionTests(TestCase):
+    def setUp(self):
+        self.article_1_data = {
+            "headline": "Eat Out To Help Out ‘a mistake', says son whose father died with Covid-19",
+            "url": "https://www.irishnews.com/news/uknews/2023/12/11/news/eat_out_to_help_out_a_mistake_says_son_whose_father_died_with_covid-19-3841086/",
+            "image_url": "https://www.irishnews.com/resizer/v2/2MA3VA3ZPBPJHPF26ETAK5BLBU.jpg?smart=true&auth=cb38d4fd0baddad649316411ca4f82b60ea0957801edec0adc8267240c5ab470&width=1200&height=630",
+            "publication_date": timezone.now(),
+            "author": "Max McLean; Hannah Cottrell; PA",
+            "site_name": "The Irish News",
+            "processed": False,
+            "similar_rejection": False,
+        }
+        self.article = ArticleModel.objects.create(**self.article_1_data)
+
+        self.entity_1_data = {
+            "name": "Boris Johnson",
+            "source_article_id": self.article.id,
+            "type": None,
+            "app_visible": True,
+            "view_count": 0
+        }
+        self.entity = Entity.objects.create(**self.entity_1_data)
+
+    def test_successful_insertion_of_bound_mention_data(self):
+        """Test typical bound mention is correctly inserted"""
+        entity_name = "Boris Johnson"
+        article_id = self.article.id
+        entity_db_id = self.entity.id
+        scores = (0.0, 0.9, 0.0)
+        text = ("The PM and Chancellor deliberately kept the deadly plan under wraps until the "
+                "last possible moment")
+        bounds_keys = (102, 200)
+
+        DatabaseUtils.insert_bound_mention_data(entity_name, article_id, entity_db_id, scores, text,
+                                                bounds_keys)
+
+        self.assertEqual(BoundMention.objects.count(), 1)
+        bound_mention = BoundMention.objects.first()
+        self.assertEqual(bound_mention.entity.name, entity_name)
+        self.assertEqual(bound_mention.article.id, article_id)
+        self.assertEqual(bound_mention.bound_start, bounds_keys[0])
+        self.assertEqual(bound_mention.bound_end, bounds_keys[1])
+
+    def test_duplicate_rejection_bound_mention(self):
+        """Test duplicate bound mention rejection"""
+        entity_name = "Boris Johnson"
+        article_id = self.article.id
+        entity_db_id = self.entity.id
+        scores = (0.0, 0.9, 0.0)
+        text = ("The PM and Chancellor deliberately kept the deadly plan under wraps until the "
+                "last possible moment")
+        bounds_keys = (102, 200)
+
+        DatabaseUtils.insert_bound_mention_data(entity_name, article_id, entity_db_id, scores,
+                                                text,
+                                                bounds_keys)
+
+        DatabaseUtils.insert_bound_mention_data(entity_name, article_id, entity_db_id, scores,
+                                                text,
+                                                bounds_keys)
+
+        self.assertEqual(BoundMention.objects.count(), 1)
+
+
+class OverallSentimentDatabaseUtilsTests(TestCase):
+    def setUp(self):
+        self.article_1_data = {
+            "headline": "Eat Out To Help Out ‘a mistake', says son whose father died with Covid-19",
+            "url": "https://www.irishnews.com/news/uknews/2023/12/11/news/eat_out_to_help_out_a_mistake_says_son_whose_father_died_with_covid-19-3841086/",
+            "image_url": "https://www.irishnews.com/resizer/v2/2MA3VA3ZPBPJHPF26ETAK5BLBU.jpg?smart=true&auth=cb38d4fd0baddad649316411ca4f82b60ea0957801edec0adc8267240c5ab470&width=1200&height=630",
+            "publication_date": timezone.now(),
+            "author": "Max McLean; Hannah Cottrell; PA",
+            "site_name": "The Irish News",
+            "processed": False,
+            "similar_rejection": False,
+        }
+        self.article = ArticleModel.objects.create(**self.article_1_data)
+
+        self.entity_1_data = {
+            "name": "Boris Johnson",
+            "source_article_id": self.article.id,
+            "type": None,
+            "app_visible": True,
+            "view_count": 0
+        }
+        self.entity = Entity.objects.create(**self.entity_1_data)
+
+    def test_successful_insertion_of_overall_sentiment(self):
+        """Test that overall sentiment data is correctly inserted into the database"""
+        article_id = self.article.id
+        entity_id = self.entity.id
+        num_bound = 5
+        linear_scores = (Decimal('0.1'), Decimal('0.3'), Decimal('0.6'))
+        exp_scores = (Decimal('0.05'), Decimal('0.25'), Decimal('0.7'))
+
+        DatabaseUtils.insert_overall_sentiment(article_id, entity_id, num_bound,
+                                               *linear_scores, *exp_scores)
+
+        self.assertEqual(OverallSentiment.objects.count(), 1)
+        overall_sentiment = OverallSentiment.objects.first()
+        self.assertEqual(overall_sentiment.article.id, article_id)
+        self.assertEqual(overall_sentiment.entity.id, entity_id)
+        self.assertEqual(overall_sentiment.num_bound, num_bound)
+        self.assertEqual((overall_sentiment.linear_neutral, overall_sentiment.linear_positive,
+                          overall_sentiment.linear_negative), linear_scores)
+        self.assertEqual((overall_sentiment.exp_neutral, overall_sentiment.exp_positive,
+                          overall_sentiment.exp_negative), exp_scores)
+
+    def test_prevent_duplicate_overall_sentiment_entries(self):
+        """Checking that no duplicate OverallSentiment entries are created for identical
+        article-entity pairs"""
+        article_id = self.article.id
+        entity_id = self.entity.id
+        num_bound = 5
+        linear_scores = (Decimal('0.1'), Decimal('0.3'), Decimal('0.6'))
+        exp_scores = (Decimal('0.05'), Decimal('0.25'), Decimal('0.7'))
+
+        # Insert 1
+        DatabaseUtils.insert_overall_sentiment(article_id, entity_id, num_bound,
+                                               *linear_scores, *exp_scores)
+        # Insert again with exact same data
+        DatabaseUtils.insert_overall_sentiment(article_id, entity_id, num_bound,
+                                               *linear_scores, *exp_scores)
+
+        # Verify that a duplicate entry was not created
+        self.assertEqual(OverallSentiment.objects.count(), 1)
+
+    def test_overall_sentiment_data_for_different_entities(self):
+        """Verify that inserting the same overall sentiment outcomes except the entity differs is
+        not prevented (rare but possible case)"""
+        # Setup for a second entity
+        entity_2 = Entity.objects.create(name="Test Entity 2", source_article=self.article)
+
+        num_bound = 5
+
+        linear_scores = (Decimal('0.4'), Decimal('0.2'), Decimal('0.2'))
+        exp_scores = (Decimal('0.55'), Decimal('0.1'), Decimal('0.1'))
+
+        # Insert overall sentiment for the 1st entity
+        DatabaseUtils.insert_overall_sentiment(self.entity.id, self.article.id, num_bound,
+                                               *linear_scores, *exp_scores)
+        # Insert overall sentiment for the 2nd entity
+        DatabaseUtils.insert_overall_sentiment(entity_2.id, self.article.id, num_bound,
+                                               *linear_scores, *exp_scores)
+
+        # Seeking two distinct overall sentiments
+        self.assertEqual(OverallSentiment.objects.count(), 2)
+
+
+"""The following tests check methods which help article_processor in creating bound mentions for 
+evaluations from extracted/raw article text in utils.py"""
+
+# ArticleUtilsTests
+#
+#
+# Article Processor determine sentences???
