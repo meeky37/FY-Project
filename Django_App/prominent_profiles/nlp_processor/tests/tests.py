@@ -1,5 +1,8 @@
+import unittest
 from datetime import datetime
 from decimal import Decimal
+from unittest import mock
+from unittest.mock import Mock, patch
 
 from django.test import TestCase
 from django.utils import timezone
@@ -12,7 +15,12 @@ from datetime import datetime
 from nlp_processor.article_update import calculate_all_percentage_differences
 from nlp_processor.sentiment_resolver import (scaling, average_array, round_array_to_1dp,
                                               percentage_contribution)
+from nlp_processor.sentiment_resolver import SentimentAnalyser
+
 from nlp_processor.utils import DatabaseUtils
+
+from nlp_processor.article_utils import *
+from spacy.tokens import Token
 
 """
 The following tests focus on the success of nlp_processor models interacting with profiles app 
@@ -22,7 +30,6 @@ detection in the NLP pipeline"""
 
 class ProcessedFileTest(TestCase):
     def setUp(self):
-        # Set up data for the whole TestCase
         self.processed_file_data = {
             "search_term": "keir starmer",
             "file_name": "keir+starmer_no_dup_articles_loop_11-12-2023-20:56.json",
@@ -32,7 +39,7 @@ class ProcessedFileTest(TestCase):
         self.processed_file = ProcessedFile.objects.create(**self.processed_file_data)
 
     def test_processed_file_creation(self):
-        """Test the ProcessedFile object was created properly."""
+        # Test the ProcessedFile object was created properly.
         self.assertTrue(isinstance(self.processed_file, ProcessedFile))
         self.assertEqual(self.processed_file.search_term, self.processed_file_data["search_term"])
         self.assertEqual(self.processed_file.file_name, self.processed_file_data["file_name"])
@@ -111,7 +118,7 @@ class ArticleModelTest(TestCase):
         )
 
     def test_article_creation(self):
-        """Test the article object is created properly."""
+        # Test the article object is created properly.
         self.assertTrue(isinstance(self.article_1, ArticleModel))
         self.assertEqual(self.article_1.headline, self.article_1_data["headline"])
         self.assertEqual(self.article_1.url, self.article_1_data["url"])
@@ -250,7 +257,8 @@ class ArticleClass_ModelTest(TestCase):
         self.assertIsNotNone(self.article_instance.database_id)
 
     def test_article_similarity(self):
-        """Checks the functionality of the similarity check method to determine if two articles are similar."""
+        """Checks the functionality of the similarity check method to determine if two articles
+        are similar."""
         self.article_instance.save_to_database()
         is_similar = self.article_instance.check_similarity()
         self.assertTrue(is_similar)
@@ -553,27 +561,27 @@ class SentimentResolverHelper(TestCase):
 
     # scaling tests
     def test_scaling_linear(self):
-        """Test linear scaling of sentiment scores."""
+        # Test linear scaling of sentiment scores.
         expected_output = [20.0, 50.0, 30.0]
         output = scaling(self.avg_array_list, linear=True)
         self.assertEqual(output, expected_output)
 
     def test_scaling_exponential(self):
-        """Test exponential scaling with the default value of k."""
+        # Test exponential scaling with the default value of k.
         expected_output = [0.8, 12.5, 2.7]
         output = scaling(self.avg_array_list, linear=False)
         tolerance = 1e-5
         self.assertTrue(all(abs(a - b) < tolerance for a, b in zip(output, expected_output)))
 
     def test_scaling_exponential(self):
-        """Ensure custom k values are properly applied in exponential scaling."""
+        # Ensure custom k values are properly applied in exponential scaling.
         expected_output = [4.0, 25.0, 9.0]
         output = scaling(self.avg_array_list, k=2, linear=False)
         tolerance = 1e-5
         self.assertTrue(all(abs(a - b) < tolerance for a, b in zip(output, expected_output)))
 
     def test_scaling_multiple_array(self):
-        """Verify handling and correctly scale multiple sentiment score arrays"""
+        # Verify handling and correctly scale multiple sentiment score arrays.
         expected_output = [0.9, 53.9, 21.7]
         output = scaling(self.avg_array_list_2)
         tolerance = 1e-5
@@ -581,25 +589,25 @@ class SentimentResolverHelper(TestCase):
 
     # average_array tests
     def test_average_array_single(self):
-        """Test with a single probability entry."""
+        # Test with a single probability entry.
         expected_output = [0.0, 0.5, 0.0]
         output = average_array(self.probabilities_single)
         self.assertEqual(output, expected_output)
 
     def test_average_array_mixed_sentiments(self):
-        """Test averaging with mixed sentiment labels"""
+        # Test averaging with mixed sentiment labels.
         expected_output = [(0.2 / 3), (0.3 / 3), (0.5 / 3)]
         output = average_array(self.probabilities_mixed)
         self.assertEqual(output, expected_output)
 
     def test_average_array_positive_sentiments(self):
-        """ Test averaging when all entries have the same label"""
+        # Test averaging when all entries have the same label
         expected_output = [0, (1.4 / 3), 0]
         output = average_array(self.probabilities_positive_only)
         self.assertEqual(output, expected_output)
 
     def test_average_array_empty_list(self):
-        """Check the edge case of an empty probability list is handled gracefully"""
+        # Check the edge case of an empty probability list is handled gracefully
         expected_output = [0, 0, 0]
         output = average_array([])
         self.assertEqual(output, expected_output)
@@ -607,7 +615,7 @@ class SentimentResolverHelper(TestCase):
     # round_array_to_1dp tests
 
     def test_round_array_to_1dp_standard(self):
-        """Test rounding array elements to one decimal place and sum to 100"""
+        # Test rounding array elements to one decimal place and sum to 100
         expected_output = [20.6, 30.3, 49.1]
         output = round_array_to_1dp(self.array_to_round)
         self.assertEqual(output, expected_output)
@@ -627,7 +635,7 @@ class SentimentResolverHelper(TestCase):
         self.assertEqual(output, expected_output)
 
     def test_round_array_to_1dp_similar_inputs(self):
-        """Test when all elements are the (nearly-) same and need rounding."""
+        # Test when all elements are the (nearly-) same and need rounding.
         expected_output = [33.3, 33.3, 33.4]
         output = round_array_to_1dp(self.array_similar_in)
         self.assertEqual(output, expected_output)
@@ -635,28 +643,29 @@ class SentimentResolverHelper(TestCase):
     # percentage_contribution tests
 
     def test_percentage_contribution_even_distribution(self):
-        """Test percentage contribution calculation with evenly distributed elements"""
+        # Test percentage contribution calculation with evenly distributed elements
         expected_output = [33.3, 33.3, 33.4]
         output = percentage_contribution(self.elements_even_distribution)
         self.assertEqual(output, expected_output)
 
     def test_percentage_contribution_single_dom(self):
-        """Test percentage contribution calculation with evenly distributed elements"""
+        # Test percentage contribution calculation with evenly distributed elements
         expected_output = [0.0, 0.0, 100.0]
         output = percentage_contribution(self.elements_single_dom)
         self.assertEqual(output, expected_output)
 
     def test_percentage_contribution_zero_sum(self):
-        """Stress test percentage contribution calculation with all zero entries"""
+        # Stress test percentage contribution calculation with all zero entries
         expected_output = [0.0, 0.0, 0.0]
         output = percentage_contribution(self.elements_zero_sum)
         self.assertEqual(output, expected_output)
 
     def test_percentage_contribution_varied_values(self):
-        """Stress test percentage contribution calculation with varied values i.e. typical input"""
+        # Test percentage contribution calculation with varied values i.e. typical input
         expected_output = [10.0, 20.0, 70.0]
         output = percentage_contribution(self.elements_varied)
         self.assertEqual(output, expected_output)
+
 
 
 """The following tests check methods in Database Utils in utils.py"""
@@ -689,7 +698,7 @@ class EntityDatabaseUtilsTests(TestCase):
         self.article_2 = ArticleModel.objects.create(**self.article_2_data)
 
     def test_insert_new_entity(self):
-        """Test inserting a new entity associated with an article."""
+        # Test inserting a new entity associated with an article.
         entity_name = "Rishi Sunak"
         source_article_id = self.article_1.id
         entity_id = DatabaseUtils.insert_entity(entity_name, source_article_id)
@@ -701,7 +710,7 @@ class EntityDatabaseUtilsTests(TestCase):
 
     #
     def test_prevent_duplicate_entity(self):
-        """Ensure that inserting a duplicate entity name does not create a new entity."""
+        # Ensure that inserting a duplicate entity name does not create a new entity.
         entity_name = "Rishi Sunak"
         source_article_id = self.article_1.id
 
@@ -751,7 +760,7 @@ class BoundMentionTests(TestCase):
         self.entity = Entity.objects.create(**self.entity_1_data)
 
     def test_successful_insertion_of_bound_mention_data(self):
-        """Test typical bound mention is correctly inserted"""
+        # Test typical bound mention is correctly inserted
         entity_name = "Boris Johnson"
         article_id = self.article.id
         entity_db_id = self.entity.id
@@ -771,7 +780,7 @@ class BoundMentionTests(TestCase):
         self.assertEqual(bound_mention.bound_end, bounds_keys[1])
 
     def test_duplicate_rejection_bound_mention(self):
-        """Test duplicate bound mention rejection"""
+        # Test duplicate bound mention rejection
         entity_name = "Boris Johnson"
         article_id = self.article.id
         entity_db_id = self.entity.id
@@ -815,7 +824,7 @@ class OverallSentimentDatabaseUtilsTests(TestCase):
         self.entity = Entity.objects.create(**self.entity_1_data)
 
     def test_successful_insertion_of_overall_sentiment(self):
-        """Test that overall sentiment data is correctly inserted into the database"""
+        # Test that overall sentiment data is correctly inserted into the database
         article_id = self.article.id
         entity_id = self.entity.id
         num_bound = 5
@@ -879,7 +888,594 @@ class OverallSentimentDatabaseUtilsTests(TestCase):
 """The following tests check methods which help article_processor in creating bound mentions for 
 evaluations from extracted/raw article text in utils.py"""
 
-# ArticleUtilsTests
+
+class ArticleUtilsExternalLinkTests(unittest.TestCase):
+    def test_allowed_url(self):
+        # Known URL that is allowed to be fetched
+        url = "https://www.birmingham.ac.uk/schools/computer-science"
+        self.assertTrue(can_fetch_url(url))
+
+    def test_invalid_url(self):
+        # Invalid URL that will raise an error"""
+        url = "https://www.birmingham.ac.ukkkkkkk/schools/computer-science"
+        self.assertFalse(can_fetch_url(url))
+
+    # def test_disallowed_url(self):
+    #     # Known URL that is not allowed to be fetched"""
+    #     url = None # could be added if determined in pipeline runs
+    #     self.assertFalse(can_fetch_url(url))
+
+    def get_preview_image_url_timeout_check(self):
+        url = ('https://www.itv.com/news/2024-03-06/donald-trumps-last-rival-nikki-'
+               'haley-drops-out-of-presidential-race')  # Main content on itv tends to be video
+        self.assertIsNone(get_preview_image_url(url))
+
+
+class TestMergePositions(unittest.TestCase):
+    def test_merge_same_entity_type(self):
+        # Testing positions for same given entity are merged together correctly
+        entities = {}
+
+        entity1 = Mock(text="Kate Middleton", label_="PERSON", start_char=0, end_char=10)
+        entity2 = Mock(text="Kate Middleton", label_="PERSON", start_char=11, end_char=20)
+
+        entities = merge_positions(entities, entity1)
+        entities = merge_positions(entities, entity2)
+        # Check merged entities
+        self.assertEqual(len(entities), 1)
+        self.assertIn('kate middletonperson', entities)
+        self.assertEqual(entities['kate middletonperson'],
+                         ['Kate Middleton', [[0, 10], [11, 20]], 'PERSON'])
+
+    #
+    def test_no_merge_different_entity_type(self):
+        # Testing positions for same given entity are NOT merged together
+        entities = {}
+
+        entity1 = Mock(text="Prince Harry", label_="PERSON", start_char=0, end_char=10)
+        entity2 = Mock(text="Sussex Royal", label_="ORG", start_char=11, end_char=20)
+
+        entities = merge_positions(entities, entity1)
+        entities = merge_positions(entities, entity2)
+
+        self.assertEqual(len(entities), 2)
+        self.assertIn('prince harryperson', entities)
+        self.assertIn('sussex royalorg', entities)
+        self.assertEqual(entities['prince harryperson'], ['Prince Harry', [[0, 10]], 'PERSON'])
+        self.assertEqual(entities['sussex royalorg'], ['Sussex Royal', [[11, 20]], 'ORG'])
+
+
+class ClusterText(unittest.TestCase):
+    def test_stopword_removal(self):
+        # Providing cluster text with many stop words then tests if they were correctly removed
+        cluster_text = ['I', 'saw', 'Saltburn', 'last', 'night,', 'and', 'it', 'was', 'his',
+                        'favorite;', 'he', 'said', 'that', 'they', 'enjoyed', 'it', 'too,',
+                        'but', 'this', 'is', 'not', 'the', 'one', 'she', 'wanted,', 'so',
+                        'those', 'are', 'the', 'ones', 'we', 'will', 'watch', 'later,',
+                        'with', 'a', 'bag', 'of', 'popcorn.']
+        expected_result = ['saw', 'Saltburn', 'last', 'night,', 'and', 'was', 'favorite;', 'said',
+                           'enjoyed', 'too,', 'but', 'is', 'not', 'one', 'wanted,', 'so', 'are',
+                           'ones', 'we', 'will', 'watch', 'later,', 'with', 'bag', 'popcorn.']
+        cleansed_text = cleanse_cluster_text(cluster_text)
+        self.assertEqual(cleansed_text, expected_result)
+
+    def test_no_stopwords(self):
+        # Providing cluster text with no stop words then tests the input remains unmodified
+        cluster_text = ['saw', 'Saltburn', 'last', 'night,', 'and', 'was', 'favorite;',
+                        'said',
+                        'enjoyed', 'too,', 'but', 'is', 'not', 'one', 'wanted,', 'so', 'are',
+                        'ones', 'we', 'will', 'watch', 'later,', 'with', 'bag', 'popcorn.']
+        expected_result = ['saw', 'Saltburn', 'last', 'night,', 'and', 'was', 'favorite;',
+                           'said',
+                           'enjoyed', 'too,', 'but', 'is', 'not', 'one', 'wanted,', 'so', 'are',
+                           'ones', 'we', 'will', 'watch', 'later,', 'with', 'bag', 'popcorn.']
+        cleansed_text = cleanse_cluster_text(cluster_text)
+        self.assertEqual(cleansed_text, expected_result)
+
+    def test_empty(self):
+        # Checking empty cluster text input is well-behaved
+        cluster_text = []
+        expected_result = []
+        cleansed_text = cleanse_cluster_text(cluster_text)
+        self.assertEqual(cleansed_text, expected_result)
+
+
 #
-#
-# Article Processor determine sentences???
+class TestRemoveTitles(unittest.TestCase):
+    def test_remove_title_at_start(self):
+        # Checking removing title at the start of the entity
+        entity_with_title_at_start = "Sir Keir Starmer"
+        expected_result = "Keir Starmer"
+        result = remove_titles(entity_with_title_at_start)
+        self.assertEqual(result, expected_result)
+
+    def test_remove_title_at_end(self):
+        # Checking removing title at the end of the entity
+        entity_with_title_at_end = "Hugo Keith KC"
+        expected_result = "Hugo Keith"
+        result = remove_titles(entity_with_title_at_end)
+        self.assertEqual(result, expected_result)
+
+    def test_remove_title_both_ends(self):
+        # Checking removing title both sides of the entity
+        entity_with_title_at_end = "Mr Hugo Keith KC"
+        expected_result = "Hugo Keith"
+        result = remove_titles(entity_with_title_at_end)
+        self.assertEqual(result, expected_result)
+
+    def test_no_title(self):
+        # Checking remove title at the start of the entity
+        entity_without_title = "Sadiq Khan"
+        expected_result = "Sadiq Khan"
+        result = remove_titles(entity_without_title)
+        self.assertEqual(result, expected_result)
+
+
+class TestInsertIntervals(unittest.TestCase):
+    def test_insert_new_values(self):
+        # Check new values correctly split the bounds supporting custom tokenisation
+        initial_list = [(0, 50), (51, 100), (101, 150)]
+        new_values = [75, 120]
+        expected_result = [(0, 50), (51, 75), (76, 100), (101, 120), (121, 150)]
+        result = insert_intervals(initial_list, new_values)
+        self.assertEqual(result, expected_result)
+
+    def test_no_new_values(self):
+        # Check initial list is returned without no new values
+        initial_list = [(0, 50), (51, 100), (101, 150)]
+        new_values = []
+        result = insert_intervals(initial_list, new_values)
+        self.assertEqual(result, initial_list)
+
+    def test_insert_values_outside_intervals(self):
+        # Check new values outside of initial list don't throw an error that impacts result
+        initial_list = [(0, 50), (51, 100), (101, 150)]
+        new_values = [-10, 200]
+        result = insert_intervals(initial_list, new_values)
+        self.assertEqual(result, initial_list)
+
+
+class TestIsSubstring(unittest.TestCase):
+    def test_entity1_substring_of_entity2(self):
+        # Test when entity1 is a substring of entity2
+        entity1 = "Joe"
+        entity2 = "Joe Biden"
+        self.assertTrue(is_substring(entity1, entity2))
+
+    def test_entity2_substring_of_entity1(self):
+        # Test when entity2 is a substring of entity1
+        entity1 = "Lee Anderson"
+        entity2 = "Lee"
+        self.assertTrue(is_substring(entity1, entity2))
+
+    def test_entities_equal(self):
+        # Test when entity1 and entity2 are equal
+        entity1 = "Valdimar Putin"
+        entity2 = "Valdimar Putin"
+        self.assertTrue(is_substring(entity1, entity2))
+
+    def test_no_substring(self):
+        # Test when neither entity is a substring of the other
+        entity1 = "Jeremy Hunt"
+        entity2 = "Jeremy Clarkson"
+        self.assertFalse(is_substring(entity1, entity2))
+
+    def test_case_insensitivity(self):
+        # Test case insensitivity
+        entity1 = "farage"
+        entity2 = "FARAGE"
+        self.assertTrue(is_substring(entity1, entity2))
+
+
+class TestCombineEntities(unittest.TestCase):
+    def test_combine_entities_success(self):
+        """Test providing two entities and a cluster text where they are seen together in context
+        are combined"""
+        entities = ["David", "Cameron"]
+        cluster_text = ("David Cameron is a British politician who has served as Foreign Secretary "
+                        "since 2023.")
+        combined_entity = combine_entities(entities, cluster_text)
+        self.assertEqual(combined_entity, "David Cameron")
+
+    def test_combine_entities_no_combo(self):
+        """Test providing two entities and a cluster text where they are not seen together in
+        context are not combined"""
+        entities = ["James", "Gray"]
+        cluster_text = ("James Cleverly was appointed Secretary of State for the Home Department "
+                        "on 13 November 2023.")
+        combined_entity = combine_entities(entities, cluster_text)
+        self.assertEqual(combined_entity, None)
+
+    #
+    def test_case_insensitivity(self):
+        """
+        Test that the method is set up to be case-sensitive
+        NB: There is an argument to make this method case-insensitive, but news articles
+        *should* be well written.
+        """
+        entities = ["Joe", "Bidden"]
+        cluster_text = "joe bidden confuses Gaza with Ukraine in airdrop announcement."
+        combined_entity = combine_entities(entities, cluster_text)
+        self.assertIsNone(combined_entity)
+
+
+class TestUpdateEntityName(unittest.TestCase):
+    def test_update_entity_name(self):
+        # Test updating the entity name when it is a substring of a two-word cluster text entry
+        entry = {
+            'Entity Name': 'Johnson',
+            'Cluster Info': {'Cluster Text': ['Boris Johnson']}
+        }
+        updated_entry = update_entity_name(entry)
+        self.assertEqual(updated_entry['Entity Name'], 'Boris Johnson')
+
+    def test_no_update_needed(self):
+        # Test when the entity name does not need updating
+        entry = {
+            'Entity Name': 'Johnson',
+            'Cluster Info': {'Cluster Text': ['Boris']}
+        }
+        updated_entry = update_entity_name(entry)
+        self.assertEqual(updated_entry['Entity Name'], 'Johnson')
+
+    def test_entity_name_as_substring_of_longer_cluster_text(self):
+        # Test when the entity name is a substring of a longer cluster text entry
+        entry = {
+            'Entity Name': 'Johnson',
+            'Cluster Info': {'Cluster Text': ['Boris Johnson is a politician']}
+        }
+        updated_entry = update_entity_name(entry)
+        self.assertEqual(updated_entry['Entity Name'], 'Johnson')
+
+    def test_entity_name_with_space_before_apostrophe(self):
+        """Test when there is a space between 'e' and apostrophe in the entity name (seen examples
+          of this in articles)"""
+        entry = {
+            'Entity Name': "Megan Markle '",
+            'Cluster Info': {'Cluster Text': ["Megan Markle is a Duchess"]}
+        }
+        updated_entry = update_entity_name(entry)
+        self.assertEqual(updated_entry['Entity Name'], "Megan Markle '")
+
+    def test_case_insensitivity(self):
+        """
+        Test that the method is set up to be case-sensitive
+        NB: There is an argument to make this method case-insensitive, but news articles
+        *should* be well written.
+        """
+        entry = {
+            'Entity Name': 'johnson',
+            'Cluster Info': {'Cluster Text': ['Boris Johnson']}
+        }
+        updated_entry = update_entity_name(entry)
+        self.assertNotEqual(updated_entry['Entity Name'], 'Boris Johnson')
+
+
+class TestCleanUpSubstrings(unittest.TestCase):
+    def test_no_substrings(self):
+        """Test when there are no substrings within each cluster ID but there are substrings
+           across them so changes shouldn't be made but could be
+           if the method isn't well sorted"""
+        clustered_entities = [
+            {'Entity Name': 'Nicola Sturgeon', 'Cluster Info': {'Cluster ID': 1}},
+            {'Entity Name': 'Nicola', 'Cluster Info': {'Cluster ID': 2}}
+        ]
+        cleaned_entities = clean_up_substrings_revised(clustered_entities)
+        self.assertEqual(len(cleaned_entities), 2)
+        self.assertListEqual(cleaned_entities, clustered_entities)
+
+    def test_single_substring(self):
+        # Test when there is only one substring within each cluster ID
+        clustered_entities = [
+            {'Entity Name': 'Donald', 'Cluster Info': {'Cluster ID': 1}},
+            {'Entity Name': 'Donald Trump', 'Cluster Info': {'Cluster ID': 1}},
+            {'Entity Name': 'Joe', 'Cluster Info': {'Cluster ID': 2}},
+            {'Entity Name': 'Joe Bidden', 'Cluster Info': {'Cluster ID': 2}}
+        ]
+        cleaned_entities = clean_up_substrings_revised(clustered_entities)
+        self.assertEqual(len(cleaned_entities), 2)
+        self.assertIn({'Entity Name': 'Donald Trump', 'Cluster Info': {'Cluster ID': 1}},
+                      cleaned_entities)
+        self.assertIn({'Entity Name': 'Joe Bidden', 'Cluster Info': {'Cluster ID': 2}},
+                      cleaned_entities)
+
+    #
+    def test_multiple_substrings(self):
+        # Test when there are multiple substrings within each cluster ID
+        clustered_entities = [
+            {'Entity Name': 'Rishi', 'Cluster Info': {'Cluster ID': 1}},
+            {'Entity Name': 'Rishi Sunak', 'Cluster Info': {'Cluster ID': 1}},
+            {'Entity Name': 'Sunak', 'Cluster Info': {'Cluster ID': 1}},
+            {'Entity Name': 'Kate', 'Cluster Info': {'Cluster ID': 2}},
+            {'Entity Name': 'Kate Middleton', 'Cluster Info': {'Cluster ID': 2}},
+            {'Entity Name': 'Middleton', 'Cluster Info': {'Cluster ID': 2}}
+        ]
+        cleaned_entities = clean_up_substrings_revised(clustered_entities)
+        self.assertEqual(len(cleaned_entities), 2)
+        self.assertIn({'Entity Name': 'Rishi Sunak', 'Cluster Info': {'Cluster ID': 1}},
+                      cleaned_entities)
+        self.assertIn({'Entity Name': 'Kate Middleton', 'Cluster Info': {'Cluster ID': 2}},
+                      cleaned_entities)
+
+    def test_empty_input(self):
+        # Test when the input list is empty
+        clustered_entities = []
+        cleaned_entities = clean_up_substrings_revised(clustered_entities)
+        self.assertEqual(len(cleaned_entities), 0)
+
+
+class TestCreateEntityEntry(unittest.TestCase):
+
+    def setUp(self):
+        self.entity_creator = create_entity_entry
+
+    def test_personA_basic(self):
+        self.assertEqual(
+            self.entity_creator("personA", [[11664, 11669]], "People", 1),
+            {'Entity Name': 'personA', 'Positions': [[11664, 11669]], 'Label': 'People',
+             'Num Positions': 1, 'Cluster Info': []}
+        )
+
+    def test_personB_empty_label(self):
+        self.assertEqual(
+            self.entity_creator("personB",
+                                [[12301, 12306], [14453, 14458], [15005, 15010], [15286, 15291]],
+                                "", 4),
+            {'Entity Name': 'personB',
+             'Positions': [[12301, 12306], [14453, 14458], [15005, 15010], [15286, 15291]],
+             'Label': '', 'Num Positions': 4, 'Cluster Info': []}
+        )
+
+    def test_personC_zero_positions(self):
+        self.assertEqual(
+            self.entity_creator("personC", [], "People", 0),
+            {'Entity Name': 'personC', 'Positions': [], 'Label': 'People', 'Num Positions': 0,
+             'Cluster Info': []}
+        )
+
+    def test_personD_negative_positions(self):
+        self.assertEqual(
+            self.entity_creator("personD", [[-123, -120]], "People", 1),
+            {'Entity Name': 'personD', 'Positions': [[-123, -120]], 'Label': 'People',
+             'Num Positions': 1, 'Cluster Info': []}
+        )
+
+
+"""The following integration tests check more complex methods in the NLP pipeline in
+article_processor.py and sentiment_resolver.py"""
+
+
+class AverageSentimentResultsDBCheck(TestCase):
+
+    def setUp(self):
+        naive_datetime = datetime.strptime("Dec. 11, 2023", "%b. %d, %Y")
+        publication_date = timezone.make_aware(naive_datetime)
+        self.article_1_data = {
+            "headline": "Eat Out To Help Out ‘a mistake', says son whose father died with Covid-19",
+            "url": "https://www.irishnews.com/news/uknews/2023/12/11/news/eat_out_to_help_out_a_mistake_says_son_whose_father_died_with_covid-19-3841086/",
+            "image_url": "https://www.irishnews.com/resizer/v2/2MA3VA3ZPBPJHPF26ETAK5BLBU.jpg?smart=true&auth=cb38d4fd0baddad649316411ca4f82b60ea0957801edec0adc8267240c5ab470&width=1200&height=630",
+            "publication_date": publication_date,
+            "author": "Max McLean; Hannah Cottrell; PA",
+            "site_name": "The Irish News",
+            "processed": False,
+            "similar_rejection": False,
+        }
+        self.article_1 = ArticleModel.objects.create(**self.article_1_data)
+
+        self.bounds_sentiment = {(0, 167): {'Keir Starmer': {1: [{'class_id': 0, 'class_label':
+            'negative', 'class_prob': 0.9354697465896606}]},
+                                            'Tory': {2: [{'class_id': 1, 'class_label': 'neutral',
+                                                          'class_prob':
+                                                              0.6213993430137634}]}},
+                                 (168, 315): {
+                                     'Keir Starmer': {1: [{'class_id': 0, 'class_label': 'negative',
+                                                           'class_prob': 0.8984778523445129}]},
+                                     'Lindsay Hoyle': {3: [{'class_id': 1, 'class_label': 'neutral',
+                                                            'class_prob': 0.74396151304245}]},
+                                     'Tory': {2: [
+                                         {'class_id': 0, 'class_label': 'negative', 'class_prob':
+                                             0.5514150261878967}]}},
+                                 (564, 659): {
+                                     'Keir Starmer': {1: [{'class_id': 0, 'class_label': 'negative',
+                                                           'class_prob': 0.9571385383605957},
+                                                          {'class_id': 0, 'class_label': 'negative',
+                                                           'class_prob': 0.8608132600784302}]}}}
+        self.article_text = "test " * 500
+
+        source_article_id = 1
+        DatabaseUtils.insert_entity('Keir Starmer', source_article_id)
+        DatabaseUtils.insert_entity('Tory', source_article_id)
+        DatabaseUtils.insert_entity('Linday Hoyle', source_article_id)
+
+    @mock.patch('nlp_processor.utils.DatabaseUtils.insert_overall_sentiment')
+    @mock.patch('nlp_processor.utils.DatabaseUtils.insert_bound_mention_data')
+    def test_average_sentiment_results_bound_mentions(self, mock_insert_bound_mention_data,
+                                                      mock_insert_overall_sentiment):
+        source_article_id = self.article_1.id
+
+        SentimentAnalyser.average_sentiment_results(source_article_id,
+                                                    self.bounds_sentiment, self.article_text)
+
+        # Count the number of expected insertions based on the bounds_sentiment dictionary
+        expected_insertions = sum(len(mentions) for mentions in self.bounds_sentiment.values())
+
+        # Was insert_bound_mention_data function was called the expected number of times?
+        self.assertEqual(mock_insert_bound_mention_data.call_count, expected_insertions)
+
+        # No matter how many bounds sentiments there are we expect overall_sentiments to equal
+        # the number of entities provided
+        unique_entities = {entity for bounds in self.bounds_sentiment.values() for entity in bounds}
+        expected_overall_insertions = len(unique_entities)
+
+        # Was insert_bound_mention_data function was called the expected number of times?
+        self.assertEqual(mock_insert_overall_sentiment.call_count, expected_overall_insertions)
+
+        # Going deeper and checking the contents was as expected
+        actual_calls = mock_insert_bound_mention_data.call_args_list
+
+        # Expected values for first call related to "Keir Starmer"
+        expected_entity_name_1, expected_source_article_id_1, expected_entity_db_id_1, expected_scores_1, expected_bounds_keys_1 = (
+            "Keir Starmer", 1, 1, [0.0, 0.0, 0.9354697465896606], (0, 167)
+        )
+
+        # Expected values for fourth call related to "Keir Starmer"
+        expected_entity_name_4, expected_source_article_id_4, expected_entity_db_id_4, expected_scores_4, expected_bounds_keys_4 = (
+            "Lindsay Hoyle", 1, 3, [0.74396151304245, 0.0, 0.0], (168, 315)
+        )
+
+        # Assert the expected values match the actual calls
+        actual_call_1 = actual_calls[0][0]
+        self.assertEqual((actual_call_1[0], actual_call_1[1], actual_call_1[2], actual_call_1[3],
+                          actual_call_1[5]), (expected_entity_name_1, expected_source_article_id_1,
+                                              expected_entity_db_id_1, expected_scores_1,
+                                              expected_bounds_keys_1),
+                         "Mismatch in call 1 for Keir Starmer")
+
+        actual_call_4 = actual_calls[5][0]
+        self.assertEqual((actual_call_4[0], actual_call_4[1], actual_call_4[2], actual_call_4[3],
+                          actual_call_4[5]), (expected_entity_name_4, expected_source_article_id_4,
+                                              expected_entity_db_id_4, expected_scores_4,
+                                              expected_bounds_keys_4),
+                         "Mismatch in call 4 for Lindsay Hoyle")
+
+        overall_calls = mock_insert_overall_sentiment.call_args_list
+
+        # Expected values for the overall sentiment calls
+        expected_call_1 = (1, 1, 3, 0.0, 0.0, 100.0, 0.0, 0.0, 100.0)
+        expected_call_2 = (1, 2, 2, 53.0, 0.0, 47.0, 58.9, 0.0, 41.1)
+        expected_call_3 = (1, 3, 1, 100.0, 0.0, 0.0, 100.0, 0.0, 0.0)
+
+        # Assert the expected values match the actual calls
+        self.assertEqual(overall_calls[0][0], expected_call_1,
+                         "Mismatch in call 1 for overall sentiment")
+        self.assertEqual(overall_calls[1][0], expected_call_2,
+                         "Mismatch in call 2 for overall sentiment")
+        self.assertEqual(overall_calls[2][0], expected_call_3,
+                         "Mismatch in call 3 for overall sentiment")
+
+
+class TestDetermineSentences(unittest.TestCase):
+    MENTION_REQ_PER = 0.20
+
+    def setUp(self):
+        # Sample article text with scenarios to test including custom \n- one.
+        self.article_text = ("This is the 1st sentence? This is the 2nd sentence!\n-This is "
+                             "the 3rd sentence, following a newline and hyphen. This is the 4th "
+                             "sentence.")
+
+        self.article = Article(
+            text_body=self.article_text,
+            url=None,
+            headline=None,
+            NER=None,
+            date=None,
+            author=None,
+            site_name=None,
+            source_file=None
+        )
+
+    def test_determine_sentences_normal(self):
+        expected_sentences = 4
+        expected_bounds = [(0, 25), (26, 51), (52, 110), (111, 136)]
+        expected_threshold = 0  # Based on MENTION_REQ_PER and the number of sentences provided
+
+        self.article.determine_sentences()
+
+        self.assertEqual(len(self.article.sentence_bounds), expected_sentences,
+                         "Incorrect number of sentences detected.")
+        self.assertEqual(self.article.sentence_bounds, expected_bounds,
+                         "Sentence bounds do not match expected values.")
+        self.assertEqual(self.article.mention_threshold, expected_threshold,
+                         "Incorrect mention threshold calculated.")
+
+
+class TestEntityClusterMapping(unittest.TestCase):
+    def setUp(self):
+        self.instance = Article(
+            text_body=None,
+            url=None,
+            headline=None,
+            NER=None,
+            date=None,
+            author=None,
+            site_name=None,
+            source_file=None
+        )
+        self.instance.coref_clusters = [
+            (0, (["Labour's", 'the Opposition party', 'Labour’s', 'Labour', 'Labour', 'Labour',
+                  'his Party', 'Labour', 'Labour', 'Labour', 'Labour'],
+                 [(78, 86), (146, 166), (230, 238), (373, 379), (439, 445), (963, 969),
+                  (1042, 1051), (1240, 1246), (1767, 1773), (1895, 1901), (2163, 2169)], 11)),
+            (1, (
+                ['Tory', 'the Tories', 'the Conservatives', 'Tory', 'the Conservatives', 'Tory',
+                 'Tory',
+                 'Tory', 'the party’s'], [(47, 51), (249, 259), (403, 420),
+                                          (2005, 2009), (2046, 2063), (2107, 2111), (2557, 2561),
+                                          (2579, 2583), (2712, 2723)], 9)),
+            (2, (['Hoyle', 'Speaker Sir Lindsay Hoyle', 'the Speaker', 'Hoyle', 'Sir Lindsay', 'he',
+                  'Sir Lindsay', 'he', 'his'],
+                 [(224, 229), (1064, 1089), (1197, 1208), (1324, 1329), (1734, 1745), (1751, 1753),
+                  (1824, 1835), (1866, 1868), (1961, 1964)], 9)),
+            (3, (["Sir Keir Starmer's", 'Keir Starmer', 'Sir Keir Starmer', 'his', 'his',
+                  'the Labour leader', 'his', 'Sir Keir'], [(0, 18), (168, 180),
+                                                            (574, 590), (600, 603), (900, 903),
+                                                            (959, 976), (1042, 1045), (1385, 1393)],
+                 8)),
+            (4, (['Lee Anderson MP, who lost the Tory whip', 'The former Tory deputy chairman',
+                  'Mr Anderson', 'his', 'the MP’s'],
+                 [(2527, 2566), (2568, 2599), (2691, 2702), (2740, 2743), (2822, 2830)], 5)),
+            (5, (
+                ['a fresh poll', 'A survey by Redfield & Wilton Strategies from Sunday',
+                 'the survey',
+                 'The new survey'],
+                [(302, 314), (316, 368), (2078, 2088), (2171, 2185)], 4)),
+            (6, (['Redfield & Wilton Strategies', 'the company’s', 'Redfield & Wilton Strategies',
+                  'our'],
+                 [(328, 356), (515, 528), (2275, 2303), (2371, 2374)], 4)),
+            (7, (['us', 'Our', 'us', 'our'],
+                 [(710, 712), (725, 728), (807, 809), (814, 817)], 4)),
+            (8, (['Rishi Sunak’s', 'Sunak', 'Mr Sunak', 'he'],
+                 [(2202, 2215), (2344, 2349), (2677, 2685), (2799, 2801)], 4)),
+            (9, (['comments made by Lee Anderson MP, who lost the Tory whip', 'said',
+                  'the MP’s comments'], [(2510, 2566), (2600, 2604), (2822, 2839)], 3)),
+            (
+                10,
+                (["Sir Keir Starmer's popularity", "Labour's popularity"], [(0, 29), (78, 97)], 2)),
+            (11, (['put', 'This'], [(369, 372), (429, 433)], 2)),
+            (12, (['pressured', 'This'], [(1213, 1222), (1272, 1276)], 2)),
+            (13, (['the motion', 'the SNP motion'], [(1260, 1270), (1288, 1302)], 2)),
+            (14, (['the SNP’s', 'SNP'], [(1099, 1108), (1292, 1295)], 2)),
+            (15, (['intimidated', 'the incident'], [(1052, 1063), (1365, 1377)], 2)),
+            (16, (['allegations', 'the claims'], [(1025, 1163), (1421, 1431)], 2)),
+            (17, (['selected', 'his move'], [(1754, 1762), (1961, 1969)], 2)),
+            (18, (['2019', '2019'], [(2000, 2004), (2102, 2106)], 2)),
+            (19, (['Some 18% of 2019 Tory voters', 'they'], [(2090, 2118), (2124, 2128)], 2)),
+            (20, (['Reform', 'Reform UK'], [(71, 77), (2140, 2149)], 2)),
+            (21, (['Rishi Sunak’s approval rating', 'it'], [(2202, 2231), (2309, 2311)], 2)),
+            (22, (['The Prime Minister', 'his'], [(2441, 2459), (2494, 2497)], 2)),
+            (23, (['London', 'our capital city'], [(2605, 2611), (2640, 2656)], 2)),
+            (24, (['London mayor Sadiq Khan', 'his'], [(2605, 2628), (2665, 2668)], 2)),
+            (25, (['his “choice of words', 'it'], [(2740, 2760), (2780, 2782)], 2))]
+
+    @patch('nlp_processor.article_utils.cleanse_cluster_text')
+    @patch('nlp_processor.article_utils.remove_titles')
+    def test_process_clusters_for_keir_starmer(self, mock_remove_titles, mock_cleanse_cluster_text):
+        mock_cleanse_cluster_text.side_effect = lambda x: x
+        mock_remove_titles.side_effect = lambda x: x
+
+        entity_entry = {'Entity Name': 'Keir Starmer',
+                        'Positions': [[4, 16], [168, 180], [578, 590]], 'Label': 'PERSON',
+                        'Num Positions': 3}
+        entity_name = 'Keir Starmer'
+
+        self.instance.process_clusters_for_entity(entity_entry, entity_name)
+
+        expected_cluster_info = {
+            'Cluster ID': 4,
+            'Cluster Text': ["Sir Keir Starmer's", 'Keir Starmer', 'Sir Keir Starmer',
+                             'the Labour leader', 'Sir Keir'],
+            'Cluster Positions': [(0, 18), (168, 180), (574, 590), (600, 603), (900, 903),
+                                  (959, 976), (1042, 1045), (1385, 1393)]
+        }
+
+        self.assertEqual(entity_entry.get('Cluster Info'), expected_cluster_info)
