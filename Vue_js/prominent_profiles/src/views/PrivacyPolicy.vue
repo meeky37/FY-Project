@@ -14,7 +14,7 @@
 
      <div>
     <h2>SUMMARY OF KEY POINTS</h2>
-    <p>This summary provides key points from our privacy notice, but you can find out more details about any of these topics by clicking the link following each key point or by using our table of contents below to find the section you are looking for.</p>
+    <p>This summary provides key points from our privacy notice, but you can find out more details about any of these topics by using our table of contents below to find the section you are looking for.</p>
 
     <h3>Privacy Policy</h3>
     <h3>Cookie Policy</h3>
