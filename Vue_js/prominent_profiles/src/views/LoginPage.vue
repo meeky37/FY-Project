@@ -9,7 +9,7 @@
               @click="forgotPassword"
               v-if="loginErrorMessage"
               >Forgot Password?</button>
-      <label for="emailPhone" class="label">Email / Phone:</label>
+      <label for="emailPhone" class="label">Email:</label>
       <input type="text"
              id="emailPhone"
              ref="emailPhoneInput"
@@ -116,7 +116,7 @@ export default {
 
           // Validation message updated based on email/phone input
           if (!(isPhoneNumber || isEmail)) {
-            validationMessageUser.value = 'Invalid email or phone number format'
+            validationMessageUser.value = 'Invalid email format'
           } else {
             validationMessageUser.value = ''
           }
