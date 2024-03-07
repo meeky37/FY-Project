@@ -2,9 +2,9 @@
   <div v-if="!accepted && !nonEssentialRejected" class="cookie-banner">
     <p>This website uses non-essential cookies to aid the determination of Trending Profiles.</p>
     <p>By using Prominent Profiles, you agree to our <a
-        href="https://www.prominentprofiles.com/privacypolicy" target="_blank" style="color:
+        href="https://www.prominentprofiles.com/privacypolicy" style="color:
         white;">Privacy Policy</a> and <a href="https://www.prominentprofiles.com/about"
-                                          target="_blank" style="color: white;">Disclaimer</a>..</p>
+                                          style="color: white;">Disclaimer</a>.</p>
       <button @click="acceptCookies" class="cookie-button accept-button">Accept Cookies</button>
       <button @click="rejectNonEssentialCookies" class="cookie-button reject-button">Reject
         All Non-essential Cookies</button>
