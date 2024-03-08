@@ -166,4 +166,8 @@ class ArticleUpdate:
         self.linguistic_stats = calculate_statistics(self.text_body)
 
     def update_stats(self):
+        """
+        NB: Used in one_off_update_article_stats (see nlp_processor/management/commands) when
+        statistical fingerprinting of articles was being rolled out to old articles
+        """
         create_update_stats(self.article_model, self.linguistic_stats)

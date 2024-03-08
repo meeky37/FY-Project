@@ -12,7 +12,7 @@ class DatabaseUtils:
     def insert_entity(entity_name, source_article_id=None):
         """
         Inserts a new entity into the database if it does not already exist.
-        If the entity alreadyexists, it returns the existing entity's ID to prevent duplication
+        If the entity already exists, it returns the existing entity's ID to prevent duplication
         and crucially allowing collections of articles to be attributed to the same entity
         building up their Prominent "Profile".
 
@@ -27,6 +27,7 @@ class DatabaseUtils:
 
             if existing_entity is not None:
                 # Return to prevent duplicate entity creation later
+                print('existing entity is not None')
                 return existing_entity.id
             else:
                 # Insert if entity does not exist (name match)

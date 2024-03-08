@@ -46,6 +46,10 @@ class Entity(models.Model):
         """
         return OverallSentiment.objects.filter(entity=self).count()
 
+    class Meta:
+        verbose_name = "Entity"
+        verbose_name_plural = "Entities"
+
 
 class IgnoreEntitySimilarity(models.Model):
     """
@@ -59,6 +63,8 @@ class IgnoreEntitySimilarity(models.Model):
 
     class Meta:
         unique_together = ('entity_a', 'entity_b')
+        verbose_name = "Ignore entity similarity"
+        verbose_name_plural = "Ignore entity similarities"
 
     def __str__(self):
         """
@@ -68,13 +74,14 @@ class IgnoreEntitySimilarity(models.Model):
         return f"Ignore Relationship: '{self.entity_a.name}' <-> '{self.entity_b.name}'"
 
 
+
 class EntityHistory(models.Model):
     """
     Logs the history of entity modifications, specifically tracking entity merges as well as the
     admin user account that made the change for accountability purposes.
     """
     name = models.CharField(max_length=255)
-    merged_into = models.ForeignKey('Entity', on_delete=models.SET_NULL, null=True, blank=True)
+    merged_into = models.ForeignKey('Entity', on_delete=models.CASCADE, null=True)
     timestamp = models.DateTimeField(auto_now_add=True)
     user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.SET_NULL, null=True,
                              blank=True)
@@ -89,6 +96,10 @@ class EntityHistory(models.Model):
         else:
             # Handle cases where EntityHistory was (by mistake) not included in merge steps
             return f'Merge Log: No merge information available for {self.name}'
+
+    class Meta:
+        verbose_name = "Entity history"
+        verbose_name_plural = "Entity histories"
 
 
 class SimilarEntityPair(models.Model):
@@ -139,6 +150,10 @@ class BingEntity(models.Model):
     entity_type_display_hint = models.CharField(max_length=255)
     entity_type_hints = models.JSONField()
     date_added = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        verbose_name = "Bing entity"
+        verbose_name_plural = "Bing entities"
 
 
 class BoundMention(models.Model):

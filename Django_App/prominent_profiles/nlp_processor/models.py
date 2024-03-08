@@ -39,6 +39,10 @@ class ArticleStatistics(models.Model):
     that_count = models.IntegerField(null=True, blank=True)
     with_count = models.IntegerField(null=True, blank=True)
 
+    class Meta:
+        verbose_name = "Article statistic"
+        verbose_name_plural = "Article statistics"
+
 
 class SimilarArticlePair(models.Model):
     """
