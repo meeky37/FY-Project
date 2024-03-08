@@ -8,8 +8,8 @@
           </p>
         </div>
         <div class="entry-column-wrapper">
-          <div class="entry-column">
-            <!-- Positive Entries -->
+          <!-- Positive Entries -->
+          <div class="entry-column" :key="`positive-${$route.params.id}`">
             <ArticleEntry v-for="entry in positiveEntries" :key="entry.id" :entry="entry" />
           </div>
         </div>
@@ -22,8 +22,8 @@
           </p>
         </div>
         <div class="entry-column-wrapper">
-          <div class="entry-column">
-            <!-- Neutral Entries -->
+          <!-- Neutral Entries -->
+          <div class="entry-column" :key="`neutral-${$route.params.id}`">
             <ArticleEntry v-for="entry in neutralEntries" :key="entry.id" :entry="entry" />
           </div>
         </div>
@@ -36,8 +36,8 @@
           </p>
         </div>
         <div class="entry-column-wrapper">
-          <div class="entry-column">
-            <!-- Negative Entries -->
+          <!-- Negative Entries -->
+          <div class="entry-column" :key="`negative-${$route.params.id}`">
             <ArticleEntry v-for="entry in negativeEntries" :key="entry.id" :entry="entry" />
           </div>
         </div>
