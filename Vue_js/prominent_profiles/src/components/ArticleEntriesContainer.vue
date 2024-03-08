@@ -116,7 +116,6 @@ export default {
       const apiUrl =
           `${API_BASE_URL}/profiles_app/overall_sentiments/exp/${entityId}/?endDay=${endDay}&?startDay=${startDay}`
 
-
       this.positiveEntries = []
       this.neutralEntries = []
       this.negativeEntries = []
