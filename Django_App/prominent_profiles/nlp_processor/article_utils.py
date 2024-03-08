@@ -13,6 +13,7 @@ textual data for enhanced processing efficiency.
 
 import re
 import urllib.robotparser
+from urllib.error import URLError
 from urllib.parse import urlparse
 
 from bs4 import BeautifulSoup
@@ -21,10 +22,11 @@ import requests
 from .constants import (MERGE_REMOVAL_INDICATOR,
                         PREVIEW_IMG_TIMEOUT)
 
+
 def can_fetch_url(url_to_check):
     """Check whether a specific URL (url_to_check) is allowed to be fetched by any web crawler
       (user-agent *) according to the website's robots.txt rules.
-    
+
     Args:
         url_to_check (str): Candidate article url
 
@@ -32,12 +34,20 @@ def can_fetch_url(url_to_check):
         bool: True indicates that fetching the URL is allowed for any crawler,
               while False suggests it is disallowed.
     """
-    parsed_url = urlparse(url_to_check)
-    base_url = parsed_url.scheme + "://" + parsed_url.netloc
-    rules = urllib.robotparser.RobotFileParser()
-    rules.set_url(base_url + "/robots.txt")
-    rules.read()
-    return rules.can_fetch("*", url_to_check)
+    try:
+        parsed_url = urlparse(url_to_check)
+        base_url = parsed_url.scheme + "://" + parsed_url.netloc
+        rules = urllib.robotparser.RobotFileParser()
+        rules.set_url(base_url + "/robots.txt")
+        rules.read()
+
+        if not (rules.can_fetch("*", url_to_check)):
+            print("For the test case add this url as disallowed! ", url_to_check)
+
+        return rules.can_fetch("*", url_to_check)
+    except URLError as e:
+        print(f"Error fetching robots.txt: {e}")
+        return False
 
 
 def get_preview_image_url(url):
@@ -119,36 +129,34 @@ def cleanse_cluster_text(cluster_text):
         list of str: A cleansed list of words from the cluster, with undesired words removed.
     """
     undesired_words = ["i", "he", "his", "she", "they", "it", "this", "that",
-                   "these", "those", "the", "a", "an", "of"]
+                       "these", "those", "the", "a", "an", "of"]
 
     return [word.strip() for word in cluster_text if word.lower().strip() not
             in undesired_words]
 
 
-
 def remove_titles(text):
-
     """
-    Normalises entity name by removing titles facilitating more accurate matching. 
+    Normalises entity name by removing titles facilitating more accurate matching.
     Entity to cluster matching prefers 2 words i.e hoping for a first and second name.
     Removing the title could reduce an entry for 3 to 2 words.
-    
+
     Args:
         text (str): The original text from which titles and honorifics are to be removed.
 
     Returns:
-        str: The text with common titles and honorifics removed from its beginning and specific titles 
+        str: The text with common titles and honorifics removed from its beginning and specific titles
              removed from its end.
 
     Example: 10th Nov:
-    {'Entity Name': 'Keith', 'Positions': [[11664, 11669], [12301, 12306], [14453, 14458], 
-    [15005, 15010], [15286, 15291]], 'Label': 'PERSON', 'Num Positions': 5, 'Cluster Info': 
+    {'Entity Name': 'Keith', 'Positions': [[11664, 11669], [12301, 12306], [14453, 14458],
+    [15005, 15010], [15286, 15291]], 'Label': 'PERSON', 'Num Positions': 5, 'Cluster Info':
     {'Cluster ID': 12, 'Cluster Text': ['Keith', 'Keith', 'Keith', 'Keith', 'Hugo Keith KC',
-    'Keith', 'Keith', 'Keith'], 'Cluster Positions': [(11664, 11669), (12301, 12306), 
+    'Keith', 'Keith', 'Keith'], 'Cluster Positions': [(11664, 11669), (12301, 12306),
     (12312, 12314), (13026, 13031), (13464, 13469), (14374, 14387), (14453, 14458),
     (15005, 15010), (15286, 15291)]}}
     would have been updated to Hugo Keith had it not been for KC which made it 3 words"""
-    
+
     title_pattern = r"^(Mr|Mrs|Ms|Miss|Dr|Prof|Rev|Capt|Sir|Madam|Mx|Esq|Hon|Gen|Col|Sgt|Fr|Sr|Jr|Lord|Lady)\s"
     text = re.sub(title_pattern, "", text)
 
@@ -217,6 +225,7 @@ def is_substring(entity1, entity2):
         bool: True if either entity1 is a substring of entity2 or vice versa; False otherwise.
     """
     return entity1.lower() in entity2.lower() or entity2.lower() in entity1.lower()
+
 
 def combine_entities(entities, cluster_text):
     """
@@ -325,6 +334,51 @@ def clean_up_substrings(clustered_entities):
             entity['Positions'] = int(MERGE_REMOVAL_INDICATOR)
     return entities_to_keep
 
+def clean_up_substrings_revised(clustered_entities):
+    """
+    ***REVISED DUE TO FAILED TEST***
+    Cleans up substring entities in a list of clustered entities by keeping only the longest entity names
+    within each cluster ID.
+
+    Logic improved via testing (as bug was making it so only one cluster was impacted not all)
+    so now grouping by cluster ID first.
+
+    Args:
+        clustered_entities (list): List of dictionaries representing clustered entities,
+        where each entity contains 'Cluster Info' and 'Entity Name' keys.
+
+    Returns:
+        list: List of dictionaries representing cleaned-up entities, where only the longest entity
+        names within each cluster ID are retained.
+
+    Example: 'Rishi', 'Rishi Sunak' -> 'Rishi Sunak' retained 'Sunak' removed.
+    """
+
+    entities_to_keep = []
+
+    # Group entities by their Cluster ID
+    clusters = {}
+    for entity in clustered_entities:
+        cluster_id = entity['Cluster Info']['Cluster ID']
+        if cluster_id not in clusters:
+            clusters[cluster_id] = []
+        clusters[cluster_id].append(entity)
+
+    cleaned_entities = []
+    for cluster_id, entities in clusters.items():
+        # Find the entity with the longest name in each cluster
+        longest_entity = max(entities, key=lambda e: len(e['Entity Name']))
+        entities_to_keep.append(longest_entity)
+
+    # Set merge indicator for entities with more than one associated name in the original list
+    for entity in clustered_entities:
+        cluster_id = entity['Cluster Info']['Cluster ID']
+        if len([e for e in entities_to_keep if
+                e['Cluster Info']['Cluster ID'] == cluster_id]) > 1:
+            entity['Num Positions'] = int(MERGE_REMOVAL_INDICATOR)
+            entity['Positions'] = int(MERGE_REMOVAL_INDICATOR)
+    return entities_to_keep
+
 
 def create_entity_entry(entity_name, positions, label, num_positions):
     """
@@ -332,7 +386,7 @@ def create_entity_entry(entity_name, positions, label, num_positions):
 
     Args:
         entity_name (str): The name of the entity.
-        positions (int): The positions of the entity.
+        positions (list of list): The positions of the entity in the text.
         label (str): The label of the entity.
         num_positions (int): The number of positions of the entity.
 

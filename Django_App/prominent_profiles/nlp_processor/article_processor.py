@@ -21,7 +21,6 @@ relevance and accuracy.
 linguistic statistics and entity information, to a database for persistence and further analysis.
 """
 
-
 import math
 import re
 from collections import defaultdict
@@ -47,18 +46,18 @@ from .constants import (ENTITY_THRESHOLD_PERCENT,
                         SIMILAR_SEARCH_DAYS)
 from .models import ArticleStatistics, SimilarArticlePair
 from .article_utils import (get_preview_image_url,
-                             merge_positions, cleanse_cluster_text,
-                             remove_titles, insert_intervals, 
-                             is_substring, combine_entities, 
-                             update_entity_name, clean_up_substrings,
-                             create_entity_entry)
-
+                            merge_positions, cleanse_cluster_text,
+                            remove_titles, insert_intervals,
+                            is_substring, combine_entities,
+                            update_entity_name, clean_up_substrings_revised,
+                            create_entity_entry)
 
 
 class Article:
     """
     Represents a news article and includes functionality for processing article 
     """
+
     def __init__(self, url, headline, text_body, NER, date, author, site_name, source_file):
         self.url = url
         self.NER = NER
@@ -146,7 +145,7 @@ class Article:
                                                    num_positions)
                 self.process_clusters_for_entity(entity_entry, entity_name)
 
-    def process_clusters_for_entity(self, entity_entry, entity_name):     
+    def process_clusters_for_entity(self, entity_entry, entity_name):
         """
         Removing pronouns & other 'useless words' (his, her, he, I etc) then doing a % match rate on
         entity first/last names across cluster entries for each entity. If match rate % exceeds threshold
@@ -445,14 +444,14 @@ class Article:
                                     # print('cross cluster merge triggered!')
                                     # print(entity_1_name)
                                     # print(entity_2_name)
-                                    
+
                                     # Combine cluster IDs with '0000' in between as a combination flag.
                                     combined_cluster_id = (
                                         f"{entry1['Cluster Info']['Cluster ID']}"
                                         f"{COMBINED_CLUSTER_ID_SEPARATOR}"
                                         f"{entry2['Cluster Info']['Cluster ID']}"
                                     )
-                                    
+
                                     # Set the new cluster ID
                                     entry1['Cluster Info']['Cluster ID'] = combined_cluster_id
                                     entry2['Cluster Info']['Cluster ID'] = combined_cluster_id
@@ -542,7 +541,7 @@ class Article:
         # print(f"number of entities before mention threshold: {before_len}")
         # print(f"number of entities after mention threshold: {new_length}")
 
-        clustered_entities = clean_up_substrings(clustered_entities)
+        clustered_entities = clean_up_substrings_revised(clustered_entities)
         self.clustered_entities = clustered_entities
 
         # Does this article require sentiment analysis? If clustered_entities > 0 now then yes
@@ -582,7 +581,7 @@ class Article:
         
         Additionally, updates `self.database_id` to the ID of the article saved in the database.
         """
-        
+
         try:
             self.image_url = get_preview_image_url(self.url)
 
@@ -677,7 +676,6 @@ class Article:
         all_stats_window = ArticleStatistics.objects.filter(
             article__publication_date__gte=search_window
         )
-        print(search_window)
 
         article_stats_for_this_article = ArticleStatistics.objects.filter(
             article_id=self.database_id)
@@ -698,12 +696,12 @@ class Article:
                 Q(Q(article1_id=stat2.article_id) & Q(article2_id=stat1.article_id)),
                 Q(hash_similarity_score__gte=90) |
                 (
-                        Q(hash_similarity_score__gte=65, words_diff__lt=10, terms_diff__lt=10,
-                          vocd_diff__lt=5, yulek_diff__lt=10, simpsond_diff__lt=10,
-                          the_diff__lt=20, and_diff__lt=20, is_diff__lt=20,
-                          of_diff__lt=20, in_diff__lt=20, to_diff__lt=20,
-                          it_diff__lt=20, that_diff__lt=20, with_diff__lt=20
-                          )
+                    Q(hash_similarity_score__gte=65, words_diff__lt=10, terms_diff__lt=10,
+                      vocd_diff__lt=5, yulek_diff__lt=10, simpsond_diff__lt=10,
+                      the_diff__lt=20, and_diff__lt=20, is_diff__lt=20,
+                      of_diff__lt=20, in_diff__lt=20, to_diff__lt=20,
+                      it_diff__lt=20, that_diff__lt=20, with_diff__lt=20
+                      )
                 )
             ).exists()
 
