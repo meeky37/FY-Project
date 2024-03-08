@@ -92,13 +92,33 @@ class OverallSentimentExp(APIView):
     """
     Retrieves exponential scaled sentiment scores for a specific entity.
     Optional dashboard-specific filtering for authenticated users SubscriptionCards in Vue.
+    Optional start / end date to provide a quicker call (database fetch + processing reduced)
     """
     authentication_classes = [JWTAuthentication]
 
     def get(self, request, *args, **kwargs):
         entity_id = kwargs.get('entity_id')
-        startDay = request.GET.get('startDay', None)
+
+        startDay = request.GET.get('startDay', 0)
         endDay = request.GET.get('endDay', 180)  # 6 months maximum data if not in query params
+
+        # Initialize the queryset for OverallSentiment objects
+        overall_sentiments = OverallSentiment.objects.filter(entity=entity_id)
+
+        try:
+            startDay = int(startDay)
+            endDay = int(endDay)
+
+            start_date = timezone.now() - timedelta(days=startDay)
+            end_date = timezone.now() - timedelta(days=endDay)
+
+            overall_sentiments = overall_sentiments.filter(
+                article__publication_date__gte=start_date,
+                article__publication_date__lte=end_date
+            )
+        except ValueError:
+            return JsonResponse({'error': 'Invalid "startDay" or "endDay" parameter'}, status=400)
+
 
         dashboard = request.GET.get('dashboard', 'false').lower() == 'true'
         user = request.user
@@ -106,19 +126,6 @@ class OverallSentimentExp(APIView):
         print(dashboard)
         print(request.user)
 
-        overall_sentiments = OverallSentiment.objects.filter(entity=entity_id)
-        try:
-            if startDay is not None:
-                startDay = int(startDay)
-                start_date = timezone.now() - timedelta(days=startDay)
-                overall_sentiments = overall_sentiments.filter(
-                    article__publication_date__gte=start_date)
-
-            endDay = int(endDay)
-            end_date = timezone.now() - timedelta(days=endDay)
-            overall_sentiments = overall_sentiments.filter(article__publication_date__lte=end_date)
-        except ValueError:
-            return JsonResponse({'error': 'Invalid "startDay" or "endDay" parameter'}, status=400)
 
         # Apply user-specific filtering if the dashboard flag is true and the user is authenticated
         if dashboard and user.is_authenticated:
@@ -198,44 +205,66 @@ class OverallSentimentLinear(APIView):
     """
     Retrieves linear scaled sentiment scores for a specific entity.
     Optional dashboard-specific filtering for authenticated users SubscriptionCards in Vue.
+    Optional start / end date to provide a quicker call (database fetch + processing reduced)
     """
     authentication_classes = [JWTAuthentication]
 
     def get(self, request, *args, **kwargs):
-        entity_id = kwargs.get('entity_id')
-        days = request.GET.get('days', 180)  # 6 months maximum data if not in query params
+        def get(self, request, *args, **kwargs):
+            entity_id = kwargs.get('entity_id')
 
-        dashboard = request.GET.get('dashboard', 'false').lower() == 'true'
-        user = request.user
+            startDay = request.GET.get('startDay', 0)
+            endDay = request.GET.get('endDay', 180)  # 6 months maximum data if not in query params
 
-        print(dashboard)
-        print(request.user)
-
-        if days is None:
+            # Initialize the queryset for OverallSentiment objects
             overall_sentiments = OverallSentiment.objects.filter(entity=entity_id)
-        else:
+
             try:
-                days = int(days)  # Convert days to integer
-                # Calculate the date 'days' before today
-                start_date = timezone.now() - timedelta(days=days)
-                overall_sentiments = OverallSentiment.objects.filter(
-                    entity=entity_id,
-                    article__publication_date__gte=start_date
+                startDay = int(startDay)
+                endDay = int(endDay)
+
+                start_date = timezone.now() - timedelta(days=startDay)
+                end_date = timezone.now() - timedelta(days=endDay)
+
+                overall_sentiments = overall_sentiments.filter(
+                    article__publication_date__gte=start_date,
+                    article__publication_date__lte=end_date
                 )
             except ValueError:
-                # Days parameter not an int? -> 400
-                return JsonResponse({'error': 'Invalid "days" parameter'}, status=400)
+                return JsonResponse({'error': 'Invalid "startDay" or "endDay" parameter'},
+                                    status=400)
 
-        # Apply user-specific filtering if the dashboard flag is true and the user is authenticated
-        if dashboard and user.is_authenticated:
-            last_visit = user.last_visit_excluding_today or timezone.now()
-            overall_sentiments = overall_sentiments.filter(article__publication_date__gt=last_visit)
-        else:
-            last_visit = None
+            dashboard = request.GET.get('dashboard', 'false').lower() == 'true'
+            user = request.user
 
-        if not overall_sentiments.exists():
-            return JsonResponse({'error': 'No OverallSentiment found for the given entity_id'},
-                                status=404)
+            print(dashboard)
+            print(request.user)
+
+            # Apply user-specific filtering if the dashboard flag is true and the user is authenticated
+            if dashboard and user.is_authenticated:
+                last_visit = user.last_visit_excluding_today or timezone.now()
+
+                # last_visit = timezone.make_aware(
+                #     datetime.datetime.combine(last_visit.date(), datetime.time.min),
+                #     timezone.get_default_timezone()) - considered rounding down because I wasn't
+                #     seeing many articles
+
+                overall_sentiments = overall_sentiments.filter(
+                    article__publication_date__gt=last_visit)
+
+            else:
+                last_visit = None
+
+            if not overall_sentiments.exists() and last_visit is not None:
+                response_data = {
+                    'message': 'No new articles since last visit',
+                    'lastVisit': last_visit.isoformat(),
+                    'data': []
+                }
+                return JsonResponse(response_data, status=200)
+            elif not overall_sentiments.exists():
+                return JsonResponse({'error': 'No OverallSentiment found for the given entity_id'},
+                                    status=404)
 
         has_similar_pair = SimilarArticlePair.objects.filter(
             Q(article2_id__in=[sentiment.article.id for sentiment in overall_sentiments]),

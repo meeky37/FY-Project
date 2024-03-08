@@ -91,8 +91,9 @@ export default {
   methods: {
     fetchData () {
       const entityId = this.entry.entity_id
-      const startDay = 30
-      const apiUrl = `${API_BASE_URL}/profiles_app/overall_sentiments/exp/${entityId}/?startDay=${startDay}`
+      const endDay = 30
+      const apiUrl =
+          `${API_BASE_URL}/profiles_app/overall_sentiments/exp/${entityId}/?endDay=${endDay}`
 
       this.positiveArticle = []
       this.negativeArticle = []
