@@ -121,21 +121,36 @@ export default {
       const apiUrl =
           `${API_BASE_URL}/profiles_app/overall_sentiments/exp/${entityId}/?endDay=${endDay}&startDay=${startDay}`
 
-      this.positiveEntries = []
-      this.neutralEntries = []
-      this.negativeEntries = []
+      // axios.get(apiUrl)
+      //   .then(response => {
+      //     const { data: articles } = response.data
+      //
+      //     articles.forEach(article => {
+      //       if (parseFloat(article.positive) > parseFloat(article.neutral) && parseFloat(article.positive) > parseFloat(article.negative)) {
+      //         this.positiveEntries.push(article)
+      //       } else if (parseFloat(article.neutral) > parseFloat(article.positive) && parseFloat(article.neutral) > parseFloat(article.negative)) {
+      //         this.neutralEntries.push(article)
+      //       } else {
+      //         this.negativeEntries.push(article)
+      //       }
+      //     })
 
       axios.get(apiUrl)
         .then(response => {
           const { data: articles } = response.data
 
           articles.forEach(article => {
-            if (parseFloat(article.positive) > parseFloat(article.neutral) && parseFloat(article.positive) > parseFloat(article.negative)) {
-              this.positiveEntries.push(article)
-            } else if (parseFloat(article.neutral) > parseFloat(article.positive) && parseFloat(article.neutral) > parseFloat(article.negative)) {
-              this.neutralEntries.push(article)
+            const targetList = article.positive > article.neutral && article.positive > article.negative
+              ? this.positiveEntries
+              : article.neutral > article.positive && article.neutral > article.negative
+                ? this.neutralEntries
+                : this.negativeEntries
+
+            // Append to existing list if 'quick' is false (the 2nd api call made on entity change)
+            if (!quick && [...this.positiveEntries, ...this.neutralEntries, ...this.negativeEntries].some((existingArticle) => existingArticle.id === article.id)) {
+              // Article already exists
             } else {
-              this.negativeEntries.push(article)
+              targetList.push(article)
             }
           })
           // Call sortEntries ONLY after data has been processed
