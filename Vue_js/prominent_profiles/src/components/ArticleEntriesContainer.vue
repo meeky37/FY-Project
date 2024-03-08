@@ -114,7 +114,8 @@ export default {
       // Time period for the API call is based on the 'quick' flag
       const endDay = quick ? 14 : 180
       const apiUrl =
-          `${API_BASE_URL}/profiles_app/overall_sentiments/exp/${entityId}/?endDay=${endDay}/?startDay=${startDay}`
+          `${API_BASE_URL}/profiles_app/overall_sentiments/exp/${entityId}/?endDay=${endDay}&?startDay=${startDay}`
+
 
       this.positiveEntries = []
       this.neutralEntries = []
