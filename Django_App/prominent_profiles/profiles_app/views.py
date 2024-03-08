@@ -113,19 +113,17 @@ class OverallSentimentExp(APIView):
             end_date = timezone.now() - timedelta(days=endDay)
 
             overall_sentiments = overall_sentiments.filter(
-                article__publication_date__gte=start_date,
-                article__publication_date__lte=end_date
+                article__publication_date__lte=start_date,
+                article__publication_date__gte=end_date
             )
         except ValueError:
             return JsonResponse({'error': 'Invalid "startDay" or "endDay" parameter'}, status=400)
-
 
         dashboard = request.GET.get('dashboard', 'false').lower() == 'true'
         user = request.user
 
         print(dashboard)
         print(request.user)
-
 
         # Apply user-specific filtering if the dashboard flag is true and the user is authenticated
         if dashboard and user.is_authenticated:
@@ -210,61 +208,60 @@ class OverallSentimentLinear(APIView):
     authentication_classes = [JWTAuthentication]
 
     def get(self, request, *args, **kwargs):
-        def get(self, request, *args, **kwargs):
-            entity_id = kwargs.get('entity_id')
+        entity_id = kwargs.get('entity_id')
 
-            startDay = request.GET.get('startDay', 0)
-            endDay = request.GET.get('endDay', 180)  # 6 months maximum data if not in query params
+        startDay = request.GET.get('startDay', 0)
+        endDay = request.GET.get('endDay', 180)  # 6 months maximum data if not in query params
 
-            # Initialize the queryset for OverallSentiment objects
-            overall_sentiments = OverallSentiment.objects.filter(entity=entity_id)
+        # Initialize the queryset for OverallSentiment objects
+        overall_sentiments = OverallSentiment.objects.filter(entity=entity_id)
 
-            try:
-                startDay = int(startDay)
-                endDay = int(endDay)
+        try:
+            startDay = int(startDay)
+            endDay = int(endDay)
 
-                start_date = timezone.now() - timedelta(days=startDay)
-                end_date = timezone.now() - timedelta(days=endDay)
+            start_date = timezone.now() - timedelta(days=startDay)
+            end_date = timezone.now() - timedelta(days=endDay)
 
-                overall_sentiments = overall_sentiments.filter(
-                    article__publication_date__gte=start_date,
-                    article__publication_date__lte=end_date
-                )
-            except ValueError:
-                return JsonResponse({'error': 'Invalid "startDay" or "endDay" parameter'},
-                                    status=400)
+            overall_sentiments = overall_sentiments.filter(
+                article__publication_date__lte=start_date,
+                article__publication_date__gte=end_date
+            )
+        except ValueError:
+            return JsonResponse({'error': 'Invalid "startDay" or "endDay" parameter'},
+                                status=400)
 
-            dashboard = request.GET.get('dashboard', 'false').lower() == 'true'
-            user = request.user
+        dashboard = request.GET.get('dashboard', 'false').lower() == 'true'
+        user = request.user
 
-            print(dashboard)
-            print(request.user)
+        print(dashboard)
+        print(request.user)
 
-            # Apply user-specific filtering if the dashboard flag is true and the user is authenticated
-            if dashboard and user.is_authenticated:
-                last_visit = user.last_visit_excluding_today or timezone.now()
+        # Apply user-specific filtering if the dashboard flag is true and the user is authenticated
+        if dashboard and user.is_authenticated:
+            last_visit = user.last_visit_excluding_today or timezone.now()
 
-                # last_visit = timezone.make_aware(
-                #     datetime.datetime.combine(last_visit.date(), datetime.time.min),
-                #     timezone.get_default_timezone()) - considered rounding down because I wasn't
-                #     seeing many articles
+            # last_visit = timezone.make_aware(
+            #     datetime.datetime.combine(last_visit.date(), datetime.time.min),
+            #     timezone.get_default_timezone()) - considered rounding down because I wasn't
+            #     seeing many articles
 
-                overall_sentiments = overall_sentiments.filter(
-                    article__publication_date__gt=last_visit)
+            overall_sentiments = overall_sentiments.filter(
+                article__publication_date__gt=last_visit)
 
-            else:
-                last_visit = None
+        else:
+            last_visit = None
 
-            if not overall_sentiments.exists() and last_visit is not None:
-                response_data = {
-                    'message': 'No new articles since last visit',
-                    'lastVisit': last_visit.isoformat(),
-                    'data': []
-                }
-                return JsonResponse(response_data, status=200)
-            elif not overall_sentiments.exists():
-                return JsonResponse({'error': 'No OverallSentiment found for the given entity_id'},
-                                    status=404)
+        if not overall_sentiments.exists() and last_visit is not None:
+            response_data = {
+                'message': 'No new articles since last visit',
+                'lastVisit': last_visit.isoformat(),
+                'data': []
+            }
+            return JsonResponse(response_data, status=200)
+        elif not overall_sentiments.exists():
+            return JsonResponse({'error': 'No OverallSentiment found for the given entity_id'},
+                                status=404)
 
         has_similar_pair = SimilarArticlePair.objects.filter(
             Q(article2_id__in=[sentiment.article.id for sentiment in overall_sentiments]),
