@@ -89,7 +89,7 @@ export default {
       if (newId !== undefined) {
         // Changed entity path get new data (contains sort + date filter)
         this.fetchData(true)
-        this.fetchData()
+        this.fetchData(false)
       }
     },
     sortType (newSortType, oldSortType) {
@@ -108,6 +108,11 @@ export default {
 
   methods: {
     fetchData (quick = true) {
+      if (quick === true) {
+        this.positiveEntries = []
+        this.neutralEntries = []
+        this.negativeEntries = []
+      }
       const entityId = this.$route.params.id
       // Start from day 0 for quick, and day 15 for the full fetch
       const startDay = quick ? 0 : 15
