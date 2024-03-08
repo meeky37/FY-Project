@@ -109,9 +109,12 @@ export default {
   methods: {
     fetchData (quick = false) {
       const entityId = this.$route.params.id
+      // Start from day 0 for quick, and day 15 for the full fetch
+      const startDay = quick ? 0 : 15
       // Time period for the API call is based on the 'quick' flag
-      const days = quick ? 14 : 180
-      const apiUrl = `${API_BASE_URL}/profiles_app/overall_sentiments/exp/${entityId}/?days=${days}`
+      const endDay = quick ? 14 : 180
+      const apiUrl =
+          `${API_BASE_URL}/profiles_app/overall_sentiments/exp/${entityId}/?endDay=${endDay}/?startDay=${startDay}`
 
       this.positiveEntries = []
       this.neutralEntries = []

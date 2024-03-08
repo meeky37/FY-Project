@@ -19,6 +19,7 @@ class VisibleEntitiesView(APIView):
     Fetches and returns a list of all entities marked as visible by admins.
     This determines what entities are selectable in the front end.
     """
+
     def get(self, request, *args, **kwargs):
         visible_entities = Entity.objects.filter(app_visible=True).order_by('name')
         serialized_entities = [
@@ -33,6 +34,7 @@ class BingEntityDetailView(APIView):
     Provides the full view of entities complimenting details obtained from bing, for more
     detailed pages e.g. the EntityPage.vue
     """
+
     def get(self, request, *args, **kwargs):
         entity_id = kwargs.get('entity_id')
         bing_entity = get_object_or_404(BingEntity, entity=entity_id)
@@ -57,6 +59,7 @@ class BingEntityMiniView(APIView):
     Provides a minimal view of a entities complementing details obtained from bing, primarily for 
     quick lookups, faster page loading.
     """
+
     def get(self, request, *args, **kwargs):
         entity_id = kwargs.get('entity_id')
 
@@ -94,8 +97,8 @@ class OverallSentimentExp(APIView):
 
     def get(self, request, *args, **kwargs):
         entity_id = kwargs.get('entity_id')
-        days = request.GET.get('days', 180) # 6 months maximum data if not in query params
-
+        startDay = request.GET.get('startDay', None)
+        endDay = request.GET.get('endDay', 180)  # 6 months maximum data if not in query params
 
         dashboard = request.GET.get('dashboard', 'false').lower() == 'true'
         user = request.user
@@ -103,20 +106,19 @@ class OverallSentimentExp(APIView):
         print(dashboard)
         print(request.user)
 
-        if days is None:
-            overall_sentiments = OverallSentiment.objects.filter(entity=entity_id)
-        else:
-            try:
-                days = int(days)  # Convert days to integer
-                # Calculate the date 'days' before today
-                start_date = timezone.now() - timedelta(days=days)
-                overall_sentiments = OverallSentiment.objects.filter(
-                    entity=entity_id,
-                    article__publication_date__gte=start_date
-                )
-            except ValueError:
-                # Days parameter not an int? -> 400
-                return JsonResponse({'error': 'Invalid "days" parameter'}, status=400)
+        overall_sentiments = OverallSentiment.objects.filter(entity=entity_id)
+        try:
+            if startDay is not None:
+                startDay = int(startDay)
+                start_date = timezone.now() - timedelta(days=startDay)
+                overall_sentiments = overall_sentiments.filter(
+                    article__publication_date__gte=start_date)
+
+            endDay = int(endDay)
+            end_date = timezone.now() - timedelta(days=endDay)
+            overall_sentiments = overall_sentiments.filter(article__publication_date__lte=end_date)
+        except ValueError:
+            return JsonResponse({'error': 'Invalid "startDay" or "endDay" parameter'}, status=400)
 
         # Apply user-specific filtering if the dashboard flag is true and the user is authenticated
         if dashboard and user.is_authenticated:
@@ -201,8 +203,7 @@ class OverallSentimentLinear(APIView):
 
     def get(self, request, *args, **kwargs):
         entity_id = kwargs.get('entity_id')
-        days = request.GET.get('days', 180) # 6 months maximum data if not in query params
-
+        days = request.GET.get('days', 180)  # 6 months maximum data if not in query params
 
         dashboard = request.GET.get('dashboard', 'false').lower() == 'true'
         user = request.user
@@ -289,6 +290,7 @@ class ArticleOverallSentimentExp(APIView):
     """
     Gets exponential sentiment analysis results for all entities mentioned in a specific article.
     """
+
     def get(self, request, *args, **kwargs):
         article_id = kwargs.get('article_id')
         entity_id = kwargs.get('entity_id')
