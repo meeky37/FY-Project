@@ -152,8 +152,17 @@ export default {
           start: lastVisitDate,
           end: currentDate
         }
-        this.$emit('updateDateFilter', this.dateRange)
+      } else {
+        // If `last_visit` is not provided, set the date range to the last 14 days
+        const currentDate = new Date()
+        const startDate = new Date()
+        startDate.setDate(currentDate.getDate() - 14)
+        this.dateRange = {
+          start: startDate,
+          end: currentDate
+        }
       }
+      this.$emit('updateDateFilter', this.dateRange)
     }
   }
 }

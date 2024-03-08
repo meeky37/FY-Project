@@ -94,13 +94,29 @@ class OverallSentimentExp(APIView):
 
     def get(self, request, *args, **kwargs):
         entity_id = kwargs.get('entity_id')
+        days = request.GET.get('days', 180) # 6 months maximum data if not in query params
+
 
         dashboard = request.GET.get('dashboard', 'false').lower() == 'true'
         user = request.user
 
         print(dashboard)
         print(request.user)
-        overall_sentiments = OverallSentiment.objects.filter(entity=entity_id)
+
+        if days is None:
+            overall_sentiments = OverallSentiment.objects.filter(entity=entity_id)
+        else:
+            try:
+                days = int(days)  # Convert days to integer
+                # Calculate the date 'days' before today
+                start_date = timezone.now() - timedelta(days=days)
+                overall_sentiments = OverallSentiment.objects.filter(
+                    entity=entity_id,
+                    article__publication_date__gte=start_date
+                )
+            except ValueError:
+                # Days parameter not an int? -> 400
+                return JsonResponse({'error': 'Invalid "days" parameter'}, status=400)
 
         # Apply user-specific filtering if the dashboard flag is true and the user is authenticated
         if dashboard and user.is_authenticated:
@@ -112,7 +128,6 @@ class OverallSentimentExp(APIView):
             #     seeing many articles
 
             overall_sentiments = overall_sentiments.filter(article__publication_date__gt=last_visit)
-            # overall_sentiments = overall_sentiments.filter(article__date_added__gt=last_visit)
 
         else:
             last_visit = None
@@ -186,13 +201,29 @@ class OverallSentimentLinear(APIView):
 
     def get(self, request, *args, **kwargs):
         entity_id = kwargs.get('entity_id')
+        days = request.GET.get('days', 180) # 6 months maximum data if not in query params
+
 
         dashboard = request.GET.get('dashboard', 'false').lower() == 'true'
         user = request.user
 
         print(dashboard)
         print(request.user)
-        overall_sentiments = OverallSentiment.objects.filter(entity=entity_id)
+
+        if days is None:
+            overall_sentiments = OverallSentiment.objects.filter(entity=entity_id)
+        else:
+            try:
+                days = int(days)  # Convert days to integer
+                # Calculate the date 'days' before today
+                start_date = timezone.now() - timedelta(days=days)
+                overall_sentiments = OverallSentiment.objects.filter(
+                    entity=entity_id,
+                    article__publication_date__gte=start_date
+                )
+            except ValueError:
+                # Days parameter not an int? -> 400
+                return JsonResponse({'error': 'Invalid "days" parameter'}, status=400)
 
         # Apply user-specific filtering if the dashboard flag is true and the user is authenticated
         if dashboard and user.is_authenticated:

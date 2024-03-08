@@ -78,6 +78,7 @@ export default {
   },
 
   mounted () {
+    this.fetchData(true)
     this.fetchData()
   },
 
@@ -87,6 +88,7 @@ export default {
       // newId not defined? e.g. homepage don't attempt new API call.
       if (newId !== undefined) {
         // Changed entity path get new data (contains sort + date filter)
+        this.fetchData(true)
         this.fetchData()
       }
     },
@@ -105,9 +107,11 @@ export default {
   },
 
   methods: {
-    fetchData () {
+    fetchData (quick = false) {
       const entityId = this.$route.params.id
-      const apiUrl = `${API_BASE_URL}/profiles_app/overall_sentiments/exp/${entityId}/`
+      // Time period for the API call is based on the 'quick' flag
+      const days = quick ? 14 : 180
+      const apiUrl = `${API_BASE_URL}/profiles_app/overall_sentiments/exp/${entityId}/?days=${days}`
 
       this.positiveEntries = []
       this.neutralEntries = []
