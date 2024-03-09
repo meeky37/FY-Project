@@ -112,6 +112,9 @@ export default {
         this.positiveEntries = []
         this.neutralEntries = []
         this.negativeEntries = []
+        this.originalPositiveEntries = []
+        this.originalNeutralEntries = []
+        this.originalNegativeEntries = []
       }
       const entityId = this.$route.params.id
       // Start from day 0 for quick, and day 15 for the full fetch
