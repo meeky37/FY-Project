@@ -8,8 +8,8 @@
           </p>
         </div>
         <div class="entry-column-wrapper">
-          <!-- Positive Entries -->
-          <div class="entry-column" :key="`positive-${$route.params.id}`">
+          <div class="entry-column">
+            <!-- Positive Entries -->
             <ArticleEntry v-for="entry in positiveEntries" :key="entry.id" :entry="entry" />
           </div>
         </div>
@@ -22,8 +22,8 @@
           </p>
         </div>
         <div class="entry-column-wrapper">
-          <!-- Neutral Entries -->
-          <div class="entry-column" :key="`neutral-${$route.params.id}`">
+          <div class="entry-column">
+            <!-- Neutral Entries -->
             <ArticleEntry v-for="entry in neutralEntries" :key="entry.id" :entry="entry" />
           </div>
         </div>
@@ -36,8 +36,8 @@
           </p>
         </div>
         <div class="entry-column-wrapper">
-          <!-- Negative Entries -->
-          <div class="entry-column" :key="`negative-${$route.params.id}`">
+          <div class="entry-column">
+            <!-- Negative Entries -->
             <ArticleEntry v-for="entry in negativeEntries" :key="entry.id" :entry="entry" />
           </div>
         </div>
@@ -121,36 +121,17 @@ export default {
       const apiUrl =
           `${API_BASE_URL}/profiles_app/overall_sentiments/exp/${entityId}/?endDay=${endDay}&startDay=${startDay}`
 
-      // axios.get(apiUrl)
-      //   .then(response => {
-      //     const { data: articles } = response.data
-      //
-      //     articles.forEach(article => {
-      //       if (parseFloat(article.positive) > parseFloat(article.neutral) && parseFloat(article.positive) > parseFloat(article.negative)) {
-      //         this.positiveEntries.push(article)
-      //       } else if (parseFloat(article.neutral) > parseFloat(article.positive) && parseFloat(article.neutral) > parseFloat(article.negative)) {
-      //         this.neutralEntries.push(article)
-      //       } else {
-      //         this.negativeEntries.push(article)
-      //       }
-      //     })
-
       axios.get(apiUrl)
         .then(response => {
           const { data: articles } = response.data
 
           articles.forEach(article => {
-            const targetList = article.positive > article.neutral && article.positive > article.negative
-              ? this.positiveEntries
-              : article.neutral > article.positive && article.neutral > article.negative
-                ? this.neutralEntries
-                : this.negativeEntries
-
-            // Append to existing list if 'quick' is false (the 2nd api call made on entity change)
-            if (!quick && [...this.positiveEntries, ...this.neutralEntries, ...this.negativeEntries].some((existingArticle) => existingArticle.id === article.id)) {
-              // Article already exists
+            if (parseFloat(article.positive) > parseFloat(article.neutral) && parseFloat(article.positive) > parseFloat(article.negative)) {
+              this.positiveEntries.push(article)
+            } else if (parseFloat(article.neutral) > parseFloat(article.positive) && parseFloat(article.neutral) > parseFloat(article.negative)) {
+              this.neutralEntries.push(article)
             } else {
-              targetList.push(article)
+              this.negativeEntries.push(article)
             }
           })
           // Call sortEntries ONLY after data has been processed

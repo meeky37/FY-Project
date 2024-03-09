@@ -147,8 +147,11 @@ class OverallSentimentExp(APIView):
             }
             return JsonResponse(response_data, status=200)
         elif not overall_sentiments.exists():
-            return JsonResponse({'error': 'No OverallSentiment found for the given entity_id'},
-                                status=404)
+            response_data = {
+                'message': 'No articles to show',
+                'data': []
+            }
+            return JsonResponse(response_data, status=200)
 
         has_similar_pair = SimilarArticlePair.objects.filter(
             Q(article2_id__in=[sentiment.article.id for sentiment in overall_sentiments]),
@@ -260,8 +263,11 @@ class OverallSentimentLinear(APIView):
             }
             return JsonResponse(response_data, status=200)
         elif not overall_sentiments.exists():
-            return JsonResponse({'error': 'No OverallSentiment found for the given entity_id'},
-                                status=404)
+            response_data = {
+                'message': 'No articles to show',
+                'data': []
+            }
+            return JsonResponse(response_data, status=200)
 
         has_similar_pair = SimilarArticlePair.objects.filter(
             Q(article2_id__in=[sentiment.article.id for sentiment in overall_sentiments]),
