@@ -17,6 +17,7 @@ from django.core.mail import send_mail
 from django.core.management.base import BaseCommand
 from django.utils import timezone
 from django.conf import settings
+from django import db
 from fastcoref import FCoref
 from nlp_processor.bing_api import *
 from nlp_processor.models import ProcessedFile
@@ -282,6 +283,7 @@ class Command(BaseCommand):
 
         print("Article Objects length...")
         print(len(article_objects))
+        db.close_old_connections()
         return article_objects
 
     def process_file(self, source_file_id, file_name, start, end, processed_urls, ner):
@@ -397,7 +399,7 @@ class Command(BaseCommand):
 
         29th Feb adding emails to internal email address for easy job monitoring.
         """
-
+        db.close_old_connections()
         logger = logging.getLogger('scrape_articles_logger')
         logger.info(f"Scrape and analyse articles job started at {datetime.now()}")
 
@@ -470,3 +472,5 @@ class Command(BaseCommand):
             [settings.EMAIL_HOST_USER],
             fail_silently=True,
         )
+
+        db.close_old_connections()
