@@ -9,7 +9,7 @@
               @click="forgotPassword"
               v-if="loginErrorMessage"
               >Forgot Password?</button>
-      <label for="emailPhone" class="label">Email:</label>
+      <label for="emailPhone" class="label">Email/Phone:</label>
       <input type="text"
              id="emailPhone"
              ref="emailPhoneInput"
@@ -43,7 +43,11 @@ import VueCookies from 'vue-cookie'
 import axios from 'axios'
 import { API_BASE_URL } from '@/config.js'
 import { useRouter } from 'vue-router'
-import { usePasswordValidation } from '@/shared_methods/validationUtils'
+import {
+  useEmailValidation,
+  usePasswordValidation,
+  usePhoneValidation
+} from '@/shared_methods/validationUtils'
 
 export default {
   name: 'LoginPage',
@@ -91,7 +95,6 @@ export default {
     }
 
     const showForgotPassword = computed(() => {
-      // Adjust the condition based on the actual error message you receive
       return loginErrorMessage.value === 'No active account found with the given credentials'
     })
 
@@ -107,16 +110,17 @@ export default {
       // Clear the previous timer
       clearTimeout(validationTimerUser)
 
-      // Set a new timer to wait for 500 milliseconds (adjust as needed)
+      // Using a new timer
+      // to wait for 1000 milliseconds so user gets a chance to input without pop up
       validationTimerUser = setTimeout(() => {
         if (emailPhone.value !== '') {
-          // Validation criteria
-          const isPhoneNumber = /^\d{1,16}$/.test(emailPhone.value)
-          const isEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(emailPhone.value)
+          // Validation updated 14th March to use validationUtils
+          const isPhoneNumber = usePhoneValidation(emailPhone.value)
+          const isEmail = useEmailValidation(emailPhone.value)
 
           // Validation message updated based on email/phone input
           if (!(isPhoneNumber || isEmail)) {
-            validationMessageUser.value = 'Invalid email format'
+            validationMessageUser.value = 'Invalid email/phone format (use +44)'
           } else {
             validationMessageUser.value = ''
           }
