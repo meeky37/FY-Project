@@ -16,7 +16,7 @@
              v-model="emailPhone"
              class="input-field"
              @keyup.enter="focusPasswordInput"/>
-    <p v-if="validationMessageUser" class="validation-message">{{ validationMessageUser }}</p>
+    <p v-if="displayEmailPhoneMessage" class="validation-message">{{ validationMessageEmailPhone }}</p>
     </div>
 
     <div class="form-group">
@@ -38,15 +38,15 @@
   </div>
 </template>
 <script>
-import { computed, ref, watch } from 'vue'
+import { computed, ref } from 'vue'
 import VueCookies from 'vue-cookie'
 import axios from 'axios'
 import { API_BASE_URL } from '@/config.js'
 import { useRouter } from 'vue-router'
 import {
   useEmailValidation,
-  usePasswordValidation,
-  usePhoneValidation
+  usePasswordValidation, usePhoneValidation
+  // usePhoneValidation
 } from '@/shared_methods/validationUtils'
 
 export default {
@@ -58,10 +58,24 @@ export default {
     const validationMessageUser = ref('')
     const router = useRouter()
     const loginErrorMessage = ref('')
-
-    let validationTimerUser = null
-
     const { validationMessagePassword } = usePasswordValidation(password)
+    const { validationMessagePhone } = usePhoneValidation(emailPhone)
+    const { validationMessageEmail } = useEmailValidation(emailPhone)
+
+    const displayEmailPhoneMessage = computed(() => {
+      return validationMessageEmail.value !== '' && validationMessagePhone.value !== ''
+    })
+
+    const isEmailInput = computed(() => emailPhone.value.includes('@'))
+
+    const validationMessageEmailPhone = computed(() => {
+      if (isEmailInput.value) {
+        return validationMessageEmail.value
+      } else {
+        return validationMessagePhone.value
+      }
+    })
+
     const focusPasswordInput = () => {
       document.getElementById('password').focus()
     }
@@ -70,7 +84,7 @@ export default {
       if (validationMessageUser.value === '' && validationMessagePassword.value === '') {
         axios
           .post(`${API_BASE_URL}/accounts/api/token/`, {
-            email: emailPhone.value,
+            emailPhone: emailPhone.value,
             password: password.value
           })
           .then((response) => {
@@ -105,39 +119,37 @@ export default {
     const forgotPassword = () => {
       router.push('/forgot-password')
     }
-
-    const validateUserNameInput = () => {
-      // Clear the previous timer
-      clearTimeout(validationTimerUser)
-
-      // Using a new timer
-      // to wait for 1000 milliseconds so user gets a chance to input without pop up
-      validationTimerUser = setTimeout(() => {
-        if (emailPhone.value !== '') {
-          // Validation updated 14th March to use validationUtils
-          const isPhoneNumber = usePhoneValidation(emailPhone.value)
-          const isEmail = useEmailValidation(emailPhone.value)
-
-          // Validation message updated based on email/phone input
-          if (!(isPhoneNumber || isEmail)) {
-            validationMessageUser.value = 'Invalid email/phone format (use +44)'
-          } else {
-            validationMessageUser.value = ''
-          }
-        } else {
-          validationMessageUser.value = ''
-        }
-      }, 1000)
-    }
+    // const validateUserNameInput = () => {
+    //   // Clear the previous timer
+    //   clearTimeout(validationTimerUser)
+    //
+    //   // Using a new timer
+    //   // to wait for 1000 milliseconds so user gets a chance to input without pop up
+    //   validationTimerUser = setTimeout(() => {
+    //     if (emailPhone.value !== '') {
+    //       // Validation message updated based on email/phone input
+    //       // if (validationMessageEmail.value === '' &&
+    //       //     validationMessagePhone.value === '') {
+    //       if (validationMessageEmail.value === '') {
+    //         validationMessageUser.value = 'Invalid email/phone format (use +44)'
+    //       } else {
+    //         validationMessageUser.value = ''
+    //       }
+    //     } else {
+    //       validationMessageUser.value = ''
+    //     }
+    //   }, 1000)
+    // }
 
     // Watch for changes in emailPhone and password and trigger validation
-    watch(emailPhone, validateUserNameInput)
+    // watch(emailPhone, validateUserNameInput)
 
     return {
       emailPhone,
       password,
-      validationMessageUser,
+      validationMessageEmailPhone,
       validationMessagePassword,
+      displayEmailPhoneMessage,
       focusPasswordInput,
       loginErrorMessage,
       login,
