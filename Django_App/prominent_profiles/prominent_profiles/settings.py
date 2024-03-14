@@ -30,7 +30,7 @@ else:
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ["localhost", "157.245.46.42", "www.prominentprofiles.com",
                  "prominentprofiles.com",
@@ -64,6 +64,11 @@ REST_FRAMEWORK = {
         'rest_framework_simplejwt.authentication.JWTAuthentication',
     ),
 }
+
+AUTHENTICATION_BACKENDS = [
+    'accounts.backends.EmailPhoneBackend',
+    'django.contrib.auth.backends.ModelBackend'
+]
 
 AUTH_USER_MODEL = 'accounts.CustomUser'
 
@@ -191,6 +196,9 @@ if os.getenv('RUNNING_IN_DOCKER', 'False') == 'True':
             'PASSWORD': os.getenv('DB_PASSWORD', ''),
             'HOST': os.getenv('DB_HOST', 'db'),
             'PORT': os.getenv('DB_PORT', '25060'),
+            'OPTIONS': {
+                'options': '-c statement_timeout=300000'  # Timeout = 300 seconds / 5 minutes
+            },
         }
     }
 else:

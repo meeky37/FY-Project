@@ -8,9 +8,10 @@ from rest_framework.response import Response
 from rest_framework.permissions import AllowAny, IsAuthenticated
 from django.contrib.auth import authenticate
 from django.contrib.auth.views import PasswordResetView
+from rest_framework_simplejwt.views import TokenObtainPairView
 
 from .models import Subscription
-from .serializers import CustomUserSerializer
+from .serializers import CustomUserSerializer, CustomTokenObtainPairSerializer
 from profiles_app.models import Entity
 
 
@@ -45,33 +46,33 @@ def register_user(request):
                             status=status.HTTP_400_BAD_REQUEST)
 
 
-@api_view(['POST'])
-@permission_classes([AllowAny])
-def custom_login(request):
-    """
-    Handles a login case of email or phone number.
-    The '@' should be suitable as validation in VueJS covers this holistically beforehand.
-    """
-
-    input_data = request.data
-    user_input = input_data.get('input')
-    password = input_data.get('password')
-
-    is_email = '@' in user_input
-    if is_email:
-        user = authenticate(request, email=user_input, password=password)
-    else:
-        user = authenticate(request, phone_number=user_input, password=password)
-
-    if user is not None:
-        refresh = RefreshToken.for_user(user)
-        access_token = str(refresh.access_token)
-        refresh_token = str(refresh)
-
-        return Response(
-            {'success': True, 'access_token': access_token, 'refresh_token': refresh_token})
-    else:
-        return Response({'success': False, 'error': 'Invalid credentials'})
+# @api_view(['POST'])
+# @permission_classes([AllowAny])
+# def custom_login(request):
+#     """
+#     Handles a login case of email or phone number.
+#     The '@' should be suitable as validation in VueJS covers this holistically beforehand.
+#     """
+#
+#     input_data = request.data
+#     user_input = input_data.get('input')
+#     password = input_data.get('password')
+#
+#     is_email = '@' in user_input
+#     if is_email:
+#         user = authenticate(request, email=user_input, password=password)
+#     else:
+#         user = authenticate(request, phone_number=user_input, password=password)
+#
+#     if user is not None:
+#         refresh = RefreshToken.for_user(user)
+#         access_token = str(refresh.access_token)
+#         refresh_token = str(refresh)
+#
+#         return Response(
+#             {'success': True, 'access_token': access_token, 'refresh_token': refresh_token})
+#     else:
+#         return Response({'success': False, 'error': 'Invalid credentials'})
 
 
 @api_view(['GET'])
@@ -151,3 +152,7 @@ class CustomPasswordResetView(PasswordResetView):
     """
     email_template_name = 'password_reset_email.txt'
     html_email_template_name = 'password_reset_email.html'
+
+
+class CustomTokenObtainPairView(TokenObtainPairView):
+    serializer_class = CustomTokenObtainPairSerializer

@@ -1,4 +1,9 @@
+from django.contrib.auth import authenticate
+from django.contrib.auth.models import update_last_login
 from rest_framework import serializers
+from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
+from rest_framework_simplejwt.settings import api_settings
+
 from .models import CustomUser
 
 
@@ -23,3 +28,41 @@ class CustomUserSerializer(serializers.ModelSerializer):
     def create(self, validated_data):
         user = CustomUser.objects.create_user(**validated_data)
         return user
+
+
+class CustomTokenObtainPairSerializer(TokenObtainPairSerializer):
+    default_error_messages = {
+        'no_active_account': _('No active account found with the given credentials')
+    }
+
+    def validate(self, attrs):
+        """
+        Handles a login case of email or phone number.
+        The '@' should be suitable as validation in VueJS covers this holistically beforehand.
+        """
+        user_input = attrs.get('emailPhone')
+        password = attrs.get('password')
+
+        # The 'authenticate' method should be configured accordingly in your custom backend
+        user = authenticate(
+            request=self.context.get('request'),
+            email=user_input,
+            password=password) or authenticate(
+            request=self.context.get('request'),
+            phone_number=user_input,
+            password=password)
+
+        if user is None or not user.is_active:
+            raise self.get_error_details()
+
+        data = {}
+
+        refresh = self.get_token(user)
+
+        data['refresh'] = str(refresh)
+        data['access'] = str(refresh.access_token)
+
+        if api_settings.UPDATE_LAST_LOGIN:
+            update_last_login(None, user)
+
+        return data
