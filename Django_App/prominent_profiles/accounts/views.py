@@ -154,5 +154,6 @@ class CustomPasswordResetView(PasswordResetView):
     html_email_template_name = 'password_reset_email.html'
 
 
+@permission_classes([AllowAny])
 class CustomTokenObtainPairView(TokenObtainPairView):
     serializer_class = CustomTokenObtainPairSerializer

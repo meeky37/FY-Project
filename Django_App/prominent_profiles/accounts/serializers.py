@@ -1,5 +1,6 @@
 from django.contrib.auth import authenticate
 from django.contrib.auth.models import update_last_login
+from django.core.exceptions import ValidationError
 from rest_framework import serializers
 from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
 from rest_framework_simplejwt.settings import api_settings
@@ -32,7 +33,7 @@ class CustomUserSerializer(serializers.ModelSerializer):
 
 class CustomTokenObtainPairSerializer(TokenObtainPairSerializer):
     default_error_messages = {
-        'no_active_account': _('No active account found with the given credentials')
+        'no_active_account': 'No active account found with the given credentials'
     }
 
     def validate(self, attrs):
@@ -40,20 +41,20 @@ class CustomTokenObtainPairSerializer(TokenObtainPairSerializer):
         Handles a login case of email or phone number.
         The '@' should be suitable as validation in VueJS covers this holistically beforehand.
         """
-        user_input = attrs.get('emailPhone')
+
+        user_input = attrs.get('email')
         password = attrs.get('password')
-
-        # The 'authenticate' method should be configured accordingly in your custom backend
-        user = authenticate(
-            request=self.context.get('request'),
-            email=user_input,
-            password=password) or authenticate(
-            request=self.context.get('request'),
-            phone_number=user_input,
-            password=password)
-
-        if user is None or not user.is_active:
-            raise self.get_error_details()
+        print(user_input)
+        print(password)
+        user = None
+        if user_input:
+            if '@' in user_input:
+                user = authenticate(request=self.context.get('request'), email=user_input, password=password)
+            else:
+                user = authenticate(request=self.context.get('request'), phone_number=user_input, password=password)
+        print("user", user)
+        if user is None:
+            raise ValidationError(self.default_error_messages['no_active_account'])
 
         data = {}
 

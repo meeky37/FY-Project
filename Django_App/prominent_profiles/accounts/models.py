@@ -32,7 +32,7 @@ class CustomUser(AbstractBaseUser, PermissionsMixin):
     CustomUserManager (above) is used for objects creation.
     """
     email = models.EmailField(unique=True)
-    phone_number = models.CharField(max_length=15, blank=True, null=True)
+    phone_number = models.CharField(max_length=15, blank=True, null=True, unique=True)
     date_of_birth = models.DateField(blank=True, null=True)
     email_verified = models.BooleanField(default=False)
     location = models.CharField(max_length=255, blank=True, null=True)

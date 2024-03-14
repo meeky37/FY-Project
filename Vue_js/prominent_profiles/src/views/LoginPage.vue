@@ -84,7 +84,7 @@ export default {
       if (validationMessageUser.value === '' && validationMessagePassword.value === '') {
         axios
           .post(`${API_BASE_URL}/accounts/api/token/`, {
-            emailPhone: emailPhone.value,
+            email: emailPhone.value,
             password: password.value
           })
           .then((response) => {
@@ -100,6 +100,7 @@ export default {
             if (error.response && error.response.data && error.response.data.detail) {
               loginErrorMessage.value = error.response.data.detail // Set custom error message
             } else {
+              console.log(error)
               loginErrorMessage.value = 'An unexpected error occurred. Please try again later.'
             }
           })
