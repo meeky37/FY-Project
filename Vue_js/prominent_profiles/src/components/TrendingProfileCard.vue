@@ -91,7 +91,7 @@ export default {
   methods: {
     fetchData () {
       const entityId = this.entry.entity_id
-      const endDay = 30
+      const endDay = 15
       const apiUrl =
           `${API_BASE_URL}/profiles_app/overall_sentiments/exp/${entityId}/?endDay=${endDay}`
 
