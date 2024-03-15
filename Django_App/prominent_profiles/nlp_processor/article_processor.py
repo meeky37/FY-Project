@@ -32,7 +32,7 @@ import ppdeep
 from textblob import TextBlob
 
 from django.core.exceptions import ValidationError
-from django.db import IntegrityError, OperationalError, DataError
+from django.db import IntegrityError, OperationalError, DataError, connection
 from django.db.models import Q
 
 from nlp_processor.sentiment_resolver import SentimentAnalyser
@@ -753,4 +753,5 @@ class Article:
                     similar = True
                     return similar
 
+        connection.close()
         return similar
