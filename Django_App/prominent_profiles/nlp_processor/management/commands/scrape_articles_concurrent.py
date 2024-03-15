@@ -389,6 +389,8 @@ class Command(BaseCommand):
         finally:
             # Putting the SentimentAnalyser back in the queue, even if exception takes place
             self.sa_queue.put(sa)
+            # Close connection used in thread due to low digital ocean limit.
+            connection.close()
 
     # @profile
     def handle(self, *args, **options):
