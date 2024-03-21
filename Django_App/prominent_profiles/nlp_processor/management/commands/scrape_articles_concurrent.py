@@ -87,6 +87,8 @@ def perform_coreference_resolution(article_texts, batch_size=ARTICLE_BATCH_SIZE)
 
      Batch size is controlled centrally by a constant.py entry now.
     """
+    if len(article_texts) < batch_size:
+        batch_size = len(article_texts)
 
     model = FCoref(device=F_COREF_DEVICE)
     predictions = model.predict(texts=article_texts, max_tokens_in_batch=batch_size)
