@@ -517,19 +517,17 @@ class Article:
 
             # Check if the number of entries is below the threshold
             if num_entries < self.mention_threshold:
-                # print(f"Cluster ID {cluster_id} for entity {entity['Entity Name']} has {num_entries} entries, which is below the "
-                #       f"threshold of {self.mention_threshold}.")
+                print(f"Cluster ID {cluster_id} has {num_entries} entries, which is below the "
+                      f"threshold of {self.mention_threshold}.")
                 # print(entity['Cluster Info'])
                 clustered_entities.remove(entity)
                 continue
 
             # At most, an entity should have the first, middle and last name.
             if len(cleaned_name.split()) > 3:
-                print(f"Cluster ID {cluster_id} has {num_entries} entries, which is below the "
-                      f"threshold of {self.mention_threshold}.")
                 print(
                     f"Removing entity {entity['Entity Name']} with Cluster ID {cluster_id} due "
-                    f"to low mention count:")
+                    f"to final name longer than 3 words:")
                 # print(entity['Cluster Info'])
                 clustered_entities.remove(entity)
                 continue
