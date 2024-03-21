@@ -441,9 +441,11 @@ class Article:
                                 entity_2_name = entry2['Entity Name']
                                 # Check if an entity name is a substring of another.
                                 if entity_1_name in entity_2_name or entity_2_name in entity_1_name:
-                                    # print('cross cluster merge triggered!')
-                                    # print(entity_1_name)
-                                    # print(entity_2_name)
+                                    print('cross cluster merge triggered!')
+                                    print("entity_1_name: ", entity_1_name)
+                                    print("entity_1 cluster: ", entry1['Cluster Info']['Cluster Text'])
+                                    print("entity_2_name: ", entity_2_name)
+                                    print("entity_2 cluster: ", entry2['Cluster Info']['Cluster Text'])
 
                                     # Combine cluster IDs with '0000' in between as a combination flag.
                                     combined_cluster_id = (
