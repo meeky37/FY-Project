@@ -34,7 +34,7 @@ def visible_entity_bing():
     Checks if any entities are set to visible but lacking wiki description and photo
     (From bing api)
     """
-    call_command('scrape_articles_concurrent')
+    call_command('visible_entity_bing')
 
 
 @shared_task
