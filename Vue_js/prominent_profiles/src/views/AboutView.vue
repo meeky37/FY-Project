@@ -46,17 +46,19 @@
     </p>
 
 </div>
+
+<div id="PrivacyPolicy">
+  <h2>Privacy Policy</h2>
+  <p>Read our Privacy Policy to understand how we collect, use, and protect your information.</p>
+  <router-link to="/privacypolicy">Privacy Policy</router-link>
+</div>
+
 <div id="Credits">
   <h2>Git Repository</h2>
   <p>Visit our GitHub repository for acknowledgments behind Prominent Profiles.</p>
   <a href="https://github.com/meeky37/FY-Project">Git Repo</a><br>
   </div>
 
-    <div id="PrivacyPolicy">
-      <h2>Privacy Policy</h2>
-      <p>Read our Privacy Policy to understand how we collect, use, and protect your information.</p>
-      <router-link to="/privacypolicy">Privacy Policy</router-link>
-    </div>
   </div>
 </template>
 <script setup>
