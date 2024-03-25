@@ -44,7 +44,7 @@ Additionaly, I would like to extend this to the MAD-TSC paper for its further wo
 - BingEntitySearchAPI: [https://www.microsoft.com/en-us/bing/apis/bing-entity-search-api](https://www.microsoft.com/en-us/bing/apis/bing-entity-search-api)
 
 
-### Other packages / dependencies of above (TBC - keep categorising)
+### Other packages / dependencies of above
 - aiofiles: [https://pypi.org/project/aiofiles/22.1.0/](https://pypi.org/project/aiofiles/22.1.0/)
 - aiosqlite: [https://pypi.org/project/aiosqlite/0.18.0/](https://pypi.org/project/aiosqlite/0.18.0/)
 - anyio: [https://pypi.org/project/anyio/3.5.0/](https://pypi.org/project/anyio/3.5.0/)
