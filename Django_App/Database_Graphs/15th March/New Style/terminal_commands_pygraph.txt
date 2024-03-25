@@ -1,0 +1,1784 @@
+python manage.py one_off_update_article_stats
+clear
+python manage.py one_off_update_article_stats
+python manage.py makemigrations
+python manage.py migrate
+python manage.py one_off_update_article_stats
+python manage.py runserver 8000
+python manage.py dumpdata > 26th_Jan_DB.json
+python manage.py runserver 8000
+python manage.py collect_article_data
+python manage.py runserver 8000
+python manage.py runserver 8000
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver 8000
+python manage.py makemigrations
+python manage.py makemigrations
+python manage.py migrate
+python manage.py migrate
+python manage.py migrate
+python manage.py runserver 8000
+python manage.py makemigrations
+python manage.py migrate
+python manage.py shell
+python manage.py makemigrations
+python manage.py migrate
+python manage.py shell
+python manage.py shell
+python manage.py shell
+python manage.py runserver 8000
+python manage.py makemigrations
+python manage.py makemigrations
+python manage.py makemigrations
+python manage.py migrate
+python manage.py makemigrations
+python manage.py runserver 8000
+python manage.py one_off_update_article_stats
+python manage.py one_off_update_article_stats
+python manage.py runserver 8000
+python manage.py one_off_update_article_stats
+python manage.py runserver 8000
+python manage.py makemigrations
+python manage.py migrate
+python manage.py collect_article_data
+python manage.py one_off_update_article_stats
+python manage.py one_off_update_article_stats
+python manage.py one_off_update_article_stats
+python manage.py one_off_update_article_stats
+python manage.py one_off_update_article_stats
+python manage.py one_off_update_article_stats
+python manage.py runserver 8000
+python manage.py one_off_update_article_stats
+python manage.py runserver 8000
+python manage.py one_off_update_article_stats
+python manage.py runserver 8000
+python manage.py one_off_update_article_stats
+python manage.py runserver 8000
+python manage.py one_off_update_article_stats
+python manage.py runserver 8000
+python manage.py one_off_update_article_stats
+python manage.py one_off_update_article_stats
+python manage.py one_off_update_article_stats
+python manage.py runserver 8000
+python manage.py one_off_update_article_stats
+python manage.py one_off_update_article_stats
+python manage.py runserver 8000
+python manage.py scrape_articles_concurrent
+python manage.py scrape_articles_concurrent
+python manage.py scrape_articles_concurrent
+python manage.py dumpdata > 28th_Jan_DB.json
+python manage.py scrape_articles_concurrent
+python manage.py one_off_update_article_stats
+python manage.py runserver 8000
+python manage.py scrape_articles_concurrent
+clear
+python manage.py scrape_articles_concurrent
+python manage.py scrape_articles_concurrent
+python manage.py scrape_articles_concurrent
+python manage.py scrape_articles_concurrent
+python manage.py scrape_articles_concurrent
+python manage.py runserver 8000
+python manage.py scrape_articles_concurrent
+python manage.py runserver 8000
+python manage.py scrape_articles_concurrent
+python manage.py runserver 8000
+python manage.py scrape_articles_concurrent
+python manage.py runserver 8000
+python manage.py runserver 8000
+python manage.py scrape_articles_concurrent
+python manage.py runserver 8000
+python manage.py dbshell
+python manage.py shell
+python manage.py shell
+python manage.py shell
+python manage.py scrape_articles_concurrent
+npm run serve
+git pull
+ls
+npm run serve
+npm run serve
+python manage.py scrape_articles_concurrent
+python manage.py runserver 8000
+python manage.py runserver 8000
+python manage.py runserver 8000
+python manage.py collect_article_data
+python manage.py scrape_articles_concurrent
+python manage.py runserver 8000
+python manage.py scrape_articles_concurrent
+python manage.py shell
+python manage.py scrape_articles_concurrent
+python manage.py scrape_articles_concurrent
+python manage.py makemigrations
+python manage.py migrate
+python manage.py scrape_articles_concurrent
+python manage.py runserver 8000
+python manage.py scrape_articles_concurrent
+python manage.py scrape_articles_concurrent
+python manage.py runserver 8000
+python manage.py scrape_articles_concurrent
+python manage.py runserver 8000
+python manage.py scrape_articles_concurrent
+python manage.py scrape_articles_concurrent
+python manage.py runserver 8000
+python manage.py one_off_update_article_stats
+python manage.py one_off_update_article_stats
+python manage.py runserver 8000
+python manage.py one_off_update_article_stats
+python manage.py scrape_articles_concurrent
+python manage.py runserver 8000
+python manage.py scrape_articles_concurrent
+python manage.py runserver 8000
+python manage.py collect_article_data
+python manage.py runserver 8000
+python manage.py visible_entity_bing
+python manage.py runserver 8000
+python manage.py scrape_articles_concurrent
+python manage.py runserver 8000
+python manage.py scrape_articles_concurrent
+python manage.py runserver 8000
+python manage.py shell
+python manage.py runserver 8000
+python manage.py dumpdata > 30th_Jan_DB.json
+python manage.py runserver 8000
+python manage.py runserver 8000
+python manage.py runserver 8000
+python manage.py scrape_article_data
+python manage.py collect_article_data
+python manage.py collect_article_data
+python manage.py scrape_articles_concurrent
+python manage.py scrape_articles_concurrent
+clear
+python manage.py scrape_articles_concurrent
+python manage.py scrape_articles_concurrent
+python manage.py collect_article_data
+python manage.py scrape_articles_concurrent
+python manage.py runserver 8000
+python manage.py collect_article_data
+python manage.py scrape_articles_concurrent
+python manage.py scrape_articles_concurrent
+python manage.py scrape_articles_concurrent
+python manage.py runserver 8000
+python manage.py collect_article_data
+python manage.py runserver 8000
+brew update
+brew install postgresql
+brew uninstall postgresql
+brew install postgresql
+psql
+psql
+psql
+psql
+psql
+sudo -i -u postgres
+sudo -i -u postgres
+brew services stop postgresql
+brew unistall postgres
+brew uninstall postgres
+brew uninstall postgresql
+/Library/PostgreSQL/16/scripts/runpsql.sh; exit
+/Library/PostgreSQL/16/scripts/runpsql.sh; exit
+psql
+/Library/PostgreSQL/16/scripts/runpsql.sh; exit
+psql
+/Library/PostgreSQL/16/scripts/runpsql.sh; exit
+psql
+python manage.py runserver 8000
+python manage.py runserver 8000
+python manage.py visible_entity_bing
+python manage.py runserver 8000
+python manage.py runserver 8000
+python manage.py runserver 8000
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver 8000
+python manage.py runserver 8000
+python manage.py runserver 8000
+python manage.py runserver 8000
+python manage.py scrape_articles_concurrent
+python manage.py runserver 8000
+python manage.py scrape_articles_concurrent
+python manage.py runserver 8000
+python manage.py one_off_fix_missing_images
+python manage.py one_off_fix_missing_images
+clear
+python manage.py one_off_fix_missing_images
+python manage.py one_off_fix_missing_images
+python manage.py one_off_fix_missing_images
+python manage.py one_off_fix_missing_images
+python manage.py one_off_fix_missing_images
+python manage.py one_off_fix_missing_images
+python manage.py runserver 8000
+python manage.py runserver 8000
+python manage.py collect_article_data
+python manage.py runserver 8000
+python manage.py scrape_articles_concurrently
+python manage.py scrape_articles_concurrent
+python manage.py runserver 8000
+python manage.py dump_data > 5th_feb_db.json
+python manage.py dumpdata > 5th_feb_db.json
+python manage.py runserver 8000
+python manage.py ONE_OFF_FIX_MISSING_IMAGES
+python manage.py one_off_fix_missing_images
+python manage.py runserver 8000
+python manage.py collect_article_data
+python manage.py runserver 8000
+python manage.py scrape_articles_concurrent
+python manage.py dumpdata > 6th_feb_db_15:57.json
+python --version
+python manage.py migrate
+python manage.py migrate
+clear
+python manage.py migrate
+python manage.py migrate
+python manage.py loaddata /Users/ameek/FY-Project/Django_App/prominent_profiles/6th_feb_db_15:57.json
+python manage.py migrate
+python manage.py migrate
+python manage.py dumpdata --exclude contenttypes --exclude auth.permission > datadump.json
+python manage.py loaddata /Users/ameek/FY-Project/Django_App/prominent_profiles/datadump.json
+python manage.py migrate
+python manage.py makemigrations
+python manage.py migrate
+python manage.py loaddata /Users/ameek/FY-Project/Django_App/prominent_profiles/datadump.json
+python manage.py makemigrations
+python manage.py migrate
+python manage.py loaddata /Users/ameek/FY-Project/Django_App/prominent_profiles/datadump.json
+python manage.py makemigrations
+python manage.py migrate
+python manage.py loaddata /Users/ameek/FY-Project/Django_App/prominent_profiles/datadump.json
+python manage.py makemigrations
+python manage.py migrate
+python manage.py loaddata /Users/ameek/FY-Project/Django_App/prominent_profiles/datadump.json
+python manage.py makemigrations
+python manage.py migrate
+python manage.py loaddata /Users/ameek/FY-Project/Django_App/prominent_profiles/datadump.json
+python manage.py makemigrations
+python manage.py migrate
+python manage.py loaddata /Users/ameek/FY-Project/Django_App/prominent_profiles/datadump.json
+pip freeze > requirements.txt
+conda env export > environment.yml
+python --version
+python manage.py collect_article_data
+ls
+cd ..
+cd ..
+ls
+docker-compose up --build
+docker-compose up --build
+python manage.py runserver 8000
+npm run serve
+npm run serve
+npm run serve
+npm run serve
+npm run serve
+tree
+brew install tree
+tree
+docker-compose up --build\n
+docker exec -it 33e24d0082ee78d802a9a85ae3b5252a56645b75ac661497a43e1a29f1e64324 /bin/sh
+docker exec -it 92d70917bd553249a79277321db3f318f1eb98e90430487fdbb7c9748baf2ca2 /bin/sh
+manage.py
+python manage.py docker_sentiment_pck_test
+docker-compose up --build\n
+docker-compose up --build\n
+docker-compose up --build\n
+docker-compose up --build\n
+docker-compose up --build\n
+docker-compose up --build\n
+docker-compose up --build\n
+docker-compose up --build\n
+docker-compose up --build\n
+cd django_app
+cd prominent_profiles
+docker-compose up --build\n
+docker-compose up --build\n
+docker-compose up --build\n
+docker-compose up --build\n
+docker-compose up --build\n
+docker-compose up --build\n
+docker-compose up --build\n
+docker-compose up --build\n
+docker-compose up --build\n
+docker-compose up --build\n
+docker-compose up --build\n
+docker-compose up --build\n
+docker-compose up --build\n
+docker-compose up --build\n
+clear
+clear
+clear
+docker-compose up --build\n
+docker-compose up --build\n
+docker-compose up --build\n
+docker-compose up --build\n
+docker-compose up --build\n
+docker-compose up --build\n
+docker-compose up --build\n
+docker-compose up --build\n
+docker-compose up --build\n
+docker-compose up --build\n
+docker-compose up --build\n
+docker-compose up --build\n
+docker-compose up --build --no-cache\n
+docker-compose up --no-cache\n
+docker-compose up --build --nocache
+docker-compose up --force-recreate
+docker-compose build --no-cache
+docker-compose up --build\n
+docker-compose up --build\n
+docker-compose up --build\n
+docker-compose up --build -d\n
+docker-compose up --build
+docker-compose up --build
+docker-compose up --build -d\n
+docker-compose up --build -d\n
+docker-compose up --build
+docker-compose up --build
+docker-compose up --build
+docker-compose up --build
+docker-compose up --build
+docker-compose up --build
+docker-compose up --build
+docker-compose up --build -d\n
+docker-compose up --build -d\n
+docker-compose up --build -d\n
+docker-compose up --build
+docker-compose up --build
+docker-compose up --build
+docker-compose up --build
+docker-compose up --build
+docker-compose up --build
+docker-compose down -v
+docker-compose up --build
+docker-compose down -v
+docker-compose up --build
+docker-compose down -v
+docker-compose up --build
+docker-compose up --build
+docker-compose down -v
+docker-compose down -v
+docker-compose up --build
+docker-compose down
+docker-compose up --build -d
+docker-compose up --build -d
+docker-compose up --build -d
+docker-compose down -v
+docker-compose up --build -d
+docker-compose up --build
+docker-compose up --build
+docker-compose up --build
+docker-compose down
+docker-compose up --build
+docker-compose down
+docker-compose up --build -d
+docker-compose down
+docker-compose up --build -d
+docker-compose down
+docker-compose up build
+docker-compose up --build
+docker-compose up --build -d
+docker-compose down
+docker-compose up --build
+docker-compose up --build
+docker-compose down
+docker-compose up --build
+docker-compose down
+docker-compose up --build
+docker-compose down
+docker-compose up --build
+docker-compose down
+docker-compose up --build
+docker-compose down
+docker-compose up --build
+docker-compose down
+docker-compose up --build
+docker-compose down
+docker-compose down
+docker-compose down
+python --version
+docker-compose down
+docker-compose down
+docker-compose up --build
+docker-compose up --build
+docker-compose up --build
+docker-compose up --build
+docker-compose up --build
+docker-compose up --build
+docker-compose down
+docker-compose up --build
+docker-compose down
+docker-compose up --build
+docker-compose down
+docker-compose up --build
+docker-compose down
+docker-compose up --build
+docker-compose up --build -d
+docker-compose up --build
+docker-compose up --build
+docker-compose up --build
+docker-compose up --build
+docker-compose down -v
+docker-compose up --build
+docker-compose down
+docker-compose up --build
+docker-compose up --build
+python manage.py runserver 8000
+python manage.py collect_article_data
+python manage.py scrape_articles_concurrent
+python manage.py scrape_articles_concurrent
+python manage.py scrape_articles_concurrent
+python manage.py scrape_articles_concurrent
+python manage.py runserver 8000
+python manage.py collect_article_data
+python manage.py scrape_articles_concurrent
+ls
+npm run serve
+npm run serve
+npm run serve
+npm run serve
+pip freeze > requirements.txt
+python manage.py collect_article_data
+cd django app
+cd django_app
+python manage.py collect_article_data
+cd prominent_profiles
+ls
+python manage.py collect_article_data
+docker run -v /Users/ameek/documents/PROMINENT_PROFILES_DB_IMPORT:/data prominent_profiles-web-1
+docker run -v /Users/ameek/documents/PROMINENT_PROFILES_DB_IMPORT:/data prominent_profiles-web
+docker exec -it prominent_profiles-web python manage.py loaddata /data/6th_feb_db_1557.json\n
+docker exec -it prominent_profiles-web python manage.py loaddata /data/6th_feb_db_1557.json\n
+pip show news_sentiment
+pip show newssentiment
+pip show fastcoref
+pip show torch
+python manage.py docker_sentiment_pck_test
+python manage.py docker_sentiment_pck_test
+python manage.py runservr 8000
+python manage.py runserver 8000
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver 8000
+python manage.py shell
+tree Django_App
+tree
+docker-compose down
+docker-compose down
+git pull
+git pull
+git pull
+/usr/bin/python3 /Users/ameek/.vscode/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariablesToFile.py /Users/ameek/.vscode/extensions/ms-python.python-2024.0.1/pythonFiles/deactivate/zsh/envVars.txt
+brew install docker
+sudo docker run hello-world
+docker run --help
+echo $PATH
+brew list | grep docker-compose\n
+brew install docker-compose\n
+ls
+cd 'OneDrive - University of Birmingham\n'
+cd 'OneDrive - University of Birmingham'
+ls
+cd ..
+cd ..
+ls
+cd ameek
+ls
+cd documents
+ls
+cd PROMINENT_PROFILES_DB_IMPORT
+pwd
+ssh-keygen
+cd /Users/ameek/.ssh/id_rsa.pub\n
+cat /Users/ameek/.ssh/id_rsa.pub\n
+ssh-keygen -t rsa -b 4096 -C "github-actions"
+cat github_actions_ssh_key.pub
+cat github_actions_ssh_key
+ssh-keycan -H 157.245.46.42
+ssh-keyscan -H 157.245.46.42
+caffeinate
+manage.py collect_article_data
+python manage.py collect_article_data
+python manage.py collect_article_data
+python manage.py scrape_articles_concurrently
+python manage.py scrape_articles_concurrent
+python manage.py dumpdata --natural-foreign --natural-primary > data_dump_13th_feb.json
+scp data_dump_13th_feb.json root@157.245.46.42 /var/www/Django_App/prominent_profiles/
+scp data_dump_13th_feb.json root@157.245.46.42 /var/www/Django_App/prominent_profiles
+scp data_dump_13th_feb.json root@157.245.46.42 /var/www/Django_App/
+scp data_dump_13th_feb.json root@157.245.46.41 /var/www/Django_App/
+scp data_dump_13th_feb.json root@157.245.46.42 /var/www/Django_App/prominent_profiles
+scp data_dump_13th_feb.json root@157.245.46.42:/var/www/Django_App/prominent_profiles
+python manage.py dumpdata > data_dump_13th_feb.json
+scp data_dump_13th_feb.json root@157.245.46.42:/var/www/Django_App/prominent_profiles
+python manage.py dumpdata > data_dump_13th_feb.json
+scp data_dump_13th_feb.json root@157.245.46.42:/var/www/Django_App/prominent_profiles
+python manage.py dumpdata --exclude contenttypes --exclude auth.permission > data_dump_13th_feb.json\n
+scp data_dump_13th_feb.json root@157.245.46.42:/var/www/Django_App/prominent_profiles
+python manage.py runserver 8000
+python manage.py docker_sentiment_pck_test
+python manage.py collect_article_data
+pip list --format=freeze | cut -d'=' -f1 | while read line; do\n    echo -n $line": "\n    du -sh $(pip show $line | grep Location | cut -d' ' -f2)/$line\ndone
+docker-compose up -d
+export DB_PORT=5032
+docker-compose up -d
+docker-compose up -d
+docker-compose up -d
+docker-compose up -d
+git pull
+git pull
+pip install cv2
+pip install opencv-python
+/usr/bin/python3 /Users/ameek/.vscode/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariablesToFile.py /Users/ameek/.vscode/extensions/ms-python.python-2024.0.1/pythonFiles/deactivate/zsh/envVars.txt
+/usr/bin/python3 /Users/ameek/.vscode/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariablesToFile.py /Users/ameek/.vscode/extensions/ms-python.python-2024.0.1/pythonFiles/deactivate/zsh/envVars.txt
+/usr/bin/python3 /Users/ameek/.vscode/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariablesToFile.py /Users/ameek/.vscode/extensions/ms-python.python-2024.0.1/pythonFiles/deactivate/zsh/envVars.txt
+/usr/bin/python3 /Users/ameek/.vscode/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariablesToFile.py /Users/ameek/.vscode/extensions/ms-python.python-2024.0.1/pythonFiles/deactivate/zsh/envVars.txt
+/Library/PostgreSQL/16/scripts/runpsql.sh; exit
+cafinate
+caffinate
+caffeinate
+/usr/bin/python3 /Users/ameek/.vscode/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariablesToFile.py /Users/ameek/.vscode/extensions/ms-python.python-2024.0.1/pythonFiles/deactivate/zsh/envVars.txt
+/usr/bin/python3 /Users/ameek/.vscode/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariablesToFile.py /Users/ameek/.vscode/extensions/ms-python.python-2024.0.1/pythonFiles/deactivate/zsh/envVars.txt
+caffinate
+ls
+cd Django_App
+ls
+cd prominent_profiles
+ls
+ls
+python manage.py shell
+python manage.py collect_article_data
+echo -n 'zO8DkM,GT,?OA:zj\,&%>EA>e`J\8Yjr*M;$qTq']`^"dMj8Rw'  | base64\n\n\n\npython manage.py shell
+python manage.py shell
+python manage.py scrape_articles_concurrent
+ls
+cd ..
+ls
+cd ..
+ls
+cd Vue_js
+cd prominent_profiles
+ls
+npm install
+npm install --force
+npm audit fix
+npm audit fix  --legacy-peer-deps
+npm audit fix --force
+npm outdated
+npm install -g npm-check-updates
+ncu -u
+npm install
+npm installnpm install eslint@latest --save-dev\n
+npm install eslint@latest --save-dev\n
+npm install eslint@^8.0.1 --save-dev\n
+npm install @vue/eslint-config-standard@latest --save-dev\nnpm install eslint-plugin-vue@latest --save-dev\n# Repeat for other outdated ESLint plugins and configurations\n
+npm install eslint@latest --save-dev\n
+rm -rf node_modules/
+rm package-lock.json
+npm install
+npm outdated
+npm install ----legacy-peer-deps
+npm audit fix --force\n
+npm audit fix
+npm audit fix --force
+npm audit fix --force
+npm install
+npm install --force
+cd ..
+ls
+cd ..
+ls
+cd Django_App
+ls
+cd prominent_profiles
+ls
+cd nginx
+ls
+cd ..
+cd production
+ls
+docker-compose up
+docker-compose up
+docker-compose pull
+ls
+cd ..
+ls
+ls
+cd prominent_profiles
+ls
+cd ..
+python manage.py runserver 8000
+python manage.py collect_article_data
+python manage.py scrape_article_data
+python manage.py scrape_arricles_concurrent
+python manage.py scrape_articles_concurrent
+docker-compose run --rm certbot\n
+docker-compose run --rm certbot\n
+docker-compose run --rm certbot\n
+docker-compose run --rm certbot\n
+docker down 
+docker-compose down 
+docker-compose up --force-recreate certbot
+docker-compose down
+docker-compose up --force-recreate certbot
+docker-compose down
+docker-compose up certbot
+docker-compose down
+python manage.py runserver 8000
+python manage.py collect_article_data
+curl -I http://www.prominentprofiles.com/admin
+(Project) ameek@Anthonys-Laptop prominent_profiles % curl -I http://www.prominentprofiles.com/admin\nHTTP/1.1 301 Moved Permanently\nServer: nginx/1.25.4\nDate: Thu, 15 Feb 2024 23:25:31 GMT\nContent-Type: text/html; charset=utf-8\nContent-Length: 0\nConnection: keep-alive\nLocation: /admin/\nX-Content-Type-Options: nosniff\nReferrer-Policy: same-origin\nCross-Origin-Opener-Policy: same-origin\nVary: origin
+(Project) ameek@Anthonys-Laptop prominent_profiles % curl -I http://www.prominentprofiles.com/admin\nHTTP/1.1 301 Moved Permanently\nServer: nginx/1.25.4\nDate: Thu, 15 Feb 2024 23:25:31 GMT\nContent-Type: text/html; charset=utf-8\nContent-Length: 0\nConnection: keep-alive\nLocation: /admin/\nX-Content-Type-Options: nosniff\nReferrer-Policy: same-origin\nCross-Origin-Opener-Policy: same-origin\nVary: origin
+(Project) ameek@Anthonys-Laptop prominent_profiles % curl -I http://www.prominentprofiles.com/admin\nHTTP/1.1 301 Moved Permanently\nServer: nginx/1.25.4\nDate: Thu, 15 Feb 2024 23:25:31 GMT\nContent-Type: text/html; charset=utf-8\nContent-Length: 0\nConnection: keep-alive\nLocation: /admin/\nX-Content-Type-Options: nosniff\nReferrer-Policy: same-origin\nCross-Origin-Opener-Policy: same-origin\nVary: origin
+curl -I http://www.prominentprofiles.com/admin/\n
+curl -I https://prominentprofiles.com
+curl -I http://prominentprofiles.com
+curl -I http://prominentprofiles.com/admin/
+curl http://www.prominentprofiles.com/.well-known/acme-challenge/testfile
+(Project) ameek@Anthonys-Laptop prominent_profiles % curl -I http://www.prominentprofiles.com/admin\nHTTP/1.1 301 Moved Permanently\nServer: nginx/1.25.4\nDate: Thu, 15 Feb 2024 23:25:31 GMT\nContent-Type: text/html; charset=utf-8\nContent-Length: 0\nConnection: keep-alive\nLocation: /admin/\nX-Content-Type-Options: nosniff\nReferrer-Policy: same-origin\nCross-Origin-Opener-Policy: same-origin\nVary: origin
+docker-compose run --rm certbot certonly --webroot --webroot-path=/var/www/certbot --email your_email@example.com --agree-tos --no-eff-email -d your_domain.com
+docker-compose run --rm certbot certonly --webroot --webroot-path=/var/www/certbot --email your_email@example.com --agree-tos --no-eff-email -d your_domain.com
+manage.py scrape_articles_concurrent
+ls
+python manage.py scrape_articles_concurrent
+python manage.py collect_article_data
+ls
+cd ..
+ls
+cd ..
+ls
+cd Vue_js
+ls
+cd prominent_profiles
+ls
+npm run build
+npm run serve
+npm run serve
+ls
+manage.py collect_article_data
+python manage.py collect_article_data
+python manage.py scrape_articles_concurrent
+manage.py dumpdata --natural-foreign > 18th_feb_db.json 
+python manage.py dumpdata --natural-foreign > 18th_feb_db.json 
+scp 18th_feb_db.json root@157.245.46.42:/var/www/Django_App/prominent_profiles
+python manage.py dumpdata --exclude contenttypes > 18th_feb_db.json 
+scp 18th_feb_db.json root@157.245.46.42:/var/www/Django_App/prominent_profiles
+python manage.py dumpdata --exclude contenttypes --exclude auth.Permission > 18th_feb_db.json 
+scp 18th_feb_db.json root@157.245.46.42:/var/www/Django_App/prominent_profiles
+npm run serve
+/usr/bin/python3 /Users/ameek/.vscode/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariablesToFile.py /Users/ameek/.vscode/extensions/ms-python.python-2024.0.1/pythonFiles/deactivate/zsh/envVars.txt
+/usr/bin/python3 /Users/ameek/.vscode/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariablesToFile.py /Users/ameek/.vscode/extensions/ms-python.python-2024.0.1/pythonFiles/deactivate/zsh/envVars.txt
+git pull
+git pull
+ls
+python manage.py collect_article_data
+python manage.py makemigrations
+python manage.py makemigrations
+python manage.py visible_entity_bing
+python manage.py migrate
+python manage.py visible_entity_bing
+python manage.py visible_entity_bing
+python manage.py visible_entity_bing
+python manage.py visible_entity_bing
+python manage.py runserver 8000
+python manage.py dumpdata --exclude contenttypes --exclude auth.Permission > 19th_feb_db.json 
+scp 19th_feb_db.json root@157.245.46.42:/var/www/Django_App/prominent_profiles
+python manage.py dumpdata profiles_app.BingEntity --exclude contenttypes --exclude auth.Permission > 19th_feb_db_bing.json
+scp 19th_feb_db_bing.json root@157.245.46.42:/var/www/Django_App/prominent_profiles
+python manage.py scrape_article_concurrent
+python manage.py collect_article_data
+ls
+ls
+npm run serve
+npm run serve
+ls
+caffinate
+caffienate
+caffeinate
+python manage.py scrape_article_concurrent
+ls
+python manage.py scrape_article_concurrent
+python manage.py scrape_articles_concurrent
+caffinate
+caffeinate
+python manage.py collect_article_data
+python manage.py collect_article_data
+python manage.py scrape_article_concurrent
+python manage.py scrape_article_concurrent
+python manage.py scrape_articles_concurrent
+python manage.py runsever 8000
+python manage.py runserver 8000
+python manage.py scrape_articles_concurrent
+export BING_API_KEY=8cfad6357a0b431daf9212e1fab24a22
+python manage.py collect_article_data
+python manage.py scrape_articles_concurrent
+python manage.py collect_article_data
+python manage.py shell
+export EMAIL_PASSWORD=zct&B8af
+EXPORT EMAIL_PASSWORD=zct&B8af
+python manage.py shell
+python manage.py runserver 8000
+python manage.py runserver 8000
+pip install django-rest-passwordreset
+python manage.py migrate
+python manage.py runserver 8000
+python manage.py collect_article_data
+pip install celery
+pip install redis
+python manage.py migrate
+pip install django-celery-beat
+python manage.py migrate
+pip install celery
+pip install redis
+pip install redis
+python manage.py migrate
+pip install django-celery-beat
+python -m pip install django-celery-beat
+python manage.py migrate
+python manage.py migrate
+python manage.py migrate
+python manage.py runserver 8000
+python manage.py migrate
+python manage.py runserver 8000
+python manage.py scrape_articles_concurrent
+python manage.py scrape_articles_concurrent
+python manage.py collect_article_data
+python manage.py scrape_articles_concurrent
+/bin/bash /Users/ameek/FY-Project/Django_App/prominent_profiles/entrypoint.sh
+python manage.py collect_article_data
+python manage.py scrape_article_concurrent
+ls
+python manage.py collect_article_data
+python manage.py collect_article_data
+npm run serve
+npm run serve
+python manage.py collect_article_data
+pdflatex
+ls
+cd 'Latex Work Final Report'
+ls
+cd 'Final Report - Matt L Template'
+ls
+pdflatex Dissertation.tex
+pdflatex Dissertation.tex
+pdflatex Dissertation.tex
+pdflatex Dissertation.tex
+/usr/bin/python3 /Users/ameek/.vscode/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariablesToFile.py /Users/ameek/.vscode/extensions/ms-python.python-2024.0.1/pythonFiles/deactivate/zsh/envVars.txt
+python manage.py collect_article_data
+ls
+python manage.py collect_article_data
+python manage.py scrape_article_concurrent
+python manage.py scrape_articles_concurrent
+python manage.py collect_article_data
+python manage.py scrape_articles_concurrent
+python manage.py scrape_articles_concurrent
+python manage.py collect_article_data
+python manage.py collect_article_data
+python manage.py scrape_articles_concurrent
+pip install --upgrade trafilatura charset_normalizer\n
+python manage.py scrape_articles_concurrent
+python manage.py scrape_articles_concurrent
+python manage.py runserver 8000
+python manage.py runserver 8000
+python manage.py runserver 8000
+pip install asgiref
+pip uninstall asgiref
+pip install asgiref
+pip install asgiref
+python manage.py runserver 8000
+pip install asgiref --force
+python manage.py runserver 8000
+python manage.py scrape_articles_concurrent
+python manage.py runserver 8000
+python manage.py scrape_articles_concurrent
+python manage.py runserver 8000
+python manage.py scrape_articles_concurrent
+python manage.py runserver 8000
+python manage.py scrape_articles_concurrent
+python manage.py runserver 8000
+python manage.py dumpdata --exclude auth.permission --exclude contenttypes 25th_feb_db.json
+python manage.py dumpdata --exclude auth.permission --exclude contenttypes --output 25th_feb_db.json
+scp /Users/ameek/FY-Project/Django_App/prominent_profiles/25th_feb_db.json root@157.245.46.42:/var/www/Django_App/prominent_profiles
+scp /Users/ameek/FY-Project/Django_App/prominent_profiles/25th_feb_db.json root@157.245.46.42:/var/www/Django_App/prominent_profiles
+python manage.py dumpdata --exclude auth.permission --exclude contenttypes --exclude admin.logentry > 25th_feb_db.json
+scp /Users/ameek/FY-Project/Django_App/prominent_profiles/25th_feb_db.json root@157.245.46.42:/var/www/Django_App/prominent_profiles
+python manage.py scrape_articles_concurrent
+python manage.py collect_article_data
+python manage.py scrape_articles_concurrent
+python manage.py runserver 8000
+python manage.py scrape_articles_concurrent
+python manage.py runserver 8000
+python manage.py scrape_articles_concurrent
+python manage.py scrape_articles_concurrent
+python manage.py scrape_articles_concurrent
+python manage.py scrape_articles_concurrent
+python manage.py scrape_articles_concurrent
+python manage.py scrape_articles_concurrent
+python manage.py collect_article_data
+python manage.py scrape_articles_concurrent
+python manage.py scrape_articles_concurrent
+python manage.py makemigrations
+python manage.py makemigrations
+python manage.py makemigrations
+python manage.py makemigrations
+python manage.py makemigrations
+python manage.py migrate
+python manage.py makemigrations
+python manage.py migrate
+python manage.py makemigrations
+python manage.py migrate
+python manage.py makemigrations
+python manage.py migrate
+python manage.py makemigrations
+python manage.py migrate
+python manage.py makemigrations
+python manage.py migrate
+python manage.py scrape_articles_concurrent
+python manage.py collect_article_data
+python manage.py scrape_articles_concurrent
+python manage.py scrape_articles_concurrent
+python manage.py scrape_articles_concurrent
+python manage.py scrape_articles_concurrent
+python manage.py scrape_articles_concurrent
+python manage.py scrape_articles_concurrent
+python manage.py scrape_articles_concurrent
+ls
+npm run serve
+python manage.py scrape_articles_concurrent
+python manage.py dumpdata --exclude auth.permission --exclude contenttypes 25th_feb_db.json
+python manage.py scrape_articles_concurrent
+ls
+python manage.py scrape_articles_concurrent
+ls
+cd ..
+ls
+cd ..
+ls
+cd Django_App
+ls
+cd prominent_profiles
+ls
+cd prominent_profiles
+ls
+cd ..
+ls
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+cd FY_Project
+ls
+cd Django_App
+cd /Users/ameek/FY-Project/Django_App/prominent_profiles/
+python manage.py scrape_articles_concurrent
+python manage.py scrape_articles_concurrent
+python manage.py runserver 8000
+python manage.py scrape_articles_concurrent
+python manage.py runserver 8000
+python manage.py scrape_articles_concurrent
+python manage.py runserver 8000
+python manage.py scrape_articles_concurrent
+python manage.py scrape_articles_concurrent
+python manage.py runserver 8000
+python manage.py scrape_articles_concurrent
+python manage.py scrape_articles_concurrent
+python manage.py runserver 8000
+python manage.py scrape_articles_concurrent
+python manage.py runserver 8000
+python manage.py scrape_articles_concurrent
+python manage.py scrape_articles_concurrent
+python manage.py runserver 8000
+python manage.py scrape_articles_concurrent
+python manage.py scrape_articles_concurrent
+python manage.py runserver 8000
+python manage.py scrape_articles_concurrent
+python manage.py runserver 8000
+python manage.py scrape_articles_concurrent
+python manage.py runserver 8000
+python manage.py scrape_articles_concurrent
+python manage.py scrape_articles_concurrent
+python manage.py scrape_articles_concurrent
+python manage.py runserver 8000
+python manage.py scrape_articles_concurrent
+python manage.py runserver 8000
+sudo apt-get install graphviz
+python manage.py graph_models -a -o my_project_models.png
+python manage.py graph_models -a -o my_project_models.png
+brew install graphviz
+brew install pygraphviz
+pip install pygraphviz
+pip install pydotplus
+python manage.py graph_models -a -o my_project_models.png
+python manage.py graph_models -I profiles_app.Entity -a -o entity_models.png
+python manage.py graph_models -I Entity -a -o entity_models.png
+python manage.py graph_models -a -X CustomUser -o nlp_models.png
+python manage.py graph_models -a -X CustomUser, PeriodicTasks, PeriodicTask, ContentType, ResetPasswordToken -o nlp_models.png
+python manage.py graph_models -a -X CustomUser, PeriodicTasks, PeriodicTask, ContentType, ResetPasswordToken -o nlp_models_2.png
+python manage.py graph_models -a -X CustomUser,PeriodicTasks,PeriodicTask,ContentType,ResetPasswordToken -o nlp_models_2.png
+python manage.py graph_models -a -X CustomUser,PeriodicTasks,PeriodicTask,ContentType,ResetPasswordToken, AbstractBaseSession, Permission, LogEntry, PermissionsMixin, AbstractBaseUser -o nlp_models_2.png
+python manage.py graph_models -a -X CustomUser,PeriodicTasks,PeriodicTask,ContentType,ResetPasswordToken, AbstractBaseSession, Permission, LogEntry, PermissionsMixin, AbstractBaseUser -o nlp_models.png
+python manage.py graph_models -a -X CustomUser,PeriodicTasks,PeriodicTask,ContentType,ResetPasswordToken,AbstractBaseSession,Permission,LogEntry,PermissionsMixin,AbstractBaseUser -o nlp_models.png
+python manage.py graph_models -a -I Entity, Article -o nlp_models_2.png
+python manage.py graph_models -a -I Entity,Article -o nlp_models_2.png
+python manage.py graph_models -a -I Entity,BoundMention,EntityView,IgnoreEntitySimilarity,Subscription,BingEntity,EntityHistory,OverallSentiment,Article,ProcessedFile,ArticleStatistics,SimilarArticlePair,BoundError -o nlp_models_2.png
+python manage.py graph_models -a -I Entity,BoundMention,EntityView,IgnoreEntitySimilarity,Subscription,BingEntity,EntityHistory,OverallSentiment,Article,ProcessedFile,ArticleStatistics,SimilarArticlePair,BoundError -o nlp_models.png
+python manage.py graph_models -a -I CustomUser,Subscription,Group,Permission,LogEntry,PermissionMixin,AbstractBaseUser,ContentType,LogEntry,ResetPasswordToken -o user_models.png
+python manage.py graph_models -a -I CustomUser,Subscription,Group,Permission,LogEntry,PermissionMixin,AbstractBaseUser,ContentType,LogEntry,ResetPasswordToken,EntityHistory -o user_models.png
+/usr/bin/python3 /Users/ameek/.vscode/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariablesToFile.py /Users/ameek/.vscode/extensions/ms-python.python-2024.0.1/pythonFiles/deactivate/zsh/envVars.txt
+  telnet 157.245.46.42 6379   
+telnet 157.245.46.42 6379 
+pip install telnet
+brew install graphviz
+brew install telnet
+ telnet 157.245.46.42 6379   
+/usr/bin/python3 /Users/ameek/.vscode/extensions/ms-python.python-2024.2.0/pythonFiles/printEnvVariablesToFile.py /Users/ameek/.vscode/extensions/ms-python.python-2024.2.0/pythonFiles/deactivate/zsh/envVars.txt
+npm run serve
+ls
+python manage.py collect_article_data
+python manage.py collect_article_data
+python manage.py scrape_articles_concurrent
+python manage.py scrape_articles_concurrent
+python manage.py runserver 8000
+python manage.py runserver 8000
+python manage.py makemigrations
+python manage.py migrate
+python manage.py similar_entity_pairs_update
+python manage.py similar_entity_pairs_update
+python manage.py similar_entity_pairs_update
+python manage.py runserver 8000
+python manage.py makemigrations
+python manage.py migrate
+python manage.py makemigrations
+python manage.py migrate
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver 8000
+python manage.py runserver 8000
+ls
+cd production
+ls
+docker run --rm -it --name dcv -v $(pwd):/input pmsipilot/docker-compose-viz render -m image docker-compose.yml
+docker run --rm -it --name dcv -v $(pwd):/input pmsipilot/docker-compose-viz render -m image docker-compose.yml
+docker run --rm -it --name dcv -v $(pwd):/input pmsipilot/docker-compose-viz render -m image docker-compose.yml
+docker-compose-viz render docker-compose.yml -o output.png
+docker run --rm -it --name dcv -v $(pwd):/input pmsipilot/docker-compose-viz render -m image docker-compose.yml
+docker run --rm -it --name dcv -v $(pwd):/input pmsipilot/docker-compose-viz render -m image docker-compose.yml
+docker run --rm -it --name dcv -v $(pwd):/input pmsipilot/docker-compose-viz render -m display docker-compose.yml
+docker run --rm -it --name dcv -v $(pwd):/input pmsipilot/docker-compose-viz render -m image --no-volumes docker-compose.yml
+docker run --rm -it --name dcv -v $(pwd):/input pmsipilot/docker-compose-viz render -m image --no-volumes docker-compose.yml
+docker run --rm -it --name dcv -v $(pwd):/input pmsipilot/docker-compose-viz render -m image --horizontal docker-compose.yml
+docker run --rm -it --name dcv -v $(pwd):/input pmsipilot/docker-compose-viz render -m image --only=web docker-compose.yml
+docker run --rm -it --name dcv -v $(pwd):/input pmsipilot/docker-compose-viz render -m image --only=web,nginx,celery,celerybeat,redis docker-compose.yml
+docker run --rm -it --name dcv -v $(pwd):/input pmsipilot/docker-compose-viz render -m image --only=web,nginx,celery,celerybeat,redis docker-compose.yml
+docker run --rm -it --name dcv -v $(pwd):/input pmsipilot/docker-compose-viz render \\n-m image \\n--only=web \\n--only=nginx \\n--only=celery \\n--only=celerybeat \\n--only=redis \\n-o /input/output.png \\n/input/docker-compose.yml
+docker run --rm -it --name dcv -v $(pwd):/input pmsipilot/docker-compose-viz render \\n-m image \\n--only=web \\n--only=nginx \\n--only=celery \\n--only=celerybeat \\n--only=redis \\n-o /input/output.png \\n--horizontal /input/docker-compose.yml
+docker run --rm -it --name dcv -v $(pwd):/input pmsipilot/docker-compose-viz render \\n-m image \\n--only=web \\n--only=nginx \\n--only=celery \\n--only=celerybeat \\n--only=redis \\n-o /input/output.png \\n--horizontal /input/docker-compose.yml
+docker run --rm -it --name dcv -v $(pwd):/input pmsipilot/docker-compose-viz render \\n-m image \\n--only=web \\n--only=nginx \\n--only=celery \\n--only=celerybeat \\n--only=redis \\n-o /input/output.png \\n--horizontal /input/docker-compose.yml
+docker run --rm -it --name dcv -v $(pwd):/input pmsipilot/docker-compose-viz render \\n-m image \\n--only=web \\n--only=nginx \\n--only=celery \\n--only=celerybeat \\n--only=redis \\n-o /input/output.png \\n--horizontal /input/docker-compose.yml
+docker run --rm -it --name dcv -v $(pwd):/input pmsipilot/docker-compose-viz render \\n-m image \\n--only=web \\n--only=nginx \\n--only=celery \\n--only=celerybeat \\n--only=redis \\n-o /input/output.png \/input/docker-compose.yml
+docker run --rm -it --name dcv -v $(pwd):/input pmsipilot/docker-compose-viz render \\n-m image \\n--only=web \\n--only=nginx \\n--only=celery \\n--only=celerybeat \\n--only=redis \\n-o /input/output.png --horizontal\/input/docker-compose.yml
+docker run --rm -it --name dcv -v $(pwd):/input pmsipilot/docker-compose-viz render \\n-m image \\n--only=web \\n--only=nginx \\n--only=celery \\n--only=celerybeat \\n--only=redis \\n-o /input/output.png --horizontal \/input/docker-compose.yml
+docker run --rm -it --name dcv -v $(pwd):/input pmsipilot/docker-compose-viz render \\n-m image \\n--only=web \\n--only=nginx \\n--only=celery \\n--only=celerybeat \\n--only=redis \\n-o /input/output.png --horizontal \/input/docker-compose.yml
+docker run --rm -it --name dcv -v $(pwd):/input pmsipilot/docker-compose-viz render \\n-m image \\n--only=web \\n--only=nginx \\n-o /input/output.png --horizontal \/input/docker-compose.yml
+% \texttt{python manage.py graph_models -a -I Entity,BoundMention,EntityView,IgnoreEntitySimilarity,Subscription,BingEntity,EntityHistory,OverallSentiment,Article,ProcessedFile,ArticleStatistics,SimilarArticlePair,BoundError -o nlp_models.png}
+python manage.py graph_models -a -I Entity,BoundMention,EntityView,IgnoreEntitySimilarity,Subscription,BingEntity,EntityHistory,OverallSentiment,Article,ProcessedFile,ArticleStatistics,SimilarArticlePair,BoundError,SimilarEntityPair -o nlp_models.png
+ls
+cd ..
+ls
+python manage.py graph_models -a -I Entity,BoundMention,EntityView,IgnoreEntitySimilarity,Subscription,BingEntity,EntityHistory,OverallSentiment,Article,ProcessedFile,ArticleStatistics,SimilarArticlePair,BoundError,SimilarEntityPair -o nlp_models.png
+ls
+brew install graphviz
+brew install php
+git clone https://github.com/pmsipilot/docker-compose-viz.git
+make vendor
+composer install --prefer-dist 
+git clone https://github.com/pmsipilot/docker-compose-viz.git\n\nmake vendor\n# Or\ncomposer install --prefer-dist \n\nbin/dcv
+ls
+pip install django-redoc
+pip install -U drf-yasg
+python manage.py runserver 8000
+python manage.py runserver 8000
+pip install dsrf_yasg
+pip install drf_yasg
+docker run --rm -it --name dcv -v $(pwd):/input pmsipilot/docker-compose-viz render \\n-m image \\n--only=web \\n--only=nginx \\n--only=celery \\n--only=celerybeat \\n--only=redis \\n-o /input/output.png --horizontal \/input/docker-compose.yml
+docker run --rm -it --name dcv -v $(pwd):/input pmsipilot/docker-compose-viz render \\n-m image \\n--only=web \\n--only=nginx \\n--only=celery \\n--only=celerybeat \\n--only=redis \\n-o /input/output.png --horizontal \/input/docker-compose.yml
+ls
+cd production
+docker run --rm -it --name dcv -v $(pwd):/input pmsipilot/docker-compose-viz render \\n-m image \\n--only=web \\n--only=nginx \\n--only=celery \\n--only=celerybeat \\n--only=redis \\n-o /input/output.png --horizontal \/input/docker-compose.yml
+ls
+docker run --rm -it --name dcv -v $(pwd):/input pmsipilot/docker-compose-viz render \\n-m image \\n--only=web \\n--only=nginx \\n--only=celery \\n--only=celerybeat \\n--only=redis \\n-o /input/output.png --horizontal \/input/docker-compose.yml
+docker run --rm -it --name dcv -v $(pwd):/input pmsipilot/docker-compose-viz render \\n-m image \\n--only=web \\n--only=nginx \\n--only=celery \\n--only=celerybeat \\n--only=redis \\n-o /input/output.png --horizontal \/input/docker-compose.yml
+docker run --rm -it --name dcv -v $(pwd):/input pmsipilot/docker-compose-viz render \\n-m image \\n--only=web \\n--only=nginx \\n--only=celery \\n--only=celerybeat \\n--only=redis \ --only=certbot\n-o /input/output_2.png --horizontal \/input/docker-compose.yml
+docker run --rm -it --name dcv -v $(pwd):/input pmsipilot/docker-compose-viz render \\n-m image \\n--only=web \\n--only=nginx \\n--only=celery \\n--only=celerybeat \\n--only=redis \ --only=certbot \\n-o /input/output_2.png --horizontal \/input/docker-compose.yml
+docker run --rm -it --name dcv -v $(pwd):/input pmsipilot/docker-compose-viz render \\n-m image \\n--only=web \\n--only=nginx \\n--only=celery \\n--only=celerybeat \\n--only=redis \           \n--only=certbot \      \n-o /input/output_2.png --horizontal \/input/docker-compose.yml
+docker run --rm -it --name dcv -v $(pwd):/input pmsipilot/docker-compose-viz render \\n-m image \\n--only=web \\n--only=nginx \\n--only=celery \\n--only=celerybeat \\n--only=redis \           \n--only=certbot \      \n-o /input/output_2.png --horizontal \/input/docker-compose.yml
+docker run --rm -it --name dcv -v $(pwd):/input pmsipilot/docker-compose-viz render \\n-m image \\n--only=web \\n--only=nginx \\n--only=celery \\n--only=celerybeat \\n--only=redis \\n--only=certbot \      \n-o /input/output_2.png --horizontal \/input/docker-compose.yml
+docker run --rm -it --name dcv -v $(pwd):/input pmsipilot/docker-compose-viz render \\n-m image \\n--only=web \\n--only=nginx \\n--only=celery \\n--only=celerybeat \\n--only=redis \\n--only=certbot \      \n--horizontal \/input/docker-compose.yml
+docker run --rm -it --name dcv -v $(pwd):/input pmsipilot/docker-compose-viz render \\n-m image \\n--only=web \\n--only=nginx \\n--only=celery \\n--only=celerybeat \\n--only=redis \\n--only=certbot \      \n--horizontal \/input/docker-compose.yml
+docker run --rm -it --name dcv -v $(pwd):/input pmsipilot/docker-compose-viz render \\n-m image \\n--only=web \\n--only=nginx \\n--only=celery \\n--only=celerybeat \\n--only=redis \\n--only=certbot \      \n--horizontal /input/docker-compose.yml
+docker run --rm -it --name dcv -v $(pwd):/input pmsipilot/docker-compose-viz render \\n-m image \\n--only=web \\n--only=nginx \\n--only=celery \\n--only=celerybeat \\n--only=redis \\n--only=certbot \      \n-o --horizontal /input/docker-compose.yml
+ls
+docker run --rm -it --name dcv -v $(pwd):/input pmsipilot/docker-compose-viz render \\n-m image \\n--only=web \\n--only=nginx \\n--only=celery \\n--only=celerybeat \\n--only=redis \\n--only=certbot \      \n-o --horizontal /input/docker-compose.yml
+docker run --rm -it --name dcv -v $(pwd):/input pmsipilot/docker-compose-viz render \\n-m image \\n--only=web \\n--only=nginx \\n--only=celery \\n--only=celerybeat \\n--only=redis \\n--only=certbot \      \n-o diagram.png --horizontal /input/docker-compose.yml
+docker run --rm -it --name dcv -v $(pwd):/input pmsipilot/docker-compose-viz render \\n-m image \\n--only=web \\n--only=nginx \\n--only=celery \\n--only=celerybeat \\n--only=redis \\n--only=certbot \      \n-output-file diagram.png --horizontal /input/docker-compose.yml
+docker run --rm -it --name dcv -v $(pwd):/input pmsipilot/docker-compose-viz render \\n-m image \\n--only=web \\n--only=nginx \\n--only=celery \\n--only=celerybeat \\n--only=redis \\n--only=certbot \      \n--output-file diagram.png --horizontal /input/docker-compose.yml
+docker run --rm -it --name dcv -v $(pwd):/input pmsipilot/docker-compose-viz render \\n-m image \\n--only=web \\n--only=nginx \\n--only=celery \\n--only=celerybeat \\n--only=redis \\n--only=certbot \\n--output-file diagram.png --horizontal /input/docker-compose.yml
+python manage python manage.py test --settings=your_project_name.test_settings
+ls
+cd ..
+ls
+python manage python manage.py test --settings=your_project_name.test_settings
+ls
+python manage.py test --settings=your_project_name.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settingss
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py runserver 8000
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py runserver 8000
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py runserver 8000
+python manage.py test
+python manage.py test
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test
+ls
+tree
+tree -L 2
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test
+python manage.py test
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py runserver 8000
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+clear
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+[A
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+clear
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+clear
+clear
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings\npython manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py makemigrations
+python manage.py makemigrations
+python manage.py makemigrations
+python manage.py makemigrations
+python manage.py migrate
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py test --settings=prominent_profiles.test_settings
+python manage.py runserver 8000
+npm run serve
+npm run serve
+npm run serve
+npm run serve
+/usr/bin/python3 /Users/ameek/.vscode/extensions/ms-python.python-2024.2.1/pythonFiles/printEnvVariablesToFile.py /Users/ameek/.vscode/extensions/ms-python.python-2024.2.1/pythonFiles/deactivate/zsh/envVars.txt
+/usr/bin/python3 /Users/ameek/.vscode/extensions/ms-python.python-2024.2.1/pythonFiles/printEnvVariablesToFile.py /Users/ameek/.vscode/extensions/ms-python.python-2024.2.1/pythonFiles/deactivate/zsh/envVars.txt
+npm run serve
+python manage.py graph_models -a -I Entity,BoundMention,EntityView,IgnoreEntitySimilarity,Subscription,BingEntity,EntityHistory,OverallSentiment,Article,ProcessedFile,ArticleStatistics,SimilarArticlePair,BoundError,SimilarEntityPair -o nlp_models.png
+docker run --rm -it --name dcv -v $(pwd):/input pmsipilot/docker-compose-viz render \\n-m image \\n--only=web \\n--only=nginx \\nl--only=celery \\n--only=celerybeat \\n--only=redis \\n-o /input/output.png --horizontal \/input/docker-compose.yml
+ls
+npm run serve
+ls
+npm run serve
+python manage.py runserver 8000
+npm run serve
+npm run serve
+npm run serve
+python manage.py runserver 8000
+conda install sklearn
+pip install sklearn
+pip install def calculate_tpr_fpr(ground_truth, predicted_edges):\n    # Flatten the 2D arrays to 1D arrays\n    gt_flat = ground_truth.flatten()\n    pred_flat = predicted_edges.flatten()\n    \n    # Calculate confusion matrix and extract true positives and false positives\n    tn, fp, fn, tp = confusion_matrix(gt_flat, pred_flat).ravel()\n    \n    # Calculate TPR and FPR\n    tpr = tp / (tp + fn)\n    fpr = fp / (fp + tn)\n    \n    return tpr, fpr\n\n# Load the hand-annotated ground truth image\ngt_image = cv2.imread('/mnt/data/10905_JL_Edges.bmp', 0)\ngt_image = cv2.threshold(gt_image, 127, 255, cv2.THRESH_BINARY)[1] / 255
+pip install scikit-learn
+pip install pandas
+/usr/bin/python3 /Users/ameek/.vscode/extensions/ms-python.python-2024.2.1/pythonFiles/printEnvVariablesToFile.py /Users/ameek/.vscode/extensions/ms-python.python-2024.2.1/pythonFiles/deactivate/zsh/envVars.txt
+ls
+python manage.py runserver 8000
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver 8000
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver 8000
+python manage.py shell
+python manage.py shell
+clear
+python manage.py runserver 8000
+python manage.py shell
+pip install pynsource
+python manage.py graph_models -o my_models.dot
+python manage.py graph_models prominent_profiles -o my_models.dot
+python manage.py graph_models profiles_app -o my_models.dot
+dot -Tpng my_models.dot -o my_models.png
+python manage.py graph_models nlp_processor -o nlp_processor.png
+python manage.py graph_models entityHistory -o nlp_processor.png
+npm run serve
+python manage.py graph_models profiles_app.article, profiles_app.entity -o nlp_processor.png
+python manage.py graph_models -a --arrow-shape normal -o my_project_sans_foo_bar.png
+python manage.py graph_models -a -I Subscription,EntityHistory,BingEntity,IgnoreEntitySimilarity,Entity,SimilarEntityPair,EntityView,BoundMention,OverallSentiment --color-code-delations -o Entity_Relations.png
+python manage.py graph_models -a -I Subscription,EntityHistory,BingEntity,IgnoreEntitySimilarity,Entity,SimilarEntityPair,EntityView,BoundMention,OverallSentiment --color-code-deletions -o Entity_Relations.png
+python manage.py graph_models -a -rankdir BT -I Subscription,EntityHistory,BingEntity,IgnoreEntitySimilarity,Entity,SimilarEntityPair,EntityView,BoundMention,OverallSentiment --color-code-deletions -o Entity_Relations.png
+python manage.py graph_models -a --rankdir TB -I Subscription,EntityHistory,BingEntity,IgnoreEntitySimilarity,Entity,SimilarEntityPair,EntityView,BoundMention,OverallSentiment --color-code-deletions -o Entity_Relations.png
+python manage.py graph_models -a --rankdir LR -I Subscription,EntityHistory,BingEntity,IgnoreEntitySimilarity,Entity,SimilarEntityPair,EntityView,BoundMention,OverallSentiment --color-code-deletions -o Entity_Relations.png
+python manage.py graph_models -a --rankdir BT -I Subscription,EntityHistory,BingEntity,IgnoreEntitySimilarity,Entity,SimilarEntityPair,EntityView,BoundMention,OverallSentiment --color-code-deletions -o Entity_Relations.png
+python manage.py graph_models -a --rankdir RL -I Subscription,EntityHistory,BingEntity,IgnoreEntitySimilarity,Entity,SimilarEntityPair,EntityView,BoundMention,OverallSentiment --color-code-deletions -o Entity_Relations.png
+python manage.py graph_models --rankdir RL -I Subscription,EntityHistory,BingEntity,IgnoreEntitySimilarity,Entity,SimilarEntityPair,EntityView,BoundMention,OverallSentiment --color-code-deletions -o Entity_Relations.png
+python manage.py graph_models -a --rankdir RL -I Subscription,EntityHistory,BingEntity,IgnoreEntitySimilarity,Entity,SimilarEntityPair,EntityView,BoundMention,OverallSentiment -o Entity_Relations.png
+python manage.py graph_models --rankdir BT -I Subscription,EntityHistory,BingEntity,IgnoreEntitySimilarity,Entity,SimilarEntityPair,EntityView,BoundMention,OverallSentiment --color-code-deletions -o Entity_Relations.png
+python manage.py graph_models -a --rankdir BT -I Subscription,EntityHistory,BingEntity,IgnoreEntitySimilarity,Entity,SimilarEntityPair,EntityView,BoundMention,OverallSentiment --color-code-deletions -o Entity_Relations.png
+python manage.py graph_models -a --rankdir LR -I Subscription,EntityHistory,BingEntity,IgnoreEntitySimilarity,Entity,SimilarEntityPair,EntityView,BoundMention,OverallSentiment --color-code-deletions -o Entity_Relations.png
+python manage.py graph_models -a --rankdir RL -I Subscription,EntityHistory,BingEntity,IgnoreEntitySimilarity,Entity,SimilarEntityPair,EntityView,BoundMention,OverallSentiment --color-code-deletions -o Entity_Relations.png
+python manage.py graph_models -a --rankdir LR -I Subscription,EntityHistory,BingEntity,IgnoreEntitySimilarity,Entity,SimilarEntityPair,EntityView,BoundMention,OverallSentiment --color-code-deletions -o Entity_Relations.png
+python manage.py graph_models -a --rankdir LR -I ProcessedFile,Article,BoundMention,OverallSentiment,ArticleStatistics,SimilarArticlePair,BoundError --color-code-deletions -o Article_Relations.png
+python manage.py graph_models -a --rankdir LR -I Entity,BoundMention,OverallSentiment,Article --color-code-deletions -o Article_Entity_4_Way.png
+python manage.py graph_models -a --rankdir LR -I Entity,BoundMention,OverallSentiment,Article --color-code-deletions -o Article_Entity_4_Way.dot
+python manage.py graph_models -a --rankdir LR -I ProcessedFile,Article,BoundMention,OverallSentiment,ArticleStatistics,SimilarArticlePair,BoundError --color-code-deletions -o Article_Relations.dot
+python manage.py graph_models -a --rankdir LR -I Subscription,EntityHistory,BingEntity,IgnoreEntitySimilarity,Entity,SimilarEntityPair,EntityView,BoundMention,OverallSentiment --color-code-deletions -o Entity_Relations.dot
+dot -Tpng Entity_Relations.dot -o Entity_Relations.png
+ls
+cd Database_Graphs
+ls
+cd ..
+ls
+cd Database_Graphs
+ls
+cd 15th March
+ls
+cd 15th March
+cd '15th March'
+ls
+dot -Tpng Entity_Relations.dot -o Entity_Relations.png
+dot -Tpng Entity_Relations.dot -o Entity_Relations.png
+dot -Tpng -Gdpi=300 Entity_Relations.dot -o Entity_Relations.png
+dot -Tpng -Gdpi=500 Entity_Relations.dot -o Entity_Relations.png
+dot -Tpng -Gdpi=500 Article_Relations.dot -o Article_Relations.png
+dot -Tpng -Gdpi=500 Article_Entity_4_Way.dot -o Article_Entity_4_Way.png
+cd ..
+ls
+cd ..
+ls
+cd prominent_profiles
+ls
+la
+ls
+cd prominent_profiles
+ls
+python manage.py graph_models -a --rankdir LR -I ProcessedFile,Article,BoundMention,OverallSentiment,ArticleStatistics,SimilarArticlePair,BoundError,Entity --color-code-deletions -o Article_Relations_w_Entity_Box.dot
+cd ..
+python manage.py graph_models -a --rankdir LR -I ProcessedFile,Article,BoundMention,OverallSentiment,ArticleStatistics,SimilarArticlePair,BoundError,Entity --color-code-deletions -o Article_Relations_w_Entity_Box.dot
+dot -Tpng -Gdpi=500 Article_Relations_w_Entity_Box.dot -o Article_Relations_w_Entity_Box.png
+python manage.py graph_models -a --rankdir LR -I Subscription,EntityHistory,BingEntity,IgnoreEntitySimilarity,Entity,SimilarEntityPair,EntityView,BoundMention,OverallSentiment,Article --color-code-deletions -o Entity_Relations_w_Article_Box.dot
+dot -Tpng -Gdpi=500 Entity_Relations_w_Article_Box.dot -o Entity_Relations_w_Article_Box.png
+dot -Tpng -Kdot -Gdpi=500 Entity_Relations_w_Article_Box.dot -o Entity_Relations_w_Article_Box.png
+dot -Tpng -Kneato -Gdpi=500 Entity_Relations_w_Article_Box.dot -o Entity_Relations_w_Article_Box.png
+dot -Tpng -Kdot -Gdpi=500 Entity_Relations_w_Article_Box.dot -o Entity_Relations_w_Article_Box.png
+dot -Tpng -Kfdp -Gdpi=500 Entity_Relations_w_Article_Box.dot -o Entity_Relations_w_Article_Box.png
+dot -Tpng -Sfdp -Gdpi=500 Entity_Relations_w_Article_Box.dot -o Entity_Relations_w_Article_Box.png
+dot -Tpng -Ksfdp -Gdpi=500 Entity_Relations_w_Article_Box.dot -o Entity_Relations_w_Article_Box.png
+dot -Tpng -Ktwopi -Gdpi=500 Entity_Relations_w_Article_Box.dot -o Entity_Relations_w_Article_Box.png
+dot -Tpng -Kcirco -Gdpi=500 Entity_Relations_w_Article_Box.dot -o Entity_Relations_w_Article_Box.png
+dot -Tpng -Kosage -Gdpi=500 Entity_Relations_w_Article_Box.dot -o Entity_Relations_w_Article_Box.png
+dot -Tpng -Gdpi=500 Entity_Relations_w_Article_Box.dot -o Entity_Relations_w_Article_Box.png
+python manage.py graph_models -a --rankdir BT -I Subscription,EntityHistory,BingEntity,IgnoreEntitySimilarity,Entity,SimilarEntityPair,EntityView,BoundMention,OverallSentiment,Article --color-code-deletions -o -Gdpi=500  Entity_Relations_w_Article_Box.png
+python manage.py graph_models -a --rankdir BT -gDPI=500 -I Subscription,EntityHistory,BingEntity,IgnoreEntitySimilarity,Entity,SimilarEntityPair,EntityView,BoundMention,OverallSentiment,Article --color-code-deletions -o Entity_Relations_w_Article_Box.png
+python manage.py graph_models -a -Gdpi=500 --rankdir BT -I Subscription,EntityHistory,BingEntity,IgnoreEntitySimilarity,Entity,SimilarEntityPair,EntityView,BoundMention,OverallSentiment,Article --color-code-deletions -o Entity_Relations_w_Article_Box.png
+python manage.py graph_models -a --rankdir BT -I Subscription,EntityHistory,BingEntity,IgnoreEntitySimilarity,Entity,SimilarEntityPair,EntityView,BoundMention,OverallSentiment,Article,CustomUser,Article,ArticleStatistics,SimilarArticlePair,BoundError,ProcessedFile --color-code-deletions -o All_Key_Models.png
+python manage.py graph_models -a --rankdir LR -I Subscription,EntityHistory,BingEntity,IgnoreEntitySimilarity,Entity,SimilarEntityPair,EntityView,BoundMention,OverallSentiment,Article,CustomUser,Article,ArticleStatistics,SimilarArticlePair,BoundError,ProcessedFile --color-code-deletions -o All_Key_Models.png
+python manage.py graph_models -a --rankdir RL -I Subscription,EntityHistory,BingEntity,IgnoreEntitySimilarity,Entity,SimilarEntityPair,EntityView,BoundMention,OverallSentiment,Article,CustomUser,Article,ArticleStatistics,SimilarArticlePair,BoundError,ProcessedFile --color-code-deletions -o All_Key_Models.png
+python manage.py graph_models -a --rankdir TB -I Subscription,EntityHistory,BingEntity,IgnoreEntitySimilarity,Entity,SimilarEntityPair,EntityView,BoundMention,OverallSentiment,Article,CustomUser,Article,ArticleStatistics,SimilarArticlePair,BoundError,ProcessedFile --color-code-deletions -o All_Key_Models.png
+python3 manage.py graph_models -a -g -o reactdj_models.png
+python manage.py graph_models -a --rankdir LR -I Subscription,EntityHistory,BingEntity,Entity,EntityView,BoundMention,OverallSentiment,Article --color-code-deletions -o Entity_Relations_w_Article_Box.dot
+dot -Tpng -Gdpi=500 Entity_Relations_w_Article_Box.dot -o Entity_Relations_w_Article_Box.png
+dot -Tpng -Gdpi=500 Entity_Relations_w_Article_Box.dot -o Entity_Relations_w_Article_Box.png
+dot -Tpng -Gdpi=500 Entity_Relations_w_Article_Box.dot -o Entity_Relations_w_Article_Box.png
+dot -Tpng -Gdpi=500 Entity_Relations_w_Article_Box.dot -o Entity_Relations_w_Article_Box.png
+dot -Tpng -Gdpi=500 Entity_Relations_w_Article_Box.dot -o Entity_Relations_w_Article_Box.png
+python manage.py graph_models -a --rankdir LR -I Subscription,BingEntity,Entity,EntityView,BoundMention,OverallSentiment,Article --color-code-deletions -o Entity_Relations_w_Article_Box.dot
+dot -Tpng -Gdpi=500 Entity_Relations_w_Article_Box.dot -o Entity_Relations_w_Article_Box.png
+dot -Tpng -Gdpi=500 Article_Relations_w_Article_Box.dot -o Article_Relations_w_Article_Box.png
+dot -Tpng -Gdpi=500 Article_Relations_w_Entity_Box.dot -o Article_Relations_w_Entity_Box.png
+python manage.py graph_models -a --rankdir TB -I Subscription,EntityHistory,BingEntity,IgnoreEntitySimilarity,Entity,SimilarEntityPair,EntityView,BoundMention,OverallSentiment,Article,CustomUser,Article,ArticleStatistics,SimilarArticlePair,BoundError,ProcessedFile --color-code-deletions --exclude-field-names -o All_Key_Models.png
+python manage.py graph_models -a --rankdir TB -I Subscription,EntityHistory,BingEntity,IgnoreEntitySimilarity,Entity,SimilarEntityPair,EntityView,BoundMention,OverallSentiment,Article,CustomUser,Article,ArticleStatistics,SimilarArticlePair,BoundError,ProcessedFile --color-code-deletions --relation-fields-only -o All_Key_Models.png
+python manage.py graph_models -a --rankdir TB -I Subscription,EntityHistory,BingEntity,IgnoreEntitySimilarity,Entity,SimilarEntityPair,EntityView,BoundMention,OverallSentiment,Article,CustomUser,Article,ArticleStatistics,SimilarArticlePair,BoundError,ProcessedFile --color-code-deletions --relation-fields-only RELATION_FIELDS_ONLY all_Key_Models.png
+python manage.py graph_models -a --rankdir TB -I Subscription,EntityHistory,BingEntity,IgnoreEntitySimilarity,Entity,SimilarEntityPair,EntityView,BoundMention,OverallSentiment,Article,CustomUser,Article,ArticleStatistics,SimilarArticlePair,BoundError,ProcessedFile --color-code-deletions --relation-fields-only RELATION_FIELDS_ONLY all_Key_Models.dot
+python manage.py graph_models -a --rankdir TB -I Subscription,EntityHistory,BingEntity,IgnoreEntitySimilarity,Entity,SimilarEntityPair,EntityView,BoundMention,OverallSentiment,Article,CustomUser,Article,ArticleStatistics,SimilarArticlePair,BoundError,ProcessedFile --color-code-deletions --relation-fields-only all_Key_Models.png
+python manage.py graph_models -a --rankdir TB -I Subscription,EntityHistory,BingEntity,IgnoreEntitySimilarity,Entity,SimilarEntityPair,EntityView,BoundMention,OverallSentiment,Article,CustomUser,Article,ArticleStatistics,SimilarArticlePair,BoundError,ProcessedFile --color-code-deletions all_Key_Models.png
+python manage.py graph_models -a --rankdir TB -I Subscription,EntityHistory,BingEntity,IgnoreEntitySimilarity,Entity,SimilarEntityPair,EntityView,BoundMention,OverallSentiment,Article,CustomUser,Article,ArticleStatistics,SimilarArticlePair,BoundError,ProcessedFile --color-code-deletions --relation-fields-only RELATION_FIELDS_ONLY -o all_Key_Models.png
+python manage.py graph_models -a --rankdir TB -I Subscription,EntityHistory,BingEntity,IgnoreEntitySimilarity,Entity,SimilarEntityPair,EntityView,BoundMention,OverallSentiment,Article,CustomUser,Article,ArticleStatistics,SimilarArticlePair,BoundError,ProcessedFile --color-code-deletions --relation-fields-only RELATION_FIELDS_ONLSY -o all_Key_Models.png
+python manage.py graph_models -a --rankdir TB -I Subscription,EntityHistory,BingEntity,IgnoreEntitySimilarity,Entity,SimilarEntityPair,EntityView,BoundMention,OverallSentiment,Article,CustomUser,Article,ArticleStatistics,SimilarArticlePair,BoundError,ProcessedFile --color-code-deletions --relation-fields-onl -o all_Key_Models.png
+python manage.py graph_models -a --rankdir LR -I Subscription,EntityHistory,BingEntity,IgnoreEntitySimilarity,Entity,SimilarEntityPair,EntityView,BoundMention,OverallSentiment,Article,CustomUser,Article,ArticleStatistics,SimilarArticlePair,BoundError,ProcessedFile --color-code-deletions --disable-fields -o all_Key_Models.png
+python manage.py graph_models -a --rankdir BT -I Subscription,EntityHistory,BingEntity,IgnoreEntitySimilarity,Entity,SimilarEntityPair,EntityView,BoundMention,OverallSentiment,Article,CustomUser,Article,ArticleStatistics,SimilarArticlePair,BoundError,ProcessedFile --color-code-deletions --disable-fields -o all_Key_Models.png
+python manage.py graph_models -a --rankdir LR -I Subscription,EntityHistory,BingEntity,IgnoreEntitySimilarity,Entity,SimilarEntityPair,EntityView,BoundMention,OverallSentiment,Article,CustomUser,Article,ArticleStatistics,SimilarArticlePair,BoundError,ProcessedFile --color-code-deletions --disable-fields -o all_Key_Models.png
+python manage.py graph_models -a --rankdir RL -I Subscription,EntityHistory,BingEntity,IgnoreEntitySimilarity,Entity,SimilarEntityPair,EntityView,BoundMention,OverallSentiment,Article,CustomUser,Article,ArticleStatistics,SimilarArticlePair,BoundError,ProcessedFile --color-code-deletions --disable-fields -o all_Key_Models.png
+python manage.py graph_models -a --rankdir LR -I Subscription,EntityHistory,BingEntity,IgnoreEntitySimilarity,Entity,SimilarEntityPair,EntityView,BoundMention,OverallSentiment,Article,CustomUser,Article,ArticleStatistics,SimilarArticlePair,BoundError,ProcessedFile --color-code-deletions --disable-fields -o all_Key_Models.png
+python manage.py graph_models -a --rankdir LR -I Subscription,EntityHistory,BingEntity,IgnoreEntitySimilarity,Entity,SimilarEntityPair,EntityView,BoundMention,OverallSentiment,Article,CustomUser,Article,ArticleStatistics,SimilarArticlePair,BoundError,ProcessedFile --color-code-deletions --disable-fields -o all_Key_Models.dot
+dot -Tpng -Gdpi=500 all_key_models.dot -o all_key_Models.png
+dot -Tpng -Gdpi=500 all_key_models.dot -o all_key_Models.png
+dot -Tpng -Gdpi=500 all_key_models.dot -o all_key_Models.png
+dot -Tpng -Gdpi=500 all_key_models.dot -o all_key_Models.png
+dot -Tpng -Gdpi=500 all_key_models.dot -o all_key_Models.png
+dot -Tpng -Gdpi=500 Entity_Relations_w_Article_Box.dot -o Entity_Relations_w_Article_Box.png
+dot -Tpng -Gdpi=500 Entity_Relations_No_Entity_Similarity.dot -o Entity_Relations_No_Entity_Similarity.png
+python manage.py graph_models -a --rankdir TB -I CustomUser,EntityHistory,IgnoreEntitySimilarity,Entity,SimilarEntityPair --color-code-deletions entity_similarity.dot
+python manage.py graph_models -a --rankdir TB -I CustomUser,EntityHistory,IgnoreEntitySimilarity,Entity,SimilarEntityPair --color-code-deletions -o entity_similarity.dot
+python manage.py graph_models -a --rankdir TB -I CustomUser,EntityHistory,IgnoreEntitySimilarity,Entity,SimilarEntityPair --color-code-deletions -o entity_similarity.png
+python manage.py graph_models -a --rankdir TB -I CustomUser,EntityHistory,IgnoreEntitySimilarity,Entity,SimilarEntityPair,Article --color-code-deletions -o entity_similarity.png
+python manage.py graph_models -a --rankdir TB -I CustomUser,EntityHistory,IgnoreEntitySimilarity,Entity,SimilarEntityPair,Article --color-code-deletions -o entity_similarity.doty
+python manage.py graph_models -a --rankdir TB -I CustomUser,EntityHistory,IgnoreEntitySimilarity,Entity,SimilarEntityPair,Article --color-code-deletions -o entity_similarity.dot
+dot -Tpng -Gdpi=500 entity_similarity.dot -o entity_similarity.png
+dot -Tpng -Gdpi=500 entity_similarity.dot -o entity_similarity.png
+dot -Tpng -Gdpi=500 entity_similarity.dot -o entity_similarity.png
+python3 manage.py graph_models -I CustomUser,EntityHistory,IgnoreEntitySimilarity,Entity,SimilarEntityPair,Article,Subscription,EntityView,BoundMention,OverallSentiment,Article,BoundError,ProcessedFile,SimilarArticlePair,ArticleStatistics --relational-fields-only  -g -o relational_most_things.png
+python3 manage.py graph_models -I CustomUser,EntityHistory,IgnoreEntitySimilarity,Entity,SimilarEntityPair,Article,Subscription,EntityView,BoundMention,OverallSentiment,Article,BoundError,ProcessedFile,SimilarArticlePair,ArticleStatistics --relation-fields-only  -g -o relational_most_things.png
+python3 manage.py graph_models -I CustomUser,EntityHistory,IgnoreEntitySimilarity,Entity,SimilarEntityPair,Article,Subscription,EntityView,BoundMention,OverallSentiment,Article,BoundError,ProcessedFile,SimilarArticlePair,ArticleStatistics --relation-fields-only RELATION_FIELDS_ONLY  -g -o relational_most_things.png
+python3 manage.py graph_models -a -I CustomUser,EntityHistory,IgnoreEntitySimilarity,Entity,SimilarEntityPair,Article,Subscription,EntityView,BoundMention,OverallSentiment,Article,BoundError,ProcessedFile,SimilarArticlePair,ArticleStatistics --relation-fields-only RELATION_FIELDS_ONLY -g -o relational_most_things.png
+python3 manage.py graph_models -a BT -I CustomUser,EntityHistory,IgnoreEntitySimilarity,Entity,SimilarEntityPair,Article,Subscription,EntityView,BoundMention,OverallSentiment,Article,BoundError,ProcessedFile,SimilarArticlePair,ArticleStatistics --relation-fields-only RELATION_FIELDS_ONLY -g -o relational_most_things.png
+python3 manage.py graph_models -a LR -I CustomUser,EntityHistory,IgnoreEntitySimilarity,Entity,SimilarEntityPair,Article,Subscription,EntityView,BoundMention,OverallSentiment,Article,BoundError,ProcessedFile,SimilarArticlePair,ArticleStatistics --relation-fields-only RELATION_FIELDS_ONLY -g -o relational_most_things.png
+python3 manage.py graph_models LR -a -I CustomUser,EntityHistory,IgnoreEntitySimilarity,Entity,SimilarEntityPair,Article,Subscription,EntityView,BoundMention,OverallSentiment,Article,BoundError,ProcessedFile,SimilarArticlePair,ArticleStatistics --relation-fields-only RELATION_FIELDS_ONLY -g -o relational_most_things.png
+python3 manage.py graph_models --rank-dir LR -a -I CustomUser,EntityHistory,IgnoreEntitySimilarity,Entity,SimilarEntityPair,Article,Subscription,EntityView,BoundMention,OverallSentiment,Article,BoundError,ProcessedFile,SimilarArticlePair,ArticleStatistics --relation-fields-only RELATION_FIELDS_ONLY -g -o relational_most_things.png
+python3 manage.py graph_models --rankdir LR -a -I CustomUser,EntityHistory,IgnoreEntitySimilarity,Entity,SimilarEntityPair,Article,Subscription,EntityView,BoundMention,OverallSentiment,Article,BoundError,ProcessedFile,SimilarArticlePair,ArticleStatistics --relation-fields-only RELATION_FIELDS_ONLY -g -o relational_most_things.png
+python3 manage.py graph_models --rankdir TB -a -I CustomUser,EntityHistory,IgnoreEntitySimilarity,Entity,SimilarEntityPair,Article,Subscription,EntityView,BoundMention,OverallSentiment,Article,BoundError,ProcessedFile,SimilarArticlePair,ArticleStatistics --relation-fields-only RELATION_FIELDS_ONLY -g -o relational_most_things.png
+python3 manage.py graph_models --rankdir BT -a -I CustomUser,EntityHistory,IgnoreEntitySimilarity,Entity,SimilarEntityPair,Article,Subscription,EntityView,BoundMention,OverallSentiment,Article,BoundError,ProcessedFile,SimilarArticlePair,ArticleStatistics --relation-fields-only RELATION_FIELDS_ONLY -g -o relational_most_things.png
+python3 manage.py graph_models --rankdir LR -a -I CustomUser,EntityHistory,IgnoreEntitySimilarity,Entity,SimilarEntityPair,Article,Subscription,EntityView,BoundMention,OverallSentiment,Article,BoundError,ProcessedFile,SimilarArticlePair,ArticleStatistics --relation-fields-only RELATION_FIELDS_ONLY -g -o relational_most_things.png
+python3 manage.py graph_models --rankdir LR -a -I CustomUser,EntityHistory,IgnoreEntitySimilarity,Entity,SimilarEntityPair,Article,Subscription,EntityView,BoundMention,OverallSentiment,Article,BoundError,ProcessedFile,SimilarArticlePair,ArticleStatistics --relation-fields-only RELATION_FIELDS_ONLY -g -o relational_most_things.dot
+dot -Tpng -Gdpi=500 relational_most_things.dot -o relational_most_things.png
+python3 manage.py graph_models --rankdir RL -a -I CustomUser,EntityHistory,IgnoreEntitySimilarity,Entity,SimilarEntityPair,Article,Subscription,EntityView,BoundMention,OverallSentiment,Article,BoundError,ProcessedFile,SimilarArticlePair,ArticleStatistics --relation-fields-only RELATION_FIELDS_ONLY -g -o relational_most_things.dot
+dot -Tpng -Gdpi=500 relational_most_things.dot -o relational_most_things.png
+python3 manage.py graph_models --rankdir RL -a -I CustomUser,EntityHistory,IgnoreEntitySimilarity,Entity,SimilarEntityPair,Article,Subscription,EntityView,BoundMention,OverallSentiment,Article,BoundError,ProcessedFile,SimilarArticlePair,ArticleStatistics --relation-fields-only RELATION_FIELDS_ONLY -o relational_most_things.dot
+dot -Tpng -Gdpi=500 relational_most_things.dot -o relational_most_things.png
+python3 manage.py graph_models --rankdir LR -a -I CustomUser,EntityHistory,IgnoreEntitySimilarity,Entity,SimilarEntityPair,Article,Subscription,EntityView,BoundMention,OverallSentiment,Article,BoundError,ProcessedFile,SimilarArticlePair,ArticleStatistics --relation-fields-only RELATION_FIELDS_ONLY -o relational_most_things.dot
+dot -Tpng -Gdpi=500 relational_most_things.dot -o relational_most_things.png
+python3 manage.py graph_models --rankdir RL -a -I CustomUser,EntityHistory,IgnoreEntitySimilarity,Entity,SimilarEntityPair,Article,Subscription,EntityView,BoundMention,OverallSentiment,Article,BoundError,ProcessedFile,SimilarArticlePair,ArticleStatistics --relation-fields-only RELATION_FIELDS_ONLY --arrow-shape crow -o relational_most_things_experiment.png
+python3 manage.py graph_models --rankdir RL -a -I CustomUser,EntityHistory,IgnoreEntitySimilarity,Entity,SimilarEntityPair,Article,Subscription,EntityView,BoundMention,OverallSentiment,Article,BoundError,ProcessedFile,SimilarArticlePair,ArticleStatistics --relation-fields-only RELATION_FIELDS_ONLY --arrow-shape diamond -o relational_most_things_experiment.png
+python3 manage.py graph_models --rankdir RL -a -I CustomUser,EntityHistory,IgnoreEntitySimilarity,Entity,SimilarEntityPair,Article,Subscription,EntityView,BoundMention,OverallSentiment,Article,BoundError,ProcessedFile,SimilarArticlePair,ArticleStatistics --relation-fields-only RELATION_FIELDS_ONLY --colour-code-deletions --arrow-shape diamond -o relational_most_things_experiment.png
+python3 manage.py graph_models --rankdir RL -a -I CustomUser,EntityHistory,IgnoreEntitySimilarity,Entity,SimilarEntityPair,Article,Subscription,EntityView,BoundMention,OverallSentiment,Article,BoundError,ProcessedFile,SimilarArticlePair,ArticleStatistics --relation-fields-only RELATION_FIELDS_ONLY --color-code-deletions --arrow-shape diamond -o relational_most_things_experiment.png
+python3 manage.py graph_models --rankdir RL -a -I CustomUser,EntityHistory,IgnoreEntitySimilarity,Entity,SimilarEntityPair,Article,Subscription,EntityView,BoundMention,OverallSentiment,Article,BoundError,ProcessedFile,SimilarArticlePair,ArticleStatistics --relation-fields-only RELATION_FIELDS_ONLY --color-code-deletions --arrow-shape diamond -o relational_most_things_experiment.dot
+dot -Tpng -Gdpi=500 relational_most_things_experiment.dot -o relational_most_things.png
+python3 manage.py graph_models --rankdir LR -a -I CustomUser,EntityHistory,IgnoreEntitySimilarity,Entity,SimilarEntityPair,Article,Subscription,EntityView,BoundMention,OverallSentiment,Article,BoundError,ProcessedFile,SimilarArticlePair,ArticleStatistics --relation-fields-only RELATION_FIELDS_ONLY --color-code-deletions --arrow-shape diamond -o relational_most_things_experiment.dot
+dot -Tpng -Gdpi=500 relational_most_things_experiment.dot -o relational_most_things.png
+python manage.py graph_models -a --rankdir TB -I CustomUser,EntityHistory,IgnoreEntitySimilarity,Entity,SimilarEntityPair,Article --color-code-deletions --arrow-shape diamond -o entity_similarity.dot
+dot -Tpng -Gdpi=500 entity_similarity.dot -o entity_similarity.png
+python manage.py graph_models -a --rankdir LR -I Subscription,EntityHistory,BingEntity,IgnoreEntitySimilarity,Entity,SimilarEntityPair,EntityView,BoundMention,OverallSentiment,Article,CustomUser,Article,ArticleStatistics,SimilarArticlePair,BoundError,ProcessedFile --color-code-deletions --disable-fields --arrow-shape diamond -o all_Key_Models.dot
+dot -Tpng -Gdpi=500 all_key_models.dot -o all_key_Models.png
+python manage.py graph_models -a --rankdir LR -I Subscription,EntityHistory,BingEntity,IgnoreEntitySimilarity,Entity,SimilarEntityPair,EntityView,BoundMention,OverallSentiment,Article,CustomUser,Article,ArticleStatistics,SimilarArticlePair,BoundError,ProcessedFile --color-code-deletions --disable-fields --arrow-shape diamond -o all_Key_Models.dot
+dot -Tpng -Gdpi=500 all_key_models.dot -o all_key_Models.png
+dot -Tpng -Gdpi=500 all_key_models.dot -o all_key_Models.png
+dot -Tpng -Gdpi=500 all_key_models.dot -o all_key_Models.png
+python manage.py graph_models -a --rankdir LR -I Subscription,BingEntity,Entity,EntityView,BoundMention,OverallSentiment,Article --color-code-deletions --arrow-shape diamond -o Entity_Relations_w_Article_Box.dot
+python manage.py graph_models -a --rankdir LR -I ProcessedFile,Article,BoundMention,OverallSentiment,ArticleStatistics,SimilarArticlePair,BoundError,Entity --color-code-deletions --arrow-shape diamond -o Article_Relations_w_Entity_Box.dot
+dot -Tpng -Gdpi=500 Entity_Relations_w_Article_Box.dot -o Entity_Relations_w_Article_Box.png
+dot -Tpng -Gdpi=500 Article_Relations_w_Entity_Box.dot -o Article_Relations_w_Entity_Box.png
+dot -Tpng -Gdpi=500 Article_Relations_w_Entity_Box.dot -o Article_Relations_w_Entity_Box.png
+history > terminal_commands_pygraph.txt
+history -n 100 > terminal_commands_pygraph.txt
+history -n 35 > terminal_commands_pygraph.txt
+history -n 25 > terminal_commands_pygraph.txt

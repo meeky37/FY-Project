@@ -1,0 +1,249 @@
+digraph model_graph {
+  // Dotfile by Django-Extensions graph_models
+  // Created: 2024-03-15 22:44
+  // Cli Options: -a --rankdir LR -I Subscription,EntityHistory,BingEntity,IgnoreEntitySimilarity,Entity,SimilarEntityPair,EntityView,BoundMention,OverallSentiment,Article,CustomUser,Article,ArticleStatistics,SimilarArticlePair,BoundError,ProcessedFile --color-code-deletions --disable-fields --arrow-shape diamond -o all_Key_Models.dot
+
+  fontname = "Roboto"
+  fontsize = 8
+  splines  = true
+  rankdir = "LR"
+
+  node [
+    fontname = "Roboto"
+    fontsize = 8
+    shape = "plaintext"
+  ]
+
+  edge [
+    fontname = "Roboto"
+    fontsize = 8
+  ]
+
+  // Labels
+
+
+  profiles_app_models_Article [label=<
+    <TABLE BGCOLOR="white" BORDER="1" CELLBORDER="0" CELLSPACING="0">
+    <TR><TD COLSPAN="2" CELLPADDING="5" ALIGN="CENTER" BGCOLOR="#1b563f">
+    <FONT FACE="Roboto" COLOR="white" POINT-SIZE="10"><B>
+    Article
+    </B></FONT></TD></TR>
+  
+    </TABLE>
+    >]
+
+  profiles_app_models_Entity [label=<
+    <TABLE BGCOLOR="white" BORDER="1" CELLBORDER="0" CELLSPACING="0">
+    <TR><TD COLSPAN="2" CELLPADDING="5" ALIGN="CENTER" BGCOLOR="#1b563f">
+    <FONT FACE="Roboto" COLOR="white" POINT-SIZE="10"><B>
+    Entity
+    </B></FONT></TD></TR>
+  
+    </TABLE>
+    >]
+
+  profiles_app_models_IgnoreEntitySimilarity [label=<
+    <TABLE BGCOLOR="white" BORDER="1" CELLBORDER="0" CELLSPACING="0">
+    <TR><TD COLSPAN="2" CELLPADDING="5" ALIGN="CENTER" BGCOLOR="#1b563f">
+    <FONT FACE="Roboto" COLOR="white" POINT-SIZE="10"><B>
+    IgnoreEntitySimilarity
+    </B></FONT></TD></TR>
+  
+    </TABLE>
+    >]
+
+  profiles_app_models_EntityHistory [label=<
+    <TABLE BGCOLOR="white" BORDER="1" CELLBORDER="0" CELLSPACING="0">
+    <TR><TD COLSPAN="2" CELLPADDING="5" ALIGN="CENTER" BGCOLOR="#1b563f">
+    <FONT FACE="Roboto" COLOR="white" POINT-SIZE="10"><B>
+    EntityHistory
+    </B></FONT></TD></TR>
+  
+    </TABLE>
+    >]
+
+  profiles_app_models_SimilarEntityPair [label=<
+    <TABLE BGCOLOR="white" BORDER="1" CELLBORDER="0" CELLSPACING="0">
+    <TR><TD COLSPAN="2" CELLPADDING="5" ALIGN="CENTER" BGCOLOR="#1b563f">
+    <FONT FACE="Roboto" COLOR="white" POINT-SIZE="10"><B>
+    SimilarEntityPair
+    </B></FONT></TD></TR>
+  
+    </TABLE>
+    >]
+
+  profiles_app_models_EntityView [label=<
+    <TABLE BGCOLOR="white" BORDER="1" CELLBORDER="0" CELLSPACING="0">
+    <TR><TD COLSPAN="2" CELLPADDING="5" ALIGN="CENTER" BGCOLOR="#1b563f">
+    <FONT FACE="Roboto" COLOR="white" POINT-SIZE="10"><B>
+    EntityView
+    </B></FONT></TD></TR>
+  
+    </TABLE>
+    >]
+
+  profiles_app_models_BingEntity [label=<
+    <TABLE BGCOLOR="white" BORDER="1" CELLBORDER="0" CELLSPACING="0">
+    <TR><TD COLSPAN="2" CELLPADDING="5" ALIGN="CENTER" BGCOLOR="#1b563f">
+    <FONT FACE="Roboto" COLOR="white" POINT-SIZE="10"><B>
+    BingEntity
+    </B></FONT></TD></TR>
+  
+    </TABLE>
+    >]
+
+  profiles_app_models_BoundMention [label=<
+    <TABLE BGCOLOR="white" BORDER="1" CELLBORDER="0" CELLSPACING="0">
+    <TR><TD COLSPAN="2" CELLPADDING="5" ALIGN="CENTER" BGCOLOR="#1b563f">
+    <FONT FACE="Roboto" COLOR="white" POINT-SIZE="10"><B>
+    BoundMention
+    </B></FONT></TD></TR>
+  
+    </TABLE>
+    >]
+
+  profiles_app_models_OverallSentiment [label=<
+    <TABLE BGCOLOR="white" BORDER="1" CELLBORDER="0" CELLSPACING="0">
+    <TR><TD COLSPAN="2" CELLPADDING="5" ALIGN="CENTER" BGCOLOR="#1b563f">
+    <FONT FACE="Roboto" COLOR="white" POINT-SIZE="10"><B>
+    OverallSentiment
+    </B></FONT></TD></TR>
+  
+    </TABLE>
+    >]
+
+
+
+
+  nlp_processor_models_ArticleStatistics [label=<
+    <TABLE BGCOLOR="white" BORDER="1" CELLBORDER="0" CELLSPACING="0">
+    <TR><TD COLSPAN="2" CELLPADDING="5" ALIGN="CENTER" BGCOLOR="#1b563f">
+    <FONT FACE="Roboto" COLOR="white" POINT-SIZE="10"><B>
+    ArticleStatistics
+    </B></FONT></TD></TR>
+  
+    </TABLE>
+    >]
+
+  nlp_processor_models_SimilarArticlePair [label=<
+    <TABLE BGCOLOR="white" BORDER="1" CELLBORDER="0" CELLSPACING="0">
+    <TR><TD COLSPAN="2" CELLPADDING="5" ALIGN="CENTER" BGCOLOR="#1b563f">
+    <FONT FACE="Roboto" COLOR="white" POINT-SIZE="10"><B>
+    SimilarArticlePair
+    </B></FONT></TD></TR>
+  
+    </TABLE>
+    >]
+
+  nlp_processor_models_ProcessedFile [label=<
+    <TABLE BGCOLOR="white" BORDER="1" CELLBORDER="0" CELLSPACING="0">
+    <TR><TD COLSPAN="2" CELLPADDING="5" ALIGN="CENTER" BGCOLOR="#1b563f">
+    <FONT FACE="Roboto" COLOR="white" POINT-SIZE="10"><B>
+    ProcessedFile
+    </B></FONT></TD></TR>
+  
+    </TABLE>
+    >]
+
+  nlp_processor_models_BoundError [label=<
+    <TABLE BGCOLOR="white" BORDER="1" CELLBORDER="0" CELLSPACING="0">
+    <TR><TD COLSPAN="2" CELLPADDING="5" ALIGN="CENTER" BGCOLOR="#1b563f">
+    <FONT FACE="Roboto" COLOR="white" POINT-SIZE="10"><B>
+    BoundError
+    </B></FONT></TD></TR>
+  
+    </TABLE>
+    >]
+
+
+
+
+  accounts_models_CustomUser [label=<
+    <TABLE BGCOLOR="white" BORDER="1" CELLBORDER="0" CELLSPACING="0">
+    <TR><TD COLSPAN="2" CELLPADDING="5" ALIGN="CENTER" BGCOLOR="#1b563f">
+    <FONT FACE="Roboto" COLOR="white" POINT-SIZE="10"><B>
+    CustomUser
+    </B></FONT></TD></TR>
+  
+    </TABLE>
+    >]
+
+  accounts_models_Subscription [label=<
+    <TABLE BGCOLOR="white" BORDER="1" CELLBORDER="0" CELLSPACING="0">
+    <TR><TD COLSPAN="2" CELLPADDING="5" ALIGN="CENTER" BGCOLOR="#1b563f">
+    <FONT FACE="Roboto" COLOR="white" POINT-SIZE="10"><B>
+    Subscription
+    </B></FONT></TD></TR>
+  
+    </TABLE>
+    >]
+
+
+
+
+  // Relations
+
+  profiles_app_models_Article -> nlp_processor_models_ProcessedFile
+  [label=" source_file (article)"] [arrowhead=none, arrowtail=diamond, dir=both, color=grey];
+
+  profiles_app_models_Entity -> profiles_app_models_Article
+  [label=" source_article (entity)"] [arrowhead=none, arrowtail=diamond, dir=both, color=red];
+
+  profiles_app_models_IgnoreEntitySimilarity -> profiles_app_models_Entity
+  [label=" entity_a (ignore_relationships_a)"] [arrowhead=none, arrowtail=diamond, dir=both, color=red];
+
+  profiles_app_models_IgnoreEntitySimilarity -> profiles_app_models_Entity
+  [label=" entity_b (ignore_relationships_b)"] [arrowhead=none, arrowtail=diamond, dir=both, color=red];
+
+  profiles_app_models_EntityHistory -> profiles_app_models_Entity
+  [label=" merged_into (entityhistory)"] [arrowhead=none, arrowtail=diamond, dir=both, color=red];
+
+  profiles_app_models_EntityHistory -> accounts_models_CustomUser
+  [label=" user (entityhistory)"] [arrowhead=none, arrowtail=diamond, dir=both, color=orange];
+
+  profiles_app_models_SimilarEntityPair -> profiles_app_models_Entity
+  [label=" entity_a (similarity_pair_a)"] [arrowhead=none, arrowtail=diamond, dir=both, color=red];
+
+  profiles_app_models_SimilarEntityPair -> profiles_app_models_Entity
+  [label=" entity_b (similarity_pair_b)"] [arrowhead=none, arrowtail=diamond, dir=both, color=red];
+
+  profiles_app_models_EntityView -> profiles_app_models_Entity
+  [label=" entity (entityview)"] [arrowhead=none, arrowtail=diamond, dir=both, color=red];
+
+  profiles_app_models_BingEntity -> profiles_app_models_Entity
+  [label=" entity (bingentity)"] [arrowhead=none, arrowtail=diamond, dir=both, color=red];
+
+  profiles_app_models_BoundMention -> profiles_app_models_Article
+  [label=" article (boundmention)"] [arrowhead=none, arrowtail=diamond, dir=both, color=red];
+
+  profiles_app_models_BoundMention -> profiles_app_models_Entity
+  [label=" entity (boundmention)"] [arrowhead=none, arrowtail=diamond, dir=both, color=red];
+
+  profiles_app_models_OverallSentiment -> profiles_app_models_Article
+  [label=" article (overallsentiment)"] [arrowhead=none, arrowtail=diamond, dir=both, color=red];
+
+  profiles_app_models_OverallSentiment -> profiles_app_models_Entity
+  [label=" entity (overallsentiment)"] [arrowhead=none, arrowtail=diamond, dir=both, color=red];
+
+
+  nlp_processor_models_ArticleStatistics -> profiles_app_models_Article
+  [label=" article (articlestatistics)"] [arrowhead=none, arrowtail=none, dir=both, color=red];
+
+  nlp_processor_models_SimilarArticlePair -> nlp_processor_models_ArticleStatistics
+  [label=" article1 (article1)"] [arrowhead=none, arrowtail=diamond, dir=both, color=red];
+
+  nlp_processor_models_SimilarArticlePair -> nlp_processor_models_ArticleStatistics
+  [label=" article2 (article2)"] [arrowhead=none, arrowtail=diamond, dir=both, color=red];
+
+  nlp_processor_models_BoundError -> profiles_app_models_Article
+  [label=" article (bounderror)"] [arrowhead=none, arrowtail=diamond, dir=both, color=red];
+
+
+  accounts_models_Subscription -> accounts_models_CustomUser
+  [label=" user (subscription)"] [arrowhead=none, arrowtail=diamond, dir=both, color=red];
+
+  accounts_models_Subscription -> profiles_app_models_Entity
+  [label=" entity (subscription)"] [arrowhead=none, arrowtail=diamond, dir=both, color=red];
+
+
+}
