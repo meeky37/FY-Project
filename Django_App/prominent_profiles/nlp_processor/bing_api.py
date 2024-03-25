@@ -149,7 +149,7 @@ def fetch_articles(search_term):
     count = 100
     articles = []
     search_results_list = []
-    duplicate_urls = set()
+    urls_seen = set()
     duplicate_count = 0
     max_duplicate_count = 25
     skip_future_calls = False
@@ -183,14 +183,14 @@ def fetch_articles(search_term):
 
                     # There have been no successful trafilatura extractions of MSN text
                     if not url.startswith("https://www.msn.com"):
-                        if url in duplicate_urls:
+                        if url in urls_seen:
                             duplicate_count += 1
                             if duplicate_count >= max_duplicate_count:
                                 # print(f"Stopping due to {max_duplicate_count} or more duplicate
                                 # URLs.")
                                 skip_future_calls = True
                         else:
-                            duplicate_urls.add(url)
+                            urls_seen.add(url)
                             duplicate_count = 0
 
                             title = article["name"]
