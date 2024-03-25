@@ -197,8 +197,9 @@ class Command(BaseCommand):
             # Check if the URL already exists in the database
             existing_article = ArticleModel.objects.filter(url=url).first()
             if existing_article:
-                if existing_article.processed:
-                    print('Article URL already exists in db and has been processed already')
+                if existing_article.processed or existing_article.similar_rejection:
+                    print('Article URL already exists in db and has been processed or rejected '
+                          'already')
                     skips += 1
                     continue  # Skip this article as it's already processed
                 else:
