@@ -321,18 +321,18 @@ class Article:
 
         The consolidation process involves:
             1. Intra-cluster Consolidation:
-            - Entities within the same cluster are examined for substring relationships between their names.
-            - Entities are either merged by removing the entity with the shorter name or by creating a new 
-                entity entry if a combined entity name is relevant within the cluster context.
+            - NER names linked to the same same cluster are examined for substring relationships between them and names in the cluster text.
+            - (NER, Coref) pairs are merged by removing the entity with the shorter name or by
+            creating a new entity entry if a combined entity name is found in the cluster text.
             - Special indicators mark entries that have been merged or combined, 
                 facilitating subsequent processing steps.
 
             2. Inter-cluster Consolidation:
-            - After refining entities within clusters, the process checks across different clusters for 
-                potential entity merges based on name substring relationships.
-            - Clusters with related entities are merged by updating cluster IDs to a combined format and 
-                consolidating cluster texts and positions, aiming to create a more coherent representation 
-                of related entities across the dataset.
+            - After refining entities within clusters, the process checks across different clusters
+            for potential merges based on name substring relationships.
+            - Clusters with related entities are merged by updating cluster IDs to a combined format
+             and consolidating cluster texts and positions, aiming to create a truer representation
+             of entities for processing.
             
             3. Finishing touches:
             - Entity names are cleaned and standardised, removing unrequired characters and ensuring proper
