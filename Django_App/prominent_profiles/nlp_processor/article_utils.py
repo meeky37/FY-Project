@@ -194,8 +194,8 @@ def insert_intervals(initial_list, new_values):
         for interval in intervals:
             if interval[0] <= value <= interval[1]:
                 # If the value falls within an existing interval, split the interval into two parts.
-                # The first part goes from the interval's start to the value (inclusive), and
-                # the second part goes from the value+1 to the interval's end.
+                # The first part goes from the interval's start to the value (inclusive).
+                # The second part goes from the value+1 to the interval's end.
                 if interval[0] < value:
                     # To mess around with intervals change value + - offset here.
                     result.append((interval[0], value))
@@ -333,6 +333,7 @@ def clean_up_substrings(clustered_entities):
             entity['Num Positions'] = int(MERGE_REMOVAL_INDICATOR)
             entity['Positions'] = int(MERGE_REMOVAL_INDICATOR)
     return entities_to_keep
+
 
 def clean_up_substrings_revised(clustered_entities):
     """
