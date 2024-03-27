@@ -81,7 +81,7 @@ export default {
     '$route.params.id': function (newId, oldId) {
       console.log('Route parameter changed:', newId)
       // Check if newId is defined before triggering bing entity
-      if (newId !== undefined) {
+      if (newId !== oldId) {
         this.fetchBingEntity()
       }
     }
