@@ -86,7 +86,7 @@ export default {
     '$route.params.id': function (newId, oldId) {
       console.log('Route parameter changed:', newId)
       // newId not defined? e.g. homepage don't attempt new API call.
-      if (newId !== undefined) {
+      if (newId !== undefined && newId !== oldId) {
         // Changed entity path get new data (contains sort + date filter)
         this.fetchData(true)
         this.fetchData(false)
