@@ -1,22 +1,28 @@
 <template>
   <div class="main-container">
     <div class="sentiment-columns-container">
-      <div class="column-container">
-        <div class="entry-column-icon">
-          <p class="column-heading">
-            <font-awesome-icon :icon="['fas', 'circle-chevron-up']" class="positive" />
-          </p>
+      <div class="column-container" v-if="isLoading">
+           <p>Loading articles...</p>
         </div>
-        <div class="entry-column-wrapper" v-if="positiveEntries.length">
-          <div class="entry-column">
-            <!-- Positive Entries -->
-            <ArticleEntry v-for="entry in positiveEntries" :key="entry.id" :entry="entry" />
-          </div>
-        </div>
-        <p v-else>No articles found for the current filter (by default we filter to the last 14 days for performance and relevance). Click reset to remove all filters.</p>
-      </div>
+      <div class="column-container" v-else>
+              <div class="entry-column-icon">
+                <p class="column-heading">
+                  <font-awesome-icon :icon="['fas', 'circle-chevron-up']" class="positive" />
+                </p>
+              </div>
+              <div class="entry-column-wrapper" v-if="positiveEntries.length">
+                <div class="entry-column">
+                  <!-- Positive Entries -->
+                  <ArticleEntry v-for="entry in positiveEntries" :key="entry.id" :entry="entry" />
+                </div>
+              </div>
+              <p v-else>No articles found for the current filter (by default we filter to the last 14 days for performance and relevance). Click reset to remove all filters.</p>
+            </div>
 
-      <div class="column-container">
+      <div class="column-container" v-if="isLoading">
+           <p>Loading articles...</p>
+        </div>
+      <div class="column-container" v-else>
         <div class="entry-column-icon">
           <p class="column-heading">
             <font-awesome-icon :icon="['fas', 'circle-minus']" class="neutral" />
@@ -31,7 +37,10 @@
         <p v-else>No articles found for the current filter (by default we filter to the last 14 days for performance and relevance). Click reset to remove all filters.</p>
       </div>
 
-      <div class="column-container">
+      <div class="column-container" v-if="isLoading">
+           <p>Loading articles...</p>
+      </div>
+      <div class="column-container" v-else>
         <div class="entry-column-icon">
           <p class="column-heading">
             <font-awesome-icon :icon="['fas', 'circle-chevron-down']" class="negative" />
@@ -77,7 +86,8 @@ export default {
       negativeEntries: [],
       originalPositiveEntries: [],
       originalNeutralEntries: [],
-      originalNegativeEntries: []
+      originalNegativeEntries: [],
+      isLoading: true
     }
   },
 
@@ -112,6 +122,7 @@ export default {
 
   methods: {
     fetchData (quick = true) {
+      this.isLoading = true
       if (quick === true) {
         this.positiveEntries = []
         this.neutralEntries = []
@@ -148,9 +159,11 @@ export default {
           this.originalNeutralEntries = this.neutralEntries
           this.originalNegativeEntries = this.negativeEntries
           this.filterEntries()
+          this.isLoading = false
         })
         .catch(error => {
           console.error('Error fetching data:', error)
+          this.isLoading = false
         })
     },
 
