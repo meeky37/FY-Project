@@ -253,7 +253,7 @@ class OverallSentimentLinear(APIView):
             #     seeing many articles
 
             overall_sentiments = overall_sentiments.filter(
-                article__publication_date__gt=last_visit)
+                article__publication_date__gte=last_visit)
 
         else:
             last_visit = None
@@ -397,7 +397,7 @@ def create_entity_view(request, entity_id):
     entity = get_object_or_404(Entity, pk=entity_id)
 
     EntityView.objects.create(
-        entity=entity,Ï
+        entity=entity,
         view_dt=timezone.now().date(),
         view_time=timezone.now().time()
     )
