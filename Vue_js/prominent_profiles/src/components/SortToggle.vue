@@ -32,8 +32,9 @@
       @click="rangeSetCheck"/>
   </div>
   <div>
-    <button @click="resetToggles" class="quick-button"><b>Reset</b></button>
-    <button @click="last7Days" class="quick-button"><b>Recent</b></button>
+    <button @click="resetToggles" class="quick-button" title="Remove all filters"><b>Reset
+  </b></button>
+    <button @click="last7Days" class="quick-button" title="View last 7 days"><b>Recent</b></button>
   </div>
 </template>
 
