@@ -43,7 +43,7 @@
             <ArticleEntry v-for="entry in negativeEntries" :key="entry.id" :entry="entry" />
           </div>
           </div>
-        <p v-else>No articles found for the current filter (BTW by default we filter to the last 14
+        <p v-else>No articles found for the current filter (by default we filter to the last 14
           days for performance and relevance). Click reset to remove all filters.</p>
       </div>
     </div>
