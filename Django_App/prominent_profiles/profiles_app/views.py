@@ -1,4 +1,4 @@
-from datetime import timedelta
+from datetime import timedelta, datetime
 
 from django.db.models import Count, Q, F
 from django.http import Http404
@@ -128,6 +128,9 @@ class OverallSentimentExp(APIView):
         # Apply user-specific filtering if the dashboard flag is true and the user is authenticated
         if dashboard and user.is_authenticated:
             last_visit = user.last_visit_excluding_today or timezone.now()
+
+            last_visit = datetime.datetime.combine(last_visit.date(), datetime.time.min)
+            last_visit = timezone.make_aware(last_visit, timezone.get_default_timezone())
 
             # last_visit = timezone.make_aware(
             #     datetime.datetime.combine(last_visit.date(), datetime.time.min),
@@ -394,7 +397,7 @@ def create_entity_view(request, entity_id):
     entity = get_object_or_404(Entity, pk=entity_id)
 
     EntityView.objects.create(
-        entity=entity,
+        entity=entity,Ï
         view_dt=timezone.now().date(),
         view_time=timezone.now().time()
     )
