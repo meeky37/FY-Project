@@ -201,10 +201,10 @@ class Command(BaseCommand):
                     print('Article URL already exists in db and has been processed or rejected '
                           'already')
                     skips += 1
-                    continue  # Skip this article as it's already processed
+                    continue  # Skip this article as already processed / rejected.
                 else:
                     print('Article URL already exists in db BUT has not been processed')
-                    # Added to handle crash during a sentiment job on the first occasion.
+                    # Added to handle interrupted pipeline.
 
             try:
                 if can_fetch_url(url):
@@ -465,7 +465,7 @@ class Command(BaseCommand):
                                       ((article, i + 1, len(article_objects)) for i, article in
                                        enumerate(article_objects))))
 
-            # Update the ProcessedFile object to mark it as processed
+            # Update the ProcessedFile object so future jobs don't reanalyse.
             file.nlp_applied = True
             file.save()
 

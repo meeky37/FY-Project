@@ -7,12 +7,13 @@
             <font-awesome-icon :icon="['fas', 'circle-chevron-up']" class="positive" />
           </p>
         </div>
-        <div class="entry-column-wrapper">
+        <div class="entry-column-wrapper" v-if="positiveEntries.length">
           <div class="entry-column">
             <!-- Positive Entries -->
             <ArticleEntry v-for="entry in positiveEntries" :key="entry.id" :entry="entry" />
           </div>
         </div>
+        <p v-else>No articles found for the current filter (by default we filter to the last 14 days for performance and relevance). Click reset to remove all filters.</p>
       </div>
 
       <div class="column-container">
@@ -21,12 +22,13 @@
             <font-awesome-icon :icon="['fas', 'circle-minus']" class="neutral" />
           </p>
         </div>
-        <div class="entry-column-wrapper">
+        <div class="entry-column-wrapper" v-if="neutralEntries.length">
           <div class="entry-column">
             <!-- Neutral Entries -->
             <ArticleEntry v-for="entry in neutralEntries" :key="entry.id" :entry="entry" />
           </div>
         </div>
+        <p v-else>No articles found for the current filter (by default we filter to the last 14 days for performance and relevance). Click reset to remove all filters.</p>
       </div>
 
       <div class="column-container">
@@ -35,12 +37,14 @@
             <font-awesome-icon :icon="['fas', 'circle-chevron-down']" class="negative" />
           </p>
         </div>
-        <div class="entry-column-wrapper">
+        <div class="entry-column-wrapper" v-if="negativeEntries.length">
           <div class="entry-column">
             <!-- Negative Entries -->
             <ArticleEntry v-for="entry in negativeEntries" :key="entry.id" :entry="entry" />
           </div>
-        </div>
+          </div>
+        <p v-else>No articles found for the current filter (BTW by default we filter to the last 14
+          days for performance and relevance). Click reset to remove all filters.</p>
       </div>
     </div>
   </div>

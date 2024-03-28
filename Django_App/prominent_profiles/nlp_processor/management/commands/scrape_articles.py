@@ -21,7 +21,7 @@ from profiles_app.models import Article as ArticleModel
 from Django_App.prominent_profiles.nlp_processor.article_processor import Article
 
 """This is a legacy django command designed to scrape articles, perform NLP analysis, 
-and populate the database with processed data. It is a reliatvely early version of article 
+and populate the database with processed data. It is a relatively early version of article 
 processing that is more closely tied to the Jupyter Notebooks used to experiment and devise the
 logic for PP.
 
