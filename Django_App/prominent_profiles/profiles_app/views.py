@@ -129,15 +129,15 @@ class OverallSentimentExp(APIView):
         if dashboard and user.is_authenticated:
             last_visit = user.last_visit_excluding_today or timezone.now()
 
-            last_visit = datetime.datetime.combine(last_visit.date(), datetime.time.min)
-            last_visit = timezone.make_aware(last_visit, timezone.get_default_timezone())
+            last_visit = last_visit.replace(hour=0, minute=0, second=0, microsecond=0)
 
             # last_visit = timezone.make_aware(
             #     datetime.datetime.combine(last_visit.date(), datetime.time.min),
             #     timezone.get_default_timezone()) - considered rounding down because I wasn't
             #     seeing many articles
 
-            overall_sentiments = overall_sentiments.filter(article__publication_date__gt=last_visit)
+            overall_sentiments = overall_sentiments.filter(
+                article__publication_date__gte=last_visit)
 
         else:
             last_visit = None
