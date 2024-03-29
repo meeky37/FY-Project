@@ -1,6 +1,10 @@
 <template>
   <div class="about">
     <h1>About Prominent Profiles</h1>
+  <div>
+    <!-- YouTube video player iframe -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/BVGzO2mJLfM?start=11" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
  <div id="disclaimer" class="disclaimer">
    Prominent Profiles is a new way to explore and share diverse viewpoints of important figures.
    Unlike traditional methods that categorise media sources on a spectrum of left to right-wing, we
