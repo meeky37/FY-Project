@@ -304,7 +304,7 @@ def clean_up_substrings(clustered_entities):
         list: List of dictionaries representing cleaned-up entities, where only the longest entity 
         names within each cluster ID are retained.
 
-    Example: 'Rishi', 'Rishi Sunak' -> 'Rishi Sunak' retained 'Sunak' removed.
+    Example: 'Sunak', 'Rishi Sunak' -> 'Rishi Sunak' retained 'Sunak' removed.
     """
     longest_names = {}
     entities_to_keep = []
@@ -352,7 +352,7 @@ def clean_up_substrings_revised(clustered_entities):
         list: List of dictionaries representing cleaned-up entities, where only the longest entity
         names within each cluster ID are retained.
 
-    Example: 'Rishi', 'Rishi Sunak' -> 'Rishi Sunak' retained 'Sunak' removed.
+    Example: 'Sunak', 'Rishi Sunak' -> 'Rishi Sunak' retained 'Sunak' removed.
     """
 
     entities_to_keep = []
