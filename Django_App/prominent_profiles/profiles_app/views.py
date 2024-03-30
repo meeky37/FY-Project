@@ -5,13 +5,11 @@ from django.http import Http404
 from django.http import JsonResponse
 from django.shortcuts import get_object_or_404
 from django.utils import timezone
-from django.views import View
 from nlp_processor.models import SimilarArticlePair
 from rest_framework.views import APIView
 from rest_framework_simplejwt.authentication import JWTAuthentication
 
-from .models import Entity, BingEntity, OverallSentiment
-from .models import EntityView
+from .models import Entity, BingEntity, OverallSentiment, EntityView, Article
 
 
 class VisibleEntitiesView(APIView):
@@ -156,11 +154,10 @@ class OverallSentimentExp(APIView):
             }
             return JsonResponse(response_data, status=200)
 
-        # By marking all similar article pair objects before Jan 30th in a one-off job we save
-        # the hassle EVERY time the API is called!
-        has_similar_pair = SimilarArticlePair.objects.filter(
-            article2__similar_rejection=True
-        ).values_list('article2_id', flat=True)
+        # By marking all Article 2s in similar article pair objects before Jan 30th in a one-off job
+        # we save the hassle EVERY time the API is called!
+        has_similar_pair = Article.objects.filter(similar_rejection=True).values_list('id',
+                                                                                      flat=True)
 
         # cut_off_date = timezone.make_aware(datetime(year=2024, month=1, day=30))
         # # Filter IDs for articles published on or before January 30th for similarity check
@@ -186,7 +183,6 @@ class OverallSentimentExp(APIView):
         #     ).values_list('article2_id', flat=True)
         # else:
         #     has_similar_pair = []
-
 
         # has_similar_pair = SimilarArticlePair.objects.filter(
         #     Q(article2_id__in=[sentiment.article.id for sentiment in overall_sentiments]),
@@ -305,11 +301,10 @@ class OverallSentimentLinear(APIView):
             }
             return JsonResponse(response_data, status=200)
 
-        # By marking all similar article pair objects before Jan 30th in a one-off job we save
-        # the hassle EVERY time the API is called!
-        has_similar_pair = SimilarArticlePair.objects.filter(
-            article2__similar_rejection=True
-        ).values_list('article2_id', flat=True)
+        # By marking all Article 2s in similar article pair objects before Jan 30th in a one-off job
+        # we save the hassle EVERY time the API is called!
+        has_similar_pair = Article.objects.filter(similar_rejection=True).values_list('id',
+                                                                                      flat=True)
 
         # cut_off_date = timezone.make_aware(datetime(year=2024, month=1, day=30))
         # # Filter IDs for articles published on or before January 30th for similarity check
