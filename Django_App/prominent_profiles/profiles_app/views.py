@@ -28,6 +28,7 @@ class VisibleEntitiesView(APIView):
     Fetches and returns a list of all entities marked as visible by admins.
     This determines what entities are selectable in the front end.
     """
+
     def get(self, request, *args, **kwargs):
         visible_entities = get_visible_entities()
         serialized_entities = [
@@ -75,6 +76,7 @@ class BingEntityMiniView(APIView):
     Provides a minimal view of a entities complementing details obtained from bing, primarily for 
     quick lookups, faster page loading.
     """
+
     def get(self, request, *args, **kwargs):
         entity_id = kwargs.get('entity_id')
         cache_key = f'bing_entity_detail_{entity_id}'
@@ -149,6 +151,16 @@ class OverallSentimentExp(APIView):
 
         startDay = request.GET.get('startDay', 0)
         endDay = request.GET.get('endDay', 180)  # 6 months maximum data if not in query params
+        dashboard = request.GET.get('dashboard', 'false').lower() == 'true'
+
+        # Skipping caching for dashboard requests - they are highly custom and we think should
+        # update always.
+        if not dashboard:
+            cache_key = f"sentiments_{entity_id}_{startDay}_{endDay}_public"
+            cached_response = cache.get(cache_key)
+
+            if cached_response:
+                return JsonResponse(cached_response, safe=False)
 
         # Initialize the queryset for OverallSentiment objects
         overall_sentiments = OverallSentiment.objects.filter(entity=entity_id)
@@ -278,6 +290,9 @@ class OverallSentimentExp(APIView):
             'lastVisit': last_visit_str,
             'data': serialized_entities,
         }
+
+        if not dashboard:
+            cache.set(cache_key, response_data, timeout=3600)
 
         return JsonResponse(response_data, safe=False)
 
@@ -518,6 +533,12 @@ def get_trending_entities(request):
     gradually increasing time ranges until a clear top 6 entities is determined.
     """
 
+    cache_key = "trending_entities"
+    cached_trending_entities = cache.get(cache_key)
+
+    if cached_trending_entities:
+        return JsonResponse({'trending_entities': cached_trending_entities})
+
     # Time ranges 1, 3 and 5 days for trending entities homepage
     time_ranges = [24, 72, 120]
 
@@ -541,5 +562,7 @@ def get_trending_entities(request):
 
     data = [{'entity_id': entity['entity__id'], 'entity_name': entity['entity__name'],
              'total_views': entity['total_views']} for entity in top_entities[:6]]
+
+    cache.set(cache_key, data, timeout=300)  # I want this to be relatively fresh so 5 minutes.
 
     return JsonResponse({'trending_entities': data})
