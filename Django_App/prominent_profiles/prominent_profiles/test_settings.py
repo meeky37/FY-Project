@@ -10,7 +10,6 @@ DATABASES = {
 }
 
 
-
 # CSRF checks disabled for testing
 MIDDLEWARE = [mw for mw in MIDDLEWARE if mw != 'django.middleware.csrf.CsrfViewMiddleware']
 
@@ -19,3 +18,9 @@ DEBUG = True
 # Redis/celery containers not in testing environment
 CELERY_TASK_ALWAYS_EAGER = True
 CELERY_TASK_EAGER_PROPAGATES = True
+
+CACHES = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',
+    }
+}

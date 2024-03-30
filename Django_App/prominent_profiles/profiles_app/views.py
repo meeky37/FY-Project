@@ -8,8 +8,19 @@ from django.utils import timezone
 from nlp_processor.models import SimilarArticlePair
 from rest_framework.views import APIView
 from rest_framework_simplejwt.authentication import JWTAuthentication
+from django.core.cache import cache
 
 from .models import Entity, BingEntity, OverallSentiment, EntityView, Article
+
+
+def get_visible_entities():
+    """Caching visible entities dropdown list - does not change often."""
+    cached_entities = cache.get('visible_entities')
+    if cached_entities is None:
+        visible_entities = Entity.objects.filter(app_visible=True).order_by('name')
+        cached_entities = [{'id': entity.id, 'name': entity.name} for entity in visible_entities]
+        cache.set('visible_entities', cached_entities, timeout=1800)
+    return cached_entities
 
 
 class VisibleEntitiesView(APIView):
@@ -19,9 +30,9 @@ class VisibleEntitiesView(APIView):
     """
 
     def get(self, request, *args, **kwargs):
-        visible_entities = Entity.objects.filter(app_visible=True).order_by('name')
+        visible_entities = get_visible_entities()
         serialized_entities = [
-            {'id': entity.id, 'name': entity.name}
+            {'id': entity['id'], 'name': entity['name']}
             for entity in visible_entities
         ]
         return JsonResponse(serialized_entities, safe=False)
@@ -61,29 +72,37 @@ class BingEntityMiniView(APIView):
     def get(self, request, *args, **kwargs):
         entity_id = kwargs.get('entity_id')
 
-        # Check if Entity exists before attempting to fetch BingEntity
         try:
-            entity = get_object_or_404(Entity, id=entity_id)
+            bing_entity = BingEntity.objects.get(entity=entity_id)
 
-            try:
-                bing_entity = BingEntity.objects.get(entity=entity_id)
+            serialized_entity = {
+                'id': bing_entity.id,
+                'name': bing_entity.name,
+                'image_url': bing_entity.improved_image_url,
+                'contractual_rules': bing_entity.contractual_rules,
+                'display_hint': bing_entity.entity_type_display_hint
+            }
+            return JsonResponse(serialized_entity, safe=False)
+        except BingEntity.DoesNotExist:
+            # BingEntity is not found but Entity exists
+            return JsonResponse(
+                {'message': 'Bing entity does not exist - use Google/alternative'}, status=204)
 
-                serialized_entity = {
-                    'id': bing_entity.id,
-                    'name': bing_entity.name,
-                    'image_url': bing_entity.improved_image_url,
-                    'contractual_rules': bing_entity.contractual_rules,
-                    'display_hint': bing_entity.entity_type_display_hint
-                }
-                return JsonResponse(serialized_entity, safe=False)
-            except BingEntity.DoesNotExist:
-                # BingEntity is not found but Entity exists
-                return JsonResponse(
-                    {'message': 'Bing entity does not exist - use Google/alternative'}, status=204)
 
-        except Http404:
-            # Entity itself does not exist
-            return JsonResponse({'error': 'Entity not found'}, status=404)
+def get_articles_with_similar_rejection():
+    """Similar rejection with OverallSentiments should not change now due to auto-reject in
+        pipeline"""
+    cached_articles = cache.get('articles_with_similar_rejection')
+
+    if cached_articles is None:
+        # If not cached, query the database
+        articles = Article.objects.filter(similar_rejection=True).values_list('id', flat=True)
+        cached_articles = list(articles)
+
+        # Cache the list for future use - timeout 28 days.
+        cache.set('articles_with_similar_rejection', cached_articles, timeout=2419200)
+
+    return cached_articles
 
 
 class OverallSentimentExp(APIView):
@@ -99,6 +118,8 @@ class OverallSentimentExp(APIView):
 
         startDay = request.GET.get('startDay', 0)
         endDay = request.GET.get('endDay', 180)  # 6 months maximum data if not in query params
+
+        cache_key = f'overall_sentiments_{entity_id}_{startDay}_{endDay}'
 
         # Initialize the queryset for OverallSentiment objects
         overall_sentiments = OverallSentiment.objects.filter(entity=entity_id)
@@ -156,8 +177,7 @@ class OverallSentimentExp(APIView):
 
         # By marking all Article 2s in similar article pair objects before Jan 30th in a one-off job
         # we save the hassle EVERY time the API is called!
-        has_similar_pair = Article.objects.filter(similar_rejection=True).values_list('id',
-                                                                                      flat=True)
+        has_similar_pair = get_articles_with_similar_rejection()
 
         # cut_off_date = timezone.make_aware(datetime(year=2024, month=1, day=30))
         # # Filter IDs for articles published on or before January 30th for similarity check
@@ -303,8 +323,7 @@ class OverallSentimentLinear(APIView):
 
         # By marking all Article 2s in similar article pair objects before Jan 30th in a one-off job
         # we save the hassle EVERY time the API is called!
-        has_similar_pair = Article.objects.filter(similar_rejection=True).values_list('id',
-                                                                                      flat=True)
+        has_similar_pair = get_articles_with_similar_rejection()
 
         # cut_off_date = timezone.make_aware(datetime(year=2024, month=1, day=30))
         # # Filter IDs for articles published on or before January 30th for similarity check

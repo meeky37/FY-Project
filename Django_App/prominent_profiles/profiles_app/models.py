@@ -74,7 +74,6 @@ class IgnoreEntitySimilarity(models.Model):
         return f"Ignore Relationship: '{self.entity_a.name}' <-> '{self.entity_b.name}'"
 
 
-
 class EntityHistory(models.Model):
     """
     Logs the history of entity modifications, specifically tracking entity merges as well as the
