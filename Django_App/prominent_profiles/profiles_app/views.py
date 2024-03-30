@@ -156,23 +156,49 @@ class OverallSentimentExp(APIView):
             }
             return JsonResponse(response_data, status=200)
 
-        has_similar_pair = SimilarArticlePair.objects.filter(
-            Q(article2_id__in=[sentiment.article.id for sentiment in overall_sentiments]),
-            Q(hash_similarity_score__gte=90) |
-            (
-                    Q(hash_similarity_score__gte=65, words_diff__lt=10, terms_diff__lt=10,
-                      vocd_diff__lt=5, yulek_diff__lt=10, simpsond_diff__lt=10,
-                      the_diff__lt=20, and_diff__lt=20, is_diff__lt=20,
-                      of_diff__lt=20, in_diff__lt=20, to_diff__lt=20,
-                      it_diff__lt=20, that_diff__lt=20, with_diff__lt=20
-                      ) & Q(
-                article2__article__publication_date__lte=F(
-                    'article1__article__publication_date') + timedelta(days=14)
-            )
-            )
-        ).values_list('article2_id', flat=True)
+        cut_off_date = timezone.make_aware(datetime(year=2024, month=1, day=30))
+        # Filter IDs for articles published on or before January 30th for similarity check
+        # As this is when duplication prevention went into the pipeline
+        article_ids_for_similarity_check = [sentiment.article.id for sentiment in overall_sentiments
+                                            if sentiment.article.publication_date <= cut_off_date]
 
-        print(has_similar_pair)
+        if article_ids_for_similarity_check:
+            has_similar_pair = SimilarArticlePair.objects.filter(
+                Q(article2_id__in=article_ids_for_similarity_check),
+                Q(hash_similarity_score__gte=90) |
+                (
+                        Q(hash_similarity_score__gte=65, words_diff__lt=10, terms_diff__lt=10,
+                          vocd_diff__lt=5, yulek_diff__lt=10, simpsond_diff__lt=10,
+                          the_diff__lt=20, and_diff__lt=20, is_diff__lt=20,
+                          of_diff__lt=20, in_diff__lt=20, to_diff__lt=20,
+                          it_diff__lt=20, that_diff__lt=20, with_diff__lt=20
+                          ) & Q(
+                    article2__article__publication_date__lte=F(
+                        'article1__article__publication_date') + timedelta(days=14)
+                )
+                )
+            ).values_list('article2_id', flat=True)
+        else:
+            has_similar_pair = []
+
+
+        # has_similar_pair = SimilarArticlePair.objects.filter(
+        #     Q(article2_id__in=[sentiment.article.id for sentiment in overall_sentiments]),
+        #     Q(hash_similarity_score__gte=90) |
+        #     (
+        #             Q(hash_similarity_score__gte=65, words_diff__lt=10, terms_diff__lt=10,
+        #               vocd_diff__lt=5, yulek_diff__lt=10, simpsond_diff__lt=10,
+        #               the_diff__lt=20, and_diff__lt=20, is_diff__lt=20,
+        #               of_diff__lt=20, in_diff__lt=20, to_diff__lt=20,
+        #               it_diff__lt=20, that_diff__lt=20, with_diff__lt=20
+        #               ) & Q(
+        #         article2__article__publication_date__lte=F(
+        #             'article1__article__publication_date') + timedelta(days=14)
+        #     )
+        #     )
+        # ).values_list('article2_id', flat=True)
+        #
+        # print(has_similar_pair)
 
         serialized_entities = []
         for overall_sentiment in overall_sentiments:
