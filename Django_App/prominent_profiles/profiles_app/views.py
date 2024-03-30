@@ -156,30 +156,36 @@ class OverallSentimentExp(APIView):
             }
             return JsonResponse(response_data, status=200)
 
-        cut_off_date = timezone.make_aware(datetime(year=2024, month=1, day=30))
-        # Filter IDs for articles published on or before January 30th for similarity check
-        # As this is when duplication prevention went into the pipeline
-        article_ids_for_similarity_check = [sentiment.article.id for sentiment in overall_sentiments
-                                            if sentiment.article.publication_date <= cut_off_date]
+        # By marking all similar article pair objects before Jan 30th in a one-off job we save
+        # the hassle EVERY time the API is called!
+        has_similar_pair = SimilarArticlePair.objects.filter(
+            article2__similar_rejection=True
+        ).values_list('article2_id', flat=True)
 
-        if article_ids_for_similarity_check:
-            has_similar_pair = SimilarArticlePair.objects.filter(
-                Q(article2_id__in=article_ids_for_similarity_check),
-                Q(hash_similarity_score__gte=90) |
-                (
-                        Q(hash_similarity_score__gte=65, words_diff__lt=10, terms_diff__lt=10,
-                          vocd_diff__lt=5, yulek_diff__lt=10, simpsond_diff__lt=10,
-                          the_diff__lt=20, and_diff__lt=20, is_diff__lt=20,
-                          of_diff__lt=20, in_diff__lt=20, to_diff__lt=20,
-                          it_diff__lt=20, that_diff__lt=20, with_diff__lt=20
-                          ) & Q(
-                    article2__article__publication_date__lte=F(
-                        'article1__article__publication_date') + timedelta(days=14)
-                )
-                )
-            ).values_list('article2_id', flat=True)
-        else:
-            has_similar_pair = []
+        # cut_off_date = timezone.make_aware(datetime(year=2024, month=1, day=30))
+        # # Filter IDs for articles published on or before January 30th for similarity check
+        # # As this is when duplication prevention went into the pipeline
+        # article_ids_for_similarity_check = [sentiment.article.id for sentiment in overall_sentiments
+        #                                     if sentiment.article.publication_date <= cut_off_date]
+        #
+        # if article_ids_for_similarity_check:
+        #     has_similar_pair = SimilarArticlePair.objects.filter(
+        #         Q(article2_id__in=article_ids_for_similarity_check),
+        #         Q(hash_similarity_score__gte=90) |
+        #         (
+        #                 Q(hash_similarity_score__gte=65, words_diff__lt=10, terms_diff__lt=10,
+        #                   vocd_diff__lt=5, yulek_diff__lt=10, simpsond_diff__lt=10,
+        #                   the_diff__lt=20, and_diff__lt=20, is_diff__lt=20,
+        #                   of_diff__lt=20, in_diff__lt=20, to_diff__lt=20,
+        #                   it_diff__lt=20, that_diff__lt=20, with_diff__lt=20
+        #                   ) & Q(
+        #             article2__article__publication_date__lte=F(
+        #                 'article1__article__publication_date') + timedelta(days=14)
+        #         )
+        #         )
+        #     ).values_list('article2_id', flat=True)
+        # else:
+        #     has_similar_pair = []
 
 
         # has_similar_pair = SimilarArticlePair.objects.filter(
@@ -260,8 +266,7 @@ class OverallSentimentLinear(APIView):
                 article__publication_date__gte=end_date
             )
         except ValueError:
-            return JsonResponse({'error': 'Invalid "startDay" or "endDay" parameter'},
-                                status=400)
+            return JsonResponse({'error': 'Invalid "startDay" or "endDay" parameter'}, status=400)
 
         dashboard = request.GET.get('dashboard', 'false').lower() == 'true'
         user = request.user
@@ -272,6 +277,8 @@ class OverallSentimentLinear(APIView):
         # Apply user-specific filtering if the dashboard flag is true and the user is authenticated
         if dashboard and user.is_authenticated:
             last_visit = user.last_visit_excluding_today or timezone.now()
+
+            last_visit = last_visit.replace(hour=0, minute=0, second=0, microsecond=0)
 
             # last_visit = timezone.make_aware(
             #     datetime.datetime.combine(last_visit.date(), datetime.time.min),
@@ -298,23 +305,54 @@ class OverallSentimentLinear(APIView):
             }
             return JsonResponse(response_data, status=200)
 
+        # By marking all similar article pair objects before Jan 30th in a one-off job we save
+        # the hassle EVERY time the API is called!
         has_similar_pair = SimilarArticlePair.objects.filter(
-            Q(article2_id__in=[sentiment.article.id for sentiment in overall_sentiments]),
-            Q(hash_similarity_score__gte=90) |
-            (
-                    Q(hash_similarity_score__gte=65, words_diff__lt=10, terms_diff__lt=10,
-                      vocd_diff__lt=5, yulek_diff__lt=10, simpsond_diff__lt=10,
-                      the_diff__lt=20, and_diff__lt=20, is_diff__lt=20,
-                      of_diff__lt=20, in_diff__lt=20, to_diff__lt=20,
-                      it_diff__lt=20, that_diff__lt=20, with_diff__lt=20
-                      ) & Q(
-                article2__article__publication_date__lte=F(
-                    'article1__article__publication_date') + timedelta(days=14)
-            )
-            )
+            article2__similar_rejection=True
         ).values_list('article2_id', flat=True)
 
-        print(has_similar_pair)
+        # cut_off_date = timezone.make_aware(datetime(year=2024, month=1, day=30))
+        # # Filter IDs for articles published on or before January 30th for similarity check
+        # # As this is when duplication prevention went into the pipeline
+        # article_ids_for_similarity_check = [sentiment.article.id for sentiment in overall_sentiments
+        #                                     if sentiment.article.publication_date <= cut_off_date]
+        #
+        # if article_ids_for_similarity_check:
+        #     has_similar_pair = SimilarArticlePair.objects.filter(
+        #         Q(article2_id__in=article_ids_for_similarity_check),
+        #         Q(hash_similarity_score__gte=90) |
+        #         (
+        #                 Q(hash_similarity_score__gte=65, words_diff__lt=10, terms_diff__lt=10,
+        #                   vocd_diff__lt=5, yulek_diff__lt=10, simpsond_diff__lt=10,
+        #                   the_diff__lt=20, and_diff__lt=20, is_diff__lt=20,
+        #                   of_diff__lt=20, in_diff__lt=20, to_diff__lt=20,
+        #                   it_diff__lt=20, that_diff__lt=20, with_diff__lt=20
+        #                   ) & Q(
+        #             article2__article__publication_date__lte=F(
+        #                 'article1__article__publication_date') + timedelta(days=14)
+        #         )
+        #         )
+        #     ).values_list('article2_id', flat=True)
+        # else:
+        #     has_similar_pair = []
+
+        # has_similar_pair = SimilarArticlePair.objects.filter(
+        #     Q(article2_id__in=[sentiment.article.id for sentiment in overall_sentiments]),
+        #     Q(hash_similarity_score__gte=90) |
+        #     (
+        #             Q(hash_similarity_score__gte=65, words_diff__lt=10, terms_diff__lt=10,
+        #               vocd_diff__lt=5, yulek_diff__lt=10, simpsond_diff__lt=10,
+        #               the_diff__lt=20, and_diff__lt=20, is_diff__lt=20,
+        #               of_diff__lt=20, in_diff__lt=20, to_diff__lt=20,
+        #               it_diff__lt=20, that_diff__lt=20, with_diff__lt=20
+        #               ) & Q(
+        #         article2__article__publication_date__lte=F(
+        #             'article1__article__publication_date') + timedelta(days=14)
+        #     )
+        #     )
+        # ).values_list('article2_id', flat=True)
+        #
+        # print(has_similar_pair)
 
         serialized_entities = []
         for overall_sentiment in overall_sentiments:
