@@ -28,7 +28,6 @@ class VisibleEntitiesView(APIView):
     Fetches and returns a list of all entities marked as visible by admins.
     This determines what entities are selectable in the front end.
     """
-
     def get(self, request, *args, **kwargs):
         visible_entities = get_visible_entities()
         serialized_entities = [
@@ -46,21 +45,29 @@ class BingEntityDetailView(APIView):
 
     def get(self, request, *args, **kwargs):
         entity_id = kwargs.get('entity_id')
-        bing_entity = get_object_or_404(BingEntity, entity=entity_id)
+        cache_key = f'bing_entity_detail_{entity_id}'
 
-        serialized_entity = {
-            'id': bing_entity.id,
-            'name': bing_entity.name,
-            'description': bing_entity.description,
-            'image_url': bing_entity.improved_image_url,
-            'web_search_url': bing_entity.web_search_url,
-            'bing_id': bing_entity.bing_id,
-            'contractual_rules': bing_entity.contractual_rules,
-            'entity_type_display_hint': bing_entity.entity_type_display_hint,
-            'entity_type_hints': bing_entity.entity_type_hints,
-            'date_added': bing_entity.date_added
-        }
-        return JsonResponse(serialized_entity, safe=False)
+        cached_data = cache.get(cache_key)
+        if cached_data:
+            return JsonResponse(cached_data, safe=False)
+        else:
+            bing_entity = get_object_or_404(BingEntity, entity=entity_id)
+
+            serialized_entity = {
+                'id': bing_entity.id,
+                'name': bing_entity.name,
+                'description': bing_entity.description,
+                'image_url': bing_entity.improved_image_url,
+                'web_search_url': bing_entity.web_search_url,
+                'bing_id': bing_entity.bing_id,
+                'contractual_rules': bing_entity.contractual_rules,
+                'entity_type_display_hint': bing_entity.entity_type_display_hint,
+                'entity_type_hints': bing_entity.entity_type_hints,
+                'date_added': bing_entity.date_added.isoformat()
+            }
+
+            cache.set(cache_key, serialized_entity, timeout=86400)
+            return JsonResponse(serialized_entity, safe=False)
 
 
 class BingEntityMiniView(APIView):
@@ -68,25 +75,49 @@ class BingEntityMiniView(APIView):
     Provides a minimal view of a entities complementing details obtained from bing, primarily for 
     quick lookups, faster page loading.
     """
-
     def get(self, request, *args, **kwargs):
         entity_id = kwargs.get('entity_id')
+        cache_key = f'bing_entity_detail_{entity_id}'
 
-        try:
-            bing_entity = BingEntity.objects.get(entity=entity_id)
-
-            serialized_entity = {
-                'id': bing_entity.id,
-                'name': bing_entity.name,
-                'image_url': bing_entity.improved_image_url,
-                'contractual_rules': bing_entity.contractual_rules,
-                'display_hint': bing_entity.entity_type_display_hint
+        cached_data = cache.get(cache_key)
+        if cached_data:
+            mini_view_data = {
+                'id': cached_data['id'],
+                'name': cached_data['name'],
+                'image_url': cached_data['image_url'],
+                'contractual_rules': cached_data['contractual_rules'],
+                'display_hint': cached_data['entity_type_display_hint']
             }
-            return JsonResponse(serialized_entity, safe=False)
-        except BingEntity.DoesNotExist:
-            # BingEntity is not found but Entity exists
-            return JsonResponse(
-                {'message': 'Bing entity does not exist - use Google/alternative'}, status=204)
+            return JsonResponse(mini_view_data, safe=False)
+        else:
+            try:
+                bing_entity = BingEntity.objects.get(entity=entity_id)
+                serialized_entity = {
+                    'id': bing_entity.id,
+                    'name': bing_entity.name,
+                    'description': bing_entity.description,
+                    'image_url': bing_entity.improved_image_url,
+                    'web_search_url': bing_entity.web_search_url,
+                    'bing_id': bing_entity.bing_id,
+                    'contractual_rules': bing_entity.contractual_rules,
+                    'entity_type_display_hint': bing_entity.entity_type_display_hint,
+                    'entity_type_hints': bing_entity.entity_type_hints,
+                    'date_added': bing_entity.date_added.isoformat()
+                }
+                cache.set(cache_key, serialized_entity, timeout=86400)
+
+                mini_view_data = {
+                    'id': serialized_entity['id'],
+                    'name': serialized_entity['name'],
+                    'image_url': serialized_entity['image_url'],
+                    'contractual_rules': serialized_entity['contractual_rules'],
+                    'display_hint': serialized_entity['entity_type_display_hint']
+                }
+                return JsonResponse(mini_view_data, safe=False)
+            except BingEntity.DoesNotExist:
+                # If the BingEntity does not exist, return a 204 status with a message
+                return JsonResponse(
+                    {'message': 'Bing entity does not exist - use Google/alternative'}, status=204)
 
 
 def get_articles_with_similar_rejection():
@@ -118,8 +149,6 @@ class OverallSentimentExp(APIView):
 
         startDay = request.GET.get('startDay', 0)
         endDay = request.GET.get('endDay', 180)  # 6 months maximum data if not in query params
-
-        cache_key = f'overall_sentiments_{entity_id}_{startDay}_{endDay}'
 
         # Initialize the queryset for OverallSentiment objects
         overall_sentiments = OverallSentiment.objects.filter(entity=entity_id)
