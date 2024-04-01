@@ -5,7 +5,7 @@
         {{ isLoading ? 'Loading...' : (bingEntity ? bingEntity.name : 'Loading...') }}
       </h2>
       <div class="sub-button">
-      <SubscriptionButton :entityId=" entry ? entry.entity_id : null"/>
+      <SubscriptionButton :entityId=" entry ? entry.entity_id : null" tabindex="0"/>
         </div>
 
     </div>
@@ -20,6 +20,7 @@
             alt="Entity Photo"
             style="width: 100px; height: auto; border-radius: 4px;"
             :title="getAttributionMessage(bingEntity)"
+            tabindex="0"
           />
           <a v-if="getAttributionMessage(bingEntity)" class="attribution-link" @mouseover="showAttribution" @mouseleave="hideAttribution"></a>
         </div>

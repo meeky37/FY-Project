@@ -28,7 +28,7 @@
             <div class="internal-link">
               <router-link :to="{ name: 'entity', params: { id: entry.entity_id } }">
                 <font-awesome-icon :icon="['fas','magnifying-glass-chart'] " style="color:
-                #755BB4;" tabindex="0" />
+                #755BB4;"/>
               </router-link>
             </div>
           </template>

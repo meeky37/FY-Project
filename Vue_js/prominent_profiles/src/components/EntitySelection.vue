@@ -10,7 +10,10 @@
           </option>
         </select>
         <div class="action-container">
-      <div class="button-container" @click="selectRandomEntity">
+      <div class="button-container" @click="selectRandomEntity"
+        @keyup.enter="selectRandomEntity"
+        tabindex="0"
+        >
         <font-awesome-icon :icon="['fas', 'shuffle']" style="color: #ffffff;" />
       </div>
       </div>

@@ -4,13 +4,17 @@
     <div>
       <h3 v-if="bingEntity[0] && bingEntity[0].name"
           @click="redirectToEntityPage"
+          @keyup.enter="redirectToEntityPage"
           class="entity-name"
+          tabindex="0"
           >{{ bingEntity[0].name }}</h3>
       <div v-if="bingEntity[0] && bingEntity[0].image_url" class="entity-photo">
         <img
           @click="redirectToEntityPage"
+          @keyup.enter="redirectToEntityPage"
           :src="bingEntity[0].image_url"
           alt="Entity Photo"
+          tabindex="0"
         />
         <p v-if="bingEntity[0] && bingEntity[0].display_hint">{{ bingEntity[0].display_hint }}</p>
         <div v-if="re_render" class="chart-container">

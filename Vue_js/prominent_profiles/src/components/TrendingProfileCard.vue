@@ -12,7 +12,8 @@
            v-html="truncateString(removeBoldTags(positiveArticle[currentPositiveIndex].headline))"
            @click="viewArticleDetail(positiveArticle[currentPositiveIndex].id)"
            class="headline"
-           tabindex="0">
+           tabindex="0"
+           @keyup.enter="viewArticleDetail(positiveArticle[currentPositiveIndex].id)">
         </p>
       </transition-group>
     </div>
@@ -27,6 +28,7 @@
             style="width: auto; height: 150px"
             :title="getAttributionMessage(bingEntity)"
             tabindex="0"
+            @keyup.enter="redirectToEntityPage"
           />
           <a v-if="getAttributionMessage(bingEntity)" class="attribution-link" @mouseover="showAttribution" @mouseleave="hideAttribution"></a>
         </div>
@@ -41,7 +43,8 @@
            v-html="truncateString(removeBoldTags(negativeArticle[currentNegativeIndex].headline))"
            @click="viewArticleDetail(negativeArticle[currentNegativeIndex].id)"
            class="headline"
-           tabindex="0">
+           tabindex="0"
+           @keyup.enter="viewArticleDetail(negativeArticle[currentNegativeIndex].id)">
         </p>
       </transition-group>
     </div>
