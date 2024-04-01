@@ -15,6 +15,7 @@
           <img
             v-if="bingEntity && bingEntity.image_url"
             @click="redirectToEntityPage(this.lastVisit)"
+            @keyup.enter="redirectToEntityPage(this.lastVisit)"
             :src="bingEntity.image_url"
             alt="Entity Photo"
             style="width: 100px; height: auto; border-radius: 4px;"

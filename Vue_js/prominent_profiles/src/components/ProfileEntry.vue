@@ -5,12 +5,14 @@
            :src="bingEntity.image_url"
            alt="Article Image"
            @click="redirectToEntityPage"
+           @keyup.enter="redirectToEntityPage"
            class="entity-image" />
 
       <div class="name-container">
         <h2 v-if="bingEntity.name"
             class="name"
             @click="redirectToEntityPage"
+            @keyup.enter="redirectToEntityPage"
         >{{ bingEntity.name }}</h2>
 
         <div class="url-container">
@@ -25,7 +27,8 @@
           <template v-else>
             <div class="internal-link">
               <router-link :to="{ name: 'entity', params: { id: entry.entity_id } }">
-                <font-awesome-icon :icon="['fas','magnifying-glass-chart'] " style="color: #755BB4;" />
+                <font-awesome-icon :icon="['fas','magnifying-glass-chart'] " style="color:
+                #755BB4;" tabindex="0" />
               </router-link>
             </div>
           </template>

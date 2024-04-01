@@ -1,7 +1,8 @@
 <template>
   <div>
     <div class="card">
-      <h2 class="entity-name" @click="redirectToEntityPage">{{ entry.entity_name }}</h2>
+      <h2 class="entity-name" tabindex="0" @click="redirectToEntityPage" @keyup.enter="redirectToEntityPage">{{ entry.entity_name
+        }}</h2>
     <div class="animated-positive left-box">
       <p class="box-icon">
             <font-awesome-icon :icon="['fas', 'circle-chevron-up']" class="positive" />
@@ -10,13 +11,14 @@
         <p v-if="positiveArticle.length > 0" :key="currentPositiveIndex"
            v-html="truncateString(removeBoldTags(positiveArticle[currentPositiveIndex].headline))"
            @click="viewArticleDetail(positiveArticle[currentPositiveIndex].id)"
-           class="headline">
+           class="headline"
+           tabindex="0">
         </p>
       </transition-group>
     </div>
 
       <div class="entity-photo-frame">
-        <div class="entity-photo">
+        <div class="entity-photo" tabindex="0">
           <img
             v-if="bingEntity && bingEntity.image_url"
             @click="redirectToEntityPage"
@@ -24,20 +26,22 @@
             alt="Entity Photo"
             style="width: auto; height: 150px"
             :title="getAttributionMessage(bingEntity)"
+            tabindex="0"
           />
           <a v-if="getAttributionMessage(bingEntity)" class="attribution-link" @mouseover="showAttribution" @mouseleave="hideAttribution"></a>
         </div>
       </div>
 
     <div class="animated-negative right-box">
-      <p class="box-icon">
+      <p class="box-icon" >
       <font-awesome-icon :icon="['fas', 'circle-chevron-down']" class="negative" />
     </p>
       <transition-group name="reel" tag="div" class="transition-container">
         <p v-if="negativeArticle.length > 0" :key="currentNegativeIndex"
            v-html="truncateString(removeBoldTags(negativeArticle[currentNegativeIndex].headline))"
            @click="viewArticleDetail(negativeArticle[currentNegativeIndex].id)"
-           class="headline">
+           class="headline"
+           tabindex="0">
         </p>
       </transition-group>
     </div>

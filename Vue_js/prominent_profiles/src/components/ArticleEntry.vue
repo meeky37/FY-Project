@@ -5,7 +5,7 @@
       <div>
         <h3 v-html="entry.headline" class="headline"></h3>
        <div v-if="entry.url" class="url-container">
-         <div class="button-container" @click="viewArticleDetailArticleEntry">
+         <div class="button-container" @click="viewArticleDetailArticleEntry" @keyup.enter="viewArticleDetailArticleEntry">
           <font-awesome-icon :icon="['fas', 'magnifying-glass-chart']" style="color: #755BB4;"/>
           </div>
           <div class="url-subsection">
