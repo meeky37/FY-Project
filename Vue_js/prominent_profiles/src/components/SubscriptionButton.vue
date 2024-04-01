@@ -1,5 +1,5 @@
 <template>
-    <div class="button-container" @click="toggleSubscription">
+    <div class="button-container" @click="toggleSubscription" @keyup.enter="toggleSubscription">
     <font-awesome-icon v-if="isSubscribed" :icon="['fas', 'check']" style="color: white;" />
     <font-awesome-icon v-else :icon="['fas', 'plus']" style="color: white;" />
   </div>

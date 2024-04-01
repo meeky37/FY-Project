@@ -1,26 +1,29 @@
 <template>
 <!--  Sort Type Toggle-->
   <div class="toggle-container">
-    <label class="radio-label" @click="selectSortType('sentiment')" title="Sort by sentiment">
+    <label class="radio-label" @click="selectSortType('sentiment')" title="Sort by sentiment"
+           tabindex="0" @keyup.enter="selectSortType('sentiment')">
       <input type="radio" v-model="sortType" value="sentiment" class="radio-input" />
       <div :class="{ selected: sortType === 'sentiment' }">
         <font-awesome-icon :icon="['fas', 'percent']" style="color: #755BB4; margin-top: 10px"/>
       </div>
     </label>
-    <label class="radio-label" @click="selectSortType('date')" title="Sort by published date">
-      <input type="radio" v-model="sortType" value="date" class="radio-input" />
+    <label class="radio-label" @keyup.enter="selectSortType('date')"
+           @click="selectSortType('date')" title="Sort by published date" tabindex="0">
+      <input type="radio" v-model="sortType" value="date" class="radio-input"/>
       <div :class="{ selected: sortType === 'date' }">
          <font-awesome-icon :icon="['fas', 'clock']" style="color: #755BB4; margin-top: 10px" />
       </div>
     </label>
     <!-- Ordering Toggle -->
     <div class="radio-label" @click="toggleSortDirection" :key="sortDirectionKey" title="Toggle sort direction">
-      <font-awesome-icon :icon="sortDirectionIcon" style="color: #755BB4; margin-top: 10px" />
+      <font-awesome-icon :icon="sortDirectionIcon" style="color: #755BB4; margin-top: 10px"
+      tabindex="0" @keyup.enter="toggleSortDirection"/>
     </div>
     <div class="advanced-container" :class="{ 'selected': isDateRangeSelected }" title="Set date range">
   <font-awesome-icon
     :icon="['fas', 'calendar-days']"
-    @click="toggleDatePicker" style="color: #755BB4;"  />
+    @click="toggleDatePicker" @keyup.enter="toggleDatePicker" style="color: #755BB4;"  />
   </div>
   </div>
   <div class="date-picker">
