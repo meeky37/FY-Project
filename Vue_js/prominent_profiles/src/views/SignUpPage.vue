@@ -147,8 +147,9 @@ export default {
     const signUpMessage = ref('')
     const selectedColor = ref('teal')
     const currentDate = new Date()
+    // 16 Years Minimum Age (GDPR)
     const disabledDates = ref([{
-      start: new Date(currentDate.getFullYear() - 18,
+      start: new Date(currentDate.getFullYear() - 16,
         currentDate.getMonth(), currentDate.getDate())
     }])
 
@@ -226,7 +227,7 @@ export default {
             location.value = ''
             password.value = ''
             confirmPassword.value = ''
-            // Redirect to the login page or any other desired page
+            // Redirect to the login page
             router.push('/login')
           })
           .catch((error) => {
