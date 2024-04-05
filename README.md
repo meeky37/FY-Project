@@ -16,6 +16,69 @@ Additionaly, I would like to extend this to the MAD-TSC paper for its further wo
 
 - Dufraisse, E., et al. (2023). MAD-TSC: A Multilingual Aligned News Dataset for Target-dependent Sentiment Classification. Proceedings of the Annual Meeting of the Association for Computational Linguistics (ACL 2023). [https://aclanthology.org/2023.acl-long.461/](https://aclanthology.org/2023.acl-long.461/)
 
+# Running Locally
+
+The most straightforward way to run the code locally is without docker:
+
+1. Create a Python virtual machine environment: `python3 -m venv env`
+2. Clone the git repo: `git clone https://github.com/meeky37/FY-Project.git`
+3. Change directory to the requirements file: `cd Django_App/prominent_profiles/` and then navigate to `requirements.txt`
+4. Install required Python packages: `pip install -r requirements.txt`
+5. Install a specific package without dependencies: `pip install newssentiment==1.1.25 --no-deps` (Note: Installing without dependencies to prevent unnecessary downgrade of torch, which on M1 Mac prevents 'mps' GPU use)
+6. Make and apply migrations:    
+   ```bash
+   python manage.py makemigrations
+   python manage.py migrate
+7. Create a superuser for the Django admin: `python manage.py createsuperuser`
+8. Run the Django development server with custom settings: `python manage.py runserver 8000 --settings=prominent_profiles.test_settings`
+9. To run Bing API commands, source a key from Azure and add it to `config.py`.
+10. Collect article data: `python manage.py collect_article_data`
+11. Trigger the extract and NLP processes: `python manage.py scrape_articles_concurrent`
+12. Populate BingEntity for visible entities: `python manage.py visible_entity_bing` (Entities must be set to visible = TRUE via the admin page or dbshell)
+13. Explore and try out management jobs in `nlp_processor` and `profiles_app` by reading the 
+docstrings and applying them to your analysed data.
+14. Navigate to the Vue.js project directory from the git root: `cd Vue_js/prominent_profiles`
+15. Install required front-end libraries: `npm install`
+16. Set the API base URL: Set `API_BASE_URL = 'http://localhost:8000'` in the project configuration.
+17. Serve the Vue.js application: `npm run serve`
+18. Access the Django admin and Vue app: Typically, `localhost:8000/admin` will serve the Django admin interface, and `localhost:8080` will serve the Vue.js application, although ports may vary.
+
+# Deployment
+
+1. Create a GitHub repository (others may work but we use GitHub Actions, so this is the most compatible route with YAML files as is).
+2. Set up Ubuntu web server on Digital Ocean using the most recent Docker and Ubuntu configuration provided with 8GB memory if you plan to scrape - you can resize down to 2GB once you have some data.
+3. Generate SSH keys.
+4. Store the private key as a secret in GitHub.
+5. Add a database (base price) when prompted by Digital Ocean.
+6. Obtain a domain name (e.g., Namecheap).
+7. Set up a Zoho mail account using this domain.
+8. Configure the DNS records using documentation provided by your domain and mail provider.
+9. Create a GitHub Container Registry Personal Access Token (GHCR PAT).
+10. Set the following in GitHub settings $\rightarrow$ Security $\rightarrow$ Secrets and Variables $\rightarrow$ Actions:
+
+    - BING_API_KEY
+    - CERTBOT_EMAIL
+    - DB_HOST
+    - DB_NAME
+    - DB_PASSWORD
+    - DB_PORT
+    - DB_USER
+    - DJANGO_DEBUG
+    - DROPLET_HOST
+    - DROPLET_PUBLIC_KEY
+    - DROPLET_USER
+    - EMAIL_PASSWORD
+    - GHCR_PAT
+    - GHCR_USERNAME
+    - RUNNING_IN_DOCKER
+    - SECRET_KEY
+    - SSH_KNOWN_HOSTS
+    - SSH_PRIVATE_KEY
+
+11. (Clone locally if you wish) and make a commit.
+12. The build, test and deploy CI/CD pipeline should trigger automatically.
+13. Visit your domain name to check Vue.
+14. Visit your domain name /admin to check Django.
 
 # References / Packages
 
