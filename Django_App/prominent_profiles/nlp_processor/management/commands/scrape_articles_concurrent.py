@@ -152,9 +152,9 @@ class Command(BaseCommand):
         self.sa_queue = queue.Queue()
 
         self.max_concurrent_threads = ARTICLE_THREADS
-        # Create 5 SentimentAnalyser objects (these take quite a bit of time to define!)
+        # Create SentimentAnalyser objects (these take quite a bit of time to define!)
         # Previously declared for each article object so quite a wasteful operation
-        # Queue for the 5 threads
+        # Queue for the threads
         for _ in range(self.max_concurrent_threads):
             sa = SentimentAnalyser()
             self.sa_queue.put(sa)
