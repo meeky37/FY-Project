@@ -46,6 +46,7 @@ export default {
 
   watch: {
     // Replacement for button use - ugly.
+    // When a user selects a entity different to current redirect to their view.
     selectedEntity (newVal, oldVal) {
       if (newVal !== oldVal) {
         this.redirectToEntityPage()

@@ -22,7 +22,8 @@
             :title="getAttributionMessage(bingEntity)"
             tabindex="0"
           />
-          <a v-if="getAttributionMessage(bingEntity)" class="attribution-link" @mouseover="showAttribution" @mouseleave="hideAttribution"></a>
+          <a v-if="getAttributionMessage(bingEntity)" class="attribution-link"
+             @mouseover="showAttribution" @mouseleave="hideAttribution"></a>
         </div>
       </div>
 
@@ -103,6 +104,7 @@ export default {
       return combinedArticles.sort(sortByDate)
     },
     concatenatedHeadlines () {
+      // Join headlines together for the news ticker
       let string =
         this.allArticles.map(article => this.removeBoldTags(article.headline)).join(' • ')
       string = ' • ' + string
@@ -111,6 +113,7 @@ export default {
   },
   methods: {
     fetchData () {
+      // API call specifies dashboard TRUE to get user-specific results from backend
       const entityId = this.entry.entity_id
       const apiUrl = `${API_BASE_URL}/profiles_app/overall_sentiments/exp/${entityId}/?dashboard=true`
 
@@ -277,7 +280,7 @@ export default {
   position: relative;
   width: auto;
   animation: scroll-news linear infinite;
-  animation-duration: 250s; /* Adjust based on desired speed */
+  animation-duration: 250s; /* Adjust based on desired speed - 250s strikes a reasonable balance */
   font-size: x-large;
 }
 

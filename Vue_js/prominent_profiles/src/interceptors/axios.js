@@ -3,9 +3,7 @@ import VueCookies from 'vue-cookie'
 import { API_BASE_URL } from '@/config.js'
 import router from '../router'
 
-// Could roll this out to tidy up axios requests across frontend
-// axios.defaults.baseURL = 'http://localhost:8000'
-
+// Interceptor on API calls to preserve logged in status by using refresh / access tokens
 axios.interceptors.request.use(
   (config) => {
     // Check if the access token is present and not expired

@@ -17,7 +17,8 @@ import VueCookies from 'vue-cookie'
 const entities = ref([])
 const route = useRoute()
 const fetchData = async () => {
-  // Making API call conditional as dashboard may be briefly visited before redirect when logged out.
+  // Making API call conditional on access token as dashboard may be briefly visited before
+  // redirect when logged out.
   const accessToken = VueCookies.get('access_token')
   if (accessToken) {
     try {
@@ -47,6 +48,8 @@ onMounted(() => {
 })
 
 watch(() => route.query, async () => {
+  // We update sub profiles grid when URL changes
+  // (as user may have just unsubscribed and returned to dashboard)
   console.log('Route query changed!')
   await fetchData()
 }, { deep: true })

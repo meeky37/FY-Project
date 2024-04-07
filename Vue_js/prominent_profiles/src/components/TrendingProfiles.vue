@@ -29,6 +29,8 @@
 <!--  </div>-->
 <!--</template>-->
 
+<!--Replaced above with container / grid layout that adapts better to a range of TrendingProfileCards -->
+<!--Works similar to SubProfilesGrid-->
 <template>
   <div class="card">
         <div class="grid-container">

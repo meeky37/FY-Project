@@ -1,5 +1,6 @@
 <template>
     <div class="button-container" @click="toggleSubscription" @keyup.enter="toggleSubscription">
+<!--      Icon shown is + unless user is is already subscribed then a tick is shown-->
     <font-awesome-icon v-if="isSubscribed" :icon="['fas', 'check']" style="color: white;" />
     <font-awesome-icon v-else :icon="['fas', 'plus']" style="color: white;" />
   </div>

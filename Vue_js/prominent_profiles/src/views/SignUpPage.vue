@@ -137,6 +137,7 @@ export default {
     const dateOfBirth = ref(null)
     const privacyPolicyConfirmed = ref(false)
 
+    // Using shared composition API validationUtils methods
     const { validationMessageEmail } = useEmailValidation(email)
     const { validationMessageFirstName } = useFirstNameValidation(firstName)
     const { validationMessageLastName } = useLastNameValidation(lastName)

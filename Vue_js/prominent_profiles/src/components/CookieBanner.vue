@@ -1,4 +1,5 @@
 <template>
+<!--  Only show if user has not expressed a cookie preference-->
   <div v-if="!accepted && !nonEssentialRejected" class="cookie-banner">
     <p>This website uses non-essential cookies to aid the determination of Trending Profiles.</p>
     <p>By using Prominent Profiles, you agree to our <a

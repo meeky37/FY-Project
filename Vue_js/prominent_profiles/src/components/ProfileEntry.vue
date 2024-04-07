@@ -72,6 +72,7 @@ export default {
 
   methods: {
     async fetchEntityName (entityId) {
+      // Method used when entity is not set to visible in admin dashboard to provide a Google link.
       const nameApiUrl = `${API_BASE_URL}/profiles_app/entity_name/${entityId}/`
 
       try {
@@ -102,6 +103,7 @@ export default {
     },
 
     async fetchMiniBingEntity () {
+      // Attempt to load entity details from BingEntity (only visible entities in here)
       const id = this.entry.entity_id
       const apiUrl = `${API_BASE_URL}/profiles_app/bing_entities/mini/${id}/`
 
@@ -169,10 +171,7 @@ export default {
 .article-entry {
   border: 1px solid #ccc;
   padding: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 15px;
-  margin-right: 5px;
+  margin: 10px 5px 10px 15px;
   border-radius: 25px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
@@ -223,7 +222,6 @@ export default {
 
 }
 
-/* TODO: Try non scoped implementation? */
 .sentiment-bar {
   display: flex;
   height: 20px;

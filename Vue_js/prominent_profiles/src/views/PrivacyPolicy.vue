@@ -1,7 +1,7 @@
 <template>
   <h1>Privacy Policy</h1>
  <div id="privacy" class="privacy">
-
+<!--  Privacy Policy from Termly-->
    <div>
     <p>This privacy notice for Prominent Profiles ('we', 'us', or 'our'), describes how and why we might collect, store, use, and/or share ('process') your information when you use our services ('Services'), such as when you:</p>
     <ul>

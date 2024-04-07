@@ -53,7 +53,7 @@ export default {
     }
   },
   watch: {
-    // Watching for changes in chartdata
+    // Watching for changes in chartdata otherwise chart from previous article view remains
     chartdata: {
       handler () {
         this.forcedReRender().then(() => {

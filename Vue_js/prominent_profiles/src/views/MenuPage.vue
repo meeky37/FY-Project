@@ -1,5 +1,6 @@
 <template>
   <div class="menu-container">
+<!-- A special view for slim screens e.g. mobile accessible via hamburger menu -->
     <router-link to="/about" class="menu-item"><b>About</b></router-link>
     <router-link v-if="!authenticated" to="/login" class="menu-item"
                  @click.prevent="logonRedirect"><b>Login</b></router-link>

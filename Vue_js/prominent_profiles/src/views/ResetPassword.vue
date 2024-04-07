@@ -42,7 +42,7 @@ export default {
     const confirmPassword = ref('')
     const isSubmitting = ref(false)
     const message = ref('')
-
+    // Using shared composition API validationUtils methods
     const { validationMessagePassword } = usePasswordValidation(newPassword)
     const { validationMessageConfirmPassword } = useConfirmPasswordValidation(newPassword, confirmPassword)
 

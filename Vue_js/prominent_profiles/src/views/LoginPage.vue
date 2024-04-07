@@ -58,6 +58,7 @@ export default {
     const validationMessageUser = ref('')
     const router = useRouter()
     const loginErrorMessage = ref('')
+    // Using validationUtils to avoid duplication
     const { validationMessagePassword } = usePasswordValidation(password)
     const { validationMessagePhone } = usePhoneValidation(emailPhone)
     const { validationMessageEmail } = useEmailValidation(emailPhone)

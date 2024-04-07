@@ -1,8 +1,9 @@
 <template>
   <div>
     <div class="card">
-      <h2 class="entity-name" tabindex="0" @click="redirectToEntityPage" @keyup.enter="redirectToEntityPage">{{ entry.entity_name
-        }}</h2>
+      <h2 class="entity-name" tabindex="0"
+          @click="redirectToEntityPage"
+          @keyup.enter="redirectToEntityPage">{{ entry.entity_name }}</h2>
     <div class="animated-positive left-box">
       <p class="box-icon">
             <font-awesome-icon :icon="['fas', 'circle-chevron-up']" class="positive" />
@@ -30,7 +31,8 @@
             tabindex="0"
             @keyup.enter="redirectToEntityPage"
           />
-          <a v-if="getAttributionMessage(bingEntity)" class="attribution-link" @mouseover="showAttribution" @mouseleave="hideAttribution"></a>
+          <a v-if="getAttributionMessage(bingEntity)" class="attribution-link"
+             @mouseover="showAttribution" @mouseleave="hideAttribution"></a>
         </div>
       </div>
 
@@ -167,6 +169,8 @@ export default {
     getAttributionMessage,
     redirectToEntityPage,
     viewArticleDetail
+
+    // Transitioned away from below to common methods JS (Composition API)
 
     // async fetchMiniBingEntity () {
     //   const id = this.entry.entity_id

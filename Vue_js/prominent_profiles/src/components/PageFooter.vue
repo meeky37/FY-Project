@@ -9,6 +9,7 @@
 export default {
   data () {
     return {
+      // Auto update footer date with current YYYY
       currentYear: new Date().getFullYear()
     }
   }

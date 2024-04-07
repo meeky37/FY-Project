@@ -11,6 +11,9 @@ import ForgotPassword from '@/views/ForgotPassword.vue'
 import ResetPassword from '@/views/ResetPassword.vue'
 import PrivacyPolicy from '@/views/PrivacyPolicy.vue'
 
+// Declarations here enable custom URL arguments that support updating content when article /
+// entity changes via watchers in their respective views and components.
+
 const routes = [
   {
     path: '/vue',
