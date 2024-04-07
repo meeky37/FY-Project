@@ -1,3 +1,3 @@
 from django.shortcuts import render
 
-# Create your views here.
+# NLP Processor has no views.
