@@ -1,6 +1,6 @@
 # FY-Project
 Final Year University of Birmingham Computer Science Project
-Live app shutdown on or before 17th June.
+- Live app shutdown on or before 17th June.
 
 # About Prominent Profiles
 Prominent Profiles is a new way to explore and share diverse viewpoints of important figures*. Unlike traditional methods that categorise media sources on a spectrum of left to right-wing, we delve deeper with target-dependent sentiment analysis enabling us to assess the sentiment directed specifically towards each individual. Our unique approach identifies articles where a figure is mentioned in at least 20% of sentences, ensuring comprehensive coverage that goes beyond the surface-level implications of headlines. Each analysed article is added to the individual's profile on our platform, creating a rich, multidimensional view of their public perception.
